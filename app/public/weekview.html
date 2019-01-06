@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <base href="/"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+
+
+    <title> 168h -- 168h view </title>
+
+
+    <link rel="icon" href="./img/clock-145560_640.png" type="image/gif" sizes="16x16">
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Concert+One|Eczar|Fruktur|Kavoon|Neuton|Space+Mono|Tillana|Work+Sans" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Adamina|Alegreya+SC|Arvo|Asar|Cabin|Cairo|Cantata+One|Convergence|Days+One|Electrolize|Exo+2|Federo|Hammersmith+One|Julius+Sans+One|Kanit|Lato|Marcellus|Michroma|Montserrat|Open+Sans|PT+Sans|Palanquin+Dark|Playfair+Display+SC|Rajdhani|Roboto|Rubik+Mono+One|Sarala|Share+Tech|Suravaram|Tauri|Teko|Ubuntu|VT323|Viga" rel="stylesheet"> -->
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+
+
+    <!--Pure responsive breakpoints -->
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+
+    <script src="./dayview.js"></script>
+
+
+
+
+
+
+
+  </head>
+  <body>
+    <div class="pure-g">
+      <div id="logo" class="pure-u-1-5">
+        <img href="#" src="./img/onlinelogomaker-071717-1242-0242.png">
+      </div>
+      <div id="clock" class="pure-u-1-5">
+
+        <p></p>
+      </div>
+      <div class="pure-u-2-5">
+        <ul>
+          <li><a href="" class="btn">Today</a></li>
+          <li><a href="" class="btn">This Week</a></li>
+          <li><a href="" class="btn">Month</a></li>
+          <li><a href="" class="btn">Previous</a></li>
+          <li><a href="" class="btn">Next</a></li>
+          <li><a href="" class="btn">Profile</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="weekStrip" class="pure-g">
+
+      <div id="mondayCol" class="pure-u-1-7">
+        <p>31 July 2017</p>
+        <h1>Monday</h1>
+      </div>
+      <div id="tuesdayCol" class="pure-u-1-7">
+        <p>1 August 2017</p>
+        <h1>Tuesday</h1>
+      </div>
+      <div id="wednesdayCol" class="pure-u-1-7">
+        <p>2 August 2017</p>
+        <h1>Wednesday</h1>
+      </div>
+      <div id="thursdayCol" class="pure-u-1-7">
+        <p>3 August 2017</p>
+        <h1>Thursday</h1>
+
+      </div>
+      <div id="fridayCol" class="pure-u-1-7">
+        <p>4 August 2017</p>
+        <h1>Friday</h1>
+      </div>
+      <div id="saturdayCol" class="pure-u-1-7">
+        <p>5 August 2017</p>
+        <h1>Saturday</h1>
+      </div>
+      <div id="sundayCol" class="pure-u-1-7">
+        <p>6 August 2017</p>
+        <h1>Sunday</h1>
+      </div>
+    </div>
+
+    <div class="pure-g">
+      <div id="mondayDay" class="pure-u-1-7">
+        <ul class="weekHours">
+          <li class="hourWeek" id="monday0h">
+            <div class="sleepBlockStartWeek">
+              <p>0:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday030h">
+            <div class="sleepBlockWeek">
+              <p>0:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1h">
+            <div class="sleepBlockWeek">
+              <p>1:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday130h">
+            <div class="sleepBlockWeek">
+              <p>1:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday2h">
+            <div class="sleepBlockWeek">
+              <p>2:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday230h">
+            <div class="sleepBlockWeek">
+              <p>2:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday3h">
+            <div class="sleepBlockWeek">
+              <p>3:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday330h">
+            <div class="sleepBlockWeek">
+              <p>3:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday4h">
+            <div class="sleepBlockWeek">
+              <p>4:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday430h">
+            <div class="sleepBlockWeek">
+              <p>4:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday5h">
+            <div class="sleepBlockWeek">
+              <p>5:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday530h">
+            <div class="sleepBlockWeek">
+              <p>5:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday6h">
+            <div>
+              <p>6:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday630h">
+            <div>
+              <p>6:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday7h">
+            <div class="mealBlockStartWeek">
+              <p>7:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday730h">
+            <div class="mealBlockWeek">
+              <p>7:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday8h">
+            <div>
+              <p>8:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday830h">
+            <div class="adminBlockStartWeek">
+              <p>8:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday9h">
+            <div class="adminBlockWeek">
+              <p>9:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday930h">
+            <div class="meetingBlockStartWeek">
+              <p>9:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday10h">
+            <div class="meetingBlockWeek">
+              <p>10:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1030h">
+            <div class="breakBlockStartWeek">
+              <p>10:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday11h">
+            <div class="jobHuntBlockStartWeek">
+              <p>11:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1130h">
+            <div class="jobHuntBlockWeek">
+              <p>11:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday12h">
+            <div class="jobHuntBlockWeek">
+              <p>12:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1230h">
+            <div class="mealBlockStartWeek">
+              <p>12:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday13h">
+            <div class="mealBlockWeek">
+              <p>13:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1330h">
+            <div class="breakBlockStartWeek">
+              <p>13:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday14h">
+            <div class="meetingBlockStartWeek">
+              <p>14:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1430h">
+            <div class="meetingBlockWeek">
+              <p>14:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday15h">
+            <div class="codingBlockStartWeek">
+              <p>15:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1530h">
+            <div class="codingBlockWeek">
+              <p>15:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday16h">
+            <div class="codingBlockWeek">
+              <p>16:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1630h">
+            <div class="codingBlockWeek">
+              <p>16:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday17h">
+            <div class="codingBlockWeek">
+              <p>17:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1730h">
+            <div class="codingBlockWeek">
+              <p>17:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday18h">
+            <div class="breakBlockStartWeek">
+              <p>18:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1830h">
+            <div class="breakBlockWeek">
+              <p>18:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday19h">
+            <div class="exerciseBlockStartWeek">
+              <p>19:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday1930h">
+            <div class="exerciseBlockWeek">
+              <p>19:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday20h">
+            <div class="mealBlockStartWeek">
+              <p>20:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday2030h">
+            <div class="mealBlockWeek">
+              <p>20:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday21h">
+            <div class="readingBlockStartWeek">
+              <p>21:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday2130h">
+            <div class="readingBlockWeek">
+              <p>21:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday22h">
+            <div class="sleepBlockStartWeek">
+              <p>22:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday2230h">
+            <div class="sleepBlockWeek">
+              <p>22:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday23h">
+            <div class="sleepBlockWeek">
+              <p>23:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="monday2330h">
+            <div class="sleepBlockWeek">
+              <p>23:30</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="tuesdayDay" class="pure-u-1-7">
+        <ul class="weekHours">
+          <li class="hourWeek" id="tuesday0h">
+            <div class="sleepBlockStartWeek">
+              <p>0:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday030h">
+            <div class="sleepBlockWeek">
+              <p>0:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1h">
+            <div class="sleepBlockWeek">
+              <p>1:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday130h">
+            <div class="sleepBlockWeek">
+              <p>1:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday2h">
+            <div class="sleepBlockWeek">
+              <p>2:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday230h">
+            <div class="sleepBlockWeek">
+              <p>2:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday3h">
+            <div class="sleepBlockWeek">
+              <p>3:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday330h">
+            <div class="sleepBlockWeek">
+              <p>3:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday4h">
+            <div class="sleepBlockWeek">
+              <p>4:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday430h">
+            <div class="sleepBlockWeek">
+              <p>4:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday5h">
+            <div class="sleepBlockWeek">
+              <p>5:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday530h">
+            <div class="sleepBlockWeek">
+              <p>5:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday6h">
+            <div>
+              <p>6:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday630h">
+            <div>
+              <p>6:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday7h">
+            <div class="mealBlockStartWeek">
+              <p>7:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday730h">
+            <div class="mealBlockWeek">
+              <p>7:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday8h">
+            <div class="adminBlockStartWeek">
+              <p>8:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday830h">
+            <div class="adminBlockWeek">
+              <p>8:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday9h">
+            <div class="jobHuntBlockStartWeek">
+              <p>9:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday930h">
+            <div class="jobHuntBlockWeek">
+              <p>9:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday10h">
+            <div class="jobHuntBlockWeek">
+              <p>10:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1030h">
+            <div class="jobHuntBlockWeek">
+              <p>10:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday11h">
+            <div class="breakBlockStartWeek">
+              <p>11:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1130h">
+            <div class="breakBlockWeek">
+              <p>11:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday12h">
+            <div class="mealBlockStartWeek">
+              <p>12:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1230h">
+            <div class="mealBlockWeek">
+              <p>12:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday13h">
+            <div class="codingBlockStartWeek">
+              <p>13:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1330h">
+            <div class="codingBlockWeek">
+              <p>13:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday14h">
+            <div class="codingBlockWeek">
+              <p>14:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1430h">
+            <div class="codingBlockWeek">
+              <p>14:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday15h">
+            <div class="codingBlockWeek">
+              <p>15:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1530h">
+            <div class="codingBlockWeek">
+              <p>15:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday16h">
+            <div class="breakBlockStartWeek">
+              <p>16:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1630h">
+            <div class="breakBlockWeek">
+              <p>16:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday17h">
+            <div class="codingBlockStartWeek">
+              <p>17:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1730h">
+            <div class="codingBlockWeek">
+              <p>17:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday18h">
+            <div class="codingBlockWeek">
+              <p>18:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1830h">
+            <div>
+              <p>18:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday19h">
+            <div class="exerciseBlockStartWeek">
+              <p>19:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday1930h">
+            <div class="exerciseBlockWeek">
+              <p>19:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday20h">
+            <div class="mealBlockStartWeek">
+              <p>20:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday2030h">
+            <div class="mealBlockWeek">
+              <p>20:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday21h">
+            <div class="readingBlockStartWeek">
+              <p>21:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday2130h">
+            <div class="readingBlockWeek">
+              <p>21:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday22h">
+            <div class="sleepBlockStartWeek">
+              <p>22:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday2230h">
+            <div class="sleepBlockWeek">
+              <p>22:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday23h">
+            <div class="sleepBlockWeek">
+              <p>23:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="tuesday2330h">
+            <div class="sleepBlockWeek">
+              <p>23:30</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="wednesdayDay" class="pure-u-1-7">
+        <ul class="weekHours">
+          <li class="hourWeek" id="wednesday0h">
+            <div class="sleepBlockStartWeek">
+              <p>0:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday030h">
+            <div class="sleepBlockWeek">
+              <p>0:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1h">
+            <div class="sleepBlockWeek">
+              <p>1:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday130h">
+            <div class="sleepBlockWeek">
+              <p>1:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday2h">
+            <div class="sleepBlockWeek">
+              <p>2:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday230h">
+            <div class="sleepBlockWeek">
+              <p>2:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday3h">
+            <div class="sleepBlockWeek">
+              <p>3:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday330h">
+            <div class="sleepBlockWeek">
+              <p>3:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday4h">
+            <div class="sleepBlockWeek">
+              <p>4:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday430h">
+            <div class="sleepBlockWeek">
+              <p>4:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday5h">
+            <div class="sleepBlockWeek">
+              <p>5:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday530h">
+            <div class="sleepBlockWeek">
+              <p>5:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday6h">
+            <div>
+              <p>6:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday630h">
+            <div>
+              <p>6:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday7h">
+            <div class="mealBlockStartWeek">
+              <p>7:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday730h">
+            <div class="mealBlockWeek">
+              <p>7:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday8h">
+            <div class="adminBlockStartWeek">
+              <p>8:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday830h">
+            <div class="adminBlockWeek">
+              <p>8:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday9h">
+            <div class="jobHuntBlockStartWeek">
+              <p>9:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday930h">
+            <div class="jobHuntBlockWeek">
+              <p>9:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday10h">
+            <div class="jobHuntBlockWeek">
+              <p>10:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1030h">
+            <div class="jobHuntBlockWeek">
+              <p>10:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday11h">
+            <div class="breakBlockStartWeek">
+              <p>11:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1130h">
+            <div class="breakBlockWeek">
+              <p>11:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday12h">
+            <div class="mealBlockStartWeek">
+              <p>12:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1230h">
+            <div class="mealBlockWeek">
+              <p>12:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday13h">
+            <div class="codingBlockStartWeek">
+              <p>13:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1330h">
+            <div class="codingBlockWeek">
+              <p>13:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday14h">
+            <div class="codingBlockWeek">
+              <p>14:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1430h">
+            <div class="codingBlockWeek">
+              <p>14:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday15h">
+            <div class="codingBlockWeek">
+              <p>15:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1530h">
+            <div class="codingBlockWeek">
+              <p>15:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday16h">
+            <div class="adminBlockStartWeek">
+              <p>16:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1630h">
+            <div class="adminBlockWeek">
+              <p>16:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday17h">
+            <div class="breakBlockStartWeek">
+              <p>17:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1730h">
+            <div class="codingBlockStartWeek">
+              <p>17:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday18h">
+            <div class="codingBlockWeek">
+              <p>18:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1830h">
+            <div class="codingBlockWeek">
+              <p>18:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday19h">
+            <div class="exerciseBlockStartWeek">
+              <p>19:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday1930h">
+            <div class="exerciseBlockWeek">
+              <p>19:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday20h">
+            <div class="mealBlockStartWeek">
+              <p>20:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday2030h">
+            <div class="mealBlockWeek">
+              <p>20:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday21h">
+            <div class="readingBlockStartWeek">
+              <p>21:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday2130h">
+            <div class="readingBlockWeek">
+              <p>21:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday22h">
+            <div class="sleepBlockStartWeek">
+              <p>22:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday2230h">
+            <div class="sleepBlockWeek">
+              <p>22:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday23h">
+            <div class="sleepBlockWeek">
+              <p>23:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="wednesday2330h">
+            <div class="sleepBlockWeek">
+              <p>23:30</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="thursdayDay" class="pure-u-1-7">
+        <ul class="weekHours">
+          <li class="hourWeek" id="thursday0h">
+            <div class="sleepBlockStartWeek">
+              <p>0:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday030h">
+            <div class="sleepBlockWeek">
+              <p>0:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1h">
+            <div class="sleepBlockWeek">
+              <p>1:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday130h">
+            <div class="sleepBlockWeek">
+              <p>1:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday2h">
+            <div class="sleepBlockWeek">
+              <p>2:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday230h">
+            <div class="sleepBlockWeek">
+              <p>2:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday3h">
+            <div class="sleepBlockWeek">
+              <p>3:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday330h">
+            <div class="sleepBlockWeek">
+              <p>3:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday4h">
+            <div class="sleepBlockWeek">
+              <p>4:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday430h">
+            <div class="sleepBlockWeek">
+              <p>4:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday5h">
+            <div class="sleepBlockWeek">
+              <p>5:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday530h">
+            <div class="sleepBlockWeek">
+              <p>5:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday6h">
+            <div>
+              <p>6:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday630h">
+            <div class="adminBlockStartWeek">
+              <p>6:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday7h">
+            <div class="adminBlockWeek">
+              <p>7:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday730h">
+            <div class="adminBlockWeek">
+              <p>7:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday8h">
+            <div class="adminBlockWeek">
+              <p>8:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday830h">
+            <div class="onsiteEventBlockStartWeek">
+              <p>8:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday9h">
+            <div class="onsiteEventBlockWeek">
+              <p>9:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday930h">
+            <div class="onsiteEventBlockWeek">
+              <p>9:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday10h">
+            <div class="onsiteEventBlockWeek">
+              <p>10:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1030h">
+            <div class="onsiteEventBlockWeek">
+              <p>10:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday11h">
+            <div class="onsiteEventBlockWeek">
+              <p>11:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1130h">
+            <div class="onsiteEventBlockWeek">
+              <p>11:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday12h">
+            <div class="onsiteEventBlockWeek">
+              <p>12:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1230h">
+            <div class="onsiteEventBlockWeek">
+              <p>12:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday13h">
+            <div class="onsiteEventBlockWeek">
+              <p>13:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1330h">
+            <div class="onsiteEventBlockWeek">
+              <p>13:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday14h">
+            <div class="onsiteEventBlockWeek">
+              <p>14:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1430h">
+            <div class="onsiteEventBlockWeek">
+              <p>14:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday15h">
+            <div class="onsiteEventBlockWeek">
+              <p>15:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1530h">
+            <div class="onsiteEventBlockWeek">
+              <p>15:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday16h">
+            <div class="onsiteEventBlockWeek">
+              <p>16:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1630h">
+            <div class="breakBlockStartWeek">
+              <p>16:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday17h">
+            <div class="breakBlockWeek">
+              <p>17:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1730h">
+            <div class="breakBlockWeek">
+              <p>17:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday18h">
+            <div class="mealBlockStartWeek">
+              <p>18:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1830h">
+            <div class="mealBlockWeek">
+              <p>18:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday19h">
+            <div>
+              <p>19:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday1930h">
+            <div>
+              <p>19:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday20h">
+            <div class="readingBlockStartWeek">
+              <p>20:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday2030h">
+            <div class="readingBlockWeek">
+              <p>20:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday21h">
+            <div class="readingBlockWeek">
+              <p>21:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday2130h">
+            <div class="readingBlockWeek">
+              <p>21:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday22h">
+            <div class="sleepBlockStartWeek">
+              <p>22:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday2230h">
+            <div class="sleepBlockWeek">
+              <p>22:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday23h">
+            <div class="sleepBlockWeek">
+              <p>23:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="thursday2330h">
+            <div class="sleepBlockWeek">
+              <p>23:30</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="fridayDay" class="pure-u-1-7">
+        <ul class="weekHours">
+          <li class="hourWeek" id="friday0h">
+            <div class="sleepBlockStartWeek">
+              <p>0:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday030h">
+            <div class="sleepBlockWeek">
+              <p>0:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1h">
+            <div class="sleepBlockWeek">
+              <p>1:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday130h">
+            <div class="sleepBlockWeek">
+              <p>1:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday2h">
+            <div class="sleepBlockWeek">
+              <p>2:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday230h">
+            <div class="sleepBlockWeek">
+              <p>2:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday3h">
+            <div class="sleepBlockWeek">
+              <p>3:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday330h">
+            <div class="sleepBlockWeek">
+              <p>3:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday4h">
+            <div class="sleepBlockWeek">
+              <p>4:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday430h">
+            <div class="sleepBlockWeek">
+              <p>4:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday5h">
+            <div class="sleepBlockWeek">
+              <p>5:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday530h">
+            <div class="sleepBlockWeek">
+              <p>5:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday6h">
+            <div>
+              <p>6:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday630h">
+            <div class="exerciseBlockStartWeek">
+              <p>6:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday7h">
+            <div class="exerciseBlockWeek">
+              <p>7:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday730h">
+            <div class="adminBlockStartWeek">
+              <p>7:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday8h">
+            <div class="adminBlockWeek">
+              <p>8:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday830h">
+            <div class="onsiteEventBlockStartWeek">
+              <p>8:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday9h">
+            <div class="onsiteEventBlockWeek">
+              <p>9:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday930h">
+            <div class="onsiteEventBlockWeek">
+              <p>9:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday10h">
+            <div class="onsiteEventBlockWeek">
+              <p>10:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1030h">
+            <div class="onsiteEventBlockWeek">
+              <p>10:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday11h">
+            <div class="onsiteEventBlockWeek">
+              <p>11:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1130h">
+            <div class="onsiteEventBlockWeek">
+              <p>11:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday12h">
+            <div class="onsiteEventBlockWeek">
+              <p>12:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1230h">
+            <div class="onsiteEventBlockWeek">
+              <p>12:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday13h">
+            <div class="onsiteEventBlockWeek">
+              <p>13:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1330h">
+            <div class="onsiteEventBlockWeek">
+              <p>13:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday14h">
+            <div class="onsiteEventBlockWeek">
+              <p>14:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1430h">
+            <div class="onsiteEventBlockWeek">
+              <p>14:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday15h">
+            <div class="onsiteEventBlockWeek">
+              <p>15:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1530h">
+            <div class="breakBlockStartWeek">
+              <p>15:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday16h">
+            <div class="breakBlockWeek">
+              <p>16:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1630h">
+            <div class="adminBlockStartWeek">
+              <p>16:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday17h">
+            <div class="adminBlockWeek">
+              <p>17:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1730h">
+            <div class="adminBlockWeek">
+              <p>17:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday18h">
+            <div class="adminBlockWeek">
+              <p>18:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1830h">
+            <div>
+              <p>18:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday19h">
+            <div>
+              <p>19:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday1930h">
+            <div class="readingBlockStartWeek">
+              <p>19:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday20h">
+            <div class="readingBlockWeek">
+              <p>20:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday2030h">
+            <div class="readingBlockWeek">
+              <p>20:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday21h">
+            <div class="readingBlockWeek">
+              <p>21:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday2130h">
+            <div class="readingBlockWeek">
+              <p>21:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday22h">
+            <div class="readingBlockWeek">
+              <p>22:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday2230h">
+            <div class="readingBlockWeek">
+              <p>22:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday23h">
+            <div class="sleepBlockStartWeek">
+              <p>23:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="friday2330h">
+            <div class="sleepBlockWeek">
+              <p>23:30</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="saturdayDay" class="pure-u-1-7">
+        <ul class="weekHours">
+          <li class="hourWeek" id="saturday0h">
+            <div class="sleepBlockStartWeek">
+              <p>0:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday030h">
+            <div class="sleepBlockWeek">
+              <p>0:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1h">
+            <div class="sleepBlockWeek">
+              <p>1:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday130h">
+            <div class="sleepBlockWeek">
+              <p>1:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday2h">
+            <div class="sleepBlockWeek">
+              <p>2:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday230h">
+            <div class="sleepBlockWeek">
+              <p>2:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday3h">
+            <div class="sleepBlockWeek">
+              <p>3:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday330h">
+            <div class="sleepBlockWeek">
+              <p>3:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday4h">
+            <div class="sleepBlockWeek">
+              <p>4:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday430h">
+            <div class="sleepBlockWeek">
+              <p>4:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday5h">
+            <div class="sleepBlockWeek">
+              <p>5:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday530h">
+            <div class="sleepBlockWeek">
+              <p>5:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday6h">
+            <div class="sleepBlockWeek">
+              <p>6:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday630h">
+            <div class="sleepBlockWeek">
+              <p>6:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday7h">
+            <div>
+              <p>7:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday730h">
+            <div>
+              <p>7:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday8h">
+            <div class="adminBlockStartWeek">
+              <p>8:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday830h">
+            <div class="adminBlockWeek">
+              <p>8:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday9h">
+            <div class="mealBlockStartWeek">
+              <p>9:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday930h">
+            <div class="mealBlockWeek">
+              <p>9:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday10h">
+            <div class="breakBlockStartWeek">
+              <p>10:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1030h">
+            <div class="breakBlockWeek">
+              <p>10:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday11h">
+            <div class="offsiteEventBlockStartWeek">
+              <p>11:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1130h">
+            <div class="offsiteEventBlockWeek">
+              <p>11:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday12h">
+            <div class="offsiteEventBlockWeek">
+              <p>12:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1230h">
+            <div class="offsiteEventBlockWeek">
+              <p>12:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday13h">
+            <div class="offsiteEventBlockWeek">
+              <p>13:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1330h">
+            <div class="offsiteEventBlockWeek">
+              <p>13:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday14h">
+            <div>
+              <p>14:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1430h">
+            <div>
+              <p>14:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday15h">
+            <div>
+              <p>15:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1530h">
+            <div>
+              <p>15:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday16h">
+            <div class="exerciseBlockStartWeek">
+              <p>16:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1630h">
+            <div class="exerciseBlockWeek">
+              <p>16:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday17h">
+            <div class="adminBlockStartWeek">
+              <p>17:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1730h">
+            <div class="adminBlockWeek">
+              <p>17:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday18h">
+            <div class="codingBlockStartWeek">
+              <p>18:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1830h">
+            <div class="codingBlockWeek">
+              <p>18:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday19h">
+            <div class="codingBlockWeek">
+              <p>19:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday1930h">
+            <div class="codingBlockWeek">
+              <p>19:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday20h">
+            <div class="mealBlockStartWeek">
+              <p>20:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday2030h">
+            <div class="mealBlockWeek">
+              <p>20:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday21h">
+            <div class="readingBlockStartWeek">
+              <p>21:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday2130h">
+            <div class="readingBlockWeek">
+              <p>21:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday22h">
+            <div class="readingBlockWeek">
+              <p>22:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday2230h">
+            <div class="readingBlockWeek">
+              <p>22:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday23h">
+            <div class="readingBlockWeek">
+              <p>23:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="saturday2330h">
+            <div class="readingBlockWeek">
+              <p>23:30</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="sundayDay" class="pure-u-1-7">
+        <ul class="weekHours">
+          <li class="hourWeek" id="sunday0h">
+            <div class="sleepBlockStartWeek">
+              <p>0:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday030h">
+            <div class="sleepBlockWeek">
+              <p>0:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1h">
+            <div class="sleepBlockWeek">
+              <p>1:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday130h">
+            <div class="sleepBlockWeek">
+              <p>1:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday2h">
+            <div class="sleepBlockWeek">
+              <p>2:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday230h">
+            <div class="sleepBlockWeek">
+              <p>2:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday3h">
+            <div class="sleepBlockWeek">
+              <p>3:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday330h">
+            <div class="sleepBlockWeek">
+              <p>3:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday4h">
+            <div class="sleepBlockWeek">
+              <p>4:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday430h">
+            <div class="sleepBlockWeek">
+              <p>4:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday5h">
+            <div class="sleepBlockWeek">
+              <p>5:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday530h">
+            <div class="sleepBlockWeek">
+              <p>5:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday6h">
+            <div class="sleepBlockWeek">
+              <p>6:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday630h">
+            <div class="sleepBlockWeek">
+              <p>6:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday7h">
+            <div class="sleepBlockWeek">
+              <p>7:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday730h">
+            <div class="sleepBlockWeek">
+              <p>7:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday8h">
+            <div>
+              <p>8:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday830h">
+            <div>
+              <p>8:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday9h">
+            <div class="adminBlockStartWeek">
+              <p>9:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday930h">
+            <div class="adminBlockWeek">
+              <p>9:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday10h">
+            <div class="adminBlockWeek">
+              <p>10:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1030h">
+            <div class="adminBlockWeek">
+              <p>10:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday11h">
+            <div class="offsiteEventBlockStartWeek">
+              <p>11:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1130h">
+            <div class="offsiteEventBlockWeek">
+              <p>11:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday12h">
+            <div class="offsiteEventBlockWeek">
+              <p>12:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1230h">
+            <div class="offsiteEventBlockWeek">
+              <p>12:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday13h">
+            <div class="offsiteEventBlockWeek">
+              <p>13:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1330h">
+            <div class="offsiteEventBlockWeek">
+              <p>13:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday14h">
+            <div class="mealBlockStartWeek">
+              <p>14:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1430h">
+            <div class="mealBlockWeek">
+              <p>14:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday15h">
+            <div>
+              <p>15:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1530h">
+            <div class="readingBlockStartWeek">
+              <p>15:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday16h">
+            <div class="readingBlockWeek">
+              <p>16:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1630h">
+            <div class="readingBlockWeek">
+              <p>16:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday17h">
+            <div class="readingBlockWeek">
+              <p>17:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1730h">
+            <div class="readingBlockWeek">
+              <p>17:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday18h">
+            <div class="breakBlockStartWeek">
+              <p>18:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1830h">
+            <div class="mealBlockStartWeek">
+              <p>18:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday19h">
+            <div class="mealBlockWeek">
+              <p>19:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday1930h">
+            <div class="codingBlockStartWeek">
+              <p>19:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday20h">
+            <div class="codingBlockWeek">
+              <p>20:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday2030h">
+            <div class="codingBlockWeek">
+              <p>20:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday21h">
+            <div class="readingBlockStartWeek">
+              <p>21:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday2130h">
+            <div class="readingBlockWeek">
+              <p>21:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday22h">
+            <div class="sleepBlockStartWeek">
+              <p>22:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday2230h">
+            <div class="sleepBlockWeek">
+              <p>22:30</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday23h">
+            <div class="sleepBlockWeek">
+              <p>23:00</p>
+            </div>
+          </li>
+          <li class="hourWeek" id="sunday2330h">
+            <div class="sleepBlockWeek">
+              <p>23:30</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

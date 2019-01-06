@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <base href="/"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+
+
+    <title> 168h -- 24h view </title>
+
+
+    <link rel="icon" href="./img/clock-145560_640.png" type="image/gif" sizes="16x16">
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Concert+One|Eczar|Fruktur|Kavoon|Neuton|Space+Mono|Tillana|Work+Sans" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Adamina|Alegreya+SC|Arvo|Asar|Cabin|Cairo|Cantata+One|Convergence|Days+One|Electrolize|Exo+2|Federo|Hammersmith+One|Julius+Sans+One|Kanit|Lato|Marcellus|Michroma|Montserrat|Open+Sans|PT+Sans|Palanquin+Dark|Playfair+Display+SC|Rajdhani|Roboto|Rubik+Mono+One|Sarala|Share+Tech|Suravaram|Tauri|Teko|Ubuntu|VT323|Viga" rel="stylesheet"> -->
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+
+
+    <!--Pure responsive breakpoints -->
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+
+    <script src="./dayview.js"></script>
+
+
+
+
+
+
+
+  </head>
+  <body>
+    <div class="pure-g">
+      <div id="logo" class="pure-u-1-5">
+        <img href="#" src="./img/onlinelogomaker-071717-1242-0242.png">
+      </div>
+      <div id="clock" class="pure-u-1-5">
+
+        <p></p>
+      </div>
+      <div class="pure-u-2-5">
+        <ul>
+          <li><a href="" class="btn">Today</a></li>
+          <li><a href="" class="btn">Week</a></li>
+          <li><a href="" class="btn">Month</a></li>
+          <li><a href="" class="btn">Previous</a></li>
+          <li><a href="" class="btn">Next Day</a></li>
+          <li><a href="" class="btn">Profile</a></li>
+        </ul>
+      </div>
+      <div id="pomodoro" class="pure-u-1-5">
+        <h4 id="pomoTitle">Pomodoro</h4>
+        <button id="pomoNext">NEXT</button>
+        <ul>
+          <li id="pomoTimerSetting">
+            <p>Focus Interval:</p>
+            <button>-</button>
+            <h2>25</h2>
+            <button>+</button>
+          </li>
+          <li id="pomoBreakSetting">
+            <p>Break Interval:</p>
+            <button>-</button>
+            <h2>4 minutes</h2>
+            <button>+</button>
+          </li>
+          <li id="numberOfPomos">
+            <p>Number of Pomos:</p>
+            <button>-</button>
+            <h2>4</h2>
+            <button>+</button>
+          </li>
+          <li id="pomoCountdown">
+            <h1>25:00</h1>
+            <button>Start</button>
+          </li>
+          <li id="breakCountdown">
+            <h1>5:00</h1>
+            <button>Start</button>
+          </li>
+          <li id="nextPomo">
+
+
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="dateStrip" class="pure-g">
+
+      <div id="planfor" class="pure-u-1-5">
+        <h2></h2>
+      </div>
+      <div id="dayOfWeek" class="pure-u-1-5">
+        <h1>Monday</h1>
+      </div>
+      <div id="numericalDate" class="pure-u-1-5">
+        <h1>17</h1>
+      </div>
+      <div id="monthDayView" class="pure-u-1-5">
+        <h1>July</h1>
+
+      </div>
+      <div id="yearDayView" class="pure-u-1-5">
+        <h2>2017</h2>
+      </div>
+    </div>
+
+    <div class="pure-g">
+      <div id="daytimer" class="pure-u-1-3">
+        <div class="hour" id="h0">
+          <div class="sleepBlockStart">
+            <p>0:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h030">
+          <div class="sleepBlock">
+            <p>0:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h1">
+          <div class="sleepBlock">
+            <p>1:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h130">
+          <div class="sleepBlock">
+            <p>1:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h2">
+          <div class="sleepBlock">
+            <p>2:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h230">
+          <div class="sleepBlock">
+            <p>2:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h3">
+          <div class="sleepBlock">
+            <p>3:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h330">
+          <div class="sleepBlock">
+            <p>3:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h4">
+          <div class="sleepBlock">
+            <p>4:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h430">
+          <div class="sleepBlock">
+            <p>4:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h5">
+          <div class="sleepBlock">
+            <p>5:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h530">
+          <div class="sleepBlock">
+            <p>5:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h6">
+          <div>
+            <p>6:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h630">
+          <div class="exerciseBlockStart">
+            <p>6:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h7">
+          <div class="exerciseBlock">
+            <p>7:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h730">
+          <div class="mealBlockStart">
+            <p>7:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h8">
+          <div class="mealBlock">
+            <p>8:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h830">
+          <div>
+            <p>8:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h9">
+          <div class="jobHuntBlockStart">
+            <p>9:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h930">
+          <div class="jobHuntBlock">
+            <p>9:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h10">
+          <div class="jobHuntBlock">
+            <p>10:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h1030">
+          <div class="jobHuntBlock">
+            <p>10:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h11">
+          <div class="breakBlockStart">
+            <p>11:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h1130">
+          <div class="adminBlockStart">
+            <p>11:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h12">
+          <div class="mealBlockStart">
+            <p>12:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h1230">
+          <div class="mealBlock">
+            <p>12:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h13">
+          <div class="codingBlockStart">
+            <p>13:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h1330">
+          <div class="codingBlock">
+            <p>13:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h14">
+          <div class="codingBlock">
+            <p>14:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h1430">
+          <div class="codingBlock">
+            <p>14:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h15">
+          <div class="meetingBlockStart">
+            <p>15:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h1530">
+          <div class="meetingBlock">
+            <p>15:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h16">
+          <div class="adminBlockStart">
+            <p>16:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h1630">
+          <div class="codingBlockStart">
+            <p>16:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h17">
+          <div class="codingBlock">
+            <p>17:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h1730">
+          <div class="readingBlockStart">
+            <p>17:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h18">
+          <div class="readingBlock">
+            <p>18:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h1830">
+          <div class="readingBlock">
+            <p>18:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h19">
+          <div class="offsiteEventBlockStart">
+            <p>19:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h1930">
+          <div class="offsiteEventBlock">
+            <p>19:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h20">
+          <div class="offsiteEventBlock">
+            <p>20:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h2030">
+          <div class="offsiteEventBlock">
+            <p>20:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h21">
+          <div class="offsiteEventBlock">
+            <p>21:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h2130">
+          <div class="offsiteEventBlock">
+            <p>21:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h22">
+          <div class="sleepBlockStart">
+            <p>22:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h2230">
+          <div class="sleepBlock">
+            <p>22:30</p>
+          </div>
+        </div>
+        <div class="hour" id="h23">
+          <div class="sleepBlock">
+            <p>23:00</p>
+          </div>
+        </div>
+        <div class="hour" id="h2330">
+          <div class="sleepBlock">
+            <p>23:30</p>
+          </div>
+        </div>
+      </div>
+      <div id="focusPanel" class="pure-u-1-3">
+        <img src="./img/July01.jpg" width="100%">
+        <h3>On this day in 1918</h3>
+        <p>Tsar Nicholas II of Russia and his immediate family and retainers are executed by Bolshevik Chekists at the Ipatiev House in Yekaterinburg, Russia.</p>
+        <h3>Word of the Day:</h3>
+        <h2>exculpatory</h2>
+        <p>1. tending to clear from a charge of fault or guilt.</p>
+        <h3>Observances:</h3>
+
+        <img src="./img/DavidKing.jpg" width="100%">
+        <p>David King, born 1965</p>
+
+        <iframe id="curatedMusic" style="border: 0; width: 100%; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=2629874419/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a id="curatedMusicData" href="http://kylebobbydunn.bandcamp.com/album/infinite-sadness">Infinite Sadness by Kyle Bobby Dunn</a></iframe>
+      </div>
+      <div id="goalsPanel" class="pure-u-1-3">
+        <div class="holidays">
+          <p>Jovian Easter</p>
+          <img src="https://c2.staticflickr.com/4/3502/3466675164_b3caed9555_b.jpg">
+        </div>
+        <div class="events">
+          <p>Birthday: Ian Smith</p>
+        </div>
+        <div id="daySchedule">
+          <h3>Schedule</h3>
+          <h4>0:00 - 6:00</h4>
+          <p>Sleep</p>
+          <h4>6:00 - 6:30</h4>
+          <p>Unstructured Time</p>
+          <h4>6:30 - 7:30</h4>
+          <p>Exercise - Aerobic workout day</p>
+          <h4>7:30 - 8:30</h4>
+          <p>Meal - Breakfast</p>
+          <h4>8:30 - 9:00</h4>
+          <p>Unstructured Time</p>
+          <h4>9:00 - 11:00</h4>
+          <p>Job Hunt</p>
+          <p>Indeed.com, LinkedIn.com and Zip Recruiter day</p>
+          <h4>11:00 - 11:30</h4>
+          <p>Break</p>
+          <h4>11:30 - 12:00</h4>
+          <p>Admin - Meeting prep</p>
+          <p>Prepare for Job Seekers Anonymous meeting - codewars solutions</p>
+          <h4>12:00 - 13:00</h4>
+          <p>Meal - Lunch</p>
+          <p>Sack lunch day</p>
+          <h4>13:00 - 15:00</h4>
+          <p>Coding</p>
+          <p>Front End mock-up for calendar app</p>
+          <h4>15:00 - 16:00</h4>
+          <p>Meeting - Job Seekers Anonymous</p>
+          <p>Main Floor Boardroom - codewars preparations</p>
+          <h4>16:00 - 16:30</h4>
+          <p>Admin - errands: buy stamps</p>
+          <h4>16:30 - 17:30</h4>
+          <p>Coding</p>
+          <p>Continue front-end mockups</p>
+          <h4>17:30 - 19:00</h4>
+          <p>Reading</p>
+          <p><em>The Blank Wall</em> / <em>SQL Hacks</em></p>
+          <h4>19:00 - 22:00</h4>
+          <p>Offsite Event</p>
+          <p>Seattle Mariners @ Houston Atros - MLB.TV feed</p>
+          <h4>22:00 - 24:00</h4>
+          <p>Sleep</p>
+        </div>
+        <div class="billsAndTasks">
+          <p>Cable bill due in 4 days</p><a href="#" class="btn"><p>paid</p></a>
+        </div>
+        <div class="billsAndTasks">
+          <p>Student loan payment due in 5 days</p><a href="#" class="btn"><p>paid</p></a>
+        </div>
+        <div class="billsAndTasks">
+          <p>Rent due in 15 days</p><a href="#" class="btn"><p>paid</p></a>
+        </div>
+        <div class="billsAndTasks">
+          <p>Migration and seed files due tomorrow</p><a href="#" class="btn"><p>completed</p></a>
+        </div>
+        <div id="sleepGoals">
+          <h4>Sleep Goal: 56 hours</h4>
+          <h5>Projected Sleep for current week:</h5><h1>52</h1>
+          <p>4 hours below current goal</p>
+          <h5>Projected Sleep for next 7 days:</h5><h1>48</h1>
+          <p>8 hours below current goal</p>
+        </div>
+        <div id="exerciseGoals">
+          <h4>Exercise Goal: 6 hours</h4>
+          <h5>Projected exercise for current week:</h5><h1>6</h1>
+          <p>meets current goal</p>
+          <h5>Projected exercise for next 7 days:</h5><h1>5</h1>
+          <p>1 hour below current goal</p>
+        </div>
+        <div id="readingGoals">
+          <h4>Reading Goal: 20 hours</h4>
+          <h5>Projected reading time for current week:</h5><h1>18</h1>
+          <p>2 hours below current goal</p>
+          <h5>Projected reading for next 7 days:</h5><h1>22</h1>
+          <p>2 hours above current goal</p>
+        </div>
+        <div id="codingGoals">
+          <h4>Coding Goal: 36 hours</h4>
+          <h5>Projected coding for current week:</h5><h1>36</h1>
+          <p>meets current goal</p>
+          <h5>Projected coding for next 7 days:</h5><h1>36</h1>
+          <p>meets current goal</p>
+        </div>
+        <div id="creativeGoals">
+          <h4>Creative Goal: 12 hours</h4>
+          <h5>Projected creative for current week:</h5><h1>10</h1>
+          <p>2 hours below current goal</p>
+          <h5>Projected creative for next 7 days:</h5><h1>5</h1>
+          <p>7 hours below current goal</p>
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

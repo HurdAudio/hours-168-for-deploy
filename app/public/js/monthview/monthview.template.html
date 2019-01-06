@@ -1,0 +1,132 @@
+<div class="pure-g">
+  <div id="logo" class="pure-u-1-5">
+    <img href="#" src="./img/onlinelogomaker-071717-1242-0242.png">
+  </div>
+  <div id="monthClock" class="pure-u-1-5">
+
+    <p></p>
+  </div>
+  <div class="pure-u-2-5">
+    <ul>
+      <li><a href="" class="btn" ng-click="$ctrl.gotoDay()">Today</a></li>
+      <li><a href="" class="btn" ng-click="$ctrl.gotoCurrentMonth()">Current</a></li>
+      <li><a href="" class="btn" ng-click="$ctrl.gotoThisWeek()">Week</a></li>
+      <li><a href="" class="btn" ng-click="$ctrl.gotoLastMonth()">Previous</a></li>
+      <li><a href="" class="btn" ng-click="$ctrl.gotoNextMonth()">Next</a></li>
+      <li><a href="" class="btn" ng-click="$ctrl.gotoProfile()">Profile</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="monthStrip" class="pure-g">
+  <div id="monthTitle" class="pure-u-1-1">
+    <h1 id="monthYear"></h1>
+  </div>
+</div>
+
+  <div id="monthTable" class="pure-g">
+    <table id="month" class="pure-u-1-1">
+      <thead id="monthWeekStrip">
+        <tr>
+          <th class="dayHeader"></th>
+          <th class="dayHeader">Mon</th>
+          <th class="dayHeader">Tue</th>
+          <th class="dayHeader">Wed</th>
+          <th class="dayHeader">Thu</th>
+          <th class="dayHeader">Fri</th>
+          <th class="dayHeader">Sat</th>
+          <th class="dayHeader">Sun</th>
+
+        </tr>
+
+      </thead>
+    <tbody>
+      <tr class="weekMonthView" id="week1">
+        <td class="day" id="weekOf1Cell"><h3 id="weekOf1"><a class="btn">view week</a></h3></td>
+        <td class="day" id="week1MondayCell"><h1 id="week1Monday">31</h1></td>
+        <td class="day" id="week1TuesdayCell"><h1 id="week1Tuesday">1</h1></td>
+        <td class="day" id ="week1WednesdayCell"><h1 id="week1Wednesday">2</h1></td>
+        <td class="day" id="week1ThursdayCell"><h1 id="week1Thursday">3</h1></td>
+        <td class="day" id="week1FridayCell"><h1 id="week1Friday">4</h1></td>
+        <td class="day" id="week1SaturdayCell"><h1 id="week1Saturday">5</h1></td>
+        <td class="day" id="week1SundayCell"><h1 id="week1Sunday">6</h1></td>
+
+
+      </tr>
+      <tr class="weekMonthView" id="week2">
+        <td class="day" id="weekOf2Cell"><h3 id="weekOf2"><a class="btn">view week</a></h3></td>
+        <td class="day" id="week2MondayCell"><h1 id="week2Monday">7</h1></td>
+        <td class="day" id="week2TuesdayCell"><h1 id="week2Tuesday">8</h1></td>
+        <td class="day" id="week2WednesdayCell"><h1 id="week2Wednesday">9</h1></td>
+        <td class="day" id="week2ThursdayCell"><h1 id="week2Thursday">10</h1></td>
+        <td class="day" id="week2FridayCell"><h1 id="week2Friday">11</h1></td>
+        <td class="day" id="week2SaturdayCell"><h1 id="week2Saturday">12</h1></td>
+        <td class="day" id="week2SundayCell"><h1 id="week2Sunday">13</h1></td>
+
+
+      </tr>
+      <tr class="weekMonthView" id="week3">
+        <td class="day" id="weekOf3Cell"><h3 id="weekOf3"><a class="btn">view week</a></h3></td>
+        <td class="day" id="week3MondayCell"><h1 id="week3Monday">14</h1></td>
+        <td class="day" id="week3TuesdayCell"><h1 id="week3Tuesday">15</h1></td>
+        <td class="day" id="week3WednesdayCell"><h1 id="week3Wednesday">16</h1></td>
+        <td class="day" id="week3ThursdayCell"><h1 id="week3Thursday">17</h1></td>
+        <td class="day" id="week3FridayCell"><h1 id="week3Friday">18</h1></td>
+        <td class="day" id="week3SaturdayCell"><h1 id="week3Saturday">19</h1></td>
+        <td class="day" id="week3SundayCell"><h1 id="week3Sunday">20</h1></td>
+
+
+      </tr>
+      <tr class="weekMonthView" id="week4">
+        <td class="day" id="weekOf4Cell"><h3 id="weekOf4"><a class="btn">view week</a></h3></td>
+        <td class="day" id="week4MondayCell"><h1 id="week4Monday">21</h1></td>
+        <td class="day" id="week4TuesdayCell"><h1 id="week4Tuesday">22</h1></td>
+        <td class="day" id="week4WednesdayCell"><h1 id="week4Wednesday">23</h1></td>
+        <td class="day" id="week4ThursdayCell"><h1 id="week4Thursday">24</h1></td>
+        <td class="day" id="week4FridayCell"><h1 id="week4Friday">25</h1></td>
+        <td class="day" id="week4SaturdayCell"><h1 id="week4Saturday">26</h1></td>
+        <td class="day" id="week4SundayCell"><h1 id="week4Sunday">27</h1></td>
+
+
+      </tr>
+      <tr class="weekMonthView" id="week5">
+        <td class="day" id="weekOf5Cell"><h3 id="weekOf5"><a class="btn">view week</a></h3></td>
+        <td class="day" id="week5MondayCell"><h1 id="week5Monday">28</h1></td>
+        <td class="day" id="week5TuesdayCell"><h1 id="week5Tuesday">29</h1></td>
+        <td class="day" id="week5WednesdayCell"><h1 id="week5Wednesday">30</h1></td>
+        <td class="day" id="week5ThursdayCell"><h1 id="week5Thursday">31</h1></td>
+        <td class="day" id="week5FridayCell"><h1 id="week5Friday">1</h1></td>
+        <td class="day" id="week5SaturdayCell"><h1 id="week5Saturday">2</h1></td>
+        <td class="day" id="week5SundayCell"><h1 id="week5Sunday">3</h1></td>
+
+
+      </tr>
+      <tr class="weekMonthView" id="week6">
+        <td class="day" id="weekOf6Cell"><h3 id="weekOf6"><a class="btn">view week</a></h3></td>
+        <td class="day" id="week6MondayCell"><h1 id="week6Monday">28</h1></td>
+        <td class="day" id="week6TuesdayCell"><h1 id="week6Tuesday">29</h1></td>
+        <td class="day" id="week6WednesdayCell"><h1 id="week6Wednesday">30</h1></td>
+        <td class="day" id="week6ThursdayCell"><h1 id="week6Thursday">31</h1></td>
+        <td class="day" id="week6FridayCell"><h1 id="week6Friday">1</h1></td>
+        <td class="day" id="week6SaturdayCell"><h1 id="week6Saturday">2</h1></td>
+        <td class="day" id="week6SundayCell"><h1 id="week6Sunday">3</h1></td>
+
+
+      </tr>
+
+
+    </tbody>
+  </table>
+  <footer>
+    <div class="pure-g">
+
+      <div class="pure-u-1-2">
+        <h3>&copy; 2017 HurdAudio</h3>
+      </div>
+      <div id="footerCol3" class="pure-u-1-2">
+        <h2>Follow me on</h2>
+        <a href="https://github.com/HurdAudio"><img src="./img/GitHub_Logo.png"></a>
+      </div>
+    </div>
+  </footer>
+</div>

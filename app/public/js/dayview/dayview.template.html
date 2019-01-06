@@ -1,0 +1,910 @@
+<div class="pure-g">
+  <div id="logo" class="pure-u-1-5">
+    <img href="#" src="./img/onlinelogomaker-071717-1242-0242.png">
+  </div>
+  <div id="clockDayview" class="pure-u-1-5">
+
+
+    <p id="clockString"></p>
+  </div>
+  <div class="pure-u-2-5">
+    <ul>
+      <li><a href="" class="btn" ng-click="$ctrl.gotoToday()">Today</a></li>
+      <li><a href="" class="btn" ng-click="$ctrl.gotoWeek()">Week</a></li>
+      <li><a href="" class="btn" ng-click="$ctrl.gotoMonth()">Month</a></li>
+      <li><a href="" class="btn" ng-click="$ctrl.previousDay()">Previous</a></li>
+      <li><a href="" class="btn" ng-click="$ctrl.nextDay()">Next Day</a></li>
+      <li><a href="" class="btn" ng-click="$ctrl.userProfile()">Profile</a></li>
+    </ul>
+  </div>
+  <div id="pomodoro" class="pure-u-1-5">
+    <button id="pomoPrevious">PREV</button>
+    <h4 id="pomoTitle">Pomodoro</h4>
+
+    <button id="pomoNext">NEXT</button>
+    <ul>
+      <li id="pomoTimerSetting">
+        <p>Focus Interval:</p>
+        <button id="decreasePomoInterval">-</button>
+        <h2 id="setPomoInterval"></h2>
+        <button id="increasePomoInterval">+</button>
+      </li>
+      <li id="pomoBreakSetting">
+        <p>Break Interval:</p>
+        <button id="decreaseBreakInterval">-</button>
+        <h2 id="setBreakInterval"></h2>
+        <button id="increaseBreakInterval">+</button>
+      </li>
+      <li id="numberOfPomos">
+        <p>Number of Pomos:</p>
+        <button id="decreaseNumberOfPomos">-</button>
+        <h2 id="setNumberOfPomos"></h2>
+        <button id="increaseNumberOfPomos">+</button>
+      </li>
+      <li id="pomoCountdown">
+        <button id="countdownResume">Resume</button>
+        <button id="countdownStart">Start</button>
+        <button id="countdownPause">Pause</button>
+        <button id="cancelPomo">Cancel</button>
+        <p id="pomoFocusCounter">Pomo: 1</p>
+        <h1 id="countdownClock"></h1>
+
+
+      </li>
+      <li id="breakCountdown">
+        <h1>5:00</h1>
+        <button>Start</button>
+      </li>
+      <li id="nextPomo">
+
+
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div id="dateStrip" class="pure-g">
+
+  <div id="planfor" class="pure-u-1-5">
+    <h2></h2>
+  </div>
+  <div id="dayOfWeek" class="pure-u-1-5">
+    <h1 id="weekdaySlot"></h1>
+  </div>
+  <div id="numericalDate" class="pure-u-1-5">
+    <h1 id="numdaySlot"></h1>
+  </div>
+  <div id="monthDayView" class="pure-u-1-5">
+    <h1 id="monthSlot"></h1>
+
+  </div>
+  <div id="yearDayView" class="pure-u-1-5">
+    <h2 id="yearSlot"></h2>
+  </div>
+</div>
+
+<div class="pure-g" id="schedulePanel">
+  <div id="daytimer" class="pure-u-1-3">
+    <div class="hour" id="h0">
+      <div>
+        <p ng-click="$ctrl.verbalizeTimeblock()">0:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h030">
+      <div>
+        <p>0:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h1">
+      <div>
+        <p>1:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h130">
+      <div>
+        <p>1:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h2">
+      <div>
+        <p>2:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h230">
+      <div>
+        <p>2:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h3">
+      <div>
+        <p>3:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h330">
+      <div>
+        <p>3:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h4">
+      <div>
+        <p>4:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h430">
+      <div>
+        <p>4:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h5">
+      <div>
+        <p>5:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h530">
+      <div>
+        <p>5:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h6">
+      <div>
+        <p>6:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h630">
+      <div>
+        <p>6:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h7">
+      <div>
+        <p>7:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h730">
+      <div>
+        <p>7:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h8">
+      <div>
+        <p>8:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h830">
+      <div>
+        <p>8:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h9">
+      <div>
+        <p>9:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h930">
+      <div>
+        <p>9:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h10">
+      <div>
+        <p>10:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h1030">
+      <div>
+        <p>10:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h11">
+      <div>
+        <p>11:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h1130">
+      <div>
+        <p>11:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h12">
+      <div>
+        <p>12:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h1230">
+      <div>
+        <p>12:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h13">
+      <div>
+        <p>13:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h1330">
+      <div>
+        <p>13:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h14">
+      <div>
+        <p>14:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h1430">
+      <div>
+        <p>14:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h15">
+      <div>
+        <p>15:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h1530">
+      <div>
+        <p>15:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h16">
+      <div>
+        <p>16:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h1630">
+      <div>
+        <p>16:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h17">
+      <div>
+        <p>17:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h1730">
+      <div>
+        <p>17:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h18">
+      <div>
+        <p>18:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h1830">
+      <div>
+        <p>18:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h19">
+      <div>
+        <p>19:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h1930">
+      <div>
+        <p>19:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h20">
+      <div>
+        <p>20:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h2030">
+      <div>
+        <p>20:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h21">
+      <div>
+        <p>21:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h2130">
+      <div>
+        <p>21:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h22">
+      <div>
+        <p>22:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h2230">
+      <div>
+        <p>22:30</p>
+      </div>
+    </div>
+    <div class="hour" id="h23">
+      <div>
+        <p>23:00</p>
+      </div>
+    </div>
+    <div class="hour" id="h2330">
+      <div>
+        <p>23:30</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="subtypeCRUD">
+    <form id="subtypeCRUDForm" class="pure-form pure-form-stacked">
+      <h2>Add Subtype</h2>
+      <fieldset>
+        <p>Subtype:</p>
+        <input type="text" id="subtypeCRUDEntry" class="pure-input-1">
+        <h3 id="subtypeCRUDErrorField"></h3>
+        <div id="subtypeCRUDButtonsField">
+          <a href="" class="btn" id="subtypeCRUDSubmissionButton">submit</a>
+          <a href="" class="btn" id="subtypeCRUDCancelButton">cancel</a>
+        </div>
+
+      </fieldset>
+    </form>
+
+  </div>
+
+  <div id="blocktypeCRUD">
+
+    <form id="blocktypeCRUDForm" class="pure-form pure-form-stacked">
+      <h2>Add Blocktype</h2>
+      <fieldset>
+        <p>Block Name:</p>
+        <input type="text" id="blocktypeCRUDType" class="pure-input-1">
+
+        <p>Color:</p>
+        <input type="color" id="blocktypeCRUDColor" class="pure-input-1" value="#22ac44">
+        <br><br><br>
+        <p>Subtypes:</p>
+        <input type="checkbox" id="blocktypeCRUDSubtypes" class="pure-input-1" checked><br>
+        <div id="blocktypeCRUDSubtypeMaker">
+          <div id="addingTheSubtypes">
+            <button id="blocktypeCRUDAddNewSubtype">add new</button>
+            <input type="text" class="pure-input-1">
+          </div>
+
+          <p>Additional Data Types:</p>
+          <input type="checkbox" id="blocktypeCRUDKeychain" class="pure-input-1"><br>
+          <div id="keychainList">
+            <button id="blocktypeCRUDAdditionalDataTypeAdds">add new</button>
+            <input type="text" class="pure-input-1">
+
+          </div>
+
+        </div>
+        <h2 id="blocktypeCRUDErrorField"></h2>
+        <div id="blocktypeCRUDButtonsField">
+          <a href="" class="btn" id="blocktypeCRUDSubmitButton">submit</a>
+          <a href="" class="btn" id="blocktypeCRUDCancelButton">cancel</a>
+        </div>
+
+      </fieldset>
+
+    </form>
+
+  </div>
+
+  <div id="editDeleteAppointments" class="pure-u-1-3">
+
+    <div id="shareButtonDiv">
+
+      <a class="btn" id="shareTimeblockButton">share</a>
+    </div><br><br>
+    <h2>Edit/Delete Timeblock</h2>
+
+    <form id="editDeleteForm" class="pure-form pure-form-stacked">
+      <fieldset>
+        <div id="editDeleteFormFieldset">
+
+          <select id="editDeleteBlocktypeSelector">
+
+
+
+
+          </select>
+        </div>
+        <div id="editBlockKeys">
+
+          <select id="blockKeysSelector">
+
+
+
+          </select>
+        </div>
+        <div id="editAdditionalKeys">
+
+
+
+        </div>
+
+        <div id="startTimeEditor" class="timePositioning">
+          <h3>Start Time:</h3>
+          <h2 id="editDeleteStart">00:00</h2>
+
+          <button id="editDeleteStartDecrease"><img src="./img/noun_592617_cc.png" width="100%" height="100%"></button>
+          <button id="editDeleteStartIncrease"><img src="./img/noun_651094_cc.png" width="100%" height="100%"></button>
+
+        </div>
+        <div id="endTimeEditor" class="timePositioning">
+          <h3>End Time:</h3>
+          <h2 id="editDeleteEnd">00:00</h2>
+
+          <button id="editDeleteEndDecrease"><img src="./img/noun_592617_cc.png" width="100%" height="100%"></button>
+          <button id="editDeleteEndIncrease"><img src="./img/noun_651094_cc.png" width="100%" height="100%"></button>
+
+        </div>
+        <br>
+
+        <div id="locationField">
+          <p>Location:</p>
+          <input type="text" id="editLocation" class="pure-input-1">
+        </div>
+        <div id="notesField">
+          <p>Notes:</p>
+          <textarea rows="5" id="editUserNotes" class="pure-input-1"></textarea>
+        </div>
+      </fieldset>
+      <a href="" id="editAppointmentSubmit" class="btn">submit</a>
+      <a href="" id="editAppointmentDelete" class="btn">delete</a>
+      <a href="" id="editAppointmentCancel" class="btn">done</a>
+
+    </form>
+
+  </div>
+  <div id="focusPanel" class="pure-u-1-3">
+    <div id="artPane">
+      <main ng-repeat="art in $ctrl.dailyArts">
+        <div id="art{{art.index}}">
+          <img ng-click="$ctrl.advanceArt(art.index)" src="{{art.img_path}}" width="100%">
+          <h3>{{art.artist}}</h3>
+          <p><em>{{art.title}}</em>, {{art.year}}</p>
+          <br>
+        </div>
+
+      </main>
+
+
+
+    </div>
+    <!-- <img src="./img/July01.jpg" width="100%"> -->
+    <div id="todayInHistoricalEvents" ng-click="$ctrl.speakHistory()">
+      <h3 id="yearFact"></h3>
+      <p id="eventFact"></p>
+
+    </div>
+    <!-- <h3>On this day in 1918</h3>
+    <p>Tsar Nicholas II of Russia and his immediate family and retainers are executed by Bolshevik Chekists at the Ipatiev House in Yekaterinburg, Russia.</p> -->
+
+    <div id="wordOfTheDayPane" ng-click="$ctrl.speakWord()">
+      <h3>Word of the Day:</h3>
+      <h1 id="wordOfDay"></h1>
+      <h2 id="wordSyllable"></h2>
+      <p id="pronounciation"></p>
+      <main ng-repeat="definition in $ctrl.definitions">
+        <p>{{definition.entryWord}}</p>
+        <p>{{definition.wordType}}</p>
+        <p>{{definition.definition}}</p>
+
+      </main>
+
+
+    </div>
+    <!-- <h3>Word of the Day:</h3>
+    <h2>exculpatory</h2>
+    <p>1. tending to clear from a charge of fault or guilt.</p> -->
+    <div id="observancesPane">
+      <h3>Observances:</h3>
+
+      <main ng-repeat="observance in $ctrl.observances | orderBy : $ctrl.sortBy">
+        <div class="observe" style="background:{{observance.color}}; background-color: -webkit-linear-gradient(135deg, {{observance.color}}, #ffffff); background: -o-linear-gradient(135deg, {{observance.color}}, #ffffff);   background: -moz-linear-gradient(135deg, {{observance.color}}, #ffffff); background: linear-gradient(135deg, {{observance.color}}, #ffffff);">
+          <br>
+          <br>
+          <img src="{{observance.picture}}">
+          <p>{{observance.name}}</p>
+
+          <a class="btn" href="#" ng-click="$ctrl.shareObservance(observance.id)">share</a>
+          <br>
+          <br>
+        </div>
+
+
+
+      </main>
+
+      <!-- <img src="./img/DavidKing.jpg" width="100%">
+      <p>David King, born 1965</p> -->
+    </div>
+
+    <div id="musicPlayer">
+      <main ng-repeat="music in $ctrl.dailyMusics">
+        <div id="musics{{music.index}}">
+          <iframe ng-src="{{music.src_string}}" style="border: 0; width: 100%; height: 600px;" seamless><a href="{{music.href_string}}">{{music.a_string}}</a></iframe>
+        </div>
+
+      </main>
+      <a href="" id="musicPlayerBackSelection" class="btn">previous</a>
+      <a href="" id="musicPlayerNextSelection" class="btn">next</a>
+
+    </div>
+
+    <!-- <iframe id="curatedMusic" style="border: 0; width: 100%; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=2629874419/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a id="curatedMusicData" href="http://kylebobbydunn.bandcamp.com/album/infinite-sadness">Infinite Sadness by Kyle Bobby Dunn</a></iframe> -->
+  </div>
+  <div id="goalsPanel" class="pure-u-1-3">
+    <main ng-repeat="holiday in $ctrl.holidays | orderBy : $ctrl.sortBy">
+      <div class="holidays" style="background:{{holiday.color}}; background-color: -webkit-linear-gradient(135deg, {{holiday.color}}, #ffffff); background: -o-linear-gradient(135deg, {{holiday.color}}, #ffffff);   background: -moz-linear-gradient(135deg, {{holiday.color}}, #ffffff); background: linear-gradient(135deg, {{holiday.color}}, #ffffff);">
+
+
+        <img src="{{holiday.picture}}">
+        <p class="holidayName">{{holiday.name}}</p>
+        <a href="" class="btn" ng-click="$ctrl.shareHoliday(holiday.id)">share</a>
+      </div>
+    </main>
+    <div class="occasions">
+      <h2 id="occasionsTitle">Occasions:</h2>
+      <div id="occasionsList">
+        <main ng-repeat="occasion in $ctrl.occasions | orderBy : $ctrl.sortBy">
+          <a class="btn" href="" ng-click="$ctrl.shareOccasion(occasion.id)">share</a>
+          <p ng-click="$ctrl.editOccasion(occasion.id)" id="{{occasion.name + occasion.id}}"> - {{occasion.name}}</p>
+
+        </main>
+      </div>
+      <a href="" class="btn" id="addOccasionButton" ng-click="$ctrl.addOccasionToDay()">add</a>
+      <div id="addNewOccasion">
+        <form id="newOccasionForm" class="pure-form">
+          <fieldset class="pure-group">
+            <input id="newOccasionsName" type="text" class="pure-input-1" placeholder="occasion">
+            <h4>Occurs Annually:</h4>
+            <input id="isAnnualOccasion" type="checkbox" class="pure-input-1" checked>
+
+
+          </fieldset>
+        </form>
+        <a href="" id="submitOccasionButton" class="btn" ng-click="$ctrl.submitOccasionToDay()">submit</a>
+
+      </div>
+      <div id="editDeleteOccasion">
+        <form id="editExistingOccasionForm" class="pure-form">
+          <fieldset class="pure-group">
+            <input id="editOccasionName" type="text" class="pure-input-1">
+
+
+          </fieldset>
+        </form>
+        <a href="" id="deleteOccasionButton" class="btn">delete</a>
+        <a href="" id="editOccasionButton" class="btn">edit</a>
+
+      </div>
+      <br>
+      <br>
+    </div>
+    <div id="daySchedule">
+      <h3>Today's Schedule:</h3>
+      <div id="scheduleBlocks">
+        <main ng-repeat="appointment in $ctrl.appointments | orderBy: $ctrl.chronological">
+          <h3>{{appointment.start_time_clean}} - {{appointment.end_time_clean}}</h3>
+          <br>
+          <h4>{{appointment.blocktype}} - {{appointment.blocksubtype}}</h4>
+          <br>
+          <p>Location: {{appointment.location}}</p>
+          <p>{{appointment.user_notes}}</p>
+          <p>{{appointment.additional_datas}}</p>
+
+
+        </main>
+      </div>
+    </div>
+
+    <div id="billsList">
+      <div class="billsAndTasks">
+        <a href="" class="btn" id="addBillButton" ng-click="$ctrl.addBillToDay()">add</a>
+        <h2>Bill Tracker</h2>
+        <div id="billEntryForm">
+          <form class="pure-form">
+            <fieldset class="pure-group">
+              <input id="enterBillName" type="text" class="pure-input-1" placeholder="Bill Name">
+              <p>Amount Due:</p>
+              <input id="enterAmountDue" type="number" class="pure-input-1" placeholder="0.00">
+              <p>Payment Due:</p>
+              <input id="enterDueDate" type="date" class="pure-input-1">
+              <p>Balance:</p>
+              <input id="enterBalance" type="number" class="pure-input-1" placeholder="0.00">
+              <p>Pay to:</p>
+              <input id="enterDebtHolder" type="text" class="pure-input-1" placeholder="Debt Holder">
+              <input id="enterBillAddressLine1" type="text" class="pure-input-1" placeholder="address line 1">
+              <input id="enterBillAddressLine2" type="text" class="pure-input-1" placeholder="address line 2">
+              <input id="enterBillAddressCity" type="text" class="pure-input-1" placeholder="City">
+              <input id="enterBillAddressState" type="text" class="pure-input-1" placeholder="State">
+              <input id="enterBillAddressZip" type="text" class="pure-input-1" placeholder="Zip">
+              <h3 id="billEntryErrorField"></h3>
+
+
+            </fieldset>
+
+          </form>
+          <a href="" class="btn" id="billSubmitButton">submit</a>
+          <a href="" class="btn" id="billEntryCancelButton">cancel</a>
+
+        </div>
+
+      </div>
+      <main ng-repeat="bill in $ctrl.bills | orderBy : $ctrl.sortBy">
+        <div class="billsAndTasks" id="{{bill.name + bill.id}}">
+          <p>{{bill.name}}{{bill.due_state}}</p>
+          <a href="" ng-click="$ctrl.payBillButton(bill.id)" class="btn" id="{{bill.name + bill.user_id + bill.id}}">paid</a>
+          <div class="paidPal" id="{{bill.id + bill.name}}">
+            <form class="pure-form">
+              <fieldset class="pure-group">
+                <p>Pay to: {{bill.pay_to}}</p>
+                <p>{{bill.address_line1}} {{bill.address_line2}}</p>
+                <p>{{bill.city}}, {{bill.state}}</p>
+                <p>{{bill.zip}}</p>
+                <p>Amount Due: {{bill.amount_due}}</p>
+                <p>Amount Paid:</p>
+                <input id="{{bill.user_id + bill.name + bill.id}}" type="number" class="pure-input-1" placeholder="{{bill.amount_due}}">
+              </fieldset>
+            </form>
+            <a href="" id="{{bill.name + bill.id + bill.name}}" class="btn">paid</a>
+            <a href="" id="{{bill.name + bill.name + bill.id}}" class="btn">cancel</a>
+
+          </div>
+          <div class="billInfos" id="{{bill.name + bill.id + bill.name + bill.id}}">
+            <p>Debt holder: {{bill.pay_to}}</p>
+            <p>Balance: {{bill.balance}}</p>
+            <p>Payment Due: {{bill.amount_due}}</p>
+            <p>Due by: {{bill.clean_date}}</p>
+            <a href="" class="btn" id="{{bill.id + bill.name + bill.name + bill.name}}">exit</a>
+
+          </div>
+          <a href="" ng-click="$ctrl.billInfo(bill.id)" class="btn" id="{{bill.name + bill.id + bill.name + bill.id + bill.name}}">info</a>
+        </div>
+      </main>
+
+    </div>
+
+    <div id="tasksList">
+      <div class="billsAndTasks">
+        <a href="" class="btn" id="addTaskButton" ng-click="$ctrl.addTaskToDay()">add</a>
+        <h2>Task Tracker</h2>
+        <div id="taskEntryForm">
+          <form class="pure-form">
+            <fieldset class="pure-group">
+              <input id="enterTaskName" type="text" class="pure-input-1" placeholder="Task Name">
+              <textarea id="enterTaskInfos" type="text" class="pure-input-1" placeholder="Additional Information (optional)" rows="5"></textarea>
+              <p>Task Due:</p>
+              <input id="enterTaskDate" type="date" class="pure-input-1">
+
+
+              <h3 id="taskEntryErrorField"></h3>
+
+
+            </fieldset>
+
+          </form>
+          <a href="" class="btn" id="taskSubmitButton">submit</a>
+          <a href="" class="btn" id="taskEntryCancelButton">cancel</a>
+
+        </div>
+
+
+
+      </div>
+      <main ng-repeat="task in $ctrl.tasks | orderBy : $ctrl.sortBy">
+        <div class="billsAndTasks" id="{{task.name + task.id}}">
+          <p>{{task.name}}{{task.due_state}}</p>
+          <a href="" ng-click="$ctrl.taskCompletedButton(task.id)" class="btn" id="{{task.name + task.user_id + task.id}}">done</a>
+          <div class="taskPal" id="{{task.id + task.name}}">
+            <p>{{task.name}}</p>
+            <p>{{task.user_notes}}</p>
+            <p>Due: {{task.clean_date}}</p>
+            <div id="{{task.name + task.id + task.name + task.name}}">
+              <form class="pure-form">
+                <fieldset class="pure-group">
+
+                  <input id="{{task.user_id + task.name + task.id}}" type="text" class="pure-input-1" placeholder="{{task.name}}">
+                  <textarea id="{{task.name + task.user_id + task.name + task.id}}" type="textarea" rows="5" class="pure-input-1" placeholder="{{task.user_notes}}"></textarea>
+                  <p>New Due Date:</p>
+                  <input id="{{task.id +task.name + task.id + task.name +task.name + task.name + task.id}}" type="date" class="pure-input-1">
+                </fieldset>
+
+              </form>
+              <h3 id="{{task.name + task.user_id + task.name + task.id + task.name + task.id}}"></h3>
+              <a href="" id="{{task.id + task.name + task.id + task.name + task.user_id + task.name}}" class="btn">submit</a>
+            </div>
+
+            <a href="" id="{{task.name + task.id + task.name}}" class="btn">edit</a>
+            <a href="" id="{{task.name + task.name + task.id}}" class="btn">exit</a>
+
+          </div>
+          <a href="" ng-click="$ctrl.taskInfo(task.id)" class="btn" id="{{task.name + task.id + task.name + task.id + task.name}}">info</a>
+          <a href="" ng-click="$ctrl.taskShareNow(task.id)" class="btn">share</a>
+        </div>
+      </main>
+    </div>
+
+    <div id="goalsPane">
+
+      <h1>Goals:</h1>
+      <main ng-repeat="goal in $ctrl.goals | orderBy : $ctrl.sortBy">
+        <div id="{{goal.type + goal.id}}" class="goalsDisplay">
+          <h1>{{goal.type}}</h1>
+          <h2>Weekly Goal: {{goal.weekly_goal}} hours</h2>
+          <div id="{{goal.type + goal.id + goal.type}}" class="calendarWeekGoalsReport">
+            <h3>Projected hours for calendar week: </h3>
+            <h1>{{goal.calendar_week_total}}</h1>
+            <p id="{{goal.type + goal.id + goal.type + goal.id}}" class="goalsMessage"><strong>{{goal.calendar_week_message}}</strong></p>
+          </div>
+          <div id="{{goal.type + goal.id + goal.type + goal.id + goal.type}}" class="sevenDayGoalsReport">
+            <h3>Projected hours over next seven days:</h3>
+            <h1>{{goal.current_week_total}}</h1>
+            <p id="{{goal.type + goal.id + goal.type + goal.id + goal.type + goal.id}}" class="goalsMessage"><strong>{{goal.current_week_message}}</strong></p>
+
+          </div>
+
+        </div>
+
+      </main>
+    </div>
+
+
+    <!-- <div class="billsAndTasks">
+      <p>Migration and seed files due tomorrow</p><a href="#" class="btn"><p>completed</p></a>
+    </div> -->
+    <!-- <div id="sleepGoals">
+      <h4>Sleep Goal: 56 hours</h4>
+      <h5>Projected Sleep for current week:</h5><h1>52</h1>
+      <p>4 hours below current goal</p>
+      <h5>Projected Sleep for next 7 days:</h5><h1>48</h1>
+      <p>8 hours below current goal</p>
+    </div> -->
+    <!-- <div id="exerciseGoals">
+      <h4>Exercise Goal: 6 hours</h4>
+      <h5>Projected exercise for current week:</h5><h1>6</h1>
+      <p>meets current goal</p>
+      <h5>Projected exercise for next 7 days:</h5><h1>5</h1>
+      <p>1 hour below current goal</p>
+    </div> -->
+    <!-- <div id="readingGoals">
+      <h4>Reading Goal: 20 hours</h4>
+      <h5>Projected reading time for current week:</h5><h1>18</h1>
+      <p>2 hours below current goal</p>
+      <h5>Projected reading for next 7 days:</h5><h1>22</h1>
+      <p>2 hours above current goal</p>
+    </div> -->
+    <!-- <div id="codingGoals">
+      <h4>Coding Goal: 36 hours</h4>
+      <h5>Projected coding for current week:</h5><h1>36</h1>
+      <p>meets current goal</p>
+      <h5>Projected coding for next 7 days:</h5><h1>36</h1>
+      <p>meets current goal</p>
+    </div> -->
+    <!-- <div id="creativeGoals">
+      <h4>Creative Goal: 12 hours</h4>
+      <h5>Projected creative for current week:</h5><h1>10</h1>
+      <p>2 hours below current goal</p>
+      <h5>Projected creative for next 7 days:</h5><h1>5</h1>
+      <p>7 hours below current goal</p>
+    </div> -->
+
+
+  </div>
+
+</div>
+
+<div id="shareAppointmentPane">
+  <a class="btn" ng-click="$ctrl.cancelAppointmentInvite()" href="#">cancel</a>
+  <h3>Select who you want to share this appointment with:</h3>
+  <div id="shareAppointmentSearchBarDiv">
+    <input type="text" id="dayviewWhoToShareSearch" placeholder="search">
+  </div>
+  <div id="dayviewFriendsSearchList">
+
+
+    <div>
+
+      <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/1964977_10203532053928956_1620738254_n.jpg?oh=912289bc56416424f7d2e4ef3bfb8604&oe=5B41AE92">
+      <p>Lucifer Sam</p>
+      <br><br><br>
+    </div>
+  </div>
+</div>
+
+<div id="shareHolidayPane">
+  <a class="btn" ng-click="$ctrl.cancelHolidayInvite()" href="#">cancel</a>
+  <div id="holidayShareIdentifierFields">
+
+    <img id="holidayShareImage">
+    <h3 id="holidayShareHolidayName"></h3>
+  </div><br><br>
+  <h3>Select who you want to share this holiday with:</h3>
+  <div id="shareHolidaySearchBarDiv">
+    <input type="text" id="holidayWhoToShareSearch" placeholder="search">
+  </div>
+  <div id="holidayFriendsSearchList">
+
+
+    <div>
+
+      <img src="https://pbs.twimg.com/profile_images/3511787126/e23647c60fe7cee53e4d2d37a50a255c_400x400.jpeg">
+      <p>Lucifer Sam</p>
+      <br><br><br>
+    </div>
+  </div>
+</div>
+
+<div id="shareOccasionPane">
+  <a class="btn" ng-click="$ctrl.cancelOccasionInvite()" href="#">cancel</a>
+  <div id="occasionShareIdentifierFields">
+
+    <h3 id="occasionShareName"></h3>
+    <h3 id="occasionShareDate"></h3>
+    <h3 id="occasionShareAnnuality"></h3>
+
+  </div><br><br>
+  <h3>Select who you want to share this occasion with:</h3>
+  <div id="shareOccasionSearchBarDiv">
+    <input type="text" id="occasionWhoToShareSearch" placeholder="search">
+  </div>
+  <div id="occasionFriendsSearchList">
+
+
+    <div>
+
+      <img src="https://pbs.twimg.com/profile_images/3511787126/e23647c60fe7cee53e4d2d37a50a255c_400x400.jpeg">
+      <p>Lucifer Sam</p>
+      <br><br><br>
+    </div>
+  </div>
+</div>
+
+<div id="shareTaskPane">
+  <a class="btn" ng-click="$ctrl.cancelTaskInvite()" href="#">cancel</a>
+  <div id="taskShareIdentifierFields">
+
+    <h3 id="taskShareName"></h3>
+    <h3 id="taskShareNotes"></h3>
+    <h3 id="taskShareDueDate"></h3>
+    <h3 id="taskShareCompletionStatus"></h3>
+
+  </div><br><br>
+  <h3>Select who you want to share this task with:</h3>
+  <div id="shareTaskSearchBarDiv">
+    <input type="text" id="taskWhoToShareSearch" placeholder="search">
+  </div>
+  <div id="taskFriendsSearchList">
+
+
+    <div>
+
+      <img src="https://pbs.twimg.com/profile_images/3511787126/e23647c60fe7cee53e4d2d37a50a255c_400x400.jpeg">
+      <p>Lucifer Sam</p>
+      <br><br><br>
+    </div>
+  </div>
+</div>
+
+<div id="shareObservancePane">
+  <a class="btn" ng-click="$ctrl.cancelObservanceInvite()" href="#">cancel</a>
+  <div id="observanceShareIdentifierFields">
+
+    <img id="observanceShareImage">
+
+    <h3 id="observanceShareName"></h3>
+    <h3 id="observanceShareDate"></h3>
+
+
+  </div>
+  <h3>Select who you want to share this observance with:</h3>
+  <div id="shareObservanceSearchBarDiv">
+    <input type="text" id="taskWhoToShareObservanceSearch" placeholder="search">
+  </div>
+  <div id="observanceFriendsSearchList">
+
+
+    <div>
+
+      <img src="https://pbs.twimg.com/profile_images/3511787126/e23647c60fe7cee53e4d2d37a50a255c_400x400.jpeg">
+      <p>Lucifer Sam</p>
+      <br><br><br>
+    </div>
+  </div>
+</div>
