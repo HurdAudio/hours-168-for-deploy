@@ -4216,6 +4216,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 235,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=766102338/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/la-sonaramica-de-mario-allison-peru-latin-hard-salsa-boogaloo-descarga-70s',
+          a_string: 'La Sonaramica de Mario Allison (Peru Latin Hard Salsa - Boogaloo Descarga 70&#39;s) by La Sonaramica de Mario Allison',
+          rule: {
+            "monday": [ 5, 13, 19, 25 ],
+            "tuesday": [ 4, 12, 18, 24 ],
+            "wednesday": [ 5, 11, 17, 23 ],
+            "thursday": [ 9, 15, 21, 27 ],
+            "saturday": [ 8, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 236,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1850805014/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/otto-de-rojas-bump-bump-peru-latin-funk-soul-1976-groovy-jazz-disco-dj-dancefloor-non-lp-tracks',
+          a_string: 'Otto de Rojas - Bump bump (Peru Latin Funk Soul 1976 Groovy Jazz Disco DJ Dancefloor) NON LP TRACKS ! by Otto de Rojas y Los Ultra &#39;76',
+          rule: {
+            "monday": [ 8, 14, 20, 26 ],
+            "tuesday": [ 5, 13, 19, 25 ],
+            "wednesday": [ 4, 12, 18, 24 ],
+            "thursday": [ 5, 11, 17, 23 ],
+            "saturday": [ 9, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 237,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3645752227/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/los-ases-de-huarochiri-peru-70s-afro-cumbia-roots-breaks-sax-percussions-dj-samples',
+          a_string: 'Los Ases de Huarochiri (Peru 70&#39;s Afro Cumbia Roots Breaks - Sax &amp; Percussions - DJ Samples) by Los Ases de Huarochiri',
+          rule: {
+            "monday": [ 9, 15, 21, 27 ],
+            "tuesday": [ 8, 14, 20, 26 ],
+            "wednesday": [ 5, 13, 19, 25 ],
+            "thursday": [ 4, 12, 18, 24 ],
+            "saturday": [ 5, 11, 17, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

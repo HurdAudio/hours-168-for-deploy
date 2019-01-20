@@ -9504,6 +9504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 476,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/wrigley-field-home-grounds-of-chicago-cubs_u-l-p5oz0r0.jpg',
+          title: 'Wrigley Field, Home Grounds of Chicago Cubs',
+          artist: 'unknown artist',
+          year: 'xx cent.',
+          rule: {
+            "monday": [ 22, 12, 18, 24 ],
+            "tuesday": [ 7, 10, 18, 24 ],
+            "wednesday": [ 6, 10, 25, 23 ],
+            "thursday": [ 3, 9, 15, 21 ],
+            "friday": [ 4, 9, 15, 21 ],
+            "saturday": [ 3, 8, 14, 20 ],
+            "sunday": [ 8, 14, 19, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 477,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/wrigley-field-wall-art-field-cubs-painting-outside-field-by.jpg',
+          title: 'Cubs Painting Outside Field',
+          artist: 'Wrigley Field Wall Art',
+          year: '2018',
+          rule: {
+            "monday": [ 8, 14, 19, 26 ],
+            "tuesday": [ 22, 12, 18, 24 ],
+            "wednesday": [ 7, 10, 18, 24 ],
+            "thursday": [ 6, 10, 25, 23 ],
+            "friday": [ 3, 9, 15, 21 ],
+            "saturday": [ 4, 9, 15, 21 ],
+            "sunday": [ 3, 8, 14, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 478,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/an-abstract-vision-of-fans-going-to-a-chicago-cubs-game-sven-brogren.jpg',
+          title: 'An Abstract Vision Of Fans Going To A Chicago Cubs Game',
+          artist: 'Sven Brogren',
+          year: '2017',
+          rule: {
+            "monday": [ 3, 8, 14, 20 ],
+            "tuesday": [ 8, 14, 19, 26 ],
+            "wednesday": [ 22, 12, 18, 24 ],
+            "thursday": [ 7, 10, 18, 24 ],
+            "friday": [ 6, 10, 25, 23 ],
+            "saturday": [ 3, 9, 15, 21 ],
+            "sunday": [ 4, 9, 15, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 479,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/f0ccc09559a71f3e6988258721e75700.jpg',
+          title: 'Cool Cubs Art',
+          artist: 'unknown artist',
+          year: '2018',
+          rule: {
+            "monday": [ 4, 9, 15, 21 ],
+            "tuesday": [ 3, 8, 14, 20 ],
+            "wednesday": [ 8, 14, 19, 26 ],
+            "thursday": [ 22, 12, 18, 24 ],
+            "friday": [ 7, 10, 18, 24 ],
+            "saturday": [ 6, 10, 25, 23 ],
+            "sunday": [ 3, 9, 15, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 480,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/cubs_mem_169.jpg',
+          title: 'The Art of Victory',
+          artist: 'Justin Van Genderen',
+          year: '2016',
+          rule: {
+            "monday": [ 3, 9, 15, 21 ],
+            "tuesday": [ 4, 9, 15, 21 ],
+            "wednesday": [ 3, 8, 14, 20 ],
+            "thursday": [ 8, 14, 19, 26 ],
+            "friday": [ 22, 12, 18, 24 ],
+            "saturday": [ 7, 10, 18, 24 ],
+            "sunday": [ 6, 10, 25, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

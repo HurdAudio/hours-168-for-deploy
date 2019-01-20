@@ -8104,6 +8104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 406,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-in-8-parts-1992.jpg',
+          title: 'Untitled in 8 Parts',
+          artist: 'Gunther Forg',
+          year: '1992',
+          rule: {
+            "monday": [ 4, 8, 15, 19 ],
+            "tuesday": [ 3, 6, 13, 18 ],
+            "wednesday": [ 2, 6, 13, 18 ],
+            "thursday": [ 1, 6, 12, 17 ],
+            "friday": [ 30, 5, 11, 18 ],
+            "saturday": [ 6, 11, 17, 22 ],
+            "sunday": [ 5, 7, 15, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 407,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/painting-92131-1992.jpg',
+          title: 'Painting #92131',
+          artist: 'Rudolf de Crignis',
+          year: '1992',
+          rule: {
+            "monday": [ 5, 7, 15, 21 ],
+            "tuesday": [ 4, 8, 15, 19 ],
+            "wednesday": [ 3, 6, 13, 18 ],
+            "thursday": [ 2, 6, 13, 18 ],
+            "friday": [ 1, 6, 12, 17 ],
+            "saturday": [ 30, 5, 11, 18 ],
+            "sunday": [ 6, 11, 17, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 408,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/conjunction-92-99-1992.jpg',
+          title: 'Conjunction 92-99',
+          artist: 'Ha Chong-Hyun',
+          year: '1992',
+          rule: {
+            "monday": [ 6, 11, 17, 22 ],
+            "tuesday": [ 5, 7, 15, 21 ],
+            "wednesday": [ 4, 8, 15, 19 ],
+            "thursday": [ 3, 6, 13, 18 ],
+            "friday": [ 2, 6, 13, 18 ],
+            "saturday": [ 1, 6, 12, 17 ],
+            "sunday": [ 30, 5, 11, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 409,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/parva-xxix-1993.jpg',
+          title: 'Parva XXIX',
+          artist: 'Anne Truitt',
+          year: '1993',
+          rule: {
+            "monday": [ 30, 5, 11, 18 ],
+            "tuesday": [ 6, 11, 17, 22 ],
+            "wednesday": [ 5, 7, 15, 21 ],
+            "thursday": [ 4, 8, 15, 19 ],
+            "friday": [ 3, 6, 13, 18 ],
+            "saturday": [ 2, 6, 13, 18 ],
+            "sunday": [ 1, 6, 12, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 410,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/sem-titulo-1993.jpg',
+          title: 'Sem titulo',
+          artist: 'Angelo de Sousa',
+          year: '1993',
+          rule: {
+            "monday": [ 1, 6, 12, 17 ],
+            "tuesday": [ 30, 5, 11, 18 ],
+            "wednesday": [ 6, 11, 17, 22 ],
+            "thursday": [ 5, 7, 15, 21 ],
+            "friday": [ 4, 8, 15, 19 ],
+            "saturday": [ 3, 6, 13, 18 ],
+            "sunday": [ 2, 6, 13, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

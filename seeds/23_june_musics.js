@@ -4864,6 +4864,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 271,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2494733084/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://umorrex.bandcamp.com/album/sirimiri',
+          a_string: 'Sirimiri by Rafael Anton Irisarri',
+          rule: {
+            "monday": [ 8, 11, 16, 28 ],
+            "tuesday": [ 7, 10, 16, 28 ],
+            "wednesday": [ 7, 10, 16, 27 ],
+            "thursday": [ 5, 13, 15, 30 ],
+            "saturday": [ 9, 13, 19, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 272,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1437754861/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://umorrex.bandcamp.com/album/still-waves-to-a-whisper',
+          a_string: 'Still Waves To A Whisper by James Place',
+          rule: {
+            "monday": [ 9, 13, 19, 30 ],
+            "tuesday": [ 8, 11, 16, 28 ],
+            "wednesday": [ 7, 10, 16, 28 ],
+            "thursday": [ 7, 10, 16, 27 ],
+            "saturday": [ 5, 13, 15, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 273,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2525052679/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://umorrex.bandcamp.com/album/enormous-pause',
+          a_string: 'Enormous Pause by Slows',
+          rule: {
+            "monday": [ 6, 14, 16, 1 ],
+            "tuesday": [ 10, 14, 20, 1 ],
+            "wednesday": [ 9, 12, 17, 29 ],
+            "thursday": [ 8, 11, 17, 29 ],
+            "saturday": [ 8, 11, 17, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

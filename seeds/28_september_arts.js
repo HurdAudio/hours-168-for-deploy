@@ -8504,6 +8504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 426,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1961.jpg',
+          title: 'Untitled',
+          artist: 'Robert Nickle',
+          year: '1961',
+          rule: {
+            "monday": [ 29, 5, 23, 1 ],
+            "tuesday": [ 18, 4, 22, 1 ],
+            "wednesday": [ 17, 24, 21, 29 ],
+            "thursday": [ 25, 2, 20, 27 ],
+            "friday": [ 2, 8, 26, 4 ],
+            "saturday": [ 1, 6, 25, 3 ],
+            "sunday": [ 30, 6, 24, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 427,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/20-pearls-a-2007.jpg',
+          title: '20 Pearls (A)',
+          artist: 'Richard Tuttle',
+          year: '2007',
+          rule: {
+            "monday": [ 31, 7, 25, 3 ],
+            "tuesday": [ 30, 6, 24, 2 ],
+            "wednesday": [ 19, 5, 23, 2 ],
+            "thursday": [ 18, 25, 22, 30 ],
+            "friday": [ 26, 3, 21, 28 ],
+            "saturday": [ 3, 9, 27, 5 ],
+            "sunday": [ 2, 7, 26, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 428,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1979.jpg',
+          title: 'Untitled',
+          artist: 'Kazuo Shiraga',
+          year: '1979',
+          rule: {
+            "monday": [ 2, 7, 26, 4 ],
+            "tuesday": [ 31, 7, 25, 3 ],
+            "wednesday": [ 30, 6, 24, 2 ],
+            "thursday": [ 19, 5, 23, 2 ],
+            "friday": [ 18, 25, 22, 30 ],
+            "saturday": [ 26, 3, 21, 28 ],
+            "sunday": [ 3, 9, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 429,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/mangrove-1985.jpg',
+          title: 'Mangrove',
+          artist: 'Philip Taaffe',
+          year: '1985',
+          rule: {
+            "monday": [ 3, 9, 27, 5 ],
+            "tuesday": [ 2, 7, 26, 4 ],
+            "wednesday": [ 31, 7, 25, 3 ],
+            "thursday": [ 30, 6, 24, 2 ],
+            "friday": [ 19, 5, 23, 2 ],
+            "saturday": [ 18, 25, 22, 30 ],
+            "sunday": [ 26, 3, 21, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 430,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/slot-machine-1962-1.jpg',
+          title: 'Slot Machine',
+          artist: 'Richard Smith',
+          year: '1962',
+          rule: {
+            "monday": [ 26, 3, 21, 28 ],
+            "tuesday": [ 3, 9, 27, 5 ],
+            "wednesday": [ 2, 7, 26, 4 ],
+            "thursday": [ 31, 7, 25, 3 ],
+            "friday": [ 30, 6, 24, 2 ],
+            "saturday": [ 19, 5, 23, 2 ],
+            "sunday": [ 18, 25, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

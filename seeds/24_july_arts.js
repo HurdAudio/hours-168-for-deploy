@@ -8904,6 +8904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 446,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/square-concorde.jpg',
+          title: 'Square Concorde',
+          artist: 'Henri Martin',
+          year: '?',
+          rule: {
+            "monday": [ 31, 11, 21, 23 ],
+            "tuesday": [ 30, 10, 21, 22 ],
+            "wednesday": [ 29, 9, 20, 31 ],
+            "thursday": [ 4, 15, 26, 5 ],
+            "friday": [ 3, 12, 25, 5 ],
+            "saturday": [ 1, 12, 24, 4 ],
+            "sunday": [ 1, 12, 23, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 447,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/female-nude-draped-in-a-blue-veil-1907.jpg',
+          title: 'Female nude draped in a blue veil',
+          artist: 'Robert Demachy',
+          year: '1907',
+          rule: {
+            "monday": [ 1, 12, 23, 24 ],
+            "tuesday": [ 31, 11, 21, 23 ],
+            "wednesday": [ 30, 10, 21, 22 ],
+            "thursday": [ 29, 9, 20, 31 ],
+            "friday": [ 4, 15, 26, 5 ],
+            "saturday": [ 3, 12, 25, 5 ],
+            "sunday": [ 1, 12, 24, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 448,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/maternity-1893.jpg',
+          title: 'Maternity',
+          artist: 'Charles Maurin',
+          year: '1893',
+          rule: {
+            "monday": [ 2, 13, 25, 5 ],
+            "tuesday": [ 2, 13, 24, 25 ],
+            "wednesday": [ 1, 12, 22, 24 ],
+            "thursday": [ 31, 11, 22, 23 ],
+            "friday": [ 30, 10, 21, 1 ],
+            "saturday": [ 5, 16, 27, 6 ],
+            "sunday": [ 4, 13, 26, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 449,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-guardian-of-turkeys-1881.jpg',
+          title: 'The Guardian of Turkeys',
+          artist: 'Charles Angrand',
+          year: '1881',
+          rule: {
+            "monday": [ 4, 13, 26, 6 ],
+            "tuesday": [ 2, 13, 25, 5 ],
+            "wednesday": [ 2, 13, 24, 25 ],
+            "thursday": [ 1, 12, 22, 24 ],
+            "friday": [ 31, 11, 22, 23 ],
+            "saturday": [ 30, 10, 21, 1 ],
+            "sunday": [ 5, 16, 27, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 450,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/800px-albert-aublet-sur-la-plage-le-treport-2.jpg',
+          title: 'Sur la plage, le treport',
+          artist: 'Albert Aublet',
+          year: '?',
+          rule: {
+            "monday": [ 5, 16, 27, 6 ],
+            "tuesday": [ 4, 13, 26, 6 ],
+            "wednesday": [ 2, 13, 25, 5 ],
+            "thursday": [ 2, 13, 24, 25 ],
+            "friday": [ 1, 12, 22, 24 ],
+            "saturday": [ 31, 11, 22, 23 ],
+            "sunday": [ 30, 10, 21, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

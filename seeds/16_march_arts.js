@@ -9704,6 +9704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 486,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-1957(2).jpg',
+          title: 'Untitled',
+          artist: 'Perle Fine',
+          year: '1957',
+          rule: {
+            "monday": [ 8, 17, 27, 4 ],
+            "tuesday": [ 7, 17, 25, 4 ],
+            "wednesday": [ 4, 16, 24, 3 ],
+            "thursday": [ 5, 15, 23, 2 ],
+            "friday": [ 4, 15, 22, 1 ],
+            "saturday": [ 3, 13, 21, 31 ],
+            "sunday": [ 2, 12, 21, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 487,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/floating-shapes-1958.jpg',
+          title: 'Floating Shapes',
+          artist: 'Lenore Tawney',
+          year: '1958',
+          rule: {
+            "monday": [ 2, 12, 21, 30 ],
+            "tuesday": [ 8, 17, 27, 4 ],
+            "wednesday": [ 7, 17, 25, 4 ],
+            "thursday": [ 4, 16, 24, 3 ],
+            "friday": [ 5, 15, 23, 2 ],
+            "saturday": [ 4, 15, 22, 1 ],
+            "sunday": [ 3, 13, 21, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 488,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/i-give-this-bouquet-of-stars-where-children-are-1982.jpg',
+          title: 'I Give This Bouquet of Stars Where Children Are',
+          artist: 'Maria Primachenko',
+          year: '1982',
+          rule: {
+            "monday": [ 3, 13, 21, 31 ],
+            "tuesday": [ 2, 12, 21, 30 ],
+            "wednesday": [ 8, 17, 27, 4 ],
+            "thursday": [ 7, 17, 25, 4 ],
+            "friday": [ 4, 16, 24, 3 ],
+            "saturday": [ 5, 15, 23, 2 ],
+            "sunday": [ 4, 15, 22, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 489,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-from-little-image-series-1949.jpg',
+          title: 'Untitled (from Little Image series)',
+          artist: 'Lee Krasner',
+          year: '1949',
+          rule: {
+            "monday": [ 4, 15, 22, 1 ],
+            "tuesday": [ 3, 13, 21, 31 ],
+            "wednesday": [ 2, 12, 21, 30 ],
+            "thursday": [ 8, 17, 27, 4 ],
+            "friday": [ 7, 17, 25, 4 ],
+            "saturday": [ 4, 16, 24, 3 ],
+            "sunday": [ 5, 15, 23, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 490,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/nature-morte-au-chapeau-1946.jpg',
+          title: 'Nature morte au chapeau',
+          artist: 'Greta Freist',
+          year: '1946',
+          rule: {
+            "monday": [ 6, 16, 24, 3 ],
+            "tuesday": [ 5, 16, 23, 2 ],
+            "wednesday": [ 4, 14, 22, 1 ],
+            "thursday": [ 3, 13, 22, 31 ],
+            "friday": [ 9, 18, 28, 5 ],
+            "saturday": [ 8, 18, 26, 5 ],
+            "sunday": [ 5, 17, 25, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

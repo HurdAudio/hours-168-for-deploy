@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/en-campo-gris-1964.jpg',
+          title: 'En campo gris',
+          artist: 'Pablo Palazuelo',
+          year: '1964',
+          rule: {
+            "monday": [ 13, 15, 7, 27 ],
+            "tuesday": [ 18, 16, 8, 11 ],
+            "wednesday": [ 18, 19, 10, 14 ],
+            "thursday": [ 21, 23, 24, 26 ],
+            "friday": [ 23, 25, 29, 1 ],
+            "saturday": [ 25, 27, 28, 29 ],
+            "sunday": [ 10, 11, 22, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-no-4-leaving-the-factory-1917.jpg',
+          title: 'Composition No. 4 (Leaving The Factory)',
+          artist: 'Bart van der Leck',
+          year: '1917',
+          rule: {
+            "monday": [ 10, 11, 22, 14 ],
+            "tuesday": [ 13, 15, 7, 27 ],
+            "wednesday": [ 18, 16, 8, 11 ],
+            "thursday": [ 18, 19, 10, 14 ],
+            "friday": [ 21, 23, 24, 26 ],
+            "saturday": [ 23, 25, 29, 1 ],
+            "sunday": [ 25, 27, 28, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/o-t-reforzate-5-2005.jpg',
+          title: 'o. T. (Reforzate.5)',
+          artist: 'Jurgen Partenheimer',
+          year: '2005',
+          rule: {
+            "monday": [ 25, 27, 28, 29 ],
+            "tuesday": [ 10, 11, 22, 14 ],
+            "wednesday": [ 13, 15, 7, 27 ],
+            "thursday": [ 18, 16, 8, 11 ],
+            "friday": [ 18, 19, 10, 14 ],
+            "saturday": [ 21, 23, 24, 26 ],
+            "sunday": [ 23, 25, 29, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/oscila-es-do-claro-escuro-i-1967.jpg',
+          title: 'Oscilações do Claro Escuro I',
+          artist: 'Eduardo Nery',
+          year: '1967',
+          rule: {
+            "monday": [ 23, 25, 29, 1 ],
+            "tuesday": [ 25, 27, 28, 29 ],
+            "wednesday": [ 10, 11, 22, 14 ],
+            "thursday": [ 13, 15, 7, 27 ],
+            "friday": [ 18, 16, 8, 11 ],
+            "saturday": [ 18, 19, 10, 14 ],
+            "sunday": [ 21, 23, 24, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/ricerca-del-colore-azzurro-su-nero-1968.jpg',
+          title: 'Ricerca del colore azzurro su nero',
+          artist: 'Dadamaino',
+          year: '1968',
+          rule: {
+            "monday": [ 21, 23, 24, 26 ],
+            "tuesday": [ 23, 25, 29, 1 ],
+            "wednesday": [ 25, 27, 28, 29 ],
+            "thursday": [ 10, 11, 22, 14 ],
+            "friday": [ 13, 15, 7, 27 ],
+            "saturday": [ 18, 16, 8, 11 ],
+            "sunday": [ 18, 19, 10, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

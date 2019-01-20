@@ -4475,11 +4475,11 @@
       <div id="musicSharesNotifier">
 
         <div class="whoScheduledMe">
-          <!-- <main ng-repeat="music in $ctrl.activeMusicShares | orderBy : $ctrl.sortBy"> -->
-            <div id="thisIsMusicShareDeleteDiv{{music.id}}" class="profileDeleteOption">
+          <main ng-repeat="music in $ctrl.activeMusicShares | orderBy : $ctrl.sortBy">
+            <!-- <div id="thisIsMusicShareDeleteDiv{{music.id}}" class="profileDeleteOption"> -->
 
               <!-- <a class="btn" href="#" ng-click="$ctrl.deleteObservanceShare(observe.id)">delete</a><br><br> -->
-            </div>
+            <!-- </div> -->
 
 
             <img src="{{music.inv_img}}"><br>
@@ -4513,19 +4513,19 @@
 
             <!-- <div class="commentsBar"> -->
 
-              <!-- <h1>Comments:</h1> -->
+              <h1>Comments:</h1>
               <!-- <a class="btn" href="#" ng-click="$ctrl.addNewArtShareComment(art.id)" id="newArtShareCommentButton{{art.id}}">add</a> -->
             <!-- </div> -->
-            <!-- <div id="artShareComments" class="occasionShareComments">
+            <div id="musicShareComments" class="occasionShareComments">
               <!-- <main ng-repeat="comment in art.comments | orderBy : $ctrl.sortBy"> -->
-                <!-- <img src="{{comment.user_avatar_url}}"><br><br><br>
+                <img src="{{comment.user_avatar_url}}"><br><br><br>
                 <br><br><br><p>From: {{comment.name}} <br>
-                on {{comment.cleanDate}}</p><br><br> -->
+                on {{comment.cleanDate}}</p><br><br>
                 <!-- <textarea id="thisIsTheObservanceShareCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea> -->
                 <!-- <div class="thisIsObservanceShareCommentEditDoneDiv" id="thisIsObservanceShareCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheObservanceShareCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditObservanceShareCommentCompleted(comment.id)">done</a></div> -->
-                <!-- <h3 id="thisIsArtShareCommentComment{{art.id}}">{{comment.comment}}</h3><br>
+                <h3 id="thisIsMusicShareCommentComment{{comment.id}}">{{comment.comment}}</h3><br>
 
-                <div id="deleteArtShareCommentConfirm{{art.id}}" class="messageEditDelete">
+                <!-- <div id="deleteMusicShareCommentConfirm{{comment.id}}" class="messageEditDelete">
 
                   <h3>Delete comment forever?</h3>
                   <a class="btn" href="#" ng-click="$ctrl.userArtShareCommentDeleteCancel(art.id)">no</a>
@@ -4537,8 +4537,8 @@
                   <a class="btn" href="#" ng-click="$ctrl.userDeleteArtShareComment(art.id)">delete</a>
                 </div><br><br><br><br> -->
               <!-- </main> -->
-            <!-- </div> -->
-          <!-- </main> -->
+            </div>
+          </main>
         </div>
 
 

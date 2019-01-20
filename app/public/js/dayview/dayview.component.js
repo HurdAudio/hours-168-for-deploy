@@ -378,8 +378,8 @@
         $http.get(`/users/${friendId}`)
         .then(friendData=>{
           let friend = friendData.data;
-          console.log(friend.email + ' ' + filter);
-          console.log(friend.email.toLowerCase().toString().indexOf(filter.toString().toLowerCase()));
+          // console.log(friend.email + ' ' + filter);
+          // console.log(friend.email.toLowerCase().toString().indexOf(filter.toString().toLowerCase()));
           if ((friend.name.toString().toLowerCase().indexOf(filter.toLowerCase()) !== -1) || (friend.email.toString().toLowerCase().indexOf(filter.toLowerCase()) !== -1)) {
             entryDiv = document.createElement('div');
             listDiv.appendChild(entryDiv);
@@ -835,10 +835,10 @@
           taskEntryForm.setAttribute("style", "display: none;");
           addTaskButton.setAttribute("style", "display: initial; position: relative; display: block; width: 120px; margin: 10px auto; padding: 10px; border-radius: 2%; background-color: #ffff77; border: 1px solid #0000cc; font-family: 'Asul', sans-serif; font-size: 24px; color: #000; text-align: center; text-decoration: none; transform-style: flat; transition: all 250ms ease-out; &:before, &:after {content: \"\"; position: absolute; z-index: -5; transition: all 250ms ease-out;}");
           taskEntryCancelButton.removeEventListener('click', ()=>{
-            console.log('tidy');
+            // console.log('tidy');
           });
           taskSubmitButton.removeEventListener('click', ()=>{
-            console.log('tidy');
+            // console.log('tidy');
           });
         });
         taskSubmitButton.addEventListener('click', ()=>{
@@ -892,10 +892,10 @@
                 taskEntryForm.setAttribute("style", "display: none;");
                 addTaskButton.setAttribute("style", "display: initial; position: relative; display: block; width: 120px; margin: 10px auto; padding: 10px; border-radius: 2%; background-color: #ffff77; border: 1px solid #0000cc; font-family: 'Asul', sans-serif; font-size: 24px; color: #000; text-align: center; text-decoration: none; transform-style: flat; transition: all 250ms ease-out; &:before, &:after {content: \"\"; position: absolute; z-index: -5; transition: all 250ms ease-out;}");
                 taskEntryCancelButton.removeEventListener('click', ()=>{
-                  console.log('tidy');
+                  // console.log('tidy');
                 });
                 taskSubmitButton.removeEventListener('click', ()=>{
-                  console.log('tidy');
+                  // console.log('tidy');
                 });
               });
             }
@@ -936,13 +936,13 @@
             taskEditDate.value = '';
             errorField.innerHTML = '';
             exitButton.removeEventListener('click', ()=>{
-              console.log('tidy');
+              // console.log('tidy');
             });
             taskEditButton.removeEventListener('click', ()=>{
-              console.log('tidy');
+              // console.log('tidy');
             });
             taskPatchSubmit.removeEventListener('click', ()=>{
-              console.log('tidy');
+              // console.log('tidy');
             });
           });
           taskEditButton.addEventListener('click', ()=>{
@@ -1015,13 +1015,13 @@
                 taskEditUserNotes.value = '';
                 taskEditDate.value = '';
                 exitButton.removeEventListener('click', ()=>{
-                  console.log('tidy');
+                  // console.log('tidy');
                 });
                 taskEditButton.removeEventListener('click', ()=>{
-                  console.log('tidy');
+                  // console.log('tidy');
                 });
                 taskPatchSubmit.removeEventListener('click', ()=>{
-                  console.log('tidy');
+                  // console.log('tidy');
                 });
               });
             }
@@ -1149,10 +1149,10 @@
                   billEntryErrorField.value = '';
 
                   billEntryCancelButton.removeEventListener('click', ()=>{
-                    console.log('tidy');
+                    // console.log('tidy');
                   });
                   billSubmitButton.removeEventListener('click', ()=>{
-                    console.log('tidy');
+                    // console.log('tidy');
                   });
                 });
 
@@ -1174,10 +1174,10 @@
           addBillButton.setAttribute("style", "display: initial; position: relative; display: block; width: 120px; margin: 10px auto; padding: 10px; border-radius: 2%; background-color: #ffff77; border: 1px solid #0000cc; font-family: 'Asul', sans-serif; font-size: 24px; color: #000; text-align: center; text-decoration: none; transform-style: flat; transition: all 250ms ease-out; &:before, &:after {content: \"\"; position: absolute; z-index: -5; transition: all 250ms ease-out;}");
 
           billEntryCancelButton.removeEventListener('click', ()=>{
-            console.log('tidy');
+            // console.log('tidy');
           });
           billSubmitButton.removeEventListener('click', ()=>{
-            console.log('tidy');
+            // console.log('tidy');
           });
         });
       }
@@ -1197,14 +1197,14 @@
             infoDiv.setAttribute("style", "display: none;");
             infoButton.setAttribute("style", "display: initial; position: relative; display: block; width: 120px; margin: 10px auto; padding: 10px; border-radius: 2%; background-color: #ffff77; border: 1px solid #0000cc; font-family: 'Asul', sans-serif; font-size: 24px; color: #000; text-align: center; text-decoration: none; transform-style: flat; transition: all 250ms ease-out; &:before, &:after {content: \"\"; position: absolute; z-index: -5; transition: all 250ms ease-out;}");
             exitButton.removeEventListener('click', ()=>{
-              console.log('removed event listener');
+              // console.log('removed event listener');
             });
           });
         });
       }
 
       function payBillButton(billId) {
-        console.log(billId);
+        // console.log(billId);
         $http.get(`/bills/${billId}`)
         .then(theBillData=>{
           let theBill = theBillData.data;
@@ -1221,9 +1221,9 @@
             firstPayButton.setAttribute("style", "display: initial; position: relative; display: block; width: 120px; margin: 10px auto; padding: 10px; border-radius: 2%; background-color: #ffff77; border: 1px solid #0000cc; font-family: 'Asul', sans-serif; font-size: 24px; color: #000; text-align: center; text-decoration: none; transform-style: flat; transition: all 250ms ease-out; &:before, &:after {content: \"\"; position: absolute; z-index: -5; transition: all 250ms ease-out;}");
             paidPalDiv.setAttribute("style", "display: none; align-self: center;");
             cancelKey.removeEventListener('click', ()=>{
-              console.log('don\'t really need event listener here');
+              // console.log('don\'t really need event listener here');
               secondPayButton.removeEventListener('click', ()=>{
-                console.log('safety');
+                // console.log('safety');
               });
             });
           });
@@ -1241,7 +1241,7 @@
             });
 
             cancelKey.removeEventListener('click', ()=>{
-              console.log('tidy');
+              // console.log('tidy');
             });
           });
         });
@@ -1299,10 +1299,10 @@
             occasionsList.setAttribute("style", "display: initial;");
             editDeleteOccasion.setAttribute("style", "display: none;");
             editOccasionButton.removeEventListener('click', ()=>{
-              console.log('removed');
+              // console.log('removed');
             });
             deleteOccasionButton.removeEventListener('click', ()=>{
-              console.log('removed');
+              // console.log('removed');
             });
             editOccasionName.value = '';
           });
@@ -1695,7 +1695,7 @@
               sequence[0].timeStamp = current;
               let difference = (current.getTime() - stamp.getTime());
               if (difference > 100) {
-                console.log(difference);
+                // console.log(difference);
                 sequence[0].timer -= Math.floor(difference/10);
                 if (sequence[0].timer < 0) {
                   runTheTimer(sequence.slice(1));
@@ -2147,7 +2147,7 @@
                     }
                     break;
                   default:
-                    console.log('non-float holiday');
+                    // console.log('non-float holiday');
                 }
 
               }
@@ -2513,7 +2513,7 @@
               if (vm.dailyMusics.length < 1) {
                 musicPlayer.setAttribute("style", "display: none;");
               } else {
-                console.log(vm.dailyMusics);
+                // console.log(vm.dailyMusics);
               }
             }, 55);
 
@@ -3232,7 +3232,7 @@
             sub.block_data[inputField][index] = element.value;
             $http.patch(`/timeblocks/${timeblock.id}`, sub)
             .then(data=>{
-              console.log(data.data);
+              // console.log(data.data);
             });
           }
         });
@@ -3650,7 +3650,7 @@
               $http.patch(`/timeblocks/${timeblock.id}`, timeUpdate)
               .then(timeUpdatedData=>{
                 let timeUpdated = timeUpdatedData.data;
-                console.log(timeUpdated);
+                // console.log(timeUpdated);
                 blocktypeCRUDType.value = '';
                 blocktypeCRUDColor.value = '#22ac44';
                 blocktypeCRUDSubtypes.checked = true;
@@ -4141,7 +4141,7 @@
         $http.get(`/users/${currentUserId}`)
         .then(userData=>{
           let user = userData.data;
-          console.log(user.associates.friends.length);
+          // console.log(user.associates.friends.length);
           if (user.associates.friends.length > 0) {
             for (let i = 0; i < user.associates.friends.length; i++) {
               divElement = document.createElement('div');
@@ -4436,7 +4436,7 @@
               //// Selector Subtype Listener
 
               blockKeysSelector.addEventListener('change', ()=>{
-                console.log(blockKeysSelector.value);
+                // console.log(blockKeysSelector.value);
                 if (blockKeysSelector.value !== 'add new value...') {
                   updateBlockSubtype(timeblock, currentBlocktype, blockKeysSelector.value);
                   if (currentBlocktype.keys.keys.length > 1) {
@@ -4453,7 +4453,7 @@
 
               //// Start Time Decrease Button Listener
               editDeleteStartDecrease.addEventListener('click', ()=>{
-                console.log('click');
+                // console.log('click');
                 rollbackStartTimeHalfHour(timeblock, currentBlocktype);
               });
 
@@ -4514,7 +4514,7 @@
             }
           });
         } else {
-          console.log(divTimeString);
+          // console.log(divTimeString);
           //TODO create functionality
           createNewAppointment(divTimeString);
         }
@@ -4600,7 +4600,7 @@
             newButton.addEventListener('click', (e)=>{
               e.preventDefault();
               e.stopPropagation();
-              console.log(timeblockAdded.id);
+              // console.log(timeblockAdded.id);
               verbalizeTimeblock(timeblockAdded.id);
             });
             //TODO pass new block over to editor
@@ -4825,7 +4825,7 @@
         for (let h = 0; h < 7; h++) {
           week[h] = {};
         }
-        console.log(viewDate.getDay());
+        // console.log(viewDate.getDay());
         if (viewDate.getDay() === 1) {
           floatingDate = new Date(viewDate);
         } else {
@@ -4847,7 +4847,7 @@
               }
             }
           }
-          console.log(week);
+          // console.log(week);
           for (let k = 0; k < week.length; k++) {
             if (week[k].timeblocks.length > 0) {
               for (let m = 0; m < week[k].timeblocks.length; m++) {
@@ -4935,7 +4935,7 @@
             for (let i = 0; i < (hoursTime.length - 1); i++) {
               for (let j = 0; j < todaysTimeblocks.length; j++) {
                 if (getCleanTime(todaysTimeblocks[j].start_time) === hoursTime[i]) {
-                  console.log(hoursTime[i]);
+                  // console.log(hoursTime[i]);
                   vm.appointments[index] = {};
                   vm.appointments[index].start_time_clean = hoursTime[i];
                   vm.appointments[index].end_time_clean = getCleanTime(todaysTimeblocks[j].end_time);
@@ -5548,7 +5548,7 @@
       }
 
       function sendToDictionary(word) {
-        console.log(word);
+        // console.log(word);
         let wordOfDay = document.getElementById('wordOfDay');
         let wordSyllable = document.getElementById('wordSyllable');
         let pronounciation = document.getElementById('pronounciation');
@@ -5556,11 +5556,11 @@
         $http.get(`/dictionary/${word}`)
         .then(xmlData=>{
           let xml = xmlData.data;
-          console.log(xml);
+          // console.log(xml);
           $http.post('/xmlconverter', { data: xml })
           .then(dictionaryReturnData=>{
             let dictionaryReturn = dictionaryReturnData.data.entry_list;
-            console.log(dictionaryReturn);
+            // console.log(dictionaryReturn);
             if ((dictionaryReturn.suggestion !== undefined) && (dictionaryReturn.suggestion.length > 0)) {
               sendToDictionary(dictionaryReturn.suggestion[Math.floor(Math.random() * dictionaryReturn.suggestion.length)]);
             } else {
@@ -5624,7 +5624,7 @@
         //  });
         //TODO write a word generator based on date
         let wordsArray = generateWordArray();
-        console.log(wordsArray.length);
+        // console.log(wordsArray.length);
         switch(generateDate.getDay()) {
           case(0):
             sendToSunday(wordsArray[generateDate.getDate() - 1]);
@@ -5656,7 +5656,7 @@
       }
 
       function onInit() {
-        console.log("Dayview is lit");
+        // console.log("Dayview is lit");
         dayClock = true;
         weekClock = false;
         monthClock = false;

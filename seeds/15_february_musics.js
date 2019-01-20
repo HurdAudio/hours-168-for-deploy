@@ -5296,6 +5296,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 295,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1550838743/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://hamasynth.bandcamp.com/album/houmeissa',
+          a_string: 'Houmeissa by Hama',
+          rule: {
+            "monday": [ 18, 21, 23, 25 ],
+            "tuesday": [ 29, 23, 25, 27 ],
+            "wednesday": [ 2, 25, 27, 4 ],
+            "thursday": [ 3, 26, 28, 5 ],
+            "saturday": [ 15, 19, 21, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 296,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=873725653/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://marc4hero.bandcamp.com/album/its-right-to-be-civil-vinyl-lp',
+          a_string: 'It&#39;s Right To Be Civil (Vinyl LP) by Marc Mac',
+          rule: {
+            "monday": [ 15, 19, 21, 25 ],
+            "tuesday": [ 18, 21, 23, 25 ],
+            "wednesday": [ 29, 23, 25, 27 ],
+            "thursday": [ 2, 25, 27, 4 ],
+            "saturday": [ 3, 26, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 297,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1873538471/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://marc4hero.bandcamp.com/album/all-power-to-the-people',
+          a_string: 'All Power To The People by Marc Mac',
+          rule: {
+            "monday": [ 3, 26, 28, 5 ],
+            "tuesday": [ 15, 19, 21, 25 ],
+            "wednesday": [ 18, 21, 23, 25 ],
+            "thursday": [ 29, 23, 25, 27 ],
+            "saturday": [ 2, 25, 27, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

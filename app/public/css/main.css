@@ -2902,6 +2902,7 @@ footer img {
   background-color: #ccddee;
   height: auto;
   margin-bottom: 0.3em;
+  display: none;
 }
 
 #adminMsg h3 {
@@ -2934,7 +2935,8 @@ footer img {
   background-repeat: repeat;
   background-size: 200%;
   height: 38.1em;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   margin-top: 0;
   padding-top: 0;
 }
@@ -6768,6 +6770,7 @@ footer img {
 
 #musicCurratorManagementDiv {
   display: none;
+  overflow: hidden;
 }
 
 #januaryArtCurratorDisplay {
@@ -8660,7 +8663,7 @@ footer img {
 
 
 /* .day {
-  background-image: url(../img/january_tiles/winter-12891_640.jpg);
+  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/ice-1968735_1920.jpg);
   background-repeat: no-repeat;
   background-size: 140%;
 } */

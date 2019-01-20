@@ -942,6 +942,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FF7B28',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 68,
+          user_id: 1,
+          theme: 'Monochromatic',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/sergio-rola-57352-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '120%',
+          color_dark: '#050505',
+          color_medium: '#989898',
+          color_light: '#DCDEDD',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

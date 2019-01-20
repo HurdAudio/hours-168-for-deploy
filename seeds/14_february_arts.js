@@ -9904,6 +9904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 496,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/lorenzo-scott-painting-candler-arts.jpg',
+          title: 'Girl Standing in Mist of Heaven',
+          artist: 'Lorenzo Scott',
+          year: '1985',
+          rule: {
+            "monday": [ 18, 26, 5, 13 ],
+            "tuesday": [ 20, 1, 7, 13 ],
+            "wednesday": [ 22, 1, 9, 19 ],
+            "thursday": [ 22, 3, 28, 18 ],
+            "friday": [ 12, 20, 28, 7 ],
+            "saturday": [ 13, 22, 1, 9 ],
+            "sunday": [ 19, 24, 1, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 497,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Scott_Hallies_Red_image_only2.jpg',
+          title: 'Girls with Chicken',
+          artist: 'William Edouard Scott',
+          year: 'xx cent.',
+          rule: {
+            "monday": [ 20, 25, 2, 12 ],
+            "tuesday": [ 19, 27, 6, 14 ],
+            "wednesday": [ 21, 2, 8, 14 ],
+            "thursday": [ 23, 2, 10, 20 ],
+            "friday": [ 23, 4, 29, 19 ],
+            "saturday": [ 13, 21, 29, 8 ],
+            "sunday": [ 14, 23, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 498,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/s-l300.jpg',
+          title: 'Firmado Arlequín Payaso Retrato Arte Óleo',
+          artist: 'Charles Sebree',
+          year: '?',
+          rule: {
+            "monday": [ 14, 23, 2, 10 ],
+            "tuesday": [ 20, 25, 2, 12 ],
+            "wednesday": [ 19, 27, 6, 14 ],
+            "thursday": [ 21, 2, 8, 14 ],
+            "friday": [ 23, 2, 10, 20 ],
+            "saturday": [ 23, 4, 29, 19 ],
+            "sunday": [ 13, 21, 29, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 499,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Thomas-Sills-Composition-1953-Oil-on-Canvas-43-x-46.jpg',
+          title: 'Composition',
+          artist: 'Thomas Sills',
+          year: '1953',
+          rule: {
+            "monday": [ 13, 21, 29, 8 ],
+            "tuesday": [ 14, 23, 2, 10 ],
+            "wednesday": [ 20, 25, 2, 12 ],
+            "thursday":[ 19, 27, 6, 14 ],
+            "friday": [ 21, 2, 8, 14 ],
+            "saturday": [ 23, 2, 10, 20 ],
+            "sunday": [ 23, 4, 29, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 500,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/bf3875679602e1a6963f95dd0ef0f9ec88f9248e.jpg',
+          title: 'Representation of Dark Matter',
+          artist: 'Gary Simmons',
+          year: '2015',
+          rule: {
+            "monday": [ 23, 4, 29, 19 ],
+            "tuesday": [ 13, 21, 29, 8 ],
+            "wednesday": [ 14, 23, 2, 10 ],
+            "thursday":[ 20, 25, 2, 12 ],
+            "friday": [ 19, 27, 6, 14 ],
+            "saturday": [ 21, 2, 8, 14 ],
+            "sunday": [ 23, 2, 10, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

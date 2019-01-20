@@ -7904,6 +7904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 396,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/34-09,Wings.jpg',
+          title: 'Wings',
+          artist: 'Rudolph Belarski',
+          year: '1934',
+          rule: {
+            "monday": [ 24, 5, 4, 20 ],
+            "tuesday": [ 23, 5, 24, 31 ],
+            "wednesday": [ 29, 11, 19, 25 ],
+            "thursday": [ 28, 9, 18, 24 ],
+            "friday": [ 27, 9, 17, 23 ],
+            "saturday": [ 26, 8, 16, 22 ],
+            "sunday": [ 25, 7, 15, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 397,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/55-03,BestWb.jpg',
+          title: 'Best Western',
+          artist: 'Jim Bentley',
+          year: '1955',
+          rule: {
+            "monday": [ 25, 7, 15, 21 ],
+            "tuesday": [ 24, 5, 4, 20 ],
+            "wednesday": [ 23, 5, 24, 31 ],
+            "thursday": [ 29, 11, 19, 25 ],
+            "friday": [ 28, 9, 18, 24 ],
+            "saturday": [ 27, 9, 17, 23 ],
+            "sunday": [ 26, 8, 16, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 398,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/.jpg',
+          title: 'Ace Mystery',
+          artist: 'David Berger',
+          year: '1936',
+          rule: {
+            "monday": [ 26, 8, 16, 22 ],
+            "tuesday": [ 25, 7, 15, 21 ],
+            "wednesday": [ 24, 5, 4, 20 ],
+            "thursday": [ 23, 5, 24, 31 ],
+            "friday": [ 29, 11, 19, 25 ],
+            "saturday": [ 28, 9, 18, 24 ],
+            "sunday": [ 27, 9, 17, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 399,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-03,GayBk.jpg',
+          title: 'Gay Book',
+          artist: 'Earle Bergey',
+          year: '1937',
+          rule: {
+            "monday": [ 28, 10, 18, 24 ],
+            "tuesday": [ 27, 9, 17, 23 ],
+            "wednesday": [ 26, 8, 16, 22 ],
+            "thursday": [ 25, 6, 5, 21 ],
+            "friday": [ 24, 6, 25, 1 ],
+            "saturday": [ 30, 12, 20, 26 ],
+            "sunday": [ 29, 10, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 400,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-04,AstndS.jpg',
+          title: 'Astounding Stories',
+          artist: 'Jack Binder',
+          year: '1937',
+          rule: {
+            "monday": [ 29, 10, 19, 25 ],
+            "tuesday": [ 28, 10, 18, 24 ],
+            "wednesday": [ 27, 9, 17, 23 ],
+            "thursday": [ 26, 8, 16, 22 ],
+            "friday": [ 25, 6, 5, 21 ],
+            "saturday": [ 24, 6, 25, 1 ],
+            "sunday": [ 30, 12, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

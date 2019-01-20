@@ -2074,6 +2074,36 @@ exports.seed = function(knex, Promise) {
           a_string: 'SUNN O))) - 2009.07.24, &quot;GrimmRobes&quot; Presentation, Custard Factory, Birmingham, UK by SUNN O)))',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 208,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2094655015/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-2009-07-24-grimmrobes-presentation-custard-factory-birmingham-uk',
+          a_string: 'SUNN O​)​)​) - 2009​.​07​.​24, &quot;GrimmRobes&quot; Presentation, Custard Factory, Birmingham, UK by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 209,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=281689371/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20090528-grimmrobes-presentation-parc-del-forum-barcelona-es',
+          a_string: 'SUNN O))) - 2009.05.28, &quot;GrimmRobes&quot; Presentation, Parc del Forum, Barcelona, ES by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 210,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=240781803/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20090419-liquidroom-tokyo-jp',
+          a_string: 'SUNN O))) - 2009.04.19, Liquidroom, Tokyo, JP by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

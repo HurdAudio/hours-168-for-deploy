@@ -8704,6 +8704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 436,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/concert-des-ambassadeurs-champs-lys-es-1900.jpg',
+          title: 'Concert des Ambassadeurs, Champs-Élysées',
+          artist: 'Jules Cheret',
+          year: '1900',
+          rule: {
+            "monday": [ 4, 8, 16, 1 ],
+            "tuesday": [ 3, 6, 15, 31 ],
+            "wednesday": [ 2, 6, 14, 30 ],
+            "thursday": [ 1, 5, 13, 29 ],
+            "friday": [ 31, 2, 12, 28 ],
+            "saturday": [ 30, 2, 11, 27 ],
+            "sunday": [ 29, 1, 10, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 437,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/storming-the-winter-palace-1920.jpg',
+          title: 'Storming the Winter Palace',
+          artist: 'Jury Annenkov',
+          year: '1920',
+          rule: {
+            "monday": [ 29, 1, 10, 26 ],
+            "tuesday": [ 4, 8, 16, 1 ],
+            "wednesday": [ 3, 6, 15, 31 ],
+            "thursday": [ 2, 6, 14, 30 ],
+            "friday": [ 1, 5, 13, 29 ],
+            "saturday": [ 31, 2, 12, 28 ],
+            "sunday": [ 30, 2, 11, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 438,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/cape-in-a-village-1930.jpg',
+          title: 'Cape in a Village',
+          artist: 'Jose Gutierrez Solana',
+          year: '1925 - 1930',
+          rule: {
+            "monday": [ 30, 2, 11, 27 ],
+            "tuesday": [ 29, 1, 10, 26 ],
+            "wednesday": [ 4, 8, 16, 1 ],
+            "thursday": [ 3, 6, 15, 31 ],
+            "friday": [ 2, 6, 14, 30 ],
+            "saturday": [ 1, 5, 13, 29 ],
+            "sunday": [ 31, 2, 12, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 439,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/hill-women-1935.jpg',
+          title: 'Hill Women',
+          artist: 'Amrita Sher-Gil',
+          year: '1935',
+          rule: {
+            "monday": [ 31, 2, 12, 28 ],
+            "tuesday": [ 30, 2, 11, 27 ],
+            "wednesday": [ 29, 1, 10, 26 ],
+            "thursday": [ 4, 8, 16, 1 ],
+            "friday": [ 3, 6, 15, 31 ],
+            "saturday": [ 2, 6, 14, 30 ],
+            "sunday": [ 1, 5, 13, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 440,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/tree-and-urn-1921.jpg',
+          title: 'Tree and Urn',
+          artist: 'Stuart Davis',
+          year: '1921',
+          rule: {
+            "monday": [ 1, 5, 13, 29 ],
+            "tuesday": [ 31, 2, 12, 28 ],
+            "wednesday": [ 30, 2, 11, 27 ],
+            "thursday": [ 29, 1, 10, 26 ],
+            "friday": [ 4, 8, 16, 1 ],
+            "saturday": [ 3, 6, 15, 31 ],
+            "sunday": [ 2, 6, 14, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

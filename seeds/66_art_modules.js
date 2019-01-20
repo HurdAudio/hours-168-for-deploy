@@ -2824,6 +2824,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 236,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/pjimage-16.jpg',
+          title: 'Old red teddy bear sitting on a chair in an abandoned kindergarten in Pripyat - Chernobyl nuclear power plant zone of alienation',
+          artist: 'James Hoare',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 237,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/istock-892982496-640x426.jpg',
+          title: 'Chernobyl, Ukraine. Inside of unfinished cooling tower of Chernobyl nuclear power plant block 5',
+          artist: 'unknown artist',
+          year: '2017',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 238,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/istock-170642043-640x427.jpg',
+          title: 'Old Pripyat City sign in Chernobyl restricted zone with radioactivity warning sign',
+          artist: 'unknown artist',
+          year: '2017',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 239,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/istock-858203376-640x427.jpg',
+          title: 'Chernobyl Nuclear Power Plant Zone of Alienation is exclusion zone around the site of the Chernobyl nuclear reactor established by USSR soon after disaster 1986',
+          artist: 'unknown artist',
+          year: '2017',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 240,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/istock-857940180-640x426.jpg',
+          title: 'The amusement park of Pripyat',
+          artist: 'unknown artist',
+          year: '2017',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -956,6 +956,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#C4CBCF',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 69,
+          user_id: 1,
+          theme: 'Autumnal',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/nathan-queloz-1178614-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '120%',
+          color_dark: '#000601',
+          color_medium: '#774E2E',
+          color_light: '#94A8AE',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

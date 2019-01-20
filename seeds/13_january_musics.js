@@ -5404,6 +5404,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 301,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'ttps://bandcamp.com/EmbeddedPlayer/album=2284148938/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/summary-dismissal',
+          a_string: 'Summary Dismissal by Tim Albro/Tyler Keen',
+          rule: {
+            "monday": [ 19, 25, 26, 27 ],
+            "tuesday": [ 18, 25, 26, 27 ],
+            "wednesday": [ 22, 29, 30, 31 ],
+            "thursday": [ 21, 27, 28, 30 ],
+            "saturday": [ 20, 27, 28, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 302,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2197049906/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/medium-rude',
+          a_string: 'Medium Rude by Reed Evan Rosenberg/Ethan Tripp',
+          rule: {
+            "monday": [ 20, 27, 28, 29 ],
+            "tuesday": [ 19, 25, 26, 27 ],
+            "wednesday": [ 18, 25, 26, 27 ],
+            "thursday": [ 22, 29, 30, 31 ],
+            "saturday": [ 21, 27, 28, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 303,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1842338927/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/looking-around',
+          a_string: 'Looking Around by Christian Wolff/Michael Pisaro ',
+          rule: {
+            "monday": [ 21, 27, 28, 30 ],
+            "tuesday": [ 20, 27, 28, 29 ],
+            "wednesday": [ 19, 25, 26, 27 ],
+            "thursday": [ 18, 25, 26, 27 ],
+            "saturday": [ 22, 29, 30, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

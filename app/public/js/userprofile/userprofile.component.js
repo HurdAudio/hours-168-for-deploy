@@ -296,6 +296,84 @@
       vm.userEditArtModuleComment = userEditArtModuleComment;
       vm.userEditArtModuleCommentCompleted = userEditArtModuleCommentCompleted;
 
+      function obtainMusicShareMusic (musicShare, index) {
+        $http.get(`/${musicShare.music_month}/${musicShare.music_id}`)
+        .then(musicSelectionData => {
+          let musicSelection = musicSelectionData.data;
+          vm.activeMusicShares[index].src_strings = musicSelection.src_string;
+          vm.activeMusicShares[index].href_strings = musicSelection.href_string;
+          vm.activeMusicShares[index].a_strings = musicSelection.a_string;
+        });
+      }
+
+      function obtainMusicSharerData(musicShare, index) {
+        $http.get(`/users/${musicShare.user_id}`)
+        .then(userIdData => {
+          let userId = userIdData.data;
+          $http.get(`/users/${musicShare.share_associate_id}`)
+          .then(shareAssociateIdData => {
+            let shareAssociateId = shareAssociateIdData.data;
+            if (parseInt(musicShare.share_associate_id) === parseInt(currentUserId)) {
+              vm.activeMusicShares[index].inv_img = userId.user_avatar_url;
+              vm.activeMusicShares[index].inviter = userId.name;
+              vm.activeMusicShares[index].invitee = shareAssociateId.name;
+            } else {
+              vm.activeMusicShares[index].inv_img = shareAssociateId.user_avatar_url;
+              vm.activeMusicShares[index].inviter = shareAssociateId.name;
+              vm.activeMusicShares[index].invitee = userId.name;
+            }
+          });
+        })
+      }
+
+      function retrieveUserMusicShares() {
+        let datea;
+        let dateb;
+        let check;
+        $http.get('music_shares')
+        .then(allMusicSharesData => {
+          let allMusicShares = allMusicSharesData.data;
+          let musicShares = allMusicShares.filter(entry => {
+            return((parseInt(entry.user_id) === parseInt(currentUserId)) || (parseInt(entry.share_associate_id) === parseInt(currentUserId)));
+          });
+          musicShares = musicShares.sort((a, b) => {
+            datea = new Date(a.created_at);
+            dateb = new Date(b.created_at);
+            return ((datea.getTime() - dateb.getTime()));
+          });
+          if (musicShares.length > 0) {
+            vm.activeMusicShares = [];
+            for (let i = 0; i < musicShares.length; i++) {
+              check = new Date(musicShares[i].created_at);
+              vm.activeMusicShares[i] = {
+                id: musicShares[i].id,
+                music_month: musicShares[i].music_month,
+                music_id: musicShares[i].music_id,
+                accepted: musicShares[i].accepted,
+                created_at: musicShares[i].created_at,
+                updated_at: musicShares[i].updated_at,
+                user_id: musicShares[i].user_id,
+                share_associate_id: musicShares[i].share_associate_id,
+                cleanDate: cleanDateHoliday(musicShares[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.'
+              };
+              obtainMusicSharerData(musicShares[i], i);
+              obtainMusicShareMusic(musicShares[i], i);
+            }
+            setTimeout(() => {
+              for (let j = 0; j < vm.activeMusicShares.length; j++) {
+                if (parseInt(vm.activeMusicShares[j].user_id) === parseInt(currentUserId)) {
+                  document.getElementById('musicInviter' + vm.activeMusicShares[j].id).setAttribute("style", "display: none;");
+                  document.getElementById('musicInvitee' + vm.activeMusicShares[j].id).setAttribute("style", "display: initial;");
+                } else {
+                  document.getElementById('musicInviter' + vm.activeMusicShares[j].id).setAttribute("style", "display: initial;");
+                  document.getElementById('musicInvitee' + vm.activeMusicShares[j].id).setAttribute("style", "display: none;");
+                }
+              }
+            }, (vm.activeMusicShares.length * 100));
+          }
+        });
+      }
+
       function userEditArtModuleCommentCompleted(commentId, artModId) {
         let thisIsArtModuleCommentComment = document.getElementById('thisIsArtModuleCommentComment' + commentId);
         let thisIsTheArtModuleCommentEditor = document.getElementById('thisIsTheArtModuleCommentEditor' + commentId);
@@ -17100,6 +17178,7 @@
             retrieveUserTaskShares();
             retrieveUserObservanceShares();
             retrieveUserArtShares();
+            retrieveUserMusicShares();
           });
         }
 

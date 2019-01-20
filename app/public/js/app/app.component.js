@@ -17,7 +17,7 @@
       vm.$onInit = onInit;
 
       function onInit() {
-        console.log('TESTING');
+        // console.log('TESTING');
 
       }
     }
