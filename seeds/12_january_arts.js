@@ -10204,6 +10204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 511,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-from-the-series-graphic-objects-1973(1).jpg',
+          title: 'Untitled (From the series Graphic Objects)',
+          artist: 'Mira Schendel',
+          year: '1973',
+          rule: {
+            "monday": [ 19, 20, 11, 15 ],
+            "tuesday": [ 22, 24, 25, 27 ],
+            "wednesday": [ 24, 26, 30, 2 ],
+            "thursday": [ 26, 28, 29, 30 ],
+            "friday": [ 11, 12, 23, 15 ],
+            "saturday": [ 14, 16, 8, 28 ],
+            "sunday": [ 19, 17, 9, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 512,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/vibration-des-adjacents-rouge-bleu-fond-violet.jpg',
+          title: 'Vibration des adjacents rouge-bleu, fond violet',
+          artist: 'Horacio Garcia-Rossi',
+          year: '?',
+          rule: {
+            "monday": [ 19, 17, 9, 12 ],
+            "tuesday": [ 19, 20, 11, 15 ],
+            "wednesday": [ 22, 24, 25, 27 ],
+            "thursday": [ 24, 26, 30, 2 ],
+            "friday": [ 26, 28, 29, 30 ],
+            "saturday": [ 11, 12, 23, 15 ],
+            "sunday": [ 14, 16, 8, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 513,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-1979 (1).jpg',
+          title: 'Untitled',
+          artist: 'Kazuo Shiraga',
+          year: '1979',
+          rule: {
+            "monday": [ 14, 16, 8, 28 ],
+            "tuesday": [ 19, 17, 9, 12 ],
+            "wednesday": [ 19, 20, 11, 15 ],
+            "thursday": [ 22, 24, 25, 27 ],
+            "friday": [ 24, 26, 30, 2 ],
+            "saturday": [ 26, 28, 29, 30 ],
+            "sunday": [ 11, 12, 23, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 514,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/espejo-son-mbulo-1989.jpg',
+          title: 'Espejo Sonámbulo',
+          artist: 'Manuel Rivera',
+          year: '1989',
+          rule: {
+            "monday": [ 11, 12, 23, 15 ],
+            "tuesday": [ 14, 16, 8, 28 ],
+            "wednesday": [ 19, 17, 9, 12 ],
+            "thursday": [ 19, 20, 11, 15 ],
+            "friday": [ 22, 24, 25, 27 ],
+            "saturday": [ 24, 26, 30, 2 ],
+            "sunday": [ 26, 28, 29, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 515,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/edge-of-white-dawn-1-1982.jpg',
+          title: 'Edge of White Dawn #1',
+          artist: 'Theodoros Stamos',
+          year: '1982',
+          rule: {
+            "monday": [ 26, 28, 29, 30 ],
+            "tuesday": [ 11, 12, 23, 15 ],
+            "wednesday": [ 14, 16, 8, 28 ],
+            "thursday": [ 19, 17, 9, 12 ],
+            "friday": [ 19, 20, 11, 15 ],
+            "saturday": [ 22, 24, 25, 27 ],
+            "sunday": [ 24, 26, 30, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

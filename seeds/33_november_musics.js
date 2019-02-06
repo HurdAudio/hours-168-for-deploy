@@ -4378,6 +4378,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 244,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1812425818/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://oumousangare.bandcamp.com/album/worotan',
+          a_string: 'Worotan by Oumou Sangare',
+          rule: {
+            "monday": [ 2, 13, 24, 6 ],
+            "tuesday": [ 6, 17, 28, 2 ],
+            "wednesday": [ 5, 16, 27, 1 ],
+            "thursday": [ 4, 15, 26, 30 ],
+            "saturday": [ 3, 14, 25, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 245,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1979443737/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://oumousangare.bandcamp.com/album/ko-sira',
+          a_string: 'Ko Sira by Oumou Sangare',
+          rule: {
+            "monday": [ 4, 15, 26, 28 ],
+            "tuesday": [ 3, 14, 25, 7 ],
+            "wednesday": [ 7, 18, 29, 3 ],
+            "thursday": [ 6, 17, 28, 2 ],
+            "saturday": [ 5, 16, 27, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 246,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3259458749/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://toumanidiabate.bandcamp.com/album/toumani-sidiki',
+          a_string: 'Toumani &amp; Sidiki by Toumani Diabaté and Sidiki Diabaté',
+          rule: {
+            "monday": [ 5, 16, 27, 1 ],
+            "tuesday": [ 4, 15, 26, 28 ],
+            "wednesday": [ 3, 14, 25, 7 ],
+            "thursday": [ 7, 18, 29, 3 ],
+            "saturday": [ 6, 17, 28, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5242,6 +5242,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 292,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1285212217/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jenniferwharton.bandcamp.com/album/bonegasm',
+          a_string: 'Bonegasm by Jennifer Wharton Bonegasm',
+          rule: {
+            "monday": [ 16, 22, 28, 5 ],
+            "tuesday": [ 15, 21, 27, 4 ],
+            "wednesday": [ 14, 20, 26, 4 ],
+            "thursday": [ 12, 19, 25, 2 ],
+            "saturday": [ 12, 18, 24, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 293,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4219019572/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ournativedaughters.bandcamp.com/album/songs-of-our-native-daughters',
+          a_string: 'Songs of Our Native Daughters by Our Native Daughters',
+          rule: {
+            "monday": [ 12, 18, 24, 1 ],
+            "tuesday": [ 16, 22, 28, 5 ],
+            "wednesday": [ 15, 21, 27, 4 ],
+            "thursday": [ 14, 20, 26, 4 ],
+            "saturday": [ 12, 19, 25, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 294,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2164502333/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://music.zoekeating.com/album/snowmelt-ep',
+          a_string: 'Snowmelt (EP) by Zoe Keating',
+          rule: {
+            "monday": [ 13, 20, 26, 3 ],
+            "tuesday": [ 13, 19, 25, 2 ],
+            "wednesday": [ 17, 23, 29, 6 ],
+            "thursday": [ 16, 22, 28, 5 ],
+            "saturday": [ 15, 21, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

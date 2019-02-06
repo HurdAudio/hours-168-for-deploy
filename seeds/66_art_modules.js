@@ -2884,6 +2884,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 241,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/Vyborg1-640x480.jpg',
+          title: 'Gunpowder cellar: The roof collapsed',
+          artist: 'Alexis "CityLion" Chernorechenski',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 242,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/Vyborg2-640x480.jpg',
+          title: 'Ditch between two gunpowder cellars',
+          artist: 'Alexis "CityLion" Chernorechenski',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 243,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/Vyborg3-640x480.jpg',
+          title: 'Left-hand gunpowder cellar viewed from outside: No more tin roof',
+          artist: 'Alexis "CityLion" Chernorechenski',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 244,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/Vyborg4-640x480.jpg',
+          title: 'Right-hand gunpowder cellar: Locked to prevent from marauding',
+          artist: 'Alexis "CityLion" Chernorechenski',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 245,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/Vyborg5-480x640.jpg',
+          title: 'Dominican Cathedral',
+          artist: 'Alexis "CityLion" Chernorechenski',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

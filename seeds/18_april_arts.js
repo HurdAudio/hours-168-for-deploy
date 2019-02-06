@@ -9604,6 +9604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 481,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/e528afd4b3c971f68ef6c9a1f022be4e--boston-sports-boston-red-sox.jpg',
+          title: 'Boston Red Sox',
+          artist: 'Sports Phreek',
+          year: 'xxi cent.',
+          rule: {
+            "monday": [ 6, 10, 25, 23 ],
+            "tuesday": [ 3, 9, 15, 21 ],
+            "wednesday": [ 4, 9, 15, 21 ],
+            "thursday": [ 3, 8, 14, 20 ],
+            "friday": [ 8, 14, 19, 26 ],
+            "saturday": [ 22, 12, 18, 24 ],
+            "sunday": [ 7, 10, 18, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 482,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/51+UJyjTnLL.jpg',
+          title: 'Fenway Park Vintage Print',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 7, 10, 18, 24 ],
+            "tuesday": [ 6, 10, 25, 23 ],
+            "wednesday": [ 3, 9, 15, 21 ],
+            "thursday": [ 4, 9, 15, 21 ],
+            "friday": [ 3, 8, 14, 20 ],
+            "saturday": [ 8, 14, 19, 26 ],
+            "sunday": [ 22, 12, 18, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 483,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/pin-by-joann-vitali-photography-on-boston-pinterest-art-art.jpg',
+          title: 'Red Sox Banners',
+          artist: 'Joann Vitali',
+          year: '2016',
+          rule: {
+            "monday": [ 23, 13, 19, 25 ],
+            "tuesday": [ 8, 11, 19, 25 ],
+            "wednesday": [ 7, 11, 26, 24 ],
+            "thursday": [ 4, 10, 16, 22 ],
+            "friday": [ 5, 10, 16, 22 ],
+            "saturday": [ 4, 9, 15, 21 ],
+            "sunday": [ 9, 15, 20, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 484,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/mookie-betts-boston-red-sox-abstract-art-1-mixed-media-by-joe-hamilton.jpg',
+          title: 'Mookie Betts Boston Red Sox Abstract Art',
+          artist: 'Joe Hamilton',
+          year: '2017',
+          rule: {
+            "monday": [ 9, 15, 20, 27 ],
+            "tuesday": [ 23, 13, 19, 25 ],
+            "wednesday": [ 8, 11, 19, 25 ],
+            "thursday": [ 7, 11, 26, 24 ],
+            "friday": [ 4, 10, 16, 22 ],
+            "saturday": [ 5, 10, 16, 22 ],
+            "sunday": [ 4, 9, 15, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 485,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/noepe-yankees-beat-red-sox.jpg',
+          title: 'Noepe Yankees Beat Red Sox',
+          artist: 'unknown artist',
+          year: 'xxi cent.',
+          rule: {
+            "monday": [ 4, 9, 15, 21 ],
+            "tuesday": [ 9, 15, 20, 27 ],
+            "wednesday": [ 23, 13, 19, 25 ],
+            "thursday": [ 8, 11, 19, 25 ],
+            "friday": [ 7, 11, 26, 24 ],
+            "saturday": [ 4, 10, 16, 22 ],
+            "sunday": [ 5, 10, 16, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

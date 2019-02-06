@@ -5350,6 +5350,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 298,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1308385904/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jayepmorgan.bandcamp.com/album/jaye-p-morgan',
+          a_string: 'Jaye P. Morgan by Jaye P. Morgan',
+          rule: {
+            "monday": [ 2, 25, 27, 4 ],
+            "tuesday": [ 3, 26, 28, 5 ],
+            "wednesday": [ 15, 19, 21, 25 ],
+            "thursday": [ 18, 21, 23, 25 ],
+            "saturday": [ 29, 23, 25, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 299,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3169749755/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://duasaleh.bandcamp.com/album/n-r',
+          a_string: 'Nūr by Dua Saleh',
+          rule: {
+            "monday": [ 29, 23, 25, 27 ],
+            "tuesday": [ 2, 25, 27, 4 ],
+            "wednesday": [ 3, 26, 28, 5 ],
+            "thursday": [ 15, 19, 21, 25 ],
+            "saturday": [ 18, 21, 23, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 300,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=367497098/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://thesymphny.bandcamp.com/album/vol-2',
+          a_string: 'Vol.2 by TheSymphny',
+          rule: {
+            "monday": [ 18, 21, 23, 25 ],
+            "tuesday": [ 29, 23, 25, 27 ],
+            "wednesday": [ 2, 25, 27, 4 ],
+            "thursday": [ 3, 26, 28, 5 ],
+            "saturday": [ 15, 19, 21, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

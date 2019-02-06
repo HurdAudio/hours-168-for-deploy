@@ -998,6 +998,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#B4D6F2',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 72,
+          user_id: 1,
+          theme: 'Primary Colors',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/marra-sherrier-1055585-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '173%',
+          color_dark: '#401F0A',
+          color_medium: '#C31129',
+          color_light: '#FDF8D4',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

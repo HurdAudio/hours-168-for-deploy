@@ -1082,6 +1082,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#DDB287',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 78,
+          user_id: 1,
+          theme: 'Silk/Velvet',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/red-wine-1747661_1920.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '115%',
+          color_dark: '#0D0001',
+          color_medium: '#81414F',
+          color_light: '#FAE1D6',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

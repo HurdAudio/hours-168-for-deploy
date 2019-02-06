@@ -10004,6 +10004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 501,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/57eebb7d1b00007f08ef3921.jpeg',
+          title: 'Polka Dot & Bullet Holes #2',
+          artist: 'Lorna Simpson',
+          year: '2016',
+          rule: {
+            "monday": [ 23, 2, 10, 20 ],
+            "tuesday": [ 23, 4, 29, 19 ],
+            "wednesday": [ 13, 21, 29, 8 ],
+            "thursday": [ 14, 23, 2, 10 ],
+            "friday": [ 20, 25, 2, 12 ],
+            "saturday": [ 19, 27, 6, 14 ],
+            "sunday": [ 21, 2, 8, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 502,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/58a76d1e5cfa5.image.jpg',
+          title: 'Tria 2',
+          artist: 'Merton Simpson',
+          year: '1971',
+          rule: {
+            "monday": [ 21, 2, 8, 14 ],
+            "tuesday": [ 23, 2, 10, 20 ],
+            "wednesday": [ 23, 4, 29, 19 ],
+            "thursday": [ 13, 21, 29, 8 ],
+            "friday": [ 14, 23, 2, 10 ],
+            "saturday": [ 20, 25, 2, 12 ],
+            "sunday": [ 19, 27, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 503,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/cauleen-smith-whitney-0283-360x447.jpg',
+          title: 'In The Wake',
+          artist: 'Cauleen Smith',
+          year: '2017',
+          rule: {
+            "monday": [ 19, 27, 6, 14 ],
+            "tuesday": [ 21, 2, 8, 14 ],
+            "wednesday": [ 23, 2, 10, 20 ],
+            "thursday": [ 23, 4, 29, 19 ],
+            "friday": [ 13, 21, 29, 8 ],
+            "saturday": [ 14, 23, 2, 10 ],
+            "sunday": [ 20, 25, 2, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 504,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Leslie_Smith_III_beta_pictoris_gallery_Sweet_Dreams_and_Flying_Machines_2016_75_by_110_inches.jpg',
+          title: 'Sweet Dreams and Flying Machines',
+          artist: 'Leslie Smith III',
+          year: '2016',
+          rule: {
+            "monday": [ 21, 26, 3, 13 ],
+            "tuesday": [ 20, 28, 7, 15 ],
+            "wednesday": [ 22, 3, 9, 15 ],
+            "thursday": [ 24, 3, 11, 21 ],
+            "friday": [ 24, 5, 1, 20 ],
+            "saturday": [ 14, 22, 1, 9 ],
+            "sunday": [ 15, 24, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 505,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/snow_bouquet.jpg',
+          title: 'Snow Bouquet',
+          artist: 'Gilda Snowden',
+          year: '?',
+          rule: {
+            "monday": [ 15, 24, 3, 11 ],
+            "tuesday": [ 21, 26, 3, 13 ],
+            "wednesday": [ 20, 28, 7, 15 ],
+            "thursday": [ 22, 3, 9, 15 ],
+            "friday": [ 24, 3, 11, 21 ],
+            "saturday": [ 24, 5, 1, 20 ],
+            "sunday": [ 14, 22, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

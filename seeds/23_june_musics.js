@@ -4918,6 +4918,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 274,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1004226220/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://touch333.bandcamp.com/album/the-future-is-a-forward-escape-into-the-past',
+          a_string: 'The Future is a Forward Escape Into the Past by Yann Novak',
+          rule: {
+            "monday": [ 8, 11, 17, 28 ],
+            "tuesday": [ 6, 14, 16, 1 ],
+            "wednesday": [ 10, 14, 20, 1 ],
+            "thursday": [ 9, 12, 17, 29 ],
+            "saturday": [ 8, 11, 17, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 275,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1648632116/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://grounddemons.bandcamp.com/album/sekar-dmn',
+          a_string: 'Sekar DMN by Sekar DMN',
+          rule: {
+            "monday": [ 8, 11, 17, 29 ],
+            "tuesday": [ 8, 11, 17, 28 ],
+            "wednesday": [ 6, 14, 16, 1 ],
+            "thursday": [ 10, 14, 20, 1 ],
+            "saturday": [ 9, 12, 17, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 276,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=719334974/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://unexplainedsoundsgroup.bandcamp.com/album/anthology-of-electroacoustic-lebanese-music',
+          a_string: 'Anthology of Electroacoustic Lebanese music by Various Artists',
+          rule: {
+            "monday": [ 9, 12, 17, 29 ],
+            "tuesday": [ 8, 11, 17, 29 ],
+            "wednesday": [ 8, 11, 17, 28 ],
+            "thursday": [ 6, 14, 16, 1 ],
+            "saturday": [ 10, 14, 20, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

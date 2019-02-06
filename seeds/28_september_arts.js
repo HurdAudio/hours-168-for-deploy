@@ -8534,7 +8534,7 @@ exports.seed = function(knex, Promise) {
           artist: 'Richard Tuttle',
           year: '2007',
           rule: {
-            "monday": [ 31, 7, 25, 3 ],
+            "monday": [ 30, 7, 25, 3 ],
             "tuesday": [ 30, 6, 24, 2 ],
             "wednesday": [ 19, 5, 23, 2 ],
             "thursday": [ 18, 25, 22, 30 ],
@@ -8555,7 +8555,7 @@ exports.seed = function(knex, Promise) {
           year: '1979',
           rule: {
             "monday": [ 2, 7, 26, 4 ],
-            "tuesday": [ 31, 7, 25, 3 ],
+            "tuesday": [ 30, 7, 25, 3 ],
             "wednesday": [ 30, 6, 24, 2 ],
             "thursday": [ 19, 5, 23, 2 ],
             "friday": [ 18, 25, 22, 30 ],
@@ -8576,7 +8576,7 @@ exports.seed = function(knex, Promise) {
           rule: {
             "monday": [ 3, 9, 27, 5 ],
             "tuesday": [ 2, 7, 26, 4 ],
-            "wednesday": [ 31, 7, 25, 3 ],
+            "wednesday": [ 30, 7, 25, 3 ],
             "thursday": [ 30, 6, 24, 2 ],
             "friday": [ 19, 5, 23, 2 ],
             "saturday": [ 18, 25, 22, 30 ],
@@ -8597,10 +8597,110 @@ exports.seed = function(knex, Promise) {
             "monday": [ 26, 3, 21, 28 ],
             "tuesday": [ 3, 9, 27, 5 ],
             "wednesday": [ 2, 7, 26, 4 ],
-            "thursday": [ 31, 7, 25, 3 ],
+            "thursday": [ 30, 7, 25, 3 ],
             "friday": [ 30, 6, 24, 2 ],
             "saturday": [ 19, 5, 23, 2 ],
             "sunday": [ 18, 25, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 431,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/forest-1988.jpg',
+          title: 'Forest',
+          artist: 'Luciano Bartolini',
+          year: '1988',
+          rule: {
+            "monday": [ 18, 25, 22, 30 ],
+            "tuesday": [ 26, 3, 21, 28 ],
+            "wednesday": [ 3, 9, 27, 5 ],
+            "thursday": [ 2, 7, 26, 4 ],
+            "friday": [ 30, 7, 25, 3 ],
+            "saturday": [ 30, 6, 24, 2 ],
+            "sunday": [ 19, 5, 23, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 432,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/midnight-spaghetti-2010.jpg',
+          title: 'Midnight Spaghetti',
+          artist: 'Aki Kuroda',
+          year: '2010',
+          rule: {
+            "monday": [ 19, 5, 23, 2 ],
+            "tuesday": [ 18, 25, 22, 30 ],
+            "wednesday": [ 26, 3, 21, 28 ],
+            "thursday": [ 3, 9, 27, 5 ],
+            "friday": [ 2, 7, 26, 4 ],
+            "saturday": [ 30, 7, 25, 3 ],
+            "sunday": [ 30, 6, 24, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 433,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/atlanta-and-savannah-1988.jpg',
+          title: 'Atlanta and Savannah',
+          artist: 'Glennray Tutor',
+          year: '1988',
+          rule: {
+            "monday": [ 30, 6, 24, 2 ],
+            "tuesday": [ 19, 5, 23, 2 ],
+            "wednesday": [ 18, 25, 22, 30 ],
+            "thursday": [ 26, 3, 21, 28 ],
+            "friday": [ 3, 9, 27, 5 ],
+            "saturday": [ 2, 7, 26, 4 ],
+            "sunday": [ 30, 7, 25, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 434,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/richard-gibbs-1954.jpg',
+          title: 'Richard Gibbs',
+          artist: 'Alice Neel',
+          year: '1954',
+          rule: {
+            "monday": [ 1, 8, 26, 4 ],
+            "tuesday": [ 1, 7, 25, 3 ],
+            "wednesday": [ 20, 6, 24, 3 ],
+            "thursday": [ 19, 26, 23, 1 ],
+            "friday": [ 27, 4, 22, 29 ],
+            "saturday": [ 4, 10, 28, 6 ],
+            "sunday": [ 3, 8, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 435,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/why-is-everything-the-same-poster-objects-1991.jpg',
+          title: 'Why Is Everything The Same? (Poster Objects)',
+          artist: 'Allen Ruppersberg',
+          year: '1991',
+          rule: {
+            "monday": [ 3, 8, 27, 5 ],
+            "tuesday": [ 1, 8, 26, 4 ],
+            "wednesday": [ 1, 7, 25, 3 ],
+            "thursday": [ 20, 6, 24, 3 ],
+            "friday": [ 19, 26, 23, 1 ],
+            "saturday": [ 27, 4, 22, 29 ],
+            "sunday": [ 4, 10, 28, 6 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

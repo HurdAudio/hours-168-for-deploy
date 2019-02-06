@@ -8004,6 +8004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 401,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-02,AllStarAdv.jpg',
+          title: 'All Star Adventure',
+          artist: 'Lorence Bjorklund',
+          year: '1936',
+          rule: {
+            "monday": [ 30, 12, 20, 26 ],
+            "tuesday": [ 29, 10, 19, 25 ],
+            "wednesday": [ 28, 10, 18, 24 ],
+            "thursday": [ 27, 9, 17, 23 ],
+            "friday": [ 26, 8, 16, 22 ],
+            "saturday": [ 25, 6, 5, 21 ],
+            "sunday": [ 24, 6, 25, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 402,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/1930-11,Smokehouse1.jpg',
+          title: 'Smokehouse',
+          artist: 'Blaine',
+          year: '1930',
+          rule: {
+            "monday": [ 24, 6, 25, 1 ],
+            "tuesday": [ 30, 12, 20, 26 ],
+            "wednesday": [ 29, 10, 19, 25 ],
+            "thursday": [ 28, 10, 18, 24 ],
+            "friday": [ 27, 9, 17, 23 ],
+            "saturday": [ 26, 8, 16, 22 ],
+            "sunday": [ 25, 6, 5, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 403,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/29-09-26,WarS.jpg',
+          title: 'War Stories',
+          artist: 'Frederick Blakeslee',
+          year: '1929',
+          rule: {
+            "monday": [ 25, 6, 5, 21 ],
+            "tuesday": [ 24, 6, 25, 1 ],
+            "wednesday": [ 30, 12, 20, 26 ],
+            "thursday": [ 29, 10, 19, 25 ],
+            "friday": [ 28, 10, 18, 24 ],
+            "saturday": [ 27, 9, 17, 23 ],
+            "sunday": [ 26, 8, 16, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 404,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/42-Fall,MskDet.jpg',
+          title: 'Fall Masked Detective',
+          artist: 'Chester Bloom',
+          year: '1942',
+          rule: {
+            "monday": [ 26, 8, 16, 22 ],
+            "tuesday": [ 25, 6, 5, 21 ],
+            "wednesday": [ 24, 6, 25, 1 ],
+            "thursday": [ 30, 12, 20, 26 ],
+            "friday": [ 29, 10, 19, 25 ],
+            "saturday": [ 28, 10, 18, 24 ],
+            "sunday": [ 27, 9, 17, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 405,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-03,pirates-1.jpg',
+          title: 'Pirate Stories',
+          artist: 'Jon L. Blummer',
+          year: '1935',
+          rule: {
+            "monday": [ 27, 9, 17, 23 ],
+            "tuesday": [ 26, 8, 16, 22 ],
+            "wednesday": [ 25, 6, 5, 21 ],
+            "thursday": [ 24, 6, 25, 1 ],
+            "friday": [ 30, 12, 20, 26 ],
+            "saturday": [ 29, 10, 19, 25 ],
+            "sunday": [ 28, 10, 18, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -9804,6 +9804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 491,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/fasl-1960.jpg',
+          title: 'Fasl',
+          artist: 'Aurelie Nemours',
+          year: '1960',
+          rule: {
+            "monday": [ 5, 17, 25, 4 ],
+            "tuesday": [ 6, 16, 24, 3 ],
+            "wednesday": [ 5, 16, 23, 2 ],
+            "thursday": [ 4, 14, 22, 1 ],
+            "friday": [ 3, 13, 22, 31 ],
+            "saturday": [ 9, 18, 28, 5 ],
+            "sunday": [ 8, 18, 26, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 492,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/on-a-clear-day-2-1973.jpg',
+          title: 'On a clear day, #2',
+          artist: 'Agnes Martin',
+          year: '1973',
+          rule: {
+            "monday": [ 8, 18, 26, 5 ],
+            "tuesday": [ 5, 17, 25, 4 ],
+            "wednesday": [ 6, 16, 24, 3 ],
+            "thursday": [ 5, 16, 23, 2 ],
+            "friday": [ 4, 14, 22, 1 ],
+            "saturday": [ 3, 13, 22, 31 ],
+            "sunday": [ 9, 18, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 493,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/reticul-rea-1969.jpg',
+          title: 'Reticulárea',
+          artist: 'Gego',
+          year: '1969',
+          rule: {
+            "monday": [ 9, 18, 28, 5 ],
+            "tuesday": [ 8, 18, 26, 5 ],
+            "wednesday": [ 5, 17, 25, 4 ],
+            "thursday": [ 6, 16, 24, 3 ],
+            "friday": [ 5, 16, 23, 2 ],
+            "saturday": [ 4, 14, 22, 1 ],
+            "sunday": [ 3, 13, 22, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 494,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/tous-toujour-1950.jpg',
+          title: 'Tous toujour',
+          artist: 'Meret Oppenheim',
+          year: '1950',
+          rule: {
+            "monday": [ 3, 13, 22, 31 ],
+            "tuesday": [ 9, 18, 28, 5 ],
+            "wednesday": [ 8, 18, 26, 5 ],
+            "thursday": [ 5, 17, 25, 4 ],
+            "friday": [ 6, 16, 24, 3 ],
+            "saturday": [ 5, 16, 23, 2 ],
+            "sunday": [ 4, 14, 22, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 495,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/siete-1949.jpg',
+          title: 'Siete',
+          artist: 'Carmen Herrera',
+          year: '1949',
+          rule: {
+            "monday": [ 4, 14, 22, 1 ],
+            "tuesday": [ 3, 13, 22, 31 ],
+            "wednesday": [ 9, 18, 28, 5 ],
+            "thursday": [ 8, 18, 26, 5 ],
+            "friday": [ 5, 17, 25, 4 ],
+            "saturday": [ 6, 16, 24, 3 ],
+            "sunday": [ 5, 16, 23, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

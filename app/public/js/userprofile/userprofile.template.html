@@ -4395,7 +4395,7 @@
           <main ng-repeat="art in $ctrl.activeArtShares | orderBy : $ctrl.sortBy">
             <div id="thisIsArtShareDeleteDiv{{art.id}}" class="profileDeleteOption">
 
-              <!-- <a class="btn" href="#" ng-click="$ctrl.deleteObservanceShare(observe.id)">delete</a><br><br> -->
+              <a class="btn" href="#" ng-click="$ctrl.deleteArtShare(art.id)">delete</a><br><br>
             </div>
 
 
@@ -4440,9 +4440,9 @@
                 <img src="{{comment.user_avatar_url}}"><br><br><br>
                 <br><br><br><p>From: {{comment.name}} <br>
                 on {{comment.cleanDate}}</p><br><br>
-                <!-- <textarea id="thisIsTheObservanceShareCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea> -->
-                <!-- <div class="thisIsObservanceShareCommentEditDoneDiv" id="thisIsObservanceShareCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheObservanceShareCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditObservanceShareCommentCompleted(comment.id)">done</a></div> -->
-                <h3 id="thisIsArtShareCommentComment{{art.id}}{{comment.id}}">{{comment.comment}}</h3><br>
+                <textarea id="thisIsTheArtShareCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea>
+                <div class="thisIsArtShareCommentEditDoneDiv" id="thisIsArtCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheArtShareCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditArtShareCommentCompleted(comment.id, art.id)">done</a></div>
+                <h3 id="thisIsArtShareCommentComment{{comment.id}}">{{comment.comment}}</h3><br>
 
                 <!-- <div id="deleteArtShareCommentConfirm{{art.id}}{{comment.id}}" class="messageEditDelete">
 
@@ -4451,10 +4451,10 @@
                   <a class="btn" href="#" ng-click="$ctrl.userArtShareCommentDeleteConfirmClick(art.id)">yes</a>
                 </div> -->
 
-                <!-- <div id="editDeleteArtShareCommentDiv{{art.id}}" class="messageEditDelete">
-                  <a class="btn" href="#" ng-click="$ctrl.userEditArtShareComment(art.id)">edit</a>
-                  <a class="btn" href="#" ng-click="$ctrl.userDeleteArtShareComment(art.id)">delete</a>
-                </div><br><br><br><br> -->
+                <div id="editDeleteArtShareCommentDiv{{comment.id}}" class="messageEditDelete">
+                  <a class="btn" href="#" ng-click="$ctrl.userEditArtShareComment(comment.id, art.id)">edit</a>
+                  <a class="btn" href="#" ng-click="$ctrl.userDeleteArtShareComment(comment.id)">delete</a>
+                </div><br><br><br><br>
               </main>
             </div>
           </main>

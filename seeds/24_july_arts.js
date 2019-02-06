@@ -9004,6 +9004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 451,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/pas-m-che-nothing-doing-1882.jpg',
+          title: 'Pas Mèche (Nothing Doing)',
+          artist: 'Jules Bastien-Lepage',
+          year: '1882',
+          rule: {
+            "monday": [ 30, 10, 21, 1 ],
+            "tuesday": [ 5, 16, 27, 6 ],
+            "wednesday": [ 4, 13, 26, 6 ],
+            "thursday": [ 2, 13, 25, 5 ],
+            "friday": [ 2, 13, 24, 25 ],
+            "saturday": [ 1, 12, 22, 24 ],
+            "sunday": [ 31, 11, 22, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 452,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/moonlit-dreams-1.jpg',
+          title: 'Moonlit Dreams',
+          artist: 'Gabriel Ferrier',
+          year: '1874',
+          rule: {
+            "monday": [ 31, 11, 22, 23 ],
+            "tuesday": [ 30, 10, 21, 1 ],
+            "wednesday": [ 5, 16, 27, 6 ],
+            "thursday": [ 4, 13, 26, 6 ],
+            "friday": [ 2, 13, 25, 5 ],
+            "saturday": [ 2, 13, 24, 25 ],
+            "sunday": [ 1, 12, 22, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 453,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/autumn-landscape-1898.jpg',
+          title: 'Autumn Landscape',
+          artist: 'Pierre Emmanuel Damoye',
+          year: '1898',
+          rule: {
+            "monday": [ 1, 12, 22, 24 ],
+            "tuesday": [ 31, 11, 22, 23 ],
+            "wednesday": [ 30, 10, 21, 1 ],
+            "thursday": [ 5, 16, 27, 6 ],
+            "friday": [ 4, 13, 26, 6 ],
+            "saturday": [ 2, 13, 25, 5 ],
+            "sunday": [ 2, 13, 24, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 454,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/les-petites-faunesses-1897.jpg',
+          title: 'Les petites faunesses',
+          artist: 'Eugène Grasset',
+          year: '1897',
+          rule: {
+            "monday": [ 2, 13, 24, 25 ],
+            "tuesday": [ 1, 12, 22, 24 ],
+            "wednesday": [ 31, 11, 22, 23 ],
+            "thursday": [ 30, 10, 21, 1 ],
+            "friday": [ 5, 16, 27, 6 ],
+            "saturday": [ 4, 13, 26, 6 ],
+            "sunday": [ 2, 13, 25, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 455,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/alexandre-jacques-chantron-1891-danae-1.jpg',
+          title: 'Danae',
+          artist: 'Alexandre-Jacques Chantron',
+          year: '1891',
+          rule: {
+            "monday": [ 3, 14, 26, 6 ],
+            "tuesday": [ 3, 14, 25, 26 ],
+            "wednesday": [ 2, 13, 23, 25 ],
+            "thursday": [ 1, 12, 23, 24 ],
+            "friday": [ 31, 11, 22, 2 ],
+            "saturday": [ 6, 17, 28, 7 ],
+            "sunday": [ 5, 14, 27, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

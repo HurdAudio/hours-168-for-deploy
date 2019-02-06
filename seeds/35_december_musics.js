@@ -4270,6 +4270,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 238,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2990243365/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/la-mermelada-desesperado-cumbia-fuzz-peru-early-80s',
+          a_string: 'La Mermelada - Desesperado (Cumbia Fuzz Peru Early 80&#39;s) by La Mermelada',
+          rule: {
+            "monday": [ 6, 12, 18, 24 ],
+            "tuesday": [ 10, 16, 22, 28 ],
+            "wednesday": [ 9, 15, 21, 27 ],
+            "thursday": [ 6, 14, 20, 26 ],
+            "saturday": [ 5, 13, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 239,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3485141576/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/el-cuarteto-universal-luna-de-miel-cumbia-peru-early-80s',
+          a_string: 'El Cuarteto Universal - Luna de miel (Cumbia Peru Early 80&#39;s) by El Cuarteto Universal',
+          rule: {
+            "monday": [ 5, 13, 19, 25 ],
+            "tuesday": [ 6, 12, 18, 24 ],
+            "wednesday": [ 10, 16, 22, 28 ],
+            "thursday": [ 9, 15, 21, 27 ],
+            "saturday": [ 6, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 240,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=278202744/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/la-mermelada-fatalidad-cumbia-peru-early-80s',
+          a_string: 'La Mermelada - Fatalidad (Cumbia Peru Early 80&#39;s) by La Mermelada',
+          rule: {
+            "monday": [ 6, 14, 20, 26 ],
+            "tuesday": [ 5, 13, 19, 25 ],
+            "wednesday": [ 6, 12, 18, 24 ],
+            "thursday": [ 10, 16, 22, 28 ],
+            "saturday": [ 9, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

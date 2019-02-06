@@ -8804,6 +8804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 441,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/interior-1913.jpg',
+          title: 'Interior',
+          artist: 'Periklis Vyzantios',
+          year: '1913',
+          rule: {
+            "monday": [ 3, 7, 15, 31 ],
+            "tuesday": [ 2, 6, 14, 30 ],
+            "wednesday": [ 1, 3, 13, 29 ],
+            "thursday": [ 31, 3, 12, 28 ],
+            "friday": [ 30, 2, 11, 27 ],
+            "saturday": [ 5, 9, 17, 2 ],
+            "sunday": [ 4, 7, 16, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 442,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/lake-afternoon-1935.jpg',
+          title: 'Lake Afternoon',
+          artist: 'Arthur Dove',
+          year: '1935',
+          rule: {
+            "monday": [ 4, 7, 16, 1 ],
+            "tuesday": [ 3, 7, 15, 31 ],
+            "wednesday": [ 2, 6, 14, 30 ],
+            "thursday": [ 1, 3, 13, 29 ],
+            "friday": [ 31, 3, 12, 28 ],
+            "saturday": [ 30, 2, 11, 27 ],
+            "sunday": [ 5, 9, 17, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 443,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/lisbon-1931.jpg',
+          title: 'Lisbon',
+          artist: 'Mario Eloy',
+          year: '1931',
+          rule: {
+            "monday": [ 5, 9, 17, 2 ],
+            "tuesday": [ 4, 7, 16, 1 ],
+            "wednesday": [ 3, 7, 15, 31 ],
+            "thursday": [ 2, 6, 14, 30 ],
+            "friday": [ 1, 3, 13, 29 ],
+            "saturday": [ 31, 3, 12, 28 ],
+            "sunday": [ 30, 2, 11, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 444,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/phantoms-1903.jpg',
+          title: 'Phantoms',
+          artist: 'Victor Borisov-Musatov',
+          year: '1903',
+          rule: {
+            "monday": [ 30, 2, 11, 27 ],
+            "tuesday": [ 5, 9, 17, 2 ],
+            "wednesday": [ 4, 7, 16, 1 ],
+            "thursday": [ 3, 7, 15, 31 ],
+            "friday": [ 2, 6, 14, 30 ],
+            "saturday": [ 1, 3, 13, 29 ],
+            "sunday": [ 31, 3, 12, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 445,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/battle-for-a-woman-1905.jpg',
+          title: 'Battle for a Woman',
+          artist: 'Franz Stuck',
+          year: '1905',
+          rule: {
+            "monday": [ 31, 3, 12, 28 ],
+            "tuesday": [ 30, 2, 11, 27 ],
+            "wednesday": [ 5, 9, 17, 2 ],
+            "thursday": [ 4, 7, 16, 1 ],
+            "friday": [ 3, 7, 15, 31 ],
+            "saturday": [ 2, 6, 14, 30 ],
+            "sunday": [ 1, 3, 13, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

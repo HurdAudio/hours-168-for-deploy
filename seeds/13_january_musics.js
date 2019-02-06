@@ -5458,6 +5458,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 304,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3926965431/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/earnest-rubbish',
+          a_string: 'Earnest Rubbish by Matthew Revert/Vanessa Rossetto',
+          rule: {
+            "monday": [ 22, 29, 30, 31 ],
+            "tuesday": [ 21, 27, 28, 30 ],
+            "wednesday": [ 20, 27, 28, 29 ],
+            "thursday": [ 19, 25, 26, 27 ],
+            "saturday": [ 18, 25, 26, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 305,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3458018423/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/busmans-holiday',
+          a_string: 'Busman&#39;s Holiday by Kevin Drumm/Jason Lescalleet',
+          rule: {
+            "monday": [ 18, 25, 26, 27 ],
+            "tuesday": [ 22, 29, 30, 31 ],
+            "wednesday": [ 21, 27, 28, 30 ],
+            "thursday": [ 20, 27, 28, 29 ],
+            "saturday": [ 19, 25, 26, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 306,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2489373334/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/amorphous-spores',
+          a_string: 'Amorphous Spores by Takahiro Kawaguchi/Utah Kawasaki',
+          rule: {
+            "monday": [ 19, 25, 26, 27 ],
+            "tuesday": [ 18, 25, 26, 27 ],
+            "wednesday": [ 22, 29, 30, 31 ],
+            "thursday": [ 21, 27, 28, 30 ],
+            "saturday": [ 20, 27, 28, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

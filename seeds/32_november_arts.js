@@ -8192,7 +8192,7 @@ exports.seed = function(knex, Promise) {
           img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/sem-titulo-1993.jpg',
           title: 'Sem titulo',
           artist: 'Angelo de Sousa',
-          year: '1993',
+          year: '1983',
           rule: {
             "monday": [ 1, 6, 12, 17 ],
             "tuesday": [ 30, 5, 11, 18 ],
@@ -8201,6 +8201,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 4, 8, 15, 19 ],
             "saturday": [ 3, 6, 13, 18 ],
             "sunday": [ 2, 6, 13, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 411,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1983.jpg',
+          title: 'Untitled',
+          artist: 'Fred Sandback',
+          year: '1983',
+          rule: {
+            "monday": [ 2, 6, 13, 18 ],
+            "tuesday": [ 1, 6, 12, 17 ],
+            "wednesday": [ 30, 5, 11, 18 ],
+            "thursday": [ 6, 11, 17, 22 ],
+            "friday": [ 5, 7, 15, 21 ],
+            "saturday": [ 4, 8, 15, 19 ],
+            "sunday": [ 3, 6, 13, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 412,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1983-(1).jpg',
+          title: 'Untitled',
+          artist: 'Mathias Goeritz',
+          year: '1983',
+          rule: {
+            "monday": [ 3, 6, 13, 18 ],
+            "tuesday": [ 2, 6, 13, 18 ],
+            "wednesday": [ 1, 6, 12, 17 ],
+            "thursday": [ 30, 5, 11, 18 ],
+            "friday": [ 6, 11, 17, 22 ],
+            "saturday": [ 5, 7, 15, 21 ],
+            "sunday": [ 4, 8, 15, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 413,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/edge-of-red-1983.jpg',
+          title: 'Edge of Red',
+          artist: 'Warren Rohrer',
+          year: '1983',
+          rule: {
+            "monday": [ 5, 9, 16, 20 ],
+            "tuesday": [ 4, 7, 14, 19 ],
+            "wednesday": [ 3, 7, 14, 19 ],
+            "thursday": [ 2, 7, 13, 18 ],
+            "friday": [ 1, 6, 12, 19 ],
+            "saturday": [ 7, 12, 18, 23 ],
+            "sunday": [ 6, 8, 16, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 414,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1984.jpg',
+          title: 'Untitled',
+          artist: 'Mira Schendel',
+          year: '1984',
+          rule: {
+            "monday": [ 6, 8, 16, 22 ],
+            "tuesday": [ 5, 9, 16, 20 ],
+            "wednesday": [ 4, 7, 14, 19 ],
+            "thursday": [ 3, 7, 14, 19 ],
+            "friday": [ 2, 7, 13, 18 ],
+            "saturday": [ 1, 6, 12, 19 ],
+            "sunday": [ 7, 12, 18, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 415,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/truitt-84-1984.jpg',
+          title: 'Truitt 84',
+          artist: 'Anne Truitt',
+          year: '1984',
+          rule: {
+            "monday": [ 7, 12, 18, 23 ],
+            "tuesday": [ 6, 8, 16, 22 ],
+            "wednesday": [ 5, 9, 16, 20 ],
+            "thursday": [ 4, 7, 14, 19 ],
+            "friday": [ 3, 7, 14, 19 ],
+            "saturday": [ 2, 7, 13, 18 ],
+            "sunday": [ 1, 6, 12, 19 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

@@ -295,6 +295,67 @@
       vm.cancelObservanceInvite = cancelObservanceInvite;
       vm.userEditArtModuleComment = userEditArtModuleComment;
       vm.userEditArtModuleCommentCompleted = userEditArtModuleCommentCompleted;
+      vm.userEditArtShareComment = userEditArtShareComment;
+      vm.userEditArtShareCommentCompleted = userEditArtShareCommentCompleted;
+      vm.deleteArtShare = deleteArtShare;
+
+      function deleteArtShare(artId) {
+        $http.delete(`/art_shares/${artId}`)
+        .then(deletedArtShareData => {
+          let deletedArtShare = deletedArtShareData.data[0];
+          for (let i = 0; i <vm.activeArtShares.length; i++) {
+            if (parseInt(vm.activeArtShares[i].id) === parseInt(artId)) {
+              vm.activeArtShares.splice(i, 1);
+            }
+          }
+        });
+      }
+
+      function userEditArtShareCommentCompleted(commentId, artId) {
+        let thisIsTheArtShareCommentEditor = document.getElementById('thisIsTheArtShareCommentEditor' + commentId);
+        let thisIsArtCommentEditDoneDiv = document.getElementById('thisIsArtCommentEditDoneDiv' + commentId);
+        let thisIsArtShareCommentComment = document.getElementById('thisIsArtShareCommentComment' + commentId);
+        let editDeleteArtShareCommentDiv = document.getElementById('editDeleteArtShareCommentDiv' + commentId);
+
+        let subObj = {
+          comment: thisIsTheArtShareCommentEditor.value
+        }
+
+        $http.get(`/art_share_comments/${commentId}`)
+        .then(commentData => {
+          let comment = commentData.data;
+          if (comment.comment !== subObj.comment) {
+            $http.patch(`/art_share_comments/${comment.id}`, subObj)
+            .then(patchedCommentData => {
+              let patchedComment = patchedCommentData.data;
+              thisIsTheArtShareCommentEditor.setAttribute("style", "display: none;");
+              thisIsArtCommentEditDoneDiv.setAttribute("style", "display: none;");
+              thisIsArtShareCommentComment.innerHTML = patchedComment.comment;
+              thisIsArtShareCommentComment.setAttribute("style", "visibility: visible;");
+              editDeleteArtShareCommentDiv.setAttribute("style", "display: initial;");
+            });
+          } else {
+            thisIsTheArtShareCommentEditor.setAttribute("style", "display: none;");
+            thisIsArtCommentEditDoneDiv.setAttribute("style", "display: none;");
+            thisIsArtShareCommentComment.setAttribute("style", "visibility: visible;");
+            editDeleteArtShareCommentDiv.setAttribute("style", "display: initial;");
+          }
+        });
+      }
+
+      function userEditArtShareComment(commentId, artId) {
+        $http.get(`/art_share_comments/${commentId}`)
+        .then(commentData => {
+          let comment = commentData.data;
+          let thisIsTheArtShareCommentEditor = document.getElementById('thisIsTheArtShareCommentEditor' + comment.id);
+          let thisIsArtShareCommentComment = document.getElementById('thisIsArtShareCommentComment' + comment.id);
+          document.getElementById('editDeleteArtShareCommentDiv' + comment.id).setAttribute("style", "display: none;");
+          thisIsTheArtShareCommentEditor.setAttribute("style", "display: initial;");
+          thisIsTheArtShareCommentEditor.value = comment.comment;
+          thisIsArtShareCommentComment.setAttribute("style", "visibility: hidden;");
+          document.getElementById('thisIsArtShareCommentEditDoneDiv' + comment.id).setAttribute("style", "display: initial;");
+        });
+      }
 
       function obtainMusicShareMusic (musicShare, index) {
         $http.get(`/${musicShare.music_month}/${musicShare.music_id}`)
@@ -1017,12 +1078,24 @@
               }
               vm.activeArtShares[index].comments[i] = {
                 id: shareComments[i].id,
-                comment: shareComments[i].comment
+                comment: shareComments[i].comment,
+                user_id: shareComments[i].user_id
               };
               getArtShareCommenterDetails(shareComments[i], index, i);
               check = new Date(shareComments[i].created_at);
               vm.activeArtShares[index].comments[i].cleanDate = cleanDateHoliday(shareComments[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.';
             }
+            setTimeout(() => {
+              for (let j = 0; j < vm.activeArtShares[index].comments.length; j++) {
+                if (parseInt(vm.activeArtShares[index].comments[j].user_id) === parseInt(currentUserId)) {
+                  document.getElementById('editDeleteArtShareCommentDiv' + vm.activeArtShares[index].comments[j].id).setAttribute("style", "display: initial;");
+                } else {
+                  document.getElementById('editDeleteArtShareCommentDiv' + vm.activeArtShares[index].comments[j].id).setAttribute("style", "display: none;");
+                }
+                document.getElementById('thisIsTheArtShareCommentEditor' + vm.activeArtShares[index].comments[j].id).setAttribute("style", "display: none;");
+                document.getElementById('thisIsArtShareCommentEditDoneDiv' + vm.activeArtShares[index].comments[j].id).setAttribute("style", "display: none;");
+              }
+            }, (vm.activeArtShares[index].comments.length * 100));
           }
         });
       }
@@ -1061,6 +1134,7 @@
             setTimeout(() => {
               for (let j = 0; j < vm.activeArtShares.length; j++) {
                 if ((parseInt(vm.activeArtShares[j].share_associate_id) === parseInt(currentUserId))) {
+                  document.getElementById('thisIsArtShareDeleteDiv' + vm.activeArtShares[j].id).setAttribute("style", "display: none;");
                   document.getElementById('artblockInviter' + vm.activeArtShares[j].id).setAttribute("style", "display: initial;");
                   document.getElementById('artblockInvitee' + vm.activeArtShares[j].id).setAttribute("style", "display: none;");
                   if (vm.activeArtShares[j].responded) {
@@ -1078,6 +1152,7 @@
                     document.getElementById('artShareDeclined' + vm.activeArtShares[j].id).setAttribute("style", "display: none;");
                   }
                 } else {
+                  document.getElementById('thisIsArtShareDeleteDiv' + vm.activeArtShares[j].id).setAttribute("style", "display: initial;");
                   document.getElementById('artblockInviter' + vm.activeArtShares[j].id).setAttribute("style", "display: none;");
                   document.getElementById('artblockInvitee' + vm.activeArtShares[j].id).setAttribute("style", "display: initial;");
                   document.getElementById('artAcceptDecline' + vm.activeArtShares[j].id).setAttribute("style", "display: none;");
@@ -17118,7 +17193,7 @@
                   }
                 }
               }
-            }, (userTaskShares.length * 50));
+            }, (vm.activeTaskShares.length * 50));
           }
         });
       }
