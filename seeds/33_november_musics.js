@@ -4432,6 +4432,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 247,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1862346822/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://toumanidiabate.bandcamp.com/album/the-mande-variations',
+          a_string: 'The Mande Variations by Toumani Diabaté',
+          rule: {
+            "monday": [ 6, 17, 28, 2 ],
+            "tuesday": [ 5, 16, 27, 1 ],
+            "wednesday": [ 4, 15, 26, 28 ],
+            "thursday": [ 3, 14, 25, 7 ],
+            "saturday": [ 7, 18, 29, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 248,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2733296487/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://toumanidiabate.bandcamp.com/album/boulevard-de-lindependance',
+          a_string: 'Boulevard de l&#39;Independance by Toumani Diabaté',
+          rule: {
+            "monday": [ 7, 18, 29, 3 ],
+            "tuesday": [ 6, 17, 28, 2 ],
+            "wednesday": [ 5, 16, 27, 1 ],
+            "thursday": [ 4, 15, 26, 28 ],
+            "saturday": [ 3, 14, 25, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 249,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1881996899/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://fatoumatadiawara.bandcamp.com/album/fatou',
+          a_string: 'Fatou by Fatoumata Diawara',
+          rule: {
+            "monday": [ 3, 14, 25, 7 ],
+            "tuesday": [ 7, 18, 29, 3 ],
+            "wednesday": [ 6, 17, 28, 2 ],
+            "thursday": [ 5, 16, 27, 1 ],
+            "saturday": [ 4, 15, 26, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

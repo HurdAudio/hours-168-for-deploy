@@ -4972,6 +4972,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 277,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1388729084/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://midirarecords.bandcamp.com/album/fragmented-lives',
+          a_string: 'Fragmented Lives by Zenjungle',
+          rule: {
+            "monday": [ 10, 14, 20, 1 ],
+            "tuesday": [ 9, 12, 17, 29 ],
+            "wednesday": [ 8, 11, 17, 29 ],
+            "thursday": [ 8, 11, 17, 28 ],
+            "saturday": [ 6, 14, 16, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 278,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1512816474/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://thevolumesettingsfolder.bandcamp.com/album/always-the-same-never-alike',
+          a_string: 'Always The Same, Never Alike by the volume settings folder',
+          rule: {
+            "monday": [ 6, 14, 16, 1 ],
+            "tuesday": [ 10, 14, 20, 1 ],
+            "wednesday": [ 9, 12, 17, 29 ],
+            "thursday": [ 8, 11, 17, 29 ],
+            "saturday": [ 8, 11, 17, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 279,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1999772136/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://dauw.bandcamp.com/album/110317',
+          a_string: '11.03.17 by Benoît Pioulard',
+          rule: {
+            "monday": [ 8, 11, 17, 28 ],
+            "tuesday": [ 6, 14, 16, 1 ],
+            "wednesday": [ 10, 14, 20, 1 ],
+            "thursday": [ 9, 12, 17, 29 ],
+            "saturday": [ 8, 11, 17, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

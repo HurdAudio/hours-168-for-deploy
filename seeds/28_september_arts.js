@@ -8704,6 +8704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 436,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/native-bus-2006.jpg',
+          title: 'Native Bus',
+          artist: 'David Michael Hinnebusch',
+          year: 'c.2006',
+          rule: {
+            "monday": [ 4, 10, 28, 6 ],
+            "tuesday": [ 3, 8, 27, 5 ],
+            "wednesday": [ 1, 8, 26, 4 ],
+            "thursday": [ 1, 7, 25, 3 ],
+            "friday": [ 20, 6, 24, 3 ],
+            "saturday": [ 19, 26, 23, 1 ],
+            "sunday": [ 27, 4, 22, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 437,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/big-buddha-of-todaiji-temple-1953.jpg',
+          title: 'Big Buddha Of Todaiji Temple',
+          artist: 'Asano Takeji',
+          year: '1953',
+          rule: {
+            "monday": [ 27, 4, 22, 29 ],
+            "tuesday": [ 4, 10, 28, 6 ],
+            "wednesday": [ 3, 8, 27, 5 ],
+            "thursday": [ 1, 8, 26, 4 ],
+            "friday": [ 1, 7, 25, 3 ],
+            "saturday": [ 20, 6, 24, 3 ],
+            "sunday": [ 19, 26, 23, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 438,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/blossom-out-1986.jpg',
+          title: 'Blossom Out',
+          artist: 'Wu Guanzhong',
+          year: '1986',
+          rule: {
+            "monday": [ 19, 26, 23, 1 ],
+            "tuesday": [ 27, 4, 22, 29 ],
+            "wednesday": [ 4, 10, 28, 6 ],
+            "thursday": [ 3, 8, 27, 5 ],
+            "friday": [ 1, 8, 26, 4 ],
+            "saturday": [ 1, 7, 25, 3 ],
+            "sunday": [ 20, 6, 24, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 439,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/lotus-and-dragonfly-1953.jpg',
+          title: 'Lotus and dragonfly',
+          artist: 'Qi Baishi',
+          year: '1953',
+          rule: {
+            "monday": [ 20, 6, 24, 3 ],
+            "tuesday": [ 19, 26, 23, 1 ],
+            "wednesday": [ 27, 4, 22, 29 ],
+            "thursday": [ 4, 10, 28, 6 ],
+            "friday": [ 3, 8, 27, 5 ],
+            "saturday": [ 1, 8, 26, 4 ],
+            "sunday": [ 1, 7, 25, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 440,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/primpsofair-1995.jpg',
+          title: 'Primpsofair',
+          artist: 'Stanley Boxer',
+          year: '1995',
+          rule: {
+            "monday": [ 1, 7, 25, 3 ],
+            "tuesday": [ 20, 6, 24, 3 ],
+            "wednesday": [ 19, 26, 23, 1 ],
+            "thursday": [ 27, 4, 22, 29 ],
+            "friday": [ 4, 10, 28, 6 ],
+            "saturday": [ 3, 8, 27, 5 ],
+            "sunday": [ 1, 8, 26, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

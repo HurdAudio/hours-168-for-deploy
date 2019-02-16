@@ -2200,7 +2200,6 @@
         let indexArt = vm.arts.length;
         let indexMusic = vm.musics.length;
         let userTimezoneOffset = viewDate.getTimezoneOffset() * 60000;
-        // console.log(userTimezoneOffset);
         vm.observances = [];
         let observancesPane = document.getElementById('observancesPane');
         $http.get(`/observancesbyuser/${currentUserId}`)
@@ -2209,9 +2208,7 @@
           let observanceDate;
           for (let i = 0; i < userObservances.length; i++) {
             observanceDate = new Date(userObservances[i].day_of);
-            // alert('here');
             observanceDate = new Date(observanceDate.getTime() + userTimezoneOffset);
-            // alert(observanceDate);
             if ((viewDate.getMonth() === observanceDate.getMonth()) && (viewDate.getDate() === (observanceDate.getDate()))) {
               vm.observances.push(userObservances[i]);
             }

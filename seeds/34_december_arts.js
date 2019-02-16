@@ -8104,6 +8104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 406,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/1941-06,StirSci.jpg',
+          title: 'Stirring Science',
+          artist: 'Hannes Bok',
+          year: '1941',
+          rule: {
+            "monday": [ 29, 11, 19, 25 ],
+            "tuesday": [ 28, 10, 18, 24 ],
+            "wednesday": [ 27, 9, 17, 23 ],
+            "thursday": [ 26, 7, 6, 22 ],
+            "friday": [ 25, 7, 26, 2 ],
+            "saturday": [ 31, 13, 21, 27 ],
+            "sunday": [ 30, 11, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 407,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/27-12,AmerHmr.jpg',
+          title: 'American Humor',
+          artist: 'Enoch Bolles',
+          year: '1927',
+          rule: {
+            "monday": [ 30, 11, 20, 26 ],
+            "tuesday": [ 29, 11, 19, 25 ],
+            "wednesday": [ 28, 10, 18, 24 ],
+            "thursday": [ 27, 9, 17, 23 ],
+            "friday": [ 26, 7, 6, 22 ],
+            "saturday": [ 25, 7, 26, 2 ],
+            "sunday": [ 31, 13, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 408,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/52-11,ZaneGreyW.jpg',
+          title: 'Zane Grey Western',
+          artist: 'Stanley Borack',
+          year: '1952',
+          rule: {
+            "monday": [ 31, 13, 21, 27 ],
+            "tuesday": [ 30, 11, 20, 26 ],
+            "wednesday": [ 29, 11, 19, 25 ],
+            "thursday": [ 28, 10, 18, 24 ],
+            "friday": [ 27, 9, 17, 23 ],
+            "saturday": [ 26, 7, 6, 22 ],
+            "sunday": [ 25, 7, 26, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 409,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/15-08,Forecast.jpg',
+          title: 'The Forecast',
+          artist: 'Arthur R. Bowker',
+          year: '1915',
+          rule: {
+            "monday": [ 25, 7, 26, 2 ],
+            "tuesday": [ 31, 13, 21, 27 ],
+            "wednesday": [ 30, 11, 20, 26 ],
+            "thursday": [ 29, 11, 19, 25 ],
+            "friday": [ 28, 10, 18, 24 ],
+            "saturday": [ 27, 9, 17, 23 ],
+            "sunday": [ 26, 7, 6, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 410,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/40-08,BlueBolt.jpg',
+          title: 'Blue Bolt',
+          artist: 'William J. Brady',
+          year: '1940',
+          rule: {
+            "monday": [ 26, 7, 6, 22 ],
+            "tuesday": [ 25, 7, 26, 2 ],
+            "wednesday": [ 31, 13, 21, 27 ],
+            "thursday": [ 30, 11, 20, 26 ],
+            "friday": [ 29, 11, 19, 25 ],
+            "saturday": [ 28, 10, 18, 24 ],
+            "sunday": [ 27, 9, 17, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

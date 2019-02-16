@@ -5512,6 +5512,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 307,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2542190090/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/three-exercises',
+          a_string: 'Three Exercises by Devin DiSanto/Nick Hoffman',
+          rule: {
+            "monday": [ 20, 27, 28, 29 ],
+            "tuesday": [ 19, 25, 26, 27 ],
+            "wednesday": [ 18, 25, 26, 27 ],
+            "thursday": [ 22, 29, 30, 31 ],
+            "saturday": [ 21, 27, 28, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 308,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2205478563/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/severe-liberties',
+          a_string: 'Severe Liberties by Kevin Parks/Vanessa Rossetto',
+          rule: {
+            "monday": [ 22, 28, 29, 31 ],
+            "tuesday": [ 21, 28, 29, 30 ],
+            "wednesday": [ 20, 26, 27, 28 ],
+            "thursday": [ 19, 26, 27, 28 ],
+            "saturday": [ 23, 30, 31, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 309,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2477438150/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/parazoan-mapping',
+          a_string: 'Parazoan Mapping by Éric La Casa/Taku Unami',
+          rule: {
+            "monday": [ 23, 30, 31, 1 ],
+            "tuesday": [ 22, 28, 29, 31 ],
+            "wednesday": [ 21, 28, 29, 30 ],
+            "thursday": [ 20, 26, 27, 28 ],
+            "saturday": [ 19, 26, 27, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

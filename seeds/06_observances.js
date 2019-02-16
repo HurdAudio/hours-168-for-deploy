@@ -10651,6 +10651,34 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 684,
+          user_id: 1,
+          name: 'Pierre-Joseph Proudhon (founder of mutualist philosophy and first proclaimed anarchist) born in 1809',
+          color: '#362E21',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Portrait_of_Pierre_Joseph_Proudhon_1865.jpg',
+          day_of: new Date ('1809-01-15T13:44:00.000Z'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 685,
+          user_id: 1,
+          name: 'Peter Kropotkin (activist/revolutionary/scientist/geographer/anarcho-communist) born 1842.',
+          color: '#7A7A7A',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Peter_Kropotkin_circa_1900.jpg',
+          day_of: new Date ('1842-12-09T13:44:00.000Z'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

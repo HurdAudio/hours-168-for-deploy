@@ -9704,6 +9704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 486,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/los-angeles-dodgers-1970-yearbook-big-88-artworks.jpg',
+          title: 'Los Angeles Dodgers 1970 Yearbook',
+          artist: 'John Farr',
+          year: '1970',
+          rule: {
+            "monday": [ 6, 11, 17, 23 ],
+            "tuesday": [ 5, 10, 16, 22 ],
+            "wednesday": [ 10, 16, 21, 28 ],
+            "thursday": [ 24, 14, 20, 26 ],
+            "friday": [ 9, 12, 20, 26 ],
+            "saturday": [ 8, 12, 27, 25 ],
+            "sunday": [ 5, 11, 17, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 487,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/dodgerstadiumpix.jpg',
+          title: 'Dodger Stadium',
+          artist: 'unknown artist',
+          year: '2013',
+          rule: {
+            "monday": [ 5, 11, 17, 23 ],
+            "tuesday": [ 6, 11, 17, 23 ],
+            "wednesday": [ 5, 10, 16, 22 ],
+            "thursday": [ 10, 16, 21, 28 ],
+            "friday": [ 24, 14, 20, 26 ],
+            "saturday": [ 9, 12, 20, 26 ],
+            "sunday": [ 8, 12, 27, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 488,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/593715.jpg',
+          title: 'Dodger Stadium Wallpaper',
+          artist: 'unknown artist',
+          year: 'xxi cent.',
+          rule: {
+            "monday": [ 8, 12, 27, 25 ],
+            "tuesday": [ 5, 11, 17, 23 ],
+            "wednesday": [ 6, 11, 17, 23 ],
+            "thursday": [ 5, 10, 16, 22 ],
+            "friday": [ 10, 16, 21, 28 ],
+            "saturday": [ 24, 14, 20, 26 ],
+            "sunday": [ 9, 12, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 489,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/593737.jpg',
+          title: 'Los Angeles Dodgers Wallpaper',
+          artist: 'unknown artist',
+          year: '2013',
+          rule: {
+            "monday": [ 9, 12, 20, 26 ],
+            "tuesday": [ 8, 12, 27, 25 ],
+            "wednesday": [ 5, 11, 17, 23 ],
+            "thursday": [ 6, 11, 17, 23 ],
+            "friday": [ 5, 10, 16, 22 ],
+            "saturday": [ 10, 16, 21, 28 ],
+            "sunday": [ 24, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 490,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/593719.jpg',
+          title: 'Los Angeles Angels Wallpaper',
+          artist: 'unknown artist',
+          year: '2013',
+          rule: {
+            "monday": [ 24, 14, 20, 26 ],
+            "tuesday": [ 9, 12, 20, 26 ],
+            "wednesday": [ 8, 12, 27, 25 ],
+            "thursday": [ 5, 11, 17, 23 ],
+            "friday": [ 6, 11, 17, 23 ],
+            "saturday": [ 5, 10, 16, 22 ],
+            "sunday": [ 10, 16, 21, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

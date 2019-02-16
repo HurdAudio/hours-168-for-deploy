@@ -5296,6 +5296,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 295,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=311740226/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://anemonelovesyou.bandcamp.com/album/beat-my-distance',
+          a_string: 'Beat My Distance by Anemone',
+          rule: {
+            "monday": [ 15, 21, 27, 5 ],
+            "tuesday": [ 13, 20, 26, 3 ],
+            "wednesday": [ 13, 19, 25, 2 ],
+            "thursday": [ 17, 23, 29, 6 ],
+            "saturday": [ 16, 22, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 296,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=277856306/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://grouper.bandcamp.com/album/after-its-own-death-walking-in-a-spiral-towards-the-house',
+          a_string: 'After its own death / Walking in a spiral towards the house by Nivhek',
+          rule: {
+            "monday": [ 16, 22, 28, 5 ],
+            "tuesday": [ 15, 21, 27, 5 ],
+            "wednesday": [ 13, 20, 26, 3 ],
+            "thursday": [ 13, 19, 25, 2 ],
+            "saturday": [ 17, 23, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 297,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1431371002/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://intlanthem.bandcamp.com/album/the-oracle',
+          a_string: 'The Oracle by Angel Bat Dawid',
+          rule: {
+            "monday": [ 17, 23, 29, 6 ],
+            "tuesday": [ 16, 22, 28, 5 ],
+            "wednesday": [ 15, 21, 27, 5 ],
+            "thursday": [ 13, 20, 26, 3 ],
+            "saturday": [ 13, 19, 25, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

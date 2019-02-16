@@ -9904,6 +9904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 496,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/composition-abstraite-1955.jpg',
+          title: 'Composition abstraite',
+          artist: 'Composition abstraite',
+          year: '1955',
+          rule: {
+            "monday": [ 5, 16, 23, 2 ],
+            "tuesday": [ 4, 14, 22, 1 ],
+            "wednesday": [ 3, 13, 22, 31 ],
+            "thursday": [ 9, 18, 28, 5 ],
+            "friday": [ 8, 18, 26, 5 ],
+            "saturday": [ 5, 17, 25, 4 ],
+            "sunday": [ 6, 16, 24, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 497,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/woman-in-reykjavik-with-umbrella-1980.jpg',
+          title: 'Woman in Reykjavik with Umbrella',
+          artist: 'Louisa Matthiasdottir',
+          year: '1980',
+          rule: {
+            "monday": [ 7, 17, 25, 4 ],
+            "tuesday": [ 6, 17, 24, 3 ],
+            "wednesday": [ 5, 15, 23, 2 ],
+            "thursday": [ 4, 14, 23, 1 ],
+            "friday": [ 10, 19, 29, 6 ],
+            "saturday": [ 9, 19, 27, 6 ],
+            "sunday": [ 6, 18, 26, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 498,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-1978-2.jpg',
+          title: 'Untitled',
+          artist: 'Mira Schendel',
+          year: '1978',
+          rule: {
+            "monday": [ 6, 18, 26, 5 ],
+            "tuesday": [ 7, 17, 25, 4 ],
+            "wednesday": [ 6, 17, 24, 3 ],
+            "thursday": [ 5, 15, 23, 2 ],
+            "friday": [ 4, 14, 23, 1 ],
+            "saturday": [ 10, 19, 29, 6 ],
+            "sunday": [ 9, 19, 27, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 499,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/jockey-1948.jpg',
+          title: 'Jockey',
+          artist: 'Huguette Arthur Bertrand',
+          year: '1948',
+          rule: {
+            "monday": [ 9, 19, 27, 6 ],
+            "tuesday": [ 6, 18, 26, 5 ],
+            "wednesday": [ 7, 17, 25, 4 ],
+            "thursday": [ 6, 17, 24, 3 ],
+            "friday": [ 5, 15, 23, 2 ],
+            "saturday": [ 4, 14, 23, 1 ],
+            "sunday": [ 10, 19, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 500,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/remember-no-6-1999.jpg',
+          title: 'Remember No. 6',
+          artist: 'Anne Truitt',
+          year: '1999',
+          rule: {
+            "monday": [ 10, 19, 29, 6 ],
+            "tuesday": [ 9, 19, 27, 6 ],
+            "wednesday": [ 6, 18, 26, 5 ],
+            "thursday": [ 7, 17, 25, 4 ],
+            "friday": [ 6, 17, 24, 3 ],
+            "saturday": [ 5, 15, 23, 2 ],
+            "sunday": [ 4, 14, 23, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

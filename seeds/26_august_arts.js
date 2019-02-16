@@ -8904,6 +8904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 446,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/henry-ford-hospital-the-flying-bed-1932.jpg',
+          title: 'Henry Ford Hospital (The Flying Bed)',
+          artist: 'Frida Kahlo',
+          year: '1932',
+          rule: {
+            "monday": [ 1, 3, 13, 29 ],
+            "tuesday": [ 31, 3, 12, 28 ],
+            "wednesday": [ 30, 2, 11, 27 ],
+            "thursday": [ 5, 9, 17, 2 ],
+            "friday": [ 4, 7, 16, 1 ],
+            "saturday": [ 3, 7, 15, 31 ],
+            "sunday": [ 2, 6, 14, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 447,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/ex-libris-bibliotheca-nacional-1903.jpg',
+          title: 'Ex Libris Bibliotheca Nacional',
+          artist: 'Eliseu Visconti',
+          year: '1903',
+          rule: {
+            "monday": [ 2, 6, 14, 30 ],
+            "tuesday": [ 1, 3, 13, 29 ],
+            "wednesday": [ 31, 3, 12, 28 ],
+            "thursday": [ 30, 2, 11, 27 ],
+            "friday": [ 5, 9, 17, 2 ],
+            "saturday": [ 4, 7, 16, 1 ],
+            "sunday": [ 3, 7, 15, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 448,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/two-little-girls-1911.jpg',
+          title: 'Two Little Girls',
+          artist: 'Egon Schiele',
+          year: '1911',
+          rule: {
+            "monday": [ 4, 8, 16, 1 ],
+            "tuesday": [ 3, 7, 15, 31 ],
+            "wednesday": [ 2, 4, 14, 30 ],
+            "thursday": [ 1, 4, 13, 29 ],
+            "friday": [ 31, 3, 12, 28 ],
+            "saturday": [ 6, 10, 18, 3 ],
+            "sunday": [ 5, 8, 17, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 449,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-red-scarf-1925.jpg',
+          title: 'The Red Scarf',
+          artist: 'Nicolae Vermont',
+          year: '1925',
+          rule: {
+            "monday": [ 5, 8, 17, 2 ],
+            "tuesday": [ 4, 8, 16, 1 ],
+            "wednesday": [ 3, 7, 15, 31 ],
+            "thursday": [ 2, 4, 14, 30 ],
+            "friday": [ 1, 4, 13, 29 ],
+            "saturday": [ 31, 3, 12, 28 ],
+            "sunday": [ 6, 10, 18, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 450,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/portrait-of-evguenia-kirkaldi-1910.jpg',
+          title: 'Portrait of Evguenia Kirkaldi',
+          artist: 'Ilya Mashkov',
+          year: '1910',
+          rule: {
+            "monday": [ 6, 10, 18, 3 ],
+            "tuesday": [ 5, 8, 17, 2 ],
+            "wednesday": [ 4, 8, 16, 1 ],
+            "thursday": [ 3, 7, 15, 31 ],
+            "friday": [ 2, 4, 14, 30 ],
+            "saturday": [ 1, 4, 13, 29 ],
+            "sunday": [ 31, 3, 12, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

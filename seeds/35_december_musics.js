@@ -4324,6 +4324,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 241,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4084165230/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/los-shapis-el-aguajal-cumbia-peru-early-80s-masterpiece',
+          a_string: 'Los Shapis - El Aguajal (Cumbia Peru Early 80&#39;s MASTERPIECE) by Los Shapis',
+          rule: {
+            "monday": [ 9, 15, 21, 27 ],
+            "tuesday": [ 6, 14, 20, 26 ],
+            "wednesday": [ 5, 13, 19, 25 ],
+            "thursday": [ 6, 12, 18, 24 ],
+            "saturday": [ 10, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 242,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=139428827/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/bugalu-boogaloo-ep',
+          a_string: 'BUGALU (Boogaloo EP) by Nilo Espinosa y Orquesta',
+          rule: {
+            "monday": [ 10, 16, 22, 28 ],
+            "tuesday": [ 9, 15, 21, 27 ],
+            "wednesday": [ 6, 14, 20, 26 ],
+            "thursday": [ 5, 13, 19, 25 ],
+            "saturday": [ 6, 12, 18, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 243,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1057214631/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/an-mala-peruvian-female-experimental-indie-electronic-avante-garde-psych-rock-instrumental-theremin',
+          a_string: 'Anómala (Peruvian Female * Experimental Indie * Electronic Avante Garde * Psych Rock * Instrumental Theremin) by Veronik',
+          rule: {
+            "monday": [ 6, 12, 18, 24 ],
+            "tuesday": [ 10, 16, 22, 28 ],
+            "wednesday": [ 9, 15, 21, 27 ],
+            "thursday": [ 6, 14, 20, 26 ],
+            "saturday": [ 5, 13, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

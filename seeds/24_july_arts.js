@@ -9104,6 +9104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 456,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/la-campagne-1895.jpg',
+          title: 'À la campagne',
+          artist: 'Armand Guillaumin',
+          year: '1895',
+          rule: {
+            "monday": [ 5, 14, 27, 7 ],
+            "tuesday": [ 3, 14, 26, 6 ],
+            "wednesday": [ 3, 14, 25, 26 ],
+            "thursday": [ 2, 13, 23, 25 ],
+            "friday": [ 1, 12, 23, 24 ],
+            "saturday": [ 31, 11, 22, 2 ],
+            "sunday": [ 6, 17, 28, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 457,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/anglers-on-the-seine-at-poissy(1).jpg',
+          title: 'Anglers on the Seine at Poissy',
+          artist: 'Claude Monet',
+          year: '1882',
+          rule: {
+            "monday": [ 6, 17, 28, 7 ],
+            "tuesday": [ 5, 14, 27, 7 ],
+            "wednesday": [ 3, 14, 26, 6 ],
+            "thursday": [ 3, 14, 25, 26 ],
+            "friday": [ 2, 13, 23, 25 ],
+            "saturday": [ 1, 12, 23, 24 ],
+            "sunday": [ 31, 11, 22, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 458,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/silence-1900.jpg',
+          title: 'Silence',
+          artist: 'Odilon Redon',
+          year: '1900',
+          rule: {
+            "monday": [ 31, 11, 22, 2 ],
+            "tuesday": [ 6, 17, 28, 7 ],
+            "wednesday": [ 5, 14, 27, 7 ],
+            "thursday": [ 3, 14, 26, 6 ],
+            "friday": [ 3, 14, 25, 26 ],
+            "saturday": [ 2, 13, 23, 25 ],
+            "sunday": [ 1, 12, 23, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 459,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-byzantine-emperor-honorius-1880.jpg',
+          title: 'The Byzantine Emperor Honorius',
+          artist: 'Jean-Paul Laurens',
+          year: '1880',
+          rule: {
+            "monday": [ 1, 12, 23, 24 ],
+            "tuesday": [ 31, 11, 22, 2 ],
+            "wednesday": [ 6, 17, 28, 7 ],
+            "thursday": [ 5, 14, 27, 7 ],
+            "friday": [ 3, 14, 26, 6 ],
+            "saturday": [ 3, 14, 25, 26 ],
+            "sunday": [ 2, 13, 23, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 460,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/recoloration-des-cheveux-par-l-eau-des-sir-nes-1900.jpg',
+          title: 'Recoloration des Cheveux par l\'Eau des Sirènes',
+          artist: 'Jules Cheret',
+          year: '1900',
+          rule: {
+            "monday": [ 2, 13, 23, 25 ],
+            "tuesday": [ 1, 12, 23, 24 ],
+            "wednesday": [ 31, 11, 22, 2 ],
+            "thursday": [ 6, 17, 28, 7 ],
+            "friday": [ 5, 14, 27, 7 ],
+            "saturday": [ 3, 14, 26, 6 ],
+            "sunday": [ 3, 14, 25, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

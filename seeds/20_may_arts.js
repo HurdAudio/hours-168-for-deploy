@@ -9504,6 +9504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 476,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/linum-study-1975.jpg',
+          title: 'Linum. Study',
+          artist: 'Tetyana Yablonska',
+          year: '1975',
+          rule: {
+            "monday": [ 3, 13, 21, 23 ],
+            "tuesday": [ 31, 11, 21, 10 ],
+            "wednesday": [ 30, 10, 20, 29 ],
+            "thursday": [ 28, 7, 17, 25 ],
+            "friday": [ 26, 4, 16, 25 ],
+            "saturday": [ 5, 17, 27, 4 ],
+            "sunday": [ 5, 16, 25, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 477,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/winter-at-old-kiev-1976.jpg',
+          title: 'Winter at Old Kiev',
+          artist: 'Tetyana Yablonska',
+          year: '1976',
+          rule: {
+            "monday": [ 5, 16, 25, 4 ],
+            "tuesday": [ 3, 13, 21, 23 ],
+            "wednesday": [ 31, 11, 21, 10 ],
+            "thursday": [ 30, 10, 20, 29 ],
+            "friday": [ 28, 7, 17, 25 ],
+            "saturday": [ 26, 4, 16, 25 ],
+            "sunday": [ 5, 17, 27, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 478,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/rome-trajan-s-forum-1977.jpg',
+          title: 'Rome. Trajan\'s Forum',
+          artist: 'Tetyana Yablonska',
+          year: '1977',
+          rule: {
+            "monday": [ 5, 17, 27, 4 ],
+            "tuesday": [ 5, 16, 25, 4 ],
+            "wednesday": [ 3, 13, 21, 23 ],
+            "thursday": [ 31, 11, 21, 10 ],
+            "friday": [ 30, 10, 20, 29 ],
+            "saturday": [ 28, 7, 17, 25 ],
+            "sunday": [ 26, 4, 16, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 479,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/linum-1977.jpg',
+          title: 'Linum',
+          artist: 'Tetyana Yablonska',
+          year: '1977',
+          rule: {
+            "monday": [ 26, 4, 16, 25 ],
+            "tuesday": [ 5, 17, 27, 4 ],
+            "wednesday": [ 5, 16, 25, 4 ],
+            "thursday": [ 3, 13, 21, 23 ],
+            "friday": [ 31, 11, 21, 10 ],
+            "saturday": [ 30, 10, 20, 29 ],
+            "sunday": [ 28, 7, 17, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 480,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/winter-landscape-1984.jpg',
+          title: 'Winter Landscape',
+          artist: 'Tetyana Yablonska',
+          year: '1984',
+          rule: {
+            "monday": [ 28, 7, 17, 25 ],
+            "tuesday": [ 26, 4, 16, 25 ],
+            "wednesday": [ 5, 17, 27, 4 ],
+            "thursday": [ 5, 16, 25, 4 ],
+            "friday": [ 3, 13, 21, 23 ],
+            "saturday": [ 31, 11, 21, 10 ],
+            "sunday": [ 30, 10, 20, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/undulatory-mirage-1968.jpg',
+          title: 'Undulatory Mirage',
+          artist: 'Constantin Flondor',
+          year: '1968',
+          rule: {
+            "monday": [ 24, 26, 30, 2 ],
+            "tuesday": [ 26, 28, 29, 30 ],
+            "wednesday": [ 11, 12, 23, 15 ],
+            "thursday": [ 14, 16, 8, 28 ],
+            "friday": [ 19, 17, 9, 12 ],
+            "saturday": [ 19, 20, 11, 15 ],
+            "sunday": [ 22, 24, 25, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/work-1972.jpg',
+          title: 'Work',
+          artist: 'Kazuo Shiraga',
+          year: '1972',
+          rule: {
+            "monday": [ 22, 24, 25, 27 ],
+            "tuesday": [ 24, 26, 30, 2 ],
+            "wednesday": [ 26, 28, 29, 30 ],
+            "thursday": [ 11, 12, 23, 15 ],
+            "friday": [ 14, 16, 8, 28 ],
+            "saturday": [ 19, 17, 9, 12 ],
+            "sunday": [ 19, 20, 11, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/r-b-and-w-spiral-for-a-1991.jpg',
+          title: 'R. B. and W. Spiral for A.',
+          artist: 'Terry Frost',
+          year: '1991',
+          rule: {
+            "monday": [ 20, 21, 12, 16 ],
+            "tuesday": [ 23, 25, 26, 28 ],
+            "wednesday": [ 25, 27, 31, 3 ],
+            "thursday": [ 27, 29, 30, 31 ],
+            "friday": [ 12, 13, 24, 16 ],
+            "saturday": [ 15, 17, 9, 29 ],
+            "sunday": [ 20, 18, 10, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-1-AlmirMavignier.jpg',
+          title: 'Untitled',
+          artist: 'Almir Mavignier',
+          year: '?',
+          rule: {
+            "monday": [ 20, 18, 10, 13 ],
+            "tuesday": [ 20, 21, 12, 16 ],
+            "wednesday": [ 23, 25, 26, 28 ],
+            "thursday": [ 25, 27, 31, 3 ],
+            "friday": [ 27, 29, 30, 31 ],
+            "saturday": [ 12, 13, 24, 16 ],
+            "sunday": [ 15, 17, 9, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-late-september-december-10-1950.jpg',
+          title: 'Untitled (Late September-December 10)',
+          artist: 'Myron Stout',
+          year: '1950',
+          rule: {
+            "monday": [ 15, 17, 9, 29 ],
+            "tuesday": [ 20, 18, 10, 13 ],
+            "wednesday": [ 20, 21, 12, 16 ],
+            "thursday": [ 23, 25, 26, 28 ],
+            "friday": [ 25, 27, 31, 3 ],
+            "saturday": [ 27, 29, 30, 31 ],
+            "sunday": [ 12, 13, 24, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

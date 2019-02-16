@@ -2946,7 +2946,8 @@ footer img {
   background-repeat: repeat;
   background-size: 200%;
   height: 38.1em;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   margin-top: 0;
   padding-top: 0;
 }
@@ -8663,7 +8664,7 @@ footer img {
 
 
 /* .day {
-  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/ice-1180728_1920.jpg);
+  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/explore-the-ice-cave-tunnels-inside-langjoekull-glacier-on-this-exciting-tour.jpeg);
   background-repeat: no-repeat;
-  background-size: 158%;
+  background-size: 160%;
 } */

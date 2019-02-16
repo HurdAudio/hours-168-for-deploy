@@ -347,6 +347,8 @@
       }
 
       function setMonday(parseThis) {
+        let today = new Date();
+        let userTimezoneOffset = today.getTimezoneOffset() * 60000;
         let mondayDatestrip = document.getElementById('mondayDatestrip');
         let tuesdayDatestrip = document.getElementById('tuesdayDatestrip');
         let wednesdayDateStrip = document.getElementById('wednesdayDateStrip');
@@ -371,19 +373,26 @@
         } else {
           dd = parseDate.slice((parseDate.length - 2));
         }
-        mondayDate = new Date(yyyy + '-' + mm + '-' + dd + 'T13:44:00.000Z');
-        tuesdayDate = new Date(yyyy + '-' + mm + '-' + dd + 'T13:44:00.000Z');
-        tuesdayDate.setDate(mondayDate.getDate() + 1);
-        wednesdayDate = new Date(yyyy + '-' + mm + '-' + dd + 'T13:44:00.000Z');
-        wednesdayDate.setDate(mondayDate.getDate() + 2);
-        thursdayDate = new Date(yyyy + '-' + mm + '-' + dd + 'T13:44:00.000Z');
-        thursdayDate.setDate(mondayDate.getDate() + 3);
-        fridayDate = new Date(yyyy + '-' + mm + '-' + dd + 'T13:44:00.000Z');
-        fridayDate.setDate(mondayDate.getDate() + 4);
-        saturdayDate = new Date(yyyy + '-' + mm + '-' + dd + 'T13:44:00.000Z');
-        saturdayDate.setDate(mondayDate.getDate() + 5);
-        sundayDate = new Date(yyyy + '-' + mm + '-' + dd + 'T13:44:00.000Z');
-        sundayDate.setDate(mondayDate.getDate() + 6);
+        mondayDate = new Date(yyyy + '-' + mm + '-' + dd);
+        mondayDate = new Date(mondayDate.getTime() + userTimezoneOffset);
+        tuesdayDate = new Date(mondayDate);
+        tuesdayDate = new Date(tuesdayDate.setDate(mondayDate.getDate() + 1));
+        tuesdayDate = new Date(tuesdayDate.getTime() + userTimezoneOffset);
+        wednesdayDate = new Date(mondayDate);
+        wednesdayDate = new Date(wednesdayDate.setDate(mondayDate.getDate() + 2));
+        wednesdayDate = new Date(wednesdayDate.getTime() + userTimezoneOffset);
+        thursdayDate = new Date(mondayDate);
+        thursdayDate = new Date(thursdayDate.setDate(mondayDate.getDate() + 3));
+        thursdayDate = new Date(thursdayDate.getTime() + userTimezoneOffset);
+        fridayDate = new Date(mondayDate);
+        fridayDate = new Date(fridayDate.setDate(mondayDate.getDate() + 4));
+        fridayDate = new Date(fridayDate.getTime() + userTimezoneOffset);
+        saturdayDate = new Date(mondayDate);
+        saturdayDate = new Date(saturdayDate.setDate(mondayDate.getDate() + 5));
+        saturdayDate = new Date(saturdayDate.getTime() + userTimezoneOffset);
+        sundayDate = new Date(mondayDate);
+        sundayDate = new Date(sundayDate.setDate(mondayDate.getDate() + 6));
+        sundayDate = new Date(sundayDate.getTime() + userTimezoneOffset);
         mondayDatestrip.innerHTML = mondayDate.getDate() + ' ' + months[mondayDate.getMonth()] + ' ' + mondayDate.getFullYear();
         tuesdayDatestrip.innerHTML = tuesdayDate.getDate() + ' ' + months[tuesdayDate.getMonth()] + ' ' + tuesdayDate.getFullYear();
         wednesdayDateStrip.innerHTML = wednesdayDate.getDate() + ' ' + months[wednesdayDate.getMonth()] + ' ' + wednesdayDate.getFullYear();

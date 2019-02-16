@@ -8304,6 +8304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 416,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/ecriture-no-40-84-1984.jpg',
+          title: 'Ecriture No.40~84',
+          artist: 'Park Seo-Bo',
+          year: '1984',
+          rule: {
+            "monday": [ 1, 6, 12, 19 ],
+            "tuesday": [ 7, 12, 18, 23 ],
+            "wednesday": [ 6, 8, 16, 22 ],
+            "thursday": [ 5, 9, 16, 20 ],
+            "friday": [ 4, 7, 14, 19 ],
+            "saturday": [ 3, 7, 14, 19 ],
+            "sunday": [ 2, 7, 13, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 417,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/nom-one-two-three-1984.jpg',
+          title: 'Nom- one, two, three',
+          artist: 'Grazia Varisco',
+          year: '1984',
+          rule: {
+            "monday": [ 2, 7, 13, 18 ],
+            "tuesday": [ 1, 6, 12, 19 ],
+            "wednesday": [ 7, 12, 18, 23 ],
+            "thursday": [ 6, 8, 16, 22 ],
+            "friday": [ 5, 9, 16, 20 ],
+            "saturday": [ 4, 7, 14, 19 ],
+            "sunday": [ 3, 7, 14, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 418,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/vaso-1984.jpg',
+          title: 'Vaso',
+          artist: 'Ettore Spalletti',
+          year: '1984',
+          rule: {
+            "monday": [ 3, 7, 14, 19 ],
+            "tuesday": [ 2, 7, 13, 18 ],
+            "wednesday": [ 1, 6, 12, 19 ],
+            "thursday": [ 7, 12, 18, 23 ],
+            "friday": [ 6, 8, 16, 22 ],
+            "saturday": [ 5, 9, 16, 20 ],
+            "sunday": [ 4, 7, 14, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 419,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/conjunction-84-07-1984.jpg',
+          title: 'Conjunction 84-07',
+          artist: 'Ha Chong-Hyun',
+          year: '1984',
+          rule: {
+            "monday": [ 4, 7, 14, 19 ],
+            "tuesday": [ 3, 7, 14, 19 ],
+            "wednesday": [ 2, 7, 13, 18 ],
+            "thursday": [ 1, 6, 12, 19 ],
+            "friday": [ 7, 12, 18, 23 ],
+            "saturday": [ 6, 8, 16, 22 ],
+            "sunday": [ 5, 9, 16, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 420,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1985(1).jpg',
+          title: 'Untitled',
+          artist: 'John McCracken',
+          year: '1985',
+          rule: {
+            "monday": [ 6, 10, 17, 21 ],
+            "tuesday": [ 5, 8, 15, 20 ],
+            "wednesday": [ 4, 8, 15, 20 ],
+            "thursday": [ 3, 8, 14, 19 ],
+            "friday": [ 2, 7, 13, 20 ],
+            "saturday": [ 8, 13, 19, 24 ],
+            "sunday": [ 7, 9, 17, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

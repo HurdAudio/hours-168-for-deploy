@@ -1110,6 +1110,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#D0F7FB',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 80,
+          user_id: 1,
+          theme: 'Ice',
+          type: 'saturuday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/explore-the-ice-cave-tunnels-inside-langjoekull-glacier-on-this-exciting-tour.jpeg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#0A111E',
+          color_medium: '#17799D',
+          color_light: '#E1E0E7',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

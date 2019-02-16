@@ -5404,6 +5404,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 301,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3785769451/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://kel-assouf.bandcamp.com/album/black-tenere',
+          a_string: 'Black Tenere by Kel Assouf',
+          rule: {
+            "monday": [ 16, 20, 22, 26 ],
+            "tuesday": [ 19, 22, 24, 26 ],
+            "wednesday": [ 1, 24, 26, 28 ],
+            "thursday": [ 3, 26, 28, 5 ],
+            "saturday": [ 4, 27, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 302,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=424529570/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://deathisnot.bandcamp.com/album/if-i-had-a-pair-of-wings-jamaican-doo-wop-vol-2',
+          a_string: 'If I Had a Pair of Wings: Jamaican Doo Wop, Vol. 2 by Various Artists',
+          rule: {
+            "monday": [ 4, 27, 29, 6 ],
+            "tuesday": [ 16, 20, 22, 26 ],
+            "wednesday": [ 19, 22, 24, 26 ],
+            "thursday": [ 1, 24, 26, 28 ],
+            "saturday": [ 3, 26, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 303,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2838607322/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://yorubasingersfightingforsurvival.bandcamp.com/album/fighting-for-survival',
+          a_string: 'Fighting for Survival by Yoruba Singers',
+          rule: {
+            "monday": [ 3, 26, 28, 5 ],
+            "tuesday": [ 4, 27, 29, 6 ],
+            "wednesday": [ 16, 20, 22, 26 ],
+            "thursday": [ 19, 22, 24, 26 ],
+            "saturday": [ 1, 24, 26, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

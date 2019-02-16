@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/1rbafakrbn6uopoaxj1c.jpg',
+          title: 'Gladiators',
+          artist: 'Mitchell Squire',
+          year: '2013',
+          rule: {
+            "monday": [ 15, 23, 2, 10 ],
+            "tuesday": [ 16, 25, 4, 12 ],
+            "wednesday": [ 22, 27, 4, 14 ],
+            "thursday": [ 21, 29, 8, 16 ],
+            "friday": [ 23, 4, 10, 16 ],
+            "saturday": [ 25, 4, 12, 22 ],
+            "sunday": [ 25, 6, 2, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/129390605790178309_4800e3aa-6e45-4887-b071-155c536959ba_293386_570.Jpeg',
+          title: 'Apostolic',
+          artist: 'Raymond Steth',
+          year: 'c.1940',
+          rule: {
+            "monday": [ 25, 6, 2, 21 ],
+            "tuesday": [ 15, 23, 2, 10 ],
+            "wednesday": [ 16, 25, 4, 12 ],
+            "thursday": [ 22, 27, 4, 14 ],
+            "friday": [ 21, 29, 8, 16 ],
+            "saturday": [ 23, 4, 10, 16 ],
+            "sunday": [ 25, 4, 12, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/ReneeStout1990-300x159.jpg',
+          title: 'Fetish #2',
+          artist: 'Renee Stout',
+          year: '1990',
+          rule: {
+            "monday": [ 25, 4, 12, 22 ],
+            "tuesday": [ 25, 6, 2, 21 ],
+            "wednesday": [ 15, 23, 2, 10 ],
+            "thursday": [ 16, 25, 4, 12 ],
+            "friday": [ 22, 27, 4, 14 ],
+            "saturday": [ 21, 29, 8, 16 ],
+            "sunday": [ 23, 4, 10, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/SC_0918-020_high_quality.jpeg',
+          title: 'Grande Calme',
+          artist: 'Martine Syms',
+          year: '2018',
+          rule: {
+            "monday": [ 23, 4, 10, 16 ],
+            "tuesday": [ 25, 4, 12, 22 ],
+            "wednesday": [ 25, 6, 2, 21 ],
+            "thursday": [ 15, 23, 2, 10 ],
+            "friday": [ 16, 25, 4, 12 ],
+            "saturday": [ 22, 27, 4, 14 ],
+            "sunday": [ 21, 29, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/H0587-L39208165.jpg',
+          title: 'Woman from the French West Indies',
+          artist: 'Henry Ossawa Tanner',
+          year: 'c.1891',
+          rule: {
+            "monday": [ 21, 29, 8, 16 ],
+            "tuesday": [ 23, 4, 10, 16 ],
+            "wednesday": [ 25, 4, 12, 22 ],
+            "thursday": [ 25, 6, 2, 21 ],
+            "friday": [ 15, 23, 2, 10 ],
+            "saturday": [ 16, 25, 4, 12 ],
+            "sunday": [ 22, 27, 4, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
