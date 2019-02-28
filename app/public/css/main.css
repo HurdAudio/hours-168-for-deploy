@@ -1731,6 +1731,10 @@ a.btn:hover {
   margin-left: 18vmin;
 }
 
+/* .userTilesShareImageDiv {
+  margin-left: 18vmin;
+} */
+
 #userTilesCurratorImageUploaderDiv {
   visibility: hidden;
 }
@@ -3032,6 +3036,22 @@ footer img {
   opacity: 1;
 }
 
+#tileSharesBar {
+  font-family: 'Asul', serif;
+  font-size: 18px
+  background: #441E38;
+  background-color: -webkit-linear-gradient(-135deg, #16232C, #EFF9FB);
+  background: -o-linear-gradient(-135deg, #16232C, #EFF9FB);
+  background: -moz-linear-gradient(-135deg, #16232C, #EFF9FB);
+  background: linear-gradient(-135deg, #16232C, #EFF9FB);
+  border-radius: 5px;
+  margin: 0;
+  padding:0;
+  height: 3.8em;
+  top: 0%;
+  opacity: 1;
+}
+
 #occasionSharesBar {
   font-family: 'Asul', serif;
   font-size: 18px
@@ -3101,6 +3121,15 @@ footer img {
 }
 
 #musicSharesNotifier {
+  background-image: url(../img/background-2030242.jpg);
+  background-repeat: repeat;
+  background-size: 75%;
+  font-family: 'Alike Angular', serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+#tileSharesNotifier {
   background-image: url(../img/background-2030242.jpg);
   background-repeat: repeat;
   background-size: 75%;
@@ -3239,6 +3268,26 @@ footer img {
 }
 
 #musicSharesNotifier a {
+  margin-left: 5vmin;
+}
+
+#tileSharesNotifier h3 {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+}
+
+
+
+#tileSharesNotifier img {
+  float: left;
+  height: 7em;
+  width: 7em;
+  margin-left: 1.6em;
+  margin-top: 1.2em;
+  margin-right: 1.2em;
+  border: 2px solid #0000cc;
+}
+
+#tileSharesNotifier a {
   margin-left: 5vmin;
 }
 
@@ -8664,7 +8713,7 @@ footer img {
 
 
 /* .day {
-  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/explore-the-ice-cave-tunnels-inside-langjoekull-glacier-on-this-exciting-tour.jpeg);
+  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/natalie-riedel-1201950-unsplash.jpg);
   background-repeat: no-repeat;
-  background-size: 160%;
+  background-size: 156%;
 } */

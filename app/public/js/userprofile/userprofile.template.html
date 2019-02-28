@@ -4149,13 +4149,9 @@
 
                     <h3>Delete comment forever?</h3>
                     <a class="btn" href="#" ng-click="$ctrl.userArtModuleCommentDeleteCancel(comment.id)">no</a>
-                    <a class="btn" href="#" ng-click="$ctrl.userArtModuleCommentDeleteConfirmClick(comment.id, artmod.id)">yes</a>
+                    <a class="btn" href="#" ng-click="$ctrl.userArtModuleCommentDeleteConfirmClick(comment.id)">yes</a>
                   </div>
 
-                  <div id="editDeleteArtModuleCommentDiv{{comment.id}}" class="messageEditDelete">
-                    <a class="btn" href="#" ng-click="$ctrl.userEditArtModuleComment(comment.id)">edit</a>
-                    <a class="btn" href="#" ng-click="$ctrl.userDeleteArtModuleComment(comment.id)">delete</a>
-                  </div>
                 </main>
               </div>
 
@@ -4539,6 +4535,90 @@
               <!-- </main> -->
             </div>
           </main>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div id="tileSharesNotification">
+      <div id="tileSharesBar">
+
+        <h1 id="tileSharesBarTitle">Shared Tiles:</h1>
+
+      </div>
+
+      <div id="tileSharesNotifier">
+
+        <div class="whoScheduledMe">
+          <!-- <main ng-repeat="music in $ctrl.activeMusicShares | orderBy : $ctrl.sortBy"> -->
+            <!-- <div id="thisIsMusicShareDeleteDiv{{music.id}}" class="profileDeleteOption"> -->
+
+              <!-- <a class="btn" href="#" ng-click="$ctrl.deleteObservanceShare(observe.id)">delete</a><br><br> -->
+            <!-- </div> -->
+
+
+            <img src="{{tile.inv_img}}"><br>
+            <p id="tileInviter{{tile.id}}">{{tile.inviter}} has shared the following tile with you on {{tile.cleanDate}}</p>
+            <p id="tileInvitee{{tile.id}}">You have shared the following music with {{tile.invitee}} on {{tile.cleanDate}}</p>
+
+            <br><br><br><br><br><br>
+            <div class="tilesOnDisplay">
+              <div class="userTilesShareImageDiv displayDay" style="background-image: url({{tile.img_path}}); background-repeat: {{tile.repeatValue}}; background-size: {{tile.size}};">
+
+                <h1 id="tilesCurratorDate{{tile.id}}">{{tile.currateDate}}</h1>
+              </div>
+            </div>
+            <br><br>
+
+
+            <div class="holidayAcceptDenyButtons" id="tileAcceptDecline{{tile.id}}">
+
+              <a class="btn" ng-click="$ctrl.declineTileShare(tile.id)">Decline</a>
+              <a class="btn" ng-click="$ctrl.acceptTileShare(tile.id)">Accept</a>
+            </div><br><br>
+            <!-- <br><br><div id="artShareAccepted{{art.id}}">
+
+              <img src="{{art.inviterImg}}"><br>
+              <br><h3>{{art.invitee}} has accepted this observance.</h3>
+            </div>
+            <br><br><div id="artShareDeclined{{observe.id}}">
+
+              <img src="{{art.inviterImg}}"><br>
+              <br><h3>{{art.invitee}} has declined this observance.</h3>
+            </div> -->
+
+            <!-- <a href=""><h3>comment</h3></a> -->
+
+            <!-- <div class="commentsBar"> -->
+
+              <h1>Comments:</h1>
+              <!-- <a class="btn" href="#" ng-click="$ctrl.addNewArtShareComment(art.id)" id="newArtShareCommentButton{{art.id}}">add</a> -->
+            <!-- </div> -->
+            <!-- <div id="musicShareComments" class="occasionShareComments"> -->
+              <!-- <main ng-repeat="comment in art.comments | orderBy : $ctrl.sortBy"> -->
+                <!-- <img src="{{comment.user_avatar_url}}"><br><br><br> -->
+                <!-- <br><br><br><p>From: {{comment.name}} <br> -->
+                <!-- on {{comment.cleanDate}}</p><br><br> -->
+                <!-- <textarea id="thisIsTheObservanceShareCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea> -->
+                <!-- <div class="thisIsObservanceShareCommentEditDoneDiv" id="thisIsObservanceShareCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheObservanceShareCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditObservanceShareCommentCompleted(comment.id)">done</a></div> -->
+                <!-- <h3 id="thisIsMusicShareCommentComment{{comment.id}}">{{comment.comment}}</h3><br> -->
+
+                <!-- <div id="deleteMusicShareCommentConfirm{{comment.id}}" class="messageEditDelete">
+
+                  <h3>Delete comment forever?</h3>
+                  <a class="btn" href="#" ng-click="$ctrl.userArtShareCommentDeleteCancel(art.id)">no</a>
+                  <a class="btn" href="#" ng-click="$ctrl.userArtShareCommentDeleteConfirmClick(art.id)">yes</a>
+                </div> -->
+
+                <!-- <div id="editDeleteArtShareCommentDiv{{art.id}}" class="messageEditDelete">
+                  <a class="btn" href="#" ng-click="$ctrl.userEditArtShareComment(art.id)">edit</a>
+                  <a class="btn" href="#" ng-click="$ctrl.userDeleteArtShareComment(art.id)">delete</a>
+                </div><br><br><br><br> -->
+              <!-- </main> -->
+            <!-- </div> -->
+          <!-- </main> -->
         </div>
 
 

@@ -1110,6 +1110,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#E6EDF9',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 80,
+          user_id: 1,
+          theme: 'Silk/Velvet',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/isabela-kronemberger-782685-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '156%',
+          color_dark: '#16272E',
+          color_medium: '#8D97A0',
+          color_light: '#E0DEDF',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

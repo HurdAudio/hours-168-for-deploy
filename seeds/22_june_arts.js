@@ -9404,6 +9404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 471,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/dressBy.jpg',
+          title: 'DRESS BY YVES SAINT LAURENT...',
+          artist: 'Jeanloup Sieff',
+          year: '?',
+          rule: {
+            "monday": [ 6, 16, 27, 4 ],
+            "tuesday": [ 5, 15, 25, 3 ],
+            "wednesday": [ 4, 14, 24, 2 ],
+            "thursday": [ 13, 23, 3, 1 ],
+            "friday": [ 2, 12, 22, 30 ],
+            "saturday": [ 1, 11, 21, 29 ],
+            "sunday": [ 7, 17, 27, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 472,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/astridsBack.jpg',
+          title: 'Astrid´s Back, Palm Beach, Harper´s...',
+          artist: 'Jeanloup Sieff',
+          year: '?',
+          rule: {
+            "monday": [ 7, 17, 27, 4 ],
+            "tuesday": [ 6, 16, 27, 4 ],
+            "wednesday": [ 5, 15, 25, 3 ],
+            "thursday": [ 4, 14, 24, 2 ],
+            "friday": [ 13, 23, 3, 1 ],
+            "saturday": [ 2, 12, 22, 30 ],
+            "sunday": [ 1, 11, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 473,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/louiseParis.jpg',
+          title: 'Louise, Paris, 1985',
+          artist: 'Jeanloup Sieff',
+          year: '1985',
+          rule: {
+            "monday": [ 1, 11, 21, 29 ],
+            "tuesday": [ 7, 17, 27, 4 ],
+            "wednesday": [ 6, 16, 27, 4 ],
+            "thursday": [ 5, 15, 25, 3 ],
+            "friday": [ 4, 14, 24, 2 ],
+            "saturday": [ 13, 23, 3, 1 ],
+            "sunday": [ 2, 12, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 474,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/aRainyDay.jpg',
+          title: 'A Rainy Day, Paris, 1975',
+          artist: 'Jeanloup Sieff',
+          year: '1975',
+          rule: {
+            "monday": [ 2, 12, 22, 30 ],
+            "tuesday": [ 1, 11, 21, 29 ],
+            "wednesday": [ 7, 17, 27, 4 ],
+            "thursday": [ 6, 16, 27, 4 ],
+            "friday": [ 5, 15, 25, 3 ],
+            "saturday": [ 4, 14, 24, 2 ],
+            "sunday": [ 13, 23, 3, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 475,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/astonMartin.jpg',
+          title: 'Aston Martin, 1975',
+          artist: 'Jeanloup Sieff',
+          year: '1975',
+          rule: {
+            "monday": [ 13, 23, 3, 1 ],
+            "tuesday": [ 2, 12, 22, 30 ],
+            "wednesday": [ 1, 11, 21, 29 ],
+            "thursday": [ 7, 17, 27, 4 ],
+            "friday": [ 6, 16, 27, 4 ],
+            "saturday": [ 5, 15, 25, 3 ],
+            "sunday": [ 4, 14, 24, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

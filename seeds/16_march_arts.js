@@ -10004,6 +10004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 501,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/85a9973f82bf880b1a9c978669bc0316.jpg',
+          title: 'Bishop at the altar',
+          artist: 'Diane Arbus',
+          year: '1964',
+          rule: {
+            "monday": [ 4, 14, 23, 1 ],
+            "tuesday": [ 10, 19, 29, 6 ],
+            "wednesday": [ 9, 19, 27, 6 ],
+            "thursday": [ 6, 18, 26, 5 ],
+            "friday": [ 7, 17, 25, 4 ],
+            "saturday": [ 6, 17, 24, 3 ],
+            "sunday": [ 5, 15, 23, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 502,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/alexandra-exter-my-fan-is-half-a-circle-1994.jpg',
+          title: 'Alexandra Exter (My Fan is Half a Circle)',
+          artist: 'Miriam Schapiro',
+          year: '1994',
+          rule: {
+            "monday": [ 5, 15, 23, 2 ],
+            "tuesday": [ 4, 14, 23, 1 ],
+            "wednesday": [ 10, 19, 29, 6 ],
+            "thursday": [ 9, 19, 27, 6 ],
+            "friday": [ 6, 18, 26, 5 ],
+            "saturday": [ 7, 17, 25, 4 ],
+            "sunday": [ 6, 17, 24, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 503,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/le-viol-1981.jpg',
+          title: 'Le Viol',
+          artist: 'Mimi Parent',
+          year: '1981',
+          rule: {
+            "monday": [ 6, 17, 24, 3 ],
+            "tuesday": [ 5, 15, 23, 2 ],
+            "wednesday": [ 4, 14, 23, 1 ],
+            "thursday": [ 10, 19, 29, 6 ],
+            "friday": [ 9, 19, 27, 6 ],
+            "saturday": [ 6, 18, 26, 5 ],
+            "sunday": [ 7, 17, 25, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 504,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/work.jpg',
+          title: 'Work',
+          artist: 'Tsuruko Yamazaki',
+          year: '?',
+          rule: {
+            "monday": [ 8, 18, 26, 5 ],
+            "tuesday": [ 7, 18, 25, 4 ],
+            "wednesday": [ 6, 16, 24, 3 ],
+            "thursday": [ 5, 15, 24, 2 ],
+            "friday": [ 11, 20, 30, 7 ],
+            "saturday": [ 10, 20, 28, 7 ],
+            "sunday": [ 7, 19, 27, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 505,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-lights-of-the-plant-1965.jpg',
+          title: 'The Lights of the Plant',
+          artist: 'Maria Stolarova',
+          year: '1965',
+          rule: {
+            "monday": [ 7, 19, 27, 6 ],
+            "tuesday": [ 8, 18, 26, 5 ],
+            "wednesday": [ 7, 18, 25, 4 ],
+            "thursday": [ 6, 16, 24, 3 ],
+            "friday": [ 5, 15, 24, 2 ],
+            "saturday": [ 11, 20, 30, 7 ],
+            "sunday": [ 10, 20, 28, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -9204,6 +9204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 461,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/after-the-bath-1884.jpg',
+          title: 'After the Bath',
+          artist: 'Edgar Degas',
+          year: '1884',
+          rule: {
+            "monday": [ 3, 14, 25, 26 ],
+            "tuesday": [ 2, 13, 23, 25 ],
+            "wednesday": [ 1, 12, 23, 24 ],
+            "thursday": [ 31, 11, 22, 2 ],
+            "friday": [ 6, 17, 28, 7 ],
+            "saturday": [ 5, 14, 27, 7 ],
+            "sunday": [ 3, 14, 26, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 462,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/sleeping-beauty-1.jpg',
+          title: 'Sleeping Beauty',
+          artist: 'Gustave Dore',
+          year: '?',
+          rule: {
+            "monday": [ 4, 15, 27, 7 ],
+            "tuesday": [ 4, 15, 26, 27 ],
+            "wednesday": [ 3, 14, 24, 26 ],
+            "thursday": [ 2, 13, 24, 25 ],
+            "friday": [ 1, 12, 23, 3 ],
+            "saturday": [ 7, 18, 29, 8 ],
+            "sunday": [ 6, 15, 28, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 463,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/l-orphelin-souvenir-d-auvergne.jpg',
+          title: 'The Orphan',
+          artist: 'August Friedrich Schenck',
+          year: 'c.1885',
+          rule: {
+            "monday": [ 6, 15, 28, 8 ],
+            "tuesday": [ 4, 15, 27, 7 ],
+            "wednesday": [ 4, 15, 26, 27 ],
+            "thursday": [ 3, 14, 24, 26 ],
+            "friday": [ 2, 13, 24, 25 ],
+            "saturday": [ 1, 12, 23, 3 ],
+            "sunday": [ 7, 18, 29, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 464,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-toilet-1890.jpg',
+          title: 'The Toilet',
+          artist: 'Gustave Moreau',
+          year: 'c.1885 - 1890',
+          rule: {
+            "monday": [ 7, 18, 29, 8 ],
+            "tuesday": [ 6, 15, 28, 8 ],
+            "wednesday": [ 4, 15, 27, 7 ],
+            "thursday": [ 4, 15, 26, 27 ],
+            "friday": [ 3, 14, 24, 26 ],
+            "saturday": [ 2, 13, 24, 25 ],
+            "sunday": [ 1, 12, 23, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 465,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/italian-fishing-vessels-at-dusk.jpg',
+          title: 'Italian Fishing Vessels at Dusk',
+          artist: 'Adolphe Joseph Thomas Monticelli',
+          year: '?',
+          rule: {
+            "monday": [ 1, 12, 23, 3 ],
+            "tuesday": [ 7, 18, 29, 8 ],
+            "wednesday": [ 6, 15, 28, 8 ],
+            "thursday": [ 4, 15, 27, 7 ],
+            "friday": [ 4, 15, 26, 27 ],
+            "saturday": [ 3, 14, 24, 26 ],
+            "sunday": [ 2, 13, 24, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

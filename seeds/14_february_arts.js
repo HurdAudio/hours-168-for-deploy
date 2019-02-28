@@ -10204,6 +10204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 511,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/a002238521-001.jpg',
+          title: 'Black Venus',
+          artist: 'Margaret Taylor-Burroughs',
+          year: '1960',
+          rule: {
+            "monday": [ 23, 28, 5, 15 ],
+            "tuesday": [ 22, 1, 9, 17 ],
+            "wednesday": [ 24, 5, 11, 17 ],
+            "thursday": [ 26, 5, 13, 23 ],
+            "friday": [ 26, 7, 3, 22 ],
+            "saturday": [ 16, 24, 3, 11 ],
+            "sunday": [ 17, 26, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 512,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/eclipse.jpg',
+          title: 'Eclipse',
+          artist: 'Alma Thomas',
+          year: '?',
+          rule: {
+            "monday": [ 17, 26, 5, 13 ],
+            "tuesday": [ 23, 28, 5, 15 ],
+            "wednesday": [ 22, 1, 9, 17 ],
+            "thursday": [ 24, 5, 11, 17 ],
+            "friday": [ 26, 5, 13, 23 ],
+            "saturday": [ 26, 7, 3, 22 ],
+            "sunday": [ 16, 24, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 513,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/HWT_2012-59_S.jpg',
+          title: 'Scarred Chest',
+          artist: '2006',
+          year: 'Hank Willis Thomas',
+          rule: {
+            "monday": [ 16, 24, 3, 11 ],
+            "tuesday": [ 17, 26, 5, 13 ],
+            "wednesday": [ 23, 28, 5, 15 ],
+            "thursday": [ 22, 1, 9, 17 ],
+            "friday": [ 24, 5, 11, 17 ],
+            "saturday": [ 26, 5, 13, 23 ],
+            "sunday": [ 26, 7, 3, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 514,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/5-2-Mickalene-Thomas-Youre-Gonna-Give-Me-The-Love-I-Need.jpg',
+          title: 'You\'re Gonna Give Me The Love I Need',
+          artist: 'Mickalene Thomas',
+          year: '2010',
+          rule: {
+            "monday": [ 26, 7, 3, 22 ],
+            "tuesday": [ 16, 24, 3, 11 ],
+            "wednesday": [ 17, 26, 5, 13 ],
+            "thursday": [ 23, 28, 5, 15 ],
+            "friday": [ 22, 1, 9, 17 ],
+            "saturday": [ 24, 5, 11, 17 ],
+            "sunday": [ 26, 5, 13, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 515,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/THOMPSN119.jpg',
+          title: 'St. George and the Dragon',
+          artist: 'Bob Thompson',
+          year: '1961',
+          rule: {
+            "monday": [ 26, 5, 13, 23 ],
+            "tuesday": [ 26, 7, 3, 22 ],
+            "wednesday": [ 16, 24, 3, 11 ],
+            "thursday": [ 17, 26, 5, 13 ],
+            "friday": [ 23, 28, 5, 15 ],
+            "saturday": [ 22, 1, 9, 17 ],
+            "sunday": [ 24, 5, 11, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

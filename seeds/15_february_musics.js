@@ -5458,6 +5458,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 304,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3015256668/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://yugenblakrok.bandcamp.com/album/anima-mysterium',
+          a_string: 'ANIMA MYSTERIUM by Yugen Blakrok',
+          rule: {
+            "monday": [ 1, 24, 26, 28 ],
+            "tuesday": [ 3, 26, 28, 5 ],
+            "wednesday": [ 4, 27, 29, 6 ],
+            "thursday": [ 16, 20, 22, 26 ],
+            "saturday": [ 19, 22, 24, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 305,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=716325170/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://clearsoulforces.bandcamp.com/album/still',
+          a_string: 'Still by Clear Soul Forces',
+          rule: {
+            "monday": [ 19, 22, 24, 26 ],
+            "tuesday": [ 1, 24, 26, 28 ],
+            "wednesday": [ 3, 26, 28, 5 ],
+            "thursday": [ 4, 27, 29, 6 ],
+            "saturday": [ 16, 20, 22, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 306,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=757727673/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://thegoodpeople.bandcamp.com/album/good-for-nuthin-2',
+          a_string: 'Good For Nuthin by The Good People',
+          rule: {
+            "monday": [ 16, 20, 22, 26 ],
+            "tuesday": [ 19, 22, 24, 26 ],
+            "wednesday": [ 1, 24, 26, 28 ],
+            "thursday": [ 3, 26, 28, 5 ],
+            "saturday": [ 4, 27, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

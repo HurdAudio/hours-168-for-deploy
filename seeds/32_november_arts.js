@@ -8404,6 +8404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 421,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/working-drawing-for-music-faculty-auckland-university-1985.jpg',
+          title: 'Working Drawing For Music Faculty, Auckland University',
+          artist: 'Ralph Hotere',
+          year: '1985',
+          rule: {
+            "monday": [ 7, 9, 17, 23 ],
+            "tuesday": [ 6, 10, 17, 21 ],
+            "wednesday": [ 5, 8, 15, 20 ],
+            "thursday": [ 4, 8, 15, 20 ],
+            "friday": [ 3, 8, 14, 19 ],
+            "saturday": [ 2, 7, 13, 20 ],
+            "sunday": [ 8, 13, 19, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 422,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/window-study-3-1985.jpg',
+          title: 'Window Study #3',
+          artist: 'Brice Marden',
+          year: '1985',
+          rule: {
+            "monday": [ 8, 13, 19, 24 ],
+            "tuesday": [ 7, 9, 17, 23 ],
+            "wednesday": [ 6, 10, 17, 21 ],
+            "thursday": [ 5, 8, 15, 20 ],
+            "friday": [ 4, 8, 15, 20 ],
+            "saturday": [ 3, 8, 14, 19 ],
+            "sunday": [ 2, 7, 13, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 423,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/black-tower-garden-1985.jpg',
+          title: 'Black Tower (Garden)',
+          artist: 'Ronald Bladen',
+          year: '1985',
+          rule: {
+            "monday": [ 2, 7, 13, 20 ],
+            "tuesday": [ 8, 13, 19, 24 ],
+            "wednesday": [ 7, 9, 17, 23 ],
+            "thursday": [ 6, 10, 17, 21 ],
+            "friday": [ 5, 8, 15, 20 ],
+            "saturday": [ 4, 8, 15, 20 ],
+            "sunday": [ 3, 8, 14, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 424,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/tanit-1985.jpg',
+          title: 'Tanit',
+          artist: 'Katsuhito Nishikawa',
+          year: '1985',
+          rule: {
+            "monday": [ 3, 8, 14, 19 ],
+            "tuesday": [ 2, 7, 13, 20 ],
+            "wednesday": [ 8, 13, 19, 24 ],
+            "thursday": [ 7, 9, 17, 23 ],
+            "friday": [ 6, 10, 17, 21 ],
+            "saturday": [ 5, 8, 15, 20 ],
+            "sunday": [ 4, 8, 15, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 425,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/light-tree-1985.jpg',
+          title: 'Light Tree',
+          artist: 'Nanda Vigo',
+          year: '1985',
+          rule: {
+            "monday": [ 4, 8, 15, 20 ],
+            "tuesday": [ 3, 8, 14, 19 ],
+            "wednesday": [ 2, 7, 13, 20 ],
+            "thursday": [ 8, 13, 19, 24 ],
+            "friday": [ 7, 9, 17, 23 ],
+            "saturday": [ 6, 10, 17, 21 ],
+            "sunday": [ 5, 8, 15, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

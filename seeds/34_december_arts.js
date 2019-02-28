@@ -8204,6 +8204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 411,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/47-Fall,Treasure.jpg',
+          title: 'Fall Treasure Comics',
+          artist: 'Ann Brewster',
+          year: '1947',
+          rule: {
+            "monday": [ 27, 9, 17, 23 ],
+            "tuesday": [ 26, 7, 6, 22 ],
+            "wednesday": [ 25, 7, 26, 2 ],
+            "thursday": [ 31, 13, 21, 27 ],
+            "friday": [ 30, 11, 20, 26 ],
+            "saturday": [ 29, 11, 19, 25 ],
+            "sunday": [ 28, 10, 18, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 412,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-08,BlueBk1.jpg',
+          title: 'Blue Book',
+          artist: 'Austin Briggs',
+          year: '1937',
+          rule: {
+            "monday": [ 28, 10, 18, 24 ],
+            "tuesday": [ 27, 9, 17, 23 ],
+            "wednesday": [ 26, 7, 6, 22 ],
+            "thursday": [ 25, 7, 26, 2 ],
+            "friday": [ 31, 13, 21, 27 ],
+            "saturday": [ 30, 11, 20, 26 ],
+            "sunday": [ 29, 11, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 413,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/10-00,BrooklynMuseum.jpg',
+          title: 'Stained Glass',
+          artist: 'W. C. Brigham',
+          year: '1910',
+          rule: {
+            "monday": [ 30, 12, 20, 26 ],
+            "tuesday": [ 29, 11, 19, 25 ],
+            "wednesday": [ 28, 10, 18, 24 ],
+            "thursday": [ 27, 8, 7, 23 ],
+            "friday": [ 26, 8, 27, 3 ],
+            "saturday": [ 1, 14, 22, 28 ],
+            "sunday": [ 31, 12, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 414,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/22-05,WirelessAge.jpg',
+          title: 'Wireless Age',
+          artist: 'W. C. Brigham, Jr.',
+          year: '1922',
+          rule: {
+            "monday": [ 31, 12, 21, 27 ],
+            "tuesday": [ 30, 12, 20, 26 ],
+            "wednesday": [ 29, 11, 19, 25 ],
+            "thursday": [ 28, 10, 18, 24 ],
+            "friday": [ 27, 8, 7, 23 ],
+            "saturday": [ 26, 8, 27, 3 ],
+            "sunday": [ 1, 14, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 415,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/33-10-15,CompS.jpg',
+          title: 'Complete Stories',
+          artist: 'Howard V. Brown',
+          year: '1933',
+          rule: {
+            "monday": [ 1, 14, 22, 28 ],
+            "tuesday": [ 31, 12, 21, 27 ],
+            "wednesday": [ 30, 12, 20, 26 ],
+            "thursday": [ 29, 11, 19, 25 ],
+            "friday": [ 28, 10, 18, 24 ],
+            "saturday": [ 27, 8, 7, 23 ],
+            "sunday": [ 26, 8, 27, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

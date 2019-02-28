@@ -4486,6 +4486,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 250,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1899900139/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://aliandtoumani.bandcamp.com/album/ali-toumani',
+          a_string: 'Ali &amp; Toumani by Ali Farka Touré and Toumani Diabaté',
+          rule: {
+            "monday": [ 4, 15, 26, 28 ],
+            "tuesday": [ 3, 14, 25, 7 ],
+            "wednesday": [ 7, 18, 29, 3 ],
+            "thursday": [ 6, 17, 28, 2 ],
+            "saturday": [ 5, 16, 27, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 251,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3386233327/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://aliandtoumani.bandcamp.com/album/in-the-heart-of-the-moon',
+          a_string: 'In The Heart Of The Moon by Ali Farka Touré and Toumani Diabaté',
+          rule: {
+            "monday": [ 5, 16, 27, 1 ],
+            "tuesday": [ 4, 15, 26, 28 ],
+            "wednesday": [ 3, 14, 25, 7 ],
+            "thursday": [ 7, 18, 29, 3 ],
+            "saturday": [ 6, 17, 28, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 252,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3803453218/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://secousse.bandcamp.com/album/max-rambhojan',
+          a_string: 'Max Rambhojan by Max Rambhojan',
+          rule: {
+            "monday": [ 7, 18, 29, 3 ],
+            "tuesday": [ 6, 17, 28, 2 ],
+            "wednesday": [ 5, 16, 27, 29 ],
+            "thursday": [ 4, 15, 26, 8 ],
+            "saturday": [ 8, 19, 30, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

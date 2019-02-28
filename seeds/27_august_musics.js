@@ -4810,6 +4810,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 268,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3593202277/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://deathbedtapes.bandcamp.com/album/beyond-the-grave',
+          a_string: 'BEYOND THE GRAVE by Various',
+          rule: {
+            "monday": [ 16, 24, 6, 5 ],
+            "tuesday": [ 20, 28, 10, 9 ],
+            "wednesday": [ 19, 27, 9, 8 ],
+            "thursday": [ 18, 26, 8, 7 ],
+            "saturday": [ 17, 25, 7, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 269,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3580031390/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://metalchaosensemble.bandcamp.com/album/beyond-the-holy-mountain',
+          a_string: 'Beyond the Holy Mountain by Metal Chaos Ensemble',
+          rule: {
+            "monday": [ 17, 25, 7, 6 ],
+            "tuesday": [ 16, 24, 6, 5 ],
+            "wednesday": [ 20, 28, 10, 9 ],
+            "thursday": [ 19, 27, 9, 8 ],
+            "saturday": [ 18, 26, 8, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 270,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4241404378/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://harshnoisemovement.bandcamp.com/album/splodge',
+          a_string: 'Splodge by Harsh Noise Movement',
+          rule: {
+            "monday": [ 18, 26, 8, 7 ],
+            "tuesday": [ 17, 25, 7, 6 ],
+            "wednesday": [ 16, 24, 6, 5 ],
+            "thursday": [ 20, 28, 10, 9 ],
+            "saturday": [ 19, 27, 9, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

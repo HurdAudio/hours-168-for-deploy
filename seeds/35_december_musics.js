@@ -4378,6 +4378,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 244,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1053573764/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/somebody-groovy-vol-3-soft-rock-france-canada-argentina-korea-60s-70s',
+          a_string: 'Somebody Groovy - Vol 3 (Soft Rock France, Canada, Argentina, Korea 60&#39;s &amp; 70&#39;s) by Various Artists',
+          rule: {
+            "monday": [ 5, 13, 19, 25 ],
+            "tuesday": [ 6, 12, 18, 24 ],
+            "wednesday": [ 10, 16, 22, 28 ],
+            "thursday": [ 9, 15, 21, 27 ],
+            "saturday": [ 6, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 245,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2859670779/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/somebody-groovy-vol-1-garage-rock-canada-france-korea-argentina-60s-70s',
+          a_string: 'Somebody Groovy - Vol 1 (Garage Rock Canada, France, Korea, Argentina - 60&#39;s &amp; 70&#39;s) by Various Artists',
+          rule: {
+            "monday": [ 7, 15, 21, 27 ],
+            "tuesday": [ 6, 14, 20, 26 ],
+            "wednesday": [ 7, 13, 19, 25 ],
+            "thursday": [ 11, 17, 23, 29 ],
+            "saturday": [ 10, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 246,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1167131662/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/somebody-groovy-vol-2-psych-rock-canada-france-argentina-korea-usa-60s-70s',
+          a_string: 'Somebody Groovy - Vol 2 (Psych Rock Canada, France, Argentina, Korea, USA, 60&#39;s &amp; 70&#39;s) by Various artists',
+          rule: {
+            "monday": [ 10, 16, 22, 28 ],
+            "tuesday": [ 7, 15, 21, 27 ],
+            "wednesday": [ 6, 14, 20, 26 ],
+            "thursday": [ 7, 13, 19, 25 ],
+            "saturday": [ 11, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

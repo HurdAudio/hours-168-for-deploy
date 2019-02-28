@@ -8804,6 +8804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 441,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/black-cradle-of-bright-life-1963.jpg',
+          title: 'Black Cradle of Bright Life',
+          artist: 'Vangel Naumovski',
+          year: '1963',
+          rule: {
+            "monday": [ 2, 9, 27, 5 ],
+            "tuesday": [ 2, 8, 26, 4 ],
+            "wednesday": [ 21, 7, 25, 4 ],
+            "thursday": [ 20, 27, 24, 2 ],
+            "friday": [ 28, 5, 23, 30 ],
+            "saturday": [ 5, 11, 29, 7 ],
+            "sunday": [ 4, 9, 28, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 442,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/crux-1969.jpg',
+          title: 'Crux',
+          artist: 'Dan Christensen',
+          year: '1969',
+          rule: {
+            "monday": [ 4, 9, 28, 6 ],
+            "tuesday": [ 2, 9, 27, 5 ],
+            "wednesday": [ 2, 8, 26, 4 ],
+            "thursday": [ 21, 7, 25, 4 ],
+            "friday": [ 20, 27, 24, 2 ],
+            "saturday": [ 28, 5, 23, 30 ],
+            "sunday": [ 5, 11, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 443,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/fountain-madonna-1991.jpg',
+          title: 'Fountain (Madonna)',
+          artist: 'Sherrie Levine',
+          year: '1991',
+          rule: {
+            "monday": [ 5, 11, 29, 7 ],
+            "tuesday": [ 4, 9, 28, 6 ],
+            "wednesday": [ 2, 9, 27, 5 ],
+            "thursday": [ 2, 8, 26, 4 ],
+            "friday": [ 21, 7, 25, 4 ],
+            "saturday": [ 20, 27, 24, 2 ],
+            "sunday": [ 28, 5, 23, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 444,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/alfred-hitchcook.jpg',
+          title: 'Alfred Hitchcook',
+          artist: 'Philippe Halsman',
+          year: '1963',
+          rule: {
+            "monday": [ 28, 5, 23, 30 ],
+            "tuesday": [ 5, 11, 29, 7 ],
+            "wednesday": [ 4, 9, 28, 6 ],
+            "thursday": [ 2, 9, 27, 5 ],
+            "friday": [ 2, 8, 26, 4 ],
+            "saturday": [ 21, 7, 25, 4 ],
+            "sunday": [ 20, 27, 24, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 445,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/girl-with-radish-1963.jpg',
+          title: 'Girl with Radish',
+          artist: 'Marjorie Strider',
+          year: '1963',
+          rule: {
+            "monday": [ 20, 27, 24, 2 ],
+            "tuesday": [ 28, 5, 23, 30 ],
+            "wednesday": [ 5, 11, 29, 7 ],
+            "thursday": [ 4, 9, 28, 6 ],
+            "friday": [ 2, 9, 27, 5 ],
+            "saturday": [ 2, 8, 26, 4 ],
+            "sunday": [ 21, 7, 25, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

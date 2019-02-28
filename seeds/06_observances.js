@@ -10679,6 +10679,34 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 686,
+          user_id: 1,
+          name: 'Carl Paivio (labor activist/anarchist) born in 1893.',
+          color: '#868686',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Carl_Paivio.jpeg',
+          day_of: new Date ('1893-11-23T13:44:00.000Z'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 687,
+          user_id: 1,
+          name: 'Albert Parsons (anarchist/newspaper editor/orator/labor activist) born 1848.',
+          color: '#FFFFFF',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Albert_Parsons_portrait.jpg',
+          day_of: new Date ('1848-06-20T13:44:00.000Z'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4918,6 +4918,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 274,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1200430805/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://fatamorganabarcelona.bandcamp.com/album/terra-alta',
+          a_string: 'Terra Alta by FATAMORGANA',
+          rule: {
+            "monday": [ 6, 8, 12, 20 ],
+            "tuesday": [ 10, 12, 16, 24 ],
+            "wednesday": [ 9, 11, 15, 23 ],
+            "thursday": [ 8, 10, 14, 22 ],
+            "saturday": [ 7, 8, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 275,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4089226496/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://suicidesqueeze.bandcamp.com/album/oh-man-cover-the-ground',
+          a_string: 'Oh  Man, Cover The Ground by Shana Cleveland &amp; The Sandcastles',
+          rule: {
+            "monday": [ 7, 8, 13, 21 ],
+            "tuesday": [ 6, 8, 12, 20 ],
+            "wednesday": [ 10, 12, 16, 24 ],
+            "thursday": [ 9, 11, 15, 23 ],
+            "saturday": [ 8, 10, 14, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 276,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3887543747/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://desperatejournalist.bandcamp.com/album/in-search-of-the-miraculous-2',
+          a_string: 'In Search of the Miraculous by Desperate Journalist',
+          rule: {
+            "monday": [ 8, 10, 14, 22 ],
+            "tuesday": [ 7, 8, 13, 21 ],
+            "wednesday": [ 6, 8, 12, 20 ],
+            "thursday": [ 10, 12, 16, 24 ],
+            "saturday": [ 9, 11, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

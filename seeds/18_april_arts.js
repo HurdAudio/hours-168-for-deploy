@@ -9804,6 +9804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 491,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/FinalPieceKCRoyaltySocialLow_1000x1500.jpg',
+          title: 'KC Royalty',
+          artist: 'Joe Devine',
+          year: '2015',
+          rule: {
+            "monday": [ 10, 16, 21, 28 ],
+            "tuesday": [ 24, 14, 20, 26 ],
+            "wednesday": [ 9, 12, 20, 26 ],
+            "thursday": [ 8, 12, 27, 25 ],
+            "friday": [ 5, 11, 17, 23 ],
+            "saturday": [ 6, 11, 17, 23 ],
+            "sunday": [ 5, 10, 16, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 492,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/ yordano-ventura-kansas-city-royals-painted-baseball-cleats-696x393.jpg',
+          title: 'Yordano Ventura Commemorative Custom Cleats for Gregory Polanco',
+          artist: 'Nicholas Avery',
+          year: '2017',
+          rule: {
+            "monday": [ 5, 10, 16, 22 ],
+            "tuesday": [ 10, 16, 21, 28 ],
+            "wednesday": [ 24, 14, 20, 26 ],
+            "thursday": [ 9, 12, 20, 26 ],
+            "friday": [ 8, 12, 27, 25 ],
+            "saturday": [ 5, 11, 17, 23 ],
+            "sunday": [ 6, 11, 17, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 493,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/CarpenterCollective_RoyalsMural04-2436x2880.jpg',
+          title: 'Raised Royal Mural',
+          artist: 'Carpenter Collective',
+          year: '?',
+          rule: {
+            "monday": [ 6, 11, 17, 23 ],
+            "tuesday": [ 5, 10, 16, 22 ],
+            "wednesday": [ 10, 16, 21, 28 ],
+            "thursday": [ 24, 14, 20, 26 ],
+            "friday": [ 9, 12, 20, 26 ],
+            "saturday": [ 8, 12, 27, 25 ],
+            "sunday": [ 5, 11, 17, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 494,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/stf,small,600x600-c,0,0,1000,1000.jpg',
+          title: 'Bo Knows Sticker',
+          artist: '?',
+          year: 'xxi cent.',
+          rule: {
+            "monday": [ 5, 11, 17, 23 ],
+            "tuesday": [ 6, 11, 17, 23 ],
+            "wednesday": [ 5, 10, 16, 22 ],
+            "thursday": [ 10, 16, 21, 28 ],
+            "friday": [ 24, 14, 20, 26 ],
+            "saturday": [ 9, 12, 20, 26 ],
+            "sunday": [ 8, 12, 27, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 495,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/1c2110c2b39fabb4dcc2abc630e7034a.jpg',
+          title: 'KC Royals Pumpkin',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 8, 12, 27, 25 ],
+            "tuesday": [ 5, 11, 17, 23 ],
+            "wednesday": [ 6, 11, 17, 23 ],
+            "thursday": [ 5, 10, 16, 22 ],
+            "friday": [ 10, 16, 21, 28 ],
+            "saturday": [ 24, 14, 20, 26 ],
+            "sunday": [ 9, 12, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

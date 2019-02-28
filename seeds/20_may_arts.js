@@ -1069,10 +1069,10 @@ exports.seed = function(knex, Promise) {
           id: 54,
           user_id: 1,
           theme: 'Socialism & Worker\'s Rights',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/workers-in-the-fields-1.jpg',
-          title: 'Workers in the Fields',
-          artist: 'Camille Pissarro',
-          year: 'c.1896 - c.1897',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/run-2010.jpg',
+          title: 'Run',
+          artist: 'Sun Mu',
+          year: '2010',
           rule: {
             "monday": [ 31, 10, 20, 30 ],
             "tuesday": [ 29, 8, 18, 28 ],
@@ -9601,6 +9601,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 3, 13, 21, 23 ],
             "saturday": [ 31, 11, 21, 10 ],
             "sunday": [ 30, 10, 20, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 481,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/vaccination-2010.jpg',
+          title: 'Vaccination',
+          artist: 'Sun Mu',
+          year: '2010',
+          rule: {
+            "monday": [ 30, 10, 20, 29 ],
+            "tuesday": [ 28, 7, 17, 25 ],
+            "wednesday": [ 26, 4, 16, 25 ],
+            "thursday": [ 5, 17, 27, 4 ],
+            "friday": [ 5, 16, 25, 4 ],
+            "saturday": [ 3, 13, 21, 23 ],
+            "sunday": [ 31, 11, 21, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 482,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/squeal-2010.jpg',
+          title: 'Squeal',
+          artist: 'Sun Mu',
+          year: '2010',
+          rule: {
+            "monday": [ 31, 11, 21, 10 ],
+            "tuesday": [ 30, 10, 20, 29 ],
+            "wednesday": [ 28, 7, 17, 25 ],
+            "thursday": [ 26, 4, 16, 25 ],
+            "friday": [ 5, 17, 27, 4 ],
+            "saturday": [ 5, 16, 25, 4 ],
+            "sunday": [ 3, 13, 21, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 483,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-2011.jpeg',
+          title: 'Untitled',
+          artist: 'Sun Mu',
+          year: '2011',
+          rule: {
+            "monday": [ 4, 14, 22, 24 ],
+            "tuesday": [ 1, 12, 22, 11 ],
+            "wednesday": [ 31, 11, 21, 30 ],
+            "thursday": [ 29, 8, 18, 26 ],
+            "friday": [ 27, 5, 17, 26 ],
+            "saturday": [ 6, 18, 28, 5 ],
+            "sunday": [ 6, 17, 26, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 484,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/sun-mu-2011.jpeg',
+          title: 'Sun Mu',
+          artist: 'Sun Mu',
+          year: '2011',
+          rule: {
+            "monday": [ 6, 17, 26, 5 ],
+            "tuesday": [ 4, 14, 22, 24 ],
+            "wednesday": [ 1, 12, 22, 11 ],
+            "thursday": [ 31, 11, 21, 30 ],
+            "friday": [ 29, 8, 18, 26 ],
+            "saturday": [ 27, 5, 17, 26 ],
+            "sunday": [ 6, 18, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 485,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/with-you-2012.jpg',
+          title: 'With You',
+          artist: 'Sun Mu',
+          year: '2012',
+          rule: {
+            "monday": [ 6, 18, 28, 5 ],
+            "tuesday": [ 6, 17, 26, 5 ],
+            "wednesday": [ 4, 14, 22, 24 ],
+            "thursday": [ 1, 12, 22, 11 ],
+            "friday": [ 31, 11, 21, 30 ],
+            "saturday": [ 29, 8, 18, 26 ],
+            "sunday": [ 27, 5, 17, 26 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

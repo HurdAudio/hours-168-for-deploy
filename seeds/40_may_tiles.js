@@ -374,7 +374,7 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Greenery',
           type: 'holiday',
-          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/640px-Jasmine0001.jpg',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/640px-Jasmine0001.JPG',
           repeat_value: 'no-repeat',
           size_value: '135%',
           color_dark: '#141D03',
@@ -1066,6 +1066,20 @@ exports.seed = function(knex, Promise) {
           color_dark: '#050D11',
           color_medium: '#00853D',
           color_light: '#77AE6C',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 77,
+          user_id: 1,
+          theme: 'Greenery',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/monica-galentino-102655-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '155%',
+          color_dark: '#000305',
+          color_medium: '#D80408',
+          color_light: '#FAF6F7',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
         }

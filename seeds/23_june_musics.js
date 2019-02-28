@@ -5026,6 +5026,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 280,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2338118920/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://definitelymiami.bandcamp.com/album/definitely-miami',
+          a_string: 'Definitely Miami by Definitely Miami',
+          rule: {
+            "monday": [ 9, 12, 18, 30 ],
+            "tuesday": [ 9, 12, 18, 29 ],
+            "wednesday": [ 7, 15, 17, 2 ],
+            "thursday": [ 11, 15, 21, 2 ],
+            "saturday": [ 10, 13, 18, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 281,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1921742848/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://flowerroomrecords.bandcamp.com/album/matt-lajoie-the-center-and-the-fringe',
+          a_string: 'MATT LAJOIE - The Center and the Fringe by Matt LaJoie',
+          rule: {
+            "monday": [ 10, 13, 18, 30 ],
+            "tuesday": [ 9, 12, 18, 30 ],
+            "wednesday": [ 9, 12, 18, 29 ],
+            "thursday": [ 7, 15, 17, 2 ],
+            "saturday": [ 11, 15, 21, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 282,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=811149253/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://guildoflore.bandcamp.com/album/winterstead',
+          a_string: 'Winterstead by Guild Of Lore',
+          rule: {
+            "monday": [ 11, 15, 21, 2 ],
+            "tuesday": [ 10, 13, 18, 30 ],
+            "wednesday": [ 9, 12, 18, 30 ],
+            "thursday": [ 9, 12, 18, 29 ],
+            "saturday": [ 7, 15, 17, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

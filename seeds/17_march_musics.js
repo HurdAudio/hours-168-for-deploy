@@ -5350,6 +5350,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 298,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=171742989/size=large/bgcol=ffffff/linkcol=0687f5/license_id=406/tracklist=false/transparent=true/',
+          href_string: 'http://juliajacklin.bandcamp.com/album/crushing',
+          a_string: 'Crushing by Julia Jacklin',
+          rule: {
+            "monday": [ 13, 19, 25, 2 ],
+            "tuesday": [ 17, 23, 29, 6 ],
+            "wednesday": [ 16, 22, 28, 5 ],
+            "thursday": [ 15, 21, 27, 5 ],
+            "saturday": [ 13, 20, 26, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 299,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=187403266/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://newyorkhaunted.bandcamp.com/album/nyh152-loraine-james-button-mashing',
+          a_string: 'NYH152 Loraine James - Button Mashing by New York Haunted',
+          rule: {
+            "monday": [ 13, 20, 26, 3 ],
+            "tuesday": [ 13, 19, 25, 2 ],
+            "wednesday": [ 17, 23, 29, 6 ],
+            "thursday": [ 16, 22, 28, 5 ],
+            "saturday": [ 15, 21, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 300,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3112732403/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://samanthariott.bandcamp.com/album/bloodletting-2',
+          a_string: 'Bloodletting by Samantha Riott',
+          rule: {
+            "monday": [ 15, 21, 27, 5 ],
+            "tuesday": [ 13, 20, 26, 3 ],
+            "wednesday": [ 13, 19, 25, 2 ],
+            "thursday": [ 17, 23, 29, 6 ],
+            "saturday": [ 16, 22, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

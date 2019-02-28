@@ -5566,6 +5566,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 310,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1432127228/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/schwarze-riesenfalter',
+          a_string: 'Schwarze Riesenfalter by Graham Lambkin/Michael Pisaro',
+          rule: {
+            "monday": [ 19, 26, 27, 28 ],
+            "tuesday": [ 23, 30, 31, 1 ],
+            "wednesday": [ 22, 28, 29, 31 ],
+            "thursday": [ 21, 28, 29, 30 ],
+            "saturday": [ 20, 26, 27, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 311,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1197512456/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/matterings',
+          a_string: 'Matterings by Jeph Jerman/Tim Barnes',
+          rule: {
+            "monday": [ 20, 26, 27, 28 ],
+            "tuesday": [ 19, 26, 27, 28 ],
+            "wednesday": [ 23, 30, 31, 1 ],
+            "thursday": [ 22, 28, 29, 31 ],
+            "saturday": [ 21, 28, 29, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 312,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3435680642/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/the-abyss',
+          a_string: 'The Abyss by Kevin Drumm/Jason Lescalleet',
+          rule: {
+            "monday": [ 21, 28, 29, 30 ],
+            "tuesday": [ 20, 26, 27, 28 ],
+            "wednesday": [ 19, 26, 27, 28 ],
+            "thursday": [ 23, 30, 31, 1 ],
+            "saturday": [ 22, 28, 29, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

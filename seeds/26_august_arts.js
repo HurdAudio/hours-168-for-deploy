@@ -9004,6 +9004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 451,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/landschaft-mit-h-usern-1928.jpg',
+          title: 'Landschaft mit Häusern',
+          artist: 'Gustave Buchet',
+          year: '1928',
+          rule: {
+            "monday": [ 31, 3, 12, 28 ],
+            "tuesday": [ 6, 10, 18, 3 ],
+            "wednesday": [ 5, 8, 17, 2 ],
+            "thursday": [ 4, 8, 16, 1 ],
+            "friday": [ 3, 7, 15, 31 ],
+            "saturday": [ 2, 4, 14, 30 ],
+            "sunday": [ 1, 4, 13, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 452,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/young-woman-in-the-atelier-1904.jpg',
+          title: 'Young Woman in the Atelier',
+          artist: 'Janos Tornyai',
+          year: '1904',
+          rule: {
+            "monday": [ 1, 4, 13, 29 ],
+            "tuesday": [ 31, 3, 12, 28 ],
+            "wednesday": [ 6, 10, 18, 3 ],
+            "thursday": [ 5, 8, 17, 2 ],
+            "friday": [ 4, 8, 16, 1 ],
+            "saturday": [ 3, 7, 15, 31 ],
+            "sunday": [ 2, 4, 14, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 453,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/flashing-motorists-1904-2.jpg',
+          title: 'Flashing Motorists',
+          artist: 'Raphael Kirchner',
+          year: '1904',
+          rule: {
+            "monday": [ 2, 4, 14, 30 ],
+            "tuesday": [ 1, 4, 13, 29 ],
+            "wednesday": [ 31, 3, 12, 28 ],
+            "thursday": [ 6, 10, 18, 3 ],
+            "friday": [ 5, 8, 17, 2 ],
+            "saturday": [ 4, 8, 16, 1 ],
+            "sunday": [ 3, 7, 15, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 454,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/horses-in-a-green-landscape-1931.jpg',
+          title: 'Horses in a Green Landscape',
+          artist: 'Sanyu',
+          year: '1931',
+          rule: {
+            "monday": [ 3, 7, 15, 31 ],
+            "tuesday": [ 2, 4, 14, 30 ],
+            "wednesday": [ 1, 4, 13, 29 ],
+            "thursday": [ 31, 3, 12, 28 ],
+            "friday": [ 6, 10, 18, 3 ],
+            "saturday": [ 5, 8, 17, 2 ],
+            "sunday": [ 4, 8, 16, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 455,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/nap-1939.jpg',
+          title: 'The nap',
+          artist: 'Jose de Almada-Negreiros',
+          year: '1939',
+          rule: {
+            "monday": [ 5, 9, 17, 2 ],
+            "tuesday": [ 4, 8, 16, 1 ],
+            "wednesday": [ 3, 5, 15, 31 ],
+            "thursday": [ 2, 5, 14, 30 ],
+            "friday": [ 1, 4, 13, 29 ],
+            "saturday": [ 7, 11, 19, 4 ],
+            "sunday": [ 6, 9, 18, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

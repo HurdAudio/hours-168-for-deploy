@@ -1124,6 +1124,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#E1E0E7',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 81,
+          user_id: 1,
+          theme: 'Ice',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/natalie-riedel-1201950-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '156%',
+          color_dark: '#000000',
+          color_medium: '#003D52',
+          color_light: '#A9AEB2',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

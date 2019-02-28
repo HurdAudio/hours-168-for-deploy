@@ -4702,6 +4702,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 262,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2872606480/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://pompoko.bandcamp.com/album/birthday',
+          a_string: 'Birthday by Pom Poko',
+          rule: {
+            "monday": [ 12, 2, 10, 4 ],
+            "tuesday": [ 11, 1, 9, 3 ],
+            "wednesday": [ 10, 30, 8, 1 ],
+            "thursday": [ 10, 29, 7, 1 ],
+            "saturday": [ 8, 28, 6, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 263,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4013495150/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://liptalk.bandcamp.com/album/d-a-y-s',
+          a_string: 'D A Y S by Lip Talk',
+          rule: {
+            "monday": [ 8, 28, 6, 30 ],
+            "tuesday": [ 12, 2, 10, 4 ],
+            "wednesday": [ 11, 1, 9, 3 ],
+            "thursday": [ 10, 30, 8, 1 ],
+            "saturday": [ 10, 29, 7, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 264,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2247511347/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://monoofjapan.bandcamp.com/album/nowhere-now-here',
+          a_string: 'Nowhere Now Here by MONO',
+          rule: {
+            "monday": [ 10, 29, 7, 1 ],
+            "tuesday": [ 8, 28, 6, 30 ],
+            "wednesday": [ 12, 2, 10, 4 ],
+            "thursday": [ 11, 1, 9, 3 ],
+            "saturday": [ 10, 30, 8, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

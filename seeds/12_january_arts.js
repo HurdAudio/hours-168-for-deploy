@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-landscape-woodstock-no-414-1964.jpg',
+          title: 'Untitled Landscape, Woodstock (No.414)',
+          artist: 'Arthur Pinajian',
+          year: '1964',
+          rule: {
+            "monday": [ 12, 13, 24, 16 ],
+            "tuesday": [ 15, 17, 9, 29 ],
+            "wednesday": [ 20, 18, 10, 13 ],
+            "thursday": [ 20, 21, 12, 16 ],
+            "friday": [ 23, 25, 26, 28 ],
+            "saturday": [ 25, 27, 31, 3 ],
+            "sunday": [ 27, 29, 30, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/woodburning.jpg',
+          title: 'Woodburning',
+          artist: 'Arthur Segal',
+          year: '?',
+          rule: {
+            "monday": [ 27, 29, 30, 31 ],
+            "tuesday": [ 12, 13, 24, 16 ],
+            "wednesday": [ 15, 17, 9, 29 ],
+            "thursday": [ 20, 18, 10, 13 ],
+            "friday": [ 20, 21, 12, 16 ],
+            "saturday": [ 23, 25, 26, 28 ],
+            "sunday": [ 25, 27, 31, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/time-and-space-series-2-1974.jpg',
+          title: 'Time and Space Series 2',
+          artist: 'Kazuo Nakamura',
+          year: '1974',
+          rule: {
+            "monday": [ 25, 27, 31, 3 ],
+            "tuesday": [ 27, 29, 30, 31 ],
+            "wednesday": [ 12, 13, 24, 16 ],
+            "thursday": [ 15, 17, 9, 29 ],
+            "friday": [ 20, 18, 10, 13 ],
+            "saturday": [ 20, 21, 12, 16 ],
+            "sunday": [ 23, 25, 26, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/un-altar-imagine-corrida-1958.jpg',
+          title: 'Un Altar Imagine (Corrida)',
+          artist: 'Antonio Corpora',
+          year: '1958',
+          rule: {
+            "monday": [ 23, 25, 26, 28 ],
+            "tuesday": [ 25, 27, 31, 3 ],
+            "wednesday": [ 27, 29, 30, 31 ],
+            "thursday": [ 12, 13, 24, 16 ],
+            "friday": [ 15, 17, 9, 29 ],
+            "saturday": [ 20, 18, 10, 13 ],
+            "sunday": [ 20, 21, 12, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/pleasure-of-wearing-1971.jpg',
+          title: 'Pleasure of Wearing',
+          artist: 'Kazuo Shiraga',
+          year: '1971',
+          rule: {
+            "monday": [ 21, 22, 13, 17 ],
+            "tuesday": [ 24, 26, 27, 29 ],
+            "wednesday": [ 26, 28, 1, 4 ],
+            "thursday": [ 28, 30, 31, 1 ],
+            "friday": [ 13, 14, 25, 17 ],
+            "saturday": [ 16, 18, 10, 30 ],
+            "sunday": [ 21, 19, 11, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

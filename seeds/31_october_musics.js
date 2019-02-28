@@ -4594,6 +4594,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 256,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1924348247/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://darkdescentrecords.bandcamp.com/album/lost-paragraphs',
+          a_string: 'Lost Paragraphs by Lantern',
+          rule: {
+            "monday": [ 13, 23, 2, 5 ],
+            "tuesday": [ 12, 22, 1, 4 ],
+            "wednesday": [ 11, 21, 1, 3 ],
+            "thursday": [ 10, 20, 30, 2 ],
+            "saturday": [ 14, 24, 3, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 257,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1382790906/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://charnelaltar.bandcamp.com/album/demo',
+          a_string: 'Demo by Charnel Altar',
+          rule: {
+            "monday": [ 14, 24, 3, 6 ],
+            "tuesday": [ 13, 23, 2, 5 ],
+            "wednesday": [ 12, 22, 1, 4 ],
+            "thursday": [ 11, 21, 1, 3 ],
+            "saturday": [ 10, 20, 30, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 258,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1140798305/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://csejthe.bandcamp.com/album/lycanthropie-misanthropie',
+          a_string: 'Lycanthropie Misanthropie by Csejthe',
+          rule: {
+            "monday": [ 10, 20, 30, 2 ],
+            "tuesday": [ 14, 24, 3, 6 ],
+            "wednesday": [ 13, 23, 2, 5 ],
+            "thursday": [ 12, 22, 1, 4 ],
+            "saturday": [ 11, 21, 1, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

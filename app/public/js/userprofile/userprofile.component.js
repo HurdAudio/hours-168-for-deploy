@@ -299,6 +299,44 @@
       vm.userEditArtShareCommentCompleted = userEditArtShareCommentCompleted;
       vm.deleteArtShare = deleteArtShare;
       vm.addNewObservanceShareComment = addNewObservanceShareComment;
+      vm.userDeleteArtModuleComment = userDeleteArtModuleComment;
+      vm.userArtModuleCommentDeleteCancel = userArtModuleCommentDeleteCancel;
+      vm.userArtModuleCommentDeleteConfirmClick = userArtModuleCommentDeleteConfirmClick;
+
+      function userArtModuleCommentDeleteConfirmClick(commentId) {
+
+        $http.delete(`/art_module_comments/${commentId}`)
+        .then(goneCommentData => {
+          let goneComment = goneCommentData.data;
+          for (let i = 0; i < vm.artModulePreview.length; i++) {
+            if ((vm.artModulePreview[i].comments !== undefined) && (vm.artModulePreview[i].comments !== null)) {
+              for (let j = 0; j < vm.artModulePreview[i].comments.length; j++) {
+                if (parseInt(vm.artModulePreview[i].comments[j].id) === parseInt(commentId)) {
+                  vm.artModulePreview[i].comments.splice(j, 1);
+                  return;
+                }
+              }
+            }
+          }
+
+        });
+      }
+
+      function userArtModuleCommentDeleteCancel(commentId) {
+        let editDeleteArtModuleUserComments = document.getElementById('editDeleteArtModuleUserComments' + commentId);
+        let deleteArtModuleCommentConfirm = document.getElementById('deleteArtModuleCommentConfirm' + commentId);
+
+        editDeleteArtModuleUserComments.setAttribute("style", "display: initial;");
+        deleteArtModuleCommentConfirm.setAttribute("style", "display: none;");
+      }
+
+      function userDeleteArtModuleComment(commentId) {
+        let editDeleteArtModuleUserComments = document.getElementById('editDeleteArtModuleUserComments' + commentId);
+        let deleteArtModuleCommentConfirm = document.getElementById('deleteArtModuleCommentConfirm' + commentId);
+
+        editDeleteArtModuleUserComments.setAttribute("style", "display: none;");
+        deleteArtModuleCommentConfirm.setAttribute("style", "display: initial;");
+      }
 
       function addNewObservanceShareComment(observanceId) {
         let subObj = {
