@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/sem-t-tulo-1990.jpg',
+          title: 'Sem título',
+          artist: 'Menez',
+          year: '1990',
+          rule: {
+            "monday": [ 10, 20, 28, 7 ],
+            "tuesday": [ 7, 19, 27, 6 ],
+            "wednesday": [ 8, 18, 26, 5 ],
+            "thursday": [ 7, 18, 25, 4 ],
+            "friday": [ 6, 16, 24, 3 ],
+            "saturday": [ 5, 15, 24, 2 ],
+            "sunday": [ 11, 20, 30, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-1969.jpg',
+          title: 'Untitled',
+          artist: 'Hannelore Baron',
+          year: '1969',
+          rule: {
+            "monday": [ 11, 20, 30, 7 ],
+            "tuesday": [ 10, 20, 28, 7 ],
+            "wednesday": [ 7, 19, 27, 6 ],
+            "thursday": [ 8, 18, 26, 5 ],
+            "friday": [ 7, 18, 25, 4 ],
+            "saturday": [ 6, 16, 24, 3 ],
+            "sunday": [ 5, 15, 24, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/living-edge-1973.jpg',
+          title: 'Living Edge',
+          artist: 'Helen Frankenthaler',
+          year: '1973',
+          rule: {
+            "monday": [ 5, 15, 24, 2 ],
+            "tuesday": [ 11, 20, 30, 7 ],
+            "wednesday": [ 10, 20, 28, 7 ],
+            "thursday": [ 7, 19, 27, 6 ],
+            "friday": [ 8, 18, 26, 5 ],
+            "saturday": [ 7, 18, 25, 4 ],
+            "sunday": [ 6, 16, 24, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/bootless-boots-1960.jpg',
+          title: 'Bootless Boots',
+          artist: 'Jo Baer',
+          year: '1960',
+          rule: {
+            "monday": [ 6, 16, 24, 3 ],
+            "tuesday": [ 5, 15, 24, 2 ],
+            "wednesday": [ 11, 20, 30, 7 ],
+            "thursday": [ 10, 20, 28, 7 ],
+            "friday": [ 7, 19, 27, 6 ],
+            "saturday": [ 8, 18, 26, 5 ],
+            "sunday": [ 7, 18, 25, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/days-of-lang-syne.jpg',
+          title: 'Days of Lang Syne',
+          artist: 'Gillian Ayres',
+          year: '?',
+          rule: {
+            "monday": [ 7, 18, 25, 4 ],
+            "tuesday": [ 6, 16, 24, 3 ],
+            "wednesday": [ 5, 15, 24, 2 ],
+            "thursday": [ 11, 20, 30, 7 ],
+            "friday": [ 10, 20, 28, 7 ],
+            "saturday": [ 7, 19, 27, 6 ],
+            "sunday": [ 8, 18, 26, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

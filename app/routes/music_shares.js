@@ -43,7 +43,8 @@ router.post('/', (req, res, next) => {
     music_month: req.body.art_month,
     music_id: req.body.art_id,
     share_associate_id: req.body.share_associate_id,
-    accepted: req.body.accepted
+    accepted: req.body.accepted,
+    responded: req.body.responded
   }, '*')
   .then((result) => {
     res.status(200).send(result);
@@ -62,7 +63,9 @@ router.patch('/:id', (req, res, next) => {
     music_month: req.body.art_month,
     music_id: req.body.art_id,
     share_associate_id: req.body.share_associate_id,
-    accepted: req.body.accepted
+    accepted: req.body.accepted,
+    responded: req.body.responded,
+    updated_at: req.body.updated_at
   }, '*')
     .then((results)=>{
        res.status(200).send(results[0]);
@@ -101,6 +104,7 @@ router.delete('/:id', (req, res, next) => {
             music_id: record.music_id,
             share_associate_id: record.share_associate_id,
             accepted: record.accepted,
+            responded: record.responded,
             created_at: record.created_at,
             updated_at: record.updated_at
           };

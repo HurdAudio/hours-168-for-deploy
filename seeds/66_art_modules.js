@@ -3064,6 +3064,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 256,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/20140512-214401.jpg',
+          title: 'The abandoned Spreepark in Berlin',
+          artist: 'unknown artist',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 257,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/20140512-214313.jpg',
+          title: 'The abandoned Spreepark in Berlin',
+          artist: 'unknown artist',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 258,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/20140512-214324.jpg',
+          title: 'The abandoned Spreepark in Berlin',
+          artist: 'unknown artist',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 259,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/20140512-214331.jpg',
+          title: 'The abandoned Spreepark in Berlin',
+          artist: 'unknown artist',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 260,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/20140512-214337.jpg',
+          title: 'The abandoned Spreepark in Berlin',
+          artist: 'unknown artist',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

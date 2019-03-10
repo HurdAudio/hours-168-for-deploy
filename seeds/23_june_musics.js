@@ -5080,6 +5080,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 283,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3577592787/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://alicks14.bandcamp.com/album/unwritten',
+          a_string: 'Unwritten by Alicks',
+          rule: {
+            "monday": [ 7, 15, 17, 2 ],
+            "tuesday": [ 11, 15, 21, 2 ],
+            "wednesday": [ 10, 13, 18, 30 ],
+            "thursday": [ 9, 12, 18, 30 ],
+            "saturday": [ 9, 12, 18, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 284,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1156791887/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cryochamber.bandcamp.com/album/primal-destination',
+          a_string: 'Primal Destination by Dead Melodies',
+          rule: {
+            "monday": [ 9, 12, 18, 29 ],
+            "tuesday": [ 7, 15, 17, 2 ],
+            "wednesday": [ 11, 15, 21, 2 ],
+            "thursday": [ 10, 13, 18, 30 ],
+            "saturday": [ 9, 12, 18, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 285,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=824500566/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://surfshop.bandcamp.com/album/ron-jons-surf-shop-sampler-18',
+          a_string: 'Ron Jons Surf Shop Sampler &#39;18 by Ron Jons Surf Shop',
+          rule: {
+            "monday": [ 9, 12, 18, 30 ],
+            "tuesday": [ 9, 12, 18, 29 ],
+            "wednesday": [ 7, 15, 17, 2 ],
+            "thursday": [ 11, 15, 21, 2 ],
+            "saturday": [ 10, 13, 18, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

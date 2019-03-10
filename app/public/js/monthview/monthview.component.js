@@ -770,6 +770,7 @@
                     break;
                   default:
                     console.log('error state');
+                    console.log(monthTiles[i].type);
 
                 }
               }

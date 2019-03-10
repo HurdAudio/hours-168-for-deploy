@@ -9704,6 +9704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 486,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-7-2013.jpeg',
+          title: 'Untitled',
+          artist: 'Sun Mu',
+          year: '2013',
+          rule: {
+            "monday": [ 27, 5, 17, 26 ],
+            "tuesday": [ 6, 18, 28, 5 ],
+            "wednesday": [ 6, 17, 26, 5 ],
+            "thursday": [ 4, 14, 22, 24 ],
+            "friday": [ 1, 12, 22, 11 ],
+            "saturday": [ 31, 11, 21, 30 ],
+            "sunday": [ 29, 8, 18, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 487,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/ideology-2013.jpg',
+          title: 'Ideology',
+          artist: 'Sun Mu',
+          year: '2013',
+          rule: {
+            "monday": [ 29, 8, 18, 26 ],
+            "tuesday": [ 27, 5, 17, 26 ],
+            "wednesday": [ 6, 18, 28, 5 ],
+            "thursday": [ 6, 17, 26, 5 ],
+            "friday": [ 4, 14, 22, 24 ],
+            "saturday": [ 1, 12, 22, 11 ],
+            "sunday": [ 31, 11, 21, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 488,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-2015.jpeg',
+          title: 'Untitled',
+          artist: 'Sun Mu',
+          year: '2015',
+          rule: {
+            "monday": [ 31, 11, 21, 30 ],
+            "tuesday": [ 29, 8, 18, 26 ],
+            "wednesday": [ 27, 5, 17, 26 ],
+            "thursday": [ 6, 18, 28, 5 ],
+            "friday": [ 6, 17, 26, 5 ],
+            "saturday": [ 4, 14, 22, 24 ],
+            "sunday": [ 1, 12, 22, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 489,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/my-home-landscape-2016.jpg',
+          title: 'My Home Landscape',
+          artist: 'Sun Mu',
+          year: '2016',
+          rule: {
+            "monday": [ 1, 12, 22, 11 ],
+            "tuesday": [ 31, 11, 21, 30 ],
+            "wednesday": [ 29, 8, 18, 26 ],
+            "thursday": [ 27, 5, 17, 26 ],
+            "friday": [ 6, 18, 28, 5 ],
+            "saturday": [ 6, 17, 26, 5 ],
+            "sunday": [ 4, 14, 22, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 490,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/peace.png',
+          title: 'Peace',
+          artist: 'Sun Mu',
+          year: '?',
+          rule: {
+            "monday": [ 5, 15, 23, 25 ],
+            "tuesday": [ 2, 13, 23, 12 ],
+            "wednesday": [ 1, 12, 22, 31 ],
+            "thursday": [ 30, 9, 19, 27 ],
+            "friday": [ 28, 6, 18, 27 ],
+            "saturday": [ 7, 19, 29, 6 ],
+            "sunday": [ 7, 18, 27, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

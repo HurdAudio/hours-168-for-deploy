@@ -5512,6 +5512,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 307,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2383284709/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://drdundiff.bandcamp.com/album/the-distance',
+          a_string: 'The Distance by Dr. Dundiff',
+          rule: {
+            "monday": [ 4, 27, 29, 6 ],
+            "tuesday": [ 16, 20, 22, 26 ],
+            "wednesday": [ 19, 22, 24, 26 ],
+            "thursday": [ 1, 24, 26, 28 ],
+            "saturday": [ 3, 26, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 308,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1210831189/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://hejira.bandcamp.com/album/thread-of-gold',
+          a_string: 'Thread of Gold by Hejira',
+          rule: {
+            "monday": [ 4, 27, 29, 6 ],
+            "tuesday": [ 5, 28, 1, 7 ],
+            "wednesday": [ 17, 21, 23, 27 ],
+            "thursday": [ 20, 23, 25, 27 ],
+            "saturday": [ 2, 25, 27, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 309,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3228415273/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://madaboutrecordslabel.bandcamp.com/album/imani-out-of-the-blue-pre-order',
+          a_string: 'Imani - &quot;Out Of The Blue&quot; (pre-order) by MAD ABOUT RECORDS',
+          rule: {
+            "monday": [ 2, 25, 27, 29 ],
+            "tuesday": [ 4, 27, 29, 6 ],
+            "wednesday": [ 5, 28, 1, 7 ],
+            "thursday": [ 17, 21, 23, 27 ],
+            "saturday": [ 20, 23, 25, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

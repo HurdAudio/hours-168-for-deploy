@@ -9904,6 +9904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 496,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/washington-nationals-gift-package-1909131-regular.jpg',
+          title: 'Washington Nationals Gift Package',
+          artist: 'unknown artist',
+          year: '2013',
+          rule: {
+            "monday": [ 9, 12, 20, 26 ],
+            "tuesday": [ 8, 12, 27, 25 ],
+            "wednesday": [ 5, 11, 17, 23 ],
+            "thursday": [ 6, 11, 17, 23 ],
+            "friday": [ 5, 10, 16, 22 ],
+            "saturday": [ 10, 16, 21, 28 ],
+            "sunday": [ 24, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 497,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/screech-mascot-washington_nationals_2400x.jpg',
+          title: 'Screech Mascot Washington Nationals',
+          artist: 'S. Preston',
+          year: '2005',
+          rule: {
+            "monday": [ 25, 15, 21, 27 ],
+            "tuesday": [ 10, 13, 21, 27 ],
+            "wednesday": [ 9, 13, 28, 26 ],
+            "thursday": [ 6, 12, 18, 24 ],
+            "friday": [ 7, 12, 18, 24 ],
+            "saturday": [ 6, 11, 17, 23 ],
+            "sunday": [ 11, 17, 22, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 498,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Washington-Nationals-beat-Arizona-Diamondbacks-but-lose-Stephen-Strasburg-to-injury.jpg',
+          title: 'Washington Nationals starting pitcher Stephen Strasburg delivers a pitch in the first inning of the Nationals game at Chase Field',
+          artist: 'Art Foxall',
+          year: '2017',
+          rule: {
+            "monday": [ 11, 17, 22, 29 ],
+            "tuesday": [ 25, 15, 21, 27 ],
+            "wednesday": [ 10, 13, 21, 27 ],
+            "thursday": [ 9, 13, 28, 26 ],
+            "friday": [ 6, 12, 18, 24 ],
+            "saturday": [ 7, 12, 18, 24 ],
+            "sunday": [ 6, 11, 17, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 499,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/s189772745713394276_p2609_i271_w1500.jpeg',
+          title: 'Washington Nationals Pattern',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 6, 11, 17, 23 ],
+            "tuesday": [ 11, 17, 22, 29 ],
+            "wednesday": [ 25, 15, 21, 27 ],
+            "thursday": [ 10, 13, 21, 27 ],
+            "friday": [ 9, 13, 28, 26 ],
+            "saturday": [ 6, 12, 18, 24 ],
+            "sunday": [ 7, 12, 18, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 500,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/0d91ac3bb0f84bfe98fa653ff888ce6clg.jpg',
+          title: 'MLB Washington Nationals Teddy Roosevelt',
+          artist: 'unknown artist',
+          year: '2019',
+          rule: {
+            "monday": [ 7, 12, 18, 24 ],
+            "tuesday": [ 6, 11, 17, 23 ],
+            "wednesday": [ 11, 17, 22, 29 ],
+            "thursday": [ 25, 15, 21, 27 ],
+            "friday": [ 10, 13, 21, 27 ],
+            "saturday": [ 9, 13, 28, 26 ],
+            "sunday": [ 6, 12, 18, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -1804,6 +1804,42 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 151,
+          user_author_id: 1,
+          theme: 'Shoegaze',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3979609048/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://spceco.bandcamp.com/album/fifteen',
+          a_string: 'Fifteen by SPC ECO',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 152,
+          user_author_id: 1,
+          theme: 'Shoegaze',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2461868993/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bodythief.bandcamp.com/album/travel-glow',
+          a_string: 'Travel Glow by Body Thief',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 153,
+          user_author_id: 1,
+          theme: 'Shoegaze',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=558844998/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://drowsy.bandcamp.com/album/drowsy-ep',
+          a_string: 'Drowsy EP by Drowsy',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4756,6 +4756,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 265,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=82655546/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cuneiformrecords.bandcamp.com/album/september',
+          a_string: 'September by The Claudia Quintet',
+          rule: {
+            "monday": [ 10, 30, 8, 1 ],
+            "tuesday": [ 10, 29, 7, 1 ],
+            "wednesday": [ 8, 28, 6, 30 ],
+            "thursday": [ 12, 2, 10, 4 ],
+            "saturday": [ 11, 1, 9, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 266,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=85255211/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cuneiformrecords.bandcamp.com/album/a-modest-proposal',
+          a_string: 'A Modest Proposal by Gutbucket',
+          rule: {
+            "monday": [ 12, 2, 10, 4 ],
+            "tuesday": [ 11, 1, 9, 2 ],
+            "wednesday": [ 11, 30, 8, 2 ],
+            "thursday": [ 9, 29, 7, 1 ],
+            "saturday": [ 13, 3, 11, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 267,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=88001737/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cuneiformrecords.bandcamp.com/album/passing-through-the-wall',
+          a_string: 'Passing Through The Wall by Zevious',
+          rule: {
+            "monday": [ 13, 3, 11, 5 ],
+            "tuesday": [ 12, 2, 10, 4 ],
+            "wednesday": [ 11, 1, 9, 2 ],
+            "thursday": [ 11, 30, 8, 2 ],
+            "saturday": [ 9, 29, 7, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4540,6 +4540,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 253,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2571139378/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://secousse.bandcamp.com/album/cosmic-sounds',
+          a_string: 'Cosmic Sounds by N&#39;Draman Blintch',
+          rule: {
+            "monday": [ 8, 19, 30, 4 ],
+            "tuesday": [ 7, 18, 29, 3 ],
+            "wednesday": [ 6, 17, 28, 2 ],
+            "thursday": [ 5, 16, 27, 29 ],
+            "saturday": [ 4, 15, 26, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 254,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3383471577/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://secousse.bandcamp.com/album/makiyaj',
+          a_string: 'Makiyaj by Jules-Henry Malaki',
+          rule: {
+            "monday": [ 4, 15, 26, 8 ],
+            "tuesday": [ 8, 19, 30, 4 ],
+            "wednesday": [ 7, 18, 29, 3 ],
+            "thursday": [ 6, 17, 28, 2 ],
+            "saturday": [ 5, 16, 27, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 255,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2818412036/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://wearemawimbi.bandcamp.com/album/radio-mawimbi-volume-1',
+          a_string: 'Radio Mawimbi • Volume 1 by Various Artists',
+          rule: {
+            "monday": [ 5, 16, 27, 29 ],
+            "tuesday": [ 4, 15, 26, 8 ],
+            "wednesday": [ 8, 19, 30, 4 ],
+            "thursday": [ 7, 18, 29, 3 ],
+            "saturday": [ 6, 17, 28, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

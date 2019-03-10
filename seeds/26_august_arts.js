@@ -9104,6 +9104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 456,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/studland-beach-1912.jpg',
+          title: 'Studland Beach',
+          artist: 'Vanessa Bell',
+          year: '1912',
+          rule: {
+            "monday": [ 6, 9, 18, 3 ],
+            "tuesday": [ 5, 9, 17, 2 ],
+            "wednesday": [ 4, 8, 16, 1 ],
+            "thursday": [ 3, 5, 15, 31 ],
+            "friday": [ 2, 5, 14, 30 ],
+            "saturday": [ 1, 4, 13, 29 ],
+            "sunday": [ 7, 11, 19, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 457,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/landschaftstudie-dorfstrasse-1908.jpg',
+          title: 'Landschaftstudie - Dorfstrasse',
+          artist: 'Alexej von Jawlensky',
+          year: '1908',
+          rule: {
+            "monday": [ 7, 11, 19, 4 ],
+            "tuesday": [ 6, 9, 18, 3 ],
+            "wednesday": [ 5, 9, 17, 2 ],
+            "thursday": [ 4, 8, 16, 1 ],
+            "friday": [ 3, 5, 15, 31 ],
+            "saturday": [ 2, 5, 14, 30 ],
+            "sunday": [ 1, 4, 13, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 458,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/incense-of-a-new-church-1921.jpg',
+          title: 'Incense of a New Church',
+          artist: 'Charles Demuth',
+          year: '1921',
+          rule: {
+            "monday": [ 1, 4, 13, 29 ],
+            "tuesday": [ 7, 11, 19, 4 ],
+            "wednesday": [ 6, 9, 18, 3 ],
+            "thursday": [ 5, 9, 17, 2 ],
+            "friday": [ 4, 8, 16, 1 ],
+            "saturday": [ 3, 5, 15, 31 ],
+            "sunday": [ 2, 5, 14, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 459,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/miraculous-landing-1920(1).jpg',
+          title: 'Miraculous Landing',
+          artist: 'Paul Klee',
+          year: '1920',
+          rule: {
+            "monday": [ 2, 5, 14, 30 ],
+            "tuesday": [ 1, 4, 13, 29 ],
+            "wednesday": [ 7, 11, 19, 4 ],
+            "thursday": [ 6, 9, 18, 3 ],
+            "friday": [ 5, 9, 17, 2 ],
+            "saturday": [ 4, 8, 16, 1 ],
+            "sunday": [ 3, 5, 15, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 460,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/turk-women-in-balcic-1936.jpg',
+          title: 'Turk Women in Balcic',
+          artist: 'Nicolae Tonitza',
+          year: '1936',
+          rule: {
+            "monday": [ 3, 5, 15, 31 ],
+            "tuesday": [ 2, 5, 14, 30 ],
+            "wednesday": [ 1, 4, 13, 29 ],
+            "thursday": [ 7, 11, 19, 4 ],
+            "friday": [ 6, 9, 18, 3 ],
+            "saturday": [ 5, 9, 17, 2 ],
+            "sunday": [ 4, 8, 16, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

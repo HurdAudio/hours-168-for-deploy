@@ -4432,6 +4432,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 247,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2796527984/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/laurence-vanay-glaciers-interdits-70s-soundtrack-instrumental-experimental-rock-female-french-beautiful-ballad',
+          a_string: 'Laurence Vanay - Glaciers interdits (70s soundtrack instrumental experimental rock female french + beautiful ballad) by Laurence Vanay',
+          rule: {
+            "monday": [ 11, 17, 23, 29 ],
+            "tuesday": [ 10, 16, 22, 28 ],
+            "wednesday": [ 7, 15, 21, 27 ],
+            "thursday": [ 6, 14, 20, 26 ],
+            "saturday": [ 7, 13, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 248,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2116574588/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/laurence-vanay-petit-prince-female-french-experimental-pop-80s',
+          a_string: 'Laurence Vanay - Petit Prince (Female French Experimental Pop 80&#39;s) by Laurence Vanay',
+          rule: {
+            "monday": [ 7, 13, 19, 25 ],
+            "tuesday": [ 11, 17, 23, 29 ],
+            "wednesday": [ 10, 16, 22, 28 ],
+            "thursday": [ 7, 15, 21, 27 ],
+            "saturday": [ 6, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 249,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4123030944/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/mystery-plane-graveyard-ep-80s-uk-new-wave-electro-beat-post-punk',
+          a_string: 'Mystery Plane - Graveyard EP (80&#39;s UK New Wave - Electro Beat - Post Punk) by Mystery Plane',
+          rule: {
+            "monday": [ 6, 14, 20, 26 ],
+            "tuesday": [ 7, 13, 19, 25 ],
+            "wednesday": [ 11, 17, 23, 29 ],
+            "thursday": [ 10, 16, 22, 28 ],
+            "saturday": [ 7, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

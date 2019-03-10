@@ -8704,6 +8704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 436,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_worksovpost_00036_den.jpg',
+          title: 'Value every minute at work',
+          artist: 'Artist E. Abezgus',
+          year: '1964',
+          rule: {
+            "monday": [ 6, 17, 28, 1 ],
+            "tuesday": [ 5, 16, 27, 31 ],
+            "wednesday": [ 4, 15, 26, 30 ],
+            "thursday": [ 3, 14, 25, 29 ],
+            "friday": [ 2, 13, 24, 28 ],
+            "saturday": [ 1, 12, 22, 27 ],
+            "sunday": [ 10, 11, 22, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 437,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_will_work.jpg',
+          title: '(we) Will do the job!',
+          artist: 'A.Zelenskyi',
+          year: '?',
+          rule: {
+            "monday": [ 10, 11, 22, 26 ],
+            "tuesday": [ 6, 17, 28, 1 ],
+            "wednesday": [ 5, 16, 27, 31 ],
+            "thursday": [ 4, 15, 26, 30 ],
+            "friday": [ 3, 14, 25, 29 ],
+            "saturday": [ 2, 13, 24, 28 ],
+            "sunday": [ 1, 12, 22, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 438,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_celina.jpg',
+          title: '(lets) Develop (the) blue virgin lands!',
+          artist: 'V. Gorlenko',
+          year: '1964',
+          rule: {
+            "monday": [ 1, 12, 22, 27 ],
+            "tuesday": [ 10, 11, 22, 26 ],
+            "wednesday": [ 6, 17, 28, 1 ],
+            "thursday": [ 5, 16, 27, 31 ],
+            "friday": [ 4, 15, 26, 30 ],
+            "saturday": [ 3, 14, 25, 29 ],
+            "sunday": [ 2, 13, 24, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 439,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cinsovpost_00027.jpg',
+          title: '"Beware of the Car" movie (film) poster, directed by Eldar Ryazanov',
+          artist: 'A. Evseev, P. Zolotarevskii',
+          year: '1966',
+          rule: {
+            "monday": [ 2, 13, 24, 28 ],
+            "tuesday": [ 1, 12, 22, 27 ],
+            "wednesday": [ 10, 11, 22, 26 ],
+            "thursday": [ 6, 17, 28, 1 ],
+            "friday": [ 5, 16, 27, 31 ],
+            "saturday": [ 4, 15, 26, 30 ],
+            "sunday": [ 3, 14, 25, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 440,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/.jpg',
+          title: '"9 Days of One Year" movie (film) poster, directed by M.Romm',
+          artist: 'V.Ostrovsky',
+          year: '1962',
+          rule: {
+            "monday": [ 3, 14, 25, 29 ],
+            "tuesday": [ 2, 13, 24, 28 ],
+            "wednesday": [ 1, 12, 22, 27 ],
+            "thursday": [ 10, 11, 22, 26 ],
+            "friday": [ 6, 17, 28, 1 ],
+            "saturday": [ 5, 16, 27, 31 ],
+            "sunday": [ 4, 15, 26, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

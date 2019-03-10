@@ -8904,6 +8904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 446,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/parrot-haven-1998.jpg',
+          title: 'Parrot Haven',
+          artist: 'Wu Guanzhong',
+          year: '1998',
+          rule: {
+            "monday": [ 21, 7, 25, 4 ],
+            "tuesday": [ 20, 27, 24, 2 ],
+            "wednesday": [ 28, 5, 23, 30 ],
+            "thursday": [ 5, 11, 29, 7 ],
+            "friday": [ 4, 9, 28, 6 ],
+            "saturday": [ 2, 9, 27, 5 ],
+            "sunday": [ 2, 8, 26, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 447,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/gravy-for-the-navy-1975.jpg',
+          title: 'Gravy for the Navy',
+          artist: 'Peter Phillips',
+          year: '1975',
+          rule: {
+            "monday": [ 2, 8, 26, 4 ],
+            "tuesday": [ 21, 7, 25, 4 ],
+            "wednesday": [ 20, 27, 24, 2 ],
+            "thursday": [ 28, 5, 23, 30 ],
+            "friday": [ 5, 11, 29, 7 ],
+            "saturday": [ 4, 9, 28, 6 ],
+            "sunday": [ 2, 9, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 448,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/twin-tub-with-guitar-1981.jpg',
+          title: 'Twin-Tub with Guitar',
+          artist: 'Bill Woodrow',
+          year: '1981',
+          rule: {
+            "monday": [ 3, 10, 28, 6 ],
+            "tuesday": [ 3, 9, 27, 5 ],
+            "wednesday": [ 22, 8, 26, 5 ],
+            "thursday": [ 21, 28, 25, 3 ],
+            "friday": [ 29, 6, 24, 1 ],
+            "saturday": [ 6, 12, 30, 8 ],
+            "sunday": [ 5, 10, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 449,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/bone-script-guan-double-sided-painting-1964.jpg',
+          title: 'Bone Script',
+          artist: 'Ding Yanyong',
+          year: '1964',
+          rule: {
+            "monday": [ 5, 10, 29, 7 ],
+            "tuesday": [ 3, 10, 28, 6 ],
+            "wednesday": [ 3, 9, 27, 5 ],
+            "thursday": [ 22, 8, 26, 5 ],
+            "friday": [ 21, 28, 25, 3 ],
+            "saturday": [ 29, 6, 24, 1 ],
+            "sunday": [ 6, 12, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 450,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/pop-thermos-1988.jpg',
+          title: 'Pop Thermos',
+          artist: 'Yu Youhan',
+          year: '1988',
+          rule: {
+            "monday": [ 6, 12, 30, 8 ],
+            "tuesday": [ 5, 10, 29, 7 ],
+            "wednesday": [ 3, 10, 28, 6 ],
+            "thursday": [ 3, 9, 27, 5 ],
+            "friday": [ 22, 8, 26, 5 ],
+            "saturday": [ 21, 28, 25, 3 ],
+            "sunday": [ 29, 6, 24, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

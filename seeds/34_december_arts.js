@@ -8304,6 +8304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 416,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/29-06-23,Newspaper.jpg',
+          title: 'Newspaper',
+          artist: 'Ken Browne',
+          year: '1929',
+          rule: {
+            "monday": [ 26, 8, 27, 3 ],
+            "tuesday": [ 1, 14, 22, 28 ],
+            "wednesday": [ 31, 12, 21, 27 ],
+            "thursday": [ 30, 12, 20, 26 ],
+            "friday": [ 29, 11, 19, 25 ],
+            "saturday": [ 28, 10, 18, 24 ],
+            "sunday": [ 27, 8, 7, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 417,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/33-01,MagCpt.jpg',
+          title: 'Magic Carpet',
+          artist: 'Margaret Brundage',
+          year: '1933',
+          rule: {
+            "monday": [ 27, 8, 7, 23 ],
+            "tuesday": [ 26, 8, 27, 3 ],
+            "wednesday": [ 1, 14, 22, 28 ],
+            "thursday": [ 31, 12, 21, 27 ],
+            "friday": [ 30, 12, 20, 26 ],
+            "saturday": [ 29, 11, 19, 25 ],
+            "sunday": [ 28, 10, 18, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 418,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/04-08-31,Puck.jpg',
+          title: 'Puck',
+          artist: 'Leighton Budd',
+          year: '1904',
+          rule: {
+            "monday": [ 28, 10, 18, 24 ],
+            "tuesday": [ 27, 8, 7, 23 ],
+            "wednesday": [ 26, 8, 27, 3 ],
+            "thursday": [ 1, 14, 22, 28 ],
+            "friday": [ 31, 12, 21, 27 ],
+            "saturday": [ 30, 12, 20, 26 ],
+            "sunday": [ 29, 11, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 419,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/1928-11,WzBng4.jpg',
+          title: 'Whiz Bang',
+          artist: 'Carl Buettner',
+          year: '1928',
+          rule: {
+            "monday": [ 29, 11, 19, 25 ],
+            "tuesday": [ 28, 10, 18, 24 ],
+            "wednesday": [ 27, 8, 7, 23 ],
+            "thursday": [ 26, 8, 27, 3 ],
+            "friday": [ 1, 14, 22, 28 ],
+            "saturday": [ 31, 12, 21, 27 ],
+            "sunday": [ 30, 12, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 420,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-00,Western.jpg',
+          title: 'Western Story',
+          artist: 'H. D. Bugbee',
+          year: '1937',
+          rule: {
+            "monday": [ 31, 13, 21, 27 ],
+            "tuesday": [ 30, 12, 20, 26 ],
+            "wednesday": [ 29, 11, 19, 25 ],
+            "thursday": [ 28, 9, 8, 24 ],
+            "friday": [ 27, 9, 28, 4 ],
+            "saturday": [ 2, 15, 23, 29 ],
+            "sunday": [ 1, 13, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4972,6 +4972,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 277,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3741523507/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mariasomerville.bandcamp.com/album/all-my-people',
+          a_string: 'All My People by Maria Somerville',
+          rule: {
+            "monday": [ 9, 11, 15, 23 ],
+            "tuesday": [ 8, 10, 14, 22 ],
+            "wednesday": [ 7, 8, 13, 21 ],
+            "thursday": [ 6, 8, 12, 20 ],
+            "saturday": [ 10, 12, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 278,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3992674316/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://handhabits.bandcamp.com/album/placeholder',
+          a_string: 'placeholder by Hand Habits',
+          rule: {
+            "monday": [ 10, 12, 16, 24 ],
+            "tuesday": [ 9, 11, 15, 23 ],
+            "wednesday": [ 8, 10, 14, 22 ],
+            "thursday": [ 7, 8, 13, 21 ],
+            "saturday": [ 6, 8, 12, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 279,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1562466070/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://leggy.bandcamp.com/album/let-me-know-your-moon',
+          a_string: 'Let Me Know Your Moon by Leggy',
+          rule: {
+            "monday": [ 6, 8, 12, 20 ],
+            "tuesday": [ 10, 12, 16, 24 ],
+            "wednesday": [ 9, 11, 15, 23 ],
+            "thursday": [ 8, 10, 14, 22 ],
+            "saturday": [ 7, 8, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

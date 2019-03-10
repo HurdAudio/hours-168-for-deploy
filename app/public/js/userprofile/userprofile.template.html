@@ -275,6 +275,52 @@
   </div>
 </div>
 
+<div id="acceptMusicPane">
+
+  <h1>Add Shared Music:</h1>
+  <div id="musicShareParameters">
+
+    <p>Please select a month:</p>
+    <div id="musicShareMonthSelectorDiv">
+      <select id="musicShareMonthSelect" value="none">
+        <option value="none"></option>
+        <option value="friday_musics">Friday</option>
+        <option value="sunday_musics">Sunday</option>
+        <option value="january_musics">January</option>
+        <option value="february_musics">February</option>
+        <option value="march_musics">March</option>
+        <option value="april_musics">April</option>
+        <option value="may_musics">May</option>
+        <option value="june_musics">June</option>
+        <option value="july_musics">July</option>
+        <option value="august_musics">August</option>
+        <option value="september_musics">September</option>
+        <option value="october_musics">October</option>
+        <option value="november_musics">November</option>
+        <option value="december_musics">December</option>
+      </select>
+    </div>
+    <br><br><br><br>
+    <p id="musicShareThemeLabel">Theme: </p>
+    <div id="musicShareAcceptUserThemeInputDiv">
+
+      <input type="text" id="musicShareAcceptUserThemeInput">
+    </div>
+    <br><br><br><br>
+    <div id="musicSharePaneCancelOrNotDiv">
+
+      <a class="btn" id="musicSharePaneCancel">cancel</a>
+      <a class="btn" id="musicSharePaneAccept">accept</a>
+    </div>
+  </div>
+  <div id="theMusicForShare">
+
+    <img id="acceptMusicMusic" src="../img/cassette-33518_1280.png">
+    <p id="acceptedMusicTitle"></p>
+    <br><br><br>
+  </div>
+</div>
+
 <div id="dashboard" class="pure-g">
   <div id="userProfilePortal" class="pure-u-1-3">
     <div id="profileZone">
@@ -4486,34 +4532,36 @@
             <div class="iframeDiv">
               <iframe style="border: 0; width: 100%; height: 510px;" src="{{music.src_strings}}" seamless><a href="{{music.href_strings}}">{{music.a_strings}}</a></iframe>
             </div>
-            <br><br>
 
 
-            <div class="holidayAcceptDenyButtons" id="musicAcceptDecline{{art.id}}">
+            <div class="holidayAcceptDenyButtons" id="musicAcceptDecline{{music.id}}">
 
               <a class="btn" ng-click="$ctrl.declineMusicShare(music.id)">Decline</a>
               <a class="btn" ng-click="$ctrl.acceptMusicShare(music.id)">Accept</a>
             </div><br><br>
-            <!-- <br><br><div id="artShareAccepted{{art.id}}">
 
-              <img src="{{art.inviterImg}}"><br>
-              <br><h3>{{art.invitee}} has accepted this observance.</h3>
+            <br><br><div id="musicShareAccepted{{music.id}}">
+
+              <img src="{{music.invitee_img}}"><br>
+              <br><h3>{{music.invitee}} has accepted this observance.</h3>
+              <h3>{{music.cleanUpdate}}</h3>
             </div>
-            <br><br><div id="artShareDeclined{{observe.id}}">
+            <br><br><div id="musicShareDeclined{{music.id}}">
 
-              <img src="{{art.inviterImg}}"><br>
-              <br><h3>{{art.invitee}} has declined this observance.</h3>
-            </div> -->
+              <img src="{{music.invitee_img}}"><br>
+              <br><h3>{{music.invitee}} has declined this observance.</h3>
+              <h3>{{music.cleanUpdate}}</h3>
+            </div>
 
             <!-- <a href=""><h3>comment</h3></a> -->
 
-            <!-- <div class="commentsBar"> -->
+            <div class="commentsBar">
 
               <h1>Comments:</h1>
               <!-- <a class="btn" href="#" ng-click="$ctrl.addNewArtShareComment(art.id)" id="newArtShareCommentButton{{art.id}}">add</a> -->
-            <!-- </div> -->
+            </div>
             <div id="musicShareComments" class="occasionShareComments">
-              <!-- <main ng-repeat="comment in art.comments | orderBy : $ctrl.sortBy"> -->
+              <main ng-repeat="comment in music.comments | orderBy : $ctrl.sortBy">
                 <img src="{{comment.user_avatar_url}}"><br><br><br>
                 <br><br><br><p>From: {{comment.name}} <br>
                 on {{comment.cleanDate}}</p><br><br>
@@ -4532,7 +4580,7 @@
                   <a class="btn" href="#" ng-click="$ctrl.userEditArtShareComment(art.id)">edit</a>
                   <a class="btn" href="#" ng-click="$ctrl.userDeleteArtShareComment(art.id)">delete</a>
                 </div><br><br><br><br> -->
-              <!-- </main> -->
+              </main>
             </div>
           </main>
         </div>

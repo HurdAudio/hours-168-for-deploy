@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/DwV2eC4WwAArGVg.jpg',
+          title: 'Wave Function III',
+          artist: 'Mildred Thompson',
+          year: '1993',
+          rule: {
+            "monday": [ 24, 5, 11, 17 ],
+            "tuesday": [ 26, 5, 13, 23 ],
+            "wednesday": [ 26, 7, 3, 22 ],
+            "thursday": [ 16, 24, 3, 11 ],
+            "friday": [ 17, 26, 5, 13 ],
+            "saturday": [ 23, 28, 5, 15 ],
+            "sunday": [ 22, 1, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/24715809227_7b03c9b50c_b.jpg',
+          title: 'Life',
+          artist: 'Dox Thrash',
+          year: 'c. 1938 - 1939',
+          rule: {
+            "monday": [ 22, 1, 9, 17 ],
+            "tuesday": [ 24, 5, 11, 17 ],
+            "wednesday": [ 26, 5, 13, 23 ],
+            "thursday": [ 26, 7, 3, 22 ],
+            "friday": [ 16, 24, 3, 11 ],
+            "saturday": [ 17, 26, 5, 13 ],
+            "sunday": [ 23, 28, 5, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/folk_10245_image.jpg',
+          title: 'Untitled (Man in Blue Pants)',
+          artist: 'Bill Traylor',
+          year: 'c. 1939–1947',
+          rule: {
+            "monday": [ 24, 29, 6, 16 ],
+            "tuesday": [ 23, 2, 10, 18 ],
+            "wednesday": [ 25, 6, 12, 18 ],
+            "thursday": [ 27, 6, 14, 24 ],
+            "friday": [ 27, 8, 4, 23 ],
+            "saturday": [ 17, 25, 4, 12 ],
+            "sunday": [ 18, 27, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/shotincar.jpeg',
+          title: 'THE TIMES THAY AINT A CHANGING, FAST ENOUGH!',
+          artist: 'Henry Taylor',
+          year: '2017',
+          rule: {
+            "monday": [ 18, 27, 6, 14 ],
+            "tuesday": [ 24, 29, 6, 16 ],
+            "wednesday": [ 23, 2, 10, 18 ],
+            "thursday": [ 25, 6, 12, 18 ],
+            "friday": [ 27, 6, 14, 24 ],
+            "saturday": [ 27, 8, 4, 23 ],
+            "sunday": [ 17, 25, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/weepalsshrug.png',
+          title: 'Wee Pals Shrug',
+          artist: 'Morrie Turner',
+          year: '?',
+          rule: {
+            "monday": [ 17, 25, 4, 12 ],
+            "tuesday": [ 18, 27, 6, 14 ],
+            "wednesday": [ 24, 29, 6, 16 ],
+            "thursday": [ 23, 2, 10, 18 ],
+            "friday": [ 25, 6, 12, 18 ],
+            "saturday": [ 27, 6, 14, 24 ],
+            "sunday": [ 27, 8, 4, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

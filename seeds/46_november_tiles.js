@@ -998,6 +998,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#C0C0C0',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 72,
+          user_id: 1,
+          theme: 'Monochromatic',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/olivier-miche-156972-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#060C13',
+          color_medium: '#099CC5',
+          color_light: '#E5D4C6',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

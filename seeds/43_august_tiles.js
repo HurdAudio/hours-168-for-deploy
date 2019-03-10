@@ -1040,6 +1040,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#55C2E9',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 75,
+          user_id: 1,
+          theme: 'Primary Colors',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/peter-gabas-220313-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#170908',
+          color_medium: '#CD2A01',
+          color_light: '#CEC0C3',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

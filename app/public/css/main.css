@@ -2925,7 +2925,8 @@ footer img {
   background-repeat: repeat;
   background-size: 95%;
   height: 38.1em;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #userEditor {
@@ -3268,14 +3269,12 @@ footer img {
 }
 
 #musicSharesNotifier a {
-  margin-left: 5vmin;
+  /* margin-left: 1vmin; */
 }
 
 #tileSharesNotifier h3 {
   margin: 1vmin 1vmin 1vmin 4vmin;
 }
-
-
 
 #tileSharesNotifier img {
   float: left;
@@ -8651,7 +8650,21 @@ footer img {
   width: 60%;
 }
 
+#musicShareAcceptUserThemeInput {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  width: 60%;
+}
+
 #artShareArtMonthSelect {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  width: 60%;
+}
+
+#musicShareMonthSelect {
   margin: 1vmin 1vmin 1vmin 4vmin;
   font-family: 'Neuton', serif;
   font-size: 30px;
@@ -8670,7 +8683,79 @@ footer img {
   font-size: 24px;
 }
 
+#acceptMusicPane {
+  position: fixed;
+  width: 65%;
+  top: 1%;
+  background: #110514;
+  background-color: -webkit-linear-gradient(-45deg, #ffffff, #FBFBF3);
+  background: -o-linear-gradient(-45deg, #ffffff, #FBFBF3);
+  background: -moz-linear-gradient(-45deg, #ffffff, #FBFBF3);
+  background: linear-gradient(-45deg, #ffffff, #FBFBF3);
+  border-radius: 5px;
+  opacity: 0;
+  margin: 6vmin 40vmin 1vmin 25vmin;
+  padding: 1vmin 0 4vmin 5vmin;
+  z-index: -6;
+
+}
+
+#acceptMusicPane a {
+  float: right;
+  margin-right: 4vmin;
+  margin-top: -3vmin;
+}
+
+#acceptMusicPane h3 {
+  font-family: 'Neuton', serif;
+  font-size: 24px;
+}
+
+#acceptMusicPane h1 {
+  font-family: 'Neuton', serif;
+  font-size: 36px;
+}
+
+#acceptMusicPane input[type=text] {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  width: 60%;
+}
+
+#acceptMusicPane img {
+  width: 80%;
+  float: left;
+  margin: 1vmin 2vmin 1vmin 10vmin;
+}
+
+#acceptMusicPane p {
+  float: left;
+  font-family: 'Neuton', serif;
+  font-size: 24px;
+}
+
+#artShareAcceptUserThemeInput {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  width: 60%;
+}
+
+#musicShareAcceptUserThemeInput {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  width: 60%;
+}
+
 #artShareParameters {
+  width: 50%;
+  float: left;
+  margin-top: 1vmin;
+}
+
+#musicShareParameters {
   width: 50%;
   float: left;
   margin-top: 1vmin;
@@ -8693,7 +8778,28 @@ footer img {
   margin: 0 2vmin 0 2vmin;
 }
 
+#theMusicForShare {
+  width: 50%;
+  float: left;
+  margin-top: 1vmin;
+}
+
+#theMusicForShare img {
+  width: 80%;
+  margin: 1vmin 2vmin 1vmin 2vmin;
+}
+
+#theMusicForShare p {
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  margin: 0 2vmin 0 2vmin;
+}
+
 #artSharePaneCancelOrNotDiv {
+  margin: 12vmin 4vmin 1vmin 4vmin;
+}
+
+#musicSharePaneCancelOrNotDiv {
   margin: 12vmin 4vmin 1vmin 4vmin;
 }
 
@@ -8713,7 +8819,7 @@ footer img {
 
 
 /* .day {
-  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/natalie-riedel-1201950-unsplash.jpg);
+  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/ice-sculptures-1924527_1920.jpg);
   background-repeat: no-repeat;
-  background-size: 156%;
+  background-size: 150%;
 } */

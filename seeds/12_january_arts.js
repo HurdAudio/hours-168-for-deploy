@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/red-rose-1966.jpg',
+          title: 'Red Rose',
+          artist: 'John Ferren',
+          year: '1966',
+          rule: {
+            "monday": [ 21, 19, 11, 14 ],
+            "tuesday": [ 21, 22, 13, 17 ],
+            "wednesday": [ 24, 26, 27, 29 ],
+            "thursday": [ 26, 28, 1, 4 ],
+            "friday": [ 28, 30, 31, 1 ],
+            "saturday": [ 13, 14, 25, 17 ],
+            "sunday": [ 16, 18, 10, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-diagonals-1970.jpg',
+          title: 'Untitled (Diagonals)',
+          artist: 'Francois Morellet',
+          year: '1970',
+          rule: {
+            "monday": [ 16, 18, 10, 30 ],
+            "tuesday": [ 21, 19, 11, 14 ],
+            "wednesday": [ 21, 22, 13, 17 ],
+            "thursday": [ 24, 26, 27, 29 ],
+            "friday": [ 26, 28, 1, 4 ],
+            "saturday": [ 28, 30, 31, 1 ],
+            "sunday": [ 13, 14, 25, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/1024-colours-1973 (1).jpg',
+          title: '1024 Colours',
+          artist: 'Gerhard Richter',
+          year: '1973',
+          rule: {
+            "monday": [ 13, 14, 25, 17 ],
+            "tuesday": [ 16, 18, 10, 30 ],
+            "wednesday": [ 21, 19, 11, 14 ],
+            "thursday": [ 21, 22, 13, 17 ],
+            "friday": [ 24, 26, 27, 29 ],
+            "saturday": [ 26, 28, 1, 4 ],
+            "sunday": [ 28, 30, 31, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/tv-quadrascape.jpg',
+          title: 'TV quadrascape',
+          artist: 'Eric Zammitt',
+          year: '?',
+          rule: {
+            "monday": [ 28, 30, 31, 1 ],
+            "tuesday": [ 13, 14, 25, 17 ],
+            "wednesday": [ 16, 18, 10, 30 ],
+            "thursday": [ 21, 19, 11, 14 ],
+            "friday": [ 21, 22, 13, 17 ],
+            "saturday": [ 24, 26, 27, 29 ],
+            "sunday": [ 26, 28, 1, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/farbspiele-1952.jpg',
+          title: 'Farbspiele',
+          artist: 'Ernst Wilhelm Nay',
+          year: '1952',
+          rule: {
+            "monday": [ 26, 28, 1, 4 ],
+            "tuesday": [ 28, 30, 31, 1 ],
+            "wednesday": [ 13, 14, 25, 17 ],
+            "thursday": [ 16, 18, 10, 30 ],
+            "friday": [ 21, 19, 11, 14 ],
+            "saturday": [ 21, 22, 13, 17 ],
+            "sunday": [ 24, 26, 27, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

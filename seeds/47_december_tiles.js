@@ -984,6 +984,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#CDE9F1',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 71,
+          user_id: 1,
+          theme: 'Snow',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/tom-grimbert-tomgrimbert-1205172-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '140%',
+          color_dark: '#022B3B',
+          color_medium: '#AF9159',
+          color_light: '#D2DDE2',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

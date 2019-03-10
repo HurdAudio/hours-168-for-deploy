@@ -8,6 +8,7 @@
   var toggle = {};
   var pastAppointmentIds = [];
   var themeSet = false;
+  var currentMusicTheme = '';
 
 
   function setClock(){
@@ -302,6 +303,253 @@
       vm.userDeleteArtModuleComment = userDeleteArtModuleComment;
       vm.userArtModuleCommentDeleteCancel = userArtModuleCommentDeleteCancel;
       vm.userArtModuleCommentDeleteConfirmClick = userArtModuleCommentDeleteConfirmClick;
+      vm.declineMusicShare = declineMusicShare;
+      vm.acceptMusicShare = acceptMusicShare;
+
+      function secureMusicThemeFromMonth(musicMonth, musicShareAcceptUserThemeInputDiv, musicShareThemeLabel) {
+        let month = musicMonth + 'byuser';
+        $http.get(`/${month}/${currentUserId}`)
+        .then(userMusicsData => {
+          let userMusics = userMusicsData.data;
+          if (userMusics.length > 0) {
+            musicShareAcceptUserThemeInputDiv.setAttribute("style", "visibility: hidden;");
+            musicShareThemeLabel.innerHTML = `Theme: ${userMusics[0].theme}`;
+            currentMusicTheme = userMusics[0].theme;
+          } else {
+            musicShareAcceptUserThemeInputDiv.setAttribute("style", "visibility: visible;");
+            musicShareThemeLabel.innerHTML = '';
+            currentMusicTheme = '';
+          }
+        });
+      }
+
+      function generateMusicRuleArray(monthValue) {
+        let arr = [];
+        let days = 0;
+        let numValues = Math.floor(Math.random() * 4) + 3;
+        let entryCandidate = 0;
+        switch(monthValue) {
+          case('january_musics'):
+            days = 31;
+            break;
+          case('february_musics'):
+            days = 29;
+            break;
+          case('march_musics'):
+            days = 31;
+            break;
+          case('april_musics'):
+            days = 30;
+            break;
+          case('may_musics'):
+            days = 31;
+            break;
+          case('june_musics'):
+            days = 30;
+            break;
+          case('july_musics'):
+            days = 31;
+            break;
+          case('august_musics'):
+            days = 31;
+            break;
+          case('september_musics'):
+            days = 30;
+            break;
+          case('october_musics'):
+            days = 31;
+            break;
+          case('november_musics'):
+            days = 30;
+            break;
+          case('december_musics'):
+            days = 31;
+            break;
+          default:
+            days = 30;
+        }
+
+        do {
+          entryCandidate = Math.floor(Math.random() * days) + 1;
+          if (arr.length === 0) {
+            arr[0] = entryCandidate;
+          } else {
+            if (arr.indexOf(entryCandidate) === -1) {
+              arr[arr.length] = entryCandidate;
+            }
+          }
+        } while(arr.length < numValues);
+
+        return(arr);
+      }
+
+      function acceptMusicShare(musicShareId) {
+        let acceptMusicPane = document.getElementById('acceptMusicPane');
+        let musicSharePaneCancelOrNotDiv = document.getElementById('musicSharePaneCancelOrNotDiv');
+        let musicSharePaneCancel = document.getElementById('musicSharePaneCancel');
+        if (musicSharePaneCancel) {
+          musicSharePaneCancel.parentNode.removeChild(musicSharePaneCancel);
+          musicSharePaneCancel = document.createElement('a');
+          musicSharePaneCancel.id = 'musicSharePaneCancel';
+          musicSharePaneCancelOrNotDiv.appendChild(musicSharePaneCancel);
+          musicSharePaneCancel.className = 'btn';
+          musicSharePaneCancel.innerHTML = 'cancel';
+          musicSharePaneCancel.setAttribute("style", "cursor: pointer;");
+        }
+        let musicSharePaneAccept = document.getElementById('musicSharePaneAccept');
+        if (musicSharePaneAccept) {
+          musicSharePaneAccept.parentNode.removeChild(musicSharePaneAccept);
+          musicSharePaneAccept = document.createElement('a');
+          musicSharePaneCancelOrNotDiv.appendChild(musicSharePaneAccept);
+          musicSharePaneAccept.id = 'musicSharePaneAccept';
+          musicSharePaneAccept.className = 'btn';
+          musicSharePaneAccept.innerHTML = 'accept';
+          musicSharePaneAccept.setAttribute("style", "cursor: pointer; visibility: hidden;");
+        }
+        let musicShareAcceptUserThemeInputDiv = document.getElementById('musicShareAcceptUserThemeInputDiv');
+        musicShareAcceptUserThemeInputDiv.setAttribute("style", "visibility: hidden;");
+        let musicShareThemeLabel = document.getElementById('musicShareThemeLabel');
+        musicShareThemeLabel.setAttribute("style", "visibility: hidden;");
+        let acceptedMusicTitle = document.getElementById('acceptedMusicTitle');
+        let musicShareMonthSelectorDiv = document.getElementById('musicShareMonthSelectorDiv');
+        let musicShareMonthSelect = document.getElementById('musicShareMonthSelect');
+        if (musicShareMonthSelect) {
+          musicShareMonthSelect.parentNode.removeChild(musicShareMonthSelect);
+          musicShareMonthSelect = document.createElement('select');
+          musicShareMonthSelect.id = "musicShareMonthSelect";
+          musicShareMonthSelectorDiv.appendChild(musicShareMonthSelect);
+        }
+        let musicMonthValues = [ 'none', 'friday_musics', 'sunday_musics', 'january_musics', 'february_musics', 'march_musics', 'april_musics', 'may_musics', 'june_musics', 'july_musics', 'august_musics', 'september_musics', 'october_musics', 'november_musics', 'december_musics' ];
+        let musicMonthDisplay = [ '', 'Friday', 'Sunday', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
+        let opt;
+        for (let i = 0; i < musicMonthValues.length; i++) {
+          opt = document.createElement('option');
+          musicShareMonthSelect.appendChild(opt);
+          opt.value = musicMonthValues[i];
+          opt.innerHTML = musicMonthDisplay[i];
+        }
+        musicShareMonthSelect.value = 'none';
+        musicShareMonthSelect.setAttribute("style", "margin: 1vmin 1vmin 1vmin 4vmin; font-family: 'Neuton', serif; font-size: 30px; width: 60%;");
+        currentMusicTheme = '';
+        document.getElementById('musicShareAcceptUserThemeInput').value = '';
+
+        $http.get(`/music_shares/${musicShareId}`)
+        .then(musicShareData => {
+          let musicShare = musicShareData.data;
+          $http.get(`/${musicShare.music_month}/${musicShare.music_id}`)
+          .then(musicData => {
+            let music = musicData.data;
+            acceptedMusicTitle.innerHTML = music.a_string;
+            if ((musicShare.music_month === "friday_musics") || (musicShare.music_month === "sunday_musics")) {
+              musicShareAcceptUserThemeInputDiv.setAttribute("style", "visibility: hidden;");
+              musicShareThemeLabel.setAttribute("style", "visibility: hidden;");
+              musicShareThemeLabel.innerHTML = '';
+              currentMusicTheme = '';
+            } else {
+              musicShareAcceptUserThemeInputDiv.setAttribute("style", "visibility: hidden;");
+              musicShareThemeLabel.setAttribute("style", "visibility: visible;");
+              musicShareThemeLabel.innerHTML = `Theme: ${music.theme}`;
+              currentMusicTheme = music.theme;
+            }
+
+            musicShareMonthSelect.addEventListener('change', () => {
+              if (musicShareMonthSelect.value === 'none') {
+                musicSharePaneAccept.setAttribute("style", "visibility: hidden;");
+                musicShareAcceptUserThemeInputDiv.setAttribute("style", "visibility: hidden;");
+                musicShareThemeLabel.innerHTML = '';
+              } else if ((musicShareMonthSelect.value === 'friday_musics') || (musicShareMonthSelect.value === 'sunday_musics')) {
+                musicSharePaneAccept.setAttribute("style", "visibility: visible;");
+                musicShareAcceptUserThemeInputDiv.setAttribute("style", "visibility: hidden;");
+                musicShareThemeLabel.innerHTML = '';
+                if (music.theme !== undefined) {
+                  currentMusicTheme = music.theme;
+                } else {
+                  currentMusicTheme = '';
+                }
+              } else {
+                musicSharePaneAccept.setAttribute("style", "visibility: visible;");
+                if ((musicShare.music_month === "friday_musics") || (musicShare.music_month === "sunday_musics")) {
+                  musicShareAcceptUserThemeInputDiv.setAttribute("style", "visibility: visible;");
+                  musicShareThemeLabel.innerHTML = '';
+                  currentMusicTheme = '';
+                } else {
+                  musicShareAcceptUserThemeInputDiv.setAttribute("style", "visibility: hidden;");
+                  if (music.theme !== undefined) {
+                    musicShareThemeLabel.innerHTML = `Theme: ${music.theme}`;
+                    currentMusicTheme = music.theme;
+                  } else {
+                    musicShareThemeLabel.innerHTML = '';
+                  }
+                }
+                secureMusicThemeFromMonth(musicShareMonthSelect.value, musicShareAcceptUserThemeInputDiv, musicShareThemeLabel);
+              }
+            });
+
+            musicSharePaneCancel.addEventListener('click', () => {
+              acceptMusicPane.setAttribute("style", "opacity: 0; z-index: -6; transition: opacity 0.5s linear;");
+            });
+
+            musicSharePaneAccept.addEventListener('click', () => {
+              let musicSubObj = {
+                user_id: currentUserId,
+                source: music.source,
+                src_string: music.src_string,
+                href_string: music.href_string,
+                a_string: music.a_string
+              }
+              if ((musicShareMonthSelect.value !== 'friday_musics') && (musicShareMonthSelect.value !== 'sunday_musics')) {
+                musicSubObj.rule = {
+                  monday: generateMusicRuleArray(musicShareMonthSelect.value),
+                  tuesday: generateMusicRuleArray(musicShareMonthSelect.value),
+                  wednesday: generateMusicRuleArray(musicShareMonthSelect.value),
+                  thursday: generateMusicRuleArray(musicShareMonthSelect.value),
+                  saturday: generateMusicRuleArray(musicShareMonthSelect.value)
+                };
+              }
+              if (currentMusicTheme !== '') {
+                musicSubObj.theme = currentMusicTheme;
+              } else {
+                musicSubObj.theme = document.getElementById('musicShareAcceptUserThemeInput').value;
+              }
+              $http.post(`/${musicShareMonthSelect.value}`, musicSubObj)
+              .then(submittedMusicData => {
+                let submittedMusic = submittedMusicData.data;
+                let now = new Date();
+                let subObj = {
+                  accepted: true,
+                  responded: true,
+                  updated_at: now
+                };
+                $http.patch(`/music_shares/${musicShareId}`, subObj)
+                .then(upShareData => {
+                  let upShare = upShareData.data;
+                  acceptMusicPane.setAttribute("style", "opacity: 0; z-index: -6; transition: opacity 0.5s linear;");
+                  document.getElementById('musicAcceptDecline' + musicShareId).setAttribute("style", "display: none;");
+                  document.getElementById('musicShareDeclined' + musicShareId).setAttribute("style", "display: none;");
+                  document.getElementById('musicShareAccepted' + musicShareId).setAttribute("style", "display: initial;");
+                });
+              });
+            });
+          });
+        });
+
+        acceptMusicPane.setAttribute("style", "opacity: 1; z-index: 6; transition: opacity 0.5s linear;");
+      }
+
+      function declineMusicShare(musicShareId) {
+        let now = new Date();
+        let subObj = {
+          responded: true,
+          accepted: false,
+          updated_at: now
+        };
+        $http.patch(`/music_shares/${musicShareId}`, subObj)
+        .then(updateShareData => {
+          let updateShare = updateShareData.data;
+          document.getElementById('musicAcceptDecline' + musicShareId).setAttribute("style", "display: none;");
+          document.getElementById('musicShareDeclined' + musicShareId).setAttribute("style", "display: initial;");
+        });
+      }
 
       function userArtModuleCommentDeleteConfirmClick(commentId) {
 
@@ -447,19 +695,56 @@
               vm.activeMusicShares[index].inv_img = userId.user_avatar_url;
               vm.activeMusicShares[index].inviter = userId.name;
               vm.activeMusicShares[index].invitee = shareAssociateId.name;
+              vm.activeMusicShares[index].invitee_img = shareAssociateId.user_avatar_url;
             } else {
               vm.activeMusicShares[index].inv_img = shareAssociateId.user_avatar_url;
               vm.activeMusicShares[index].inviter = shareAssociateId.name;
               vm.activeMusicShares[index].invitee = userId.name;
+              vm.activeMusicShares[index].invitee_img = userId.user_avatar_url;
             }
           });
         })
+      }
+
+      function obtainMusicShareCommenterDatas(comment, index, commentIndex) {
+        $http.get(`/users/${comment.user_id}`)
+        .then(commenterData => {
+          let commenter = commenterData.data;
+          vm.activeMusicShares[index].comments[commentIndex].user_avatar_url = commenter.user_avatar_url;
+          vm.activeMusicShares[index].comments[commentIndex].name = commenter.name;
+        });
+      }
+
+      function retrieveMusicShareComments(musicShare, index) {
+        let check;
+
+        $http.get('music_share_comments')
+        .then(allMusicShareCommentsData => {
+          let allMusicShareComments = allMusicShareCommentsData.data;
+          let musicShareComments = allMusicShareComments.filter(com => {
+            return(parseInt(com.music_share) === parseInt(musicShare.id));
+          });
+          if (musicShareComments.length > 0) {
+            vm.activeMusicShares[index].comments = [];
+            for (let i = 0; i < musicShareComments.length; i++) {
+              check = new Date(musicShareComments[i].updated_at);
+              vm.activeMusicShares[index].comments[i] = {
+                id: musicShareComments[i].id,
+                comment: musicShareComments[i].comment,
+                cleanDate: cleanDateHoliday(musicShareComments[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.'
+              };
+              obtainMusicShareCommenterDatas(musicShareComments[i], index, i);
+
+            }
+          }
+        });
       }
 
       function retrieveUserMusicShares() {
         let datea;
         let dateb;
         let check;
+        let checkup
         $http.get('music_shares')
         .then(allMusicSharesData => {
           let allMusicShares = allMusicSharesData.data;
@@ -475,6 +760,7 @@
             vm.activeMusicShares = [];
             for (let i = 0; i < musicShares.length; i++) {
               check = new Date(musicShares[i].created_at);
+              checkup = new Date(musicShares[i].updated_at);
               vm.activeMusicShares[i] = {
                 id: musicShares[i].id,
                 music_month: musicShares[i].music_month,
@@ -484,19 +770,36 @@
                 updated_at: musicShares[i].updated_at,
                 user_id: musicShares[i].user_id,
                 share_associate_id: musicShares[i].share_associate_id,
-                cleanDate: cleanDateHoliday(musicShares[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.'
+                cleanDate: cleanDateHoliday(musicShares[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.',
+                cleanUpdate: cleanDateHoliday(musicShares[i].updated_at) + ' at ' + checkup.toLocaleTimeString('en-GB') + '.'
               };
               obtainMusicSharerData(musicShares[i], i);
               obtainMusicShareMusic(musicShares[i], i);
+              retrieveMusicShareComments(musicShares[i], i);
             }
             setTimeout(() => {
               for (let j = 0; j < vm.activeMusicShares.length; j++) {
                 if (parseInt(vm.activeMusicShares[j].user_id) === parseInt(currentUserId)) {
                   document.getElementById('musicInviter' + vm.activeMusicShares[j].id).setAttribute("style", "display: none;");
                   document.getElementById('musicInvitee' + vm.activeMusicShares[j].id).setAttribute("style", "display: initial;");
+                  if (vm.activeMusicShares[j].responded) {
+                    document.getElementById('musicAcceptDecline' + vm.activeMusicShares[j].id).setAttribute("style", "display: none;");
+                    if (vm.activeMusicShares[j].accepted) {
+                      document.getElementById('musicShareAccepted' + vm.activeMusicShares[j].id).setAttribute("style", "display: initial;");
+                      document.getElementById('musicShareDeclined' + vm.activeMusicShares[j].id).setAttribute("style", "display: none;");
+                    } else {
+                      document.getElementById('musicShareAccepted' + vm.activeMusicShares[j].id).setAttribute("style", "display: none;");
+                      document.getElementById('musicShareDeclined' + vm.activeMusicShares[j].id).setAttribute("style", "display: initial;");
+                    }
+                  } else {
+                    document.getElementById('musicAcceptDecline' + vm.activeMusicShares[j].id).setAttribute("style", "display: initial;"); //TODO change this to none
+                    document.getElementById('musicShareAccepted' + vm.activeMusicShares[j].id).setAttribute("style", "display: none;");
+                    document.getElementById('musicShareDeclined' + vm.activeMusicShares[j].id).setAttribute("style", "display: none;");
+                  }
                 } else {
                   document.getElementById('musicInviter' + vm.activeMusicShares[j].id).setAttribute("style", "display: initial;");
                   document.getElementById('musicInvitee' + vm.activeMusicShares[j].id).setAttribute("style", "display: none;");
+                  document.getElementById('musicAcceptDecline' + vm.activeMusicShares[j].id).setAttribute("style", "display: initial;");
                 }
               }
             }, (vm.activeMusicShares.length * 100));

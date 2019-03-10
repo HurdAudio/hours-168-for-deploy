@@ -5620,6 +5620,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 313,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2439191829/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/ii',
+          a_string: 'II by Jürg Frey/Radu Malfatti',
+          rule: {
+            "monday": [ 22, 28, 29, 31 ],
+            "tuesday": [ 21, 28, 29, 30 ],
+            "wednesday": [ 20, 26, 27, 28 ],
+            "thursday": [ 19, 26, 27, 28 ],
+            "saturday": [ 23, 30, 31, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 314,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2835169411/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/photographs',
+          a_string: 'Photographs by Graham Lambkin/Jason Lescalleet',
+          rule: {
+            "monday": [ 23, 30, 31, 1 ],
+            "tuesday": [ 22, 28, 29, 31 ],
+            "wednesday": [ 21, 28, 29, 30 ],
+            "thursday": [ 20, 26, 27, 28 ],
+            "saturday": [ 19, 26, 27, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 315,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2667619782/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/objets-infernaux',
+          a_string: 'Objets Infernaux by Hong Chulki/Ryu Hankil',
+          rule: {
+            "monday": [ 20, 27, 28, 29 ],
+            "tuesday": [ 24, 31, 1, 2 ],
+            "wednesday": [ 23, 29, 30, 1 ],
+            "thursday": [ 22, 29, 30, 31 ],
+            "saturday": [ 21, 27, 28, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

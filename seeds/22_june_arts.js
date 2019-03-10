@@ -9504,6 +9504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 476,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Flora-Borsi-combines-human-body-with-animals-artists-I-Lobo-you.jpg',
+          title: 'unknown title',
+          artist: 'Flora Borsi',
+          year: '?',
+          rule: {
+            "monday": [ 5, 15, 25, 3 ],
+            "tuesday": [ 14, 24, 4, 2 ],
+            "wednesday": [ 3, 13, 23, 1 ],
+            "thursday": [ 2, 12, 22, 30 ],
+            "friday": [ 8, 18, 28, 5 ],
+            "saturday": [ 7, 17, 28, 5 ],
+            "sunday": [ 6, 16, 26, 24]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 477,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Flora-Borsi-combines-human-body-with-animals-artists-I-Lobo-you2.jpg',
+          title: 'unknown title',
+          artist: 'Flora Borsi',
+          year: '?',
+          rule: {
+            "monday": [ 6, 16, 26, 24],
+            "tuesday": [ 5, 15, 25, 3 ],
+            "wednesday": [ 14, 24, 4, 2 ],
+            "thursday": [ 3, 13, 23, 1 ],
+            "friday": [ 2, 12, 22, 30 ],
+            "saturday": [ 8, 18, 28, 5 ],
+            "sunday": [ 7, 17, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 478,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Flora-Borsi-combines-human-body-with-animals-artists-I-Lobo-you3.jpg',
+          title: 'unknown title',
+          artist: 'Flora Borsi',
+          year: '?',
+          rule: {
+            "monday": [ 7, 17, 28, 5 ],
+            "tuesday": [ 6, 16, 26, 24 ],
+            "wednesday": [ 5, 15, 25, 3 ],
+            "thursday": [ 14, 24, 4, 2 ],
+            "friday": [ 3, 13, 23, 1 ],
+            "saturday": [ 2, 12, 22, 30 ],
+            "sunday": [ 8, 18, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 479,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Flora-Borsi-combines-human-body-with-animals-artists-I-Lobo-you4.jpg',
+          title: 'unknown title',
+          artist: 'Flora Borsi',
+          year: '?',
+          rule: {
+            "monday": [ 8, 18, 28, 5 ],
+            "tuesday": [ 7, 17, 28, 5 ],
+            "wednesday": [ 6, 16, 26, 24 ],
+            "thursday": [ 5, 15, 25, 3 ],
+            "friday": [ 14, 24, 4, 2 ],
+            "saturday": [ 3, 13, 23, 1 ],
+            "sunday": [ 2, 12, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 480,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Flora-Borsi-combines-human-body-with-animals-artists-I-Lobo-you6.jpg',
+          title: 'unknown title',
+          artist: 'Flora Borsi',
+          year: '?',
+          rule: {
+            "monday": [ 2, 12, 22, 30 ],
+            "tuesday": [ 8, 18, 28, 5 ],
+            "wednesday": [ 7, 17, 28, 5 ],
+            "thursday": [ 6, 16, 26, 24 ],
+            "friday": [ 5, 15, 25, 3 ],
+            "saturday": [ 14, 24, 4, 2 ],
+            "sunday": [ 3, 13, 23, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

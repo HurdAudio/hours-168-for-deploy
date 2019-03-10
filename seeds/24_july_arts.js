@@ -9304,6 +9304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 466,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-slave-market-1882.jpg',
+          title: 'The Slave Market',
+          artist: 'Gustave Boulanger',
+          year: 'c.1882',
+          rule: {
+            "monday": [ 2, 13, 24, 25 ],
+            "tuesday": [ 1, 12, 23, 3 ],
+            "wednesday": [ 7, 18, 29, 8 ],
+            "thursday": [ 6, 15, 28, 8 ],
+            "friday": [ 4, 15, 27, 7 ],
+            "saturday": [ 4, 15, 26, 27 ],
+            "sunday": [ 3, 14, 24, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 467,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/oxen-pulling-a-cart.jpg',
+          title: 'Oxen Pulling a Cart',
+          artist: 'Rosa Bonheur',
+          year: '?',
+          rule: {
+            "monday": [ 3, 14, 24, 26 ],
+            "tuesday": [ 2, 13, 24, 25 ],
+            "wednesday": [ 1, 12, 23, 3 ],
+            "thursday": [ 7, 18, 29, 8 ],
+            "friday": [ 6, 15, 28, 8 ],
+            "saturday": [ 4, 15, 27, 7 ],
+            "sunday": [ 4, 15, 26, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 468,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-woman-in-a-podoscaphe-1865.jpg',
+          title: 'The Woman in a Podoscaphe',
+          artist: 'Gustave Courbet',
+          year: '1865',
+          rule: {
+            "monday": [ 4, 15, 26, 27 ],
+            "tuesday": [ 3, 14, 24, 26 ],
+            "wednesday": [ 2, 13, 24, 25 ],
+            "thursday": [ 1, 12, 23, 3 ],
+            "friday": [ 7, 18, 29, 8 ],
+            "saturday": [ 6, 15, 28, 8 ],
+            "sunday": [ 4, 15, 27, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 469,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-philosopher-1878.jpg',
+          title: 'The Philosopher',
+          artist: 'Ernest Meissonier',
+          year: '1878',
+          rule: {
+            "monday": [ 5, 16, 28, 8 ],
+            "tuesday": [ 5, 16, 27, 28 ],
+            "wednesday": [ 4, 15, 25, 27 ],
+            "thursday": [ 3, 14, 25, 26 ],
+            "friday": [ 2, 13, 24, 4 ],
+            "saturday": [ 8, 19, 30, 9 ],
+            "sunday": [ 7, 16, 29, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 470,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/schafe-im-stall-1894.jpg',
+          title: 'Schafe im Stall',
+          artist: 'Charles Jacque',
+          year: '1894',
+          rule: {
+            "monday": [ 7, 16, 29, 9 ],
+            "tuesday": [ 5, 16, 28, 8 ],
+            "wednesday": [ 5, 16, 27, 28 ],
+            "thursday": [ 4, 15, 25, 27 ],
+            "friday": [ 3, 14, 25, 26 ],
+            "saturday": [ 2, 13, 24, 4 ],
+            "sunday": [ 8, 19, 30, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

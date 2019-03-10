@@ -5188,6 +5188,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 289,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=83733665/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sethcooke.bandcamp.com/album/weigh-the-word',
+          a_string: 'Weigh the Word by Seth Cooke',
+          rule: {
+            "monday": [ 11, 17, 24, 6 ],
+            "tuesday": [ 10, 16, 23, 5 ],
+            "wednesday": [ 9, 15, 22, 4 ],
+            "thursday": [ 13, 19, 26, 8 ],
+            "saturday": [ 12, 18, 25, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 290,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2332480765/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ilampressrecords.bandcamp.com/album/delaney-davidson-bruce-russell-one-hand-loose',
+          a_string: 'Delaney Davidson / Bruce Russell: One Hand Loose by Delaney Davidson / Bruce Russell',
+          rule: {
+            "monday": [ 12, 18, 25, 7 ],
+            "tuesday": [ 11, 17, 24, 6 ],
+            "wednesday": [ 10, 16, 23, 5 ],
+            "thursday": [ 9, 15, 22, 4 ],
+            "saturday": [ 13, 19, 26, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 291,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=270235788/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://alreadydeadtapes.bandcamp.com/album/ad302-hess-usui-suen-momo',
+          a_string: 'AD302 Hess Usui Suen &#39;もも (MOMO)&#39; by Already Dead Tapes and Records',
+          rule: {
+            "monday": [ 13, 19, 26, 8 ],
+            "tuesday": [ 12, 18, 25, 7 ],
+            "wednesday": [ 11, 17, 24, 6 ],
+            "thursday": [ 10, 16, 23, 5 ],
+            "saturday": [ 9, 15, 22, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

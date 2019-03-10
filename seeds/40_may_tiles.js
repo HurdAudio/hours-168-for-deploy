@@ -1082,6 +1082,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FAF6F7',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 78,
+          user_id: 1,
+          theme: 'Greenery',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/alexandra-lowenthal-1216472-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '100%',
+          color_dark: '#001912',
+          color_medium: '#00B46F',
+          color_light: '#CDFBEB',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

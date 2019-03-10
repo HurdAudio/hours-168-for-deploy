@@ -4648,6 +4648,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 259,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=546358104/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://moynoq.bandcamp.com/album/dreaming-in-a-dead-language',
+          a_string: 'Dreaming in a Dead Language by Mo&#39;ynoq',
+          rule: {
+            "monday": [ 12, 22, 2, 4 ],
+            "tuesday": [ 11, 21, 31, 3 ],
+            "wednesday": [ 15, 25, 4, 7 ],
+            "thursday": [ 14, 24, 3, 6 ],
+            "saturday": [ 13, 23, 2, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 260,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1528948524/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mountsaturn.bandcamp.com/album/kiss-the-ring-ep',
+          a_string: 'Kiss the Ring EP by Mount Saturn',
+          rule: {
+            "monday": [ 13, 23, 2, 5 ],
+            "tuesday": [ 12, 22, 2, 4 ],
+            "wednesday": [ 11, 21, 31, 3 ],
+            "thursday": [ 15, 25, 4, 7 ],
+            "saturday": [ 14, 24, 3, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 261,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2351123432/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://krallice.bandcamp.com/album/wolf-ep',
+          a_string: 'Wolf ep by Krallice',
+          rule: {
+            "monday": [ 14, 24, 3, 6 ],
+            "tuesday": [ 13, 23, 2, 5 ],
+            "wednesday": [ 12, 22, 2, 4 ],
+            "thursday": [ 11, 21, 31, 3 ],
+            "saturday": [ 15, 25, 4, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

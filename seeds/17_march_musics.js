@@ -5404,6 +5404,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 301,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=430430275/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://teneshathewordsmith.bandcamp.com/album/madea-dangerous-women',
+          a_string: 'Madea/Dangerous Women by Tenesha The WordSmith',
+          rule: {
+            "monday": [ 17, 23, 29, 6 ],
+            "tuesday": [ 16, 22, 28, 6 ],
+            "wednesday": [ 14, 21, 27, 4 ],
+            "thursday": [ 14, 20, 26, 3 ],
+            "saturday": [ 18, 24, 30, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 302,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=439977032/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://teneshathewordsmith.bandcamp.com/album/body-of-work',
+          a_string: 'Body Of Work by Tenesha The WordSmith',
+          rule: {
+            "monday": [ 18, 24, 30, 7 ],
+            "tuesday": [ 17, 23, 29, 6 ],
+            "wednesday": [ 16, 22, 28, 6 ],
+            "thursday": [ 14, 21, 27, 4 ],
+            "saturday": [ 14, 20, 26, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 303,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1899165602/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://allisonmiller.bandcamp.com/album/otis-was-a-polar-bear',
+          a_string: 'Otis Was A Polar Bear by Allison Miller',
+          rule: {
+            "monday": [ 14, 20, 26, 3 ],
+            "tuesday": [ 18, 24, 30, 7 ],
+            "wednesday": [ 17, 23, 29, 6 ],
+            "thursday": [ 16, 22, 28, 6 ],
+            "saturday": [ 14, 21, 27, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

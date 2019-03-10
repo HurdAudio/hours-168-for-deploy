@@ -723,7 +723,7 @@ exports.seed = function(knex, Promise) {
           id: 52,
           user_id: 1,
           theme: 'Steam',
-          type: 'holdiay',
+          type: 'holiday',
           src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/chuttersnap-553854-unsplash.jpg',
           repeat_value: 'no-repeat',
           size_value: '100%',
@@ -1052,6 +1052,20 @@ exports.seed = function(knex, Promise) {
           color_dark: '#000000',
           color_medium: '#303413',
           color_light: '#FFEAB6',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 76,
+          user_id: 1,
+          theme: 'Steam',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/rajiv-bajaj-272757-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '140%',
+          color_dark: '#3C210A',
+          color_medium: '#83501B',
+          color_light: '#FEE7A1',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
         }

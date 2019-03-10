@@ -4864,6 +4864,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 271,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=575122340/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sirulita.bandcamp.com/album/magma',
+          a_string: 'MAGMA by Agustí Fernández - Joe Morris - Charmaine Lee',
+          rule: {
+            "monday": [ 19, 27, 9, 8 ],
+            "tuesday": [ 18, 26, 8, 7 ],
+            "wednesday": [ 17, 25, 7, 6 ],
+            "thursday": [ 16, 24, 6, 5 ],
+            "saturday": [ 20, 28, 10, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 272,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3019029858/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erratum.bandcamp.com/album/le-vray-remede-damour',
+          a_string: 'LE VRAY REMEDE D&#39;AMOUR by JOACHIM MONTESSUIS',
+          rule: {
+            "monday": [ 20, 28, 10, 9 ],
+            "tuesday": [ 19, 27, 9, 8 ],
+            "wednesday": [ 18, 26, 8, 7 ],
+            "thursday": [ 17, 25, 7, 6 ],
+            "saturday": [ 16, 24, 6, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 273,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2756133962/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://carrierrecords.com/album/two-live-sets',
+          a_string: 'Two Live Sets by Peter Evans and Sam Pluta',
+          rule: {
+            "monday": [ 16, 24, 6, 5 ],
+            "tuesday": [ 20, 28, 10, 9 ],
+            "wednesday": [ 19, 27, 9, 8 ],
+            "thursday": [ 18, 26, 8, 7 ],
+            "saturday": [ 17, 25, 7, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

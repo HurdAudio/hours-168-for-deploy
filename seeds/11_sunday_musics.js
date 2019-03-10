@@ -2194,6 +2194,36 @@ exports.seed = function(knex, Promise) {
           a_string: 'SUNN O​)​)​) - 2007.​04​.​20, Klangraum Krems Minority Church, Donaufestival, Krems, AU by SUNN O)))',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 220,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2301956059/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20070318-bergen-cathedral-bergen-no',
+          a_string: 'SUNN O))) - 2007.03.18, Bergen Cathedral, Bergen, NO by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 221,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4116726771/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20061017-crawdaddy-dublin-r-o-irl',
+          a_string: 'SUNN O))) - 2006.10.17, Crawdaddy, Dublin, R/o IRL by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 222,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=803354136/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20061016-black-box-belfast-n-irl',
+          a_string: 'SUNN O))) - 2006.10.16, Black Box, Belfast, N. IRL by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

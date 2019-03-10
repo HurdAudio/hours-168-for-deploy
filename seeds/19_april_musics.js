@@ -5296,6 +5296,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 295,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1431371002/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://intlanthem.bandcamp.com/album/the-oracle',
+          a_string: 'The Oracle by Angel Bat Dawid',
+          rule: {
+            "monday": [ 14, 22, 4, 9 ],
+            "tuesday": [ 13, 21, 2, 8 ],
+            "wednesday": [ 12, 20, 2, 7 ],
+            "thursday": [ 16, 24, 6, 11 ],
+            "saturday": [ 15, 23, 5, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 296,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3047749212/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://theoncross.bandcamp.com/album/fyah',
+          a_string: 'Fyah by Theon Cross',
+          rule: {
+            "monday": [ 15, 23, 5, 10 ],
+            "tuesday": [ 14, 22, 4, 9 ],
+            "wednesday": [ 13, 21, 2, 8 ],
+            "thursday": [ 12, 20, 2, 7 ],
+            "saturday": [ 16, 24, 6, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 297,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2714285472/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://musicforwingwalkers.bandcamp.com/album/hazel',
+          a_string: 'Hazel by Wing Walker Orchestra',
+          rule: {
+            "monday": [ 16, 24, 6, 11 ],
+            "tuesday": [ 15, 23, 5, 10 ],
+            "wednesday": [ 14, 22, 4, 9 ],
+            "thursday": [ 13, 21, 2, 8 ],
+            "saturday": [ 12, 20, 2, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
