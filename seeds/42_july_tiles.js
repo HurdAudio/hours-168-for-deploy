@@ -1068,6 +1068,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FEE7A1',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 77,
+          user_id: 1,
+          theme: 'Steam',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/timothy-ah-koy-31306-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '190%',
+          color_dark: '#000000',
+          color_medium: '#DFD1A4',
+          color_light: '#FEFAF7',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

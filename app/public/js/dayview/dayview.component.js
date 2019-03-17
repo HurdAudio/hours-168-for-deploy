@@ -97,6 +97,139 @@
       vm.cancelTaskInvite = cancelTaskInvite;
       vm.shareObservance = shareObservance;
       vm.cancelObservanceInvite = cancelObservanceInvite;
+      vm.shareArt = shareArt;
+      vm.cancelArtShareInvite = cancelArtShareInvite;
+
+      function cancelArtShareInvite() {
+        let shareArtPane = document.getElementById('shareArtPane');
+
+        shareArtPane.setAttribute("style", "z-index: -6; opacity: 0; transition: opacity 0.5s linear;");
+      }
+
+      function populateArtFriendAndListen(monthTable, artId, theDiv, theImg, theName, friendId, filterStr) {
+        $http.get(`/users/${friendId}`)
+        .then(friendData => {
+          let friend = friendData.data;
+          theImg.src = friend.user_avatar_url;
+          theName.innerHTML = friend.name;
+          if (filterStr !== '') {
+            if ((friend.name.toLowerCase().indexOf(filterStr.toLowerCase()) === -1) && (friend.email.toLowerCase().indexOf(filterStr.toLowerCase()) === -1)) {
+              theDiv.parentNode.removeChild(theDiv);
+              return;
+            }
+          }
+
+          theDiv.addEventListener('click', () => {
+            let subObj = {
+              user_id: currentUserId,
+              art_month: monthTable,
+              art_id: artId,
+              share_associate_id: friendId,
+              accepted: false,
+              responded: false
+            };
+            $http.post('/art_shares', subObj)
+            .then(postedArtData => {
+              let postedArtShare = postedArtData.data;
+              cancelArtShareInvite();
+            });
+          });
+        });
+      }
+
+      function shareArt(monthTable, artId) {
+        let shareArtPane = document.getElementById('shareArtPane');
+        let artShareImage = document.getElementById('artShareImage');
+        let artShareArtist = document.getElementById('artShareArtist');
+        let artShareTitleDate = document.getElementById('artShareTitleDate');
+        let artFriendsSearchList = document.getElementById('artFriendsSearchList');
+        while(artFriendsSearchList.firstChild) {
+          artFriendsSearchList.removeChild(artFriendsSearchList.firstChild);
+        }
+        let theDiv;
+        let theImg;
+        let theName;
+        let theBr;
+        let shareArtSearchBarDiv = document.getElementById('shareArtSearchBarDiv');
+        let taskWhoToShareArtSearch = document.getElementById('taskWhoToShareArtSearch');
+        if (taskWhoToShareArtSearch) {
+          taskWhoToShareArtSearch.parentNode.removeChild(taskWhoToShareArtSearch);
+          taskWhoToShareArtSearch = document.createElement('input');
+          shareArtSearchBarDiv.appendChild(taskWhoToShareArtSearch);
+          taskWhoToShareArtSearch.id = 'taskWhoToShareArtSearch';
+          taskWhoToShareArtSearch.type = 'text';
+          taskWhoToShareArtSearch.placeholder = 'search';
+        }
+
+        $http.get(`/${monthTable}/${artId}`)
+        .then(artData => {
+          let art = artData.data;
+          artShareImage.src = art.img_path;
+          artShareArtist.innerHTML = art.artist;
+          artShareTitleDate.innerHTML = art.title + ', ' + art.year;
+
+          $http.get(`/users/${currentUserId}`)
+          .then(userData => {
+            let user = userData.data;
+            if ((user.associates !== null) && (user.associates !== undefined)) {
+              if ((user.associates.friends !== null) && (user.associates.friends !== undefined) && (user.associates.friends.length > 0)) {
+                for (let i = 0; i < user.associates.friends.length; i++) {
+                  theDiv = document.createElement('div');
+                  artFriendsSearchList.appendChild(theDiv);
+                  theDiv.setAttribute("style", "cursor: pointer;");
+                  theImg = document.createElement('img');
+                  theDiv.appendChild(theImg);
+                  theName = document.createElement('p');
+                  theDiv.appendChild(theName);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  populateArtFriendAndListen(monthTable, artId, theDiv, theImg, theName, user.associates.friends[i], '');
+                }
+              }
+              taskWhoToShareArtSearch.addEventListener('keyup', () => {
+                while(artFriendsSearchList.firstChild) {
+                  artFriendsSearchList.removeChild(artFriendsSearchList.firstChild);
+                }
+                for (let j = 0; j < user.associates.friends.length; j++) {
+                  theDiv = document.createElement('div');
+                  artFriendsSearchList.appendChild(theDiv);
+                  theDiv.setAttribute("style", "cursor: pointer;");
+                  theImg = document.createElement('img');
+                  theDiv.appendChild(theImg);
+                  theName = document.createElement('p');
+                  theDiv.appendChild(theName);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  theBr = document.createElement('br');
+                  theDiv.appendChild(theBr);
+                  populateArtFriendAndListen(monthTable, artId, theDiv, theImg, theName, user.associates.friends[j], taskWhoToShareArtSearch.value);
+                }
+              });
+            }
+          });
+
+        });
+
+        shareArtPane.setAttribute("style", "z-index: 6; opacity: 1; transition: opacity 0.5s linear;");
+      }
 
       function cancelObservanceInvite() {
         let shareObservancePane = document.getElementById('shareObservancePane');
@@ -2169,6 +2302,8 @@
                   vm.arts[indexArt].title = vm.holidays[i].override_content.titles[j];
                   vm.arts[indexArt].year = vm.holidays[i].override_content.years[j];
                   vm.arts[indexArt].index = indexArt;
+                  vm.arts[indexArt].holiday = true;
+                  vm.arts[indexArt].occasion = false;
                   ++indexArt;
                 }
               }
@@ -2225,6 +2360,8 @@
                   vm.arts[indexArt].title = vm.observances[j].override_content.titles[k];
                   vm.arts[indexArt].year = vm.observances[j].override_content.years[k];
                   vm.arts[indexArt].index = indexArt;
+                  vm.arts[indexArt].holiday = false;
+                  vm.arts[indexArt].occasion = true;
                   ++indexArt;
                 }
               }
@@ -2605,6 +2742,10 @@
                 vm.arts[indexArt].title = monthArt[i].title;
                 vm.arts[indexArt].year = monthArt[i].year;
                 vm.arts[indexArt].index = indexArt;
+                vm.arts[indexArt].holiday = false;
+                vm.arts[indexArt].occasion = false;
+                vm.arts[indexArt].monthTable = monthTable.slice(0, monthTable.indexOf('byuser'));
+                vm.arts[indexArt].id = monthArt[i].id;
                 ++indexArt;
               }
             }

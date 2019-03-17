@@ -4594,6 +4594,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 256,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3359933186/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://caveofadullam.bandcamp.com/album/the-bamboo-effect',
+          a_string: 'THE BAMBOO EFFECT by Uzee The Bovvaking',
+          rule: {
+            "monday": [ 6, 17, 28, 2 ],
+            "tuesday": [ 5, 16, 27, 29 ],
+            "wednesday": [ 4, 15, 26, 8 ],
+            "thursday": [ 8, 19, 30, 4 ],
+            "saturday": [ 7, 18, 29, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 257,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=261572253/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://caveofadullam.bandcamp.com/album/the-drunken-monk-ep',
+          a_string: 'The Drunken Monk EP by Uzee The Bovvaking',
+          rule: {
+            "monday": [ 7, 18, 29, 3 ],
+            "tuesday": [ 6, 17, 28, 2 ],
+            "wednesday": [ 5, 16, 27, 29 ],
+            "thursday": [ 4, 15, 26, 8 ],
+            "saturday": [ 8, 19, 30, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 258,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3289471561/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://goldendawnarkestra.bandcamp.com/album/stargazer',
+          a_string: 'Stargazer by GOLDEN DAWN ARKESTRA',
+          rule: {
+            "monday": [ 8, 19, 30, 4 ],
+            "tuesday": [ 7, 18, 29, 3 ],
+            "wednesday": [ 6, 17, 28, 2 ],
+            "thursday": [ 5, 16, 27, 29 ],
+            "saturday": [ 4, 15, 26, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

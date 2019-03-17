@@ -9604,6 +9604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 481,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fine-art-photography-awards-1.jpg',
+          title: 'Concrete Jungle',
+          artist: 'Sajin Sasidharan',
+          year: '2019',
+          rule: {
+            "monday": [ 3, 13, 23, 1 ],
+            "tuesday": [ 2, 12, 22, 30 ],
+            "wednesday": [ 8, 18, 28, 5 ],
+            "thursday": [ 7, 17, 28, 5 ],
+            "friday": [ 6, 16, 26, 24 ],
+            "saturday": [ 5, 15, 25, 3 ],
+            "sunday": [ 14, 24, 4, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 482,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fine-art-photography-awards-2.jpg',
+          title: 'Concrete Jungle',
+          artist: 'Sajin Sasidharan',
+          year: '2019',
+          rule: {
+            "monday": [ 14, 24, 4, 2 ],
+            "tuesday": [ 3, 13, 23, 1 ],
+            "wednesday": [ 2, 12, 22, 30 ],
+            "thursday": [ 8, 18, 28, 5 ],
+            "friday": [ 7, 17, 28, 5 ],
+            "saturday": [ 6, 16, 26, 24 ],
+            "sunday": [ 5, 15, 25, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 483,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fine-art-photography-awards-3.jpg',
+          title: 'Concrete Jungle',
+          artist: 'Sajin Sasidharan',
+          year: '2019',
+          rule: {
+            "monday": [ 6, 16, 26, 4 ],
+            "tuesday": [ 15, 25, 5, 3 ],
+            "wednesday": [ 4, 14, 24, 2 ],
+            "thursday": [ 3, 13, 23, 1 ],
+            "friday": [ 9, 19, 29, 6 ],
+            "saturday": [ 8, 18, 29, 6 ],
+            "sunday": [ 7, 17, 27, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 484,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fine-art-photography-awards-4.jpg',
+          title: 'Night walk',
+          artist: 'Durvile Cavalcanti',
+          year: '2019',
+          rule: {
+            "monday": [ 7, 17, 27, 25 ],
+            "tuesday": [ 6, 16, 26, 4 ],
+            "wednesday": [ 15, 25, 5, 3 ],
+            "thursday": [ 4, 14, 24, 2 ],
+            "friday": [ 3, 13, 23, 1 ],
+            "saturday": [ 9, 19, 29, 6 ],
+            "sunday": [ 8, 18, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 485,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fine-art-photography-awards-5.jpg',
+          title: 'Night walk',
+          artist: 'Durvile Cavalcanti',
+          year: '2019',
+          rule: {
+            "monday": [ 8, 18, 29, 6 ],
+            "tuesday": [ 7, 17, 27, 25 ],
+            "wednesday": [ 6, 16, 26, 4 ],
+            "thursday": [ 15, 25, 5, 3 ],
+            "friday": [ 4, 14, 24, 2 ],
+            "saturday": [ 3, 13, 23, 1 ],
+            "sunday": [ 9, 19, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

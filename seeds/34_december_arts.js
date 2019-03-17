@@ -8404,6 +8404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 421,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/24-10-2,BrzyS.jpg',
+          title: 'Breezy Stories',
+          artist: 'R. A. Burley',
+          year: '1924',
+          rule: {
+            "monday": [ 1, 13, 22, 28 ],
+            "tuesday": [ 31, 13, 21, 27 ],
+            "wednesday": [ 30, 12, 20, 26 ],
+            "thursday": [ 29, 11, 19, 25 ],
+            "friday": [ 28, 9, 8, 24 ],
+            "saturday": [ 27, 9, 28, 4 ],
+            "sunday": [ 2, 15, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 422,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/17-00,WoodrowWilson.jpg',
+          title: 'Woodrow Wilson',
+          artist: 'Samuel Cahan',
+          year: '1917',
+          rule: {
+            "monday": [ 2, 15, 23, 29 ],
+            "tuesday": [ 1, 13, 22, 28 ],
+            "wednesday": [ 31, 13, 21, 27 ],
+            "thursday": [ 30, 12, 20, 26 ],
+            "friday": [ 29, 11, 19, 25 ],
+            "saturday": [ 28, 9, 8, 24 ],
+            "sunday": [ 27, 9, 28, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 423,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/24-00,Ad.jpg',
+          title: 'Advertisement',
+          artist: 'Robert A. Cameron',
+          year: '1924',
+          rule: {
+            "monday": [ 27, 9, 28, 4 ],
+            "tuesday": [ 2, 15, 23, 29 ],
+            "wednesday": [ 1, 13, 22, 28 ],
+            "thursday": [ 31, 13, 21, 27 ],
+            "friday": [ 30, 12, 20, 26 ],
+            "saturday": [ 29, 11, 19, 25 ],
+            "sunday": [ 28, 9, 8, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 424,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/28-11,ShoeCalendar.jpg',
+          title: 'Shoe Co. Calendar',
+          artist: 'Jules Cannert',
+          year: '1928',
+          rule: {
+            "monday": [ 28, 9, 8, 24 ],
+            "tuesday": [ 27, 9, 28, 4 ],
+            "wednesday": [ 2, 15, 23, 29 ],
+            "thursday": [ 1, 13, 22, 28 ],
+            "friday": [ 31, 13, 21, 27 ],
+            "saturday": [ 30, 12, 20, 26 ],
+            "sunday": [ 29, 11, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 425,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-03,SMT-p31.jpg',
+          title: 'Saucy Movie Tales',
+          artist: 'Ralph Carlson',
+          year: '1936',
+          rule: {
+            "monday": [ 29, 11, 19, 25 ],
+            "tuesday": [ 28, 9, 8, 24 ],
+            "wednesday": [ 27, 9, 28, 4 ],
+            "thursday": [ 2, 15, 23, 29 ],
+            "friday": [ 1, 13, 22, 28 ],
+            "saturday": [ 31, 13, 21, 27 ],
+            "sunday": [ 30, 12, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4486,6 +4486,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 250,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3016275840/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/laurence-vanay-la-petite-fenetre-70s-female-french-jazz-rock-experimental-instrumental',
+          a_string: 'Laurence Vanay - La petite fenetre (70&#39;s Female French Jazz Rock Experimental Instrumental) by Laurence Vanay',
+          rule: {
+            "monday": [ 7, 15, 21, 27 ],
+            "tuesday": [ 6, 14, 20, 26 ],
+            "wednesday": [ 7, 13, 19, 25 ],
+            "thursday": [ 11, 17, 23, 29 ],
+            "saturday": [ 10, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 251,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=675487511/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/laurence-vanay-les-soleils-de-la-vie-70s-female-french-jazz-rock-experimental-instrumental',
+          a_string: 'Laurence Vanay - Les Soleils de la Vie (70&#39;s Female French Jazz Rock Experimental Instrumental) by Laurence Vanay',
+          rule: {
+            "monday": [ 10, 16, 22, 28 ],
+            "tuesday": [ 7, 15, 21, 27 ],
+            "wednesday": [ 6, 14, 20, 26 ],
+            "thursday": [ 7, 13, 19, 25 ],
+            "saturday": [ 11, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 252,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=76674843/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/cold-waves-of-color-vol-3-uk-new-wave-post-punk-electronic-1981-1985',
+          a_string: 'Cold Waves of Color * Vol 3 (UK new wave post punk electronic 1981​-​1985) by Various Artists: Cold Waves of Color',
+          rule: {
+            "monday": [ 12, 18, 24, 30 ],
+            "tuesday": [ 11, 17, 23, 29 ],
+            "wednesday": [ 8, 16, 22, 28 ],
+            "thursday": [ 7, 15, 21, 27 ],
+            "saturday": [ 8, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

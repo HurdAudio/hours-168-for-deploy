@@ -9404,6 +9404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 471,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/beach-at-trouville.jpg',
+          title: 'Beach At Trouville',
+          artist: 'Constant Troyon',
+          year: '?',
+          rule: {
+            "monday": [ 8, 19, 30, 9 ],
+            "tuesday": [ 7, 16, 29, 9 ],
+            "wednesday": [ 5, 16, 28, 8 ],
+            "thursday": [ 5, 16, 27, 28 ],
+            "friday": [ 4, 15, 25, 27 ],
+            "saturday": [ 3, 14, 25, 26 ],
+            "sunday": [ 2, 13, 24, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 472,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/diana.jpg',
+          title: 'Diana',
+          artist: 'Charles Gleyre',
+          year: '?',
+          rule: {
+            "monday": [ 2, 13, 24, 4 ],
+            "tuesday": [ 8, 19, 30, 9 ],
+            "wednesday": [ 7, 16, 29, 9 ],
+            "thursday": [ 5, 16, 28, 8 ],
+            "friday": [ 5, 16, 27, 28 ],
+            "saturday": [ 4, 15, 25, 27 ],
+            "sunday": [ 3, 14, 25, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 473,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/mushroom-1850.jpg',
+          title: 'Mushroom',
+          artist: 'Victor Hugo',
+          year: '1850',
+          rule: {
+            "monday": [ 3, 14, 25, 26 ],
+            "tuesday": [ 2, 13, 24, 4 ],
+            "wednesday": [ 8, 19, 30, 9 ],
+            "thursday": [ 7, 16, 29, 9 ],
+            "friday": [ 5, 16, 28, 8 ],
+            "saturday": [ 5, 16, 27, 28 ],
+            "sunday": [ 4, 15, 25, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 474,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/two-women-talking-by-a-gate.jpg',
+          title: 'Two Women Talking by a Gate',
+          artist: 'Camille Corot',
+          year: 'c.1860 - c.1865',
+          rule: {
+            "monday": [ 4, 15, 25, 27 ],
+            "tuesday": [ 3, 14, 25, 26 ],
+            "wednesday": [ 2, 13, 24, 4 ],
+            "thursday": [ 8, 19, 30, 9 ],
+            "friday": [ 7, 16, 29, 9 ],
+            "saturday": [ 5, 16, 28, 8 ],
+            "sunday": [ 5, 16, 27, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 475,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/angel-of-death-1851(1).jpg',
+          title: 'Angel of Death',
+          artist: 'Horace Vernet',
+          year: '1851',
+          rule: {
+            "monday": [ 5, 16, 27, 28 ],
+            "tuesday": [ 4, 15, 25, 27 ],
+            "wednesday": [ 3, 14, 25, 26 ],
+            "thursday": [ 2, 13, 24, 4 ],
+            "friday": [ 8, 19, 30, 9 ],
+            "saturday": [ 7, 16, 29, 9 ],
+            "sunday": [ 5, 16, 28, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

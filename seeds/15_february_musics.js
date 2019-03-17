@@ -5566,6 +5566,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 310,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3783114678/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://dexterstory.bandcamp.com/album/bahir',
+          a_string: 'Bahir by Dexter Story',
+          rule: {
+            "monday": [ 20, 23, 25, 27 ],
+            "tuesday": [ 2, 25, 27, 29 ],
+            "wednesday": [ 4, 27, 29, 6 ],
+            "thursday": [ 5, 28, 1, 7 ],
+            "saturday": [ 17, 21, 23, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 311,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3465765436/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://aaronabernathy.bandcamp.com/album/epilogue',
+          a_string: 'Epilogue by Aaron Abernathy',
+          rule: {
+            "monday": [ 17, 21, 23, 27 ],
+            "tuesday": [ 20, 23, 25, 27 ],
+            "wednesday": [ 2, 25, 27, 29 ],
+            "thursday": [ 4, 27, 29, 6 ],
+            "saturday": [ 5, 28, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 312,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=953757192/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gangsterdoodles.bandcamp.com/album/gangster-music-vol-1',
+          a_string: 'Gangster Music Vol. 1 by Gangster Doodles',
+          rule: {
+            "monday": [ 5, 28, 1, 7 ],
+            "tuesday": [ 17, 21, 23, 27 ],
+            "wednesday": [ 20, 23, 25, 27 ],
+            "thursday": [ 2, 25, 27, 29 ],
+            "saturday": [ 4, 27, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

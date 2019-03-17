@@ -8604,6 +8604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 431,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/xin-1987.jpg',
+          title: 'XIN',
+          artist: 'John McCracken',
+          year: '1987',
+          rule: {
+            "monday": [ 4, 9, 15, 20 ],
+            "tuesday": [ 3, 8, 14, 21 ],
+            "wednesday": [ 9, 14, 20, 25 ],
+            "thursday": [ 8, 10, 18, 24 ],
+            "friday": [ 7, 11, 18, 22 ],
+            "saturday": [ 6, 9, 16, 21 ],
+            "sunday": [ 5, 9, 16, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 432,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/fulcrum-1987.jpg',
+          title: 'Fulcrum',
+          artist: 'Richard Serra',
+          year: '1987',
+          rule: {
+            "monday": [ 5, 9, 16, 21 ],
+            "tuesday": [ 4, 9, 15, 20 ],
+            "wednesday": [ 3, 8, 14, 21 ],
+            "thursday": [ 9, 14, 20, 25 ],
+            "friday": [ 8, 10, 18, 24 ],
+            "saturday": [ 7, 11, 18, 22 ],
+            "sunday": [ 6, 9, 16, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 433,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1987.jpg',
+          title: 'Untitled',
+          artist: 'Robert Grosvenor',
+          year: '1987',
+          rule: {
+            "monday": [ 6, 9, 16, 21 ],
+            "tuesday": [ 5, 9, 16, 21 ],
+            "wednesday": [ 4, 9, 15, 20 ],
+            "thursday": [ 3, 8, 14, 21 ],
+            "friday": [ 9, 14, 20, 25 ],
+            "saturday": [ 8, 10, 18, 24 ],
+            "sunday": [ 7, 11, 18, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 434,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/horizontal-bands-with-colors-superimposed-1988.jpg',
+          title: 'Horizontal Bands with Colors Superimposed',
+          artist: 'Sol LeWitt',
+          year: '1988',
+          rule: {
+            "monday": [ 8, 12, 19, 23 ],
+            "tuesday": [ 7, 10, 17, 22 ],
+            "wednesday": [ 6, 10, 17, 22 ],
+            "thursday": [ 5, 10, 16, 21 ],
+            "friday": [ 4, 9, 15, 22 ],
+            "saturday": [ 10, 15, 21, 26 ],
+            "sunday": [ 9, 11, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 435,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/summer-88-no-7-1988.jpg',
+          title: 'Summer 88, No. 7',
+          artist: 'Anne Truitt',
+          year: '1988',
+          rule: {
+            "monday": [ 9, 11, 19, 25 ],
+            "tuesday": [ 8, 12, 19, 23 ],
+            "wednesday": [ 7, 10, 17, 22 ],
+            "thursday": [ 6, 10, 17, 22 ],
+            "friday": [ 5, 10, 16, 21 ],
+            "saturday": [ 4, 9, 15, 22 ],
+            "sunday": [ 10, 15, 21, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

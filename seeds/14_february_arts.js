@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/HmGzZ2Sz1oihQMle6Nuk4gm3V0JP27QIh8XwawHKbUktlvC_1980_13.JPG',
+          title: 'Garveyite Family, Harlem',
+          artist: 'James Van Der Zee',
+          year: '1924',
+          rule: {
+            "monday": [ 27, 8, 4, 23 ],
+            "tuesday": [ 17, 25, 4, 12 ],
+            "wednesday": [ 18, 27, 6, 14 ],
+            "thursday": [ 24, 29, 6, 16 ],
+            "friday": [ 23, 2, 10, 18 ],
+            "saturday": [ 25, 6, 12, 18 ],
+            "sunday": [ 27, 6, 14, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/002_-african-american-1998-kara-walker1.jpg',
+          title: 'your essentialist-token slave maiden in midair',
+          artist: 'Kara Walker',
+          year: '1998',
+          rule: {
+            "monday": [ 27, 6, 14, 24 ],
+            "tuesday": [ 27, 8, 4, 23 ],
+            "wednesday": [ 17, 25, 4, 12 ],
+            "thursday": [ 18, 27, 6, 14 ],
+            "friday": [ 24, 29, 6, 16 ],
+            "saturday": [ 23, 2, 10, 18 ],
+            "sunday": [ 25, 6, 12, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/2ccd7530-7340-4046-a7e1-7a3e4ec83d94.jpg',
+          title: 'All of Mankind (detail)',
+          artist: 'William Walker',
+          year: '1972',
+          rule: {
+            "monday": [ 25, 6, 12, 18 ],
+            "tuesday": [ 27, 6, 14, 24 ],
+            "wednesday": [ 27, 8, 4, 23 ],
+            "thursday": [ 17, 25, 4, 12 ],
+            "friday": [ 18, 27, 6, 14 ],
+            "saturday": [ 24, 29, 6, 16 ],
+            "sunday": [ 23, 2, 10, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/221b8b2f024ebf5158d0e952f4ebeba3.jpg',
+          title: 'Girl in Red Dress',
+          artist: 'Laura Wheeler Waring',
+          year: 'c. 1934',
+          rule: {
+            "monday": [ 23, 2, 10, 18 ],
+            "tuesday": [ 25, 6, 12, 18 ],
+            "wednesday": [ 27, 6, 14, 24 ],
+            "thursday": [ 27, 8, 4, 23 ],
+            "friday": [ 17, 25, 4, 12 ],
+            "saturday": [ 18, 27, 6, 14 ],
+            "sunday": [ 24, 29, 6, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/washhdroof.jpg',
+          title: 'Humpty Dumpty Get Off That Roof!',
+          artist: 'E. M. Washington',
+          year: '?',
+          rule: {
+            "monday": [ 25, 1, 7, 17 ],
+            "tuesday": [ 24, 3, 11, 19 ],
+            "wednesday": [ 26, 7, 13, 19 ],
+            "thursday": [ 28, 7, 15, 25 ],
+            "friday": [ 28, 9, 5, 24 ],
+            "saturday": [ 18, 26, 5, 13 ],
+            "sunday": [ 19, 28, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

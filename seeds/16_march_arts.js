@@ -10204,6 +10204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 511,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/serpent-chair-1991.jpg',
+          title: 'Serpent Chair',
+          artist: 'Niki de Sainte Phalle',
+          year: '1991',
+          rule: {
+            "monday": [ 9, 19, 27, 6 ],
+            "tuesday": [ 8, 19, 26, 5 ],
+            "wednesday": [ 7, 17, 25, 4 ],
+            "thursday": [ 6, 16, 25, 3 ],
+            "friday": [ 12, 21, 31, 8 ],
+            "saturday": [ 11, 21, 29, 8 ],
+            "sunday": [ 8, 20, 28, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 512,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/kennedy-motorcade-1964.jpg',
+          title: 'Kennedy Motorcade',
+          artist: 'Audrey Flack',
+          year: '1964',
+          rule: {
+            "monday": [ 8, 20, 28, 7 ],
+            "tuesday": [ 9, 19, 27, 6 ],
+            "wednesday": [ 8, 19, 26, 5 ],
+            "thursday": [ 7, 17, 25, 4 ],
+            "friday": [ 6, 16, 25, 3 ],
+            "saturday": [ 12, 21, 31, 8 ],
+            "sunday": [ 11, 21, 29, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 513,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/scalar-1971.jpg',
+          title: 'Scalar',
+          artist: 'Dorothea Rockburne',
+          year: '1991',
+          rule: {
+            "monday": [ 11, 21, 29, 8 ],
+            "tuesday": [ 8, 20, 28, 7 ],
+            "wednesday": [ 9, 19, 27, 6 ],
+            "thursday": [ 8, 19, 26, 5 ],
+            "friday": [ 7, 17, 25, 4 ],
+            "saturday": [ 6, 16, 25, 3 ],
+            "sunday": [ 12, 21, 31, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 514,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/painting-to-be-stepped-on-1960.jpg',
+          title: 'Painting To Be Stepped On',
+          artist: 'Yoko Ono',
+          year: '1960',
+          rule: {
+            "monday": [ 12, 21, 31, 8 ],
+            "tuesday": [ 11, 21, 29, 8 ],
+            "wednesday": [ 8, 20, 28, 7 ],
+            "thursday": [ 9, 19, 27, 6 ],
+            "friday": [ 8, 19, 26, 5 ],
+            "saturday": [ 7, 17, 25, 4 ],
+            "sunday": [ 6, 16, 25, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 515,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-1969(1).jpg',
+          title: 'Untitled',
+          artist: 'Helen Pashgian',
+          year: '1969',
+          rule: {
+            "monday": [ 6, 16, 25, 3 ],
+            "tuesday": [ 12, 21, 31, 8 ],
+            "wednesday": [ 11, 21, 29, 8 ],
+            "thursday": [ 8, 20, 28, 7 ],
+            "friday": [ 9, 19, 27, 6 ],
+            "saturday": [ 8, 19, 26, 5 ],
+            "sunday": [ 7, 17, 25, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

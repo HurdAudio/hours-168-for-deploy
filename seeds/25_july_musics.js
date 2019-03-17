@@ -5026,6 +5026,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 280,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=715306918/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://warmhuman.bandcamp.com/album/ghastly',
+          a_string: 'Ghastly by warm human',
+          rule: {
+            "monday": [ 8, 9, 14, 22 ],
+            "tuesday": [ 7, 9, 13, 21 ],
+            "wednesday": [ 11, 13, 17, 25 ],
+            "thursday": [ 10, 12, 16, 24 ],
+            "saturday": [ 9, 11, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 281,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1086107546/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://townesvanzandt.bandcamp.com/album/sky-blue',
+          a_string: 'Sky Blue by Townes Van Zandt',
+          rule: {
+            "monday": [ 9, 11, 15, 23 ],
+            "tuesday": [ 8, 9, 14, 22 ],
+            "wednesday": [ 7, 9, 13, 21 ],
+            "thursday": [ 11, 13, 17, 25 ],
+            "saturday": [ 10, 12, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 282,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1663299381/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://livinghourband.bandcamp.com/album/softer-faces',
+          a_string: 'Softer Faces by Living Hour',
+          rule: {
+            "monday": [ 10, 12, 16, 24 ],
+            "tuesday": [ 9, 11, 15, 23 ],
+            "wednesday": [ 8, 9, 14, 22 ],
+            "thursday": [ 7, 9, 13, 21 ],
+            "saturday": [ 11, 13, 17, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

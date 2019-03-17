@@ -5674,6 +5674,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 316,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1230212657/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/making-a',
+          a_string: 'Making A by Keith Rowe/Graham Lambkin',
+          rule: {
+            "monday": [ 21, 27, 28, 29 ],
+            "tuesday": [ 20, 27, 28, 29 ],
+            "wednesday": [ 24, 31, 1, 2 ],
+            "thursday": [ 23, 29, 30, 1 ],
+            "saturday": [ 22, 29, 30, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 317,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2516056623/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/touching',
+          a_string: 'Touching by Graham Stephenson/Aaron Zarzutzki',
+          rule: {
+            "monday": [ 22, 29, 30, 31 ],
+            "tuesday": [ 21, 27, 28, 29 ],
+            "wednesday": [ 20, 27, 28, 29 ],
+            "thursday": [ 24, 31, 1, 2 ],
+            "saturday": [ 23, 29, 30, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 318,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=593840188/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/sinter',
+          a_string: 'Sinter by Anne Guthrie/Richard Kamerman',
+          rule: {
+            "monday": [ 23, 29, 30, 1 ],
+            "tuesday": [ 22, 29, 30, 31 ],
+            "wednesday": [ 21, 27, 28, 29 ],
+            "thursday": [ 20, 27, 28, 29 ],
+            "saturday": [ 24, 31, 1, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

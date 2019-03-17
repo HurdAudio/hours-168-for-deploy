@@ -459,7 +459,12 @@
           <h3>{{art.artist}}</h3>
           <p><em>{{art.title}}</em>, {{art.year}}</p>
           <br>
+          <div ng-if="!art.holiday && !art.occasion">
+
+            <a class="btn" href="#" ng-click="$ctrl.shareArt(art.monthTable, art.id)">share</a>
+          </div>
         </div>
+
 
       </main>
 
@@ -898,6 +903,33 @@
     <input type="text" id="taskWhoToShareObservanceSearch" placeholder="search">
   </div>
   <div id="observanceFriendsSearchList">
+
+
+    <div>
+
+      <img src="https://pbs.twimg.com/profile_images/3511787126/e23647c60fe7cee53e4d2d37a50a255c_400x400.jpeg">
+      <p>Lucifer Sam</p>
+      <br><br><br>
+    </div>
+  </div>
+</div>
+
+<div id="shareArtPane">
+  <a class="btn" ng-click="$ctrl.cancelArtShareInvite()" href="#">cancel</a>
+  <div id="artShareIdentifierFields">
+
+    <img id="artShareImage">
+
+    <h3 id="artShareArtist"></h3>
+    <h3 id="artShareTitleDate"></h3>
+
+
+  </div>
+  <h3>Select who you want to share this art with:</h3>
+  <div id="shareArtSearchBarDiv">
+    <input type="text" id="taskWhoToShareArtSearch" placeholder="search">
+  </div>
+  <div id="artFriendsSearchList">
 
 
     <div>

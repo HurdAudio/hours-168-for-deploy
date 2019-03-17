@@ -5350,6 +5350,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 298,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1396119772/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://grahamcostello.bandcamp.com/album/obelisk-lp',
+          a_string: 'OBELISK (LP) by Graham Costello&#39;s STRATA',
+          rule: {
+            "monday": [ 12, 20, 2, 7 ],
+            "tuesday": [ 16, 24, 6, 11 ],
+            "wednesday": [ 15, 23, 5, 10 ],
+            "thursday": [ 14, 22, 4, 9 ],
+            "saturday": [ 13, 21, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 299,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=769557702/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://quinsinnachoff.bandcamp.com/album/path-of-totality',
+          a_string: 'Path of Totality by Quinsin Nachoff',
+          rule: {
+            "monday": [ 13, 21, 2, 8 ],
+            "tuesday": [ 12, 20, 2, 7 ],
+            "wednesday": [ 16, 24, 6, 11 ],
+            "thursday": [ 15, 23, 5, 10 ],
+            "saturday": [ 14, 22, 4, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 300,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=900074120/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://lucianban.bandcamp.com/album/free-fall',
+          a_string: 'Free Fall by Lucian Ban &amp; Alex Simu',
+          rule: {
+            "monday": [ 14, 22, 4, 9 ],
+            "tuesday": [ 13, 21, 2, 8 ],
+            "wednesday": [ 12, 20, 2, 7 ],
+            "thursday": [ 16, 24, 6, 11 ],
+            "saturday": [ 15, 23, 5, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

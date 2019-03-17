@@ -10004,6 +10004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 501,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Astros-920x920.jpg',
+          title: 'Astros',
+          artist: 'Astros-920x920',
+          year: '2018',
+          rule: {
+            "monday": [ 6, 12, 18, 24 ],
+            "tuesday": [ 7, 12, 18, 24 ],
+            "wednesday": [ 6, 11, 17, 23 ],
+            "thursday": [ 11, 17, 22, 29 ],
+            "friday": [ 25, 15, 21, 27 ],
+            "saturday": [ 10, 13, 21, 27 ],
+            "sunday": [ 9, 13, 28, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 502,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Steps_of_City_Hall_2_ohwyeh.jpeg',
+          title: '2017 Houston Astros',
+          artist: 'Opie Otterstad ',
+          year: '2017',
+          rule: {
+            "monday": [ 9, 13, 28, 26 ],
+            "tuesday": [ 6, 12, 18, 24 ],
+            "wednesday": [ 7, 12, 18, 24 ],
+            "thursday": [ 6, 11, 17, 23 ],
+            "friday": [ 11, 17, 22, 29 ],
+            "saturday": [ 25, 15, 21, 27 ],
+            "sunday": [ 10, 13, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 503,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/2-baltimore-orioles-v-houston-astros-scott-halleran.jpg',
+          title: 'Baltimore Orioles V Houston Astros Art ',
+          artist: 'Scott Halleran',
+          year: '2018',
+          rule: {
+            "monday": [ 10, 13, 21, 27 ],
+            "tuesday": [ 9, 13, 28, 26 ],
+            "wednesday": [ 6, 12, 18, 24 ],
+            "thursday": [ 7, 12, 18, 24 ],
+            "friday": [ 6, 11, 17, 23 ],
+            "saturday": [ 11, 17, 22, 29 ],
+            "sunday": [ 25, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 504,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/f1c313ce3e5cc9521e4bda9d737052e8--houston-astros-pixel-art.jpg',
+          title: 'Astros Pixel Art',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 26, 16, 22, 28 ],
+            "tuesday": [ 11, 14, 22, 28 ],
+            "wednesday": [ 10, 14, 29, 27 ],
+            "thursday": [ 7, 13, 19, 25 ],
+            "friday": [ 8, 13, 19, 25 ],
+            "saturday": [ 7, 12, 18, 24 ],
+            "sunday": [ 12, 18, 23, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 505,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/hou.png',
+          title: 'Minimal League Baseball - Houston',
+          artist: 'Ryan Keairns',
+          year: '2018',
+          rule: {
+            "monday": [ 12, 18, 23, 30 ],
+            "tuesday": [ 26, 16, 22, 28 ],
+            "wednesday": [ 11, 14, 22, 28 ],
+            "thursday": [ 10, 14, 29, 27 ],
+            "friday": [ 7, 13, 19, 25 ],
+            "saturday": [ 8, 13, 19, 25 ],
+            "sunday": [ 7, 12, 18, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

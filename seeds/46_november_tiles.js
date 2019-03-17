@@ -1012,6 +1012,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#E5D4C6',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 73,
+          user_id: 1,
+          theme: 'Monochromatic',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/pierre-chatel-innocenti-398182-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '185%',
+          color_dark: '#1A1617',
+          color_medium: '#8EB3CB',
+          color_light: '#EEEEEE',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

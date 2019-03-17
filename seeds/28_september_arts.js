@@ -9004,6 +9004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 451,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/district-six-1979.jpg',
+          title: 'District Six',
+          artist: 'Gregoire Boonzaier',
+          year: '1979',
+          rule: {
+            "monday": [ 29, 6, 24, 1 ],
+            "tuesday": [ 6, 12, 30, 8 ],
+            "wednesday": [ 5, 10, 29, 7 ],
+            "thursday": [ 3, 10, 28, 6 ],
+            "friday": [ 3, 9, 27, 5 ],
+            "saturday": [ 22, 8, 26, 5 ],
+            "sunday": [ 21, 28, 25, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 452,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/by-the-river-at-guilford-1994.jpg',
+          title: 'By the River at Guilford',
+          artist: 'Godfrey Blow',
+          year: '1994',
+          rule: {
+            "monday": [ 21, 28, 25, 3 ],
+            "tuesday": [ 29, 6, 24, 1 ],
+            "wednesday": [ 6, 12, 30, 8 ],
+            "thursday": [ 5, 10, 29, 7 ],
+            "friday": [ 3, 10, 28, 6 ],
+            "saturday": [ 3, 9, 27, 5 ],
+            "sunday": [ 22, 8, 26, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 453,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/benibe-b-1961.jpg',
+          title: 'Benibe B',
+          artist: 'Hiroyuki Tajima',
+          year: '1961',
+          rule: {
+            "monday": [ 22, 8, 26, 5 ],
+            "tuesday": [ 21, 28, 25, 3 ],
+            "wednesday": [ 29, 6, 24, 1 ],
+            "thursday": [ 6, 12, 30, 8 ],
+            "friday": [ 5, 10, 29, 7 ],
+            "saturday": [ 3, 10, 28, 6 ],
+            "sunday": [ 3, 9, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 454,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/mayfair-a-chook-a-roll-and-a-pie-1996.jpg',
+          title: 'Mayfair: A chook, a roll, and a pie',
+          artist: 'Robert MacPherson',
+          year: '1996',
+          rule: {
+            "monday": [ 3, 9, 27, 5 ],
+            "tuesday": [ 22, 8, 26, 5 ],
+            "wednesday": [ 21, 28, 25, 3 ],
+            "thursday": [ 29, 6, 24, 1 ],
+            "friday": [ 6, 12, 30, 8 ],
+            "saturday": [ 5, 10, 29, 7 ],
+            "sunday": [ 3, 10, 28, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 455,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/earthquake-2003.jpg',
+          title: 'Earthquake',
+          artist: 'Tetsuya Ishida',
+          year: '2003',
+          rule: {
+            "monday": [ 4, 11, 29, 7 ],
+            "tuesday": [ 4, 10, 28, 6 ],
+            "wednesday": [ 23, 9, 27, 6 ],
+            "thursday": [ 22, 29, 26, 4 ],
+            "friday": [ 30, 7, 25, 2 ],
+            "saturday": [ 7, 13, 1, 9 ],
+            "sunday": [ 6, 11, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -8789,7 +8789,7 @@ exports.seed = function(knex, Promise) {
           id: 440,
           user_id: 1,
           theme: 'Russian Revolution',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/.jpg',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cinsovpost_00022.jpg',
           title: '"9 Days of One Year" movie (film) poster, directed by M.Romm',
           artist: 'V.Ostrovsky',
           year: '1962',
@@ -8801,6 +8801,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 6, 17, 28, 1 ],
             "saturday": [ 5, 16, 27, 31 ],
             "sunday": [ 4, 15, 26, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 441,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cinsovpost_00020.jpg',
+          title: '"Come Here, Mukhtar!" movie (film) poster, directed by S. Tumanov',
+          artist: 'V. Ostrovsky',
+          year: '1964',
+          rule: {
+            "monday": [ 5, 16, 27, 31 ],
+            "tuesday": [ 4, 15, 26, 30 ],
+            "wednesday": [ 3, 14, 25, 29 ],
+            "thursday": [ 2, 13, 23, 28 ],
+            "friday": [ 11, 12, 23, 27 ],
+            "saturday": [ 7, 18, 29, 2 ],
+            "sunday": [ 6, 17, 28, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 442,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cinsovpost_00019.jpg',
+          title: '"Andrei Rublev" movie (film) poster, directed by A. Tarkovsky',
+          artist: 'M.Lukyanov',
+          year: '1969',
+          rule: {
+            "monday": [ 6, 17, 28, 1 ],
+            "tuesday": [ 5, 16, 27, 31 ],
+            "wednesday": [ 4, 15, 26, 30 ],
+            "thursday": [ 3, 14, 25, 29 ],
+            "friday": [ 2, 13, 23, 28 ],
+            "saturday": [ 11, 12, 23, 27 ],
+            "sunday": [ 7, 18, 29, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 443,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_WellLiveTillMonday.jpg',
+          title: '"We\'ll Live Till Monday" movie (film) poster, directed by S. Rostovskiy',
+          artist: 'N. Homov',
+          year: '1968',
+          rule: {
+            "monday": [ 7, 18, 29, 2 ],
+            "tuesday": [ 6, 17, 28, 1 ],
+            "wednesday": [ 5, 16, 27, 31 ],
+            "thursday": [ 4, 15, 26, 30 ],
+            "friday": [ 3, 14, 25, 29 ],
+            "saturday": [ 2, 13, 23, 28 ],
+            "sunday": [ 11, 12, 23, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 444,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cinsovpost_00017.jpg',
+          title: '"Welcome, or No Trespassing" movie (film) poster, directed by E. Klimov',
+          artist: 'V.Soloviev',
+          year: '1964',
+          rule: {
+            "monday": [ 11, 12, 23, 27 ],
+            "tuesday": [ 7, 18, 29, 2 ],
+            "wednesday": [ 6, 17, 28, 1 ],
+            "thursday": [ 5, 16, 27, 31 ],
+            "friday": [ 4, 15, 26, 30 ],
+            "saturday": [ 3, 14, 25, 29 ],
+            "sunday": [ 2, 13, 23, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 445,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_1530060514ballade_soldier.jpg',
+          title: '"Ballad of a Soldier" movie (film) poster, directed by G. Chukhray',
+          artist: 'S.Datskevich',
+          year: '1961',
+          rule: {
+            "monday": [ 2, 13, 23, 28 ],
+            "tuesday": [ 11, 12, 23, 27 ],
+            "wednesday": [ 7, 18, 29, 2 ],
+            "thursday": [ 6, 17, 28, 1 ],
+            "friday": [ 5, 16, 27, 31 ],
+            "saturday": [ 4, 15, 26, 30 ],
+            "sunday": [ 3, 14, 25, 29 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

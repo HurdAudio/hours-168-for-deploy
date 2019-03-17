@@ -9204,6 +9204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 461,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/megane-bridge-1935.jpg',
+          title: 'Megane Bridge',
+          artist: 'Unichi Hiratsuka',
+          year: '1935',
+          rule: {
+            "monday": [ 4, 8, 16, 1 ],
+            "tuesday": [ 3, 5, 15, 31 ],
+            "wednesday": [ 2, 5, 14, 30 ],
+            "thursday": [ 1, 4, 13, 29 ],
+            "friday": [ 7, 11, 19, 4 ],
+            "saturday": [ 6, 9, 18, 3 ],
+            "sunday": [ 5, 9, 17, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 462,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/pod-la-vene-ia-1929.jpg',
+          title: 'Bridge in Venice',
+          artist: 'Samuel Mutzner',
+          year: '1929',
+          rule: {
+            "monday": [ 6, 10, 18, 3 ],
+            "tuesday": [ 5, 9, 17, 2 ],
+            "wednesday": [ 4, 6, 16, 1 ],
+            "thursday": [ 3, 6, 15, 31 ],
+            "friday": [ 2, 5, 14, 30 ],
+            "saturday": [ 8, 12, 20, 5 ],
+            "sunday": [ 7, 10, 19, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 463,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/shanghai-cafe-dancers-1924.jpg',
+          title: 'Shanghai Cafe Dancers',
+          artist: 'Yamamura Toyonari',
+          year: '1924',
+          rule: {
+            "monday": [ 7, 10, 19, 4 ],
+            "tuesday": [ 6, 10, 18, 3 ],
+            "wednesday": [ 5, 9, 17, 2 ],
+            "thursday": [ 4, 6, 16, 1 ],
+            "friday": [ 3, 6, 15, 31 ],
+            "saturday": [ 2, 5, 14, 30 ],
+            "sunday": [ 8, 12, 20, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 464,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/edwardian-woman-on-the-beach-1900(1).jpg',
+          title: 'Edwardian woman on the Beach',
+          artist: 'Thomas Pollock Anshutz',
+          year: '1900',
+          rule: {
+            "monday": [ 8, 12, 20, 5 ],
+            "tuesday": [ 7, 10, 19, 4 ],
+            "wednesday": [ 6, 10, 18, 3 ],
+            "thursday": [ 5, 9, 17, 2 ],
+            "friday": [ 4, 6, 16, 1 ],
+            "saturday": [ 3, 6, 15, 31 ],
+            "sunday": [ 2, 5, 14, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 465,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/morita-kan-ya-xiii-as-jean-valjean-1921.jpg',
+          title: 'Morita Kan\'ya XIII as Jean Valjean',
+          artist: 'Yamamura Toyonari',
+          year: '1921',
+          rule: {
+            "monday": [ 2, 5, 14, 30 ],
+            "tuesday": [ 8, 12, 20, 5 ],
+            "wednesday": [ 7, 10, 19, 4 ],
+            "thursday": [ 6, 10, 18, 3 ],
+            "friday": [ 5, 9, 17, 2 ],
+            "saturday": [ 4, 6, 16, 1 ],
+            "sunday": [ 3, 6, 15, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

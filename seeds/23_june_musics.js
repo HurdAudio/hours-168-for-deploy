@@ -5134,6 +5134,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 286,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2316471282/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://astrangelyisolatedplace.bandcamp.com/album/fade-to-grey',
+          a_string: 'Fade To Grey by 36',
+          rule: {
+            "monday": [ 10, 13, 18, 30 ],
+            "tuesday": [ 9, 12, 18, 30 ],
+            "wednesday": [ 9, 12, 18, 29 ],
+            "thursday": [ 7, 15, 17, 2 ],
+            "saturday": [ 11, 15, 21, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 287,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=60877583/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://scottthorough.bandcamp.com/album/bird',
+          a_string: 'Bird by Scott Thorough',
+          rule: {
+            "monday": [ 12, 16, 22, 3 ],
+            "tuesday": [ 11, 14, 19, 1 ],
+            "wednesday": [ 10, 13, 19, 1 ],
+            "thursday": [ 10, 13, 19, 30 ],
+            "saturday": [ 8, 16, 18, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 288,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3690510085/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://blacktocomm.bandcamp.com/album/seven-horses-for-seven-kings',
+          a_string: 'Seven Horses For Seven Kings by BLACK TO COMM',
+          rule: {
+            "monday": [ 8, 16, 18, 3 ],
+            "tuesday": [ 12, 16, 22, 3 ],
+            "wednesday": [ 11, 14, 19, 1 ],
+            "thursday": [ 10, 13, 19, 1 ],
+            "saturday": [ 10, 13, 19, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

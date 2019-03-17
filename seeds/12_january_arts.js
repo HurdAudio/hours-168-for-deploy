@@ -10604,6 +10604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/horseshow-two-1971.jpg',
+          title: 'Horseshow Two',
+          artist: 'Thomas Downing',
+          year: '1971',
+          rule: {
+            "monday": [ 24, 26, 27, 29 ],
+            "tuesday": [ 26, 28, 1, 4 ],
+            "wednesday": [ 28, 30, 31, 1 ],
+            "thursday": [ 13, 14, 25, 17 ],
+            "friday": [ 16, 18, 10, 30 ],
+            "saturday": [ 21, 19, 11, 14 ],
+            "sunday": [ 21, 22, 13, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/kiel-1971.jpg',
+          title: 'Kiel',
+          artist: 'Richard Mortensen',
+          year: '1971',
+          rule: {
+            "monday": [ 22, 23, 14, 18 ],
+            "tuesday": [ 25, 27, 28, 30 ],
+            "wednesday": [ 27, 29, 2, 5 ],
+            "thursday": [ 29, 31, 1, 2 ],
+            "friday": [ 14, 15, 26, 18 ],
+            "saturday": [ 17, 19, 11, 31 ],
+            "sunday": [ 22, 20, 12, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/dall-alto-al-basso-1972.jpg',
+          title: 'Dall´alto al Basso',
+          artist: 'Giuseppe Santomaso',
+          year: '1972',
+          rule: {
+            "monday": [ 22, 20, 12, 15 ],
+            "tuesday": [ 22, 23, 14, 18 ],
+            "wednesday": [ 25, 27, 28, 30 ],
+            "thursday": [ 27, 29, 2, 5 ],
+            "friday": [ 29, 31, 1, 2 ],
+            "saturday": [ 14, 15, 26, 18 ],
+            "sunday": [ 17, 19, 11, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/disks-of-newton-study-for-fugue-in-two-colors.jpg',
+          title: 'Disks of Newton, Study for Fugue in Two Colors',
+          artist: 'Frantisek Kupka',
+          year: 'c. 1911',
+          rule: {
+            "monday": [ 17, 19, 11, 31 ],
+            "tuesday": [ 22, 20, 12, 15 ],
+            "wednesday": [ 22, 23, 14, 18 ],
+            "thursday": [ 25, 27, 28, 30 ],
+            "friday": [ 27, 29, 2, 5 ],
+            "saturday": [ 29, 31, 1, 2 ],
+            "sunday": [ 14, 15, 26, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/positioning-of-mobile-graphic-elements.jpg',
+          title: 'Positioning of Mobile Graphic Elements',
+          artist: 'Frantisek Kupka',
+          year: 'c. 1913',
+          rule: {
+            "monday": [ 14, 15, 26, 18 ],
+            "tuesday": [ 17, 19, 11, 31 ],
+            "wednesday": [ 22, 20, 12, 15 ],
+            "thursday": [ 22, 23, 14, 18 ],
+            "friday": [ 25, 27, 28, 30 ],
+            "saturday": [ 27, 29, 2, 5 ],
+            "sunday": [ 29, 31, 1, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4810,6 +4810,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 268,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2508072376/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://silentisland.bandcamp.com/album/rapa-nui-ep',
+          a_string: 'Rapa nui EP by Silent Island',
+          rule: {
+            "monday": [ 9, 29, 7, 1 ],
+            "tuesday": [ 13, 3, 11, 5 ],
+            "wednesday": [ 12, 2, 10, 4 ],
+            "thursday": [ 11, 1, 9, 2 ],
+            "saturday": [ 11, 30, 8, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 269,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3728268980/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://zero-the-hero.bandcamp.com/album/nobody',
+          a_string: 'Nobody by zerothehero',
+          rule: {
+            "monday": [ 11, 30, 8, 2 ],
+            "tuesday": [ 9, 29, 7, 1 ],
+            "wednesday": [ 13, 3, 11, 5 ],
+            "thursday": [ 12, 2, 10, 4 ],
+            "saturday": [ 11, 1, 9, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 270,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=760051029/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://esbenandthewitch.bandcamp.com/album/nowhere',
+          a_string: 'Nowhere by Esben and the Witch',
+          rule: {
+            "monday": [ 11, 1, 9, 2 ],
+            "tuesday": [ 11, 30, 8, 2 ],
+            "wednesday": [ 9, 29, 7, 1 ],
+            "thursday": [ 13, 3, 11, 5 ],
+            "saturday": [ 12, 2, 10, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

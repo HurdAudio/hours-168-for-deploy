@@ -4702,6 +4702,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 262,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2080123767/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ironlungpv.bandcamp.com/album/vain-attempt-7-lungs-134',
+          a_string: 'Vain Attempt 7&quot; (LUNGS-134) by SLANT',
+          rule: {
+            "monday": [ 15, 25, 4, 7 ],
+            "tuesday": [ 14, 24, 3, 6 ],
+            "wednesday": [ 13, 23, 2, 5 ],
+            "thursday": [ 12, 22, 2, 4 ],
+            "saturday": [ 11, 21, 31, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 263,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3541847242/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://beachimpedimentrecords.bandcamp.com/album/ataque-hardcore-punk',
+          a_string: 'Ataque Hardcore Punk by Muro',
+          rule: {
+            "monday": [ 11, 21, 31, 3 ],
+            "tuesday": [ 15, 25, 4, 7 ],
+            "wednesday": [ 14, 24, 3, 6 ],
+            "thursday": [ 13, 23, 2, 5 ],
+            "saturday": [ 12, 22, 2, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 264,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1007485731/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bloodymasterrecords.bandcamp.com/album/subversive-rite-songs-for-the-end-times',
+          a_string: 'SUBVERSIVE RITE-Songs For The End Times by Subversive Rite',
+          rule: {
+            "monday": [ 12, 22, 2, 4 ],
+            "tuesday": [ 11, 21, 31, 3 ],
+            "wednesday": [ 15, 25, 4, 7 ],
+            "thursday": [ 14, 24, 3, 6 ],
+            "saturday": [ 13, 23, 2, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4918,6 +4918,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 274,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3506196202/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://steamroom.bandcamp.com/album/steamroom-44',
+          a_string: 'steamroom 44 by jim o&#39;rourke',
+          rule: {
+            "monday": [ 17, 25, 7, 6 ],
+            "tuesday": [ 16, 24, 6, 5 ],
+            "wednesday": [ 20, 28, 10, 9 ],
+            "thursday": [ 19, 27, 9, 8 ],
+            "saturday": [ 18, 26, 8, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 275,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4026024439/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gottaletitout.bandcamp.com/album/egin',
+          a_string: 'Egin by Mia Dyberg / Elo Masing / Ernesto Rodrigues / Guilherme Rodrigues / Tomo Jacobson',
+          rule: {
+            "monday": [ 18, 26, 8, 7 ],
+            "tuesday": [ 17, 25, 7, 6 ],
+            "wednesday": [ 16, 24, 6, 5 ],
+            "thursday": [ 20, 28, 10, 9 ],
+            "saturday": [ 19, 27, 9, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 276,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3424866585/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cylinderecordings.bandcamp.com/album/cr014-buku-santos-silva-stadhouders-almeida-costa',
+          a_string: '(CR014) BUKU /// SANTOS SILVA/ STADHOUDERS/ ALMEIDA/ COSTA by Susana Santos Silva (trp.) / Jasper Stadhouders (g.) / Gonçalo Almeida (db.) / Gustavo Costa (dr.)',
+          rule: {
+            "monday": [ 19, 27, 9, 8 ],
+            "tuesday": [ 18, 26, 8, 7 ],
+            "wednesday": [ 17, 25, 7, 6 ],
+            "thursday": [ 16, 24, 6, 5 ],
+            "saturday": [ 20, 28, 10, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
