@@ -9104,6 +9104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 456,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-hyena-aunt-2014(1).jpg',
+          title: 'Prince JB',
+          artist: 'Paulo Tercio',
+          year: '2014',
+          rule: {
+            "monday": [ 6, 11, 30, 8 ],
+            "tuesday": [ 4, 11, 29, 7 ],
+            "wednesday": [ 4, 10, 28, 6 ],
+            "thursday": [ 23, 9, 27, 6 ],
+            "friday": [ 22, 29, 26, 4 ],
+            "saturday": [ 30, 7, 25, 2 ],
+            "sunday": [ 7, 13, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 457,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/paisagem.jpg',
+          title: 'Paisagem',
+          artist: 'Aldemir Martins',
+          year: 'XX - XXI cent.',
+          rule: {
+            "monday": [ 7, 13, 1, 9 ],
+            "tuesday": [ 6, 11, 30, 8 ],
+            "wednesday": [ 4, 11, 29, 7 ],
+            "thursday": [ 4, 10, 28, 6 ],
+            "friday": [ 23, 9, 27, 6 ],
+            "saturday": [ 22, 29, 26, 4 ],
+            "sunday": [ 30, 7, 25, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 458,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-dream-2008.jpg',
+          title: 'The Dream',
+          artist: 'Ashley Bickerton',
+          year: '2008',
+          rule: {
+            "monday": [ 30, 7, 25, 2 ],
+            "tuesday": [ 7, 13, 1, 9 ],
+            "wednesday": [ 6, 11, 30, 8 ],
+            "thursday": [ 4, 11, 29, 7 ],
+            "friday": [ 4, 10, 28, 6 ],
+            "saturday": [ 23, 9, 27, 6 ],
+            "sunday": [ 22, 29, 26, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 459,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-beach-1969.jpg',
+          title: 'The Beach',
+          artist: 'Balcomb Greene',
+          year: '1969',
+          rule: {
+            "monday": [ 22, 29, 26, 4 ],
+            "tuesday": [ 30, 7, 25, 2 ],
+            "wednesday": [ 7, 13, 1, 9 ],
+            "thursday": [ 6, 11, 30, 8 ],
+            "friday": [ 4, 11, 29, 7 ],
+            "saturday": [ 4, 10, 28, 6 ],
+            "sunday": [ 23, 9, 27, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 460,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/deux-noirs-sur-raies-vertes-1981.jpg',
+          title: 'Deux noirs sur Raies Vertes',
+          artist: 'Francois Arnal',
+          year: '1981',
+          rule: {
+            "monday": [ 23, 9, 27, 6 ],
+            "tuesday": [ 22, 29, 26, 4 ],
+            "wednesday": [ 30, 7, 25, 2 ],
+            "thursday": [ 7, 13, 1, 9 ],
+            "friday": [ 6, 11, 30, 8 ],
+            "saturday": [ 4, 11, 29, 7 ],
+            "sunday": [ 4, 10, 28, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

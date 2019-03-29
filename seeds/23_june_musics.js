@@ -5188,6 +5188,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 289,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1588782550/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://opaltapes.com/album/second-shift',
+          a_string: 'Second Shift by Siavash Amini &amp; Matt Finney',
+          rule: {
+            "monday": [ 10, 13, 19, 30 ],
+            "tuesday": [ 8, 16, 18, 3 ],
+            "wednesday": [ 12, 16, 22, 3 ],
+            "thursday": [ 11, 14, 19, 1 ],
+            "saturday": [ 10, 13, 19, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 290,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=587089514/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://robertrich.bandcamp.com/album/tactile-ground',
+          a_string: 'Tactile Ground by Robert Rich',
+          rule: {
+            "monday": [ 10, 13, 19, 1 ],
+            "tuesday": [ 10, 13, 19, 30 ],
+            "wednesday": [ 8, 16, 18, 3 ],
+            "thursday": [ 12, 16, 22, 3 ],
+            "saturday": [ 11, 14, 19, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 291,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=817376095/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://12kmusic.bandcamp.com/album/break',
+          a_string: 'Break by COREY FULLER',
+          rule: {
+            "monday": [ 11, 14, 19, 1 ],
+            "tuesday": [ 10, 13, 19, 1 ],
+            "wednesday": [ 10, 13, 19, 30 ],
+            "thursday": [ 8, 16, 18, 3 ],
+            "saturday": [ 12, 16, 22, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

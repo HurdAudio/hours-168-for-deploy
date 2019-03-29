@@ -8904,6 +8904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 446,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cinsovpost_00015.jpg',
+          title: '"Hamlet" movie (film) poster, directed by G. Kozintsev',
+          artist: 'B.Zelensky',
+          year: '1964',
+          rule: {
+            "monday": [ 3, 14, 25, 29 ],
+            "tuesday": [ 2, 13, 23, 28 ],
+            "wednesday": [ 11, 12, 23, 27 ],
+            "thursday": [ 7, 18, 29, 2 ],
+            "friday": [ 6, 17, 28, 1 ],
+            "saturday": [ 5, 16, 27, 31 ],
+            "sunday": [ 4, 15, 26, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 447,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_movie_girls.jpg',
+          title: 'Movie (film) Poster "Girls"',
+          artist: 'V.Kononov',
+          year: '1962',
+          rule: {
+            "monday": [ 4, 15, 26, 30 ],
+            "tuesday": [ 3, 14, 25, 29 ],
+            "wednesday": [ 2, 13, 23, 28 ],
+            "thursday": [ 11, 12, 23, 27 ],
+            "friday": [ 7, 18, 29, 2 ],
+            "saturday": [ 6, 17, 28, 1 ],
+            "sunday": [ 5, 16, 27, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 448,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_volga.jpg',
+          title: 'Volga-Baltic Waterway named after V.I. Lenina',
+          artist: 'S.Sakharov',
+          year: '1965',
+          rule: {
+            "monday": [ 6, 17, 28, 1 ],
+            "tuesday": [ 5, 16, 27, 31 ],
+            "wednesday": [ 4, 15, 26, 30 ],
+            "thursday": [ 3, 14, 24, 29 ],
+            "friday": [ 12, 13, 24, 28 ],
+            "saturday": [ 8, 19, 30, 3 ],
+            "sunday": [ 7, 18, 29, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 449,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cultsovpost_00015.jpg',
+          title: 'Theatrical Poster: Talents and admirers',
+          artist: 'A. Ostrovsky',
+          year: '1968',
+          rule: {
+            "monday": [ 7, 18, 29, 2 ],
+            "tuesday": [ 6, 17, 28, 1 ],
+            "wednesday": [ 5, 16, 27, 31 ],
+            "thursday": [ 4, 15, 26, 30 ],
+            "friday": [ 3, 14, 24, 29 ],
+            "saturday": [ 12, 13, 24, 28 ],
+            "sunday": [ 8, 19, 30, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 450,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cultsovpost_00011.jpg',
+          title: 'Circus. Clown.',
+          artist: 'Yengibarov',
+          year: '1969',
+          rule: {
+            "monday": [ 8, 19, 30, 3 ],
+            "tuesday": [ 7, 18, 29, 2 ],
+            "wednesday": [ 6, 17, 28, 1 ],
+            "thursday": [ 5, 16, 27, 31 ],
+            "friday": [ 4, 15, 26, 30 ],
+            "saturday": [ 3, 14, 24, 29 ],
+            "sunday": [ 12, 13, 24, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

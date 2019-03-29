@@ -715,6 +715,8 @@
       }
 
       function onInit() {
+        let now = new Date();
+        vm.copyrightMessage = "© 2017 - " + now.getFullYear() + " HurdAudio";
         console.log("Landing is lit");
         landingClock = true;
         weekClock = false;

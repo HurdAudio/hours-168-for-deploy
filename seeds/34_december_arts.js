@@ -8504,6 +8504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 426,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/30-02,HotStories.jpg',
+          title: 'Hot Stories',
+          artist: 'Worth Carnahan',
+          year: '1930',
+          rule: {
+            "monday": [ 30, 12, 20, 26 ],
+            "tuesday": [ 29, 11, 19, 25 ],
+            "wednesday":[ 28, 9, 8, 24 ],
+            "thursday": [ 27, 9, 28, 4 ],
+            "friday": [ 2, 15, 23, 29 ],
+            "saturday": [ 1, 13, 22, 28 ],
+            "sunday": [ 31, 13, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 427,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/10-00,WestPointYearling.jpg',
+          title: 'West Point Yearling',
+          artist: 'F. A. Carter',
+          year: '1910',
+          rule: {
+            "monday": [ 1, 14, 22, 28 ],
+            "tuesday": [ 31, 13, 21, 27 ],
+            "wednesday":[ 30, 12, 20, 26 ],
+            "thursday": [ 29, 10, 9, 25 ],
+            "friday": [ 28, 10, 29, 5 ],
+            "saturday": [ 3, 16, 24, 30 ],
+            "sunday": [ 2, 14, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 428,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/38-03-15,Shadow2.jpg',
+          title: 'Shadow illustration',
+          artist: 'Edd Cartier',
+          year: '1938',
+          rule: {
+            "monday": [ 2, 14, 23, 29 ],
+            "tuesday": [ 1, 14, 22, 28 ],
+            "wednesday": [ 31, 13, 21, 27 ],
+            "thursday": [ 30, 12, 20, 26 ],
+            "friday": [ 29, 10, 9, 25 ],
+            "saturday": [ 28, 10, 29, 5 ],
+            "sunday": [ 3, 16, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 429,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/38-10,WAces.jpg',
+          title: 'Western Aces',
+          artist: 'Richard Case',
+          year: '1938',
+          rule: {
+            "monday": [ 3, 16, 24, 30 ],
+            "tuesday": [ 2, 14, 23, 29 ],
+            "wednesday": [ 1, 14, 22, 28 ],
+            "thursday": [ 31, 13, 21, 27 ],
+            "friday": [ 30, 12, 20, 26 ],
+            "saturday": [ 29, 10, 9, 25 ],
+            "sunday": [ 28, 10, 29, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 430,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-05,WActNvls2.jpg',
+          title: 'Western Action',
+          artist: 'Jim Chambers',
+          year: '1936',
+          rule: {
+            "monday": [ 28, 10, 29, 5 ],
+            "tuesday": [ 3, 16, 24, 30 ],
+            "wednesday": [ 2, 14, 23, 29 ],
+            "thursday": [ 1, 14, 22, 28 ],
+            "friday": [ 31, 13, 21, 27 ],
+            "saturday": [ 30, 12, 20, 26 ],
+            "sunday": [ 29, 10, 9, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

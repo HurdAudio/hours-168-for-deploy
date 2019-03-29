@@ -4648,6 +4648,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 259,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3108828822/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://kalitarecords.bandcamp.com/album/sabi',
+          a_string: 'Sabi by Okyerema Asante',
+          rule: {
+            "monday": [ 5, 16, 27, 9 ],
+            "tuesday": [ 9, 20, 1, 5 ],
+            "wednesday": [ 8, 19, 30, 4 ],
+            "thursday": [ 7, 18, 29, 3 ],
+            "saturday": [ 6, 17, 28, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 260,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=574564547/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ayuunesule.bandcamp.com/album/what-a-man-can-do-a-woman-can-do-more-better',
+          a_string: 'What A Man Can Do A Woman Can Do More Better by Ayuune Sule',
+          rule: {
+            "monday": [ 6, 17, 28, 30 ],
+            "tuesday": [ 5, 16, 27, 9 ],
+            "wednesday": [ 9, 20, 1, 5 ],
+            "thursday": [ 8, 19, 30, 4 ],
+            "saturday": [ 7, 18, 29, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 261,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3128428143/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://galtfaculty.bandcamp.com/album/e-b-o-w',
+          a_string: 'E B O W by GALTFaculty',
+          rule: {
+            "monday": [ 7, 18, 29, 3 ],
+            "tuesday": [ 6, 17, 28, 30 ],
+            "wednesday": [ 5, 16, 27, 9 ],
+            "thursday": [ 9, 20, 1, 5 ],
+            "saturday": [ 8, 19, 30, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

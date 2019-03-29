@@ -4864,6 +4864,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 271,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=90548740/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://trovarobato.bandcamp.com/album/dio-contro-diavolo-edizione-2016',
+          a_string: 'Dio Contro Diavolo - Edizione 2016 by Musica Per Bambini',
+          rule: {
+            "monday": [ 12, 2, 10, 4 ],
+            "tuesday": [ 11, 1, 9, 2 ],
+            "wednesday": [ 11, 30, 8, 2 ],
+            "thursday": [ 9, 29, 7, 1 ],
+            "saturday": [ 13, 3, 11, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 272,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1696587859/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://trovarobato.bandcamp.com/album/coma',
+          a_string: 'Coma by Dino Fumaretto',
+          rule: {
+            "monday": [ 13, 3, 11, 5 ],
+            "tuesday": [ 12, 2, 10, 4 ],
+            "wednesday": [ 11, 1, 9, 2 ],
+            "thursday": [ 11, 30, 8, 2 ],
+            "saturday": [ 9, 29, 7, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 273,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4267888428/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://trovarobato.bandcamp.com/album/discoteca-rock',
+          a_string: 'Discoteca Rock by I Camillas',
+          rule: {
+            "monday": [ 10, 30, 8, 2 ],
+            "tuesday": [ 14, 4, 12, 6 ],
+            "wednesday": [ 13, 3, 11, 5 ],
+            "thursday": [ 12, 2, 10, 3 ],
+            "saturday": [ 12, 1, 9, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

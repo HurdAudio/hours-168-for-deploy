@@ -5296,6 +5296,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 295,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3521765620/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://eileanrec.bandcamp.com/album/el-mar-de-junio',
+          a_string: 'El Mar De Junio by Ciro Berenguer',
+          rule: {
+            "monday": [ 13, 19, 26, 8 ],
+            "tuesday": [ 12, 18, 25, 7 ],
+            "wednesday": [ 11, 17, 24, 6 ],
+            "thursday": [ 10, 16, 23, 5 ],
+            "saturday": [ 14, 20, 27, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 296,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=281444348/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://eileanrec.bandcamp.com/album/surface-textures',
+          a_string: 'Surface Textures by Andrew Tasselmyer',
+          rule: {
+            "monday": [ 14, 20, 27, 9 ],
+            "tuesday": [ 13, 19, 26, 8 ],
+            "wednesday": [ 12, 18, 25, 7 ],
+            "thursday": [ 11, 17, 24, 6 ],
+            "saturday": [ 10, 16, 23, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 297,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1711521331/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://eileanrec.bandcamp.com/album/nattesne',
+          a_string: 'Nattesne by øjeRum',
+          rule: {
+            "monday": [ 10, 16, 23, 5 ],
+            "tuesday": [ 14, 20, 27, 9 ],
+            "wednesday": [ 13, 19, 26, 8 ],
+            "thursday": [ 12, 18, 25, 7 ],
+            "saturday": [ 11, 17, 24, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

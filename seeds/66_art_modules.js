@@ -3184,6 +3184,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 266,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/11875464_490295604465488_1433460398_n.jpg',
+          title: 'Nature has taken back this house in Norway',
+          artist: 'Europe Trotter',
+          year: '2015',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 267,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/11809833_1674722046078012_1746799846_n.jpg',
+          title: 'You can see thousands of stars through the open roof of this abandoned building in Spain',
+          artist: 'Carlos Santero',
+          year: '2015',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 268,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/10979558_779370092139368_1656796759_n.jpg',
+          title: 'In southern Namibia in Africa, sand has quietly taken over the rooms in this house',
+          artist: 'Marsel Van Oosten',
+          year: '2015',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 269,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/11899511_432002197001314_1784242286_n.jpg',
+          title: 'These stairs on Oahu, Hawaii seem to lead to heaven',
+          artist: 'Miguel Toralba',
+          year: '2015',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 270,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/10349822_1666356013643006_368117866_n.jpg',
+          title: 'Now, this greenhouse is truly green',
+          artist: 'mgness',
+          year: '2015',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

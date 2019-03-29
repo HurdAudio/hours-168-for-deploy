@@ -81,6 +81,7 @@ body{
   background: -o-linear-gradient(45deg, #22ac44, #888);
   background: linear-gradient(45deg, #22ac44, #888);
   border-radius: 5px;
+  height: 40%;
 
 }
 
@@ -1802,7 +1803,8 @@ a.btn:hover {
 footer {
   text-align: center;
   width: 100%;
-  position: relative;
+  position: absolute;
+  bottom: 2px;
 
 }
 
@@ -1854,14 +1856,16 @@ footer img {
 }
 
 #loginDiv {
+  position: absolute;
+  top: 360px;
   visibility: visible;
   background-image: url(../img/background-2044512_1920.jpg);
   background-repeat: no-repeat;
   align-content: center;
-  padding-left: 13em;
-  padding-top: 1em;
-  padding-bottom: 8em;
-  height: 176px;
+  padding-left: 13px;
+  padding-top: 80px;
+  padding-bottom: 8px;
+  height: 276px;
   -moz-box-shadow: -1px 1px 1px #19262E, -2px 2px 2px #1E2A33, -3px 3px  3px #242F38, -4px 4px 4px #29343D, -5px 5px 7px #2E3942, -6px 6px 8px #333E47, -7px 7px 9px #38434C, -8px 8px 10px #4C4851;
   -webkit-box-shadow: -1px 1px 1px #19262E, -2px 2px 2px #1E2A33, -3px 3px  3px #242F38, -4px 4px 4px #29343D, -5px 5px 7px #2E3942, -6px 6px 8px #333E47, -7px 7px 9px #38434C, -8px 8px 10px #4C4851;
   box-shadow: -1px 1px 1px #19262E, -2px 2px 2px #1E2A33, -3px 3px  3px #242F38, -4px 4px 4px #29343D, -5px 5px 7px #2E3942, -6px 6px 8px #333E47, -7px 7px 9px #38434C, -8px 8px 10px #4C4851;
@@ -5124,10 +5128,11 @@ footer img {
 
 #infoDiv {
   position: fixed;
-  height: 99vmin;
+  height: auto;
   width: 99.5%;
   margin-left: 0.1em;
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
   -webkit-transform: rotateY(90deg); -moz-transform: rotateY(90deg); -o-transform: rotateY(90deg); -ms-transform: rotateY(90deg); transform: rotateY(90deg);
 
   z-index: 5;
@@ -8882,9 +8887,13 @@ footer img {
   margin: 1vmin 2vmin 0 2vmin;
 }
 
+#loginDiv ul {
+  margin: 60px 0 40px 60px;
+}
+
 
 /* .day {
-  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/erin-walker-496351-unsplash.jpg);
+  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/33478516_source.jpg);
   background-repeat: no-repeat;
-  background-size: 160%;
+  background-size: 190%;
 } */

@@ -1068,6 +1068,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#EDD3BF',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 77,
+          user_id: 1,
+          theme: 'Primary Colors',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/chairs.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '110%',
+          color_dark: '#1E1E1E',
+          color_medium: '#B71F34',
+          color_light: '#E7DFD4',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

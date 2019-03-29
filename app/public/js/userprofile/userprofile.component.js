@@ -310,6 +310,34 @@
       vm.userArtShareCommentDeleteConfirmClick = userArtShareCommentDeleteConfirmClick;
       vm.shareCurratedArt = shareCurratedArt;
       vm.cancelArtShareInvite = cancelArtShareInvite;
+      vm.addArtModuleComment = addArtModuleComment;
+
+      function addArtModuleComment(artModAuthorId, artModTheme) {
+        let subObj = {
+          user_id: currentUserId,
+          art_module_author_id: artModAuthorId,
+          theme: artModTheme,
+          comment: ''
+        }
+        $http.post('/art_module_comments', subObj)
+        .then(postedArtModCommentData => {
+          let artModComment = postedArtModCommentData.data[0];
+          for (let i = 0; i < vm.artModulePreview.length; i++) {
+            if ((parseInt(vm.artModulePreview[i].user_author_id) === parseInt(artModAuthorId)) && (vm.artModulePreview[i].theme === artModTheme)) {
+              if (vm.artModulePreview[i].comments === undefined) {
+                vm.artModulePreview[i].comments = [];
+              }
+              vm.artModulePreview[i].comments.push(artModComment);
+              artModuleCommenterIdentity(artModComment.user_id, i, (vm.artModulePreview[i].comments.length - 1));
+              vm.artModulePreview[i].comments[vm.artModulePreview[i].comments.length - 1].cleanDate = cleanDateHoliday(artModComment.created_at) + ' - ' + timeDate(artModComment.created_at);
+              userEditArtModuleComment(artModComment.id, undefined);
+              setTimeout(() => {
+                document.getElementById('thisIsTheArtModuleCommentEditor' + artModComment.id).focus();
+              }, 100);
+            }
+          }
+        });
+      }
 
       function cancelArtShareInvite() {
         let shareArtPane = document.getElementById('shareArtPane');
@@ -982,6 +1010,35 @@
         });
       }
 
+      function removeEmptyArtModuleComment(comment) {
+        $http.delete(`/art_module_comments/${comment.id}`)
+        .then(removedData => {
+          let removed = removedData.data;
+          for (let i = 0; i < vm.artModulePreview.length; i++) {
+            if ((vm.artModulePreview[i].theme === comment.theme) && (parseInt(vm.artModulePreview[i].user_author_id) === parseInt(comment.art_module_author_id))) {
+              for (let j = 0; j < vm.artModulePreview[i].comments.length; j++) {
+                if (parseInt(vm.artModulePreview[i].comments[j].id) === parseInt(comment.id)) {
+                  vm.artModulePreview[i].comments.splice(j, 1);
+                  return;
+                }
+              }
+            }
+          }
+        });
+      }
+
+      function clearOutEmptyArtModuleComments() {
+        $http.get('/art_module_comments')
+        .then(allCommentsData => {
+          let allComments = allCommentsData.data;
+          for (let i = 0; i < allComments.length; i++) {
+            if (allComments[i].comment === '') {
+              removeEmptyArtModuleComment(allComments[i]);
+            }
+          }
+        });
+      }
+
       function userEditArtModuleCommentCompleted(commentId, artModId) {
         let thisIsArtModuleCommentComment = document.getElementById('thisIsArtModuleCommentComment' + commentId);
         let thisIsTheArtModuleCommentEditor = document.getElementById('thisIsTheArtModuleCommentEditor' + commentId);
@@ -1008,6 +1065,7 @@
               }
             }
           }
+          clearOutEmptyArtModuleComments();
         });
       }
 
@@ -2384,6 +2442,7 @@
         let aDate;
         let bDate;
         let check;
+        let checkUp;
 
         $http.get('/observance_share_comments')
         .then(allObservanceShareData => {
@@ -2403,7 +2462,13 @@
               vm.activeObservanceShares[index].comments[i].comment = observanceComments[i].comment;
               vm.activeObservanceShares[index].comments[i].id = observanceComments[i].id;
               check = new Date(observanceComments[i].created_at);
-              vm.activeObservanceShares[index].comments[i].cleanDate = cleanDateHoliday(observanceComments[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.';
+              checkUp = new Date(observanceComments[i].updated_at);
+              if ((checkUp.getTime() - check.getTime()) > 10000) {
+                vm.activeObservanceShares[index].comments[i].cleanDate = cleanDateHoliday(observanceComments[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + ' - updated at ' + cleanDateHoliday(observanceComments[i].updated_at) + ' at ' + checkUp.toLocaleTimeString('en-GB') + '.';
+              } else {
+                vm.activeObservanceShares[index].comments[i].cleanDate = cleanDateHoliday(observanceComments[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.';
+              }
+
               obtainObservanceCommenterDatas(observanceComments[i], index, i);
               vm.activeObservanceShares[index].comments[i].user_id = observanceComments[i].user_id;
             }
@@ -2427,12 +2492,19 @@
 
       function retrieveUserObservanceShares() {
         let check;
+        let shareDate;
+        let expireDate = new Date();
+        expireDate.setDate(expireDate.getDate() - 30);
 
         $http.get('/observance_shares')
         .then(allObservanceData => {
           let allObservance = allObservanceData.data;
           let userObservanceShares = allObservance.filter(entry => {
             return((parseInt(entry.user_id) === parseInt(currentUserId)) || (parseInt(entry.share_associate_id) === parseInt(currentUserId)));
+          });
+          userObservanceShares = userObservanceShares.filter(share => {
+            shareDate = new Date(share.created_at);
+            return(shareDate.getTime() > expireDate.getTime());
           });
           if (userObservanceShares.length > 0) {
             vm.activeObservanceShares = [];
@@ -5374,6 +5446,7 @@
                 vm.artModulePreview[0].storage.push(allArtModules[i]);
                 getArtAuthorName(allArtModules[i].user_author_id, 0);
                 vm.artModulePreview[0].user_author_id = allArtModules[i].user_author_id;
+                vm.artModulePreview[0]
               } else {
                 themeMember = false;
                 for (let j = 0; j < vm.artModulePreview.length; j++) {

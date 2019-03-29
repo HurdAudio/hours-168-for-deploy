@@ -9304,6 +9304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 466,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/boat-in-harbour-brittany-1929.jpg',
+          title: 'Boat in Harbour, Brittany',
+          artist: 'Christopher Wood',
+          year: '1929',
+          rule: {
+            "monday": [ 3, 6, 15, 31 ],
+            "tuesday": [ 2, 5, 14, 30 ],
+            "wednesday": [ 8, 12, 20, 5 ],
+            "thursday": [ 7, 10, 19, 4 ],
+            "friday": [ 6, 10, 18, 3 ],
+            "saturday": [ 5, 9, 17, 2 ],
+            "sunday": [ 4, 6, 16, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 467,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/a-room-in-the-second-post-impressionist-1912.jpg',
+          title: 'A Room (in the Second Post-Impressionist)',
+          artist: 'Roger Fry',
+          year: '1912',
+          rule: {
+            "monday": [ 4, 6, 16, 1 ],
+            "tuesday": [ 3, 6, 15, 31 ],
+            "wednesday": [ 2, 5, 14, 30 ],
+            "thursday": [ 8, 12, 20, 5 ],
+            "friday": [ 7, 10, 19, 4 ],
+            "saturday": [ 6, 10, 18, 3 ],
+            "sunday": [ 5, 9, 17, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 468,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/portrait-of-a-philosopher.jpg',
+          title: 'Portrait of a Philosopher',
+          artist: 'Lyubov Popova',
+          year: '1915',
+          rule: {
+            "monday": [ 5, 9, 17, 2 ],
+            "tuesday": [ 4, 6, 16, 1 ],
+            "wednesday": [ 3, 6, 15, 31 ],
+            "thursday": [ 2, 5, 14, 30 ],
+            "friday": [ 8, 12, 20, 5 ],
+            "saturday": [ 7, 10, 19, 4 ],
+            "sunday": [ 6, 10, 18, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 469,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/photograph-of-violin-and-checkerboard-1913.jpg',
+          title: 'Photograph of Violin and Checkerboard',
+          artist: 'Juan Gris',
+          year: '1913',
+          rule: {
+            "monday": [ 7, 11, 19, 4 ],
+            "tuesday": [ 6, 10, 18, 3 ],
+            "wednesday": [ 5, 7, 17, 2 ],
+            "thursday": [ 4, 7, 16, 1 ],
+            "friday": [ 3, 6, 15, 31 ],
+            "saturday": [ 9, 13, 21, 6 ],
+            "sunday": [ 8, 11, 20, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 470,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/bretagne-1921.jpg',
+          title: 'Bretagne',
+          artist: 'David Kakabadze',
+          year: '1921',
+          rule: {
+            "monday": [ 8, 11, 20, 5 ],
+            "tuesday": [ 7, 11, 19, 4 ],
+            "wednesday": [ 6, 10, 18, 3 ],
+            "thursday": [ 5, 7, 17, 2 ],
+            "friday": [ 4, 7, 16, 1 ],
+            "saturday": [ 3, 6, 15, 31 ],
+            "sunday": [ 9, 13, 21, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

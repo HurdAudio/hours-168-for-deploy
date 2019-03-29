@@ -4540,6 +4540,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 253,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2455310735/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/mystery-plane-still-life-1981-uk-new-wave-electro-beat-post-punk',
+          a_string: 'Mystery Plane - Still Life (1981 UK New Wave - Electro Beat - Post Punk) by Mystery Plane',
+          rule: {
+            "monday": [ 8, 14, 20, 26 ],
+            "tuesday": [ 12, 18, 24, 30 ],
+            "wednesday": [ 11, 17, 23, 29 ],
+            "thursday": [ 8, 16, 22, 28 ],
+            "saturday": [ 7, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 254,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2632322669/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/innovations-seabird-peruvian-1977-new-wave-synth-pop-soft-pop-rock-we-all-together-related',
+          a_string: 'Innovations: Seabird (Peruvian 1977 New Wave * Synth Pop * Soft Pop Rock - We all together related) by Innovations',
+          rule: {
+            "monday": [ 7, 15, 21, 27 ],
+            "tuesday": [ 8, 14, 20, 26 ],
+            "wednesday": [ 12, 18, 24, 30 ],
+            "thursday": [ 11, 17, 23, 29 ],
+            "saturday": [ 8, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 255,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3178656393/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/nrg-canada-garage-rhythm-blues-psych-gaiety-recs-60s',
+          a_string: 'NRG (Canada Garage Rhythm &amp; Blues Psych Gaiety Recs) 60&#39;s by NRG',
+          rule: {
+            "monday": [ 8, 16, 22, 28 ],
+            "tuesday": [ 7, 15, 21, 27 ],
+            "wednesday": [ 8, 14, 20, 26 ],
+            "thursday": [ 12, 18, 24, 30 ],
+            "saturday": [ 11, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

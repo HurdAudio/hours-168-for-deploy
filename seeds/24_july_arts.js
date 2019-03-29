@@ -9504,6 +9504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 476,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/venus-at-paphos.jpg',
+          title: 'Venus at Paphos',
+          artist: 'Jean Auguste Dominique Ingres',
+          year: '?',
+          rule: {
+            "monday": [ 6, 17, 29, 9 ],
+            "tuesday": [ 6, 17, 28, 29 ],
+            "wednesday": [ 5, 16, 26, 28 ],
+            "thursday": [ 4, 15, 26, 27 ],
+            "friday": [ 3, 14, 25, 5 ],
+            "saturday": [ 9, 20, 31, 10 ],
+            "sunday": [ 8, 17, 30, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 477,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/a-young-woman-seated-by-a-window.jpg',
+          title: 'A YOUNG WOMAN SEATED BY A WINDOW',
+          artist: 'Marie-Denise Villers',
+          year: '?',
+          rule: {
+            "monday": [ 8, 17, 30, 10 ],
+            "tuesday": [ 6, 17, 29, 9 ],
+            "wednesday": [ 6, 17, 28, 29 ],
+            "thursday": [ 5, 16, 26, 28 ],
+            "friday": [ 4, 15, 26, 27 ],
+            "saturday": [ 3, 14, 25, 5 ],
+            "sunday": [ 9, 20, 31, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 478,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/il-sonno-dell-infanzia-e-della-vecchiaia.jpg',
+          title: 'Il sonno dell\'infanzia e della vecchiaia',
+          artist: 'Marie-Guillemine Benoist',
+          year: '?',
+          rule: {
+            "monday": [ 9, 20, 31, 10 ],
+            "tuesday": [ 8, 17, 30, 10 ],
+            "wednesday": [ 6, 17, 29, 9 ],
+            "thursday": [ 6, 17, 28, 29 ],
+            "friday": [ 5, 16, 26, 28 ],
+            "saturday": [ 4, 15, 26, 27 ],
+            "sunday": [ 3, 14, 25, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 479,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/venus-hymen-and-love.jpg',
+          title: 'Venus, Hymen and Love',
+          artist: 'Pierre-Paul Prud\'hon',
+          year: '?',
+          rule: {
+            "monday": [ 3, 14, 25, 5 ],
+            "tuesday": [ 9, 20, 31, 10 ],
+            "wednesday": [ 8, 17, 30, 10 ],
+            "thursday": [ 6, 17, 29, 9 ],
+            "friday": [ 6, 17, 28, 29 ],
+            "saturday": [ 5, 16, 26, 28 ],
+            "sunday": [ 4, 15, 26, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 480,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/still-life-with-a-ham-1767.jpg',
+          title: 'Still Life with a Ham',
+          artist: 'Anne Vallayer-Coster',
+          year: '1767',
+          rule: {
+            "monday": [ 4, 15, 26, 27 ],
+            "tuesday": [ 3, 14, 25, 5 ],
+            "wednesday": [ 9, 20, 31, 10 ],
+            "thursday": [ 8, 17, 30, 10 ],
+            "friday": [ 6, 17, 29, 9 ],
+            "saturday": [ 6, 17, 28, 29 ],
+            "sunday": [ 5, 16, 26, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

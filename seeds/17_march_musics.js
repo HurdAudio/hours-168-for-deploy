@@ -5512,6 +5512,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 307,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3704438576/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://petracore.bandcamp.com/album/filament',
+          a_string: 'filament by petra',
+          rule: {
+            "monday": [ 18, 24, 30, 7 ],
+            "tuesday": [ 17, 23, 29, 6 ],
+            "wednesday": [ 16, 22, 28, 6 ],
+            "thursday": [ 14, 21, 27, 4 ],
+            "saturday": [ 14, 20, 26, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 308,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1477640512/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://toneglowrecords.bandcamp.com/album/you-i-are-earth',
+          a_string: 'you &amp; i are earth by Vanessa Rossetto',
+          rule: {
+            "monday": [ 15, 21, 27, 4 ],
+            "tuesday": [ 19, 25, 31, 8 ],
+            "wednesday": [ 18, 24, 30, 7 ],
+            "thursday": [ 17, 23, 29, 7 ],
+            "saturday": [ 15, 22, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 309,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2219896003/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://whitereevesproductions.bandcamp.com/album/sonelab-sessions-wrp019',
+          a_string: 'Sonelab Sessions [WRP019] by Melissa St Pierre',
+          rule: {
+            "monday": [ 15, 22, 28, 5 ],
+            "tuesday": [ 15, 21, 27, 4 ],
+            "wednesday": [ 19, 25, 31, 8 ],
+            "thursday": [ 18, 24, 30, 7 ],
+            "saturday": [ 17, 23, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

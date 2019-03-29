@@ -8704,6 +8704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 436,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/waves-on-the-hudson-river-1988.jpg',
+          title: 'Waves on the Hudson River',
+          artist: 'Yayoi Kusama',
+          year: '1988',
+          rule: {
+            "monday": [ 10, 15, 21, 26 ],
+            "tuesday": [ 9, 11, 19, 25 ],
+            "wednesday": [ 8, 12, 19, 23 ],
+            "thursday": [ 7, 10, 17, 22 ],
+            "friday": [ 6, 10, 17, 22 ],
+            "saturday": [ 5, 10, 16, 21 ],
+            "sunday": [ 4, 9, 15, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 437,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/cdr-grb-i-1988.jpg',
+          title: 'CDR - GRB I',
+          artist: 'Yves Gaucher',
+          year: '1988',
+          rule: {
+            "monday": [ 4, 9, 15, 22 ],
+            "tuesday": [ 10, 15, 21, 26 ],
+            "wednesday": [ 9, 11, 19, 25 ],
+            "thursday": [ 8, 12, 19, 23 ],
+            "friday": [ 7, 10, 17, 22 ],
+            "saturday": [ 6, 10, 17, 22 ],
+            "sunday": [ 5, 10, 16, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 438,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/la-plate-bande-1988.jpg',
+          title: 'La plate-bande',
+          artist: 'Francois Morellet',
+          year: '1988',
+          rule: {
+            "monday": [ 5, 10, 16, 21 ],
+            "tuesday": [ 4, 9, 15, 22 ],
+            "wednesday": [ 10, 15, 21, 26 ],
+            "thursday": [ 9, 11, 19, 25 ],
+            "friday": [ 8, 12, 19, 23 ],
+            "saturday": [ 7, 10, 17, 22 ],
+            "sunday": [ 6, 10, 17, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 439,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/skulptur-i-1988.jpg',
+          title: 'Skulptur I',
+          artist: 'Jan Groth',
+          year: '1988',
+          rule: {
+            "monday": [ 6, 10, 17, 22 ],
+            "tuesday": [ 5, 10, 16, 21 ],
+            "wednesday": [ 4, 9, 15, 22 ],
+            "thursday": [ 10, 15, 21, 26 ],
+            "friday": [ 9, 11, 19, 25 ],
+            "saturday": [ 8, 12, 19, 23 ],
+            "sunday": [ 7, 10, 17, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 440,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/bris-signe.jpg',
+          title: 'Bris-signe',
+          artist: 'Jean Degottex',
+          year: '?',
+          rule: {
+            "monday": [ 7, 10, 17, 22 ],
+            "tuesday": [ 6, 10, 17, 22 ],
+            "wednesday": [ 5, 10, 16, 21 ],
+            "thursday": [ 4, 9, 15, 22 ],
+            "friday": [ 10, 15, 21, 26 ],
+            "saturday": [ 9, 11, 19, 25 ],
+            "sunday": [ 8, 12, 19, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

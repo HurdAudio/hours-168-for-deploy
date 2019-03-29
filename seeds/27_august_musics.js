@@ -4972,6 +4972,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 277,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1496220440/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://leapoffaith1.bandcamp.com/album/probability-clouds-double-live-2',
+          a_string: 'Probability Clouds (Double Live) by Leap of Faith Orchestra &amp; Sub-Units',
+          rule: {
+            "monday": [ 20, 28, 10, 9 ],
+            "tuesday": [ 19, 27, 9, 8 ],
+            "wednesday": [ 18, 26, 8, 7 ],
+            "thursday": [ 17, 25, 7, 6 ],
+            "saturday": [ 16, 24, 6, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 278,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1602728872/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://whirrboom.bandcamp.com/album/live-iklectik',
+          a_string: 'Live@IKLECTIK by John Butcher &amp; Dylan van der Schyff',
+          rule: {
+            "monday": [ 16, 24, 6, 5 ],
+            "tuesday": [ 20, 28, 10, 9 ],
+            "wednesday": [ 19, 27, 9, 8 ],
+            "thursday": [ 18, 26, 8, 7 ],
+            "saturday": [ 17, 25, 7, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 279,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1235519799/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://rawtonkrecords.bandcamp.com/album/bestemmia',
+          a_string: 'Bestemmia by Marco Serrato / Francesco Covarino',
+          rule: {
+            "monday": [ 17, 25, 7, 6 ],
+            "tuesday": [ 16, 24, 6, 5 ],
+            "wednesday": [ 20, 28, 10, 9 ],
+            "thursday": [ 19, 27, 9, 8 ],
+            "saturday": [ 18, 26, 8, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

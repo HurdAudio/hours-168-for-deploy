@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/il_570xN.1399119999_inzl.jpg',
+          title: 'Cincinnati Reds logo Mr Redlegs',
+          artist: 'Abandoned Colors',
+          year: '?',
+          rule: {
+            "monday": [ 7, 12, 18, 24 ],
+            "tuesday": [ 12, 18, 23, 30 ],
+            "wednesday": [ 26, 16, 22, 28 ],
+            "thursday": [ 11, 14, 22, 28 ],
+            "friday": [ 10, 14, 29, 27 ],
+            "saturday": [ 7, 13, 19, 25 ],
+            "sunday": [ 8, 13, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/joey-2-copy-21.jpg',
+          title: 'Joey Votto',
+          artist: 'Chris Felix',
+          year: '2012',
+          rule: {
+            "monday": [ 8, 13, 19, 25 ],
+            "tuesday": [ 7, 12, 18, 24 ],
+            "wednesday": [ 12, 18, 23, 30 ],
+            "thursday": [ 26, 16, 22, 28 ],
+            "friday": [ 11, 14, 22, 28 ],
+            "saturday": [ 10, 14, 29, 27 ],
+            "sunday": [ 7, 13, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/rosie_red-mascot-cincinnati_reds_grande.jpg',
+          title: 'Minimalist Rosie the Red',
+          artist: 'S. Preston',
+          year: '?',
+          rule: {
+            "monday": [ 7, 13, 19, 25 ],
+            "tuesday": [ 8, 13, 19, 25 ],
+            "wednesday": [ 7, 12, 18, 24 ],
+            "thursday": [ 12, 18, 23, 30 ],
+            "friday": [ 26, 16, 22, 28 ],
+            "saturday": [ 11, 14, 22, 28 ],
+            "sunday": [ 10, 14, 29, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/cincinnati-reds-players-baseball-photo-cincinnati-oh_u-l-p5jkcz0.jpg',
+          title: 'Cincinnati Reds Players',
+          artist: 'unknown artist',
+          year: 'xx cent.',
+          rule: {
+            "monday": [ 10, 14, 29, 27 ],
+            "tuesday": [ 7, 13, 19, 25 ],
+            "wednesday": [ 8, 13, 19, 25 ],
+            "thursday": [ 7, 12, 18, 24 ],
+            "friday": [ 12, 18, 23, 30 ],
+            "saturday": [ 26, 16, 22, 28 ],
+            "sunday": [ 11, 14, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/redbaseballstadiumcincinnatiselectivecoloringcincinnatiredsredsjoeyvottovotto1920x108_www.wallpaperhi.com_50.jpg',
+          title: 'Joey Votto',
+          artist: 'unknown artist',
+          year: '2012',
+          rule: {
+            "monday": [ 11, 14, 22, 28 ],
+            "tuesday": [ 10, 14, 29, 27 ],
+            "wednesday": [ 7, 13, 19, 25 ],
+            "thursday": [ 8, 13, 19, 25 ],
+            "friday": [ 7, 12, 18, 24 ],
+            "saturday": [ 12, 18, 23, 30 ],
+            "sunday": [ 26, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

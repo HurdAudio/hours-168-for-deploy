@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/abstract(3).jpg',
+          title: '(Abstract)',
+          artist: 'Bui Xuan Phai',
+          year: '?',
+          rule: {
+            "monday": [ 29, 31, 1, 2 ],
+            "tuesday": [ 14, 15, 26, 18 ],
+            "wednesday": [ 17, 19, 11, 31 ],
+            "thursday": [ 22, 20, 12, 15 ],
+            "friday": [ 22, 23, 14, 18 ],
+            "saturday": [ 25, 27, 28, 30 ],
+            "sunday": [ 27, 29, 2, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-no-70-1960.jpg',
+          title: 'Untitled No. 70',
+          artist: 'Carl Buchheister',
+          year: '1960',
+          rule: {
+            "monday": [ 27, 29, 2, 5 ],
+            "tuesday": [ 29, 31, 1, 2 ],
+            "wednesday": [ 14, 15, 26, 18 ],
+            "thursday": [ 17, 19, 11, 31 ],
+            "friday": [ 22, 20, 12, 15 ],
+            "saturday": [ 22, 23, 14, 18 ],
+            "sunday": [ 25, 27, 28, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/x-l-31-62-1962.jpg',
+          title: 'X-L-31-62',
+          artist: 'Conrad Marca-Relli',
+          year: '1962',
+          rule: {
+            "monday": [ 25, 27, 28, 30 ],
+            "tuesday": [ 27, 29, 2, 5 ],
+            "wednesday": [ 29, 31, 1, 2 ],
+            "thursday": [ 14, 15, 26, 18 ],
+            "friday": [ 17, 19, 11, 31 ],
+            "saturday": [ 22, 20, 12, 15 ],
+            "sunday": [ 22, 23, 14, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/berlin-waterfall-1993.jpg',
+          title: 'Berlin Waterfall',
+          artist: 'Pat Steir',
+          year: '1993',
+          rule: {
+            "monday": [ 23, 24, 15, 19 ],
+            "tuesday": [ 26, 28, 29, 31 ],
+            "wednesday": [ 28, 30, 3, 6 ],
+            "thursday": [ 30, 1, 2, 3 ],
+            "friday": [ 15, 16, 27, 19 ],
+            "saturday": [ 18, 20, 12, 1 ],
+            "sunday": [ 23, 21, 13, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/travel-if-you-aim-for-certain-values-by-travelling-the-skies-the-crescent-becommes-a-full-moon.jpg',
+          title: 'Travel if you aim for certain values. By travelling the skies, the crescent becommes a full moon',
+          artist: 'Hassan Massoudy',
+          year: '?',
+          rule: {
+            "monday": [ 23, 21, 13, 16 ],
+            "tuesday": [ 23, 24, 15, 19 ],
+            "wednesday": [ 26, 28, 29, 31 ],
+            "thursday": [ 28, 30, 3, 6 ],
+            "friday": [ 30, 1, 2, 3 ],
+            "saturday": [ 15, 16, 27, 19 ],
+            "sunday": [ 18, 20, 12, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

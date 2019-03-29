@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/77_1.jpg',
+          title: 'unknown title',
+          artist: 'James W. Washington Jr.',
+          year: '?',
+          rule: {
+            "monday": [ 19, 28, 7, 15 ],
+            "tuesday": [ 25, 1, 7, 17 ],
+            "wednesday": [ 24, 3, 11, 19 ],
+            "thursday": [ 26, 7, 13, 19 ],
+            "friday": [ 28, 7, 15, 25 ],
+            "saturday": [ 28, 9, 5, 24 ],
+            "sunday": [ 18, 26, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/de969d3878de11e3951d1220261db2a0_8.jpg',
+          title: 'Untitled',
+          artist: 'Carrie Mae Weems',
+          year: '1989 - 1990',
+          rule: {
+            "monday": [ 18, 26, 5, 13 ],
+            "tuesday": [ 19, 28, 7, 15 ],
+            "wednesday": [ 25, 1, 7, 17 ],
+            "thursday": [ 24, 3, 11, 19 ],
+            "friday": [ 26, 7, 13, 19 ],
+            "saturday": [ 28, 7, 15, 25 ],
+            "sunday": [ 28, 9, 5, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/summer-breeze.jpg',
+          title: 'Summer Breeze',
+          artist: 'Pheoris West',
+          year: '?',
+          rule: {
+            "monday": [ 28, 9, 5, 24 ],
+            "tuesday": [ 18, 26, 5, 13 ],
+            "wednesday": [ 19, 28, 7, 15 ],
+            "thursday": [ 25, 1, 7, 17 ],
+            "friday": [ 24, 3, 11, 19 ],
+            "saturday": [ 26, 7, 13, 19 ],
+            "sunday": [ 28, 7, 15, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/302_ex_rl_charles_white_chicagoour_land.jpg',
+          title: 'Our Land',
+          artist: 'Charles White',
+          year: '1951',
+          rule: {
+            "monday": [ 28, 7, 15, 25 ],
+            "tuesday": [ 28, 9, 5, 24 ],
+            "wednesday": [ 18, 26, 5, 13 ],
+            "thursday": [ 19, 28, 7, 15 ],
+            "friday": [ 25, 1, 7, 17 ],
+            "saturday": [ 24, 3, 11, 19 ],
+            "sunday": [ 26, 7, 13, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/08.Self-Portrait-1996-984x1024.jpg',
+          title: 'Self Portrait',
+          artist: 'Jack Whitten',
+          year: '?',
+          rule: {
+            "monday": [ 26, 7, 13, 19 ],
+            "tuesday": [ 28, 7, 15, 25 ],
+            "wednesday": [ 28, 9, 5, 24 ],
+            "thursday": [ 18, 26, 5, 13 ],
+            "friday": [ 19, 28, 7, 15 ],
+            "saturday": [ 25, 1, 7, 17 ],
+            "sunday": [ 24, 3, 11, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

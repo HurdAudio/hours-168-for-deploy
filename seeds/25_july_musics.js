@@ -5080,6 +5080,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 283,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1744348374/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://skingraftrecords.bandcamp.com/album/post-now-round-one-chicago-vs-new-york',
+          a_string: 'Post Now: Round One - Chicago vs New York by Various Artists (Cheer-Accident, Flying Luttenbachers, Bobby Conn, etc)',
+          rule: {
+            "monday": [ 11, 13, 17, 25 ],
+            "tuesday": [ 10, 12, 16, 24 ],
+            "wednesday": [ 9, 11, 15, 23 ],
+            "thursday": [ 8, 9, 14, 22 ],
+            "saturday": [ 7, 9, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 284,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1154598003/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://shinytimes.bandcamp.com/album/cant-be-depressed-2',
+          a_string: 'Can&#39;t Be Depressed by Shiny Times',
+          rule: {
+            "monday": [ 7, 9, 13, 21 ],
+            "tuesday": [ 11, 13, 17, 25 ],
+            "wednesday": [ 10, 12, 16, 24 ],
+            "thursday": [ 9, 11, 15, 23 ],
+            "saturday": [ 8, 9, 14, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 285,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=443825303/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://niluferyanya.bandcamp.com/album/miss-universe',
+          a_string: 'Miss Universe by Nilufer Yanya',
+          rule: {
+            "monday": [ 8, 9, 14, 22 ],
+            "tuesday": [ 7, 9, 13, 21 ],
+            "wednesday": [ 11, 13, 17, 25 ],
+            "thursday": [ 10, 12, 16, 24 ],
+            "saturday": [ 9, 11, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

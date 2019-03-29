@@ -4756,6 +4756,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 265,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1587652319/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://andyhumanthereptoids.bandcamp.com/album/psychic-sidekick',
+          a_string: 'Psychic Sidekick by Andy Human &amp; The Reptoids',
+          rule: {
+            "monday": [ 13, 23, 2, 5 ],
+            "tuesday": [ 12, 22, 2, 4 ],
+            "wednesday": [ 11, 21, 31, 3 ],
+            "thursday": [ 15, 25, 4, 7 ],
+            "saturday": [ 14, 24, 3, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 266,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2462539562/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://drunkensailorrecords.bandcamp.com/album/company-man-7-ep',
+          a_string: 'Company Man 7&quot; EP by Vintage Crop',
+          rule: {
+            "monday": [ 15, 25, 4, 7 ],
+            "tuesday": [ 14, 24, 3, 6 ],
+            "wednesday": [ 13, 23, 3, 5 ],
+            "thursday": [ 12, 22, 1, 4 ],
+            "saturday": [ 16, 26, 5, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 267,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2952825019/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://thecoolgreenhouse.bandcamp.com/album/crap-cardboard-pet',
+          a_string: 'Crap Cardboard Pet by The Cool Greenhouse',
+          rule: {
+            "monday": [ 16, 26, 5, 8 ],
+            "tuesday": [ 15, 25, 4, 7 ],
+            "wednesday": [ 14, 24, 3, 6 ],
+            "thursday": [ 13, 23, 3, 5 ],
+            "saturday": [ 12, 22, 1, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

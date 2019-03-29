@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1062072416/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/dystonia-duos',
+          a_string: 'Dystonia Duos by Joe Panzner/Greg Stuart',
+          rule: {
+            "monday": [ 24, 31, 1, 2 ],
+            "tuesday": [ 23, 29, 30, 1 ],
+            "wednesday": [ 22, 29, 30, 31 ],
+            "thursday": [ 21, 27, 28, 29 ],
+            "saturday": [ 20, 27, 28, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2392998849/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/songs-about-nothing',
+          a_string: 'Songs About Nothing by Jason Lescalleet',
+          rule: {
+            "monday": [ 20, 27, 28, 29 ],
+            "tuesday": [ 24, 31, 1, 2 ],
+            "wednesday": [ 23, 29, 30, 1 ],
+            "thursday": [ 22, 29, 30, 31 ],
+            "saturday": [ 21, 27, 28, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2481222438/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/crosshatches',
+          a_string: 'crosshatches by Michael Pisaro/Toshiya Tsunoda',
+          rule: {
+            "monday": [ 21, 27, 28, 29 ],
+            "tuesday": [ 20, 27, 28, 29 ],
+            "wednesday": [ 24, 31, 1, 2 ],
+            "thursday": [ 23, 29, 30, 1 ],
+            "saturday": [ 22, 29, 30, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

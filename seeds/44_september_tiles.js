@@ -1054,6 +1054,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#E3DDE8',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 76,
+          user_id: 1,
+          theme: 'Leather',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/free-book-texture.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '140%',
+          color_dark: '#0E0B00',
+          color_medium: '#A25217',
+          color_light: '#E4D4BC',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

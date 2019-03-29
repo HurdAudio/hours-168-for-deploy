@@ -5620,6 +5620,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 313,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1181169497/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://christianscott.bandcamp.com/album/stretch-music',
+          a_string: 'Stretch Music by Christian Scott aTunde Adjuah',
+          rule: {
+            "monday": [ 4, 27, 29, 6 ],
+            "tuesday": [ 5, 28, 1, 7 ],
+            "wednesday": [ 17, 21, 23, 27 ],
+            "thursday": [ 20, 23, 25, 27 ],
+            "saturday": [ 2, 25, 27, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 314,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3734958923/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ibibiosoundmachine.bandcamp.com/album/doko-mien',
+          a_string: 'Doko Mien by Ibibio Sound Machine',
+          rule: {
+            "monday": [ 2, 25, 27, 29 ],
+            "tuesday": [ 4, 27, 29, 6 ],
+            "wednesday": [ 5, 28, 1, 7 ],
+            "thursday": [ 17, 21, 23, 27 ],
+            "saturday": [ 20, 23, 25, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 315,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2968932585/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://discrepant.bandcamp.com/album/symbols-follow',
+          a_string: 'Symbols Follow by Mutamassik',
+          rule: {
+            "monday": [ 21, 24, 26, 28 ],
+            "tuesday": [ 3, 26, 28, 1 ],
+            "wednesday": [ 5, 28, 1, 7 ],
+            "thursday": [ 6, 29, 2, 8 ],
+            "saturday": [ 18, 22, 24, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4216,6 +4216,8 @@
                 <h1>Comments:</h1>
               </div>
               <div id="artModuleCommentSpace">
+                <a class="btn" href="" style="float: right;" ng-click="$ctrl.addArtModuleComment(artmod.user_author_id, artmod.theme)">add</a>
+                <br><br><br>
 
                 <main ng-repeat="comment in artmod.comments | orderBy : $ctrl.sortBy">
 

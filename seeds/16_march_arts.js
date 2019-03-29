@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/olga-2003.jpg',
+          title: 'Olga',
+          artist: 'Paula Rego',
+          year: '2003',
+          rule: {
+            "monday": [ 7, 17, 25, 4 ],
+            "tuesday": [ 6, 16, 25, 3 ],
+            "wednesday": [ 12, 21, 31, 8 ],
+            "thursday": [ 11, 21, 29, 8 ],
+            "friday": [ 8, 20, 28, 7 ],
+            "saturday": [ 9, 19, 27, 6 ],
+            "sunday": [ 8, 19, 26, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/light-progressions-1993.jpg',
+          title: 'Light Progressions',
+          artist: 'Nanda Vigo',
+          year: '1993',
+          rule: {
+            "monday": [ 8, 19, 26, 5 ],
+            "tuesday": [ 7, 17, 25, 4 ],
+            "wednesday": [ 6, 16, 25, 3 ],
+            "thursday": [ 12, 21, 31, 8 ],
+            "friday": [ 11, 21, 29, 8 ],
+            "saturday": [ 8, 20, 28, 7 ],
+            "sunday": [ 9, 19, 27, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/children.jpg',
+          title: 'Children',
+          artist: 'Dora Boneva',
+          year: '?',
+          rule: {
+            "monday": [ 10, 20, 28, 7 ],
+            "tuesday": [ 9, 20, 27, 6 ],
+            "wednesday": [ 8, 18, 26, 5 ],
+            "thursday": [ 7, 17, 26, 4 ],
+            "friday": [ 13, 22, 1, 9 ],
+            "saturday": [ 12, 22, 30, 9 ],
+            "sunday": [ 9, 21, 29, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/diary-pages.jpg',
+          title: 'Diary pages',
+          artist: 'Nasreen Mohamedi',
+          year: '?',
+          rule: {
+            "monday": [ 9, 21, 29, 8 ],
+            "tuesday": [ 10, 20, 28, 7 ],
+            "wednesday": [ 9, 20, 27, 6 ],
+            "thursday": [ 8, 18, 26, 5 ],
+            "friday": [ 7, 17, 26, 4 ],
+            "saturday": [ 13, 22, 1, 9 ],
+            "sunday": [ 12, 22, 30, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/kweilin-dreaming-1989.jpg',
+          title: 'Kweilin Dreaming',
+          artist: 'Pat Steir',
+          year: '1989',
+          rule: {
+            "monday": [ 12, 22, 30, 9 ],
+            "tuesday": [ 9, 21, 29, 8 ],
+            "wednesday": [ 10, 20, 28, 7 ],
+            "thursday": [ 9, 20, 27, 6 ],
+            "friday": [ 8, 18, 26, 5 ],
+            "saturday": [ 7, 17, 26, 4 ],
+            "sunday": [ 13, 22, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

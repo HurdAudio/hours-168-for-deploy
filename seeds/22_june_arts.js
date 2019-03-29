@@ -9704,6 +9704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 486,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Draped-Gabrielle-00309-Edit-iframe.jpg',
+          title: 'Draped Gabrielle',
+          artist: 'Craig Stocks',
+          year: '?',
+          rule: {
+            "monday": [ 9, 19, 29, 6 ],
+            "tuesday": [ 8, 18, 29, 6 ],
+            "wednesday": [ 7, 17, 27, 25 ],
+            "thursday": [ 6, 16, 26, 4 ],
+            "friday": [ 15, 25, 5, 3 ],
+            "saturday": [ 4, 14, 24, 2 ],
+            "sunday": [ 3, 13, 23, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 487,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Gabi-10074-Edit-iframe.jpg',
+          title: 'Gabi',
+          artist: 'Craig Stocks',
+          year: '?',
+          rule: {
+            "monday": [ 3, 13, 23, 1 ],
+            "tuesday": [ 9, 19, 29, 6 ],
+            "wednesday": [ 8, 18, 29, 6 ],
+            "thursday": [ 7, 17, 27, 25 ],
+            "friday": [ 6, 16, 26, 4 ],
+            "saturday": [ 15, 25, 5, 3 ],
+            "sunday": [ 4, 14, 24, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 488,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Studio--18230-Edit-iframe.jpg',
+          title: 'Studio',
+          artist: 'Craig Stocks',
+          year: '?',
+          rule: {
+            "monday": [ 4, 14, 24, 2 ],
+            "tuesday": [ 3, 13, 23, 1 ],
+            "wednesday": [ 9, 19, 29, 6 ],
+            "thursday": [ 8, 18, 29, 6 ],
+            "friday": [ 7, 17, 27, 25 ],
+            "saturday": [ 6, 16, 26, 4 ],
+            "sunday": [ 15, 25, 5, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 489,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Gabi-09029-Edit-iframe.jpg',
+          title: 'Gabi',
+          artist: 'Craig Stocks',
+          year: '?',
+          rule: {
+            "monday": [ 15, 25, 5, 3 ],
+            "tuesday": [ 4, 14, 24, 2 ],
+            "wednesday": [ 3, 13, 23, 1 ],
+            "thursday": [ 9, 19, 29, 6 ],
+            "friday": [ 8, 18, 29, 6 ],
+            "saturday": [ 7, 17, 27, 25 ],
+            "sunday": [ 6, 16, 26, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 490,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/HidinginPlainSight-CF000964-Edit-2Stretched-iframe.jpg',
+          title: 'Hiding in Plain Sight',
+          artist: 'Craig Stocks',
+          year: '?',
+          rule: {
+            "monday": [ 7, 17, 27, 5 ],
+            "tuesday": [ 16, 26, 6, 4 ],
+            "wednesday": [ 5, 15, 25, 3 ],
+            "thursday": [ 4, 14, 24, 2 ],
+            "friday": [ 10, 20, 30, 7 ],
+            "saturday": [ 9, 19, 30, 7 ],
+            "sunday": [ 8, 18, 28, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
