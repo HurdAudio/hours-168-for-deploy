@@ -10204,6 +10204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 511,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/5120719994_665e61d6f9_b.jpg',
+          title: 'THE BOSS 4EVER',
+          artist: 'jag9889',
+          year: '2010',
+          rule: {
+            "monday": [ 27, 17, 23, 29 ],
+            "tuesday": [ 12, 15, 23, 29 ],
+            "wednesday": [ 11, 15, 30, 28 ],
+            "thursday": [ 8, 14, 20, 26 ],
+            "friday": [ 9, 14, 20, 26 ],
+            "saturday": [ 8, 13, 19, 25 ],
+            "sunday": [ 13, 19, 24, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 512,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/yogiandelston.jpg',
+          title: 'Yogi Berra & Elston Howard',
+          artist: 'Lexi Bella',
+          year: '2014',
+          rule: {
+            "monday": [ 13, 19, 24, 31 ],
+            "tuesday": [ 27, 17, 23, 29 ],
+            "wednesday": [ 12, 15, 23, 29 ],
+            "thursday": [ 11, 15, 30, 28 ],
+            "friday": [ 8, 14, 20, 26 ],
+            "saturday": [ 9, 14, 20, 26 ],
+            "sunday": [ 8, 13, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 513,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/clemente.jpg',
+          title: 'Roberto Clemente',
+          artist: 'Lexi Bella',
+          year: '2014',
+          rule: {
+            "monday": [ 8, 13, 19, 25 ],
+            "tuesday": [ 13, 19, 24, 31 ],
+            "wednesday": [ 27, 17, 23, 29 ],
+            "thursday": [ 12, 15, 23, 29 ],
+            "friday": [ 11, 15, 30, 28 ],
+            "saturday": [ 8, 14, 20, 26 ],
+            "sunday": [ 9, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 514,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/jeter.jpg',
+          title: 'Derek Jeter',
+          artist: 'Lexi Bella',
+          year: '2014',
+          rule: {
+            "monday": [ 9, 14, 20, 26 ],
+            "tuesday": [ 8, 13, 19, 25 ],
+            "wednesday": [ 13, 19, 24, 31 ],
+            "thursday": [ 27, 17, 23, 29 ],
+            "friday": [ 12, 15, 23, 29 ],
+            "saturday": [ 11, 15, 30, 28 ],
+            "sunday": [ 8, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 515,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/gehrig.jpg',
+          title: 'Lou Gehrig',
+          artist: 'Lexi Bella',
+          year: '2014',
+          rule: {
+            "monday": [ 8, 14, 20, 26 ],
+            "tuesday": [ 9, 14, 20, 26 ],
+            "wednesday": [ 8, 13, 19, 25 ],
+            "thursday": [ 13, 19, 24, 31 ],
+            "friday": [ 27, 17, 23, 29 ],
+            "saturday": [ 12, 15, 23, 29 ],
+            "sunday": [ 11, 15, 30, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -3244,6 +3244,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 271,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/Teejay-Hughes-1.jpg',
+          title: 'Hồ Thuỷ Tiên – Hué, Vietnam',
+          artist: 'TJ Hughes',
+          year: '2018',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 272,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/teufelsberg-collage.jpg',
+          title: 'Teufelsberg – Berlin, Germany',
+          artist: 'Emma V. Martell',
+          year: '2018',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 273,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/abandoned-latinoamericaneando.jpg',
+          title: 'Train graveyard – Uyuni, Bolivia',
+          artist: 'atinoamericaneando',
+          year: '2018',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 274,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/Japan-2013-1488_web-lrg.jpg',
+          title: 'Dreamland – Nara, Japan',
+          artist: 'Time Travel Turtle',
+          year: '2018',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 275,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/20491921736_f03664b894_b.jpg',
+          title: 'Abandoned plane wreckage – Sólheimasandur Beach, Iceland',
+          artist: 'Chris Johnston',
+          year: '2018',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

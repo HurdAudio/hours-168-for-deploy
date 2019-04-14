@@ -4702,6 +4702,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 262,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=853250342/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://toumastine.bandcamp.com/album/tahnafet',
+          a_string: 'Tahnafet by Toumastine',
+          rule: {
+            "monday": [ 8, 19, 30, 4 ],
+            "tuesday": [ 7, 18, 29, 3 ],
+            "wednesday": [ 6, 17, 28, 30 ],
+            "thursday": [ 5, 16, 27, 9 ],
+            "saturday": [ 9, 20, 1, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 263,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3621870491/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://farflownfalcon.bandcamp.com/album/concrete-valleys-manmade-canyons-ep',
+          a_string: 'Concrete Valleys &amp; Manmade Canyons EP by Far Flown Falcon',
+          rule: {
+            "monday": [ 9, 20, 1, 5 ],
+            "tuesday": [ 8, 19, 30, 4 ],
+            "wednesday": [ 7, 18, 29, 3 ],
+            "thursday": [ 6, 17, 28, 30 ],
+            "saturday": [ 5, 16, 27, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 264,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2180589566/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://farflownfalcon.bandcamp.com/album/the-apocalypse-lullaby-ep',
+          a_string: 'The Apocalypse Lullaby EP by Far Flown Falcon',
+          rule: {
+            "monday": [ 5, 16, 27, 9 ],
+            "tuesday": [ 9, 20, 1, 5 ],
+            "wednesday": [ 8, 19, 30, 4 ],
+            "thursday": [ 7, 18, 29, 3 ],
+            "saturday": [ 6, 17, 28, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

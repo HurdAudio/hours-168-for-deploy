@@ -4594,6 +4594,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 256,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3452636888/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/portland-street-south-canada-garage-rock-beat-organ-gaiety-recs-60s',
+          a_string: 'Portland Street South (Canada Garage Rock Beat Organ Gaiety Recs) 60&#39;s by Portland Street South',
+          rule: {
+            "monday": [ 11, 17, 23, 29 ],
+            "tuesday": [ 8, 16, 22, 28 ],
+            "wednesday": [ 7, 15, 21, 27 ],
+            "thursday": [ 8, 14, 20, 26 ],
+            "saturday": [ 12, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 257,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4107580408/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/laurence-vanay-alone-in-the-rain-get-away-bonus-1975-female-french-folk-jazz-rock-experimental-2',
+          a_string: 'Laurence Vanay - Alone in the rain (Get away bonus) (1975 Female French Folk Jazz Rock Experimental) by Laurence Vanay',
+          rule: {
+            "monday": [ 12, 18, 24, 30 ],
+            "tuesday": [ 11, 17, 23, 29 ],
+            "wednesday": [ 8, 16, 22, 28 ],
+            "thursday": [ 7, 15, 21, 27 ],
+            "saturday": [ 8, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 258,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=994082460/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/laurence-vanay-des-eclats-de-lune-galaxies-bonus-1975-female-french-folk-jazz-rock-experimental',
+          a_string: 'Laurence Vanay - Des eclats de lune (Galaxies bonus) (1975 Female French Folk Jazz Rock Experimental) by Laurence Vanay',
+          rule: {
+            "monday": [ 8, 14, 20, 26 ],
+            "tuesday": [ 12, 18, 24, 30 ],
+            "wednesday": [ 11, 17, 23, 29 ],
+            "thursday": [ 8, 16, 22, 28 ],
+            "saturday": [ 7, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

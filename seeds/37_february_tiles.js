@@ -1166,6 +1166,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#EFDCB2',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 84,
+          user_id: 1,
+          theme: 'Silk/Velvet',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/Ministry-Cut-Velvet-Home-Decor-Upholstery-Drapery-Fabric-by-the-Yard-Satsuma.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '110%',
+          color_dark: '#2B3C39',
+          color_medium: '#B64315',
+          color_light: '#F19140',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

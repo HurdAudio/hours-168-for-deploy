@@ -5674,6 +5674,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 316,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3162042825/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tahirahmemory.bandcamp.com/album/asha',
+          a_string: 'Asha by Tahirah Memory',
+          rule: {
+            "monday": [ 18, 22, 24, 28 ],
+            "tuesday": [ 21, 24, 26, 28 ],
+            "wednesday": [ 3, 26, 28, 1 ],
+            "thursday": [ 5, 28, 1, 7 ],
+            "saturday": [ 6, 29, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 317,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4177394534/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://agnarkea.bandcamp.com/album/radical-info-vol6',
+          a_string: 'radical/info.vol6 by AGNARKEA',
+          rule: {
+            "monday": [ 6, 29, 2, 8 ],
+            "tuesday": [ 18, 22, 24, 28 ],
+            "wednesday": [ 21, 24, 26, 28 ],
+            "thursday": [ 3, 26, 28, 1 ],
+            "saturday": [ 5, 28, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 318,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1591110614/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://calsutmoran.bandcamp.com/album/telepathic-helix',
+          a_string: 'TELEPATHIC HELIX by CALSUTMORAN',
+          rule: {
+            "monday": [ 5, 28, 1, 7 ],
+            "tuesday": [ 6, 29, 2, 8 ],
+            "wednesday": [ 18, 22, 24, 28 ],
+            "thursday": [ 21, 24, 26, 28 ],
+            "saturday": [ 3, 26, 28, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

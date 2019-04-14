@@ -9604,6 +9604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 481,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/venus-and-cupid.jpg',
+          title: 'Venus and Cupid',
+          artist: 'Jean-Honore Fragonard',
+          year: 'c. 1760',
+          rule: {
+            "monday": [ 5, 16, 26, 28 ],
+            "tuesday": [ 4, 15, 26, 27 ],
+            "wednesday": [ 3, 14, 25, 5 ],
+            "thursday": [ 9, 20, 31, 10 ],
+            "friday": [ 8, 17, 30, 10 ],
+            "saturday": [ 6, 17, 29, 9 ],
+            "sunday": [ 6, 17, 28, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 482,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/portrait-of-marie-fel-1757.jpg',
+          title: 'Portrait of Marie Fel',
+          artist: 'Maurice Quentin de La Tour',
+          year: '1757',
+          rule: {
+            "monday": [ 6, 17, 28, 29 ],
+            "tuesday": [ 5, 16, 26, 28 ],
+            "wednesday": [ 4, 15, 26, 27 ],
+            "thursday": [ 3, 14, 25, 5 ],
+            "friday": [ 9, 20, 31, 10 ],
+            "saturday": [ 8, 17, 30, 10 ],
+            "sunday": [ 6, 17, 29, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 483,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/portrait-of-a-child.jpg',
+          title: 'Portrait of a child',
+          artist: 'Jean-Baptiste-Simeon Chardin',
+          year: '1777',
+          rule: {
+            "monday": [ 7, 18, 30, 10 ],
+            "tuesday": [ 7, 18, 29, 30 ],
+            "wednesday": [ 6, 17, 27, 29 ],
+            "thursday": [ 5, 16, 27, 28 ],
+            "friday": [ 4, 15, 26, 6 ],
+            "saturday": [ 10, 21, 1, 11 ],
+            "sunday": [ 9, 18, 31, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 484,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-blunder-1718.jpg',
+          title: 'The Blunder',
+          artist: 'Antoine Watteau',
+          year: '1716 - 1718',
+          rule: {
+            "monday": [ 9, 18, 31, 11 ],
+            "tuesday": [ 7, 18, 30, 10 ],
+            "wednesday": [ 7, 18, 29, 30 ],
+            "thursday": [ 6, 17, 27, 29 ],
+            "friday": [ 5, 16, 27, 28 ],
+            "saturday": [ 4, 15, 26, 6 ],
+            "sunday": [ 10, 21, 1, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 485,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/charles-le-brun-crucifix-aux-anges.jpg',
+          title: 'Le Crucifix Aux Anges',
+          artist: 'Charles Le Brun',
+          year: '1661',
+          rule: {
+            "monday": [ 10, 21, 1, 11 ],
+            "tuesday": [ 9, 18, 31, 11 ],
+            "wednesday": [ 7, 18, 30, 10 ],
+            "thursday": [ 7, 18, 29, 30 ],
+            "friday": [ 6, 17, 27, 29 ],
+            "saturday": [ 5, 16, 27, 28 ],
+            "sunday": [ 4, 15, 26, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

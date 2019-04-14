@@ -5350,6 +5350,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 298,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=596816886/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://room40.bandcamp.com/album/the-last-days-of-reality',
+          a_string: 'The Last Days Of Reality by Lionel Marchetti + Cat Hope (Performed by Decibel)',
+          rule: {
+            "monday": [ 11, 17, 24, 6 ],
+            "tuesday": [ 10, 16, 23, 5 ],
+            "wednesday": [ 14, 20, 27, 9 ],
+            "thursday": [ 13, 19, 26, 8 ],
+            "saturday": [ 12, 18, 25, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 299,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2416862334/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://populistrecords.bandcamp.com/album/andrew-mcintosh-we-see-the-flying-bird-five-songs',
+          a_string: 'Andrew McIntosh // We See the Flying Bird/Five Songs by Yarn/Wire and Estelí Gomez',
+          rule: {
+            "monday": [ 12, 18, 25, 7 ],
+            "tuesday": [ 11, 17, 24, 6 ],
+            "wednesday": [ 10, 16, 23, 5 ],
+            "thursday": [ 14, 20, 27, 9 ],
+            "saturday": [ 13, 19, 26, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 300,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3589874938/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://newfocusrecordings.bandcamp.com/album/reiko-f-ting-distant-song',
+          a_string: 'Reiko Füting: distant song by Reiko Füting',
+          rule: {
+            "monday": [ 13, 19, 26, 8 ],
+            "tuesday": [ 12, 18, 25, 7 ],
+            "wednesday": [ 11, 17, 24, 6 ],
+            "thursday": [ 10, 16, 23, 5 ],
+            "saturday": [ 14, 20, 27, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -1026,6 +1026,19 @@ exports.seed = function(knex, Promise) {
           color_light: '#F4F4F4',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 74,
+          user_id: 1,
+          theme: 'Snow',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/william-bogner-224223-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '150%',
+          color_dark: '#030708',
+          color_medium: '#1C568F',
+          color_light: '#D5D5D7',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

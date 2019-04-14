@@ -10791,6 +10791,39 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 694,
+          user_id: 1,
+          name: 'Theresa Wong (cellist/composer) born in 1976.',
+          color: '#8F5065',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/TheresaWong_04_byHeikeLiss-eb5b16db.jpeg',
+          day_of: new Date ('1976-03-30T13:44:00.000Z'),
+          is_annual: true,
+          art_override: true,
+          music_override: false,
+          override_content: {
+            "sources": [ 'bandcamp', 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=3037047171/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=906763159/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://theresawong.bandcamp.com/album/venice-is-a-fish', 'http://objet-a.bandcamp.com/album/cello-meetings-vol-2-night-mapping' ],
+            "a_strings": [ 'Venice Is A Fish by Theresa Wong', 'Cello Meetings vol.2 : Night Mapping by Theresa Wong &amp; Gianni Gebbia' ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 695,
+          user_id: 1,
+          name: 'Stephen Pearl Andrews (individualist anarchist/linguist/political philosopher/abolitionist/author) born in 1812.',
+          color: '#C7C7C7',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/StephenPearlAndrews.jpg',
+          day_of: new Date ('1812-03-22T13:44:00.000Z'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

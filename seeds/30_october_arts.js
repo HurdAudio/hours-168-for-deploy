@@ -9004,6 +9004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 451,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_let_be_me.jpg',
+          title: 'May There Always Be Sunshine.',
+          artist: 'N. Charuhin',
+          year: '1961',
+          rule: {
+            "monday": [ 12, 13, 24, 28 ],
+            "tuesday": [ 8, 19, 30, 3 ],
+            "wednesday": [ 7, 18, 29, 2 ],
+            "thursday": [ 6, 17, 28, 1 ],
+            "friday": [ 5, 16, 27, 31 ],
+            "saturday": [ 4, 15, 26, 30 ],
+            "sunday": [ 3, 14, 24, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 452,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_not_a_drop.jpg',
+          title: 'Not a drop!',
+          artist: 'B. Reshetnikov',
+          year: '1961',
+          rule: {
+            "monday": [ 3, 14, 24, 29 ],
+            "tuesday": [ 12, 13, 24, 28 ],
+            "wednesday": [ 8, 19, 30, 3 ],
+            "thursday": [ 7, 18, 29, 2 ],
+            "friday": [ 6, 17, 28, 1 ],
+            "saturday": [ 5, 16, 27, 31 ],
+            "sunday": [ 4, 15, 26, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 453,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_parenthoodsovpost_00041.jpg',
+          title: 'Do not lie ever!',
+          artist: 'Galina Shubina',
+          year: '1965',
+          rule: {
+            "monday": [ 4, 15, 26, 30 ],
+            "tuesday": [ 3, 14, 24, 29 ],
+            "wednesday": [ 12, 13, 24, 28 ],
+            "thursday": [ 8, 19, 30, 3 ],
+            "friday": [ 7, 18, 29, 2 ],
+            "saturday": [ 6, 17, 28, 1 ],
+            "sunday": [ 5, 16, 27, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 454,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_parenthoodsovpost_00040.jpg',
+          title: 'Helping our mother',
+          artist: 'N. Vigilyanskya,F.Kachelaev',
+          year: '1960',
+          rule: {
+            "monday": [ 5, 16, 27, 31 ],
+            "tuesday": [ 4, 15, 26, 30 ],
+            "wednesday": [ 3, 14, 24, 29 ],
+            "thursday": [ 12, 13, 24, 28 ],
+            "friday": [ 8, 19, 30, 3 ],
+            "saturday": [ 7, 18, 29, 2 ],
+            "sunday": [ 6, 17, 28, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 455,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_sun_air_water.jpg',
+          title: 'Sun, air and water, multiply strength for labor!',
+          artist: 'B.Kalensky',
+          year: '1962',
+          rule: {
+            "monday": [ 7, 18, 29, 2 ],
+            "tuesday": [ 6, 17, 28, 1 ],
+            "wednesday": [ 5, 16, 27, 31 ],
+            "thursday": [ 4, 15, 25, 30 ],
+            "friday": [ 13, 14, 25, 29 ],
+            "saturday": [ 9, 20, 31, 4 ],
+            "sunday": [ 8, 19, 30, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

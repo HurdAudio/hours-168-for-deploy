@@ -5134,6 +5134,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 286,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2804755282/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://melby.bandcamp.com/album/none-of-this-makes-me-worry-lp',
+          a_string: 'None of this makes me worry [LP] by Melby',
+          rule: {
+            "monday": [ 9, 11, 15, 23 ],
+            "tuesday": [ 8, 9, 14, 22 ],
+            "wednesday": [ 7, 9, 13, 21 ],
+            "thursday": [ 11, 13, 17, 25 ],
+            "saturday": [ 10, 12, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 287,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1053076085/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://oginalii.bandcamp.com/album/cause-affection',
+          a_string: 'Cause &amp; Affection by Oginalii',
+          rule: {
+            "monday": [ 11, 13, 17, 25 ],
+            "tuesday": [ 10, 12, 16, 24 ],
+            "wednesday": [ 9, 10, 15, 23 ],
+            "thursday": [ 8, 10, 14, 22 ],
+            "saturday": [ 12, 14, 18, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 288,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3829280138/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://pixelgrip.bandcamp.com/album/heavy-handed-2',
+          a_string: 'Heavy Handed by Pixel Grip',
+          rule: {
+            "monday": [ 12, 14, 18, 26 ],
+            "tuesday": [ 11, 13, 17, 25 ],
+            "wednesday": [ 10, 12, 16, 24 ],
+            "thursday": [ 9, 10, 15, 23 ],
+            "saturday": [ 8, 10, 14, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

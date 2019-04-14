@@ -1054,6 +1054,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FCE8B2',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 76,
+          user_id: 1,
+          theme: 'Autumnal',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/caleb-s-735330-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '170%',
+          color_dark: '#390101',
+          color_medium: '#9F4400',
+          color_light: '#E3AE00',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

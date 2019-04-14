@@ -8804,6 +8804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 441,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/horsph-re.jpg',
+          title: 'Horsphère',
+          artist: 'Jean Degottex',
+          year: 'xx century',
+          rule: {
+            "monday": [ 9, 13, 20, 24 ],
+            "tuesday": [ 8, 11, 18, 23 ],
+            "wednesday": [ 7, 11, 18, 23 ],
+            "thursday": [ 6, 11, 17, 22 ],
+            "friday": [ 5, 10, 16, 23 ],
+            "saturday": [ 11, 16, 22, 27 ],
+            "sunday": [ 10, 12, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 442,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/unknown-title_11.jpg',
+          title: 'unknown title',
+          artist: 'Jean Degottex',
+          year: 'xx century',
+          rule: {
+            "monday": [ 10, 12, 20, 26 ],
+            "tuesday": [ 9, 13, 20, 24 ],
+            "wednesday": [ 8, 11, 18, 23 ],
+            "thursday": [ 7, 11, 18, 23 ],
+            "friday": [ 6, 11, 17, 22 ],
+            "saturday": [ 5, 10, 16, 23 ],
+            "sunday": [ 11, 16, 22, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 443,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/unknown-title-6.jpg',
+          title: 'unknown title',
+          artist: 'Jean Degottex',
+          year: 'xx century',
+          rule: {
+            "monday": [ 11, 16, 22, 27 ],
+            "tuesday": [ 10, 12, 20, 26 ],
+            "wednesday": [ 9, 13, 20, 24 ],
+            "thursday": [ 8, 11, 18, 23 ],
+            "friday": [ 7, 11, 18, 23 ],
+            "saturday": [ 6, 11, 17, 22 ],
+            "sunday": [ 5, 10, 16, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 444,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/nine-sided-figure-1989.jpg',
+          title: 'Nine-Sided Figure',
+          artist: 'Sol LeWitt',
+          year: '1989',
+          rule: {
+            "monday": [ 5, 10, 16, 23 ],
+            "tuesday": [ 11, 16, 22, 27 ],
+            "wednesday": [ 10, 12, 20, 26 ],
+            "thursday": [ 9, 13, 20, 24 ],
+            "friday": [ 8, 11, 18, 23 ],
+            "saturday": [ 7, 11, 18, 23 ],
+            "sunday": [ 6, 11, 17, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 445,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/photo-souvenir-three-light-boxes-for-one-wall-1989.jpg',
+          title: 'Photo-souvenir: Three light boxes for one wall',
+          artist: 'Daniel Buren',
+          year: '1989',
+          rule: {
+            "monday": [ 6, 11, 17, 22 ],
+            "tuesday": [ 5, 10, 16, 23 ],
+            "wednesday": [ 11, 16, 22, 27 ],
+            "thursday": [ 10, 12, 20, 26 ],
+            "friday": [ 9, 13, 20, 24 ],
+            "saturday": [ 8, 11, 18, 23 ],
+            "sunday": [ 7, 11, 18, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

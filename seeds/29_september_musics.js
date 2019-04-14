@@ -4918,6 +4918,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 274,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3121182040/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://lostworldband.bandcamp.com/album/spheres-aligned',
+          a_string: 'Spheres Aligned by Lost World Band',
+          rule: {
+            "monday": [ 12, 1, 9, 3 ],
+            "tuesday": [ 10, 30, 8, 2 ],
+            "wednesday": [ 14, 4, 12, 6 ],
+            "thursday": [ 13, 3, 11, 5 ],
+            "saturday": [ 12, 2, 10, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 275,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3401989687/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://semistereo.bandcamp.com/album/zabriskii',
+          a_string: 'Zabriskii by Semistereo',
+          rule: {
+            "monday": [ 12, 2, 10, 3 ],
+            "tuesday": [ 12, 1, 9, 3 ],
+            "wednesday": [ 10, 30, 8, 2 ],
+            "thursday": [ 14, 4, 12, 6 ],
+            "saturday": [ 13, 3, 11, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 276,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3605544808/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cosmograf.bandcamp.com/album/mind-over-depth',
+          a_string: 'Mind Over Depth by Cosmograf',
+          rule: {
+            "monday": [ 13, 3, 11, 5 ],
+            "tuesday": [ 12, 2, 10, 3 ],
+            "wednesday": [ 12, 1, 9, 3 ],
+            "thursday": [ 10, 30, 8, 2 ],
+            "saturday": [ 14, 4, 12, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -8604,6 +8604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 431,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/32-09,BB.jpg',
+          title: 'Blue Book',
+          artist: 'Joseph Chenoweth',
+          year: '1932',
+          rule: {
+            "monday": [ 29, 10, 9, 25 ],
+            "tuesday": [ 28, 10, 29, 5 ],
+            "wednesday": [ 3, 16, 24, 30 ],
+            "thursday": [ 2, 14, 23, 29 ],
+            "friday": [ 1, 14, 22, 28 ],
+            "saturday": [ 31, 13, 21, 27 ],
+            "sunday": [ 30, 12, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 432,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/41-05,HdqrtsDet.jpg',
+          title: 'Headquarters',
+          artist: 'Sam Cherry',
+          year: '1941',
+          rule: {
+            "monday": [ 30, 12, 20, 26 ],
+            "tuesday": [ 29, 10, 9, 25 ],
+            "wednesday": [ 28, 10, 29, 5 ],
+            "thursday": [ 3, 16, 24, 30 ],
+            "friday": [ 2, 14, 23, 29 ],
+            "saturday": [ 1, 14, 22, 28 ],
+            "sunday": [ 31, 13, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 433,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/42-07,44W.jpg',
+          title: '.44 Western',
+          artist: 'Ernest Chiriacka',
+          year: '1942',
+          rule: {
+            "monday": [ 31, 13, 21, 27 ],
+            "tuesday": [ 30, 12, 20, 26 ],
+            "wednesday": [ 29, 10, 9, 25 ],
+            "thursday": [ 28, 10, 29, 5 ],
+            "friday": [ 3, 16, 24, 30 ],
+            "saturday": [ 2, 14, 23, 29 ],
+            "sunday": [ 1, 14, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 434,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-06,RnglndRom.jpg',
+          title: 'Rangeland Romances',
+          artist: 'Emery Clarke',
+          year: '1935',
+          rule: {
+            "monday": [ 2, 15, 23, 29 ],
+            "tuesday": [ 1, 14, 22, 28 ],
+            "wednesday": [ 31, 13, 21, 27 ],
+            "thursday": [ 30, 11, 10, 26 ],
+            "friday": [ 29, 11, 30, 6 ],
+            "saturday": [ 4, 17, 25, 31 ],
+            "sunday": [ 3, 15, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 435,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/19-11,Ziegfeld.jpg',
+          title: 'Ziegfeld Follies',
+          artist: 'Henry Clive',
+          year: '1919',
+          rule: {
+            "monday": [ 3, 15, 24, 30 ],
+            "tuesday": [ 2, 15, 23, 29 ],
+            "wednesday": [ 1, 14, 22, 28 ],
+            "thursday": [ 31, 13, 21, 27 ],
+            "friday": [ 30, 11, 10, 26 ],
+            "saturday": [ 29, 11, 30, 6 ],
+            "sunday": [ 4, 17, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

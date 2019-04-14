@@ -17857,6 +17857,99 @@
         });
       }
 
+      function obtainTileData(tileShare, index) {
+        $http.get(`/${tileShare.tiles_month}/${tileShare.tiles_id}`)
+        .then(tileData => {
+          let tile = tileData.data;
+          vm.activeTileShares[index].img_path = tile.src_string;
+          vm.activeTileShares[index].repeatValue = tile.repeat_value;
+          vm.activeTileShares[index].size = tile.size_value;
+          vm.activeTileShares[index].colorDark = tile.color_dark;
+          vm.activeTileShares[index].colorMedium = tile.color_medium;
+          vm.activeTileShares[index].colorLight = tile.color_light;
+        });
+      }
+
+      function handleHoverTile(element, share) {
+
+        element.addEventListener('mouseover', () => {
+          element.setAttribute("style", "color: " + share.colorLight + ";");
+        });
+
+        element.addEventListener('mouseout', () => {
+          element.setAttribute("style", "color: " + share.colorDark + ";");
+        });
+      }
+
+      function obtainTileUsersData(tileShare, index) {
+        $http.get(`/users/${tileShare.user_id}`)
+        .then(inviterData => {
+          let inviter = inviterData.data;
+          vm.activeTileShares[index].inviter = inviter.name;
+          $http.get(`/users/${tileShare.share_associate_id}`)
+          .then(inviteeData => {
+            let invitee = inviteeData.data;
+            vm.activeTileShares[index].invitee = invitee.name;
+            if (parseInt(invitee.id) === parseInt(currentUserId)) {
+              vm.activeTileShares[index].inv_img = inviter.user_avatar_url;
+            } else {
+              vm.activeTileShares[index].inv_img = invitee.user_avatar_url;
+            }
+          });
+        });
+      }
+
+      function retrieveUserTileShares() {
+        let datea;
+        let dateb;
+        let currateDate = Math.floor(Math.random() * 30) + 1;
+
+        $http.get('/tile_shares')
+        .then(allTileSharesData => {
+          let allTileShares = allTileSharesData.data;
+          let userTileShares = allTileShares.filter(entry => {
+            return((parseInt(entry.user_id) === parseInt(currentUserId)) || (parseInt(entry.share_associate_id) === parseInt(currentUserId)));
+          });
+          userTileShares = userTileShares.sort((a, b) => {
+            datea = new Date(a.created_at);
+            dateb = new Date(b.created_at);
+            return ((datea.getTime() - dateb.getTime()));
+          });
+          if (userTileShares.length > 0) {
+            vm.activeTileShares = [];
+            for (let i = 0; i < userTileShares.length; i++) {
+              vm.activeTileShares[i] = {
+                id: userTileShares[i].id,
+                cleanDate: cleanDateHoliday(userTileShares[i].created_at) + ' - ' + timeDate(userTileShares[i].created_at),
+                currateDate: currateDate,
+                user_id: userTileShares[i].user_id,
+                share_associate_id: userTileShares[i].share_associate_id
+              };
+              console.log(vm.activeTileShares[i]);
+              console.log(userTileShares[i]);
+              obtainTileData(userTileShares[i], i);
+              obtainTileUsersData(userTileShares[i], i);
+            }
+            setTimeout(() => {
+              for (let j = 0; j < vm.activeTileShares.length; j++) {
+                document.getElementById('theSharedTile' + vm.activeTileShares[j].id).setAttribute("style", "background-image: url(" + vm.activeTileShares[j].img_path + "); background-repeat: " + vm.activeTileShares[j].repeatValue + "; background-size: " + vm.activeTileShares[j].size + "; border: 5px solid " + vm.activeTileShares[j].colorMedium + ";");
+                document.getElementById('tilesCurratorDate' + vm.activeTileShares[j].id).setAttribute("style", "color: " + vm.activeTileShares[j].colorDark + ";");
+                handleHoverTile(document.getElementById('tilesCurratorDate' + vm.activeTileShares[j].id), vm.activeTileShares[j]);
+                if (parseInt(vm.activeTileShares[j].share_associate_id) === parseInt(currentUserId)) {
+                  document.getElementById('tileInviter' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
+                  document.getElementById('tileInvitee' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                  document.getElementById('tileAcceptDecline' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
+                } else {
+                  document.getElementById('tileInviter' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                  document.getElementById('tileInvitee' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
+                  document.getElementById('tileAcceptDecline' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                }
+              }
+            }, 150);
+          }
+        });
+      }
+
 
 
 
@@ -17913,6 +18006,7 @@
             retrieveUserObservanceShares();
             retrieveUserArtShares();
             retrieveUserMusicShares();
+            retrieveUserTileShares();
           });
         }
 

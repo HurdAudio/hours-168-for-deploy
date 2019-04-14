@@ -10604,6 +10604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/  2015_Kehinde_Wiley_EL137.39_2797W_600_748.jpg',
+          title: 'Shantavia Beale II',
+          artist: 'Kehinde Wiley',
+          year: '2012',
+          rule: {
+            "monday": [ 24, 3, 11, 19 ],
+            "tuesday": [ 26, 7, 13, 19 ],
+            "wednesday": [ 28, 7, 15, 25 ],
+            "thursday": [ 28, 9, 5, 24 ],
+            "friday": [ 18, 26, 5, 13 ],
+            "saturday": [ 19, 28, 7, 15 ],
+            "sunday": [ 25, 1, 7, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Untitled-26.jpg',
+          title: 'Melancholy',
+          artist: 'Gerald Williams',
+          year: '2007',
+          rule: {
+            "monday": [ 26, 2, 8, 18 ],
+            "tuesday": [ 25, 4, 12, 20 ],
+            "wednesday": [ 27, 8, 14, 20 ],
+            "thursday": [ 29, 8, 16, 26 ],
+            "friday": [ 29, 10, 6, 25 ],
+            "saturday": [ 19, 27, 6, 14 ],
+            "sunday": [ 20, 29, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/wtwilliams.jpeg',
+          title: 'Up Balls',
+          artist: 'William T. Williams',
+          year: '1971',
+          rule: {
+            "monday": [ 20, 29, 8, 16 ],
+            "tuesday": [ 26, 2, 8, 18 ],
+            "wednesday": [ 25, 4, 12, 20 ],
+            "thursday": [ 27, 8, 14, 20 ],
+            "friday": [ 29, 8, 16, 26 ],
+            "saturday": [ 29, 10, 6, 25 ],
+            "sunday": [ 19, 27, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/71_Pickin.jpeg',
+          title: 'Picken',
+          artist: 'Deborah Willis',
+          year: '?',
+          rule: {
+            "monday": [ 19, 27, 6, 14 ],
+            "tuesday": [ 20, 29, 8, 16 ],
+            "wednesday": [ 26, 2, 8, 18 ],
+            "thursday": [ 25, 4, 12, 20 ],
+            "friday": [ 27, 8, 14, 20 ],
+            "saturday": [ 29, 8, 16, 26 ],
+            "sunday": [ 29, 10, 6, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Wilson_Chinese_Kites2.jpg',
+          title: 'Chinese Kites',
+          artist: 'Ellis Wilson',
+          year: '?',
+          rule: {
+            "monday": [ 29, 10, 6, 25 ],
+            "tuesday": [ 19, 27, 6, 14 ],
+            "wednesday": [ 20, 29, 8, 16 ],
+            "thursday": [ 26, 2, 8, 18 ],
+            "friday": [ 25, 4, 12, 20 ],
+            "saturday": [ 27, 8, 14, 20 ],
+            "sunday": [ 29, 8, 16, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

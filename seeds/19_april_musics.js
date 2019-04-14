@@ -5458,6 +5458,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 304,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=878166215/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sluchaj.bandcamp.com/album/nirguna',
+          a_string: 'Nirguna by François Carrier / Alexander Hawkins / John Edwards / Michel Lambert',
+          rule: {
+            "monday": [ 14, 22, 3, 9 ],
+            "tuesday": [ 13, 21, 3, 8 ],
+            "wednesday": [ 17, 25, 7, 12 ],
+            "thursday": [ 16, 24, 6, 11 ],
+            "saturday": [ 15, 23, 5, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 305,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2821406217/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sluchaj.bandcamp.com/album/cowboy-transfiguration',
+          a_string: 'Cowboy Transfiguration by Brad Barrett / Joe Morris / Tyshawn Sorey',
+          rule: {
+            "monday": [ 15, 23, 5, 10 ],
+            "tuesday": [ 14, 22, 3, 9 ],
+            "wednesday": [ 13, 21, 3, 8 ],
+            "thursday": [ 17, 25, 7, 12 ],
+            "saturday": [ 16, 24, 6, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 306,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2462428959/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sluchaj.bandcamp.com/album/sumpflegende',
+          a_string: 'Sumpflegende by Phicus + Martin Küchen',
+          rule: {
+            "monday": [ 16, 24, 6, 11 ],
+            "tuesday": [ 15, 23, 5, 10 ],
+            "wednesday": [ 14, 22, 3, 9 ],
+            "thursday": [ 13, 21, 3, 8 ],
+            "saturday": [ 17, 25, 7, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

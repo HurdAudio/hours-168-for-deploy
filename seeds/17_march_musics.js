@@ -5566,6 +5566,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 310,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=228884389/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://femina.bandcamp.com/album/perlas-conchas',
+          a_string: 'Perlas &amp; Conchas by Fémina',
+          rule: {
+            "monday": [ 17, 23, 29, 7 ],
+            "tuesday": [ 15, 22, 28, 5 ],
+            "wednesday": [ 15, 21, 27, 4 ],
+            "thursday": [ 19, 25, 31, 8 ],
+            "saturday": [ 18, 24, 30, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 311,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3472279396/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://evangreer.bandcamp.com/album/she-her-they-them',
+          a_string: 'she/her/they/them by Evan Greer',
+          rule: {
+            "monday": [ 18, 24, 30, 7 ],
+            "tuesday": [ 17, 23, 29, 7 ],
+            "wednesday": [ 15, 22, 28, 5 ],
+            "thursday": [ 15, 21, 27, 4 ],
+            "saturday": [ 19, 25, 31, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 312,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3849423724/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://liisisalumaa.bandcamp.com/album/edi',
+          a_string: 'Edi by Liisi Salumaa',
+          rule: {
+            "monday": [ 19, 25, 31, 8 ],
+            "tuesday": [ 18, 24, 30, 7 ],
+            "wednesday": [ 17, 23, 29, 7 ],
+            "thursday": [ 15, 22, 28, 5 ],
+            "saturday": [ 15, 21, 27, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

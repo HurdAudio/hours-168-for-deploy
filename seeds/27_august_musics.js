@@ -5026,6 +5026,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 280,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2532994431/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://nobusinessrecords.bandcamp.com/album/baza',
+          a_string: 'Baza by Martin Kuchen / Rafal Mazur',
+          rule: {
+            "monday": [ 19, 27, 9, 8 ],
+            "tuesday": [ 18, 26, 8, 7 ],
+            "wednesday": [ 17, 25, 7, 6 ],
+            "thursday": [ 21, 29, 11, 10 ],
+            "saturday": [ 20, 28, 10, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 281,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=571507663/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ocadium.bandcamp.com/album/belief-systems',
+          a_string: 'Belief Systems by Ocadium',
+          rule: {
+            "monday": [ 20, 28, 10, 9 ],
+            "tuesday": [ 19, 27, 9, 8 ],
+            "wednesday": [ 18, 26, 8, 7 ],
+            "thursday": [ 17, 25, 7, 6 ],
+            "saturday": [ 21, 29, 11, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 282,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3973114847/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://nihilistrecordings.bandcamp.com/album/kommissar-hjuler-und-frau-panicsville-split-lp-nihil-85',
+          a_string: 'KOMMISSAR HJULER UND FRAU / PANICSVILLE &quot;Split LP&quot; (Nihil 85) by NIHILIST',
+          rule: {
+            "monday": [ 21, 29, 11, 10 ],
+            "tuesday": [ 20, 28, 10, 9 ],
+            "wednesday": [ 19, 27, 9, 8 ],
+            "thursday": [ 18, 26, 8, 7 ],
+            "saturday": [ 17, 25, 7, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

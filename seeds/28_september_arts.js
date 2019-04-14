@@ -9204,6 +9204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 461,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/perspetivas-a-reas-1970.jpg',
+          title: 'Perspetivas Aéreas',
+          artist: 'Eduardo Nery',
+          year: '1970',
+          rule: {
+            "monday": [ 4, 10, 28, 6 ],
+            "tuesday": [ 23, 9, 27, 6 ],
+            "wednesday": [ 22, 29, 26, 4 ],
+            "thursday": [ 30, 7, 25, 2 ],
+            "friday": [ 7, 13, 1, 9 ],
+            "saturday": [ 6, 11, 30, 8 ],
+            "sunday": [ 4, 11, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 462,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/standing-woman-1961.jpg',
+          title: 'Standing Woman',
+          artist: 'Nathan Oliveira',
+          year: '1961',
+          rule: {
+            "monday": [ 5, 12, 30, 8 ],
+            "tuesday": [ 5, 11, 29, 7 ],
+            "wednesday": [ 24, 10, 28, 7 ],
+            "thursday": [ 23, 30, 27, 5 ],
+            "friday": [ 1, 8, 26, 3 ],
+            "saturday": [ 8, 14, 2, 10 ],
+            "sunday": [ 7, 12, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 463,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/familie-0-mittag-2001.jpg',
+          title: 'Familie 0-Mittag',
+          artist: 'Matthias Weischer',
+          year: '2001',
+          rule: {
+            "monday": [ 7, 12, 1, 9 ],
+            "tuesday": [ 5, 12, 30, 8 ],
+            "wednesday": [ 5, 11, 29, 7 ],
+            "thursday": [ 24, 10, 28, 7 ],
+            "friday": [ 23, 30, 27, 5 ],
+            "saturday": [ 1, 8, 26, 3 ],
+            "sunday": [ 8, 14, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 464,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/carmen-4-the-space-between-2008.jpg',
+          title: 'Carmen 4 (The Space Between)',
+          artist: 'Jurgen Partenheimer',
+          year: '2008',
+          rule: {
+            "monday": [ 8, 14, 2, 10 ],
+            "tuesday": [ 7, 12, 1, 9 ],
+            "wednesday": [ 5, 12, 30, 8 ],
+            "thursday": [ 5, 11, 29, 7 ],
+            "friday": [ 24, 10, 28, 7 ],
+            "saturday": [ 23, 30, 27, 5 ],
+            "sunday": [ 1, 8, 26, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 465,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/mouvement-1989.jpg',
+          title: 'Mouvement',
+          artist: 'Aurel Cojan',
+          year: '1989',
+          rule: {
+            "monday": [ 1, 8, 26, 3 ],
+            "tuesday": [ 8, 14, 2, 10 ],
+            "wednesday": [ 7, 12, 1, 9 ],
+            "thursday": [ 5, 12, 30, 8 ],
+            "friday": [ 5, 11, 29, 7 ],
+            "saturday": [ 24, 10, 28, 7 ],
+            "sunday": [ 23, 30, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

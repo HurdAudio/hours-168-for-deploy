@@ -10004,6 +10004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 501,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/all-europe-of-hitler-and-ribbentrop-about-ukrainian-bread-and-german-belt-1941.jpg',
+          title: '“All Europe” of Hitler and Ribbentrop/About Ukrainian bread and German belt',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 31, 10, 20, 28 ],
+            "tuesday": [ 29, 7, 19, 28 ],
+            "wednesday": [ 8, 20, 30, 7 ],
+            "thursday": [ 8, 19, 28, 7 ],
+            "friday": [ 6, 16, 24, 26 ],
+            "saturday": [ 3, 14, 24, 13 ],
+            "sunday": [ 2, 13, 23, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 502,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/an-anthropophagus-vegetarian-or-the-two-sides-of-a-medal-1941.jpg',
+          title: 'An anthropophagus-vegetarian or the two sides of a medal',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 2, 13, 23, 1 ],
+            "tuesday": [ 31, 10, 20, 28 ],
+            "wednesday": [ 29, 7, 19, 28 ],
+            "thursday": [ 8, 20, 30, 7 ],
+            "friday": [ 8, 19, 28, 7 ],
+            "saturday": [ 6, 16, 24, 26 ],
+            "sunday": [ 3, 14, 24, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 503,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/arab-tales-of-german-high-command-or-the-thousand-and-one-lies-1941.jpg',
+          title: 'Arab tales of German High Command or One Thousand and One Lies',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 3, 14, 24, 13 ],
+            "tuesday": [ 2, 13, 23, 1 ],
+            "wednesday": [ 31, 10, 20, 28 ],
+            "thursday": [ 29, 7, 19, 28 ],
+            "friday": [ 8, 20, 30, 7 ],
+            "saturday": [ 8, 19, 28, 7 ],
+            "sunday": [ 6, 16, 24, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 504,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/goebbels-goldmine-1941.jpg',
+          title: 'Goebbels\' goldmine',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 7, 17, 25, 27 ],
+            "tuesday": [ 4, 15, 25, 14 ],
+            "wednesday": [ 3, 14, 24, 2 ],
+            "thursday": [ 1, 11, 21, 29 ],
+            "friday": [ 30, 8, 20, 29 ],
+            "saturday": [ 9, 21, 31, 8 ],
+            "sunday": [ 9, 20, 29, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 505,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/greedy-enemies-are-looking-1941.jpg',
+          title: 'Greedy enemies are looking',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 9, 20, 29, 8 ],
+            "tuesday": [ 7, 17, 25, 27 ],
+            "wednesday": [ 4, 15, 25, 14 ],
+            "thursday": [ 3, 14, 24, 2 ],
+            "friday": [ 1, 11, 21, 29 ],
+            "saturday": [ 30, 8, 20, 29 ],
+            "sunday": [ 9, 21, 31, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

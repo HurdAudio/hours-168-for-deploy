@@ -5782,6 +5782,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 322,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1307522039/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/green-just-as-i-could-see',
+          a_string: 'green just as I could see by Andrea Neumann/Bonnie Jones',
+          rule: {
+            "monday": [ 23, 30, 31, 1 ],
+            "tuesday": [ 22, 28, 29, 30 ],
+            "wednesday": [ 21, 28, 29, 30 ],
+            "thursday": [ 25, 1, 2, 3 ],
+            "saturday": [ 24, 30, 31, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 323,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=461073974/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/face-off',
+          a_string: 'Face Off by Jérôme Noetinger/Will Guthrie',
+          rule: {
+            "monday": [ 24, 30, 31, 2 ],
+            "tuesday": [ 23, 30, 31, 1 ],
+            "wednesday": [ 22, 28, 29, 30 ],
+            "thursday": [ 21, 28, 29, 30 ],
+            "saturday": [ 25, 1, 2, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 324,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1431158383/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/resolution',
+          a_string: 'Resolution by Greg Kelley/Olivia Block',
+          rule: {
+            "monday": [ 25, 1, 2, 3 ],
+            "tuesday": [ 24, 30, 31, 2 ],
+            "wednesday": [ 23, 30, 31, 1 ],
+            "thursday": [ 22, 28, 29, 30 ],
+            "saturday": [ 21, 28, 29, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

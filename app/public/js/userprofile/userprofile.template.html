@@ -4641,11 +4641,11 @@
       <div id="tileSharesNotifier">
 
         <div class="whoScheduledMe">
-          <!-- <main ng-repeat="music in $ctrl.activeMusicShares | orderBy : $ctrl.sortBy"> -->
-            <!-- <div id="thisIsMusicShareDeleteDiv{{music.id}}" class="profileDeleteOption"> -->
+          <main ng-repeat="tile in $ctrl.activeTileShares | orderBy : $ctrl.sortBy">
+            <div id="thisIsTileShareDeleteDiv{{tile.id}}" class="profileDeleteOption">
 
               <!-- <a class="btn" href="#" ng-click="$ctrl.deleteObservanceShare(observe.id)">delete</a><br><br> -->
-            <!-- </div> -->
+            </div>
 
 
             <img src="{{tile.inv_img}}"><br>
@@ -4654,7 +4654,7 @@
 
             <br><br><br><br><br><br>
             <div class="tilesOnDisplay">
-              <div class="userTilesShareImageDiv displayDay" style="background-image: url({{tile.img_path}}); background-repeat: {{tile.repeatValue}}; background-size: {{tile.size}};">
+              <div class="userTilesShareImageDiv displayDay" id="theSharedTile{{tile.id}}">
 
                 <h1 id="tilesCurratorDate{{tile.id}}">{{tile.currateDate}}</h1>
               </div>
@@ -4685,29 +4685,29 @@
               <h1>Comments:</h1>
               <!-- <a class="btn" href="#" ng-click="$ctrl.addNewArtShareComment(art.id)" id="newArtShareCommentButton{{art.id}}">add</a> -->
             <!-- </div> -->
-            <!-- <div id="musicShareComments" class="occasionShareComments"> -->
+            <div id="tileShareComments" class="occasionShareComments">
               <!-- <main ng-repeat="comment in art.comments | orderBy : $ctrl.sortBy"> -->
-                <!-- <img src="{{comment.user_avatar_url}}"><br><br><br> -->
-                <!-- <br><br><br><p>From: {{comment.name}} <br> -->
-                <!-- on {{comment.cleanDate}}</p><br><br> -->
-                <!-- <textarea id="thisIsTheObservanceShareCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea> -->
-                <!-- <div class="thisIsObservanceShareCommentEditDoneDiv" id="thisIsObservanceShareCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheObservanceShareCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditObservanceShareCommentCompleted(comment.id)">done</a></div> -->
-                <!-- <h3 id="thisIsMusicShareCommentComment{{comment.id}}">{{comment.comment}}</h3><br> -->
+                <img src="{{comment.user_avatar_url}}"><br><br><br>
+                <br><br><br><p>From: {{comment.name}} <br>
+                on {{comment.cleanDate}}</p><br><br>
+                <textarea id="thisIsTheTileShareCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea>
+                <div class="thisIsTileShareCommentEditDoneDiv" id="thisIsTileShareCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheTileShareCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditTileShareCommentCompleted(comment.id)">done</a></div>
+                <h3 id="thisIsTileShareCommentComment{{comment.id}}">{{comment.comment}}</h3><br>
 
-                <!-- <div id="deleteMusicShareCommentConfirm{{comment.id}}" class="messageEditDelete">
+                <div id="deleteTileShareCommentConfirm{{comment.id}}" class="messageEditDelete">
 
                   <h3>Delete comment forever?</h3>
-                  <a class="btn" href="#" ng-click="$ctrl.userArtShareCommentDeleteCancel(art.id)">no</a>
-                  <a class="btn" href="#" ng-click="$ctrl.userArtShareCommentDeleteConfirmClick(art.id)">yes</a>
-                </div> -->
+                  <a class="btn" href="#" ng-click="$ctrl.userTileShareCommentDeleteCancel(comment.id)">no</a>
+                  <a class="btn" href="#" ng-click="$ctrl.userTileShareCommentDeleteConfirmClick(comment.id)">yes</a>
+                </div>
 
-                <!-- <div id="editDeleteArtShareCommentDiv{{art.id}}" class="messageEditDelete">
-                  <a class="btn" href="#" ng-click="$ctrl.userEditArtShareComment(art.id)">edit</a>
-                  <a class="btn" href="#" ng-click="$ctrl.userDeleteArtShareComment(art.id)">delete</a>
-                </div><br><br><br><br> -->
+                <div id="editDeleteTileShareCommentDiv{{comment.id}}" class="messageEditDelete">
+                  <a class="btn" href="#" ng-click="$ctrl.userEditTileShareComment(comment.id)">edit</a>
+                  <a class="btn" href="#" ng-click="$ctrl.userDeleteTileShareComment(comment.id)">delete</a>
+                </div><br><br><br><br>
               <!-- </main> -->
-            <!-- </div> -->
-          <!-- </main> -->
+            </div>
+          </main>
         </div>
 
 
@@ -6069,19 +6069,3 @@
   </div>
 
 </div>
-
-<footer>
-  <div class="pure-g">
-    <div id="footerCol1" class="pure-u-1-3">
-      <h1>168h:</h1>
-      <p>Make all the hours count.</p>
-    </div>
-    <div class="pure-u-1-3">
-      <h3>&copy; 2017 HurdAudio</h3>
-    </div>
-    <div id="footerCol3" class="pure-u-1-3">
-      <h2>Follow me on</h2>
-      <a href="https://github.com/HurdAudio"><img src="../img/GitHub_Logo.png"></a>
-    </div>
-  </div>
-</footer>

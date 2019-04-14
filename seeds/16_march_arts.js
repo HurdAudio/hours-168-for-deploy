@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/countdown-to-violence-1964.jpg',
+          title: 'Countdown to Violence',
+          artist: 'Pauline Boty',
+          year: '1964',
+          rule: {
+            "monday": [ 13, 22, 1, 9 ],
+            "tuesday": [ 12, 22, 30, 9 ],
+            "wednesday": [ 9, 21, 29, 8 ],
+            "thursday": [ 10, 20, 28, 7 ],
+            "friday": [ 9, 20, 27, 6 ],
+            "saturday": [ 8, 18, 26, 5 ],
+            "sunday": [ 7, 17, 26, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/night-sky-2-reversed-2002.jpg',
+          title: 'Night Sky 2 Reversed',
+          artist: 'Vija Celmins',
+          year: '2002',
+          rule: {
+            "monday": [ 7, 17, 26, 4 ],
+            "tuesday": [ 13, 22, 1, 9 ],
+            "wednesday": [ 12, 22, 30, 9 ],
+            "thursday": [ 9, 21, 29, 8 ],
+            "friday": [ 10, 20, 28, 7 ],
+            "saturday": [ 9, 20, 27, 6 ],
+            "sunday": [ 8, 18, 26, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/morning-fever-1970.jpg',
+          title: 'Morning Fever',
+          artist: 'Pat Lipsky',
+          year: '1970',
+          rule: {
+            "monday": [ 8, 18, 26, 5 ],
+            "tuesday": [ 7, 17, 26, 4 ],
+            "wednesday": [ 13, 22, 1, 9 ],
+            "thursday": [ 12, 22, 30, 9 ],
+            "friday": [ 9, 21, 29, 8 ],
+            "saturday": [ 10, 20, 28, 7 ],
+            "sunday": [ 9, 20, 27, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/gold-piece-1987.jpg',
+          title: 'Gold Piece',
+          artist: 'Jacqueline Winsor',
+          year: '1987',
+          rule: {
+            "monday": [ 9, 20, 27, 6 ],
+            "tuesday": [ 8, 18, 26, 5 ],
+            "wednesday": [ 7, 17, 26, 4 ],
+            "thursday": [ 13, 22, 1, 9 ],
+            "friday": [ 12, 22, 30, 9 ],
+            "saturday": [ 9, 21, 29, 8 ],
+            "sunday": [ 10, 20, 28, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/calvino-s-cities-on-the-amazon-1995.jpg',
+          title: 'Calvino’s Cities on the Amazon',
+          artist: 'Joyce Kozloff',
+          year: '1995',
+          rule: {
+            "monday": [ 11, 21, 29, 8 ],
+            "tuesday": [ 10, 21, 28, 7 ],
+            "wednesday": [ 9, 19, 27, 6 ],
+            "thursday": [ 8, 18, 27, 5 ],
+            "friday": [ 14, 23, 2, 10 ],
+            "saturday": [ 13, 23, 31, 10 ],
+            "sunday": [ 10, 22, 30, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

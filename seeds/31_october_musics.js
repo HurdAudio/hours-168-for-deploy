@@ -4810,6 +4810,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 268,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2914459594/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://lavidaesunmus.bandcamp.com/album/terra-alta',
+          a_string: 'Terra Alta by Fatamorgana',
+          rule: {
+            "monday": [ 12, 22, 1, 4 ],
+            "tuesday": [ 16, 26, 5, 8 ],
+            "wednesday": [ 15, 25, 4, 7 ],
+            "thursday": [ 14, 24, 3, 6 ],
+            "saturday": [ 13, 23, 3, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 269,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1976738743/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://otzi.bandcamp.com/album/part-time-punks-sessions',
+          a_string: 'Part Time Punks Sessions by Ötzi',
+          rule: {
+            "monday": [ 13, 23, 3, 5 ],
+            "tuesday": [ 12, 22, 1, 4 ],
+            "wednesday": [ 16, 26, 5, 8 ],
+            "thursday": [ 15, 25, 4, 7 ],
+            "saturday": [ 14, 24, 3, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 270,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1945101536/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://pottymouth.bandcamp.com/album/snafu',
+          a_string: 'SNAFU by Potty Mouth',
+          rule: {
+            "monday": [ 14, 24, 3, 6 ],
+            "tuesday": [ 13, 23, 3, 5 ],
+            "wednesday": [ 12, 22, 1, 4 ],
+            "thursday": [ 16, 26, 5, 8 ],
+            "saturday": [ 15, 25, 4, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

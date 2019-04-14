@@ -10804,6 +10804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 541,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/o-v-n-i-1967.jpg',
+          title: 'O.V.N.I.',
+          artist: 'Omar Rayo',
+          year: '1967',
+          rule: {
+            "monday": [ 18, 20, 12, 1 ],
+            "tuesday": [ 23, 21, 13, 16 ],
+            "wednesday": [ 23, 24, 15, 19 ],
+            "thursday": [ 26, 28, 29, 31 ],
+            "friday": [ 28, 30, 3, 6 ],
+            "saturday": [ 30, 1, 2, 3 ],
+            "sunday": [ 15, 16, 27, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 542,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/m-child-1981.jpg',
+          title: 'M & Child',
+          artist: 'Leo Valledor',
+          year: '1981',
+          rule: {
+            "monday": [ 15, 16, 27, 19 ],
+            "tuesday": [ 18, 20, 12, 1 ],
+            "wednesday": [ 23, 21, 13, 16 ],
+            "thursday": [ 23, 24, 15, 19 ],
+            "friday": [ 26, 28, 29, 31 ],
+            "saturday": [ 28, 30, 3, 6 ],
+            "sunday": [ 30, 1, 2, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 543,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/garden-motif-1950.jpg',
+          title: 'Garden Motif',
+          artist: 'Lajos Kassak',
+          year: '1950',
+          rule: {
+            "monday": [ 30, 1, 2, 3 ],
+            "tuesday": [ 15, 16, 27, 19 ],
+            "wednesday": [ 18, 20, 12, 1 ],
+            "thursday": [ 23, 21, 13, 16 ],
+            "friday": [ 23, 24, 15, 19 ],
+            "saturday": [ 26, 28, 29, 31 ],
+            "sunday": [ 28, 30, 3, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 544,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/exist-ncia-1985.jpg',
+          title: 'Existência',
+          artist: 'Manabu Mabe',
+          year: '1985',
+          rule: {
+            "monday": [ 28, 30, 3, 6 ],
+            "tuesday": [ 30, 1, 2, 3 ],
+            "wednesday": [ 15, 16, 27, 19 ],
+            "thursday": [ 18, 20, 12, 1 ],
+            "friday": [ 23, 21, 13, 16 ],
+            "saturday": [ 23, 24, 15, 19 ],
+            "sunday": [ 26, 28, 29, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 545,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/large-rectangles-large-1965.jpg',
+          title: 'Large Rectangles Large',
+          artist: 'Robert Goodnough',
+          year: '1965',
+          rule: {
+            "monday": [ 26, 28, 29, 31 ],
+            "tuesday": [ 28, 30, 3, 6 ],
+            "wednesday": [ 30, 1, 2, 3 ],
+            "thursday": [ 15, 16, 27, 19 ],
+            "friday": [ 18, 20, 12, 1 ],
+            "saturday": [ 23, 21, 13, 16 ],
+            "sunday": [ 23, 24, 15, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
