@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4270137635/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://leefieldsandtheexpressions.bandcamp.com/album/it-rains-love',
+          a_string: 'It Rains Love by Lee Fields &amp; The Expressions',
+          rule: {
+            "monday": [ 3, 26, 28, 1 ],
+            "tuesday": [ 5, 28, 1, 7 ],
+            "wednesday": [ 6, 29, 2, 8 ],
+            "thursday": [ 18, 22, 24, 28 ],
+            "saturday": [ 21, 24, 26, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3094986359/size=large/bgcol=ffffff/linkcol=0687f5/license_id=540/tracklist=false/transparent=true/',
+          href_string: 'http://shafiqhusayn.bandcamp.com/album/the-loop',
+          a_string: 'The Loop by Shafiq Husayn',
+          rule: {
+            "monday": [ 21, 24, 26, 28 ],
+            "tuesday": [ 3, 26, 28, 1 ],
+            "wednesday": [ 5, 28, 1, 7 ],
+            "thursday": [ 6, 29, 2, 8 ],
+            "saturday": [ 18, 22, 24, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=881566183/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://strut.bandcamp.com/album/nigeria-70-the-definitive-lp-edition',
+          a_string: 'Nigeria 70 - The Definitive LP Edition by Various Artists',
+          rule: {
+            "monday": [ 18, 22, 24, 28 ],
+            "tuesday": [ 21, 24, 26, 28 ],
+            "wednesday": [ 3, 26, 28, 1 ],
+            "thursday": [ 5, 28, 1, 7 ],
+            "saturday": [ 6, 29, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

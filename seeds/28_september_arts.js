@@ -9304,6 +9304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 466,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/tears-of-blood.jpg',
+          title: 'Tears of Blood',
+          artist: 'Oswaldo Guayasamin',
+          year: 'xx cent.',
+          rule: {
+            "monday": [ 23, 30, 27, 5 ],
+            "tuesday": [ 1, 8, 26, 3 ],
+            "wednesday": [ 8, 14, 2, 10 ],
+            "thursday": [ 7, 12, 1, 9 ],
+            "friday": [ 5, 12, 30, 8 ],
+            "saturday": [ 5, 11, 29, 7 ],
+            "sunday": [ 24, 10, 28, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 467,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/tangents-1970.jpg',
+          title: 'Tangents',
+          artist: 'Ruth Vollmer',
+          year: '1970',
+          rule: {
+            "monday": [ 24, 10, 28, 7 ],
+            "tuesday": [ 23, 30, 27, 5 ],
+            "wednesday": [ 1, 8, 26, 3 ],
+            "thursday": [ 8, 14, 2, 10 ],
+            "friday": [ 7, 12, 1, 9 ],
+            "saturday": [ 5, 12, 30, 8 ],
+            "sunday": [ 5, 11, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 468,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/tammuz-1962.jpg',
+          title: 'Tammuz',
+          artist: 'Mordecai Ardon',
+          year: '1962',
+          rule: {
+            "monday": [ 5, 11, 29, 7 ],
+            "tuesday": [ 24, 10, 28, 7 ],
+            "wednesday": [ 23, 30, 27, 5 ],
+            "thursday": [ 1, 8, 26, 3 ],
+            "friday": [ 8, 14, 2, 10 ],
+            "saturday": [ 7, 12, 1, 9 ],
+            "sunday": [ 5, 12, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 469,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-hanging-of-george-william-gordon-1968.jpg',
+          title: 'The Hanging of George William Gordon',
+          artist: 'Barrington Watson',
+          year: '1968',
+          rule: {
+            "monday": [ 6, 13, 1, 9 ],
+            "tuesday": [ 6, 12, 30, 8 ],
+            "wednesday": [ 25, 11, 29, 8 ],
+            "thursday": [ 24, 1, 28, 6 ],
+            "friday": [ 2, 9, 27, 4 ],
+            "saturday": [ 9, 15, 3, 11 ],
+            "sunday": [ 8, 13, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 470,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/mr-blue-head.jpg',
+          title: 'Mr. Blue Head',
+          artist: 'David Michael Hinnebusch',
+          year: 'c.2004',
+          rule: {
+            "monday": [ 8, 13, 2, 10 ],
+            "tuesday": [ 6, 13, 1, 9 ],
+            "wednesday": [ 6, 12, 30, 8 ],
+            "thursday": [ 25, 11, 29, 8 ],
+            "friday": [ 24, 1, 28, 6 ],
+            "saturday": [ 2, 9, 27, 4 ],
+            "sunday": [ 9, 15, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

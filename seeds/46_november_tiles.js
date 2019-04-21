@@ -1045,13 +1045,27 @@ exports.seed = function(knex, Promise) {
           id: 75,
           user_id: 1,
           theme: 'Monochromatic',
-          type: 'satruday',
+          type: 'saturday',
           src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/23416383_1273386456099496_2972281878964338688_n.jpg',
           repeat_value: 'no-repeat',
           size_value: '110%',
           color_dark: '#020202',
           color_medium: '#7C7C7C',
           color_light: '#EEEEEE',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 76,
+          user_id: 1,
+          theme: 'Monochromatic',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/graphic-3297832_1280.png',
+          repeat_value: 'no-repeat',
+          size_value: '100%',
+          color_dark: '#000000',
+          color_medium: '#243F4D',
+          color_light: '#88898B',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
         }

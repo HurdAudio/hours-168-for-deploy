@@ -5296,6 +5296,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 295,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=55753488/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://williambasinski.bandcamp.com/album/on-time-out-of-time',
+          a_string: 'On Time Out of Time by William Basinski',
+          rule: {
+            "monday": [ 11, 14, 20, 31 ],
+            "tuesday": [ 9, 17, 19, 4 ],
+            "wednesday": [ 13, 17, 23, 4 ],
+            "thursday": [ 12, 15, 20, 2 ],
+            "saturday": [ 11, 14, 20, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 296,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3804346100/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://melanohelios.bandcamp.com/album/steps',
+          a_string: 'Steps. by Melanohelios',
+          rule: {
+            "monday": [ 11, 14, 20, 1 ],
+            "tuesday": [ 11, 14, 20, 31 ],
+            "wednesday": [ 9, 17, 19, 4 ],
+            "thursday": [ 13, 17, 23, 4 ],
+            "saturday": [ 12, 15, 20, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 297,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1394247736/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://robert-scott-thompson.bandcamp.com/album/pale-blue-dot',
+          a_string: 'Pale Blue Dot by Robert Scott Thompson',
+          rule: {
+            "monday": [ 12, 15, 20, 2 ],
+            "tuesday": [ 11, 14, 20, 1 ],
+            "wednesday": [ 11, 14, 20, 31 ],
+            "thursday": [ 9, 17, 19, 4 ],
+            "saturday": [ 13, 17, 23, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

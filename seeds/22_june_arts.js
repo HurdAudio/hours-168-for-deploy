@@ -9904,6 +9904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 496,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/DpsF2OcWsAEtBef.jpg',
+          title: 'unknown title',
+          artist: 'Oona Heleena',
+          year: '2018',
+          rule: {
+            "monday": [ 16, 26, 6, 4 ],
+            "tuesday": [ 5, 15, 25, 3 ],
+            "wednesday": [ 4, 14, 24, 2 ],
+            "thursday": [ 10, 20, 30, 7 ],
+            "friday": [ 9, 19, 30, 7 ],
+            "saturday": [ 8, 18, 28, 26 ],
+            "sunday": [ 7, 17, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 497,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/b3-240x300.jpg',
+          title: 'unknown title',
+          artist: 'Paulina Duczman',
+          year: '2018',
+          rule: {
+            "monday": [ 8, 18, 28, 6 ],
+            "tuesday": [ 17, 27, 7, 5 ],
+            "wednesday": [ 6, 16, 26, 4 ],
+            "thursday": [ 5, 15, 25, 3 ],
+            "friday": [ 11, 21, 1, 8 ],
+            "saturday": [ 10, 20, 1, 8 ],
+            "sunday": [ 9, 19, 29, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 498,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/marco_sea_master.jpg',
+          title: 'By the Sea',
+          artist: 'Phil Marco',
+          year: '?',
+          rule: {
+            "monday": [ 9, 19, 29, 27 ],
+            "tuesday": [ 8, 18, 28, 6 ],
+            "wednesday": [ 17, 27, 7, 5 ],
+            "thursday": [ 6, 16, 26, 4 ],
+            "friday": [ 5, 15, 25, 3 ],
+            "saturday": [ 11, 21, 1, 8 ],
+            "sunday": [ 10, 20, 1, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 499,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Indigo_798x807_mae_appvd_l.jpg',
+          title: 'Girl in red skirt ',
+          artist: 'Elena Gallotta',
+          year: '?',
+          rule: {
+            "monday": [ 10, 20, 1, 8 ],
+            "tuesday": [ 9, 19, 29, 27 ],
+            "wednesday": [ 8, 18, 28, 6 ],
+            "thursday": [ 17, 27, 7, 5 ],
+            "friday": [ 6, 16, 26, 4 ],
+            "saturday": [ 5, 15, 25, 3 ],
+            "sunday": [ 11, 21, 1, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 500,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fine-art-photography-prints-AnnaVolpi-HappyBirthday-focus-1.jpg',
+          title: 'Happy Birthday',
+          artist: 'Anna Volpi',
+          year: '?',
+          rule: {
+            "monday": [ 11, 21, 1, 8 ],
+            "tuesday": [ 10, 20, 1, 8 ],
+            "wednesday": [ 9, 19, 29, 27 ],
+            "thursday": [ 8, 18, 28, 6 ],
+            "friday": [ 17, 27, 7, 5 ],
+            "saturday": [ 6, 16, 26, 4 ],
+            "sunday": [ 5, 15, 25, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

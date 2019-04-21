@@ -9104,6 +9104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 456,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_sportsovpost_00022.jpg',
+          title: 'USSR is a Mighty Sports Nation!',
+          artist: 'B.Reshetnikov',
+          year: '1962',
+          rule: {
+            "monday": [ 8, 19, 30, 3 ],
+            "tuesday": [ 7, 18, 29, 2 ],
+            "wednesday": [ 6, 17, 28, 1 ],
+            "thursday": [ 5, 16, 27, 31 ],
+            "friday": [ 4, 15, 25, 30 ],
+            "saturday": [ 13, 14, 25, 29 ],
+            "sunday": [ 9, 20, 31, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 457,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_tradesovpost_00033.jpg',
+          title: 'Processed cheese for every taste.',
+          artist: 'L.Filippova',
+          year: '1966',
+          rule: {
+            "monday": [ 9, 20, 31, 4 ],
+            "tuesday": [ 8, 19, 30, 3 ],
+            "wednesday": [ 7, 18, 29, 2 ],
+            "thursday": [ 6, 17, 28, 1 ],
+            "friday": [ 5, 16, 27, 31 ],
+            "saturday": [ 4, 15, 25, 30 ],
+            "sunday": [ 13, 14, 25, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 458,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_vodka_german.jpg',
+          title: 'Stolichnaya vodka',
+          artist: 'S.Sakharov',
+          year: '1965',
+          rule: {
+            "monday": [ 13, 14, 25, 29 ],
+            "tuesday": [ 9, 20, 31, 4 ],
+            "wednesday": [ 8, 19, 30, 3 ],
+            "thursday": [ 7, 18, 29, 2 ],
+            "friday": [ 6, 17, 28, 1 ],
+            "saturday": [ 5, 16, 27, 31 ],
+            "sunday": [ 4, 15, 25, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 459,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_good_life.jpg',
+          title: 'And life is good, and to live is good!',
+          artist: 'V. Ivanov',
+          year: '1961',
+          rule: {
+            "monday": [ 4, 15, 25, 30 ],
+            "tuesday": [ 13, 14, 25, 29 ],
+            "wednesday": [ 9, 20, 31, 4 ],
+            "thursday": [ 8, 19, 30, 3 ],
+            "friday": [ 7, 18, 29, 2 ],
+            "saturday": [ 6, 17, 28, 1 ],
+            "sunday": [ 5, 16, 27, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 460,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_komsomol_to_fields.jpg',
+          title: 'To the fields, to the construction sites!',
+          artist: 'I.Bolshakova, V.Smirnov',
+          year: '1963',
+          rule: {
+            "monday": [ 5, 16, 27, 31 ],
+            "tuesday": [ 4, 15, 25, 30 ],
+            "wednesday": [ 13, 14, 25, 29 ],
+            "thursday": [ 9, 20, 31, 4 ],
+            "friday": [ 8, 19, 30, 3 ],
+            "saturday": [ 7, 18, 29, 2 ],
+            "sunday": [ 6, 17, 28, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

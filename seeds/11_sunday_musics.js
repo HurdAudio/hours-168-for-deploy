@@ -2314,6 +2314,36 @@ exports.seed = function(knex, Promise) {
           a_string: 'SUNN O))) - 2006.02.17, Point Ephémère, Paris, FR by SUNN O)))',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 232,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4071037893/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20060215-custard-factory-birmingham-uk',
+          a_string: 'SUNN O))) - 2006.02.15, Custard Factory, Birmingham, UK by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 233,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=894175093/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20060215-custard-factory-birmingham-uk-2',
+          a_string: 'SUNN O))) - 2006.02.15, Custard Factory, Birmingham, UK by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 234,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1720362955/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20060211-cockpit-leeds-uk',
+          a_string: 'SUNN O))) - 2006.02.11, Cockpit, Leeds, UK by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

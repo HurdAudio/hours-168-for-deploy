@@ -5404,6 +5404,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 301,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4004609849/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bearthoven.bandcamp.com/album/american-dream',
+          a_string: 'American Dream by Bearthoven',
+          rule: {
+            "monday": [ 15, 21, 28, 10 ],
+            "tuesday": [ 14, 20, 27, 9 ],
+            "wednesday": [ 13, 19, 26, 8 ],
+            "thursday": [ 12, 18, 25, 7 ],
+            "saturday": [ 11, 17, 24, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 302,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1370623596/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bedroomcommunity.bandcamp.com/album/dust',
+          a_string: 'Dust by Daniel Pioro',
+          rule: {
+            "monday": [ 11, 17, 24, 6 ],
+            "tuesday": [ 15, 21, 28, 10 ],
+            "wednesday": [ 14, 20, 27, 9 ],
+            "thursday": [ 13, 19, 26, 8 ],
+            "saturday": [ 12, 18, 25, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 303,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=861109224/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://xirecords.bandcamp.com/album/red-machinic-fantasies',
+          a_string: 'Red / Machinic Fantasies by Cecilia Lopez',
+          rule: {
+            "monday": [ 12, 18, 25, 7 ],
+            "tuesday": [ 11, 17, 24, 6 ],
+            "wednesday": [ 15, 21, 28, 10 ],
+            "thursday": [ 14, 20, 27, 9 ],
+            "saturday": [ 13, 19, 26, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

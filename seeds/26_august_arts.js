@@ -9504,6 +9504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 476,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/italian-landscape-1911.jpg',
+          title: 'Italian Landscape',
+          artist: 'Konstantin Bogaevsky',
+          year: '1911',
+          rule: {
+            "monday": [ 8, 12, 20, 5 ],
+            "tuesday": [ 7, 11, 19, 4 ],
+            "wednesday": [ 6, 8, 18, 3 ],
+            "thursday": [ 5, 8, 17, 2 ],
+            "friday": [ 4, 7, 16, 1 ],
+            "saturday": [ 10, 14, 22, 7 ],
+            "sunday": [ 9, 12, 21, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 477,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/une-belle-de-palaos-1935.jpg',
+          title: 'Une Belle De Palaos',
+          artist: 'Paul Jacoulet',
+          year: '1935',
+          rule: {
+            "monday": [ 9, 12, 21, 6 ],
+            "tuesday": [ 8, 12, 20, 5 ],
+            "wednesday": [ 7, 11, 19, 4 ],
+            "thursday": [ 6, 8, 18, 3 ],
+            "friday": [ 5, 8, 17, 2 ],
+            "saturday": [ 4, 7, 16, 1 ],
+            "sunday": [ 10, 14, 22, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 478,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/bowlers-la-ciotat-1930.jpg',
+          title: 'Bowlers, La Ciotat',
+          artist: 'William James Glackens',
+          year: '1930',
+          rule: {
+            "monday": [ 10, 14, 22, 7 ],
+            "tuesday": [ 9, 12, 21, 6 ],
+            "wednesday": [ 8, 12, 20, 5 ],
+            "thursday": [ 7, 11, 19, 4 ],
+            "friday": [ 6, 8, 18, 3 ],
+            "saturday": [ 5, 8, 17, 2 ],
+            "sunday": [ 4, 7, 16, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 479,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/josephine-baker-iii-1927.jpg',
+          title: 'Josephine Baker (III)',
+          artist: 'Alexander Calder',
+          year: 'c.1927',
+          rule: {
+            "monday": [ 4, 7, 16, 1 ],
+            "tuesday": [ 10, 14, 22, 7 ],
+            "wednesday": [ 9, 12, 21, 6 ],
+            "thursday": [ 8, 12, 20, 5 ],
+            "friday": [ 7, 11, 19, 4 ],
+            "saturday": [ 6, 8, 18, 3 ],
+            "sunday": [ 5, 8, 17, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 480,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/marin-1-1922.jpg',
+          title: 'Marin 1',
+          artist: 'Gosta Adrian-Nilsson',
+          year: '1922',
+          rule: {
+            "monday": [ 5, 8, 17, 2 ],
+            "tuesday": [ 4, 7, 16, 1 ],
+            "wednesday": [ 10, 14, 22, 7 ],
+            "thursday": [ 9, 12, 21, 6 ],
+            "friday": [ 8, 12, 20, 5 ],
+            "saturday": [ 7, 11, 19, 4 ],
+            "sunday": [ 6, 8, 18, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

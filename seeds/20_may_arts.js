@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/harvesting-is-a-severe-blow-at-the-enemy-1941.jpg',
+          title: 'Harvesting is a severe blow at the enemy!',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 9, 21, 31, 8 ],
+            "tuesday": [ 9, 20, 29, 8 ],
+            "wednesday": [ 7, 17, 25, 27 ],
+            "thursday": [ 4, 15, 25, 14 ],
+            "friday": [ 3, 14, 24, 2 ],
+            "saturday": [ 1, 11, 21, 29 ],
+            "sunday": [ 30, 8, 20, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/lady-s-fashion-in-germany-winter-season-1941.jpg',
+          title: 'Lady\'s fashion in Germany. Winter season.',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 30, 8, 20, 29 ],
+            "tuesday": [ 9, 21, 31, 8 ],
+            "wednesday": [ 9, 20, 29, 8 ],
+            "thursday": [ 7, 17, 25, 27 ],
+            "friday": [ 4, 15, 25, 14 ],
+            "saturday": [ 3, 14, 24, 2 ],
+            "sunday": [ 1, 11, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/napoleon-was-defeated-that-will-be-the-case-of-the-swelled-headed-hitler-1941.jpg',
+          title: 'Napoleon was defeated, so will be the arrogant Hitler!',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 1, 11, 21, 29 ],
+            "tuesday": [ 30, 8, 20, 29 ],
+            "wednesday": [ 9, 21, 31, 8 ],
+            "thursday": [ 9, 20, 29, 8 ],
+            "friday": [ 7, 17, 25, 27 ],
+            "saturday": [ 4, 15, 25, 14 ],
+            "sunday": [ 3, 14, 24, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/pliers-to-clamp-1941.jpg',
+          title: 'Claws in Claw',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 3, 14, 24, 2 ],
+            "tuesday": [ 1, 11, 21, 29 ],
+            "wednesday": [ 30, 8, 20, 29 ],
+            "thursday": [ 9, 21, 31, 8 ],
+            "friday": [ 9, 20, 29, 8 ],
+            "saturday": [ 7, 17, 25, 27 ],
+            "sunday": [ 4, 15, 25, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/splendidly-and-desperately-do-we-fight-the-issue-of-suvorov-and-chapayev-do-it-all-right-1941.jpg',
+          title: 'Splendidly and desperately do we fight — the issue of Suvorov and Chapayev do it all right!',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 4, 15, 25, 14 ],
+            "tuesday": [ 3, 14, 24, 2 ],
+            "wednesday": [ 1, 11, 21, 29 ],
+            "thursday": [ 30, 8, 20, 29 ],
+            "friday": [ 9, 21, 31, 8 ],
+            "saturday": [ 9, 20, 29, 8 ],
+            "sunday": [ 7, 17, 25, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

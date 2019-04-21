@@ -9704,6 +9704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 486,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/moillon-louise-bowl-lemons-oranges.jpg',
+          title: 'Bowl of Lemons and Oranges on a Box of Wood Shavings and Pomegranates',
+          artist: 'Louise Moillon',
+          year: '?',
+          rule: {
+            "monday": [ 4, 15, 26, 6 ],
+            "tuesday": [ 10, 21, 1, 11 ],
+            "wednesday": [ 9, 18, 31, 11 ],
+            "thursday": [ 7, 18, 30, 10 ],
+            "friday": [ 7, 18, 29, 30 ],
+            "saturday": [ 6, 17, 27, 29 ],
+            "sunday": [ 5, 16, 27, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 487,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/semiramis-called-to-fight-1637.jpg',
+          title: 'Semiramis called to fight',
+          artist: 'Jacques Stella',
+          year: '1637',
+          rule: {
+            "monday": [ 5, 16, 27, 28 ],
+            "tuesday": [ 4, 15, 26, 6 ],
+            "wednesday": [ 10, 21, 1, 11 ],
+            "thursday": [ 9, 18, 31, 11 ],
+            "friday": [ 7, 18, 30, 10 ],
+            "saturday": [ 7, 18, 29, 30 ],
+            "sunday": [ 6, 17, 27, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 488,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/drinking-party-with-a-lute-player.jpg',
+          title: 'Drinking Party with a Lute Player',
+          artist: 'Nicolas Tournier',
+          year: 'c.1623',
+          rule: {
+            "monday": [ 6, 17, 27, 29 ],
+            "tuesday": [ 5, 16, 27, 28 ],
+            "wednesday": [ 4, 15, 26, 6 ],
+            "thursday": [ 10, 21, 1, 11 ],
+            "friday": [ 9, 18, 31, 11 ],
+            "saturday": [ 7, 18, 30, 10 ],
+            "sunday": [ 7, 18, 29, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 489,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/portrait-of-margaret-of-austria-portrait-of-a-young-princess-1.jpg',
+          title: 'Portrait of Margaret of Austria (Portrait of a Young Princess)',
+          artist: 'Jean Hey',
+          year: 'c.1491',
+          rule: {
+            "monday": [ 7, 18, 29, 30 ],
+            "tuesday": [ 6, 17, 27, 29 ],
+            "wednesday": [ 5, 16, 27, 28 ],
+            "thursday": [ 4, 15, 26, 6 ],
+            "friday": [ 10, 21, 1, 11 ],
+            "saturday": [ 9, 18, 31, 11 ],
+            "sunday": [ 7, 18, 30, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 490,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/assault-on-the-city-of-dan.jpg',
+          title: 'Assault on the City of Dan',
+          artist: 'Herrad of Landsberg',
+          year: '?',
+          rule: {
+            "monday": [ 8, 19, 31, 11 ],
+            "tuesday": [ 8, 19, 30, 31 ],
+            "wednesday": [ 7, 18, 28, 30 ],
+            "thursday": [ 6, 17, 28, 29 ],
+            "friday": [ 5, 16, 27, 7 ],
+            "saturday": [ 11, 22, 2, 12 ],
+            "sunday": [ 10, 19, 1, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

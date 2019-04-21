@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/africanUnion.jpeg',
+          title: 'Untitled (African Union)',
+          artist: 'Fred Wilson',
+          year: '2011',
+          rule: {
+            "monday": [ 29, 8, 16, 26 ],
+            "tuesday": [ 29, 10, 6, 25 ],
+            "wednesday": [ 19, 27, 6, 14 ],
+            "thursday": [ 20, 29, 8, 16 ],
+            "friday": [ 26, 2, 8, 18 ],
+            "saturday": [ 25, 4, 12, 20 ],
+            "sunday": [ 27, 8, 14, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/streetcarScene.jpeg',
+          title: 'Streetcar Scene',
+          artist: 'John Woodrow Wilson',
+          year: '1945',
+          rule: {
+            "monday": [ 27, 8, 14, 20 ],
+            "tuesday": [ 29, 8, 16, 26 ],
+            "wednesday": [ 29, 10, 6, 25 ],
+            "thursday": [ 19, 27, 6, 14 ],
+            "friday": [ 20, 29, 8, 16 ],
+            "saturday": [ 26, 2, 8, 18 ],
+            "sunday": [ 25, 4, 12, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/d159fbf03a8b52403f132aedff585f7b.jpg',
+          title: 'Maudelle',
+          artist: 'Beulah Woodard',
+          year: 'c.1937 - 1938',
+          rule: {
+            "monday": [ 25, 4, 12, 20 ],
+            "tuesday": [ 27, 8, 14, 20 ],
+            "wednesday": [ 29, 8, 16, 26 ],
+            "thursday": [ 29, 10, 6, 25 ],
+            "friday": [ 19, 27, 6, 14 ],
+            "saturday": [ 20, 29, 8, 16 ],
+            "sunday": [ 26, 2, 8, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/woodruff1-e1409094677761.jpg',
+          title: 'The Building of Savery Library',
+          artist: 'Hale Woodruff',
+          year: '1942',
+          rule: {
+            "monday": [ 27, 3, 9, 19 ],
+            "tuesday": [ 26, 5, 13, 21 ],
+            "wednesday": [ 28, 9, 15, 21 ],
+            "thursday": [ 1, 9, 17, 27 ],
+            "friday": [ 1, 11, 7, 26 ],
+            "saturday": [ 20, 28, 7, 15 ],
+            "sunday": [ 21, 1, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/web.ae_.3.4.richardwyatt.picA_-640x423.jpg',
+          title: 'Hollywood Jazz 1945-1972',
+          artist: 'Richard Wyatt Jr.',
+          year: 'c.1995',
+          rule: {
+            "monday": [ 21, 1, 9, 17 ],
+            "tuesday": [ 27, 3, 9, 19 ],
+            "wednesday": [ 26, 5, 13, 21 ],
+            "thursday": [ 28, 9, 15, 21 ],
+            "friday": [ 1, 9, 17, 27 ],
+            "saturday": [ 1, 11, 7, 26 ],
+            "sunday": [ 20, 28, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

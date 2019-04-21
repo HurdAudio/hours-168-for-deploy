@@ -8904,6 +8904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 446,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/the-transfiguration-1989.jpg',
+          title: 'The Transfiguration',
+          artist: 'Stephen Antonakos',
+          year: '1989',
+          rule: {
+            "monday": [ 7, 11, 18, 23 ],
+            "tuesday": [ 6, 11, 17, 22 ],
+            "wednesday": [ 5, 10, 16, 23 ],
+            "thursday": [ 11, 16, 22, 27 ],
+            "friday": [ 10, 12, 20, 26 ],
+            "saturday": [ 9, 13, 20, 24 ],
+            "sunday": [ 8, 11, 18, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 447,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/hollandblei-1989.jpg',
+          title: 'Hollandblei',
+          artist: 'Kuno Gonschior',
+          year: '1989',
+          rule: {
+            "monday": [ 8, 11, 18, 23 ],
+            "tuesday": [ 7, 11, 18, 23 ],
+            "wednesday": [ 6, 11, 17, 22 ],
+            "thursday": [ 5, 10, 16, 23 ],
+            "friday": [ 11, 16, 22, 27 ],
+            "saturday": [ 10, 12, 20, 26 ],
+            "sunday": [ 9, 13, 20, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 448,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/warp-drive-1990.jpg',
+          title: 'Warp Drive',
+          artist: 'John McCracken',
+          year: '1990',
+          rule: {
+            "monday": [ 10, 14, 21, 25 ],
+            "tuesday": [ 9, 12, 19, 24 ],
+            "wednesday": [ 8, 12, 19, 24 ],
+            "thursday": [ 7, 12, 18, 23 ],
+            "friday": [ 6, 11, 17, 24 ],
+            "saturday": [ 12, 17, 23, 28 ],
+            "sunday": [ 11, 13, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 449,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/thicket-no-1-1990.jpg',
+          title: 'Thicket No. 1',
+          artist: 'Roni Horn',
+          year: '1989 - 1990',
+          rule: {
+            "monday": [ 11, 13, 21, 27 ],
+            "tuesday": [ 10, 14, 21, 25 ],
+            "wednesday": [ 9, 12, 19, 24 ],
+            "thursday": [ 8, 12, 19, 24 ],
+            "friday": [ 7, 12, 18, 23 ],
+            "saturday": [ 6, 11, 17, 24 ],
+            "sunday": [ 12, 17, 23, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 450,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/relative-to-our-society-1990.jpg',
+          title: 'Relative to our Society',
+          artist: 'Richard Tuttle',
+          year: '1990',
+          rule: {
+            "monday": [ 12, 17, 23, 28 ],
+            "tuesday": [ 11, 13, 21, 27 ],
+            "wednesday": [ 10, 14, 21, 25 ],
+            "thursday": [ 9, 12, 19, 24 ],
+            "friday": [ 8, 12, 19, 24 ],
+            "saturday": [ 7, 12, 18, 23 ],
+            "sunday": [ 6, 11, 17, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

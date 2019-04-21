@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/flesh-journal-2-1993.jpg',
+          title: 'Flesh Journal #2',
+          artist: 'Harmony Hammond',
+          year: '1993',
+          rule: {
+            "monday": [ 10, 22, 30, 9 ],
+            "tuesday": [ 11, 21, 29, 8 ],
+            "wednesday": [ 10, 21, 28, 7 ],
+            "thursday": [ 9, 19, 27, 6 ],
+            "friday": [ 8, 18, 27, 5 ],
+            "saturday": [ 14, 23, 2, 10 ],
+            "sunday": [ 13, 23, 31, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/my-women.jpg',
+          title: 'My Women',
+          artist: 'Guity Novin',
+          year: '?',
+          rule: {
+            "monday": [ 13, 23, 31, 10 ],
+            "tuesday": [ 10, 22, 30, 9 ],
+            "wednesday": [ 11, 21, 29, 8 ],
+            "thursday": [ 10, 21, 28, 7 ],
+            "friday": [ 9, 19, 27, 6 ],
+            "saturday": [ 8, 18, 27, 5 ],
+            "sunday": [ 14, 23, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-your-moments-of-joy-have-1980.jpg',
+          title: 'Untitled (Your Moments of Joy Have)',
+          artist: 'Barbara Kruger',
+          year: '1980',
+          rule: {
+            "monday": [ 14, 23, 2, 10 ],
+            "tuesday": [ 13, 23, 31, 10 ],
+            "wednesday": [ 10, 22, 30, 9 ],
+            "thursday": [ 11, 21, 29, 8 ],
+            "friday": [ 10, 21, 28, 7 ],
+            "saturday": [ 9, 19, 27, 6 ],
+            "sunday": [ 8, 18, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/bridge-2-1975.jpg',
+          title: 'Bridge # 2',
+          artist: 'Denise Green',
+          year: '1975',
+          rule: {
+            "monday": [ 8, 18, 27, 5 ],
+            "tuesday": [ 14, 23, 2, 10 ],
+            "wednesday": [ 13, 23, 31, 10 ],
+            "thursday": [ 10, 22, 30, 9 ],
+            "friday": [ 11, 21, 29, 8 ],
+            "saturday": [ 10, 21, 28, 7 ],
+            "sunday": [ 9, 19, 27, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/sand-fans-1971.jpg',
+          title: 'Sand-Fans',
+          artist: 'Alice Aycock',
+          year: '1971',
+          rule: {
+            "monday": [ 9, 19, 27, 6 ],
+            "tuesday": [ 8, 18, 27, 5 ],
+            "wednesday": [ 14, 23, 2, 10 ],
+            "thursday": [ 13, 23, 31, 10 ],
+            "friday": [ 10, 22, 30, 9 ],
+            "saturday": [ 11, 21, 29, 8 ],
+            "sunday": [ 10, 21, 28, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

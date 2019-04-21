@@ -799,6 +799,21 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 54,
+          user_author_id: 1,
+          theme: 'wood',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/michel-houtkamp-1163496-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#000000',
+          color_medium: '#7C1400',
+          color_light: '#C96000',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

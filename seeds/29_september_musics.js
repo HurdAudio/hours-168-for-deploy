@@ -4972,6 +4972,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 277,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=128900345/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://djamkaret.bandcamp.com/album/a-sky-full-of-stars-for-a-roof',
+          a_string: 'A Sky Full Of Stars For A Roof by Djam Karet',
+          rule: {
+            "monday": [ 14, 4, 12, 6 ],
+            "tuesday": [ 13, 3, 11, 5 ],
+            "wednesday": [ 12, 2, 10, 3 ],
+            "thursday": [ 12, 1, 9, 3 ],
+            "saturday": [ 10, 30, 8, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 278,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3723664397/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bigbigbusiness.bandcamp.com/album/the-beast-you-are',
+          a_string: 'The Beast You Are by Big Business',
+          rule: {
+            "monday": [ 10, 30, 8, 2 ],
+            "tuesday": [ 14, 4, 12, 6 ],
+            "wednesday": [ 13, 3, 11, 5 ],
+            "thursday": [ 12, 2, 10, 3 ],
+            "saturday": [ 12, 1, 9, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 279,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2976129464/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://prog-sphere.bandcamp.com/album/porcupine-tree-legacy',
+          a_string: 'Porcupine Tree: Legacy by Prog Sphere',
+          rule: {
+            "monday": [ 12, 1, 9, 3 ],
+            "tuesday": [ 10, 30, 8, 2 ],
+            "wednesday": [ 14, 4, 12, 6 ],
+            "thursday": [ 13, 3, 11, 5 ],
+            "saturday": [ 12, 2, 10, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

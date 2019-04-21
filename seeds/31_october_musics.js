@@ -4864,6 +4864,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 271,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1869838510/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://notnormaltapes.bandcamp.com/album/nni-002-jocko-expression-cs',
+          a_string: 'NNI#002 Jocko - Expression CS by Not Normal Tapes',
+          rule: {
+            "monday": [ 15, 25, 4, 7 ],
+            "tuesday": [ 14, 24, 3, 6 ],
+            "wednesday": [ 13, 23, 3, 5 ],
+            "thursday": [ 12, 22, 1, 4 ],
+            "saturday": [ 16, 26, 5, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 272,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=922439087/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://lavidaesunmus.bandcamp.com/album/san-felipe-es-punk',
+          a_string: 'San Felipe es Punk by Polo Pepo',
+          rule: {
+            "monday": [ 16, 26, 5, 8 ],
+            "tuesday": [ 15, 25, 4, 7 ],
+            "wednesday": [ 14, 24, 3, 6 ],
+            "thursday": [ 13, 23, 3, 5 ],
+            "saturday": [ 12, 22, 1, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 274,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=331791637/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ironlungpv.bandcamp.com/album/positive-disintegration-lp-lungs-121',
+          a_string: 'Positive Disintegration LP (LUNGS-121) by DIÄT',
+          rule: {
+            "monday": [ 13, 23, 2, 5 ],
+            "tuesday": [ 17, 27, 6, 9 ],
+            "wednesday": [ 16, 26, 5, 8 ],
+            "thursday": [ 15, 25, 4, 7 ],
+            "saturday": [ 14, 24, 4, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

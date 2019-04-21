@@ -1110,6 +1110,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#C8C7B5',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 80,
+          user_id: 1,
+          theme: 'Steam',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/kettle-411718_1920.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '120%',
+          color_dark: '#060607',
+          color_medium: '#E18500',
+          color_light: '#C4C5C9',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

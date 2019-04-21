@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-1960.jpg',
+          title: 'Untitled',
+          artist: 'Jose Escada',
+          year: '1960',
+          rule: {
+            "monday": [ 24, 25, 16, 20 ],
+            "tuesday": [ 27, 29, 30, 1 ],
+            "wednesday": [ 29, 31, 4, 7 ],
+            "thursday": [ 31, 2, 3, 4 ],
+            "friday": [ 16, 17, 28, 20 ],
+            "saturday": [ 19, 21, 13, 2 ],
+            "sunday": [ 24, 22, 14, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/ocean-blue-6-1988.jpg',
+          title: 'Ocean Blue #6',
+          artist: 'Joe Goode',
+          year: '1988',
+          rule: {
+            "monday": [ 24, 22, 14, 17 ],
+            "tuesday": [ 24, 25, 16, 20 ],
+            "wednesday": [ 27, 29, 30, 1 ],
+            "thursday": [ 29, 31, 4, 7 ],
+            "friday": [ 31, 2, 3, 4 ],
+            "saturday": [ 16, 17, 28, 20 ],
+            "sunday": [ 19, 21, 13, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/relational-painting-tondo-36-1955.jpg',
+          title: 'Relational Painting, Tondo #36',
+          artist: 'Fritz Glarner',
+          year: '1955',
+          rule: {
+            "monday": [ 19, 21, 13, 2 ],
+            "tuesday": [ 19, 21, 13, 2 ],
+            "wednesday": [ 24, 22, 14, 17 ],
+            "thursday": [ 24, 25, 16, 20 ],
+            "friday": [ 27, 29, 30, 1 ],
+            "saturday": [ 29, 31, 4, 7 ],
+            "sunday": [ 31, 2, 3, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-203-watercolor-ball-1965.jpg',
+          title: 'Untitled 203 (watercolor ball)',
+          artist: 'Edward Avedisian',
+          year: '1965',
+          rule: {
+            "monday": [ 31, 2, 3, 4 ],
+            "tuesday": [ 19, 21, 13, 2 ],
+            "wednesday": [ 19, 21, 13, 2 ],
+            "thursday": [ 24, 22, 14, 17 ],
+            "friday": [ 24, 25, 16, 20 ],
+            "saturday": [ 27, 29, 30, 1 ],
+            "sunday": [ 29, 31, 4, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/la-propagation-1968(1).jpg',
+          title: 'La Propagation',
+          artist: 'Matsutani',
+          year: '1968',
+          rule: {
+            "monday": [ 29, 31, 4, 7 ],
+            "tuesday": [ 31, 2, 3, 4 ],
+            "wednesday": [ 19, 21, 13, 2 ],
+            "thursday": [ 19, 21, 13, 2 ],
+            "friday": [ 24, 22, 14, 17 ],
+            "saturday": [ 24, 25, 16, 20 ],
+            "sunday": [ 27, 29, 30, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

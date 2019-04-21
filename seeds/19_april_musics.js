@@ -5512,6 +5512,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 307,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2293758224/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://justinbrowndrums.bandcamp.com/album/nyeusi',
+          a_string: 'NYEUSI by Justin Brown',
+          rule: {
+            "monday": [ 17, 25, 7, 12 ],
+            "tuesday": [ 16, 24, 6, 11 ],
+            "wednesday": [ 15, 23, 5, 10 ],
+            "thursday": [ 14, 22, 3, 9 ],
+            "saturday": [ 13, 21, 3, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 308,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=935302193/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://adamofarrill.bandcamp.com/album/el-maquech',
+          a_string: 'El Maquech by Adam O&#39;Farrill',
+          rule: {
+            "monday": [ 14, 22, 4, 9 ],
+            "tuesday": [ 18, 26, 8, 13 ],
+            "wednesday": [ 17, 25, 7, 12 ],
+            "thursday": [ 16, 24, 6, 11 ],
+            "saturday": [ 15, 23, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 309,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2350859573/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://fabianalmazan.bandcamp.com/album/personalities',
+          a_string: 'Personalities by Fabian Almazan',
+          rule: {
+            "monday": [ 15, 23, 4, 10 ],
+            "tuesday": [ 14, 22, 4, 9 ],
+            "wednesday": [ 18, 26, 8, 13 ],
+            "thursday": [ 17, 25, 7, 12 ],
+            "saturday": [ 16, 24, 6, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

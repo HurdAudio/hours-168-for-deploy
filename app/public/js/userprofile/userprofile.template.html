@@ -149,7 +149,7 @@
 
     <div>
 
-      <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/1964977_10203532053928956_1620738254_n.jpg?oh=912289bc56416424f7d2e4ef3bfb8604&oe=5B41AE92">
+      <img src="">
       <p>Lucifer Sam</p>
       <br><br><br>
     </div>
@@ -4262,7 +4262,7 @@
             </div>
             <div id="musicModuleCommentSpace">
 
-              <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/1964977_10203532053928956_1620738254_n.jpg?oh=912289bc56416424f7d2e4ef3bfb8604&oe=5B41AE92">
+              <img src="">
               <p>Lucifer Sam commented <br> on 11 August 2017 at 07:07:00</p><br><br><br>
               <h3>Seems kind of identity-politicky to me.</h3>
             </div>
@@ -4559,10 +4559,10 @@
 
         <div class="whoScheduledMe">
           <main ng-repeat="music in $ctrl.activeMusicShares | orderBy : $ctrl.sortBy">
-            <!-- <div id="thisIsMusicShareDeleteDiv{{music.id}}" class="profileDeleteOption"> -->
+            <div id="thisIsMusicShareDeleteDiv{{music.id}}" class="profileDeleteOption">
 
-              <!-- <a class="btn" href="#" ng-click="$ctrl.deleteObservanceShare(observe.id)">delete</a><br><br> -->
-            <!-- </div> -->
+              <a class="btn" href="#" ng-click="$ctrl.deleteMusicShare(music.id)">delete</a><br><br>
+            </div>
 
 
             <img src="{{music.inv_img}}"><br>
@@ -4606,8 +4606,8 @@
                 <img src="{{comment.user_avatar_url}}"><br><br><br>
                 <br><br><br><p>From: {{comment.name}} <br>
                 on {{comment.cleanDate}}</p><br><br>
-                <!-- <textarea id="thisIsTheObservanceShareCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea> -->
-                <!-- <div class="thisIsObservanceShareCommentEditDoneDiv" id="thisIsObservanceShareCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheObservanceShareCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditObservanceShareCommentCompleted(comment.id)">done</a></div> -->
+                <textarea id="thisIsTheMusicShareCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea>
+                <div class="thisIsObservanceShareCommentEditDoneDiv" id="thisIsMusicShareCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheMusicShareCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditMusicShareCommentCompleted(comment.id)">done</a></div>
                 <h3 id="thisIsMusicShareCommentComment{{comment.id}}">{{comment.comment}}</h3><br>
 
                 <!-- <div id="deleteMusicShareCommentConfirm{{comment.id}}" class="messageEditDelete">
@@ -4617,10 +4617,10 @@
                   <a class="btn" href="#" ng-click="$ctrl.userArtShareCommentDeleteConfirmClick(art.id)">yes</a>
                 </div> -->
 
-                <!-- <div id="editDeleteArtShareCommentDiv{{art.id}}" class="messageEditDelete">
-                  <a class="btn" href="#" ng-click="$ctrl.userEditArtShareComment(art.id)">edit</a>
-                  <a class="btn" href="#" ng-click="$ctrl.userDeleteArtShareComment(art.id)">delete</a>
-                </div><br><br><br><br> -->
+                <div id="editDeleteMusicShareCommentDiv{{comment.id}}" class="messageEditDelete">
+                  <a class="btn" href="#" ng-click="$ctrl.userEditMusicShareComment(comment.id)">edit</a>
+                  <a class="btn" href="#" ng-click="$ctrl.userDeleteMusicShareComment(comment.id)">delete</a>
+                </div><br><br><br><br>
               </main>
             </div>
           </main>

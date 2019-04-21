@@ -4756,6 +4756,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 265,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1948868375/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://farflownfalcon.bandcamp.com/album/backyard-animals-ep',
+          a_string: 'Backyard Animals EP by Far Flown Falcon',
+          rule: {
+            "monday": [ 6, 17, 28, 30 ],
+            "tuesday": [ 5, 16, 27, 9 ],
+            "wednesday": [ 9, 20, 1, 5 ],
+            "thursday": [ 8, 19, 30, 4 ],
+            "saturday": [ 7, 18, 29, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 266,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4176790627/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://farflownfalcon.bandcamp.com/album/a-crown-on-a-chain-ep',
+          a_string: 'A Crown on a Chain EP by Far Flown Falcon',
+          rule: {
+            "monday": [ 8, 19, 30, 4 ],
+            "tuesday": [ 7, 18, 29, 1 ],
+            "wednesday": [ 6, 17, 28, 10 ],
+            "thursday": [ 10, 21, 2, 6 ],
+            "saturday": [ 9, 20, 1, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 267,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1456238624/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/4-track-recording-session',
+          a_string: '4-Track Recording Session by The Green Arrows',
+          rule: {
+            "monday": [ 9, 20, 1, 5 ],
+            "tuesday": [ 8, 19, 30, 4 ],
+            "wednesday": [ 7, 18, 29, 1 ],
+            "thursday": [ 6, 17, 28, 10 ],
+            "saturday": [ 10, 21, 2, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

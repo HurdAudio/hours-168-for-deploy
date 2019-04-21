@@ -4648,6 +4648,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 259,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2455858241/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/cold-waves-of-color-vol-1-uk-new-wave-post-punk-electronic-1981-1985',
+          a_string: 'Cold Waves of Color * Vol 1 (UK new wave post punk electronic 1981-1985) by Various Artists: Cold Waves of Color',
+          rule: {
+            "monday": [ 8, 16, 22, 28 ],
+            "tuesday": [ 9, 15, 21, 27 ],
+            "wednesday": [ 13, 19, 25, 31 ],
+            "thursday": [ 12, 18, 24, 30 ],
+            "saturday": [ 9, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 260,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1880359590/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/cold-waves-of-color-vol-2-uk-new-wave-post-punk-electronic-1981-1985',
+          a_string: 'Cold Waves of Color * Vol 2 (UK new wave post punk electronic 1981-1985) by Various Artists: Cold Waves of Color',
+          rule: {
+            "monday": [ 9, 17, 23, 29 ],
+            "tuesday": [ 8, 16, 22, 28 ],
+            "wednesday": [ 9, 15, 21, 27 ],
+            "thursday": [ 13, 19, 25, 31 ],
+            "saturday": [ 12, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 261,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3094717064/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/el-pito-latin-jazz-guaracha-descarga-66',
+          a_string: 'El Pito (latin jazz guaracha descarga &#39;66) by Alfredito Linares y su sonora',
+          rule: {
+            "monday": [ 12, 18, 24, 30 ],
+            "tuesday": [ 9, 17, 23, 29 ],
+            "wednesday": [ 8, 16, 22, 28 ],
+            "thursday": [ 9, 15, 21, 27 ],
+            "saturday": [ 13, 19, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

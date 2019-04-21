@@ -1166,6 +1166,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#BDCCCD',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 84,
+          user_id: 1,
+          theme: 'Glass',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/glass-1823113_1920.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '190%',
+          color_dark: '#010101',
+          color_medium: '#82AED0',
+          color_light: '#DFDFDF',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -1180,6 +1180,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#F19140',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 85,
+          user_id: 1,
+          theme: 'Silk/Velvet',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/quilting-2581992_1920.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#621712',
+          color_medium: '#C05E53',
+          color_light: '#C4C5B3',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5836,6 +5836,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 325,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=90384216/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/teatro-assente',
+          a_string: 'Teatro Assente by Taku Unami/Takahiro Kawaguchi',
+          rule: {
+            "monday": [ 21, 28, 29, 30 ],
+            "tuesday": [ 25, 1, 2, 3 ],
+            "wednesday": [ 24, 30, 31, 2 ],
+            "thursday": [ 23, 30, 31, 1 ],
+            "saturday": [ 22, 28, 29, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 326,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=856737431/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/2-seconds-b-minor-wave',
+          a_string: '2 seconds/b minor/wave by Michael Pisaro/Taku Sugimoto',
+          rule: {
+            "monday": [ 22, 28, 29, 30 ],
+            "tuesday": [ 21, 28, 29, 30 ],
+            "wednesday": [ 25, 1, 2, 3 ],
+            "thursday": [ 24, 30, 31, 2 ],
+            "saturday": [ 23, 30, 31, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 327,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1113964827/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/--2',
+          a_string: 'Φ by Keith Rowe/Radu Malfatti',
+          rule: {
+            "monday": [ 23, 30, 31, 1 ],
+            "tuesday": [ 22, 28, 29, 30 ],
+            "wednesday": [ 21, 28, 29, 30 ],
+            "thursday": [ 25, 1, 2, 3 ],
+            "saturday": [ 24, 30, 31, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

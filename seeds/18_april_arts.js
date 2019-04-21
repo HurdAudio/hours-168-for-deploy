@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Nash-Chris-Denofia-painting.jpg',
+          title: 'Chris Denofia Painting',
+          artist: 'Jeremy Nash',
+          year: '2012',
+          rule: {
+            "monday": [ 11, 15, 30, 28 ],
+            "tuesday": [ 8, 14, 20, 26 ],
+            "wednesday": [ 9, 14, 20, 26 ],
+            "thursday": [ 8, 13, 19, 25 ],
+            "friday": [ 13, 19, 24, 31 ],
+            "saturday": [ 27, 17, 23, 29 ],
+            "sunday": [ 12, 15, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Nash-Benito-Santiago-Painting.jpg',
+          title: 'Benito Santiago Painting',
+          artist: 'Jeremy Nash',
+          year: '1988',
+          rule: {
+            "monday": [ 12, 15, 23, 29 ],
+            "tuesday": [ 11, 15, 30, 28 ],
+            "wednesday": [ 8, 14, 20, 26 ],
+            "thursday": [ 9, 14, 20, 26 ],
+            "friday": [ 8, 13, 19, 25 ],
+            "saturday": [ 13, 19, 24, 31 ],
+            "sunday": [ 27, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/nash-Rudy-Regalado-1958-padres.jpg',
+          title: 'Rudy Regalado',
+          artist: 'Jeremy Nash',
+          year: '1958',
+          rule: {
+            "monday": [ 28, 18, 24, 30 ],
+            "tuesday": [ 13, 16, 24, 30 ],
+            "wednesday": [ 12, 16, 1, 29 ],
+            "thursday": [ 9, 15, 21, 27 ],
+            "friday": [ 10, 15, 21, 27 ],
+            "saturday": [ 9, 14, 20, 26 ],
+            "sunday": [ 14, 20, 25, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/nash-fred-mcgriff-padres-sketch.jpg',
+          title: 'Fred McGriff',
+          artist: 'Jeremy Nash',
+          year: '2012',
+          rule: {
+            "monday": [ 14, 20, 25, 1 ],
+            "tuesday": [ 28, 18, 24, 30 ],
+            "wednesday": [ 13, 16, 24, 30 ],
+            "thursday": [ 12, 16, 1, 29 ],
+            "friday": [ 9, 15, 21, 27 ],
+            "saturday": [ 10, 15, 21, 27 ],
+            "sunday": [ 9, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/nash-mat-latos-padres-sketch.jpg',
+          title: 'Mat Latos Sketch',
+          artist: 'Jeremy Nash',
+          year: '2012',
+          rule: {
+            "monday": [ 9, 14, 20, 26 ],
+            "tuesday": [ 14, 20, 25, 1 ],
+            "wednesday": [ 28, 18, 24, 30 ],
+            "thursday": [ 13, 16, 24, 30 ],
+            "friday": [ 12, 16, 1, 29 ],
+            "saturday": [ 9, 15, 21, 27 ],
+            "sunday": [ 10, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

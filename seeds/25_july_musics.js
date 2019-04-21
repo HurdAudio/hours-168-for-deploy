@@ -5188,6 +5188,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 289,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=823027525/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://theresonars1.bandcamp.com/album/no-exit',
+          a_string: 'No Exit by The Resonars',
+          rule: {
+            "monday": [ 8, 10, 14, 22 ],
+            "tuesday": [ 12, 14, 18, 26 ],
+            "wednesday": [ 11, 13, 17, 25 ],
+            "thursday": [ 10, 12, 16, 24 ],
+            "saturday": [ 9, 10, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 290,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1788995354/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://viviennestyg.bandcamp.com/album/rose-of-texas-ep',
+          a_string: 'ROSE OF TEXAS ep by Vivienne Styg',
+          rule: {
+            "monday": [ 9, 10, 15, 23 ],
+            "tuesday": [ 8, 10, 14, 22 ],
+            "wednesday": [ 12, 14, 18, 26 ],
+            "thursday": [ 11, 13, 17, 25 ],
+            "saturday": [ 10, 12, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 291,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1658051686/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://worldbrain.bandcamp.com/album/peer-2-peer',
+          a_string: 'Peer 2 Peer by WORLD BRAIN',
+          rule: {
+            "monday": [ 10, 12, 16, 24 ],
+            "tuesday": [ 9, 10, 15, 23 ],
+            "wednesday": [ 8, 10, 14, 22 ],
+            "thursday": [ 12, 14, 18, 26 ],
+            "saturday": [ 11, 13, 17, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

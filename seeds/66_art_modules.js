@@ -3304,6 +3304,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 276,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/5a4faa254931463d018b45d4-750-563.jpg',
+          title: 'Six Flags theme park — New Orleans, Louisiana',
+          artist: 'unknown artist',
+          year: '2018',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 277,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/5a4faa273639203d008b464b-750-563.jpg.jpg',
+          title: 'Elkmont Historic District — Elkmont, Tennessee',
+          artist: 'ehrlif',
+          year: '2018',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 278,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/5a4faa2749314643018b45d2-750-563.jpg',
+          title: 'Kaluakoi Resort — Molokai Ranch, Hawaii',
+          artist: 'Sherry Ott',
+          year: '2018',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 279,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/5a4faa264931463d038b45c7-750-563.jpg',
+          title: 'Letchworth Village — Thiells, New York',
+          artist: 'Forsaken Fotos',
+          year: '2018',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 280,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/5a4faa2649314622008b45b5-750-563.jpg',
+          title: 'Garnet, Montana',
+          artist: 'Bureau of Land Management',
+          year: '2018',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

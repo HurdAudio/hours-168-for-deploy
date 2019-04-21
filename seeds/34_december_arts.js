@@ -8704,6 +8704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 436,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/39-10,Adv1.jpg',
+          title: 'Adventure illustration',
+          artist: 'Johnny Clymer',
+          year: '1939',
+          rule: {
+            "monday": [ 4, 17, 25, 31 ],
+            "tuesday": [ 3, 15, 24, 30 ],
+            "wednesday": [ 2, 15, 23, 29 ],
+            "thursday": [ 1, 14, 22, 28 ],
+            "friday": [ 31, 13, 21, 27 ],
+            "saturday": [ 30, 11, 10, 26 ],
+            "sunday": [ 29, 11, 30, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 437,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/42-04-25,WS.jpg',
+          title: 'Western Story',
+          artist: 'Dunc Coburn',
+          year: '1942',
+          rule: {
+            "monday": [ 29, 11, 30, 6 ],
+            "tuesday": [ 4, 17, 25, 31 ],
+            "wednesday": [ 3, 15, 24, 30 ],
+            "thursday": [ 2, 15, 23, 29 ],
+            "friday": [ 1, 14, 22, 28 ],
+            "saturday": [ 31, 13, 21, 27 ],
+            "sunday": [ 30, 11, 10, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 438,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/29-03,AirStories2.jpg',
+          title: 'Air Stories',
+          artist: 'C. B. Colby',
+          year: '1929',
+          rule: {
+            "monday": [ 30, 11, 10, 26 ],
+            "tuesday": [ 29, 11, 30, 6 ],
+            "wednesday": [ 4, 17, 25, 31 ],
+            "thursday": [ 3, 15, 24, 30 ],
+            "friday": [ 2, 15, 23, 29 ],
+            "saturday": [ 1, 14, 22, 28 ],
+            "sunday": [ 31, 13, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 439,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/45-06,Suspence.jpg',
+          title: 'Suspense Comics',
+          artist: 'L. B. Cole',
+          year: '1945',
+          rule: {
+            "monday": [ 31, 13, 21, 27 ],
+            "tuesday": [ 30, 11, 10, 26 ],
+            "wednesday": [ 29, 11, 30, 6 ],
+            "thursday": [ 4, 17, 25, 31 ],
+            "friday": [ 3, 15, 24, 30 ],
+            "saturday": [ 2, 15, 23, 29 ],
+            "sunday": [ 1, 14, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 440,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/.jpg',
+          title: 'Gelatin Isle',
+          artist: 'Charles Coll',
+          year: '1926',
+          rule: {
+            "monday": [ 1, 14, 22, 28 ],
+            "tuesday": [ 31, 13, 21, 27 ],
+            "wednesday": [ 30, 11, 10, 26 ],
+            "thursday": [ 29, 11, 30, 6 ],
+            "friday": [ 4, 17, 25, 31 ],
+            "saturday": [ 3, 15, 24, 30 ],
+            "sunday": [ 2, 15, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5620,6 +5620,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 313,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3944832616/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://solveigmatthildur.bandcamp.com/album/constantly-in-love',
+          a_string: 'Constantly In Love by Sólveig Matthildur',
+          rule: {
+            "monday": [ 15, 21, 27, 4 ],
+            "tuesday": [ 19, 25, 31, 8 ],
+            "wednesday": [ 18, 24, 30, 7 ],
+            "thursday": [ 17, 23, 29, 7 ],
+            "saturday": [ 15, 22, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 314,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=978850590/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jakartarecords-label.bandcamp.com/album/suzume',
+          a_string: 'SUZUME by J.Lamotta',
+          rule: {
+            "monday": [ 15, 22, 28, 5 ],
+            "tuesday": [ 15, 21, 27, 4 ],
+            "wednesday": [ 19, 25, 31, 8 ],
+            "thursday": [ 18, 24, 30, 7 ],
+            "saturday": [ 17, 23, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 315,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3992490043/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://kimmortal.bandcamp.com/album/x-marks-the-swirl',
+          a_string: 'X marks the Swirl by K!MMORTAL',
+          rule: {
+            "monday": [ 18, 24, 30, 8 ],
+            "tuesday": [ 16, 23, 29, 6 ],
+            "wednesday": [ 16, 22, 28, 5 ],
+            "thursday": [ 20, 26, 1, 9 ],
+            "saturday": [ 19, 25, 31, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
