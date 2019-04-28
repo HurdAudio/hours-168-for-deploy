@@ -5350,6 +5350,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 298,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3835034858/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://synphaera.bandcamp.com/album/particle-horizon',
+          a_string: 'Particle Horizon by Ascendant',
+          rule: {
+            "monday": [ 13, 17, 23, 4 ],
+            "tuesday": [ 12, 15, 20, 2 ],
+            "wednesday": [ 11, 14, 20, 1 ],
+            "thursday": [ 11, 14, 20, 31 ],
+            "saturday": [ 9, 17, 19, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 299,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1497608324/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://steveroden.bandcamp.com/album/sometime-in-the-late-80s',
+          a_string: 'sometime in the late 80s by steve roden',
+          rule: {
+            "monday": [ 9, 17, 19, 4 ],
+            "tuesday": [ 13, 17, 23, 4 ],
+            "wednesday": [ 12, 15, 20, 2 ],
+            "thursday": [ 11, 14, 20, 1 ],
+            "saturday": [ 11, 14, 20, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 300,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2864436322/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://richardchartier.bandcamp.com/album/spec',
+          a_string: 'spec. by RICHARD CHARTIER + TAYLOR DEUPREE',
+          rule: {
+            "monday": [ 11, 14, 20, 31 ],
+            "tuesday": [ 9, 17, 19, 4 ],
+            "wednesday": [ 13, 17, 23, 4 ],
+            "thursday": [ 12, 15, 20, 2 ],
+            "saturday": [ 11, 14, 20, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

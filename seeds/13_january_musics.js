@@ -5890,6 +5890,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 328,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4046934008/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/air-supply',
+          a_string: 'Air Supply by Graham Lambkin/Jason Lescalleet',
+          rule: {
+            "monday": [ 24, 30, 31, 2 ],
+            "tuesday": [ 23, 30, 31, 1 ],
+            "wednesday": [ 22, 28, 29, 30 ],
+            "thursday": [ 21, 28, 29, 30 ],
+            "saturday": [ 25, 1, 2, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 329,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1903531694/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/motubachii',
+          a_string: 'motubachii by Annette Krebs/Taku Unami',
+          rule: {
+            "monday": [ 26, 2, 3, 4 ],
+            "tuesday": [ 25, 31, 1, 3 ],
+            "wednesday": [ 24, 31, 1, 2 ],
+            "thursday": [ 23, 29, 30, 31 ],
+            "saturday": [ 22, 29, 30, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 330,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1710615610/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/musik-ein-portr-t-in-sehnsucht',
+          a_string: 'Musik: Ein Porträt In Sehnsucht by Burkhard Stangl/Kai Fagaschinski',
+          rule: {
+            "monday": [ 22, 29, 30, 31 ],
+            "tuesday": [ 26, 2, 3, 4 ],
+            "wednesday": [ 25, 31, 1, 3 ],
+            "thursday": [ 24, 31, 1, 2 ],
+            "saturday": [ 23, 29, 30, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

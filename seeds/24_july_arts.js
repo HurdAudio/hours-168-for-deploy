@@ -9804,6 +9804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 491,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/le-mur-qui-boit-2014.jpg',
+          title: 'Le mur qui boit',
+          artist: 'Michel Blazy',
+          year: '2014',
+          rule: {
+            "monday": [ 10, 19, 1, 12 ],
+            "tuesday": [ 8, 19, 31, 11 ],
+            "wednesday": [ 8, 19, 30, 31 ],
+            "thursday": [ 7, 18, 28, 30 ],
+            "friday": [ 6, 17, 28, 29 ],
+            "saturday": [ 5, 16, 27, 7 ],
+            "sunday": [ 11, 22, 2, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 492,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/flop.jpg',
+          title: 'Flop',
+          artist: 'JonOne',
+          year: '?',
+          rule: {
+            "monday": [ 11, 22, 2, 12 ],
+            "tuesday": [ 10, 19, 1, 12 ],
+            "wednesday": [ 8, 19, 31, 11 ],
+            "thursday": [ 8, 19, 30, 31 ],
+            "friday": [ 7, 18, 28, 30 ],
+            "saturday": [ 6, 17, 28, 29 ],
+            "sunday": [ 5, 16, 27, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 493,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/img-20170128-08183088.jpg',
+          title: 'Polyphony',
+          artist: 'Li CHEVALIER',
+          year: '?',
+          rule: {
+            "monday": [ 5, 16, 27, 7 ],
+            "tuesday": [ 11, 22, 2, 12 ],
+            "wednesday": [ 10, 19, 1, 12 ],
+            "thursday": [ 8, 19, 31, 11 ],
+            "friday": [ 8, 19, 30, 31 ],
+            "saturday": [ 7, 18, 28, 30 ],
+            "sunday": [ 6, 17, 28, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 494,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/femme-aux-lunettes-130x160cm-oil-on-canvas-9213.jpg',
+          title: 'La femme aux lunettes',
+          artist: 'Eric Massholder',
+          year: 'c.2013',
+          rule: {
+            "monday": [ 6, 17, 28, 29 ],
+            "tuesday": [ 5, 16, 27, 7 ],
+            "wednesday": [ 11, 22, 2, 12 ],
+            "thursday": [ 10, 19, 1, 12 ],
+            "friday": [ 8, 19, 31, 11 ],
+            "saturday": [ 8, 19, 30, 31 ],
+            "sunday": [ 7, 18, 28, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 495,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/mon-corps.jpg',
+          title: 'Mon corps',
+          artist: 'Miss.Tic',
+          year: '?',
+          rule: {
+            "monday": [ 7, 18, 28, 30 ],
+            "tuesday": [ 6, 17, 28, 29 ],
+            "wednesday": [ 5, 16, 27, 7 ],
+            "thursday": [ 11, 22, 2, 12 ],
+            "friday": [ 10, 19, 1, 12 ],
+            "saturday": [ 8, 19, 31, 11 ],
+            "sunday": [ 8, 19, 30, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

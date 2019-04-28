@@ -1054,6 +1054,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FEFBF5',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 76,
+          user_id: 1,
+          theme: 'Snow',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/willian-justen-de-vasconcellos-426899-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '140%',
+          color_dark: '#050E17',
+          color_medium: '#3F9CB8',
+          color_light: '#E7F2F8',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

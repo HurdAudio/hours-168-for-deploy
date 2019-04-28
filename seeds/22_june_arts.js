@@ -10004,6 +10004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 501,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/My-God-prod-945x856.jpg',
+          title: 'My God',
+          artist: 'Ingrid Bugge',
+          year: '?',
+          rule: {
+            "monday": [ 5, 15, 25, 3 ],
+            "tuesday": [ 11, 21, 1, 8 ],
+            "wednesday": [ 10, 20, 1, 8 ],
+            "thursday": [ 9, 19, 29, 27 ],
+            "friday": [ 8, 18, 28, 6 ],
+            "saturday": [ 17, 27, 7, 5 ],
+            "sunday": [ 6, 16, 26, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 502,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/12.jpg',
+          title: 'Human Body Parts in Close Up',
+          artist: 'Flora Borsi',
+          year: '?',
+          rule: {
+            "monday": [ 6, 16, 26, 4 ],
+            "tuesday": [ 5, 15, 25, 3 ],
+            "wednesday": [ 11, 21, 1, 8 ],
+            "thursday": [ 10, 20, 1, 8 ],
+            "friday": [ 9, 19, 29, 27 ],
+            "saturday": [ 8, 18, 28, 6 ],
+            "sunday": [ 17, 27, 7, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 503,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/body-art-Capture-Tokyo-Photography3.jpg',
+          title: 'Body Projection Capture Tokyo',
+          artist: 'Flora Borsi',
+          year: '?',
+          rule: {
+            "monday": [ 17, 27, 7, 5 ],
+            "tuesday": [ 6, 16, 26, 4 ],
+            "wednesday": [ 5, 15, 25, 3 ],
+            "thursday": [ 11, 21, 1, 8 ],
+            "friday": [ 10, 20, 1, 8 ],
+            "saturday": [ 9, 19, 29, 27 ],
+            "sunday": [ 8, 18, 28, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 504,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/sport_body_of_art_3-1544747981l.jpg',
+          title: 'Sport Body of Art 3',
+          artist: 'Alexsandr Lishchinskiy',
+          year: '?',
+          rule: {
+            "monday": [ 9, 19, 29, 7 ],
+            "tuesday": [ 18, 28, 8, 6 ],
+            "wednesday": [ 7, 17, 27, 5 ],
+            "thursday": [ 6, 16, 26, 4 ],
+            "friday": [ 12, 22, 2, 9 ],
+            "saturday": [ 11, 21, 2, 9 ],
+            "sunday": [ 10, 20, 30, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 505,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fineart-photo-frederique-claude-guillaumin.jpg',
+          title: 'Picture of Frédérique',
+          artist: 'Claude Guillaumin',
+          year: '?',
+          rule: {
+            "monday": [ 10, 20, 30, 28 ],
+            "tuesday": [ 9, 19, 29, 7 ],
+            "wednesday": [ 18, 28, 8, 6 ],
+            "thursday": [ 7, 17, 27, 5 ],
+            "friday": [ 6, 16, 26, 4 ],
+            "saturday": [ 12, 22, 2, 9 ],
+            "sunday": [ 11, 21, 2, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

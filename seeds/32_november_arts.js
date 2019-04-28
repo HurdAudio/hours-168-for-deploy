@@ -9004,6 +9004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 451,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-9-1-a-17-1990.jpg',
+          title: 'Untitled (9 - 1 - A - 17)',
+          artist: 'Yves Gaucher',
+          year: '1990',
+          rule: {
+            "monday": [ 6, 11, 17, 24 ],
+            "tuesday": [ 12, 17, 23, 28 ],
+            "wednesday": [ 11, 13, 21, 27 ],
+            "thursday": [ 10, 14, 21, 25 ],
+            "friday": [ 9, 12, 19, 24 ],
+            "saturday": [ 8, 12, 19, 24 ],
+            "sunday": [ 7, 12, 18, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 452,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/no-end-neon-1990.jpg',
+          title: 'No End Neon',
+          artist: 'Francois Morellet',
+          year: '1990',
+          rule: {
+            "monday": [ 7, 12, 18, 23 ],
+            "tuesday": [ 6, 11, 17, 24 ],
+            "wednesday": [ 12, 17, 23, 28 ],
+            "thursday": [ 11, 13, 21, 27 ],
+            "friday": [ 10, 14, 21, 25 ],
+            "saturday": [ 9, 12, 19, 24 ],
+            "sunday": [ 8, 12, 19, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 453,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/pink-square-1990.jpg',
+          title: 'Pink Square',
+          artist: 'Olivier Mosset',
+          year: '1990',
+          rule: {
+            "monday": [ 8, 12, 19, 24 ],
+            "tuesday": [ 7, 12, 18, 23 ],
+            "wednesday": [ 6, 11, 17, 24 ],
+            "thursday": [ 12, 17, 23, 28 ],
+            "friday": [ 11, 13, 21, 27 ],
+            "saturday": [ 10, 14, 21, 25 ],
+            "sunday": [ 9, 12, 19, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 454,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/heartbeats-1990.jpg',
+          title: 'Heartbeats',
+          artist: 'Roman Cotosman',
+          year: '1990',
+          rule: {
+            "monday": [ 9, 12, 19, 24 ],
+            "tuesday": [ 8, 12, 19, 24 ],
+            "wednesday": [ 7, 12, 18, 23 ],
+            "thursday": [ 6, 11, 17, 24 ],
+            "friday": [ 12, 17, 23, 28 ],
+            "saturday": [ 11, 13, 21, 27 ],
+            "sunday": [ 10, 14, 21, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 455,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/in-praise-of-hands-1990.jpg',
+          title: 'In praise of hands',
+          artist: 'Frederic Matys Thursz',
+          year: '1990',
+          rule: {
+            "monday": [ 11, 15, 22, 26 ],
+            "tuesday": [ 10, 13, 20, 25 ],
+            "wednesday": [ 9, 13, 20, 25 ],
+            "thursday": [ 8, 13, 19, 24 ],
+            "friday": [ 7, 12, 18, 25 ],
+            "saturday": [ 13, 18, 24, 29 ],
+            "sunday": [ 12, 14, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

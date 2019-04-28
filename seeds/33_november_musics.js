@@ -4810,6 +4810,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 268,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1016836622/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/jamb-e-os-m-ticos-sons-da-amaz-nia',
+          a_string: 'Jambú e Os Míticos Sons Da Amazônia by Various',
+          rule: {
+            "monday": [ 10, 21, 2, 6 ],
+            "tuesday": [ 9, 20, 1, 5 ],
+            "wednesday": [ 8, 19, 30, 4 ],
+            "thursday": [ 7, 18, 29, 1 ],
+            "saturday": [ 6, 17, 28, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 269,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1449091927/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/take-one-1974-79',
+          a_string: 'Take One (1974-79) by Hallelujah Chicken Run Band',
+          rule: {
+            "monday": [ 6, 17, 28, 10 ],
+            "tuesday": [ 10, 21, 2, 6 ],
+            "wednesday": [ 9, 20, 1, 5 ],
+            "thursday": [ 8, 19, 30, 4 ],
+            "saturday": [ 7, 18, 29, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 270,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1297314138/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/african-scream-contest-raw-psychedelic-afro-sounds-from-benin-togo-70s',
+          a_string: 'African Scream Contest - Raw &amp; Psychedelic Afro Sounds from Benin &amp; Togo 70s by Various',
+          rule: {
+            "monday": [ 7, 18, 29, 1 ],
+            "tuesday": [ 6, 17, 28, 10 ],
+            "wednesday": [ 10, 21, 2, 6 ],
+            "thursday": [ 9, 20, 1, 5 ],
+            "saturday": [ 8, 19, 30, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/IMG_2719.jpg',
+          title: 'Twins',
+          artist: 'artist unknwon',
+          year: 'xxi cent.',
+          rule: {
+            "monday": [ 10, 15, 21, 27 ],
+            "tuesday": [ 9, 14, 20, 26 ],
+            "wednesday": [ 14, 20, 25, 1 ],
+            "thursday": [ 28, 18, 24, 30 ],
+            "friday": [ 13, 16, 24, 30 ],
+            "saturday": [ 12, 16, 1, 29 ],
+            "sunday": [ 9, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/mlbmt1965opt1_1024x1024.jpg',
+          title: 'Minnesota Twins 1965',
+          artist: 'Nola McConnan',
+          year: '1965',
+          rule: {
+            "monday": [ 9, 15, 21, 27 ],
+            "tuesday": [ 10, 15, 21, 27 ],
+            "wednesday": [ 9, 14, 20, 26 ],
+            "thursday": [ 14, 20, 25, 1 ],
+            "friday": [ 28, 18, 24, 30 ],
+            "saturday": [ 13, 16, 24, 30 ],
+            "sunday": [ 12, 16, 1, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/mlbstadv_min3.jpg',
+          title: 'Minimalist Metropolitan Stadium',
+          artist: 'S. Preston Chuhon',
+          year: '2016',
+          rule: {
+            "monday": [ 12, 16, 1, 29 ],
+            "tuesday": [ 9, 15, 21, 27 ],
+            "wednesday": [ 10, 15, 21, 27 ],
+            "thursday": [ 9, 14, 20, 26 ],
+            "friday": [ 14, 20, 25, 1 ],
+            "saturday": [ 28, 18, 24, 30 ],
+            "sunday": [ 13, 16, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/joe_mauer_twins_pancake.jpg',
+          title: 'Joe Mauer Minnesota Twins Baseball Pancake Art',
+          artist: 'Dan Lacey',
+          year: '2009',
+          rule: {
+            "monday": [ 13, 16, 24, 30 ],
+            "tuesday": [ 12, 16, 1, 29 ],
+            "wednesday": [ 9, 15, 21, 27 ],
+            "thursday": [ 10, 15, 21, 27 ],
+            "friday": [ 9, 14, 20, 26 ],
+            "saturday": [ 14, 20, 25, 1 ],
+            "sunday": [ 28, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Target-Field--Minnesota-Twins_art.jpg',
+          title: 'Target Field',
+          artist: 'Frank Romeo',
+          year: '2010',
+          rule: {
+            "monday": [ 29, 19, 25, 1 ],
+            "tuesday": [ 14, 17, 25, 1 ],
+            "wednesday": [ 13, 17, 2, 30 ],
+            "thursday": [ 10, 16, 22, 28 ],
+            "friday": [ 11, 16, 22, 28 ],
+            "saturday": [ 10, 15, 21, 27 ],
+            "sunday": [ 15, 21, 26, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

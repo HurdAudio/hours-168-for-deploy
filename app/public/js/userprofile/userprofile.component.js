@@ -314,6 +314,44 @@
       vm.userEditMusicShareComment = userEditMusicShareComment;
       vm.userEditMusicShareCommentCompleted = userEditMusicShareCommentCompleted;
       vm.deleteMusicShare = deleteMusicShare;
+      vm.addNewArtShareComment = addNewArtShareComment;
+
+      function addNewArtShareComment(artShareId) {
+        let index;
+        let check;
+        let commentIndex;
+
+        $http.get(`/art_shares/${artShareId}`)
+        .then(artShareData => {
+          let artShare = artShareData.data;
+          for(let i = 0; i < vm.activeArtShares.length; i++) {
+            if (parseInt(vm.activeArtShares[i].id) === parseInt(artShareId)) {
+              index = i;
+            }
+          }
+          if (vm.activeArtShares[index].comments === undefined) {
+            vm.activeArtShares[index].comments = [];
+          }
+          commentIndex = vm.activeArtShares[index].comments.length - 1;
+          let subObj = {
+            user_id: currentUserId,
+            art_share: artShareId,
+            comment: ''
+          };
+          $http.post('/art_share_comments', subObj)
+          .then(postedCommentData => {
+            let postedComment = postedCommentData.data[0];
+            vm.activeArtShares[index].comments[commentIndex] = postedComment;
+            getArtShareCommenterDetails(postedComment, index, commentIndex);
+            check = new Date(postedComment.created_at);
+            vm.activeArtShares[index].comments[commentIndex].cleanDate = cleanDateHoliday(postedComment.created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.';
+
+            setTimeout(() => {
+              document.getElementById('thisIsTheArtShareCommentEditor' + postedComment.id).focus();
+            }, 250);
+          });
+        });
+      }
 
       function deleteMusicShare(musicId) {
         $http.delete(`/music_shares/${musicId}`)
@@ -885,6 +923,35 @@
         });
       }
 
+      function emptyArtShareCommentDelete(commentId) {
+        $http.delete(`/art_share_comments/${commentId}`)
+        .then(deletedCommentData => {
+          let deletedComment = deletedCommentData.data;
+          for (let i = 0; i < vm.activeArtShares.length; i++) {
+            if (parseInt(vm.activeArtShares[i].id) === parseInt(deletedComment.art_share)) {
+              for (let j = 0; j < vm.activeArtShares[i].comments.length; j++) {
+                if (parseInt(vm.activeArtShares[i].comments[j].id) === parseInt(deletedComment.id)) {
+                  vm.activeArtShares[i].comments.splice(j, 1);
+                  return;
+                }
+              }
+            }
+          }
+        });
+      }
+
+      function removeEmptyArtShareComments() {
+        $http.get(`/art_share_commentsbyuser/${currentUserId}`)
+        .then(userCommentsData => {
+          let userComments = userCommentsData.data;
+          for (let i = 0; i < userComments.length; i++) {
+            if (userComments[i].comment === '') {
+              emptyArtShareCommentDelete(userComments[i].id);
+            }
+          }
+        });
+      }
+
       function userEditArtShareCommentCompleted(commentId, artId) {
         let thisIsTheArtShareCommentEditor = document.getElementById('thisIsTheArtShareCommentEditor' + commentId);
         let thisIsArtCommentEditDoneDiv = document.getElementById('thisIsArtCommentEditDoneDiv' + commentId);
@@ -914,6 +981,13 @@
             thisIsArtShareCommentComment.setAttribute("style", "visibility: visible;");
             editDeleteArtShareCommentDiv.setAttribute("style", "display: initial;");
           }
+          setTimeout(() => {
+            removeEmptyArtShareComments();
+            setTimeout(() => {
+              retrieveUserArtShares();
+            }, 1500);
+          }, 500);
+
         });
       }
 
@@ -921,13 +995,13 @@
         $http.get(`/art_share_comments/${commentId}`)
         .then(commentData => {
           let comment = commentData.data;
-          let thisIsTheArtShareCommentEditor = document.getElementById('thisIsTheArtShareCommentEditor' + comment.id);
-          let thisIsArtShareCommentComment = document.getElementById('thisIsArtShareCommentComment' + comment.id);
-          document.getElementById('editDeleteArtShareCommentDiv' + comment.id).setAttribute("style", "display: none;");
+          let thisIsTheArtShareCommentEditor = document.getElementById('thisIsTheArtShareCommentEditor' + commentId);
+          let thisIsArtShareCommentComment = document.getElementById('thisIsArtShareCommentComment' + commentId);
+          document.getElementById('editDeleteArtShareCommentDiv' + commentId).setAttribute("style", "display: none;");
           thisIsTheArtShareCommentEditor.setAttribute("style", "display: initial;");
           thisIsTheArtShareCommentEditor.value = comment.comment;
           thisIsArtShareCommentComment.setAttribute("style", "visibility: hidden;");
-          document.getElementById('thisIsArtShareCommentEditDoneDiv' + comment.id).setAttribute("style", "display: initial;");
+          document.getElementById('thisIsArtCommentEditDoneDiv' + commentId).setAttribute("style", "display: initial;");
         });
       }
 

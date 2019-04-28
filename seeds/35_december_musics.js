@@ -4702,6 +4702,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 262,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1878069042/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/pal-cielo-drive-my-car-peru-latin-soul-funk-70s',
+          a_string: 'Pal cielo (Drive my car) Peru Latin Soul Funk 70&#39;s by Conj. Los Torres',
+          rule: {
+            "monday": [ 13, 19, 25, 31 ],
+            "tuesday": [ 12, 18, 24, 30 ],
+            "wednesday": [ 9, 17, 23, 29 ],
+            "thursday": [ 8, 16, 22, 28 ],
+            "saturday": [ 9, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 263,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=958535986/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/peruvian-psychedelic-rock-vol-2',
+          a_string: 'Peruvian Psychedelic Rock - Vol 2 by Various Artists',
+          rule: {
+            "monday": [ 9, 15, 21, 27 ],
+            "tuesday": [ 13, 19, 25, 31 ],
+            "wednesday": [ 12, 18, 24, 30 ],
+            "thursday": [ 9, 17, 23, 29 ],
+            "saturday": [ 8, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 264,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1269286603/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/odyssey-ep-1974-usa-psych-prog-rock',
+          a_string: 'Odyssey &quot;EP&quot; (1974 USA Psych Prog Rock) by Odyssey',
+          rule: {
+            "monday": [ 8, 16, 22, 28 ],
+            "tuesday": [ 9, 15, 21, 27 ],
+            "wednesday": [ 13, 19, 25, 31 ],
+            "thursday": [ 12, 18, 24, 30 ],
+            "saturday": [ 9, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

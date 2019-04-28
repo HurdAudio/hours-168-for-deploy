@@ -5134,6 +5134,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 286,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3384766438/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://outnowrecordings.bandcamp.com/album/open-circuit',
+          a_string: 'Open Circuit by Rick Parker / Eyal Maoz / Yonadav Halevy / Tim Berne',
+          rule: {
+            "monday": [ 20, 28, 10, 9 ],
+            "tuesday": [ 19, 27, 9, 8 ],
+            "wednesday": [ 18, 26, 8, 7 ],
+            "thursday": [ 17, 25, 7, 6 ],
+            "saturday": [ 21, 29, 11, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 287,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3664789898/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://balancepointacoustics.bandcamp.com/album/winter-solos-bpa-7-for-robert-ryman',
+          a_string: 'Winter Solos BPA -7 for Robert Ryman by Damon Smith',
+          rule: {
+            "monday": [ 22, 30, 12, 11 ],
+            "tuesday": [ 21, 29, 11, 10 ],
+            "wednesday": [ 20, 28, 10, 9 ],
+            "thursday": [ 19, 27, 9, 8 ],
+            "saturday": [ 18, 26, 8, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 288,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3228603007/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://harshnoisemovement.bandcamp.com/album/swimming-through-carnal-waters',
+          a_string: 'Swimming Through Carnal Waters by Koi Karp',
+          rule: {
+            "monday": [ 18, 26, 8, 7 ],
+            "tuesday": [ 22, 30, 12, 11 ],
+            "wednesday": [ 21, 29, 11, 10 ],
+            "thursday": [ 20, 28, 10, 9 ],
+            "saturday": [ 19, 27, 9, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

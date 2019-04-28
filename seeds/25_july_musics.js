@@ -5242,6 +5242,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 292,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=843931662/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://otobokebeaver.bandcamp.com/album/itekoma-hits',
+          a_string: 'ITEKOMA HITS by Otoboke Beaver',
+          rule: {
+            "monday": [ 11, 13, 17, 25 ],
+            "tuesday": [ 10, 12, 16, 24 ],
+            "wednesday": [ 9, 10, 15, 23 ],
+            "thursday": [ 8, 10, 14, 22 ],
+            "saturday": [ 12, 14, 18, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 293,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4277743560/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://emilyreo.bandcamp.com/album/only-you-can-see-it',
+          a_string: 'Only You Can See It by Emily Reo',
+          rule: {
+            "monday": [ 12, 14, 18, 26 ],
+            "tuesday": [ 11, 13, 17, 25 ],
+            "wednesday": [ 10, 12, 16, 24 ],
+            "thursday": [ 9, 10, 15, 23 ],
+            "saturday": [ 8, 10, 14, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 294,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=570460401/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://anxiousmusic.bandcamp.com/album/not-passing',
+          a_string: 'Not Passing by Comfort',
+          rule: {
+            "monday": [ 9, 11, 15, 23 ],
+            "tuesday": [ 13, 15, 19, 27 ],
+            "wednesday": [ 12, 14, 18, 26 ],
+            "thursday": [ 11, 13, 17, 25 ],
+            "saturday": [ 10, 11, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

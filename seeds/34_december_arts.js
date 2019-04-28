@@ -8789,7 +8789,7 @@ exports.seed = function(knex, Promise) {
           id: 440,
           user_id: 1,
           theme: 'Pulp Art',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/.jpg',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/26-00,GelatinIsles.jpg',
           title: 'Gelatin Isle',
           artist: 'Charles Coll',
           year: '1926',
@@ -8801,6 +8801,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 4, 17, 25, 31 ],
             "saturday": [ 3, 15, 24, 30 ],
             "sunday": [ 2, 15, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 441,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/41-Sum,Jackpot2.jpg',
+          title: 'Sum Jackpot Comics',
+          artist: 'Sam Cooper',
+          year: '1941',
+          rule: {
+            "monday": [ 3, 16, 24, 30 ],
+            "tuesday": [ 2, 15, 23, 29 ],
+            "wednesday": [ 1, 14, 22, 28 ],
+            "thursday": [ 31, 12, 11, 27 ],
+            "friday": [ 20, 12, 31, 7 ],
+            "saturday": [ 5, 18, 26, 1 ],
+            "sunday": [ 4, 16, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 442,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/25-05-30,Adventure.jpg',
+          title: 'Adventure',
+          artist: 'Thomas Cooper',
+          year: '1925',
+          rule: {
+            "monday": [ 4, 16, 25, 31 ],
+            "tuesday": [ 3, 16, 24, 30 ],
+            "wednesday": [ 2, 15, 23, 29 ],
+            "thursday": [ 1, 14, 22, 28 ],
+            "friday": [ 31, 12, 11, 27 ],
+            "saturday": [ 20, 12, 31, 7 ],
+            "sunday": [ 5, 18, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 443,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/19-00,Palmolive.jpg',
+          title: 'Palmolive Soap',
+          artist: 'Dean Cornwell',
+          year: '1919',
+          rule: {
+            "monday": [ 5, 18, 26, 1 ],
+            "tuesday": [ 4, 16, 25, 31 ],
+            "wednesday": [ 3, 16, 24, 30 ],
+            "thursday": [ 2, 15, 23, 29 ],
+            "friday": [ 1, 14, 22, 28 ],
+            "saturday": [ 31, 12, 11, 27 ],
+            "sunday": [ 20, 12, 31, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 444,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-05,LoneRngr-1.jpg',
+          title: 'The Lone Ranger',
+          artist: 'Peter Costanza',
+          year: '1937',
+          rule: {
+            "monday": [ 20, 12, 31, 7 ],
+            "tuesday": [ 5, 18, 26, 1 ],
+            "wednesday": [ 4, 16, 25, 31 ],
+            "thursday": [ 3, 16, 24, 30 ],
+            "friday": [ 2, 15, 23, 29 ],
+            "saturday": [ 1, 14, 22, 28 ],
+            "sunday": [ 31, 12, 11, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 445,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/15-04-24,SEP.jpg',
+          title: 'Sat.Evening Post',
+          artist: 'John A. Coughlin',
+          year: '1915',
+          rule: {
+            "monday": [ 31, 12, 11, 27 ],
+            "tuesday": [ 20, 12, 31, 7 ],
+            "wednesday": [ 5, 18, 26, 1 ],
+            "thursday": [ 4, 16, 25, 31 ],
+            "friday": [ 3, 16, 24, 30 ],
+            "saturday": [ 2, 15, 23, 29 ],
+            "sunday": [ 1, 14, 22, 28 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

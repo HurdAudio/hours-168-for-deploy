@@ -11004,6 +11004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 551,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/orange-and-yellow(1).jpg',
+          title: 'Orange and Yellow',
+          artist: 'Mark Rothko',
+          year: '1956',
+          rule: {
+            "monday": [ 27, 29, 30, 1 ],
+            "tuesday": [ 29, 31, 4, 7 ],
+            "wednesday": [ 31, 2, 3, 4 ],
+            "thursday": [ 19, 21, 13, 2 ],
+            "friday": [ 19, 21, 13, 2 ],
+            "saturday": [ 24, 22, 14, 17 ],
+            "sunday": [ 24, 25, 16, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 552,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/vertical-january-1956-1956.jpg',
+          title: 'Vertical: January 1956',
+          artist: 'Patrick Heron',
+          year: '1956',
+          rule: {
+            "monday": [ 24, 25, 16, 20 ],
+            "tuesday": [ 27, 29, 30, 1 ],
+            "wednesday": [ 29, 31, 4, 7 ],
+            "thursday": [ 31, 2, 3, 4 ],
+            "friday": [ 19, 21, 13, 2 ],
+            "saturday": [ 19, 21, 13, 2 ],
+            "sunday": [ 24, 22, 14, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 553,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/moonship-1972.jpg',
+          title: 'Moonship',
+          artist: 'Terry Frost',
+          year: '1972',
+          rule: {
+            "monday": [ 25, 23, 15, 18 ],
+            "tuesday": [ 25, 26, 17, 21 ],
+            "wednesday": [ 28, 30, 31, 2 ],
+            "thursday": [ 30, 1, 5, 8 ],
+            "friday": [ 1, 3, 4, 5 ],
+            "saturday": [ 20, 22, 14, 3 ],
+            "sunday": [ 20, 22, 14, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 554,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/modez-1971.jpg',
+          title: 'Modez',
+          artist: 'Cesar Paternosto',
+          year: '1971',
+          rule: {
+            "monday": [ 20, 22, 14, 3 ],
+            "tuesday": [ 25, 23, 15, 18 ],
+            "wednesday": [ 25, 26, 17, 21 ],
+            "thursday": [ 28, 30, 31, 2 ],
+            "friday": [ 30, 1, 5, 8 ],
+            "saturday": [ 1, 3, 4, 5 ],
+            "sunday": [ 20, 22, 14, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 555,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/blue-delfina-1961.jpg',
+          title: 'Blue Delfina',
+          artist: 'Jack Youngerman',
+          year: '1961',
+          rule: {
+            "monday": [ 20, 22, 14, 3 ],
+            "tuesday": [ 20, 22, 14, 3 ],
+            "wednesday": [ 25, 23, 15, 18 ],
+            "thursday": [ 25, 26, 17, 21 ],
+            "friday": [ 28, 30, 31, 2 ],
+            "saturday": [ 30, 1, 5, 8 ],
+            "sunday": [ 1, 3, 4, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

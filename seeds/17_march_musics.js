@@ -5674,6 +5674,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 316,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4052844335/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://claudefontaine.bandcamp.com/album/claude-fontaine',
+          a_string: 'Claude Fontaine by Claude Fontaine',
+          rule: {
+            "monday": [ 19, 25, 31, 8 ],
+            "tuesday": [ 18, 24, 30, 8 ],
+            "wednesday": [ 16, 23, 29, 6 ],
+            "thursday": [ 16, 22, 28, 5 ],
+            "saturday": [ 20, 26, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 317,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=678690423/size=large/bgcol=ffffff/linkcol=0687f5/license_id=579/tracklist=false/transparent=true/',
+          href_string: 'http://aldousharding.bandcamp.com/album/designer',
+          a_string: 'Designer by Aldous Harding',
+          rule: {
+            "monday": [ 20, 26, 1, 9 ],
+            "tuesday": [ 19, 25, 31, 8 ],
+            "wednesday": [ 18, 24, 30, 8 ],
+            "thursday": [ 16, 23, 29, 6 ],
+            "saturday": [ 16, 22, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 318,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2353196556/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://haco-sound.bandcamp.com/album/secret-garden',
+          a_string: 'Secret Garden by Haco',
+          rule: {
+            "monday": [ 16, 22, 28, 5 ],
+            "tuesday": [ 20, 26, 1, 9 ],
+            "wednesday": [ 19, 25, 31, 8 ],
+            "thursday": [ 18, 24, 30, 8 ],
+            "saturday": [ 16, 23, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

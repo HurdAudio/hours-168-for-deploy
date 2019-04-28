@@ -5782,6 +5782,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 322,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3765181054/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ralphiiereese.bandcamp.com/album/bladesylvania-shafara-tyl-fania',
+          a_string: 'BLADESYLVANIA [shafara(tyl)fania] by Ralphiie Reese',
+          rule: {
+            "monday": [ 7, 1, 3, 9 ],
+            "tuesday": [ 19, 23, 25, 29 ],
+            "wednesday": [ 22, 25, 27, 29 ],
+            "thursday": [ 4, 27, 29, 2 ],
+            "saturday": [ 6, 29, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 323,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2511210461/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://vinnyvindetta.bandcamp.com/album/marvolo',
+          a_string: 'Marvolo by Vindetta',
+          rule: {
+            "monday": [ 6, 29, 2, 8 ],
+            "tuesday": [ 7, 1, 3, 9 ],
+            "wednesday": [ 19, 23, 25, 29 ],
+            "thursday": [ 22, 25, 27, 29 ],
+            "saturday": [ 4, 27, 29, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 324,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1396139150/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://marqspekt.bandcamp.com/album/da-buze-bruvaz-prezent-him-lo-giallo-point-oj-glovez',
+          a_string: 'Da Buze Bruvaz Prezent Him Lo &amp; Giallo Point- OJ GLOVEZ by MarQ Spekt',
+          rule: {
+            "monday": [ 4, 27, 29, 2 ],
+            "tuesday": [ 6, 29, 2, 8 ],
+            "wednesday": [ 7, 1, 3, 9 ],
+            "thursday": [ 19, 23, 25, 29 ],
+            "saturday": [ 22, 25, 27, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

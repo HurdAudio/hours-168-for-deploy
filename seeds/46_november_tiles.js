@@ -1068,6 +1068,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#88898B',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 77,
+          user_id: 1,
+          theme: 'Monochromatic',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/streetsofNYC1_monochromatic.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '140%',
+          color_dark: '#2B2B2B',
+          color_medium: '#A69674',
+          color_light: '#FBFAFD',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

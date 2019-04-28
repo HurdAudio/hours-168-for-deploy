@@ -5458,6 +5458,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 304,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1614447228/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://aaronsiegel.bandcamp.com/album/a-great-many',
+          a_string: 'A Great Many by Aaron Siegel',
+          rule: {
+            "monday": [ 13, 19, 26, 8 ],
+            "tuesday": [ 12, 18, 25, 7 ],
+            "wednesday": [ 11, 17, 24, 6 ],
+            "thursday": [ 15, 21, 28, 10 ],
+            "saturday": [ 14, 20, 27, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 305,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4208159533/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://quatuorbozzini-actuellecd.bandcamp.com/album/phill-niblock-baobab',
+          a_string: 'Phill Niblock: Baobab by Quatuor Bozzini',
+          rule: {
+            "monday": [ 14, 20, 27, 9 ],
+            "tuesday": [ 13, 19, 26, 8 ],
+            "wednesday": [ 12, 18, 25, 7 ],
+            "thursday": [ 11, 17, 24, 6 ],
+            "saturday": [ 15, 21, 28, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 306,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4038434363/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gerauschhersteller.bandcamp.com/album/there-is-nothing-we-really-need-to-do-that-isnt-dangerous-rewilding-john-cage',
+          a_string: 'There is nothing we really need to do that isn&#39;t dangerous - Rewilding John Cage by Gerauschhersteller',
+          rule: {
+            "monday": [ 15, 21, 28, 10 ],
+            "tuesday": [ 14, 20, 27, 9 ],
+            "wednesday": [ 13, 19, 26, 8 ],
+            "thursday": [ 12, 18, 25, 7 ],
+            "saturday": [ 11, 17, 24, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

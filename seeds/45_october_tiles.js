@@ -1082,6 +1082,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FDF6E9',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 78,
+          user_id: 1,
+          theme: 'Autumnal',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/aaron-burden-143101-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '140%',
+          color_dark: '#0C0E0D',
+          color_medium: '#841F03',
+          color_light: '#FDFFFA',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

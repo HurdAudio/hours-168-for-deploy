@@ -10604,6 +10604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/after-giorgio-morandi-1985.jpg',
+          title: 'After Giorgio Morandi',
+          artist: 'Sherrie Levine',
+          year: '1985',
+          rule: {
+            "monday": [ 10, 21, 28, 7 ],
+            "tuesday": [ 9, 19, 27, 6 ],
+            "wednesday": [ 8, 18, 27, 5 ],
+            "thursday": [ 14, 23, 2, 10 ],
+            "friday": [ 13, 23, 31, 10 ],
+            "saturday": [ 10, 22, 30, 9 ],
+            "sunday": [ 11, 21, 29, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/shady-1-1983.jpg',
+          title: 'Shady 1',
+          artist: 'Alison Wilding',
+          year: '1983',
+          rule: {
+            "monday": [ 12, 22, 30, 9 ],
+            "tuesday": [ 11, 22, 29, 8 ],
+            "wednesday": [ 10, 20, 28, 7 ],
+            "thursday": [ 9, 19, 28, 6 ],
+            "friday": [ 15, 24, 3, 11 ],
+            "saturday": [ 14, 24, 1, 11 ],
+            "sunday": [ 12, 23, 31, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/hybrid-human-2010.jpg',
+          title: 'Hybrid Human',
+          artist: 'Wanda Koop',
+          year: '2010',
+          rule: {
+            "monday": [ 12, 23, 31, 10 ],
+            "tuesday": [ 12, 22, 30, 9 ],
+            "wednesday": [ 11, 22, 29, 8 ],
+            "thursday": [ 10, 20, 28, 7 ],
+            "friday": [ 9, 19, 28, 6 ],
+            "saturday": [ 15, 24, 3, 11 ],
+            "sunday": [ 14, 24, 1, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/warship-2006.jpg',
+          title: 'Warship',
+          artist: 'Leiko Ikemura',
+          year: '2006',
+          rule: {
+            "monday": [ 14, 24, 1, 11 ],
+            "tuesday": [ 12, 23, 31, 10 ],
+            "wednesday": [ 12, 22, 30, 9 ],
+            "thursday": [ 11, 22, 29, 8 ],
+            "friday": [ 10, 20, 28, 7 ],
+            "saturday": [ 9, 19, 28, 6 ],
+            "sunday": [ 15, 24, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/25.jpg',
+          title: '«Integrity»',
+          artist: 'Ludwiga Nesterovich',
+          year: '2013',
+          rule: {
+            "monday": [ 15, 24, 3, 11 ],
+            "tuesday": [ 14, 24, 1, 11 ],
+            "wednesday": [ 12, 23, 31, 10 ],
+            "thursday": [ 12, 22, 30, 9 ],
+            "friday": [ 11, 22, 29, 8 ],
+            "saturday": [ 10, 20, 28, 7 ],
+            "sunday": [ 9, 19, 28, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

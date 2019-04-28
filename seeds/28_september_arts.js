@@ -9404,6 +9404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 471,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/first-night-i-1979.jpg',
+          title: 'First Night I',
+          artist: 'Aki Kuroda',
+          year: '1979',
+          rule: {
+            "monday": [ 9, 15, 3, 11 ],
+            "tuesday": [ 8, 13, 2, 10 ],
+            "wednesday": [ 6, 13, 1, 9 ],
+            "thursday": [ 6, 12, 30, 8 ],
+            "friday": [ 25, 11, 29, 8 ],
+            "saturday": [ 24, 1, 28, 6 ],
+            "sunday": [ 2, 9, 27, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 472,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/dwarf-with-monkey-2005.jpg',
+          title: 'Dwarf with Monkey',
+          artist: 'Stefan Caltia',
+          year: '2005',
+          rule: {
+            "monday": [ 2, 9, 27, 4 ],
+            "tuesday": [ 9, 15, 3, 11 ],
+            "wednesday": [ 8, 13, 2, 10 ],
+            "thursday": [ 6, 13, 1, 9 ],
+            "friday": [ 6, 12, 30, 8 ],
+            "saturday": [ 25, 11, 29, 8 ],
+            "sunday": [ 24, 1, 28, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 473,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/sound-of-silence-1998.jpg',
+          title: 'Sound of Silence',
+          artist: 'Gillian Ayres',
+          year: '1998',
+          rule: {
+            "monday": [ 24, 1, 28, 6 ],
+            "tuesday": [ 2, 9, 27, 4 ],
+            "wednesday": [ 9, 15, 3, 11 ],
+            "thursday": [ 8, 13, 2, 10 ],
+            "friday": [ 6, 13, 1, 9 ],
+            "saturday": [ 6, 12, 30, 8 ],
+            "sunday": [ 25, 11, 29, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 474,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1965-1.jpg',
+          title: 'Untitled',
+          artist: 'Eva Hesse',
+          year: '1965',
+          rule: {
+            "monday": [ 25, 11, 29, 8 ],
+            "tuesday": [ 24, 1, 28, 6 ],
+            "wednesday": [ 2, 9, 27, 4 ],
+            "thursday": [ 9, 15, 3, 11 ],
+            "friday": [ 8, 13, 2, 10 ],
+            "saturday": [ 6, 13, 1, 9 ],
+            "sunday": [ 6, 12, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 475,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/dawn-1990.jpg',
+          title: 'Dawn',
+          artist: 'Odd Nerdrum',
+          year: '1990',
+          rule: {
+            "monday": [ 6, 12, 30, 8 ],
+            "tuesday": [ 25, 11, 29, 8 ],
+            "wednesday": [ 24, 1, 28, 6 ],
+            "thursday": [ 2, 9, 27, 4 ],
+            "friday": [ 9, 15, 3, 11 ],
+            "saturday": [ 8, 13, 2, 10 ],
+            "sunday": [ 6, 13, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

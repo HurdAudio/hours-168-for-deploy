@@ -10204,6 +10204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 511,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-fascist-kennel-1941.jpg',
+          title: 'The Nazi Kennel',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 8, 18, 26, 28 ],
+            "tuesday": [ 5, 16, 26, 15 ],
+            "wednesday": [ 4, 15, 25, 3 ],
+            "thursday": [ 2, 12, 22, 30 ],
+            "friday": [ 31, 9, 21, 30 ],
+            "saturday": [ 10, 22, 1, 9 ],
+            "sunday": [ 10, 21, 30, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 512,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-fascist-kennel-1941-1.jpg',
+          title: 'The Nazi Kennel',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 10, 21, 30, 9 ],
+            "tuesday": [ 8, 18, 26, 28 ],
+            "wednesday": [ 5, 16, 26, 15 ],
+            "thursday": [ 4, 15, 25, 3 ],
+            "friday": [ 2, 12, 22, 30 ],
+            "saturday": [ 31, 9, 21, 30 ],
+            "sunday": [ 10, 22, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 513,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-moscow-kalatch-is-not-of-their-batch-1941.jpg',
+          title: 'The Moscow kalatch is not of their batch…',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 10, 22, 1, 9 ],
+            "tuesday": [ 10, 21, 30, 9 ],
+            "wednesday": [ 8, 18, 26, 28 ],
+            "thursday": [ 5, 16, 26, 15 ],
+            "friday": [ 4, 15, 25, 3 ],
+            "saturday": [ 2, 12, 22, 30 ],
+            "sunday": [ 31, 9, 21, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 514,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1941.jpg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 31, 9, 21, 30 ],
+            "tuesday": [ 10, 22, 1, 9 ],
+            "wednesday": [ 10, 21, 30, 9 ],
+            "thursday": [ 8, 18, 26, 28 ],
+            "friday": [ 5, 16, 26, 15 ],
+            "saturday": [ 4, 15, 25, 3 ],
+            "sunday": [ 2, 12, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 515,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1941-1.jpg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 2, 12, 22, 30 ],
+            "tuesday": [ 31, 9, 21, 30 ],
+            "wednesday": [ 10, 22, 1, 9 ],
+            "thursday": [ 10, 21, 30, 9 ],
+            "friday": [ 8, 18, 26, 28 ],
+            "saturday": [ 5, 16, 26, 15 ],
+            "sunday": [ 4, 15, 25, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

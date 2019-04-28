@@ -4902,7 +4902,7 @@ exports.seed = function(knex, Promise) {
           updated_at: new Date('2017-07-20T13:44:00.000Z')
         },
         {
-          id: 274,
+          id: 273,
           user_id: 1,
           theme: 'Punk, Metal & Nurse with Wound',
           source: 'bandcamp',
@@ -4915,6 +4915,60 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 16, 26, 5, 8 ],
             "thursday": [ 15, 25, 4, 7 ],
             "saturday": [ 14, 24, 4, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 274,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1815829856/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://chicagoresearch.bandcamp.com/album/cr002-natural-history',
+          a_string: 'CR002 &quot;Natural History&quot; by UNDERSTUDY',
+          rule: {
+            "monday": [ 14, 24, 4, 6 ],
+            "tuesday": [ 13, 23, 2, 5 ],
+            "wednesday": [ 17, 27, 6, 9 ],
+            "thursday": [ 16, 26, 5, 8 ],
+            "saturday": [ 15, 25, 4, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 275,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4055602129/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://staticshockrecords.bandcamp.com/album/the-cosmo-cleaners',
+          a_string: 'The Cosmo Cleaners by Uranium Club',
+          rule: {
+            "monday": [ 15, 25, 4, 7 ],
+            "tuesday": [ 14, 24, 4, 6 ],
+            "wednesday": [ 13, 23, 2, 5 ],
+            "thursday": [ 17, 27, 6, 9 ],
+            "saturday": [ 16, 26, 5, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 276,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1856211378/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://smoulder.bandcamp.com/album/times-of-obscene-evil-and-wild-daring',
+          a_string: 'Times of Obscene Evil and Wild Daring by Smoulder',
+          rule: {
+            "monday": [ 16, 26, 5, 8 ],
+            "tuesday": [ 15, 25, 4, 7 ],
+            "wednesday": [ 14, 24, 4, 6 ],
+            "thursday": [ 13, 23, 2, 5 ],
+            "saturday": [ 17, 27, 6, 9 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

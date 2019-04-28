@@ -5566,6 +5566,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 310,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3308463900/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://artensembleofchicago.bandcamp.com/album/we-are-on-the-edge-a-50th-anniversary-celebration',
+          a_string: 'We Are On The Edge: A 50th Anniversary Celebration by Art Ensemble of Chicago',
+          rule: {
+            "monday": [ 16, 24, 6, 11 ],
+            "tuesday": [ 15, 23, 4, 10 ],
+            "wednesday": [ 14, 22, 4, 9 ],
+            "thursday": [ 18, 26, 8, 13 ],
+            "saturday": [ 17, 25, 7, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 311,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4164798325/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://artensembleofchicago.bandcamp.com/album/the-meeting',
+          a_string: 'The Meeting by Art Ensemble of Chicago',
+          rule: {
+            "monday": [ 17, 25, 7, 12 ],
+            "tuesday": [ 16, 24, 6, 11 ],
+            "wednesday": [ 15, 23, 4, 10 ],
+            "thursday": [ 14, 22, 4, 9 ],
+            "saturday": [ 18, 26, 8, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 312,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2340233852/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://avec-audace.bandcamp.com/album/laperirostum',
+          a_string: 'laperirostum by audace',
+          rule: {
+            "monday": [ 18, 26, 8, 13 ],
+            "tuesday": [ 17, 25, 7, 12 ],
+            "wednesday": [ 16, 24, 6, 11 ],
+            "thursday": [ 15, 23, 4, 10 ],
+            "saturday": [ 14, 22, 4, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

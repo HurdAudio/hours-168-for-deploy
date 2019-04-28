@@ -2344,6 +2344,36 @@ exports.seed = function(knex, Promise) {
           a_string: 'SUNN O))) - 2006.02.11, Cockpit, Leeds, UK by SUNN O)))',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 235,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3049406294/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20060210-islington-academy-london-uk',
+          a_string: 'SUNN O))) - 2006.02.10, Islington Academy, London, UK by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 236,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=322860981/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20051216-o-first-unitarian-church-philadelphia-pa-usa',
+          a_string: 'SUNN O))) - 2005.12.16, O))) First Unitarian Church, Philadelphia, PA, USA by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 237,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3815341047/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20051029-berbatis-pan-portland-or-usa',
+          a_string: 'SUNN O))) - 2005.10.29, Berbati&#39;s Pan, Portland, OR, USA by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

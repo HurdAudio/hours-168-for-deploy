@@ -1124,6 +1124,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#C4C5C9',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 81,
+          user_id: 1,
+          theme: 'Steam',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/wonho-sung-90414-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#010B3E',
+          color_medium: '#415882',
+          color_light: '#FDFDFD',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5026,6 +5026,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 280,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3583826062/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://panzerpappa.bandcamp.com/album/summarisk-suite',
+          a_string: 'Summarisk Suite by Panzerpappa',
+          rule: {
+            "monday": [ 13, 3, 11, 4 ],
+            "tuesday": [ 13, 2, 10, 4 ],
+            "wednesday": [ 11, 1, 9, 3 ],
+            "thursday": [ 15, 5, 13, 7 ],
+            "saturday": [ 14, 4, 12, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 281,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3249301421/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cloudshelter.bandcamp.com/album/s-t',
+          a_string: 'S/T by Cloud Shelter',
+          rule: {
+            "monday": [ 14, 4, 12, 6 ],
+            "tuesday": [ 13, 3, 11, 4 ],
+            "wednesday": [ 13, 2, 10, 4 ],
+            "thursday": [ 11, 1, 9, 3 ],
+            "saturday": [ 15, 5, 13, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 282,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=512218744/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://salamah.bandcamp.com/album/toute-chose-visible',
+          a_string: 'Toute Chose Visible by Malade[s]',
+          rule: {
+            "monday": [ 15, 5, 13, 7 ],
+            "tuesday": [ 14, 4, 12, 6 ],
+            "wednesday": [ 13, 3, 11, 4 ],
+            "thursday": [ 13, 2, 10, 4 ],
+            "saturday": [ 11, 1, 9, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

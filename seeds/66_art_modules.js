@@ -3364,6 +3364,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 281,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/6ade39c1a504e68d3db6bb4383643df6.jpg',
+          title: 'Prídrangaviti Lighthouse',
+          artist: 'unknown artist',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 282,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/5c55cf32bd454d0f12ddeafa53543a07.jpg',
+          title: 'One of Pablo Escobar’s drug planes',
+          artist: 'unknown artist',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 283,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/f7d3260ecd7c330f08275ce9e2776e7a.jpg',
+          title: 'Athens Olympic Venues Ten Years Later',
+          artist: 'unknown artist',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 284,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/79067c776f0ee85b82076c1e768988b9.jpg',
+          title: 'Six Flags Jazzland in New Orleans, Louisiana',
+          artist: 'unknown artist',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 285,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/5e95a502179e84a20a03d1894f7d0d61.jpg',
+          title: 'Former Tobacco Warehouse Factory - Liverpool, Stanley Dock - England.',
+          artist: 'unknown artist',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

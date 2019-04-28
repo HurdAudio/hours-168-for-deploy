@@ -10804,6 +10804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 541,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/richard_yarde_ringshout.jpg',
+          title: 'Ringshout',
+          artist: 'Richard Yarde',
+          year: '2000',
+          rule: {
+            "monday": [ 20, 28, 7, 15 ],
+            "tuesday": [ 21, 1, 9, 17 ],
+            "wednesday": [ 27, 3, 9, 19 ],
+            "thursday": [ 26, 5, 13, 21 ],
+            "friday": [ 28, 9, 15, 21 ],
+            "saturday": [ 1, 9, 17, 27 ],
+            "sunday": [ 1, 11, 7, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 542,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/02RTIntuitiveeyeresend_600.jpg',
+          title: 'Cumberland Mntn SO West KY',
+          artist: 'Joseph Yoakum',
+          year: 'xx cent.',
+          rule: {
+            "monday": [ 1, 11, 7, 26 ],
+            "tuesday": [ 20, 28, 7, 15 ],
+            "wednesday": [ 21, 1, 9, 17 ],
+            "thursday": [ 27, 3, 9, 19 ],
+            "friday": [ 26, 5, 13, 21 ],
+            "saturday": [ 28, 9, 15, 21 ],
+            "sunday": [ 1, 9, 17, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 543,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/PY-10_A.jpg',
+          title: 'Purvis Young',
+          artist: 'Purvis Young',
+          year: '2019',
+          rule: {
+            "monday": [ 1, 9, 17, 27 ],
+            "tuesday": [ 1, 11, 7, 26 ],
+            "wednesday": [ 20, 28, 7, 15 ],
+            "thursday": [ 21, 1, 9, 17 ],
+            "friday": [ 27, 3, 9, 19 ],
+            "saturday": [ 26, 5, 13, 21 ],
+            "sunday": [ 28, 9, 15, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 544,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Tea_114_Jubilee.jpg',
+          title: 'Jubilee',
+          artist: 'Terry Adkins',
+          year: '2004',
+          rule: {
+            "monday": [ 28, 9, 15, 21 ],
+            "tuesday": [ 1, 9, 17, 27 ],
+            "wednesday": [ 1, 11, 7, 26 ],
+            "thursday": [ 20, 28, 7, 15 ],
+            "friday": [ 21, 1, 9, 17 ],
+            "saturday": [ 27, 3, 9, 19 ],
+            "sunday": [ 26, 5, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 545,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Mequitta-Ahuja-Birthday-Oil-on-Canvas-52-X80-2016.jpg',
+          title: 'Birthday',
+          artist: 'Mequitta Ahuja',
+          year: '2016',
+          rule: {
+            "monday": [ 26, 5, 13, 21 ],
+            "tuesday": [ 28, 9, 15, 21 ],
+            "wednesday": [ 1, 9, 17, 27 ],
+            "thursday": [ 1, 11, 7, 26 ],
+            "friday": [ 20, 28, 7, 15 ],
+            "saturday": [ 21, 1, 9, 17 ],
+            "sunday": [ 27, 3, 9, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
