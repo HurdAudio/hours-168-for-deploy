@@ -11,6 +11,7 @@ exports.up = function(knex, Promise) {
     table.timestamps(true, true);
   });
 };
+
 exports.down = function(knex, Promise) {
   return knex.schema.dropTable('music_shares');
 };

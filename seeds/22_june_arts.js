@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/14246823249s1c9dsc_9425adjustedlarge.jpg',
+          title: 'Graveyard',
+          artist: 'Julie Fletcher',
+          year: '2014',
+          rule: {
+            "monday": [ 11, 21, 2, 9 ],
+            "tuesday": [ 10, 20, 30, 28 ],
+            "wednesday": [ 9, 19, 29, 7 ],
+            "thursday": [ 18, 28, 8, 6 ],
+            "friday": [ 7, 17, 27, 5 ],
+            "saturday": [ 6, 16, 26, 4 ],
+            "sunday": [ 12, 22, 2, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/1428860383__036_27b1952provi_2_copie.jpg',
+          title: 'Vik',
+          artist: 'Samuel Feron',
+          year: '2014',
+          rule: {
+            "monday": [ 12, 22, 2, 9 ],
+            "tuesday": [ 11, 21, 2, 9 ],
+            "wednesday": [ 10, 20, 30, 28 ],
+            "thursday": [ 9, 19, 29, 7 ],
+            "friday": [ 18, 28, 8, 6 ],
+            "saturday": [ 7, 17, 27, 5 ],
+            "sunday": [ 6, 16, 26, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/1421134887k9z3wend_of_watch.jpg',
+          title: 'End of Watch',
+          artist: 'Darren Moore',
+          year: '2014',
+          rule: {
+            "monday": [ 6, 16, 26, 4 ],
+            "tuesday": [ 12, 22, 2, 9 ],
+            "wednesday": [ 11, 21, 2, 9 ],
+            "thursday": [ 10, 20, 30, 28 ],
+            "friday": [ 9, 19, 29, 7 ],
+            "saturday": [ 18, 28, 8, 6 ],
+            "sunday": [ 7, 17, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/1421516308uecs1twinlightfapa.jpg',
+          title: 'Twin Light',
+          artist: 'Mauro Mendula',
+          year: '2014',
+          rule: {
+            "monday": [ 7, 17, 27, 5 ],
+            "tuesday": [ 6, 16, 26, 4 ],
+            "wednesday": [ 12, 22, 2, 9 ],
+            "thursday": [ 11, 21, 2, 9 ],
+            "friday": [ 10, 20, 30, 28 ],
+            "saturday": [ 9, 19, 29, 7 ],
+            "sunday": [ 18, 28, 8, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/1432997412s7royfapa02.jpg',
+          title: 'The Dark Hedges',
+          artist: 'Bob McCallion',
+          year: '2014',
+          rule: {
+            "monday": [ 18, 28, 8, 6 ],
+            "tuesday": [ 7, 17, 27, 5 ],
+            "wednesday": [ 6, 16, 26, 4 ],
+            "thursday": [ 12, 22, 2, 9 ],
+            "friday": [ 11, 21, 2, 9 ],
+            "saturday": [ 10, 20, 30, 28 ],
+            "sunday": [ 9, 19, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

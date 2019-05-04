@@ -4972,6 +4972,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 277,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=365065560/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://profoundlorerecords.bandcamp.com/album/slit-throat-requiem',
+          a_string: 'Slit Throat Requiem by GARSDGHASTR',
+          rule: {
+            "monday": [ 17, 27, 6, 9 ],
+            "tuesday": [ 16, 26, 5, 8 ],
+            "wednesday": [ 15, 25, 4, 7 ],
+            "thursday": [ 14, 24, 4, 6 ],
+            "saturday": [ 13, 23, 2, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 278,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=360304690/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bloodharvestrecords.bandcamp.com/album/dwell',
+          a_string: 'Dwell by SUFFERING HOUR',
+          rule: {
+            "monday": [ 13, 23, 2, 5 ],
+            "tuesday": [ 17, 27, 6, 9 ],
+            "wednesday": [ 16, 26, 5, 8 ],
+            "thursday": [ 15, 25, 4, 7 ],
+            "saturday": [ 14, 24, 4, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 279,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3811702574/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://interarma.bandcamp.com/album/sulphur-english',
+          a_string: 'Sulphur English by Inter Arma',
+          rule: {
+            "monday": [ 14, 24, 4, 6 ],
+            "tuesday": [ 13, 23, 2, 5 ],
+            "wednesday": [ 17, 27, 6, 9 ],
+            "thursday": [ 16, 26, 5, 8 ],
+            "saturday": [ 15, 25, 4, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

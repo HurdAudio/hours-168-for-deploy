@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1941-2.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 4, 15, 25, 3 ],
+            "tuesday": [ 2, 12, 22, 30 ],
+            "wednesday": [ 31, 9, 21, 30 ],
+            "thursday": [ 10, 22, 1, 9 ],
+            "friday": [ 10, 21, 30, 9 ],
+            "saturday": [ 8, 18, 26, 28 ],
+            "sunday": [ 5, 16, 26, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1941-3.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 5, 16, 26, 15 ],
+            "tuesday": [ 4, 15, 25, 3 ],
+            "wednesday": [ 2, 12, 22, 30 ],
+            "thursday": [ 31, 9, 21, 30 ],
+            "friday": [ 10, 22, 1, 9 ],
+            "saturday": [ 10, 21, 30, 9 ],
+            "sunday": [ 8, 18, 26, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/we-repay-1941.jpeg',
+          title: 'We repay',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 9, 19, 27, 29 ],
+            "tuesday": [ 6, 17, 27, 16 ],
+            "wednesday": [ 5, 16, 26, 4 ],
+            "thursday": [ 3, 13, 23, 31 ],
+            "friday": [ 1, 10, 22, 31 ],
+            "saturday": [ 11, 23, 2, 10 ],
+            "sunday": [ 11, 22, 31, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/wipe-fascism-off-the-face-of-the-earth-front-page-of-the-moscow-news-27th-june-1941-1941.jpeg',
+          title: 'Wipe Fascism off the Face of the Earth! (Front page of the \'Moscow News\', 27th June 1941)',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 11, 22, 31, 10 ],
+            "tuesday": [ 9, 19, 27, 29 ],
+            "wednesday": [ 6, 17, 27, 16 ],
+            "thursday": [ 5, 16, 26, 4 ],
+            "friday": [ 3, 13, 23, 31 ],
+            "saturday": [ 1, 10, 22, 31 ],
+            "sunday": [ 11, 23, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/with-a-spear-our-foe-is-done-then-we-did-him-with-a-gun-as-before-with-steel-we-fought-him-so-1941.jpeg',
+          title: 'With a spear our foe is done, then we did him with a gun, as before with steel we fought him, so we smash him where we spot him!',
+          artist: 'Kukryniksy',
+          year: '1941',
+          rule: {
+            "monday": [ 11, 23, 2, 10 ],
+            "tuesday": [ 11, 22, 31, 10 ],
+            "wednesday": [ 9, 19, 27, 29 ],
+            "thursday": [ 6, 17, 27, 16 ],
+            "friday": [ 5, 16, 26, 4 ],
+            "saturday": [ 3, 13, 23, 31 ],
+            "sunday": [ 1, 10, 22, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4864,6 +4864,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 271,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4181811290/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/the-vodoun-effect-funk-sato-from-benins-obscure-labels-1972-1975',
+          a_string: 'The Vodoun Effect - Funk &amp; Sato from Benin&#39;s Obscure Labels 1972-1975 by Orchestre Poly-Rythmo de Cotonou',
+          rule: {
+            "monday": [ 8, 19, 30, 4 ],
+            "tuesday": [ 7, 18, 29, 1 ],
+            "wednesday": [ 6, 17, 28, 10 ],
+            "thursday": [ 10, 21, 2, 6 ],
+            "saturday": [ 9, 20, 1, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 272,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2019152471/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/legends-of-benin-afro-funk-cavacha-agbadja-afro-beat',
+          a_string: 'Legends Of Benin - Afro Funk, Cavacha, Agbadja, Afro-Beat by Various',
+          rule: {
+            "monday": [ 9, 20, 1, 5 ],
+            "tuesday": [ 8, 19, 30, 4 ],
+            "wednesday": [ 7, 18, 29, 1 ],
+            "thursday": [ 6, 17, 28, 10 ],
+            "saturday": [ 10, 21, 2, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 273,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4135078282/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/echos-hypnotiques-from-the-vaults-of-albarika-store-1969-1979',
+          a_string: 'Echos Hypnotiques - From the Vaults of Albarika Store 1969-1979 by Orchestre Poly Rythmo de Cotonou',
+          rule: {
+            "monday": [ 11, 22, 3, 7 ],
+            "tuesday": [ 10, 21, 2, 6 ],
+            "wednesday": [ 9, 20, 1, 5 ],
+            "thursday": [ 8, 19, 30, 2 ],
+            "saturday": [ 7, 18, 29, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

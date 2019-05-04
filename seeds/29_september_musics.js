@@ -5080,6 +5080,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 283,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3931162193/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cuneiformrecords.bandcamp.com/album/a-great-inhumane-adventure',
+          a_string: 'A Great Inhumane Adventure by Present',
+          rule: {
+            "monday": [ 11, 1, 9, 3 ],
+            "tuesday": [ 15, 5, 13, 7 ],
+            "wednesday": [ 14, 4, 12, 6 ],
+            "thursday": [ 13, 3, 11, 4 ],
+            "saturday": [ 13, 2, 10, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 284,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=581054831/size=large/bgcol=ffffff/linkcol=0687f5/license_id=118/tracklist=false/transparent=true/',
+          href_string: 'http://beak.bandcamp.com/album/-',
+          a_string: '&gt;&gt;&gt; by Beak&gt;',
+          rule: {
+            "monday": [ 13, 2, 10, 4 ],
+            "tuesday": [ 11, 1, 9, 3 ],
+            "wednesday": [ 15, 5, 13, 7 ],
+            "thursday": [ 14, 4, 12, 6 ],
+            "saturday": [ 13, 3, 11, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 285,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3242607970/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jackdupon.bandcamp.com/album/jackdupoulainponjar',
+          a_string: 'JackDuPoulainPonJar by Jack Dupon',
+          rule: {
+            "monday": [ 13, 3, 11, 4 ],
+            "tuesday": [ 13, 2, 10, 4 ],
+            "wednesday": [ 11, 1, 9, 3 ],
+            "thursday": [ 15, 5, 13, 7 ],
+            "saturday": [ 14, 4, 12, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

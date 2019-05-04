@@ -9904,6 +9904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 496,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/danseuse-espagnole-1990.jpeg',
+          title: 'Danseuse Espagnole',
+          artist: 'Blek le Rat',
+          year: '1990',
+          rule: {
+            "monday": [ 8, 19, 30, 31 ],
+            "tuesday": [ 7, 18, 28, 30 ],
+            "wednesday": [ 6, 17, 28, 29 ],
+            "thursday": [ 5, 16, 27, 7 ],
+            "friday": [ 11, 22, 2, 12 ],
+            "saturday": [ 10, 19, 1, 12 ],
+            "sunday": [ 8, 19, 31, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 497,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/qxo2-2-la-montagne-du-20-05-2010-2010.jpeg',
+          title: 'QXO2/2 - La Montagne du 20.05.2010',
+          artist: 'Jean-Francois Dubreuil',
+          year: '2010',
+          rule: {
+            "monday": [ 9, 20, 1, 12 ],
+            "tuesday": [ 9, 20, 31, 1 ],
+            "wednesday": [ 8, 19, 29, 31 ],
+            "thursday": [ 7, 18, 29, 30 ],
+            "friday": [ 6, 17, 28, 8 ],
+            "saturday": [ 12, 23, 3, 13 ],
+            "sunday": [ 11, 20, 2, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 498,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/instead-of-damning-the-darkness-it-s-better-to-light-a-little-lantern.jpeg',
+          title: 'Instead of damning the darkness, it\'s better to light a little lantern',
+          artist: 'Hassan Massoudy',
+          year: '?',
+          rule: {
+            "monday": [ 11, 20, 2, 13 ],
+            "tuesday": [ 9, 20, 1, 12 ],
+            "wednesday": [ 9, 20, 31, 1 ],
+            "thursday": [ 8, 19, 29, 31 ],
+            "friday": [ 7, 18, 29, 30 ],
+            "saturday": [ 6, 17, 28, 8 ],
+            "sunday": [ 12, 23, 3, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 499,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/beading-painting.jpeg',
+          title: 'Beading Painting',
+          artist: 'Daniel Dezeuze',
+          year: '?',
+          rule: {
+            "monday": [ 12, 23, 3, 13 ],
+            "tuesday": [ 11, 20, 2, 13 ],
+            "wednesday": [ 9, 20, 1, 12 ],
+            "thursday": [ 9, 20, 31, 1 ],
+            "friday": [ 8, 19, 29, 31 ],
+            "saturday": [ 7, 18, 29, 30 ],
+            "sunday": [ 6, 17, 28, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 500,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/drapeau-am-ricain-le-rouge-1968.jpeg',
+          title: 'Drapeau américain (Le Rouge)',
+          artist: 'Gerard Fromanger',
+          year: '1968',
+          rule: {
+            "monday": [ 6, 17, 28, 8 ],
+            "tuesday": [ 12, 23, 3, 13 ],
+            "wednesday": [ 11, 20, 2, 13 ],
+            "thursday": [ 9, 20, 1, 12 ],
+            "friday": [ 9, 20, 31, 1 ],
+            "saturday": [ 8, 19, 29, 31 ],
+            "sunday": [ 7, 18, 29, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

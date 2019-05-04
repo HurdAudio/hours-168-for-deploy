@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/bp_atlsp_1__91049.1499817382.1280.1280.jpg',
+          title: 'SunTrust Park - Atlanta Braves City Print Poster',
+          artist: 'The Stadium Shoppe',
+          year: 'xxi cent.',
+          rule: {
+            "monday": [ 15, 21, 26, 2 ],
+            "tuesday": [ 29, 19, 25, 1 ],
+            "wednesday": [ 14, 17, 25, 1 ],
+            "thursday": [ 13, 17, 2, 30 ],
+            "friday": [ 10, 16, 22, 28 ],
+            "saturday": [ 11, 16, 22, 28 ],
+            "sunday": [ 10, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/sunlife.jpeg',
+          title: 'Atlanta Braves Sunlife Park',
+          artist: 'unknown artist',
+          year: 'xxi cent.',
+          rule: {
+            "monday": [ 10, 15, 21, 27 ],
+            "tuesday": [ 15, 21, 26, 2 ],
+            "wednesday": [ 29, 19, 25, 1 ],
+            "thursday": [ 14, 17, 25, 1 ],
+            "friday": [ 13, 17, 2, 30 ],
+            "saturday": [ 10, 16, 22, 28 ],
+            "sunday": [ 11, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/mlb_turnerfield__28766.1490920997.1280.1280.jpg',
+          title: 'Atlanta Braves - Turner Field Art Poster',
+          artist: 'unknown artist',
+          year: 'xxi cent.',
+          rule: {
+            "monday": [ 11, 16, 22, 28 ],
+            "tuesday": [ 10, 15, 21, 27 ],
+            "wednesday": [ 15, 21, 26, 2 ],
+            "thursday": [ 29, 19, 25, 1 ],
+            "friday": [ 14, 17, 25, 1 ],
+            "saturday": [ 13, 17, 2, 30 ],
+            "sunday": [ 10, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/newsEngin.18222309_040117-suntrust-park-art_1914-5-UXCMBXTH2RY-680x383.jpg',
+          title: 'title unknown',
+          artist: 'Richard Sullivan',
+          year: 'xx cent.',
+          rule: {
+            "monday": [ 10, 16, 22, 28 ],
+            "tuesday": [ 11, 16, 22, 28 ],
+            "wednesday": [ 10, 15, 21, 27 ],
+            "thursday": [ 15, 21, 26, 2 ],
+            "friday": [ 29, 19, 25, 1 ],
+            "saturday": [ 14, 17, 25, 1 ],
+            "sunday": [ 13, 17, 2, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/newsEngin.18222309_040117-suntrust-park-art_1957-3.jpg',
+          title: 'title unknown',
+          artist: 'Richard Sullivan',
+          year: '1957',
+          rule: {
+            "monday": [ 13, 17, 2, 30 ],
+            "tuesday": [ 10, 16, 22, 28 ],
+            "wednesday": [ 11, 16, 22, 28 ],
+            "thursday": [ 10, 15, 21, 27 ],
+            "friday": [ 15, 21, 26, 2 ],
+            "saturday": [ 29, 19, 25, 1 ],
+            "sunday": [ 14, 17, 25, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

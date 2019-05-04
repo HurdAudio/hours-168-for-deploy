@@ -11104,6 +11104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 556,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/azalea-garden-may-1956-1956.jpeg',
+          title: 'Azalea Garden: May 1956',
+          artist: 'Patrick Heron',
+          year: '1956',
+          rule: {
+            "monday": [ 1, 3, 4, 5 ],
+            "tuesday": [ 20, 22, 14, 3 ],
+            "wednesday": [ 20, 22, 14, 3 ],
+            "thursday": [ 25, 23, 15, 18 ],
+            "friday": [ 25, 26, 17, 21 ],
+            "saturday": [ 28, 30, 31, 2 ],
+            "sunday": [ 30, 1, 5, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 557,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/j-ai-dit-noir-puis-rouge-puis-noir-encore-1975.jpeg',
+          title: 'J\'ai dit noir puis rouge puis noir encore',
+          artist: 'Huguette Arthur Bertrand',
+          year: '1975',
+          rule: {
+            "monday": [ 30, 1, 5, 8 ],
+            "tuesday": [ 1, 3, 4, 5 ],
+            "wednesday": [ 20, 22, 14, 3 ],
+            "thursday": [ 20, 22, 14, 3 ],
+            "friday": [ 25, 23, 15, 18 ],
+            "saturday": [ 25, 26, 17, 21 ],
+            "sunday": [ 28, 30, 31, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 558,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/aberddeen-i-1970.jpeg',
+          title: 'Aberddeen I',
+          artist: 'Walter Darby Bannard',
+          year: '1970',
+          rule: {
+            "monday": [ 28, 30, 31, 2 ],
+            "tuesday": [ 30, 1, 5, 8 ],
+            "wednesday": [ 1, 3, 4, 5 ],
+            "thursday": [ 20, 22, 14, 3 ],
+            "friday": [ 20, 22, 14, 3 ],
+            "saturday": [ 25, 23, 15, 18 ],
+            "sunday": [ 25, 26, 17, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 559,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-1970.jpeg',
+          title: 'Untitled',
+          artist: 'Moshe Kupferman',
+          year: '1970',
+          rule: {
+            "monday": [ 25, 26, 17, 21 ],
+            "tuesday": [ 28, 30, 31, 2 ],
+            "wednesday": [ 30, 1, 5, 8 ],
+            "thursday": [ 1, 3, 4, 5 ],
+            "friday": [ 20, 22, 14, 3 ],
+            "saturday": [ 20, 22, 14, 3 ],
+            "sunday": [ 25, 23, 15, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 560,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/20-pearls-5-2003.jpeg',
+          title: '20 Pearls (5)',
+          artist: 'Richard Tuttle',
+          year: '2003',
+          rule: {
+            "monday": [ 26, 24, 16, 19 ],
+            "tuesday": [ 26, 27, 18, 22 ],
+            "wednesday": [ 29, 31, 1, 3 ],
+            "thursday": [ 31, 2, 6, 9 ],
+            "friday": [ 2, 4, 5, 6 ],
+            "saturday": [ 21, 23, 15, 4 ],
+            "sunday": [ 21, 23, 15, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -8904,6 +8904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 446,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/45-02-25,SS.jpg',
+          title: 'Short Stories',
+          artist: 'Lee Brown Coye',
+          year: '1945',
+          rule: {
+            "monday": [ 1, 14, 22, 28 ],
+            "tuesday": [ 31, 12, 11, 27 ],
+            "wednesday": [ 20, 12, 31, 7 ],
+            "thursday": [ 5, 18, 26, 1 ],
+            "friday": [ 4, 16, 25, 31 ],
+            "saturday": [ 3, 16, 24, 30 ],
+            "sunday": [ 2, 15, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 447,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/23-09-08,CntryGnt.jpg',
+          title: 'Country Gentlemen',
+          artist: 'Fred Craft',
+          year: '1923',
+          rule: {
+            "monday": [ 2, 15, 23, 29 ],
+            "tuesday": [ 1, 14, 22, 28 ],
+            "wednesday": [ 31, 12, 11, 27 ],
+            "thursday": [ 20, 12, 31, 7 ],
+            "friday": [ 5, 18, 26, 1 ],
+            "saturday": [ 4, 16, 25, 31 ],
+            "sunday": [ 3, 16, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 448,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/53-01,ExctW.jpg',
+          title: 'Exciting Western',
+          artist: 'Mel Crair',
+          year: '1953',
+          rule: {
+            "monday": [ 4, 17, 25, 31 ],
+            "tuesday": [ 3, 16, 24, 30 ],
+            "wednesday": [ 2, 15, 23, 29 ],
+            "thursday": [ 1, 13, 12, 28 ],
+            "friday": [ 21, 13, 1, 8 ],
+            "saturday": [ 6, 19, 27, 2 ],
+            "sunday": [ 5, 17, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 449,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/45-07,JungleComics.jpg',
+          title: 'Jungle Comics',
+          artist: 'Reed Crandall',
+          year: '1945',
+          rule: {
+            "monday": [ 5, 17, 26, 1 ],
+            "tuesday": [ 4, 17, 25, 31 ],
+            "wednesday": [ 3, 16, 24, 30 ],
+            "thursday": [ 2, 15, 23, 29 ],
+            "friday": [ 1, 13, 12, 28 ],
+            "saturday": [ 21, 13, 1, 8 ],
+            "sunday": [ 6, 19, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 450,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/10-00,UMYrbk2.jpg',
+          title: 'Univ of MO Year Book',
+          artist: 'Monte Crews',
+          year: '1910',
+          rule: {
+            "monday": [ 6, 19, 27, 2 ],
+            "tuesday": [ 5, 17, 26, 1 ],
+            "wednesday": [ 4, 17, 25, 31 ],
+            "thursday": [ 3, 16, 24, 30 ],
+            "friday": [ 2, 15, 23, 29 ],
+            "saturday": [ 1, 13, 12, 28 ],
+            "sunday": [ 21, 13, 1, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

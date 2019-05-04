@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/corrugated-floor-works.jpeg',
+          title: 'Corrugated Floor Works',
+          artist: 'Jill Baroff',
+          year: '?',
+          rule: {
+            "monday": [ 9, 19, 28, 6 ],
+            "tuesday": [ 15, 24, 3, 11 ],
+            "wednesday": [ 14, 24, 1, 11 ],
+            "thursday": [ 12, 23, 31, 10 ],
+            "friday": [ 12, 22, 30, 9 ],
+            "saturday": [ 11, 22, 29, 8 ],
+            "sunday": [ 10, 20, 28, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/4229-coastalcloudsxv48x72oil.jpeg',
+          title: 'Coastal Clouds XV (diptych)',
+          artist: 'Finch Sheila',
+          year: '?',
+          rule: {
+            "monday": [ 10, 20, 28, 7 ],
+            "tuesday": [ 9, 19, 28, 6 ],
+            "wednesday": [ 15, 24, 3, 11 ],
+            "thursday": [ 14, 24, 1, 11 ],
+            "friday": [ 12, 23, 31, 10 ],
+            "saturday": [ 12, 22, 30, 9 ],
+            "sunday": [ 11, 22, 29, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/c-est-la-vie.jpeg',
+          title: 'C\'est la vie',
+          artist: 'Miss.Tic',
+          year: '?',
+          rule: {
+            "monday": [ 11, 22, 29, 8 ],
+            "tuesday": [ 10, 20, 28, 7 ],
+            "wednesday": [ 9, 19, 28, 6 ],
+            "thursday": [ 15, 24, 3, 11 ],
+            "friday": [ 14, 24, 1, 11 ],
+            "saturday": [ 12, 23, 31, 10 ],
+            "sunday": [ 12, 22, 30, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-2013-1(1).jpeg',
+          title: 'Untitled',
+          artist: 'Dilek Demirci',
+          year: '2013',
+          rule: {
+            "monday": [ 13, 23, 31, 10 ],
+            "tuesday": [ 12, 23, 30, 9 ],
+            "wednesday": [ 11, 21, 29, 8 ],
+            "thursday": [ 10, 20, 29, 7 ],
+            "friday": [ 16, 25, 4, 12 ],
+            "saturday": [ 15, 25, 2, 12 ],
+            "sunday": [ 13, 24, 1, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/francesca-woodman-roma-1978.jpeg',
+          title: 'Roma',
+          artist: 'Francesca Woodman',
+          year: '1978',
+          rule: {
+            "monday": [ 13, 24, 1, 11 ],
+            "tuesday": [ 13, 23, 31, 10 ],
+            "wednesday": [ 12, 23, 30, 9 ],
+            "thursday": [ 11, 21, 29, 8 ],
+            "friday": [ 10, 20, 29, 7 ],
+            "saturday": [ 16, 25, 4, 12 ],
+            "sunday": [ 15, 25, 2, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

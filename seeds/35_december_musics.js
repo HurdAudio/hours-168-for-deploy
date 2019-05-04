@@ -4756,6 +4756,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 265,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1403659098/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/tiro-al-blanco-cumbia-funk-dancefloor-dj-killer-track',
+          a_string: 'Tiro al blanco (cumbia / funk) Dancefloor DJ Killer track ! by Los Sanders',
+          rule: {
+            "monday": [ 9, 17, 23, 29 ],
+            "tuesday": [ 8, 16, 22, 28 ],
+            "wednesday": [ 9, 15, 21, 27 ],
+            "thursday": [ 13, 19, 25, 31 ],
+            "saturday": [ 12, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 266,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1335065557/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/gozador-guaguanco',
+          a_string: 'Gozador (Guaguanco) by Hush y sus Magnificos',
+          rule: {
+            "monday": [ 13, 19, 25, 31 ],
+            "tuesday": [ 10, 18, 24, 30 ],
+            "wednesday": [ 9, 17, 23, 29 ],
+            "thursday": [ 10, 16, 22, 28 ],
+            "saturday": [ 14, 20, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 267,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3687799932/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/texao-rock-en-arequipa-more-garage-psych-rock-1970-1972',
+          a_string: 'TEXAO: Rock en Arequipa + more (Garage Psych Rock) (1970 - 1972) by Texao',
+          rule: {
+            "monday": [ 14, 20, 26, 1 ],
+            "tuesday": [ 13, 19, 25, 31 ],
+            "wednesday": [ 10, 18, 24, 30 ],
+            "thursday": [ 9, 17, 23, 29 ],
+            "saturday": [ 10, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

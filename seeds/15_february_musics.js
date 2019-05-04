@@ -5836,6 +5836,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 325,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1471531867/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://belowsystem.bandcamp.com/album/keys-2-kazi',
+          a_string: 'Keys 2 Kazi by C Keys &amp; Kazi',
+          rule: {
+            "monday": [ 22, 25, 27, 29 ],
+            "tuesday": [ 4, 27, 29, 2 ],
+            "wednesday": [ 6, 29, 2, 8 ],
+            "thursday": [ 7, 1, 3, 9 ],
+            "saturday": [ 19, 23, 25, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 326,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1808584218/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://thedoppelgangaz.bandcamp.com/album/g-pack-vol-1',
+          a_string: 'G Pack, Vol. 1 by The Doppelgangaz',
+          rule: {
+            "monday": [ 19, 23, 25, 29 ],
+            "tuesday": [ 22, 25, 27, 29 ],
+            "wednesday": [ 4, 27, 29, 2 ],
+            "thursday": [ 6, 29, 2, 8 ],
+            "saturday": [ 7, 1, 3, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 327,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2220823522/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://belowsystem.bandcamp.com/album/long-story-short',
+          a_string: 'Long Story Short by Eto &amp; Superior',
+          rule: {
+            "monday": [ 7, 1, 3, 9 ],
+            "tuesday": [ 19, 23, 25, 29 ],
+            "wednesday": [ 22, 25, 27, 29 ],
+            "thursday": [ 4, 27, 29, 2 ],
+            "saturday": [ 6, 29, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4092236001/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://carolineshaw.bandcamp.com/album/orange',
+          a_string: 'Orange by Caroline Shaw &amp; Attacca Quartet',
+          rule: {
+            "monday": [ 16, 23, 29, 6 ],
+            "tuesday": [ 16, 22, 28, 5 ],
+            "wednesday": [ 20, 26, 1, 9 ],
+            "thursday": [ 19, 25, 31, 8 ],
+            "saturday": [ 18, 24, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1605921230/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://blankformseditions.bandcamp.com/album/petra',
+          a_string: 'Petra by Maryanne Amacher',
+          rule: {
+            "monday": [ 18, 24, 30, 8 ],
+            "tuesday": [ 16, 23, 29, 6 ],
+            "wednesday": [ 16, 22, 28, 5 ],
+            "thursday": [ 20, 26, 1, 9 ],
+            "saturday": [ 19, 25, 31, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4172342132/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://starkland.bandcamp.com/album/zibuokle-martinaityte-in-search-of-lost-beauty',
+          a_string: 'Zibuokle Martinaityte: In Search of Lost Beauty... by Žibuoklė Martinaitytė',
+          rule: {
+            "monday": [ 19, 25, 31, 8 ],
+            "tuesday": [ 18, 24, 30, 8 ],
+            "wednesday": [ 16, 23, 29, 6 ],
+            "thursday": [ 16, 22, 28, 5 ],
+            "saturday": [ 20, 26, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

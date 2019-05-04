@@ -9704,6 +9704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 486,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/little-girl-1928.jpeg',
+          title: 'Little Girl',
+          artist: 'Nicolae Tonitza',
+          year: '1928',
+          rule: {
+            "monday": [ 5, 8, 17, 2 ],
+            "tuesday": [ 11, 15, 23, 8 ],
+            "wednesday": [ 10, 13, 22, 7 ],
+            "thursday": [ 9, 13, 21, 6 ],
+            "friday": [ 8, 12, 20, 5 ],
+            "saturday": [ 7, 9, 19, 4 ],
+            "sunday": [ 6, 9, 18, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 487,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/gardens-in-the-pound-cookham-1936.jpeg',
+          title: 'Gardens In The Pound, Cookham',
+          artist: 'Stanley Spencer',
+          year: '1936',
+          rule: {
+            "monday": [ 6, 9, 18, 3 ],
+            "tuesday": [ 5, 8, 17, 2 ],
+            "wednesday": [ 11, 15, 23, 8 ],
+            "thursday": [ 10, 13, 22, 7 ],
+            "friday": [ 9, 13, 21, 6 ],
+            "saturday": [ 8, 12, 20, 5 ],
+            "sunday": [ 7, 9, 19, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 488,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/les-enfants-aux-yeux-jaunes-ohlol-est-carolines-1940.jpeg',
+          title: 'Les Enfants Aux Yeux Jaunes. Ohlol, Est Carolines',
+          artist: 'Paul Jacoulet',
+          year: '194',
+          rule: {
+            "monday": [ 7, 9, 19, 4 ],
+            "tuesday": [ 6, 9, 18, 3 ],
+            "wednesday": [ 5, 8, 17, 2 ],
+            "thursday": [ 11, 15, 23, 8 ],
+            "friday": [ 10, 13, 22, 7 ],
+            "saturday": [ 9, 13, 21, 6 ],
+            "sunday": [ 8, 12, 20, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 489,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/komposition-1931.jpeg',
+          title: 'Komposition',
+          artist: 'Otto Gustav Carlsund',
+          year: '1931',
+          rule: {
+            "monday": [ 8, 12, 20, 5 ],
+            "tuesday": [ 7, 9, 19, 4 ],
+            "wednesday": [ 6, 9, 18, 3 ],
+            "thursday": [ 5, 8, 17, 2 ],
+            "friday": [ 11, 15, 23, 8 ],
+            "saturday": [ 10, 13, 22, 7 ],
+            "sunday": [ 9, 13, 21, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 490,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/casement-to-infinity-1930.jpeg',
+          title: 'Casement to Infinity',
+          artist: 'Leon Underwood',
+          year: '1930',
+          rule: {
+            "monday": [ 10, 14, 22, 7 ],
+            "tuesday": [ 9, 11, 21, 6 ],
+            "wednesday": [ 8, 10, 20, 5 ],
+            "thursday": [ 7, 10, 19, 4 ],
+            "friday": [ 6, 9, 18, 3 ],
+            "saturday": [ 12, 16, 24, 9 ],
+            "sunday": [ 11, 14, 23, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

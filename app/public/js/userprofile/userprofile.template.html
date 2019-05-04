@@ -4342,7 +4342,18 @@
           <h3>Delete message forever?</h3>
           <a class="btn" href="#" ng-click="$ctrl.userMessageDeleteCancel(message.id)">no</a>
           <a class="btn" href="#" ng-click="$ctrl.userMessageDeleteConfirmClick(message.id)">yes</a>
-        </div><br><br><br>
+        </div><br>
+        <div id="thisIsMessageReactions{{message.id}}" class="reactionsContainer">
+          <div class="individualReactions">
+            <p class="reactionTally">1</p>
+            <div class="tooltip">
+              <img src="./img/reactions/kisspng-thumb-signal-font-awesome-computer-icons-font-green-thumbs-up-icon-5b4b607cb7a147.6508454515316665567522.png" class="reactionIcon">
+              <span class="tooltipText">Devin Hurd</span>
+            </div>
+            <p class="reactionDelete">X</p>
+          </div>
+
+        </div><br><br><br><br>
         <div class="commentsBar">
 
           <h3>Comments:</h3>

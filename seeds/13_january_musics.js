@@ -5944,6 +5944,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 331,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2491040375/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/imaoto',
+          a_string: 'imaoto by Radu Malfatti/Klaus Filip',
+          rule: {
+            "monday": [ 23, 29, 30, 31 ],
+            "tuesday": [ 22, 29, 30, 31 ],
+            "wednesday": [ 26, 2, 3, 4 ],
+            "thursday": [ 25, 31, 1, 3 ],
+            "saturday": [ 24, 31, 1, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 332,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1315471801/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/contact',
+          a_string: 'contact by Keith Rowe/Sachiko M',
+          rule: {
+            "monday": [ 24, 31, 1, 2 ],
+            "tuesday": [ 23, 29, 30, 31 ],
+            "wednesday": [ 22, 29, 30, 31 ],
+            "thursday": [ 26, 2, 3, 4 ],
+            "saturday": [ 25, 31, 1, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 333,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3725109893/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/one-day',
+          a_string: 'One Day by Toshimaru Nakamura/English (Joe Foster/Bonnie Jones)',
+          rule: {
+            "monday": [ 25, 31, 1, 3 ],
+            "tuesday": [ 24, 31, 1, 2 ],
+            "wednesday": [ 23, 29, 30, 31 ],
+            "thursday": [ 22, 29, 30, 31 ],
+            "saturday": [ 26, 2, 3, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

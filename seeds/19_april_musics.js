@@ -5620,6 +5620,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 313,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2956361274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://roninarkestra.bandcamp.com/album/first-meeting',
+          a_string: 'First Meeting by Ronin Arkestra',
+          rule: {
+            "monday": [ 14, 22, 4, 9 ],
+            "tuesday": [ 18, 26, 8, 13 ],
+            "wednesday": [ 17, 25, 7, 12 ],
+            "thursday": [ 16, 24, 6, 11 ],
+            "saturday": [ 15, 23, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 314,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2330358166/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://eriyamamoto.bandcamp.com/album/life',
+          a_string: 'Life by Eri Yamamoto Trio',
+          rule: {
+            "monday": [ 15, 23, 4, 10 ],
+            "tuesday": [ 14, 22, 4, 9 ],
+            "wednesday": [ 18, 26, 8, 13 ],
+            "thursday": [ 17, 25, 7, 12 ],
+            "saturday": [ 16, 24, 6, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 315,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3536334950/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://migiwamiyajima.bandcamp.com/album/colorful',
+          a_string: 'Colorful by Migiwa Miyajima',
+          rule: {
+            "monday": [ 17, 25, 7, 12 ],
+            "tuesday": [ 16, 24, 5, 11 ],
+            "wednesday": [ 15, 23, 5, 10 ],
+            "thursday": [ 19, 27, 9, 14 ],
+            "saturday": [ 18, 26, 8, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -60,7 +60,8 @@ router.patch('/:id', (req, res, next) => {
     user_id: req.body.user_id,
     art_module_author_id: req.body.art_module_author_id,
     theme: req.body.theme,
-    comment: req.body.comment
+    comment: req.body.comment,
+    updated_at: req.body.updated_at
   }, '*')
     .then((results)=>{
        res.status(200).send(results[0]);

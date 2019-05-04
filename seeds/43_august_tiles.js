@@ -1124,6 +1124,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#E8F2EF',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 81,
+          user_id: 1,
+          theme: 'Primary Colors',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/julia-sabiniarz-240356-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '110%',
+          color_dark: '#04040E',
+          color_medium: '#0756D8',
+          color_light: '#197FED',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

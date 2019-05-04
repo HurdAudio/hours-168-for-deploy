@@ -1186,9 +1186,11 @@
         let thisIsTheArtModuleCommentEditor = document.getElementById('thisIsTheArtModuleCommentEditor' + commentId);
         let thisIsArtModuleCommentEditDoneDiv = document.getElementById('thisIsArtModuleCommentEditDoneDiv' + commentId);
         let editDeleteArtModuleUserComments = document.getElementById('editDeleteArtModuleUserComments' + commentId);
+        let now = new Date();
 
         let subObj = {
-          comment: thisIsTheArtModuleCommentEditor.value
+          comment: thisIsTheArtModuleCommentEditor.value,
+          updated_at: now
         };
         $http.patch(`/art_module_comments/${commentId}`, subObj)
         .then(commentData => {
@@ -1198,12 +1200,15 @@
           thisIsTheArtModuleCommentEditor.setAttribute("style", "visibility: hidden;");
           thisIsArtModuleCommentEditDoneDiv.setAttribute("style", "display: none;");
           editDeleteArtModuleUserComments.setAttribute("style", "display: initial;");
+          let check;
+          let checkUp;
           for (let i = 0; i < vm.artModulePreview.length; i++) {
-            if (parseInt(vm.artModulePreview[i].id) === parseInt(artModId)) {
-              for (let j = 0; j < vm.artModulePreview[i].comments.length; j++) {
-                if (parseInt(vm.artModulePreview[i].comments[j].id) === parseInt(commentId)) {
-                  vm.artModulePreview[i].comments[j].comment = subObj.comment;
-                }
+            for (let j = 0; j < vm.artModulePreview[i].comments.length; j++) {
+              if (parseInt(vm.artModulePreview[i].comments[j].id) === parseInt(commentId)) {
+                check = new Date(comment.created_at);
+                checkUp = new Date(comment.updated_at);
+                vm.artModulePreview[i].comments[j].comment = subObj.comment;
+                vm.artModulePreview[i].comments[j].cleanDate = cleanDateHoliday(check) + ' at ' + check.toLocaleTimeString('en-GB') + ' - updated at - ' + cleanDateHoliday(checkUp) + ' at ' + checkUp.toLocaleTimeString(checkUp) + '.';
               }
             }
           }
@@ -2881,8 +2886,8 @@
                 vm.musicViewerHref = selectedMusicModule[centerIndex].href_string;
                 vm.musicViewerAnchor = selectedMusicModule[centerIndex].a_string;
                 musicModulePlayerIframe.src = vm.musicViewerSource;
-                musicModulePlayerAnchor.href = vm.musicViewerHref;
-                vm.musicViewerHref.innerHTML = vm.musicViewerAnchor;
+                // musicModulePlayerAnchor.href = vm.musicViewerHref;
+                // vm.musicViewerHref.innerHTML = vm.musicViewerAnchor;
               }
             });
           });
@@ -5526,12 +5531,26 @@
       }
 
       function getArtModuleComments(index) {
+        let checkDate;
+        let checkDate2;
+
         console.log(vm.artModulePreview[index]);
         $http.get('/art_module_comments')
         .then(allModuleCommentsData => {
           let allModuleComments = allModuleCommentsData.data;
           let moduleComments = allModuleComments.filter(entry => {
             return((entry.art_module_author_id === vm.artModulePreview[index].user_author_id) && (entry.theme === vm.artModulePreview[index].theme));
+          });
+          moduleComments = moduleComments.sort((a, b) => {
+            checkDate = new Date(a.created_at);
+            checkDate2 = new Date(b.created_at);
+            if (checkDate.getDate() < checkDate2.getDate()) {
+              return -1;
+            } else if (checkDate.getDate() > checkDate2.getDate()) {
+              return 1;
+            } else {
+              return 0;
+            }
           });
           if (moduleComments.length > 0) {
             vm.artModulePreview[index].comments = [];
@@ -5543,7 +5562,14 @@
                 art_module_author_id: moduleComments[i].art_module_author_id
               }
               artModuleCommenterIdentity(moduleComments[i].user_id, index, i);
-              vm.artModulePreview[index].comments[i].cleanDate = cleanDateHoliday(moduleComments[i].created_at) + ' - ' + timeDate(moduleComments[i].created_at);
+              checkDate = new Date(moduleComments[i].created_at);
+              checkDate2 = new Date(moduleComments[i].updated_at);
+              if ((checkDate2.getTime()) > (checkDate.getTime())) {
+                vm.artModulePreview[index].comments[i].cleanDate = cleanDateHoliday(moduleComments[i].created_at) + ' - ' + timeDate(moduleComments[i].created_at) + ' - updated at - ' +  cleanDateHoliday(moduleComments[i].updated_at) + ' - ' + timeDate(moduleComments[i].updated_at) + '.';
+              } else {
+                vm.artModulePreview[index].comments[i].cleanDate = cleanDateHoliday(moduleComments[i].created_at) + ' - ' + timeDate(moduleComments[i].created_at);
+              }
+
             }
             setTimeout(() => {
               for (let j = 0; j < vm.artModulePreview[index].comments.length; j++) {
@@ -5589,7 +5615,7 @@
                 vm.artModulePreview[0].storage.push(allArtModules[i]);
                 getArtAuthorName(allArtModules[i].user_author_id, 0);
                 vm.artModulePreview[0].user_author_id = allArtModules[i].user_author_id;
-                vm.artModulePreview[0]
+                vm.artModulePreview[0].created_at = allArtModules[i].created_at;
               } else {
                 themeMember = false;
                 for (let j = 0; j < vm.artModulePreview.length; j++) {
@@ -5608,6 +5634,7 @@
                   vm.artModulePreview[themeIndex].storage.push(allArtModules[i]);
                   getArtAuthorName(allArtModules[i].user_author_id, themeIndex);
                   vm.artModulePreview[themeIndex].user_author_id = allArtModules[i].user_author_id;
+                  vm.artModulePreview[themeIndex].created_at = allArtModules[i].created_at;
                 }
               }
             }

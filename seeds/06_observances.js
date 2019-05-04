@@ -10890,6 +10890,34 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 700,
+          user_id: 1,
+          name: 'Benjamin Lay (humanitarian/abolitionist) born in 1682',
+          color: '#6B8EA4',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Benjamin_Lay_painted_by_William_Williams_in_1790.jpg',
+          day_of: new Date ('1682-01-26T13:44:00.000Z'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 701,
+          user_id: 1,
+          name: 'Olaudah Equiano a.k.a. Gustavus Vassa (writer/abolitionist) born in 1745',
+          color: '#C5C5C5',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Olaudah_Equiano,_frontpiece_from_The_Interesting_Narrative_of_the_Life_of_Olaudah_Equiano.png',
+          day_of: new Date ('1745-10-16T13:44:00.000Z'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

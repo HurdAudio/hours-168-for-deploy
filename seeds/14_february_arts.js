@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/the-artwork-of-larry-d-alexander-018.jpg',
+          title: 'title unknown',
+          artist: 'Larry D. Alexander',
+          year: '?',
+          rule: {
+            "monday": [ 28, 4, 10, 20 ],
+            "tuesday": [ 27, 6, 14, 22 ],
+            "wednesday": [ 29, 10, 16, 22 ],
+            "thursday": [ 2, 10, 18, 28 ],
+            "friday": [ 2, 12, 8, 27 ],
+            "saturday": [ 21, 29, 8, 16 ],
+            "sunday": [ 22, 2, 10, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/RS4134_2001_Paintings-on-Paper_Layla-Ali_001featured.jpg',
+          title: 'title unknown',
+          artist: 'Laylah Ali',
+          year: '?',
+          rule: {
+            "monday": [ 22, 2, 10, 18 ],
+            "tuesday": [ 28, 4, 10, 20 ],
+            "wednesday": [ 27, 6, 14, 22 ],
+            "thursday": [ 29, 10, 16, 22 ],
+            "friday": [ 2, 10, 18, 28 ],
+            "saturday": [ 2, 12, 8, 27 ],
+            "sunday": [ 21, 29, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Little Goodies-2.jpg',
+          title: 'Little Goodies',
+          artist: 'Jules T. Allen',
+          year: '2007',
+          rule: {
+            "monday": [ 21, 29, 8, 16 ],
+            "tuesday": [ 22, 2, 10, 18 ],
+            "wednesday": [ 28, 4, 10, 20 ],
+            "thursday": [ 27, 6, 14, 22 ],
+            "friday": [ 29, 10, 16, 22 ],
+            "saturday": [ 2, 10, 18, 28 ],
+            "sunday": [ 2, 12, 8, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/31-02.jpg',
+          title: 'Ethiopian Woman',
+          artist: 'Tina Allen',
+          year: '?',
+          rule: {
+            "monday": [ 2, 12, 8, 27 ],
+            "tuesday": [ 21, 29, 8, 16 ],
+            "wednesday": [ 22, 2, 10, 18 ],
+            "thursday": [ 28, 4, 10, 20 ],
+            "friday": [ 27, 6, 14, 22 ],
+            "saturday": [ 29, 10, 16, 22 ],
+            "sunday": [ 2, 10, 18, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Alston_Vaudeville_IMAGE_ONLY0.jpg',
+          title: 'Vaudeville',
+          artist: 'Charles Alston',
+          year: 'c.1930',
+          rule: {
+            "monday": [ 2, 10, 18, 28 ],
+            "tuesday": [ 2, 12, 8, 27 ],
+            "wednesday": [ 21, 29, 8, 16 ],
+            "thursday": [ 22, 2, 10, 18 ],
+            "friday": [ 28, 4, 10, 20 ],
+            "saturday": [ 27, 6, 14, 22 ],
+            "sunday": [ 29, 10, 16, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

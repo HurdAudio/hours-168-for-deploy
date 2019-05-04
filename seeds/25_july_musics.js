@@ -5296,6 +5296,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 295,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3580126704/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://drahla.bandcamp.com/album/useless-coordinates',
+          a_string: 'Useless Coordinates by Drahla',
+          rule: {
+            "monday": [ 10, 11, 16, 24 ],
+            "tuesday": [ 9, 11, 15, 23 ],
+            "wednesday": [ 13, 15, 19, 27 ],
+            "thursday": [ 12, 14, 18, 26 ],
+            "saturday": [ 11, 13, 17, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 296,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2586957328/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://barrie.bandcamp.com/album/happy-to-be-here',
+          a_string: 'Happy To Be Here by Barrie',
+          rule: {
+            "monday": [ 11, 13, 17, 25 ],
+            "tuesday": [ 10, 11, 16, 24 ],
+            "wednesday": [ 9, 11, 15, 23 ],
+            "thursday": [ 13, 15, 19, 27 ],
+            "saturday": [ 12, 14, 18, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 297,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3930999548/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://snowghosts.bandcamp.com/album/a-quiet-ritual',
+          a_string: 'A Quiet Ritual by Snow Ghosts',
+          rule: {
+            "monday": [ 12, 14, 18, 26 ],
+            "tuesday": [ 11, 13, 17, 25 ],
+            "wednesday": [ 10, 11, 16, 24 ],
+            "thursday": [ 9, 11, 15, 23 ],
+            "saturday": [ 13, 15, 19, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

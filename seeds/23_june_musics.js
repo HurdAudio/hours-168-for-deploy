@@ -5292,7 +5292,7 @@ exports.seed = function(knex, Promise) {
             "tuesday": [ 13, 17, 23, 4 ],
             "wednesday": [ 12, 15, 20, 2 ],
             "thursday": [ 11, 14, 20, 1 ],
-            "saturday": [ 11, 14, 20, 31 ]
+            "saturday": [ 11, 14, 20, 30 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -5306,7 +5306,7 @@ exports.seed = function(knex, Promise) {
           href_string: 'http://williambasinski.bandcamp.com/album/on-time-out-of-time',
           a_string: 'On Time Out of Time by William Basinski',
           rule: {
-            "monday": [ 11, 14, 20, 31 ],
+            "monday": [ 11, 14, 20, 30 ],
             "tuesday": [ 9, 17, 19, 4 ],
             "wednesday": [ 13, 17, 23, 4 ],
             "thursday": [ 12, 15, 20, 2 ],
@@ -5325,7 +5325,7 @@ exports.seed = function(knex, Promise) {
           a_string: 'Steps. by Melanohelios',
           rule: {
             "monday": [ 11, 14, 20, 1 ],
-            "tuesday": [ 11, 14, 20, 31 ],
+            "tuesday": [ 11, 14, 20, 30 ],
             "wednesday": [ 9, 17, 19, 4 ],
             "thursday": [ 13, 17, 23, 4 ],
             "saturday": [ 12, 15, 20, 2 ]
@@ -5344,7 +5344,7 @@ exports.seed = function(knex, Promise) {
           rule: {
             "monday": [ 12, 15, 20, 2 ],
             "tuesday": [ 11, 14, 20, 1 ],
-            "wednesday": [ 11, 14, 20, 31 ],
+            "wednesday": [ 11, 14, 20, 30 ],
             "thursday": [ 9, 17, 19, 4 ],
             "saturday": [ 13, 17, 23, 4 ]
           },
@@ -5363,7 +5363,7 @@ exports.seed = function(knex, Promise) {
             "monday": [ 13, 17, 23, 4 ],
             "tuesday": [ 12, 15, 20, 2 ],
             "wednesday": [ 11, 14, 20, 1 ],
-            "thursday": [ 11, 14, 20, 31 ],
+            "thursday": [ 11, 14, 20, 30 ],
             "saturday": [ 9, 17, 19, 4 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
@@ -5382,7 +5382,7 @@ exports.seed = function(knex, Promise) {
             "tuesday": [ 13, 17, 23, 4 ],
             "wednesday": [ 12, 15, 20, 2 ],
             "thursday": [ 11, 14, 20, 1 ],
-            "saturday": [ 11, 14, 20, 31 ]
+            "saturday": [ 11, 14, 20, 30 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -5396,11 +5396,65 @@ exports.seed = function(knex, Promise) {
           href_string: 'http://richardchartier.bandcamp.com/album/spec',
           a_string: 'spec. by RICHARD CHARTIER + TAYLOR DEUPREE',
           rule: {
-            "monday": [ 11, 14, 20, 31 ],
+            "monday": [ 11, 14, 20, 30 ],
             "tuesday": [ 9, 17, 19, 4 ],
             "wednesday": [ 13, 17, 23, 4 ],
             "thursday": [ 12, 15, 20, 2 ],
             "saturday": [ 11, 14, 20, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 301,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2982400654/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://trenteoiseaux.bandcamp.com/album/buddha-with-the-sun-face-buddha-with-the-moon-face',
+          a_string: 'Buddha with the Sun Face / Buddha with the Moon Face by Bernhard Günter w/Jeph Jerman',
+          rule: {
+            "monday": [ 12, 15, 21, 2 ],
+            "tuesday": [ 12, 15, 21, 1 ],
+            "wednesday": [ 10, 18, 20, 5 ],
+            "thursday": [ 14, 18, 24, 5 ],
+            "saturday": [ 13, 16, 21, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 302,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2628575533/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://michaelnortham.bandcamp.com/album/coyot',
+          a_string: ':coyot: by mnortham',
+          rule: {
+            "monday": [ 13, 16, 21, 3 ],
+            "tuesday": [ 12, 15, 21, 2 ],
+            "wednesday": [ 12, 15, 21, 1 ],
+            "thursday": [ 10, 18, 20, 5 ],
+            "saturday": [ 14, 18, 24, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 303,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3254605162/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://trenteoiseaux.bandcamp.com/album/then-silence',
+          a_string: 'Then, Silence by Bernhard Günter',
+          rule: {
+            "monday": [ 14, 18, 24, 5 ],
+            "tuesday": [ 13, 16, 21, 3 ],
+            "wednesday": [ 12, 15, 21, 2 ],
+            "thursday": [ 12, 15, 21, 1 ],
+            "saturday": [ 10, 18, 20, 5 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

@@ -9504,6 +9504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 476,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/architect-s-home-in-the-ravine-1991.jpeg',
+          title: 'Architect\'s Home in the Ravine',
+          artist: 'Peter Doig',
+          year: '1991',
+          rule: {
+            "monday": [ 7, 14, 2, 10 ],
+            "tuesday": [ 7, 13, 1, 9 ],
+            "wednesday": [ 26, 12, 30, 9 ],
+            "thursday": [ 25, 2, 29, 7 ],
+            "friday": [ 3, 10, 28, 5 ],
+            "saturday": [ 10, 16, 4, 12 ],
+            "sunday": [ 9, 14, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 477,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/door-1992.jpeg',
+          title: 'Door',
+          artist: 'Basil Beattie',
+          year: '1992',
+          rule: {
+            "monday": [ 9, 14, 3, 11 ],
+            "tuesday": [ 7, 14, 2, 10 ],
+            "wednesday": [ 7, 13, 1, 9 ],
+            "thursday": [ 26, 12, 30, 9 ],
+            "friday": [ 25, 2, 29, 7 ],
+            "saturday": [ 3, 10, 28, 5 ],
+            "sunday": [ 10, 16, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 478,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/campari-1965(1).jpeg',
+          title: 'Campari',
+          artist: 'Bruno Munari',
+          year: '1965',
+          rule: {
+            "monday": [ 10, 16, 4, 12 ],
+            "tuesday": [ 9, 14, 3, 11 ],
+            "wednesday": [ 7, 14, 2, 10 ],
+            "thursday": [ 7, 13, 1, 9 ],
+            "friday": [ 26, 12, 30, 9 ],
+            "saturday": [ 25, 2, 29, 7 ],
+            "sunday": [ 3, 10, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 479,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/composition-1977.jpeg',
+          title: 'Composition',
+          artist: 'Chu Teh-Chun',
+          year: '1977',
+          rule: {
+            "monday": [ 3, 10, 28, 5 ],
+            "tuesday": [ 10, 16, 4, 12 ],
+            "wednesday": [ 9, 14, 3, 11 ],
+            "thursday": [ 7, 14, 2, 10 ],
+            "friday": [ 7, 13, 1, 9 ],
+            "saturday": [ 26, 12, 30, 9 ],
+            "sunday": [ 25, 2, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 480,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/self-portrait-in-gothic-style-1976.jpeg',
+          title: 'Self-portrait in Gothic style',
+          artist: 'Sergei Parajanov',
+          year: '1976 - 1977',
+          rule: {
+            "monday": [ 25, 2, 29, 7 ],
+            "tuesday": [ 3, 10, 28, 5 ],
+            "wednesday": [ 10, 16, 4, 12 ],
+            "thursday": [ 9, 14, 3, 11 ],
+            "friday": [ 7, 14, 2, 10 ],
+            "saturday": [ 7, 13, 1, 9 ],
+            "sunday": [ 26, 12, 30, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

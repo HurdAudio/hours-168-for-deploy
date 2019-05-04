@@ -9104,6 +9104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 456,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/revolution-006-arctic-ocean-north-cape-1990.jpeg',
+          title: 'Revolution 006, Arctic Ocean, North Cape',
+          artist: 'Hiroshi Sugimoto',
+          year: '1990',
+          rule: {
+            "monday": [ 12, 14, 22, 28 ],
+            "tuesday": [ 11, 15, 22, 26 ],
+            "wednesday": [ 10, 13, 20, 25 ],
+            "thursday": [ 9, 13, 20, 25 ],
+            "friday": [ 8, 13, 19, 24 ],
+            "saturday": [ 7, 12, 18, 25 ],
+            "sunday": [ 13, 18, 24, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 457,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/diary-pages.jpeg',
+          title: 'Diary pages',
+          artist: 'Nasreen Mohamedi',
+          year: '?',
+          rule: {
+            "monday": [ 13, 18, 24, 29 ],
+            "tuesday": [ 12, 14, 22, 28 ],
+            "wednesday": [ 11, 15, 22, 26 ],
+            "thursday": [ 10, 13, 20, 25 ],
+            "friday": [ 9, 13, 20, 25 ],
+            "saturday": [ 8, 13, 19, 24 ],
+            "sunday": [ 7, 12, 18, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 458,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-3.jpeg',
+          title: 'Untitled',
+          artist: 'Nasreen Mohamedi',
+          year: '?',
+          rule: {
+            "monday": [ 7, 12, 18, 25 ],
+            "tuesday": [ 13, 18, 24, 29 ],
+            "wednesday": [ 12, 14, 22, 28 ],
+            "thursday": [ 11, 15, 22, 26 ],
+            "friday": [ 10, 13, 20, 25 ],
+            "saturday": [ 9, 13, 20, 25 ],
+            "sunday": [ 8, 13, 19, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 459,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/construcci-n-aurera.jpeg',
+          title: 'Construcción Aurera',
+          artist: 'Mathias Goeritz',
+          year: '?',
+          rule: {
+            "monday": [ 8, 13, 19, 24 ],
+            "tuesday": [ 7, 12, 18, 25 ],
+            "wednesday": [ 13, 18, 24, 29 ],
+            "thursday": [ 12, 14, 22, 28 ],
+            "friday": [ 11, 15, 22, 26 ],
+            "saturday": [ 10, 13, 20, 25 ],
+            "sunday": [ 9, 13, 20, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 460,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/horizontal-colour-bands-and-vertical-colour-bands-i-1991.jpeg',
+          title: 'Horizontal Colour Bands and Vertical Colour Bands I',
+          artist: 'Sol LeWitt',
+          year: '1991',
+          rule: {
+            "monday": [ 9, 13, 20, 25 ],
+            "tuesday": [ 8, 13, 19, 24 ],
+            "wednesday": [ 7, 12, 18, 25 ],
+            "thursday": [ 13, 18, 24, 29 ],
+            "friday": [ 12, 14, 22, 28 ],
+            "saturday": [ 11, 15, 22, 26 ],
+            "sunday": [ 10, 13, 20, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5188,6 +5188,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 289,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2601393401/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://robnoyes.bandcamp.com/album/greg-kelley-rob-noyes-split',
+          a_string: 'Greg Kelley/Rob Noyes Split by Rob Noyes',
+          rule: {
+            "monday": [ 19, 27, 9, 8 ],
+            "tuesday": [ 18, 26, 8, 7 ],
+            "wednesday": [ 22, 30, 12, 11 ],
+            "thursday": [ 21, 29, 11, 10 ],
+            "saturday": [ 20, 28, 10, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 290,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2280450672/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://p-mm.bandcamp.com/album/pmm-blurt-special-russian-tour-record',
+          a_string: 'PMM# Blurt - Special Russian Tour Record by Blurt',
+          rule: {
+            "monday": [ 20, 28, 10, 9 ],
+            "tuesday": [ 19, 27, 9, 8 ],
+            "wednesday": [ 18, 26, 8, 7 ],
+            "thursday": [ 22, 30, 12, 11 ],
+            "saturday": [ 21, 29, 11, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 291,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=892122042/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://harshnoisemovement.bandcamp.com/album/vaginal-elvis',
+          a_string: 'Vaginal Elvis by Elvis Guts / Vaginal Pentagram',
+          rule: {
+            "monday": [ 21, 29, 11, 10 ],
+            "tuesday": [ 20, 28, 10, 9 ],
+            "wednesday": [ 19, 27, 9, 8 ],
+            "thursday": [ 18, 26, 8, 7 ],
+            "saturday": [ 22, 30, 12, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

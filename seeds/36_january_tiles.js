@@ -1222,6 +1222,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#DEDDE2',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 88,
+          user_id: 1,
+          theme: 'Ice',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/frozenTruck.jpeg',
+          repeat_value: 'no-repeat',
+          size_value: '190%',
+          color_dark: '#1B1A1D',
+          color_medium: '#80A4B4',
+          color_light: '#E3E2E8',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
