@@ -9804,6 +9804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 491,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/hydrangeas-1902.jpeg',
+          title: 'Hydrangeas',
+          artist: 'Hishida Shunso',
+          year: '1902',
+          rule: {
+            "monday": [ 11, 14, 23, 8 ],
+            "tuesday": [ 10, 14, 22, 7 ],
+            "wednesday": [ 9, 11, 21, 6 ],
+            "thursday": [ 8, 10, 20, 5 ],
+            "friday": [ 7, 10, 19, 4 ],
+            "saturday": [ 6, 9, 18, 3 ],
+            "sunday": [ 12, 16, 24, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 492,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/view-at-mimizan-1920.jpeg',
+          title: 'View at Mimizan',
+          artist: 'Winston Churchill',
+          year: '1920',
+          rule: {
+            "monday": [ 12, 16, 24, 9 ],
+            "tuesday": [ 11, 14, 23, 8 ],
+            "wednesday": [ 10, 14, 22, 7 ],
+            "thursday": [ 9, 11, 21, 6 ],
+            "friday": [ 8, 10, 20, 5 ],
+            "saturday": [ 7, 10, 19, 4 ],
+            "sunday": [ 6, 9, 18, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 493,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-moon-1928.jpeg',
+          title: 'The Moon',
+          artist: 'Tarsila do Amaral',
+          year: '1928',
+          rule: {
+            "monday": [ 6, 9, 18, 3 ],
+            "tuesday": [ 12, 16, 24, 9 ],
+            "wednesday": [ 11, 14, 23, 8 ],
+            "thursday": [ 10, 14, 22, 7 ],
+            "friday": [ 9, 11, 21, 6 ],
+            "saturday": [ 8, 10, 20, 5 ],
+            "sunday": [ 7, 10, 19, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 494,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/book-of-the-marquise-illustration-1.jpeg',
+          title: 'Book of the Marquise. Illustration 1',
+          artist: 'Konstantin Somov',
+          year: '1918',
+          rule: {
+            "monday": [ 7, 10, 19, 4 ],
+            "tuesday": [ 6, 9, 18, 3 ],
+            "wednesday": [ 12, 16, 24, 9 ],
+            "thursday": [ 11, 14, 23, 8 ],
+            "friday": [ 10, 14, 22, 7 ],
+            "saturday": [ 9, 11, 21, 6 ],
+            "sunday": [ 8, 10, 20, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 495,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/central-park-1.jpeg',
+          title: 'Central Park',
+          artist: 'Maurice Prendergast',
+          year: 'c.1914 - c.1915',
+          rule: {
+            "monday": [ 8, 10, 20, 5 ],
+            "tuesday": [ 7, 10, 19, 4 ],
+            "wednesday": [ 6, 9, 18, 3 ],
+            "thursday": [ 12, 16, 24, 9 ],
+            "friday": [ 11, 14, 23, 8 ],
+            "saturday": [ 10, 14, 22, 7 ],
+            "sunday": [ 9, 11, 21, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -3414,13 +3414,15 @@ footer img {
 }
 
 .holidayAcceptDenyButtons {
-  margin-left: 15vmin;
+  padding-left: 15vmin;
+  width: 100%;
 }
 
 .holidayAcceptDenyButtons a {
   float:left;
-  margin-right: 1.1em;
-  margin-top: 0.2em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  /* margin-top: 0.2em; */
   cursor: pointer;
 
 }
@@ -8727,6 +8729,13 @@ footer img {
   width: 60%;
 }
 
+#tileShareAcceptUserThemeInput {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  width: 60%;
+}
+
 #artShareArtMonthSelect {
   margin: 1vmin 1vmin 1vmin 4vmin;
   font-family: 'Neuton', serif;
@@ -8735,6 +8744,13 @@ footer img {
 }
 
 #musicShareMonthSelect {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  width: 60%;
+}
+
+#tileShareMonthSelect {
   margin: 1vmin 1vmin 1vmin 4vmin;
   font-family: 'Neuton', serif;
   font-size: 30px;
@@ -8805,6 +8821,58 @@ footer img {
   font-size: 24px;
 }
 
+#acceptTilePane {
+  position: fixed;
+  width: 65%;
+  top: 1%;
+  background: #110514;
+  background-color: -webkit-linear-gradient(-45deg, #ffffff, #FBFBF3);
+  background: -o-linear-gradient(-45deg, #ffffff, #FBFBF3);
+  background: -moz-linear-gradient(-45deg, #ffffff, #FBFBF3);
+  background: linear-gradient(-45deg, #ffffff, #FBFBF3);
+  border-radius: 5px;
+  opacity: 0;
+  margin: 6vmin 40vmin 1vmin 25vmin;
+  padding: 1vmin 0 4vmin 5vmin;
+  z-index: -6;
+
+}
+
+#acceptTilePane a {
+  float: right;
+  margin-right: 4vmin;
+  margin-top: -3vmin;
+}
+
+#acceptTilePane h3 {
+  font-family: 'Neuton', serif;
+  font-size: 24px;
+}
+
+#acceptTilePane h1 {
+  font-family: 'Neuton', serif;
+  font-size: 36px;
+}
+
+#acceptTilePane input[type=text] {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  width: 60%;
+}
+
+#acceptTilePane img {
+  width: 80%;
+  float: left;
+  margin: 1vmin 2vmin 1vmin 10vmin;
+}
+
+#acceptTilePane p {
+  float: left;
+  font-family: 'Neuton', serif;
+  font-size: 24px;
+}
+
 #artShareAcceptUserThemeInput {
   margin: 1vmin 1vmin 1vmin 4vmin;
   font-family: 'Neuton', serif;
@@ -8819,6 +8887,13 @@ footer img {
   width: 60%;
 }
 
+#tileShareAcceptUserThemeInput {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  width: 60%;
+}
+
 #artShareParameters {
   width: 50%;
   float: left;
@@ -8826,6 +8901,12 @@ footer img {
 }
 
 #musicShareParameters {
+  width: 50%;
+  float: left;
+  margin-top: 1vmin;
+}
+
+#tileShareParameters {
   width: 50%;
   float: left;
   margin-top: 1vmin;
@@ -8865,11 +8946,32 @@ footer img {
   margin: 0 2vmin 0 2vmin;
 }
 
+#theTileForShare {
+  width: 50%;
+  float: left;
+  margin-top: 1vmin;
+}
+
+#theTileForShare img {
+  width: 80%;
+  margin: 1vmin 2vmin 1vmin 2vmin;
+}
+
+#theTileForShare p {
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  margin: 0 2vmin 0 2vmin;
+}
+
 #artSharePaneCancelOrNotDiv {
   margin: 12vmin 4vmin 1vmin 4vmin;
 }
 
 #musicSharePaneCancelOrNotDiv {
+  margin: 12vmin 4vmin 1vmin 4vmin;
+}
+
+#tileSharePaneCancelOrNotDiv {
   margin: 12vmin 4vmin 1vmin 4vmin;
 }
 
@@ -8947,9 +9049,15 @@ footer img {
   visibility: visible;
 }
 
+#acceptTileTile {
+  width: 260px;
+  height: 260px;
+  margin: 4vmin;
+}
+
 
 /* .day {
-  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/frozenTruck.jpeg);
+  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/winter-12890_640.jpg);
   background-repeat: no-repeat;
-  background-size: 190%;
+  background-size: 140%;
 } */

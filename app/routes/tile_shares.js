@@ -43,6 +43,7 @@ router.post('/', (req, res, next) => {
     tiles_month: req.body.tiles_month,
     tiles_id: req.body.tiles_id,
     share_associate_id: req.body.share_associate_id,
+    responded: req.body.responded,
     accepted: req.body.accepted
   }, '*')
   .then((result) => {
@@ -62,6 +63,7 @@ router.patch('/:id', (req, res, next) => {
     tiles_month: req.body.tiles_month,
     tiles_id: req.body.tiles_id,
     share_associate_id: req.body.share_associate_id,
+    responded: req.body.responded,
     accepted: req.body.accepted
   }, '*')
     .then((results)=>{
@@ -100,6 +102,7 @@ router.delete('/:id', (req, res, next) => {
             tiles_month: record.tiles_month,
             tiles_id: record.tiles_id,
             share_associate_id: record.share_associate_id,
+            responded: record.responded,
             accepted: record.accepted,
             created_at: record.created_at,
             updated_at: record.updated_at

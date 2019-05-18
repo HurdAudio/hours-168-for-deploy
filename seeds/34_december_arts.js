@@ -9004,6 +9004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 451,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/23-03,Classic.jpg',
+          title: 'Movie Classic',
+          artist: 'Truda Dahl',
+          year: '1923',
+          rule: {
+            "monday": [ 21, 13, 1, 8 ],
+            "tuesday": [ 6, 19, 27, 2 ],
+            "wednesday": [ 5, 17, 26, 1 ],
+            "thursday": [ 4, 17, 25, 31 ],
+            "friday": [ 3, 16, 24, 30 ],
+            "saturday": [ 2, 15, 23, 29 ],
+            "sunday": [ 1, 13, 12, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 452,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/08-09,Pearsons.jpg',
+          title: 'Pearson\'s Magazine',
+          artist: 'Walter Darr',
+          year: '1908',
+          rule: {
+            "monday": [ 1, 13, 12, 28 ],
+            "tuesday": [ 21, 13, 1, 8 ],
+            "wednesday": [ 6, 19, 27, 2 ],
+            "thursday": [ 5, 17, 26, 1 ],
+            "friday": [ 4, 17, 25, 31 ],
+            "saturday": [ 3, 16, 24, 30 ],
+            "sunday": [ 2, 15, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 453,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/28-00,Poster.jpg',
+          title: 'Movie Posters',
+          artist: 'Wynne W. Davies',
+          year: '1928 - 1930',
+          rule: {
+            "monday": [ 2, 15, 23, 29 ],
+            "tuesday": [ 1, 13, 12, 28 ],
+            "wednesday": [ 21, 13, 1, 8 ],
+            "thursday": [ 6, 19, 27, 2 ],
+            "friday": [ 5, 17, 26, 1 ],
+            "saturday": [ 4, 17, 25, 31 ],
+            "sunday": [ 3, 16, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 454,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/34-01-06,Lbty2.jpg',
+          title: 'Liberty',
+          artist: 'Ray Dean',
+          year: '1934',
+          rule: {
+            "monday": [ 3, 16, 24, 30 ],
+            "tuesday": [ 2, 15, 23, 29 ],
+            "wednesday": [ 1, 13, 12, 28 ],
+            "thursday": [ 21, 13, 1, 8 ],
+            "friday": [ 6, 19, 27, 2 ],
+            "saturday": [ 5, 17, 26, 1 ],
+            "sunday": [ 4, 17, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 455,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-04,SptNvl.jpg',
+          title: 'Sports Novel',
+          artist: 'Charles DeFeo',
+          year: '1937',
+          rule: {
+            "monday": [ 5, 18, 26, 1 ],
+            "tuesday": [ 4, 17, 25, 31 ],
+            "wednesday": [ 3, 16, 24, 30 ],
+            "thursday": [ 2, 14, 13, 29 ],
+            "friday": [ 22, 14, 2, 9 ],
+            "saturday": [ 7, 20, 28, 3 ],
+            "sunday": [ 6, 18, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

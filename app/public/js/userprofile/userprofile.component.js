@@ -315,6 +315,193 @@
       vm.userEditMusicShareCommentCompleted = userEditMusicShareCommentCompleted;
       vm.deleteMusicShare = deleteMusicShare;
       vm.addNewArtShareComment = addNewArtShareComment;
+      vm.declineTileShare = declineTileShare;
+      vm.acceptTileShare = acceptTileShare;
+
+      function acceptTileShare(tileShareId) {
+        let optionElement;
+        let acceptTilePane = document.getElementById('acceptTilePane');
+        let tileShareMonthSelectorDiv = document.getElementById('tileShareMonthSelectorDiv');
+        let tileShareMonthSelect = document.getElementById('tileShareMonthSelect');
+        if (tileShareMonthSelect) {
+          tileShareMonthSelect.parentNode.removeChild(tileShareMonthSelect);
+          tileShareMonthSelect = document.createElement('select');
+          tileShareMonthSelect.id = 'tileShareMonthSelect';
+          tileShareMonthSelectorDiv.appendChild(tileShareMonthSelect);
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'january_tiles';
+          optionElement.innerHTML = 'January';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'february_tiles';
+          optionElement.innerHTML = 'February';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'march_tiles';
+          optionElement.innerHTML = 'March';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'april_tiles';
+          optionElement.innerHTML = 'April';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'may_tiles';
+          optionElement.innerHTML = 'May';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'june_tiles';
+          optionElement.innerHTML = 'June';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'july_tiles';
+          optionElement.innerHTML = 'July';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'august_tiles';
+          optionElement.innerHTML = 'August';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'september_tiles';
+          optionElement.innerHTML = 'September';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'october_tiles';
+          optionElement.innerHTML = 'October';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'november_tiles';
+          optionElement.innerHTML = 'November';
+          optionElement = document.createElement('option');
+          tileShareMonthSelect.appendChild(optionElement);
+          optionElement.value = 'december_tiles';
+          optionElement.innerHTML = 'December';
+        }
+        let tileTypeSelector = document.getElementById('tileTypeSelector');
+        let tileShareThemeLabel = document.getElementById('tileShareThemeLabel');
+        let tileShareAcceptUserThemeInputDiv = document.getElementById('tileShareAcceptUserThemeInputDiv');
+        let tileShareAcceptUserThemeInput = document.getElementById('tileShareAcceptUserThemeInput');
+        let userTilesTable = '';
+        let acceptTileTile = document.getElementById('acceptTileTile');
+        let tileSharePaneCancelOrNotDiv = document.getElementById('tileSharePaneCancelOrNotDiv');
+        let tileSharePaneCancel = document.getElementById('tileSharePaneCancel');
+        if (tileSharePaneCancel) {
+          tileSharePaneCancel.parentNode.removeChild(tileSharePaneCancel);
+          tileSharePaneCancel = document.createElement('a');
+          tileSharePaneCancel.id = 'tileSharePaneCancel';
+          tileSharePaneCancelOrNotDiv.appendChild(tileSharePaneCancel);
+          tileSharePaneCancel.className = 'btn';
+          tileSharePaneCancel.innerHTML = 'cancel';
+          tileSharePaneCancel.setAttribute("style", "cursor: pointer;");
+        }
+        let tileSharePaneAccept = document.getElementById('tileSharePaneAccept');
+        if (tileSharePaneAccept) {
+          tileSharePaneAccept.parentNode.removeChild(tileSharePaneAccept);
+          tileSharePaneAccept = document.createElement('a');
+          tileSharePaneAccept.id = 'tileSharePaneAccept';
+          tileSharePaneCancelOrNotDiv.appendChild(tileSharePaneAccept);
+          tileSharePaneAccept.className = 'btn';
+          tileSharePaneAccept.innerHTML = 'accept';
+          tileSharePaneAccept.setAttribute("style", "cursor: pointer;");
+        }
+
+        $http.get(`/tile_shares/${tileShareId}`)
+        .then(tileShareData => {
+          let tileShare = tileShareData.data;
+          tileShareMonthSelect.value = tileShare.tiles_month;
+          userTilesTable = tileShare.tiles_month + 'byuser';
+          $http.get(`/${tileShare.tiles_month}/${tileShare.tiles_id}`)
+          .then(tileData => {
+            let tile = tileData.data;
+            tileTypeSelector.value = tile.type;
+            acceptTileTile.setAttribute("style", "background-image: url(" + tile.src_string + "); background-repeat: " + tile.repeat_value + "; background-size: " + tile.size_value + ";");
+            $http.get(`/${userTilesTable}/${currentUserId}`)
+            .then(userMonthTilesData => {
+              let userMonthTiles = userMonthTilesData.data;
+              if (userMonthTiles.length > 0) {
+                tileShareThemeLabel.innerHTML = 'Theme: ' + userMonthTiles[0].theme;
+                tileShareAcceptUserThemeInputDiv.setAttribute("style", "display: none;");
+                tileShareAcceptUserThemeInput.value = '';
+              } else {
+                tileShareThemeLabel.innerHTML = '';
+                tileShareAcceptUserThemeInputDiv.setAttribute("style", "display: initial;");
+                tileShareAcceptUserThemeInput.value = tile.theme;
+              }
+
+              tileShareMonthSelect.addEventListener('change', () => {
+                userTilesTable = tileShareMonthSelect.value + 'byuser';
+                $http.get(`/${userTilesTable}/${currentUserId}`)
+                .then(changedUserTilesTableData => {
+                  userMonthTiles = changedUserTilesTableData.data;
+                  if (userMonthTiles.length > 0) {
+                    tileShareThemeLabel.innerHTML = 'Theme: ' + userMonthTiles[0].theme;
+                    tileShareAcceptUserThemeInputDiv.setAttribute("style", "display: none;");
+                    tileShareAcceptUserThemeInput.value = '';
+                  } else {
+                    tileShareThemeLabel.innerHTML = '';
+                    tileShareAcceptUserThemeInputDiv.setAttribute("style", "display: initial;");
+                    tileShareAcceptUserThemeInput.value = tile.theme;
+                  }
+                });
+              });
+              tileSharePaneCancel.addEventListener('click', () => {
+                acceptTilePane.setAttribute("style", "opacity: 0; z-index: -6; transition: opacity 0.5s linear;");
+              });
+              tileSharePaneAccept.addEventListener('click', () => {
+                let tileSubmit = {
+                  user_id: currentUserId,
+                  type: tileTypeSelector.value,
+                  src_string: tile.src_string,
+                  repeat_value: tile.repeat_value,
+                  size_value: tile.size_value,
+                  color_dark: tile.color_dark,
+                  color_medium: tile.color_medium,
+                  color_light: tile.color_light
+                };
+                if (userMonthTiles.length > 0) {
+                  tileSubmit.theme = userMonthTiles[0].theme;
+                } else {
+                  tileSubmit.theme = tileShareAcceptUserThemeInput.value;
+                }
+                $http.post(`/${tileShareMonthSelect.value}`, tileSubmit)
+                .then(submittedTileData => {
+                  let submittedTile = submittedTileData.data;
+                  let now = new Date();
+                  let tileAcceptSubmit = {
+                    responded: true,
+                    accepted: true,
+                    updated_at: now
+                  };
+                  $http.patch(`/tile_shares/${tileShareId}`, tileAcceptSubmit)
+                  .then(updatedShareData => {
+                    let updatedShare = updatedShareData.data;
+                    document.getElementById('tileAcceptDecline' + tileShareId).setAttribute("style", "display: none;");
+                    document.getElementById('tileShareAccepted' + tileShareId).setAttribute("style", "display: initial;");
+                    document.getElementById('tileShareDeclined' + tileShareId).setAttribute("style", "display: none;");
+                    acceptTilePane.setAttribute("style", "opacity: 0; z-index: -6; transition: opacity 0.5s linear;");
+                  });
+                });
+              });
+            });
+          });
+        });
+
+        acceptTilePane.setAttribute("style", "opacity: 1; z-index: 6; transition: opacity 0.5s linear;");
+      }
+
+      function declineTileShare(tileShareId) {
+        let subObj = {
+          responded: true,
+          accepted: false
+        };
+        $http.patch(`/tile_shares/${tileShareId}`, subObj)
+        .then(patchedTileShareData => {
+          let patchedTileShare = patchedTileShareData.data;
+          document.getElementById('tileAcceptDecline' + tileShareId).setAttribute("style", "display: none;");
+          document.getElementById('tileShareAccepted' + tileShareId).setAttribute("style", "display: none;");
+          document.getElementById('tileShareDeclined' + tileShareId).setAttribute("style", "display: initial;");
+        });
+      }
 
       function addNewArtShareComment(artShareId) {
         let index;
@@ -18067,6 +18254,7 @@
           .then(inviteeData => {
             let invitee = inviteeData.data;
             vm.activeTileShares[index].invitee = invitee.name;
+            vm.activeTileShares[index].inviterImg = invitee.user_avatar_url;
             if (parseInt(invitee.id) === parseInt(currentUserId)) {
               vm.activeTileShares[index].inv_img = inviter.user_avatar_url;
             } else {
@@ -18074,6 +18262,57 @@
             }
           });
         });
+      }
+
+      function retrieveTileCommenterData(tileComment, index, commentIndex) {
+        $http.get(`/users/${tileComment.user_id}`)
+        .then(commenterData => {
+          let commenter = commenterData.data;
+          vm.activeTileShares[index].comments[commentIndex].name = commenter.name;
+          vm.activeTileShares[index].comments[commentIndex].user_avatar_url = commenter.user_avatar_url;
+        });
+      }
+
+      function obtainTileComments(tileShare, index) {
+        let datea;
+        let dateb;
+
+        $http.get('/tile_share_comments')
+        .then(allTileShareCommentsData => {
+          let allTileShareComments = allTileShareCommentsData.data;
+          let tileComments = allTileShareComments.filter(tl => {
+            return(tl.tile_share === tileShare.id);
+          });
+          tileComments = tileComments.sort((a, b) => {
+            datea = new Date(a.created_at);
+            dateb = new Date(b.created_at);
+            return ((datea.getTime() - dateb.getTime()));
+          });
+          if (tileComments.length > 0) {
+            vm.activeTileShares[index].comments = [];
+            for (let i = 0; i < tileComments.length; i++) {
+              vm.activeTileShares[index].comments[i] = {
+                id: tileComments[i].id,
+                user_id: tileComments[i].user_id,
+                tile_share: tileComments[i].tile_share,
+                comment: tileComments[i].comment
+              };
+              vm.activeTileShares[index].comments[i].cleanDate = cleanDateHoliday(tileComments[i].created_at) + ' - ' + timeDate(tileComments[i].created_at);
+              retrieveTileCommenterData(tileComments[i], index, i);
+            }
+            setTimeout(() => {
+              for (let j = 0; j < vm.activeTileShares[index].comments.length; j++) {
+                if (parseInt(vm.activeTileShares[index].comments[j].user_id) === parseInt(currentUserId)) {
+                  document.getElementById('editDeleteTileShareCommentDiv' + vm.activeTileShares[index].comments[j].id).setAttribute("style", "display: initial;");
+                } else {
+                  document.getElementById('editDeleteTileShareCommentDiv' + vm.activeTileShares[index].comments[j].id).setAttribute("style", "display: none;");
+                }
+                document.getElementById('thisIsTheTileShareCommentEditor' +    vm.activeTileShares[index].comments[j].id).setAttribute("style", "display: none;");
+                document.getElementById('thisIsTileShareCommentEditDoneDiv' + vm.activeTileShares[index].comments[j].id).setAttribute("style", "display: none;");
+              }
+            }, (tileComments.length * 50));
+          }
+        })
       }
 
       function retrieveUserTileShares() {
@@ -18100,12 +18339,15 @@
                 cleanDate: cleanDateHoliday(userTileShares[i].created_at) + ' - ' + timeDate(userTileShares[i].created_at),
                 currateDate: currateDate,
                 user_id: userTileShares[i].user_id,
-                share_associate_id: userTileShares[i].share_associate_id
+                share_associate_id: userTileShares[i].share_associate_id,
+                responded: userTileShares[i].responded,
+                accepted: userTileShares[i].accepted
               };
               // console.log(vm.activeTileShares[i]);
               // console.log(userTileShares[i]);
               obtainTileData(userTileShares[i], i);
               obtainTileUsersData(userTileShares[i], i);
+              obtainTileComments(userTileShares[i], i);
             }
             setTimeout(() => {
               for (let j = 0; j < vm.activeTileShares.length; j++) {
@@ -18113,13 +18355,39 @@
                 document.getElementById('tilesCurratorDate' + vm.activeTileShares[j].id).setAttribute("style", "color: " + vm.activeTileShares[j].colorDark + ";");
                 handleHoverTile(document.getElementById('tilesCurratorDate' + vm.activeTileShares[j].id), vm.activeTileShares[j]);
                 if (parseInt(vm.activeTileShares[j].share_associate_id) === parseInt(currentUserId)) {
+                  if (vm.activeTileShares[j].responded) {
+                    document.getElementById('tileAcceptDecline' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                    if (vm.activeTileShares[j].accepted) {
+                      document.getElementById('tileShareAccepted' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
+                      document.getElementById('tileShareDeclined' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                    } else {
+                      document.getElementById('tileShareAccepted' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                      document.getElementById('tileShareDeclined' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
+                    }
+                  } else {
+                    document.getElementById('tileAcceptDecline' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
+                    document.getElementById('tileShareAccepted' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                    document.getElementById('tileShareDeclined' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                  }
                   document.getElementById('tileInviter' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
                   document.getElementById('tileInvitee' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
-                  document.getElementById('tileAcceptDecline' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
+
                 } else {
                   document.getElementById('tileInviter' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
                   document.getElementById('tileInvitee' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
                   document.getElementById('tileAcceptDecline' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                  if (vm.activeTileShares[j].responded) {
+                    if (vm.activeTileShares[j].accepted) {
+                      document.getElementById('tileShareAccepted' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
+                      document.getElementById('tileShareDeclined' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                    } else {
+                      document.getElementById('tileShareAccepted' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                      document.getElementById('tileShareDeclined' + vm.activeTileShares[j].id).setAttribute("style", "display: initial;");
+                    }
+                  } else {
+                    document.getElementById('tileShareAccepted' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                    document.getElementById('tileShareDeclined' + vm.activeTileShares[j].id).setAttribute("style", "display: none;");
+                  }
                 }
               }
             }, 250);

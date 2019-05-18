@@ -11004,6 +11004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 551,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Blinklg.jpg',
+          title: 'Blink',
+          artist: 'Amalia Amaki',
+          year: '?',
+          rule: {
+            "monday": [ 29, 10, 16, 22 ],
+            "tuesday": [ 2, 10, 18, 28 ],
+            "wednesday": [ 2, 12, 8, 27 ],
+            "thursday": [ 21, 29, 8, 16 ],
+            "friday": [ 22, 2, 10, 18 ],
+            "saturday": [ 28, 4, 10, 20 ],
+            "sunday": [ 27, 6, 14, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 552,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/amosOnHold.jpeg',
+          title: 'All I Know of Wonder',
+          artist: 'Emma Amos',
+          year: '2008',
+          rule: {
+            "monday": [ 27, 6, 14, 22 ],
+            "tuesday": [ 29, 10, 16, 22 ],
+            "wednesday": [ 2, 10, 18, 28 ],
+            "thursday": [ 2, 12, 8, 27 ],
+            "friday": [ 21, 29, 8, 16 ],
+            "saturday": [ 22, 2, 10, 18 ],
+            "sunday": [ 28, 4, 10, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 553,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/bear-sit-under-detail.jpg',
+          title: 'Did The Bear Sit Under a Tree',
+          artist: 'Benny Andrews',
+          year: '1969',
+          rule: {
+            "monday": [ 29, 5, 11, 21 ],
+            "tuesday": [ 28, 7, 15, 23 ],
+            "wednesday": [ 1, 11, 17, 23 ],
+            "thursday": [ 3, 11, 19, 29 ],
+            "friday": [ 3, 13, 9, 28 ],
+            "saturday": [ 22, 1, 9, 17 ],
+            "sunday": [ 23, 3, 11, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 554,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/RiotsWhy.jpg',
+          title: 'Beyond the Great Eclipse: Newsweek The Riots in Color',
+          artist: 'Edgar Arceneaux',
+          year: '2009',
+          rule: {
+            "monday": [ 23, 3, 11, 19 ],
+            "tuesday": [ 29, 5, 11, 21 ],
+            "wednesday": [ 28, 7, 15, 23 ],
+            "thursday": [ 1, 11, 17, 23 ],
+            "friday": [ 3, 11, 19, 29 ],
+            "saturday": [ 3, 13, 9, 28 ],
+            "sunday": [ 22, 1, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 555,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/RB15.032-Notes-from-Tervuren-sized-for-web.jpg',
+          title: 'Notes from Tervuren',
+          artist: 'Radcliffe Bailey',
+          year: '2015',
+          rule: {
+            "monday": [ 22, 1, 9, 17 ],
+            "tuesday": [ 23, 3, 11, 19 ],
+            "wednesday": [ 29, 5, 11, 21 ],
+            "thursday": [ 28, 7, 15, 23 ],
+            "friday": [ 1, 11, 17, 23 ],
+            "saturday": [ 3, 11, 19, 29 ],
+            "sunday": [ 3, 13, 9, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

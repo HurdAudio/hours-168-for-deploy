@@ -348,6 +348,62 @@
   </div>
 </div>
 
+<div id="acceptTilePane">
+
+  <h1>Add Shared Tile:</h1>
+  <div id="tileShareParameters">
+
+    <p>Please select a month:</p>
+    <div id="tileShareMonthSelectorDiv">
+      <select id="tileShareMonthSelect">
+        <option value="january_tiles">January</option>
+        <option value="february_tiles">February</option>
+        <option value="march_tiles">March</option>
+        <option value="april_tiles">April</option>
+        <option value="may_tiles">May</option>
+        <option value="june_tiles">June</option>
+        <option value="july_tiles">July</option>
+        <option value="august_tiles">August</option>
+        <option value="september_tiles">September</option>
+        <option value="october_tiles">October</option>
+        <option value="november_tiles">November</option>
+        <option value="december_tiles">December</option>
+      </select>
+    </div>
+    <p>Please select a tile type:</p>
+    <div id="tileShareTypeSelect">
+
+      <select id="tileTypeSelector">
+
+        <option value="default">Off Month Tiles</option>
+        <option value="mtwt">Monday/Tuesday/Wednesday/Thursday</option>
+        <option value="week">Week Tile</option>
+        <option value="friday">Friday Tile</option>
+        <option value="saturday">Saturday Tile</option>
+        <option value="sunday">Sunday Tile</option>
+        <option value="holiday">Holiday Tile</option>
+      </select>
+    </div>
+    <br><br><br><br>
+    <p id="tileShareThemeLabel">Theme: </p>
+    <div id="tileShareAcceptUserThemeInputDiv">
+
+      <input type="text" id="tileShareAcceptUserThemeInput">
+    </div>
+    <br><br><br><br>
+    <div id="tileSharePaneCancelOrNotDiv">
+
+      <a class="btn" id="tileSharePaneCancel">cancel</a>
+      <a class="btn" id="tileSharePaneAccept">accept</a>
+    </div>
+  </div>
+  <div id="theTileForShare">
+
+    <div id="acceptTileTile"></div>
+    <br><br><br>
+  </div>
+</div>
+
 <div id="dashboard" class="pure-g">
   <div id="userProfilePortal" class="pure-u-1-3">
     <div id="profileZone">
@@ -4670,7 +4726,7 @@
                 <h1 id="tilesCurratorDate{{tile.id}}">{{tile.currateDate}}</h1>
               </div>
             </div>
-            <br><br>
+
 
 
             <div class="holidayAcceptDenyButtons" id="tileAcceptDecline{{tile.id}}">
@@ -4678,16 +4734,16 @@
               <a class="btn" ng-click="$ctrl.declineTileShare(tile.id)">Decline</a>
               <a class="btn" ng-click="$ctrl.acceptTileShare(tile.id)">Accept</a>
             </div><br><br>
-            <!-- <br><br><div id="artShareAccepted{{art.id}}">
+            <br><br><div id="tileShareAccepted{{tile.id}}">
 
-              <img src="{{art.inviterImg}}"><br>
-              <br><h3>{{art.invitee}} has accepted this observance.</h3>
+              <img src="{{tile.inviterImg}}"><br>
+              <br><h3>{{tile.invitee}} has accepted this tile.</h3>
             </div>
-            <br><br><div id="artShareDeclined{{observe.id}}">
+            <br><br><div id="tileShareDeclined{{tile.id}}">
 
-              <img src="{{art.inviterImg}}"><br>
-              <br><h3>{{art.invitee}} has declined this observance.</h3>
-            </div> -->
+              <img src="{{tile.inviterImg}}"><br>
+              <br><h3>{{tile.invitee}} has declined this tile.</h3>
+            </div>
 
             <!-- <a href=""><h3>comment</h3></a> -->
 
@@ -4697,7 +4753,7 @@
               <!-- <a class="btn" href="#" ng-click="$ctrl.addNewArtShareComment(art.id)" id="newArtShareCommentButton{{art.id}}">add</a> -->
             <!-- </div> -->
             <div id="tileShareComments" class="occasionShareComments">
-              <!-- <main ng-repeat="comment in art.comments | orderBy : $ctrl.sortBy"> -->
+              <main ng-repeat="comment in tile.comments | orderBy : $ctrl.sortBy">
                 <img src="{{comment.user_avatar_url}}"><br><br><br>
                 <br><br><br><p>From: {{comment.name}} <br>
                 on {{comment.cleanDate}}</p><br><br>
@@ -4716,7 +4772,7 @@
                   <a class="btn" href="#" ng-click="$ctrl.userEditTileShareComment(comment.id)">edit</a>
                   <a class="btn" href="#" ng-click="$ctrl.userDeleteTileShareComment(comment.id)">delete</a>
                 </div><br><br><br><br>
-              <!-- </main> -->
+              </main>
             </div>
           </main>
         </div>

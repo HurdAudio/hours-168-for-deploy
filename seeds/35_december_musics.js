@@ -4810,6 +4810,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 268,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1372391055/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/mazo-del-azar-a-la-creacion-doom-heavy-rock-lima-peru-1987',
+          a_string: 'MAZO: Del azar a la creacion (Doom Heavy Rock Lima Peru 1987) by MAZO',
+          rule: {
+            "monday": [ 10, 16, 22, 28 ],
+            "tuesday": [ 14, 20, 26, 1 ],
+            "wednesday": [ 13, 19, 25, 31 ],
+            "thursday": [ 10, 18, 24, 30 ],
+            "saturday": [ 9, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 269,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=154770438/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/mazo-nivel-de-vida-doom-heavy-rock-lima-peru-1987',
+          a_string: 'MAZO: Nivel de Vida (Doom Heavy Rock Lima Peru 1987) by MAZO',
+          rule: {
+            "monday": [ 9, 17, 23, 29 ],
+            "tuesday": [ 10, 16, 22, 28 ],
+            "wednesday": [ 14, 20, 26, 1 ],
+            "thursday": [ 13, 19, 25, 31 ],
+            "saturday": [ 10, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 270,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4250124244/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/modern-art-oriental-towers-uk-1983-new-wave-synth-pop-post-punk-electro-dark-second-tape',
+          a_string: 'MODERN ART &quot;Oriental Towers&quot; (UK 1983 New Wave * Synth Pop * Post Punk * Electro Dark * Second tape) by Modern Art',
+          rule: {
+            "monday": [ 10, 18, 24, 30 ],
+            "tuesday": [ 9, 17, 23, 29 ],
+            "wednesday": [ 10, 16, 22, 28 ],
+            "thursday": [ 14, 20, 26, 1 ],
+            "saturday": [ 13, 19, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

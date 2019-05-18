@@ -5458,6 +5458,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 304,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=137877233/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://lineimprint.bandcamp.com/album/forms-of-paper-remastered',
+          a_string: 'Forms of Paper (remastered) by STEVE RODEN',
+          rule: {
+            "monday": [ 10, 18, 20, 5 ],
+            "tuesday": [ 14, 18, 24, 5 ],
+            "wednesday": [ 13, 16, 21, 3 ],
+            "thursday": [ 12, 15, 21, 2 ],
+            "saturday": [ 12, 15, 21, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 305,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2239583996/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://lineimprint.bandcamp.com/album/lupe-luep-peul-epul',
+          a_string: 'Lupe Luep Peul Epul by MIKI YUI',
+          rule: {
+            "monday": [ 12, 15, 21, 1 ],
+            "tuesday": [ 10, 18, 20, 5 ],
+            "wednesday": [ 14, 18, 24, 5 ],
+            "thursday": [ 13, 16, 21, 3 ],
+            "saturday": [ 12, 15, 21, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 306,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3528250070/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://roelmeelkop.bandcamp.com/album/momentum',
+          a_string: '&lt;Momentum&gt; by Roel Meelkop',
+          rule: {
+            "monday": [ 12, 15, 21, 2 ],
+            "tuesday": [ 12, 15, 21, 1 ],
+            "wednesday": [ 10, 18, 20, 5 ],
+            "thursday": [ 14, 18, 24, 5 ],
+            "saturday": [ 13, 16, 21, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -10804,6 +10804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 541,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/8-ares-iseult-labote-photography23-v2.jpeg',
+          title: 'Sans Titre n°II',
+          artist: 'Iseult Labote',
+          year: '2002',
+          rule: {
+            "monday": [ 15, 25, 2, 12 ],
+            "tuesday": [ 13, 24, 1, 11 ],
+            "wednesday": [ 13, 23, 31, 10 ],
+            "thursday": [ 12, 23, 30, 9 ],
+            "friday": [ 11, 21, 29, 8 ],
+            "saturday": [ 10, 20, 29, 7 ],
+            "sunday": [ 16, 25, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 542,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/1061-2012sajmv-serie-4x4-tecnica-mista-sobre-papel-57x77cm.jpeg',
+          title: 'Serie 4x4',
+          artist: 'Sofia Areal',
+          year: '2012',
+          rule: {
+            "monday": [ 16, 25, 4, 12 ],
+            "tuesday": [ 15, 25, 2, 12 ],
+            "wednesday": [ 13, 24, 1, 11 ],
+            "thursday": [ 13, 23, 31, 10 ],
+            "friday": [ 12, 23, 30, 9 ],
+            "saturday": [ 11, 21, 29, 8 ],
+            "sunday": [ 10, 20, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 543,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/african-woman-hut-and-fence.jpeg',
+          title: 'African Woman (Hut and Fence)',
+          artist: 'L Yaffe',
+          year: '?',
+          rule: {
+            "monday": [ 10, 20, 29, 7 ],
+            "tuesday": [ 16, 25, 4, 12 ],
+            "wednesday": [ 15, 25, 2, 12 ],
+            "thursday": [ 13, 24, 1, 11 ],
+            "friday": [ 13, 23, 31, 10 ],
+            "saturday": [ 12, 23, 30, 9 ],
+            "sunday": [ 11, 21, 29, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 544,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/family-secrets-2006(9).jpeg',
+          title: 'Family Secrets',
+          artist: 'Kerry O. Furlani',
+          year: '2006',
+          rule: {
+            "monday": [ 11, 21, 29, 8 ],
+            "tuesday": [ 10, 20, 29, 7 ],
+            "wednesday": [ 16, 25, 4, 12 ],
+            "thursday": [ 15, 25, 2, 12 ],
+            "friday": [ 13, 24, 1, 11 ],
+            "saturday": [ 13, 23, 31, 10 ],
+            "sunday": [ 12, 23, 30, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 545,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-sence-of-adventure.jpeg',
+          title: 'The Sence of Adventure',
+          artist: 'Manuela Sambo',
+          year: '2013',
+          rule: {
+            "monday": [ 12, 23, 30, 9 ],
+            "tuesday": [ 11, 21, 29, 8 ],
+            "wednesday": [ 10, 20, 29, 7 ],
+            "thursday": [ 16, 25, 4, 12 ],
+            "friday": [ 15, 25, 2, 12 ],
+            "saturday": [ 13, 24, 1, 11 ],
+            "sunday": [ 13, 23, 31, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

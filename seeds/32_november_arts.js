@@ -9204,6 +9204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 461,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/triptyque-1991.jpeg',
+          title: 'Triptyque',
+          artist: 'Genevieve Asse',
+          year: '1991',
+          rule: {
+            "monday": [ 10, 13, 20, 25 ],
+            "tuesday": [ 9, 13, 20, 25 ],
+            "wednesday": [ 8, 13, 19, 24 ],
+            "thursday": [ 7, 12, 18, 25 ],
+            "friday": [ 13, 18, 24, 29 ],
+            "saturday": [ 12, 14, 22, 28 ],
+            "sunday": [ 11, 15, 22, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 462,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/matt-black-and-gloss-1991.jpeg',
+          title: 'Matt Black and Gloss',
+          artist: 'Ian Davenport',
+          year: '1991',
+          rule: {
+            "monday": [ 12, 16, 23, 27 ],
+            "tuesday": [ 11, 14, 21, 26 ],
+            "wednesday": [ 10, 14, 21, 26 ],
+            "thursday": [ 9, 14, 20, 25 ],
+            "friday": [ 8, 13, 19, 26 ],
+            "saturday": [ 14, 19, 25, 30 ],
+            "sunday": [ 13, 15, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 463,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/french-painting-baraban-1991.jpeg',
+          title: 'French Painting: Baraban',
+          artist: 'Marcia Hafif',
+          year: '1991',
+          rule: {
+            "monday": [ 13, 15, 23, 29 ],
+            "tuesday": [ 12, 16, 23, 27 ],
+            "wednesday": [ 11, 14, 21, 26 ],
+            "thursday": [ 10, 14, 21, 26 ],
+            "friday": [ 9, 14, 20, 25 ],
+            "saturday": [ 8, 13, 19, 26 ],
+            "sunday": [ 14, 19, 25, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 464,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/painting-with-four-square-holes-1991.jpeg',
+          title: 'Painting with Four Square Holes',
+          artist: 'Alan Charlton',
+          year: '1991',
+          rule: {
+            "monday": [ 14, 19, 25, 30 ],
+            "tuesday": [ 13, 15, 23, 29 ],
+            "wednesday": [ 12, 16, 23, 27 ],
+            "thursday": [ 11, 14, 21, 26 ],
+            "friday": [ 10, 14, 21, 26 ],
+            "saturday": [ 9, 14, 20, 25 ],
+            "sunday": [ 8, 13, 19, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 465,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/sardana-1991.jpeg',
+          title: 'Sardana',
+          artist: 'Katsuhito Nishikawa',
+          year: '1991',
+          rule: {
+            "monday": [ 8, 13, 19, 26 ],
+            "tuesday": [ 14, 19, 25, 30 ],
+            "wednesday": [ 13, 15, 23, 29 ],
+            "thursday": [ 12, 16, 23, 27 ],
+            "friday": [ 11, 14, 21, 26 ],
+            "saturday": [ 10, 14, 21, 26 ],
+            "sunday": [ 9, 14, 20, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5890,6 +5890,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 328,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3946879309/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://carltonjumelsmith.bandcamp.com/album/1634-lexington-ave',
+          a_string: '1634 Lexington Ave. by Carlton Jumel Smith',
+          rule: {
+            "monday": [ 6, 29, 2, 8 ],
+            "tuesday": [ 7, 1, 3, 9 ],
+            "wednesday": [ 19, 23, 25, 29 ],
+            "thursday": [ 22, 25, 27, 29 ],
+            "saturday": [ 4, 27, 29, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 329,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2959528128/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tonymomrelle.bandcamp.com/album/best-is-yet-to-come',
+          a_string: 'Best Is Yet To Come by Tony Momrelle',
+          rule: {
+            "monday": [ 5, 28, 1, 3 ],
+            "tuesday": [ 7, 1, 3, 9 ],
+            "wednesday": [ 8, 2, 4, 10 ],
+            "thursday": [ 20, 24, 26, 1 ],
+            "saturday": [ 23, 26, 28, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 330,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1717636897/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://honeycombmusic.bandcamp.com/album/epiphany',
+          a_string: 'Epiphany by Janine Lyons',
+          rule: {
+            "monday": [ 23, 26, 28, 1 ],
+            "tuesday": [ 5, 28, 1, 3 ],
+            "wednesday": [ 7, 1, 3, 9 ],
+            "thursday": [ 8, 2, 4, 10 ],
+            "saturday": [ 20, 24, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

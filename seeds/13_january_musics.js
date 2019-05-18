@@ -5998,6 +5998,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 334,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2928091125/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/the-breadwinner',
+          a_string: 'The Breadwinner by Graham Lambkin/Jason Lescalleet',
+          rule: {
+            "monday": [ 26, 2, 3, 4 ],
+            "tuesday": [ 25, 31, 1, 3 ],
+            "wednesday": [ 24, 31, 1, 2 ],
+            "thursday": [ 23, 29, 30, 31 ],
+            "saturday": [ 22, 29, 30, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 335,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=716401794/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/one-snow-mud-rain',
+          a_string: 'One (Snow Mud Rain) by R/S (Rehberg/Schmickler)',
+          rule: {
+            "monday": [ 22, 29, 30, 31 ],
+            "tuesday": [ 26, 2, 3, 4 ],
+            "wednesday": [ 25, 31, 1, 3 ],
+            "thursday": [ 24, 31, 1, 2 ],
+            "saturday": [ 23, 29, 30, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 336,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1596654856/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/between',
+          a_string: 'between by Keith Rowe/Toshimaru Nakamura',
+          rule: {
+            "monday": [ 24, 30, 31, 1 ],
+            "tuesday": [ 23, 30, 31, 1 ],
+            "wednesday": [ 27, 3, 4, 5 ],
+            "thursday": [ 26, 1, 2, 4 ],
+            "saturday": [ 25, 1, 2, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

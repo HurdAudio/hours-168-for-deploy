@@ -2674,8 +2674,8 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Commercially Viable Genres',
           source: 'bandcamp',
-          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1386862041/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://wharfcatrecords.bandcamp.com/album/800',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1651711639/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bichkraft.bandcamp.com/album/800',
           a_string: '800 by Bichkraft',
           rule: {
             "monday": [ 19, 21, 25, 2 ],
@@ -3304,8 +3304,8 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Commercially Viable Genres',
           source: 'bandcamp',
-          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3574162760/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://holymotorsband.bandcamp.com/album/slow-sundown',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1363899751/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://holymotorsband.bandcamp.com/album/slow-sundown-2',
           a_string: 'SLOW SUNDOWN by Holy Motors',
           rule: {
             "monday": [ 24, 26, 30, 7 ],
@@ -4566,7 +4566,7 @@ exports.seed = function(knex, Promise) {
           source: 'bandcamp',
           src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3822467491/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
           href_string: 'http://heladonegro.bandcamp.com/album/this-is-how-you-smile',
-          a_string: '',
+          a_string: 'This Is How You Smile by Helado Negro',
           rule: {
             "monday": [ 3, 5, 9, 17 ],
             "tuesday": [ 7, 9, 13, 21 ],
@@ -4798,9 +4798,9 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Commercially Viable Genres',
           source: 'bandcamp',
-          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1409143922/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://youngscum.bandcamp.com/album/young-scum',
-          a_string: 'Young Scum by Young Scum',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2561797139/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://elenasetien.bandcamp.com/album/another-kind-of-revolution',
+          a_string: 'Another Kind Of Revolution by Elena Setien',
           rule: {
             "monday": [ 8, 10, 14, 22 ],
             "tuesday": [ 7, 9, 13, 21 ],
@@ -5347,6 +5347,60 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 10, 11, 16, 24 ],
             "thursday": [ 9, 11, 15, 23 ],
             "saturday": [ 13, 15, 19, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 298,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4280229468/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://olivianeutron-john.bandcamp.com/album/olivia-neutron-john',
+          a_string: 'Olivia Neutron-John by Olivia Neutron-John',
+          rule: {
+            "monday": [ 13, 15, 19, 27 ],
+            "tuesday": [ 12, 14, 18, 26 ],
+            "wednesday": [ 11, 13, 17, 25 ],
+            "thursday": [ 10, 11, 16, 24 ],
+            "saturday": [ 9, 11, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 299,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2042391048/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://deathandvanillamusic.bandcamp.com/album/are-you-a-dreamer',
+          a_string: 'Are You A Dreamer? by Death &amp; Vanilla',
+          rule: {
+            "monday": [ 9, 11, 15, 23 ],
+            "tuesday": [ 13, 15, 19, 27 ],
+            "wednesday": [ 12, 14, 18, 26 ],
+            "thursday": [ 11, 13, 17, 25 ],
+            "saturday": [ 10, 11, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 300,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2670993182/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://greys.bandcamp.com/album/age-hasnt-spoiled-you',
+          a_string: 'Age Hasn&#39;t Spoiled You by Greys',
+          rule: {
+            "monday": [ 10, 11, 16, 24 ],
+            "tuesday": [ 9, 11, 15, 23 ],
+            "wednesday": [ 13, 15, 19, 27 ],
+            "thursday": [ 12, 14, 18, 26 ],
+            "saturday": [ 11, 13, 17, 25 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

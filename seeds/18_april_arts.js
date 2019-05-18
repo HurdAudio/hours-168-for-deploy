@@ -10604,6 +10604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/sketch-LAA_aedad6b9-932c-4693-94ab-b0c77912132e_2400x.jpg',
+          title: 'Angel Stadium - Ink Collection',
+          artist: 'S. Preston',
+          year: 'xxi cent.',
+          rule: {
+            "monday": [ 14, 17, 25, 1 ],
+            "tuesday": [ 13, 17, 2, 30 ],
+            "wednesday": [ 10, 16, 22, 28 ],
+            "thursday": [ 11, 16, 22, 28 ],
+            "friday": [ 10, 15, 21, 27 ],
+            "saturday": [ 15, 21, 26, 2 ],
+            "sunday": [ 29, 19, 25, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/thmbHalo.jpeg',
+          title: 'Los Angeles Angels',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 30, 20, 26, 2 ],
+            "tuesday": [ 15, 18, 26, 2 ],
+            "wednesday": [ 14, 18, 3, 1 ],
+            "thursday": [ 11, 17, 23, 29 ],
+            "friday": [ 12, 17, 23, 29 ],
+            "saturday": [ 11, 16, 22, 28 ],
+            "sunday": [ 16, 22, 27, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Angels-Ohtani-returns-5-7-19.jpg',
+          title: 'Shohei Ohtani #17 Los Angeles Angels grounds swings and misses a third inning pitch while playing the Detroit Tigers on May 07, 2019 in Detroit, Michigan',
+          artist: 'Gregory Shamus',
+          year: '2019',
+          rule: {
+            "monday": [ 16, 22, 27, 3 ],
+            "tuesday": [ 30, 20, 26, 2 ],
+            "wednesday": [ 15, 18, 26, 2 ],
+            "thursday": [ 14, 18, 3, 1 ],
+            "friday": [ 11, 17, 23, 29 ],
+            "saturday": [ 12, 17, 23, 29 ],
+            "sunday": [ 11, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/vintageAngels.jpg',
+          title: 'Los Angeles Angels Baseball Team',
+          artist: 'Ralph Crane',
+          year: '1962',
+          rule: {
+            "monday": [ 11, 16, 22, 28 ],
+            "tuesday": [ 16, 22, 27, 3 ],
+            "wednesday": [ 30, 20, 26, 2 ],
+            "thursday": [ 15, 18, 26, 2 ],
+            "friday": [ 14, 18, 3, 1 ],
+            "saturday": [ 11, 17, 23, 29 ],
+            "sunday": [ 12, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/mike-trout-la-angels-of-anaheim-michael-pattison.jpg',
+          title: 'Mike Trout - Los Angeles Angels of Anaheim',
+          artist: 'Michael Pattison',
+          year: '2013',
+          rule: {
+            "monday": [ 12, 17, 23, 29 ],
+            "tuesday": [ 11, 16, 22, 28 ],
+            "wednesday": [ 16, 22, 27, 3 ],
+            "thursday": [ 30, 20, 26, 2 ],
+            "friday": [ 15, 18, 26, 2 ],
+            "saturday": [ 14, 18, 3, 1 ],
+            "sunday": [ 11, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

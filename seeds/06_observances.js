@@ -10918,6 +10918,34 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 702,
+          user_id: 1,
+          name: 'Anthony Benezet (abolitionist/educator) born 1713.',
+          color: '#454545',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Benezet.jpg',
+          day_of: new Date ('1713-01-31T13:44:00.000Z'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 703,
+          user_id: 1,
+          name: 'Benjamin Rush (abolitionist/founding father) born 1746',
+          color: '#635548',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Benjamin_Rush_Painting_by_Peale.jpg',
+          day_of: new Date ('1746-01-04T13:44:00.000Z'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

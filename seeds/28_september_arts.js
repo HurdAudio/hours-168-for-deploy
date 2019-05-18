@@ -9604,6 +9604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 481,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/self-portrait-1959.jpeg',
+          title: 'Self-Portrait',
+          artist: 'James Lee Byars',
+          year: '1959',
+          rule: {
+            "monday": [ 26, 12, 30, 9 ],
+            "tuesday": [ 25, 2, 29, 7 ],
+            "wednesday": [ 3, 10, 28, 5 ],
+            "thursday": [ 10, 16, 4, 12 ],
+            "friday": [ 9, 14, 3, 11 ],
+            "saturday": [ 7, 14, 2, 10 ],
+            "sunday": [ 7, 13, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 482,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/dishes-from-japan-2003.jpeg',
+          title: 'Dishes from Japan',
+          artist: 'Janet Fish',
+          year: '2003',
+          rule: {
+            "monday": [ 7, 13, 1, 9 ],
+            "tuesday": [ 26, 12, 30, 9 ],
+            "wednesday": [ 25, 2, 29, 7 ],
+            "thursday": [ 3, 10, 28, 5 ],
+            "friday": [ 10, 16, 4, 12 ],
+            "saturday": [ 9, 14, 3, 11 ],
+            "sunday": [ 7, 14, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 483,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/ubu-1974.jpeg',
+          title: 'Ubu',
+          artist: 'Enrico Baj',
+          year: '1974',
+          rule: {
+            "monday": [ 8, 15, 3, 11 ],
+            "tuesday": [ 8, 14, 2, 10 ],
+            "wednesday": [ 27, 13, 1, 10 ],
+            "thursday": [ 26, 3, 30, 8 ],
+            "friday": [ 4, 11, 29, 6 ],
+            "saturday": [ 11, 17, 5, 13 ],
+            "sunday": [ 10, 15, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 484,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/retour-de-voyage-ii-1985.jpeg',
+          title: 'Retour de voyage II',
+          artist: 'Leonor Fini',
+          year: '1985',
+          rule: {
+            "monday": [ 10, 15, 4, 12 ],
+            "tuesday": [ 8, 15, 3, 11 ],
+            "wednesday": [ 8, 14, 2, 10 ],
+            "thursday": [ 27, 13, 1, 10 ],
+            "friday": [ 26, 3, 30, 8 ],
+            "saturday": [ 4, 11, 29, 6 ],
+            "sunday": [ 11, 17, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 485,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-demoness-of-urgency-1958.jpeg',
+          title: 'The Demoness of Urgency',
+          artist: 'Friedrich Schroder-Sonnenstern',
+          year: '1958',
+          rule: {
+            "monday": [ 11, 17, 5, 13 ],
+            "tuesday": [ 10, 15, 4, 12 ],
+            "wednesday": [ 8, 15, 3, 11 ],
+            "thursday": [ 8, 14, 2, 10 ],
+            "friday": [ 27, 13, 1, 10 ],
+            "saturday": [ 26, 3, 30, 8 ],
+            "sunday": [ 4, 11, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

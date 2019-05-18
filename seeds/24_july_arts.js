@@ -4929,7 +4929,7 @@ exports.seed = function(knex, Promise) {
           id: 247,
           user_id: 1,
           theme: 'French',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-fire-of-rome-18-july-64-ad.jpg',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/the-fire-of-rome-18-july-64-ad.jpeg',
           title: 'The Fire of Rome, 18 July 64 AD',
           artist: 'Hubert Robert',
           year: '1785',
@@ -5209,7 +5209,7 @@ exports.seed = function(knex, Promise) {
           id: 261,
           user_id: 1,
           theme: 'French',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/new-yorkaise-i-huile-sur-toile-50x50cm-2013.jpg.jpg',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/new-yorkaise-i-huile-sur-toile-50x50cm-2013.jpg',
           title: 'New Yorkaise I',
           artist: 'Pietropoli Patrick',
           year: '2013',
@@ -8969,10 +8969,10 @@ exports.seed = function(knex, Promise) {
           id: 449,
           user_id: 1,
           theme: 'French',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-guardian-of-turkeys-1881.jpg',
-          title: 'The Guardian of Turkeys',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/path-in-the-country-1886.jpeg',
+          title: 'Path in the Country',
           artist: 'Charles Angrand',
-          year: '1881',
+          year: '1886',
           rule: {
             "monday": [ 4, 13, 26, 6 ],
             "tuesday": [ 2, 13, 25, 5 ],
@@ -10001,6 +10001,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 9, 20, 31, 1 ],
             "saturday": [ 8, 19, 29, 31 ],
             "sunday": [ 7, 18, 29, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 501,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/15-octobre-1966.jpeg',
+          title: '15 octobre',
+          artist: 'Michel Parmentier',
+          year: '1966',
+          rule: {
+            "monday": [ 7, 18, 29, 30 ],
+            "tuesday": [ 6, 17, 28, 8 ],
+            "wednesday": [ 12, 23, 3, 13 ],
+            "thursday": [ 11, 20, 2, 13 ],
+            "friday": [ 9, 20, 1, 12 ],
+            "saturday": [ 9, 20, 31, 1 ],
+            "sunday": [ 8, 19, 29, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 502,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/untitled-2007.jpeg',
+          title: 'Untitled',
+          artist: 'Monique Orsini',
+          year: '2007',
+          rule: {
+            "monday": [ 8, 19, 29, 31 ],
+            "tuesday": [ 7, 18, 29, 30 ],
+            "wednesday": [ 6, 17, 28, 8 ],
+            "thursday": [ 12, 23, 3, 13 ],
+            "friday": [ 11, 20, 2, 13 ],
+            "saturday": [ 9, 20, 1, 12 ],
+            "sunday": [ 9, 20, 31, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 503,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/lights-out-2001.jpeg',
+          title: 'Lights out',
+          artist: 'Ben',
+          year: '2001',
+          rule: {
+            "monday": [ 9, 20, 31, 1 ],
+            "tuesday": [ 8, 19, 29, 31 ],
+            "wednesday": [ 7, 18, 29, 30 ],
+            "thursday": [ 6, 17, 28, 8 ],
+            "friday": [ 12, 23, 3, 13 ],
+            "saturday": [ 11, 20, 2, 13 ],
+            "sunday": [ 9, 20, 1, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 504,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/grand-feu-1979.jpeg',
+          title: 'Grand feu',
+          artist: 'Bernard Aubertin',
+          year: '1979',
+          rule: {
+            "monday": [ 10, 21, 2, 13 ],
+            "tuesday": [ 10, 21, 1, 2 ],
+            "wednesday": [ 9, 20, 30, 1 ],
+            "thursday": [ 8, 19, 30, 31 ],
+            "friday": [ 7, 18, 29, 9 ],
+            "saturday": [ 13, 24, 4, 14 ],
+            "sunday": [ 12, 21, 3, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 505,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/anc-tre-59-1974.jpeg',
+          title: 'Ancêtre 59',
+          artist: 'Dado',
+          year: '1974',
+          rule: {
+            "monday": [ 12, 21, 3, 14 ],
+            "tuesday": [ 10, 21, 2, 13 ],
+            "wednesday": [ 10, 21, 1, 2 ],
+            "thursday": [ 9, 20, 30, 1 ],
+            "friday": [ 8, 19, 30, 31 ],
+            "saturday": [ 7, 18, 29, 9 ],
+            "sunday": [ 13, 24, 4, 14 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

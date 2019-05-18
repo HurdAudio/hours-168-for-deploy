@@ -10204,6 +10204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 511,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/image-79-973x1024.jpg',
+          title: 'Looking For Air',
+          artist: 'ilex',
+          year: '2012',
+          rule: {
+            "monday": [ 10, 20, 30, 8 ],
+            "tuesday": [ 19, 29, 9, 7 ],
+            "wednesday": [ 8, 18, 28, 6 ],
+            "thursday": [ 7, 17, 27, 5 ],
+            "friday": [ 13, 23, 3, 10 ],
+            "saturday": [ 12, 22, 3, 10 ],
+            "sunday": [ 11, 21, 1, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 512,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/liat.jpg',
+          title: 'unknown title',
+          artist: 'Liat Aharoni',
+          year: '2014',
+          rule: {
+            "monday": [ 11, 21, 1, 29 ],
+            "tuesday": [ 10, 20, 30, 8 ],
+            "wednesday": [ 19, 29, 9, 7 ],
+            "thursday": [ 8, 18, 28, 6 ],
+            "friday": [ 7, 17, 27, 5 ],
+            "saturday": [ 13, 23, 3, 10 ],
+            "sunday": [ 12, 22, 3, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 513,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/aharoni.jpg',
+          title: 'unknown title',
+          artist: 'Liat Aharoni',
+          year: '2014',
+          rule: {
+            "monday": [ 12, 22, 3, 10 ],
+            "tuesday": [ 11, 21, 1, 29 ],
+            "wednesday": [ 10, 20, 30, 8 ],
+            "thursday": [ 19, 29, 9, 7 ],
+            "friday": [ 8, 18, 28, 6 ],
+            "saturday": [ 7, 17, 27, 5 ],
+            "sunday": [ 13, 23, 3, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 514,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/_MG_1827.jpg',
+          title: 'untitled',
+          artist: 'Sarah Lane',
+          year: '2006',
+          rule: {
+            "monday": [ 13, 23, 3, 10 ],
+            "tuesday": [ 12, 22, 3, 10 ],
+            "wednesday": [ 11, 21, 1, 29 ],
+            "thursday": [ 10, 20, 30, 8 ],
+            "friday": [ 19, 29, 9, 7 ],
+            "saturday": [ 8, 18, 28, 6 ],
+            "sunday": [ 7, 17, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 515,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Sutphin-slider-portrait3.jpg',
+          title: 'untitled',
+          artist: 'Karl Sutphin',
+          year: '?',
+          rule: {
+            "monday": [ 7, 17, 27, 5 ],
+            "tuesday": [ 13, 23, 3, 10 ],
+            "wednesday": [ 12, 22, 3, 10 ],
+            "thursday": [ 11, 21, 1, 29 ],
+            "friday": [ 10, 20, 30, 8 ],
+            "saturday": [ 19, 29, 9, 7 ],
+            "sunday": [ 8, 18, 28, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

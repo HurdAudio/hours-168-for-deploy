@@ -11204,6 +11204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 561,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-black-and-white-lines-on-red-background-1965.jpeg',
+          title: 'Untitled (Black and White Lines on Red Background)',
+          artist: 'Lorser Feitelson',
+          year: '1965',
+          rule: {
+            "monday": [ 21, 23, 15, 4 ],
+            "tuesday": [ 26, 24, 16, 19 ],
+            "wednesday": [ 26, 27, 18, 22 ],
+            "thursday": [ 29, 31, 1, 3 ],
+            "friday": [ 31, 2, 6, 9 ],
+            "saturday": [ 2, 4, 5, 6 ],
+            "sunday": [ 21, 23, 15, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 562,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/field-scar-1990.jpeg',
+          title: 'Field: Scar',
+          artist: 'Warren Rohrer',
+          year: '1990',
+          rule: {
+            "monday": [ 21, 23, 15, 4 ],
+            "tuesday": [ 21, 23, 15, 4 ],
+            "wednesday": [ 26, 24, 16, 19 ],
+            "thursday": [ 26, 27, 18, 22 ],
+            "friday": [ 29, 31, 1, 3 ],
+            "saturday": [ 31, 2, 6, 9 ],
+            "sunday": [ 2, 4, 5, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 563,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/au-matin-1981.jpeg',
+          title: 'Au matin',
+          artist: 'Pierre Tal-Coat',
+          year: '1981',
+          rule: {
+            "monday": [ 2, 4, 5, 6 ],
+            "tuesday": [ 21, 23, 15, 4 ],
+            "wednesday": [ 21, 23, 15, 4 ],
+            "thursday": [ 26, 24, 16, 19 ],
+            "friday": [ 26, 27, 18, 22 ],
+            "saturday": [ 29, 31, 1, 3 ],
+            "sunday": [ 31, 2, 6, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 564,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-1965-1.jpeg',
+          title: 'Untitled',
+          artist: 'Sadamasa Motonaga',
+          year: '1965',
+          rule: {
+            "monday": [ 31, 2, 6, 9 ],
+            "tuesday": [ 2, 4, 5, 6 ],
+            "wednesday": [ 21, 23, 15, 4 ],
+            "thursday": [ 21, 23, 15, 4 ],
+            "friday": [ 26, 24, 16, 19 ],
+            "saturday": [ 26, 27, 18, 22 ],
+            "sunday": [ 29, 31, 1, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 565,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/take-that-back-black-282-1984.jpeg',
+          title: 'Take That Back (Black #282)',
+          artist: 'Stephen Mueller',
+          year: '1984',
+          rule: {
+            "monday": [ 29, 31, 1, 3 ],
+            "tuesday": [ 31, 2, 6, 9 ],
+            "wednesday": [ 2, 4, 5, 6 ],
+            "thursday": [ 21, 23, 15, 4 ],
+            "friday": [ 21, 23, 15, 4 ],
+            "saturday": [ 26, 24, 16, 19 ],
+            "sunday": [ 26, 27, 18, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/a-lie-thrower-the-tass-window-625-1942.jpeg',
+          title: 'A lie thrower (The TASS Window №625)',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 1, 10, 22, 31 ],
+            "tuesday": [ 11, 23, 2, 10 ],
+            "wednesday": [ 11, 22, 31, 10 ],
+            "thursday": [ 9, 19, 27, 29 ],
+            "friday": [ 6, 17, 27, 16 ],
+            "saturday": [ 5, 16, 26, 4 ],
+            "sunday": [ 3, 13, 23, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/blitz-flu-1942.jpeg',
+          title: 'Blitz-sick',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 3, 13, 23, 31 ],
+            "tuesday": [ 1, 10, 22, 31 ],
+            "wednesday": [ 11, 23, 2, 10 ],
+            "thursday": [ 11, 22, 31, 10 ],
+            "friday": [ 9, 19, 27, 29 ],
+            "saturday": [ 6, 17, 27, 16 ],
+            "sunday": [ 5, 16, 26, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/blizzard-front-1942.jpeg',
+          title: 'Blizzard front',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 5, 16, 26, 4 ],
+            "tuesday": [ 3, 13, 23, 31 ],
+            "wednesday": [ 1, 10, 22, 31 ],
+            "thursday": [ 11, 23, 2, 10 ],
+            "friday": [ 11, 22, 31, 10 ],
+            "saturday": [ 9, 19, 27, 29 ],
+            "sunday": [ 6, 17, 27, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/bloody-spots-1942.jpeg',
+          title: 'Bloody spots',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 6, 17, 27, 16 ],
+            "tuesday": [ 5, 16, 26, 4 ],
+            "wednesday": [ 3, 13, 23, 31 ],
+            "thursday": [ 1, 10, 22, 31 ],
+            "friday": [ 11, 23, 2, 10 ],
+            "saturday": [ 11, 22, 31, 10 ],
+            "sunday": [ 9, 19, 27, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/jazz-band-wobbly-axis-1942.jpeg',
+          title: 'Jazz Band \'Wobbly Axis\'',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 10, 20, 28, 30 ],
+            "tuesday": [ 7, 18, 28, 17 ],
+            "wednesday": [ 6, 17, 27, 5 ],
+            "thursday": [ 4, 14, 24, 1 ],
+            "friday": [ 2, 11, 23, 1 ],
+            "saturday": [ 12, 24, 3, 11 ],
+            "sunday": [ 12, 23, 1, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
