@@ -17,7 +17,7 @@ exports.seed = function(knex, Promise) {
           music_override: false,
           override_content: null,
           created_at: new Date('2017-07-20 17:00:00 GMT'),
-          updated_at: new Date('2017-07-20 17:00:00 GMT')
+          updated_at: new Date('2017-07-20 17:01:22 GMT')
         },
         {
           id: 2,
