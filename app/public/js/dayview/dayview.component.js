@@ -99,6 +99,180 @@
       vm.cancelObservanceInvite = cancelObservanceInvite;
       vm.shareArt = shareArt;
       vm.cancelArtShareInvite = cancelArtShareInvite;
+      vm.shareMusicWith = shareMusicWith;
+      vm.cancelMusicShareInvite = cancelMusicShareInvite;
+
+      function cancelMusicShareInvite() {
+        let shareMusicPane = document.getElementById('shareMusicPane');
+
+        shareMusicPane.setAttribute("style", "z-index: -6; opacity: 0; transition: all 0.4s linear;");
+      }
+
+      function populateMusicShareFriends(friendsArray, index, friendId) {
+        $http.get(`/users/${friendId}`)
+        .then(friendData => {
+          friendsArray[index] = friendData.data;
+        });
+      }
+
+      function setMusicShareUserListener(div, friendId, musicSelection) {
+
+        div.addEventListener('click', () => {
+          let subObj = {
+            user_id: parseInt(currentUserId),
+            share_associate_id: parseInt(friendId),
+            accepted: false,
+            responded: false
+          };
+          if (musicSelection.id === null) {
+            subObj.monthString = 'january_musics';
+            let addMuse = {
+              user_id: 2,
+              theme: '',
+              source: 'bandcamp',
+              src_string: musicSelection.src_string,
+              href_string: musicSelection.href_string,
+              a_string: musicSelection.href_string,
+              rule: {
+                monday: [ 1, 2, 3, 4, 5 ],
+                tuesday: [ 6, 7, 8, 9, 10 ],
+                wednesday: [ 11, 12, 13, 14, 15 ],
+                thursday: [ 16, 17, 18, 19, 20 ],
+                saturday: [ 21, 22, 23, 24, 25 ]
+              }
+            }
+            $http.post('/january_musics', addMuse)
+            .then(addedMuseData => {
+              let addedMuse = addedMuseData.data[0];
+              subObj.music_id = addedMuse.id;
+              $http.post('/music_shares', subObj)
+              .then(postedShareData => {
+                let postedShare = postedShareData.data;
+                cancelMusicShareInvite();
+              });
+            });
+          } else {
+            subObj.music_month = musicSelection.monthString.slice(0, (musicSelection.monthString.indexOf('byuser')));
+            subObj.music_id = musicSelection.id;
+            $http.post('/music_shares', subObj)
+            .then(postedShareData => {
+              let postedShare = postedShareData.data;
+              cancelMusicShareInvite();
+            });
+          }
+
+        });
+      }
+
+      function shareMusicWith(musicSelection) {
+        console.log(musicSelection);
+        let shareMusicPane = document.getElementById('shareMusicPane');
+
+        let musicFriendsSearchList = document.getElementById('musicFriendsSearchList');
+        while(musicFriendsSearchList.firstChild) {
+          musicFriendsSearchList.removeChild(musicFriendsSearchList.firstChild);
+        }
+        let div, friendImg, friendName, br;
+        let filteredFriends = [];
+        let shareMusicSearchBarDiv = document.getElementById('shareMusicSearchBarDiv');
+        let taskWhoToShareMusicSearch = document.getElementById('taskWhoToShareMusicSearch');
+        if (taskWhoToShareMusicSearch) {
+          taskWhoToShareMusicSearch.parentNode.removeChild(taskWhoToShareMusicSearch);
+          taskWhoToShareMusicSearch = document.createElement('input');
+          shareMusicSearchBarDiv.appendChild(taskWhoToShareMusicSearch);
+          taskWhoToShareMusicSearch.id = 'taskWhoToShareMusicSearch';
+          taskWhoToShareMusicSearch.type = 'text';
+          taskWhoToShareMusicSearch.placeholder = 'search';
+        }
+
+        shareMusicPane.setAttribute("style", "z-index: 6; opacity: 1; transition: opacity 0.4s linear;");
+
+
+        $http.get(`/users/${currentUserId}`)
+        .then(userData => {
+          let musicShareIframe = document.getElementById('musicShareIframe');
+          // let musicShareATag = document.getElementById('musicShareATag');
+          musicShareIframe.src = musicSelection.src_string;
+          // musicShareATag.href = musicSelection.href_string;
+          // musicShareATag.innerHTML = musicSelection.a_string;
+          console.log(userData);
+          let user = userData.data;
+          if (user.associates && user.associates.friends) {
+            let friendsArray = [];
+            for (let i = 0; i < user.associates.friends.length; i++) {
+              populateMusicShareFriends(friendsArray, i, user.associates.friends[i]);
+            }
+
+            setTimeout(() => {
+              filteredFriends = friendsArray.filter(entry => {
+                return(entry);
+              });
+              for (let j = 0; j < friendsArray.length; j++) {
+                div = document.createElement('div');
+                musicFriendsSearchList.appendChild(div);
+                friendImg = document.createElement('img');
+                div.appendChild(friendImg);
+                div.setAttribute("style", "cursor: pointer;");
+                friendImg.src = friendsArray[j].user_avatar_url;
+                friendName = document.createElement('p');
+                div.appendChild(friendName);
+                friendName.innerHTML = friendsArray[j].name;
+                br = document.createElement('br');
+                div.appendChild(br);
+                br = document.createElement('br');
+                div.appendChild(br);
+                br = document.createElement('br');
+                div.appendChild(br);
+                br = document.createElement('br');
+                div.appendChild(br);
+                br = document.createElement('br');
+                div.appendChild(br);
+                setMusicShareUserListener(div, friendsArray[j].id, musicSelection);
+              }
+              taskWhoToShareMusicSearch.addEventListener('keyup', () => {
+                while(musicFriendsSearchList.firstChild) {
+                  musicFriendsSearchList.removeChild(musicFriendsSearchList.firstChild);
+                }
+                if (taskWhoToShareMusicSearch.value === '') {
+                  filteredFriends = friendsArray.filter(entry => {
+                    return(entry);
+                  });
+                } else {
+                  filteredFriends = friendsArray.filter(entry => {
+                    return((entry.name.toLowerCase().indexOf(taskWhoToShareMusicSearch.value.toLowerCase()) !== -1) || (entry.email.toLowerCase().indexOf(taskWhoToShareMusicSearch.value.toLowerCase()) !== -1));
+                  });
+                }
+                for (let k = 0; k < filteredFriends.length; k++) {
+                  div = document.createElement('div');
+                  musicFriendsSearchList.appendChild(div);
+                  friendImg = document.createElement('img');
+                  div.appendChild(friendImg);
+                  div.setAttribute("style", "cursor: pointer;");
+                  friendImg.src = filteredFriends[k].user_avatar_url;
+                  friendName = document.createElement('p');
+                  div.appendChild(friendName);
+                  friendName.innerHTML = filteredFriends[k].name;
+                  br = document.createElement('br');
+                  div.appendChild(br);
+                  br = document.createElement('br');
+                  div.appendChild(br);
+                  br = document.createElement('br');
+                  div.appendChild(br);
+                  br = document.createElement('br');
+                  div.appendChild(br);
+                  br = document.createElement('br');
+                  div.appendChild(br);
+                  setMusicShareUserListener(div, filteredFriends[k].id, musicSelection);
+                }
+              });
+            }, (user.associates.friends.length * 250));
+
+
+          }
+        });
+
+
+      }
 
       function cancelArtShareInvite() {
         let shareArtPane = document.getElementById('shareArtPane');
@@ -2318,6 +2492,8 @@
                 for(let l = 0; l < vm.holidays[k].override_content.sources.length; l++) {
                   vm.musics[indexMusic] = {};
                   vm.musics[indexMusic].index = indexMusic;
+                  vm.musics[indexMusic].id = null;
+                  vm.musics[indexMusic].monthString = 'holiday';
                   vm.musics[indexMusic].src_string = vm.holidays[k].override_content.src_strings[l];
                   vm.musics[indexMusic].href_string = vm.holidays[k].override_content.href_strings[l];
                   vm.musics[indexMusic].a_string = vm.holidays[k].override_content.a_strings[l];
@@ -2334,7 +2510,7 @@
         // alert('here');
         let indexArt = vm.arts.length;
         let indexMusic = vm.musics.length;
-        let userTimezoneOffset = viewDate.getTimezoneOffset() * 60000;
+        // let userTimezoneOffset = viewDate.getTimezoneOffset() * 60000;
         vm.observances = [];
         let observancesPane = document.getElementById('observancesPane');
         $http.get(`/observancesbyuser/${currentUserId}`)
@@ -2343,8 +2519,8 @@
           let observanceDate;
           for (let i = 0; i < userObservances.length; i++) {
             observanceDate = new Date(userObservances[i].day_of);
-            observanceDate = new Date(observanceDate.getTime() + userTimezoneOffset);
-            if ((viewDate.getMonth() === observanceDate.getMonth()) && (viewDate.getDate() === (observanceDate.getDate()))) {
+            // observanceDate = new Date(observanceDate.getTime() + userTimezoneOffset);
+            if ((viewDate.getMonth() === observanceDate.getUTCMonth()) && (viewDate.getDate() === (observanceDate.getUTCDate()))) {
               vm.observances.push(userObservances[i]);
             }
           }
@@ -2369,6 +2545,8 @@
                 for (let l = 0; l < vm.observances[j].override_content.sources.length; l++) {
                   vm.musics[indexMusic] = {};
                   vm.musics[indexMusic].index = indexMusic;
+                  vm.musics[indexMusic].id = null;
+                  vm.musics[indexMusic].monthString = 'observance';
                   vm.musics[indexMusic].src_string =  vm.observances[j].override_content.src_strings[l];
                   vm.musics[indexMusic].href_string = vm.observances[j].override_content.href_strings[l];
                   vm.musics[indexMusic].a_string = vm.observances[j].override_content.a_strings[l];
@@ -2443,6 +2621,8 @@
               for (let hh = 0; hh < filteredDaySelections.length; hh++) {
                 vm.musics[indexMusic] = {};
                 vm.musics[indexMusic].index = indexMusic;
+                vm.musics[indexMusic].id = specialDayMusic[filteredDaySelections[hh]].id;
+                vm.musics[indexMusic].monthString = theDayString;
                 vm.musics[indexMusic].src_string = specialDayMusic[filteredDaySelections[hh]].src_string;
                 vm.musics[indexMusic].href_string = specialDayMusic[filteredDaySelections[hh]].href_string;
                 vm.musics[indexMusic].a_string = specialDayMusic[filteredDaySelections[hh]].a_string;
@@ -2452,6 +2632,8 @@
               for (let i = 0; i < specialDayMusic.length; i++) {
                 vm.musics[indexMusic] = {};
                 vm.musics[indexMusic].index = indexMusic;
+                vm.musics[indexMusic].id = specialDayMusic[i].id;
+                vm.musics[indexMusic].monthString = theDayString;
                 vm.musics[indexMusic].src_string = specialDayMusic[i].src_string;
                 vm.musics[indexMusic].href_string = specialDayMusic[i].href_string;
                 vm.musics[indexMusic].a_string = specialDayMusic[i].a_string;
@@ -2574,6 +2756,8 @@
                 if (monthMusic[pp].rule[dayOfWeek].indexOf(theDate.getDate()) !== -1) {
                   vm.musics[indexMusic] = {};
                   vm.musics[indexMusic].index = indexMusic;
+                  vm.musics[indexMusic].id = monthMusic[pp].id;
+                  vm.musics[indexMusic].monthString = theMonthString;
                   vm.musics[indexMusic].src_string = monthMusic[pp].src_string;
                   vm.musics[indexMusic].href_string = monthMusic[pp].href_string;
                   vm.musics[indexMusic].a_string = monthMusic[pp].a_string;
@@ -2584,7 +2768,7 @@
               let swap1 = 0;
               let swap2 = 0;
               let temp;
-              for (let swp = 0; swp < (vm.musics.length * 2); swp++) {
+              for (let swp = 0; swp < (vm.musics.length * 8); swp++) {
                 swap1 = Math.floor(Math.random() * vm.musics.length);
                 swap2 = Math.floor(Math.random() * vm.musics.length);
                 if (swap1 !== swap2) {
