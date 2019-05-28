@@ -11,13 +11,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hari Kunzru (author), born 1969',
           color: '#95A9A2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/harikunzru.jpg',
-          day_of: new Date ('1969-01-01T13:44:00.000Z'),
+          day_of: new Date ('1969-01-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 2,
@@ -25,13 +25,13 @@ exports.seed = function(knex, Promise) {
           name: 'Umberto Eco (author), born 1932',
           color: '#013800',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/umbertoeco.jpg',
-          day_of: new Date ('1932-01-05T13:44:00.000Z'),
+          day_of: new Date ('1932-01-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 3,
@@ -39,7 +39,7 @@ exports.seed = function(knex, Promise) {
           name: 'Myra Melford (pianist/composer), born 1957',
           color: '#772700',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/myramelford.jpg',
-          day_of: new Date ('1957-01-05T13:44:00.000Z'),
+          day_of: new Date ('1957-01-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -49,8 +49,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://firehouse12records.com/album/life-carries-me-this-way', 'http://myramelford.bandcamp.com/album/myra-melford-live-at-the-stone-ep', 'http://firehouse12records.com/album/the-whole-tree-gone', 'http://kalmanovitch.bandcamp.com/album/heart-mountain-myra-melford-tanya-kalmanovitch', 'http://stevenlugerner.bandcamp.com/album/for-we-have-heard-2', 'http://stevenlugerner.bandcamp.com/album/these-are-the-words', 'http://babel-label.bandcamp.com/album/big-air' ],
             "a_strings": [ 'Life Carries Me This Way by Myra Melford', 'Myra Melford Live at The Stone EP by Myra Melford', 'The Whole Tree Gone by Myra Melford\'s Be Bread', 'Heart Mountain // Myra Melford + Tanya Kalmanovitch by Myra Melford and Tanya Kalmanovitch', 'For We Have Heard by Steven Lugerner, Darren Johnston, Myra Melford, Matt Wilson', 'These Are The Words by Steven Lugerner, Darren Johnston, Myra Melford, Matt Wilson', 'BIG AIR by CHRIS BATCHELOR &amp; STEVE BUCKLEY &amp; MYRA MELFORD &amp; OREN MARSHALL &amp; JIM BLACK' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 4,
@@ -58,7 +58,7 @@ exports.seed = function(knex, Promise) {
           name: 'Paul Dresher (guitarist/composer), born 1951',
           color: '#FFFED6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/pauldresher.jpg',
-          day_of: new Date ('1951-01-08T13:44:00.000Z'),
+          day_of: new Date ('1951-01-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -68,8 +68,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://minmax.bandcamp.com/album/slipping-glimpse', 'http://minmax.bandcamp.com/album/the-tyrant-cd', 'http://minmax.bandcamp.com/album/light-moves', 'http://minmax.bandcamp.com/album/dark-blue-circumstance', 'http://minmax.bandcamp.com/album/sound-stage', 'http://minmax.bandcamp.com/album/the-gates', 'http://minmax.bandcamp.com/album/banana-humberto', 'http://minmax.bandcamp.com/album/opposites-attract', 'http://minmax.bandcamp.com/album/pioneer', 'http://minmax.bandcamp.com/album/slow-fire', 'http://minmax.bandcamp.com/album/this-same-temple', 'http://minmax.bandcamp.com/album/power-failure' ],
             "a_strings": [ 'Slipping Glimpse by music composed by Paul Dresher', 'The Tyrant CD by Paul Dresher, John Duykers (tenor)', 'Light Moves by music composed by Paul Dresher', 'Dark Blue Circumstance by Paul Dresher Ensemble', 'Sound Stage by Conceived and Composed by Paul Dresher', 'The Gates by composed by Paul Dresher', 'Banana Humberto by Terry Riley with the Paul Dresher Ensemble', 'Opposites Attract by Paul Dresher &amp; Ned Rothenberg', 'Pioneer by Paul Dresher', 'Slow Fire by Paul Dresher Ensemble with Rinde Eckert', 'This Same Temple by Paul Dresher Ensemble', 'Power Failure by Paul Dresher Ensemble' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 5,
@@ -77,7 +77,7 @@ exports.seed = function(knex, Promise) {
           name: 'David Lang (composer), born 1957',
           color: '#2D1D27',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidlang.jpg',
-          day_of: new Date ('1957-01-08T13:44:00.000Z'),
+          day_of: new Date ('1957-01-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -87,8 +87,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://davidlangmusic.bandcamp.com/album/thorn', 'http://davidlangmusic.bandcamp.com/track/forced-march', 'http://davidlangmusic.bandcamp.com/album/the-national-anthems', 'http://davidlangmusic.bandcamp.com/track/miracle-ear', 'http://davidlangmusic.bandcamp.com/album/the-difficulty-of-crossing-a-field', 'http://davidlangmusic.bandcamp.com/album/death-speaks', 'http://davidlangmusic.bandcamp.com/album/this-was-written-by-hand', 'http://davidlangmusic.bandcamp.com/album/elevated', 'http://davidlangmusic.bandcamp.com/album/love-fail', 'http://davidlangmusic.bandcamp.com/album/the-woodmans', 'http://davidlangmusic.bandcamp.com/album/child', 'http://davidlangmusic.bandcamp.com/album/the-passing-measures', 'http://davidlangmusic.bandcamp.com/track/when-we-were-children', 'http://davidlangmusic.bandcamp.com/album/untitled' ],
             "a_strings": [ 'thorn by Molly Barth', 'forced march by Crash Ensemble', 'the national anthems by David Lang &amp; L.A. Master Chorale', 'miracle ear by David Lang', 'the difficulty of crossing a field by David Lang, Mac Wellman, Harlem String Quartet, Beverly O&#39;Regan Thiele', 'death speaks by David Lang', 'this was written by hand by David Lang', 'elevated by David Lang', 'love fail by David Lang ft. Anonymous 4', 'The Woodmans by David Lang', 'child by David Lang', 'the passing measures by David Lang', 'when we were children by David Lang', 'Untitled by David Lang' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 6,
@@ -96,13 +96,13 @@ exports.seed = function(knex, Promise) {
           name: 'Morton Feldman (composer), born 1926',
           color: '#D4D4D4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/mortonfeldman.jpg',
-          day_of: new Date ('1926-01-12T13:44:00.000Z'),
+          day_of: new Date ('1926-01-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 7,
@@ -110,13 +110,13 @@ exports.seed = function(knex, Promise) {
           name: 'Haruki Murakami (author), born 1949',
           color: '#365CCB',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/harukimurakami.jpg',
-          day_of: new Date ('1949-01-12T13:44:00.000Z'),
+          day_of: new Date ('1949-01-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 8,
@@ -124,13 +124,13 @@ exports.seed = function(knex, Promise) {
           name: 'Martin Irigoyen (guitarist/composer), born 1977',
           color: '#4FB9B4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/MartinIrigoyen.jpg',
-          day_of: new Date ('1977-01-14T13:44:00.000Z'),
+          day_of: new Date ('1977-01-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 9,
@@ -138,7 +138,7 @@ exports.seed = function(knex, Promise) {
           name: 'Robert Filliou (artist), born 1926',
           color: '#747474',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/RobertFilliou.jpg',
-          day_of: new Date ('1926-01-17T13:44:00.000Z'),
+          day_of: new Date ('1926-01-17 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -148,8 +148,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Robert Filliou', 'Robert Filliou', 'Robert Filliou' ],
             "years": [ '1967', '1969', '1978' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 10,
@@ -157,13 +157,13 @@ exports.seed = function(knex, Promise) {
           name: 'Edward Feigenbaum (computer scientist), born 1936',
           color: '#B5ABAF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/EdwardFeigenbaum.jpg',
-          day_of: new Date ('1936-01-20T13:44:00.000Z'),
+          day_of: new Date ('1936-01-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 11,
@@ -171,13 +171,13 @@ exports.seed = function(knex, Promise) {
           name: 'Antonio Gramsci (communist/theorist), born 1891',
           color: '#F17D71',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/antoniogransci.png',
-          day_of: new Date ('1891-01-22T13:44:00.000Z'),
+          day_of: new Date ('1891-01-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 12,
@@ -185,7 +185,7 @@ exports.seed = function(knex, Promise) {
           name: 'John Luther Adams (composer), born 1953',
           color: '#0F89DA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johnlutheradams.jpg',
-          day_of: new Date ('1953-01-23T13:44:00.000Z'),
+          day_of: new Date ('1953-01-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -195,8 +195,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://johnlutheradams.bandcamp.com/album/canticles-of-the-holy-wind', 'http://johnlutheradams.bandcamp.com/album/ilimaq', 'http://johnlutheradams.bandcamp.com/album/become-ocean', 'http://johnlutheradams.bandcamp.com/album/inuksuit', 'http://johnlutheradams.bandcamp.com/album/the-mathematics-of-resonant-bodies' ],
             "a_strings": [ 'Canticles of the Holy Wind by John Luther Adams &amp; The Crossing', 'Ilimaq by John Luther Adams &amp; Glenn Kotche', 'Become Ocean by John Luther Adams', 'Inuksuit by John Luther Adams', 'The Mathematics of Resonant Bodies by John Luther Adams' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 13,
@@ -204,13 +204,13 @@ exports.seed = function(knex, Promise) {
           name: 'Luigi Nono (composer), born 1924',
           color: '#3F3F3D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/luiginono.jpg',
-          day_of: new Date ('1924-01-29T13:44:00.000Z'),
+          day_of: new Date ('1924-01-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 14,
@@ -218,13 +218,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ahmed Abdul-Malik (bassist/oud), born 1927',
           color: '#75332E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ahmedabdulmalik.jpg',
-          day_of: new Date ('1927-01-30T13:44:00.000Z'),
+          day_of: new Date ('1927-01-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 15,
@@ -232,7 +232,7 @@ exports.seed = function(knex, Promise) {
           name: 'Derek Bailey (guitar), born 1930',
           color: '#747474',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/derekbailey.png',
-          day_of: new Date ('1930-01-29T13:44:00.000Z'),
+          day_of: new Date ('1930-01-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -242,8 +242,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://rectangle-records.bandcamp.com/album/this-guitar', 'http://scatterarchive.bandcamp.com/album/drop-me-off-at-96th', 'http://brucesfingers.bandcamp.com/album/the-complete-15th-august-2001', 'http://pantonmusic.bandcamp.com/album/derek-bailey-plus-one-music-ensemble', 'http://ictusrecords.bandcamp.com/album/drops', 'http://johnbutcher1.bandcamp.com/album/scrutables' ],
             "a_strings": [ 'This Guitar by Derek Bailey', 'drop me off at 96th by Derek Bailey', 'The Complete 15th August 2001 by Derek Bailey &amp; Simon H. Fell', 'Derek Bailey Plus One Music Ensemble by Derek Bailey and David Panton', 'Drops by Andrea Centazzo and Derek Bailey', 'SCRUTABLES by Derek Bailey, John Butcher &amp; Gino Robair' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 16,
@@ -251,7 +251,7 @@ exports.seed = function(knex, Promise) {
           name: 'Pheeroan akLaff (drummer), born 1955',
           color: '#91A9B5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/PheeroanakLaff.jpg',
-          day_of: new Date ('1955-01-27T13:44:00.000Z'),
+          day_of: new Date ('1955-01-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -261,8 +261,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://pheeroanaklaff.bandcamp.com/album/live-at-the-fez' ],
             "a_strings": [ 'Live at the Fez by Pheeroan akLaff' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 17,
@@ -270,7 +270,7 @@ exports.seed = function(knex, Promise) {
           name: 'Simon H. Fell (bassist/composer), born 1959',
           color: '#E36407',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/simonhfell.jpg',
-          day_of: new Date ('1959-01-13T13:44:00.000Z'),
+          day_of: new Date ('1959-01-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -280,8 +280,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://brucesfingers.bandcamp.com/album/composition-no-125', 'http://brucesfingers.bandcamp.com/album/composition-no-30', 'http://wharffell.bandcamp.com/album/frankenstein', 'http://wharffell.bandcamp.com/album/m-m', 'http://wharffell.bandcamp.com/album/pride-and-prejudice', 'http://halliwellfell.bandcamp.com/album/9-points-in-ascent', 'http://joemorrisritiglacialeratic.bandcamp.com/album/the-necessary-and-the-possible', 'http://smithfelleisenstadt.bandcamp.com/album/k-3' ],
             "a_strings": [ 'Composition No. 12.5 by Simon H. Fell', 'Composition No. 30 by Simon H. Fell', 'Frankenstein by Charles Wharf / Simon H. Fell', 'M.M. by Charles Wharf / Simon H. Fell', 'Pride And Prejudice by Charles Wharf / Simon H. Fell', '9 Points In Ascent by Graham Halliwell &amp; Simon H. Fell', 'The Necessary and the Possible by Joe Morris / Alex Ward / Simon H. Fell', 'K 3 by Ian Smith / Simon H. Fell / Harris Eisenstadt' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 18,
@@ -289,7 +289,7 @@ exports.seed = function(knex, Promise) {
           name: 'Luigi Dallapiccola (composer), born 1904',
           color: '#B6AA90',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/luigidallapiccola.jpg',
-          day_of: new Date ('1904-02-03T13:44:00.000Z'),
+          day_of: new Date ('1904-02-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -299,8 +299,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://jackhara.bandcamp.com/album/luigi-dallapiccola-quaderno-musicale-di-annalibera' ],
             "a_strings": [ 'Luigi Dallapiccola --Quaderno Musicale di Annalibera by yunichar' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 19,
@@ -308,13 +308,13 @@ exports.seed = function(knex, Promise) {
           name: 'Betty Friedan (feminist/activist), born 1921',
           color: '#AF3F27',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/BettyFriedan.jpg',
-          day_of: new Date ('1921-02-04T13:44:00.000Z'),
+          day_of: new Date ('1921-02-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 20,
@@ -322,13 +322,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jin-hi Kim (koto/composer), born 1957',
           color: '#F1B25B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jin-hikim.jpg',
-          day_of: new Date ('1957-02-06T13:44:00.000Z'),
+          day_of: new Date ('1957-02-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 21,
@@ -336,13 +336,13 @@ exports.seed = function(knex, Promise) {
           name: 'Harriet Ann Jacobs (abolitionist), born 1813',
           color: '#704F3E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/JacobsHarrietAnn.jpg',
-          day_of: new Date ('1813-02-11T13:44:00.000Z'),
+          day_of: new Date ('1813-02-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 22,
@@ -350,13 +350,13 @@ exports.seed = function(knex, Promise) {
           name: 'Susan B. Anthony (feminist/activist), born 1820',
           color: '#F0EFEB',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/susanbanthony.jpg',
-          day_of: new Date ('1820-02-15T13:44:00.000Z'),
+          day_of: new Date ('1820-02-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 23,
@@ -364,7 +364,7 @@ exports.seed = function(knex, Promise) {
           name: 'Fred Frith (musician), born 1949',
           color: '#AAABAD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/fredfrith.jpg',
-          day_of: new Date ('1949-02-17T13:44:00.000Z'),
+          day_of: new Date ('1949-02-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -374,8 +374,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://fred-frith.bandcamp.com/album/another-day-in-fucking-paradise-24bit-44khz', 'http://fredfrith.bandcamp.com/album/impur-ii', 'http://fredfrith.bandcamp.com/album/guitar-solos', 'http://idischidiangelica.bandcamp.com/album/stone-brick-glass-wood-wire', 'http://rusconi.bandcamp.com/album/live-in-europe', 'http://intaktrec.bandcamp.com/album/backscatter-bright-blue', 'http://intaktrec.bandcamp.com/album/you-are-here', 'http://noelakchote.bandcamp.com/album/fred-frith-no-l-akchot-r-el-original-reissues-series-rectangle-1996', 'http://fredfrithandjohnbutcher.bandcamp.com/album/the-natural-order', 'http://cuneiformrecords.bandcamp.com/album/friends-enemies', 'http://rectangle-records.bandcamp.com/album/r-el', 'http://toychestra.bandcamp.com/album/what-leave-behind', 'http://skrecords.bandcamp.com/album/what-leave-behind-concerto-for-electric-guitar-and-toy-orchestra', 'http://bobostertag.bandcamp.com/album/voice-of-america' ],
             "a_strings": [ 'Another Day in Fucking Paradise (24bit - 44khz) by Fred Frith Trio', 'Impur II by Fred Frith', 'Guitar Solos by Fred Frith', 'Stone, Brick, Glass, Wood, Wire by Fred Frith', 'Live in Europe by RUSCONI + FRED FRITH', 'Backscatter Bright Blue by Fred Frith, Barry Guy', 'you are here by Fred Frith – Hans Koch', 'Fred Frith &amp; Noël Akchoté - Réel – (Original Reissues Series – Rectangle 1996) by Fred Frith, Noël Akchoté,', 'The Natural Order by Fred Frith and John Butcher', 'friends &amp; enemies by Fred Frith &amp; Henry Kaiser', 'Réel by Fred Frith &amp; Noël Akchoté', 'What Leave Behind by Toychestra and Fred Frith', 'What Leave Behind- Concerto for Electric Guitar and Toy Orchestra by Toychestra And Fred Frith', 'Voice of America by Fred Frith, Bob Ostertag, Phil Minton' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 24,
@@ -383,13 +383,13 @@ exports.seed = function(knex, Promise) {
           name: 'Andre Norton (author), born 1912',
           color: '#6F7068',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/andrenorton.jpeg',
-          day_of: new Date ('1912-02-17T13:44:00.000Z'),
+          day_of: new Date ('1912-02-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 25,
@@ -397,13 +397,13 @@ exports.seed = function(knex, Promise) {
           name: 'Anthony Davis (pianist/composer), born 1951',
           color: '#D06209',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/anthonydavis.jpg',
-          day_of: new Date ('1951-02-20T13:44:00.000Z'),
+          day_of: new Date ('1951-02-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 26,
@@ -411,13 +411,13 @@ exports.seed = function(knex, Promise) {
           name: 'Lejaren Hiller (composer), born 1924',
           color: '#8F8F8F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/lejarenhiller.jpg',
-          day_of: new Date ('1924-02-23T13:44:00.000Z'),
+          day_of: new Date ('1924-02-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 27,
@@ -425,13 +425,13 @@ exports.seed = function(knex, Promise) {
           name: 'Monte Irvin (outfielder), born 1919',
           color: '#9C8D62',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/monteirvin.jpg',
-          day_of: new Date ('1919-02-25T13:44:00.000Z'),
+          day_of: new Date ('1919-02-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 28,
@@ -439,13 +439,13 @@ exports.seed = function(knex, Promise) {
           name: 'Pete (Grover) Cleveland (pitcher), born 1887',
           color: '#BBB9AC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/petealexander.jpg',
-          day_of: new Date ('1887-02-26T13:44:00.000Z'),
+          day_of: new Date ('1887-02-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 29,
@@ -453,7 +453,7 @@ exports.seed = function(knex, Promise) {
           name: 'Dexter Gordon (saxophonist), born 1923',
           color: '#7F5A54',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/dextergordon.jpg',
-          day_of: new Date ('1923-02-27T13:44:00.000Z'),
+          day_of: new Date ('1923-02-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -463,8 +463,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://futuramarge.bandcamp.com/album/parisian-concert' ],
             "a_strings": [ 'Parisian Concert by Sonny Grey, Dexter Gordon, Georges Arvanitas Trio' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 30,
@@ -472,7 +472,7 @@ exports.seed = function(knex, Promise) {
           name: 'Philip Glass (composer), born 1937',
           color: '#BEBEBE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/philipglass.jpg',
-          day_of: new Date ('1937-01-31T13:44:00.000Z'),
+          day_of: new Date ('1937-01-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -482,8 +482,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://onisakti.bandcamp.com/album/oni-sakti-plays-philip-glass', 'http://theelectricstrings.bandcamp.com/album/string-quartet-3-mishima-by-philip-glass', 'http://bangonacan.bandcamp.com/album/music-in-5ths-two-pages' ],
             "a_strings": [ 'Oni Sakti Plays Philip Glass by Oni Sakti', 'String Quartet #3 &quot;Mishima&quot; by Philip Glass by The Electric Strings', 'Music in 5ths/Two Pages by Bang on a Can All-Stars' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 31,
@@ -491,7 +491,7 @@ exports.seed = function(knex, Promise) {
           name: 'Yoko Ono (musician/activist/artist), born 1933',
           color: '#C5A590',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/yokoono.jpg',
-          day_of: new Date ('1933-02-18T13:44:00.000Z'),
+          day_of: new Date ('1933-02-18 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: true,
@@ -505,8 +505,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://yokoono.bandcamp.com/album/approximately-infinite-universe', 'http://yokoono.bandcamp.com/album/feeling-the-space', 'http://yokoono.bandcamp.com/album/plastic-ono-band', 'http://yokoono.bandcamp.com/album/unfinished-music-no-1-two-virgins', 'http://yokoono.bandcamp.com/album/unfinished-music-no-2-life-with-the-lions' ],
             "a_strings": [ 'Approximately Infinite Universe by Yoko Ono', 'Feeling The Space by Yoko Ono', 'Plastic Ono Band by Yoko Ono', 'Unfinished Music No. 1: Two Virgins by John Lennon/Yoko Ono', 'Unfinished Music No. 2: Life With the Lions by John Lennon/Yoko Ono' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 32,
@@ -514,13 +514,13 @@ exports.seed = function(knex, Promise) {
           name: 'Elmer Gantry by Sinclair Lewis, published in 1927. Banned in Boston and other cities and denounced from pulpits across the US.',
           color: '#E6CE6D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/elmergantry.jpg',
-          day_of: new Date ('1927-03-01T13:44:00.000Z'),
+          day_of: new Date ('1927-03-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 33,
@@ -528,13 +528,13 @@ exports.seed = function(knex, Promise) {
           name: 'Marie Louise Berneri (anarchist/activist/author), born in 1918',
           color: '#949494',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/marielouiseberneri.jpg',
-          day_of: new Date ('1918-03-01T13:44:00.000Z'),
+          day_of: new Date ('1918-03-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 34,
@@ -542,13 +542,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Irving (author), born in 1942',
           color: '#3A6240',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/johnirving.jpg',
-          day_of: new Date ('1942-03-02T13:44:00.000Z'),
+          day_of: new Date ('1942-03-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 35,
@@ -556,13 +556,13 @@ exports.seed = function(knex, Promise) {
           name: 'Georg Cantor (mathematician), born 1845',
           color: '#2C2C2C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/georgcantor.jpg',
-          day_of: new Date ('1845-03-03T13:44:00.000Z'),
+          day_of: new Date ('1845-03-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 36,
@@ -570,7 +570,7 @@ exports.seed = function(knex, Promise) {
           name: 'Peter Brötzmann (saxophonist, free-improvisation warrior), born 1941',
           color: '#788B27',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/peterbrotzmann.jpg',
-          day_of: new Date ('1941-03-06T13:44:00.000Z'),
+          day_of: new Date ('1941-03-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -580,8 +580,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://peterbrtzmann.bandcamp.com/album/chicago-tentet-1-3-nights-in-oslo', 'http://peterbrtzmann.bandcamp.com/album/the-chicago-octet-tentet', 'http://peterbrtzmann.bandcamp.com/album/hairy-bones-snakelust-to-kenji-nakagami', 'http://peterbrtzmann.bandcamp.com/album/ada-live-at-the-cafe-oto-with-pat-thomas', 'http://peterbrtzmann.bandcamp.com/album/ada-live-at-cafe-oto-with-steve-noble', 'http://peterbrtzmann.bandcamp.com/album/br-tzmann-swell-nilssen-love-krakow-nights', 'http://peterbrtzmann.bandcamp.com/album/walk-love-sleep', 'http://peterbrtzmann.bandcamp.com/album/ada', 'http://peterbrtzmann.bandcamp.com/album/be-night-music', 'http://peterbrtzmann.bandcamp.com/album/no-one-ever-works-alone', 'http://peterbrtzmann.bandcamp.com/album/broken-english', 'http://peterbrtzmann.bandcamp.com/album/american-landscape-2', 'http://peterbrtzmann.bandcamp.com/album/images', 'http://peterbrtzmann.bandcamp.com/album/signs', 'http://peterbrtzmann.bandcamp.com/album/at-molde-2007', 'http://peterbrtzmann.bandcamp.com/album/hairy-bones', 'http://peterbrtzmann.bandcamp.com/album/american-landscapes-1', 'http://peterbrtzmann.bandcamp.com/album/sweetsweat', 'http://peterbrtzmann.bandcamp.com/album/the-fat-is-gone' ],
             "a_strings": [ 'Chicago Tentet +1: 3 Nights in Oslo by Peter Brötzmann', 'The Chicago Octet/Tentet by Peter Brötzmann', 'Hairy Bones : Snakelust (to Kenji Nakagami) by Peter Brötzmann', 'ADA: Live at the Cafe Oto with Pat Thomas by Peter Brötzmann', 'ADA: Live at Cafe Oto with Steve Noble by Peter Brötzmann', 'Brötzmann Swell Nilssen-Love: Krakow Nights by Peter Brötzmann', 'Walk, Love, Sleep by Peter Brötzmann', 'ADA by Peter Brötzmann', 'Be Night, Music by Peter Brötzmann', 'No One Ever Works Alone by Peter Brötzmann', 'Broken English by Peter Brötzmann', 'American Landscape 2 by Peter Brötzmann', 'Images by Peter Brötzmann', 'Signs by Peter Brötzmann', 'at Molde 2007 by Peter Brötzmann', 'Hairy Bones by Peter Brötzmann', 'American Landscapes 1 by Peter Brötzmann', 'Sweetsweat by Peter Brötzmann', 'The Fat Is Gone by Peter Brötzmann' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 37,
@@ -589,7 +589,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ornette Coleman (harmolodic guru, multi-instrumentalist, composer), born 1930',
           color: '#994942',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ornettecoleman55.jpg',
-          day_of: new Date ('1930-03-09T13:44:00.000Z'),
+          day_of: new Date ('1930-03-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -599,8 +599,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://ornettecoleman.bandcamp.com/album/town-hall-1962' ],
             "a_strings": [ 'Town Hall 1962 by Ornette Coleman' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 38,
@@ -608,13 +608,13 @@ exports.seed = function(knex, Promise) {
           name: 'Leroy Jenkins (violinist, improvisor, composer), born 1932',
           color: '#636363',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/leroyjenkins.jpg',
-          day_of: new Date ('1932-03-11T13:44:00.000Z'),
+          day_of: new Date ('1932-03-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 39,
@@ -622,13 +622,13 @@ exports.seed = function(knex, Promise) {
           name: 'Albert Einstein (physicist), born 1879',
           color: '#333A44',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/alberteinstein.jpg',
-          day_of: new Date ('1879-03-14T13:44:00.000Z'),
+          day_of: new Date ('1879-03-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 40,
@@ -636,13 +636,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ben Johnston (composer), born 1926',
           color: '#4D4B3E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/benjohnston.jpg',
-          day_of: new Date ('1926-03-15T13:44:00.000Z'),
+          day_of: new Date ('1926-03-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 41,
@@ -650,7 +650,7 @@ exports.seed = function(knex, Promise) {
           name: 'Bill Fisell (guitarist), born 1951',
           color: '#EDF0E9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/billfrisell.jpg',
-          day_of: new Date ('1951-03-18T13:44:00.000Z'),
+          day_of: new Date ('1951-03-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -660,8 +660,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://timbernebillfrisell.bandcamp.com/album/theoretically' ],
             "a_strings": [ 'Theoretically by Tim Berne &amp; Bill Frisell' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 42,
@@ -669,7 +669,7 @@ exports.seed = function(knex, Promise) {
           name: 'Josef Albers (artist), born 1888',
           color: '#DFDEDC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/josefalbers.jpg',
-          day_of: new Date ('1888-03-19T13:44:00.000Z'),
+          day_of: new Date ('1888-03-19 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -679,8 +679,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Josef Albers', 'Josef Albers', 'Josef Albers', 'Josef Albers', 'Josef Albers', 'Josef Albers', 'Josef Albers', 'Josef Albers', 'Josef Albers' ],
             "years": [ '1921', '1927', '1925', '1924', '1929', '1932', '1951', '1948', '1967' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 43,
@@ -688,13 +688,13 @@ exports.seed = function(knex, Promise) {
           name: 'Erich Fromm (theorist), born 1900',
           color: '#B24924',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/erichfromm.png',
-          day_of: new Date ('1900-03-23T13:44:00.000Z'),
+          day_of: new Date ('1900-03-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 44,
@@ -702,7 +702,7 @@ exports.seed = function(knex, Promise) {
           name: 'Dave Douglas (trumpet/composer), born 1963',
           color: '#515659',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davedouglas.jpg',
-          day_of: new Date ('1963-03-24T13:44:00.000Z'),
+          day_of: new Date ('1963-03-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -712,8 +712,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [  'http://davedouglas.bandcamp.com/album/the-new-national-anthem', 'http://davedouglas.bandcamp.com/album/dada-people', 'http://davedouglas.bandcamp.com/album/dark-territory', 'http://davedouglas.bandcamp.com/album/fabliaux', 'http://davedouglas.bandcamp.com/album/brazen-heart-live-at-jazz-standard', 'http://davedouglas.bandcamp.com/album/brazen-heart', 'http://davedouglas.bandcamp.com/album/high-risk', 'http://davedouglas.bandcamp.com/album/present-joys', 'http://davedouglas.bandcamp.com/album/riverside', 'http://davedouglas.bandcamp.com/album/time-travel', 'http://davedouglas.bandcamp.com/album/be-still', 'http://davedouglas.bandcamp.com/album/meaning-and-mystery', 'http://davedouglas.bandcamp.com/album/magic-triangle-leap-of-faith', 'http://davedouglas.bandcamp.com/album/gps-volume-1-rare-metals', 'http://davedouglas.bandcamp.com/album/gps-volume-2-orange-afternoons', 'http://davedouglas.bandcamp.com/album/gps-volume-3-bad-mango', 'http://davedouglas.bandcamp.com/album/united-front', 'http://davedouglas.bandcamp.com/album/spark-of-being-box-set', 'http://davedouglas.bandcamp.com/album/on-stage', 'http://davedouglas.bandcamp.com/album/spirit-moves', 'http://davedouglas.bandcamp.com/album/live-at-jazz-standard-8-set', 'http://davedouglas.bandcamp.com/album/moonshine', 'http://davedouglas.bandcamp.com/album/live-at-the-jazz-standard-12-set', 'http://davedouglas.bandcamp.com/album/dd-50-special-edition-50th-birthday-recordings', 'http://davedouglas.bandcamp.com/album/keystone', 'http://davedouglas.bandcamp.com/album/spark-of-being-burst', 'http://davedouglas.bandcamp.com/album/spark-of-being-expand', 'http://davedouglas.bandcamp.com/album/spark-of-being-soundtrack' ],
             "a_strings": [ 'The New National Anthem by Riverside', 'Dada People by Dave Douglas &amp; Frank Woeste', 'Dark Territory by High Risk', 'Fabliaux by Dave Douglas &amp; Monash Art Ensemble', 'Brazen Heart Live at Jazz Standard by Dave Douglas Quintet 2015', 'Brazen Heart by Dave Douglas Quintet', 'High Risk by High Risk', 'Present Joys by Douglas/Caine', 'Riverside by Douglas/Doxas/Swallow/Doxas', 'Time Travel by Dave Douglas Quintet', 'Be Still by Dave Douglas Quintet', 'Meaning and Mystery by Dave Douglas Quintet', 'Magic Triangle / Leap Of Faith by Dave Douglas Quartet', 'GPS, Volume 1: Rare Metals by Dave Douglas &amp; Brass Ecstasy', 'GPS, Volume 2: Orange Afternoons by Dave Douglas', 'GPS, Volume 3: Bad Mango by Dave Douglas &amp; So Percussion', 'United Front by Dave Douglas &amp; Brass Ecstasy', 'Spark Of Being [Box Set] by Dave Douglas &amp; Keystone', 'On Stage by Dave Douglas &amp; Brass Ecstasy', 'Spirit Moves by Dave Douglas &amp; Brass Ecstasy', 'Live at Jazz Standard [8-​set] by Dave Douglas &amp; Keystone', 'Moonshine by Dave Douglas &amp; Keystone', 'Live at the Jazz Standard [12-set] by Dave Douglas Quintet', 'DD|50: Special Edition 50th Birthday Recordings by Dave Douglas', 'Keystone by Dave Douglas &amp; Keystone', 'Spark Of Being: Burst by Dave Douglas &amp; Keystone', 'Spark Of Being: Expand by Dave Douglas &amp; Keystone', 'Spark Of Being: Soundtrack by Dave Douglas &amp; Keystone' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 45,
@@ -721,13 +721,13 @@ exports.seed = function(knex, Promise) {
           name: 'Pierre Boulez (composer, theorist, conductor), born 1925',
           color: '#30303B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/pierreboulez.jpg',
-          day_of: new Date ('1925-03-26T13:44:00.000Z'),
+          day_of: new Date ('1925-03-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 46,
@@ -735,7 +735,7 @@ exports.seed = function(knex, Promise) {
           name: 'Marilyn Crispell (piano, improviser), born 1947',
           color: '#560408',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/marilyncrispell.jpg',
-          day_of: new Date ('1947-03-30T13:44:00.000Z'),
+          day_of: new Date ('1947-03-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -745,8 +745,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/pianosolo-a-concert-in-berlin', 'http://babel-label.bandcamp.com/album/parallel-moments', 'http://intaktrec.bandcamp.com/album/table-of-changes', 'http://intaktrec.bandcamp.com/album/affinities', 'http://ditzner.bandcamp.com/album/free-flight', 'http://gustafsson1.bandcamp.com/album/gryffgryffgryffs' ],
             "a_strings": [ 'Pianosolo — A Concert in Berlin by MARILYN CRISPELL', 'PARALLEL MOMENTS by RAYMOND MACDONALD &amp; MARILYN CRISPELL', 'Table of Changes by Marilyn Crispell – Gerry Hemingway', 'Affinities by Marilyn Crispell and Gerry Hemingway', 'free flight by MARILYN CRISPELL, ERWIN DITZNER, SEBASTIAN GRAMSS', 'Gryffgryffgryffs by Guy-Gustafsson-Strid Trio with Marilyn Crispell' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 47,
@@ -754,13 +754,13 @@ exports.seed = function(knex, Promise) {
           name: 'René Descartes (philosopher, mathematician, scientist), born 1596',
           color: '#FAEBD6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/renedescartes.jpg',
-          day_of: new Date ('1596-03-31T13:44:00.000Z'),
+          day_of: new Date ('1596-03-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 48,
@@ -768,13 +768,13 @@ exports.seed = function(knex, Promise) {
           name: 'Alexandra Kollontai (communist revolutionary), born 1872',
           color: '#6D6C77',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/alexandrakollontai.jpg',
-          day_of: new Date ('1872-03-31T13:44:00.000Z'),
+          day_of: new Date ('1872-03-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 49,
@@ -782,7 +782,7 @@ exports.seed = function(knex, Promise) {
           name: 'Trevor Dunn (bassist), born 1968',
           color: '#C0956A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/trevordunn.jpg',
-          day_of: new Date ('1968-01-30T13:44:00.000Z'),
+          day_of: new Date ('1968-01-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -792,8 +792,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://quiband.bandcamp.com/album/qui-w-trevor-dunn', 'http://trevordunnstrioconvulsant.bandcamp.com/album/sister-phantom-owl-fish', 'http://scottamendolamusic.bandcamp.com/album/fade-to-orange-feat-nels-cline-trevor-dunn', 'http://andrew-dangelo.bandcamp.com/album/andrew-dangelo-trio-norman-2', 'http://mikepride.bandcamp.com/album/sleep-cells' ],
             "a_strings": [ 'Qui w/ Trevor Dunn by Qui', 'Sister Phantom Owl Fish by Trevor Dunn&#39;s Trio Convulsant', 'Fade to Orange (feat. Nels Cline &amp; Trevor Dunn) by Scott Amendola', 'Andrew D&#39;Angelo Trio NORMAN by Andrew D&#39;Angelo Trio with Jim Black and Trevor Dunn', 'Sleep Cells by the MPTHREE (Mike Pride trio w/ Mary Halvorson &amp; Trevor Dunn)' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 50,
@@ -801,13 +801,13 @@ exports.seed = function(knex, Promise) {
           name: 'Alan Hovhaness (composer), born 1911',
           color: '#678BBF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/alanhovhaness.jpg',
-          day_of: new Date ('1911-03-08T13:44:00.000Z'),
+          day_of: new Date ('1911-03-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 51,
@@ -815,13 +815,13 @@ exports.seed = function(knex, Promise) {
           name: 'Sonia Johnson (feminist/writer), 1936',
           color: '#FC1273',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/soniajohnson.jpg',
-          day_of: new Date ('1936-02-27T13:44:00.000Z'),
+          day_of: new Date ('1936-02-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 52,
@@ -829,13 +829,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jane Goodall (primatologist), born 1934',
           color: '#A59260',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/janegoodall.jpg',
-          day_of: new Date ('1934-04-03T13:44:00.000Z'),
+          day_of: new Date ('1934-04-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 53,
@@ -843,7 +843,7 @@ exports.seed = function(knex, Promise) {
           name: 'Susan Alcorn (slide guitarist/improviser), born 1958',
           color: '#FF995E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/susanalcorn.jpg',
-          day_of: new Date ('1958-04-04T13:44:00.000Z'),
+          day_of: new Date ('1958-04-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -853,8 +853,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://liminalsoundseries.bandcamp.com/album/susan-alcorn-21415', 'http://iorramrecords.bandcamp.com/album/a-b', 'http://detectivesquidface.bandcamp.com/album/alcoder-susan-alcorn-jason-cohen-derrick-michaels' ],
             "a_strings": [ 'Susan Alcorn 2.14.15 by Liminal Sound Series', 'A&amp;B by Susan Alcorn &amp; George Burt', 'alcoder ((Susan Alcorn.Jason Cohen. Derrick Michaels)) by Detective Squidface' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 54,
@@ -862,13 +862,13 @@ exports.seed = function(knex, Promise) {
           name: 'Maya Angelou (poet/activist), born 1928',
           color: '#9B4B6D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/mayaangelou.jpg',
-          day_of: new Date ('1928-04-04T13:44:00.000Z'),
+          day_of: new Date ('1928-04-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 55,
@@ -876,13 +876,13 @@ exports.seed = function(knex, Promise) {
           name: 'Shikao Ikehara (mathematician), born 1904',
           color: '#313B10',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/shikaoikehara.jpg',
-          day_of: new Date ('1904-04-11T13:44:00.000Z'),
+          day_of: new Date ('1904-04-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 56,
@@ -890,13 +890,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hal Abelson (computer scientist), born 1947',
           color: '#341922',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/halabelson.jpg',
-          day_of: new Date ('1947-04-26T13:44:00.000Z'),
+          day_of: new Date ('1947-04-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 57,
@@ -904,7 +904,7 @@ exports.seed = function(knex, Promise) {
           name: 'Axel Dörner (trumpet/composer), born 1964',
           color: '#887F57',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/axeldorner.jpg',
-          day_of: new Date ('1964-04-26T13:44:00.000Z'),
+          day_of: new Date ('1964-04-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -914,8 +914,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://axeldoerner.bandcamp.com/track/gegenfall', 'http://axeldoerner.bandcamp.com/track/vorfall', 'http://improvising-beings.bandcamp.com/album/root-of-bohemian', 'http://f-a-t-a-k-a.bandcamp.com/album/stonecipher', 'http://soundanatomy.bandcamp.com/album/seven-types-of-ambiguity', 'http://handaxe.bandcamp.com/album/black-box', 'http://ellwoodepps.bandcamp.com/album/twine', 'http://flyingaspidistra.bandcamp.com/album/flying-aspidistra-6-d-rner-lonberg-holm', 'http://soundanatomy.bandcamp.com/album/orbit-dialogue-and-trajectory-live-in-berlin', 'http://leonelkaplan.bandcamp.com/album/absence', 'http://mikavainiokevindrummaxeldornerluciocapece.bandcamp.com/album/venexia-lp-pan-28', 'http://noiseberg.bandcamp.com/album/nb-67-andreas-r-ysum-axel-do-rner-disgusting-beauty', 'http://intaktrec.bandcamp.com/album/monks-casino' ],
             "a_strings": [ 'gegenfall by Axel Dörner', 'vorfall by Axel Dörner', 'Root Of Bohemian by Itaru Oki, Axel Dörner', 'Stonecipher by Axel Dörner &amp; Mark Sanders', 'Seven Types of Ambiguity by Axel Dörner &amp; Richard Scott', 'Black Box by Axel Dörner and Erhard Hirt', 'twine by Axel Dörner and Ellwood Epps', 'Flying Aspidistra #6 - Dörner/Lonberg-Holm by Axel Dörner and Fred Lonberg-Holm', 'Orbit, Dialogue and Trajectory: Live in Berlin by Thomas Lehn, Richard Scott, Axel Dörner', 'Absence by Axel Dörner, Leonel Kaplan, Diego Chamy', 'Venexia LP (PAN 28) by Mika Vainio / Kevin Drumm / Axel Dörner / Lucio Capece', 'NB#67 - Andreas Røysum &amp; Axel Dörner + Disgusting Beauty by Noiseberg', 'Monks Casino by Alexander von Schlippenbach, Axel Dörner, Rudi Mahall, Jan Roder, Uli Jennessen' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 58,
@@ -923,13 +923,13 @@ exports.seed = function(knex, Promise) {
           name: 'Rogers Hornsby (infielder), born 1896',
           color: '#702B22',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/rogershornsby.jpg',
-          day_of: new Date ('1896-04-27T13:44:00.000Z'),
+          day_of: new Date ('1896-04-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 59,
@@ -937,13 +937,13 @@ exports.seed = function(knex, Promise) {
           name: 'Kurt Gödel (mathematician, philosopher), born 1906',
           color: '#9A9086',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/kurtgödel.jpg',
-          day_of: new Date ('1906-04-28T13:44:00.000Z'),
+          day_of: new Date ('1906-04-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 60,
@@ -951,13 +951,13 @@ exports.seed = function(knex, Promise) {
           name: 'Barry Larkin (shortstop), born 1964',
           color: '#C20614',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/barrylarkin.jpg',
-          day_of: new Date ('1964-04-28T13:44:00.000Z'),
+          day_of: new Date ('1964-04-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 61,
@@ -965,7 +965,7 @@ exports.seed = function(knex, Promise) {
           name: 'Duke Ellington (composer), born 1899',
           color: '#C5C5C5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/dukeellington.jpg',
-          day_of: new Date ('1899-04-29T13:44:00.000Z'),
+          day_of: new Date ('1899-04-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -975,8 +975,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://lespontsdujazz.bandcamp.com/album/duke-ellington', 'http://srjo.bandcamp.com/album/sacred-music-of-duke-ellington' ],
             "a_strings": [ 'Duke Ellington by Duke Ellington', 'Sacred Music of Duke Ellington by Seattle Repertory Jazz Orchestra' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 62,
@@ -984,13 +984,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hugo Ball (dadaist/sound poet), born 1886',
           color: '#686A67',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dada/hugoball.jpg',
-          day_of: new Date ('1886-02-22T13:44:00.000Z'),
+          day_of: new Date ('1886-02-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 63,
@@ -998,13 +998,13 @@ exports.seed = function(knex, Promise) {
           name: 'Nicolas Collins (composer), born 1954',
           color: '#692226',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/nicolascollins.jpg',
-          day_of: new Date ('1954-03-26T13:44:00.000Z'),
+          day_of: new Date ('1954-03-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 64,
@@ -1012,13 +1012,13 @@ exports.seed = function(knex, Promise) {
           name: 'Lori Freedman (reeds/improviser), born 1958',
           color: '#FDEDE3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/lorifreedman.jpg',
-          day_of: new Date ('1958-03-19T13:44:00.000Z'),
+          day_of: new Date ('1958-03-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 65,
@@ -1026,13 +1026,13 @@ exports.seed = function(knex, Promise) {
           name: 'The Grapes of Wrath by John Steinbeck, published 1939. Temporarily banned in California for unflattering portrayal of its residents.',
           color: '#D4B890',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/thegrapesofwrath.jpg',
-          day_of: new Date ('1939-04-14T13:44:00.000Z'),
+          day_of: new Date ('1939-04-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 66,
@@ -1040,13 +1040,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jon Hassell (trumpet), born 1937',
           color: '#FBF9F5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jonhassell.jpg',
-          day_of: new Date ('1937-03-22T13:44:00.000Z'),
+          day_of: new Date ('1937-03-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 67,
@@ -1054,13 +1054,13 @@ exports.seed = function(knex, Promise) {
           name: 'Toshi Ichiyanagi (composer), born 1933',
           color: '#959490',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/toshiichiyanagi.jpg',
-          day_of: new Date ('1933-02-03T13:44:00.000Z'),
+          day_of: new Date ('1933-02-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 68,
@@ -1068,13 +1068,13 @@ exports.seed = function(knex, Promise) {
           name: 'Don Joyce (composer), born 1944',
           color: '#EEC5CD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/donjoyce.jpg',
-          day_of: new Date ('1944-02-09T13:44:00.000Z'),
+          day_of: new Date ('1944-02-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 69,
@@ -1082,13 +1082,13 @@ exports.seed = function(knex, Promise) {
           name: 'Florynce Kennedy (feminist/activist), born 1916',
           color: '#81807E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/floryncekennedy.jpg',
-          day_of: new Date ('1916-02-11T13:44:00.000Z'),
+          day_of: new Date ('1916-02-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 70,
@@ -1096,13 +1096,13 @@ exports.seed = function(knex, Promise) {
           name: 'Phil Neikro (pitcher), born 1939',
           color: '#9DB3D9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/philniekro.jpg',
-          day_of: new Date ('1939-04-01T13:44:00.000Z'),
+          day_of: new Date ('1939-04-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 71,
@@ -1110,7 +1110,7 @@ exports.seed = function(knex, Promise) {
           name: 'Frederic Rzewski (pianist/composer), born 1938',
           color: '#583039',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/fredericrzewski.jpg',
-          day_of: new Date ('1938-04-13T13:44:00.000Z'),
+          day_of: new Date ('1938-04-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1120,8 +1120,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://lisamoore.bandcamp.com/album/frederic-rzewski-which-side-are-you-on', 'http://rzewski.bandcamp.com/album/frederic-rzewski-the-people-united-will-never-be-defeated-4-hands' ],
             "a_strings": [ 'Frederic Rzewski: Which Side Are You On? by Lisa Moore', 'Frederic Rzewski: The People United Will Never be Defeated &amp; 4 Hands by Rzewski' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 72,
@@ -1129,7 +1129,7 @@ exports.seed = function(knex, Promise) {
           name: 'Cecil Taylor (pianist/composer), born 1929',
           color: '#767676',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ceciltaylor.jpg',
-          day_of: new Date ('1929-03-15T13:44:00.000Z'),
+          day_of: new Date ('1929-03-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1139,8 +1139,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/the-complete-in-berlin-88-box-set', 'http://ceciltaylor.bandcamp.com/album/the-willisau-concert', 'http://destination-out.bandcamp.com/album/almeda-to-matie' ],
             "a_strings": [ 'THE COMPLETE IN BERLIN &#39;88 (BOX SET) by CECIL TAYLOR', 'The Willisau Concert by Cecil Taylor', 'Almeda (To Matie) by CECIL TAYLOR' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 73,
@@ -1148,13 +1148,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ken Ueno (composer), born 1970',
           color: '#C1C3BD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/kenueno.jpeg',
-          day_of: new Date ('1970-01-11T13:44:00.000Z'),
+          day_of: new Date ('1970-01-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 74,
@@ -1162,13 +1162,13 @@ exports.seed = function(knex, Promise) {
           name: 'Luce Irigaray (feminist/cultural theorist), born 1930',
           color: '#776F64',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/luceirigaray.jpg',
-          day_of: new Date ('1930-05-03T13:44:00.000Z'),
+          day_of: new Date ('1930-05-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 75,
@@ -1176,13 +1176,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Lewis (pianist), born 1920',
           color: '#30444D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johnlewis.jpg',
-          day_of: new Date ('1920-05-03T13:44:00.000Z'),
+          day_of: new Date ('1920-05-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 76,
@@ -1190,13 +1190,13 @@ exports.seed = function(knex, Promise) {
           name: 'Karl Marx (communist), born 1818',
           color: '#80594C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/karlmarx.jpg',
-          day_of: new Date ('1818-05-05T13:44:00.000Z'),
+          day_of: new Date ('1818-05-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 77,
@@ -1204,7 +1204,7 @@ exports.seed = function(knex, Promise) {
           name: 'Cornelius Cardew (composer/activist), born 1936',
           color: '#645F59',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/corneliuscardew.jpg',
-          day_of: new Date ('1936-05-07T13:44:00.000Z'),
+          day_of: new Date ('1936-05-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1214,8 +1214,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://mattsmiley.bandcamp.com/album/cornelius-cardew-treatise', 'http://mtmmtm.bandcamp.com/album/cornelius-cardews-treatise-pages-1-60', 'http://openmusic.bandcamp.com/album/the-great-learning-by-cornelius-cardew' ],
             "a_strings": [ 'Cornelius Cardew - Treatise by (Home Recording)', 'Cornelius Cardew&#39;s Treatise pages 1-60 by MTM', 'The Great Learning by Cornelius Cardew by Open Music' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 78,
@@ -1223,7 +1223,7 @@ exports.seed = function(knex, Promise) {
           name: 'Gil Evans (composer/arranger), born 1912',
           color: '#61645D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/gilevans.jpg',
-          day_of: new Date ('1912-05-13T13:44:00.000Z'),
+          day_of: new Date ('1912-05-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1233,8 +1233,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://whirlwindrecordings.bandcamp.com/album/mike-gibbs-12-play-gil-evans', 'http://jazzandpeople.bandcamp.com/album/gil-evans-paris-workshop-laurent-cugny-spoonful' ],
             "a_strings": [ 'Mike Gibbs + 12 play Gil Evans by Mike Gibbs', 'Gil Evans Paris Workshop - Laurent Cugny &quot;Spoonful&quot; by Gil Evans Paris Workshop - Laurent Cugny' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 79,
@@ -1242,7 +1242,7 @@ exports.seed = function(knex, Promise) {
           name: 'Lou Harrison (composer), born 1917',
           color: '#D1DBA6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/louharrison.jpg',
-          day_of: new Date ('1917-05-14T13:44:00.000Z'),
+          day_of: new Date ('1917-05-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1252,8 +1252,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://lilypress.bandcamp.com/album/lou-harrison-suite-for-cello-and-harp' ],
             "a_strings": [ 'Lou Harrison Suite for Cello and Harp by Lily Press, harp &amp; Simon Linn-Gerstein, cello' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 80,
@@ -1261,13 +1261,13 @@ exports.seed = function(knex, Promise) {
           name: 'Robert Owen (socialist/reformer), born 1771',
           color: '#776127',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/robertowen.jpg',
-          day_of: new Date ('1771-05-14T13:44:00.000Z'),
+          day_of: new Date ('1771-05-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 81,
@@ -1275,7 +1275,7 @@ exports.seed = function(knex, Promise) {
           name: 'Brian Eno (musician), born 1948',
           color: '#7A1421',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/brianeno.jpeg',
-          day_of: new Date ('1948-05-15T13:44:00.000Z'),
+          day_of: new Date ('1948-05-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1285,8 +1285,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://prfmonthlytributeseries.bandcamp.com/album/may-2017-brian-eno', 'http://jpeterschwalm.bandcamp.com/album/drawn-from-life', 'http://bangonacan.bandcamp.com/album/music-for-airports-live' ],
             "a_strings": [ 'May 2017: Brian Eno by PRF Monthly Tribute Series', 'Drawn from Life by Brian Eno &amp; J. Peter Schwalm', 'Music For Airports (Live) by Bang on a Can All-Stars' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 82,
@@ -1294,7 +1294,7 @@ exports.seed = function(knex, Promise) {
           name: 'Katt Hernandez (improviser), born 1974',
           color: '#E79463',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/katthernandez.jpg',
-          day_of: new Date ('1974-05-16T13:44:00.000Z'),
+          day_of: new Date ('1974-05-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1304,8 +1304,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sequestercamp.bandcamp.com/album/sequester', 'http://slowfidelity.bandcamp.com/album/leo-svirsky-katt-hernandez', 'http://risberghernandez.bandcamp.com/album/cantus-arc' ],
             "a_strings": [ 'Sequester by Katt Hernandez / Matt Samolis', 'Leo Svirsky/Katt Hernandez by Leo Svirsky/Katt Hernandez', 'Cantus Arc by Mattias Risberg and Katt Hernandez' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 83,
@@ -1313,13 +1313,13 @@ exports.seed = function(knex, Promise) {
           name: 'Omar Khayyam (mathematician/philosopher/poet), born 1048',
           color: '#BEA56F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/omarkhayyam.jpg',
-          day_of: new Date ('1048-05-18T13:44:00.000Z'),
+          day_of: new Date ('1048-05-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 84,
@@ -1327,7 +1327,7 @@ exports.seed = function(knex, Promise) {
           name: 'Sun Ra (musician, Saturnian), born 1914',
           color: '#02A9DE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/sunra.jpg',
-          day_of: new Date ('1914-05-22T13:44:00.000Z'),
+          day_of: new Date ('1914-05-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1337,8 +1337,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sunrastrut.bandcamp.com/album/singles', 'http://sunrastrut.bandcamp.com/album/discipline-27-11-1', 'http://sunrastrut.bandcamp.com/album/in-some-far-place-roma-1977', 'http://sunrastrut.bandcamp.com/album/gilles-peterson-presents-sun-ra-and-his-arkestra-to-those-of-earth-and-other-worlds-2', 'http://sunrastrut.bandcamp.com/album/planets-of-life-or-death-amiens-73', 'http://sunrastrut.bandcamp.com/album/marshall-allen-presents-sun-ra-and-his-arkestra-in-the-orbit-of-ra', 'http://sunramusic.bandcamp.com/album/my-brother-the-wind-vol-1-expanded-and-remastered-edition', 'http://sunramusic.bandcamp.com/album/the-magic-city-stereo-remastered', 'http://sunramusic.bandcamp.com/album/discipline-27-ii-remastered', 'http://sunramusic.bandcamp.com/album/transitions-1-spaceship-bop-1955-57', 'http://sunramusic.bandcamp.com/album/the-sun-myth-african-chant', 'http://sunramusic.bandcamp.com/album/transitions-3-chicago-to-ny', 'http://sunramusic.bandcamp.com/album/when-angels-speak-of-love-1', 'http://sunramusic.bandcamp.com/album/cosmos-remastered', 'http://sunramusic.bandcamp.com/album/the-soul-vibrations-of-man', 'http://sunramusic.bandcamp.com/album/paris-1983', 'http://sunramusic.bandcamp.com/album/sun-ra-at-inter-media-arts-1991', 'http://sunramusic.bandcamp.com/album/beyond-the-purple-star-zone', 'http://sunramusic.bandcamp.com/album/the-antique-blacks', 'http://sunramusic.bandcamp.com/album/god-is-more-than-love-can-ever-be', 'http://sunramusic.bandcamp.com/album/the-other-side-of-the-sun', 'http://sunramusic.bandcamp.com/album/aurora-borealis', 'http://sunramusic.bandcamp.com/album/oblique-parallax', 'http://sunramusic.bandcamp.com/album/dance-of-innocent-passion', 'http://sunramusic.bandcamp.com/album/ra-to-the-rescue', 'http://sunramusic.bandcamp.com/album/sunrise-in-different-dimensions', 'http://sunramusic.bandcamp.com/album/some-blues-but-not-the-kind-thats-blue', 'http://sunramusic.bandcamp.com/album/solo-piano-venice-1977', 'http://sunramusic.bandcamp.com/track/i-roam-the-cosmos-premiere-release-1', 'http://sunramusic.bandcamp.com/album/sub-underground-1', 'http://sunramusic.bandcamp.com/album/new-steps', 'http://sunramusic.bandcamp.com/album/other-voices-other-blues', 'http://sunramusic.bandcamp.com/album/secrets-of-the-sun', 'http://sunramusic.bandcamp.com/album/sound-sun-pleasure', 'http://sunramusic.bandcamp.com/album/art-forms-of-dimensions-tomorrow', 'http://sunramusic.bandcamp.com/album/omniverse', 'http://sunramusic.bandcamp.com/album/jazz-by-sun-ra', 'http://sunramusic.bandcamp.com/album/the-pit-inn-8-8-88', 'http://sunramusic.bandcamp.com/album/voice-of-the-eternal-tomorrow' ],
             "a_strings": [ 'Singles by Sun Ra', 'Discipline 27-11 by Sun Ra', 'In Some Far Place: Roma 1977 by Sun Ra', 'Gilles Peterson Presents Sun Ra And His Arkestra: To Those Of Earth... And Other Worlds by Sun Ra', 'Planets Of Life Or Death: Amiens &#39;73 by Sun Ra &amp; His Intergalactic Research Arkestra', 'Marshall Allen presents Sun Ra And His Arkestra: In The Orbit Of Ra by Sun Ra', 'My Brother the Wind Vol. 1 - Expanded and Remastered Edition by Sun Ra &amp; His Astro Infinity Arkestra', 'The Magic City (Stereo, Remastered) by Sun Ra &amp; His Arkestra', 'Discipline 27-II (Remastered) by Sun Ra &amp; His Arkestra', 'Transitions 1: Spaceship Bop (1955-57) by Sun Ra &amp; His Arkestra', 'The Sun Myth (African Chant) by Sun Ra &amp; His Arkestra', 'Transitions 3: Chicago to NY by Sun Ra &amp; His Arkestra', 'When Angels Speak of Love by Sun Ra &amp; His Myth Science Arkestra', 'Cosmos (Remastered) by Sun Ra &amp; His Arkestra', 'The Soul Vibrations of Man by Sun Ra &amp; His Arkestra', 'Paris 1983 by Sun Ra &amp; His Arkestra', 'Sun Ra at Inter-Media Arts, 1991 by Sun Ra &amp; His Arkestra', 'Beyond the Purple Star Zone by Sun Ra &amp; His Omniverse Jet-Set Arkestra', 'The Antique Blacks by Sun Ra &amp; His Arkestra', 'God Is More Than Love Can Ever Be by Sun Ra Trio', 'The Other Side of the Sun by Sun Ra &amp; His Arkestra', 'Aurora Borealis by Sun Ra', 'Oblique Parallax by Sun Ra &amp; His Arkestra', 'Dance of Innocent Passion by Sun Ra &amp; His Arkestra', 'Ra to the Rescue by Sun Ra &amp; His Arkestra', 'Sunrise in Different Dimensions by Sun Ra &amp; His Arkestra', 'Some Blues But Not the Kind That&#39;s Blue by Sun Ra &amp; His Arkestra', 'Solo Piano Venice 1977 by Sun Ra', 'I Roam the Cosmos (Premiere Release) by Sun Ra &amp; His Arkestra ft. June Tyson', 'Sub Underground #1 by Sun Ra &amp; His Arkestra', 'New Steps by Sun Ra Quartet ft. John Gilmore', 'Other Voices, Other Blues by Sun Ra Quartet ft. John Gilmore', 'Secrets of the Sun by Sun Ra &amp; His Solar Arkestra', 'Sound Sun Pleasure by Sun Ra &amp; His Astro Infinity Arkestra', 'Art Forms of Dimensions Tomorrow by Sun Ra &amp; His Arkestra', 'Omniverse by Sun Ra &amp; His Arkestra', 'Jazz by Sun Ra by Sun Ra &amp; His Arkestra' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 85,
@@ -1346,13 +1346,13 @@ exports.seed = function(knex, Promise) {
           name: 'Michael Chabon (author), born 1963',
           color: '#F2F4F3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/michaelchabon.jpg',
-          day_of: new Date ('1963-05-24T13:44:00.000Z'),
+          day_of: new Date ('1963-05-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 86,
@@ -1360,7 +1360,7 @@ exports.seed = function(knex, Promise) {
           name: 'Moondog (composer), born 1916',
           color: '#6B4C38',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/moondog.png',
-          day_of: new Date ('1916-05-26T13:44:00.000Z'),
+          day_of: new Date ('1916-05-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1370,8 +1370,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://fidelitymastersmusic.bandcamp.com/album/the-way-out-sound-of-moondog', 'http://trovarobato.bandcamp.com/album/moondog-mask' ],
             "a_strings": [ 'The Way Out Sound Of Moondog by Moondog', 'Moondog Mask by Hobocombo' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 87,
@@ -1379,13 +1379,13 @@ exports.seed = function(knex, Promise) {
           name: 'Julia Ward Howe (poet/abolitionist), born 1819',
           color: '#B6A072',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/juliawardhowe.jpg',
-          day_of: new Date ('1819-05-27T13:44:00.000Z'),
+          day_of: new Date ('1819-05-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 88,
@@ -1393,7 +1393,7 @@ exports.seed = function(knex, Promise) {
           name: 'Arto Lindsay (guitarist), born 1953',
           color: '#668BA6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/artolindsay.jpg',
-          day_of: new Date ('1953-05-28T13:44:00.000Z'),
+          day_of: new Date ('1953-05-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1403,8 +1403,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://artolindsay.bandcamp.com/album/cuidado-madame', 'http://artolindsay.bandcamp.com/album/encyclopedia-of-arto-2', 'http://pnlrecords.bandcamp.com/album/scarcity', 'http://atlanticrhythms.bandcamp.com/album/live-at-trans-pecos' ],
             "a_strings": [ 'Cuidado Madame by Arto lindsay', 'Encyclopedia Of Arto by Arto lindsay', 'Scarcity by Arto Lindsay / Paal Nilssen-Love', 'Live at Trans-Pecos by TOWN (Arto Lindsay/Sam Hillmer duo)' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 89,
@@ -1412,7 +1412,7 @@ exports.seed = function(knex, Promise) {
           name: 'Pauline Oliveros (accordionist/composer/deep listener), born 1932',
           color: '#074487',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/paulineoliveros.jpg',
-          day_of: new Date ('1932-05-30T13:44:00.000Z'),
+          day_of: new Date ('1932-05-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1422,8 +1422,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://paulineoliveros.bandcamp.com/album/electronic-music-1965-1966', 'http://paulineoliveros1.bandcamp.com/album/nile-night', 'http://paulineoliveros1.bandcamp.com/album/taras-room', 'http://pauline-oliveros.bandcamp.com/album/water-above-sky-below-now', 'http://cassauna.bandcamp.com/album/accordion-to-bass', 'http://audiographics.bandcamp.com/album/7705b-homage-to-blauweiss', 'http://idischidiangelica.bandcamp.com/album/nessuno' ],
             "a_strings": [ 'Electronic Music (1965 - 1966) by Pauline Oliveros', 'Nile Night by Ione/Pauline Oliveros', 'Tara&#39;s Room by Pauline Oliveros', 'Water Above Sky Below Now by Pauline Oliveros and Ione', 'Accordion To Bass by Pauline Oliveros, Michael Bullock', '7705B - Homage to Blauweiss by Jackson Mac Low and Pauline Oliveros', 'Nessuno by Pauline Oliveros + Roscoe Mitchell + John Tilbury + Wadada Leo Smith' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 90,
@@ -1431,13 +1431,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Oswald (musician/pluderphonic), born 1953',
           color: '#F5CD32',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johnoswald.jpg',
-          day_of: new Date ('1953-05-30T13:44:00.000Z'),
+          day_of: new Date ('1953-05-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 91,
@@ -1445,7 +1445,7 @@ exports.seed = function(knex, Promise) {
           name: 'Marty Ehrlich (reeds/improviser/composer), born 1955',
           color: '#AA8654',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/martyehrlich.jpg',
-          day_of: new Date ('1955-05-31T13:44:00.000Z'),
+          day_of: new Date ('1955-05-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1455,8 +1455,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://fastspeakingmusic.bandcamp.com/album/erica-hunt-marty-ehrlichs-2013-naropa-swp-workshop' ],
             "a_strings": [ 'Erica Hunt &amp; Marty Ehrlich&#39;s 2013 Naropa SWP Workshop by Erica Hunt, Marty Ehrlich, Curtis Romero, Carla Campbell, Eric Bitsui, Willette Farley' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 92,
@@ -1464,13 +1464,13 @@ exports.seed = function(knex, Promise) {
           name: 'Svend Asmussen (violinist), born 1916',
           color: '#D09133',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/svendasmussen.jpeg',
-          day_of: new Date ('1916-02-28T13:44:00.000Z'),
+          day_of: new Date ('1916-02-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 93,
@@ -1478,7 +1478,7 @@ exports.seed = function(knex, Promise) {
           name: 'Jean Crotti (artist), born 1878',
           color: '#944D52',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/jeancrotti.jpg',
-          day_of: new Date ('1878-04-24T13:44:00.000Z'),
+          day_of: new Date ('1878-04-24 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -1488,8 +1488,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Jean Crotti', 'Jean Crotti', 'Jean Crotti', 'Jean Crotti', 'Jean Crotti', 'Jean Crotti', 'Jean Crotti' ],
             "years": [ '1920', '1916', '1923', '1920', '1926', '1921', '1920' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 94,
@@ -1497,13 +1497,13 @@ exports.seed = function(knex, Promise) {
           name: 'Delia Derbyshire (musician), born 1937',
           color: '#929292',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/deliaderbyshire.jpg',
-          day_of: new Date ('1937-05-05T13:44:00.000Z'),
+          day_of: new Date ('1937-05-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 95,
@@ -1511,13 +1511,13 @@ exports.seed = function(knex, Promise) {
           name: 'Heather has Two Mommies (frequently banned book), published 1989',
           color: '#ECEC75',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/heatherhastwomommies.jpg',
-          day_of: new Date ('1989-03-17T13:44:00.000Z'),
+          day_of: new Date ('1989-03-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 96,
@@ -1525,13 +1525,13 @@ exports.seed = function(knex, Promise) {
           name: 'Audre Lorde (feminist/writer/activist), born 1934',
           color: '#7A7571',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/audrelorde.jpg',
-          day_of: new Date ('1934-02-18T13:44:00.000Z'),
+          day_of: new Date ('1934-02-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 97,
@@ -1539,13 +1539,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mel Ott (outfielder/third baseman), born 1909',
           color: '#484848',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/melott.jpg',
-          day_of: new Date ('1909-03-02T13:44:00.000Z'),
+          day_of: new Date ('1909-03-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 98,
@@ -1553,13 +1553,13 @@ exports.seed = function(knex, Promise) {
           name: 'Sylvia Pankhurst (communist/activist), born 1882',
           color: '#B9B9B9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/sylviapankhurst.jpg',
-          day_of: new Date ('1882-05-05T13:44:00.000Z'),
+          day_of: new Date ('1882-05-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 99,
@@ -1567,7 +1567,7 @@ exports.seed = function(knex, Promise) {
           name: 'Carmelo Arden Quin (artist), born 1913',
           color: '	#88B7B9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/carmeloardenquinn.png',
-          day_of: new Date ('1913-03-16T13:44:00.000Z'),
+          day_of: new Date ('1913-03-16 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -1577,8 +1577,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin', 'Carmelo Arden Quin' ],
             "years": [ '1936', '1943', '1945', '1945', '1958', '1947', '1951', '1946', '1995', '1989', '?', '1962', '?', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 100,
@@ -1586,7 +1586,7 @@ exports.seed = function(knex, Promise) {
           name: 'Anthony Braxton (musician/composer), born 1945',
           color: '#20007B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/anthonybraxton.jpg',
-          day_of: new Date ('1945-06-04T13:44:00.000Z'),
+          day_of: new Date ('1945-06-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1596,8 +1596,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://firehouse12records.com/album/3-compositions-eemhm-2011', 'http://firehouse12records.com/album/9-compositions-iridium-2006', 'http://anthonybraxton.bandcamp.com/album/solo-willisau', 'http://caligolarecords.bandcamp.com/album/quartet-mestre-2008', 'http://bandcamp.for-tune.pl/album/quartet-warsaw-2012', 'http://joemorrisritiglacialeratic.bandcamp.com/album/four-improvisations-duo-2007-2', 'http://soundamerican16anthonybraxton.bandcamp.com/album/sound-american-16-the-complete-language-music-solos', 'http://brandonevans.bandcamp.com/album/brandon-evans-anthony-braxton-elliptical-axis-15-vol-1-3-2000', 'http://johnshiurba.bandcamp.com/album/5x5-12-a-with-anthony-braxton', 'http://intaktrec.bandcamp.com/album/duo-palindrome-2002-vol-2', 'http://intaktrec.bandcamp.com/album/duo-palindrome-2002-vol-1', 'http://brandonevans.bandcamp.com/album/anthony-braxton-brandon-evans-composition-n-249', 'http://wadadaleosmith.bandcamp.com/album/saturn-conjunct-the-grand-canyon-in-a-sweet-embrace', 'http://wadadaleosmith.bandcamp.com/album/organic-resonance' ],
             "a_strings": [ '3 Compositions (EEMHM) 2011 by Anthony Braxton', '9 Compositions (Iridium) 2006 by Anthony Braxton', 'Solo Willisau by Anthony Braxton', '«Quartet (Mestre) 2008» by Anthony Braxton', 'Quartet (Warsaw) 2012 by Anthony Braxton', 'Four Improvisations (Duo) 2007 by Anthony Braxton &amp; Joe Morris', 'Sound American 16: The Complete Language Music Solos by Sound American 16: Anthony Braxton', 'Brandon Evans &amp; Anthony Braxton – Elliptical Axis 15 (vol. 1-3) 2000 by Brandon Evans &amp; Anthony Braxton', '5x5 1.2=A with Anthony Braxton by John Shiurba', 'Duo Palindrome 2002, Vol. 2 by Andrew Cyrille, Anthony Braxton', 'Duo Palindrome 2002, Vol. 1 by Andrew Cyrille, Anthony Braxton', 'Anthony Braxton / Brandon Evans – Composition n. 249 by Anthony Braxton / Brandon Evans', 'Saturn, Conjunct the Grand Canyon in a Sweet Embrace by Wadada Leo Smith &amp; Anthony Braxton', 'Organic Resonance by Wadada Leo Smith &amp; Anthony Braxton' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 101,
@@ -1605,13 +1605,13 @@ exports.seed = function(knex, Promise) {
           name: 'Oliver Nelson (saxophonist/composer), born 1932',
           color: '#343434',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/olivernelson.jpg',
-          day_of: new Date ('1932-06-04T13:44:00.000Z'),
+          day_of: new Date ('1932-06-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 102,
@@ -1619,13 +1619,13 @@ exports.seed = function(knex, Promise) {
           name: 'Laurie Anderson (performance artist), born 1947',
           color: '#B6A19C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/laurieanderson.jpg',
-          day_of: new Date ('1947-06-05T13:44:00.000Z'),
+          day_of: new Date ('1947-06-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 103,
@@ -1633,7 +1633,7 @@ exports.seed = function(knex, Promise) {
           name: 'Peter Erskine (drummer), born 1954',
           color: '#BC887B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/petererskine.jpg',
-          day_of: new Date ('1954-06-05T13:44:00.000Z'),
+          day_of: new Date ('1954-06-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1643,8 +1643,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://jazzmud.bandcamp.com/album/open', 'http://dewabudjana-moonjune.bandcamp.com/album/home' ],
             "a_strings": [ 'OPEN by ALESSANDRO GALATI, BOB SHEPPARD, JOHN PATITUCCI, PETER ERSKINE', 'Home by Dewa Budjana feat. Peter Erskine, Dave Carpenter, Reggie Hamilton' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 104,
@@ -1652,13 +1652,13 @@ exports.seed = function(knex, Promise) {
           name: 'Louis Andriessen (composer), born 1939',
           color: '#54A1E5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/louisandreissen.jpg',
-          day_of: new Date ('1939-06-06T13:44:00.000Z'),
+          day_of: new Date ('1939-06-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 105,
@@ -1666,13 +1666,13 @@ exports.seed = function(knex, Promise) {
           name: 'Roy Innis (activist), born 1934',
           color: '#C9C9C9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/royinnis.jpg',
-          day_of: new Date ('1934-06-06T13:44:00.000Z'),
+          day_of: new Date ('1934-06-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 106,
@@ -1680,7 +1680,7 @@ exports.seed = function(knex, Promise) {
           name: 'Geri Allen (pianist/composer), born 1957',
           color: '#F7F7F7',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/geriallen.jpg',
-          day_of: new Date ('1957-06-12T13:44:00.000Z'),
+          day_of: new Date ('1957-06-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1690,8 +1690,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://intaktrec.bandcamp.com/album/celebrating-mary-lou-williams-live-at-birdland-new-york' ],
             "a_strings": [ 'Celebrating Mary Lou Williams (Live at Birdland New York) by Trio 3 + Geri Allen' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 107,
@@ -1699,7 +1699,7 @@ exports.seed = function(knex, Promise) {
           name: 'Gottfried Honegger (artist), born 1917',
           color: '#CFCAEA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/gottfriedhonegger.png',
-          day_of: new Date ('1917-06-12T13:44:00.000Z'),
+          day_of: new Date ('1917-06-12 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -1709,8 +1709,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger', 'Gottfried Honegger' ],
             "years": [ '1955', '1968', '1974', '1988', '1993', '?', '1959', '1967', '1969', '1977', '1988', '2003', '1959', '1966', '1969', '1979', '1989', '?', '1965', '1967', '1969', '1985', '1994' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 108,
@@ -1718,13 +1718,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Forbes Nash Jr. (mathematician), born 1928',
           color: '#C2B27F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/johnforbesnashjr.jpg',
-          day_of: new Date ('1928-06-13T13:44:00.000Z'),
+          day_of: new Date ('1928-06-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 109,
@@ -1732,7 +1732,7 @@ exports.seed = function(knex, Promise) {
           name: 'Victor Brauner (artist), born 1903',
           color: '#B0A696',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/victorbrauner.jpg',
-          day_of: new Date ('1903-06-15T13:44:00.000Z'),
+          day_of: new Date ('1903-06-15 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -1742,8 +1742,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner', 'Victor Brauner' ],
             "years": [ '?', '1923', '?', '1927', '?', '1930', '1963', '1933', '1962', '1934', '1961', '1930-1935', '?', '1923', '?', '1929', '1964', '1930', '1960', '1928-1937', '1960', '1937', '1959', '1939', '1931' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 110,
@@ -1751,13 +1751,13 @@ exports.seed = function(knex, Promise) {
           name: 'Tony Oxley (drummer), born 1938',
           color: '#FE8359',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/tonyoxley.jpg',
-          day_of: new Date ('1938-06-15T13:44:00.000Z'),
+          day_of: new Date ('1938-06-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 111,
@@ -1765,13 +1765,13 @@ exports.seed = function(knex, Promise) {
           name: 'Border Songs by Jim Lynch, published 2009',
           color: '#0B3460',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/bordersongs.jpg',
-          day_of: new Date ('2009-06-16T13:44:00.000Z'),
+          day_of: new Date ('2009-06-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 112,
@@ -1779,7 +1779,7 @@ exports.seed = function(knex, Promise) {
           name: 'MC Escher (artist), born 1898',
           color: '#8D8D8D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/mcescher.jpg',
-          day_of: new Date ('1898-06-17T13:44:00.000Z'),
+          day_of: new Date ('1898-06-17 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -1789,8 +1789,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'MC Escher', 'MC Escher', 'MC Escher', 'MC Escher', 'MC Escher', 'MC Escher', 'MC Escher', 'MC Escher', 'MC Escher', 'MC Escher', 'MC Escher' ],
             "years": [ '1927', '1929', '1938', '1947', '1958', '?', '1943', '1918', '1921', '1927', '1935' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 113,
@@ -1798,13 +1798,13 @@ exports.seed = function(knex, Promise) {
           name: 'Richard Powers (author), born 1957',
           color: '#96CA8C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/richardpowers.jpg',
-          day_of: new Date ('1957-06-18T13:44:00.000Z'),
+          day_of: new Date ('1957-06-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 114,
@@ -1812,13 +1812,13 @@ exports.seed = function(knex, Promise) {
           name: 'Lou Gehrig (first baseman), born 1903',
           color: '#11323A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/lougehrig.jpg',
-          day_of: new Date ('1903-06-19T13:44:00.000Z'),
+          day_of: new Date ('1903-06-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 115,
@@ -1826,13 +1826,13 @@ exports.seed = function(knex, Promise) {
           name: 'Eric Dolphy (reeds/composer), born 1928',
           color: '#A6A6A6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ericdolphy.jpg',
-          day_of: new Date ('1928-06-20T13:44:00.000Z'),
+          day_of: new Date ('1928-06-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 116,
@@ -1840,13 +1840,13 @@ exports.seed = function(knex, Promise) {
           name: 'Octavia E. Butler (author), born 1947',
           color: '#F2A184',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/octaviaebutler.jpg',
-          day_of: new Date ('1947-06-22T13:44:00.000Z'),
+          day_of: new Date ('1947-06-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 117,
@@ -1854,13 +1854,13 @@ exports.seed = function(knex, Promise) {
           name: 'George Russell (composer), born 1923',
           color: '#9F9F9F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/georgerussell.jpeg',
-          day_of: new Date ('1923-06-23T13:44:00.000Z'),
+          day_of: new Date ('1923-06-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 118,
@@ -1868,13 +1868,13 @@ exports.seed = function(knex, Promise) {
           name: 'Harry Partch (hobo/composer), born 1901',
           color: '#1E3C30',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/harrypartch.jpg',
-          day_of: new Date ('1901-06-24T13:44:00.000Z'),
+          day_of: new Date ('1901-06-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 119,
@@ -1882,7 +1882,7 @@ exports.seed = function(knex, Promise) {
           name: 'Terry Riley (composer), born 1935',
           color: '#B29E85',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/terryriley.jpg',
-          day_of: new Date ('1935-06-24T13:44:00.000Z'),
+          day_of: new Date ('1935-06-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -1892,8 +1892,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://idischidiangelica.bandcamp.com/album/the-3-generations-trio', 'http://trabantecho.bandcamp.com/album/terry-riley-in-c', 'http://calderquartet.bandcamp.com/album/terry-riley-two-early-works', 'http://idischidiangelica.bandcamp.com/album/lazy-afternoon-among-the-crocodiles', 'http://kernhaug.bandcamp.com/album/terry-rileys-in-c-arranged-by-me', 'http://mattsmiley.bandcamp.com/album/terry-riley-in-c-electric-bass', 'http://mattstarling.bandcamp.com/album/terry-rileys-dorian-reeds-for-brass', 'http://auralgamisounds.bandcamp.com/album/novembergroup-performs-in-c-by-terry-riley', 'http://minmax.bandcamp.com/album/banana-humberto' ],
             "a_strings": [ 'The 3 Generations Trio by Terry Riley', 'Terry Riley – In C by TRABANT ECHO ORCHESTRA', 'Terry Riley - Two Early Works by Calder Quartet', 'Lazy Afternoon Among the Crocodiles by Terry Riley/Stefano Scodanibbio', 'Terry Riley&#39;s in C, Arranged by Me by Kern Haug', 'Terry Riley - IN C (Electric Bass) by (Home Recording)', 'Terry Riley&#39;s Dorian Reeds (For Brass) by Matt Starling', 'novemberGroup Performs &#39;In C&#39; by Terry Riley by novemberGroup', 'Banana Humberto by Terry Riley with the Paul Dresher Ensemble' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 120,
@@ -1901,13 +1901,13 @@ exports.seed = function(knex, Promise) {
           name: 'Joey Baron (drummer), born 1955',
           color: '#D4D6C9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/joeybaron.jpg',
-          day_of: new Date ('1955-06-26T13:44:00.000Z'),
+          day_of: new Date ('1955-06-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 121,
@@ -1915,13 +1915,13 @@ exports.seed = function(knex, Promise) {
           name: 'Janice Giteck (composer), born 1946',
           color: '#E3D1C7',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/janicegiteck.jpg',
-          day_of: new Date ('1946-06-27T13:44:00.000Z'),
+          day_of: new Date ('1946-06-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 122,
@@ -1929,13 +1929,13 @@ exports.seed = function(knex, Promise) {
           name: 'Harmon Killebrew (first baseman, third baseman, outfielder), born 1936',
           color: '#563C45',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/harmonkillebrew.jpg',
-          day_of: new Date ('1936-06-29T13:44:00.000Z'),
+          day_of: new Date ('1936-06-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 123,
@@ -1943,13 +1943,13 @@ exports.seed = function(knex, Promise) {
           name: 'Andrew Hill (pianist/composer), born 1931',
           color: '#513C24',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/andrewhill.jpg',
-          day_of: new Date ('1931-06-30T13:44:00.000Z'),
+          day_of: new Date ('1931-06-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 124,
@@ -1957,13 +1957,13 @@ exports.seed = function(knex, Promise) {
           name: 'World "ended" on this day in 1997 according to Marshall Applewhite',
           color: '#1B6C89',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/endofworld1997.jpeg',
-          day_of: new Date ('1997-03-26T13:44:00.000Z'),
+          day_of: new Date ('1997-03-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 125,
@@ -1971,13 +1971,13 @@ exports.seed = function(knex, Promise) {
           name: 'Yamantaka Eye (vocalist), born 1964',
           color: '#A21D1A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/yamantakaeye.jpg',
-          day_of: new Date ('1964-02-13T13:44:00.000Z'),
+          day_of: new Date ('1964-02-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 126,
@@ -1985,13 +1985,13 @@ exports.seed = function(knex, Promise) {
           name: 'Al Foster (drummer), born in 1943',
           color: '#4C231F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/alfoster.jpg',
-          day_of: new Date ('1943-01-18T13:44:00.000Z'),
+          day_of: new Date ('1943-01-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 127,
@@ -1999,7 +1999,7 @@ exports.seed = function(knex, Promise) {
           name: 'Julius Hemphill (reeds), born in 1938',
           color: '#E5E5E5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/juliushemphill.jpg',
-          day_of: new Date ('1938-01-24T13:44:00.000Z'),
+          day_of: new Date ('1938-01-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2009,8 +2009,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://allenlowe.bandcamp.com/album/julius-hemphill-plays-the-music-of-allen-lowe', 'http://conditionwestrecordings.bandcamp.com/album/beyond-benghazi-paul-cram-orchestra-featuring-julius-hemphill' ],
             "a_strings": [ 'Julius Hemphill Plays the music of Allen Lowe by Allen Lowe', 'Beyond Benghazi. Paul Cram Orchestra featuring Julius Hemphill by Condition West Recordings' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 128,
@@ -2018,13 +2018,13 @@ exports.seed = function(knex, Promise) {
           name: 'Herbie Nichols (pianist/composer), born 1919',
           color: '#D2D2D2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/herbienichols.jpg',
-          day_of: new Date ('1919-01-03T13:44:00.000Z'),
+          day_of: new Date ('1919-01-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 129,
@@ -2032,7 +2032,7 @@ exports.seed = function(knex, Promise) {
           name: 'Gerhard Richter (artist), born 1932',
           color: '#9A4249',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/gerhardrichter.jpg',
-          day_of: new Date ('1932-02-09T13:44:00.000Z'),
+          day_of: new Date ('1932-02-09 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -2042,8 +2042,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter', 'Gerhard Richter' ],
             "years": [ '?', '1968', '?', '1969', '?', '1973', '?', '1978', '?', '1982', '1994', '1988', '?', '1965', '?', '1968', '?', '1974', '1992', '1992', '1988', '2000', '1985', '?', '?', '1981', '?', '1987', '?', '1989', '1977', '?', '1972', '?', '1968', '?', '2000', '1992', '1994', '2000', '1992', '?', '1963', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 130,
@@ -2051,7 +2051,7 @@ exports.seed = function(knex, Promise) {
           name: 'Elliott Sharp (composer/guitarist), born 1951',
           color: '#1D1A15',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/elliottsharp.jpg',
-          day_of: new Date ('1951-03-01T13:44:00.000Z'),
+          day_of: new Date ('1951-03-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2061,8 +2061,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://elliottsharp.bandcamp.com/album/the-age-of-carbon', 'http://elliottsharp.bandcamp.com/album/void-coordinates', 'http://elliottsharp.bandcamp.com/album/concert-in-dachau', 'http://newatlantisrecords.bandcamp.com/album/momentum-anomaly', 'http://infrequentseams.bandcamp.com/album/port-bou', 'http://intaktrec.bandcamp.com/album/dyners-club', 'http://caminanterecordings.bandcamp.com/album/tranz', 'http://karlrecords.bandcamp.com/album/oneirika', 'http://infrequentseams.bandcamp.com/album/rub-out-the-word', 'http://newatlantisrecords.bandcamp.com/album/akra-kampoj', 'http://store.championversion.com/album/hair-bender', 'http://intaktrec.bandcamp.com/album/high-noon', 'http://reinholdfriedl.bandcamp.com/album/feuchtify', 'http://borissavoldelli.bandcamp.com/album/protoplasmic' ],
             "a_strings": [ 'The Age of Carbon by Elliott Sharp Carbon', 'Void Coordinates by Elliott Sharp / Carbon', 'Concert in Dachau by Elliott Sharp', 'Momentum Anomaly by Elliott Sharp', 'Port Bou by Elliott Sharp', '&#39;Dyners Club by Elliott Sharp', 'tranz by Elliott Sharp / Merzbow', 'Oneirika by zeitkratzer + ELLIOTT SHARP', 'Rub Out The Word by Steve Buscemi &amp; Elliott Sharp', 'Akra Kampoj by Elliott Sharp + Scott Fields', 'Hair Bender by Gareth Davis x Elliott Sharp', 'High Noon by Christian Marclay, Elliott Sharp', 'Feuchtify by Elliott Sharp &amp; Reinhold Friedl', 'Protoplasmic by Boris Savoldelli &amp; Elliott Sharp' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 131,
@@ -2070,13 +2070,13 @@ exports.seed = function(knex, Promise) {
           name: 'David Tudor (pianist/composer), born 1926',
           color: '#E3C9B2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidtudor.jpg',
-          day_of: new Date ('1926-01-20T13:44:00.000Z'),
+          day_of: new Date ('1926-01-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 132,
@@ -2084,13 +2084,13 @@ exports.seed = function(knex, Promise) {
           name: 'Tom Varner (french horn/composer), born 1957',
           color: '#AA7A69',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/tomvarner.jpg',
-          day_of: new Date ('1957-06-17T13:44:00.000Z'),
+          day_of: new Date ('1957-06-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 133,
@@ -2098,7 +2098,7 @@ exports.seed = function(knex, Promise) {
           name: 'Christian Wolff (composer), born 1934',
           color: '#ACC9E7',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/christianwolff.jpg',
-          day_of: new Date ('1934-03-08T13:44:00.000Z'),
+          day_of: new Date ('1934-03-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2108,8 +2108,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://idischidiangelica.bandcamp.com/album/angelica-music', 'http://beatkeller-rezakhota.bandcamp.com/album/play-11-microexercises-by-christian-wolff' ],
             "a_strings": [ 'Angelica Music by Christian Wolff', 'play 11 Microexercises by Christian Wolff by Beat Keller &amp; Reza Khota' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 134,
@@ -2117,13 +2117,13 @@ exports.seed = function(knex, Promise) {
           name: 'Leoš Janáček (composer), born 1854',
           color: '#A78C49',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/leošjanáček.jpg',
-          day_of: new Date ('1854-07-03T13:44:00.000Z'),
+          day_of: new Date ('1854-07-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 135,
@@ -2131,13 +2131,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ruth Crawford Seeger (composer), born 1901',
           color: '#F6F6F6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ruthcrawfordseeger.jpg',
-          day_of: new Date ('1901-07-03T13:44:00.000Z'),
+          day_of: new Date ('1901-07-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 136,
@@ -2145,7 +2145,7 @@ exports.seed = function(knex, Promise) {
           name: 'Jean Cocteau (artist), born 1889',
           color: '#636363',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/jeancocteau.png',
-          day_of: new Date ('1889-07-05T13:44:00.000Z'),
+          day_of: new Date ('1889-07-05 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -2155,8 +2155,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Jean Cocteau', 'Jean Cocteau', 'Jean Cocteau', 'Jean Cocteau', 'Jean Cocteau', 'Jean Cocteau', 'Jean Cocteau', 'Jean Cocteau', 'Jean Cocteau', 'Jean Cocteau', 'Jean Cocteau' ],
             "years": [ '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 137,
@@ -2164,13 +2164,13 @@ exports.seed = function(knex, Promise) {
           name: 'Satchel Paige (pitcher), born 1906',
           color: '#888888',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/satchelpaige.jpg',
-          day_of: new Date ('1906-07-07T13:44:00.000Z'),
+          day_of: new Date ('1906-07-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 138,
@@ -2178,13 +2178,13 @@ exports.seed = function(knex, Promise) {
           name: 'George Antheil (composer), born 1900',
           color: '#9B9B9B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/georgeantheil.jpg',
-          day_of: new Date ('1900-07-08T13:44:00.000Z'),
+          day_of: new Date ('1900-07-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 139,
@@ -2192,7 +2192,7 @@ exports.seed = function(knex, Promise) {
           name: 'Russ Johnson (trumpet), born 1965',
           color: '#5772E3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/russjohnson.jpg',
-          day_of: new Date ('1965-07-08T13:44:00.000Z'),
+          day_of: new Date ('1965-07-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2202,8 +2202,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://timdaisyrelayrecords.bandcamp.com/album/meeting-point-relay-008', 'http://intaktrec.bandcamp.com/album/in-circles', 'http://ohadtalmor.bandcamp.com/album/13-pieces' ],
             "a_strings": [ 'Meeting Point (relay 008) by The Russ Johnson Quartet', 'In Circles by Co Streiff - Russ Johnson Quartet', '13 Pieces by The Other Quartet (Ohad Talmor, Russ Johnson, Jim Hershman, Mike Sarin)' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 140,
@@ -2211,13 +2211,13 @@ exports.seed = function(knex, Promise) {
           name: 'Oscar Neebe (anarchist/activist), born 1850',
           color: '#838383',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/OscarNeebe.jpg',
-          day_of: new Date ('1850-07-12T13:44:00.000Z'),
+          day_of: new Date ('1850-07-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 141,
@@ -2225,7 +2225,7 @@ exports.seed = function(knex, Promise) {
           name: 'Albert Ayler (saxophonist/composer), born 1936',
           color: '#BC8A81',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/albertayler.jpg',
-          day_of: new Date ('1936-07-13T13:44:00.000Z'),
+          day_of: new Date ('1936-07-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2235,8 +2235,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://albertayler.bandcamp.com/album/albert-ayler-bells-prophecy-expanded-edition-2-disc', 'http://albertayler.bandcamp.com/album/live-on-the-riviera', 'http://albertayler.bandcamp.com/album/slugs-saloon', 'http://albertayler.bandcamp.com/album/the-hilversum-session', 'http://albertayler.bandcamp.com/album/spiritual-unity-and-new-spiritual-unity-50th-anniversary-expanded-edition', 'http://albertayler.bandcamp.com/album/bells', 'http://albertayler.bandcamp.com/album/new-york-eye-ear-control', 'http://albertayler.bandcamp.com/album/prophecy', 'http://albertayler.bandcamp.com/album/spirits-rejoice' ],
             "a_strings": [ 'Albert Ayler: Bells &amp; Prophecy: Expanded Edition (2 Disc) by Albert Ayler', 'Live On The Riviera by Albert Ayler', 'Slugs&#39; Saloon by Albert Ayler', 'The Hilversum Session by Albert Ayler', 'Spiritual Unity AND NEW Spiritual Unity 50th Anniversary Expanded Edition by Albert Ayler', 'Bells by Albert Ayler', 'New York Eye &amp; Ear Control by Albert Ayler', 'Prophecy by Albert Ayler', 'Spirits Rejoice by Albert Ayler' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 142,
@@ -2244,7 +2244,7 @@ exports.seed = function(knex, Promise) {
           name: 'George E. Lewis (trombone/laptop/composer), born 1952',
           color: '#6E8188',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/georgeelewis.jpg',
-          day_of: new Date ('1952-07-14T13:44:00.000Z'),
+          day_of: new Date ('1952-07-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2254,8 +2254,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://mikroton.bandcamp.com/album/creative-construction-set', 'http://newfocusrecordings.bandcamp.com/album/george-lewis-the-will-to-adorn', 'http://intaktrec.bandcamp.com/album/sequel-for-lester-bowie', 'http://jazzheadrecords.bandcamp.com/album/hexis', 'http://iorramrecords.bandcamp.com/album/metamorphic-rock', 'http://muhalrichardabrams.bandcamp.com/album/sounddance-duos-with-fred-anderson-and-george-lewis', 'http://muhalrichardabrams.bandcamp.com/album/streaming' ],
             "a_strings": [ 'Creative Construction Set™ by George Lewis &amp; Splitter Orchester', 'George Lewis: The Will To Adorn by George Lewis, International Contemporary Ensemble, Steven Schick, David Fulmer', 'Sequel (For Lester Bowie) by George Lewis', 'Hexis by The Monash Art Ensemble with George Lewis', 'Metamorphic Rock by Glasgow Improvisers Orchestra &amp; George Lewis', 'SoundDance: Duos with Fred Anderson and George Lewis by Muhal Richard Abrams', 'Streaming by Muhal Richard Abrams / George Lewis / Roscoe Mitchell' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 143,
@@ -2263,13 +2263,13 @@ exports.seed = function(knex, Promise) {
           name: 'Richard Russo (author), born 1949',
           color: '#69521E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/richardrusso.jpg',
-          day_of: new Date ('1949-07-15T13:44:00.000Z'),
+          day_of: new Date ('1949-07-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 144,
@@ -2277,7 +2277,7 @@ exports.seed = function(knex, Promise) {
           name: 'Mark Feldman (violinist), born 1955',
           color: '#AD885F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/markfeldman.jpg',
-          day_of: new Date ('1955-07-17T13:44:00.000Z'),
+          day_of: new Date ('1955-07-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2287,8 +2287,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://intaktrec.bandcamp.com/album/live-at-th-tre-vidy-lausanne', 'http://intaktrec.bandcamp.com/album/birdies-for-lulu', 'http://michaeljefrystevens.bandcamp.com/album/haiku', 'http://danielschnyder.bandcamp.com/album/h-ndel-in-harlem' ],
             "a_strings": [ 'Live at Théâtre Vidy-Lausanne by Sylvie Courvoisier, Mark Feldman', 'Birdies for Lulu by Sylvie Courvoisier Mark Feldman Quartet', 'Haiku by Michael Jefry Stevens/Mark Feldman Duo', 'Händel in Harlem by Daniel Schnyder / Stefan Schulz / Mark Feldman' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 145,
@@ -2296,13 +2296,13 @@ exports.seed = function(knex, Promise) {
           name: 'Vince Guaraldi (pianist), born 1928',
           color: '#9E9E9E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/vinceguaraldi.jpg',
-          day_of: new Date ('1928-07-17T13:44:00.000Z'),
+          day_of: new Date ('1928-07-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 146,
@@ -2310,7 +2310,7 @@ exports.seed = function(knex, Promise) {
           name: 'Matt Mitchell (pianist), born 1975',
           color: '#1A1116',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/mattmitchell.jpg',
-          day_of: new Date ('1975-07-19T13:44:00.000Z'),
+          day_of: new Date ('1975-07-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2320,8 +2320,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://mattmitchell-timberne.bandcamp.com/album/f-rage', 'http://matt-mitchell.bandcamp.com/album/vista-accumulation', 'http://matt-mitchell.bandcamp.com/album/fiction', 'http://scrapplerecords.bandcamp.com/album/vapor-squint-antique-chromatic' ],
             "a_strings": [ 'FØRAGE by Matt Mitchell', 'Vista Accumulation by Matt Mitchell', 'Fiction by Matt Mitchell', 'vapor squint, antique chromatic by Matt Mitchell' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 147,
@@ -2329,13 +2329,13 @@ exports.seed = function(knex, Promise) {
           name: 'Lauren Groff (author), born 1978',
           color: '#96AB4E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/laurengroff.jpg',
-          day_of: new Date ('1978-07-23T13:44:00.000Z'),
+          day_of: new Date ('1978-07-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 148,
@@ -2343,13 +2343,13 @@ exports.seed = function(knex, Promise) {
           name: 'Don Ellis (trumpet/composer), born 1934',
           color: '#E6EAED',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/donellis.jpg',
-          day_of: new Date ('1934-07-25T13:44:00.000Z'),
+          day_of: new Date ('1934-07-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 149,
@@ -2357,13 +2357,13 @@ exports.seed = function(knex, Promise) {
           name: 'Lucy Burns (activist), born 1879',
           color: '#706248',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/lucyburns.jpg',
-          day_of: new Date ('1879-07-28T13:44:00.000Z'),
+          day_of: new Date ('1879-07-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 150,
@@ -2371,7 +2371,7 @@ exports.seed = function(knex, Promise) {
           name: 'Marcel Duchamp (artist), born 1887',
           color: '#525248',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/marcelduchamp.jpg',
-          day_of: new Date ('1887-07-28T13:44:00.000Z'),
+          day_of: new Date ('1887-07-28 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -2381,8 +2381,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Marcel Duchamp', 'Marcel Duchamp', 'Marcel Duchamp', 'Marcel Duchamp', 'Marcel Duchamp', 'Marcel Duchamp', 'Marcel Duchamp', 'Marcel Duchamp', 'Marcel Duchamp', 'Marcel Duchamp' ],
             "years": [ '1911', '1912', '1917', '1943', '1912', '1910', '1911', '1913', '1911', '1911' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 151,
@@ -2390,7 +2390,7 @@ exports.seed = function(knex, Promise) {
           name: 'Annea Lockwood (composer), born 1939',
           color: '#716765',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/annealockwood.jpg',
-          day_of: new Date ('1939-07-29T13:44:00.000Z'),
+          day_of: new Date ('1939-07-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2400,8 +2400,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://audiographics.bandcamp.com/album/7704a-tiger-balm', 'http://audiographics.bandcamp.com/album/7704b-malaman' ],
             "a_strings": [ '7704A - Tiger Balm by Annea Lockwood', '7704B - Malaman by Annea Lockwood' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 152,
@@ -2409,13 +2409,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hank Jones (pianist), born 1918',
           color: '#824007',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/hankjones.jpg',
-          day_of: new Date ('1918-07-31T13:44:00.000Z'),
+          day_of: new Date ('1918-07-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 153,
@@ -2423,13 +2423,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jake Arrieta pitches his second career no-hitter for the Chicago Cubs vs. Cincinnati Reds, 2016',
           color: '#4C549D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/jakearreitanono2.jpg',
-          day_of: new Date ('2016-04-21T13:44:00.000Z'),
+          day_of: new Date ('2016-04-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 154,
@@ -2437,13 +2437,13 @@ exports.seed = function(knex, Promise) {
           name: 'Dracula published, 1897',
           color: '#BB3F42',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/dracula.jpg',
-          day_of: new Date ('1897-05-26T13:44:00.000Z'),
+          day_of: new Date ('1897-05-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 155,
@@ -2451,7 +2451,7 @@ exports.seed = function(knex, Promise) {
           name: 'Max Ernst (artist), born 1891',
           color: '#2C2C2C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/maxernst.jpg',
-          day_of: new Date ('1891-04-02T13:44:00.000Z'),
+          day_of: new Date ('1891-04-02 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -2461,8 +2461,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst', 'Max Ernst' ],
             "years": [ '?', '1920', '1913', '1920', '1913', '1919', '1923', '1924', '1925', '1926', '1934', '1962', '1923', '1973', '1934', '1945', '1958', '1958', '?', '1943' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 156,
@@ -2470,13 +2470,13 @@ exports.seed = function(knex, Promise) {
           name: 'July\'s People by Nadine Gordimer, published in 1981. Banned in South Africa.',
           color: '#EAE4B0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/julyspeople.jpg',
-          day_of: new Date ('1981-06-01T13:44:00.000Z'),
+          day_of: new Date ('1981-06-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 157,
@@ -2484,13 +2484,13 @@ exports.seed = function(knex, Promise) {
           name: 'György Ligeti (composer), born 1923',
           color: '#C7E4EF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/györgyligeti.jpg',
-          day_of: new Date ('1923-05-28T13:44:00.000Z'),
+          day_of: new Date ('1923-05-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 158,
@@ -2498,13 +2498,13 @@ exports.seed = function(knex, Promise) {
           name: 'Diane Nash (civil rights leader), born 1938',
           color: '#E7DAE4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/dianenash.jpg',
-          day_of: new Date ('1938-05-15T13:44:00.000Z'),
+          day_of: new Date ('1938-05-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 159,
@@ -2512,13 +2512,13 @@ exports.seed = function(knex, Promise) {
           name: 'Blaise Pascal (mathematician), born 1623',
           color: '#B88D5F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/blaisepascal.jpg',
-          day_of: new Date ('1623-06-19T13:44:00.000Z'),
+          day_of: new Date ('1623-06-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 160,
@@ -2526,13 +2526,13 @@ exports.seed = function(knex, Promise) {
           name: 'Dominic Thurgood (composer), born 1983',
           color: '#A9A9A9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/dominicthurgood.jpg',
-          day_of: new Date ('1983-03-21T13:44:00.000Z'),
+          day_of: new Date ('1983-03-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 161,
@@ -2540,13 +2540,13 @@ exports.seed = function(knex, Promise) {
           name: 'Cloud Atlas by David Mitchell published in 2004.',
           color: '#D2BC8B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/cloudatlas.jpg',
-          day_of: new Date ('2004-08-01T13:44:00.000Z'),
+          day_of: new Date ('2004-08-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 162,
@@ -2554,7 +2554,7 @@ exports.seed = function(knex, Promise) {
           name: 'Hamid Drake (drummer), born 1955',
           color: '#6A6E89',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/hamiddrake.jpg',
-          day_of: new Date ('1955-08-03T13:44:00.000Z'),
+          day_of: new Date ('1955-08-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2564,8 +2564,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://kiddjordanhamiddrake.bandcamp.com/album/a-night-in-november', 'http://pinkpalace.bandcamp.com/album/for-ed-blackwell', 'http://joemcphee.bandcamp.com/album/emancipation-proclamation-a-real-statement-of-freedom', 'http://eremiterecords.bandcamp.com/album/brothers-together', 'http://ayler-records.bandcamp.com/album/soul-bodies-vol-1', 'http://sluchaj.bandcamp.com/album/full-circle-live-in-d', 'http://frankhamid.bandcamp.com/album/live-in-new-orleans', 'http://mzrecords.bandcamp.com/album/le-chant-des-pierres', 'http://multikultiproject.bandcamp.com/album/seven-lines', 'http://robwagnertrio.bandcamp.com/album/rob-wagner-hamid-drake-nobu-ozaki-trio', 'http://adamrudolph.bandcamp.com/album/spirits', 'http://intaktrec.bandcamp.com/album/willisau-taktlos', 'http://eremiterecords.bandcamp.com/album/never-too-late-but-always-too-early', 'http://junglematwalerianmatthewshipphamiddrake.bandcamp.com/album/live-at-okuden', 'http://ayler-records.bandcamp.com/album/the-last-dances', 'http://downtownmusicgallery.bandcamp.com/album/dmg-the-stone-vol-2', 'http://gustafsson1.bandcamp.com/album/mats-gustafsson-hamid-drake-for-don-cherry' ],
             "a_strings": [ 'A Night in November by Kidd Jordan &amp; Hamid Drake', 'For ED BLACKWELL by Hamid Drake &amp; Michael Zerang', 'Emancipation Proclamation: A Real Statement Of Freedom by Hamid Drake &amp; Joe McPhee', 'Brothers Together by Hamid Drake &amp; Sabir Mateen', 'Soul Bodies, vol.1 by Hamid Drake &amp; Assif Tsahar', 'Full Circle - Live in Łódź by Ned Rothenberg &amp; Hamid Drake', 'Live in New Orleans by Frank Gratkowski &amp; Hamid Drake', 'Le Chant des Pierres by HAMID DRAKE / PHILIPPE CHAMPION', 'Seven Lines by Hera with special guest Hamid Drake', 'Rob Wagner/Hamid Drake/Nobu Ozaki Trio by Rob Wagner Trio', 'Spirits by Pharoah Sanders, Hamid Drake, Adam Rudolph', 'Willisau &amp; Taktlos by Irène Schweizer, Fred Anderson, Hamid Drake', 'Never Too Late But Always Too Early by Peter Brotzmann, Hamid Drake, William Parker', 'Live at Okuden by Jungle: Mat Walerian/Matthew Shipp/Hamid Drake', 'The Last Dances by Anders Gahnold, William Parker &amp; Hamid Drake', 'DMG @ The Stone Vol. 2 by Raoul Bjorkenheim/William Parker/Hamid Drake', 'Mats Gustafsson &amp; Hamid Drake: For Don Cherry by Mats Gustafsson' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 163,
@@ -2573,7 +2573,7 @@ exports.seed = function(knex, Promise) {
           name: 'Roscoe Mitchell (reeds), born 1940',
           color: '#93A4AC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/roscoemitchell.jpg',
-          day_of: new Date ('1940-08-03T13:44:00.000Z'),
+          day_of: new Date ('1940-08-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2583,8 +2583,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://roscoemitchell.bandcamp.com/album/song-for-my-sister', 'http://muhalrichardabrams.bandcamp.com/album/streaming', 'http://adamrudolph.bandcamp.com/album/voice-prints', 'http://idischidiangelica.bandcamp.com/album/nessuno' ],
             "a_strings": [ 'Song For My Sister by Roscoe Mitchell &amp; The Note Factory', 'Streaming by Muhal Richard Abrams / George Lewis / Roscoe Mitchell', 'Voice Prints by Yusef Lateef, Roscoe Mitchell, Adam Rudolph, Douglas R. Ewart', 'Nessuno by Pauline Oliveros + Roscoe Mitchell + John Tilbury + Wadada Leo Smith' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 164,
@@ -2592,13 +2592,13 @@ exports.seed = function(knex, Promise) {
           name: 'Regina Carter (violinist), born 1966',
           color: '#8E1E13',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/reginacarter.jpg',
-          day_of: new Date ('1966-08-06T13:44:00.000Z'),
+          day_of: new Date ('1966-08-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 165,
@@ -2606,7 +2606,7 @@ exports.seed = function(knex, Promise) {
           name: 'Charlie Haden (bassist), born 1937',
           color: '#863926',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/charliehaden.jpg',
-          day_of: new Date ('1937-08-06T13:44:00.000Z'),
+          day_of: new Date ('1937-08-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2616,8 +2616,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://charliehaden.bandcamp.com/album/the-private-collection', 'http://charliehadenantonioforcione.bandcamp.com/album/heartplay' ],
             "a_strings": [ 'The Private Collection by Charlie Haden', 'Heartplay by Charlie Haden &amp; Antonio Forcione' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 166,
@@ -2625,13 +2625,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Pål Inderberg (reeds), born 1950',
           color: '#9B7FEE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johnpålinderberg.jpg',
-          day_of: new Date ('1950-08-06T13:44:00.000Z'),
+          day_of: new Date ('1950-08-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 167,
@@ -2639,13 +2639,13 @@ exports.seed = function(knex, Promise) {
           name: 'Marvin Minsky (mathematician, AI pioneer), born 1927',
           color: '#A2B7C8',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/marvinminsky.jpg',
-          day_of: new Date ('1927-08-09T13:44:00.000Z'),
+          day_of: new Date ('1927-08-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 168,
@@ -2653,7 +2653,7 @@ exports.seed = function(knex, Promise) {
           name: 'James Tenney (composer), born 1934',
           color: '#D9964D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jamestenney.jpg',
-          day_of: new Date ('1934-08-10T13:44:00.000Z'),
+          day_of: new Date ('1934-08-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2663,8 +2663,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://zeitkratzer.bandcamp.com/album/james-tenney-old-school' ],
             "a_strings": [ 'James Tenney [old school] by zeitkratzer' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 169,
@@ -2672,13 +2672,13 @@ exports.seed = function(knex, Promise) {
           name: 'Christie Mathewson (pitcher), born 1880',
           color: '#7C7C7C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/christiemathewson.jpg',
-          day_of: new Date ('1880-08-12T13:44:00.000Z'),
+          day_of: new Date ('1880-08-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 170,
@@ -2686,7 +2686,7 @@ exports.seed = function(knex, Promise) {
           name: 'Charlemagne Palestine (composer), born 1947',
           color: '#D5A254',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/charlemagnepalestine.jpg',
-          day_of: new Date ('1947-08-15T13:44:00.000Z'),
+          day_of: new Date ('1947-08-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2696,8 +2696,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://erratum.bandcamp.com/album/cathedrale-de-strasbourg', 'http://joachimmontessuis.bandcamp.com/album/voxorgachitectronumputer' , 'http://imprec.bandcamp.com/album/ggrrreeebbbaaammmnnnuuu' ],
             "a_strings": [ 'CATHEDRALE DE STRASBOURG by CHARLEMAGNE PALESTINE', 'VOXORGACHITECTRONUMPUTER by CHARLEMAGNE PALESTINE - JOACHIM MONTESSUIS', 'ggrrreeebbbaaammmnnnuuu... by Charlemagne Palestine and the Grumbling Fur Time Machine Orchestra' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 171,
@@ -2705,13 +2705,13 @@ exports.seed = function(knex, Promise) {
           name: 'Bill Evans (pianist), born 1929',
           color: '#414141',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/billevans.jpg',
-          day_of: new Date ('1929-08-16T13:44:00.000Z'),
+          day_of: new Date ('1929-08-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 172,
@@ -2719,7 +2719,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ellery Eskelin (tenor saxophonist), born 1959',
           color: '#626B7C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/elleryeskelin.jpg',
-          day_of: new Date ('1959-08-16T13:44:00.000Z'),
+          day_of: new Date ('1959-08-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2729,8 +2729,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://intaktrec.bandcamp.com/album/sensations-of-tone-24bit-44khz' ],
             "a_strings": [ 'Sensations of Tone (24bit 44khz) by Ellery Eskelin – Christian Weber – Michael Griener' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 173,
@@ -2738,13 +2738,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mal Waldron (pianist), born 1925',
           color: '#81342C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/malwaldron.jpg',
-          day_of: new Date ('1925-08-16T13:44:00.000Z'),
+          day_of: new Date ('1925-08-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 174,
@@ -2752,13 +2752,13 @@ exports.seed = function(knex, Promise) {
           name: 'Animal Farm by George Orwell published in 1945',
           color: '#FB0402',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/animalfarm.jpg',
-          day_of: new Date ('1945-08-17T13:44:00.000Z'),
+          day_of: new Date ('1945-08-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 175,
@@ -2766,7 +2766,7 @@ exports.seed = function(knex, Promise) {
           name: 'Milford Graves (drummer), born 1941',
           color: '#05562D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/milfordgraves.jpg',
-          day_of: new Date ('1941-08-20T13:44:00.000Z'),
+          day_of: new Date ('1941-08-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2776,8 +2776,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://milfordgraves.bandcamp.com/album/percussion-ensemble', 'http://modtechnologies.bandcamp.com/album/the-stone-april-22-2014' ],
             "a_strings": [ 'Percussion Ensemble by Milford Graves', 'The Stone - April 22, 2014 by Milford Graves/Bill Laswell' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 176,
@@ -2785,13 +2785,13 @@ exports.seed = function(knex, Promise) {
           name: 'Peter Apfelbaum (multi-instrumentalist), born 1960',
           color: '#5F6251',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/peterapfelbaum.jpg',
-          day_of: new Date ('1960-08-21T13:44:00.000Z'),
+          day_of: new Date ('1960-08-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 177,
@@ -2799,13 +2799,13 @@ exports.seed = function(knex, Promise) {
           name: 'Art Farmer (trumpet), born 1928',
           color: '#AE5F34',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/artfarmer.jpg',
-          day_of: new Date ('1928-08-21T13:44:00.000Z'),
+          day_of: new Date ('1928-08-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 178,
@@ -2813,7 +2813,7 @@ exports.seed = function(knex, Promise) {
           name: 'Karlheinz Stockhausen (composer), born 1928',
           color: '#182269',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/karlheinzstockhausen.jpg',
-          day_of: new Date ('1928-08-22T13:44:00.000Z'),
+          day_of: new Date ('1928-08-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -2823,8 +2823,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://zeitkratzer.bandcamp.com/album/karlheinz-stockhausen-old-school', 'http://saltlakeelectricensemble.bandcamp.com/album/karlheinz-stockhausens-set-sail-for-the-sun' ],
             "a_strings": [ 'Karlheinz Stockhausen [old school] by zeitkratzer', 'Karlheinz Stockhausen&#39;s Set Sail for the Sun by Salt Lake Electric Ensemble' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 179,
@@ -2832,13 +2832,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ernst Krenek (composer), born 1900',
           color: '#3A3A3A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ernstkrenek.jpeg',
-          day_of: new Date ('1900-08-23T13:44:00.000Z'),
+          day_of: new Date ('1900-08-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 180,
@@ -2846,13 +2846,13 @@ exports.seed = function(knex, Promise) {
           name: 'Betty Dodson (feminist), born 1929',
           color: '#5D321C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/bettydodson.jpg',
-          day_of: new Date ('1929-08-24T13:44:00.000Z'),
+          day_of: new Date ('1929-08-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 182,
@@ -2860,13 +2860,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mazen Kerbaj (trumpet), born 1975',
           color: '#F7A25F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/mazenkerbaj.jpg',
-          day_of: new Date ('1975-08-24T13:44:00.000Z'),
+          day_of: new Date ('1975-08-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 183,
@@ -2874,13 +2874,13 @@ exports.seed = function(knex, Promise) {
           name: 'Barbara Ehrenreich (feminist/activist), born 1941',
           color: '#E93735',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/barbaraehrenreich.jpg',
-          day_of: new Date ('1941-08-26T13:44:00.000Z'),
+          day_of: new Date ('1941-08-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 184,
@@ -2888,13 +2888,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jake Arrieta\'s first career no-hitter in 2015 for the Chicago Cubs vs. Los Angeles Dodgers',
           color: '#293FD0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/jakefirstnohit.jpg',
-          day_of: new Date ('2015-08-30T13:44:00.000Z'),
+          day_of: new Date ('2015-08-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 185,
@@ -2902,13 +2902,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hermann von Helmholtz (mathematician), born 1821',
           color: '#DBE1F4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/hermanvonhelmholtz.jpg',
-          day_of: new Date ('1821-08-31T13:44:00.000Z'),
+          day_of: new Date ('1821-08-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 186,
@@ -2916,13 +2916,13 @@ exports.seed = function(knex, Promise) {
           name: 'Into the River by Ted Dawe published in 2012 - banned in New Zealand',
           color: '#EAE09E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/intotheriver.jpg',
-          day_of: new Date ('2012-08-31T13:44:00.000Z'),
+          day_of: new Date ('2012-08-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 187,
@@ -2930,13 +2930,13 @@ exports.seed = function(knex, Promise) {
           name: 'Gino Lucetti (anarchist), born 1900',
           color: '#D1D1D1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/ginolucetti.jpg',
-          day_of: new Date ('1900-08-31T13:44:00.000Z'),
+          day_of: new Date ('1900-08-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 188,
@@ -2944,13 +2944,13 @@ exports.seed = function(knex, Promise) {
           name: 'Earl Averill (center fielder), born 1902',
           color: '#8E8E8E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/earlaverill.jpg',
-          day_of: new Date ('1902-05-21T13:44:00.000Z'),
+          day_of: new Date ('1902-05-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 189,
@@ -2958,13 +2958,13 @@ exports.seed = function(knex, Promise) {
           name: 'Dallas Braden pitches a perfect game in 2010 for the Oakland Athletics vs. Tampa Bay Rays',
           color: '#6D5A03',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/dallasbradenperfectgame.jpg',
-          day_of: new Date ('2010-05-09T13:44:00.000Z'),
+          day_of: new Date ('2010-05-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 190,
@@ -2972,13 +2972,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended in nuclear war on this day in 1990 according to prophet Elizabeth Clare',
           color: '#39E996',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/elizabethclare.jpg',
-          day_of: new Date ('1990-04-23T13:44:00.000Z'),
+          day_of: new Date ('1990-04-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 191,
@@ -2986,13 +2986,13 @@ exports.seed = function(knex, Promise) {
           name: 'Empire Falls by Richard Russo published on this day in 2001.',
           color: '#CED3CD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/empirefalls.jpg',
-          day_of: new Date ('2001-05-08T13:44:00.000Z'),
+          day_of: new Date ('2001-05-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 192,
@@ -3000,7 +3000,7 @@ exports.seed = function(knex, Promise) {
           name: 'Elsa von Freytag-Loringhoven (artist) born in 1874',
           color: '#BEBEBE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/elsavonfreytagloringhoven.jpg',
-          day_of: new Date ('1874-07-12T13:44:00.000Z'),
+          day_of: new Date ('1874-07-12 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -3010,8 +3010,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Elsa von Freytag-Loringhoven', 'Elsa von Freytag-Loringhoven', 'Elsa von Freytag-Loringhoven', 'Elsa von Freytag-Loringhoven', 'Elsa von Freytag-Loringhoven', 'Elsa von Freytag-Loringhoven', 'Elsa von Freytag-Loringhoven', 'Elsa von Freytag-Loringhoven', 'Elsa von Freytag-Loringhoven' ],
             "years": [ '1917', '1919', '1918', '1924', '1918', '1922', '1926', '1919', '1924' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 193,
@@ -3019,13 +3019,13 @@ exports.seed = function(knex, Promise) {
           name: 'Kenneth Gaburo (composer), born 1926',
           color: '#1F1D4E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/kennethgaburo.jpg',
-          day_of: new Date ('1926-07-05T13:44:00.000Z'),
+          day_of: new Date ('1926-07-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 194,
@@ -3033,13 +3033,13 @@ exports.seed = function(knex, Promise) {
           name: 'David Izenzon (bassist), born 1932',
           color: '#5F6362',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidizenzon.jpg',
-          day_of: new Date ('1932-05-17T13:44:00.000Z'),
+          day_of: new Date ('1932-05-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 195,
@@ -3047,7 +3047,7 @@ exports.seed = function(knex, Promise) {
           name: 'Kidd Jordan (reeds), born 1935',
           color: '#317FA9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/kiddjordan.jpg',
-          day_of: new Date ('1935-05-05T13:44:00.000Z'),
+          day_of: new Date ('1935-05-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3057,8 +3057,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://kiddjordanonfire.bandcamp.com/album/on-fire', 'http://kiddjordanonfire2.bandcamp.com/album/on-fire-vol-2', 'http://kiddjordanhamiddrake.bandcamp.com/album/a-night-in-november', 'http://kiddjordanhamiddrake.bandcamp.com/album/a-night-in-november', 'http://donpaul1.bandcamp.com/album/women-center-earth-sea-and-sky' ],
             "a_strings": [ 'On Fire by Kidd Jordan', 'On Fire Vol. 2 by Kidd Jordan', 'A Night in November by Kidd Jordan &amp; Hamid Drake', 'Women Center Earth, Sea, and Sky by Don Paul, Kidd Jordan, Morikeba Kouyaté,' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 196,
@@ -3066,13 +3066,13 @@ exports.seed = function(knex, Promise) {
           name: 'Killing Mr. Griffin by Lois Duncan published in 1978',
           color: '#47515A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/killingmrgriffin.jpg',
-          day_of: new Date ('1978-04-01T13:44:00.000Z'),
+          day_of: new Date ('1978-04-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 197,
@@ -3080,13 +3080,13 @@ exports.seed = function(knex, Promise) {
           name: 'Booker Little (trumpet), born 1938',
           color: '#28341C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/bookerlittle.jpg',
-          day_of: new Date ('1938-04-02T13:44:00.000Z'),
+          day_of: new Date ('1938-04-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 198,
@@ -3094,13 +3094,13 @@ exports.seed = function(knex, Promise) {
           name: 'Louise Otto-Peters (writer/feminist), born 1819',
           color: '#E7D9BE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/louiseottopeters.jpg',
-          day_of: new Date ('1819-03-26T13:44:00.000Z'),
+          day_of: new Date ('1819-03-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 199,
@@ -3108,7 +3108,7 @@ exports.seed = function(knex, Promise) {
           name: 'Paul Plimley (pianist), born 1953',
           color: '#191F2F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/paulplimley.jpg',
-          day_of: new Date ('1953-03-16T13:44:00.000Z'),
+          day_of: new Date ('1953-03-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3118,8 +3118,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://intaktrec.bandcamp.com/album/hexentrio', 'http://conditionwestrecordings.bandcamp.com/album/swinging-planets-by-the-paul-plimley-trio', 'http://neworchestraworkshop.bandcamp.com/album/new-orchestra-quintet-collected-recordings-1978-79', 'http://conditionwestrecordings.bandcamp.com/album/the-invention-of-language-gerry-gilbert-with-the-paul-plimley-trio', 'http://conditionwestrecordings.bandcamp.com/album/blue-tales-in-time-paul-cram-with-paul-plimley-lisle-ellis-gregg-simpson-karen-oliver-and-ken-newby' ],
             "a_strings": [ 'Hexentrio by Paul Plimley, Barry Guy, Lucas Niggli', 'Swinging Planets by the Paul Plimley Trio by Condition West Recordings', 'New Orchestra Quintet Collected Recordings 1978-&#39;79 by New Orchestra Quintet (Paul Cram, Ralph Eppel, Paul Plimley, Lisle Ellis, Gregg Simpson)', 'The Invention of Language. Gerry Gilbert with the Paul Plimley Trio by Condition West Recordings', 'Blue Tales in Time. Paul Cram (with Paul Plimley, Lisle Ellis, Gregg Simpson, Karen Oliver and Ken Newby by Paul Cram' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 200,
@@ -3127,13 +3127,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jim Rice (outfielder/designated hitter), born 1953',
           color: '#9A4C5A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/jimrice.jpg',
-          day_of: new Date ('1953-03-08T13:44:00.000Z'),
+          day_of: new Date ('1953-03-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 201,
@@ -3141,7 +3141,7 @@ exports.seed = function(knex, Promise) {
           name: 'Cy Twombly (artist), born 1928',
           color: '#93A0A6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/cytwombly.jpg',
-          day_of: new Date ('1928-04-25T13:44:00.000Z'),
+          day_of: new Date ('1928-04-25 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -3151,8 +3151,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Cy Twombly', 'Cy Twombly', 'Cy Twombly', 'Cy Twombly', 'Cy Twombly', 'Cy Twombly', 'Cy Twombly', 'Cy Twombly', 'Cy Twombly', 'Cy Twombly' ],
             "years": [ '1970', '1949', '1955', '1964', '1963', '1951', '1962', '1951', '1993 - 1994', '2009' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 202,
@@ -3160,13 +3160,13 @@ exports.seed = function(knex, Promise) {
           name: 'Claude Vivier (composer), born 1948',
           color: '#C0C2BD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/claudevivier.jpg',
-          day_of: new Date ('1948-04-14T13:44:00.000Z'),
+          day_of: new Date ('1948-04-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 203,
@@ -3174,13 +3174,13 @@ exports.seed = function(knex, Promise) {
           name: 'Claire Vaye Watkins (author), born 1984',
           color: '#E2E2D9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/clairevayewatkins.jpeg',
-          day_of: new Date ('1984-04-09T13:44:00.000Z'),
+          day_of: new Date ('1984-04-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 204,
@@ -3188,13 +3188,13 @@ exports.seed = function(knex, Promise) {
           name: 'Essiet Okon Essiet (bassist), born 1959',
           color: '#B1B1B1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/essietokonessiet.jpg',
-          day_of: new Date ('1959-09-01T13:44:00.000Z'),
+          day_of: new Date ('1959-09-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 205,
@@ -3202,7 +3202,7 @@ exports.seed = function(knex, Promise) {
           name: 'Wayne Horvitz (keys/composer), born 1955',
           color: '#DDA294',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/waynehorvitz.jpg',
-          day_of: new Date ('1955-09-01T13:44:00.000Z'),
+          day_of: new Date ('1955-09-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3212,8 +3212,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://waynehorvitz.bandcamp.com/album/52-weeks-of-downloads','http://waynehorvitz.bandcamp.com/album/some-places-are-forever-afternoon-11-places-for-richard-hugo', 'http://waynehorvitz.bandcamp.com/album/55-music-and-dance-in-concrete', 'http://waynehorvitz.bandcamp.com/album/live-at-the-royal-room', 'http://waynehorvitz.bandcamp.com/album/a-walk-in-the-dark', 'http://waynehorvitz.bandcamp.com/album/mr-man-in-the-moon', 'http://waynehorvitz.bandcamp.com/album/mylab', 'http://waynehorvitz.bandcamp.com/album/otis-spann-other-compositions', 'http://waynehorvitz.bandcamp.com/album/upper-egypt', 'http://waynehorvitz.bandcamp.com/album/brand-spankin-new', 'http://waynehorvitz.bandcamp.com/album/daylight', 'http://waynehorvitz.bandcamp.com/album/monologue', 'http://waynehorvitz.bandcamp.com/album/cold-spell', 'http://waynehorvitz.bandcamp.com/album/miss-ann', 'http://waynehorvitz.bandcamp.com/album/todos-santos', 'http://waynehorvitz.bandcamp.com/album/nine-below-zero', 'http://waynehorvitz.bandcamp.com/album/simple-facts', 'http://waynehorvitz.bandcamp.com/album/no-place-fast', 'http://thewesterliesmusic.bandcamp.com/album/wish-the-children-would-come-on-home-the-music-of-wayne-horvitz' ],
             "a_strings": [ '52 Weeks Of Downloads by Wayne Horvitz', 'Some Places Are Forever Afternoon (11 Places For Richard Hugo) by Wayne Horvitz', '55: Music and Dance in Concrete by Wayne Horvitz', 'Live At The Royal Room by Zony Mash + Horns', 'A Walk In The Dark by Sweeter Than The Day', 'Mr. Man In The Moon by Varmint', 'Mylab by Mylab', 'Otis Spann &amp; Other Compositions by Wayne Horvitz', 'Upper Egypt by Zony Mash', 'Brand Spankin&#39; New by Zony Mash', 'Daylight by Pigpen', 'Monologue by Wayne Horvitz', 'Cold Spell by Zony Mash', 'Miss Ann by Pigpen', 'Todos Santos by Horvitz Morris Previte Trio', 'Nine Below Zero by Horvitz Morris Previte Trio', 'Simple Facts by Wayne Horvitz', 'No Place Fast by Wayne Horvitz', 'Wish The Children Would Come On Home: The Music of Wayne Horvitz by The Westerlies' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 206,
@@ -3221,7 +3221,7 @@ exports.seed = function(knex, Promise) {
           name: 'John Cage (composer), born 1912',
           color: '#444444',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johncage.jpg',
-          day_of: new Date ('1912-09-05T13:44:00.000Z'),
+          day_of: new Date ('1912-09-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3231,8 +3231,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://shop.avantmedia.org/album/cage-unlocked', 'http://shop.avantmedia.org/album/variations-iv', 'http://quatuorbozzini-actuellecd.bandcamp.com/album/john-cage-four', 'http://cristianalvearmontecino.bandcamp.com/album/john-cage-one7', 'http://billsallak.bandcamp.com/album/john-cage-four4', 'http://calebdeupree.bandcamp.com/album/four-3-by-john-cage', 'http://zeitkratzer.bandcamp.com/album/john-cage-old-school-2', 'http://karlrecords.bandcamp.com/album/complete-song-books' ],
             "a_strings": [ 'Cage, Unlocked by John Cage', 'Variations IV by John Cage', 'John Cage: Four by Quatuor Bozzini', 'John Cage: One7 by Cristián Alvear', 'John Cage: Four4 by Bill Sallak', 'Four 3 by John Cage by Caleb Deupree', 'John Cage [old school] by zeitkratzer', 'Complete Song Books by JOHN CAGE, REINHOLD FRIEDL' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 207,
@@ -3240,13 +3240,13 @@ exports.seed = function(knex, Promise) {
           name: 'Martin Odersky (computer scientist), born 1958',
           color: '#5DD9F9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/martinodersky.jpg',
-          day_of: new Date ('1958-09-05T13:44:00.000Z'),
+          day_of: new Date ('1958-09-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 208,
@@ -3254,7 +3254,7 @@ exports.seed = function(knex, Promise) {
           name: 'Grandma Moses (artist), born 1860',
           color: '#ADADAD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/grandmamoses.jpg',
-          day_of: new Date ('1860-09-07T13:44:00.000Z'),
+          day_of: new Date ('1860-09-07 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -3264,8 +3264,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses', 'Grandma Moses' ],
             "years": [ '1944 - 1947', '1955', 'XIX-XX cent.', 'XIX-XX cent.', 'XIX-XX cent.', '1953', '1943', '1945', '1948', '1956', '1960', '1950', '1945', '1951', '1955', '1960', '1943', 'XIX-XX cent.', '1946', '1946', '1944', '1951', '1947', '1940 - 1950', '1950', '1961', '1943', '1947', '1940', '1938', 'XIX-XX cent.', '1940', '1938', '1959', '1943', '1946', '1948', 'XIX-XX cent.' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 209,
@@ -3273,7 +3273,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ward Jackson (artist), born 1928',
           color: '#BDBDBD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/wardjackson.jpg',
-          day_of: new Date ('1928-09-10T13:44:00.000Z'),
+          day_of: new Date ('1928-09-10 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -3283,8 +3283,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Ward Jackson', 'Ward Jackson', 'Ward Jackson', 'Ward Jackson', 'Ward Jackson', 'Ward Jackson', 'Ward Jackson', 'Ward Jackson', 'Ward Jackson', 'Ward Jackson' ],
             "years": [ '1970', '1970', '1963', '1968', '1983', '1972 - 1976', '1990', '1963', '1988', '1981' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 210,
@@ -3292,13 +3292,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1999 according to prophet Philip Berg.',
           color: '#D6CCB1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/philipberg.jpg',
-          day_of: new Date ('1999-09-11T13:44:00.000Z'),
+          day_of: new Date ('1999-09-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 211,
@@ -3306,7 +3306,7 @@ exports.seed = function(knex, Promise) {
           name: 'Robert Indiana (artist), born 1928',
           color: '#03A069',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/robertindiana.jpg',
-          day_of: new Date ('1928-09-13T13:44:00.000Z'),
+          day_of: new Date ('1928-09-13 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -3316,8 +3316,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana', 'Robert Indiana' ],
             "years": [ '1995', '2010', '1982', '1993', '1995', '1964', '2008', '1961', '2001', '1983', '1984', '1996', '1964', '1990', '1977', '1972', '1998', '2011', '1996', '1983' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 212,
@@ -3325,7 +3325,7 @@ exports.seed = function(knex, Promise) {
           name: 'Tom Cora (cello), born 1953',
           color: '#0E3542',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/tomcora.jpg',
-          day_of: new Date ('1953-09-14T13:44:00.000Z'),
+          day_of: new Date ('1953-09-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3335,8 +3335,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://theex.bandcamp.com/album/scrabbling-at-the-lock', 'http://theex.bandcamp.com/album/and-the-weathermen-shrug-their-shoulders', 'http://destination-out.bandcamp.com/album/angel-carver' ],
             "a_strings": [ 'Scrabbling At The Lock by The Ex + Tom Cora', 'And The Weathermen Shrug Their Shoulders by The Ex + Tom Cora', 'Angel Carver by HANS REICHEL &amp; TOM CORA' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 213,
@@ -3344,13 +3344,13 @@ exports.seed = function(knex, Promise) {
           name: 'Joseph Jarman (reeds), born 1937',
           color: '#4C261C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/josephjarman.jpg',
-          day_of: new Date ('1937-09-14T13:44:00.000Z'),
+          day_of: new Date ('1937-09-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 214,
@@ -3358,13 +3358,13 @@ exports.seed = function(knex, Promise) {
           name: 'Henry Brant (composer), born 1913',
           color: '#A0AEBC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/henrybrant.jpg',
-          day_of: new Date ('1913-09-15T13:44:00.000Z'),
+          day_of: new Date ('1913-09-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 215,
@@ -3372,7 +3372,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ned Rothenberg (reeds), born 1956',
           color: '#84979B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/nedrothenberg.jpg',
-          day_of: new Date ('1956-09-15T13:44:00.000Z'),
+          day_of: new Date ('1956-09-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3382,8 +3382,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://nedrothenberg.bandcamp.com/album/the-fell-clutch', 'http://sluchaj.bandcamp.com/album/full-circle-live-in-d', 'http://minmax.bandcamp.com/album/opposites-attract', 'http://innocentrecords.bandcamp.com/album/cafe-915', 'http://innocentrecords.bandcamp.com/album/z-soundtrack' ],
             "a_strings": [ 'The Fell Clutch by Ned Rothenberg, Stomu Takeishi, Tony Buck, David Tronzo', 'Full Circle - Live in Łódź by Ned Rothenberg &amp; Hamid Drake', 'Opposites Attract by Paul Dresher &amp; Ned Rothenberg', 'cafe 9.15 by ALTERED STATES feat Ned Rothenberg', 'Z / soundtrack by Ned Rothenberg &amp; Kazuhisa Uchihashi' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 216,
@@ -3391,13 +3391,13 @@ exports.seed = function(knex, Promise) {
           name: 'Alva Noto (electronic musician), born 1965',
           color: '#EEF593',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/alvanoto.jpg',
-          day_of: new Date ('1965-09-18T13:44:00.000Z'),
+          day_of: new Date ('1965-09-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 217,
@@ -3405,7 +3405,7 @@ exports.seed = function(knex, Promise) {
           name: 'Muhal Richard Abrams (AACM, pianist), born 1930',
           color: '#2C7898',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/muhalrichardabrams.jpg',
-          day_of: new Date ('1930-09-19T13:44:00.000Z'),
+          day_of: new Date ('1930-09-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3415,8 +3415,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://muhalrichardabrams.bandcamp.com/album/sounddance-duos-with-fred-anderson-and-george-lewis', 'http://muhalrichardabrams.bandcamp.com/album/vision-towards-essence', 'http://muhalrichardabrams.bandcamp.com/album/streaming' ],
             "a_strings": [ 'SoundDance: Duos with Fred Anderson and George Lewis by Muhal Richard Abrams', 'Vision Towards Essence by Muhal Richard Abrams', 'Streaming by Muhal Richard Abrams / George Lewis / Roscoe Mitchell' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 218,
@@ -3424,7 +3424,7 @@ exports.seed = function(knex, Promise) {
           name: 'Billy Bang (violinist), born 1947',
           color: '#FEDB7E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/billybang.jpg',
-          day_of: new Date ('1947-09-20T13:44:00.000Z'),
+          day_of: new Date ('1947-09-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3434,8 +3434,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://billlaswell.bandcamp.com/album/outline-no-12' ],
             "a_strings": [ 'Outline No.12 by Billy Bang' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 219,
@@ -3443,13 +3443,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Coltrane (reeds), born 1926',
           color: '#F5F2EC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johncoltrane.jpeg',
-          day_of: new Date ('1926-09-23T13:44:00.000Z'),
+          day_of: new Date ('1926-09-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 220,
@@ -3457,7 +3457,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ingebrigt Håker Flaten (bassist), born 1971',
           color: '#AF4D29',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ingebrigthåkerflaten.jpg',
-          day_of: new Date ('1971-09-23T13:44:00.000Z'),
+          day_of: new Date ('1971-09-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3467,8 +3467,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://ingebrigtflaten.bandcamp.com/album/a-mothers-work-is-never-done', 'http://ingebrigtflaten.bandcamp.com/album/ingebrigt-h-ker-flaten-chicago-sextet-live-at-jazz-em-agosto-lisbon-august-2012', 'http://ingebrigtflaten.bandcamp.com/album/tektite-records-presents-the-young-mothers', 'http://ingebrigtflaten.bandcamp.com/album/moments-form', 'http://ingebrigtflaten.bandcamp.com/album/now-is', 'http://ingebrigtflaten.bandcamp.com/album/live-at-jazzfest-saalfelden-2011', 'http://ingebrigtflaten.bandcamp.com/album/the-cherry-thing', 'http://ingebrigtflaten.bandcamp.com/album/brooklyn-dna', 'http://ingebrigtflaten.bandcamp.com/album/first-duet-live', 'http://ingebrigtflaten.bandcamp.com/album/metal', 'http://ingebrigtflaten.bandcamp.com/album/birds', 'http://ingebrigtflaten.bandcamp.com/album/steel', 'http://ingebrigtflaten.bandcamp.com/album/mono', 'http://ingebrigtflaten.bandcamp.com/album/here-comes-everybody', 'http://ingebrigtflaten.bandcamp.com/album/ibsens-ghosts', 'http://ingebrigtflaten.bandcamp.com/album/liarbird', 'http://ingebrigtflaten.bandcamp.com/album/made-in-norway' ],
             "a_strings": [ 'a mothers work is never done by The Young Mothers', 'Ingebrigt Håker Flaten Chicago Sextet live at Jazz Em Agosto, Lisbon, August 2012 by Ingebrigt Håker Flaten Chicago Sextet', 'Tektite Records presents The Young Mothers by Plutonium Farmers/Milkwork/Bully Loveset/Orgullo Primitivo/Free Radicals/The Thing/The Young Mothers', 'Moments Form by Williams/Håker Flaten/Daisy', 'Now Is by Ingebrigt Håker Flaten New York Quartet', 'Live At Jazzfest Saalfelden 2011 by Ingebrigt Håker Flaten Chicago Sextet', 'The Cherry Thing by The Cherry Thing', 'Brooklyn DNA by Joe McPhee &amp; Ingebrigt Håker Flaten', 'First Duet Live by Remi Alvarez &amp; Ingebrigt Håker Flaten', 'Metal by The Thing with Barry Guy', 'BIRDS by Ingebrigt Håker Flaten', 'STEEL by Ingebrigt Håker Flaten', 'MONO by The Thing', 'Here Comes Everybody by Atomic', 'Ibsen&#39;s Ghosts by Ibsen&#39;s Ghosts', 'Liarbird by Liarbird', 'Made In Norway by Scorch Trio with Mars Williams' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 221,
@@ -3476,13 +3476,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Carter (clarinet), born 1929',
           color: '#C7C7C7',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johncarter.jpg',
-          day_of: new Date ('1929-09-24T13:44:00.000Z'),
+          day_of: new Date ('1929-09-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 222,
@@ -3490,13 +3490,13 @@ exports.seed = function(knex, Promise) {
           name: 'F Scott Fitzgerald (author), born 1896',
           color: '#9C9C9C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/fscottfitzgerald.jpg',
-          day_of: new Date ('1896-09-24T13:44:00.000Z'),
+          day_of: new Date ('1896-09-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 223,
@@ -3504,13 +3504,13 @@ exports.seed = function(knex, Promise) {
           name: 'bell hooks (author/feminist/activist), born 1952',
           color: '#A42C1E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/bellhooks.jpg',
-          day_of: new Date ('1952-09-25T13:44:00.000Z'),
+          day_of: new Date ('1952-09-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 224,
@@ -3518,7 +3518,7 @@ exports.seed = function(knex, Promise) {
           name: 'Mark Dresser (bassist), born 1952',
           color: '#0047A1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/markdresser.jpg',
-          day_of: new Date ('1952-09-26T13:44:00.000Z'),
+          day_of: new Date ('1952-09-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3528,8 +3528,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://jenshyu-pi.bandcamp.com/album/synastry' ],
             "a_strings": [ 'Synastry by Jen Shyu and Mark Dresser' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 225,
@@ -3537,7 +3537,7 @@ exports.seed = function(knex, Promise) {
           name: 'John Gilmore (reeds), born 1931',
           color: '#EE7F8D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johngilmore.jpg',
-          day_of: new Date ('1931-09-28T13:44:00.000Z'),
+          day_of: new Date ('1931-09-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3547,8 +3547,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sunramusic.bandcamp.com/album/other-voices-other-blues', 'http://sunramusic.bandcamp.com/album/new-steps' ],
             "a_strings": [ 'Other Voices, Other Blues by Sun Ra Quartet ft. John Gilmore', 'New Steps by Sun Ra Quartet ft. John Gilmore' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 226,
@@ -3556,7 +3556,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ay-O (artist), born in 1931',
           color: '#F7BA7C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/ayo.jpg',
-          day_of: new Date ('1931-05-19T13:44:00.000Z'),
+          day_of: new Date ('1931-05-19 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -3566,8 +3566,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O', 'Ay-O' ],
             "years": [ '1964', '1970', '1976', '1987', '1965', '1974','1987', '1965', '1970', '1981', '2011', '1966', '1971', '1984', '2007' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 227,
@@ -3575,13 +3575,13 @@ exports.seed = function(knex, Promise) {
           name: 'Yogi Berra (catcher), born 1925',
           color: '#E6E4E9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/yogiberra.jpg',
-          day_of: new Date ('1925-05-12T13:44:00.000Z'),
+          day_of: new Date ('1925-05-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 228,
@@ -3589,13 +3589,13 @@ exports.seed = function(knex, Promise) {
           name: 'Matt Cain pitched a perfect game in 2012 for the San Francisco Giants vs. Houston Astros',
           color: '#6C4026',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/mattcainperfectgame.jpg',
-          day_of: new Date ('2012-06-13T13:44:00.000Z'),
+          day_of: new Date ('2012-06-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 229,
@@ -3603,13 +3603,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1962 due to planetary alignment according to the prophecy of Jean Dixon',
           color: '#565656',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/jeandixon.jpg',
-          day_of: new Date ('1962-02-04T13:44:00.000Z'),
+          day_of: new Date ('1962-02-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 230,
@@ -3617,13 +3617,13 @@ exports.seed = function(knex, Promise) {
           name: 'Fates and Furies by Lauren Groff published in 2015',
           color: '#BDEAF4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/fatesandfuries.jpg',
-          day_of: new Date ('2015-09-15T13:44:00.000Z'),
+          day_of: new Date ('2015-09-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 231,
@@ -3631,7 +3631,7 @@ exports.seed = function(knex, Promise) {
           name: 'George Grosz (artist), born 1893',
           color: '#CECECE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/georgegrosz.jpg',
-          day_of: new Date ('1893-07-26T13:44:00.000Z'),
+          day_of: new Date ('1893-07-26 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -3641,8 +3641,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz', 'George Grosz' ],
             "years": [ '1922', '1922', '1922', '1921', '1920', '1920', '1920', '1920', '1919', '1917 - 1919', '1919', '1919', '1919', '1918', '1917 - 1918', '1918', '1917', '1916 - 1917', '1916', '1916' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 232,
@@ -3650,13 +3650,13 @@ exports.seed = function(knex, Promise) {
           name: 'Rahsaan Roland Kirk (reeds), born 1935',
           color: '#590C12',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/rahsaanrolandkirk.jpg',
-          day_of: new Date ('1935-08-07T13:44:00.000Z'),
+          day_of: new Date ('1935-08-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 233,
@@ -3664,13 +3664,13 @@ exports.seed = function(knex, Promise) {
           name: 'The Lottery by Shirley Jackson, published in 1948. Banned in South Africa during apartheid.',
           color: '#0F4A76',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/thelottery.JPG',
-          day_of: new Date ('1948-06-26T13:44:00.000Z'),
+          day_of: new Date ('1948-06-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 234,
@@ -3678,7 +3678,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ron Miles (trumpet), born 1963',
           color: '#AD8736',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ronmiles.jpg',
-          day_of: new Date ('1963-05-09T13:44:00.000Z'),
+          day_of: new Date ('1963-05-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3688,8 +3688,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://tanksounds.bandcamp.com/album/bardo-tank', 'http://3ology.bandcamp.com/album/3ology-with-ron-miles', 'http://bangsnap.bandcamp.com/album/live-at-the-mercury-cafe-06-08-08' ],
             "a_strings": [ 'BARDO TANK by Ron Miles', '3ology with Ron Miles by 3ology', 'Live at The Mercury Cafe - 06 08 08 by Todd Ayers with Ron Miles' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 235,
@@ -3697,7 +3697,7 @@ exports.seed = function(knex, Promise) {
           name: 'Maggie Nichols (vocalist/dancer), born 1948',
           color: '#5883BB',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/maggienichols.jpg',
-          day_of: new Date ('1948-02-24T13:44:00.000Z'),
+          day_of: new Date ('1948-02-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3707,8 +3707,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/sweet-and-sours', 'http://stevemoyes.bandcamp.com/album/3rd-july-2003' ],
             "a_strings": [ 'Sweet and S&#39;Ours by MAGGIE NICOLS | JULIE TIPPETTS', '3rd July 2003 by Maggie Nicols and Steve Moyes' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 236,
@@ -3716,7 +3716,7 @@ exports.seed = function(knex, Promise) {
           name: 'Yoshihide Otomo (composer), born 1959',
           color: '#FFD528',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/yoshihideotomo.jpg',
-          day_of: new Date ('1959-08-01T13:44:00.000Z'),
+          day_of: new Date ('1959-08-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3726,8 +3726,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://f-a-t-a-k-a.bandcamp.com/album/the-last-train', 'http://thingjazz.bandcamp.com/album/shinjuku-crawl', 'http://marhaug.bandcamp.com/album/super-single-2013', 'http://rectangle-records.bandcamp.com/album/re-cycling-rectangle', 'http://paalnilssen-love.bandcamp.com/album/otomo-yoshihide-paal-nilssen-love', 'http://alcohol.bandcamp.com/album/turntable-solo', 'http://noiseasia.bandcamp.com/album/music-for-danceart-hong-kongs-memory-disorder', 'http://gustafsson1.bandcamp.com/album/with-records', 'http://muteantsoundsnetlabel.bandcamp.com/album/kenny-millions-otomo-yoshihide-moscow-live-fuck-you', 'http://451b.bandcamp.com/album/1-cd-revised-track-of-yoshihide-otomo-sachiko-ms-filament-4-speakers-name-your-price' ],
             "a_strings": [ 'The last train by Roger Turner &amp; Otomo Yoshihide', 'Shinjuku Crawl by The Thing with Otomo Yoshihide', 'Super Single (2013) by Lasse Marhaug / Otomo Yoshihide', 're/cycling rectangle by Otomo Yoshihide', 'Otomo Yoshihide &amp; Paal Nilssen-Love by Otomo Yoshihide &amp; Paal Nilssen-Love', 'Turntable Solo by Otomo Yoshihide', 'music for DanceArt Hong Kong&#39;s &quot;Memory Disorder&quot; by Otomo Yoshihide', 'With Records by Otomo Yoshihide / Ozeki Mikito / Mats Gustafsson', 'Kenny Millions &amp; Otomo Yoshihide - &quot;Moscow Live, Fuck You&quot; by Muteant Sounds (net label)', '1 CD (Revised Track of Yoshihide Otomo &amp; Sachiko M&#39;s &quot;Filament - 4 Speakers&quot;) [name your price] by Unfamiliar Wind' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 237,
@@ -3735,13 +3735,13 @@ exports.seed = function(knex, Promise) {
           name: 'Alice Paul (suffragist/feminist/activist), born 1885',
           color: '#CDCDCD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/alicepaul.jpg',
-          day_of: new Date ('1885-01-11T13:44:00.000Z'),
+          day_of: new Date ('1885-01-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 238,
@@ -3749,13 +3749,13 @@ exports.seed = function(knex, Promise) {
           name: 'Dennis Ritchie (computer scientist), born 1941',
           color: '#8A7B78',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/dennisritchie.jpg',
-          day_of: new Date ('1941-09-09T13:44:00.000Z'),
+          day_of: new Date ('1941-09-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 239,
@@ -3763,13 +3763,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ron Santo (third baseman), born 1940',
           color: '#E2E3E5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/ronsanto.jpg',
-          day_of: new Date ('1940-02-25T13:44:00.000Z'),
+          day_of: new Date ('1940-02-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 240,
@@ -3777,13 +3777,13 @@ exports.seed = function(knex, Promise) {
           name: 'Carlo Tresca (anarchist), born 1879',
           color: '#CFCFCF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/carlotresca.jpg',
-          day_of: new Date ('1879-03-09T13:44:00.000Z'),
+          day_of: new Date ('1879-03-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 241,
@@ -3791,7 +3791,7 @@ exports.seed = function(knex, Promise) {
           name: 'Cuong Vu (trumpet), born 1969',
           color: '#415B21',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/cuongvu.jpg',
-          day_of: new Date ('1969-09-19T13:44:00.000Z'),
+          day_of: new Date ('1969-09-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3801,8 +3801,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://music.cuongvu.com/album/leaps-of-faith', 'http://music.cuongvu.com/album/vu-tet', 'http://music.cuongvu.com/album/its-mostly-residual', 'http://music.cuongvu.com/album/this-this-and-that', 'http://elgallorojorecords.bandcamp.com/album/gagarin', 'http://9thandlincoln.bandcamp.com/album/static-line' ],
             "a_strings": [ 'Leaps of Faith by Cuong Vu 4-tet', 'Vu-Tet by Cuong Vu', 'It&#39;s Mostly Residual by Cuong Vu', 'This, This, and That by Cuong Vu', 'Gagarin! by Mickey Finn + Cuong Vu', 'Static Line by Tyler Gilmore&#39;s Ninth and Lincoln with Cuong Vu' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 242,
@@ -3810,13 +3810,13 @@ exports.seed = function(knex, Promise) {
           name: 'Lester Young (reeds), born 1909',
           color: '#5B5B5B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/lseteryoung.png',
-          day_of: new Date ('1909-08-27T13:44:00.000Z'),
+          day_of: new Date ('1909-08-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 243,
@@ -3824,13 +3824,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Zorn (composer/reeds), born 1953',
           color: '#F28872',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johnzorn.jpg',
-          day_of: new Date ('1953-09-02T13:44:00.000Z'),
+          day_of: new Date ('1953-09-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 244,
@@ -3838,13 +3838,13 @@ exports.seed = function(knex, Promise) {
           name: 'Burger\'s Daughter by Nadine Gordimer published in 1979 - banned in South Africa under apartheid.',
           color: '#89B2AE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/burgersdaughter.jpg',
-          day_of: new Date ('1979-10-01T13:44:00.000Z'),
+          day_of: new Date ('1979-10-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 245,
@@ -3852,13 +3852,13 @@ exports.seed = function(knex, Promise) {
           name: 'The Drowning of Stephan Jones by Bette Greene published in 1991',
           color: '#596B8A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/thedrowningofstephanjones.jpg',
-          day_of: new Date ('1991-10-01T13:44:00.000Z'),
+          day_of: new Date ('1991-10-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 246,
@@ -3866,7 +3866,7 @@ exports.seed = function(knex, Promise) {
           name: 'Phill Niblock (composer), born 1933',
           color: '#717A9B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/phillniblock.jpg',
-          day_of: new Date ('1933-10-02T13:44:00.000Z'),
+          day_of: new Date ('1933-10-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3876,8 +3876,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://phillniblock.bandcamp.com/album/touch-five', 'http://phillniblock.bandcamp.com/album/touch-works-for-hurdy-gurdy-and-voice' ],
             "a_strings": [ 'Touch Five by Phill Niblock', 'Touch Works, for Hurdy Gurdy and Voice by Phill Niblock' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 247,
@@ -3885,13 +3885,13 @@ exports.seed = function(knex, Promise) {
           name: 'Louis Aragon (poet), born 1897',
           color: '#B2B1AF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/louisaragon.jpg',
-          day_of: new Date ('1897-10-03T13:44:00.000Z'),
+          day_of: new Date ('1897-10-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 248,
@@ -3899,7 +3899,7 @@ exports.seed = function(knex, Promise) {
           name: 'Satoko Fujii (pianist), born 1958',
           color: '#FDFDFC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/satokofujii.jpg',
-          day_of: new Date ('1958-10-09T13:44:00.000Z'),
+          day_of: new Date ('1958-10-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3909,8 +3909,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://longsongrecords.bandcamp.com/album/duet', 'http://rovasaxophonequartet.bandcamp.com/album/an-alligator-in-your-wallet' ],
             "a_strings": [ 'DUET by Satoko Fujii, Joe Fonda', 'An Alligator in Your Wallet by Rova Sax Quartet + Satoko Fujii + Orkestrova' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 249,
@@ -3918,7 +3918,7 @@ exports.seed = function(knex, Promise) {
           name: 'Abdullah Ibrahim (pianist), born 1934',
           color: '#44556F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/abdullahibrahim.jpg',
-          day_of: new Date ('1934-10-09T13:44:00.000Z'),
+          day_of: new Date ('1934-10-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -3928,8 +3928,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sunnysidezone.com/album/mukashi-once-upon-a-time', 'http://mellowyellowlive.bandcamp.com/album/dollar-brand-abdullah-ibrahim-with-don-cherry-carlos-ward-in-berlin-1972' ],
             "a_strings": [ 'Mukashi - Once Upon A Time by Abdullah Ibrahim', 'DOLLAR BRAND (Abdullah Ibrahim) with Don Cherry, Carlos Ward  in Berlin 1972 by DOLLAR BRAND (Abdullah Ibrahim)' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 250,
@@ -3937,13 +3937,13 @@ exports.seed = function(knex, Promise) {
           name: 'Thelonious Monk (pianist), born 1917',
           color: '#B4A393',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/theloniousmonk.jpg',
-          day_of: new Date ('1917-10-10T13:44:00.000Z'),
+          day_of: new Date ('1917-10-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 251,
@@ -3951,13 +3951,13 @@ exports.seed = function(knex, Promise) {
           name: 'Lester Bowie (trumpet), born 1941',
           color: '#7D3433',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/lesterbowie.jpeg',
-          day_of: new Date ('1941-10-11T13:44:00.000Z'),
+          day_of: new Date ('1941-10-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 252,
@@ -3965,13 +3965,13 @@ exports.seed = function(knex, Promise) {
           name: 'Billy Higgins (drums), born 1936',
           color: '#E1BC84',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/billyhiggins.jpg',
-          day_of: new Date ('1936-10-11T13:44:00.000Z'),
+          day_of: new Date ('1936-10-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 253,
@@ -3979,13 +3979,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ray Brown (bassist), born 1926',
           color: '#87342E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/raybrown.jpg',
-          day_of: new Date ('1926-10-13T13:44:00.000Z'),
+          day_of: new Date ('1926-10-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 254,
@@ -3993,7 +3993,7 @@ exports.seed = function(knex, Promise) {
           name: 'Lee Konitz (reeds), born 1927',
           color: '#653C04',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/leekonitz.jpg',
-          day_of: new Date ('1927-10-13T13:44:00.000Z'),
+          day_of: new Date ('1927-10-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4003,8 +4003,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sunnysidezone.com/album/dovetail', 'http://danielschnyder.bandcamp.com/album/strings-for-holiday', 'http://sunnysidezone.com/album/duos-with-lee', 'http://ohadtalmor.bandcamp.com/album/new-nonet', 'http://whirlwindrecordings.bandcamp.com/album/live-in-london-volume-1', 'http://ohadtalmor.bandcamp.com/album/inventions' ],
             "a_strings": [ 'Dovetail by Lee Konitz', 'Strings for Holiday by Lee Konitz', 'Duos With Lee by Dan Tepfer &amp; Lee Konitz', 'New Nonet by Lee Konitz Nonet directed by Ohad Talmor', 'Live In London (Volume 1) by First Meeting - Lee Konitz, Dan Tepfer, Michael Janisch, Jeff Williams', 'Inventions by Lee Konitz-Ohad Talmor String Project featuring Spring String Quartet' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 255,
@@ -4012,7 +4012,7 @@ exports.seed = function(knex, Promise) {
           name: 'La Monte Young (composer), born 1935',
           color: '#C59B4F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/lamonteyoung.jpg',
-          day_of: new Date ('1935-10-14T13:44:00.000Z'),
+          day_of: new Date ('1935-10-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4022,8 +4022,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://theneverarriving.bandcamp.com/album/composition-1960-7' ],
             "a_strings": [ 'Composition 1960 #7 by The Never Arriving and La Monte Young' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 256,
@@ -4031,13 +4031,13 @@ exports.seed = function(knex, Promise) {
           name: 'Fela Kuti (saxophonist/vocalist/activist/composer), born 1938',
           color: '#8A3228',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/felakuti.png',
-          day_of: new Date ('1938-10-15T13:44:00.000Z'),
+          day_of: new Date ('1938-10-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 257,
@@ -4045,7 +4045,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ray Anderson (trombone), born 1952',
           color: '#804012',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/rayanderson.jpg',
-          day_of: new Date ('1952-10-16T13:44:00.000Z'),
+          day_of: new Date ('1952-10-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4055,8 +4055,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://bassdrumbone.bandcamp.com/album/the-long-road' ],
             "a_strings": [ 'The Long Road by BassDrumBone' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 258,
@@ -4064,13 +4064,13 @@ exports.seed = function(knex, Promise) {
           name: 'David Behrman (composer), born 1937',
           color: '#24528D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidbehrman.jpg',
-          day_of: new Date ('1937-08-16T13:44:00.000Z'),
+          day_of: new Date ('1937-08-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 259,
@@ -4078,13 +4078,13 @@ exports.seed = function(knex, Promise) {
           name: 'Buck Ewing (catcher), born 1859',
           color: '#A3A3A3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/buckewing.jpg',
-          day_of: new Date ('1859-10-17T13:44:00.000Z'),
+          day_of: new Date ('1859-10-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 260,
@@ -4092,13 +4092,13 @@ exports.seed = function(knex, Promise) {
           name: 'Kazutoki Umezu (saxophonist), born 1949',
           color: '#73870A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/kazutokiumezu.jpg',
-          day_of: new Date ('1949-10-17T13:44:00.000Z'),
+          day_of: new Date ('1949-10-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 261,
@@ -4106,7 +4106,7 @@ exports.seed = function(knex, Promise) {
           name: 'Charles Ives (composer), born 1874',
           color: '#898989',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/charlesives.jpg',
-          day_of: new Date ('1874-10-20T13:44:00.000Z'),
+          day_of: new Date ('1874-10-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4116,8 +4116,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://handaxe.bandcamp.com/album/charles-ives-federico-mompou', 'http://prawnshocker.bandcamp.com/album/charles-ives-orchestral-set-no-2' ],
             "a_strings": [ 'Charles Ives / Federico Mompou by Peter Geisselbrecht', 'Charles Ives - Orchestral Set no. 2 by Prawnshocker' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 262,
@@ -4125,13 +4125,13 @@ exports.seed = function(knex, Promise) {
           name: 'Dizzy Gillespie (trumpet), born 1917',
           color: '#321213',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/dizzygillespie.jpg',
-          day_of: new Date ('1917-10-21T13:44:00.000Z'),
+          day_of: new Date ('1917-10-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 263,
@@ -4139,13 +4139,13 @@ exports.seed = function(knex, Promise) {
           name: 'Marc Johnson (bassist), born 1953',
           color: '#CDC1B0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/marcjohnson.jpg',
-          day_of: new Date ('1953-10-21T13:44:00.000Z'),
+          day_of: new Date ('1953-10-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 264,
@@ -4153,13 +4153,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ursula K. Le Guin (author), born 1929',
           color: '#9C420E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/ursulakleguin.jpg',
-          day_of: new Date ('1929-10-21T13:44:00.000Z'),
+          day_of: new Date ('1929-10-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 265,
@@ -4167,13 +4167,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jimmie Foxx (first baseman), born 1907',
           color: '#A29DA3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/jimmiefoxx.jpg',
-          day_of: new Date ('1907-10-22T13:44:00.000Z'),
+          day_of: new Date ('1907-10-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 266,
@@ -4181,13 +4181,13 @@ exports.seed = function(knex, Promise) {
           name: 'Elizabeth Hay (author), born 1951',
           color: '#D1E376',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/elizabethhay.jpg',
-          day_of: new Date ('1951-10-22T13:44:00.000Z'),
+          day_of: new Date ('1951-10-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 267,
@@ -4195,13 +4195,13 @@ exports.seed = function(knex, Promise) {
           name: 'Otto Rühle (activist), born 1874',
           color: '#BBBBB9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/ottorühle.jpg',
-          day_of: new Date ('1874-10-23T13:44:00.000Z'),
+          day_of: new Date ('1874-10-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 268,
@@ -4209,13 +4209,13 @@ exports.seed = function(knex, Promise) {
           name: 'Anthony Cox (film producer), born 1954',
           color: '#D9D9D9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/anthonycox.jpg',
-          day_of: new Date ('1954-10-24T13:44:00.000Z'),
+          day_of: new Date ('1954-10-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 269,
@@ -4223,7 +4223,7 @@ exports.seed = function(knex, Promise) {
           name: 'Pablo Picasso (artist), born 1881',
           color: '#EBA438',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/pablopicasso.jpg',
-          day_of: new Date ('1881-10-25T13:44:00.000Z'),
+          day_of: new Date ('1881-10-25 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -4233,8 +4233,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso', 'Pablo Picasso' ],
             "years": [ '1890', '1900', '1900', '1901', '1901', '1901', '1903', '1906', '1907', '1907', '1908', '1908', '1909', '1911', '1907', '1919', '1919', '1911', '1913', '1919', '1920', '1922', '1920', '1920', '1925', '1922', '1932', '1932', '1937', '1945', '1946', '1954', '1951', '1959', '1963', '1957', '1951', '1971', '1937', '1910' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 270,
@@ -4242,7 +4242,7 @@ exports.seed = function(knex, Promise) {
           name: 'Vijay Iyer (pianist), born 1971',
           color: '#546B73',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/vijayiyer.jpg',
-          day_of: new Date ('1971-10-26T13:44:00.000Z'),
+          day_of: new Date ('1971-10-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4252,8 +4252,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://vijayiyer.bandcamp.com/album/holding-it-down-the-veterans-dreams-project', 'http://vijayiyer.bandcamp.com/album/in-what-language', 'http://sunnysidezone.com/album/tragicomic', 'http://intaktrec.bandcamp.com/album/wiring-24bit-88khz' ],
             "a_strings": [ 'Holding It Down: The Veterans&#39; Dreams Project by Vijay Iyer &amp; Mike Ladd', 'In What Language? by Vijay Iyer &amp; Mike Ladd', 'Tragicomic by Vijay Iyer', 'Wiring (24bit 88khz) by Trio3: Oliver Lake, Reggie Workman, Andrew Cyrille with Vijay Iyer' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 271,
@@ -4261,13 +4261,13 @@ exports.seed = function(knex, Promise) {
           name: 'Katherine Johnson (mathematician), born 1918',
           color: '#949396',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/katherinejohnson.png',
-          day_of: new Date ('1918-08-26T13:44:00.000Z'),
+          day_of: new Date ('1918-08-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 272,
@@ -4275,7 +4275,7 @@ exports.seed = function(knex, Promise) {
           name: 'Roy Lichtenstein (artist), born 1923',
           color: '#C5C5C5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/roylichtenstein.jpg',
-          day_of: new Date ('1923-10-27T13:44:00.000Z'),
+          day_of: new Date ('1923-10-27 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -4285,8 +4285,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein', 'Roy Lichtenstein' ],
             "years": [ '1962', '1962', '1962', '1962', '1963', '1963', '1964', '1964', '1965', '1965', '1969', '1973', '1982', '1972', '?', '1961', '1964', '1963', '1978', '1966' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 273,
@@ -4294,13 +4294,13 @@ exports.seed = function(knex, Promise) {
           name: 'Conlon Nancarrow (composer), born 1912',
           color: '#9FA881',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/conlonnancarrow.jpg',
-          day_of: new Date ('1912-10-27T13:44:00.000Z'),
+          day_of: new Date ('1912-10-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 274,
@@ -4308,13 +4308,13 @@ exports.seed = function(knex, Promise) {
           name: 'Luisa Capetillo (anarchist/writer), born 1879',
           color: '#E3B8BF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/luisacapetillo.jpg',
-          day_of: new Date ('1879-10-28T13:44:00.000Z'),
+          day_of: new Date ('1879-10-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 275,
@@ -4322,7 +4322,7 @@ exports.seed = function(knex, Promise) {
           name: 'Mats Gustafsson (saxophonist), born 1964',
           color: '#9F48B2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/matsgustafsson.png',
-          day_of: new Date ('1964-10-29T13:44:00.000Z'),
+          day_of: new Date ('1964-10-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4332,8 +4332,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://gustafsson1.bandcamp.com/album/immediate-sound', 'http://gustafsson1.bandcamp.com/album/original-silence-the-second-original-silence', 'http://gustafsson1.bandcamp.com/album/peter-evans-agust-fern-ndez-mats-gustafsson-kopros-lithos', 'http://gustafsson1.bandcamp.com/album/ich-bin-n-ntendo-mats-gustafsson', 'http://gustafsson1.bandcamp.com/album/slide', 'http://gustafsson1.bandcamp.com/album/parrot-fish-eye', 'http://gustafsson1.bandcamp.com/album/action-jazz', 'http://gustafsson1.bandcamp.com/album/mouth-eating-trees-and-related-activities', 'http://gustafsson1.bandcamp.com/album/i-see-you-baby-shakin-that-ass', 'http://gustafsson1.bandcamp.com/album/sounds-like-a-sandwich', 'http://gustafsson1.bandcamp.com/album/mats-gustafsson-hamid-drake-for-don-cherry', 'http://gustafsson1.bandcamp.com/album/zu-mats-gustafsson-how-to-raise-an-ox', 'http://gustafsson1.bandcamp.com/album/vario-34', 'http://gustafsson1.bandcamp.com/album/sonic-youth-med-mats-gustafsson-og-merzbow' ],
             "a_strings": [ 'Immediate Sound by Mats Gustafsson', 'Original Silence: The Second Original Silence by Mats Gustafsson', 'Peter Evans, Agustí Fernández &amp; Mats Gustafsson: Kopros Lithos by Mats Gustafsson', 'Ich Bin N!ntendo &amp; Mats Gustafsson by Mats Gustafsson', 'Slide by Mats Gustafsson', 'Parrot Fish Eye by Mats Gustafsson', 'Action Jazz by Mats Gustafsson', 'Mouth Eating Trees and Related Activities by Mats Gustafsson', 'I See You Baby Shakin&#39; That Ass by Mats Gustafsson', 'Sounds Like a Sandwich by Mats Gustafsson', 'Mats Gustafsson &amp; Hamid Drake: For Don Cherry by Mats Gustafsson', 'Zu &amp; Mats Gustafsson: How to Raise an Ox by Mats Gustafsson', 'Vario-34 by Mats Gustafsson', 'Sonic Youth Med Mats Gustafsson Og Merzbow by Mats Gustafsson' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 276,
@@ -4341,13 +4341,13 @@ exports.seed = function(knex, Promise) {
           name: 'Neal Stephenson (author), born 1959',
           color: '#DBD3BE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/nealstephenson.jpg',
-          day_of: new Date ('1959-10-31T13:44:00.000Z'),
+          day_of: new Date ('1959-10-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 277,
@@ -4355,13 +4355,13 @@ exports.seed = function(knex, Promise) {
           name: 'Joanne Brackeen (pianist), born 1938',
           color: '#CA7F94',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/joannebrackeen.jpg',
-          day_of: new Date ('1938-07-26T13:44:00.000Z'),
+          day_of: new Date ('1938-07-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 278,
@@ -4369,13 +4369,13 @@ exports.seed = function(knex, Promise) {
           name: 'Rod Carew (first baseman/second baseman), born 1945',
           color: '#C25643',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/rodcarew.jpg',
-          day_of: new Date ('1945-10-01T13:44:00.000Z'),
+          day_of: new Date ('1945-10-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 279,
@@ -4383,13 +4383,13 @@ exports.seed = function(knex, Promise) {
           name: 'Larry Dierker throws a no-hitter for the Houston Astros vs. Montreal Expos in 1976',
           color: '#C7513D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/larrydierkernohit.jpg',
-          day_of: new Date ('1976-07-09T13:44:00.000Z'),
+          day_of: new Date ('1976-07-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 280,
@@ -4397,7 +4397,7 @@ exports.seed = function(knex, Promise) {
           name: 'Erik Friedlander (cellist), born 1960',
           color: '#FF4CA2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/erikfriedlander.jpg',
-          day_of: new Date ('1960-07-01T13:44:00.000Z'),
+          day_of: new Date ('1960-07-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4407,8 +4407,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://music.erikfriedlander.com/album/rings', 'http://music.erikfriedlander.com/album/oscalypso', 'http://music.erikfriedlander.com/album/illuminations', 'http://music.erikfriedlander.com/album/50', 'http://music.erikfriedlander.com/album/bygone-alley', 'http://music.erikfriedlander.com/album/nighthawks', 'http://music.erikfriedlander.com/album/haunted', 'http://music.erikfriedlander.com/album/broken-arm-trio', 'http://music.erikfriedlander.com/album/claws-wings', 'http://music.erikfriedlander.com/album/nothing-on-earth-soundtrack', 'http://music.erikfriedlander.com/track/blue-in-green', 'http://music.erikfriedlander.com/album/no-compass-solter-resets-friedlander', 'http://music.erikfriedlander.com/album/block-ice-propane', 'http://music.erikfriedlander.com/album/american-power', 'http://music.erikfriedlander.com/album/bonebridge', 'http://music.erikfriedlander.com/album/alchemy' ],
             "a_strings": [ 'Rings by Erik Friedlander', 'Oscalypso by Erik Friedlander', 'Illuminations by Erik Friedlander', '50 by Erik Friedlander', 'Bygone Alley by Erik Friedlander', 'Nighthawks by Erik Friedlander', 'Haunted by Erik Friedlander', 'Broken Arm Trio by Broken Arm Trio', 'Claws &amp; Wings by Erik Friedlander', 'Nothing On Earth Soundtrack by Erik Friedlander', 'Blue In Green by Erik Friedlander', 'No Compass: Solter Resets Friedlander by Scott Solter', 'Block Ice &amp; Propane by Erik Friedlander', 'American Power by Erik Friedlander', 'Bonebridge by Erik Friedlander', 'Alchemy by Erik Friedlander' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 281,
@@ -4416,13 +4416,13 @@ exports.seed = function(knex, Promise) {
           name: 'The Goldfinch by Donna Tartt published in 2013',
           color: '#E3E1D5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/thegoldfinch.jpg',
-          day_of: new Date ('2013-10-22T13:44:00.000Z'),
+          day_of: new Date ('2013-10-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 282,
@@ -4430,13 +4430,13 @@ exports.seed = function(knex, Promise) {
           name: 'Elvin Jones (drummer), born 1927',
           color: '#CF695C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/elvinjones.jpg',
-          day_of: new Date ('1927-09-09T13:44:00.000Z'),
+          day_of: new Date ('1927-09-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 283,
@@ -4444,7 +4444,7 @@ exports.seed = function(knex, Promise) {
           name: 'Peter Kowald (bassist), born 1944',
           color: '#575757',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/peterkowald.jpg',
-          day_of: new Date ('1944-04-21T13:44:00.000Z'),
+          day_of: new Date ('1944-04-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4454,8 +4454,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/the-complete-duos-europa-america-japan', 'http://destination-out.bandcamp.com/album/was-da-ist', 'http://balancepointacoustics.bandcamp.com/album/bpa-001-mirrors-broken-but-no-dust', 'http://killick.bandcamp.com/album/cord-lord-miniatures', 'http://intaktrec.bandcamp.com/album/between-heaven-and-earth', 'http://objet-a.bandcamp.com/album/cappuccini-klang-2-1992', 'http://objet-a.bandcamp.com/album/cappuccini-klang' ],
             "a_strings": [ 'The Complete Duos: Europa · America · Japan by PETER KOWALD', 'Was Da Ist by PETER KOWALD', 'BPA 001 Mirrors Broken - But No Dust by Peter Kowald  / Damon Smith', 'Cord Lord Miniatures by Pre-Precipice &amp; Peter Kowald', 'Between Heaven And Earth by Conrad Bauer, Peter Kowald, Günter Sommer', 'CAPPUCCINI KLANG  2 -1992 by Gianni Gebbia-Peter Kowald-Gunther Sommer', 'CAPPUCCINI KLANG by Gianni Gebbia- Peter Kowald-Gunther Sommer' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 284,
@@ -4463,7 +4463,7 @@ exports.seed = function(knex, Promise) {
           name: 'Steve Lacy (soprano saxophonist), born 1934',
           color: '#E9EAFA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/stevelacy.jpg',
-          day_of: new Date ('1934-07-23T13:44:00.000Z'),
+          day_of: new Date ('1934-07-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4473,8 +4473,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://steve-lacy.bandcamp.com/album/november', 'http://stevelacyesp.bandcamp.com/album/the-forest-and-the-zoo', 'http://destination-out.bandcamp.com/album/stabs', 'http://destination-out.bandcamp.com/album/follies', 'http://sunnysidezone.com/album/the-holy-la', 'http://driffrecords.bandcamp.com/album/the-music-of-steve-lacy', 'http://driffrecords.bandcamp.com/album/the-music-of-steve-lacy-vol-2', 'http://stevelacystevearguelles.bandcamp.com/album/image', 'http://cuneiformrecords.bandcamp.com/album/early-and-late', 'http://ictusrecords.bandcamp.com/album/clangs', 'http://pandeliskarayorgis.bandcamp.com/album/the-music-of-steve-lacy-vol-3-live', 'http://cuneiformrecords.bandcamp.com/album/beating-the-teens-songs-of-steve-lacy' ],
             "a_strings": [ 'november by Steve Lacy', 'The Forest And The Zoo by Steve Lacy', 'Stabs by STEVE LACY', 'Follies by STEVE LACY QUINTET', 'The Holy La by Steve Lacy Trio', 'The Music of Steve Lacy by The Whammies', 'The Music of Steve Lacy Vol. 2 by The Whammies', 'Image by Steve Lacy &amp; Steve Argüelles', 'Early and Late by Steve Lacy-Roswell Rudd Quartet', 'Clangs by Steve Lacy and Andrea Centazzo', 'The Music of Steve Lacy Vol. 3, Live by The Whammies', 'Beating The Teens: Songs Of Steve Lacy by Ideal Bread' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 285,
@@ -4482,13 +4482,13 @@ exports.seed = function(knex, Promise) {
           name: 'Fats Navarro (trumpet), born 1923',
           color: '#706E6F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/fatsnavarro.jpg',
-          day_of: new Date ('1923-09-24T13:44:00.000Z'),
+          day_of: new Date ('1923-09-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 286,
@@ -4496,7 +4496,7 @@ exports.seed = function(knex, Promise) {
           name: 'Evan Parker (reeds), born 1944',
           color: '#5E8068',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/evanparker.jpg',
-          day_of: new Date ('1944-04-05T13:44:00.000Z'),
+          day_of: new Date ('1944-04-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4506,8 +4506,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/process-and-reality', 'http://destination-out.bandcamp.com/album/london-air-lift', 'http://sluchaj.bandcamp.com/album/live-alchemia', 'http://intaktrec.bandcamp.com/album/studio-live-birds-and-blades', 'http://tourdebras.bandcamp.com/album/vivaces-evan-parker-ggril-cd', 'http://joemcphee.bandcamp.com/album/chicago-tenor-duets', 'http://f-a-t-a-k-a.bandcamp.com/album/tie-the-stone-to-the-wheel', 'http://joemcphee.bandcamp.com/album/what-if-they-both-could-fly', 'http://elnegocito.bandcamp.com/album/marsyas-suite', 'http://f-a-t-a-k-a.bandcamp.com/album/cinema', 'http://ingebrigtflaten.bandcamp.com/album/the-brewery-tap', 'http://jeremiahcymerman.bandcamp.com/album/world-of-objects', 'http://soundanatomy.bandcamp.com/album/on-growth-and-form', 'http://konvojrecords.bandcamp.com/album/colors-of' ],
             "a_strings": [ 'Process and Reality by EVAN PARKER', 'London Air Lift by EVAN PARKER', 'Live@Alchemia by Evan Parker &amp; RGG', 'Studio Live: Birds And Blades by Evan Parker, Barry Guy', 'Vivaces (Evan Parker &amp; GGRIL) CD by Le GGRIL &amp; Evan Parker', 'Chicago Tenor Duets by Evan Parker &amp; Joe McPhee', 'Tie the Stone to the Wheel by Evan Parker &amp; Seymour Wright', 'What If / They Both / Could Fly by Evan Parker &amp; Joe McPhee', 'Marsyas Suite by Evan Parker / Peter Jacquemyn', 'Cinema by John Coxon, Evan Parker, Eddie Prévost', 'The Brewery Tap by Evan Parker &amp; Ingebrigt Håker Flaten', 'World of Objects by Jeremiah Cymerman/Evan Parker/Nate Wooley', 'On Growth and Form by Evan Parker, Richard Barrett, Michael Vatcher', 'Colors Of: by Konvoj Ensemble feat. Evan Parker &amp; Sten Sandell' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 287,
@@ -4515,13 +4515,13 @@ exports.seed = function(knex, Promise) {
           name: 'Giovanni Girolamo Saccheri (mathematician), born 1667',
           color: '#FFFFFF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/giovannigirolamosaccheri.gif',
-          day_of: new Date ('1667-09-05T13:44:00.000Z'),
+          day_of: new Date ('1667-09-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 288,
@@ -4529,13 +4529,13 @@ exports.seed = function(knex, Promise) {
           name: 'Joe Tinker (shortstop), born 1880',
           color: '#DBC8AA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/joetinker.jpg',
-          day_of: new Date ('1880-07-27T13:44:00.000Z'),
+          day_of: new Date ('1880-07-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 289,
@@ -4543,7 +4543,7 @@ exports.seed = function(knex, Promise) {
           name: 'Victor Vasarely (artist), born 1906',
           color: '#D6D6D4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/victorvasarely.jpg',
-          day_of: new Date ('1906-04-09T13:44:00.000Z'),
+          day_of: new Date ('1906-04-09 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -4553,8 +4553,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely', 'Victor Vasarely' ],
             "years": [ '1929', '1935', '1936', '1937', '1938', '1949', '1950', '1950', '1951', '1953', '1954', '1956', '1957', '1959', '1960', '1960', '1960', '1959 - 1961', '1963', '1963', '1964', '1964', '1964', '1965', '1967', '1968', '1968', '1969', '1969', '1969', '1970', '1970', '1970 - 1971', '1972' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 290,
@@ -4562,7 +4562,7 @@ exports.seed = function(knex, Promise) {
           name: 'Iannis Xenakis (architect/composer/anarchist), born 1922',
           color: '#E2E9F2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/iannisxenakis.jpg',
-          day_of: new Date ('1922-05-29T13:44:00.000Z'),
+          day_of: new Date ('1922-05-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4572,8 +4572,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://karlrecords.bandcamp.com/album/la-l-gende-deer' ],
             "a_strings": [ 'La Légende d&#39;Eer by IANNIS XENAKIS' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 291,
@@ -4581,7 +4581,7 @@ exports.seed = function(knex, Promise) {
           name: 'Denny Zeitlin (pianist), born 1938',
           color: '#92847A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/dennyzeitlin.jpg',
-          day_of: new Date ('1938-04-10T13:44:00.000Z'),
+          day_of: new Date ('1938-04-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4591,8 +4591,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sunnysidezone.com/album/early-wayne-explorations-of-classic-wayne-shorter-compositions', 'http://sunnysidezone.com/album/stairway-to-the-stars-2' ],
             "a_strings": [ 'Early Wayne - Explorations of Classic Wayne Shorter Compositions by Denny Zeitlin', 'Stairway To The Stars by Denny Zeitlin' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 292,
@@ -4600,7 +4600,7 @@ exports.seed = function(knex, Promise) {
           name: 'Hannah Höch (artist), born 1889',
           color: '#CACACA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/hannahhöch.jpg',
-          day_of: new Date ('1889-11-01T13:44:00.000Z'),
+          day_of: new Date ('1889-11-01 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -4610,8 +4610,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Hannah Höch', 'Hannah Höch', 'Hannah Höch', 'Hannah Höch', 'Hannah Höch', 'Hannah Höch', 'Hannah Höch', 'Hannah Höch', 'Hannah Höch', 'Hannah Höch', 'Hannah Höch', 'Hannah Höch', 'Hannah Höch' ],
             "years": [ '1919', '1921', '1922', '1925', '1925', '1927', '1930', '1930', '1936', '1956', '1965', '1967', '1969' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 293,
@@ -4619,13 +4619,13 @@ exports.seed = function(knex, Promise) {
           name: 'Roger Kellaway (pianist), born 1939',
           color: '#F54F46',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/rogerkellaway.jpg',
-          day_of: new Date ('1939-11-11T13:44:00.000Z'),
+          day_of: new Date ('1939-11-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 294,
@@ -4633,13 +4633,13 @@ exports.seed = function(knex, Promise) {
           name: 'George Boole (mathematician), born 1815',
           color: '#BAB5A1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/georgeboole.jpg',
-          day_of: new Date ('1815-11-02T13:44:00.000Z'),
+          day_of: new Date ('1815-11-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 295,
@@ -4647,13 +4647,13 @@ exports.seed = function(knex, Promise) {
           name: 'Francis Dhomont (composer), born 1926',
           color: '#8EA3B4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/francisdhomont.jpg',
-          day_of: new Date ('1926-11-02T13:44:00.000Z'),
+          day_of: new Date ('1926-11-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 296,
@@ -4661,7 +4661,7 @@ exports.seed = function(knex, Promise) {
           name: 'Keith Emerson (pianist), born 1944',
           color: '#2ED6DF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/keithemerson.jpg',
-          day_of: new Date ('1944-11-02T13:44:00.000Z'),
+          day_of: new Date ('1944-11-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4671,8 +4671,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://mellowrecords.bandcamp.com/album/keith-emerson-san-juan-capistrano-1998' ],
             "a_strings": [ 'KEITH EMERSON  San Juan Capistrano 1998 by KEITH EMERSON' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 297,
@@ -4680,7 +4680,7 @@ exports.seed = function(knex, Promise) {
           name: 'Henry Grimes (bassist), born 1935',
           color: '#9D9742',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/henrygrimes.jpg',
-          day_of: new Date ('1935-11-03T13:44:00.000Z'),
+          day_of: new Date ('1935-11-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4690,8 +4690,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://henrygrimes.bandcamp.com/album/the-call' ],
             "a_strings": [ 'The Call by Henry Grimes' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 298,
@@ -4699,7 +4699,7 @@ exports.seed = function(knex, Promise) {
           name: 'Vladimir Ussachevsky (composer), born 1911',
           color: '#B5998E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/vladimirussachevsky.jpg',
-          day_of: new Date ('1911-11-03T13:44:00.000Z'),
+          day_of: new Date ('1911-11-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4709,8 +4709,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://finderskeepersrecords.bandcamp.com/album/tape-recorder-music' ],
             "a_strings": [ 'Tape Recorder Music by Otto Luening &amp; Vladimir Ussachevsky' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 299,
@@ -4718,13 +4718,13 @@ exports.seed = function(knex, Promise) {
           name: 'Eugene V. Debs (activist), born 1855',
           color: '#383838',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/eugenevdebs.jpg',
-          day_of: new Date ('1855-11-05T13:44:00.000Z'),
+          day_of: new Date ('1855-11-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 300,
@@ -4732,13 +4732,13 @@ exports.seed = function(knex, Promise) {
           name: 'Walter Johnson (pitcher), born 1887',
           color: '#7A7A7A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/walterjohnson.jpg',
-          day_of: new Date ('1887-11-06T13:44:00.000Z'),
+          day_of: new Date ('1887-11-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 301,
@@ -4746,7 +4746,7 @@ exports.seed = function(knex, Promise) {
           name: 'Don Byron (reeds), born 1958',
           color: '#B76D1D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/donbyron.jpg',
-          day_of: new Date ('1958-11-08T13:44:00.000Z'),
+          day_of: new Date ('1958-11-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4756,8 +4756,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://lisamoore.bandcamp.com/album/seven', 'http://bangonacan.bandcamp.com/album/a-ballad-for-many' ],
             "a_strings": [ 'Seven by Lisa Moore &amp; Don Byron', 'A Ballad For Many by Bang On A Can &amp; Don Byron' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 302,
@@ -4765,7 +4765,7 @@ exports.seed = function(knex, Promise) {
           name: 'Paul Bley (pianist), born 1932',
           color: '#595A56',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/paulbley.jpg',
-          day_of: new Date ('1932-11-10T13:44:00.000Z'),
+          day_of: new Date ('1932-11-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4775,8 +4775,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://paulbley.bandcamp.com/album/closer' ],
             "a_strings": [ 'Closer by Paul Bley' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 303,
@@ -4784,13 +4784,13 @@ exports.seed = function(knex, Promise) {
           name: 'Catch-22 by Joseph Heller published in 1961',
           color: '#165CBE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/catch22.gif',
-          day_of: new Date ('1961-11-10T13:44:00.000Z'),
+          day_of: new Date ('1961-11-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 304,
@@ -4798,7 +4798,7 @@ exports.seed = function(knex, Promise) {
           name: 'Andrew Cyrille (drummer), born 1939',
           color: '#DFB3BC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/andrewcyrille.jpg',
-          day_of: new Date ('1939-11-10T13:44:00.000Z'),
+          day_of: new Date ('1939-11-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4808,8 +4808,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sunnysidezone.com/album/proximity', 'http://intaktrec.bandcamp.com/album/duo-palindrome-2002-vol-2', 'http://intaktrec.bandcamp.com/album/duo-palindrome-2002-vol-1', 'http://destination-out.bandcamp.com/album/andrew-cyrille-meets-br-tzmann-in-berlin', 'http://elnegocito.bandcamp.com/album/drop-your-plans', 'http://sorenkjaergaard.bandcamp.com/album/syvmileskridt-2' ],
             "a_strings": [ 'Proximity by Andrew Cyrille &amp; Bill McHenry', 'Duo Palindrome 2002, Vol. 2 by Andrew Cyrille, Anthony Braxton', 'Duo Palindrome 2002, Vol. 1 by Andrew Cyrille, Anthony Braxton', 'Andrew Cyrille Meets Brötzmann in Berlin by BRÖTZMANN | CYRILLE', 'Drop Your Plans by Bambi Pang Pang (featuring Andrew Cyrille)', 'SYVMILESKRIDT by Søren Kjærgaard / Ben Street / Andrew Cyrille' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 305,
@@ -4817,13 +4817,13 @@ exports.seed = function(knex, Promise) {
           name: 'Patricia Mainardi (author/feminist), born 1942',
           color: '#964723',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/patriciamainardi.jpg',
-          day_of: new Date ('1942-11-10T13:44:00.000Z'),
+          day_of: new Date ('1942-11-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 306,
@@ -4831,13 +4831,13 @@ exports.seed = function(knex, Promise) {
           name: 'Kurt Vonnegut (author), born 1922',
           color: '#C6EBD4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/kurtvonnegut.jpg',
-          day_of: new Date ('1922-11-11T13:44:00.000Z'),
+          day_of: new Date ('1922-11-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 307,
@@ -4845,13 +4845,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hampton Hawes (pianist), born 1928',
           color: '#BABABA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/hamptonhawes.jpg',
-          day_of: new Date ('1928-11-13T13:44:00.000Z'),
+          day_of: new Date ('1928-11-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 308,
@@ -4859,7 +4859,7 @@ exports.seed = function(knex, Promise) {
           name: 'Susie Ibarra (drummer), born 1970',
           color: '#8F7B6E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/susieibarra.jpg',
-          day_of: new Date ('1970-11-15T13:44:00.000Z'),
+          day_of: new Date ('1970-11-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4869,8 +4869,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://intaktrec.bandcamp.com/album/passagio' ],
             "a_strings": [ 'Passagio by Sylvie Courvoisier, Joëlle Léandre, Susie Ibarra' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 309,
@@ -4878,7 +4878,7 @@ exports.seed = function(knex, Promise) {
           name: 'Georgia O\'Keeffe (artist), born 1887',
           color: '#7B7165',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/georgiaokeeffe.jpg',
-          day_of: new Date ('1887-11-15T13:44:00.000Z'),
+          day_of: new Date ('1887-11-15 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -4888,8 +4888,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe', 'Georgia O\'Keeffe' ],
             "years": [ '1915', '1916', '1916', '1916', '1917', '1918', '1918', '1918', '1918', '1919', '1919', '1921', '1922', '1922', '1922', '1922', '1922' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 310,
@@ -4897,13 +4897,13 @@ exports.seed = function(knex, Promise) {
           name: 'Margaret Atwood (author), born 1939',
           color: '#144361',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/margaretatwood.jpg',
-          day_of: new Date ('1939-11-18T13:44:00.000Z'),
+          day_of: new Date ('1939-11-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 311,
@@ -4911,7 +4911,7 @@ exports.seed = function(knex, Promise) {
           name: 'Don Cherry (trumpet), born 1936',
           color: '#DF8F25',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/doncherry.jpg',
-          day_of: new Date ('1936-11-18T13:44:00.000Z'),
+          day_of: new Date ('1936-11-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4921,8 +4921,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://doncherry.bandcamp.com/album/live-at-caf-montmartre-vol-3', 'http://doncherry.bandcamp.com/album/live-at-caf-montmartre-vol-1', 'http://doncherry.bandcamp.com/album/live-at-caf-montmartre-vol-2', 'http://finderskeepersrecords.bandcamp.com/album/music-wisdom-love' ],
             "a_strings": [ 'Live At Café Montmartre, Vol. 3 by Don Cherry', 'Live at Café Montmartre, vol.1 by Don Cherry', 'Live at Café Montmartre, vol​.​2 by Don Cherry', 'Music, Wisdom, Love by Don Cherry' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 312,
@@ -4930,7 +4930,7 @@ exports.seed = function(knex, Promise) {
           name: 'Nick Didkovsky (guitarist), born 1958',
           color: '#519AC2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/nickdidkovsky.jpg',
-          day_of: new Date ('1958-11-22T13:44:00.000Z'),
+          day_of: new Date ('1958-11-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4940,8 +4940,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://doctornerve.bandcamp.com/album/phantom-words', 'http://hughhopper.bandcamp.com/album/the-gift-of-purpose-hopper-family-benefit-album', 'http://vomitfist.bandcamp.com/album/forgive-but-avenge', 'http://vomitfist.bandcamp.com/album/vomit-fist-live-and-rehearsal-demos' ],
             "a_strings": [ 'Phantom Words by Nick Didkovsky', 'The Gift of Purpose [Hopper Family Benefit Album] by Bone (Nick Didkovsky / Hugh Hopper / John Roulat)', 'Forgive but Avenge by Vomit Fist', 'Vomit Fist, live and rehearsal demos by Vomit Fist' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 313,
@@ -4949,13 +4949,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jimmy Knepper (trombone), born 1927',
           color: '#654947',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jimmyknepper.jpg',
-          day_of: new Date ('1927-11-22T13:44:00.000Z'),
+          day_of: new Date ('1927-11-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 314,
@@ -4963,7 +4963,7 @@ exports.seed = function(knex, Promise) {
           name: 'Krzysztof Penderecki (composer), born 1933',
           color: '#B2A88D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/krzysztofpenderecki.jpg',
-          day_of: new Date ('1933-11-23T13:44:00.000Z'),
+          day_of: new Date ('1933-11-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -4973,8 +4973,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://coldspring.bandcamp.com/album/kosmogonia-csr238cd' ],
             "a_strings": [ 'Kosmogonia (CSR238CD) by Krzysztof Penderecki' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 315,
@@ -4982,13 +4982,13 @@ exports.seed = function(knex, Promise) {
           name: 'Fanny Hill: or Memoirs of a Woman of Pleasure by John Cleland published in 1749 and frequently banned',
           color: '#08279B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/fannhill.jpg',
-          day_of: new Date ('1749-11-24T13:44:00.000Z'),
+          day_of: new Date ('1749-11-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 316,
@@ -4996,7 +4996,7 @@ exports.seed = function(knex, Promise) {
           name: 'Scott Joplin (composer), born 1868',
           color: '#ADA69C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/scottjoplin.jpg',
-          day_of: new Date ('1868-11-24T13:44:00.000Z'),
+          day_of: new Date ('1868-11-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5006,8 +5006,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://bluemusicgroup.bandcamp.com/album/30-greatest-scott-joplin-ragtime-piano-pieces' ],
             "a_strings": [ '30 Greatest Scott Joplin Ragtime Piano Pieces by Scott Joplin' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 317,
@@ -5015,13 +5015,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hugh Duffy (outfielder), born 1866',
           color: '#F2F2ED',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/hughduffy.jpg',
-          day_of: new Date ('1866-11-26T13:44:00.000Z'),
+          day_of: new Date ('1866-11-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 318,
@@ -5029,13 +5029,13 @@ exports.seed = function(knex, Promise) {
           name: 'Friedrich Engels (communist), born 1820',
           color: '#939393',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/friedrichengels.jpg',
-          day_of: new Date ('1820-11-28T13:44:00.000Z'),
+          day_of: new Date ('1820-11-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 319,
@@ -5043,7 +5043,7 @@ exports.seed = function(knex, Promise) {
           name: 'Jim Nutt (artist), born 1938',
           color: '#F8D204',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/jimnutt.jpg',
-          day_of: new Date ('1938-11-28T13:44:00.000Z'),
+          day_of: new Date ('1938-11-28 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -5053,8 +5053,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt', 'Jim Nutt' ],
             "years": [ '1966', '1967', '1968', '1968', '1968', '1968', '1969', '1969', '1969', '1969', '1970', '1971', '1971', '1973', '1986' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 320,
@@ -5062,13 +5062,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mark Twain (author), born 1835',
           color: '#373737',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/marktwain.jpg',
-          day_of: new Date ('1835-11-30T13:44:00.000Z'),
+          day_of: new Date ('1835-11-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 321,
@@ -5076,7 +5076,7 @@ exports.seed = function(knex, Promise) {
           name: 'Leonora Carrington (artist), born 1917',
           color: '#EEEEEE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/leonoracarrington.jpg',
-          day_of: new Date ('1917-04-06T13:44:00.000Z'),
+          day_of: new Date ('1917-04-06 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -5086,8 +5086,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington', 'Leonora Carrington' ],
             "years": [ '1938', '1939', '1940', '1942', '1946', '1947', '1947', '1949', '1950', '1951', '1956', '1960', '1960', '1960', '1960', '1964', '1967', '1969', '1970', '1971', '1973', '1974', '1974', '1975', '1977', '1979', '1987', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 322,
@@ -5095,13 +5095,13 @@ exports.seed = function(knex, Promise) {
           name: 'Andre Dawson (outfielder), born 1954',
           color: '#2B54A7',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/andredawson.jpg',
-          day_of: new Date ('1954-07-10T13:44:00.000Z'),
+          day_of: new Date ('1954-07-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 323,
@@ -5109,13 +5109,13 @@ exports.seed = function(knex, Promise) {
           name: 'Dennis Eckersley pitches the 200th no-hitter in major league history in 1977 for the Cleveland Indians vs. California Angels',
           color: '#C31F24',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/deniseckersleynohit.jpg',
-          day_of: new Date ('1977-05-30T13:44:00.000Z'),
+          day_of: new Date ('1977-05-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 324,
@@ -5123,13 +5123,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2000 as per the prophesy of Jerry Falwell.',
           color: '#908C73',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/fallwellisachump.jpg',
-          day_of: new Date ('2000-01-01T13:44:00.000Z'),
+          day_of: new Date ('2000-01-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 325,
@@ -5137,13 +5137,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hairstyles of the Damned by Joe Meno published in 2004.',
           color: '#49AF2F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/haristylesofthedamned.jpg',
-          day_of: new Date ('2004-09-01T13:44:00.000Z'),
+          day_of: new Date ('2004-09-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 326,
@@ -5151,7 +5151,7 @@ exports.seed = function(knex, Promise) {
           name: 'GX Jupitter-Larsen (artist/noise musician), born 1959',
           color: '#C7C848',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/gxjupitterlarsen.jpg',
-          day_of: new Date ('1959-03-02T13:44:00.000Z'),
+          day_of: new Date ('1959-03-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5161,8 +5161,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://gxjl.bandcamp.com/track/untitled-347', 'http://gxjl.bandcamp.com/track/meddyliol-recorded-live-may-7-2015', 'http://gxjl.bandcamp.com/track/pump-powered-permawave-recorded-live-dec-7-2014', 'http://gxjl.bandcamp.com/track/kstenod', 'http://gxjl.bandcamp.com/track/permawave-2014', 'http://gxjl.bandcamp.com/track/nichts-fur-niemand', 'http://gxjl.bandcamp.com/track/xylowave-2007', 'http://gxjl.bandcamp.com/track/mingwave', 'http://gxjl.bandcamp.com/album/big-time-crash-bang-2008', 'http://gxjl.bandcamp.com/album/further', 'http://gxjl.bandcamp.com/album/death-defying-sickness', 'http://gxjl.bandcamp.com/album/cultivating-calamitiy', 'http://gxjl.bandcamp.com/track/extraordinary-shovel', 'http://gxjl.bandcamp.com/track/the-whipping', 'http://gxjl.bandcamp.com/track/complete-this-record' ],
             "a_strings": [ 'untitled #347 by Francisco López &amp; GX Jupitter-Larsen', 'Meddyliol (Recorded Live May 7, 2015) by Suzy Poling &amp; GX Jupitter-Larsen', 'Pump-Powered Permawave (Recorded Live Dec 7, 2014) by GX Jupitter-Larsen', 'Kstenod by GX Jupitter-Larsen', 'Permawave 2014 by GX Jupitter-Larsen', 'Nichts Fur Niemand by The New Blockaders, The Haters, and Vomir', 'Xylowave 2007 by Rafael Flores &amp; GX Jupitter-Larsen', 'Mingwave by GX Jupitter-Larsen &amp; Government Alpha', 'Big Time Crash Bang 2008 by GX Jupitter-Larsen', 'Further by The Haters', 'Death-Defying Sickness by The Haters', 'Cultivating Calamitiy by The Haters', 'Extraordinary Shovel by GX Jupitter-Larsen &amp; David Jackman', 'The Whipping by GX Jupitter-Larsen', 'Complete this record... by GX Jupitter-Larsen' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 327,
@@ -5170,7 +5170,7 @@ exports.seed = function(knex, Promise) {
           name: 'David King (drummer), born 1970',
           color: '#C6A0AD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidking.jpg',
-          day_of: new Date ('1970-06-08T13:44:00.000Z'),
+          day_of: new Date ('1970-06-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5180,8 +5180,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://happyapple.bandcamp.com/album/back-on-top' ],
             "a_strings": [ 'Back On Top by Happy Apple' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 328,
@@ -5189,13 +5189,13 @@ exports.seed = function(knex, Promise) {
           name: 'Scott LaFaro (bassist), born 1936',
           color: '#B2B0B1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/scottlafaro.jpg',
-          day_of: new Date ('1936-04-03T13:44:00.000Z'),
+          day_of: new Date ('1936-04-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 329,
@@ -5203,7 +5203,7 @@ exports.seed = function(knex, Promise) {
           name: 'Joe McPhee (reeds/trumpet), born 1939',
           color: '#E9EBDD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/joemcphee.jpg',
-          day_of: new Date ('1939-11-03T13:44:00.000Z'),
+          day_of: new Date ('1939-11-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5213,8 +5213,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://joemcphee.bandcamp.com/album/legend-street-two', 'http://joemcphee.bandcamp.com/album/in-black-and-white', 'http://joemcphee.bandcamp.com/album/the-dream-book', 'http://joemcphee.bandcamp.com/album/creole-gardens-a-new-orleans-suite', 'http://joemcphee.bandcamp.com/album/spontaneous-combustion', 'http://joemcphee.bandcamp.com/album/the-damage-is-done', 'http://joemcphee.bandcamp.com/album/looking-back', 'http://joemcphee.bandcamp.com/album/now-is', 'http://joemcphee.bandcamp.com/album/what-if-they-both-could-fly', 'http://joemcphee.bandcamp.com/album/the-cerkno-concert', 'http://joemcphee.bandcamp.com/album/unquenchable-fire', 'http://joemcphee.bandcamp.com/album/flowers', 'http://joemcphee.bandcamp.com/album/octoblue', 'http://joemcphee.bandcamp.com/album/seven-pieces-live-at-willisau-1995', 'http://joemcphee.bandcamp.com/album/lan-impulse', 'http://joemcphee.bandcamp.com/album/finger-wigglers', 'http://joemcphee.bandcamp.com/album/legend-street-one' ],
             "a_strings": [ 'Legend Street Two by Joe McPhee Quartet', 'In Black and White by Joe McPhee', 'The Dream Book by Joe McPhee &amp; Dominic Duval', 'Six Situations by Joe McPhee, Damon Smith, Alvin Fielder', 'Creole Gardens (A New Orleans Suite) by Joe McPhee &amp; Michael Zerang', 'Spontaneous Combustion by Decoy with Joe McPhee', 'The Damage Is Done by McPhee / Brötzmann / Kessler / Zerang', 'Looking Back by Deep Listening Band with Joe McPhee &amp; Randy Raine-Reusch', 'Now Is by Ingebrigt Håker Flaten New York Quartet', 'What If / They Both / Could Fly by Evan Parker &amp; Joe McPhee', 'The Cerkno Concert by Joe McPhee / Daunik Lazro', 'Unquenchable Fire by Deep Listening Band / Joe McPhee Quartet', 'Flowers by Joe McPhee', 'Octoblue by Joe McPhee / Jerome Bourdellon', 'Seven Pieces : Live at Willisau 1995 by Joe McPhee / Evan Parker / Daunik Lazro', 'Élan, Impulse by Daunik Lazro &amp; Joe McPhee', 'Finger Wigglers by Michael Bisio &amp; Joe McPhee', 'Legend Street One by Joe McPhee Quartet' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 330,
@@ -5222,13 +5222,13 @@ exports.seed = function(knex, Promise) {
           name: 'Nineteen Eighty-four by George Orwell published in 1949.',
           color: '#B84B28',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/1984.jpg',
-          day_of: new Date ('1949-06-08T13:44:00.000Z'),
+          day_of: new Date ('1949-06-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 331,
@@ -5236,13 +5236,13 @@ exports.seed = function(knex, Promise) {
           name: 'Astor Piazzola (composer), born 1921',
           color: '#5E1F18',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/astorpiazzola.jpg',
-          day_of: new Date ('1921-03-11T13:44:00.000Z'),
+          day_of: new Date ('1921-03-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 332,
@@ -5250,13 +5250,13 @@ exports.seed = function(knex, Promise) {
           name: 'Funmilayo Ransome-Kuti (activist), born 1900',
           color: '#B08E68',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/funmilayoransomekuti.jpg',
-          day_of: new Date ('1900-10-25T13:44:00.000Z'),
+          day_of: new Date ('1900-10-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 333,
@@ -5264,13 +5264,13 @@ exports.seed = function(knex, Promise) {
           name: 'Alan Turing (computer scientist), born 1912',
           color: '#B4B4B4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/alanturing.jpg',
-          day_of: new Date ('1912-06-23T13:44:00.000Z'),
+          day_of: new Date ('1912-06-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 334,
@@ -5278,13 +5278,13 @@ exports.seed = function(knex, Promise) {
           name: 'Bartolomeo Vanzetti (anarchist), born 1888',
           color: '#808080',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/bartolomeovanzetti.jpg',
-          day_of: new Date ('1888-06-11T13:44:00.000Z'),
+          day_of: new Date ('1888-06-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 335,
@@ -5292,7 +5292,7 @@ exports.seed = function(knex, Promise) {
           name: 'Andy Warhol (artist), born 1928',
           color: '#151E3F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/andywarhol.jpeg',
-          day_of: new Date ('1928-08-06T13:44:00.000Z'),
+          day_of: new Date ('1928-08-06 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -5302,8 +5302,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol', 'Andy Warhol' ],
             "years": [ '1956', '1962', '1962', '1962', '1962', '1963', '1963', '1963', '1964', '1964', '1966', '1968', '1968', '1972', '1976', '1976', '1980', '1981', '1982', '1983' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 336,
@@ -5311,13 +5311,13 @@ exports.seed = function(knex, Promise) {
           name: 'Roger Zelazny (author), born 1937',
           color: '#D5C893',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/rogerzelazny.jpg',
-          day_of: new Date ('1937-05-13T13:44:00.000Z'),
+          day_of: new Date ('1937-05-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 337,
@@ -5325,7 +5325,7 @@ exports.seed = function(knex, Promise) {
           name: 'Otto Dix (artist), born 1891',
           color: '#C9C38A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/ottodix.jpg',
-          day_of: new Date ('1891-12-02T13:44:00.000Z'),
+          day_of: new Date ('1891-12-02 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -5335,8 +5335,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix', 'Otto Dix' ],
             "years": [ '1914', '1920', '1920', '1921', '1921', '1921', '1921', '1922', '1923', '1925', '1926', '1927', '1932', '1932', '1922', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '1914', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 338,
@@ -5344,13 +5344,13 @@ exports.seed = function(knex, Promise) {
           name: 'Anton Webern (composer), born 1883',
           color: '#C3C3C3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/antonwebern.png',
-          day_of: new Date ('1883-12-03T13:44:00.000Z'),
+          day_of: new Date ('1883-12-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 339,
@@ -5358,7 +5358,7 @@ exports.seed = function(knex, Promise) {
           name: 'Michael Moore (clarinet), born 1954',
           color: '#A2EBF7',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/michaelmoore.jpg',
-          day_of: new Date ('1954-12-04T13:44:00.000Z'),
+          day_of: new Date ('1954-12-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5368,8 +5368,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://michaelmooreramboy.bandcamp.com/album/bering', 'http://michaelmooreramboy.bandcamp.com/album/tunes-for-horn-guys', 'http://michaelmooreramboy.bandcamp.com/album/chicoutimi', 'http://michaelmooreramboy.bandcamp.com/album/n-glig', 'http://michaelmooreramboy.bandcamp.com/album/home-game' ],
             "a_strings": [ 'Bering by Michael Moore Trio', 'Tunes For Horn Guys by Michael Moore', 'Chicoutimi by Michael Moore Trio', 'Négligé by Michael Moore Quartet', 'Home Game by Michael Moore Quintet' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 340,
@@ -5377,13 +5377,13 @@ exports.seed = function(knex, Promise) {
           name: 'Henryk Górecki (composer), born 1933',
           color: '#EDF1F2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/henrykgórecki.jpg',
-          day_of: new Date ('1933-12-06T13:44:00.000Z'),
+          day_of: new Date ('1933-12-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 341,
@@ -5391,13 +5391,13 @@ exports.seed = function(knex, Promise) {
           name: 'Noam Chomsky (activist), born 1928',
           color: '#2F2D38',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/noamchomsky.jpg',
-          day_of: new Date ('1928-12-07T13:44:00.000Z'),
+          day_of: new Date ('1928-12-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 342,
@@ -5405,7 +5405,7 @@ exports.seed = function(knex, Promise) {
           name: 'Matthew Shipp (pianist), born 1960',
           color: '#50463D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/matthewshipp.jpg',
-          day_of: new Date ('1960-12-07T13:44:00.000Z'),
+          day_of: new Date ('1960-12-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5415,8 +5415,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/before-the-world', 'http://bandcamp.for-tune.pl/album/not-bound', 'http://bobbykappmatthewshipp.bandcamp.com/album/cactus', 'http://f-a-t-a-k-a.bandcamp.com/album/at-oto', 'http://thecoretrio.bandcamp.com/album/the-core-trio-with-matthew-shipp', 'http://aumfidelity.bandcamp.com/album/live-in-santanna-arresi-2004', 'http://f-a-t-a-k-a.bandcamp.com/album/tangle', 'http://theuppercutmatthewshippmatwalerianduo.bandcamp.com/album/live-at-okuden', 'http://joemcphee.bandcamp.com/album/in-finland', 'http://aumfidelity.bandcamp.com/album/vessel-in-orbit', 'http://junglematwalerianmatthewshipphamiddrake.bandcamp.com/album/live-at-okuden', 'http://theuppercutmatthewshippmatwalerianduo.bandcamp.com/album/live-at-okuden', 'http://motiansickness.bandcamp.com/album/alternating-current', 'http://toxic-matwalerianmatthewshippwilliamparker.bandcamp.com/album/this-is-beautiful-because-we-are-beautiful-people' ],
             "a_strings": [ 'Before the World by MATTHEW SHIPP', 'Not Bound by Matthew Shipp Quartet', 'Cactus by Bobby Kapp &amp; Matthew Shipp', 'At Oto by John Butcher &amp; Matthew Shipp', 'The Core Trio with Matthew Shipp by The Core Trio', 'Live in Sant&#39;Anna Arresi, 2004 by David S. Ware &amp; Matthew Shipp', 'Tangle by John Butcher, Thomas Lehn, Matthew Shipp', 'Live at Okuden by The Uppercut: Matthew Shipp Mat Walerian Duo', 'In Finland by Joe McPhee, Matthew Shipp &amp; Dominic Duval', 'Vessel In Orbit by Whit Dickey / Mat Maneri / Matthew Shipp', 'Live at Okuden by Jungle: Mat Walerian/Matthew Shipp/Hamid Drake', 'Live at Okuden by The Uppercut: Matthew Shipp Mat Walerian Duo', 'Alternating Current by Jeff Cosgrove - Matthew Shipp - William Parker', 'This Is Beautiful Because We Are Beautiful People by Toxic - Mat Walerian, Matthew Shipp, William Parker' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 343,
@@ -5424,7 +5424,7 @@ exports.seed = function(knex, Promise) {
           name: 'Pierre Henry (composer), born 1927',
           color: '#EEEEEE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/pierrehenry.jpg',
-          day_of: new Date ('1927-12-09T13:44:00.000Z'),
+          day_of: new Date ('1927-12-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5434,8 +5434,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://finderskeepersrecords.bandcamp.com/album/mal-fices' ],
             "a_strings": [ 'Maléfices by Pierre Henry' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 344,
@@ -5443,7 +5443,7 @@ exports.seed = function(knex, Promise) {
           name: 'George Cartwright (reeds), born 1950',
           color: '#74230D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/georgecartwright.jpg',
-          day_of: new Date ('1950-12-10T13:44:00.000Z'),
+          day_of: new Date ('1950-12-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5453,8 +5453,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://georgecartwright.bandcamp.com/album/parkview-elementary-human-rights-project', 'http://georgecartwright.bandcamp.com/album/here-maybe-there', 'http://georgecartwright.bandcamp.com/album/hammer-to-rib-dedicated-to-dylan-thomas', 'http://georgecartwright.bandcamp.com/album/sample-was-millsaps-music', 'http://georgecartwright.bandcamp.com/album/taktlos', 'http://georgecartwright.bandcamp.com/album/kyber-pass-november-2014', 'http://georgecartwright.bandcamp.com/album/pal-little-blue-card', 'http://georgecartwright.bandcamp.com/album/guides-and-strategies', 'http://georgecartwright.bandcamp.com/album/pal', 'http://georgecartwright.bandcamp.com/album/turtles-one', 'http://georgecartwright.bandcamp.com/album/unweeded-george-cartwright-and-anne-elias', 'http://georgecartwright.bandcamp.com/album/send-help', 'http://georgecartwright.bandcamp.com/album/a-tenacious-slew', 'http://georgecartwright.bandcamp.com/album/the-ghostly-bee', 'http://georgecartwright.bandcamp.com/album/black-ants-crawling', 'http://georgecartwright.bandcamp.com/album/tonics-oh-tonics', 'http://georgecartwright.bandcamp.com/album/bs', 'http://georgecartwright.bandcamp.com/album/ploymath-dirt-cretes', 'http://georgecartwright.bandcamp.com/album/george-cartwright-bon-sat-night-at-studio-z-st-paul-mn' ],
             "a_strings": [ 'Parkview Elementary Human Rights Project by George Cartwright', 'Here Maybe There by George Cartwright', 'Hammer  to  Rib  dedicated to Dylan Thomas by Sin Eaters One', 'sample was millsaps music by George Cartwright', 'taktlos by curlew', 'Kyber Pass November 2014 by George Cartwright', 'Pal  Little Blue Card by George Cartwright', 'Guides and Strategies by George Cartwright', 'PAL by George Cartwright', 'Turtles One by George Cartwright', 'Unweeded George Cartwright and Anne Elias by George Cartwright and Anne Elias', 'Send Help by George Cartwright', 'A Tenacious Slew by George Cartwright', 'The Ghostly Bee by George Cartwright', 'Black Ants Crawling by George Cartwright', 'Tonics Oh Tonics by George Cartwright', 'B&#39;s by George Cartwright', 'Ploymath Dirt Cretes by George Cartwright', 'George Cartwright Bon Sat NIgHt at Studio Z St Paul MN by George Cartwright' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 345,
@@ -5462,13 +5462,13 @@ exports.seed = function(knex, Promise) {
           name: 'César Franck (composer), born in 1822',
           color: '#7B7054',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/césarfranck.jpg',
-          day_of: new Date ('1822-12-10T13:44:00.000Z'),
+          day_of: new Date ('1822-12-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 346,
@@ -5476,13 +5476,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ada Lovelace (computer scientist), born 1815',
           color: '#847D73',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/adalovelace.jpeg',
-          day_of: new Date ('1815-12-10T13:44:00.000Z'),
+          day_of: new Date ('1815-12-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 347,
@@ -5490,7 +5490,7 @@ exports.seed = function(knex, Promise) {
           name: 'Olivier Messiaen (composer), born 1908',
           color: '#68505E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/oliviermessiaen.jpg',
-          day_of: new Date ('1908-12-10T13:44:00.000Z'),
+          day_of: new Date ('1908-12-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5500,8 +5500,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://bach-akademie.bandcamp.com/album/la-nativit-du-seigneur' ],
             "a_strings": [ 'LA NATIVITÉ DU SEIGNEUR by Olivier Messiaen' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 348,
@@ -5509,13 +5509,13 @@ exports.seed = function(knex, Promise) {
           name: 'Helen Oyeyemi (author), born 1984',
           color: '#AAAD85',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/helenoyeyemi.png',
-          day_of: new Date ('1984-12-10T13:44:00.000Z'),
+          day_of: new Date ('1984-12-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 349,
@@ -5523,13 +5523,13 @@ exports.seed = function(knex, Promise) {
           name: 'August Spies (activist), born 1855',
           color: '#E8E5E0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/augustspies.jpg',
-          day_of: new Date ('1855-12-10T13:44:00.000Z'),
+          day_of: new Date ('1855-12-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 350,
@@ -5537,13 +5537,13 @@ exports.seed = function(knex, Promise) {
           name: 'The Adventures of Huckleberry Finn by Mark Twain published in 1884.',
           color: '#5F574C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/theadventuresofhuckleberryfinn.jpg',
-          day_of: new Date ('1884-12-10T13:44:00.000Z'),
+          day_of: new Date ('1884-12-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 351,
@@ -5551,7 +5551,7 @@ exports.seed = function(knex, Promise) {
           name: 'Borah Bergman (pianist), born 1926',
           color: '#092250',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/borahbergman.jpg',
-          day_of: new Date ('1926-12-13T13:44:00.000Z'),
+          day_of: new Date ('1926-12-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5561,8 +5561,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://blaisesiwula.bandcamp.com/album/like-a-lark' ],
             "a_strings": [ 'Like A Lark by Blaise Siwula and Borah Bergman' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 352,
@@ -5570,13 +5570,13 @@ exports.seed = function(knex, Promise) {
           name: 'Shirley Jackson (author), born 1916',
           color: '#3B3B3B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/shirleyjackson.jpg',
-          day_of: new Date ('1916-12-14T13:44:00.000Z'),
+          day_of: new Date ('1916-12-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 353,
@@ -5584,13 +5584,13 @@ exports.seed = function(knex, Promise) {
           name: 'Toshinori Kondo (trumpet), born 1948',
           color: '#908164',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/toshinorikondo.jpg',
-          day_of: new Date ('1948-12-15T13:44:00.000Z'),
+          day_of: new Date ('1948-12-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 354,
@@ -5598,13 +5598,13 @@ exports.seed = function(knex, Promise) {
           name: 'Madame Bovary by Gustave Flaubert published in 1856',
           color: '#B89377',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/madamebovary.jpg',
-          day_of: new Date ('1856-12-18T13:44:00.000Z'),
+          day_of: new Date ('1856-12-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 355,
@@ -5612,13 +5612,13 @@ exports.seed = function(knex, Promise) {
           name: 'Philip K. Dick (author), born 1928',
           color: '#9DADAA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/philipkdick.jpg',
-          day_of: new Date ('1928-12-16T13:44:00.000Z'),
+          day_of: new Date ('1928-12-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 356,
@@ -5626,13 +5626,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ty Cobb (outfielder), born 1886',
           color: '#E5DBD1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/tycobb.png',
-          day_of: new Date ('1886-12-18T13:44:00.000Z'),
+          day_of: new Date ('1886-12-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 357,
@@ -5640,13 +5640,13 @@ exports.seed = function(knex, Promise) {
           name: 'Matt Ingalls (composer), born 1970',
           color: '#F8F8F8',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/mattingalls.jpeg',
-          day_of: new Date ('1970-12-18T13:44:00.000Z'),
+          day_of: new Date ('1970-12-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 358,
@@ -5654,7 +5654,7 @@ exports.seed = function(knex, Promise) {
           name: 'Paul Klee (artist), born 1879',
           color: '#C3C3C3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/paulklee.jpg',
-          day_of: new Date ('1879-12-18T13:44:00.000Z'),
+          day_of: new Date ('1879-12-18 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -5664,8 +5664,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee', 'Paul Klee' ],
             "years": [ '1907', '1910', '1913', '1914', '1914', '1914', '1914', '1914', '1914', '1914', '1915', '1915', '1916', '1917', '1917', '1917', '1918', '1918', '1918', '1919', '1919', '1919', '1919', '1919', '1919', '1919', '1920', '1920', '1920', '1920', '1920', '1920', '1921', '1921', '1921', '1921', '1921', '1921', '1921', '1921', '1921', '1921', '1922', '1922', '1922', '1922', '1922', '1922', '1922', '1922', '1923', '1923', '1923', '1923', '1923', '1923', '1923', '1923', '1924', '1924', '1924', '1925', '1925', '1925', '1925', '1925', '1925', '1925', '1926', '1926' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 359,
@@ -5673,13 +5673,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ahmad Ibn al-Qadi (mathematician), born in 1552',
           color: '#D2D2D3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/ahmadibnalqadi.jpg',
-          day_of: new Date ('1552-12-18T13:44:00.000Z'),
+          day_of: new Date ('1552-12-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 360,
@@ -5687,7 +5687,7 @@ exports.seed = function(knex, Promise) {
           name: 'Julia Wolfe (composer), born 1958',
           color: '#FDFFFE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/juliawolfe.jpg',
-          day_of: new Date ('1958-12-18T13:44:00.000Z'),
+          day_of: new Date ('1958-12-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5697,8 +5697,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://juliawolfemusic.bandcamp.com/album/anthracite-fields', 'http://juliawolfemusic.bandcamp.com/album/steel-hammer', 'http://juliawolfemusic.bandcamp.com/album/cruel-sister', 'http://juliawolfemusic.bandcamp.com/album/dark-full-ride', 'http://juliawolfemusic.bandcamp.com/album/the-string-quartets' ],
             "a_strings": [ 'Anthracite Fields by Julia Wolfe ft. Bang on a Can All-Stars &amp; Choir of Trinity Wall Street', 'Steel Hammer by Julia Wolfe ft. Bang on a Can All-Stars &amp; Trio Mediaeval', 'Cruel Sister by Julia Wolfe', 'Dark Full Ride by Julia Wolfe', 'The String Quartets by Julia Wolfe' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 361,
@@ -5706,7 +5706,7 @@ exports.seed = function(knex, Promise) {
           name: 'James Emery (guitar), born 1951',
           color: '#9C3A57',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jamesemery.jpg',
-          day_of: new Date ('1951-12-21T13:44:00.000Z'),
+          day_of: new Date ('1951-12-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5716,8 +5716,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/exo-eso' ],
             "a_strings": [ 'Exo Eso by JAMES EMERY' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 362,
@@ -5725,13 +5725,13 @@ exports.seed = function(knex, Promise) {
           name: 'Edgard Varese (composer), born 1883',
           color: '#7C7C7C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/edgardvarese.jpg',
-          day_of: new Date ('1883-12-22T13:44:00.000Z'),
+          day_of: new Date ('1883-12-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 363,
@@ -5739,7 +5739,7 @@ exports.seed = function(knex, Promise) {
           name: 'Fennesz (composer), born 1962',
           color: '#290205',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/fennesz.jpg',
-          day_of: new Date ('1962-12-25T13:44:00.000Z'),
+          day_of: new Date ('1962-12-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5749,8 +5749,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://fennesz.bandcamp.com/album/mahler-remixed', 'http://fenneszreleases.bandcamp.com/album/seven-stars', 'http://fenneszreleases.bandcamp.com/album/black-sea', 'http://fenneszreleases.bandcamp.com/album/live-in-japan', 'http://fenneszreleases.bandcamp.com/album/venice', 'http://fenneszreleases.bandcamp.com/album/field-recordings-1995-2002', 'http://fenneszreleases.bandcamp.com/album/plus-forty-seven-degrees-56-37-minus-sixteen-degrees-51-08', 'http://editionsmego.bandcamp.com/album/b-cs' ],
             "a_strings": [ 'Mahler Remixed by fennesz', 'Seven Stars by Fennesz', 'Black Sea by Fennesz', 'Live in Japan by Fennesz', 'Venice by Fennesz', 'Field Recordings 1995-2002 by Fennesz', 'plus forty seven degrees 56&#39; 37&quot; minus sixteen degrees 51&#39; 08&quot; by Fennesz', 'Bécs by Fennesz' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 364,
@@ -5758,13 +5758,13 @@ exports.seed = function(knex, Promise) {
           name: 'Don Pullen (pianist), born 1941',
           color: '#A4A4A4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/donpullen.jpg',
-          day_of: new Date ('1941-12-25T13:44:00.000Z'),
+          day_of: new Date ('1941-12-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 365,
@@ -5772,13 +5772,13 @@ exports.seed = function(knex, Promise) {
           name: 'Joe Lovano (reeds), born 1952',
           color: '#645945',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/joelovano.jpg',
-          day_of: new Date ('1952-12-29T13:44:00.000Z'),
+          day_of: new Date ('1952-12-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 366,
@@ -5786,7 +5786,7 @@ exports.seed = function(knex, Promise) {
           name: 'Henri Matisse (artist), born 1869',
           color: '#26967C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/henrimatisse.jpg',
-          day_of: new Date ('1869-12-31T13:44:00.000Z'),
+          day_of: new Date ('1869-12-31 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -5796,8 +5796,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Henri Matisse', 'Henri Matisse', 'Henri Matisse', 'Henri Matisse', 'Henri Matisse', 'Henri Matisse', 'Henri Matisse', 'Henri Matisse', 'Henri Matisse', 'Henri Matisse' ],
             "years": [ '1943', '1902', '1904 - 1905', '1905', '1953', '1952', '1907', '1912 - 1913', '1915 - 1916', '1906' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 367,
@@ -5805,13 +5805,13 @@ exports.seed = function(knex, Promise) {
           name: 'Piotr Orzechowski (pianist), born 1990',
           color: '#4A4939',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/piotrorzechowski.jpg',
-          day_of: new Date ('1990-12-31T13:44:00.000Z'),
+          day_of: new Date ('1990-12-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 368,
@@ -5819,7 +5819,7 @@ exports.seed = function(knex, Promise) {
           name: 'Claude Debussy (composer), born 1862',
           color: '#CFCFCF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/claudedebussy.jpeg',
-          day_of: new Date ('1862-08-22T13:44:00.000Z'),
+          day_of: new Date ('1862-08-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5829,8 +5829,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://claudedebussy.bandcamp.com/album/claude-debussy-the-essential-collection', 'http://gerluz.bandcamp.com/album/gerluz-plays-claude-debussy', 'http://johnmarkpiano.bandcamp.com/album/preludes-book-one-claude-debussy' ],
             "a_strings": [ 'Claude Debussy - The Essential Collection by Claude Debussy', 'Gerluz plays Claude Debussy by Gerluz', 'Preludes, Book One (Claude Debussy) by John Mark Harris plays Debussy' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 369,
@@ -5838,13 +5838,13 @@ exports.seed = function(knex, Promise) {
           name: 'Johnny Evers (second baseman), born 1881',
           color: '#645444',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/johnnyevers.jpg',
-          day_of: new Date ('1881-07-21T13:44:00.000Z'),
+          day_of: new Date ('1881-07-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 370,
@@ -5852,13 +5852,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mike Fiers pitches a no-hitter for the Houston Atros vs. Los Angeles Dodgers in 2015',
           color: '#F09224',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/mikefiersnohit.jpg',
-          day_of: new Date ('2015-08-21T13:44:00.000Z'),
+          day_of: new Date ('2015-08-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 371,
@@ -5866,13 +5866,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1982 when the combined gravitational forces of the aligned planets caused a series of earthquakes according to the prophecy of John Gribbin.',
           color: '#6C90C0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/prophetjohngribbin.jpg',
-          day_of: new Date ('1982-03-10T13:44:00.000Z'),
+          day_of: new Date ('1982-03-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 372,
@@ -5880,13 +5880,13 @@ exports.seed = function(knex, Promise) {
           name: 'If on a Winter\'s Night a Traveler by Italo Calvino published in 1979.',
           color: '#FAF8FB',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/ifonawintersnightatraveler.jpg',
-          day_of: new Date ('1979-06-02T13:44:00.000Z'),
+          day_of: new Date ('1979-06-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 373,
@@ -5894,7 +5894,7 @@ exports.seed = function(knex, Promise) {
           name: 'Marcel Janco (artist), born 1895',
           color: '#C6BAB1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/marceljanco.jpg',
-          day_of: new Date ('1895-05-24T13:44:00.000Z'),
+          day_of: new Date ('1895-05-24 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -5904,8 +5904,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco', 'Marcel Janco' ],
             "years": [ '1916', '1917', '1917', '1917 - 1918', '1918', '1919', '1919', '1925', '1925 - 1927', '1930', '1930', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 374,
@@ -5913,7 +5913,7 @@ exports.seed = function(knex, Promise) {
           name: 'KK Null (composer), born 1961',
           color: '#FEA201',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/kknull.jpg',
-          day_of: new Date ('1961-09-13T13:44:00.000Z'),
+          day_of: new Date ('1961-09-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -5923,8 +5923,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://kknull1.bandcamp.com/album/edging', 'http://kknull1.bandcamp.com/album/baryogenesis', 'http://kknull1.bandcamp.com/album/a-page-of-madness', 'http://kknull1.bandcamp.com/album/star-breaker', 'http://kknull1.bandcamp.com/album/eternal-implosion', 'http://kknull1.bandcamp.com/album/vulcanoid', 'http://kknull1.bandcamp.com/album/extropy-zero-one', 'http://kknull1.bandcamp.com/album/extropy', 'http://kk-null.bandcamp.com/album/oxygen-flash', 'http://kk-null.bandcamp.com/album/atomik-disorder', 'http://kknullore.bandcamp.com/album/components-of-circulation-dawn-of-time', 'http://deison.bandcamp.com/album/deison-kk-null-into', 'http://crisx.bandcamp.com/album/genshi-wakusei-proto-planet', 'http://ohmresistance.bandcamp.com/album/demon-core', 'http://danielmenche.bandcamp.com/album/raijin' ],
             "a_strings": [ 'Edging by KK NULL', 'BaryoGenesis by KK NULL', 'A Page Of Madness by KK NULL', 'Star Breaker by KK NULL', 'Eternal Implosion by KK NULL', 'Vulcanoid by KK NULL', 'Extropy Zero One by KK NULL', 'Extropy by KK NULL', 'Oxygen Flash by KK Null', 'Atomik Disorder by KK Null', 'Components of Circulation / Dawn of Time by KK Null &amp; Ore', 'Deison/KK.Null-Into by Deison/KK Null', 'Genshi Wakusei (Proto Planet) by KK Null / Cris X', 'Demon Core by KK Null &amp; Balázs Pándi', 'Raijin by Daniel Menche and KK Null' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 375,
@@ -5932,13 +5932,13 @@ exports.seed = function(knex, Promise) {
           name: 'Pete La Roca (drummer), born 1938',
           color: '#C9C1FA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/petelaroca.jpg',
-          day_of: new Date ('1938-04-07T13:44:00.000Z'),
+          day_of: new Date ('1938-04-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 376,
@@ -5946,13 +5946,13 @@ exports.seed = function(knex, Promise) {
           name: 'Charles Mingus (bassist), born 1922',
           color: '#331820',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/charlesmingus.jpg',
-          day_of: new Date ('1922-04-22T13:44:00.000Z'),
+          day_of: new Date ('1922-04-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 377,
@@ -5960,13 +5960,13 @@ exports.seed = function(knex, Promise) {
           name: 'Alcide Nunez (clarinet), born 1884',
           color: '#665053',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/alcidenunez.jpg',
-          day_of: new Date ('1884-03-17T13:44:00.000Z'),
+          day_of: new Date ('1884-03-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 378,
@@ -5974,13 +5974,13 @@ exports.seed = function(knex, Promise) {
           name: 'One Day in the Life of Ivan Denisovich by Aleksandr Solzhenitsyn published in 1962 (and soon banned in the Soviet Union)',
           color: '#993B29',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/onedayinthelifeofivandenisovich.jpg',
-          day_of: new Date ('1962-11-02T13:44:00.000Z'),
+          day_of: new Date ('1962-11-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 379,
@@ -5988,13 +5988,13 @@ exports.seed = function(knex, Promise) {
           name: 'Julian Priester (trombone), born 1935',
           color: '#4E3C30',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/julianpriester.jpg',
-          day_of: new Date ('1935-06-29T13:44:00.000Z'),
+          day_of: new Date ('1935-06-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 380,
@@ -6002,7 +6002,7 @@ exports.seed = function(knex, Promise) {
           name: 'Keith Rowe (guitar), born 1940',
           color: '#AE6C38',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/keithrowe.jpg',
-          day_of: new Date ('1940-03-16T13:44:00.000Z'),
+          day_of: new Date ('1940-03-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6012,8 +6012,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://mikroton.bandcamp.com/album/the-bakery', 'http://mikroton.bandcamp.com/album/shifting-currents' ],
             "a_strings": [ 'The Bakery by Keith Rowe / Martin Küchen', 'Shifting Currents by Rick Reed / Keith Rowe / Bill Thompson' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 381,
@@ -6021,13 +6021,13 @@ exports.seed = function(knex, Promise) {
           name: 'George Sand (novelist/feminist), born 1804',
           color: '#3A9FE0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/georgesand.jpg',
-          day_of: new Date ('1804-07-01T13:44:00.000Z'),
+          day_of: new Date ('1804-07-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 382,
@@ -6035,13 +6035,13 @@ exports.seed = function(knex, Promise) {
           name: 'McCoy Tyner (pianist), born 1938',
           color: '#BB986E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/mccoytyner.jpg',
-          day_of: new Date ('1938-12-11T13:44:00.000Z'),
+          day_of: new Date ('1938-12-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 383,
@@ -6049,13 +6049,13 @@ exports.seed = function(knex, Promise) {
           name: 'Joseph L. Ullman (mathematician), born 1923',
           color: '#C9C8C4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/josephlullman.jpg',
-          day_of: new Date ('1923-01-30T13:44:00.000Z'),
+          day_of: new Date ('1923-01-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 384,
@@ -6063,13 +6063,13 @@ exports.seed = function(knex, Promise) {
           name: 'Dazzy Vance (pitcher), born 1891',
           color: '#E0DFDD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/dazzyvance.jpg',
-          day_of: new Date ('1891-03-04T13:44:00.000Z'),
+          day_of: new Date ('1891-03-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 385,
@@ -6077,13 +6077,13 @@ exports.seed = function(knex, Promise) {
           name: 'Colin Ward (anarchist/writer), born 1924',
           color: '#CBCAC2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/colinward.jpg',
-          day_of: new Date ('1924-08-14T13:44:00.000Z'),
+          day_of: new Date ('1924-08-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 386,
@@ -6091,13 +6091,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Eaton (composer), born 1935',
           color: '#A26D27',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johneaton.jpg',
-          day_of: new Date ('1935-05-30T13:44:00.000Z'),
+          day_of: new Date ('1935-05-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 387,
@@ -6105,13 +6105,13 @@ exports.seed = function(knex, Promise) {
           name: 'Carlton Fisk (catcher), born 1947',
           color: '#BF362C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/carltonfisk.jpg',
-          day_of: new Date ('1947-12-26T13:44:00.000Z'),
+          day_of: new Date ('1947-12-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 388,
@@ -6119,13 +6119,13 @@ exports.seed = function(knex, Promise) {
           name: 'Matt Garza pitches a no-hitter in 2010 for the Tampa Bay Rays vs. Detroit Tigers',
           color: '#E5D9E3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/garzanohit.jpg',
-          day_of: new Date ('2010-07-26T13:44:00.000Z'),
+          day_of: new Date ('2010-07-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 389,
@@ -6133,13 +6133,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 793 as predicted by the Spanish monk Beatus of Liébana',
           color: '#DE1F14',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/BeatusofLiébana.jpg',
-          day_of: new Date ('0793-04-06T13:44:00.000Z'),
+          day_of: new Date ('0793-04-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 390,
@@ -6147,7 +6147,7 @@ exports.seed = function(knex, Promise) {
           name: 'Alison Knowles (artist), born 1933',
           color: '#BAB854',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/alisonknowles.jpg',
-          day_of: new Date ('1933-04-29T13:44:00.000Z'),
+          day_of: new Date ('1933-04-29 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -6157,8 +6157,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Alison Knowles', 'Alison Knowles', 'Alison Knowles', 'Alison Knowles', 'Alison Knowles' ],
             "years": [ '1960', '1964', '1969', '1978', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 391,
@@ -6166,7 +6166,7 @@ exports.seed = function(knex, Promise) {
           name: 'Alvin Lucier (composer), born 1931',
           color: '#658463',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/alvinlucier.jpg',
-          day_of: new Date ('1931-05-14T13:44:00.000Z'),
+          day_of: new Date ('1931-05-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6176,8 +6176,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://alvinlucier.bandcamp.com/album/still-and-moving-lines', 'http://sarahhennies.bandcamp.com/album/still-and-moving-lines-of-silence-in-families-of-hyperbolas', 'http://zeitkratzer.bandcamp.com/album/alvin-lucier-old-school', 'http://quietdesign.bandcamp.com/album/still-and-moving-lines-of-silence-in-families-of-hyperbolas', 'http://henriqueiwao.bandcamp.com/album/alvin-luciers-mor-moning-just-me-a', 'http://sound-art.bandcamp.com/album/im-sitting-in-a-room', 'http://raxil4.bandcamp.com/album/music-on-a-long-thin-wire-alvin-lucier-1977-machines-rooms-23-07-16' ],
             "a_strings": [ 'Still and Moving Lines by Alvin Lucier', 'Still and Moving Lines of Silence In Families of Hyperbolas by Alvin Lucier', 'Alvin Lucier [old school] by zeitkratzer', 'Still and Moving Lines of Silence in Families of Hyperbolas by Alvin Lucier + Nick Hennies', 'Alvin Lucier&#39;s Mor Moning Just Me A by Henrique Iwao', 'I&#39;m Sitting in a Room by Alvin Lucier (compositeur) / Angèle Chemin (interprète)', 'music on a long thin wire (alvin lucier: 1977) @ machines rooms: 23/07/16 by raxil4 + μ' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 392,
@@ -6185,13 +6185,13 @@ exports.seed = function(knex, Promise) {
           name: 'Paul Motion (drummer), born 1931',
           color: '#FDFEE2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/paulmotion.jpg',
-          day_of: new Date ('1931-03-25T13:44:00.000Z'),
+          day_of: new Date ('1931-03-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 393,
@@ -6199,7 +6199,7 @@ exports.seed = function(knex, Promise) {
           name: 'Mike Osborne (reeds), born 1941',
           color: '#ABABAB',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/mikeosborne.jpg',
-          day_of: new Date ('1941-09-28T13:44:00.000Z'),
+          day_of: new Date ('1941-09-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6209,8 +6209,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://cuneiformrecords.bandcamp.com/album/bremen-to-bridgwater', 'http://cuneiformrecords.bandcamp.com/album/eclipse-at-dawn', 'http://cuneiformrecords.bandcamp.com/album/dawn' ],
             "a_strings": [ 'Bremen to Bridgwater by Chris McGregor&#39;s Brotherhood Of Breath', 'Eclipse at Dawn by Chris McGregor&#39;s Brotherhood Of Breath', 'Dawn by Mike Osborne' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 394,
@@ -6218,13 +6218,13 @@ exports.seed = function(knex, Promise) {
           name: 'The Perks of Being a Wallflower by Stephen Chbosky published in 1999 and frequently challenged and banned in public school libraries.',
           color: '#61A3CF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/theperksofbeingawallflower.jpg',
-          day_of: new Date ('1999-02-01T13:44:00.000Z'),
+          day_of: new Date ('1999-02-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 395,
@@ -6232,7 +6232,7 @@ exports.seed = function(knex, Promise) {
           name: 'Steve Reich (composer), born 1936',
           color: '#E0E4E5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/stevereich.jpg',
-          day_of: new Date ('1936-10-03T13:44:00.000Z'),
+          day_of: new Date ('1936-10-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6242,8 +6242,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sopercussion.bandcamp.com/album/steve-reich-drumming', 'http://karlrecords.bandcamp.com/album/four-organs-phase-patterns-pendulum-music' ],
             "a_strings": [ 'Steve Reich: Drumming by So Percussion', 'Four Organs / Phase Patterns / Pendulum Music by STEVE REICH / ENSEMBLE AVANTGARDE' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 396,
@@ -6251,7 +6251,7 @@ exports.seed = function(knex, Promise) {
           name: 'Alexander von Schlippenbach (pianist), born 1938',
           color: '#FDF5CD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/alexandervonschlippenbach.JPG',
-          day_of: new Date ('1938-04-07T13:44:00.000Z'),
+          day_of: new Date ('1938-04-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6261,8 +6261,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://alexandervonschlippenbach.bandcamp.com/album/schlippenbach-plays-monk', 'http://alexandervonschlippenbach.bandcamp.com/album/twelve-tone-tales-vol-1', 'http://alexandervonschlippenbach.bandcamp.com/album/twelve-tone-tales-vol-2', 'http://destination-out.bandcamp.com/album/the-morlocks-and-other-pieces', 'http://destination-out.bandcamp.com/album/piano-solo-77', 'http://intaktrec.bandcamp.com/album/so-long-eric-homage-to-eric-dolphy', 'http://intaktrec.bandcamp.com/album/iron-wedding', 'http://trostrecords.bandcamp.com/album/schraubenlieder', 'http://nivuniconnu.bandcamp.com/album/ein-abend-in-p-seldorf', 'http://whyplayjazz.bandcamp.com/album/abstract-window' ],
             "a_strings": [ 'Schlippenbach plays Monk by Alexander von Schlippenbach', 'Twelve Tone Tales, Vol. 1 by Alexander von Schlippenbach', 'Twelve Tone Tales, Vol. 2 by Alexander von Schlippenbach', 'The Morlocks and Other Pieces by ALEXANDER VON SCHLIPPENBACH', 'Piano Solo &#39;77 by ALEXANDER VON SCHLIPPENBACH', 'So Long, Eric! Homage to Eric Dolphy by Aki Takase - Alexander von Schlippenbach', 'Iron Wedding by Aki Takase, Alexander von Schlippenbach', 'Schraubenlieder by SVEN-AKE JOHANSSON / ALEXANDER VON SCHLIPPENBACH', 'Ein Abend in Pöseldorf by Alexander von Schlippenbach / Sven-Åke Johansson', 'Abstract Window by Kasper Tom / Alexander von Schlippenbach / Rudi Mahall' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 397,
@@ -6270,13 +6270,13 @@ exports.seed = function(knex, Promise) {
           name: 'Dorthy Thompson (feminist, journalist), born 1893',
           color: '#F0F0F0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/dorthythompson.jpg',
-          day_of: new Date ('1893-07-09T13:44:00.000Z'),
+          day_of: new Date ('1893-07-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 398,
@@ -6284,13 +6284,13 @@ exports.seed = function(knex, Promise) {
           name: 'Vladimir Vapnik (computer scientist), born 1936',
           color: '#674625',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/vladimirvapnik.jpg',
-          day_of: new Date ('1936-12-06T13:44:00.000Z'),
+          day_of: new Date ('1936-12-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 399,
@@ -6298,13 +6298,13 @@ exports.seed = function(knex, Promise) {
           name: 'Billy Williams (lef fielder/first baseman), born 1938',
           color: '#C1D2D9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/billywilliams.jpg',
-          day_of: new Date ('1938-06-15T13:44:00.000Z'),
+          day_of: new Date ('1938-06-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 400,
@@ -6312,7 +6312,7 @@ exports.seed = function(knex, Promise) {
           name: 'Taro Yamamoto (artist), born 1919',
           color: '#989898',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/taroyamamoto.png',
-          day_of: new Date ('1919-10-29T13:44:00.000Z'),
+          day_of: new Date ('1919-10-29 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -6322,8 +6322,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto', 'Taro Yamamoto' ],
             "years": [ '1957', '1961', '1961', '1964', '1970', '1972', '1972', '1972', '1974', '1976', '1976', '1987', '?', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 401,
@@ -6331,13 +6331,13 @@ exports.seed = function(knex, Promise) {
           name: 'Adrian Fokker (physicist, musician), born 1887',
           color: '#FFFFFD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/adrianfokker.jpg',
-          day_of: new Date ('1887-08-17T13:44:00.000Z'),
+          day_of: new Date ('1887-08-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 402,
@@ -6345,13 +6345,13 @@ exports.seed = function(knex, Promise) {
           name: 'Rich "Goose" Gossage (pitcher), born 1951',
           color: '#377B3E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/richgossage.jpg',
-          day_of: new Date ('1951-07-05T13:44:00.000Z'),
+          day_of: new Date ('1951-07-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 403,
@@ -6359,13 +6359,13 @@ exports.seed = function(knex, Promise) {
           name: 'Felix Hernandez pitches a perfect game in 2012 for the Seattle Mariners vs. Tampa Bay Rays',
           color: '#FAD3AF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/felixhernandezperfect.jpg',
-          day_of: new Date ('2012-08-15T13:44:00.000Z'),
+          day_of: new Date ('2012-08-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 404,
@@ -6373,13 +6373,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hans Leybold (poet), born 1892',
           color: '#87909B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/hanslaybold.jpg',
-          day_of: new Date ('1892-04-02T13:44:00.000Z'),
+          day_of: new Date ('1892-04-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 405,
@@ -6387,7 +6387,7 @@ exports.seed = function(knex, Promise) {
           name: 'Merzbow (composer), born 1956',
           color: '#594194',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/merzbow.jpeg',
-          day_of: new Date ('1956-12-19T13:44:00.000Z'),
+          day_of: new Date ('1956-12-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6397,8 +6397,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://merzbow.bandcamp.com/album/dharma', 'http://merzbow.bandcamp.com/album/tauromachine', 'http://merzbow.bandcamp.com/album/pulse-demon', 'http://merzbow.bandcamp.com/album/venerology', 'http://borismerzbow.bandcamp.com/album/gensho', 'http://oakenpalace.bandcamp.com/album/kakapo', 'http://othervoicesrecords.bandcamp.com/album/escape-mask-vox-29-cd', 'http://automationrecords.bandcamp.com/album/aodron', 'http://soundandmatter.bandcamp.com/album/muen', 'http://essence-music.bandcamp.com/album/konchuuki', 'http://licht-ung.bandcamp.com/album/dead-leaves', 'http://samboygethelp.bandcamp.com/album/uzu-me-ku', 'http://blacksmokerrecords.bandcamp.com/album/eureka-moment', 'http://rustblade.bandcamp.com/album/lop-lop', 'http://retortrecords.bandcamp.com/album/ko-to-no-o-to', 'http://elevatorbath.bandcamp.com/album/pulse-vegan', 'http://licht-ung.bandcamp.com/album/merzbow-zara', 'http://caminanterecordings.bandcamp.com/album/live-magnetism', 'http://irrationalarts.bandcamp.com/album/spiral-honey' ],
             "a_strings": [ 'Dharma by Merzbow', 'Tauromachine by Merzbow', 'Pulse Demon by Merzbow', 'Venerology by Merzbow', 'Gensho by Boris &amp; Merzbow', 'Kakapo by Merzbow', 'Escape Mask [VOX 29 CD] by Merzbow', 'Aodron by Merzbow', 'Muen by Merzbow', 'Konchuuki by Merzbow', 'Dead Leaves / 枯葉 by Merzbow', 'Uzu Me Ku by Merzbow', 'Eureka Moment by Merzbow', 'Lop Lop by Merzbow', 'Ko To No O To by Merzbow', 'pulse vegan by merzbow', 'Merzbow - ZaRa by Merzbow', 'Live Magnetism by Merzbow', 'Spiral Honey by Merzbow' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 406,
@@ -6406,7 +6406,7 @@ exports.seed = function(knex, Promise) {
           name: 'Paal Nilssen-Love (drummer), born 1974',
           color: '#A98C50',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/paalnilssenlove.jpg',
-          day_of: new Date ('1974-12-24T13:44:00.000Z'),
+          day_of: new Date ('1974-12-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6416,8 +6416,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://paalnilssen-love.bandcamp.com/album/live-in-tel-aviv', 'http://paalnilssen-love.bandcamp.com/album/death-rattle', 'http://paalnilssen-love.bandcamp.com/album/tomorrow-came-today', 'http://paalnilssen-love.bandcamp.com/album/brolt', 'http://paalnilssen-love.bandcamp.com/album/otomo-yoshihide-paal-nilssen-love', 'http://paalnilssen-love.bandcamp.com/album/krakow-nights', 'http://paalnilssen-love.bandcamp.com/album/hairy-bones', 'http://paalnilssen-love.bandcamp.com/album/hasselt', 'http://paalnilssen-love.bandcamp.com/album/live-at-cafe-oto-with-steve-noble', 'http://paalnilssen-love.bandcamp.com/album/live-at-the-cafe-oto-with-pat-thomas', 'http://paalnilssen-love.bandcamp.com/album/mir', 'http://paalnilssen-love.bandcamp.com/album/never-forgotten-always-remembered', 'http://paalnilssen-love.bandcamp.com/album/nothing-is-forever', 'http://paalnilssen-love.bandcamp.com/album/scorch-trio', 'http://paalnilssen-love.bandcamp.com/album/snakelust-to-kenji-nakagami' ],
             "a_strings": [ 'Live In Tel Aviv by Peter Brötzmann, Steve Swell, Paal Nilssen-Love', 'Death Rattle by James Plotkin &amp; Paal Nilssen-Love', 'Tomorrow Came Today by Joe McPhee &amp; Paal Nilssen-Love', 'Brolt by Scorch Trio', 'Otomo Yoshihide &amp; Paal Nilssen-Love by Otomo Yoshihide &amp; Paal Nilssen-Love', 'Krakow Nights by Peter Brötzmann / Steve Swell / Paal Nilssen-Love', 'Hairy Bones by Hairy Bones', 'Hasselt by Frode Gjerstad / Paal Nilssen-Love Project', 'Live at Cafe OTO with Steve Noble by ADA', 'Live at the Cafe OTO with Pat Thomas by ADA', 'Mir by Frode Gjerstad Trio', 'Never Forgotten, Always Remembered by The Godforgottens', 'Nothing is Forever by Frode Gjerstad Trio', 'Scorch Trio by Paal Nilssen-Love /Ingebrigt Haker Flaten / Raoul Björkenheim', 'Snakelust (To Kenji Nakagami) by Hairy Bones' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 407,
@@ -6425,13 +6425,13 @@ exports.seed = function(knex, Promise) {
           name: 'Iva Papazov (clarinet), born 1952',
           color: '#FEFEFE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ivapapazov.jpg',
-          day_of: new Date ('1952-02-16T13:44:00.000Z'),
+          day_of: new Date ('1952-02-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 408,
@@ -6439,7 +6439,7 @@ exports.seed = function(knex, Promise) {
           name: 'Roswell Rudd (trombone), born 1935',
           color: '#5D64D5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/roswellrudd.jpeg',
-          day_of: new Date ('1935-11-17T13:44:00.000Z'),
+          day_of: new Date ('1935-11-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6449,8 +6449,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sunnysidezone.com/album/the-incredible-honk', 'http://sunnysidezone.com/album/trombone-for-lovers', 'http://cuneiformrecords.bandcamp.com/album/early-and-late' ],
             "a_strings": [ 'The Incredible Honk by Roswell Rudd', 'Trombone For Lovers by Roswell Rudd', 'Early and Late by Steve Lacy-Roswell Rudd Quartet' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 409,
@@ -6458,13 +6458,13 @@ exports.seed = function(knex, Promise) {
           name: 'Giacinto Scelsi (composer), born 1905',
           color: '#FEEFD0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/giacintoscelsi.jpg',
-          day_of: new Date ('1905-01-08T13:44:00.000Z'),
+          day_of: new Date ('1905-01-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 410,
@@ -6472,13 +6472,13 @@ exports.seed = function(knex, Promise) {
           name: 'David Torn (guitar), born 1953',
           color: '#CDB6EE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidtorn.jpg',
-          day_of: new Date ('1953-05-26T13:44:00.000Z'),
+          day_of: new Date ('1953-05-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 411,
@@ -6486,7 +6486,7 @@ exports.seed = function(knex, Promise) {
           name: 'Fred Van Hove (pianist), born 1937',
           color: '#957A29',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/fredvanhove.jpg',
-          day_of: new Date ('1937-02-19T13:44:00.000Z'),
+          day_of: new Date ('1937-02-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6496,8 +6496,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/church-organ', 'http://destination-out.bandcamp.com/album/verloren-maandag', 'http://kraak.bandcamp.com/album/hear-here-now', 'http://etiennebrunet.bandcamp.com/album/improvisations', 'http://balancepointacoustics.bandcamp.com/album/bpa-2-burns-longer' ],
             "a_strings": [ 'Church Organ by FRED VAN HOVE', 'Verloren Maandag by FRED VAN HOVE', 'Hear Here Now by Rhythm Section + Fred Van Hove', 'Improvisations by Etienne Brunet / Fred Van Hove', 'BPA -2 Burns Longer by Fred Van Hove / Peter Jacquemyn / Damon Smith' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 412,
@@ -6505,13 +6505,13 @@ exports.seed = function(knex, Promise) {
           name: 'Abraham Wald (mathematician), born 1902',
           color: '#E4E4E4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/abrahamwald.jpg',
-          day_of: new Date ('1902-10-31T13:44:00.000Z'),
+          day_of: new Date ('1902-10-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 413,
@@ -6519,7 +6519,7 @@ exports.seed = function(knex, Promise) {
           name: 'Rafael Zabaleta (artist), born 1907',
           color: '#8B9781',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/rafaelzabaleta.jpg',
-          day_of: new Date ('1907-11-06T13:44:00.000Z'),
+          day_of: new Date ('1907-11-06 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -6529,8 +6529,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta', 'Rafael Zabaleta' ],
             "years": [ '1932', '1933', '1934', '1934', '1935', '1942', '1942', '1942', '1943', '1943', '1944', '1945', '1948', '1952', '1954', '1955', '1955', '1955', '1957', '1958', '1958', '?', '?', '?', '?', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 414,
@@ -6538,13 +6538,13 @@ exports.seed = function(knex, Promise) {
           name: 'Erroll Garner (pianist), born 1923',
           color: '#BBBBBB',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/errollgarner.jpeg',
-          day_of: new Date ('1923-06-15T13:44:00.000Z'),
+          day_of: new Date ('1923-06-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 415,
@@ -6552,13 +6552,13 @@ exports.seed = function(knex, Promise) {
           name: 'Warren Spahn (pitcher), born 1921',
           color: '#F2F0F0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/warranspahn.jpg',
-          day_of: new Date ('1921-04-23T13:44:00.000Z'),
+          day_of: new Date ('1921-04-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 416,
@@ -6566,13 +6566,13 @@ exports.seed = function(knex, Promise) {
           name: 'Rickey Henderson (left fielder), born 1958',
           color: '#7AA426',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/rickyhenderson.jpg',
-          day_of: new Date ('1958-12-25T13:44:00.000Z'),
+          day_of: new Date ('1958-12-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 417,
@@ -6580,13 +6580,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hisahi Iwakuma pitches a no-hitter for the Seattle Mariners vs. Baltimore Orioles in 2015',
           color: '#B6B71A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/iwakumanohit.jpg',
-          day_of: new Date ('2015-08-12T13:44:00.000Z'),
+          day_of: new Date ('2015-08-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 418,
@@ -6594,13 +6594,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2012 according to the prophecy of José Luis de Jesús',
           color: '#8B5C24',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Joseluisdejesusmiranda.png',
-          day_of: new Date ('2012-06-30T13:44:00.000Z'),
+          day_of: new Date ('2012-06-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 419,
@@ -6608,7 +6608,7 @@ exports.seed = function(knex, Promise) {
           name: 'Tanya Kalmanovitch (violist), born 1970',
           color: '#659073',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/tanyakalmanovitch.jpg',
-          day_of: new Date ('1970-07-05T13:44:00.000Z'),
+          day_of: new Date ('1970-07-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6618,8 +6618,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://kalmanovitch.bandcamp.com/album/magic-mountain-kalmanovitch-maneri-duo', 'http://kalmanovitch.bandcamp.com/album/heart-mountain-myra-melford-tanya-kalmanovitch' ],
             "a_strings": [ 'Magic Mountain // Kalmanovitch Maneri Duo by Mat Maneri and Tanya Kalmanovitch', 'Heart Mountain // Myra Melford + Tanya Kalmanovitch by Myra Melford and Tanya Kalmanovitch' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 420,
@@ -6627,13 +6627,13 @@ exports.seed = function(knex, Promise) {
           name: 'The Luminaries by Eleanor Catton published in 2013',
           color: '#E3DDC6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/theluminaries.jpg',
-          day_of: new Date ('2013-08-24T13:44:00.000Z'),
+          day_of: new Date ('2013-08-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 421,
@@ -6641,7 +6641,7 @@ exports.seed = function(knex, Promise) {
           name: 'Joan Miró (artist) born in 1893',
           color: '#E8E8E8',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/joanmiró.jpg',
-          day_of: new Date ('1893-04-20T13:44:00.000Z'),
+          day_of: new Date ('1893-04-20 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -6651,8 +6651,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró', 'Joan Miró' ],
             "years": [ 'c.1912 - c.1914', 'c.1915', 'c.1916', 'c.1916', '1917', '1917-05', '1917', '1917', '1917', '1917', '1918', '1918', '1918', '1918', '1918', '1919', '1919', '1921', '1921', '1922', '1922 - 1923', '1922 - 1923', '1922 - 1923', '1923', '1924', '1924', '1923 - 1924', 'c.1924', '1924', '1924', '1924', '1923 - 1924', '1925', '1925', '1924 - 1925', '1925', '1924 - 1925', '1925', '1924 - 1925', '1925', '1925', '1925', '1925', '1925', '1926', '1926', '1926', '1927', '1927', '1927' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 422,
@@ -6660,7 +6660,7 @@ exports.seed = function(knex, Promise) {
           name: 'Gary Peacock (bassist), born 1935',
           color: '#E0E3E8',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/garypeacock.jpg',
-          day_of: new Date ('1935-05-12T13:44:00.000Z'),
+          day_of: new Date ('1935-05-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6670,8 +6670,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://intaktrec.bandcamp.com/album/in-motion-24bit-44khz', 'http://francoiscarrier.bandcamp.com/album/travelling-ligths' ],
             "a_strings": [ 'In Motion (24bit 44khz) by Richard Poole, Marilyn Crispell, Gary Peacock', 'Travelling Ligths by François Carrier, Michel Lambert, Paul Bley, Gary Peacock' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 423,
@@ -6679,13 +6679,13 @@ exports.seed = function(knex, Promise) {
           name: 'Revolutionary Voices: A Multicultural Queer Youth Anthology, edited by Amy Sonnie published in 2000 and frequently banned/challenged',
           color: '#C4BC9E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/revolutionaryvoices.jpg',
-          day_of: new Date ('2000-10-01T13:44:00.000Z'),
+          day_of: new Date ('2000-10-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 424,
@@ -6693,7 +6693,7 @@ exports.seed = function(knex, Promise) {
           name: 'Wayne Shorter (reeds), born 1933',
           color: '#9FCBCE',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/wayneshorter.jpg',
-          day_of: new Date ('1933-08-25T13:44:00.000Z'),
+          day_of: new Date ('1933-08-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6703,8 +6703,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://mellowyellowlive.bandcamp.com/album/wayne-shorter-quartet-monte-carlo-2016' ],
             "a_strings": [ 'WAYNE SHORTER QUARTET  Monte-Carlo 2016 by WAYNE SHORTER QUARTET' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 425,
@@ -6712,13 +6712,13 @@ exports.seed = function(knex, Promise) {
           name: 'Toru Takemitsu (composer), born 1930',
           color: '#E8E7E8',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/torutakemitsu.gif',
-          day_of: new Date ('1930-10-08T13:44:00.000Z'),
+          day_of: new Date ('1930-10-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 426,
@@ -6726,13 +6726,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mabel Vernon (suffragist), born 1883',
           color: '#888888',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/mabelvernon.jpg',
-          day_of: new Date ('1883-09-19T13:44:00.000Z'),
+          day_of: new Date ('1883-09-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 427,
@@ -6740,13 +6740,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mary Lou Williams (pianist), born 1910',
           color: '#E8E8E8',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/marylouwilliams.jpg',
-          day_of: new Date ('1910-05-08T13:44:00.000Z'),
+          day_of: new Date ('1910-05-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 428,
@@ -6754,13 +6754,13 @@ exports.seed = function(knex, Promise) {
           name: 'Leonardo Ximenes (mathematician), born in 1716',
           color: '#EDEDED',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/leonardoximenes.gif',
-          day_of: new Date ('1716-12-27T13:44:00.000Z'),
+          day_of: new Date ('1716-12-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 429,
@@ -6768,13 +6768,13 @@ exports.seed = function(knex, Promise) {
           name: 'Carl Yastrzemski (left fielder/first baseman), born 1939',
           color: '#F4EDDD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/carlyastrzemski.jpg',
-          day_of: new Date ('1939-08-22T13:44:00.000Z'),
+          day_of: new Date ('1939-08-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 430,
@@ -6782,13 +6782,13 @@ exports.seed = function(knex, Promise) {
           name: 'Susumu Hirasawa (composer), born 1954',
           color: '#F1D3A1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/susumuhirasawa.jpg',
-          day_of: new Date ('1954-04-01T13:44:00.000Z'),
+          day_of: new Date ('1954-04-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 431,
@@ -6796,13 +6796,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ichiro (right fielder), born 1973',
           color: '#D6A36A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/ichiro.jpg',
-          day_of: new Date ('1973-10-22T13:44:00.000Z'),
+          day_of: new Date ('1973-10-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 432,
@@ -6810,13 +6810,13 @@ exports.seed = function(knex, Promise) {
           name: 'Edwin Jackson tosses a no-hitter for the Arizona Diamondbacks vs. Tampa Bay Rays in 2010',
           color: '#CCD0D3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/edwinjacksonnono.jpg',
-          day_of: new Date ('2010-06-25T13:44:00.000Z'),
+          day_of: new Date ('2010-06-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 433,
@@ -6824,7 +6824,7 @@ exports.seed = function(knex, Promise) {
           name: 'Fred Lonberg-Holm (cellist), born 1962',
           color: '#007497',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/fredlonbergholm.jpg',
-          day_of: new Date ('1962-10-01T13:44:00.000Z'),
+          day_of: new Date ('1962-10-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6834,8 +6834,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://fredlonberg-holm.bandcamp.com/album/the-pickup-in-my-life', 'http://fredlonberg-holm.bandcamp.com/album/in-zenith-building-a-better-future', 'http://fredlonberg-holm.bandcamp.com/album/time-capsule-1-nd-project', 'http://fredlonberg-holm.bandcamp.com/album/lightbox-orchestra-the-drummers', 'http://fredlonberg-holm.bandcamp.com/track/goats', 'http://flyingaspidistra.bandcamp.com/album/flying-aspidistra-4-anagram-solos', 'http://flyingaspidistra.bandcamp.com/album/flying-aspidistra-8-cabin-cemetery-forest', 'http://elasticarts.bandcamp.com/album/fred-lonberg-holm-solo-live-at-elastic-81108', 'http://multikultiproject.bandcamp.com/album/coarse-day', 'http://peira.bandcamp.com/album/pm15-home', 'http://bocian.bandcamp.com/album/resistance', 'http://peira.bandcamp.com/album/pm11-discus-and-plumbing', 'http://bocian.bandcamp.com/album/you-can-be-mine', 'http://1980recs.bandcamp.com/album/561980-fred-lonberg-holm-variance-cs', 'http://weaselwalter.bandcamp.com/album/eruption', 'http://natewooleypleasureofthetextsoundamerican.bandcamp.com/album/throw-down-your-hammer-and-sing' ],
             "a_strings": [ 'The Pickup In My Life by Fred Lonberg-Holm', 'In Zenith - Building a Better Future by Fred Lonberg-Holm', 'Time Capsule 1 - ND Project by Fred Lonberg-Holm', 'lightbox orchestra - the drummers by Fred Lonberg-Holm', 'goats by Barnes Hill singers', 'Flying Aspidistra #4 - Anagram Solos by Fred Lonberg-Holm', 'Flying Aspidistra #8 - Cabin, Cemetery, Forest by Fred Lonberg-Holm', 'Fred Lonberg-Holm Solo / Live at Elastic, 8.11.08 by Fred Lonberg-Holm', 'Coarse Day by Fred Lonberg-Holm / Piotr Mełech', 'PM15 - Home by John Russell, Fred Lonberg-Holm duo', 'Resistance by Fred Lonberg-Holm &amp; Ken Vandermark', 'PM11 - Discus and Plumbing by Fred Lonberg-Holm, Raymond Strid duo', 'You Can Be Mine by Fred Lonberg-Holm &amp; Paal Nilssen-Love', '#561980 Fred Lonberg-Holm / Variance CS by 1980 recs', 'Eruption by Weasel Walter/Kevin Drumm/Fred Lonberg-Holm', 'Throw Down Your Hammer and Sing by Nate Wooley, Fred Lonberg-Holm &amp; Jason Roebke' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 434,
@@ -6843,13 +6843,13 @@ exports.seed = function(knex, Promise) {
           name: 'The Man in High Castle by Philip K. Dick published in 1962',
           color: '#D0BD92',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/themaninthehighcastle.jpg',
-          day_of: new Date ('1962-01-01T13:44:00.000Z'),
+          day_of: new Date ('1962-01-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 435,
@@ -6857,13 +6857,13 @@ exports.seed = function(knex, Promise) {
           name: 'Maurizio Nannucci (artist), born 1939',
           color: '#C0B3AB',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/maurizionannucci.jpg',
-          day_of: new Date ('1939-04-20T13:44:00.000Z'),
+          day_of: new Date ('1939-04-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 436,
@@ -6871,7 +6871,7 @@ exports.seed = function(knex, Promise) {
           name: 'Bobby Previte (drummer), born 1951',
           color: '#CAA7BC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/bobbyprevite.jpg',
-          day_of: new Date ('1951-07-16T13:44:00.000Z'),
+          day_of: new Date ('1951-07-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6881,8 +6881,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://bobbyprevite.bandcamp.com/album/dull-bang-gushing-sound-human-shriek', 'http://bobbyprevite.bandcamp.com/album/come-in-red-dog-this-is-tango-leader', 'http://bobbyprevite.bandcamp.com/album/groundtruther-i-latitude', 'http://bobbyprevite.bandcamp.com/album/groundtruther-ii-longitude', 'http://bobbyprevite.bandcamp.com/album/groundtruther-iii-altitude', 'http://bobbyprevite.bandcamp.com/album/doom-jazz', 'http://bobbyprevite.bandcamp.com/album/big-guns', 'http://bobbyprevite.bandcamp.com/album/cantos', 'http://bobbyprevite.bandcamp.com/album/the-23-constellations-of-joan-mir-the-definitive-recording', 'http://bobbyprevite.bandcamp.com/album/the-beta-popes-white-hate', 'http://bobbyprevite.bandcamp.com/album/110', 'http://bobbyprevite.bandcamp.com/album/pan-atlantic', 'http://bobbyprevite.bandcamp.com/album/the-pan-atlantic-band-live-in-europe', 'http://bobbyprevite.bandcamp.com/album/about-face-pan-atlantic-plays-bump', 'http://bobbyprevite.bandcamp.com/album/pitch-bump-meets-pan-atlantic', 'http://bobbyprevite.bandcamp.com/album/live-at-the-amphitheatre' ],
             "a_strings": [ 'Dull Bang, Gushing Sound, Human Shriek by Bobby Previte', 'Come in Red Dog, This is Tango Leader by Bobby Previte', 'Groundtruther I: Latitude by Bobby Previte', 'Groundtruther II: Longitude by Bobby Previte', 'Groundtruther III:Altitude by Bobby Previte', 'DOOM JAZZ by Swami Lateplate: Bobby Previte and Jamie Saft', 'Big Guns by Bobby Previte', 'Cantos by Swami Lateplate: Bobby Previte and Jamie Saft', 'The 23 Constellations of Joan Miró - The Definitive Recording by Bobby Previte', 'The Beta Popes: White Hate by Bobby Previte', '110 by Bobby Previte', 'Pan Atlantic by Bobby Previte', 'The Pan Atlantic Band - Live in Europe by Bobby Previte', 'About-Face: Pan Atlantic plays Bump by Bobby Previte', 'Pitch: Bump Meets Pan Atlantic by Bobby Previte - Bump meets Pan Atlantic', 'Live at the Amphitheatre by Bobby Previte' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 437,
@@ -6890,7 +6890,7 @@ exports.seed = function(knex, Promise) {
           name: 'Sam Rivers (reeds), born 1923',
           color: '#E3E3E3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/samrivers.jpg',
-          day_of: new Date ('1923-09-25T13:44:00.000Z'),
+          day_of: new Date ('1923-09-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6900,8 +6900,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://samrivers.bandcamp.com/album/reunion-live-in-new-york', 'http://destination-out.bandcamp.com/album/portrait', 'http://briangroder1.bandcamp.com/album/torque-w-sam-rivers-trio' ],
             "a_strings": [ 'Reunion: Live in New York by Sam Rivers | Dave Holland | Barry Altschul', 'Portrait by SAM RIVERS', 'Torque  (w/Sam Rivers Trio) by Brian Groder' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 438,
@@ -6909,13 +6909,13 @@ exports.seed = function(knex, Promise) {
           name: 'The Satanic Verses by Salman Rushdie published in 1988',
           color: '#909686',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/thesatanicverses.jpg',
-          day_of: new Date ('1988-09-26T13:44:00.000Z'),
+          day_of: new Date ('1988-09-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 439,
@@ -6923,13 +6923,13 @@ exports.seed = function(knex, Promise) {
           name: 'Natsuki Tamura (trumpet), born 1951',
           color: '#FEFFF7',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/natsukitamura.jpg',
-          day_of: new Date ('1951-07-26T13:44:00.000Z'),
+          day_of: new Date ('1951-07-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 440,
@@ -6937,7 +6937,7 @@ exports.seed = function(knex, Promise) {
           name: 'James "Blood" Ulmer (guitarist), born 1940',
           color: '#844A33',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jamesbloodulmer.jpg',
-          day_of: new Date ('1940-02-08T13:44:00.000Z'),
+          day_of: new Date ('1940-02-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6947,8 +6947,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://jamesbloodulmer.bandcamp.com/album/back-in-time', 'http://trostrecords.bandcamp.com/album/baby-talk' ],
             "a_strings": [ 'Back In Time by James “Blood” Ulmer&#39;s Odyssey', 'Baby Talk by James Blood Ulmer &amp; The Thing' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 441,
@@ -6956,7 +6956,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ken Vandermark (reeds), born 1964',
           color: '#E5E2DB',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/kenvandermark.jpg',
-          day_of: new Date ('1964-09-22T13:44:00.000Z'),
+          day_of: new Date ('1964-09-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -6966,8 +6966,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://vandermark1.bandcamp.com/album/construct-2-artfacts', 'http://vandermark1.bandcamp.com/album/construct-3-divadlo-29', 'http://vandermark1.bandcamp.com/album/construct-1-stone', 'http://vandermark1.bandcamp.com/album/escalator', 'http://vandermark1.bandcamp.com/album/shelter', 'http://vandermark1.bandcamp.com/album/momentum-1-stone', 'http://vandermark1.bandcamp.com/album/close-up-for-abbas-kiarostami', 'http://vandermark1.bandcamp.com/album/schlager', 'http://vandermark1.bandcamp.com/album/splinters', 'http://vandermark1.bandcamp.com/album/enormous-door', 'http://vandermark1.bandcamp.com/album/aaly-trio-ken-vandermark-hidden-in-the-stomach', 'http://vandermark1.bandcamp.com/album/aaly-trio-ken-vandermark-live-at-the-glenn-miller-cafe', 'http://vandermark1.bandcamp.com/album/aaly-trio-ken-vandermark-stumble', 'http://vandermark1.bandcamp.com/album/aaly-trio-dkv-trio-double-or-nothing', 'http://vandermark1.bandcamp.com/album/fred-anderson-dkv-trio', 'http://vandermark1.bandcamp.com/album/artifact-live-in-st-johann' ],
             "a_strings": [ 'Construct 2 : Artfacts by DEK Trio', 'Construct 3 : Divadlo 29 by DEK Trio', 'Construct 1 : Stone by DEK Trio', 'Escalator by Ken Vandermark, Klaus Kugel, Mark Tokar', 'Shelter by Shelter', 'Momentum 1 : Stone by Ken Vandermark', 'Close Up (For Abbas Kiarostami) by Ken Vandermark &amp; Lasse Marhaug', 'Schlager by C. Spencer Yeh &amp; Ken Vandermark', 'Splinters by Ken Vandermark', 'Enormous Door by The Ex &amp; Brass Unbound', 'AALY Trio + Ken Vandermark: Hidden In The Stomach by Ken Vandermark', 'AALY Trio + Ken Vandermark: Live at the Glenn Miller Cafe by Ken Vandermark', 'AALY Trio + Ken Vandermark: Stumble by Ken Vandermark', 'AALY Trio/DKV Trio: Double Or Nothing by Ken Vandermark', 'Fred Anderson / DKV Trio by Ken Vandermark', 'Artifact: Live In St. Johann by Ken Vandermark' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 442,
@@ -6975,13 +6975,13 @@ exports.seed = function(knex, Promise) {
           name: 'Harriet Shaw Weaver (activist/magazine editor), born 1876',
           color: '#CFD1CB',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/harrietshawweaver.jpg',
-          day_of: new Date ('1876-09-01T13:44:00.000Z'),
+          day_of: new Date ('1876-09-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 443,
@@ -6989,13 +6989,13 @@ exports.seed = function(knex, Promise) {
           name: 'William J. Youden (mathematician), born 1900',
           color: '#A5A5A5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/williamjyouden.gif',
-          day_of: new Date ('1900-04-12T13:44:00.000Z'),
+          day_of: new Date ('1900-04-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 444,
@@ -7003,13 +7003,13 @@ exports.seed = function(knex, Promise) {
           name: 'Fergie Jenkins (pitcher), born 1942',
           color: '#011E7A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/fergiejenkins.jpg',
-          day_of: new Date ('1942-12-13T13:44:00.000Z'),
+          day_of: new Date ('1942-12-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 445,
@@ -7017,13 +7017,13 @@ exports.seed = function(knex, Promise) {
           name: 'Clayton Kershaw pitches no-hitter for the Los Angeles Dodgers vs. Colorado Rockies in 2014',
           color: '#151D4D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/claytonkershawnohit.jpg',
-          day_of: new Date ('2014-06-18T13:44:00.000Z'),
+          day_of: new Date ('2014-06-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 446,
@@ -7031,13 +7031,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended in this day in 2003 when a planet entered the solar system and caused a cataclysmic pole shift on Earth. Or at least this was predicted by the prophetess Nancy Lieder.',
           color: '#4D1A45',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/nancyfruitloop.jpg',
-          day_of: new Date ('2003-05-27T13:44:00.000Z'),
+          day_of: new Date ('2003-05-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 447,
@@ -7045,13 +7045,13 @@ exports.seed = function(knex, Promise) {
           name: 'Diedre Murray (cellist), born 1951',
           color: '#2D2C3E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/diedremurray.jpg',
-          day_of: new Date ('1951-11-28T13:44:00.000Z'),
+          day_of: new Date ('1951-11-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 448,
@@ -7059,13 +7059,13 @@ exports.seed = function(knex, Promise) {
           name: 'Nobody\'s Fool by Richard Russo published in 1993',
           color: '#457F36',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/nobodysfool.jpg',
-          day_of: new Date ('1993-05-25T13:44:00.000Z'),
+          day_of: new Date ('1993-05-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 449,
@@ -7073,7 +7073,7 @@ exports.seed = function(knex, Promise) {
           name: 'Rufus Reid (bassist), born 1944',
           color: '#232321',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/rufusreid.jpg',
-          day_of: new Date ('1944-02-10T13:44:00.000Z'),
+          day_of: new Date ('1944-02-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7083,8 +7083,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sunnysidezone.com/album/seven-minds', 'http://sunnysidezone.com/album/corridor-to-the-limits' ],
             "a_strings": [ 'Seven Minds by Rufus Reid', 'Corridor To The Limits by Rufus Reid' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 450,
@@ -7092,7 +7092,7 @@ exports.seed = function(knex, Promise) {
           name: 'Pharoah Sanders (reeds), born 1940',
           color: '#287FCF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/pharoahsanders.jpg',
-          day_of: new Date ('1940-10-13T13:44:00.000Z'),
+          day_of: new Date ('1940-10-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7102,8 +7102,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://pharoahsanders.bandcamp.com/album/in-the-beginning-1963-1964', 'http://pharoahsanders.bandcamp.com/album/pharoah-sanders-quintet', 'http://preschmedia.bandcamp.com/album/pharoah-sanders-izipho-zam-lp-1969-2017', 'http://billlaswell.bandcamp.com/album/the-trance-of-seven-colors', 'http://adamrudolph.bandcamp.com/album/spirits' ],
             "a_strings": [ 'In The Beginning: 1963-1964 by Pharoah Sanders', 'Pharoah Sanders Quintet by Pharoah Sanders', 'PHAROAH SANDERS - Izipho Zam LP (1969) 2017 by Pharoah Sanders', 'The Trance Of Seven Colors by Maleem Mahmoud Ghania with Pharoah Sanders', 'Spirits by Pharoah Sanders, Hamid Drake, Adam Rudolph' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 451,
@@ -7111,7 +7111,7 @@ exports.seed = function(knex, Promise) {
           name: 'Kenny Wheeler (trumpet), born 1930',
           color: '#13354E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/kennywheeler.jpg',
-          day_of: new Date ('1930-01-14T13:44:00.000Z'),
+          day_of: new Date ('1930-01-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7121,8 +7121,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://kennywheeler.bandcamp.com/album/kayak', 'http://londonjazz.bandcamp.com/album/stan-sulzmann-kenny-wheelers-songs-for-quintet', 'http://jeffjohnston.bandcamp.com/album/jeff-johnston-quartet-with-kenny-wheeler', 'https://bandcamp.com/EmbeddedPlayer/album=1179159566/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'http://davesaul.bandcamp.com/album/dave-saul-quartet-featuring-kenny-wheeler', 'http://wheelerwinstonelvp.bandcamp.com/album/mirrors' ],
             "a_strings": [ 'Kayak by Kenny Wheeler', 'Stan Sulzmann: Kenny Wheeler&#39;s &#39;Songs for Quintet&#39; by Stan Sulzmann, Kenny Wheeler, LondonJazz', 'Jeff Johnston Quartet with Kenny Wheeler by Jeff Johnston', 'CD Summerflood by Jürgen Friedrich Quartet + Kenny Wheeler', 'Dave Saul Quartet featuring Kenny Wheeler by Dave Saul', 'Mirrors by Kenny Wheeler, Norma Winstone and London Vocal Project' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 452,
@@ -7130,13 +7130,13 @@ exports.seed = function(knex, Promise) {
           name: 'Abraham Ziv (mathematician), born 1940',
           color: '#727272',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/abrahamziv.jpg',
-          day_of: new Date ('1940-03-06T13:44:00.000Z'),
+          day_of: new Date ('1940-03-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 453,
@@ -7144,7 +7144,7 @@ exports.seed = function(knex, Promise) {
           name: 'Eyvind Kang (violinist), born 1971',
           color: '#892971',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/eyvindkang.jpg',
-          day_of: new Date ('1971-06-23T13:44:00.000Z'),
+          day_of: new Date ('1971-06-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7154,8 +7154,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://eyvindkang.bandcamp.com/album/the-narrow-garden', 'http://eyvindkang.bandcamp.com/album/athlantis', 'Virginal Co Ordinates by Eyvind Kang', 'http://ideologicorgan.bandcamp.com/album/visible-breath', 'http://orchestradimbridges.bandcamp.com/album/orchestra-dim-bridges', 'http://ideologicorgan.bandcamp.com/album/aestuarium', 'http://tashidorji1.bandcamp.com/album/mother-of-all-saints-puppets-on-a-string-eyvind-kang-tashi-dorji' ],
             "a_strings": [ 'The Narrow Garden by Eyvind Kang', 'Athlantis by Eyvind Kang', 'Virginal Co Ordinates by Eyvind Kang', 'Visible Breath by Eyvind Kang', 'Orchestra Dim Bridges by Eyvind Kang &amp; Tucker Martine', 'Aestuarium by Jessika Kenney &amp; Eyvind Kang', 'Mother Of All Saints (Puppets On A String) - Eyvind Kang / Tashi Dorji by Eyving Kang / Tashi Dorji' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 454,
@@ -7163,13 +7163,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jasper Johns (artist), born 1930',
           color: '#0B1D51',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/jasperjohns.jpg',
-          day_of: new Date ('1930-05-15T13:44:00.000Z'),
+          day_of: new Date ('1930-05-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 455,
@@ -7177,13 +7177,13 @@ exports.seed = function(knex, Promise) {
           name: 'Joe Kelley (left fielder/first baseman), born 1871',
           color: '#ACACAC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/joekelley.jpg',
-          day_of: new Date ('1871-12-09T13:44:00.000Z'),
+          day_of: new Date ('1871-12-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 456,
@@ -7191,13 +7191,13 @@ exports.seed = function(knex, Promise) {
           name: 'Tim Lincecum pitched his second no-hitter for the San Francisco Giants versus the San Diego Padres in 2014',
           color: '#465454',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/lincecumnohit2.jpg',
-          day_of: new Date ('2014-06-25T13:44:00.000Z'),
+          day_of: new Date ('2014-06-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 457,
@@ -7205,13 +7205,13 @@ exports.seed = function(knex, Promise) {
           name: 'Tim Lincecum pitches his first of 2 no hitters against the San Diego Padres (for the San Francisco Giants) in 2013',
           color: '#C7C2C6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/lincecumnohit1.jpg',
-          day_of: new Date ('2013-07-13T13:44:00.000Z'),
+          day_of: new Date ('2013-07-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 458,
@@ -7219,13 +7219,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1954 according to the prophecy of Dorothy Martin of the Brotherhood of Seven Rays UFO cult',
           color: '#EFE9AC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/dorothymartindoom.jpg',
-          day_of: new Date ('1954-12-21T13:44:00.000Z'),
+          day_of: new Date ('1954-12-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 459,
@@ -7233,13 +7233,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ray Nance (violinist), born 1913',
           color: '#B2B2B2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/raynance.jpg',
-          day_of: new Date ('1913-12-10T13:44:00.000Z'),
+          day_of: new Date ('1913-12-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 460,
@@ -7247,13 +7247,13 @@ exports.seed = function(knex, Promise) {
           name: 'Orfeo by Richard Powers published in 2014',
           color: '#313234',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/orfeo.jpg',
-          day_of: new Date ('2014-01-20T13:44:00.000Z'),
+          day_of: new Date ('2014-01-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 461,
@@ -7261,13 +7261,13 @@ exports.seed = function(knex, Promise) {
           name: 'Clément Pansaers (poet/dadaist), born 1885',
           color: '#1A1E39',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/clémentpansaers.jpg',
-          day_of: new Date ('1885-05-01T13:44:00.000Z'),
+          day_of: new Date ('1885-05-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 462,
@@ -7275,13 +7275,13 @@ exports.seed = function(knex, Promise) {
           name: 'Max Roach (drummer), born 1924',
           color: '#B57E5F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/maxroach.jpg',
-          day_of: new Date ('1924-01-10T13:44:00.000Z'),
+          day_of: new Date ('1924-01-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 463,
@@ -7289,7 +7289,7 @@ exports.seed = function(knex, Promise) {
           name: 'Steve Swallow (bassist), born 1940',
           color: '#202415',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/steveswallow.jpg',
-          day_of: new Date ('1940-10-04T13:44:00.000Z'),
+          day_of: new Date ('1940-10-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7299,8 +7299,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sunnysidezone.com/album/twin-falls-2', 'http://jonasschoen.bandcamp.com/album/agnostic-chant-book', 'http://cuneiformrecords.bandcamp.com/album/have-we-told-you-all-youd-thought-to-know' ],
             "a_strings": [ 'Twin Falls by Deidre Rodman &amp; Steve Swallow', 'Agnostic Chant Book by Jonas Schoen Sextet &amp; Steve Swallow', 'Have We Told You All You&#39;d Thought to Know? by Robert Creeley • Chris Massey • Steve Swallow • David Cast • David Torn' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 464,
@@ -7308,7 +7308,7 @@ exports.seed = function(knex, Promise) {
           name: 'John Tchicai, born 1936',
           color: '#5DBCD2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johntchicai.jpg',
-          day_of: new Date ('1936-04-28T13:44:00.000Z'),
+          day_of: new Date ('1936-04-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7318,8 +7318,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/solo', 'http://destination-out.bandcamp.com/album/john-tchicai-strange-brothers', 'http://futuramarge.bandcamp.com/album/truth-lies-in-between', 'http://paulhemmings.bandcamp.com/album/letter-from-america', 'http://edgetonerecords.bandcamp.com/album/adapt-or-die', 'http://intaktrec.bandcamp.com/album/musical-monsters', 'http://oliverlake.bandcamp.com/album/lake-tchicai-osgood-westergaard' ],
             "a_strings": [ 'Solo by JOHN TCHICAI', 'John Tchicai &amp; Strange Brothers by JOHN TCHICAI', 'Truth Lies in-Between by John Tchicai Trio', 'Letter From America by The Paul Hemmings Trio with John Tchicai', 'Adapt...or Die! by John Tchicai with Rent Romus&#39; Lords of Outland', 'Musical Monsters by Don Cherry – John Tchicai – Irène Schweizer – Léon Francioli – Pierre Favre', 'Lake | Tchicai | Osgood | Westergaard by Oliver Lake, John Tchaicai, Kresten Osgood, Jonas Westergaard' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 465,
@@ -7327,13 +7327,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ulysses by James Joyce published in 1922',
           color: '#EDE6D4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/ulysses.jpg',
-          day_of: new Date ('1922-02-02T13:44:00.000Z'),
+          day_of: new Date ('1922-02-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 466,
@@ -7341,13 +7341,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ivan Wyschnegradsky (composer), born 1893',
           color: '#222222',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ivanwyschnegradsky.jpg',
-          day_of: new Date ('1893-05-14T13:44:00.000Z'),
+          day_of: new Date ('1893-05-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 467,
@@ -7355,13 +7355,13 @@ exports.seed = function(knex, Promise) {
           name: 'Molly Yard (feminist/activist), born 1912',
           color: '#962B8A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/mollyyard.jpg',
-          day_of: new Date ('1912-07-06T13:44:00.000Z'),
+          day_of: new Date ('1912-07-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 468,
@@ -7369,13 +7369,13 @@ exports.seed = function(knex, Promise) {
           name: 'Joe Zawinul (keyboards), born 1932',
           color: '#0A0772',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/joezainul.png',
-          day_of: new Date ('1932-07-07T13:44:00.000Z'),
+          day_of: new Date ('1932-07-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 469,
@@ -7383,7 +7383,7 @@ exports.seed = function(knex, Promise) {
           name: 'Wassily Kandinsky (artist), born 1886',
           color: '#7B7B7D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/wassilykandinsky.jpg',
-          day_of: new Date ('1886-12-16T13:44:00.000Z'),
+          day_of: new Date ('1886-12-16 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -7393,8 +7393,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky', 'Wassily Kandinsky' ],
             "years": [ '1900', '1900', '1901', '1902', '1902', '1902', '1903', '1903', '1903', '1903', '1904', '1905', '1905', '1905', '1905', '1906', '1906', '1907', '1907', '1907', '1908', '1908', '1908', '1908', '1908', '1908', '1908', '1908', '1908', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1909', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1910', '1911', '1911', '1911', '1911', '1911', '1911', '1911', '1911', '1911', '1911', '1912', '1912', '1912', '1912', '1912', '1912', '1913', '1913', '1913', '1913', '1913', '1913', '1913', '1913', '1913', '1913', '1913', '1913', '1913', 'c.1913', '1913', '1914', '1914', '1914', 'c.1915', 'c.1915', '1916', '1916', '1916', '1916', '1916', '1917', '1917', '1919', '1919', '1920', '1920', '1920', '1921', '1921', '1921', '1922', '1922', '1922', '1922', '1922', '1922', '1922', '1922', '1922', '1922', '1922', '1923', '1923', '1923', '1923', '1923', '1923', '1924', '1924', '1925', '1925', '1925', '1925', '1926', '1926', '1926', '1926', '1927', '1928', '1928', '1928', '1928', '1928', '1928', '1929', '1929', '1929', '1929', '1930', '1930', '1930', '1931', '1931', '1932', '1933', '1933', '1933', '1934', '1934', '1935', '1935', '1935', '1935', '1936', '1936', '1936', '1937', '1937', '1938', '1939', '1939', '1940', '1940', '1940', '1941', '1941', '1942', '1942', '1942', '1942', '1942', '1943', '1943', '1943', '1944', '1944', '1944', 'c.1944' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 470,
@@ -7402,13 +7402,13 @@ exports.seed = function(knex, Promise) {
           name: 'Nap Lajoie (second baseman/first baseman), born 1874',
           color: '#4F5575',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/naplajoie.jpg',
-          day_of: new Date ('1874-09-05T13:44:00.000Z'),
+          day_of: new Date ('1874-09-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 471,
@@ -7416,13 +7416,13 @@ exports.seed = function(knex, Promise) {
           name: 'Kevin Millwood pitches a no-hitter for the Philadelphia Phillies vs. San Francisco Giants in 2003',
           color: '#93192B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/kevinmillwoodnohit.jpg',
-          day_of: new Date ('2003-04-27T13:44:00.000Z'),
+          day_of: new Date ('2003-04-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 472,
@@ -7430,13 +7430,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1996 when 16 million spaceships and a host of angels arrived to destroy the Earth according to the prophecy of Sheldan Nidle',
           color: '#172E50',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/sheldannidlenutjob.jpg',
-          day_of: new Date ('1996-12-17T13:44:00.000Z'),
+          day_of: new Date ('1996-12-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 473,
@@ -7444,13 +7444,13 @@ exports.seed = function(knex, Promise) {
           name: 'Pilgrim by Timothy Findley published in 2001',
           color: '#323232',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/pilgrim.jpg',
-          day_of: new Date ('2001-01-23T13:44:00.000Z'),
+          day_of: new Date ('2001-01-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 474,
@@ -7458,13 +7458,13 @@ exports.seed = function(knex, Promise) {
           name: 'Luigi Russolo (composer), born 1885',
           color: '#585858',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/luigirussolo.jpg',
-          day_of: new Date ('1883-04-30T13:44:00.000Z'),
+          day_of: new Date ('1883-04-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 475,
@@ -7472,13 +7472,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Stevens (drummer/spontaneous music founder), born 1940',
           color: '#190707',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johnstevens.gif',
-          day_of: new Date ('1940-06-10T13:44:00.000Z'),
+          day_of: new Date ('1940-06-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 476,
@@ -7486,13 +7486,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jamaaladeen Tacuma (bassist), born 1956',
           color: '#5F76A2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jamaaladeentacuma.jpg',
-          day_of: new Date ('1956-06-11T13:44:00.000Z'),
+          day_of: new Date ('1956-06-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 477,
@@ -7500,13 +7500,13 @@ exports.seed = function(knex, Promise) {
           name: 'Natalie Zahle (activist/advocate for women\'s education), born 1827',
           color: '#4D2714',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/nataliezahle.jpg',
-          day_of: new Date ('1827-06-11T13:44:00.000Z'),
+          day_of: new Date ('1827-06-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 478,
@@ -7514,7 +7514,7 @@ exports.seed = function(knex, Promise) {
           name: 'Vilhelm Lundstrøm (artist), born 1893',
           color: '#404364',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/vilhelmlundstrøm.jpg',
-          day_of: new Date ('1893-05-26T13:44:00.000Z'),
+          day_of: new Date ('1893-05-26 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -7524,8 +7524,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Vilhelm Lundstrøm', 'Vilhelm Lundstrøm', 'Vilhelm Lundstrøm', 'Vilhelm Lundstrøm', 'Vilhelm Lundstrøm', 'Vilhelm Lundstrøm', 'Vilhelm Lundstrøm', 'Vilhelm Lundstrøm', 'Vilhelm Lundstrøm', 'Vilhelm Lundstrøm' ],
             "years": [ '1918', '1923', '1927', '1927', '1929', '1930', '1932', '1933', '1940', '1941' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 479,
@@ -7533,13 +7533,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jamie Moyer (pitcher), born 1962',
           color: '#16131A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/jamiemoyer.jpg',
-          day_of: new Date ('1962-11-18T13:44:00.000Z'),
+          day_of: new Date ('1962-11-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 480,
@@ -7547,13 +7547,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hideo Nomo pitches his second career no hitter for the Boston Red Sox vs. Baltimore Orioles in 2001',
           color: '#C0B3B3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/hideonomonono2.jpg',
-          day_of: new Date ('2001-04-04T13:44:00.000Z'),
+          day_of: new Date ('2001-04-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 481,
@@ -7561,13 +7561,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hideo Nomo pitches first career no-hitter for the Los Angeles Dodgers vs. Colorado Rockies in 1996',
           color: '#131F32',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/hideonomonono1.jpg',
-          day_of: new Date ('1996-09-17T13:44:00.000Z'),
+          day_of: new Date ('1996-09-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 482,
@@ -7575,13 +7575,13 @@ exports.seed = function(knex, Promise) {
           name: 'The Queen of the Night by Alexander Chee published in 2016',
           color: '#98693F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/thequeenofthenight.jpg',
-          day_of: new Date ('2016-02-02T13:44:00.000Z'),
+          day_of: new Date ('2016-02-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 483,
@@ -7589,7 +7589,7 @@ exports.seed = function(knex, Promise) {
           name: 'Man Ray (artist), born 1890',
           color: '#434343',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/manray.jpg',
-          day_of: new Date ('1890-08-27T13:44:00.000Z'),
+          day_of: new Date ('1890-08-27 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -7599,8 +7599,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray', 'Man Ray' ],
             "years": [ '1908', '1912', '1913', '1913', '1913', '1914', '1914', '1914', '1914', '1914', '1915', '1915', '1916', '1916', '1916', '1916', '1919', '1920', '1920', '1921', '1921', '1921', '1921', '1921', '1922', '1922', '1923', '1924', '1924', '1926', '1926', '1926', '1926', '1926', '1926', '1926', '1926', '1926', '1926', '1926', '1928', '1929', '1929', '1929', '1930', '1931', 'c.1930', '1931', '1932', '1932', '1933', '1934', '1934', '1935', '1936', '1936', '1936', '1938', '1938', '1939', '1941', '1941', '1915 - 1945', '1948', '1948', '1948', '1948', '1948', '1948', '1969', '1972', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 484,
@@ -7608,7 +7608,7 @@ exports.seed = function(knex, Promise) {
           name: 'Morton Subotnick (composer), born 1933',
           color: '#484222',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/mortonsubtnick.jpg',
-          day_of: new Date ('1933-04-14T13:44:00.000Z'),
+          day_of: new Date ('1933-04-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7618,8 +7618,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://karlrecords.bandcamp.com/album/silver-apples-of-the-moon', 'http://karlrecords.bandcamp.com/album/the-wild-bull' ],
             "a_strings": [ 'Silver Apples Of The Moon by MORTON SUBOTNICK', 'The Wild Bull by MORTON SUBOTNICK' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 485,
@@ -7627,13 +7627,13 @@ exports.seed = function(knex, Promise) {
           name: 'Art Taylor (drummer), born 1929',
           color: '#DCC211',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/arttaylor.jpg',
-          day_of: new Date ('1929-04-06T13:44:00.000Z'),
+          day_of: new Date ('1929-04-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 486,
@@ -7641,7 +7641,7 @@ exports.seed = function(knex, Promise) {
           name: 'Timothy Young (guitar), born 1970',
           color: '#333333',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/timothyyoung.jpg',
-          day_of: new Date ('1970-11-11T13:44:00.000Z'),
+          day_of: new Date ('1970-11-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7651,8 +7651,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://jennro.bandcamp.com/album/3-nights' ],
             "a_strings": [ '3 NIGHTS by jenn romero &amp; timothy young' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 487,
@@ -7660,7 +7660,7 @@ exports.seed = function(knex, Promise) {
           name: 'Christian Marclay (turntablist/artist), born 1955',
           color: '#E8D22F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/christianmarclay.jpg',
-          day_of: new Date ('1955-01-11T13:44:00.000Z'),
+          day_of: new Date ('1955-01-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7670,8 +7670,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://christianmarclay.bandcamp.com/album/more-encores-2' ],
             "a_strings": [ 'More Encores by Christian Marclay' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 488,
@@ -7679,13 +7679,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hal Newhouser (pitcher), born 1921',
           color: '#2F3332',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/halnewhouser.jpg',
-          day_of: new Date ('1921-05-20T13:44:00.000Z'),
+          day_of: new Date ('1921-05-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 489,
@@ -7693,13 +7693,13 @@ exports.seed = function(knex, Promise) {
           name: 'Rivers by Michael Farris Smith published in 2013',
           color: '#BCD1CC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/rivers.jpg',
-          day_of: new Date ('2013-09-10T13:44:00.000Z'),
+          day_of: new Date ('2013-09-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 490,
@@ -7707,7 +7707,7 @@ exports.seed = function(knex, Promise) {
           name: 'Kurt Schwitters (artist), born 1887',
           color: '#8F6D3F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/kurtschwitters.jpg',
-          day_of: new Date ('1887-06-20T13:44:00.000Z'),
+          day_of: new Date ('1887-06-20 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -7717,8 +7717,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters', 'Kurt Schwitters' ],
             "years": [ '1919', '1919', '1919', '1919', 'c.1919', 'c.1919', '1919', '1919', '1920', '1920', '1920', '1921', '1922', '1922', '1923', '1923', '1924', 'c.1925', '1926', '1930', '1930', '1931', '1933', '1933 - 1934', '1923 - 1937', '1938', 'c.1939', '1939', '1942', '1942 - 1943', '1944', '1945', '1945', '1946', '1947', '1947', '1947', '1947', '1947' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 491,
@@ -7726,7 +7726,7 @@ exports.seed = function(knex, Promise) {
           name: 'Miroslav Vitouš (bassist), born 1947',
           color: '#131210',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/miroslavvitouš.jpg',
-          day_of: new Date ('1947-12-06T13:44:00.000Z'),
+          day_of: new Date ('1947-12-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7736,8 +7736,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://bandcamp.for-tune.pl/album/wings' ],
             "a_strings": [ 'Wings by Adam Pierończyk &amp; Miroslav Vitous' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 492,
@@ -7745,7 +7745,7 @@ exports.seed = function(knex, Promise) {
           name: 'David S. Ware (reeds), born 1949',
           color: '#DC9F2A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidsware.jpg',
-          day_of: new Date ('1949-11-07T13:44:00.000Z'),
+          day_of: new Date ('1949-11-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7755,8 +7755,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://aumfidelity.bandcamp.com/album/organica-solo-saxophones-vol-2', 'http://aumfidelity.bandcamp.com/album/live-in-new-york-2010' ],
             "a_strings": [ 'Organica (solo saxophones, vol. 2) by David S. Ware', 'Live in New York, 2010 by David S. Ware Trio' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 493,
@@ -7764,7 +7764,7 @@ exports.seed = function(knex, Promise) {
           name: 'Hector Zazou (composer), born 1948',
           color: '#2352B2',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/hectorzazou.jpg',
-          day_of: new Date ('1948-07-11T13:44:00.000Z'),
+          day_of: new Date ('1948-07-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7774,8 +7774,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://hectorzazou.bandcamp.com/album/in-the-house-of-mirrors', 'http://hectorzazou.bandcamp.com/album/12-las-vegas-is-cursed', 'http://hectorzazou.bandcamp.com/album/glyph', 'http://hectorzazou.bandcamp.com/album/geologies', 'http://hectorzazou.bandcamp.com/album/reivax-au-bongo', 'http://hectorzazou.bandcamp.com/album/geographies' ],
             "a_strings": [ 'In The House Of Mirrors by Hector Zazou', '12 (Las Vegas Is Cursed) by Hector Zazou', 'Glyph by Hector Zazou', 'Geologies by Hector Zazou', 'Reivax Au Bongo by Hector Zazou', 'Geographies by Hector Zazou' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 494,
@@ -7783,13 +7783,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ben Neill (mutant trumpet), born 1957',
           color: '#3A3730',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/benneill.jpg',
-          day_of: new Date ('1957-11-14T13:44:00.000Z'),
+          day_of: new Date ('1957-11-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 495,
@@ -7797,13 +7797,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jim O\'Rourke (outfielder, catcher, first baseman), born 1850',
           color: '#1C1C1C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/jimorourke.jpg',
-          day_of: new Date ('1850-09-01T13:44:00.000Z'),
+          day_of: new Date ('1850-09-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 496,
@@ -7811,13 +7811,13 @@ exports.seed = function(knex, Promise) {
           name: 'Milt Papas pitched a no-hitter for the Chicago Cubs vs. San Diego Padres in 1972',
           color: '#565656',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/miltpapasnono.jpg',
-          day_of: new Date ('1972-09-02T13:44:00.000Z'),
+          day_of: new Date ('1972-09-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 497,
@@ -7825,13 +7825,13 @@ exports.seed = function(knex, Promise) {
           name: 'Hank Roberts (cellist), born 1954',
           color: '#DC1209',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/hankroberts.JPG',
-          day_of: new Date ('1954-03-24T13:44:00.000Z'),
+          day_of: new Date ('1954-03-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 498,
@@ -7839,13 +7839,13 @@ exports.seed = function(knex, Promise) {
           name: 'Snow Crash by Neal Stephenson published in 1992',
           color: '#080657',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/snowcrash.jpg',
-          day_of: new Date ('1992-06-01T13:44:00.000Z'),
+          day_of: new Date ('1992-06-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 499,
@@ -7853,7 +7853,7 @@ exports.seed = function(knex, Promise) {
           name: 'Sophie Taeuber-Arp (artist/designer/architect/dancer), born 1889',
           color: '',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/sophietaeuberarp.jpg',
-          day_of: new Date ('1889-01-19T13:44:00.000Z'),
+          day_of: new Date ('1889-01-19 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -7863,8 +7863,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp', 'Sophie Taeuber-Arp' ],
             "years": [ '1916', '1917', '1918', '1918', '1918', '1920', '1920', '1920', '1920', '1922', '1926', '1926', '1927', '1928', '1930', '1933', '1934', '1934', '1937', '1937', '1942', '?', '?', '?', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 500,
@@ -7872,7 +7872,7 @@ exports.seed = function(knex, Promise) {
           name: 'Reggie Workman (bassist), born 1937',
           color: '#B52330',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/reggieworkman.jpg',
-          day_of: new Date ('1937-06-26T13:44:00.000Z'),
+          day_of: new Date ('1937-06-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -7882,8 +7882,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://intaktrec.bandcamp.com/album/at-this-time', 'http://intaktrec.bandcamp.com/album/wiring-24bit-88khz', 'http://dennisgonzalez.bandcamp.com/album/a-matter-of-blood' ],
             "a_strings": [ 'At This Time by Trio 3 (Andrew Cyrille, Oliver Lake, Reggie Workman) + Geri Allen', 'Wiring (24bit 88khz) by Trio3: Oliver Lake, Reggie Workman, Andrew Cyrille with Vijay Iyer', 'A Matter of Blood by Dennis Gonzalez (with Reggie Workman, Curtis Clark, and Michael Thompson)' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 501,
@@ -7891,13 +7891,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mike Piazza (catcher), born 1968',
           color: '#120F44',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/mikepiazza.jpg',
-          day_of: new Date ('1968-09-04T13:44:00.000Z'),
+          day_of: new Date ('1968-09-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 502,
@@ -7905,13 +7905,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1925 as foretold to Margaret Rowan in a vision by the Angel Gabriel',
           color: '#333A29',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/margaretrowancookoo.jpg',
-          day_of: new Date ('1925-02-13T13:44:00.000Z'),
+          day_of: new Date ('1925-02-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 503,
@@ -7919,13 +7919,13 @@ exports.seed = function(knex, Promise) {
           name: 'Stuff Smith (violinist), born 1909',
           color: '#EFF1DC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/stuffsmith.jpg',
-          day_of: new Date ('1909-08-14T13:44:00.000Z'),
+          day_of: new Date ('1909-08-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 504,
@@ -7933,13 +7933,13 @@ exports.seed = function(knex, Promise) {
           name: 'Three Day Road by Joseph Boyden published in 2005',
           color: '#4D4038',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/threedayroad.jpg',
-          day_of: new Date ('2005-03-17T13:44:00.000Z'),
+          day_of: new Date ('2005-03-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 505,
@@ -7947,7 +7947,7 @@ exports.seed = function(knex, Promise) {
           name: 'Nam June Paik (artist), born 1932',
           color: '#151517',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/namjunepaik.jpg',
-          day_of: new Date ('1932-07-20T13:44:00.000Z'),
+          day_of: new Date ('1932-07-20 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -7957,8 +7957,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik', 'Nam June Paik' ],
             "years": [ '1976', '1978', '1984', '1987', '1988', '1989', '1989', '1989', '1990', '1991', '1993', '1993', '1993', '1994', '1996', '1998', '2000', '2005', '2006', '?', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 506,
@@ -7966,13 +7966,13 @@ exports.seed = function(knex, Promise) {
           name: 'Kenny Rogers pitches a perfect game for the Texas Rangers vs. California Angels in 1994',
           color: '#A91017',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/kennyrogersperfecto.jpg',
-          day_of: new Date ('1994-07-28T13:44:00.000Z'),
+          day_of: new Date ('1994-07-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 507,
@@ -7980,13 +7980,13 @@ exports.seed = function(knex, Promise) {
           name: 'The rapture took place on this day in 1992 according to the "Rainbow Man" Rollen Stewart',
           color: '#DDA600',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/rollenstewartwacko.jpeg',
-          day_of: new Date ('1992-09-28T13:44:00.000Z'),
+          day_of: new Date ('1992-09-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 508,
@@ -7994,7 +7994,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ben Vautier (artist), born 1935',
           color: '#BC2061',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/benvautier.JPG',
-          day_of: new Date ('1935-07-18T13:44:00.000Z'),
+          day_of: new Date ('1935-07-18 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -8004,8 +8004,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier', 'Ben Vautier' ],
             "years": [ '1962', '1966', '1969', '1970', '1971', '1971', '1971', '1971', '1971', '1972', '1975', '1974', '1984', '1984', '1985', '1987', '1988', '1989', '1989', '1990', '1991', '1992', '1998', '2001' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 509,
@@ -8013,13 +8013,13 @@ exports.seed = function(knex, Promise) {
           name: 'Charles Wuorinen (composer) born 1938',
           color: '#834627',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/charleswuorinen.jpg',
-          day_of: new Date ('1938-06-09T13:44:00.000Z'),
+          day_of: new Date ('1938-06-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 510,
@@ -8027,13 +8027,13 @@ exports.seed = function(knex, Promise) {
           name: 'Babe Ruth (outfielder and pitcher), born 1895',
           color: '#171717',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/baberuth.jpg',
-          day_of: new Date ('1895-02-06T13:44:00.000Z'),
+          day_of: new Date ('1895-02-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 511,
@@ -8041,13 +8041,13 @@ exports.seed = function(knex, Promise) {
           name: 'Max Scherzer pitches his second no-hitter of the 2015 season for the Washington Nationals vs. New York Mets',
           color: '#81231B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/scherzernonon2.jpg',
-          day_of: new Date ('2015-10-03T13:44:00.000Z'),
+          day_of: new Date ('2015-10-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 512,
@@ -8055,13 +8055,13 @@ exports.seed = function(knex, Promise) {
           name: 'Max Scherzer pitches his first of two no-hitters in the 2015 season for the Washington Nationals vs. Pittsburgh Pirates',
           color: '#C81B0A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/maxscherzernonon1.jpg',
-          day_of: new Date ('2015-06-20T13:44:00.000Z'),
+          day_of: new Date ('2015-06-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 513,
@@ -8069,13 +8069,13 @@ exports.seed = function(knex, Promise) {
           name: 'The southeastern US was destroyed by a Soviet nuclear attack in 1967 as the beginning of the third woe of the Apocalypse according to UFO prophet George Van Tassel.',
           color: '#9509FF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/georgevanfruitloop.jpg',
-          day_of: new Date ('1967-08-20T13:44:00.000Z'),
+          day_of: new Date ('1967-08-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 514,
@@ -8083,13 +8083,13 @@ exports.seed = function(knex, Promise) {
           name: 'Beatrice Wood (artist), born 1893',
           color: '#8C3C73',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/beatricewood.jpg',
-          day_of: new Date ('1893-03-03T13:44:00.000Z'),
+          day_of: new Date ('1893-03-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 515,
@@ -8097,7 +8097,7 @@ exports.seed = function(knex, Promise) {
           name: 'David Rosenboom (composer), born 1947',
           color: '#161711',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidrosenboom.jpg',
-          day_of: new Date ('1947-09-09T13:44:00.000Z'),
+          day_of: new Date ('1947-09-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8107,8 +8107,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://davidrosenboom.bandcamp.com/album/zones-of-influence', 'http://unseenworlds.bandcamp.com/album/daytime-viewing' ],
             "a_strings": [ 'Zones of Influence by David Rosenboom', 'Daytime Viewing by Jacqueline Humbert &amp; David Rosenboom' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 516,
@@ -8116,13 +8116,13 @@ exports.seed = function(knex, Promise) {
           name: 'Tris Speaker (centerfielder), born 1888',
           color: '#787878',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/trisspeaker.jpg',
-          day_of: new Date ('1888-04-04T13:44:00.000Z'),
+          day_of: new Date ('1888-04-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 517,
@@ -8130,13 +8130,13 @@ exports.seed = function(knex, Promise) {
           name: 'Virgil Trucks throws his first of 2 no-hitters in 1952 for the Detroit Tigers vs. Washington Senators',
           color: '#888888',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/virgiltrucksnono1.jpg',
-          day_of: new Date ('1952-05-15T13:44:00.000Z'),
+          day_of: new Date ('1952-05-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 518,
@@ -8144,13 +8144,13 @@ exports.seed = function(knex, Promise) {
           name: 'Virgil Trucks throws his second no-hitter of the 1952 season for the Detroit Tigers vs. New York Yankees',
           color: '#404040',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/virgiltrucksnono2.jpg',
-          day_of: new Date ('1952-08-25T13:44:00.000Z'),
+          day_of: new Date ('1952-08-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 519,
@@ -8158,13 +8158,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1997, on the day marking the 6,000th year after creation, as per 17th Century archbishop James Ussher\'s most true prediction.',
           color: '#180A0A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/jamesbullshitussher.jpg',
-          day_of: new Date ('1997-10-23T13:44:00.000Z'),
+          day_of: new Date ('1997-10-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 520,
@@ -8172,7 +8172,7 @@ exports.seed = function(knex, Promise) {
           name: 'Arnold Schoenberg (composer), born 1874',
           color: '#424242',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/arnoldschoenberg.jpg',
-          day_of: new Date ('1874-09-13T13:44:00.000Z'),
+          day_of: new Date ('1874-09-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8182,8 +8182,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://krasovskyvaidman.bandcamp.com/album/schoenberg-steuermann-korngold' ],
             "a_strings": [ 'Schoenberg - Steuermann, Korngold by Vera Vaidman, Shmuel Magen, Emanuel Krasovsky' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 521,
@@ -8191,13 +8191,13 @@ exports.seed = function(knex, Promise) {
           name: 'Pie Traynor (third baseman), born 1898',
           color: '#696969',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/pietraynor.jpeg',
-          day_of: new Date ('1898-11-11T13:44:00.000Z'),
+          day_of: new Date ('1898-11-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 522,
@@ -8205,13 +8205,13 @@ exports.seed = function(knex, Promise) {
           name: 'Abdul Wadud (cellist), born 1947',
           color: '#410D00',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/abdulwadud.jpg',
-          day_of: new Date ('1947-04-30T13:44:00.000Z'),
+          day_of: new Date ('1947-04-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 523,
@@ -8219,13 +8219,13 @@ exports.seed = function(knex, Promise) {
           name: 'Tristan Tzara (poet/essayist/journalist/performance artist), born 1896',
           color: '#A8AD99',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/tristantzara.jpg',
-          day_of: new Date ('1896-04-16T13:44:00.000Z'),
+          day_of: new Date ('1896-04-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 524,
@@ -8233,13 +8233,13 @@ exports.seed = function(knex, Promise) {
           name: 'Edinson Vólquez pitches a no-hitter in 2017 for the Miami Marlins vs. Arizona Diamondbacks',
           color: '#121413',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/edinsonnono.jpg',
-          day_of: new Date ('2017-06-03T13:44:00.000Z'),
+          day_of: new Date ('2017-06-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 525,
@@ -8247,13 +8247,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2012 with the return of Jesus according to the prophet and convicted tax-evader Ronald Weinland',
           color: '#704B44',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/ronaldweinland.png',
-          day_of: new Date ('2012-05-27T13:44:00.000Z'),
+          day_of: new Date ('2012-05-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 526,
@@ -8261,13 +8261,13 @@ exports.seed = function(knex, Promise) {
           name: 'Arky Vaughan (shortstop/third baseman), born 1912',
           color: '#F7F7F7',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/arkyvaughan.jpg',
-          day_of: new Date ('1912-03-09T13:44:00.000Z'),
+          day_of: new Date ('1912-03-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 527,
@@ -8275,13 +8275,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jered Weaver pitches a no-hitter for the Los Angeles Angels vs. Minnesota Twins in 2012',
           color: '#C64038',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/jeredweavernono.jpg',
-          day_of: new Date ('2012-05-02T13:44:00.000Z'),
+          day_of: new Date ('2012-05-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 528,
@@ -8289,13 +8289,13 @@ exports.seed = function(knex, Promise) {
           name: 'Vernor Vinge (author/computer scientist)',
           color: '#975340',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/vernorvinge.jpg',
-          day_of: new Date ('1944-10-02T13:44:00.000Z'),
+          day_of: new Date ('1944-10-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 529,
@@ -8303,13 +8303,13 @@ exports.seed = function(knex, Promise) {
           name: 'Deacon White (third baseman/catcher/right fielder), born 1847',
           color: '#D3CAA3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/deaconwhite.jpg',
-          day_of: new Date ('1847-12-02T13:44:00.000Z'),
+          day_of: new Date ('1847-12-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 530,
@@ -8317,13 +8317,13 @@ exports.seed = function(knex, Promise) {
           name: 'Stefan Wolpe (composer), born 1902',
           color: '#060606',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/stefanwolpe.jpg',
-          day_of: new Date ('1902-08-25T13:44:00.000Z'),
+          day_of: new Date ('1902-08-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 531,
@@ -8331,13 +8331,13 @@ exports.seed = function(knex, Promise) {
           name: 'Cy Young pitches a perfect game in 1905 for the Boston Red Sox vs. Detroit Tigers',
           color: '#3C3C3C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/cyyoungnono.jpg',
-          day_of: new Date ('1904-05-05T13:44:00.000Z'),
+          day_of: new Date ('1904-05-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 532,
@@ -8345,13 +8345,13 @@ exports.seed = function(knex, Promise) {
           name: 'Cy Young (pitcher), born 1867',
           color: '#0C0C0C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/cyyoung.jpg',
-          day_of: new Date ('1867-03-29T13:44:00.000Z'),
+          day_of: new Date ('1867-03-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 533,
@@ -8359,13 +8359,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jordan Zimmermann pitches a no-hitter for the Washington Nationals vs. Miami Marlins in 2014',
           color: '#A90109',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/jordanzimmermannnono.jpg',
-          day_of: new Date ('2014-09-28T13:44:00.000Z'),
+          day_of: new Date ('2014-09-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 534,
@@ -8373,7 +8373,7 @@ exports.seed = function(knex, Promise) {
           name: 'Janel Leppin (cello/voice), born 1981',
           color: '#782E0E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/janelleppin.jpg',
-          day_of: new Date ('1981-02-13T13:44:00.000Z'),
+          day_of: new Date ('1981-02-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8383,8 +8383,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://janelleppin.bandcamp.com/album/american-god', 'http://janelleppin.bandcamp.com/album/mellow-diamond', 'http://janelleppin.bandcamp.com/album/songs-for-voice-and-mellotron', 'http://cuneiformrecords.bandcamp.com/album/where-is-home-2' ],
             "a_strings": [ 'American God by Mellow Diamond', 'Mellow Diamond by Janel Leppin', 'Songs for Voice and Mellotron by Janel Leppin', 'Where Is Home by Janel and Anthony' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 535,
@@ -8392,13 +8392,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2017 due to the Nibiru Cataclysm when the invisible planet Nibiru collided with the Earth and triggered the rapture according to David Meade',
           color: '#1F141A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/nibirucataclysm.jpg',
-          day_of: new Date ('2017-09-23T13:44:00.000Z'),
+          day_of: new Date ('2017-09-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 536,
@@ -8406,7 +8406,7 @@ exports.seed = function(knex, Promise) {
           name: 'Nels Cline (guitar), born 1956',
           color: '#D2311D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/nelscline.jpg',
-          day_of: new Date ('1956-01-04T13:44:00.000Z'),
+          day_of: new Date ('1956-01-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8416,8 +8416,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://whiteoutnelscline.bandcamp.com/album/accidental-sky', 'http://devin-sarno.bandcamp.com/album/buried-on-bunker-hill', 'http://devin-sarno.bandcamp.com/album/rise-pumpkin-rise', 'http://mciaa.bandcamp.com/album/the-ocean-above-your-heads', 'http://scottamendolamusic.bandcamp.com/album/fade-to-orange-feat-nels-cline-trevor-dunn' ],
             "a_strings": [ 'Accidental Sky by White Out with Nels Cline', 'Buried on Bunker Hill by Nels Cline + Devin Sarno', 'Rise Pumpkin Rise by Nels Cline + Devin Sarno', 'The Ocean Above Your Heads by My Cat Is An Alien with Nels Cline', 'Fade to Orange (feat. Nels Cline &amp; Trevor Dunn) by Scott Amendola' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 537,
@@ -8425,13 +8425,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended in a firey storm on this day in 2013 according to Grigori Rasputin.',
           color: '#181818',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/grigorirasputin.jpg',
-          day_of: new Date ('2013-08-23T13:44:00.000Z'),
+          day_of: new Date ('2013-08-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 538,
@@ -8439,7 +8439,7 @@ exports.seed = function(knex, Promise) {
           name: 'Cyro Baptista (percussion), born 1950',
           color: '#A282C1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/cyrobaptista.jpg',
-          day_of: new Date ('1950-12-23T13:44:00.000Z'),
+          day_of: new Date ('1950-12-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8449,8 +8449,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://cyrobaptista.bandcamp.com/album/bluefly-2' ],
             "a_strings": [ 'BlueFly by Cyro Baptista' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 539,
@@ -8458,13 +8458,13 @@ exports.seed = function(knex, Promise) {
           name: 'In the last of a string of apocalyptic predictions by Harold Camping, the world ended on this day in 2011 with a spiritual judgement and a physical rapture',
           color: '#848B91',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/haroldcamping.jpg',
-          day_of: new Date ('2011-10-21T13:44:00.000Z'),
+          day_of: new Date ('2011-10-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 540,
@@ -8472,13 +8472,13 @@ exports.seed = function(knex, Promise) {
           name: 'Samm Bennett (drums/songwriter), born 1957',
           color: '#50A6A7',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/sammbennett.jpg',
-          day_of: new Date ('1957-05-25T13:44:00.000Z'),
+          day_of: new Date ('1957-05-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 541,
@@ -8486,13 +8486,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2011 with the return of Jesus according to Ronald Weinland',
           color: '#514C45',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/ronaldprophet.jpg',
-          day_of: new Date ('2011-09-29T13:44:00.000Z'),
+          day_of: new Date ('2011-09-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 542,
@@ -8500,7 +8500,7 @@ exports.seed = function(knex, Promise) {
           name: 'Gerry Hemingway (drums), born 1955',
           color: '#6F1F7E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/gerryhemingway.jpg',
-          day_of: new Date ('1955-03-23T13:44:00.000Z'),
+          day_of: new Date ('1955-03-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8510,8 +8510,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://outnowrecordings.bandcamp.com/album/theres-nothing-better-to-do', 'http://intaktrec.bandcamp.com/album/table-of-changes', 'http://intaktrec.bandcamp.com/album/affinities' ],
             "a_strings": [ 'There&#39;s Nothing Better To Do by Albert Beger and Gerry Hemingway', 'Table of Changes by Marilyn Crispell – Gerry Hemingway', 'Affinities by Marilyn Crispell and Gerry Hemingway' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 543,
@@ -8519,13 +8519,13 @@ exports.seed = function(knex, Promise) {
           name: 'The rapture occurred after a devestating earthquake on this day in 2011 according to the prolific doomsday seer Harold Camping.',
           color: '#8A4E4D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/wewasraptured.jpg',
-          day_of: new Date ('2011-05-21T13:44:00.000Z'),
+          day_of: new Date ('2011-05-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 544,
@@ -8533,7 +8533,7 @@ exports.seed = function(knex, Promise) {
           name: 'Mark Helias (bass), born 1950',
           color: '#285858',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/markhelias.jpg',
-          day_of: new Date ('1950-10-01T13:44:00.000Z'),
+          day_of: new Date ('1950-10-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8543,8 +8543,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://intaktrec.bandcamp.com/album/the-signal-maker' ],
             "a_strings": [ 'The Signal Maker by Mark Helias Open Loose' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 545,
@@ -8552,13 +8552,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2007 according to professional worthless human Pat Robertson',
           color: '#4EA0CC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/patrobertsonuseless.jpg',
-          day_of: new Date ('2007-04-29T13:44:00.000Z'),
+          day_of: new Date ('2007-04-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 546,
@@ -8566,7 +8566,7 @@ exports.seed = function(knex, Promise) {
           name: 'Denman Maroney (pianist), born 1949',
           color: '#5FA49A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/denmanmaroney.jpg',
-          day_of: new Date ('1949-07-25T13:44:00.000Z'),
+          day_of: new Date ('1949-07-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8576,8 +8576,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://denmanmaroney.bandcamp.com/album/alt-timers-crispr', 'http://outnowrecordings.bandcamp.com/album/arson', 'http://joshsinton.bandcamp.com/album/anomonous' ],
             "a_strings": [ 'alt.timers&#39; CRISPR by Denman Maroney', 'Arson by Hans Tammen &amp; Denman Maroney', 'anomonous by Josh Sinton, Denman Maroney &amp; Ben Miller' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 547,
@@ -8585,13 +8585,13 @@ exports.seed = function(knex, Promise) {
           name: 'Nuclear war broke out on this day in 2006 and ended the world according the prophecy of Yisrayl Hawkins of the House of Yaweh',
           color: '#506070',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/yahwehorthehaweh.jpg',
-          day_of: new Date ('2006-09-12T13:44:00.000Z'),
+          day_of: new Date ('2006-09-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 548,
@@ -8599,13 +8599,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mary Harris (Mother) Jones (activist/community organizer) born in 1837',
           color: '#6E6E6E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/motherjones.png',
-          day_of: new Date ('1837-05-01T13:44:00.000Z'),
+          day_of: new Date ('1837-05-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 549,
@@ -8613,13 +8613,13 @@ exports.seed = function(knex, Promise) {
           name: 'The second coming of Jesus Christ occurred on this day in 2000 according to James Harmston of the True and Living Church of Jesus Christ of Saints of the Last Days',
           color: '#598C75',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/trueandlivingblahblahblah.jpg',
-          day_of: new Date ('2000-04-06T13:44:00.000Z'),
+          day_of: new Date ('2000-04-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 550,
@@ -8627,13 +8627,13 @@ exports.seed = function(knex, Promise) {
           name: 'Lisle Ellis (bass) born in 1951',
           color: '#3C130F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/lisleellis.jpg',
-          day_of: new Date ('1951-11-17T13:44:00.000Z'),
+          day_of: new Date ('1951-11-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 551,
@@ -8641,13 +8641,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1999 according to The Amazing Criswell',
           color: '#A2C9CB',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/theamazingcriswell.jpg',
-          day_of: new Date ('1999-08-18T13:44:00.000Z'),
+          day_of: new Date ('1999-08-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 552,
@@ -8655,13 +8655,13 @@ exports.seed = function(knex, Promise) {
           name: 'HP Lovecraft (author) born in 1890',
           color: '#999999',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/hplovecraft.jpg',
-          day_of: new Date ('1890-08-20T13:44:00.000Z'),
+          day_of: new Date ('1890-08-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 553,
@@ -8669,13 +8669,13 @@ exports.seed = function(knex, Promise) {
           name: 'God arrived in a flying saucer on this day in 1998 according to Hon-Ming Chen of the Chen Tao based in Garland, Texas.',
           color: '#84836F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/97311924.jpg',
-          day_of: new Date ('1998-03-31T13:44:00.000Z'),
+          day_of: new Date ('1998-03-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 554,
@@ -8683,13 +8683,13 @@ exports.seed = function(knex, Promise) {
           name: 'Kyle Gann (composer/columnist/musicologist) born in 1955',
           color: '#0E041C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/kylegann.jpg',
-          day_of: new Date ('1955-11-21T13:44:00.000Z'),
+          day_of: new Date ('1955-11-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 555,
@@ -8697,13 +8697,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1995 - as per Harold Camping\'s fourth predicted end of the world date.',
           color: '#585244',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/camping.jpg',
-          day_of: new Date ('1995-03-31T13:44:00.000Z'),
+          day_of: new Date ('1995-03-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 556,
@@ -8711,7 +8711,7 @@ exports.seed = function(knex, Promise) {
           name: 'Carl Ruggles (composer) born in 1876',
           color: '#292621',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/carlruggles.jpg',
-          day_of: new Date ('1876-03-11T13:44:00.000Z'),
+          day_of: new Date ('1876-03-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8721,8 +8721,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://othermindsrecords.bandcamp.com/album/the-complete-music-of-carl-ruggles' ],
             "a_strings": [ 'The Complete Music of Carl Ruggles by Carl Ruggles' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 557,
@@ -8730,13 +8730,13 @@ exports.seed = function(knex, Promise) {
           name: 'Proving that the third time is the charm, the world ended on this day in 1994 as per Harold Camping\'s third predicted end date.',
           color: '#585244',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/camping.jpg',
-          day_of: new Date ('1994-10-02T13:44:00.000Z'),
+          day_of: new Date ('1994-10-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 558,
@@ -8744,7 +8744,7 @@ exports.seed = function(knex, Promise) {
           name: 'Sunny Murray (drums) born in 1936',
           color: '#D2C081',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/SunnyMurray-129619900.jpg',
-          day_of: new Date ('1936-09-21T13:44:00.000Z'),
+          day_of: new Date ('1936-09-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8754,8 +8754,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://sunnymurray.bandcamp.com/album/sunny-murray', 'http://futuramarge.bandcamp.com/album/aigu-grave', 'http://ayler-records.bandcamp.com/album/ode-to-albert-ayler', 'http://eremiterecords.bandcamp.com/album/we-are-not-at-the-opera', 'http://ayler-records.bandcamp.com/album/live-at-glenn-miller-caf-3' ],
             "a_strings": [ 'Sunny Murray by Sunny Murray', 'Aigu-Grave by Sunny Murray Quintet', 'Ode to Albert Ayler by Mark O&#39;Leary &amp; Sunny Murray', 'We Are Not At The Opera by Sunny Murray &amp; Sabir Mateen', 'Live at Glenn Miller Café by Arthur Doyle &amp; Sunny Murray' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 559,
@@ -8763,13 +8763,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1994 according to Harold Camping\'s second attempt at apocalyptic prophecy.',
           color: '#585244',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/camping.jpg',
-          day_of: new Date ('1994-09-29T13:44:00.000Z'),
+          day_of: new Date ('1994-09-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 560,
@@ -8777,7 +8777,7 @@ exports.seed = function(knex, Promise) {
           name: 'Tim Berne (reeds) born in 1954',
           color: '#9CC5F1',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/timberne.jpg',
-          day_of: new Date ('1954-10-16T13:44:00.000Z'),
+          day_of: new Date ('1954-10-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8787,8 +8787,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://timberne.bandcamp.com/album/my-first-tour-live-in-brussels', 'http://timberne.bandcamp.com/album/fulton-street-maul', 'http://timberne.bandcamp.com/album/diminutive-mysteries-mostly-hemphill', 'http://timberne.bandcamp.com/album/fractured-fairy-tales', 'http://timberne.bandcamp.com/album/sanctified-dreams', 'http://timberne.bandcamp.com/album/the-empire-box-disc-5-songs-and-rituals-in-real-time', 'http://timberne.bandcamp.com/album/the-empire-box-disc-4-songs-and-rituals-in-real-time', 'http://timberne.bandcamp.com/album/the-empire-box-disc-3-spectres', 'http://timberne.bandcamp.com/album/the-empire-box-disc-2-7x', 'http://timberne.bandcamp.com/album/the-empire-box-disc-1-the-five-year-plan', 'http://timbernesbloodcount.bandcamp.com/album/discretion-featuring-chris-speed-michael-formanek-and-jim-black', 'http://timbernesbloodcount.bandcamp.com/album/seconds', 'http://timbernesbloodcount.bandcamp.com/album/saturation-point', 'http://timbernesbloodcount.bandcamp.com/album/unwound-the-fan', 'http://timbernesbloodcount.bandcamp.com/album/unwound-an-average-daze', 'http://timbernesbloodcount.bandcamp.com/album/unwound-were-only-in-it-for-the-food', 'http://timbernesbloodcount.bandcamp.com/album/memory-select-the-paris-concert-iii', 'http://timbernesbloodcount.bandcamp.com/album/poisioned-minds-the-paris-concert-ii', 'http://timbernesbloodcount.bandcamp.com/album/lowlife-the-paris-concert-i', 'http://paraphrasetimberne.bandcamp.com/album/pre-emptive-denial', 'http://paraphrasetimberne.bandcamp.com/album/visitation-rites', 'http://timbernescaostotale.bandcamp.com/album/nice-view', 'http://timbernescaostotale.bandcamp.com/album/pace-yourself', 'http://timbernebillfrisell.bandcamp.com/album/theoretically', 'http://sciencefrictiontimberne.bandcamp.com/album/mind-over-friction-disc-3', 'http://sciencefrictiontimberne.bandcamp.com/album/mind-over-friction-disc-2', 'http://sciencefrictiontimberne.bandcamp.com/album/science-friction', 'http://timbernesnakeoil.bandcamp.com/album/anguis-oleum' ],
             "a_strings": [ 'My First Tour - Live in Brussels by Tim Berne', 'Fulton Street Maul by Tim Berne', 'Diminutive Mysteries (Mostly Hemphill) by Tim Berne', 'Fractured Fairy Tales by Tim Berne', 'Sanctified Dreams by Tim Berne', 'The Empire Box Disc 5: Songs And Rituals In Real Time by Tim Berne', 'The Empire Box, Disc 4: Songs And Rituals In Real Time by Tim Berne', 'The Empire Box Disc 3: Spectres by Tim Berne', 'The Empire Box Disc 2: 7X by Tim Berne', 'The Empire Box Disc 1: The Five Year Plan by Tim Berne', 'Discretion (featuring Chris Speed, Michael Formanek and Jim Black) by Tim Berne', 'Seconds by Bloodcount &amp; Tim Berne', 'Saturation Point by Bloodcount and Tim Berne', 'Unwound / The Fan by Bloodcount &amp; Tim Berne', 'Unwound / An Average Daze by Bloodcount &amp; Tim Berne', 'Unwound / We&#39;re Only In It For The Food by Bloodcount &amp; Tim Berne', 'Memory Select - The Paris Concert III by Bloodcount &amp; Tim Berne', 'Poisioned Minds - The Paris Concert II by Bloodcount &amp; Tim Berne', 'Lowlife - The Paris Concert I by Bloodcount &amp; Tim Berne', 'Pre-Emptive Denial by Paraphrase &amp; Tim Berne', 'Visitation Rites by Paraphrase &amp; Tim Berne', 'Nice View by Tim Berne&#39;s Caos Totale', 'Pace Yourself by Tim Berne&#39;s Caos Totale', 'Theoretically by Tim Berne &amp; Bill Frisell', 'Mind Over Friction (Disc 3) by Science Friction &amp; Tim Berne', 'Mind Over Friction (disc 2) by Science Friction &amp; Tim Berne', 'Science Friction by Science Friction &amp; Tim Berne', 'Anguis Oleum by Snakeoil' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 561,
@@ -8796,13 +8796,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1994 on what would be the first of several such predictions by Harold Camping.',
           color: '#585244',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/camping.jpg',
-          day_of: new Date ('1994-09-06T13:44:00.000Z'),
+          day_of: new Date ('1994-09-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 562,
@@ -8810,7 +8810,7 @@ exports.seed = function(knex, Promise) {
           name: 'David Byrne (guitar/vocals/author/songwriter/artist) born in 1952',
           color: '#E4DCC9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidbyrne.jpg',
-          day_of: new Date ('1952-05-14T13:44:00.000Z'),
+          day_of: new Date ('1952-05-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8820,8 +8820,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://davidbyrne.bandcamp.com/album/in-spite-of-wishing-and-wanting', 'http://davidbyrne.bandcamp.com/album/the-visible-man', 'http://davidbyrne.bandcamp.com/album/forestry' ],
             "a_strings": [ 'In Spite of Wishing and Wanting by David Byrne', 'The Visible Man by David Byrne', 'Forestry by David Byrne' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 563,
@@ -8829,13 +8829,13 @@ exports.seed = function(knex, Promise) {
           name: 'New York City was destroyed by a nuclear explosion on this day in 1994 according to Bahá\'í Sect leader Neal Chase. The Battle of Armageddon is scheduled for 40 years after this date.',
           color: '#2C425B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/nealchase.jpg',
-          day_of: new Date ('1994-05-02T13:44:00.000Z'),
+          day_of: new Date ('1994-05-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 564,
@@ -8843,13 +8843,13 @@ exports.seed = function(knex, Promise) {
           name: 'Joe Henderson (saxophone), born in 1937',
           color: '#A97F2B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/joehenderson.jpg',
-          day_of: new Date ('1937-04-24T13:44:00.000Z'),
+          day_of: new Date ('1937-04-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 565,
@@ -8857,13 +8857,13 @@ exports.seed = function(knex, Promise) {
           name: 'The rapture occurred on this day in 1992 according to Lee Jang Rim (이장림 or 李長林) of the Dami Mission church.',
           color: '#B8988A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/damimission.jpg',
-          day_of: new Date ('1992-10-28T13:44:00.000Z'),
+          day_of: new Date ('1992-10-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 566,
@@ -8871,7 +8871,7 @@ exports.seed = function(knex, Promise) {
           name: 'David Borden (composer) born in 1938',
           color: '#1F1924',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidborden.jpg',
-          day_of: new Date ('1938-12-25T13:44:00.000Z'),
+          day_of: new Date ('1938-12-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8881,8 +8881,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://cuneiformrecords.bandcamp.com/album/places-times-people', 'http://cuneiformrecords.bandcamp.com/album/the-continuing-story-of-counterpoint-parts-1-4-8-complete', 'http://cuneiformrecords.bandcamp.com/album/the-continuing-story-of-counterpoint-part-5-8', 'http://cuneiformrecords.bandcamp.com/album/the-continuing-story-of-counterpoint-parts-9-12' ],
             "a_strings": [ 'Places, Times &amp; People by David Borden', 'The Continuing Story of Counterpoint Parts 1-4+8 (Complete) by David Borden / Mother Mallard', 'The Continuing Story of Counterpoint, Part 5-8 by David Borden / Mother Mallard', 'The Continuing Story of Counterpoint Parts 9-12 by David Borden / Mother Mallard' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 567,
@@ -8890,13 +8890,13 @@ exports.seed = function(knex, Promise) {
           name: 'The messiah appeared on this day in 1991, ushering in the end of the world according to Russian-born rabbi Menachem Mendel Schneerson.',
           color: '#13628D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Rabbi_Menachem_Mendel_Schneerson2_crop.jpg',
-          day_of: new Date ('1991-09-09T13:44:00.000Z'),
+          day_of: new Date ('1991-09-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 568,
@@ -8904,13 +8904,13 @@ exports.seed = function(knex, Promise) {
           name: 'Elizabeth Cady Stanton (suffragist, social activist, abolitionist) born in 1815',
           color: '#599BBA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/elizabethcadystanton.JPG',
-          day_of: new Date ('1815-11-12T13:44:00.000Z'),
+          day_of: new Date ('1815-11-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 569,
@@ -8918,13 +8918,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1989 exactly as foretold by Edgar C. Whisenant\'s second apocalyptic prediction.',
           color: '#CB695D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/edgarcwhisenant.jpg',
-          day_of: new Date ('1989-09-30T13:44:00.000Z'),
+          day_of: new Date ('1989-09-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 570,
@@ -8932,13 +8932,13 @@ exports.seed = function(knex, Promise) {
           name: 'Tony Conrad (composer, video artist, filmmaker, writer) born in 1940',
           color: '#A43C21',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/tonyconrad.jpg',
-          day_of: new Date ('1940-03-07T13:44:00.000Z'),
+          day_of: new Date ('1940-03-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 571,
@@ -8946,13 +8946,13 @@ exports.seed = function(knex, Promise) {
           name: 'The rapture occurred on this date in 1988 as promised by Edgar C. Whisenant - author of 88 Reasons Why the Rapture Will Be in 1988. He settled on this date when the rapture failed to materialize between September 11-13.',
           color: '#E2C17C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/88reasons.jpg',
-          day_of: new Date ('1988-10-03T13:44:00.000Z'),
+          day_of: new Date ('1988-10-03 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 572,
@@ -8960,7 +8960,7 @@ exports.seed = function(knex, Promise) {
           name: 'Louis Moholo-Moholo (drums) born in 1940',
           color: '#55C4E8',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/luoismoholomoholo.jpg',
-          day_of: new Date ('1940-03-10T13:44:00.000Z'),
+          day_of: new Date ('1940-03-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -8970,8 +8970,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://intaktrec.bandcamp.com/album/ir-ne-schweizer-louis-moholo', 'http://intaktrec.bandcamp.com/album/sibanye-we-are-one', 'http://ayler-records.bandcamp.com/album/cape-of-storms' ],
             "a_strings": [ 'Irène Schweizer - Louis Moholo by Irène Schweizer, Louis Moholo', 'Sibanye (We Are One) by Louis Moholo-Moholo, Marilyn Crispell', 'Cape of Storms by Dennis González Yells At Eels + Louis Moholo-Moholo' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 573,
@@ -8979,13 +8979,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1987 when 144,000 people failed to resonate in harmony to stave off armageddon as per José Argüelles\' prediction.',
           color: '#43402D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Jose-Arguelles-Jan2010.jpg',
-          day_of: new Date ('1987-08-17T13:44:00.000Z'),
+          day_of: new Date ('1987-08-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 574,
@@ -8993,13 +8993,13 @@ exports.seed = function(knex, Promise) {
           name: 'Paul Lafargue (French revolutionary/writer/activist) born in 1842',
           color: '#25200D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/paullafargue.jpg',
-          day_of: new Date ('1842-01-15T13:44:00.000Z'),
+          day_of: new Date ('1842-01-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 575,
@@ -9007,13 +9007,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1986 when Haley\'s Comet was pulled into the Earth\'s orbit - causing massive destruction according to Leland Jensen.',
           color: '#284B88',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/lelandjensen.JPG',
-          day_of: new Date ('1986-04-29T13:44:00.000Z'),
+          day_of: new Date ('1986-04-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 576,
@@ -9021,7 +9021,7 @@ exports.seed = function(knex, Promise) {
           name: 'Timothy Daisy (drums/marimba) born in 1976',
           color: '#03EE03',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/timothydaisy.jpg',
-          day_of: new Date ('1976-07-15T13:44:00.000Z'),
+          day_of: new Date ('1976-07-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9031,8 +9031,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://timdaisyrelayrecords.bandcamp.com/album/tim-daisy-music-for-lying-still-relay-020-2', 'http://timdaisyrelayrecords.bandcamp.com/album/triptych-michael-thieke-tim-daisy-ken-vandermark-relay-019', 'http://timdaisyrelayrecords.bandcamp.com/album/tim-daisy-red-nation-1-relay-018', 'http://timdaisyrelayrecords.bandcamp.com/album/wolter-wierbos-jasper-stadhouders-tim-daisy-sounds-in-a-garden-relay-017', 'http://timdaisyrelayrecords.bandcamp.com/album/tim-daisys-celebration-sextet-the-halfway-there-suite-relay-016', 'http://timdaisyrelayrecords.bandcamp.com/album/tim-daisy-october-music-vol-2-7-compositions-for-duet-relay-015', 'http://timdaisyrelayrecords.bandcamp.com/album/joyride-relay-014', 'http://timdaisyrelayrecords.bandcamp.com/album/trio-red-space-fields-of-flat-relay-013-cd-sold-out-download-still-available', 'http://timdaisyrelayrecords.bandcamp.com/album/tim-daisy-relucent-music-for-marimba-radios-and-turntables-relay-012', 'http://timdaisyrelayrecords.bandcamp.com/album/steel-bridge-trio-different-clocks-relay-011', 'http://timdaisyrelayrecords.bandcamp.com/album/vox-arcana-caros-song-relay-010-cd-sold-out-digital-download-still-available', 'http://timdaisyrelayrecords.bandcamp.com/album/tim-daisy-october-music-vol-1-7-compositions-for-duet-relay-009', 'http://timdaisyrelayrecords.bandcamp.com/album/meeting-point-relay-008', 'http://timdaisyrelayrecords.bandcamp.com/album/in-this-moment-mikolaj-trzaska-tim-daisy-relay-007', 'http://timdaisyrelayrecords.bandcamp.com/album/the-tim-daisy-trio-a-fine-day-in-berlin-relay-006', 'http://timdaisyrelayrecords.bandcamp.com/album/vox-arcana-soft-focus-relay-005', 'http://timdaisyrelayrecords.bandcamp.com/album/jeb-bishop-tim-daisy-old-shoulders-relay-004', 'http://timdaisyrelayrecords.bandcamp.com/album/darren-johnston-tim-daisy-crossing-belmont-relay-digital-006', 'http://timdaisyrelayrecords.bandcamp.com/album/colors-by-shade-for-anne-sexton-the-red-door-ensemble-relay-digital-005', 'http://timdaisyrelayrecords.bandcamp.com/album/tim-daisy-solo-on-the-ground-an-amusing-mess-relay-digital-004', 'http://timdaisyrelayrecords.bandcamp.com/album/hans-peter-pfammatter-tim-daisy-different-names-relay-digital-002', 'http://timdaisyrelayrecords.bandcamp.com/album/the-tim-daisy-quartet-streets-in-time-w-taylor-ho-bynum-steve-swell-john-hebert-relay-digital-001', 'http://timdaisyrelayrecords.bandcamp.com/track/the-glass-house-by-tim-daisy-relay-new-composers-008', 'http://timdaisyrelayrecords.bandcamp.com/album/july-music-solo-percussion-by-tim-daisy-relay-new-composers-series-002', 'http://timdaisyrelayrecords.bandcamp.com/album/jason-stein-tim-daisy-alive-at-woodland-pattern-book-center-relay-live-2014', 'http://timdaisyrelayrecords.bandcamp.com/track/frank-rosaly-tim-daisy-percussion-duo-relay-live-2007', 'http://sonorus-records.bandcamp.com/album/autotelic-son002', 'http://peira.bandcamp.com/album/pm21-bascule', 'http://mattpiet.bandcamp.com/album/strike-one-strike-too', 'http://daniellevin.bandcamp.com/album/the-flower-and-the-bear', 'http://multikultiproject.bandcamp.com/album/1000-lights', 'http://music.amalgamusic.org/album/cure-for-the-quotidian', 'http://store.b4d-records.com/album/live-in-lafayette-tim-daisy-jeff-albert-josef-butts' ],
             "a_strings": [ 'Tim Daisy:: Music For Lying Still (relay 020) by Tim Daisy', 'Triptych - Michael Thieke : Tim Daisy : Ken Vandermark  (relay 019) by Tim Daisy Michael Thieke Ken Vandermark', 'Tim Daisy [] Red Nation  &quot;1&quot;  (relay 018) by red nation', 'Wolter Wierbos/ Jasper Stadhouders/ Tim Daisy :: Sounds In A Garden (relay 017) by Relay Recordings', 'Tim Daisy&#39;s Celebration Sextet :: The Halfway There Suite (relay 016) by Relay Recordings', 'Tim Daisy October Music Vol 2 :: 7 Compositions For Duet (relay 015) by Tim Daisy', 'Joyride (relay 014) by Marc Riordan / piano &amp; Tim Daisy / drums', 'Trio red Space &#39;Fields of Flat&#39; (relay 013) CD SOLD OUT // DOWNLOAD STILL AVAILABLE by Trio red Space', 'Tim Daisy :: Relucent // music for marimba, radios and turntables (relay 012) by Tim Daisy', 'Steel Bridge Trio &quot;Different Clocks&quot; (relay 011) by Steel Bridge Trio', 'Vox Arcana - &quot;Caro&#39;s Song&quot; (relay 010) CD SOLD OUT //DIGITAL DOWNLOAD STILL AVAILABLE by Vox Arcana', 'Tim Daisy - October Music (Vol 1)  7 Compositions For Duet (relay 009) by Tim Daisy', 'Meeting Point (relay 008) by The Russ Johnson Quartet', '&quot;In This Moment&quot; Mikolaj Trzaska &amp; Tim Daisy (relay 007) by Mikolaj Trzaska &amp; Tim Daisy', 'The Tim Daisy Trio &quot;A Fine Day In Berlin&quot; (relay 006) by Relay Recordings', 'Vox Arcana &quot;Soft Focus&quot; (relay 005) by Vox Arcana', 'Jeb Bishop + Tim Daisy Old Shoulders (relay 004) by Relay Recordings', 'Darren Johnston &amp; Tim Daisy //  Crossing Belmont (relay digital 006) by Darren Johnston, Tim Daisy', 'Colors by Shade (for Anne Sexton) :: the red door ensemble  (relay digital 005) by the red door ensemble :: Amanda DeBoer Bartlett - Peter Maunu - Tim Daisy', 'tim daisy solo. on the ground &#39;an amusing mess&#39; (relay digital 004) by Tim Daisy', 'Hans- Peter Pfammatter + Tim Daisy &quot;Different Names&quot; (relay digital 002) by Hans - Peter Pfammatter + Tim Daisy', 'The Tim Daisy Quartet &quot;Streets In Time&quot;          w/ Taylor Ho Bynum - Steve Swell - John Hebert (relay digital 001) by The Tim Daisy Quartet', 'The Glass House :: by Tim Daisy  - relay new composers 008 by Relay Recordings', 'July Music :: Solo Percussion by Tim Daisy (relay new composers series 002) by Relay Recordings', 'Jason Stein &amp; Tim Daisy Alive At Woodland Pattern Book Center (relay live 2014) by Jason Stein &amp; Tim Daisy', 'Frank Rosaly + Tim Daisy percussion duo (relay live 2007) by Relay Recordings', 'Autotelic — SON002 by Tim Daisy', 'PM21 - Bascule by Tim Daisy, Jason Stein', 'strike one; strike too by Matt Piet &amp; Tim Daisy', 'The Flower And The Bear by Daniel Levin / Tim Daisy', '1,000 Lights by Tim Daisy / New Fracture Quartet', 'Cure For the Quotidian by Dave Rempis / Matt Piet / Tim Daisy', 'Live in Lafayette - Tim Daisy, Jeff Albert, &amp; Josef Butts by Tim Daisy, Jeff Albert, &amp; Josef Butts' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 577,
@@ -9040,13 +9040,13 @@ exports.seed = function(knex, Promise) {
           name: 'The second coming of Jesus happened on this day in 1982 with the messiah (also known as Maitreya) announcing his return on live television just as Benjami Creme predicted.',
           color: '#2C334F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/BENJAMIN_CREME_2006.jpg',
-          day_of: new Date ('1982-06-21T13:44:00.000Z'),
+          day_of: new Date ('1982-06-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 578,
@@ -9054,13 +9054,13 @@ exports.seed = function(knex, Promise) {
           name: 'Karl Kautsky (philosopher/journalist/Marxist theoretician) born 1864',
           color: '#636363',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/54e7cf953d358_karl_kautsky.jpg',
-          day_of: new Date ('1864-10-16T13:44:00.000Z'),
+          day_of: new Date ('1864-10-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 579,
@@ -9068,13 +9068,13 @@ exports.seed = function(knex, Promise) {
           name: 'The second coming of Christ occurred on this day in 1969 according to George Williams of the Church of the Firstborn.',
           color: '#B1ACA8',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Joseph_Morris_(Latter_Day_Saints).jpg',
-          day_of: new Date ('1969-08-09T13:44:00.000Z'),
+          day_of: new Date ('1969-08-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 580,
@@ -9082,13 +9082,13 @@ exports.seed = function(knex, Promise) {
           name: 'Daniel De Leon (newspaper editor/trade union organizer) born in 1852',
           color: '#6C584A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/quote-capitalism-attacks-and-destroys-all-the-finer-sentiments-of-the-human-heart-it-ruthlessly-daniel-de-leon-17-28-82.jpg',
-          day_of: new Date ('1852-12-14T13:44:00.000Z'),
+          day_of: new Date ('1852-12-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 581,
@@ -9096,13 +9096,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1959 as foretold by Florence Houteff - second prophet of the Branch Davidians.',
           color: '#363535',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Florence_Houteff.png',
-          day_of: new Date ('1959-04-22T13:44:00.000Z'),
+          day_of: new Date ('1959-04-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 582,
@@ -9110,13 +9110,13 @@ exports.seed = function(knex, Promise) {
           name: 'Clara Zetkin (women\'s rights advocate/activist/Marxist) born in 1857',
           color: '#3F3F3F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/clarazetkin.jpeg',
-          day_of: new Date ('1857-07-05T13:44:00.000Z'),
+          day_of: new Date ('1857-07-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 583,
@@ -9124,13 +9124,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jesus returned on this day in 1847 just as George Rapp - founder of the Harmony Society - predicted',
           color: '#221213',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/georgerapp.jpg',
-          day_of: new Date ('1847-08-07T13:44:00.000Z'),
+          day_of: new Date ('1847-08-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 584,
@@ -9138,13 +9138,13 @@ exports.seed = function(knex, Promise) {
           name: 'Matt Wilson (drums) born 1964',
           color: '#C9B6A8',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/matt_cymbal_hat.jpg',
-          day_of: new Date ('1964-09-27T13:44:00.000Z'),
+          day_of: new Date ('1964-09-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 585,
@@ -9152,13 +9152,13 @@ exports.seed = function(knex, Promise) {
           name: 'The second coming of Jesus Christ occurred on this day in 1844, according to William Miller\'s original prediction of March 21 that same year',
           color: '#5C5C5C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/William_Miller.jpg',
-          day_of: new Date ('1844-10-22T13:44:00.000Z'),
+          day_of: new Date ('1844-10-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 586,
@@ -9166,13 +9166,13 @@ exports.seed = function(knex, Promise) {
           name: 'Georgi Plekhanov (founder of the social-democratic movement in Russia) born in 1856',
           color: '#363636',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/georgiplekhanov.jpeg',
-          day_of: new Date ('1856-11-29T13:44:00.000Z'),
+          day_of: new Date ('1856-11-29 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 587,
@@ -9180,13 +9180,13 @@ exports.seed = function(knex, Promise) {
           name: 'The second coming of Jesus happened on this day in 1844 according to the never-wrong prophecy of William Miller',
           color: '#434343',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/WilliamMiller.jpg',
-          day_of: new Date ('1844-03-21T13:44:00.000Z'),
+          day_of: new Date ('1844-03-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 588,
@@ -9194,13 +9194,13 @@ exports.seed = function(knex, Promise) {
           name: 'Rosa Luxemburg (feminist/philosopher/anti-war activist) born 1871',
           color: '#0D0B0E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/rosaluxemburg.jpg',
-          day_of: new Date ('1871-03-05T13:44:00.000Z'),
+          day_of: new Date ('1871-03-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 589,
@@ -9208,13 +9208,13 @@ exports.seed = function(knex, Promise) {
           name: 'The second coming of Jesus occurred on this day in 1843 as per the expectations of the Millerites',
           color: '#5D616C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/William-Miller.jpg',
-          day_of: new Date ('1843-04-28T13:44:00.000Z'),
+          day_of: new Date ('1843-04-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 590,
@@ -9222,7 +9222,7 @@ exports.seed = function(knex, Promise) {
           name: 'Marshall Allen (alto saxophone/flute/EVI) born in 1924',
           color: '#A22D1C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/marshallallen.png',
-          day_of: new Date ('1924-05-25T13:44:00.000Z'),
+          day_of: new Date ('1924-05-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9232,8 +9232,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://caribouband.bandcamp.com/album/caribou-vibration-ensemble-featuring-marshall-allen', 'http://sunrastrut.bandcamp.com/album/marshall-allen-presents-sun-ra-and-his-arkestra-in-the-orbit-of-ra', 'http://eremiterecords.bandcamp.com/album/the-all-star-game' ],
             "a_strings": [ 'Caribou Vibration Ensemble Featuring Marshall Allen by Caribou Vibration Ensemble', 'Marshall Allen presents Sun Ra And His Arkestra: In The Orbit Of Ra by Sun Ra', 'The All Star Game by Marshall Allen, Hamid Drake, Kidd Jordan, William Parker, Alan Silva' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 591,
@@ -9241,13 +9241,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in the year 1000 as predicted by the most devout Pope Sylvester II.',
           color: '#F0CB73',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Silvester_II.jpeg',
-          day_of: new Date ('1000-01-01T13:44:00.000Z'),
+          day_of: new Date ('1000-01-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 592,
@@ -9255,7 +9255,7 @@ exports.seed = function(knex, Promise) {
           name: 'Henry Threagdill (composer/reeds) born in 1944',
           color: '#E3BEB5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/Henry-Threadgill-768x432.jpg',
-          day_of: new Date ('1944-02-15T13:44:00.000Z'),
+          day_of: new Date ('1944-02-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9265,8 +9265,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://henrythreadgill.bandcamp.com/album/old-locks-and-irregular-verbs', 'http://henrythreadgill.bandcamp.com/album/this-brings-us-to-volume-i', 'http://henrythreadgill.bandcamp.com/album/in-for-a-penny-in-for-a-pound', 'http://henrythreadgill.bandcamp.com/album/tomorrow-sunny-the-revelry-spp', 'http://henrythreadgill.bandcamp.com/album/this-brings-us-to-volume-ii', 'http://henrythreadgill.bandcamp.com/album/everybodys-mouths-a-book', 'http://henrythreadgill.bandcamp.com/album/up-popped-the-two-lips', 'http://billlaswell.bandcamp.com/album/too-much-sugar-for-a-dime' ],
             "a_strings": [ 'Old Locks and Irregular Verbs by Henry Threadgill&#39;s Ensemble Double Up', 'This Brings Us To, Volume I by Henry Threadgill', 'In for a Penny, In for a Pound by Henry Threadgill', 'Tomorrow Sunny / The Revelry, Spp by Henry Threadgill', 'This Brings Us To, Volume II by Henry Threadgill', 'Everybodys Mouth&#39;s A Book by Henry Threadgill &amp; Make A Move', 'Up Popped The Two Lips by Henry Threadgill&#39;s Zooid', 'Too Much Sugar for a Dime by Henry Threadgill' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 593,
@@ -9274,13 +9274,13 @@ exports.seed = function(knex, Promise) {
           name: 'A group of astrologers in London predicted the world would end by a flood on this day in 1524 starting in London, based on calculations made the previous June. 20,000 Londoners left their homes and headed for higher ground in anticipation.',
           color: '#D4D1BD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/PrognosticatioCarion2.jpg',
-          day_of: new Date ('1524-02-01T13:44:00.000Z'),
+          day_of: new Date ('1524-02-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 594,
@@ -9288,13 +9288,13 @@ exports.seed = function(knex, Promise) {
           name: 'Walter Benjamin (philosopher/social critic) born in 1892',
           color: '#3A3A3A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/download.jpeg',
-          day_of: new Date ('1892-07-15T13:44:00.000Z'),
+          day_of: new Date ('1892-07-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 595,
@@ -9302,13 +9302,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1524 when a planetary alignment in Pisces was predicted by the ever correct astrologer Johannes Stöffler.',
           color: '#383838',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Stoeffler1.jpg',
-          day_of: new Date ('1524-02-20T13:44:00.000Z'),
+          day_of: new Date ('1524-02-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 596,
@@ -9316,7 +9316,7 @@ exports.seed = function(knex, Promise) {
           name: 'Tyshawn Sorey (drums) born in 1980',
           color: '#252727',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/686b62114470cfc7bdf4302d6f59eb7872057681.jpg',
-          day_of: new Date ('1980-07-08T13:44:00.000Z'),
+          day_of: new Date ('1980-07-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9326,8 +9326,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://tyshawn-sorey.bandcamp.com/album/verisimilitude', 'http://tyshawn-sorey.bandcamp.com/album/the-inner-spectrum-of-variables', 'http://tyshawn-sorey.bandcamp.com/album/alloy', 'http://tyshawn-sorey.bandcamp.com/album/oblique-i', 'http://firehouse12records.com/album/that-not', 'http://samosalamon.bandcamp.com/album/keis-secret' ],
             "a_strings": [ 'Verisimilitude by Tyshawn Sorey', 'The Inner Spectrum of Variables by Tyshawn Sorey', 'Alloy by Tyshawn Sorey', 'Oblique-I by Tyshawn Sorey', 'that / not by Tyshawn Sorey', 'Kei&#39;s Secret by Samo Salamon Quartet feat. Tyshawn Sorey, Achille Succi &amp; Carlo De Rosa' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 597,
@@ -9335,13 +9335,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1528 according to German Anabaptist Hans Hut.',
           color: '#444444',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Hans_Hut.jpg',
-          day_of: new Date ('1528-05-27T13:44:00.000Z'),
+          day_of: new Date ('1528-05-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 598,
@@ -9349,7 +9349,7 @@ exports.seed = function(knex, Promise) {
           name: 'Wadada Leo Smith (trumpet) born in 1941',
           color: '#C85802',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/wadadaleosmith.jpeg',
-          day_of: new Date ('1941-12-18T13:44:00.000Z'),
+          day_of: new Date ('1941-12-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9359,8 +9359,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://cuneiformrecords.bandcamp.com/album/americas-national-parks', 'http://cuneiformrecords.bandcamp.com/album/ten-freedom-summers-2', 'http://wadadaleosmith.bandcamp.com/album/saturn-conjunct-the-grand-canyon-in-a-sweet-embrace', 'http://wadadaleosmith.bandcamp.com/album/organic-resonance', 'http://wadadaleosmith.bandcamp.com/album/the-year-of-the-elephant', 'http://billlaswell.bandcamp.com/album/the-stone-april-22-2014-2', 'http://adamrudolph.bandcamp.com/album/compassion', 'http://intaktrec.bandcamp.com/album/wisdom-in-time', 'http://idischidiangelica.bandcamp.com/album/nessuno' ],
             "a_strings": [ 'America&#39;s National Parks by Wadada Leo Smith', 'Ten Freedom Summers by Wadada Leo Smith', 'Saturn, Conjunct the Grand Canyon in a Sweet Embrace by Wadada Leo Smith &amp; Anthony Braxton', 'Organic Resonance by Wadada Leo Smith &amp; Anthony Braxton', 'The Year of The Elephant by Wadada Leo Smith&#39;s Golden Quartet', 'The Stone - April 22, 2014 by Wadada Leo Smith/Bill Laswell', 'Compassion by Adam Rudolph / Wadada Leo Smith', 'Wisdom in Time by Wadada Leo Smith – Günter Baby Sommer', 'Nessuno by Pauline Oliveros + Roscoe Mitchell + John Tilbury + Wadada Leo Smith' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 599,
@@ -9368,13 +9368,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended at 8:00am on this day in 1533 exactly as mathematician Michael Stifel predicted it would.',
           color: '#717171',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Michael_Stifel.jpeg',
-          day_of: new Date ('1533-10-19T13:44:00.000Z'),
+          day_of: new Date ('1533-10-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 600,
@@ -9382,7 +9382,7 @@ exports.seed = function(knex, Promise) {
           name: 'Laurie Spiegel (composer) born 1945',
           color: '#ABB0B4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/laurie-spiegel-soul-jazz-compilation.jpg',
-          day_of: new Date ('1945-09-20T13:44:00.000Z'),
+          day_of: new Date ('1945-09-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9392,8 +9392,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://unseenworlds.bandcamp.com/album/the-expanding-universe' ],
             "a_strings": [ 'The Expanding Universe by Laurie Spiegel' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 601,
@@ -9401,13 +9401,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1534 with only the German city of Münster being spared exactly as the Anabaptist leader Jan Matthys predicted it would.',
           color: '#5B5B5B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Matthys.jpg',
-          day_of: new Date ('1534-04-05T13:44:00.000Z'),
+          day_of: new Date ('1534-04-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 602,
@@ -9415,7 +9415,7 @@ exports.seed = function(knex, Promise) {
           name: 'Craig Taborn (piano) born in 1970',
           color: '#5C6E7A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/craig_nc.jpg',
-          day_of: new Date ('1970-02-20T13:44:00.000Z'),
+          day_of: new Date ('1970-02-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9425,8 +9425,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://krisdavis.bandcamp.com/album/octopus', 'http://aumfidelity.bandcamp.com/album/love-and-ghosts', 'http://aumfidelity.bandcamp.com/album/out-of-this-worlds-distortions' ],
             "a_strings": [ 'Octopus by Kris Davis, Craig Taborn', 'Love and Ghosts by Farmers By Nature : Gerald Cleaver / William Parker / Craig Taborn', 'Out Of This World&#39;s Distortions by Farmers By Nature : Gerald Cleaver / William Parker / Craig Taborn' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 603,
@@ -9434,13 +9434,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1624 - the revised date - after the London astrologers who predicted doom added 100 years to their original prediction.',
           color: '#BABA7A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/london_1572-1624_sanderusmaps.jpg',
-          day_of: new Date ('1624-02-01T13:44:00.000Z'),
+          day_of: new Date ('1624-02-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 604,
@@ -9448,13 +9448,13 @@ exports.seed = function(knex, Promise) {
           name: 'Francisco "Pancho" Villa (Mexican Revolutionary general) born 1878',
           color: '#201E1F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/pancho-villa-9518733-2-402.jpg',
-          day_of: new Date ('1878-06-05T13:44:00.000Z'),
+          day_of: new Date ('1878-06-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 605,
@@ -9462,13 +9462,13 @@ exports.seed = function(knex, Promise) {
           name: 'A comet destroyed the Earth on this day in 1719 just as mathematician Jacob Bernoulli predicted it would.',
           color: '#C28A3E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Jakob_Bernoulli.jpg',
-          day_of: new Date ('1719-04-05T13:44:00.000Z'),
+          day_of: new Date ('1719-04-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 606,
@@ -9476,13 +9476,13 @@ exports.seed = function(knex, Promise) {
           name: 'Che Guevara (revolutionary/author) born 1928',
           color: '#F70400',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/che-guevara_gEeM4.jpg',
-          day_of: new Date ('1928-06-14T13:44:00.000Z'),
+          day_of: new Date ('1928-06-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 607,
@@ -9490,13 +9490,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1736 when a comet collided with the Earth exactly as predicted by theologian William Whiston.',
           color: '#3F3220',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/William_Whiston.png',
-          day_of: new Date ('1736-10-16T13:44:00.000Z'),
+          day_of: new Date ('1736-10-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 608,
@@ -9504,7 +9504,7 @@ exports.seed = function(knex, Promise) {
           name: 'Marc Ribot (guitar) born 1954',
           color: '#817875',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/gzTfsgn9rsuSYTsHLdEBCn-320-80.jpg',
-          day_of: new Date ('1954-05-21T13:44:00.000Z'),
+          day_of: new Date ('1954-05-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9514,8 +9514,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://marcribot.bandcamp.com/album/live-at-the-village-vanguard', 'http://marcribot.bandcamp.com/album/silent-movies', 'http://marcribot.bandcamp.com/album/party-intellectuals', 'http://marcribot.bandcamp.com/album/spiritual-unity', 'http://marcribotsceramicdog.bandcamp.com/album/your-turn-2', 'http://noelakchote.bandcamp.com/album/the-other-side-of-lust-corner-alternate-free-takes-1996-no-l-akchot-marc-ribot', 'http://intaktrec.bandcamp.com/album/err-guitar' ],
             "a_strings": [ 'Live At The Village Vanguard by Marc Ribot Trio', 'Silent Movies by Marc Ribot', 'Party Intellectuals by Marc Ribot&#39;s Ceramic Dog', 'Spiritual Unity by Marc Ribot', 'Your Turn by Marc Ribot&#39;s Ceramic Dog', 'The Other Side Of Lust Corner (Alternate Free Takes, 1996) - Noël Akchoté &amp; Marc Ribot by Noël Akchoté &amp; Marc Ribot', 'Err Guitar by Elliott Sharp (with Mary Halvorson and Marc Ribot)' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 609,
@@ -9523,13 +9523,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1780 as smoke from forest fires blotted out the skies of New England and was interpreted by the Connecticut General Assembly as the end of days.',
           color: '#525447',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Dark-Day-Full-Image.jpg',
-          day_of: new Date ('1780-05-19T13:44:00.000Z'),
+          day_of: new Date ('1780-05-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 610,
@@ -9537,7 +9537,7 @@ exports.seed = function(knex, Promise) {
           name: 'Weasel Walter (drums/guitar) born in 1972',
           color: '#EABC88',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/23444_artist.jpg',
-          day_of: new Date ('1972-05-18T13:44:00.000Z'),
+          day_of: new Date ('1972-05-18 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9547,8 +9547,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://weaselwalter.bandcamp.com/album/the-final-solution', 'http://theflyingluttenbachers.bandcamp.com/album/live-at-wnur-2-6-92', 'http://theflyingluttenbachers.bandcamp.com/album/constructive-destruction', 'http://theflyingluttenbachers.bandcamp.com/album/destroy-all-music', 'http://theflyingluttenbachers.bandcamp.com/album/revenge', 'http://weaselwalter.bandcamp.com/album/demo-1997', 'http://theflyingluttenbachers.bandcamp.com/album/gods-of-chaos', 'http://theflyingluttenbachers.bandcamp.com/album/retrospektiw-iii', 'http://theflyingluttenbachers.bandcamp.com/album/the-truth-is-a-fucking-lie', 'http://weaselwalter.bandcamp.com/album/we-r', 'http://ugexploderecords.bandcamp.com/album/tribute-to-masayuki-takayanagi', 'http://theflyingluttenbachers.bandcamp.com/album/alptraum', 'http://theflyingluttenbachers.bandcamp.com/album/trauma', 'http://theflyingluttenbachers.bandcamp.com/album/retrospektiw-iv', 'http://theflyingluttenbachers.bandcamp.com/album/infection-and-decline', 'http://weaselwalter.bandcamp.com/album/eruption', 'http://theflyingluttenbachers.bandcamp.com/album/systems-emerge-from-complete-disorder', 'http://theflyingluttenbachers.bandcamp.com/album/the-void', 'http://theflyingluttenbachers.bandcamp.com/album/spectral-warrior-mythos-volume-one', 'http://theflyingluttenbachers.bandcamp.com/album/cataclysm', 'http://ugexploderecords.bandcamp.com/album/revolt-music', 'http://ugexploderecords.bandcamp.com/album/the-300-dollar-silk-shirt', 'http://weaselwalter.bandcamp.com/album/early-recordings-1988-1991', 'http://ugexploderecords.bandcamp.com/album/lichens', 'Incarceration By Abstraction by The Flying Luttenbachers', 'http://weaselwalter.bandcamp.com/album/firestorm-3', 'http://ugexploderecords.bandcamp.com/album/opulence', 'http://ugexploderecords.bandcamp.com/album/untitled', 'http://ugexploderecords.bandcamp.com/album/oculus-ex-abyssus', 'http://ugexploderecords.bandcamp.com/album/end-of-the-trail', 'http://ugexploderecords.bandcamp.com/album/the-unlistenable-years', 'http://weaselwalter.bandcamp.com/album/particles', 'http://ugexploderecords.bandcamp.com/album/mysteries-beneath-the-planet', 'http://ugexploderecords.bandcamp.com/album/mystery-meat', 'http://ugexploderecords.bandcamp.com/album/american-free', 'http://weaselwalter.bandcamp.com/album/apocalyptik-paranoia', 'http://ugexploderecords.bandcamp.com/album/gro-es-messer', 'http://weaselwalter.bandcamp.com/album/large-group-performances-2007-2009', 'http://ugexploderecords.bandcamp.com/album/invasion', 'http://ugexploderecords.bandcamp.com/album/blood-of-the-earth', 'http://ugexploderecords.bandcamp.com/album/no-mor-musik' ],
             "a_strings": [ 'The Final Solution by Weasel Walter', 'Live At WNUR 2-6-92 by The Flying Luttenbachers', 'Constructive Destruction by The Flying Luttenbachers', 'Destroy All Music by The Flying Luttenbachers', 'Revenge by The Flying Luttenbachers', 'Demo 1997 by Hatewave', 'Gods Of Chaos by The Flying Luttenbachers', 'Retrospektiw III by The Flying Luttenbachers', '&quot;...the truth is a fucking lie...&quot; by The Flying Luttenbachers', 'We R ≠ by Vagiant', 'Tribute to Masayuki Takayanagi by Weasel Walter / Fred Lonberg-Holm / Jim O&#39;Rourke', 'Alptraum by The Flying Luttenbachers', 'Trauma by The Flying Luttenbachers', 'Retrospektiw IV by The Flying Luttenbachers', 'Infection And Decline by The Flying Luttenbachers', 'Eruption by Weasel Walter/Kevin Drumm/Fred Lonberg-Holm', 'Systems Emerge From Complete Disorder by The Flying Luttenbachers', 'The Void by The Flying Luttenbachers', 'Spectral Warrior Mythos Volume One by The Flying Luttenbachers', 'Cataclysm by The Flying Luttenbachers', 'Revolt Music by Weasel Walter Quartet', 'The 300 Dollar Silk Shirt by To Live and Shave in L.A. 2', 'Early Recordings 1988 - 1991 by Weasel Walter', 'Lichens by Gianni Gebbia / Damon Smith / Weasel Walter', 'Incarceration By Abstraction by The Flying Luttenbachers', 'Firestorm by Weasel Walter', 'Opulence by Mary Halvorson and Weasel Walter', 'untitled by Peter Evans / Weasel Walter Group', 'Oculus Ex Abyssus by Peter Evans / Weasel Walter Group', 'End of the Trail by Weasel Walter / Forbes Graham / Greg Kelley / Paul Flaherty', 'The Unlistenable Years by Toy Killers', 'Particles by Paul Flaherty &amp; Weasel Walter', 'Mysteries Beneath The Planet by Marc Edwards / Weasel Walter Group', 'Mystery Meat by Weasel Walter / Mary Halvorson / Peter Evans', 'American Free by Forbes / Young / Walter', 'Apocalyptik Paranoia by Weasel Walter', 'Großes Messer by Vinny Golia / Damon Smith / Weasel Walter', 'Large Group Performances 2007-2009 by Weasel Walter', 'Invasion by Weasel Walter Septet', 'Blood of the Earth by Marc Edwards / Weasel Walter Group', 'No Mor Musik by No Mor Musik' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 611,
@@ -9556,13 +9556,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1775 just as predicted by Nathaniel Brassey Halhed.',
           color: '#6F6357',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/nathaniel-brassey-halhed-ba71d93b-63a1-4cdf-af9a-281fe1cec6b-resize-750.jpeg',
-          day_of: new Date ('1795-11-19T13:44:00.000Z'),
+          day_of: new Date ('1795-11-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 612,
@@ -9570,7 +9570,7 @@ exports.seed = function(knex, Promise) {
           name: 'Lois V. Vierk (composer) born 1951',
           color: '#55170A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/KtHsxrDI_400x400.jpg',
-          day_of: new Date ('1951-08-04T13:44:00.000Z'),
+          day_of: new Date ('1951-08-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9580,8 +9580,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://xirecords.bandcamp.com/album/simoom' ],
             "a_strings": [ 'Simoom by Lois V Vierk' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 613,
@@ -9589,13 +9589,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1814 when then 64-year-old Prophetess Joanna Southcott gave birth to the Christ child and ushered in the final judgement.',
           color: '#454545',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/JOANNA_SOUTHCOTT-Devonshire_Characters_and_Strange_Events.jpg',
-          day_of: new Date ('1814-10-19T13:44:00.000Z'),
+          day_of: new Date ('1814-10-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 614,
@@ -9603,7 +9603,7 @@ exports.seed = function(knex, Promise) {
           name: 'Misha Mengelberg (piano) born 1935',
           color: '#613F12',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/A-253447-1488582152-1957.jpg',
-          day_of: new Date ('1935-06-05T13:44:00.000Z'),
+          day_of: new Date ('1935-06-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9613,8 +9613,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/impromptus', 'http://idischidiangelica.bandcamp.com/album/s-t', 'http://abbaarsighennemanwig.bandcamp.com/album/sliptong', 'http://muteantsoundsnetlabel.bandcamp.com/album/humanplexity' ],
             "a_strings": [ 'Impromptus by MISHA MENGELBERG', 'S/T by Misha Mengelberg', 'Sliptong by Ab Baars, Ig Henneman, Misha Mengelberg', 'HUMANPLEXITY by KENNY MILLIONS - MISHA MENGELBERG - HAN BENNINK' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 615,
@@ -9622,13 +9622,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 1908 as predicted by Michael Paget Baxter in Future Worlds of Prophecy (published in 1894).',
           color: '#19516C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/51dHSXwf0zL._SX346_BO1,204,203,200_.jpg',
-          day_of: new Date ('1908-04-23T13:44:00.000Z'),
+          day_of: new Date ('1908-04-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 616,
@@ -9636,7 +9636,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ikue Mori (electronics) born 1953',
           color: '#20344C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ikuelive_wide.jpg',
-          day_of: new Date ('1953-12-17T13:44:00.000Z'),
+          day_of: new Date ('1953-12-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9646,8 +9646,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://f-a-t-a-k-a.bandcamp.com/album/prediction-and-warning', 'http://bocian.bandcamp.com/album/scrumptious-sabotage', 'http://rvng.bandcamp.com/album/frkwys-vol-6', 'http://intaktrec.bandcamp.com/album/alien-huddle' ],
             "a_strings": [ 'Prediction and Warning by Ikue Mori &amp; Steve Noble', 'Scrumptious Sabotage by Ikue Mori &amp; Maja S.K. Ratkje', 'FRKWYS Vol. 6 by Julianna Barwick &amp; Ikue Mori', 'Alien Huddle by Sylvie Courvoiser, Ikue Mori, Lotte Anker' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 617,
@@ -9655,13 +9655,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2018 just as Mathieu Jean-Marc Joseph Rodrigue pedicted using little more than basic math and a Bible.',
           color: '#111514',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/teorico.png',
-          day_of: new Date ('2018-06-24T13:44:00.000Z'),
+          day_of: new Date ('2018-06-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 618,
@@ -9669,13 +9669,13 @@ exports.seed = function(knex, Promise) {
           name: 'Earle Brown (composer) born in 1926',
           color: '#232323',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/earle-brown.jpg',
-          day_of: new Date ('1926-12-26T13:44:00.000Z'),
+          day_of: new Date ('1926-12-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 619,
@@ -9683,13 +9683,13 @@ exports.seed = function(knex, Promise) {
           name: 'Ernst Bloch (Marxist philosopher) born 1885',
           color: '#992E1A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/ernst-bloch.jpg',
-          day_of: new Date ('1885-07-08T13:44:00.000Z'),
+          day_of: new Date ('1885-07-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 620,
@@ -9697,7 +9697,7 @@ exports.seed = function(knex, Promise) {
           name: 'Steve Coleman (saxophone/M-base) born 1956',
           color: '#483A2F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/SteveColeman_Credit-Michael_Weintrob-300x286.jpg',
-          day_of: new Date ('1956-09-20T13:44:00.000Z'),
+          day_of: new Date ('1956-09-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9707,8 +9707,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://stevecoleman.bandcamp.com/album/morphogenesis', 'http://stevecoleman.bandcamp.com/album/synovial-joints', 'http://stevecoleman.bandcamp.com/album/functional-arrhythmias', 'http://stevecoleman.bandcamp.com/album/the-mancy-of-sound', 'http://stevecoleman.bandcamp.com/album/harvesting-semblances-and-affinities', 'http://ghostnoterecords.bandcamp.com/album/def-trance-beat-modalities-of-rhythm' ],
             "a_strings": [ 'Morphogenesis by Steve Coleman', 'Synovial Joints by Steve Coleman and the Council of Balance', 'Functional Arrhythmias by Steve Coleman And Five Elements', 'The Mancy of Sound by Steve Coleman', 'Harvesting Semblances and Affinities by Steve Coleman', 'Def Trance Beat (Modalities of Rhythm) by Steve Coleman &amp; Five Elements' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 621,
@@ -9716,13 +9716,13 @@ exports.seed = function(knex, Promise) {
           name: 'Edward Snowden (dissident/whistle blower) born 1983',
           color: '#191025',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/edward-snowden-5.jpg',
-          day_of: new Date ('1983-06-21T13:44:00.000Z'),
+          day_of: new Date ('1983-06-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 622,
@@ -9730,13 +9730,13 @@ exports.seed = function(knex, Promise) {
           name: 'Henry Cowell (composer) born 1897',
           color: '#141414',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/cowell.jpg',
-          day_of: new Date ('1897-03-11T13:44:00.000Z'),
+          day_of: new Date ('1897-03-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 623,
@@ -9744,13 +9744,13 @@ exports.seed = function(knex, Promise) {
           name: 'George Padmore (Pan-Africanist/journalist/author) born 1903',
           color: '#E89A38',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/13-George-Padmore.jpg',
-          day_of: new Date ('1903-06-28T13:44:00.000Z'),
+          day_of: new Date ('1903-06-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 624,
@@ -9758,7 +9758,7 @@ exports.seed = function(knex, Promise) {
           name: 'Irène Schweizer (piano) born 1941',
           color: '#181A17',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/411931.20160726_schweizer.jpg',
-          day_of: new Date ('1941-06-02T13:44:00.000Z'),
+          day_of: new Date ('1941-06-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9768,8 +9768,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://ireneschweizer.bandcamp.com/album/to-whom-it-may-concern-piano-solo-tonhalle-z-rich', 'https://bandcamp.com/EmbeddedPlayer/album=2109089480/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'http://ireneschweizer.bandcamp.com/album/portrait', 'http://ireneschweizer.bandcamp.com/album/wilde-se-oritas-hexensabbat', 'http://ireneschweizer.bandcamp.com/album/chicago-piano-solo', 'http://ireneschweizer.bandcamp.com/album/many-and-one-direction', 'http://ireneschweizer.bandcamp.com/album/piano-solo-vol-1', 'http://ireneschweizer.bandcamp.com/album/piano-solo-vol-2', 'http://destination-out.bandcamp.com/album/early-tapes', 'http://intaktrec.bandcamp.com/album/berne-concert', 'http://intaktrec.bandcamp.com/album/live', 'http://juergwickihalder.bandcamp.com/album/jump', 'http://mayarecordings.bandcamp.com/album/elsie-jo-live' ],
             "a_strings": [ 'To Whom It May Concern - Piano Solo Tonhalle Zürich by Irène Schweizer', 'First Choice – Piano Solo KKL Luzern by Irène Schweizer', 'Portrait by Irène Schweizer', 'Wilde Señoritas / Hexensabbat by Irène Schweizer', 'Chicago Piano Solo by Irène Schweizer', 'Many and One Direction by Irène Schweizer', 'Piano Solo Vol. 1 by Irène Schweizer', 'Piano Solo Vol. 2 by Irène Schweizer', 'Early Tapes by IRÈNE SCHWEIZER TRIO', 'Berne Concert by Trio 3 + Irène Schweizer', 'Live! by Irène Schweizer – Joey Baron', 'Jump! by Jürg Wickihalder European Quartet feat. Irène Schweizer', 'Elsie Jo Live by Barry Guy, Iréne Schweizer, Evan Parker, Konrad Bauer, Barre Phillips, Paul Lytton' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 625,
@@ -9777,13 +9777,13 @@ exports.seed = function(knex, Promise) {
           name: 'The rapture occurred on this day in 2018 according to the prolific doomsday seer David Meade',
           color: '#725835',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/RaptureMeetJesus1.png',
-          day_of: new Date ('2018-04-23T13:44:00.000Z'),
+          day_of: new Date ('2018-04-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 626,
@@ -9791,13 +9791,13 @@ exports.seed = function(knex, Promise) {
           name: 'June Tyson (vocalist/dancer) born 1936',
           color: '#CDCFCA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/A-252035-1342324645-8192.jpg',
-          day_of: new Date ('1936-02-05T13:44:00.000Z'),
+          day_of: new Date ('1936-02-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 627,
@@ -9805,13 +9805,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2017 with the appearance of the planet Niburu when David Meade\'s fourth predicted end date finally came to fruition.',
           color: '#C73918',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/nibiru-871048.jpg',
-          day_of: new Date ('2017-11-19T13:44:00.000Z'),
+          day_of: new Date ('2017-11-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 628,
@@ -9819,7 +9819,7 @@ exports.seed = function(knex, Promise) {
           name: 'Alice Coltrane (piano/jarporgan/voice/composer) born 1937',
           color: '#5EB2F0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/alice-coltrane-photo2.jpg',
-          day_of: new Date ('1937-08-27T13:44:00.000Z'),
+          day_of: new Date ('1937-08-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9829,8 +9829,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://alicecoltrane.bandcamp.com/album/world-sprituality-classics-1-the-ecstatic-music-of-alice-coltrane-turiyasangitananda' ],
             "a_strings": [ 'World Sprituality Classics 1: The Ecstatic Music of Alice Coltrane Turiyasangitananda by Alice Coltrane' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 629,
@@ -9838,13 +9838,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2017 as per David Meade\'s third-time-is-a-charm prediction.',
           color: '#C73918',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/nibiru-871048.jpg',
-          day_of: new Date ('2017-10-15T13:44:00.000Z'),
+          day_of: new Date ('2017-10-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 630,
@@ -9852,7 +9852,7 @@ exports.seed = function(knex, Promise) {
           name: 'Dave Holland (bass) born 1946',
           color: '#094EB6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/dh_highres.jpg',
-          day_of: new Date ('1946-10-01T13:44:00.000Z'),
+          day_of: new Date ('1946-10-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -9862,8 +9862,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://samrivers.bandcamp.com/album/reunion-live-in-new-york' ],
             "a_strings": [ 'Reunion: Live in New York by Sam Rivers | Dave Holland | Barry Altschul' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 631,
@@ -9871,13 +9871,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world came to an end on this day in 2016 and was "100% Guaranteed" to do so by Walid Shoebat.',
           color: '#1E0A05',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/crackpotshoebat.jpg',
-          day_of: new Date ('2016-10-31T13:44:00.000Z'),
+          day_of: new Date ('2016-10-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 632,
@@ -9885,13 +9885,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jane Addams (activist/reformer/social worker/public philosopher/sociologist/public administrator/protestor/author/leader in women\'s suffrage and world peace) born 1860',
           color: '#1C1C1C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/jane-addams-3.jpg',
-          day_of: new Date ('1860-09-06T13:44:00.000Z'),
+          day_of: new Date ('1860-09-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 633,
@@ -9899,13 +9899,13 @@ exports.seed = function(knex, Promise) {
           name: 'Pastor Richardo Salazar was allegedly told by God that an asteroid fully made of ice, with a 9km diameter, traveling at 30,000km per hour would strike earth killing 1,200 million people on this day in 2016.',
           color: '#B6ACA0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/RicardoSalazar.jpg',
-          day_of: new Date ('2016-05-16T13:44:00.000Z'),
+          day_of: new Date ('2016-05-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 634,
@@ -9913,13 +9913,13 @@ exports.seed = function(knex, Promise) {
           name: 'James Paxton pitched a no-hitter for the Seattle Mariners vs. Toronto Blue Jays on this day in 2018.',
           color: '#262835',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/bba-mariners-blue-jays-paxton-canadian-no-hitter.jpg',
-          day_of: new Date ('2018-05-08T13:44:00.000Z'),
+          day_of: new Date ('2018-05-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 635,
@@ -9927,13 +9927,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2018 as per the predictions of Eiji Hoffman carrying on the stellar traditions of Harold Camping\'s multiple failed predictions.',
           color: '#2B3E2A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/300242_104618306307454_2148728_n.jpg',
-          day_of: new Date ('2018-05-20T13:44:00.000Z'),
+          day_of: new Date ('2018-05-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 636,
@@ -9941,13 +9941,13 @@ exports.seed = function(knex, Promise) {
           name: 'Carla Bley (piano/composer) born 1936',
           color: '#1F0004',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/fb77bed7caf15dd4a6c7e5e06ca82cdc.jpg',
-          day_of: new Date ('1936-05-11T13:44:00.000Z'),
+          day_of: new Date ('1936-05-11 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 637,
@@ -9955,13 +9955,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2016 with the onset of a catastrophic earthquake according to Warren Jeffs of the Fundamentalist Latter Day Saints',
           color: '#F7BDC9',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/flds.jpg',
-          day_of: new Date ('2016-04-06T13:44:00.000Z'),
+          day_of: new Date ('2016-04-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 638,
@@ -9969,13 +9969,13 @@ exports.seed = function(knex, Promise) {
           name: 'Christopher Hitchens (author/columnist/social critic) born 1949',
           color: '#BBB6B0',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/HITCHENS-obit-popup.jpg',
-          day_of: new Date ('1949-04-13T13:44:00.000Z'),
+          day_of: new Date ('1949-04-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 639,
@@ -9983,13 +9983,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this very day in 2015 according to the razor-sharp prophecy of eBible Fellowship.',
           color: '#FAE25E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/ebible.jpg',
-          day_of: new Date ('2015-10-07T13:44:00.000Z'),
+          day_of: new Date ('2015-10-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 640,
@@ -9997,13 +9997,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jean-Jacques Rousseau (composer/writer/philosopher) born 1712',
           color: '#453825',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jean-jacques-rousseau-9465453-1-402.jpg',
-          day_of: new Date ('1712-06-28T13:44:00.000Z'),
+          day_of: new Date ('1712-06-28 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 641,
@@ -10011,13 +10011,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2015 when a "mile-wide" asteroid struck the Earth as predicted by Lyn Leahz.',
           color: '#000000',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/22000b545d70a4d24fdec643e7190c4e--end-times-prophecy-news-update.jpg',
-          day_of: new Date ('2015-09-23T13:44:00.000Z'),
+          day_of: new Date ('2015-09-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 642,
@@ -10025,13 +10025,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mahatma Gandhi (activist) born 1869.',
           color: '#2A2A28',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/mahatma-gandhi-anecdotes-3.jpg',
-          day_of: new Date ('1869-10-02T13:44:00.000Z'),
+          day_of: new Date ('1869-10-02 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 643,
@@ -10039,13 +10039,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2014 when asteroid 2003 QQ47 slammed into the earth exactly as DailyMotion and numerous other "reputable" online sourced reported it would.',
           color: '#1D1A25',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/METEOR.jpg',
-          day_of: new Date ('2014-03-21T13:44:00.000Z'),
+          day_of: new Date ('2014-03-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 644,
@@ -10053,7 +10053,7 @@ exports.seed = function(knex, Promise) {
           name: 'Sylvie Courvoisier (piano) born 1968.',
           color: '#F62038',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/sylviecourvosier.jpg',
-          day_of: new Date ('1968-11-30T13:44:00.000Z'),
+          day_of: new Date ('1968-11-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -10063,8 +10063,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://intaktrec.bandcamp.com/album/lonelyville', 'http://intaktrec.bandcamp.com/album/d-agala', 'http://natewooleypleasureofthetextsoundamerican.bandcamp.com/album/salt-task' ],
             "a_strings": [ 'Lonelyville by Sylvie Courvoisier', 'D’Agala by Sylvie Courvoisier Trio', 'Salt Task by Chris Corsano, Sylvie Courvoisier &amp; Nate Wooley' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 645,
@@ -10072,13 +10072,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2014 with Ragnarök - the End of Gods - according to Norse mythology',
           color: '#DD6C20',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Equals-Doom-or-Twilight-for-Norse-Gods.jpg',
-          day_of: new Date ('2014-02-22T13:44:00.000Z'),
+          day_of: new Date ('2014-02-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 646,
@@ -10086,13 +10086,13 @@ exports.seed = function(knex, Promise) {
           name: 'Louis Brandeis (lawyer/Supreme Court Justice/advocate for restraining corporate power) born in 1856',
           color: '#22211C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Picture_of_Louis_Brandeis.jpg',
-          day_of: new Date ('1856-11-13T13:44:00.000Z'),
+          day_of: new Date ('1856-11-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 647,
@@ -10100,13 +10100,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2012 exactly as predicted by the Eastern Lightning cult in China - based on their interpretation of Mayan Prophecy.',
           color: '#EA6D34',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/B84-HwvCUAEoZDE.jpg',
-          day_of: new Date ('2012-12-21T13:44:00.000Z'),
+          day_of: new Date ('2012-12-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 648,
@@ -10114,13 +10114,13 @@ exports.seed = function(knex, Promise) {
           name: 'Maximilien "The Incorruptable" Robespierre (lawyer, politician) born 1758',
           color: '#98470B',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Robespierre_crop.jpg',
-          day_of: new Date ('1758-05-06T13:44:00.000Z'),
+          day_of: new Date ('1758-05-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 649,
@@ -10128,13 +10128,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2002 exactly as predicted by survivalist Bruce Beach on an episode of Penn & Teller: Bullshit that aired in 2003.',
           color: '#A7221D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/Bruce_Beach.jpg',
-          day_of: new Date ('2002-12-08T13:44:00.000Z'),
+          day_of: new Date ('2002-12-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 650,
@@ -10142,7 +10142,7 @@ exports.seed = function(knex, Promise) {
           name: 'Dave Rempis (reedsman) born in 1975',
           color: '#FFFFEA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/daverempis.jpeg',
-          day_of: new Date ('1975-03-24T13:44:00.000Z'),
+          day_of: new Date ('1975-03-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -10152,8 +10152,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://aerophonicrecords.bandcamp.com/album/lattice', 'http://kevindavis.bandcamp.com/album/duets-i', 'http://park70.bandcamp.com/album/full-yum', 'http://killick.bandcamp.com/album/live-at-earthshaking-music', 'http://music.amalgamusic.org/album/cure-for-the-quotidian' ],
             "a_strings": [ 'Lattice by Dave Rempis Solo', 'Duets I by Kevin Davis/Dave Rempis', 'Full Yum by Tyler Damon &amp; Dave Rempis', 'Live at Earthshaking Music by SS Puft Quartet with Dave Rempis', 'Cure For the Quotidian by Dave Rempis / Matt Piet / Tim Daisy' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 651,
@@ -10161,13 +10161,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day in 2000 when the Earth spun fast enough to displace and rearrange all the continents exactly as predicted by Richard W. Noone.',
           color: '#2287B5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/6329734.jpg',
-          day_of: new Date ('2000-05-05T13:44:00.000Z'),
+          day_of: new Date ('2000-05-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 652,
@@ -10175,13 +10175,13 @@ exports.seed = function(knex, Promise) {
           name: 'Alexander John Ellis (mathematician/philologist/phonetician) born in 1814',
           color: '#AA4D46',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/ellisM.jpeg',
-          day_of: new Date ('1814-06-14T13:44:00.000Z'),
+          day_of: new Date ('1814-06-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 653,
@@ -10189,13 +10189,13 @@ exports.seed = function(knex, Promise) {
           name: 'A great flood covered the world on this day in 1524 and everybody drowned according to German astrologer Johannes Stöffler',
           color: '#CE512E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/JohannesStöffler.jpeg',
-          day_of: new Date ('1524-02-25T13:44:00.000Z'),
+          day_of: new Date ('1524-02-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 654,
@@ -10203,7 +10203,7 @@ exports.seed = function(knex, Promise) {
           name: 'Jerry Hunt (composer) born 1943',
           color: '#010101',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/A-216595-1183312937.jpg',
-          day_of: new Date ('1943-11-30T13:44:00.000Z'),
+          day_of: new Date ('1943-11-30 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -10213,8 +10213,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://othermindsrecords.bandcamp.com/album/from-ground' ],
             "a_strings": [ 'from &quot;Ground&quot; by Jerry Hunt' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 655,
@@ -10222,13 +10222,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world ended on this day at 7:00AM in 1998 according to the Church of the SubGenius. Godlike aliens from planet X ruptured all the dues-paying SubGenii to a never-ending tour of the universe, while converting Planet Earth into the intergalactic equivalent of a greasy-spoon truck-stop.',
           color: '#D5C12C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/450px-The_Head_Shop.jpg',
-          day_of: new Date ('1998-07-05T13:44:00.000Z'),
+          day_of: new Date ('1998-07-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 656,
@@ -10236,13 +10236,13 @@ exports.seed = function(knex, Promise) {
           name: 'César Estrada Chávez (labor leader/civil rights activist) born 1927',
           color: '#790F0F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/cesar-estrada-chavez.jpg',
-          day_of: new Date ('1927-03-31T13:44:00.000Z'),
+          day_of: new Date ('1927-03-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 657,
@@ -10250,13 +10250,13 @@ exports.seed = function(knex, Promise) {
           name: 'Jesus returned to this world on this day in 2019, according to Ronald Weinland after correcting his previously inaccurate predictions from 2011, 2012 and 2013.',
           color: '#704B44',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/ronaldweinland.png',
-          day_of: new Date ('2019-06-09T13:44:00.000Z'),
+          day_of: new Date ('2019-06-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 658,
@@ -10264,13 +10264,13 @@ exports.seed = function(knex, Promise) {
           name: 'Nelson Cruikshank (expert on Social Security/Medicare/policy on aging/labor union activist) born 1902.',
           color: '#202626',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/1311000086-l.jpg',
-          day_of: new Date ('1902-06-21T13:44:00.000Z'),
+          day_of: new Date ('1902-06-21 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 659,
@@ -10278,13 +10278,13 @@ exports.seed = function(knex, Promise) {
           name: 'Thomas R. Donahue (former Secretary-Treasurer, President and President Emeritus) born in 1928',
           color: '#71392A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Thomas-Reilly-Donahue_medium.jpg',
-          day_of: new Date ('1928-09-04T13:44:00.000Z'),
+          day_of: new Date ('1928-09-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 660,
@@ -10292,13 +10292,13 @@ exports.seed = function(knex, Promise) {
           name: 'John Steinbeck (author) born 1902',
           color: '#596476',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/steinbeck.jpg',
-          day_of: new Date ('1902-02-27T13:44:00.000Z'),
+          day_of: new Date ('1902-02-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 661,
@@ -10306,13 +10306,13 @@ exports.seed = function(knex, Promise) {
           name: 'Pier Paolo Pasolini (film director/poet/writer/intellectual) born 1922',
           color: '#D8D8D8',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Palomaxresdefault1-800x400.jpg',
-          day_of: new Date ('1922-03-05T13:44:00.000Z'),
+          day_of: new Date ('1922-03-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 662,
@@ -10320,13 +10320,13 @@ exports.seed = function(knex, Promise) {
           name: 'Denis Diderot (philosopher/chief editor of L\'Encyclopédie/Enlightenment figure) born 1713',
           color: '#325868',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Louis-Michel_van_Loo_001.jpg',
-          day_of: new Date ('1713-10-05T13:44:00.000Z'),
+          day_of: new Date ('1713-10-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 663,
@@ -10334,13 +10334,13 @@ exports.seed = function(knex, Promise) {
           name: 'Sebastião José de Carvalho e Melo (first Marquis of Pombal/abolished slavery in Portugal) born 1699',
           color: '#282A25',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Sebastia%CC%83oJoseph.png',
-          day_of: new Date ('1699-05-13T13:44:00.000Z'),
+          day_of: new Date ('1699-05-13 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 664,
@@ -10348,13 +10348,13 @@ exports.seed = function(knex, Promise) {
           name: 'Howard Zinn (historian/playwright/social activist) born in 1922',
           color: '#F7311D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/howardZinn.jpeg',
-          day_of: new Date ('1922-08-24T13:44:00.000Z'),
+          day_of: new Date ('1922-08-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 665,
@@ -10362,13 +10362,13 @@ exports.seed = function(knex, Promise) {
           name: 'Emma Goldman (anarchist/political activist/writer) born in 1869',
           color: '#5C5C5C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Emma_Goldman_1901_mugshot_single_portrait-1381x900.png',
-          day_of: new Date ('1869-06-27T13:44:00.000Z'),
+          day_of: new Date ('1869-06-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 666,
@@ -10376,7 +10376,7 @@ exports.seed = function(knex, Promise) {
           name: 'Ben Goldberg (clarinet/composer) born 1959.',
           color: '#1BC109',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ben-goldberg.jpg',
-          day_of: new Date ('1959-08-08T13:44:00.000Z'),
+          day_of: new Date ('1959-08-08 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -10386,8 +10386,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://ben-goldberg--bag-production-records.bandcamp.com/album/simon-jermyn-ben-goldberg-silence', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/from-the-granary', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/the-door-the-hat-the-chair-the-fact', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/a-sibling-mystery', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/knuckle-sandwich', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/ben-goldberg-at-the-stone-february-march-2014-lets-cool-one', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/orphic-machine-2', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/worry-later', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/twelve-minor-2', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/here-by-now', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/go-home', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/unfold-ordinary-mind', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/subatomic-particle-homesick-blues', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/junk-genius', 'http://ben-goldberg--bag-production-records.bandcamp.com/track/ben-goldberg-on-kcsms-desert-island-jazz', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/foreign-legion', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/the-relative-value-of-things', 'http://marcocolonna.bandcamp.com/album/an-evening-in-roma' ],
             "a_strings": [ 'Simon Jermyn + Ben Goldberg: Silence by Ben Goldberg / BAG Production Records', 'From the Granary by Ben Goldberg', 'The Door The Hat The Chair The Fact by Ben Goldberg', 'A Sibling Mystery by Invisible Guy', 'Knuckle Sandwich by Invisible Guy', 'Ben Goldberg At The Stone, February/March 2014: Let&#39;s Cool One by Ben Goldberg', 'Orphic Machine by Ben Goldberg', 'Worry Later by Ben Goldberg, Adam Levy, Smith Dobson', 'Twelve Minor by Ben Goldberg', 'Here By Now by Ben Goldberg Trio', 'Go Home by Ben Goldberg', 'Unfold Ordinary Mind by Ben Goldberg', 'Subatomic Particle Homesick Blues by Ben Goldberg', 'Junk Genius by Junk Genius', 'Ben Goldberg on KCSM&#39;s &quot;Desert Island Jazz&quot; by Ben Goldberg / BAG Production Records', 'Foreign Legion by Tin Hat', 'The Relative Value of Things by Kenny Wollesen + Ben Goldberg', 'An evening in Roma by Ben Goldberg, Marco Colonna' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 667,
@@ -10395,7 +10395,7 @@ exports.seed = function(knex, Promise) {
           name: 'Sonny Sharrock (guitar/composer) born 1940.',
           color: '#0A070E',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/11e4eccea0e35582ce9ea1fbcc125210.jpg',
-          day_of: new Date ('1940-08-27T13:44:00.000Z'),
+          day_of: new Date ('1940-08-27 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -10405,8 +10405,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://billlaswell.bandcamp.com/album/guitar', 'http://billlaswell.bandcamp.com/album/seize-the-rainbow', 'http://trostrecords.bandcamp.com/album/whatthefuckdoyouwant' ],
             "a_strings": [ 'Guitar by Sonny Sharrock', 'Seize The Rainbow by Sonny Sharrock Band', 'WHATTHEFUCKDOYOUWANT by PETER BRÖTZMANN / SONNY SHARROCK' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 668,
@@ -10414,13 +10414,13 @@ exports.seed = function(knex, Promise) {
           name: 'Francisco Ascaso (Anarcho-syndicalist) born in 1901.',
           color: '#A73747',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/48f44fcde49720291e55d55f698c42d9.jpg',
-          day_of: new Date ('1901-04-01T13:44:00.000Z'),
+          day_of: new Date ('1901-04-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 669,
@@ -10428,13 +10428,13 @@ exports.seed = function(knex, Promise) {
           name: 'Albert Camus (author/philosopher/journalist) born in 1913.',
           color: '#313131',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/20161112_blp502_hr.jpg',
-          day_of: new Date ('1913-11-07T13:44:00.000Z'),
+          day_of: new Date ('1913-11-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 670,
@@ -10442,13 +10442,13 @@ exports.seed = function(knex, Promise) {
           name: 'Murray Bookchin (social theorist/ author/ orator/ historian/ political philosopher) born 1921',
           color: '#593232',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/220px-Murray_Bookchin_in_Burlington.jpg',
-          day_of: new Date ('1921-01-14T13:44:00.000Z'),
+          day_of: new Date ('1921-01-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 671,
@@ -10456,13 +10456,13 @@ exports.seed = function(knex, Promise) {
           name: 'Nestor Makhno (Ukrainian anarcho-communist revolutionary) born 1888.',
           color: '#282828',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/250px-1921._Нестор_Махно_в_лагере_для_перемещенных_лиц_в_Румынии.jpg',
-          day_of: new Date ('1888-11-07T13:44:00.000Z'),
+          day_of: new Date ('1888-11-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 672,
@@ -10470,7 +10470,7 @@ exports.seed = function(knex, Promise) {
           name: 'Suzanne Valadon (painter) born 1865',
           color: '#ECECEC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/9001153_128617713976.jpg',
-          day_of: new Date ('1865-09-23T13:44:00.000Z'),
+          day_of: new Date ('1865-09-23 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -10480,8 +10480,8 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon', 'Suzanne Valadon' ],
             "years": [ '1883', '1892', 'c.1892', '1895', '1895', '1895', '1896', '1908', '1908', '1908', '1908', '1908', '1909', '1909', '1913', '1913', '1914', '1914', '1917', '1918', '1918', '1918', '1918', '1919', '1919', '1919', '1920', '1920', '1920', '1920', '1920', '1921', '1921', '1922', '1922', '1922', '1922', '1923', '1923', '1924', '1924', '1927', '1928', '1928', '1932', '1932', '1936', '1938', '?', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 673,
@@ -10489,13 +10489,13 @@ exports.seed = function(knex, Promise) {
           name: 'Buenaventura Durruti (Spanish insurrectionary/anarcho-syndicalist) born 1896.',
           color: '#A4A4AC',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/BuenaventuraDurruti.jpg',
-          day_of: new Date ('1896-07-14T13:44:00.000Z'),
+          day_of: new Date ('1896-07-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 674,
@@ -10503,7 +10503,7 @@ exports.seed = function(knex, Promise) {
           name: 'Marie Laurencin (painter) born 1883',
           color: '#2C2C2C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/Marie_Laurencin,_c.1912,_Paris.jpg',
-          day_of: new Date ('1883-10-31T13:44:00.000Z'),
+          day_of: new Date ('1883-10-31 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -10513,22 +10513,22 @@ exports.seed = function(knex, Promise) {
             "artists": [ 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin', 'Marie Laurencin' ],
             "years": [ '1905', '1906', '1908', '1908', '1909', '1914', '1915', '1918', '1919', '1919', '1920', '1921', '1923', '1923', '1923', '1924', '1927', '1928', '1928', '1930', '1935', '1935', '1936', '1940', '1940', '1941', '1942', '1949', '?', '?', '?', '?', '?' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 675,
           user_id: 1,
-          name: 'Malcom X (human rights activist) born in 1925',
+          name: 'Malcolm X (human rights activist) born in 1925',
           color: '#080808',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Malcolm_X_NYWTS_2a.jpg',
-          day_of: new Date ('1925-05-19T13:44:00.000Z'),
+          day_of: new Date ('1925-05-19 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 676,
@@ -10536,13 +10536,13 @@ exports.seed = function(knex, Promise) {
           name: 'Malachi Favors (bass) born 1927.',
           color: '#D25962',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/2826dd59234c9f7868b47c9adc948.jpg',
-          day_of: new Date ('1927-08-22T13:44:00.000Z'),
+          day_of: new Date ('1927-08-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 677,
@@ -10550,7 +10550,7 @@ exports.seed = function(knex, Promise) {
           name: 'Oliver Lake (reeds/poet) born 1942.',
           color: '#420733',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/79818627c6dfe08af615ea46d4a7b.jpg',
-          day_of: new Date ('1942-09-14T13:44:00.000Z'),
+          day_of: new Date ('1942-09-14 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -10560,8 +10560,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://oliverlake.bandcamp.com/album/lake-tchicai-osgood-westergaard', 'http://oliverlake.bandcamp.com/album/what-i-heard', 'http://oliverlake.bandcamp.com/album/wheels', 'http://oliverlake.bandcamp.com/album/lakes-at-the-stone', 'http://oliverlake.bandcamp.com/album/plan', 'http://oliverlake.bandcamp.com/album/makin-it', 'http://oliverlake.bandcamp.com/album/live-featuring-mary-redhouse-santi-debriano-gene-lake', 'http://oliverlake.bandcamp.com/album/dat-love', 'http://oliverlake.bandcamp.com/album/cloth', 'http://oliverlake.bandcamp.com/album/movement-turns-switches', 'http://oliverlake.bandcamp.com/album/matador-of-1st-1st' ],
             "a_strings": [ 'Lake | Tchicai | Osgood | Westergaard by Oliver Lake, John Tchaicai, Kresten Osgood, Jonas Westergaard', 'What I Heard by Oliver Lake Organ Quartet', 'Wheels by Oliver Lake Big Band', 'Lakes at the Stone by Oliver Lake &amp; Jahi Sundance', 'Plan by Oliver Lake Organt Quartet', 'Makin&#39; It by Oliver Lake Organ Trio', 'Live Featuring Mary Redhouse/Santi Debriano/Gene Lake by Oliver Lake Quartet', 'Dat Love by Oliver Lake Steel Quartet', 'Cloth by Oliver Lake Big Band', 'Movement, Turns &amp; Switches by Oliver Lake String Project', 'Matador of 1st &amp; 1st by Oliver Lake' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 678,
@@ -10569,7 +10569,7 @@ exports.seed = function(knex, Promise) {
           name: 'Tom Djll (trumpet/modular electronics/composition) born 1957',
           color: '#864643',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/profile_Djll-Day0Noise2015006276684.jpg',
-          day_of: new Date ('1957-06-07T13:44:00.000Z'),
+          day_of: new Date ('1957-06-07 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -10579,8 +10579,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://djll.bandcamp.com/album/mutootator', 'http://djll.bandcamp.com/album/skin-tightener', 'http://djll.bandcamp.com/album/cassette19', 'http://djll.bandcamp.com/album/kinda-green', 'http://djll.bandcamp.com/album/hackmidi', 'http://djll.bandcamp.com/album/electro-ecstatic', 'http://djll.bandcamp.com/album/subtle-lunchbox-5', 'http://djll.bandcamp.com/album/pre-emptive-quagmire', 'http://djll.bandcamp.com/album/noise-lesion', 'http://djll.bandcamp.com/album/snow-blower', 'http://djll.bandcamp.com/album/theendnoitisnt', 'http://djll.bandcamp.com/album/from-outhouse-to-icehouse', 'http://djll.bandcamp.com/track/rancid-angels', 'http://othermindsrecords.bandcamp.com/album/serge-works', 'http://auralfilms.bandcamp.com/album/fog-music-36' ],
             "a_strings": [ 'MUTOOTATOR by Tom Djll', 'skin tightener by William Winant - Camille Emaille - Tom Djll', 'cassette19 by Tom Djll', 'Kinda Green by Kinda Green - Tim Perkis + Tom Djll', 'HackMIDI by Tom Djll', 'Electro-Ecstatic by Tom Djll', 'Subtle Lunchbox by Tom Djll', 'pre-emptive quagmire by Tom Djll', 'noise lesion by Tom Djll', 'snow blower by Tom Djll', 'theendnoitisnt by Tom Djll', 'From Outhouse to Icehouse by Tom Djll/Ross Rabin', 'Rancid Angels by Tom Djll', 'Serge Works by Tom Djll', 'Fog Music 36 by Tom Djll' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 679,
@@ -10588,13 +10588,13 @@ exports.seed = function(knex, Promise) {
           name: 'Chevalier de Saint-Georges (champion fencer/classical composer/virtuoso violinist/conductor) born 1745',
           color: '#C48B48',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/Joseph-Boulogne-Chevalier-de-SaintGeorges-saintgeorge.jpg',
-          day_of: new Date ('1745-12-25T13:44:00.000Z'),
+          day_of: new Date ('1745-12-25 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 680,
@@ -10602,13 +10602,13 @@ exports.seed = function(knex, Promise) {
           name: 'Toussaint L\'Ouverture (Hatian revolutionary) born in 1743',
           color: '#7BA0CD',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Ge%CC%81ne%CC%81ral_Toussaint_Louverture.jpg',
-          day_of: new Date ('1743-05-20T13:44:00.000Z'),
+          day_of: new Date ('1743-05-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 681,
@@ -10616,13 +10616,13 @@ exports.seed = function(knex, Promise) {
           name: 'James Connolly (Irish socialist leader) born 1868',
           color: '#2F2F2F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/James_Connolly2.jpg',
-          day_of: new Date ('1868-06-05T13:44:00.000Z'),
+          day_of: new Date ('1868-06-05 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 682,
@@ -10630,13 +10630,13 @@ exports.seed = function(knex, Promise) {
           name: 'The world may have ended on this day in 2019 - or it may not - according to Pastor Paul Begley as he hedges his bets in the wake of a Super Blood Wolf Moon.',
           color: '#D9DBDA',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/PaulBegley473.jpg',
-          day_of: new Date ('2019-01-22T13:44:00.000Z'),
+          day_of: new Date ('2019-01-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 683,
@@ -10644,13 +10644,13 @@ exports.seed = function(knex, Promise) {
           name: 'Mark Natanson (revolutionary/co-founder of the Circle of Tchaikovsky, Land and Liberty, and the Socialist-Revolutionary Party) born in 1851',
           color: '#8E825C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Felix_Vallotton_Alfred-Athis_Natanson.jpg',
-          day_of: new Date ('1851-01-06T13:44:00.000Z'),
+          day_of: new Date ('1851-01-06 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 684,
@@ -10658,13 +10658,13 @@ exports.seed = function(knex, Promise) {
           name: 'Pierre-Joseph Proudhon (founder of mutualist philosophy and first proclaimed anarchist) born in 1809',
           color: '#362E21',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Portrait_of_Pierre_Joseph_Proudhon_1865.jpg',
-          day_of: new Date ('1809-01-15T13:44:00.000Z'),
+          day_of: new Date ('1809-01-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 685,
@@ -10672,13 +10672,13 @@ exports.seed = function(knex, Promise) {
           name: 'Peter Kropotkin (activist/revolutionary/scientist/geographer/anarcho-communist) born 1842.',
           color: '#7A7A7A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Peter_Kropotkin_circa_1900.jpg',
-          day_of: new Date ('1842-12-09T13:44:00.000Z'),
+          day_of: new Date ('1842-12-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 686,
@@ -10686,13 +10686,13 @@ exports.seed = function(knex, Promise) {
           name: 'Carl Paivio (labor activist/anarchist) born in 1893.',
           color: '#868686',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Carl_Paivio.jpeg',
-          day_of: new Date ('1893-11-23T13:44:00.000Z'),
+          day_of: new Date ('1893-11-23 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 687,
@@ -10700,13 +10700,13 @@ exports.seed = function(knex, Promise) {
           name: 'Albert Parsons (anarchist/newspaper editor/orator/labor activist) born 1848.',
           color: '#FFFFFF',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Albert_Parsons_portrait.jpg',
-          day_of: new Date ('1848-06-20T13:44:00.000Z'),
+          day_of: new Date ('1848-06-20 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 688,
@@ -10714,13 +10714,13 @@ exports.seed = function(knex, Promise) {
           name: 'Paul Goodman (novelist/playwright/poet/literary critic/psychoanalyst/anarchist) born in 1911.',
           color: '#404040',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Paul_Goodman.jpg',
-          day_of: new Date ('1911-09-09T13:44:00.000Z'),
+          day_of: new Date ('1911-09-09 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 689,
@@ -10728,13 +10728,13 @@ exports.seed = function(knex, Promise) {
           name: 'Dwight Macdonald (writer/editor/film critic/social critic/philosopher/anarchist) born in 1906.',
           color: '#3C3C3C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Dwight-Macdonald-smoking--007.jpg',
-          day_of: new Date ('1906-03-24T13:44:00.000Z'),
+          day_of: new Date ('1906-03-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 690,
@@ -10742,13 +10742,13 @@ exports.seed = function(knex, Promise) {
           name: 'Moses Harman (anarchist/school teacher) born 1830',
           color: '#2F2F2F',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Moses_Harman.jpg',
-          day_of: new Date ('1830-10-12T13:44:00.000Z'),
+          day_of: new Date ('1830-10-12 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 691,
@@ -10756,13 +10756,13 @@ exports.seed = function(knex, Promise) {
           name: 'Lillian Harman (anarchist/sex radical feminist) born 1869.',
           color: '#D4D4D4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/lillian.png',
-          day_of: new Date ('1896-12-15T13:44:00.000Z'),
+          day_of: new Date ('1896-12-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 692,
@@ -10770,13 +10770,13 @@ exports.seed = function(knex, Promise) {
           name: 'Bix Beiderbecke (trumpet) born 1903.',
           color: '#606060',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/Bix_Beiderbecke.jpg',
-          day_of: new Date ('1903-03-10T13:44:00.000Z'),
+          day_of: new Date ('1903-03-10 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 693,
@@ -10784,13 +10784,13 @@ exports.seed = function(knex, Promise) {
           name: 'William Batchelder Greene (individualist anarchist/minister/activist) born 1819',
           color: '#E1BB6A',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/24776157_120355175161.jpg',
-          day_of: new Date ('1819-04-04T13:44:00.000Z'),
+          day_of: new Date ('1819-04-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 694,
@@ -10798,7 +10798,7 @@ exports.seed = function(knex, Promise) {
           name: 'Theresa Wong (cellist/composer) born in 1976.',
           color: '#8F5065',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/TheresaWong_04_byHeikeLiss-eb5b16db.jpeg',
-          day_of: new Date ('1976-03-30T13:44:00.000Z'),
+          day_of: new Date ('1976-03-30 17:00:00 GMT'),
           is_annual: true,
           art_override: true,
           music_override: false,
@@ -10808,8 +10808,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://theresawong.bandcamp.com/album/venice-is-a-fish', 'http://objet-a.bandcamp.com/album/cello-meetings-vol-2-night-mapping' ],
             "a_strings": [ 'Venice Is A Fish by Theresa Wong', 'Cello Meetings vol.2 : Night Mapping by Theresa Wong &amp; Gianni Gebbia' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 695,
@@ -10817,13 +10817,13 @@ exports.seed = function(knex, Promise) {
           name: 'Stephen Pearl Andrews (individualist anarchist/linguist/political philosopher/abolitionist/author) born in 1812.',
           color: '#C7C7C7',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/StephenPearlAndrews.jpg',
-          day_of: new Date ('1812-03-22T13:44:00.000Z'),
+          day_of: new Date ('1812-03-22 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 696,
@@ -10831,13 +10831,13 @@ exports.seed = function(knex, Promise) {
           name: 'Carlo Cafiero (Italian anarchist) born in 1846',
           color: '#494949',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Carlo_Cafiero.jpg',
-          day_of: new Date ('1846-09-01T13:44:00.000Z'),
+          day_of: new Date ('1846-09-01 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 697,
@@ -10845,13 +10845,13 @@ exports.seed = function(knex, Promise) {
           name: 'Elisée Reclus (French geographer/anarchist) born 1830',
           color: '#7D8061',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/arton2847-4eb93.jpg',
-          day_of: new Date ('1830-03-15T13:44:00.000Z'),
+          day_of: new Date ('1830-03-15 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 698,
@@ -10859,7 +10859,7 @@ exports.seed = function(knex, Promise) {
           name: 'Han Bennink (drummer) born in 1942',
           color: '#B29066',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/han_custom-8a5f1aab4fe211dd25ee6dcddaf8cf477f829a89-s800-c85.jpg',
-          day_of: new Date ('1942-04-17T13:44:00.000Z'),
+          day_of: new Date ('1942-04-17 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -10869,8 +10869,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://destination-out.bandcamp.com/album/west-ost', 'http://terriehesselsterprecords.bandcamp.com/album/the-laughing-owl', 'http://terriehesselsterprecords.bandcamp.com/album/zeng', 'http://intaktrec.bandcamp.com/album/two-for-two', 'http://ayler-records.bandcamp.com/album/television', 'http://intaktrec.bandcamp.com/album/ir-ne-schweizer-han-bennink', 'http://muteantsoundsnetlabel.bandcamp.com/album/the-ass', 'http://blacksmithbrothermusic.com/album/coup-de-grace', 'http://theblueprintproject.bandcamp.com/album/people-i-like-feat-han-bennink' ],
             "a_strings": [ 'West...Ost by HAN BENNINK', 'The Laughing Owl by Han Bennink &amp; Terrie Ex', 'Zeng! by Han Bennink &amp; Terrie Ex', 'Two For Two by Aki Takase &amp; Han Bennink', 'Television by Mark O&#39;Leary &amp; Han Bennink', 'Irène Schweizer - Han Bennink by Irène Schweizer, Han Bennink', '&quot;THE ASS&quot; by KENNY MILLIONS &amp; HAN BENNINK', 'COUP DE GRACE by ARMEN NALBANDIAN &amp; HAN BENNINK', 'People I Like (feat. Han Bennink) by The Blueprint Project' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 699,
@@ -10878,7 +10878,7 @@ exports.seed = function(knex, Promise) {
           name: 'Éliane Radigue (composer) born in 1932',
           color: '#C6C6C6',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/1_-e6M2IAKwYBsBc9fuOKnzA.jpeg',
-          day_of: new Date ('1932-01-24T13:44:00.000Z'),
+          day_of: new Date ('1932-01-24 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: true,
@@ -10888,8 +10888,8 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://senufoeditions.bandcamp.com/album/geelriandre-arthesis' ],
             "a_strings": [ 'Geelriandre / Arthesis by Eliane Radigue' ]
           },
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 700,
@@ -10897,13 +10897,13 @@ exports.seed = function(knex, Promise) {
           name: 'Benjamin Lay (humanitarian/abolitionist) born in 1682',
           color: '#6B8EA4',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Benjamin_Lay_painted_by_William_Williams_in_1790.jpg',
-          day_of: new Date ('1682-01-26T13:44:00.000Z'),
+          day_of: new Date ('1682-01-26 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 701,
@@ -10911,13 +10911,13 @@ exports.seed = function(knex, Promise) {
           name: 'Olaudah Equiano a.k.a. Gustavus Vassa (writer/abolitionist) born in 1745',
           color: '#C5C5C5',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Olaudah_Equiano,_frontpiece_from_The_Interesting_Narrative_of_the_Life_of_Olaudah_Equiano.png',
-          day_of: new Date ('1745-10-16T13:44:00.000Z'),
+          day_of: new Date ('1745-10-16 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 702,
@@ -10925,13 +10925,13 @@ exports.seed = function(knex, Promise) {
           name: 'Anthony Benezet (abolitionist/educator) born 1713.',
           color: '#454545',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Benezet.jpg',
-          day_of: new Date ('1713-01-31T13:44:00.000Z'),
+          day_of: new Date ('1713-01-31 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         },
         {
           id: 703,
@@ -10939,13 +10939,41 @@ exports.seed = function(knex, Promise) {
           name: 'Benjamin Rush (abolitionist/founding father) born 1746',
           color: '#635548',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Benjamin_Rush_Painting_by_Peale.jpg',
-          day_of: new Date ('1746-01-04T13:44:00.000Z'),
+          day_of: new Date ('1746-01-04 17:00:00 GMT'),
           is_annual: true,
           art_override: false,
           music_override: false,
           override_content: null,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
+        },
+        {
+          id: 704,
+          user_id: 1,
+          name: 'Josh Berman (cornet) born 1972',
+          color: '#3B4441',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/JOSH-BERMAN_DELMARK-588LP-586x586.jpg',
+          day_of: new Date ('1972-09-24 17:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
+        },
+        {
+          id: 705,
+          user_id: 1,
+          name: 'Moses Brown (abolitionist/industrialist) born 1738',
+          color: '#5F2600',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Moses_Brown_portrait_painting.jpg',
+          day_of: new Date ('1738-09-23 17:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20 17:00:00 GMT'),
+          updated_at: new Date('2017-07-20 17:00:00 GMT')
         }
       ]);
     }).then(() => {
