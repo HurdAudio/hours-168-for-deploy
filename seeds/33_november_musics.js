@@ -4972,6 +4972,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 277,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1378410386/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/the-1st-album-1973',
+          a_string: 'The 1st Album (1973) by Orchestre Poly-Rythmo',
+          rule: {
+            "monday": [ 10, 21, 2, 6 ],
+            "tuesday": [ 9, 20, 1, 5 ],
+            "wednesday": [ 8, 19, 30, 2 ],
+            "thursday": [ 7, 18, 29, 11 ],
+            "saturday": [ 11, 22, 3, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 278,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=677321271/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/bambara-mystic-soul-the-raw-sound-of-burkina-faso-1974-1979',
+          a_string: 'Bambara Mystic Soul - The Raw Sound Of Burkina Faso 1974-1979 by Various',
+          rule: {
+            "monday": [ 11, 22, 3, 7 ],
+            "tuesday": [ 10, 21, 2, 6 ],
+            "wednesday": [ 9, 20, 1, 5 ],
+            "thursday": [ 8, 19, 30, 2 ],
+            "saturday": [ 7, 18, 29, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 279,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3683161407/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/the-bariba-sound-1970-1976',
+          a_string: 'The Bariba Sound 1970-1976 by Orchestre Super Borgou De Parakou',
+          rule: {
+            "monday": [ 7, 18, 29, 11 ],
+            "tuesday": [ 11, 22, 3, 7 ],
+            "wednesday": [ 10, 21, 2, 6 ],
+            "thursday": [ 9, 20, 1, 5 ],
+            "saturday": [ 8, 19, 30, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

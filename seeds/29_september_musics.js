@@ -5188,6 +5188,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 289,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3378023870/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jackdupon.bandcamp.com/album/jackdunoisefromponmars',
+          a_string: 'JackDuNoiseFromPonMars by Jack Dupon',
+          rule: {
+            "monday": [ 14, 3, 11, 5 ],
+            "tuesday": [ 12, 2, 10, 4 ],
+            "wednesday": [ 16, 6, 14, 8 ],
+            "thursday": [ 15, 5, 13, 7 ],
+            "saturday": [ 14, 4, 12, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 290,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2970903694/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jonsamsworth.bandcamp.com/album/without-words',
+          a_string: 'Without Words by Jon Samsworth',
+          rule: {
+            "monday": [ 14, 4, 12, 5 ],
+            "tuesday": [ 14, 3, 11, 5 ],
+            "wednesday": [ 12, 2, 10, 4 ],
+            "thursday": [ 16, 6, 14, 8 ],
+            "saturday": [ 15, 5, 13, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 291,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=485392177/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jordsjo.bandcamp.com/album/nattfiolen',
+          a_string: 'Nattfiolen by Jordsjø',
+          rule: {
+            "monday": [ 15, 5, 13, 7 ],
+            "tuesday": [ 14, 4, 12, 5 ],
+            "wednesday": [ 14, 3, 11, 5 ],
+            "thursday": [ 12, 2, 10, 4 ],
+            "saturday": [ 16, 6, 14, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

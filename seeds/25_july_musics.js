@@ -5404,6 +5404,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 301,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=149151091/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://coldshowers.bandcamp.com/album/motionless',
+          a_string: 'Motionless by Cold Showers',
+          rule: {
+            "monday": [ 12, 14, 18, 26 ],
+            "tuesday": [ 11, 12, 17, 25 ],
+            "wednesday": [ 10, 12, 16, 24 ],
+            "thursday": [ 14, 16, 20, 28 ],
+            "saturday": [ 13, 15, 19, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 302,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4260896377/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://twin-twin.bandcamp.com/album/crossing-the-great-water',
+          a_string: 'Crossing The Great Water 利涉大川 by W. Y. Huang',
+          rule: {
+            "monday": [ 13, 15, 19, 27 ],
+            "tuesday": [ 12, 14, 18, 26 ],
+            "wednesday": [ 11, 12, 17, 25 ],
+            "thursday": [ 10, 12, 16, 24 ],
+            "saturday": [ 14, 16, 20, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 303,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=287976591/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://hidrogenesse.bandcamp.com/album/joter-as-bobas',
+          a_string: 'Joterías bobas by Hidrogenesse',
+          rule: {
+            "monday": [ 14, 16, 20, 28 ],
+            "tuesday": [ 13, 15, 19, 27 ],
+            "wednesday": [ 12, 14, 18, 26 ],
+            "thursday": [ 11, 12, 17, 25 ],
+            "saturday": [ 10, 12, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

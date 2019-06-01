@@ -9704,6 +9704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 486,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1963.jpeg',
+          title: 'Untitled',
+          artist: 'Kenzo Okada',
+          year: '1963',
+          rule: {
+            "monday": [ 4, 11, 29, 6 ],
+            "tuesday": [ 11, 17, 5, 13 ],
+            "wednesday": [ 10, 15, 4, 12 ],
+            "thursday": [ 8, 15, 3, 11 ],
+            "friday": [ 8, 14, 2, 10 ],
+            "saturday": [ 27, 13, 1, 10 ],
+            "sunday": [ 26, 3, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 487,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/asphalt-rundown-1969.jpeg',
+          title: 'Asphalt Rundown',
+          artist: 'Robert Smithson',
+          year: '1969',
+          rule: {
+            "monday": [ 26, 3, 30, 8 ],
+            "tuesday": [ 4, 11, 29, 6 ],
+            "wednesday": [ 11, 17, 5, 13 ],
+            "thursday": [ 10, 15, 4, 12 ],
+            "friday": [ 8, 15, 3, 11 ],
+            "saturday": [ 8, 14, 2, 10 ],
+            "sunday": [ 27, 13, 1, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 488,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/pure-beauty-1968.jpeg',
+          title: 'Pure Beauty',
+          artist: 'John Baldessari',
+          year: '1968',
+          rule: {
+            "monday": [ 27, 13, 1, 10 ],
+            "tuesday": [ 26, 3, 30, 8 ],
+            "wednesday": [ 4, 11, 29, 6 ],
+            "thursday": [ 11, 17, 5, 13 ],
+            "friday": [ 10, 15, 4, 12 ],
+            "saturday": [ 8, 15, 3, 11 ],
+            "sunday": [ 8, 14, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 489,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/nh-nh-nave-1999.jpeg',
+          title: 'Nhó Nhó Nave',
+          artist: 'Ernesto Neto',
+          year: '1999',
+          rule: {
+            "monday": [ 8, 14, 2, 10 ],
+            "tuesday": [ 27, 13, 1, 10 ],
+            "wednesday": [ 26, 3, 30, 8 ],
+            "thursday": [ 4, 11, 29, 6 ],
+            "friday": [ 11, 17, 5, 13 ],
+            "saturday": [ 10, 15, 4, 12 ],
+            "sunday": [ 8, 15, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 490,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1945.jpeg',
+          title: 'Untitled',
+          artist: 'Conrad Marca-Relli',
+          year: 'c.1945',
+          rule: {
+            "monday": [ 9, 16, 4, 12 ],
+            "tuesday": [ 9, 15, 3, 11 ],
+            "wednesday": [ 28, 14, 2, 11 ],
+            "thursday": [ 27, 4, 1, 9 ],
+            "friday": [ 5, 12, 30, 7 ],
+            "saturday": [ 12, 18, 6, 14 ],
+            "sunday": [ 11, 16, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -1166,6 +1166,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#D9DAD5',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 84,
+          user_id: 1,
+          theme: 'Steam',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/raphael-rychetsky-1468731-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '170%',
+          color_dark: '#1C1C1C',
+          color_medium: '#CAB3AB',
+          color_light: '#EF8F4D',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

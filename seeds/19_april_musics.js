@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2264018001/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://goncaloalmeida.bandcamp.com/album/canicula-rosa-clean-feed-2019',
+          a_string: 'Canicula Rosa (Clean Feed 2019) by The Selva',
+          rule: {
+            "monday": [ 16, 24, 5, 11 ],
+            "tuesday": [ 15, 23, 5, 10 ],
+            "wednesday": [ 19, 27, 9, 14 ],
+            "thursday": [ 18, 26, 8, 13 ],
+            "saturday": [ 17, 25, 7, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3207485307/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://underpool.bandcamp.com/album/festina-lente',
+          a_string: 'Festina Lente by Iago Aguado Quartet',
+          rule: {
+            "monday": [ 17, 25, 7, 12 ],
+            "tuesday": [ 16, 24, 5, 11 ],
+            "wednesday": [ 15, 23, 5, 10 ],
+            "thursday": [ 19, 27, 9, 14 ],
+            "saturday": [ 18, 26, 8, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1367496913/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gottaletitout.bandcamp.com/album/casper-nyvang-rasks-slow-evolution-ensemble',
+          a_string: 'Casper Nyvang Rask&#39;s &quot;Slow Evolution Ensemble&quot; by Casper Nyvang Rask&#39;s &quot;Slow Evolution Ensemble&quot;',
+          rule: {
+            "monday": [ 18, 26, 8, 13 ],
+            "tuesday": [ 17, 25, 7, 12 ],
+            "wednesday": [ 16, 24, 5, 11 ],
+            "thursday": [ 15, 23, 5, 10 ],
+            "saturday": [ 19, 27, 9, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

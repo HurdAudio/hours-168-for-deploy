@@ -5944,6 +5944,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 331,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=578691161/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://shungujazz.bandcamp.com/album/the-capricorn-tape',
+          a_string: 'The Capricorn Tape by ShunGu',
+          rule: {
+            "monday": [ 20, 24, 26, 1 ],
+            "tuesday": [ 23, 26, 28, 1 ],
+            "wednesday": [ 5, 28, 1, 3 ],
+            "thursday": [ 7, 1, 3, 9 ],
+            "saturday": [ 8, 2, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 332,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4091308198/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://shungujazz.bandcamp.com/album/mylost-rmx-vol-1',
+          a_string: 'mylost_rmx Vol.1 by ShunGu',
+          rule: {
+            "monday": [ 8, 2, 4, 10 ],
+            "tuesday": [ 20, 24, 26, 1 ],
+            "wednesday": [ 23, 26, 28, 1 ],
+            "thursday": [ 5, 28, 1, 3 ],
+            "saturday": [ 7, 1, 3, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 333,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4009066981/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cosmic-compositions.bandcamp.com/album/all-i-do',
+          a_string: 'All I Do by ShunGu',
+          rule: {
+            "monday": [ 7, 1, 3, 9 ],
+            "tuesday": [ 8, 2, 4, 10 ],
+            "wednesday": [ 20, 24, 26, 1 ],
+            "thursday": [ 23, 26, 28, 1 ],
+            "saturday": [ 5, 28, 1, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

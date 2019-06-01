@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/milwaukee-brewers-brick-wall-joe-hamilton.jpg',
+          title: 'Milwaukee Brewers Brick Wall Art Print',
+          artist: 'Joe Hamilton',
+          year: '?',
+          rule: {
+            "monday": [ 11, 17, 23, 29 ],
+            "tuesday": [ 12, 17, 23, 29 ],
+            "wednesday": [ 11, 16, 22, 28 ],
+            "thursday": [ 16, 22, 27, 3 ],
+            "friday": [ 30, 20, 26, 2 ],
+            "saturday": [ 15, 18, 26, 2 ],
+            "sunday": [ 14, 18, 3, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/bernie_the_brewer-mascot-milwaukee_brewers-dp_800x.jpg',
+          title: 'Minimalist Bernie Brewer',
+          artist: 'S. Preston',
+          year: '?',
+          rule: {
+            "monday": [ 14, 18, 3, 1 ],
+            "tuesday": [ 11, 17, 23, 29 ],
+            "wednesday": [ 12, 17, 23, 29 ],
+            "thursday": [ 11, 16, 22, 28 ],
+            "friday": [ 16, 22, 27, 3 ],
+            "saturday": [ 30, 20, 26, 2 ],
+            "sunday": [ 15, 18, 26, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/pjimage-2001.jpg',
+          title: 'Brewers Hat Logo',
+          artist: 'unknown artist',
+          year: '2018',
+          rule: {
+            "monday": [ 15, 18, 26, 2 ],
+            "tuesday": [ 14, 18, 3, 1 ],
+            "wednesday": [ 11, 17, 23, 29 ],
+            "thursday": [ 12, 17, 23, 29 ],
+            "friday": [ 11, 16, 22, 28 ],
+            "saturday": [ 16, 22, 27, 3 ],
+            "sunday": [ 30, 20, 26, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/brewers3rdbaseward.jpeg',
+          title: 'Milwaukee Brewers Introduce New State-of-the-Art Concourses at Miller Park',
+          artist: 'uncredited',
+          year: '2018',
+          rule: {
+            "monday": [ 1, 21, 27, 3 ],
+            "tuesday": [ 16, 19, 27, 3 ],
+            "wednesday": [ 15, 19, 4, 2 ],
+            "thursday": [ 12, 18, 24, 30 ],
+            "friday": [ 13, 18, 24, 30 ],
+            "saturday": [ 12, 17, 23, 29 ],
+            "sunday": [ 17, 23, 28, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/BamVinoMilwaukeeBrewers.jpg',
+          title: 'Bam Vino Milwaukee Brewers',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 17, 23, 28, 4 ],
+            "tuesday": [ 1, 21, 27, 3 ],
+            "wednesday": [ 16, 19, 27, 3 ],
+            "thursday": [ 15, 19, 4, 2 ],
+            "friday": [ 12, 18, 24, 30 ],
+            "saturday": [ 13, 18, 24, 30 ],
+            "sunday": [ 12, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

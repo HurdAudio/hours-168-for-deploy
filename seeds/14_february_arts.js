@@ -11104,6 +11104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 556,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/From-Truth-art-by-Kyle-Baker-1024x791.jpg',
+          title: 'Truth: Red, White, and Black',
+          artist: 'Kyle Baker',
+          year: '2003',
+          rule: {
+            "monday": [ 3, 13, 9, 28 ],
+            "tuesday": [ 22, 1, 9, 17 ],
+            "wednesday": [ 23, 3, 11, 19 ],
+            "thursday": [ 29, 5, 11, 21 ],
+            "friday": [ 28, 7, 15, 23 ],
+            "saturday": [ 1, 11, 17, 23 ],
+            "sunday": [ 3, 11, 19, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 557,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/baker,m_amazing_ghost_stories54oct.jpg',
+          title: 'Seven Seas Comics',
+          artist: 'Matt Baker',
+          year: '1947',
+          rule: {
+            "monday": [ 3, 11, 19, 29 ],
+            "tuesday": [ 3, 13, 9, 28 ],
+            "wednesday": [ 22, 1, 9, 17 ],
+            "thursday": [ 23, 3, 11, 19 ],
+            "friday": [ 29, 5, 11, 21 ],
+            "saturday": [ 28, 7, 15, 23 ],
+            "sunday": [ 1, 11, 17, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 558,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/2-CDV-Photographs-J-P-Ball-full-1A-700_10.10-8-f.png',
+          title: '2 CDV Photographs',
+          artist: 'James Presley Ball',
+          year: 'c.1870',
+          rule: {
+            "monday": [ 1, 11, 17, 23 ],
+            "tuesday": [ 3, 11, 19, 29 ],
+            "wednesday": [ 3, 13, 9, 28 ],
+            "thursday": [ 22, 1, 9, 17 ],
+            "friday": [ 23, 3, 11, 19 ],
+            "saturday": [ 29, 5, 11, 21 ],
+            "sunday": [ 28, 7, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 559,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/b626e880943c2bdfe7cc67fce722d63f.jpg',
+          title: 'unknown title',
+          artist: 'Alvin Baltrop',
+          year: '?',
+          rule: {
+            "monday": [ 28, 7, 15, 23 ],
+            "tuesday": [ 1, 11, 17, 23 ],
+            "wednesday": [ 3, 11, 19, 29 ],
+            "thursday": [ 3, 13, 9, 28 ],
+            "friday": [ 22, 1, 9, 17 ],
+            "saturday": [ 23, 3, 11, 19 ],
+            "sunday": [ 29, 5, 11, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 560,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/52-01.jpg',
+          title: 'Untitled',
+          artist: 'Henry Bannarn',
+          year: '?',
+          rule: {
+            "monday": [ 1, 6, 12, 22 ],
+            "tuesday": [ 29, 8, 16, 24 ],
+            "wednesday": [ 2, 12, 18, 24 ],
+            "thursday": [ 4, 12, 20, 1 ],
+            "friday": [ 4, 14, 10, 29 ],
+            "saturday": [ 23, 2, 10, 18 ],
+            "sunday": [ 24, 4, 12, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

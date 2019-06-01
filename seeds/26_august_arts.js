@@ -9904,6 +9904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 496,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/bay-of-naples-1908.jpeg',
+          title: 'Bay of Naples',
+          artist: 'Albert Marquet',
+          year: '1908',
+          rule: {
+            "monday": [ 9, 11, 21, 6 ],
+            "tuesday": [ 8, 10, 20, 5 ],
+            "wednesday": [ 7, 10, 19, 4 ],
+            "thursday": [ 6, 9, 18, 3 ],
+            "friday": [ 12, 16, 24, 9 ],
+            "saturday": [ 11, 14, 23, 8 ],
+            "sunday": [ 10, 14, 22, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 497,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-swan-no-16-1915.jpeg',
+          title: 'The Swan (No. 16)',
+          artist: 'Hilma af Klint',
+          year: '1914 - 1915',
+          rule: {
+            "monday": [ 11, 15, 23, 8 ],
+            "tuesday": [ 10, 12, 22, 7 ],
+            "wednesday": [ 9, 11, 21, 6 ],
+            "thursday": [ 8, 11, 20, 5 ],
+            "friday": [ 7, 10, 19, 4 ],
+            "saturday": [ 13, 17, 25, 10 ],
+            "sunday": [ 12, 15, 24, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 498,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/untitled-still-life-1929.jpeg',
+          title: 'Untitled Still Life',
+          artist: 'Louis Marcoussis',
+          year: '1929',
+          rule: {
+            "monday": [ 12, 15, 24, 9 ],
+            "tuesday": [ 11, 15, 23, 8 ],
+            "wednesday": [ 10, 12, 22, 7 ],
+            "thursday": [ 9, 11, 21, 6 ],
+            "friday": [ 8, 11, 20, 5 ],
+            "saturday": [ 7, 10, 19, 4 ],
+            "sunday": [ 13, 17, 25, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 499,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/black-knight-1927(1).jpeg',
+          title: 'Black Knight',
+          artist: 'Paul Klee',
+          year: '1927',
+          rule: {
+            "monday": [ 13, 17, 25, 10 ],
+            "tuesday": [ 12, 15, 24, 9 ],
+            "wednesday": [ 11, 15, 23, 8 ],
+            "thursday": [ 10, 12, 22, 7 ],
+            "friday": [ 9, 11, 21, 6 ],
+            "saturday": [ 8, 11, 20, 5 ],
+            "sunday": [ 7, 10, 19, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 500,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/ciud-lagui-1939.jpeg',
+          title: 'Ciudá lagui',
+          artist: 'Xul Solar',
+          year: '1939',
+          rule: {
+            "monday": [ 7, 10, 19, 4 ],
+            "tuesday": [ 13, 17, 25, 10 ],
+            "wednesday": [ 12, 15, 24, 9 ],
+            "thursday": [ 11, 15, 23, 8 ],
+            "friday": [ 10, 12, 22, 7 ],
+            "saturday": [ 9, 11, 21, 6 ],
+            "sunday": [ 8, 11, 20, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

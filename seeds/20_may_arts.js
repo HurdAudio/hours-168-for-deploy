@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/mournful-emergency-1942.jpeg',
+          title: 'Woemergency',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 12, 23, 1, 11 ],
+            "tuesday": [ 10, 20, 28, 30 ],
+            "wednesday": [ 7, 18, 28, 17 ],
+            "thursday": [ 6, 17, 27, 5 ],
+            "friday": [ 4, 14, 24, 1 ],
+            "saturday": [ 2, 11, 23, 1 ],
+            "sunday": [ 12, 24, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/no-wonder-the-whole-of-russia-remembers-the-borodino-day-1942.jpeg',
+          title: 'Old-timers talk about some frays, And they remember well those days! With cause all Russia fashions lays About Borodino!',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 12, 24, 3, 11 ],
+            "tuesday": [ 12, 23, 1, 11 ],
+            "wednesday": [ 10, 20, 28, 30 ],
+            "thursday": [ 7, 18, 28, 17 ],
+            "friday": [ 6, 17, 27, 5 ],
+            "saturday": [ 4, 14, 24, 1 ],
+            "sunday": [ 2, 11, 23, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/only-a-few-months-looking-to-the-faces-1942.jpeg',
+          title: 'Only a few months have passed (Looking to the faces)',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 2, 11, 23, 1 ],
+            "tuesday": [ 12, 24, 3, 11 ],
+            "wednesday": [ 12, 23, 1, 11 ],
+            "thursday": [ 10, 20, 28, 30 ],
+            "friday": [ 7, 18, 28, 17 ],
+            "saturday": [ 6, 17, 27, 5 ],
+            "sunday": [ 4, 14, 24, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/speeches-incoherent-tired-eyes-1942.jpeg',
+          title: 'Speeches incoherent, tired eyes',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 4, 14, 24, 1 ],
+            "tuesday": [ 2, 11, 23, 1 ],
+            "wednesday": [ 12, 24, 3, 11 ],
+            "thursday": [ 12, 23, 1, 11 ],
+            "friday": [ 10, 20, 28, 30 ],
+            "saturday": [ 7, 18, 28, 17 ],
+            "sunday": [ 6, 17, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/.jpeg',
+          title: 'Animal Certificate of Education',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 6, 17, 27, 5 ],
+            "tuesday": [ 4, 14, 24, 1 ],
+            "wednesday": [ 2, 11, 23, 1 ],
+            "thursday": [ 12, 24, 3, 11 ],
+            "friday": [ 12, 23, 1, 11 ],
+            "saturday": [ 10, 20, 28, 30 ],
+            "sunday": [ 7, 18, 28, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

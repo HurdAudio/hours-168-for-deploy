@@ -6052,6 +6052,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 337,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2890956748/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/chaos-club',
+          a_string: 'Chaos Club by eRikm/dieb13',
+          rule: {
+            "monday": [ 25, 1, 2, 3 ],
+            "tuesday": [ 24, 30, 31, 1 ],
+            "wednesday": [ 23, 30, 31, 1 ],
+            "thursday": [ 27, 3, 4, 5 ],
+            "saturday": [ 26, 1, 2, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 338,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3216647126/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/a-s-o',
+          a_string: 'a s o by Ami Yoshida/Christof Kurzmann',
+          rule: {
+            "monday": [ 26, 1, 2, 4 ],
+            "tuesday": [ 25, 1, 2, 3 ],
+            "wednesday": [ 24, 30, 31, 1 ],
+            "thursday": [ 23, 30, 31, 1 ],
+            "saturday": [ 27, 3, 4, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 339,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=232154666/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/cloud',
+          a_string: 'cloud by 4g (Rowe/Ambarchi/Fennesz/Nakamura)',
+          rule: {
+            "monday": [ 27, 3, 4, 5 ],
+            "tuesday": [ 26, 1, 2, 4 ],
+            "wednesday": [ 25, 1, 2, 3 ],
+            "thursday": [ 24, 30, 31, 1 ],
+            "saturday": [ 23, 30, 31, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

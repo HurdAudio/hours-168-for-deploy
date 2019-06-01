@@ -4864,6 +4864,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 271,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3650960517/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/modern-art-bonus-tracks-uk-1982-83-new-wave-post-punkMODERN ART &quot;Bonus Tracks!&quot; (UK 1982-83 New Wave * Post Punk ) by Modern Art',
+          a_string: '',
+          rule: {
+            "monday": [ 13, 19, 25, 31 ],
+            "tuesday": [ 10, 18, 24, 30 ],
+            "wednesday": [ 9, 17, 23, 29 ],
+            "thursday": [ 10, 16, 22, 28 ],
+            "saturday": [ 14, 20, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 272,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4256066668/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/modern-art-underwater-kites-uk-1982-new-wave-synth-pop-post-punk-electro-dark-first-tape',
+          a_string: 'MODERN ART &quot;Underwater Kites&quot; (UK 1982 New Wave * Synth Pop * Post Punk * Electro Dark * First tape) by Modern Art',
+          rule: {
+            "monday": [ 14, 20, 26, 1 ],
+            "tuesday": [ 13, 19, 25, 31 ],
+            "wednesday": [ 10, 18, 24, 30 ],
+            "thursday": [ 9, 17, 23, 29 ],
+            "saturday": [ 10, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 273,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2516483673/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/superexitos-peru-latin-funk-soul-groovy-jazz-disco-dj-dancefloor-bump-1976-masterpiece',
+          a_string: 'Superexitos (Peru Latin Funk Soul Groovy Jazz Disco DJ Dancefloor Bump 1976) Masterpiece ! by Otto de Rojas y Los Ultra &#39;76',
+          rule: {
+            "monday": [ 11, 17, 23, 29 ],
+            "tuesday": [ 15, 21, 27, 2 ],
+            "wednesday": [ 14, 20, 26, 1 ],
+            "thursday": [ 11, 19, 25, 31 ],
+            "saturday": [ 10, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

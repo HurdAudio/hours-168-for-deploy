@@ -11304,6 +11304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 566,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/mouvement-1989.jpeg',
+          title: 'Mouvement',
+          artist: 'Aurel Cojan',
+          year: '1989',
+          rule: {
+            "monday": [ 26, 27, 18, 22 ],
+            "tuesday": [ 29, 31, 1, 3 ],
+            "wednesday": [ 31, 2, 6, 9 ],
+            "thursday": [ 2, 4, 5, 6 ],
+            "friday": [ 21, 23, 15, 4 ],
+            "saturday": [ 21, 23, 15, 4 ],
+            "sunday": [ 26, 24, 16, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 567,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/lepanto-panel-12.jpeg',
+          title: 'Lepanto, Part XII',
+          artist: 'Cy Twombly',
+          year: '2001',
+          rule: {
+            "monday": [ 27, 25, 17, 20 ],
+            "tuesday": [ 27, 28, 19, 23 ],
+            "wednesday": [ 30, 1, 2, 4 ],
+            "thursday": [ 1, 3, 7, 10 ],
+            "friday": [ 3, 5, 6, 7 ],
+            "saturday": [ 22, 24, 16, 5 ],
+            "sunday": [ 22, 24, 16, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 568,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/plutire-verticala.jpeg',
+          title: 'Vertical Floating',
+          artist: 'Constantin Blendea',
+          year: '2002',
+          rule: {
+            "monday": [ 22, 24, 16, 5 ],
+            "tuesday": [ 27, 25, 17, 20 ],
+            "wednesday": [ 27, 28, 19, 23 ],
+            "thursday": [ 30, 1, 2, 4 ],
+            "friday": [ 1, 3, 7, 10 ],
+            "saturday": [ 3, 5, 6, 7 ],
+            "sunday": [ 22, 24, 16, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 569,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/chroma-double-1965.jpeg',
+          title: 'Chroma Double',
+          artist: 'Howard Mehring',
+          year: '1965',
+          rule: {
+            "monday": [ 22, 24, 16, 5 ],
+            "tuesday": [ 22, 24, 16, 5 ],
+            "wednesday": [ 27, 25, 17, 20 ],
+            "thursday": [ 27, 28, 19, 23 ],
+            "friday": [ 30, 1, 2, 4 ],
+            "saturday": [ 1, 3, 7, 10 ],
+            "sunday": [ 3, 5, 6, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 570,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/sur-une-jambe.jpeg',
+          title: 'Sur une jambe',
+          artist: 'Hans Richter',
+          year: '?',
+          rule: {
+            "monday": [ 3, 5, 6, 7 ],
+            "tuesday": [ 22, 24, 16, 5 ],
+            "wednesday": [ 22, 24, 16, 5 ],
+            "thursday": [ 27, 25, 17, 20 ],
+            "friday": [ 27, 28, 19, 23 ],
+            "saturday": [ 30, 1, 2, 4 ],
+            "sunday": [ 1, 3, 7, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

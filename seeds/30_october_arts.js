@@ -9490,7 +9490,7 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Russian Revolution',
           img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_nations_of_world.jpg',
-          title: '(Let\'s) Reforge the weapons of war into the tools of labor!',
+          title: 'Nations of all the world!',
           artist: '?',
           year: '?',
           rule: {
@@ -9501,6 +9501,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 11, 22, 2, 6 ],
             "saturday": [ 10, 21, 1, 5 ],
             "sunday": [ 9, 20, 31, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 476,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_flag_proletariat.jpg',
+          title: '(Get) Higher the flag of the proletarian internationalism!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 10, 21, 1, 5 ],
+            "tuesday": [ 9, 20, 1, 4 ],
+            "wednesday": [ 8, 19, 30, 3 ],
+            "thursday": [ 7, 18, 28, 2 ],
+            "friday": [ 16, 17, 28, 1 ],
+            "saturday": [ 12, 23, 3, 7 ],
+            "sunday": [ 11, 22, 2, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 477,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cccp_poster.jpg',
+          title: 'CCCP Long live the all-victorious flag of Leninism!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 11, 22, 2, 6 ],
+            "tuesday": [ 10, 21, 1, 5 ],
+            "wednesday": [ 9, 20, 1, 4 ],
+            "thursday": [ 8, 19, 30, 3 ],
+            "friday": [ 7, 18, 28, 2 ],
+            "saturday": [ 16, 17, 28, 1 ],
+            "sunday": [ 12, 23, 3, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 478,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Hr_006.jpg',
+          title: 'Nikita Sergeyevich Kruschev',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 12, 23, 3, 7 ],
+            "tuesday": [ 11, 22, 2, 6 ],
+            "wednesday": [ 10, 21, 1, 5 ],
+            "thursday": [ 9, 20, 1, 4 ],
+            "friday": [ 8, 19, 30, 3 ],
+            "saturday": [ 7, 18, 28, 2 ],
+            "sunday": [ 16, 17, 28, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 479,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_field_wait.jpg',
+          title: 'Field works can not wait!',
+          artist: 'V.Govorkov',
+          year: '1954',
+          rule: {
+            "monday": [ 16, 17, 28, 1 ],
+            "tuesday": [ 12, 23, 3, 7 ],
+            "wednesday": [ 11, 22, 2, 6 ],
+            "thursday": [ 10, 21, 1, 5 ],
+            "friday": [ 9, 20, 1, 4 ],
+            "saturday": [ 8, 19, 30, 3 ],
+            "sunday": [ 7, 18, 28, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 480,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Hr_009.jpg',
+          title: 'Long live to PEACE!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 7, 18, 28, 2 ],
+            "tuesday": [ 16, 17, 28, 1 ],
+            "wednesday": [ 12, 23, 3, 7 ],
+            "thursday": [ 11, 22, 2, 6 ],
+            "friday": [ 10, 21, 1, 5 ],
+            "saturday": [ 9, 20, 1, 4 ],
+            "sunday": [ 8, 19, 30, 3 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

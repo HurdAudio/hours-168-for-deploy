@@ -8178,6 +8178,53 @@ footer img {
   font-size: 24px;
 }
 
+#shareMusicPane {
+  position: fixed;
+  width: 45%;
+  top: -4%;
+  background: #110514;
+  background-color: -webkit-linear-gradient(-45deg, #110514, #FBFBF3);
+  background: -o-linear-gradient(-45deg, #110514, #FBFBF3);
+  background: -moz-linear-gradient(-45deg, #110514, #FBFBF3);
+  background: linear-gradient(-45deg, #110514, #FBFBF3);
+  border-radius: 5px;
+  opacity: 0;
+  margin: 6vmin 40vmin 1vmin 40vmin;
+  padding: 4vmin 0 4vmin 25vmin;
+  z-index: -6;
+  height: auto;
+}
+
+#shareMusicPane a {
+  float: right;
+  margin-right: 4vmin;
+  margin-top: -3vmin;
+}
+
+#shareMusicPane h3 {
+  font-family: 'Neuton', serif;
+  font-size: 24px;
+}
+
+#shareMusicPane input[type=text] {
+  margin: 1vmin 1vmin 1vmin 4vmin;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  width: 60%;
+}
+
+#shareMusicPane img {
+  width: 10%;
+  float: left;
+  margin: 1vmin 2vmin 1vmin 10vmin;
+}
+
+#shareMusicPane p {
+  float: left;
+  font-family: 'Neuton', serif;
+  font-size: 24px;
+}
+
 #observanceShareIdentifierFields img {
   width: 40%;
   margin: 1vmin 60% 1vmin 2vmin;
@@ -8222,6 +8269,11 @@ footer img {
 }
 
 #artFriendsSearchList {
+  overflow-y: scroll;
+  height: 300px;
+}
+
+#musicFriendsSearchList {
   overflow-y: scroll;
   height: 300px;
 }
@@ -9055,9 +9107,14 @@ footer img {
   margin: 4vmin;
 }
 
+#musicShareIframe {
+  height: 300px;
+  width: 70%;
+}
+
 
 /* .day {
-  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/winter-12890_640.jpg);
+  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/paula-schutte-518033-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 140%;
 } */

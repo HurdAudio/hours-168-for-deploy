@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/delete.jpeg',
+          title: 'delete',
+          artist: 'Roman Opalka',
+          year: '?',
+          rule: {
+            "monday": [ 13, 24, 4, 14 ],
+            "tuesday": [ 12, 21, 3, 14 ],
+            "wednesday": [ 10, 21, 2, 13 ],
+            "thursday": [ 10, 21, 1, 2 ],
+            "friday": [ 9, 20, 30, 1 ],
+            "saturday": [ 8, 19, 30, 31 ],
+            "sunday": [ 7, 18, 29, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/love-1962.jpeg',
+          title: 'Love',
+          artist: 'Marisol Escobar',
+          year: '1962',
+          rule: {
+            "monday": [ 7, 18, 29, 9 ],
+            "tuesday": [ 13, 24, 4, 14 ],
+            "wednesday": [ 12, 21, 3, 14 ],
+            "thursday": [ 10, 21, 2, 13 ],
+            "friday": [ 10, 21, 1, 2 ],
+            "saturday": [ 9, 20, 30, 1 ],
+            "sunday": [ 8, 19, 30, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/couleur-electrique-lumi-re-2000.jpeg',
+          title: 'Couleur electrique lumière',
+          artist: 'Horacio Garcia-Rossi',
+          year: '2000',
+          rule: {
+            "monday": [ 8, 19, 30, 31 ],
+            "tuesday": [ 7, 18, 29, 9 ],
+            "wednesday": [ 13, 24, 4, 14 ],
+            "thursday": [ 12, 21, 3, 14 ],
+            "friday": [ 10, 21, 2, 13 ],
+            "saturday": [ 10, 21, 1, 2 ],
+            "sunday": [ 9, 20, 30, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/paravent-les-instruments-de-musique-1961.jpeg',
+          title: 'Paravent: Les instruments de musique',
+          artist: 'Bernard Buffet',
+          year: '1961',
+          rule: {
+            "monday": [ 9, 20, 30, 1 ],
+            "tuesday": [ 8, 19, 30, 31 ],
+            "wednesday": [ 7, 18, 29, 9 ],
+            "thursday": [ 13, 24, 4, 14 ],
+            "friday": [ 12, 21, 3, 14 ],
+            "saturday": [ 10, 21, 2, 13 ],
+            "sunday": [ 10, 21, 1, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/unknown-title-2.jpeg',
+          title: 'unknown title',
+          artist: 'Jacques Le Marechal',
+          year: '?',
+          rule: {
+            "monday": [ 10, 21, 1, 2 ],
+            "tuesday": [ 9, 20, 30, 1 ],
+            "wednesday": [ 8, 19, 30, 31 ],
+            "thursday": [ 7, 18, 29, 9 ],
+            "friday": [ 13, 24, 4, 14 ],
+            "saturday": [ 12, 21, 3, 14 ],
+            "sunday": [ 10, 21, 2, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

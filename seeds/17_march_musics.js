@@ -5836,6 +5836,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 325,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1700567050/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://wizardapprentice.bandcamp.com/album/dig-a-pit',
+          a_string: 'Dig A Pit by Wizard Apprentice',
+          rule: {
+            "monday": [ 19, 25, 31, 9 ],
+            "tuesday": [ 17, 24, 30, 7 ],
+            "wednesday": [ 17, 23, 29, 6 ],
+            "thursday": [ 21, 27, 2, 10 ],
+            "saturday": [ 20, 26, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 326,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1395117610/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://rosaanschuetz.bandcamp.com/album/rigid',
+          a_string: 'Rigid by Rosa Anschütz',
+          rule: {
+            "monday": [ 20, 26, 1, 9 ],
+            "tuesday": [ 19, 25, 31, 9 ],
+            "wednesday": [ 17, 24, 30, 7 ],
+            "thursday": [ 17, 23, 29, 6 ],
+            "saturday": [ 21, 27, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 327,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=543872343/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://psalmone.bandcamp.com/album/flight-of-the-wig',
+          a_string: 'FLIGHT OF THE WIG by Psalm One',
+          rule: {
+            "monday": [ 21, 27, 2, 10 ],
+            "tuesday": [ 20, 26, 1, 9 ],
+            "wednesday": [ 19, 25, 31, 9 ],
+            "thursday": [ 17, 24, 30, 7 ],
+            "saturday": [ 17, 23, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5512,6 +5512,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 307,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3319271981/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cronica.bandcamp.com/album/further-consequences-of-reinterpretation',
+          a_string: 'Further Consequences of Reinterpretation by Paulo Raposo &amp; Marc Behrens',
+          rule: {
+            "monday": [ 13, 16, 21, 3 ],
+            "tuesday": [ 12, 15, 21, 2 ],
+            "wednesday": [ 12, 15, 21, 1 ],
+            "thursday": [ 10, 18, 20, 5 ],
+            "saturday": [ 14, 18, 24, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 308,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=288832450/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://12kmusic.bandcamp.com/album/hum',
+          a_string: 'Hum by SAWAKO',
+          rule: {
+            "monday": [ 15, 19, 25, 6 ],
+            "tuesday": [ 14, 17, 22, 4 ],
+            "wednesday": [ 13, 16, 22, 3 ],
+            "thursday": [ 13, 16, 22, 2 ],
+            "saturday": [ 11, 19, 21, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 309,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=254976655/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://room40.bandcamp.com/album/10-33cm',
+          a_string: '10-33CM by I8U',
+          rule: {
+            "monday": [ 11, 19, 21, 6 ],
+            "tuesday": [ 15, 19, 25, 6 ],
+            "wednesday": [ 14, 17, 22, 4 ],
+            "thursday": [ 13, 16, 22, 3 ],
+            "saturday": [ 13, 16, 22, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

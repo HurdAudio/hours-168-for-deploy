@@ -5296,6 +5296,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 295,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1450433990/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://metalchaosensemble.bandcamp.com/album/basilisk',
+          a_string: 'Basilisk by Metal Chaos Ensemble',
+          rule: {
+            "monday": [ 21, 29, 11, 10 ],
+            "tuesday": [ 20, 28, 10, 9 ],
+            "wednesday": [ 19, 27, 9, 8 ],
+            "thursday": [ 23, 31, 13, 12 ],
+            "saturday": [ 22, 30, 12, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 296,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=647882106/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://oldtimerelijun.bandcamp.com/album/see-now-and-know',
+          a_string: 'SEE NOW AND KNOW by Old Time Relijun',
+          rule: {
+            "monday": [ 22, 30, 12, 11 ],
+            "tuesday": [ 21, 29, 11, 10 ],
+            "wednesday": [ 20, 28, 10, 9 ],
+            "thursday": [ 19, 27, 9, 8 ],
+            "saturday": [ 23, 31, 13, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 297,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=861838208/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://richardramirez.bandcamp.com/album/bloodrushes',
+          a_string: 'Bloodrushes by Seven Murders',
+          rule: {
+            "monday": [ 23, 31, 13, 12 ],
+            "tuesday": [ 22, 30, 12, 11 ],
+            "wednesday": [ 21, 29, 11, 10 ],
+            "thursday": [ 20, 28, 10, 9 ],
+            "saturday": [ 19, 27, 9, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

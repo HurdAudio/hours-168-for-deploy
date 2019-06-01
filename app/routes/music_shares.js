@@ -40,8 +40,8 @@ router.post('/', (req, res, next) => {
   knex('music_shares')
   .insert({
     user_id: req.body.user_id,
-    music_month: req.body.art_month,
-    music_id: req.body.art_id,
+    music_month: req.body.music_month,
+    music_id: req.body.music_id,
     share_associate_id: req.body.share_associate_id,
     accepted: req.body.accepted,
     responded: req.body.responded
@@ -60,8 +60,8 @@ router.patch('/:id', (req, res, next) => {
   .where('id', req.params.id)
   .update({
     user_id: req.body.user_id,
-    music_month: req.body.art_month,
-    music_id: req.body.art_id,
+    music_month: req.body.music_month,
+    music_id: req.body.music_id,
     share_associate_id: req.body.share_associate_id,
     accepted: req.body.accepted,
     responded: req.body.responded,

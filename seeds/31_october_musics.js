@@ -5080,6 +5080,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 283,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1634560375/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://hypnoticdirgerecords.bandcamp.com/album/damp-chill-of-life',
+          a_string: 'Damp Chill of Life by NONE',
+          rule: {
+            "monday": [ 14, 24, 3, 6 ],
+            "tuesday": [ 18, 28, 7, 10 ],
+            "wednesday": [ 17, 27, 6, 9 ],
+            "thursday": [ 16, 26, 5, 8 ],
+            "saturday": [ 15, 25, 5, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 284,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2304815220/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://primitiveteeth.bandcamp.com/album/s-t-ep',
+          a_string: 'S/T EP by Primitive Teeth',
+          rule: {
+            "monday": [ 15, 25, 5, 7 ],
+            "tuesday": [ 14, 24, 3, 6 ],
+            "wednesday": [ 18, 28, 7, 10 ],
+            "thursday": [ 17, 27, 6, 9 ],
+            "saturday": [ 16, 26, 5, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 285,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1601842304/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://urochromes.bandcamp.com/album/trope-house',
+          a_string: 'Trope House by Urochromes',
+          rule: {
+            "monday": [ 16, 26, 5, 8 ],
+            "tuesday": [ 15, 25, 5, 7 ],
+            "wednesday": [ 14, 24, 3, 6 ],
+            "thursday": [ 18, 28, 7, 10 ],
+            "saturday": [ 17, 27, 6, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

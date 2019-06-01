@@ -230,6 +230,30 @@
   </div>
 </div>
 
+<div id="shareMusicPane">
+  <a class="btn" ng-click="$ctrl.cancelMusicShareInvite()" href="#">cancel</a>
+  <div id="musicShareIdentifierFields">
+
+    <iframe id="musicShareIframe" seamless><a id="musicShareATag"></a></iframe>
+
+
+  </div>
+  <h3>Select who you want to share this music with:</h3>
+  <div id="shareMusicSearchBarDiv">
+    <input type="text" id="taskWhoToShareMusicSearch" placeholder="search">
+  </div>
+  <div id="musicFriendsSearchList">
+
+
+    <div>
+
+      <img src="https://pbs.twimg.com/profile_images/3511787126/e23647c60fe7cee53e4d2d37a50a255c_400x400.jpeg">
+      <p>Lucifer Sam</p>
+      <br><br><br>
+    </div>
+  </div>
+</div>
+
 <div id="shareArtPane">
   <a class="btn" ng-click="$ctrl.cancelArtShareInvite()" href="#">cancel</a>
   <div id="artShareIdentifierFields">
@@ -2056,6 +2080,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('friday_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('friday_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('friday_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2084,6 +2109,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('sunday_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('sunday_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('sunday_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2156,6 +2182,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('january_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('january_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('january_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2227,6 +2254,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('february_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('february_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('february_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2300,6 +2328,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('march_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('march_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('march_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2373,6 +2402,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('april_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('april_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('april_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2446,6 +2476,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('may_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('may_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('may_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2519,6 +2550,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('june_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('june_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('june_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2592,6 +2624,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('july_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('july_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('july_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2665,6 +2698,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('august_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('august_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('august_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2738,6 +2772,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('september_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('september_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('september_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2811,6 +2846,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('october_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('october_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('october_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2884,6 +2920,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('november_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('november_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('november_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -2958,6 +2995,7 @@
                     <div class="musicEdit">
                       <a href="" class="btn" ng-click="$ctrl.editMusicCurrate('december_musics', music.id)">edit</a>
                       <a href="" class="btn" ng-click="$ctrl.deleteMusicCurrate('december_musics', music.id)">delete</a>
+                      <a href="" class="btn" ng-click="$ctrl.shareMusicWith('december_musics', music.id)">share</a>
                     </div><br><br><br>
                   </div>
                 </main>
@@ -4677,12 +4715,12 @@
                 <div class="thisIsObservanceShareCommentEditDoneDiv" id="thisIsMusicShareCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheMusicShareCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditMusicShareCommentCompleted(comment.id)">done</a></div>
                 <h3 id="thisIsMusicShareCommentComment{{comment.id}}">{{comment.comment}}</h3><br>
 
-                <!-- <div id="deleteMusicShareCommentConfirm{{comment.id}}" class="messageEditDelete">
+                <div id="deleteMusicShareCommentConfirm{{comment.id}}" class="messageEditDelete">
 
                   <h3>Delete comment forever?</h3>
-                  <a class="btn" href="#" ng-click="$ctrl.userArtShareCommentDeleteCancel(art.id)">no</a>
-                  <a class="btn" href="#" ng-click="$ctrl.userArtShareCommentDeleteConfirmClick(art.id)">yes</a>
-                </div> -->
+                  <a class="btn" href="#" ng-click="$ctrl.userMusicShareCommentDeleteCancel(comment.id, music.id)">no</a>
+                  <a class="btn" href="#" ng-click="$ctrl.userMusicShareCommentDeleteConfirmClick(comment.id, music.id)">yes</a>
+                </div>
 
                 <div id="editDeleteMusicShareCommentDiv{{comment.id}}" class="messageEditDelete">
                   <a class="btn" href="#" ng-click="$ctrl.userEditMusicShareComment(comment.id)">edit</a>

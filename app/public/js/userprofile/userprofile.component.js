@@ -317,6 +317,230 @@
       vm.addNewArtShareComment = addNewArtShareComment;
       vm.declineTileShare = declineTileShare;
       vm.acceptTileShare = acceptTileShare;
+      vm.userDeleteMusicShareComment = userDeleteMusicShareComment;
+      vm.userMusicShareCommentDeleteCancel = userMusicShareCommentDeleteCancel;
+      vm.userMusicShareCommentDeleteConfirmClick = userMusicShareCommentDeleteConfirmClick;
+
+      vm.shareMusicWith = shareMusicWith;
+      vm.cancelMusicShareInvite = cancelMusicShareInvite;
+
+      function cancelMusicShareInvite() {
+        let shareMusicPane = document.getElementById('shareMusicPane');
+
+        shareMusicPane.setAttribute("style", "z-index: -6; opacity: 0; transition: all 0.4s linear;");
+      }
+
+      function populateMusicShareFriends(friendsArray, index, friendId) {
+        $http.get(`/users/${friendId}`)
+        .then(friendData => {
+          friendsArray[index] = friendData.data;
+        });
+      }
+
+      function setMusicShareUserListener(div, friendId, musicSelection) {
+
+        div.addEventListener('click', () => {
+          let subObj = {
+            user_id: parseInt(currentUserId),
+            share_associate_id: parseInt(friendId),
+            accepted: false,
+            responded: false
+          };
+          if (musicSelection.id === null) {
+            subObj.monthString = 'january_musics';
+            let addMuse = {
+              user_id: 2,
+              theme: '',
+              source: 'bandcamp',
+              src_string: musicSelection.src_string,
+              href_string: musicSelection.href_string,
+              a_string: musicSelection.href_string,
+              rule: {
+                monday: [ 1, 2, 3, 4, 5 ],
+                tuesday: [ 6, 7, 8, 9, 10 ],
+                wednesday: [ 11, 12, 13, 14, 15 ],
+                thursday: [ 16, 17, 18, 19, 20 ],
+                saturday: [ 21, 22, 23, 24, 25 ]
+              }
+            }
+            $http.post('/january_musics', addMuse)
+            .then(addedMuseData => {
+              let addedMuse = addedMuseData.data[0];
+              subObj.music_id = addedMuse.id;
+              $http.post('/music_shares', subObj)
+              .then(postedShareData => {
+                let postedShare = postedShareData.data;
+                cancelMusicShareInvite();
+              });
+            });
+          } else {
+            subObj.music_month = musicSelection.monthString;
+            subObj.music_id = musicSelection.id;
+            $http.post('/music_shares', subObj)
+            .then(postedShareData => {
+              let postedShare = postedShareData.data;
+              cancelMusicShareInvite();
+            });
+          }
+
+        });
+      }
+
+      function shareMusicWith(monthString, musicId) {
+        // console.log(musicSelection);
+        $http.get(`/${monthString}/${musicId}`)
+        .then(shareMusicData => {
+          let shareMusic = shareMusicData.data;
+
+          let musicSelection = {
+            id: musicId,
+            index: 0,
+            a_string: shareMusic.a_string,
+            href_string: shareMusic.href_string,
+            monthString: monthString,
+            src_string: shareMusic.src_string
+          }
+
+          let shareMusicPane = document.getElementById('shareMusicPane');
+
+          let musicFriendsSearchList = document.getElementById('musicFriendsSearchList');
+          while(musicFriendsSearchList.firstChild) {
+            musicFriendsSearchList.removeChild(musicFriendsSearchList.firstChild);
+          }
+          let div, friendImg, friendName, br;
+          let filteredFriends = [];
+          let shareMusicSearchBarDiv = document.getElementById('shareMusicSearchBarDiv');
+          let taskWhoToShareMusicSearch = document.getElementById('taskWhoToShareMusicSearch');
+          if (taskWhoToShareMusicSearch) {
+            taskWhoToShareMusicSearch.parentNode.removeChild(taskWhoToShareMusicSearch);
+            taskWhoToShareMusicSearch = document.createElement('input');
+            shareMusicSearchBarDiv.appendChild(taskWhoToShareMusicSearch);
+            taskWhoToShareMusicSearch.id = 'taskWhoToShareMusicSearch';
+            taskWhoToShareMusicSearch.type = 'text';
+            taskWhoToShareMusicSearch.placeholder = 'search';
+          }
+
+          shareMusicPane.setAttribute("style", "z-index: 6; opacity: 1; transition: opacity 0.4s linear;");
+
+
+          $http.get(`/users/${currentUserId}`)
+          .then(userData => {
+            let musicShareIframe = document.getElementById('musicShareIframe');
+            // let musicShareATag = document.getElementById('musicShareATag');
+            musicShareIframe.src = musicSelection.src_string;
+            // musicShareATag.href = musicSelection.href_string;
+            // musicShareATag.innerHTML = musicSelection.a_string;
+            console.log(userData);
+            let user = userData.data;
+            if (user.associates && user.associates.friends) {
+              let friendsArray = [];
+              for (let i = 0; i < user.associates.friends.length; i++) {
+                populateMusicShareFriends(friendsArray, i, user.associates.friends[i]);
+              }
+
+              setTimeout(() => {
+                filteredFriends = friendsArray.filter(entry => {
+                  return(entry);
+                });
+                for (let j = 0; j < friendsArray.length; j++) {
+                  div = document.createElement('div');
+                  musicFriendsSearchList.appendChild(div);
+                  friendImg = document.createElement('img');
+                  div.appendChild(friendImg);
+                  div.setAttribute("style", "cursor: pointer;");
+                  friendImg.src = friendsArray[j].user_avatar_url;
+                  friendName = document.createElement('p');
+                  div.appendChild(friendName);
+                  friendName.innerHTML = friendsArray[j].name;
+                  br = document.createElement('br');
+                  div.appendChild(br);
+                  br = document.createElement('br');
+                  div.appendChild(br);
+                  br = document.createElement('br');
+                  div.appendChild(br);
+                  br = document.createElement('br');
+                  div.appendChild(br);
+                  br = document.createElement('br');
+                  div.appendChild(br);
+                  setMusicShareUserListener(div, friendsArray[j].id, musicSelection);
+                }
+                taskWhoToShareMusicSearch.addEventListener('keyup', () => {
+                  while(musicFriendsSearchList.firstChild) {
+                    musicFriendsSearchList.removeChild(musicFriendsSearchList.firstChild);
+                  }
+                  if (taskWhoToShareMusicSearch.value === '') {
+                    filteredFriends = friendsArray.filter(entry => {
+                      return(entry);
+                    });
+                  } else {
+                    filteredFriends = friendsArray.filter(entry => {
+                      return((entry.name.toLowerCase().indexOf(taskWhoToShareMusicSearch.value.toLowerCase()) !== -1) || (entry.email.toLowerCase().indexOf(taskWhoToShareMusicSearch.value.toLowerCase()) !== -1));
+                    });
+                  }
+                  for (let k = 0; k < filteredFriends.length; k++) {
+                    div = document.createElement('div');
+                    musicFriendsSearchList.appendChild(div);
+                    friendImg = document.createElement('img');
+                    div.appendChild(friendImg);
+                    div.setAttribute("style", "cursor: pointer;");
+                    friendImg.src = filteredFriends[k].user_avatar_url;
+                    friendName = document.createElement('p');
+                    div.appendChild(friendName);
+                    friendName.innerHTML = filteredFriends[k].name;
+                    br = document.createElement('br');
+                    div.appendChild(br);
+                    br = document.createElement('br');
+                    div.appendChild(br);
+                    br = document.createElement('br');
+                    div.appendChild(br);
+                    br = document.createElement('br');
+                    div.appendChild(br);
+                    br = document.createElement('br');
+                    div.appendChild(br);
+                    setMusicShareUserListener(div, filteredFriends[k].id, musicSelection);
+                  }
+                });
+              }, (user.associates.friends.length * 250));
+
+
+            }
+          });
+        });
+
+      }
+
+      function userMusicShareCommentDeleteConfirmClick(commentId, musicId) {
+        $http.delete(`/music_share_comments/${commentId}`)
+        .then(goneCommentData => {
+          let goneComment = goneCommentData.data;
+          for (let i = 0; i < vm.activeMusicShares.length; i++) {
+            if (parseInt(vm.activeMusicShares[i].id) === parseInt(musicId)) {
+              for (let j = 0; j < vm.activeMusicShares[i].comments.length; j++) {
+                if (parseInt(vm.activeMusicShares[i].comments[j].id) === parseInt(commentId)) {
+                  vm.activeMusicShares[i].comments.splice(j, 1);
+                  return;
+                }
+              }
+            }
+          }
+        });
+      }
+
+      function userMusicShareCommentDeleteCancel(commentId, musicId) {
+        let deleteMusicShareCommentConfirm = document.getElementById('deleteMusicShareCommentConfirm' + commentId);
+        let editDeleteMusicShareCommentDiv = document.getElementById('editDeleteMusicShareCommentDiv' + commentId);
+
+        deleteMusicShareCommentConfirm.setAttribute("style", "display: none;");
+        editDeleteMusicShareCommentDiv.setAttribute("style", "display: initial;");
+      }
+
+      function userDeleteMusicShareComment(commentId) {
+        let deleteMusicShareCommentConfirm = document.getElementById('deleteMusicShareCommentConfirm' + commentId);
+        let editDeleteMusicShareCommentDiv = document.getElementById('editDeleteMusicShareCommentDiv' + commentId);
+
+        deleteMusicShareCommentConfirm.setAttribute("style", "display: initial;");
+        editDeleteMusicShareCommentDiv.setAttribute("style", "display: none;");
+      }
 
       function acceptTileShare(tileShareId) {
         let optionElement;
@@ -13705,78 +13929,78 @@
             holidayArray = [];
             holidayArray = grabHolidays(userHolidays, checkDate);
             if (holidayArray.length > 0) {
-              if (checkDate.getMonth() === 0) {
+              if (checkDate.getUTCMonth() === 0) {
                 vm.holidayReporter[0].calendarJanTotal++;
               }
-              if (checkDate.getMonth() === 1) {
+              if (checkDate.getUTCMonth() === 1) {
                 vm.holidayReporter[0].calendarFebTotal++;
               }
-              if (checkDate.getMonth() === 2) {
+              if (checkDate.getUTCMonth() === 2) {
                 vm.holidayReporter[0].calendarMarTotal++;
               }
-              if (checkDate.getMonth() === 3) {
+              if (checkDate.getUTCMonth() === 3) {
                 vm.holidayReporter[0].calendarAprTotal++;
               }
-              if (checkDate.getMonth() === 4) {
+              if (checkDate.getUTCMonth() === 4) {
                 vm.holidayReporter[0].calendarMayTotal++;
               }
-              if (checkDate.getMonth() === 5) {
+              if (checkDate.getUTCMonth() === 5) {
                 vm.holidayReporter[0].calendarJunTotal++;
               }
-              if (checkDate.getMonth() === 6) {
+              if (checkDate.getUTCMonth() === 6) {
                 vm.holidayReporter[0].calendarJulTotal++;
               }
-              if (checkDate.getMonth() === 7) {
+              if (checkDate.getUTCMonth() === 7) {
                 vm.holidayReporter[0].calendarAugTotal++;
               }
-              if (checkDate.getMonth() === 8) {
+              if (checkDate.getUTCMonth() === 8) {
                 vm.holidayReporter[0].calendarSepTotal++;
               }
-              if (checkDate.getMonth() === 9) {
+              if (checkDate.getUTCMonth() === 9) {
                 vm.holidayReporter[0].calendarOctTotal++;
               }
-              if (checkDate.getMonth() === 10) {
+              if (checkDate.getUTCMonth() === 10) {
                 vm.holidayReporter[0].calendarNovTotal++;
               }
-              if (checkDate.getMonth() === 11) {
+              if (checkDate.getUTCMonth() === 11) {
                 vm.holidayReporter[0].calendarDecTotal++;
               }
               vm.holidayReporter[0].calendarTotal++;
               if (holidayArray.length > 1) {
-                if (checkDate.getMonth() === 0) {
+                if (checkDate.getUTCMonth() === 0) {
                   vm.holidayReporter[0].calendarJanOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 1) {
+                if (checkDate.getUTCMonth() === 1) {
                   vm.holidayReporterl[0].calendarFebOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 2) {
+                if (checkDate.getUTCMonth() === 2) {
                   vm.holidayReporter[0].calendarMarOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 3) {
+                if (checkDate.getUTCMonth() === 3) {
                   vm.holidayReporter[0].calendarAprOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 4) {
+                if (checkDate.getUTCMonth() === 4) {
                   vm.holidayReporter[0].calendarMayOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 5) {
+                if (checkDate.getUTCMonth() === 5) {
                   vm.holidayReporter[0].calendarJunOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 6) {
+                if (checkDate.getUTCMonth() === 6) {
                   vm.holidayReporter[0].calendarJulOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 7) {
+                if (checkDate.getUTCMonth() === 7) {
                   vm.holidayReporter[0].calendarAugOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 8) {
+                if (checkDate.getUTCMonth() === 8) {
                   vm.holidayReporter[0].calendarSepOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 9) {
+                if (checkDate.getUTCMonth() === 9) {
                   vm.holidayReporter[0].calendarOctOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 10) {
+                if (checkDate.getUTCMonth() === 10) {
                   vm.holidayReporter[0].calendarNovOverlap += holidayArray.length;
                 }
-                if (checkDate.getMonth() === 11) {
+                if (checkDate.getUTCMonth() === 11) {
                   vm.holidayReporter[0].calendarDecOverlap += holidayArray.length;
                 }
                 for (let i = 0; i < holidayArray.length; i++) {
@@ -13785,51 +14009,51 @@
                   } else {
                     vm.holidayReporter[0].calendarFloat++;
                   }
-                  if (checkDate.getMonth() === 0) {
+                  if (checkDate.getUTCMonth() === 0) {
                     vm.holidayReporter[0].calendarJanHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendarJan = vm.holidayReporter[0].calendarJanHolidays.length;
                   }
-                  if (checkDate.getMonth() === 1) {
+                  if (checkDate.getUTCMonth() === 1) {
                     vm.holidayReporter[0].calendarFebHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendarFeb = vm.holidayReporter[0].calendarFebHolidays.length;
                   }
-                  if (checkDate.getMonth() === 2) {
+                  if (checkDate.getUTCMonth() === 2) {
                     vm.holidayReporter[0].calendarMarHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendarMar = vm.holidayReporter[0].calendarMarHolidays.length;
                   }
-                  if (checkDate.getMonth() === 3) {
+                  if (checkDate.getUTCMonth() === 3) {
                     vm.holidayReporter[0].calendarAprHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendarApr = vm.holidayReporter[0].calendarAprHolidays.length;
                   }
-                  if (checkDate.getMonth() === 4) {
+                  if (checkDate.getUTCMonth() === 4) {
                     vm.holidayReporter[0].calendarMayHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendarMay = vm.holidayReporter[0].calendarMayHolidays.length;
                   }
-                  if (checkDate.getMonth() === 5) {
+                  if (checkDate.getUTCMonth() === 5) {
                     vm.holidayReporter[0].calendarJunHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendarJun = vm.holidayReporter[0].calendarJunHolidays.length;
                   }
-                  if (checkDate.getMonth() === 6) {
+                  if (checkDate.getUTCMonth() === 6) {
                     vm.holidayReporter[0].calendarJulHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendarJul = vm.holidayReporter[0].calendarJulHolidays.length;
                   }
-                  if (checkDate.getMonth() === 7) {
+                  if (checkDate.getUTCMonth() === 7) {
                     vm.holidayReporter[0].calendarAugHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendarAug = vm.holidayReporter[0].calendarAugHolidays.length;
                   }
-                  if (checkDate.getMonth() === 8) {
+                  if (checkDate.getUTCMonth() === 8) {
                     vm.holidayReporter[0].calendarSepHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendarSep = vm.holidayReporter[0].calendarSepHolidays.length;
                   }
-                  if (checkDate.getMonth() === 9) {
+                  if (checkDate.getUTCMonth() === 9) {
                     vm.holidayReporter[0].calendarOctHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendarOct = vm.holidayReporter[0].calendarOctHolidays.length;
                   }
-                  if (checkDate.getMonth() === 10) {
+                  if (checkDate.getUTCMonth() === 10) {
                     vm.holidayReporter[0].calendarNovHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendar = vm.holidayReporter[0].calendarNovHolidays.length;
                   }
-                  if (checkDate.getMonth() === 11) {
+                  if (checkDate.getUTCMonth() === 11) {
                     vm.holidayReporter[0].calendarDecHolidays.push(holidayArray[i].name);
                     vm.holidayReporter[0].calendar = vm.holidayReporter[0].calendarDecHolidays.length;
                   }
@@ -13840,51 +14064,51 @@
                 } else {
                   vm.holidayReporter[0].calendarFloat++;
                 }
-                if (checkDate.getMonth() === 0) {
+                if (checkDate.getUTCMonth() === 0) {
                   vm.holidayReporter[0].calendarJanHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarJan = vm.holidayReporter[0].calendarJanHolidays.length;
                 }
-                if (checkDate.getMonth() === 1) {
+                if (checkDate.getUTCMonth() === 1) {
                   vm.holidayReporter[0].calendarFebHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarFeb = vm.holidayReporter[0].calendarFebHolidays.length;
                 }
-                if (checkDate.getMonth() === 2) {
+                if (checkDate.getUTCMonth() === 2) {
                   vm.holidayReporter[0].calendarMarHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarMar = vm.holidayReporter[0].calendarMarHolidays.length;
                 }
-                if (checkDate.getMonth() === 3) {
+                if (checkDate.getUTCMonth() === 3) {
                   vm.holidayReporter[0].calendarAprHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarApr = vm.holidayReporter[0].calendarAprHolidays.length;
                 }
-                if (checkDate.getMonth() === 4) {
+                if (checkDate.getUTCMonth() === 4) {
                   vm.holidayReporter[0].calendarMayHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarMay = vm.holidayReporter[0].calendarMayHolidays.length;
                 }
-                if (checkDate.getMonth() === 5) {
+                if (checkDate.getUTCMonth() === 5) {
                   vm.holidayReporter[0].calendarJunHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarJun = vm.holidayReporter[0].calendarJunHolidays.length;
                 }
-                if (checkDate.getMonth() === 6) {
+                if (checkDate.getUTCMonth() === 6) {
                   vm.holidayReporter[0].calendarJulHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarJul = vm.holidayReporter[0].calendarJulHolidays.length;
                 }
-                if (checkDate.getMonth() === 7) {
+                if (checkDate.getUTCMonth() === 7) {
                   vm.holidayReporter[0].calendarAugHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarAug = vm.holidayReporter[0].calendarAugHolidays.length;
                 }
-                if (checkDate.getMonth() === 8) {
+                if (checkDate.getUTCMonth() === 8) {
                   vm.holidayReporter[0].calendarSepHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarSep = vm.holidayReporter[0].calendarSepHolidays.length;
                 }
-                if (checkDate.getMonth() === 9) {
+                if (checkDate.getUTCMonth() === 9) {
                   vm.holidayReporter[0].calendarOctHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarOct = vm.holidayReporter[0].calendarOctHolidays.length;
                 }
-                if (checkDate.getMonth() === 10) {
+                if (checkDate.getUTCMonth() === 10) {
                   vm.holidayReporter[0].calendarNovHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarNov = vm.holidayReporter[0].calendarNovHolidays.length;
                 }
-                if (checkDate.getMonth() === 11) {
+                if (checkDate.getUTCMonth() === 11) {
                   vm.holidayReporter[0].calendarDecHolidays.push(holidayArray[0].name);
                   vm.holidayReporter[0].calendarDec = vm.holidayReporter[0].calendarDecHolidays.length;
                 }

@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/raw-2.jpeg',
+          title: 'Hyper Ellipsoid (Gold Aqua)',
+          artist: 'Gisela Colon',
+          year: '2017',
+          rule: {
+            "monday": [ 14, 24, 1, 11 ],
+            "tuesday": [ 13, 24, 31, 10 ],
+            "wednesday": [ 12, 22, 30, 9 ],
+            "thursday": [ 11, 21, 30, 8 ],
+            "friday": [ 17, 26, 5, 13 ],
+            "saturday": [ 16, 26, 3, 13 ],
+            "sunday": [ 14, 25, 2, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-1996-70-x-65-cm.jpeg',
+          title: 'Untitled',
+          artist: 'Ilse D\'Hollander',
+          year: '1996',
+          rule: {
+            "monday": [ 14, 25, 2, 12 ],
+            "tuesday": [ 14, 24, 1, 11 ],
+            "wednesday": [ 13, 24, 31, 10 ],
+            "thursday": [ 12, 22, 30, 9 ],
+            "friday": [ 11, 21, 30, 8 ],
+            "saturday": [ 17, 26, 5, 13 ],
+            "sunday": [ 16, 26, 3, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/009d053cb40d1b90093fd940fe5a6ab3-1.jpeg',
+          title: 'Untitled',
+          artist: 'Katrien De Blauwer',
+          year: '?',
+          rule: {
+            "monday": [ 16, 26, 3, 13 ],
+            "tuesday": [ 14, 25, 2, 12 ],
+            "wednesday": [ 14, 24, 1, 11 ],
+            "thursday": [ 13, 24, 31, 10 ],
+            "friday": [ 12, 22, 30, 9 ],
+            "saturday": [ 11, 21, 30, 8 ],
+            "sunday": [ 17, 26, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/closed-contact-14.jpeg',
+          title: 'Closed Contact #14',
+          artist: 'Jenny Saville',
+          year: '1995 - 1996',
+          rule: {
+            "monday": [ 17, 26, 5, 13 ],
+            "tuesday": [ 16, 26, 3, 13 ],
+            "wednesday": [ 14, 25, 2, 12 ],
+            "thursday": [ 14, 24, 1, 11 ],
+            "friday": [ 13, 24, 31, 10 ],
+            "saturday": [ 12, 22, 30, 9 ],
+            "sunday": [ 11, 21, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/monika-blatton-rocznica.jpeg',
+          title: 'Anniversary',
+          artist: 'Monica Blatton',
+          year: '2009',
+          rule: {
+            "monday": [ 11, 21, 30, 8 ],
+            "tuesday": [ 17, 26, 5, 13 ],
+            "wednesday": [ 16, 26, 3, 13 ],
+            "thursday": [ 14, 25, 2, 12 ],
+            "friday": [ 14, 24, 1, 11 ],
+            "saturday": [ 13, 24, 31, 10 ],
+            "sunday": [ 12, 22, 30, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

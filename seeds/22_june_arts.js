@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Alamogordo-Pupfish-Drone-Flight-Academy-Best-conceptual-Portrait-Photographer-fine-art-Photography-Wick-Beavers-advertising-Photographs-NM-LA-NYC-Las-Vegas-Munich-Rome-Milano-Paris-London.jpg',
+          title: 'Alamogordo Pupfish Drone Flight Academy',
+          artist: 'Wick Beavers',
+          year: '2018',
+          rule: {
+            "monday": [ 8, 18, 28, 6 ],
+            "tuesday": [ 7, 17, 27, 5 ],
+            "wednesday": [ 13, 23, 3, 10 ],
+            "thursday": [ 12, 22, 3, 10 ],
+            "friday": [ 11, 21, 1, 29 ],
+            "saturday": [ 10, 20, 30, 8 ],
+            "sunday": [ 19, 29, 9, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/barberSm10incopy-copy.jpg',
+          title: 'Rocco\'s Barber Shop',
+          artist: 'Ray Simone',
+          year: 'c.1989',
+          rule: {
+            "monday": [ 19, 29, 9, 7 ],
+            "tuesday": [ 8, 18, 28, 6 ],
+            "wednesday": [ 7, 17, 27, 5 ],
+            "thursday": [ 13, 23, 3, 10 ],
+            "friday": [ 12, 22, 3, 10 ],
+            "saturday": [ 11, 21, 1, 29 ],
+            "sunday": [ 10, 20, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/the-bird.jpg',
+          title: 'The Bird',
+          artist: 'Dimitry Roulland',
+          year: '?',
+          rule: {
+            "monday": [ 11, 21, 31, 9 ],
+            "tuesday": [ 20, 30, 10, 8 ],
+            "wednesday": [ 9, 19, 29, 7 ],
+            "thursday": [ 8, 18, 28, 6 ],
+            "friday": [ 14, 24, 4, 11 ],
+            "saturday": [ 13, 23, 4, 11 ],
+            "sunday": [ 12, 22, 2, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/the-blue-tunnel.jpg',
+          title: 'The Blue Tunnel',
+          artist: 'Dimitry Roulland',
+          year: '?',
+          rule: {
+            "monday": [ 12, 22, 2, 30 ],
+            "tuesday": [ 11, 21, 31, 9 ],
+            "wednesday": [ 20, 30, 10, 8 ],
+            "thursday": [ 9, 19, 29, 7 ],
+            "friday": [ 8, 18, 28, 6 ],
+            "saturday": [ 14, 24, 4, 11 ],
+            "sunday": [ 13, 23, 4, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/flexibility_print_fine_art_print_female_dancer_dance_jpeg_grande.jpg',
+          title: 'Red 2.0',
+          artist: 'Dimitry Roulland',
+          year: '?',
+          rule: {
+            "monday": [ 13, 23, 4, 11 ],
+            "tuesday": [ 12, 22, 2, 30 ],
+            "wednesday": [ 11, 21, 31, 9 ],
+            "thursday": [ 20, 30, 10, 8 ],
+            "friday": [ 9, 19, 29, 7 ],
+            "saturday": [ 8, 18, 28, 6 ],
+            "sunday": [ 14, 24, 4, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

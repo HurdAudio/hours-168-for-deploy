@@ -9104,6 +9104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 456,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/29-01,AceHigh.jpg',
+          title: 'Ace-High Magazine',
+          artist: 'Gerard Delano',
+          year: '1929',
+          rule: {
+            "monday": [ 6, 18, 27, 2 ],
+            "tuesday": [ 5, 18, 26, 1 ],
+            "wednesday": [ 4, 17, 25, 31 ],
+            "thursday": [ 3, 16, 24, 30 ],
+            "friday": [ 2, 14, 13, 29 ],
+            "saturday": [ 22, 14, 2, 9 ],
+            "sunday": [ 7, 20, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 457,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/48-02,LeadingW.jpg',
+          title: 'Leading Western',
+          artist: 'Ed DeLavy',
+          year: '1948',
+          rule: {
+            "monday": [ 7, 20, 28, 3 ],
+            "tuesday": [ 6, 18, 27, 2 ],
+            "wednesday": [ 5, 18, 26, 1 ],
+            "thursday": [ 4, 17, 25, 31 ],
+            "friday": [ 3, 16, 24, 30 ],
+            "saturday": [ 2, 14, 13, 29 ],
+            "sunday": [ 22, 14, 2, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 458,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-03,GayBook2.jpg',
+          title: 'Gay Book',
+          artist: 'R. C. Dell',
+          year: '1937',
+          rule: {
+            "monday": [ 22, 14, 2, 9 ],
+            "tuesday": [ 7, 20, 28, 3 ],
+            "wednesday": [ 6, 18, 27, 2 ],
+            "thursday": [ 5, 18, 26, 1 ],
+            "friday": [ 4, 17, 25, 31 ],
+            "saturday": [ 3, 16, 24, 30 ],
+            "sunday": [ 2, 14, 13, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 459,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/11-11,TheAllStory.jpg',
+          title: 'The All-Story',
+          artist: 'Walter DeMaris',
+          year: '1911',
+          rule: {
+            "monday": [ 2, 14, 13, 29 ],
+            "tuesday": [ 22, 14, 2, 9 ],
+            "wednesday": [ 7, 20, 28, 3 ],
+            "thursday": [ 6, 18, 27, 2 ],
+            "friday": [ 5, 18, 26, 1 ],
+            "saturday": [ 4, 17, 25, 31 ],
+            "sunday": [ 3, 16, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 460,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/34-07,WRom.jpg',
+          title: 'Western Romances',
+          artist: 'Rafael de Soto',
+          year: '1934',
+          rule: {
+            "monday": [ 3, 16, 24, 30 ],
+            "tuesday": [ 2, 14, 13, 29 ],
+            "wednesday": [ 22, 14, 2, 9 ],
+            "thursday": [ 7, 20, 28, 3 ],
+            "friday": [ 6, 18, 27, 2 ],
+            "saturday": [ 5, 18, 26, 1 ],
+            "sunday": [ 4, 17, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

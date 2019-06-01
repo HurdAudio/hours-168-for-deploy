@@ -9304,6 +9304,101 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 466,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1991.jpeg',
+          title: 'Untitled',
+          artist: 'Gunther Forg',
+          year: '1991',
+          rule: {
+            "monday": [ 9, 14, 20, 25 ],
+            "tuesday": [ 8, 13, 19, 26 ],
+            "wednesday": [ 14, 19, 25, 30 ],
+            "thursday": [ 13, 15, 23, 29 ],
+            "friday": [ 12, 16, 23, 27 ],
+            "saturday": [ 11, 14, 21, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 467,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/konstruktion-1991.jpeg',
+          title: 'Konstruktion',
+          artist: 'James Licini',
+          year: '1991',
+          rule: {
+            "monday": [ 11, 14, 21, 26 ],
+            "tuesday": [ 9, 14, 20, 25 ],
+            "wednesday": [ 8, 13, 19, 26 ],
+            "thursday": [ 14, 19, 25, 30 ],
+            "friday": [ 13, 15, 23, 29 ],
+            "saturday": [ 12, 16, 23, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 468,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-to-tracy-to-celebrate-the-love-of-a-lifetime-1992.jpeg',
+          title: 'Untitled (to Tracy, to celebrate the love of a lifetime)',
+          artist: 'Dan Flavin',
+          year: '1992',
+          rule: {
+            "monday": [ 12, 16, 23, 27 ],
+            "tuesday": [ 11, 14, 21, 26 ],
+            "wednesday": [ 9, 14, 20, 25 ],
+            "thursday": [ 8, 13, 19, 26 ],
+            "friday": [ 14, 19, 25, 30 ],
+            "saturday": [ 13, 15, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 469,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/syzygy-transmitter-1992.jpeg',
+          title: 'Syzygy Transmitter',
+          artist: 'Keith Sonnier',
+          year: '1992',
+          rule: {
+            "monday": [ 14, 16, 24, 30 ],
+            "tuesday": [ 13, 17, 24, 28 ],
+            "wednesday": [ 12, 15, 22, 27 ],
+            "thursday": [ 10, 15, 21, 26 ],
+            "friday": [ 9, 14, 20, 27 ],
+            "saturday": [ 15, 20, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 470,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/.jpeg',
+          title: 'Grey / Green with Black',
+          artist: 'Peter Joseph',
+          year: '1992',
+          rule: {
+            "monday": [ 15, 20, 26, 1 ],
+            "tuesday": [ 14, 16, 24, 30 ],
+            "wednesday": [ 13, 17, 24, 28 ],
+            "thursday": [ 12, 15, 22, 27 ],
+            "friday": [ 10, 15, 21, 26 ],
+            "saturday": [ 9, 14, 20, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
