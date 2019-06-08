@@ -10974,6 +10974,34 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 706,
+          user_id: 1,
+          name: 'Amy Goodman (broadcast journalist/investigative reporter/author) born 1957',
+          color: '#003AF6',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/amy-goodman-1600x1200.jpg',
+          day_of: new Date ('1957-04-13  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 707,
+          user_id: 1,
+          name: 'Alice Walker (author/activist) born 1944',
+          color: '#3C4468',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/455482_v9_ba.jpg',
+          day_of: new Date ('1944-02-09  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

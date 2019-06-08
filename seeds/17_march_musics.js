@@ -5890,6 +5890,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 328,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1942054205/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://danajeanphoenix.bandcamp.com/album/pixeldust-deluxe-edition',
+          a_string: 'PixelDust Deluxe Edition by Dana Jean Phoenix',
+          rule: {
+            "monday": [ 17, 23, 29, 6 ],
+            "tuesday": [ 21, 27, 2, 10 ],
+            "wednesday": [ 20, 26, 1, 9 ],
+            "thursday": [ 19, 25, 31, 9 ],
+            "saturday": [ 17, 24, 30, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 329,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3693331961/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://stefchuraband.bandcamp.com/album/midnight',
+          a_string: 'Midnight by stef chura',
+          rule: {
+            "monday": [ 18, 25, 31, 8 ],
+            "tuesday": [ 18, 24, 30, 7 ],
+            "wednesday": [ 22, 28, 3, 11 ],
+            "thursday": [ 21, 27, 2, 10 ],
+            "saturday": [ 20, 26, 1, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 330,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4008312738/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://alicecohen.bandcamp.com/album/artificial-fairytales',
+          a_string: 'Artificial Fairytales by Alice Cohen &amp; The Channel 14 Weather Team',
+          rule: {
+            "monday": [ 20, 26, 1, 10 ],
+            "tuesday": [ 18, 25, 31, 8 ],
+            "wednesday": [ 18, 24, 30, 7 ],
+            "thursday": [ 22, 28, 3, 11 ],
+            "saturday": [ 21, 27, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

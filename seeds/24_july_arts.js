@@ -10204,6 +10204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 511,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/le-voisinage-1965.jpeg',
+          title: 'Le Voisinage',
+          artist: 'Louis Pons',
+          year: '1965',
+          rule: {
+            "monday": [ 11, 22, 3, 14 ],
+            "tuesday": [ 11, 22, 2, 3 ],
+            "wednesday": [ 10, 21, 31, 2 ],
+            "thursday": [ 9, 20, 31, 1 ],
+            "friday": [ 8, 19, 30, 10 ],
+            "saturday": [ 14, 25, 5, 15 ],
+            "sunday": [ 13, 22, 4, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 512,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/texas-1951.jpeg',
+          title: 'Texas',
+          artist: 'Jean Miotte',
+          year: '1951',
+          rule: {
+            "monday": [ 13, 22, 4, 15 ],
+            "tuesday": [ 11, 22, 3, 14 ],
+            "wednesday": [ 11, 22, 2, 3 ],
+            "thursday": [ 10, 21, 31, 2 ],
+            "friday": [ 9, 20, 31, 1 ],
+            "saturday": [ 8, 19, 30, 10 ],
+            "sunday": [ 14, 25, 5, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 513,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/luminous-signs-1976.jpeg',
+          title: 'Luminous Signs',
+          artist: 'Takis',
+          year: '1976',
+          rule: {
+            "monday": [ 14, 25, 5, 15 ],
+            "tuesday": [ 13, 22, 4, 15 ],
+            "wednesday": [ 11, 22, 3, 14 ],
+            "thursday": [ 11, 22, 2, 3 ],
+            "friday": [ 10, 21, 31, 2 ],
+            "saturday": [ 9, 20, 31, 1 ],
+            "sunday": [ 8, 19, 30, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 514,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/les-valseuses-1966.jpeg',
+          title: 'Les valseuses',
+          artist: 'Francois Arnal',
+          year: '1966',
+          rule: {
+            "monday": [ 8, 19, 30, 10 ],
+            "tuesday": [ 14, 25, 5, 15 ],
+            "wednesday": [ 13, 22, 4, 15 ],
+            "thursday": [ 11, 22, 3, 14 ],
+            "friday": [ 11, 22, 2, 3 ],
+            "saturday": [ 10, 21, 31, 2 ],
+            "sunday": [ 9, 20, 31, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 515,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/structure-lumi-re-2005.jpeg',
+          title: 'Structure lumière',
+          artist: 'Genevieve Asse',
+          year: '2005',
+          rule: {
+            "monday": [ 9, 20, 31, 1 ],
+            "tuesday": [ 8, 19, 30, 10 ],
+            "wednesday": [ 14, 25, 5, 15 ],
+            "thursday": [ 13, 22, 4, 15 ],
+            "friday": [ 11, 22, 3, 14 ],
+            "saturday": [ 11, 22, 2, 3 ],
+            "sunday": [ 10, 21, 31, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

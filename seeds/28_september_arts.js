@@ -9804,6 +9804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 491,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1968.jpeg',
+          title: 'Untitled',
+          artist: 'Fred Sandback',
+          year: '1968',
+          rule: {
+            "monday": [ 11, 16, 5, 13 ],
+            "tuesday": [ 9, 16, 4, 12 ],
+            "wednesday": [ 9, 15, 3, 11 ],
+            "thursday": [ 28, 14, 2, 11 ],
+            "friday": [ 27, 4, 1, 9 ],
+            "saturday": [ 5, 12, 30, 7 ],
+            "sunday": [ 12, 18, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 492,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/abstract-in-white-black-indian-and-lilac-1957.jpeg',
+          title: 'Abstract in White, Black, Indian and Lilac',
+          artist: 'Victor Pasmore',
+          year: '1957',
+          rule: {
+            "monday": [ 12, 18, 6, 14 ],
+            "tuesday": [ 11, 16, 5, 13 ],
+            "wednesday": [ 9, 16, 4, 12 ],
+            "thursday": [ 9, 15, 3, 11 ],
+            "friday": [ 28, 14, 2, 11 ],
+            "saturday": [ 27, 4, 1, 9 ],
+            "sunday": [ 5, 12, 30, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 493,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/allegoria-della-critica-2005.jpeg',
+          title: 'Allegoria della critica',
+          artist: 'Carlo Maria Mariani',
+          year: '2005',
+          rule: {
+            "monday": [ 5, 12, 30, 7 ],
+            "tuesday": [ 12, 18, 6, 14 ],
+            "wednesday": [ 11, 16, 5, 13 ],
+            "thursday": [ 9, 16, 4, 12 ],
+            "friday": [ 9, 15, 3, 11 ],
+            "saturday": [ 28, 14, 2, 11 ],
+            "sunday": [ 27, 4, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 494,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/genesis-1989.jpeg',
+          title: 'Genesis',
+          artist: 'George Saru',
+          year: '1989',
+          rule: {
+            "monday": [ 27, 4, 1, 9 ],
+            "tuesday": [ 5, 12, 30, 7 ],
+            "wednesday": [ 12, 18, 6, 14 ],
+            "thursday": [ 11, 16, 5, 13 ],
+            "friday": [ 9, 16, 4, 12 ],
+            "saturday": [ 9, 15, 3, 11 ],
+            "sunday": [ 28, 14, 2, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 495,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-from-the-series-graphic-objects-1973(1).jpeg',
+          title: 'Untitled (From the series Graphic Objects)',
+          artist: 'Mira Schendel',
+          year: '1973',
+          rule: {
+            "monday": [ 28, 14, 2, 11 ],
+            "tuesday": [ 27, 4, 1, 9 ],
+            "wednesday": [ 5, 12, 30, 7 ],
+            "thursday": [ 12, 18, 6, 14 ],
+            "friday": [ 11, 16, 5, 13 ],
+            "saturday": [ 9, 16, 4, 12 ],
+            "sunday": [ 9, 15, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -10804,6 +10804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 541,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/AR-303229820.jpg',
+          title: 'Rays pitcher Diego Castillo',
+          artist: 'Sean Kristoff-Jones',
+          year: '2019',
+          rule: {
+            "monday": [ 12, 17, 23, 29 ],
+            "tuesday": [ 17, 23, 28, 4 ],
+            "wednesday": [ 1, 21, 27, 3 ],
+            "thursday": [ 16, 19, 27, 3 ],
+            "friday": [ 15, 19, 4, 2 ],
+            "saturday": [ 12, 18, 24, 30 ],
+            "sunday": [ 13, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 542,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/rsw_600h_600.jpeg',
+          title: 'Tampa Bay Rays - Evan Longoria - 3rd Base',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 13, 18, 24, 30 ],
+            "tuesday": [ 12, 17, 23, 29 ],
+            "wednesday": [ 17, 23, 28, 4 ],
+            "thursday": [ 1, 21, 27, 3 ],
+            "friday": [ 16, 19, 27, 3 ],
+            "saturday": [ 15, 19, 4, 2 ],
+            "sunday": [ 12, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 543,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/51RHsv61ZwL._SY445_.jpg',
+          title: '2018 Topps Gallery Artist Proof Baseball #76 Blake Snell Tampa Bay Rays',
+          artist: 'unknown artist',
+          year: '2018',
+          rule: {
+            "monday": [ 12, 18, 24, 30 ],
+            "tuesday": [ 13, 18, 24, 30 ],
+            "wednesday": [ 12, 17, 23, 29 ],
+            "thursday": [ 17, 23, 28, 4 ],
+            "friday": [ 1, 21, 27, 3 ],
+            "saturday": [ 16, 19, 27, 3 ],
+            "sunday": [ 15, 19, 4, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 544,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/web1_Dog-day-700-pxjpg.jpg',
+          title: 'Dog Day at the Rays',
+          artist: 'unknown artist',
+          year: '2018',
+          rule: {
+            "monday": [ 15, 19, 4, 2 ],
+            "tuesday": [ 12, 18, 24, 30 ],
+            "wednesday": [ 13, 18, 24, 30 ],
+            "thursday": [ 12, 17, 23, 29 ],
+            "friday": [ 17, 23, 28, 4 ],
+            "saturday": [ 1, 21, 27, 3 ],
+            "sunday": [ 16, 19, 27, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 545,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/CVHFBIX4S5CA5IYQTMNJCLBQUE.jpeg',
+          title: 'Oliver Drake practices pitching during spring training at Charlotte Sports Park in Port Charlotte, Fla. on Wednesday, Feb. 13, 2019',
+          artist: 'Taylor Irvine',
+          year: '2019',
+          rule: {
+            "monday": [ 16, 19, 27, 3 ],
+            "tuesday": [ 15, 19, 4, 2 ],
+            "wednesday": [ 12, 18, 24, 30 ],
+            "thursday": [ 13, 18, 24, 30 ],
+            "friday": [ 12, 17, 23, 29 ],
+            "saturday": [ 17, 23, 28, 4 ],
+            "sunday": [ 1, 21, 27, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

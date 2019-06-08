@@ -1368,9 +1368,11 @@
         let thisIsArtCommentEditDoneDiv = document.getElementById('thisIsArtCommentEditDoneDiv' + commentId);
         let thisIsArtShareCommentComment = document.getElementById('thisIsArtShareCommentComment' + commentId);
         let editDeleteArtShareCommentDiv = document.getElementById('editDeleteArtShareCommentDiv' + commentId);
+        let now = new Date();
 
         let subObj = {
-          comment: thisIsTheArtShareCommentEditor.value
+          comment: thisIsTheArtShareCommentEditor.value,
+          updated_at: now
         }
 
         $http.get(`/art_share_comments/${commentId}`)
@@ -2264,6 +2266,7 @@
 
       function getArtShareComments(artShare, index) {
         let check;
+        let checkUp;
 
         $http.get('/art_share_comments')
         .then(artShareCommentsData => {
@@ -2283,7 +2286,12 @@
               };
               getArtShareCommenterDetails(shareComments[i], index, i);
               check = new Date(shareComments[i].created_at);
-              vm.activeArtShares[index].comments[i].cleanDate = cleanDateHoliday(shareComments[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.';
+              checkUp = new Date(shareComments[i].updated_at);
+              if ((checkUp.getTime() - check.getTime()) > 10000) {
+                vm.activeArtShares[index].comments[i].cleanDate = cleanDateHoliday(shareComments[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + ' - updated: ' + cleanDateHoliday(shareComments[i].updated_at) + ' at ' + checkUp.toLocaleTimeString('en-GB') + '.';
+              } else {
+                vm.activeArtShares[index].comments[i].cleanDate = cleanDateHoliday(shareComments[i].created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.';
+              }
             }
             setTimeout(() => {
               for (let j = 0; j < vm.activeArtShares[index].comments.length; j++) {
@@ -2310,6 +2318,12 @@
           let allArtShares = allArtSharesData.data;
           let artShares = allArtShares.filter(entry => {
             return((parseInt(entry.share_associate_id) === parseInt(currentUserId)) || (parseInt(entry.user_id) === parseInt(currentUserId)));
+          });
+          artShares = artShares.filter(entry => {
+            check = new Date();
+            check.setDate(check.getDate() - 30);
+            aDate = new Date(entry.created_at);
+            return(aDate.getTime() > check.getTime());
           });
           artShares = artShares.sort((a, b) => {
             aDate = new Date(a.created_at);
@@ -5874,6 +5888,48 @@
         });
       }
 
+      function musicModuleCommenterData(comment, previewIndex, commentIndex) {
+        $http.get(`/users/${comment.user_id}`)
+        .then(commenterData => {
+          let commenter = commenterData.data;
+          vm.musicModulePreview[previewIndex].comments[commentIndex].authorImg = commenter.user_avatar_url;
+          vm.musicModulePreview[previewIndex].comments[commentIndex].authorName = commenter.name;
+        });
+      }
+
+      function retrieveMusicModuleComments(modulePreview, index) {
+        let checkA;
+        let checkB;
+
+        $http.get('/music_module_comments')
+        .then(allMusicModuleCommentsData => {
+          let allMusicModuleComments = allMusicModuleCommentsData.data;
+          let musicModuleComments = allMusicModuleComments.filter(entry => {
+            return((parseInt(entry.music_module_author_id) === parseInt(modulePreview.user_author_id)) && (entry.theme === modulePreview.theme));
+          });
+          musicModuleComments = musicModuleComments.sort((a, b) => {
+            checkA = new Date(a.created_at);
+            checkB = new Date(b.created_at);
+            return(checkB.getTime() - checkA.getTime());
+          });
+          console.log(musicModuleComments);
+          if (musicModuleComments.length > 0) {
+            vm.musicModulePreview[index].comments = [];
+            for (let i = 0; i < musicModuleComments.length; i++) {
+              vm.musicModulePreview[index].comments[i] = {
+                id: musicModuleComments[i].id,
+                user_id: musicModuleComments[i].user_id,
+                comment: musicModuleComments[i].comment
+              };
+              console.log(vm.musicModulePreview[index]);
+              vm.musicModulePreview[index].comments[i].cleanDate = cleanDateHoliday(musicModuleComments[i].created_at) + ' - ' + timeDate(musicModuleComments[i].created_at);
+              musicModuleCommenterData(vm.musicModulePreview[index].comments[i], index, i);
+
+            }
+          }
+        });
+      }
+
       function musicModuleDisplay() {
         let tileModuleDisplayButton = document.getElementById('tileModuleDisplayButton');
         let availableArtModules = document.getElementById('availableArtModules');
@@ -5921,6 +5977,8 @@
             vm.musicModulePreview[k].a_string = modules[k][selection].a_string;
             vm.musicModulePreview[k].theme = modules[k][selection].theme;
             musicModuleAuthorName(k, modules[k][selection].user_author_id);
+            console.log(vm.musicModulePreview[k]);
+            retrieveMusicModuleComments(vm.musicModulePreview[k], k);
           }
         });
 

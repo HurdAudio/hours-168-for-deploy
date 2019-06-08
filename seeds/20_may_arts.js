@@ -10589,7 +10589,7 @@ exports.seed = function(knex, Promise) {
           id: 530,
           user_id: 1,
           theme: 'Socialism & Worker\'s Rights',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/.jpeg',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-school-of-the-brutes-leaving-certificate-1942.jpeg',
           title: 'Animal Certificate of Education',
           artist: 'Kukryniksy',
           year: '1942',
@@ -10601,6 +10601,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 12, 23, 1, 11 ],
             "saturday": [ 10, 20, 28, 30 ],
             "sunday": [ 7, 18, 28, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-vile-brute-and-it-s-band-be-hanged-on-the-lampstand-the-tass-window-546-546a-1942.jpeg',
+          title: 'The vile brute and it`s band be hanged on the lampstand (The TASS Window №546/546a)',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 7, 18, 28, 17 ],
+            "tuesday": [ 6, 17, 27, 5 ],
+            "wednesday": [ 4, 14, 24, 1 ],
+            "thursday": [ 2, 11, 23, 1 ],
+            "friday": [ 12, 24, 3, 11 ],
+            "saturday": [ 12, 23, 1, 11 ],
+            "sunday": [ 10, 20, 28, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/tower-chamber-s-1942.jpeg',
+          title: 'Teremok',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 11, 21, 29, 31 ],
+            "tuesday": [ 8, 19, 29, 18 ],
+            "wednesday": [ 7, 18, 28, 6 ],
+            "thursday": [ 5, 15, 25, 2 ],
+            "friday": [ 3, 12, 24, 2 ],
+            "saturday": [ 13, 25, 4, 12 ],
+            "sunday": [ 13, 24, 2, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1942.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 13, 24, 2, 12 ],
+            "tuesday": [ 11, 21, 29, 31 ],
+            "wednesday": [ 8, 19, 29, 18 ],
+            "thursday": [ 7, 18, 28, 6 ],
+            "friday": [ 5, 15, 25, 2 ],
+            "saturday": [ 3, 12, 24, 2 ],
+            "sunday": [ 13, 25, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1942-1.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 13, 25, 4, 12 ],
+            "tuesday": [ 13, 24, 2, 12 ],
+            "wednesday": [ 11, 21, 29, 31 ],
+            "thursday": [ 8, 19, 29, 18 ],
+            "friday": [ 7, 18, 28, 6 ],
+            "saturday": [ 5, 15, 25, 2 ],
+            "sunday": [ 3, 12, 24, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 3, 12, 24, 2 ],
+            "tuesday": [ 13, 25, 4, 12 ],
+            "wednesday": [ 13, 24, 2, 12 ],
+            "thursday": [ 11, 21, 29, 31 ],
+            "friday": [ 8, 19, 29, 18 ],
+            "saturday": [ 7, 18, 28, 6 ],
+            "sunday": [ 5, 15, 25, 2 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

@@ -1152,6 +1152,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#DBD4B7',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 83,
+          user_id: 1,
+          theme: 'Leather',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/TekStitchLandscape2-1024x558-1.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '190%',
+          color_dark: '#000000',
+          color_medium: '#5C1D28',
+          color_light: '#717173',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4355,11 +4355,27 @@
               <h1>Comments:</h1>
             </div>
             <div id="musicModuleCommentSpace">
+              <main ng-repeat="comment in musicmod.comments | orderBy : $ctrl.sortBy">
+                <img src="{{comment.authorImg}}">
+                <p>{{comment.authorName}} commented <br> {{comment.cleanDate}}</p><br><br><br>
+                <h3 id="thisIsMusicModuleCommentComment{{comment.id}}">{{comment.comment}}</h3>
 
-              <img src="">
-              <p>Lucifer Sam commented <br> on 11 August 2017 at 07:07:00</p><br><br><br>
-              <h3>Seems kind of identity-politicky to me.</h3>
-            </div>
+                <!-- <textarea id="thisIsTheArtModuleCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea> -->
+                <!-- <div class="thisIsArtModuleCommentEditDoneDiv" id="thisIsArtModuleCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheArtModuleCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditArtModuleCommentCompleted(comment.id, artmod.id)">done</a></div> -->
+                <!-- <div id="editDeleteArtModuleUserComments{{comment.id}}" class="messageEditDelete">
+                  <a class="btn" href="#" id="commentArtModuleEditButton{{comment.id}}" ng-click="$ctrl.userEditArtModuleComment(comment.id, artmod.id)">edit</a>
+                  <a class="btn" href="#" id="commentArtModuleDeleteButton{{comment.id}}" ng-click="$ctrl.userDeleteArtModuleComment(comment.id, artmod.id)">delete</a>
+
+                </div> -->
+                <!-- <div id="deleteArtModuleCommentConfirm{{comment.id}}" class="messageEditDelete">
+
+                  <h3>Delete comment forever?</h3>
+                  <a class="btn" href="#" ng-click="$ctrl.userArtModuleCommentDeleteCancel(comment.id)">no</a>
+                  <a class="btn" href="#" ng-click="$ctrl.userArtModuleCommentDeleteConfirmClick(comment.id)">yes</a>
+                </div> -->
+              </main>
+
+            </div><br><br><br>
           </main>
 
         </div><br><br><br>

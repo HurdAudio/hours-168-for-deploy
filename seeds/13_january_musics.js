@@ -6106,6 +6106,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 340,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3594913764/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/misenlian',
+          a_string: 'misenlian by Julien Ottavi/Dion Workman',
+          rule: {
+            "monday": [ 23, 30, 31, 1 ],
+            "tuesday": [ 27, 3, 4, 5 ],
+            "wednesday": [ 26, 1, 2, 4 ],
+            "thursday": [ 25, 1, 2, 3 ],
+            "saturday": [ 24, 30, 31, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 341,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1833541133/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/points-and-slashes',
+          a_string: 'Points And Slashes by Tetuzi Akiyama/Günter Müller',
+          rule: {
+            "monday": [ 24, 30, 31, 1 ],
+            "tuesday": [ 23, 30, 31, 1 ],
+            "wednesday": [ 27, 3, 4, 5 ],
+            "thursday": [ 26, 1, 2, 4 ],
+            "saturday": [ 25, 1, 2, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 342,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2983999588/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/erstlive-005',
+          a_string: 'ErstLive 005 by Keith Rowe/Sachiko M/Toshimaru Nakamura/Otomo Yoshihide',
+          rule: {
+            "monday": [ 25, 1, 2, 3 ],
+            "tuesday": [ 24, 30, 31, 1 ],
+            "wednesday": [ 23, 30, 31, 1 ],
+            "thursday": [ 27, 3, 4, 5 ],
+            "saturday": [ 26, 1, 2, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

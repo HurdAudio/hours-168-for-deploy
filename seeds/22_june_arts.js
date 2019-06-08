@@ -10354,7 +10354,7 @@ exports.seed = function(knex, Promise) {
           artist: 'Dimitry Roulland',
           year: '?',
           rule: {
-            "monday": [ 11, 21, 31, 9 ],
+            "monday": [ 11, 21, 1, 9 ],
             "tuesday": [ 20, 30, 10, 8 ],
             "wednesday": [ 9, 19, 29, 7 ],
             "thursday": [ 8, 18, 28, 6 ],
@@ -10375,7 +10375,7 @@ exports.seed = function(knex, Promise) {
           year: '?',
           rule: {
             "monday": [ 12, 22, 2, 30 ],
-            "tuesday": [ 11, 21, 31, 9 ],
+            "tuesday": [ 11, 21, 1, 9 ],
             "wednesday": [ 20, 30, 10, 8 ],
             "thursday": [ 9, 19, 29, 7 ],
             "friday": [ 8, 18, 28, 6 ],
@@ -10396,11 +10396,111 @@ exports.seed = function(knex, Promise) {
           rule: {
             "monday": [ 13, 23, 4, 11 ],
             "tuesday": [ 12, 22, 2, 30 ],
-            "wednesday": [ 11, 21, 31, 9 ],
+            "wednesday": [ 11, 21, 1, 9 ],
             "thursday": [ 20, 30, 10, 8 ],
             "friday": [ 9, 19, 29, 7 ],
             "saturday": [ 8, 18, 28, 6 ],
             "sunday": [ 14, 24, 4, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ApproximateJoy01.png',
+          title: 'Untitled #1 from the series \'Approximate Joy\'',
+          artist: 'Christopher Anderson',
+          year: '2017 - 2018',
+          rule: {
+            "monday": [ 14, 24, 4, 11 ],
+            "tuesday": [ 13, 23, 4, 11 ],
+            "wednesday": [ 12, 22, 2, 30 ],
+            "thursday": [ 11, 21, 1, 9 ],
+            "friday": [ 20, 30, 10, 8 ],
+            "saturday": [ 9, 19, 29, 7 ],
+            "sunday": [ 8, 18, 28, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ApproximateJoy07.png',
+          title: 'Untitled #7 from the series \'Approximate Joy\'',
+          artist: 'Christopher Anderson',
+          year: '2017 - 2018',
+          rule: {
+            "monday": [ 8, 18, 28, 6 ],
+            "tuesday": [ 14, 24, 4, 11 ],
+            "wednesday": [ 13, 23, 4, 11 ],
+            "thursday": [ 12, 22, 2, 30 ],
+            "friday": [ 11, 21, 1, 9 ],
+            "saturday": [ 20, 30, 10, 8 ],
+            "sunday": [ 9, 19, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ApproximateJoy10.png',
+          title: 'Untitled #10 from the series \'Approximate Joy\'',
+          artist: 'Christopher Anderson',
+          year: '2017 - 2018',
+          rule: {
+            "monday": [ 9, 19, 29, 7 ],
+            "tuesday": [ 8, 18, 28, 6 ],
+            "wednesday": [ 14, 24, 4, 11 ],
+            "thursday": [ 13, 23, 4, 11 ],
+            "friday": [ 12, 22, 2, 30 ],
+            "saturday": [ 11, 21, 1, 9 ],
+            "sunday": [ 20, 30, 10, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ApproximateJoy08.png',
+          title: 'Untitled #8 from the series \'Approximate Joy\'',
+          artist: 'Christopher Anderson',
+          year: '2017 - 2018',
+          rule: {
+            "monday": [ 20, 30, 10, 8 ],
+            "tuesday": [ 9, 19, 29, 7 ],
+            "wednesday": [ 8, 18, 28, 6 ],
+            "thursday": [ 14, 24, 4, 11 ],
+            "friday": [ 13, 23, 4, 11 ],
+            "saturday": [ 12, 22, 2, 30 ],
+            "sunday": [ 11, 21, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ApproximateJoy09.png',
+          title: 'Untitled #8 from the series \'Approximate Joy\'',
+          artist: 'Christopher Anderson',
+          year: '2017 - 2018',
+          rule: {
+            "monday": [ 12, 22, 2, 9 ],
+            "tuesday": [ 21, 1, 11, 9 ],
+            "wednesday": [ 10, 20, 30, 8 ],
+            "thursday": [ 9, 19, 29, 7 ],
+            "friday": [ 15, 25, 5, 12 ],
+            "saturday": [ 14, 24, 5, 12 ],
+            "sunday": [ 13, 23, 3, 1 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

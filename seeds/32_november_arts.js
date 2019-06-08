@@ -9385,7 +9385,7 @@ exports.seed = function(knex, Promise) {
           id: 470,
           user_id: 1,
           theme: 'Minimalism',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/.jpeg',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/grey-green-with-black-1992.jpeg',
           title: 'Grey / Green with Black',
           artist: 'Peter Joseph',
           year: '1992',
@@ -9396,6 +9396,101 @@ exports.seed = function(knex, Promise) {
             "thursday": [ 12, 15, 22, 27 ],
             "friday": [ 10, 15, 21, 26 ],
             "saturday": [ 9, 14, 20, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 471,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/quartetto-indivisibile-1992.jpeg',
+          title: 'Quartetto indivisibile',
+          artist: 'Ettore Spalletti',
+          year: '1992',
+          rule: {
+            "monday": [ 9, 14, 20, 27 ],
+            "tuesday": [ 15, 20, 26, 1 ],
+            "wednesday": [ 14, 16, 24, 30 ],
+            "thursday": [ 13, 17, 24, 28 ],
+            "friday": [ 12, 15, 22, 27 ],
+            "saturday": [ 10, 15, 21, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 472,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/one-two-1992.jpeg',
+          title: 'One, Two',
+          artist: 'Warren Rohrer',
+          year: '1992',
+          rule: {
+            "monday": [ 10, 15, 21, 26 ],
+            "tuesday": [ 9, 14, 20, 27 ],
+            "wednesday": [ 15, 20, 26, 1 ],
+            "thursday": [ 14, 16, 24, 30 ],
+            "friday": [ 13, 17, 24, 28 ],
+            "saturday": [ 12, 15, 22, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 473,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/painting-92138-1992.jpeg',
+          title: 'Painting #92138',
+          artist: 'Rudolf de Crignis',
+          year: '1992',
+          rule: {
+            "monday": [ 12, 15, 22, 27 ],
+            "tuesday": [ 10, 15, 21, 26 ],
+            "wednesday": [ 9, 14, 20, 27 ],
+            "thursday": [ 15, 20, 26, 1 ],
+            "friday": [ 14, 16, 24, 30 ],
+            "saturday": [ 13, 17, 24, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 474,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/plane-figure-series-d-double-panel-1993.jpeg',
+          title: 'Plane-Figure Series D (Double Panel)',
+          artist: 'Robert Mangold',
+          year: '1993',
+          rule: {
+            "monday": [ 13, 17, 24, 28 ],
+            "tuesday": [ 12, 15, 22, 27 ],
+            "wednesday": [ 10, 15, 21, 26 ],
+            "thursday": [ 9, 14, 20, 27 ],
+            "friday": [ 15, 20, 26, 1 ],
+            "saturday": [ 14, 16, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 475,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/parva-xxviii-1993.jpeg',
+          title: 'Parva XXVIII',
+          artist: 'Anne Truitt',
+          year: '1993',
+          rule: {
+            "monday": [ 14, 16, 24, 30 ],
+            "tuesday": [ 13, 17, 24, 28 ],
+            "wednesday": [ 12, 15, 22, 27 ],
+            "thursday": [ 10, 15, 21, 26 ],
+            "friday": [ 9, 14, 20, 27 ],
+            "saturday": [ 15, 20, 26, 1 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

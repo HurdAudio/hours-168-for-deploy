@@ -11204,6 +11204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 561,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/1983.95.61_1a.jpg',
+          title: 'After the Shower',
+          artist: 'Edward Mitchell Bannister',
+          year: 'c.1887',
+          rule: {
+            "monday": [ 24, 4, 12, 20 ],
+            "tuesday": [ 1, 6, 12, 22 ],
+            "wednesday": [ 29, 8, 16, 24 ],
+            "thursday": [ 2, 12, 18, 24 ],
+            "friday": [ 4, 12, 20, 1 ],
+            "saturday": [ 4, 14, 10, 29 ],
+            "sunday": [ 23, 2, 10, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 562,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Image_Resize_Detail_ImageBarnes.jpeg',
+          title: 'Springboard',
+          artist: 'Ernie Barnes',
+          year: '?',
+          rule: {
+            "monday": [ 23, 2, 10, 18 ],
+            "tuesday": [ 24, 4, 12, 20 ],
+            "wednesday": [ 1, 6, 12, 22 ],
+            "thursday": [ 29, 8, 16, 24 ],
+            "friday": [ 2, 12, 18, 24 ],
+            "saturday": [ 4, 12, 20, 1 ],
+            "sunday": [ 4, 14, 10, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 563,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Richmond-Barthes-Feral-Benga-Courtesy-Newark-Museum-Art-Resource-NY.png',
+          title: 'Féral Benga',
+          artist: 'Richmond Barthé',
+          year: '?',
+          rule: {
+            "monday": [ 4, 14, 10, 29 ],
+            "tuesday": [ 23, 2, 10, 18 ],
+            "wednesday": [ 24, 4, 12, 20 ],
+            "thursday": [ 1, 6, 12, 22 ],
+            "friday": [ 29, 8, 16, 24 ],
+            "saturday": [ 2, 12, 18, 24 ],
+            "sunday": [ 4, 12, 20, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 564,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/2018_NYR_15968_0033B_000(jean-michel_basquiat_red_rabbit).jpg',
+          title: 'Red Rabbit',
+          artist: 'Jean-Michel Basquiat',
+          year: '1982',
+          rule: {
+            "monday": [ 4, 12, 20, 1 ],
+            "tuesday": [ 4, 14, 10, 29 ],
+            "wednesday": [ 23, 2, 10, 18 ],
+            "thursday": [ 24, 4, 12, 20 ],
+            "friday": [ 1, 6, 12, 22 ],
+            "saturday": [ 29, 8, 16, 24 ],
+            "sunday": [ 2, 12, 18, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 565,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/NMAAHC-2012_84_15_001.jpg',
+          title: 'The Crisis Vol. 11 No. 1',
+          artist: 'C. M. Battey',
+          year: '1915',
+          rule: {
+            "monday": [ 2, 12, 18, 24 ],
+            "tuesday": [ 4, 12, 20, 1 ],
+            "wednesday": [ 4, 14, 10, 29 ],
+            "thursday": [ 23, 2, 10, 18 ],
+            "friday": [ 24, 4, 12, 20 ],
+            "saturday": [ 1, 6, 12, 22 ],
+            "sunday": [ 29, 8, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

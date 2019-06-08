@@ -5566,6 +5566,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 310,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4086794706/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://timhecker.bandcamp.com/album/anoyo',
+          a_string: 'Anoyo by Tim Hecker',
+          rule: {
+            "monday": [ 13, 16, 22, 2 ],
+            "tuesday": [ 11, 19, 21, 6 ],
+            "wednesday": [ 15, 19, 25, 6 ],
+            "thursday": [ 14, 17, 22, 4 ],
+            "saturday": [ 13, 16, 22, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 311,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2723188357/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://hotelneon.bandcamp.com/album/vanishing-forms',
+          a_string: 'Vanishing Forms by Hotel Neon',
+          rule: {
+            "monday": [ 13, 16, 22, 3 ],
+            "tuesday": [ 13, 16, 22, 2 ],
+            "wednesday": [ 11, 19, 21, 6 ],
+            "thursday": [ 15, 19, 25, 6 ],
+            "saturday": [ 14, 17, 22, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 312,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=451693121/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://n5md.bandcamp.com/album/until-here-for-years',
+          a_string: 'Until Here For Years by Proem',
+          rule: {
+            "monday": [ 14, 17, 22, 4 ],
+            "tuesday": [ 13, 16, 22, 3 ],
+            "wednesday": [ 13, 16, 22, 2 ],
+            "thursday": [ 11, 19, 21, 6 ],
+            "saturday": [ 15, 19, 25, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4918,6 +4918,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 274,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1411797419/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/laurence-vanay-gate-away-evening-colours-1975-female-french-folk-jazz-rock-experimental',
+          a_string: 'Laurence Vanay * Gate away / Evening colours (1975 Female * French Folk * Jazz Rock * Experimental) by Laurence Vanay (Gate away)',
+          rule: {
+            "monday": [ 10, 18, 24, 30 ],
+            "tuesday": [ 11, 17, 23, 29 ],
+            "wednesday": [ 15, 21, 27, 2 ],
+            "thursday": [ 14, 20, 26, 1 ],
+            "saturday": [ 11, 19, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 275,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3392134503/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/shin-joong-hyun-yup-juns-1974-korean-blues-psych-rock',
+          a_string: 'Shin Joong Hyun &amp; Yup Juns (1974 Korean Blues Psych Rock) by Shin Joong Hyun &amp; Yup Juns',
+          rule: {
+            "monday": [ 11, 19, 25, 31 ],
+            "tuesday": [ 10, 18, 24, 30 ],
+            "wednesday": [ 11, 17, 23, 29 ],
+            "thursday": [ 15, 21, 27, 2 ],
+            "saturday": [ 14, 20, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 276,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1047747948/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/rotomagus-fighting-cock-1971-french-killer-punk-psych',
+          a_string: 'Rotomagus &quot;Fighting cock&quot; (1971 French Killer Punk Psych) by Rotomagus',
+          rule: {
+            "monday": [ 14, 20, 26, 1 ],
+            "tuesday": [ 11, 19, 25, 31 ],
+            "wednesday": [ 10, 18, 24, 30 ],
+            "thursday": [ 11, 17, 23, 29 ],
+            "saturday": [ 15, 21, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

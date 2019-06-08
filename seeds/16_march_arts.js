@@ -11004,6 +11004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 551,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/2018-01-24-20-29-39.jpeg',
+          title: 'It`s a blessing',
+          artist: 'Raiskina Marina',
+          year: '2017',
+          rule: {
+            "monday": [ 12, 22, 30, 9 ],
+            "tuesday": [ 11, 21, 30, 8 ],
+            "wednesday": [ 17, 26, 5, 13 ],
+            "thursday": [ 16, 26, 3, 13 ],
+            "friday": [ 14, 25, 2, 12 ],
+            "saturday": [ 14, 24, 1, 11 ],
+            "sunday": [ 13, 24, 31, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 552,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/night-sculpting-2001.jpeg',
+          title: 'Night Sculpting',
+          artist: 'Dana Schutz',
+          year: '2001',
+          rule: {
+            "monday": [ 13, 24, 31, 10 ],
+            "tuesday": [ 12, 22, 30, 9 ],
+            "wednesday": [ 11, 21, 30, 8 ],
+            "thursday": [ 17, 26, 5, 13 ],
+            "friday": [ 16, 26, 3, 13 ],
+            "saturday": [ 14, 25, 2, 12 ],
+            "sunday": [ 14, 24, 1, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 553,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/am-lia-by-sonny.jpeg',
+          title: 'Colecção Personalidades - AMÁLIA',
+          artist: 'Sónia Domingues',
+          year: '2015',
+          rule: {
+            "monday": [ 15, 25, 2, 12 ],
+            "tuesday": [ 14, 25, 1, 11 ],
+            "wednesday": [ 13, 23, 31, 10 ],
+            "thursday": [ 12, 22, 31, 9 ],
+            "friday": [ 18, 27, 6, 14 ],
+            "saturday": [ 17, 27, 4, 14 ],
+            "sunday": [ 15, 26, 3, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 554,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/marina-pallares-v-ngase-p-ca-mi-chaparrita.jpeg',
+          title: 'Véngase Pá Ca Mi Chaparrita (Come Here, My Little One)',
+          artist: 'Marina Pallares',
+          year: '2003',
+          rule: {
+            "monday": [ 15, 26, 3, 13 ],
+            "tuesday": [ 15, 25, 2, 12 ],
+            "wednesday": [ 14, 25, 1, 11 ],
+            "thursday": [ 13, 23, 31, 10 ],
+            "friday": [ 12, 22, 31, 9 ],
+            "saturday": [ 18, 27, 6, 14 ],
+            "sunday": [ 17, 27, 4, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 555,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/cliton-hill-bar.jpeg',
+          title: 'Cliton Hill Bar',
+          artist: 'Hai-Hsin Huang',
+          year: '2015',
+          rule: {
+            "monday": [ 17, 27, 4, 14 ],
+            "tuesday": [ 15, 26, 3, 13 ],
+            "wednesday": [ 15, 25, 2, 12 ],
+            "thursday": [ 14, 25, 1, 11 ],
+            "friday": [ 13, 23, 31, 10 ],
+            "saturday": [ 12, 22, 31, 9 ],
+            "sunday": [ 18, 27, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

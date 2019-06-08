@@ -10004,6 +10004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 501,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/steel-foundry-coatesville-pa-1937.jpeg',
+          title: 'Steel Foundry, Coatesville, Pa.',
+          artist: 'Ralston Crawford',
+          year: '1936 - 1937',
+          rule: {
+            "monday": [ 8, 11, 20, 5 ],
+            "tuesday": [ 7, 10, 19, 4 ],
+            "wednesday": [ 13, 17, 25, 10 ],
+            "thursday": [ 12, 15, 24, 9 ],
+            "friday": [ 11, 15, 23, 8 ],
+            "saturday": [ 10, 12, 22, 7 ],
+            "sunday": [ 9, 11, 21, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 502,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/spring-waters-1910.jpeg',
+          title: 'Spring Waters',
+          artist: 'Vilhelms Purvitis',
+          year: '1910',
+          rule: {
+            "monday": [ 9, 11, 21, 6 ],
+            "tuesday": [ 8, 11, 20, 5 ],
+            "wednesday": [ 7, 10, 19, 4 ],
+            "thursday": [ 13, 17, 25, 10 ],
+            "friday": [ 12, 15, 24, 9 ],
+            "saturday": [ 11, 15, 23, 8 ],
+            "sunday": [ 10, 12, 22, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 503,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/flora-on-sand-1927(1).jpeg',
+          title: 'Flora on sand',
+          artist: 'Paul Klee',
+          year: '1927',
+          rule: {
+            "monday": [ 10, 12, 22, 7 ],
+            "tuesday": [ 9, 11, 21, 6 ],
+            "wednesday": [ 8, 11, 20, 5 ],
+            "thursday": [ 7, 10, 19, 4 ],
+            "friday": [ 13, 17, 25, 10 ],
+            "saturday": [ 12, 15, 24, 9 ],
+            "sunday": [ 11, 15, 23, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 504,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/handsome-drinks-1916.jpeg',
+          title: 'Handsome Drinks',
+          artist: 'Marsden Hartley',
+          year: '1916',
+          rule: {
+            "monday": [ 12, 16, 24, 9 ],
+            "tuesday": [ 11, 13, 23, 8 ],
+            "wednesday": [ 10, 12, 22, 7 ],
+            "thursday": [ 9, 12, 21, 6 ],
+            "friday": [ 8, 11, 20, 5 ],
+            "saturday": [ 14, 18, 26, 11 ],
+            "sunday": [ 13, 16, 25, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 505,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/nature-symbolized-1911.jpeg',
+          title: 'Nature Symbolized',
+          artist: 'Arthur Dove',
+          year: '1911',
+          rule: {
+            "monday": [ 12, 16, 24, 9 ],
+            "tuesday": [ 11, 13, 23, 8 ],
+            "wednesday": [ 10, 12, 22, 7 ],
+            "thursday": [ 9, 12, 21, 6 ],
+            "friday": [ 8, 11, 20, 5 ],
+            "saturday": [ 14, 18, 26, 11 ],
+            "sunday": [ 13, 16, 25, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

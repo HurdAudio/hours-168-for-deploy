@@ -5242,6 +5242,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 292,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1900852798/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://dun-stao.bandcamp.com/album/yeth-stao',
+          a_string: 'YETH STAO by Dun-Stao',
+          rule: {
+            "monday": [ 16, 6, 14, 8 ],
+            "tuesday": [ 15, 5, 13, 7 ],
+            "wednesday": [ 14, 4, 12, 5 ],
+            "thursday": [ 14, 3, 11, 5 ],
+            "saturday": [ 12, 2, 10, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 293,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=340622924/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jasunmartz.bandcamp.com/album/the-pillory-the-first-symphony-a-retrospective',
+          a_string: 'The Pillory [The First Symphony] -A Retrospective by Jasun Martz',
+          rule: {
+            "monday": [ 12, 2, 10, 4 ],
+            "tuesday": [ 16, 6, 14, 8 ],
+            "wednesday": [ 15, 5, 13, 7 ],
+            "thursday": [ 14, 4, 12, 5 ],
+            "saturday": [ 14, 3, 11, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 294,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1559857681/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://unitwail.bandcamp.com/album/retort-remaster-2019',
+          a_string: 'Retort remaster 2019 by Unit Wail',
+          rule: {
+            "monday": [ 15, 4, 12, 6 ],
+            "tuesday": [ 13, 3, 11, 5 ],
+            "wednesday": [ 17, 7, 15, 9 ],
+            "thursday": [ 16, 6, 14, 8 ],
+            "saturday": [ 15, 5, 13, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5026,6 +5026,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 280,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4126612645/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/diablos-del-ritmo-the-colombian-melting-pot-1960-1985',
+          a_string: 'Diablos Del Ritmo: The Colombian Melting Pot 1960-1985 by Various',
+          rule: {
+            "monday": [ 9, 20, 1, 3 ],
+            "tuesday": [ 8, 19, 30, 12 ],
+            "wednesday": [ 12, 23, 4, 8 ],
+            "thursday": [ 11, 22, 3, 7 ],
+            "saturday": [ 10, 21, 2, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 281,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2097309496/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/side-1-imoikeme-side-2-ododo',
+          a_string: 'Side 1: Imoikeme / Side 2: Ododo by Solo Hit',
+          rule: {
+            "monday": [ 10, 21, 2, 6 ],
+            "tuesday": [ 9, 20, 1, 3 ],
+            "wednesday": [ 8, 19, 30, 12 ],
+            "thursday": [ 12, 23, 4, 8 ],
+            "saturday": [ 11, 22, 3, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 282,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=479410326/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/the-skeletal-essences-of-afro-funk-1969-1980',
+          a_string: 'The Skeletal Essences Of Afro Funk 1969-1980 by Orchestre Poly-Rythmo De Cotonou',
+          rule: {
+            "monday": [ 11, 22, 3, 7 ],
+            "tuesday": [ 10, 21, 2, 6 ],
+            "wednesday": [ 9, 20, 1, 3 ],
+            "thursday": [ 8, 19, 30, 12 ],
+            "saturday": [ 12, 23, 4, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

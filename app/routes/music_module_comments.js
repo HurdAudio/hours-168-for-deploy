@@ -40,7 +40,8 @@ router.post('/', (req, res, next) => {
   knex('music_module_comments')
   .insert({
     user_id: req.body.user_id,
-    music_module: req.body.music_module,
+    music_module_author_id: req.body.music_module_author_id,
+    theme: req.body.theme,
     comment: req.body.comment
   }, '*')
   .then((result) => {
@@ -57,7 +58,8 @@ router.patch('/:id', (req, res, next) => {
   .where('id', req.params.id)
   .update({
     user_id: req.body.user_id,
-    music_module: req.body.music_module,
+    music_module_author_id: req.body.music_module_author_id,
+    theme: req.body.music_module_author_id,
     comment: req.body.comment
   }, '*')
     .then((results)=>{

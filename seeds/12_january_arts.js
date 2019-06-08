@@ -11404,6 +11404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 571,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/enclosed-resurgence-2001.jpeg',
+          title: 'Enclosed Resurgence',
+          artist: 'Julie Mehretu',
+          year: '2001',
+          rule: {
+            "monday": [ 1, 3, 7, 10 ],
+            "tuesday": [ 3, 5, 6, 7 ],
+            "wednesday": [ 22, 24, 16, 5 ],
+            "thursday": [ 22, 24, 16, 5 ],
+            "friday": [ 27, 25, 17, 20 ],
+            "saturday": [ 27, 28, 19, 23 ],
+            "sunday": [ 30, 1, 2, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 572,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/konstruktion-1931.jpeg',
+          title: 'Konstruktion',
+          artist: 'Otto Gustav Carlsund',
+          year: '1931',
+          rule: {
+            "monday": [ 30, 1, 2, 4 ],
+            "tuesday": [ 1, 3, 7, 10 ],
+            "wednesday": [ 3, 5, 6, 7 ],
+            "thursday": [ 22, 24, 16, 5 ],
+            "friday": [ 22, 24, 16, 5 ],
+            "saturday": [ 27, 25, 17, 20 ],
+            "sunday": [ 27, 28, 19, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 573,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-1987.jpeg',
+          title: 'Untitled',
+          artist: 'Hassel Smith',
+          year: '1987',
+          rule: {
+            "monday": [ 27, 28, 19, 23 ],
+            "tuesday": [ 30, 1, 2, 4 ],
+            "wednesday": [ 1, 3, 7, 10 ],
+            "thursday": [ 3, 5, 6, 7 ],
+            "friday": [ 22, 24, 16, 5 ],
+            "saturday": [ 22, 24, 16, 5 ],
+            "sunday": [ 27, 25, 17, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 574,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/montaru-9-1953.jpeg',
+          title: 'Montaru 9',
+          artist: 'Willi Baumeister',
+          year: '1953',
+          rule: {
+            "monday": [ 28, 26, 18, 21 ],
+            "tuesday": [ 28, 29, 20, 24 ],
+            "wednesday": [ 31, 2, 3, 5 ],
+            "thursday": [ 2, 4, 8, 11 ],
+            "friday": [ 4, 6, 7, 8 ],
+            "saturday": [ 23, 25, 17, 6 ],
+            "sunday": [ 23, 25, 17, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 575,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/korfu-1965.jpeg',
+          title: 'Korfu',
+          artist: 'Thomas Downing',
+          year: '1965',
+          rule: {
+            "monday": [ 23, 25, 17, 6 ],
+            "tuesday": [ 28, 26, 18, 21 ],
+            "wednesday": [ 28, 29, 20, 24 ],
+            "thursday": [ 31, 2, 3, 5 ],
+            "friday": [ 2, 4, 8, 11 ],
+            "saturday": [ 4, 6, 7, 8 ],
+            "sunday": [ 23, 25, 17, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5998,6 +5998,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 334,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1436528188/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sebakaapstad.bandcamp.com/album/thina',
+          a_string: 'Thina by Seba Kaapstad',
+          rule: {
+            "monday": [ 5, 28, 1, 3 ],
+            "tuesday": [ 7, 1, 3, 9 ],
+            "wednesday": [ 8, 2, 4, 10 ],
+            "thursday": [ 20, 24, 26, 1 ],
+            "saturday": [ 23, 26, 28, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 335,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1331584569/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jeremyxxjones.bandcamp.com/album/late-bloomer',
+          a_string: 'Late Bloomer by Jeremy Jones',
+          rule: {
+            "monday": [ 23, 26, 28, 1 ],
+            "tuesday": [ 5, 28, 1, 3 ],
+            "wednesday": [ 7, 1, 3, 9 ],
+            "thursday": [ 8, 2, 4, 10 ],
+            "saturday": [ 20, 24, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 336,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1545247401/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://chechedrame.bandcamp.com/album/mogoya',
+          a_string: 'Mogoya by Cheché Dramé',
+          rule: {
+            "monday": [ 21, 25, 27, 2 ],
+            "tuesday": [ 24, 27, 29, 2 ],
+            "wednesday": [ 6, 29, 2, 4 ],
+            "thursday": [ 8, 2, 4, 10 ],
+            "saturday": [ 9, 3, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

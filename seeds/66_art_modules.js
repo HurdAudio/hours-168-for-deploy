@@ -3604,6 +3604,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 301,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/chernobyl-crime-11.jpg',
+          title: 'Evening in the ghost town of Pripyat',
+          artist: 'John Levin',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 302,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/chernobyl-3.jpg',
+          title: 'A gas mask hangs in a building inside the Chernobyl Exclusion Zone',
+          artist: 'Ryan Longstaff',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 303,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/chernobyl-crime-4.jpg',
+          title: 'Remains of Soviet propaganda in one of the barracks of the abandoned anti-aircraft base Volkhov near the Chernobyl NPP',
+          artist: 'John Levin',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 304,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/chernobyl-8.jpg',
+          title: 'The shell of a television stands inside a building in the Chernobyl exclusion zone',
+          artist: 'Ryan Longstaff',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 305,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/chernobyl-19.jpg',
+          title: 'A children\'s play area inside the Chernobyl exclusion zone',
+          artist: 'Ryan Longstaff',
+          year: '2019',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
