@@ -10689,7 +10689,7 @@ exports.seed = function(knex, Promise) {
           id: 535,
           user_id: 1,
           theme: 'Socialism & Worker\'s Rights',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/.jpeg',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1942-2.jpeg',
           title: 'Untitled',
           artist: 'Kukryniksy',
           year: '1942',
@@ -10701,6 +10701,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 8, 19, 29, 18 ],
             "saturday": [ 7, 18, 28, 6 ],
             "sunday": [ 5, 15, 25, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1942-3.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 5, 15, 25, 2 ],
+            "tuesday": [ 3, 12, 24, 2 ],
+            "wednesday": [ 13, 25, 4, 12 ],
+            "thursday": [ 13, 24, 2, 12 ],
+            "friday": [ 11, 21, 29, 31 ],
+            "saturday": [ 8, 19, 29, 18 ],
+            "sunday": [ 7, 18, 28, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1942-4.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 7, 18, 28, 6 ],
+            "tuesday": [ 5, 15, 25, 2 ],
+            "wednesday": [ 3, 12, 24, 2 ],
+            "thursday": [ 13, 25, 4, 12 ],
+            "friday": [ 13, 24, 2, 12 ],
+            "saturday": [ 11, 21, 29, 31 ],
+            "sunday": [ 8, 19, 29, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1942-5.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 8, 19, 29, 18 ],
+            "tuesday": [ 7, 18, 28, 6 ],
+            "wednesday": [ 5, 15, 25, 2 ],
+            "thursday": [ 3, 12, 24, 2 ],
+            "friday": [ 13, 25, 4, 12 ],
+            "saturday": [ 13, 24, 2, 12 ],
+            "sunday": [ 11, 21, 29, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1942-6.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 12, 22, 30, 1 ],
+            "tuesday": [ 9, 20, 30, 19 ],
+            "wednesday": [ 8, 19, 29, 7 ],
+            "thursday": [ 6, 16, 26, 3 ],
+            "friday": [ 4, 13, 25, 3 ],
+            "saturday": [ 14, 26, 5, 13 ],
+            "sunday": [ 14, 25, 3, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1942-7.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 14, 25, 3, 13 ],
+            "tuesday": [ 12, 22, 30, 1 ],
+            "wednesday": [ 9, 20, 30, 19 ],
+            "thursday": [ 8, 19, 29, 7 ],
+            "friday": [ 6, 16, 26, 3 ],
+            "saturday": [ 4, 13, 25, 3 ],
+            "sunday": [ 14, 26, 5, 13 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

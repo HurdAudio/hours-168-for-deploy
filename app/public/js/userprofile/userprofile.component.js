@@ -18242,6 +18242,67 @@
         });
       }
 
+      function addMessageReactor(index, reactionIndex, reactorId) {
+        $http.get(`/users/${reactorId}`)
+        .then(reactorData => {
+          let reactor = reactorData.data;
+          vm.userMessages[index].reactions[reactionIndex].reactors += reactor.name + '   ';
+        });
+      }
+
+      function retrieveReactions(message, index) {
+        let uniqueReaction = true;
+        let reactionIndex = null;
+
+        $http.get('/messages_reactions')
+        .then(allReactionsData => {
+          let allReactions = allReactionsData.data;
+          let messageReactions = allReactions.filter(entry => {
+            return(entry.message_id === message.id);
+          });
+          if (messageReactions.length > 0) {
+            vm.userMessages[index].reactions = [];
+            for (let i = 0; i < messageReactions.length; i++) {
+              uniqueReaction = true;
+              reactionIndex = null;
+              for (let j = 0; j < vm.userMessages[index].reactions.length; j++) {
+                if (vm.userMessages[index].reactions[j].type === messageReactions[i].reaction) {
+                  uniqueReaction = false;
+                  reactionIndex = j;
+                }
+              }
+              if (uniqueReaction) {
+                reactionIndex = vm.userMessages[index].reactions.length;
+                vm.userMessages[index].reactions[reactionIndex] = {
+                  type: messageReactions[i].reaction,
+                  total: 1,
+                  reactors: ''
+                };
+                switch(messageReactions[i].reaction) {
+                  case('thumbsUp'):
+                    vm.userMessages[index].reactions[reactionIndex].icon = './img/reactions/kisspng-thumb-signal-font-awesome-computer-icons-font-green-thumbs-up-icon-5b4b607cb7a147.6508454515316665567522.png';
+                    break;
+                  case('thumbsDown'):
+                    vm.userMessages[index].reactions[reactionIndex].icon = './img/reactions/isspng-computer-icons-thumb-signal-clip-art-thumbs-down-5aab2aca6869f5.4518076515211.png';
+                    break;
+                  case('love'):
+                    vm.userMessages[index].reactions[reactionIndex].icon = './img/reactions/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png';
+                    break;
+                  case('reject'):
+                    vm.userMessages[index].reactions[reactionIndex].icon = './img/reactions/kisspng-computer-icons-no-entry-sign-5b2413c277b6e8.3874724415290910104904.png';
+                    break;
+                  default:
+                    console.log('ERROR: reaction type unaccounted for');
+                }
+              } else {
+                vm.userMessages[index].reactions[reactionIndex].total += 1;
+              }
+              addMessageReactor(index, reactionIndex, messageReactions[i].user_author_id);
+            }
+          }
+        });
+      }
+
       function retrieveUserMessages() {
         let expireTime = new Date();
         expireTime.setDate(expireTime.getDate() - 30);
@@ -18303,6 +18364,7 @@
                 } else {
                   vm.userMessages[i].cleanDate = cleanDateHoliday(vm.userMessages[i].created_at) + ' - ' + timeDate(vm.userMessages[i].created_at) + ' - - - updated at ' + cleanDateHoliday(vm.userMessages[i].updated_at) + ' - ' + timeDate(vm.userMessages[i].updated_at);
                 }
+                retrieveReactions(vm.userMessages[i], i);
                 retrieveComments(vm.userMessages[i], i);
               }
               setMessageCRUDStates();

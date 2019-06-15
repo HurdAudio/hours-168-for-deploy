@@ -9304,6 +9304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 466,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/47-00,Colmb.jpg',
+          title: 'Caxton #008',
+          artist: 'Joseph Dreany',
+          year: '1948',
+          rule: {
+            "monday": [ 3, 15, 14, 30 ],
+            "tuesday": [ 23, 15, 3, 10 ],
+            "wednesday": [ 8, 21, 29, 4 ],
+            "thursday": [ 7, 19, 28, 3 ],
+            "friday": [ 6, 19, 27, 2 ],
+            "saturday": [ 5, 18, 26, 1 ],
+            "sunday": [ 4, 17, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 467,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/32-02,BestDet.jpg',
+          title: 'Best Detective',
+          artist: 'John Drew',
+          year: '1932',
+          rule: {
+            "monday": [ 4, 17, 25, 31 ],
+            "tuesday": [ 3, 15, 14, 30 ],
+            "wednesday": [ 23, 15, 3, 10 ],
+            "thursday": [ 8, 21, 29, 4 ],
+            "friday": [ 7, 19, 28, 3 ],
+            "saturday": [ 6, 19, 27, 2 ],
+            "sunday": [ 5, 18, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 468,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/39-05,MovieHumor.jpg',
+          title: 'Movie Humor',
+          artist: 'Peter Driben',
+          year: '1939',
+          rule: {
+            "monday": [ 5, 18, 26, 1 ],
+            "tuesday": [ 4, 17, 25, 31 ],
+            "wednesday": [ 3, 15, 14, 30 ],
+            "thursday": [ 23, 15, 3, 10 ],
+            "friday": [ 8, 21, 29, 4 ],
+            "saturday": [ 7, 19, 28, 3 ],
+            "sunday": [ 6, 19, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 469,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/38-03,FamW-1.jpg',
+          title: 'Famous Western',
+          artist: 'Roderick Duff',
+          year: '1938',
+          rule: {
+            "monday": [ 7, 20, 28, 3 ],
+            "tuesday": [ 6, 19, 27, 2 ],
+            "wednesday": [ 5, 18, 26, 1 ],
+            "thursday": [ 4, 16, 15, 31 ],
+            "friday": [ 24, 16, 4, 11 ],
+            "saturday": [ 9, 22, 30, 5 ],
+            "sunday": [ 8, 20, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 470,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/10-00,Scout.jpg',
+          title: 'The Scout',
+          artist: 'Harvey Dunn',
+          year: '1910',
+          rule: {
+            "monday": [ 8, 20, 29, 4 ],
+            "tuesday": [ 7, 20, 28, 3 ],
+            "wednesday": [ 6, 19, 27, 2 ],
+            "thursday": [ 5, 18, 26, 1 ],
+            "friday": [ 4, 16, 15, 31 ],
+            "saturday": [ 24, 16, 4, 11 ],
+            "sunday": [ 9, 22, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

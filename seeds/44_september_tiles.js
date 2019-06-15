@@ -1166,6 +1166,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#717173',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 84,
+          user_id: 1,
+          theme: 'Leather',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/PROENZA-SCHOULER-PS1-Medium-perforated-leather-tote-Chartreuse-Black-Friday-Online_0.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '100%',
+          color_dark: '#100E04',
+          color_medium: '#F4F776',
+          color_light: '#E8E8CD',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

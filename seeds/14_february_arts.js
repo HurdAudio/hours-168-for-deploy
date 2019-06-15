@@ -11304,6 +11304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 566,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/romare-oped-0125-1532190750.jpg',
+          title: 'Pittsburgh Recollections',
+          artist: 'Romare Bearden',
+          year: '1984',
+          rule: {
+            "monday": [ 29, 8, 16, 24 ],
+            "tuesday": [ 2, 12, 18, 24 ],
+            "wednesday": [ 4, 12, 20, 1 ],
+            "thursday": [ 4, 14, 10, 29 ],
+            "friday": [ 23, 2, 10, 18 ],
+            "saturday": [ 24, 4, 12, 20 ],
+            "sunday": [ 1, 6, 12, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 567,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/990703.jpg',
+          title: 'Sunshine and Storm',
+          artist: 'Arthello Beck',
+          year: '?',
+          rule: {
+            "monday": [ 2, 7, 13, 23 ],
+            "tuesday": [ 1, 9, 17, 25 ],
+            "wednesday": [ 3, 13, 19, 25 ],
+            "thursday": [ 5, 13, 21, 2 ],
+            "friday": [ 5, 15, 11, 1 ],
+            "saturday": [ 24, 3, 11, 19 ],
+            "sunday": [ 25, 5, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 568,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/129284176915346104_ae8ba386-323b-44b0-91ea-20c20646e492_173625_570.jpeg',
+          title: 'The Clique',
+          artist: 'Arthur P. Bedou',
+          year: 'c.1915',
+          rule: {
+            "monday": [ 25, 5, 13, 21 ],
+            "tuesday": [ 2, 7, 13, 23 ],
+            "wednesday": [ 1, 9, 17, 25 ],
+            "thursday": [ 3, 13, 19, 25 ],
+            "friday": [ 5, 13, 21, 2 ],
+            "saturday": [ 5, 15, 11, 1 ],
+            "sunday": [ 24, 3, 11, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 569,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/db140821_seeHear.jpg',
+          title: 'The Ferguson Conversation',
+          artist: 'Darrin Bell',
+          year: '2014',
+          rule: {
+            "monday": [ 24, 3, 11, 19 ],
+            "tuesday": [ 25, 5, 13, 21 ],
+            "wednesday": [ 2, 7, 13, 23 ],
+            "thursday": [ 1, 9, 17, 25 ],
+            "friday": [ 3, 13, 19, 25 ],
+            "saturday": [ 5, 13, 21, 2 ],
+            "sunday": [ 5, 15, 11, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 570,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/blizaard.jpeg',
+          title: 'Bliz-aard Ball Sale I',
+          artist: 'Dawoud Bey',
+          year: '1983',
+          rule: {
+            "monday": [ 5, 15, 11, 1 ],
+            "tuesday": [ 24, 3, 11, 19 ],
+            "wednesday": [ 25, 5, 13, 21 ],
+            "thursday": [ 2, 7, 13, 23 ],
+            "friday": [ 1, 9, 17, 25 ],
+            "saturday": [ 3, 13, 19, 25 ],
+            "sunday": [ 5, 13, 21, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

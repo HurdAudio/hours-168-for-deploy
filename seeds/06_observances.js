@@ -11002,6 +11002,34 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 708,
+          user_id: 1,
+          name: 'Emiliano Zapata (Mexican revolutionary) born 1879',
+          color: '#B7A274',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/emilianoZapata.jpg',
+          day_of: new Date ('1879-08-08  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 709,
+          user_id: 1,
+          name: 'Simón Bolívar (political leader/Latin American secessionist) born 1783',
+          color: '#76603B',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Simon-bolivar.jpg',
+          day_of: new Date ('1783-07-24  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

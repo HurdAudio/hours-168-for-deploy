@@ -15,8 +15,7 @@
   var sundayDate = new Date();
   var months = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   var dayStrips = [ 'mondayDatestrip', 'mondayName', 'tuesdayDatestrip', 'tuesdayName', 'wednesdayDateStrip', 'wednesdayName', 'thursdayDatestrip', 'thursdayName', 'fridayDatestrip', 'fridayName', 'saturdayDatestrip', 'saturdayName', 'sundayDatestrip', 'sundayName' ];
-  var pulses = [ '#ff0000', '#ff1100', '#ff2211', '#ff3322', '#ff4433', '#ff5544', '#ff6655', '#ff7766', '#ff8877', '#ff9988', '#ffaa99', '#ffbbaa', '#ffccbb', '#ffddcc', '#ffeedd', '#ffffee', '#ffeeff', '#ffddee', '#ffccdd', '#ffbbcc', '#ffaabb', '#ff99aa', '#ff8899', '#ff7788', '#ff6677', '#ff5566', '#ff4455', '#ff3344', '#ff2233', '#ff1122', '#ff0011' ];
-  var pulsePoint = 0;
+  var pulses = false;
   var hours = ['0h', '030h', '1h', '130h', '2h', '230h', '3h', '330h', '4h', '430h', '5h', '530h', '6h', '630h', '7h', '730h', '8h', '830h', '9h', '930h', '10h', '1030h', '11h', '1130h', '12h', '1230h', '13h', '1330h', '14h', '1430h', '15h', '1530h', '16h', '1630h', '17h', '1730h', '18h', '1830h', '19h', '1930h', '20h', '2030h', '21h', '2130h', '22h', '2230h', '23h', '2330h', '0h' ];
   var hoursTime = ['0:00', '0:30', '1:00', '1:30', '2:00', '2:30', '3:00', '3:30', '4:00', '4:30', '5:00', '5:30', '6:00', '6:30', '7:00', '7:30', '8:00', '8:30', '9:00', '9:30', '10:00', '10:30', '11:00', '11:30', '12:00', '12:30', '13:00', '13:30', '14:00', '14:30', '15:00', '15:30', '16:00', '16:30', '17:00', '17:30', '18:00', '18:30', '19:00', '19:30', '20:00', '20:30', '21:00', '21:30', '22:00', '22:30', '23:00', '23:30', '24:00' ];
 
@@ -437,15 +436,18 @@
           element2.setAttribute("style", "color: #bb9933;");
           setPastPresentDays();
         } else {
-          element1.setAttribute("style", "color: " + pulses[pulsePoint] + ";");
-          element2.setAttribute("style", "color: " + pulses[pulsePoint] + ";");
-          ++pulsePoint;
-          if (pulsePoint === pulses.length) {
-            pulsePoint = 0;
+          if (pulses) {
+            pulses = false;
+            element1.parentNode.setAttribute("style", "color: #bb9933; filter: hue-rotate(0deg); transition: filter 2s linear;");
+            element2.parentNode.setAttribute("style", "color: #bb9933; filter: hue-rotate(0deg); transition: filter 2s linear;");
+          } else {
+            pulses = true;
+            element1.parentNode.setAttribute("style", "color: #bb9933; filter: hue-rotate(180deg); transition: filter 2s linear;");
+            element2.parentNode.setAttribute("style", "color: #bb9933; filter: hue-rotate(180deg); transition: filter 2s linear;");
           }
           setTimeout(()=>{
             flashThePresent(element1, element2, time);
-          }, 200);
+          }, 2000);
         }
       }
 

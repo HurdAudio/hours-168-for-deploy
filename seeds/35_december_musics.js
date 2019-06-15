@@ -4972,6 +4972,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 277,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1394060629/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/rotomagus-1971-french-punk-heavy-psych-rock',
+          a_string: 'Rotomagus (1971 French Punk Heavy Psych Rock) by Rotomagus',
+          rule: {
+            "monday": [ 15, 21, 27, 2 ],
+            "tuesday": [ 14, 20, 26, 1 ],
+            "wednesday": [ 11, 19, 25, 31 ],
+            "thursday": [ 10, 18, 24, 30 ],
+            "saturday": [ 11, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 278,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1383196711/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/cumbias-psicodelicas-vol-1-ayahuasca-70s-peru-cumbia-psych-funk-latin-soul-killer-masterpiece',
+          a_string: 'Cumbias Psicodelicas: Vol. 1 Ayahuasca (70&#39;s Peru Cumbia Psych / Funk / Latin Soul) KILLER MASTERPIECE !!! by Various Artists: Ayahuasca',
+          rule: {
+            "monday": [ 11, 17, 23, 29 ],
+            "tuesday": [ 15, 21, 27, 2 ],
+            "wednesday": [ 14, 20, 26, 1 ],
+            "thursday": [ 11, 19, 25, 31 ],
+            "saturday": [ 10, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 279,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3892613339/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/flying-colors-canada-soul-northern-soul-funk-beats-breaks-gaiety-recs-1970',
+          a_string: 'FLYING COLORS (Canada: Soul - Northern Soul - Funk - Beats - Breaks - Gaiety Recs) (1970) by FLYING COLORS',
+          rule: {
+            "monday": [ 10, 18, 24, 30 ],
+            "tuesday": [ 11, 17, 23, 29 ],
+            "wednesday": [ 15, 21, 27, 2 ],
+            "thursday": [ 14, 20, 26, 1 ],
+            "saturday": [ 11, 19, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

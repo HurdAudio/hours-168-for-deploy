@@ -9494,6 +9494,101 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 476,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1993.jpeg',
+          title: '"Untitled"',
+          artist: 'Felix Gonzalez-Torres',
+          year: '1993',
+          rule: {
+            "monday": [ 16, 21, 27, 2 ],
+            "tuesday": [ 15, 17, 25, 1 ],
+            "wednesday": [ 14, 18, 25, 29 ],
+            "thursday": [ 13, 16, 23, 28 ],
+            "friday": [ 11, 16, 22, 27 ],
+            "saturday": [ 10, 15, 21, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 477,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/under-the-moon-of-love-1993.jpeg',
+          title: 'Under the Moon of Love',
+          artist: 'Imi Knoebel',
+          year: '1993',
+          rule: {
+            "monday": [ 10, 15, 21, 28 ],
+            "tuesday": [ 16, 21, 27, 2 ],
+            "wednesday": [ 15, 17, 25, 1 ],
+            "thursday": [ 14, 18, 25, 29 ],
+            "friday": [ 13, 16, 23, 28 ],
+            "saturday": [ 11, 16, 22, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 478,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1993(1).jpeg',
+          title: 'Untitled',
+          artist: 'Moshe Kupferman',
+          year: '1993',
+          rule: {
+            "monday": [ 11, 16, 22, 27 ],
+            "tuesday": [ 10, 15, 21, 28 ],
+            "wednesday": [ 16, 21, 27, 2 ],
+            "thursday": [ 15, 17, 25, 1 ],
+            "friday": [ 14, 18, 25, 29 ],
+            "saturday": [ 13, 16, 23, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 479,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/lotus-1993.jpeg',
+          title: 'Lotus',
+          artist: 'Katsuhito Nishikawa',
+          year: '1993',
+          rule: {
+            "monday": [ 13, 16, 23, 28 ],
+            "tuesday": [ 11, 16, 22, 27 ],
+            "wednesday": [ 10, 15, 21, 28 ],
+            "thursday": [ 16, 21, 27, 2 ],
+            "friday": [ 15, 17, 25, 1 ],
+            "saturday": [ 14, 18, 25, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 480,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/canvas.jpeg',
+          title: 'Untitled',
+          artist: 'Leon Tarasewicz',
+          year: '1993',
+          rule: {
+            "monday": [ 14, 18, 25, 29 ],
+            "tuesday": [ 13, 16, 23, 28 ],
+            "wednesday": [ 11, 16, 22, 27 ],
+            "thursday": [ 10, 15, 21, 28 ],
+            "friday": [ 16, 21, 27, 2 ],
+            "saturday": [ 15, 17, 25, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

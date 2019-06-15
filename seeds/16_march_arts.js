@@ -11104,6 +11104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 556,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/luminary.jpeg',
+          title: 'LUMINARY',
+          artist: 'Hannah Faith Yata',
+          year: '?',
+          rule: {
+            "monday": [ 18, 27, 6, 14 ],
+            "tuesday": [ 17, 27, 4, 14 ],
+            "wednesday": [ 15, 26, 3, 13 ],
+            "thursday": [ 15, 25, 2, 12 ],
+            "friday": [ 14, 25, 1, 11 ],
+            "saturday": [ 13, 23, 31, 10 ],
+            "sunday": [ 12, 22, 31, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 557,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/posle-osmotra120h100-holst-maslo-2017-800-e1548337152784.jpeg',
+          title: 'After Examination',
+          artist: 'Lucy Ivanova',
+          year: '2017',
+          rule: {
+            "monday": [ 12, 22, 31, 9 ],
+            "tuesday": [ 18, 27, 6, 14 ],
+            "wednesday": [ 17, 27, 4, 14 ],
+            "thursday": [ 15, 26, 3, 13 ],
+            "friday": [ 15, 25, 2, 12 ],
+            "saturday": [ 14, 25, 1, 11 ],
+            "sunday": [ 13, 23, 31, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 558,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/canicas.jpeg',
+          title: 'Canicas',
+          artist: 'Soleto',
+          year: '?',
+          rule: {
+            "monday": [ 13, 23, 31, 10 ],
+            "tuesday": [ 12, 22, 31, 9 ],
+            "wednesday": [ 18, 27, 6, 14 ],
+            "thursday": [ 17, 27, 4, 14 ],
+            "friday": [ 15, 26, 3, 13 ],
+            "saturday": [ 15, 25, 2, 12 ],
+            "sunday": [ 14, 25, 1, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 559,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/dsc-1838.jpeg',
+          title: 'Camera embroidery hoop',
+          artist: 'Samantha Troulis',
+          year: '2016',
+          rule: {
+            "monday": [ 14, 25, 1, 11 ],
+            "tuesday": [ 13, 23, 31, 10 ],
+            "wednesday": [ 12, 22, 31, 9 ],
+            "thursday": [ 18, 27, 6, 14 ],
+            "friday": [ 17, 27, 4, 14 ],
+            "saturday": [ 15, 26, 3, 13 ],
+            "sunday": [ 15, 25, 2, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 560,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/invasives-propane-tanks-2014.jpeg',
+          title: 'Invasives (Propane tanks)',
+          artist: 'Sharon Butler',
+          year: '2014',
+          rule: {
+            "monday": [ 16, 26, 3, 13 ],
+            "tuesday": [ 15, 26, 2, 12 ],
+            "wednesday": [ 14, 24, 1, 11 ],
+            "thursday": [ 13, 23, 1, 10 ],
+            "friday": [ 19, 28, 7, 15 ],
+            "saturday": [ 18, 28, 5, 15 ],
+            "sunday": [ 16, 27, 4, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -11504,6 +11504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 576,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/dux-et-comes-i-1932(1).jpeg',
+          title: 'Dux et Comes I',
+          artist: 'Edward Wadsworth',
+          year: '1932',
+          rule: {
+            "monday": [ 23, 25, 17, 6 ],
+            "tuesday": [ 23, 25, 17, 6 ],
+            "wednesday": [ 28, 26, 18, 21 ],
+            "thursday": [ 28, 29, 20, 24 ],
+            "friday": [ 31, 2, 3, 5 ],
+            "saturday": [ 2, 4, 8, 11 ],
+            "sunday": [ 4, 6, 7, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 577,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/black-metamorphosis-1950.jpeg',
+          title: 'Black Metamorphosis',
+          artist: 'Willi Baumeister',
+          year: '1950',
+          rule: {
+            "monday": [ 4, 6, 7, 8 ],
+            "tuesday": [ 23, 25, 17, 6 ],
+            "wednesday": [ 23, 25, 17, 6 ],
+            "thursday": [ 28, 26, 18, 21 ],
+            "friday": [ 28, 29, 20, 24 ],
+            "saturday": [ 31, 2, 3, 5 ],
+            "sunday": [ 2, 4, 8, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 578,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/secret-1966.jpeg',
+          title: 'Secret',
+          artist: 'Rodolfo Arico',
+          year: '1966',
+          rule: {
+            "monday": [ 2, 4, 8, 11 ],
+            "tuesday": [ 4, 6, 7, 8 ],
+            "wednesday": [ 23, 25, 17, 6 ],
+            "thursday": [ 23, 25, 17, 6 ],
+            "friday": [ 28, 26, 18, 21 ],
+            "saturday": [ 28, 29, 20, 24 ],
+            "sunday": [ 31, 2, 3, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 579,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1960.jpeg',
+          title: 'Composition',
+          artist: 'Francois Arnal',
+          year: '1960',
+          rule: {
+            "monday": [ 31, 2, 3, 5 ],
+            "tuesday": [ 2, 4, 8, 11 ],
+            "wednesday": [ 4, 6, 7, 8 ],
+            "thursday": [ 23, 25, 17, 6 ],
+            "friday": [ 23, 25, 17, 6 ],
+            "saturday": [ 28, 26, 18, 21 ],
+            "sunday": [ 28, 29, 20, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 580,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/goost-halv-1966.jpeg',
+          title: 'Goost Halv',
+          artist: 'Robert Huot',
+          year: '1966',
+          rule: {
+            "monday": [ 28, 29, 20, 24 ],
+            "tuesday": [ 31, 2, 3, 5 ],
+            "wednesday": [ 2, 4, 8, 11 ],
+            "thursday": [ 4, 6, 7, 8 ],
+            "friday": [ 23, 25, 17, 6 ],
+            "saturday": [ 23, 25, 17, 6 ],
+            "sunday": [ 28, 26, 18, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

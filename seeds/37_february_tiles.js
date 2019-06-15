@@ -1264,6 +1264,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FFFFFF',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 91,
+          user_id: 1,
+          theme: 'Silk/Velvet',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/dobby-stripes-cotton-fabric-yellow.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#0A0300',
+          color_medium: '#CDB363',
+          color_light: '#DDCC94',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

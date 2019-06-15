@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Untitled_Artwork__1_.0.jpg',
+          title: 'Untitled',
+          artist: 'Orlie Kapitulnik',
+          year: '2019',
+          rule: {
+            "monday": [ 2, 22, 28, 4 ],
+            "tuesday": [ 17, 20, 28, 4 ],
+            "wednesday": [ 16, 20, 5, 3 ],
+            "thursday": [ 13, 19, 25, 1 ],
+            "friday": [ 14, 19, 25, 1 ],
+            "saturday": [ 13, 18, 24, 30 ],
+            "sunday": [ 18, 24, 29, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/san-francisco-giants-baseball-scoreboard-and-clock-5d28233-bw-wingsdomain-art-and-photography.jpg',
+          title: 'San Francisco Giants Baseball Scoreboard and Clock',
+          artist: 'Wings Domain Art and Photo',
+          year: '2018',
+          rule: {
+            "monday": [ 18, 24, 29, 5 ],
+            "tuesday": [ 2, 22, 28, 4 ],
+            "wednesday": [ 17, 20, 28, 4 ],
+            "thursday": [ 16, 20, 5, 3 ],
+            "friday": [ 13, 19, 25, 1 ],
+            "saturday": [ 14, 19, 25, 1 ],
+            "sunday": [ 13, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/s-l300.jpg',
+          title: 'Willie Mays San Francisco Giants',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 13, 18, 24, 30 ],
+            "tuesday": [ 18, 24, 29, 5 ],
+            "wednesday": [ 2, 22, 28, 4 ],
+            "thursday": [ 17, 20, 28, 4 ],
+            "friday": [ 16, 20, 5, 3 ],
+            "saturday": [ 13, 19, 25, 1 ],
+            "sunday": [ 14, 19, 25, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/2387468-SZCROCYF-7.jpg',
+          title: 'AT&T Park San Francisco Giants',
+          artist: 'John Kilduff',
+          year: '?',
+          rule: {
+            "monday": [ 14, 19, 25, 1 ],
+            "tuesday": [ 13, 18, 24, 30 ],
+            "wednesday": [ 18, 24, 29, 5 ],
+            "thursday": [ 2, 22, 28, 4 ],
+            "friday": [ 17, 20, 28, 4 ],
+            "saturday": [ 16, 20, 5, 3 ],
+            "sunday": [ 13, 19, 25, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/WindcoSanFranciscoGiantsArtDecoToolBoxjpg_x700.jpg',
+          title: 'Windco San Francisco Giants Art Deco Tool Box',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 13, 19, 25, 1 ],
+            "tuesday": [ 14, 19, 25, 1 ],
+            "wednesday": [ 13, 18, 24, 30 ],
+            "thursday": [ 18, 24, 29, 5 ],
+            "friday": [ 2, 22, 28, 4 ],
+            "saturday": [ 17, 20, 28, 4 ],
+            "sunday": [ 16, 20, 5, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

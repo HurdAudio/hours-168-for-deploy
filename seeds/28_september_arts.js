@@ -9904,6 +9904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 496,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/rider-in-icelandic-village-1980.jpeg',
+          title: 'Rider in Icelandic Village',
+          artist: 'Louisa Matthiasdottir',
+          year: '1980',
+          rule: {
+            "monday": [ 9, 15, 3, 11 ],
+            "tuesday": [ 28, 14, 2, 11 ],
+            "wednesday": [ 27, 4, 1, 9 ],
+            "thursday": [ 5, 12, 30, 7 ],
+            "friday": [ 12, 18, 6, 14 ],
+            "saturday": [ 11, 16, 5, 13 ],
+            "sunday": [ 9, 16, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 497,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1962-1.jpeg',
+          title: 'Untitled',
+          artist: 'Afro',
+          year: '1962',
+          rule: {
+            "monday": [ 10, 17, 5, 13 ],
+            "tuesday": [ 10, 16, 4, 12 ],
+            "wednesday": [ 29, 15, 3, 12 ],
+            "thursday": [ 28, 5, 2, 10 ],
+            "friday": [ 6, 13, 1, 8 ],
+            "saturday": [ 13, 19, 7, 15 ],
+            "sunday": [ 12, 17, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 498,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/rose-garden-with-triangular-window-1980.jpeg',
+          title: 'Rose Garden with Triangular Window',
+          artist: 'Ilka Gedo',
+          year: '1980',
+          rule: {
+            "monday": [ 12, 17, 6, 14 ],
+            "tuesday": [ 10, 17, 5, 13 ],
+            "wednesday": [ 10, 16, 4, 12 ],
+            "thursday": [ 29, 15, 3, 12 ],
+            "friday": [ 28, 5, 2, 10 ],
+            "saturday": [ 6, 13, 1, 8 ],
+            "sunday": [ 13, 19, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 499,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/progression-1973.jpeg',
+          title: 'Progression',
+          artist: 'Gerhard von Graevenitz',
+          year: '1973',
+          rule: {
+            "monday": [ 13, 19, 7, 15 ],
+            "tuesday": [ 12, 17, 6, 14 ],
+            "wednesday": [ 10, 17, 5, 13 ],
+            "thursday": [ 10, 16, 4, 12 ],
+            "friday": [ 29, 15, 3, 12 ],
+            "saturday": [ 28, 5, 2, 10 ],
+            "sunday": [ 6, 13, 1, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 500,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/.jpeg',
+          title: 'Kabbalah/Kabul: Sending Emanations to the Aliens',
+          artist: 'Sonya Rapoport',
+          year: '2004',
+          rule: {
+            "monday": [ 6, 13, 1, 8 ],
+            "tuesday": [ 13, 19, 7, 15 ],
+            "wednesday": [ 12, 17, 6, 14 ],
+            "thursday": [ 10, 17, 5, 13 ],
+            "friday": [ 10, 16, 4, 12 ],
+            "saturday": [ 29, 15, 3, 12 ],
+            "sunday": [ 28, 5, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -11,8 +11,8 @@ exports.seed = function(knex, Promise) {
           to_user_id: 1,
           message: '168h - We are all time travellers at present.',
           public: true,
-          created_at: new Date('2019-04-27T13:44:00.000Z'),
-          updated_at: new Date('2019-04-27T13:44:00.000Z')
+          created_at: new Date('2019-05-27T13:44:00.000Z'),
+          updated_at: new Date('2019-05-27T13:44:00.000Z')
         }
       ]);
     }).then(() => {

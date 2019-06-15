@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/ecritures-colomb-es-n-4-1985.jpeg',
+          title: 'Ecritures Colombées n°4',
+          artist: 'Jacques Busse',
+          year: '1985',
+          rule: {
+            "monday": [ 10, 21, 31, 2 ],
+            "tuesday": [ 9, 20, 31, 1 ],
+            "wednesday": [ 8, 19, 30, 10 ],
+            "thursday": [ 14, 25, 5, 15 ],
+            "friday": [ 13, 22, 4, 15 ],
+            "saturday": [ 11, 22, 3, 14 ],
+            "sunday": [ 11, 22, 2, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/sph-re-en-4-morceaux-sur-un-plateau-cylindrique-1969.jpeg',
+          title: 'Sphère en 4 morceaux sur un plateau cylindrique',
+          artist: 'Pol Bury',
+          year: '1969',
+          rule: {
+            "monday": [ 11, 22, 2, 3 ],
+            "tuesday": [ 10, 21, 31, 2 ],
+            "wednesday": [ 9, 20, 31, 1 ],
+            "thursday": [ 8, 19, 30, 10 ],
+            "friday": [ 14, 25, 5, 15 ],
+            "saturday": [ 13, 22, 4, 15 ],
+            "sunday": [ 11, 22, 3, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-eagle-miss.jpeg',
+          title: 'The Eagle, Miss...',
+          artist: 'Jean Benoit',
+          year: '?',
+          rule: {
+            "monday": [ 12, 23, 4, 15 ],
+            "tuesday": [ 12, 23, 3, 4 ],
+            "wednesday": [ 11, 22, 1, 3 ],
+            "thursday": [ 10, 21, 1, 2 ],
+            "friday": [ 9, 20, 31, 11 ],
+            "saturday": [ 15, 26, 6, 16 ],
+            "sunday": [ 14, 23, 5, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/mai-cousu-par-les-fleurs-de-pommiers.jpeg',
+          title: 'Mai cousu par les fleurs de pommiers',
+          artist: 'Jean Messagier',
+          year: '?',
+          rule: {
+            "monday": [ 14, 23, 5, 16 ],
+            "tuesday": [ 12, 23, 4, 15 ],
+            "wednesday": [ 12, 23, 3, 4 ],
+            "thursday": [ 11, 22, 1, 3 ],
+            "friday": [ 10, 21, 1, 2 ],
+            "saturday": [ 9, 20, 31, 11 ],
+            "sunday": [ 15, 26, 6, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-prophet-1992.jpeg',
+          title: 'The Prophet',
+          artist: 'Zao Wou-Ki',
+          year: '1992',
+          rule: {
+            "monday": [ 15, 26, 6, 16 ],
+            "tuesday": [ 14, 23, 5, 16 ],
+            "wednesday": [ 12, 23, 4, 15 ],
+            "thursday": [ 12, 23, 3, 4 ],
+            "friday": [ 11, 22, 1, 3 ],
+            "saturday": [ 10, 21, 1, 2 ],
+            "sunday": [ 9, 20, 31, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

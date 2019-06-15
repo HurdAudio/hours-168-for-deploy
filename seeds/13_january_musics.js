@@ -6160,6 +6160,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 343,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4129528646/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/live-at-the-lu',
+          a_string: 'Live At The LU by Keith Rowe/Christian Fennesz',
+          rule: {
+            "monday": [ 27, 2, 3, 5 ],
+            "tuesday": [ 26, 2, 3, 4 ],
+            "wednesday": [ 25, 31, 1, 2 ],
+            "thursday": [ 24, 31, 1, 2 ],
+            "saturday": [ 28, 4, 5, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 344,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2742780304/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/good-morning-good-night',
+          a_string: 'Good Morning Good Night by Sachiko M/Toshimaru Nakamura/Otomo Yoshihide',
+          rule: {
+            "monday": [ 28, 4, 5, 6 ],
+            "tuesday": [ 27, 2, 3, 5 ],
+            "wednesday": [ 26, 2, 3, 4 ],
+            "thursday": [ 25, 31, 1, 2 ],
+            "saturday": [ 24, 31, 1, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 345,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1497881923/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/a-view-from-the-window',
+          a_string: 'A View From The Window by Keith Rowe/Axel Dörner/Franz Hautzinger',
+          rule: {
+            "monday": [ 24, 31, 1, 2 ],
+            "tuesday": [ 28, 4, 5, 6 ],
+            "wednesday": [ 27, 2, 3, 5 ],
+            "thursday": [ 26, 2, 3, 4 ],
+            "saturday": [ 25, 31, 1, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

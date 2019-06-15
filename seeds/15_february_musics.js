@@ -6052,6 +6052,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 337,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1568470735/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ethnicheritageensemble.bandcamp.com/album/be-known-ancient-future-music',
+          a_string: 'Be Known Ancient/Future/Music by ETHNIC HERITAGE ENSEMBLE',
+          rule: {
+            "monday": [ 9, 3, 5, 11 ],
+            "tuesday": [ 21, 25, 27, 2 ],
+            "wednesday": [ 24, 27, 29, 2 ],
+            "thursday": [ 6, 29, 2, 4 ],
+            "saturday": [ 8, 2, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 338,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'zhttps://bandcamp.com/EmbeddedPlayer/album=1214601129/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://heemstogied.bandcamp.com/album/the-definition-of-pimpin',
+          a_string: 'The Definition of Pimpin&#39; by Heem Stogied x Nicholas Craven x Tha God Fahim',
+          rule: {
+            "monday": [ 8, 2, 4, 10 ],
+            "tuesday": [ 9, 3, 5, 11 ],
+            "wednesday": [ 21, 25, 27, 2 ],
+            "thursday": [ 24, 27, 29, 2 ],
+            "saturday": [ 6, 29, 2, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 339,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=909592122/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://heemstogied.bandcamp.com/album/loss-prevention-ep',
+          a_string: 'Loss Prevention EP by Heem Stogied x Bozack Morris',
+          rule: {
+            "monday": [ 6, 29, 2, 4 ],
+            "tuesday": [ 8, 2, 4, 10 ],
+            "wednesday": [ 9, 3, 5, 11 ],
+            "thursday": [ 21, 25, 27, 2 ],
+            "saturday": [ 24, 27, 29, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

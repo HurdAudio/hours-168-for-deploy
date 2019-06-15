@@ -5620,6 +5620,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 313,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=470081069/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://seilrecords.bandcamp.com/album/planetes',
+          a_string: 'Planetes by Sofie Birch',
+          rule: {
+            "monday": [ 15, 19, 25, 6 ],
+            "tuesday": [ 14, 17, 22, 4 ],
+            "wednesday": [ 13, 16, 22, 3 ],
+            "thursday": [ 13, 16, 22, 2 ],
+            "saturday": [ 11, 19, 21, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 314,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2847565201/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cosmicleaf.bandcamp.com/album/entitas',
+          a_string: 'Entitas by Dense &amp; Translippers',
+          rule: {
+            "monday": [ 11, 19, 21, 6 ],
+            "tuesday": [ 15, 19, 25, 6 ],
+            "wednesday": [ 14, 17, 22, 4 ],
+            "thursday": [ 13, 16, 22, 3 ],
+            "saturday": [ 13, 16, 22, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 315,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=156097262/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://archivesdubmusic.bandcamp.com/album/lost-channel',
+          a_string: 'Lost Channel by anthéne',
+          rule: {
+            "monday": [ 14, 17, 23, 3 ],
+            "tuesday": [ 12, 20, 22, 7 ],
+            "wednesday": [ 16, 20, 26, 7 ],
+            "thursday": [ 15, 18, 23, 5 ],
+            "saturday": [ 14, 17, 23, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

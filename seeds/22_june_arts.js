@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/1DEADONE6.jpg',
+          title: 'Dead One',
+          artist: 'Sarah Jeffs',
+          year: '?',
+          rule: {
+            "monday": [ 13, 23, 3, 1 ],
+            "tuesday": [ 12, 22, 2, 9 ],
+            "wednesday": [ 21, 1, 11, 9 ],
+            "thursday": [ 10, 20, 30, 8 ],
+            "friday": [ 9, 19, 29, 7 ],
+            "saturday": [ 15, 25, 5, 12 ],
+            "sunday": [ 14, 24, 5, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Beef.jpg',
+          title: 'Beef',
+          artist: 'Sarah Jeffs',
+          year: '?',
+          rule: {
+            "monday": [ 14, 24, 5, 12 ],
+            "tuesday": [ 13, 23, 3, 1 ],
+            "wednesday": [ 12, 22, 2, 9 ],
+            "thursday": [ 21, 1, 11, 9 ],
+            "friday": [ 10, 20, 30, 8 ],
+            "saturday": [ 9, 19, 29, 7 ],
+            "sunday": [ 15, 25, 5, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Magpie-tim.jpg',
+          title: 'Magpie Tim',
+          artist: 'Sarah Jeffs',
+          year: '?',
+          rule: {
+            "monday": [ 15, 25, 5, 12 ],
+            "tuesday": [ 14, 24, 5, 12 ],
+            "wednesday": [ 13, 23, 3, 1 ],
+            "thursday": [ 12, 22, 2, 9 ],
+            "friday": [ 21, 1, 11, 9 ],
+            "saturday": [ 10, 20, 30, 8 ],
+            "sunday": [ 9, 19, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/monk.jpg',
+          title: 'Monk',
+          artist: 'Sarah Jeffs',
+          year: '?',
+          rule: {
+            "monday": [ 9, 19, 29, 7 ],
+            "tuesday": [ 15, 25, 5, 12 ],
+            "wednesday": [ 14, 24, 5, 12 ],
+            "thursday": [ 13, 23, 3, 1 ],
+            "friday": [ 12, 22, 2, 9 ],
+            "saturday": [ 21, 1, 11, 9 ],
+            "sunday": [ 10, 20, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/MR-JAGO-LOWRES.jpg',
+          title: 'Mr. Jago',
+          artist: 'Sarah Jeffs',
+          year: '?',
+          rule: {
+            "monday": [ 10, 20, 30, 8 ],
+            "tuesday": [ 9, 19, 29, 7 ],
+            "wednesday": [ 15, 25, 5, 12 ],
+            "thursday": [ 14, 24, 5, 12 ],
+            "friday": [ 13, 23, 3, 1 ],
+            "saturday": [ 12, 22, 2, 9 ],
+            "sunday": [ 21, 1, 11, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
