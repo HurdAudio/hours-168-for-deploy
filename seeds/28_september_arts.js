@@ -9989,7 +9989,7 @@ exports.seed = function(knex, Promise) {
           id: 500,
           user_id: 1,
           theme: 'Modern Art after World War II',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/.jpeg',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/kabbalah-kabul-sending-emanations-to-the-aliens-2004.jpeg',
           title: 'Kabbalah/Kabul: Sending Emanations to the Aliens',
           artist: 'Sonya Rapoport',
           year: '2004',
@@ -10001,6 +10001,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 10, 16, 4, 12 ],
             "saturday": [ 29, 15, 3, 12 ],
             "sunday": [ 28, 5, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 501,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-wood-on-its-head-1969.jpeg',
+          title: 'The Wood On Its Head',
+          artist: 'Georg Baselitz',
+          year: '1969',
+          rule: {
+            "monday": [ 28, 5, 2, 10 ],
+            "tuesday": [ 6, 13, 1, 8 ],
+            "wednesday": [ 13, 19, 7, 15 ],
+            "thursday": [ 12, 17, 6, 14 ],
+            "friday": [ 10, 17, 5, 13 ],
+            "saturday": [ 10, 16, 4, 12 ],
+            "sunday": [ 29, 15, 3, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 502,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1949.jpeg',
+          title: 'Untitled',
+          artist: 'Gaston Chaissac',
+          year: 'c.1949',
+          rule: {
+            "monday": [ 29, 15, 3, 12 ],
+            "tuesday": [ 28, 5, 2, 10 ],
+            "wednesday": [ 6, 13, 1, 8 ],
+            "thursday": [ 13, 19, 7, 15 ],
+            "friday": [ 12, 17, 6, 14 ],
+            "saturday": [ 10, 17, 5, 13 ],
+            "sunday": [ 10, 16, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 503,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/cluster-of-four-cubes-1992.jpeg',
+          title: 'Cluster of Four Cubes',
+          artist: 'George Rickey',
+          year: '1992',
+          rule: {
+            "monday": [ 10, 16, 4, 12 ],
+            "tuesday": [ 29, 15, 3, 12 ],
+            "wednesday": [ 28, 5, 2, 10 ],
+            "thursday": [ 6, 13, 1, 8 ],
+            "friday": [ 13, 19, 7, 15 ],
+            "saturday": [ 12, 17, 6, 14 ],
+            "sunday": [ 10, 17, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 504,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/lustucru-1989.jpeg',
+          title: 'Lustucru',
+          artist: 'Samuel Buri',
+          year: '1989',
+          rule: {
+            "monday": [ 11, 18, 6, 14 ],
+            "tuesday": [ 11, 17, 5, 13 ],
+            "wednesday": [ 30, 16, 4, 13 ],
+            "thursday": [ 29, 6, 3, 11 ],
+            "friday": [ 7, 14, 2, 9 ],
+            "saturday": [ 14, 20, 8, 16 ],
+            "sunday": [ 13, 18, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 505,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1978.jpeg',
+          title: 'Untitled',
+          artist: 'Amilcar de Castro',
+          year: '1978',
+          rule: {
+            "monday": [ 13, 18, 7, 15 ],
+            "tuesday": [ 11, 18, 6, 14 ],
+            "wednesday": [ 11, 17, 5, 13 ],
+            "thursday": [ 30, 16, 4, 13 ],
+            "friday": [ 29, 6, 3, 11 ],
+            "saturday": [ 7, 14, 2, 9 ],
+            "sunday": [ 14, 20, 8, 16 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

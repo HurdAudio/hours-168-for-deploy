@@ -5026,6 +5026,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 280,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2596884062/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/the-souls-of-inspyration-s-t-canada-1970-psych-rock-prog',
+          a_string: 'The Souls of Inspyration S/T (Canada 1970 Psych Rock Prog) by The Souls of Inspyration',
+          rule: {
+            "monday": [ 12, 20, 26, 1 ],
+            "tuesday": [ 11, 19, 25, 31 ],
+            "wednesday": [ 12, 18, 24, 30 ],
+            "thursday": [ 16, 22, 28, 3 ],
+            "saturday": [ 15, 21, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 281,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3396835028/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/sandhy-mandhy-beat-garage-rock-argentina-1969',
+          a_string: 'Sandhy &amp; Mandhy (Beat Garage Rock * Argentina) (1969) by Sandhy &amp; Mandhy',
+          rule: {
+            "monday": [ 15, 21, 27, 2 ],
+            "tuesday": [ 12, 20, 26, 1 ],
+            "wednesday": [ 11, 19, 25, 31 ],
+            "thursday": [ 12, 18, 24, 30 ],
+            "saturday": [ 16, 22, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 282,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3073140448/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/49th-parallel-singles-1969-canadian-garage-rock',
+          a_string: '49th Parallel - &quot;Singles&quot; (1969 Canadian Garage Rock) by 49th Parallel',
+          rule: {
+            "monday": [ 16, 22, 28, 3 ],
+            "tuesday": [ 15, 21, 27, 2 ],
+            "wednesday": [ 12, 20, 26, 1 ],
+            "thursday": [ 11, 19, 25, 31 ],
+            "saturday": [ 12, 18, 24, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

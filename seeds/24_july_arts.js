@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/noirda-beach.jpeg',
+          title: 'Noirda beach',
+          artist: 'Maurice Boitel',
+          year: '?',
+          rule: {
+            "monday": [ 9, 20, 31, 11 ],
+            "tuesday": [ 15, 26, 6, 16 ],
+            "wednesday": [ 14, 23, 5, 16 ],
+            "thursday": [ 12, 23, 4, 15 ],
+            "friday": [ 12, 23, 3, 4 ],
+            "saturday": [ 11, 22, 1, 3 ],
+            "sunday": [ 10, 21, 1, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/theatre-scene-1975.jpeg',
+          title: 'Theatre Scene',
+          artist: 'Carlos Nadal',
+          year: '1975',
+          rule: {
+            "monday": [ 10, 21, 1, 2 ],
+            "tuesday": [ 9, 20, 31, 11 ],
+            "wednesday": [ 15, 26, 6, 16 ],
+            "thursday": [ 14, 23, 5, 16 ],
+            "friday": [ 12, 23, 4, 15 ],
+            "saturday": [ 12, 23, 3, 4 ],
+            "sunday": [ 11, 22, 1, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/on-me-fait-signe-1964.jpeg',
+          title: 'On me fait signe',
+          artist: 'Natalia Dumitresco',
+          year: '1964',
+          rule: {
+            "monday": [ 11, 22, 1, 3 ],
+            "tuesday": [ 10, 21, 1, 2 ],
+            "wednesday": [ 9, 20, 31, 11 ],
+            "thursday": [ 15, 26, 6, 16 ],
+            "friday": [ 14, 23, 5, 16 ],
+            "saturday": [ 12, 23, 4, 15 ],
+            "sunday": [ 12, 23, 3, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/la-femme-en-mauve.jpeg',
+          title: 'La femme en mauve',
+          artist: 'Aurel Cojan',
+          year: '?',
+          rule: {
+            "monday": [ 12, 23, 3, 4 ],
+            "tuesday": [ 11, 22, 1, 3 ],
+            "wednesday": [ 10, 21, 1, 2 ],
+            "thursday": [ 9, 20, 31, 11 ],
+            "friday": [ 15, 26, 6, 16 ],
+            "saturday": [ 14, 23, 5, 16 ],
+            "sunday": [ 12, 23, 4, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-letter-l-ooo-1945.jpeg',
+          title: 'The Letter L (OOO)',
+          artist: 'Gherasim Luca',
+          year: '1945',
+          rule: {
+            "monday": [ 13, 24, 5, 16 ],
+            "tuesday": [ 13, 24, 4, 5 ],
+            "wednesday": [ 12, 23, 2, 4 ],
+            "thursday": [ 11, 22, 2, 3 ],
+            "friday": [ 10, 21, 1, 12 ],
+            "saturday": [ 16, 27, 7, 17 ],
+            "sunday": [ 15, 24, 6, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

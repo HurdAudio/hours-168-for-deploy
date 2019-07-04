@@ -11604,6 +11604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 581,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/s-rie-amaz-nica-n-27-1970.jpeg',
+          title: 'Série Amazônica n° 27',
+          artist: 'Ivan Serpa',
+          year: '1970',
+          rule: {
+            "monday": [ 29, 27, 19, 22 ],
+            "tuesday": [ 29, 30, 21, 25 ],
+            "wednesday": [ 1, 3, 4, 6 ],
+            "thursday": [ 3, 5, 9, 12 ],
+            "friday": [ 5, 7, 8, 9 ],
+            "saturday": [ 24, 26, 18, 7 ],
+            "sunday": [ 24, 26, 18, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 582,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composi-o-geom-trica.jpeg',
+          title: 'Composição geométrica',
+          artist: 'Rubem Ludolf',
+          year: '?',
+          rule: {
+            "monday": [ 24, 26, 18, 7 ],
+            "tuesday": [ 29, 27, 19, 22 ],
+            "wednesday": [ 29, 30, 21, 25 ],
+            "thursday": [ 1, 3, 4, 6 ],
+            "friday": [ 3, 5, 9, 12 ],
+            "saturday": [ 5, 7, 8, 9 ],
+            "sunday": [ 24, 26, 18, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 583,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/156-1958.jpeg',
+          title: '#156',
+          artist: 'Adolf Fleischmann',
+          year: '1958',
+          rule: {
+            "monday": [ 24, 26, 18, 7 ],
+            "tuesday": [ 24, 26, 18, 7 ],
+            "wednesday": [ 29, 27, 19, 22 ],
+            "thursday": [ 29, 30, 21, 25 ],
+            "friday": [ 1, 3, 4, 6 ],
+            "saturday": [ 3, 5, 9, 12 ],
+            "sunday": [ 5, 7, 8, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 584,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/spazio-bruno-1967.jpeg',
+          title: 'Spazio bruno',
+          artist: 'Giuseppe Santomaso',
+          year: '1967',
+          rule: {
+            "monday": [ 5, 7, 8, 9 ],
+            "tuesday": [ 24, 26, 18, 7 ],
+            "wednesday": [ 24, 26, 18, 7 ],
+            "thursday": [ 29, 27, 19, 22 ],
+            "friday": [ 29, 30, 21, 25 ],
+            "saturday": [ 1, 3, 4, 6 ],
+            "sunday": [ 3, 5, 9, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 585,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/unknown-title.jpeg',
+          title: 'Unknown Title',
+          artist: 'Ion Alin Gheorghiu',
+          year: '?',
+          rule: {
+            "monday": [ 3, 5, 9, 12 ],
+            "tuesday": [ 5, 7, 8, 9 ],
+            "wednesday": [ 24, 26, 18, 7 ],
+            "thursday": [ 24, 26, 18, 7 ],
+            "friday": [ 29, 27, 19, 22 ],
+            "saturday": [ 29, 30, 21, 25 ],
+            "sunday": [ 1, 3, 4, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -11004,6 +11004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 551,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/8a2056f46e8c5a18aa2967fba200c90f.jpg',
+          title: 'Baseball',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 16, 20, 5, 3 ],
+            "tuesday": [ 13, 19, 25, 1 ],
+            "wednesday": [ 14, 19, 25, 1 ],
+            "thursday": [ 13, 18, 24, 30 ],
+            "friday": [ 18, 24, 29, 5 ],
+            "saturday": [ 2, 22, 28, 4 ],
+            "sunday": [ 17, 20, 28, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 552,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/5267881-VDNNALUG-7.jpg',
+          title: 'Baseball Painting',
+          artist: 'Ryan Fox',
+          year: '?',
+          rule: {
+            "monday": [ 17, 20, 28, 4 ],
+            "tuesday": [ 16, 20, 5, 3 ],
+            "wednesday": [ 13, 19, 25, 1 ],
+            "thursday": [ 14, 19, 25, 1 ],
+            "friday": [ 13, 18, 24, 30 ],
+            "saturday": [ 18, 24, 29, 5 ],
+            "sunday": [ 2, 22, 28, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 553,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Watercolor-Baseball-Animals-by-Jen-Digital-Art-2-580x387.png',
+          title: 'Bird',
+          artist: 'Creative Fabrica',
+          year: '?',
+          rule: {
+            "monday": [ 3, 23, 29, 5 ],
+            "tuesday": [ 18, 21, 29, 5 ],
+            "wednesday": [ 17, 21, 6, 4 ],
+            "thursday": [ 14, 20, 26, 2 ],
+            "friday": [ 15, 20, 26, 2 ],
+            "saturday": [ 14, 19, 25, 1 ],
+            "sunday": [ 19, 25, 30, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 554,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/GoodEyefinalcopy2x.jpeg',
+          title: 'Good Eye',
+          artist: 'Jill Cliffer Baratta',
+          year: '?',
+          rule: {
+            "monday": [ 19, 25, 30, 6 ],
+            "tuesday": [ 3, 23, 29, 5 ],
+            "wednesday": [ 18, 21, 29, 5 ],
+            "thursday": [ 17, 21, 6, 4 ],
+            "friday": [ 14, 20, 26, 2 ],
+            "saturday": [ 15, 20, 26, 2 ],
+            "sunday": [ 14, 19, 25, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 555,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/NIneRips24x26x4_ wm.jpeg',
+          title: 'Nine Rips',
+          artist: 'Jill Cliffer Baratta',
+          year: '?',
+          rule: {
+            "monday": [ 14, 19, 25, 1 ],
+            "tuesday": [ 19, 25, 30, 6 ],
+            "wednesday": [ 3, 23, 29, 5 ],
+            "thursday": [ 18, 21, 29, 5 ],
+            "friday": [ 17, 21, 6, 4 ],
+            "saturday": [ 14, 20, 26, 2 ],
+            "sunday": [ 15, 20, 26, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

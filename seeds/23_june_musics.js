@@ -5674,6 +5674,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 316,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3694370509/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://symbolgroup.bandcamp.com/album/breaks',
+          a_string: 'breaks by alphabets',
+          rule: {
+            "monday": [ 14, 17, 23, 4 ],
+            "tuesday": [ 14, 17, 23, 3 ],
+            "wednesday": [ 12, 20, 22, 7 ],
+            "thursday": [ 16, 20, 26, 7 ],
+            "saturday": [ 15, 18, 23, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 317,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1194441628/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://urbanwavesrecords.bandcamp.com/album/organized',
+          a_string: 'Organized by Jesse Koolhaas',
+          rule: {
+            "monday": [ 15, 18, 23, 5 ],
+            "tuesday": [ 14, 17, 23, 4 ],
+            "wednesday": [ 14, 17, 23, 3 ],
+            "thursday": [ 12, 20, 22, 7 ],
+            "saturday": [ 16, 20, 26, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 318,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3764144017/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://annannie.bandcamp.com/album/wander-into',
+          a_string: 'wander into by ann annie',
+          rule: {
+            "monday": [ 16, 20, 26, 7 ],
+            "tuesday": [ 15, 18, 23, 5 ],
+            "wednesday": [ 14, 17, 23, 4 ],
+            "thursday": [ 14, 17, 23, 3 ],
+            "saturday": [ 12, 20, 22, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

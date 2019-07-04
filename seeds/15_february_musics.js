@@ -6106,6 +6106,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 340,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=551714274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://streetcornermusic.bandcamp.com/album/big-shoes',
+          a_string: 'Big Shoes by Big Tone + House Shoes',
+          rule: {
+            "monday": [ 24, 27, 29, 2 ],
+            "tuesday": [ 6, 29, 2, 4 ],
+            "wednesday": [ 8, 2, 4, 10 ],
+            "thursday": [ 9, 3, 5, 11 ],
+            "saturday": [ 21, 25, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 341,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4171890148/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://chenoir.bandcamp.com/album/the-thrill-of-the-hunt-2',
+          a_string: 'The Thrill Of The Hunt 2 by Che` Noir',
+          rule: {
+            "monday": [ 21, 25, 27, 2 ],
+            "tuesday": [ 24, 27, 29, 2 ],
+            "wednesday": [ 6, 29, 2, 4 ],
+            "thursday": [ 8, 2, 4, 10 ],
+            "saturday": [ 9, 3, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 342,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2453469168/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://chongwizard.bandcamp.com/album/the-soul-stone',
+          a_string: 'The Soul Stone by Chong Wizard',
+          rule: {
+            "monday": [ 9, 3, 5, 11 ],
+            "tuesday": [ 21, 25, 27, 2 ],
+            "wednesday": [ 24, 27, 29, 2 ],
+            "thursday": [ 6, 29, 2, 4 ],
+            "saturday": [ 8, 2, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

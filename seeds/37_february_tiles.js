@@ -1278,6 +1278,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#DDCC94',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 92,
+          user_id: 1,
+          theme: 'Silk/Velvet',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/zara-walker-cOOcA0Jdnwk-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#5E1A1F',
+          color_medium: '#BA80A0',
+          color_light: '#AEC0EB',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

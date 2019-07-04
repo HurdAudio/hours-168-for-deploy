@@ -9589,6 +9589,101 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 481,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-beginning-1994.jpeg',
+          title: '"Untitled" (Beginning)',
+          artist: 'Felix Gonzalez-Torres',
+          year: '1994',
+          rule: {
+            "monday": [ 15, 17, 25, 1 ],
+            "tuesday": [ 14, 18, 25, 29 ],
+            "wednesday": [ 13, 16, 23, 28 ],
+            "thursday": [ 11, 16, 22, 27 ],
+            "friday": [ 10, 15, 21, 28 ],
+            "saturday": [ 16, 21, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 482,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1994.jpeg',
+          title: 'Untitled',
+          artist: 'Moshe Kupferman',
+          year: '1994',
+          rule: {
+            "monday": [ 16, 21, 27, 2 ],
+            "tuesday": [ 15, 17, 25, 1 ],
+            "wednesday": [ 14, 18, 25, 29 ],
+            "thursday": [ 13, 16, 23, 28 ],
+            "friday": [ 11, 16, 22, 27 ],
+            "saturday": [ 10, 15, 21, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 483,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/vermilion-1994.jpeg',
+          title: 'Vermilion',
+          artist: 'Marcia Hafif',
+          year: '1994',
+          rule: {
+            "monday": [ 11, 16, 22, 29 ],
+            "tuesday": [ 17, 22, 28, 3 ],
+            "wednesday": [ 16, 18, 26, 2 ],
+            "thursday": [ 15, 19, 26, 30 ],
+            "friday": [ 14, 17, 24, 29 ],
+            "saturday": [ 12, 17, 23, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 484,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/trikona-1994.jpeg',
+          title: 'Trikona',
+          artist: 'Katsuhito Nishikawa',
+          year: '1994',
+          rule: {
+            "monday": [ 12, 17, 23, 28 ],
+            "tuesday": [ 11, 16, 22, 29 ],
+            "wednesday": [ 17, 22, 28, 3 ],
+            "thursday": [ 16, 18, 26, 2 ],
+            "friday": [ 15, 19, 26, 30 ],
+            "saturday": [ 14, 17, 24, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 485,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/haken-1994.jpeg',
+          title: 'Haken',
+          artist: 'James Licini',
+          year: '1994',
+          rule: {
+            "monday": [ 14, 17, 24, 29 ],
+            "tuesday": [ 12, 17, 23, 28 ],
+            "wednesday": [ 11, 16, 22, 29 ],
+            "thursday": [ 17, 22, 28, 3 ],
+            "friday": [ 16, 18, 26, 2 ],
+            "saturday": [ 15, 19, 26, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

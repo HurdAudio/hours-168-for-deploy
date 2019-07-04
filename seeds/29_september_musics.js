@@ -5350,6 +5350,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 298,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=19004510/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://shop.pyzmusic.com/album/ley-lines-iv-towering-morphodelica',
+          a_string: 'Ley Lines IV: Towering Morphodelica by Steve Lawson, Andy Edwards &amp; Phi Yaan-Zek',
+          rule: {
+            "monday": [ 13, 3, 11, 5 ],
+            "tuesday": [ 17, 7, 15, 9 ],
+            "wednesday": [ 16, 6, 14, 8 ],
+            "thursday": [ 15, 5, 13, 6 ],
+            "saturday": [ 15, 4, 12, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 299,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2836409197/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://blydeblyant.bandcamp.com/album/abc',
+          a_string: 'ABC by Øyvind Skarbø, Hilmar Jensson, Shahzad Ismaily',
+          rule: {
+            "monday": [ 15, 4, 12, 6 ],
+            "tuesday": [ 13, 3, 11, 5 ],
+            "wednesday": [ 17, 7, 15, 9 ],
+            "thursday": [ 16, 6, 14, 8 ],
+            "saturday": [ 15, 5, 13, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 300,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=604774652/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://blydeblyant.bandcamp.com/album/hindsight-bias',
+          a_string: 'Hindsight Bias by Øyvind Skarbø, Hilmar Jensson, Shahzad Ismaily',
+          rule: {
+            "monday": [ 15, 5, 13, 6 ],
+            "tuesday": [ 15, 4, 12, 6 ],
+            "wednesday": [ 13, 3, 11, 5 ],
+            "thursday": [ 17, 7, 15, 9 ],
+            "saturday": [ 16, 6, 14, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

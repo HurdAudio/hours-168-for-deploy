@@ -9404,6 +9404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 471,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/06-06,Munsey.jpg',
+          title: 'The Munsey',
+          artist: 'W. Herbert Dunton',
+          year: '1906',
+          rule: {
+            "monday": [ 9, 22, 30, 5 ],
+            "tuesday": [ 8, 20, 29, 4 ],
+            "wednesday": [ 7, 20, 28, 3 ],
+            "thursday": [ 6, 19, 27, 2 ],
+            "friday": [ 5, 18, 26, 1 ],
+            "saturday": [ 4, 16, 15, 31 ],
+            "sunday": [ 24, 16, 4, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 472,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/44-05,Adv.jpg',
+          title: 'Adventure',
+          artist: 'Charles Dye',
+          year: '1944',
+          rule: {
+            "monday": [ 24, 16, 4, 11 ],
+            "tuesday": [ 9, 22, 30, 5 ],
+            "wednesday": [ 8, 20, 29, 4 ],
+            "thursday": [ 7, 20, 28, 3 ],
+            "friday": [ 6, 19, 27, 2 ],
+            "saturday": [ 5, 18, 26, 1 ],
+            "sunday": [ 4, 16, 15, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 473,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/34-03,GoodStories.jpg',
+          title: 'Good Stories',
+          artist: 'H. I. Dyer',
+          year: '1934',
+          rule: {
+            "monday": [ 4, 16, 15, 31 ],
+            "tuesday": [ 24, 16, 4, 11 ],
+            "wednesday": [ 9, 22, 30, 5 ],
+            "thursday": [ 8, 20, 29, 4 ],
+            "friday": [ 7, 20, 28, 3 ],
+            "saturday": [ 6, 19, 27, 2 ],
+            "sunday": [ 5, 18, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 474,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/26-00,EboliAD2.jpg',
+          title: 'Advertisement',
+          artist: 'Frank A. Eboli',
+          year: '1924',
+          rule: {
+            "monday": [ 5, 18, 26, 1 ],
+            "tuesday": [ 4, 16, 15, 31 ],
+            "wednesday": [ 24, 16, 4, 11 ],
+            "thursday": [ 9, 22, 30, 5 ],
+            "friday": [ 8, 20, 29, 4 ],
+            "saturday": [ 7, 20, 28, 3 ],
+            "sunday": [ 6, 19, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 475,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/29-02-01,Ace-Hi1.jpg',
+          title: 'Ace-High',
+          artist: 'Nick Eggenhofer',
+          year: '1929',
+          rule: {
+            "monday": [ 6, 19, 27, 2 ],
+            "tuesday": [ 5, 18, 26, 1 ],
+            "wednesday": [ 4, 16, 15, 31 ],
+            "thursday": [ 24, 16, 4, 11 ],
+            "friday": [ 9, 22, 30, 5 ],
+            "saturday": [ 8, 20, 29, 4 ],
+            "sunday": [ 7, 20, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

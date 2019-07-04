@@ -11204,6 +11204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 561,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/vision-of-the-city-of-god.jpeg',
+          title: 'Vision of the City of God',
+          artist: 'Hildegard of Bingen',
+          year: '?',
+          rule: {
+            "monday": [ 16, 27, 4, 14 ],
+            "tuesday": [ 16, 26, 3, 13 ],
+            "wednesday": [ 15, 26, 2, 12 ],
+            "thursday": [ 14, 24, 1, 11 ],
+            "friday": [ 13, 23, 1, 10 ],
+            "saturday": [ 19, 28, 7, 15 ],
+            "sunday": [ 18, 28, 5, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 562,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/portrait-of-lady-su-hui-with-a-palindrome-in-the-manner-of-zhu-shuzheng.jpeg',
+          title: 'Portrait of Lady Su Hui with a Palindrome in the Manner of Zhu Shuzheng',
+          artist: 'Guan Daosheng',
+          year: '?',
+          rule: {
+            "monday": [ 18, 28, 5, 15 ],
+            "tuesday": [ 16, 27, 4, 14 ],
+            "wednesday": [ 16, 26, 3, 13 ],
+            "thursday": [ 15, 26, 2, 12 ],
+            "friday": [ 14, 24, 1, 11 ],
+            "saturday": [ 13, 23, 1, 10 ],
+            "sunday": [ 19, 28, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 563,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-adoration-of-the-magi-1560.jpeg',
+          title: 'The Adoration of the Magi',
+          artist: 'Lavinia Fontana',
+          year: '1560',
+          rule: {
+            "monday": [ 19, 28, 7, 15 ],
+            "tuesday": [ 18, 28, 5, 15 ],
+            "wednesday": [ 16, 27, 4, 14 ],
+            "thursday": [ 16, 26, 3, 13 ],
+            "friday": [ 15, 26, 2, 12 ],
+            "saturday": [ 14, 24, 1, 11 ],
+            "sunday": [ 13, 23, 1, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 564,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/cherries-in-a-silver-compote.jpeg',
+          title: 'Cherries in a Silver Compote',
+          artist: 'Fede Galizia',
+          year: '?',
+          rule: {
+            "monday": [ 13, 23, 1, 10 ],
+            "tuesday": [ 19, 28, 7, 15 ],
+            "wednesday": [ 18, 28, 5, 15 ],
+            "thursday": [ 16, 27, 4, 14 ],
+            "friday": [ 16, 26, 3, 13 ],
+            "saturday": [ 15, 26, 2, 12 ],
+            "sunday": [ 14, 24, 1, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 565,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/display-image-12.jpeg',
+          title: 'Still Life with Blackberries',
+          artist: 'Louise Moillon',
+          year: '?',
+          rule: {
+            "monday": [ 14, 24, 1, 11 ],
+            "tuesday": [ 13, 23, 1, 10 ],
+            "wednesday": [ 19, 28, 7, 15 ],
+            "thursday": [ 18, 28, 5, 15 ],
+            "friday": [ 16, 27, 4, 14 ],
+            "saturday": [ 16, 26, 3, 13 ],
+            "sunday": [ 15, 26, 2, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

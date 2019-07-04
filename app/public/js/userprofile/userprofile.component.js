@@ -320,9 +320,70 @@
       vm.userDeleteMusicShareComment = userDeleteMusicShareComment;
       vm.userMusicShareCommentDeleteCancel = userMusicShareCommentDeleteCancel;
       vm.userMusicShareCommentDeleteConfirmClick = userMusicShareCommentDeleteConfirmClick;
-
       vm.shareMusicWith = shareMusicWith;
       vm.cancelMusicShareInvite = cancelMusicShareInvite;
+      vm.userEditTileShareComment = userEditTileShareComment;
+      vm.userEditTileShareCommentCompleted = userEditTileShareCommentCompleted;
+      vm.deleteTileShare = deleteTileShare;
+
+      function deleteTileShare(tileId) {
+        $http.delete(`/tile_shares/${tileId}`)
+        .then(deletedTileShareData => {
+          let deletedTileShare = deletedTileShareData.data;
+          for (let i = 0; i < vm.activeTileShares.length; i++) {
+            if (parseInt(vm.activeTileShares[i].id) === parseInt(tileId)) {
+              vm.activeTileShares.splice(i, 1);
+            }
+          }
+        });
+      }
+
+      function userEditTileShareCommentCompleted(commentId) {
+        let editDeleteTileShareCommentDiv = document.getElementById('editDeleteTileShareCommentDiv' + commentId);
+        let thisIsTileShareCommentComment = document.getElementById('thisIsTileShareCommentComment' + commentId);
+        let thisIsTileShareCommentEditDoneDiv = document.getElementById('thisIsTileShareCommentEditDoneDiv' + commentId);
+        let thisIsTheTileShareCommentEditor = document.getElementById('thisIsTheTileShareCommentEditor' + commentId);
+        let now = new Date();
+
+        $http.get(`/tile_share_comments/${commentId}`)
+        .then(shareCommentData => {
+          let shareComment = shareCommentData.data;
+          if (thisIsTheTileShareCommentEditor.value !== shareComment.comment) {
+            let subObj = {
+              comment: thisIsTheTileShareCommentEditor.value,
+              updated_at: now
+            };
+            console.log(subObj);
+            $http.patch(`/tile_share_comments/${commentId}`, subObj)
+            .then(updatedCommentData => {
+              let updatedComment = updatedCommentData.data;
+              thisIsTileShareCommentComment.innerHTML = updatedComment.comment;
+              editDeleteTileShareCommentDiv.setAttribute("style", "display: initial;");
+              thisIsTileShareCommentComment.setAttribute("style", "visibility: visible;");
+              thisIsTileShareCommentEditDoneDiv.setAttribute("style", "display: none;");
+              thisIsTheTileShareCommentEditor.setAttribute("style", "display: none;");
+            });
+          } else {
+            editDeleteTileShareCommentDiv.setAttribute("style", "display: initial;");
+            thisIsTileShareCommentComment.setAttribute("style", "visibility: visible;");
+            thisIsTileShareCommentEditDoneDiv.setAttribute("style", "display: none;");
+            thisIsTheTileShareCommentEditor.setAttribute("style", "display: none;");
+          }
+        });
+      }
+
+      function userEditTileShareComment(commentId) {
+        let editDeleteTileShareCommentDiv = document.getElementById('editDeleteTileShareCommentDiv' + commentId);
+        let thisIsTileShareCommentComment = document.getElementById('thisIsTileShareCommentComment' + commentId);
+        let thisIsTileShareCommentEditDoneDiv = document.getElementById('thisIsTileShareCommentEditDoneDiv' + commentId);
+        let thisIsTheTileShareCommentEditor = document.getElementById('thisIsTheTileShareCommentEditor' + commentId);
+
+        editDeleteTileShareCommentDiv.setAttribute("style", "display: none;");
+        thisIsTileShareCommentComment.setAttribute("style", "visibility: hidden;");
+        thisIsTileShareCommentEditDoneDiv.setAttribute("style", "display: initial;");
+        thisIsTheTileShareCommentEditor.setAttribute("style", "display: initial;");
+        thisIsTheTileShareCommentEditor.value = thisIsTileShareCommentComment.innerHTML;
+      }
 
       function cancelMusicShareInvite() {
         let shareMusicPane = document.getElementById('shareMusicPane');

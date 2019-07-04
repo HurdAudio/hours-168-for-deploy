@@ -10604,6 +10604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/st-martin-reflection_tsgc1a.jpg',
+          title: 'Abstract reflection on the Saint Martin Canal, Paris',
+          artist: 'Avner Ofer',
+          year: '2019',
+          rule: {
+            "monday": [ 21, 1, 11, 9 ],
+            "tuesday": [ 10, 20, 30, 8 ],
+            "wednesday": [ 9, 19, 29, 7 ],
+            "thursday": [ 15, 25, 5, 12 ],
+            "friday": [ 14, 24, 5, 12 ],
+            "saturday": [ 13, 23, 3, 1 ],
+            "sunday": [ 12, 22, 2, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/2019-taiwan-3119_vzj7vq.jpg',
+          title: 'Abstract Spiral Dual Staircase',
+          artist: 'Avner Ofer',
+          year: '2019',
+          rule: {
+            "monday": [ 13, 23, 3, 10 ],
+            "tuesday": [ 22, 2, 12, 10 ],
+            "wednesday": [ 11, 21, 1, 9 ],
+            "thursday": [ 10, 20, 30, 8 ],
+            "friday": [ 16, 26, 6, 13 ],
+            "saturday": [ 15, 25, 6, 13 ],
+            "sunday": [ 14, 24, 4, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/2018_colombia-10670_ra90ey.jpg',
+          title: 'Cartagena reflection',
+          artist: 'Avner Ofer',
+          year: '2018',
+          rule: {
+            "monday": [ 14, 24, 4, 2 ],
+            "tuesday": [ 13, 23, 3, 10 ],
+            "wednesday": [ 22, 2, 12, 10 ],
+            "thursday": [ 11, 21, 1, 9 ],
+            "friday": [ 10, 20, 30, 8 ],
+            "saturday": [ 16, 26, 6, 13 ],
+            "sunday": [ 15, 25, 6, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/2-white-horses_yha5yy.jpg',
+          title: 'Two white horses with big manes, facing each other',
+          artist: 'Avner Ofer',
+          year: '2019',
+          rule: {
+            "monday": [ 15, 25, 6, 13 ],
+            "tuesday": [ 14, 24, 4, 2 ],
+            "wednesday": [ 13, 23, 3, 10 ],
+            "thursday": [ 22, 2, 12, 10 ],
+            "friday": [ 11, 21, 1, 9 ],
+            "saturday": [ 10, 20, 30, 8 ],
+            "sunday": [ 16, 26, 6, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/bo-kaap1_j4wswh.jpg',
+          title: 'A detailed view of a colorful house roof trim',
+          artist: 'Avner Ofer',
+          year: '2019',
+          rule: {
+            "monday": [ 16, 26, 6, 13 ],
+            "tuesday": [ 15, 25, 6, 13 ],
+            "wednesday": [ 14, 24, 4, 2 ],
+            "thursday": [ 13, 23, 3, 10 ],
+            "friday": [ 22, 2, 12, 10 ],
+            "saturday": [ 11, 21, 1, 9 ],
+            "sunday": [ 10, 20, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

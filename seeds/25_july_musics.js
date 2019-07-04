@@ -5566,6 +5566,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 310,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=8639420/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://georgiaannemuldrow.bandcamp.com/album/vweto-ii',
+          a_string: 'VWETO II by Georgia Anne Muldrow',
+          rule: {
+            "monday": [ 12, 13, 18, 26 ],
+            "tuesday": [ 11, 13, 17, 25 ],
+            "wednesday": [ 15, 17, 21, 29 ],
+            "thursday": [ 14, 16, 20, 28 ],
+            "saturday": [ 13, 15, 19, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 311,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1340505271/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://shanacleveland.bandcamp.com/album/night-of-the-worm-moon',
+          a_string: 'Night of the Worm Moon by Shana Cleveland',
+          rule: {
+            "monday": [ 13, 15, 19, 27 ],
+            "tuesday": [ 12, 13, 18, 26 ],
+            "wednesday": [ 11, 13, 17, 25 ],
+            "thursday": [ 15, 17, 21, 29 ],
+            "saturday": [ 14, 16, 20, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 312,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=450606677/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://slowthai.bandcamp.com/album/nothing-great-about-britain',
+          a_string: 'Nothing Great About Britain by slowthai',
+          rule: {
+            "monday": [ 14, 16, 20, 28 ],
+            "tuesday": [ 13, 15, 19, 27 ],
+            "wednesday": [ 12, 13, 18, 26 ],
+            "thursday": [ 11, 13, 17, 25 ],
+            "saturday": [ 15, 17, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

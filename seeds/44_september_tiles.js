@@ -1180,6 +1180,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#E8E8CD',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 85,
+          user_id: 1,
+          theme: 'Leather',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/1200px-Suede_Jacket_Adler.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '170%',
+          color_dark: '#11090B',
+          color_medium: '#7D290C',
+          color_light: '#F8FCF7',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

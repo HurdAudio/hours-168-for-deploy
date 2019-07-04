@@ -11030,6 +11030,34 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 710,
+          user_id: 1,
+          name: 'Leon Trotsky (revolutionary/Marxist theorist) bron 1879',
+          color: '#0D0D0D',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/leon-trotsky-9510793-1-402.jpg',
+          day_of: new Date ('1879-11-07  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 711,
+          user_id: 1,
+          name: 'DescriptionMeena Keshwar Kamal (revolutionary/political activist/feminist/women\'s rights activist) born 1956',
+          color: '#0210C3',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/1517685804_3.jpg',
+          day_of: new Date ('1956-02-27  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

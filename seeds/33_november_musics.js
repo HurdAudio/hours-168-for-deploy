@@ -5134,6 +5134,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 286,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4234132083/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/siria',
+          a_string: 'Siriá by Mestre Cupijó e Seu Ritmo (The mythical sound of northern Brasil)',
+          rule: {
+            "monday": [ 10, 21, 2, 6 ],
+            "tuesday": [ 9, 20, 1, 3 ],
+            "wednesday": [ 8, 19, 30, 12 ],
+            "thursday": [ 12, 23, 4, 8 ],
+            "saturday": [ 11, 22, 3, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 287,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2909032497/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/senegal-70-sonic-gems-previously-unreleased-recordings-from-the-70s',
+          a_string: 'Senegal 70 - Sonic Gems &amp; Previously Unreleased Recordings from the 70s by Various',
+          rule: {
+            "monday": [ 12, 23, 4, 8 ],
+            "tuesday": [ 11, 22, 3, 7 ],
+            "wednesday": [ 10, 21, 2, 4 ],
+            "thursday": [ 9, 20, 1, 13 ],
+            "saturday": [ 13, 24, 5, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 288,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1123281549/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/legend-of-funana-the-forbidden-music-of-the-cape-verde-islands',
+          a_string: 'Legend Of Funaná (The Forbidden Music of The Cape Verde Islands) by Bitori',
+          rule: {
+            "monday": [ 13, 24, 5, 9 ],
+            "tuesday": [ 12, 23, 4, 8 ],
+            "wednesday": [ 11, 22, 3, 7 ],
+            "thursday": [ 10, 21, 2, 4 ],
+            "saturday": [ 9, 20, 1, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

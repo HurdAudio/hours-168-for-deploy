@@ -5242,6 +5242,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 292,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=185010313/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://frenchvanilla.bandcamp.com/album/how-am-i-not-myself',
+          a_string: 'How Am I Not Myself? by French Vanilla',
+          rule: {
+            "monday": [ 19, 29, 8, 11 ],
+            "tuesday": [ 18, 28, 7, 10 ],
+            "wednesday": [ 17, 27, 6, 9 ],
+            "thursday": [ 16, 26, 6, 8 ],
+            "saturday": [ 15, 25, 4, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 293,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2731939025/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://warmbodies100.bandcamp.com/album/ufo-extremos',
+          a_string: 'UFO EXTREMO&#39;s by Warm Bodies',
+          rule: {
+            "monday": [ 15, 25, 4, 7 ],
+            "tuesday": [ 19, 29, 8, 11 ],
+            "wednesday": [ 18, 28, 7, 10 ],
+            "thursday": [ 17, 27, 6, 9 ],
+            "saturday": [ 16, 26, 6, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 294,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1140482942/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mushband.bandcamp.com/album/induction-party',
+          a_string: 'Induction Party by Mush',
+          rule: {
+            "monday": [ 17, 27, 7, 9 ],
+            "tuesday": [ 16, 26, 5, 8 ],
+            "wednesday": [ 20, 30, 9, 12 ],
+            "thursday": [ 19, 29, 8, 11 ],
+            "saturday": [ 18, 28, 7, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

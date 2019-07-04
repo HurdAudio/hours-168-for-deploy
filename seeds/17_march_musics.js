@@ -5998,6 +5998,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 334,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3766178554/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://carlageneve.bandcamp.com/album/carla-geneve',
+          a_string: 'Carla Geneve by Carla Geneve',
+          rule: {
+            "monday": [ 18, 25, 31, 8 ],
+            "tuesday": [ 18, 24, 30, 7 ],
+            "wednesday": [ 22, 28, 3, 11 ],
+            "thursday": [ 21, 27, 2, 10 ],
+            "saturday": [ 20, 26, 1, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 335,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1728182340/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://christellebofale.bandcamp.com/album/swim-team',
+          a_string: 'Swim Team by Christelle Bofale',
+          rule: {
+            "monday": [ 20, 26, 1, 10 ],
+            "tuesday": [ 18, 25, 31, 8 ],
+            "wednesday": [ 18, 24, 30, 7 ],
+            "thursday": [ 22, 28, 3, 11 ],
+            "saturday": [ 21, 27, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 336,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2891795100/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://fayewebster.bandcamp.com/album/atlanta-millionaires-club',
+          a_string: 'Atlanta Millionaires Club by Faye Webster',
+          rule: {
+            "monday": [ 22, 28, 3, 11 ],
+            "tuesday": [ 21, 27, 2, 11 ],
+            "wednesday": [ 19, 26, 1, 9 ],
+            "thursday": [ 19, 25, 31, 8 ],
+            "saturday": [ 23, 29, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

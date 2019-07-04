@@ -11404,6 +11404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 571,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/45541.jpg',
+          title: 'The Stream Crosses the Path',
+          artist: 'John T. Biggers',
+          year: '1961',
+          rule: {
+            "monday": [ 5, 13, 21, 2 ],
+            "tuesday": [ 5, 15, 11, 1 ],
+            "wednesday": [ 24, 3, 11, 19 ],
+            "thursday": [ 25, 5, 13, 21 ],
+            "friday": [ 2, 7, 13, 23 ],
+            "saturday": [ 1, 9, 17, 25 ],
+            "sunday": [ 3, 13, 19, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 572,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/2017_sanford_biggers_khemestry.jpg',
+          title: 'Khemestry',
+          artist: 'Sanford Biggers',
+          year: '2017',
+          rule: {
+            "monday": [ 3, 13, 19, 25 ],
+            "tuesday": [ 5, 13, 21, 2 ],
+            "wednesday": [ 5, 15, 11, 1 ],
+            "thursday": [ 24, 3, 11, 19 ],
+            "friday": [ 25, 5, 13, 21 ],
+            "saturday": [ 2, 7, 13, 23 ],
+            "sunday": [ 1, 9, 17, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 573,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/gene-bilbrew.jpg',
+          title: '50s Dominatrix',
+          artist: 'Gene Bilbrew',
+          year: '?',
+          rule: {
+            "monday": [ 1, 9, 17, 25 ],
+            "tuesday": [ 3, 13, 19, 25 ],
+            "wednesday": [ 5, 13, 21, 2 ],
+            "thursday": [ 5, 15, 11, 1 ],
+            "friday": [ 24, 3, 11, 19 ],
+            "saturday": [ 25, 5, 13, 21 ],
+            "sunday": [ 2, 7, 13, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 574,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Binion-Image-1.jpg',
+          title: 'DNA: Seasons: XI',
+          artist: 'McArthur Binion',
+          year: '2016',
+          rule: {
+            "monday": [ 3, 8, 14, 24 ],
+            "tuesday": [ 2, 10, 18, 26 ],
+            "wednesday": [ 4, 14, 20, 26 ],
+            "thursday": [ 6, 14, 22, 3 ],
+            "friday": [ 6, 16, 12, 2 ],
+            "saturday": [ 25, 4, 12, 20 ],
+            "sunday": [ 26, 6, 14, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 575,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/SAAM-2003.8_1.jpg',
+          title: 'Blackburn,',
+          artist: 'Robert Blackburn',
+          year: '2002',
+          rule: {
+            "monday": [ 26, 6, 14, 22 ],
+            "tuesday": [ 3, 8, 14, 24 ],
+            "wednesday": [ 2, 10, 18, 26 ],
+            "thursday": [ 4, 14, 20, 26 ],
+            "friday": [ 6, 14, 22, 3 ],
+            "saturday": [ 6, 16, 12, 2 ],
+            "sunday": [ 25, 4, 12, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

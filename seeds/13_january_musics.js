@@ -6214,6 +6214,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 346,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1414808163/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/seven-guitars-from-amplify-box-set',
+          a_string: 'seven guitars (from AMPLIFY box set) by Rowe/Akiyama/Ambarchi/Nakamura/Otomo/Stangl/Sugimoto',
+          rule: {
+            "monday": [ 25, 31, 1, 2 ],
+            "tuesday": [ 24, 31, 1, 2 ],
+            "wednesday": [ 28, 4, 5, 6 ],
+            "thursday": [ 27, 2, 3, 5 ],
+            "saturday": [ 26, 2, 3, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 347,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2185767083/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/festival-3-4-from-amplify-box-set',
+          a_string: 'festival 3/4 (from AMPLIFY box set) by various artists',
+          rule: {
+            "monday": [ 26, 2, 3, 4 ],
+            "tuesday": [ 25, 31, 1, 2 ],
+            "wednesday": [ 24, 31, 1, 2 ],
+            "thursday": [ 28, 4, 5, 6 ],
+            "saturday": [ 27, 2, 3, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 348,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1497644838/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/festival-1-2-from-amplify-box-set',
+          a_string: 'festival 1/2 (from AMPLIFY box set) by various artists',
+          rule: {
+            "monday": [ 27, 2, 3, 5 ],
+            "tuesday": [ 26, 2, 3, 4 ],
+            "wednesday": [ 25, 31, 1, 2 ],
+            "thursday": [ 24, 31, 1, 2 ],
+            "saturday": [ 28, 4, 5, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
