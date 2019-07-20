@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1942-13.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 13, 23, 31, 2 ],
+            "tuesday": [ 10, 21, 31, 20 ],
+            "wednesday": [ 9, 20, 30, 8 ],
+            "thursday": [ 7, 17, 27, 4 ],
+            "friday": [ 5, 14, 26, 4 ],
+            "saturday": [ 15, 27, 6, 14 ],
+            "sunday": [ 15, 26, 4, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/young-fritz-1942.jpeg',
+          title: 'Young Fritz',
+          artist: 'Kukryniksy',
+          year: '1942',
+          rule: {
+            "monday": [ 15, 26, 4, 14 ],
+            "tuesday": [ 13, 23, 31, 2 ],
+            "wednesday": [ 10, 21, 31, 20 ],
+            "thursday": [ 9, 20, 30, 8 ],
+            "friday": [ 7, 17, 27, 4 ],
+            "saturday": [ 5, 14, 26, 4 ],
+            "sunday": [ 15, 27, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/as-it-called-by-orel-so-it-echoed-in-rome-the-tass-window-779-1943.jpeg',
+          title: 'As it called by Orel so it echoed in Rome (The TASS Window №779)',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 15, 27, 6, 14 ],
+            "tuesday": [ 15, 26, 4, 14 ],
+            "wednesday": [ 13, 23, 31, 2 ],
+            "thursday": [ 10, 21, 31, 20 ],
+            "friday": [ 9, 20, 30, 8 ],
+            "saturday": [ 7, 17, 27, 4 ],
+            "sunday": [ 5, 14, 26, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/blitzkrieg-1943.jpeg',
+          title: 'Blitzkrieg',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 5, 14, 26, 4 ],
+            "tuesday": [ 15, 27, 6, 14 ],
+            "wednesday": [ 15, 26, 4, 14 ],
+            "thursday": [ 13, 23, 31, 2 ],
+            "friday": [ 10, 21, 31, 20 ],
+            "saturday": [ 9, 20, 30, 8 ],
+            "sunday": [ 7, 17, 27, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/coode-where-we-could-better-land-1943.jpeg',
+          title: 'Where we sould better land?',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 7, 17, 27, 4 ],
+            "tuesday": [ 5, 14, 26, 4 ],
+            "wednesday": [ 15, 27, 6, 14 ],
+            "thursday": [ 15, 26, 4, 14 ],
+            "friday": [ 13, 23, 31, 2 ],
+            "saturday": [ 10, 21, 31, 20 ],
+            "sunday": [ 9, 20, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

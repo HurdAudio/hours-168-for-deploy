@@ -11034,7 +11034,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 710,
           user_id: 1,
-          name: 'Leon Trotsky (revolutionary/Marxist theorist) bron 1879',
+          name: 'Leon Trotsky (revolutionary/Marxist theorist) born 1879',
           color: '#0D0D0D',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/leon-trotsky-9510793-1-402.jpg',
           day_of: new Date ('1879-11-07  21:00:00 GMT'),
@@ -11048,7 +11048,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 711,
           user_id: 1,
-          name: 'DescriptionMeena Keshwar Kamal (revolutionary/political activist/feminist/women\'s rights activist) born 1956',
+          name: 'Meena Keshwar Kamal (revolutionary/political activist/feminist/women\'s rights activist) born 1956',
           color: '#0210C3',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/1517685804_3.jpg',
           day_of: new Date ('1956-02-27  21:00:00 GMT'),
@@ -11056,6 +11056,44 @@ exports.seed = function(knex, Promise) {
           art_override: false,
           music_override: false,
           override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 712,
+          user_id: 1,
+          name: 'Mort Garson (composer) born 1924',
+          color: '#88D0B5',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/mortGarson.jpeg',
+          day_of: new Date ('1924-07-20  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=1251308296/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://mortgarson.bandcamp.com/album/mother-earths-plantasia' ],
+            "a_strings": [ 'Mother Earth&#39;s Plantasia by Mort Garson' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 713,
+          user_id: 1,
+          name: 'Maryanne Amacher (composer) born 1938',
+          color: '#515151',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/Amacher_knobs-2-2000x1200.jpg',
+          day_of: new Date ('1938-02-25  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=1605921230/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://blankformseditions.bandcamp.com/album/petra' ],
+            "a_strings": [ 'Petra by Maryanne Amacher' ]
+          },
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
         }

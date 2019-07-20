@@ -9504,6 +9504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 476,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-10,BlkBkD-p41.jpg',
+          title: 'Black Book Detective p41',
+          artist: 'Monroe Eisenberg',
+          year: '1936',
+          rule: {
+            "monday": [ 8, 21, 29, 4 ],
+            "tuesday": [ 7, 20, 28, 3 ],
+            "wednesday": [ 6, 19, 27, 2 ],
+            "thursday": [ 5, 17, 16, 1 ],
+            "friday": [ 25, 17, 5, 12 ],
+            "saturday": [ 10, 23, 31, 6 ],
+            "sunday": [ 9, 21, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 477,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/42-00,GaySaints.jpg',
+          title: 'Legends of Saints',
+          artist: 'Jill Elgin',
+          year: '1942',
+          rule: {
+            "monday": [ 9, 21, 30, 5 ],
+            "tuesday": [ 8, 21, 29, 4 ],
+            "wednesday": [ 7, 20, 28, 3 ],
+            "thursday": [ 6, 19, 27, 2 ],
+            "friday": [ 5, 17, 16, 1 ],
+            "saturday": [ 25, 17, 5, 12 ],
+            "sunday": [ 10, 23, 31, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 478,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/42-01,HitComcs.jpg',
+          title: 'Hit Comics',
+          artist: 'Maxwell Elkan',
+          year: '1942',
+          rule: {
+            "monday": [ 10, 23, 31, 6 ],
+            "tuesday": [ 9, 21, 30, 5 ],
+            "wednesday": [ 8, 21, 29, 4 ],
+            "thursday": [ 7, 20, 28, 3 ],
+            "friday": [ 6, 19, 27, 2 ],
+            "saturday": [ 5, 17, 16, 1 ],
+            "sunday": [ 25, 17, 5, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 479,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/34-01-16,JaneArden.jpg',
+          title: 'Jane Arden',
+          artist: 'Frank Ellis',
+          year: '1934',
+          rule: {
+            "monday": [ 25, 17, 5, 12 ],
+            "tuesday": [ 10, 23, 31, 6 ],
+            "wednesday": [ 9, 21, 30, 5 ],
+            "thursday": [ 8, 21, 29, 4 ],
+            "friday": [ 7, 20, 28, 3 ],
+            "saturday": [ 6, 19, 27, 2 ],
+            "sunday": [ 5, 17, 16, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 480,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/26-12,FrntrS.jpg',
+          title: 'Frontier Stories',
+          artist: 'R. Farrington Elwell',
+          year: '1926',
+          rule: {
+            "monday": [ 5, 17, 16, 1 ],
+            "tuesday": [ 25, 17, 5, 12 ],
+            "wednesday": [ 10, 23, 31, 6 ],
+            "thursday": [ 9, 21, 30, 5 ],
+            "friday": [ 8, 21, 29, 4 ],
+            "saturday": [ 7, 20, 28, 3 ],
+            "sunday": [ 6, 19, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

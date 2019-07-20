@@ -11304,6 +11304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 566,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/mary-beale-attr-portrait-of-nell-gwyl.jpeg',
+          title: 'Portrait Der Königlichen Maitresse Nell Gwyn. Öl Auf Leinwand. 60,5 X 50 Cm.',
+          artist: 'Mary Beale',
+          year: '1697',
+          rule: {
+            "monday": [ 15, 26, 2, 12 ],
+            "tuesday": [ 14, 24, 1, 11 ],
+            "wednesday": [ 13, 23, 1, 10 ],
+            "thursday": [ 19, 28, 7, 15 ],
+            "friday": [ 18, 28, 5, 15 ],
+            "saturday": [ 16, 27, 4, 14 ],
+            "sunday": [ 16, 26, 3, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 567,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/lady-in-a-turkish-costume-felicita-sartori-1728.jpeg',
+          title: 'Lady in a Turkish Costume (Felicita Sartori)',
+          artist: 'Rosalba Carriera',
+          year: '1728',
+          rule: {
+            "monday": [ 17, 27, 4, 14 ],
+            "tuesday": [ 16, 27, 3, 13 ],
+            "wednesday": [ 15, 25, 2, 12 ],
+            "thursday": [ 14, 24, 2, 11 ],
+            "friday": [ 20, 29, 8, 16 ],
+            "saturday": [ 19, 29, 6, 16 ],
+            "sunday": [ 17, 28, 5, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 568,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/still-life-with-a-ham-1767.jpeg',
+          title: 'Still Life with a Ham',
+          artist: 'Anne Vallayer-Coster',
+          year: '1767',
+          rule: {
+            "monday": [ 17, 28, 5, 15 ],
+            "tuesday": [ 17, 27, 4, 14 ],
+            "wednesday": [ 16, 27, 3, 13 ],
+            "thursday": [ 15, 25, 2, 12 ],
+            "friday": [ 14, 24, 2, 11 ],
+            "saturday": [ 20, 29, 8, 16 ],
+            "sunday": [ 19, 29, 6, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 569,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/portrait-of-baron-larrey.jpeg',
+          title: 'Portrait of Baron Larrey',
+          artist: 'Marie-Guillemine Benoist',
+          year: '?',
+          rule: {
+            "monday": [ 19, 29, 6, 16 ],
+            "tuesday": [ 17, 28, 5, 15 ],
+            "wednesday": [ 17, 27, 4, 14 ],
+            "thursday": [ 16, 27, 3, 13 ],
+            "friday": [ 15, 25, 2, 12 ],
+            "saturday": [ 14, 24, 2, 11 ],
+            "sunday": [ 20, 29, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 570,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/ellen-terry-1864.jpeg',
+          title: 'Ellen Terry',
+          artist: 'Julia Margaret Cameron',
+          year: '1864',
+          rule: {
+            "monday": [ 20, 29, 8, 16 ],
+            "tuesday": [ 19, 29, 6, 16 ],
+            "wednesday": [ 17, 28, 5, 15 ],
+            "thursday": [ 17, 27, 4, 14 ],
+            "friday": [ 16, 27, 3, 13 ],
+            "saturday": [ 15, 25, 2, 12 ],
+            "sunday": [ 14, 24, 2, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

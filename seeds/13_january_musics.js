@@ -6268,6 +6268,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 349,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1238860122/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/tint-from-amplify-box-set',
+          a_string: 'tint (from AMPLIFY box set) by Günter Müller/Toshimaru Nakamura',
+          rule: {
+            "monday": [ 28, 4, 5, 6 ],
+            "tuesday": [ 27, 2, 3, 5 ],
+            "wednesday": [ 26, 2, 3, 4 ],
+            "thursday": [ 25, 31, 1, 2 ],
+            "saturday": [ 24, 31, 1, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 350,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2869945779/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/outside-shows-from-amplify-box-set',
+          a_string: 'outside shows (from AMPLIFY box set) by Lehn, Nakamura, Akiyama, Müller, Kurzmann, Sugimoto',
+          rule: {
+            "monday": [ 25, 1, 2, 3 ],
+            "tuesday": [ 29, 5, 6, 7 ],
+            "wednesday": [ 28, 3, 4, 6 ],
+            "thursday": [ 27, 3, 4, 5 ],
+            "saturday": [ 26, 1, 2, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 351,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2058219811/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/open',
+          a_string: 'open by Matt Davis/Phil Durrant/Mark Wastell',
+          rule: {
+            "monday": [ 26, 1, 2, 3 ],
+            "tuesday": [ 25, 1, 2, 3 ],
+            "wednesday": [ 29, 5, 6, 7 ],
+            "thursday": [ 28, 3, 4, 6 ],
+            "saturday": [ 27, 3, 4, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

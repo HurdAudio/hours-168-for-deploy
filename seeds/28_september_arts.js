@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-lens-painting-2007.jpeg',
+          title: 'Untitled (Lens Painting)',
+          artist: 'Sigmar Polke',
+          year: '2007',
+          rule: {
+            "monday": [ 14, 20, 8, 16 ],
+            "tuesday": [ 13, 18, 7, 15 ],
+            "wednesday": [ 11, 18, 6, 14 ],
+            "thursday": [ 11, 17, 5, 13 ],
+            "friday": [ 30, 16, 4, 13 ],
+            "saturday": [ 29, 6, 3, 11 ],
+            "sunday": [ 7, 14, 2, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/still-2002.jpeg',
+          title: 'Still',
+          artist: 'Daniel Richter',
+          year: '2002',
+          rule: {
+            "monday": [ 7, 14, 2, 9 ],
+            "tuesday": [ 14, 20, 8, 16 ],
+            "wednesday": [ 13, 18, 7, 15 ],
+            "thursday": [ 11, 18, 6, 14 ],
+            "friday": [ 11, 17, 5, 13 ],
+            "saturday": [ 30, 16, 4, 13 ],
+            "sunday": [ 29, 6, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/bacchus-3-1978.jpeg',
+          title: 'Bacchus #3',
+          artist: 'Elaine de Kooning',
+          year: '1978',
+          rule: {
+            "monday": [ 29, 6, 3, 11 ],
+            "tuesday": [ 7, 14, 2, 9 ],
+            "wednesday": [ 14, 20, 8, 16 ],
+            "thursday": [ 13, 18, 7, 15 ],
+            "friday": [ 11, 18, 6, 14 ],
+            "saturday": [ 11, 17, 5, 13 ],
+            "sunday": [ 30, 16, 4, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-drinker-1996.jpeg',
+          title: 'The Drinker',
+          artist: 'Billy Childish',
+          year: 'c.1996',
+          rule: {
+            "monday": [ 30, 16, 4, 13 ],
+            "tuesday": [ 29, 6, 3, 11 ],
+            "wednesday": [ 7, 14, 2, 9 ],
+            "thursday": [ 14, 20, 8, 16 ],
+            "friday": [ 13, 18, 7, 15 ],
+            "saturday": [ 11, 18, 6, 14 ],
+            "sunday": [ 11, 17, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/circus-1984.jpeg',
+          title: 'Circus',
+          artist: 'Basil Beattie',
+          year: '1984',
+          rule: {
+            "monday": [ 30, 16, 4, 13 ],
+            "tuesday": [ 29, 6, 3, 11 ],
+            "wednesday": [ 7, 14, 2, 9 ],
+            "thursday": [ 14, 20, 8, 16 ],
+            "friday": [ 13, 18, 7, 15 ],
+            "saturday": [ 11, 18, 6, 14 ],
+            "sunday": [ 11, 17, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

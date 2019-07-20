@@ -5080,6 +5080,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 283,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3395045662/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/49th-parallel-album-1969-canadian-garage-rock',
+          a_string: '49th Parallel - album (1969 Canadian Garage Rock) by 49th Parallel',
+          rule: {
+            "monday": [ 12, 18, 24, 30 ],
+            "tuesday": [ 16, 22, 28, 3 ],
+            "wednesday": [ 15, 21, 27, 2 ],
+            "thursday": [ 12, 20, 26, 1 ],
+            "saturday": [ 11, 19, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 284,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2938630700/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/odyssey-setting-forth-usa-psych-heavy-rock-1969-killer',
+          a_string: 'Odyssey &quot;Setting Forth&quot; (USA PSYCH HEAVY ROCK) (1969) KILLER by Oddysey',
+          rule: {
+            "monday": [ 11, 19, 25, 31 ],
+            "tuesday": [ 12, 18, 24, 30 ],
+            "wednesday": [ 16, 22, 28, 3 ],
+            "thursday": [ 15, 21, 27, 2 ],
+            "saturday": [ 12, 20, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 285,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3189491838/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/the-folklords-release-the-sunshine-1968-canadian-sunshine-folk-pop',
+          a_string: 'The Folklords &quot;Release the Sunshine&quot; (1968 Canadian Sunshine Folk Pop) by The Folklords',
+          rule: {
+            "monday": [ 12, 20, 26, 1 ],
+            "tuesday": [ 11, 19, 25, 31 ],
+            "wednesday": [ 12, 18, 24, 30 ],
+            "thursday": [ 16, 22, 28, 3 ],
+            "saturday": [ 15, 21, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

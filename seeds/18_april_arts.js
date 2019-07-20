@@ -11104,6 +11104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 556,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/71519-1024__35450.1512972071.jpg',
+          title: 'Old Baseball Seats Fenway Park Boston',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 15, 20, 26, 2 ],
+            "tuesday": [ 14, 19, 25, 1 ],
+            "wednesday": [ 19, 25, 30, 6 ],
+            "thursday": [ 3, 23, 29, 5 ],
+            "friday": [ 18, 21, 29, 5 ],
+            "saturday": [ 17, 21, 6, 4 ],
+            "sunday": [ 14, 20, 26, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 557,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/kawakami-jpg-baseball-art-baseball-stuff-sports-baseball-softball-sports-Eb35e0c6173e52da215446997e2eef92c.jpeg',
+          title: 'Japanese Baseball Card',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 14, 20, 26, 2 ],
+            "tuesday": [ 15, 20, 26, 2 ],
+            "wednesday": [ 14, 19, 25, 1 ],
+            "thursday": [ 19, 25, 30, 6 ],
+            "friday": [ 3, 23, 29, 5 ],
+            "saturday": [ 18, 21, 29, 5 ],
+            "sunday": [ 17, 21, 6, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 558,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Charles_Comiskey_Old_Judge_1888.jpg',
+          title: 'Charles Comiskey Old Judge',
+          artist: 'unknown artist',
+          year: '1888',
+          rule: {
+            "monday": [ 17, 21, 6, 4 ],
+            "tuesday": [ 14, 20, 26, 2 ],
+            "wednesday": [ 15, 20, 26, 2 ],
+            "thursday": [ 14, 19, 25, 1 ],
+            "friday": [ 19, 25, 30, 6 ],
+            "saturday": [ 3, 23, 29, 5 ],
+            "sunday": [ 18, 21, 29, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 559,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/old-baseball-renee-frazier.jpg',
+          title: 'Old Baseball',
+          artist: 'Renee Frazier',
+          year: '2014',
+          rule: {
+            "monday": [ 18, 21, 29, 5 ],
+            "tuesday": [ 17, 21, 6, 4 ],
+            "wednesday": [ 14, 20, 26, 2 ],
+            "thursday": [ 15, 20, 26, 2 ],
+            "friday": [ 14, 19, 25, 1 ],
+            "saturday": [ 19, 25, 30, 6 ],
+            "sunday": [ 3, 23, 29, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 560,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/oldMetsPoster.jpeg',
+          title: 'Old Mets Poster',
+          artist: 'John Robertson',
+          year: '?',
+          rule: {
+            "monday": [ 4, 24, 30, 6 ],
+            "tuesday": [ 19, 22, 30, 6 ],
+            "wednesday": [ 18, 22, 7, 5 ],
+            "thursday": [ 15, 21, 27, 3 ],
+            "friday": [ 16, 21, 27, 3 ],
+            "saturday": [ 15, 20, 26, 2 ],
+            "sunday": [ 20, 26, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

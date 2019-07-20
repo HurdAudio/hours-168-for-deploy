@@ -11504,6 +11504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 576,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Image_Resize_Merge_imagesBlackshear.jpeg',
+          title: 'Texas Chillin',
+          artist: 'Thomas Blackshear',
+          year: '?',
+          rule: {
+            "monday": [ 25, 4, 12, 20 ],
+            "tuesday": [ 26, 6, 14, 22 ],
+            "wednesday": [ 3, 8, 14, 24 ],
+            "thursday": [ 2, 10, 18, 26 ],
+            "friday": [ 4, 14, 20, 26 ],
+            "saturday": [ 6, 14, 22, 3 ],
+            "sunday": [ 6, 16, 12, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 577,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/57600a6b3a806.image.jpg',
+          title: 'Shape of Sound',
+          artist: 'Betty Blayton-Taylor',
+          year: '?',
+          rule: {
+            "monday": [ 6, 16, 12, 2 ],
+            "tuesday": [ 25, 4, 12, 20 ],
+            "wednesday": [ 26, 6, 14, 22 ],
+            "thursday": [ 3, 8, 14, 24 ],
+            "friday": [ 2, 10, 18, 26 ],
+            "saturday": [ 4, 14, 20, 26 ],
+            "sunday": [ 6, 14, 22, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 578,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/08c95775-c354-4540-9185-1f01406bdcbd_471_650.jpg',
+          title: 'Conversion',
+          artist: 'Chakaia Booker',
+          year: '2006',
+          rule: {
+            "monday": [ 6, 14, 22, 3 ],
+            "tuesday": [ 6, 16, 12, 2 ],
+            "wednesday": [ 25, 4, 12, 20 ],
+            "thursday": [ 26, 6, 14, 22 ],
+            "friday": [ 3, 8, 14, 24 ],
+            "saturday": [ 2, 10, 18, 26 ],
+            "sunday": [ 4, 14, 20, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 579,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/520876315.jpg',
+          title: 'A New Color',
+          artist: 'Edythe Boone',
+          year: '2015',
+          rule: {
+            "monday": [ 4, 14, 20, 26 ],
+            "tuesday": [ 6, 14, 22, 3 ],
+            "wednesday": [ 6, 16, 12, 2 ],
+            "thursday": [ 25, 4, 12, 20 ],
+            "friday": [ 26, 6, 14, 22 ],
+            "saturday": [ 3, 8, 14, 24 ],
+            "sunday": [ 2, 10, 18, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 580,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/charles-boyce_compu-toon_6-november-2014.jpg',
+          title: 'In order for Irving to defeat a slimy non-vertebrate monstrous beast, he had to become one.',
+          artist: 'Charles Boyce',
+          year: '2014',
+          rule: {
+            "monday": [ 2, 10, 18, 26 ],
+            "tuesday": [ 4, 14, 20, 26 ],
+            "wednesday": [ 6, 14, 22, 3 ],
+            "thursday": [ 6, 16, 12, 2 ],
+            "friday": [ 25, 4, 12, 20 ],
+            "saturday": [ 26, 6, 14, 22 ],
+            "sunday": [ 3, 8, 14, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

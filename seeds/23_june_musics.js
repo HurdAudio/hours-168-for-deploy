@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2436273230/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://biosphere.bandcamp.com/album/the-senja-recordings',
+          a_string: 'The Senja Recordings by Biosphere',
+          rule: {
+            "monday": [ 12, 20, 22, 7 ],
+            "tuesday": [ 16, 20, 26, 7 ],
+            "wednesday": [ 15, 18, 23, 5 ],
+            "thursday": [ 14, 17, 23, 4 ],
+            "saturday": [ 14, 17, 23, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2819716286/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://josephinewiggs.bandcamp.com/album/we-fall',
+          a_string: 'We Fall by Josephine Wiggs',
+          rule: {
+            "monday": [ 14, 17, 23, 3 ],
+            "tuesday": [ 12, 20, 22, 7 ],
+            "wednesday": [ 16, 20, 26, 7 ],
+            "thursday": [ 15, 18, 23, 5 ],
+            "saturday": [ 14, 17, 23, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3111169015/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://danielwohl.bandcamp.com/album/tat',
+          a_string: 'État by Daniel Wohl',
+          rule: {
+            "monday": [ 14, 17, 23, 4 ],
+            "tuesday": [ 14, 17, 23, 3 ],
+            "wednesday": [ 12, 20, 22, 7 ],
+            "thursday": [ 16, 20, 26, 7 ],
+            "saturday": [ 15, 18, 23, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

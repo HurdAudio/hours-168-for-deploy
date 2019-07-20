@@ -3784,6 +3784,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 316,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/empty-spaces-abandoned-places-johnny-joo-urbexus-6.jpg',
+          title: 'Woodward Avenue Presbyterian Church in Detroit',
+          artist: 'Johnny Joo',
+          year: '2015',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 317,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/empty-spaces-abandoned-places-johnny-joo-urbexus-7.jpg',
+          title: 'Hillandale Park in Euclid, Ohio.',
+          artist: 'Johnny Joo',
+          year: '2015',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 318,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/empty-spaces-abandoned-places-johnny-joo-urbexus-8.jpg',
+          title: 'Sidaway Bridge in Cleveland, Ohio',
+          artist: 'Johnny Joo',
+          year: '2015',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/.jpg',
+          title: 'Looking directly up inside the former Warner & Swasey space observatory in Cleveland, Ohio',
+          artist: 'Johnny Joo',
+          year: '2015',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_author_id: 1,
+          theme: 'Abandoned Places',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/empty-spaces-abandoned-places-johnny-joo-urbexus-10.jpg',
+          title: 'A former prison cell inside the Mansfield Reformatory of Mansfield, Ohio',
+          artist: 'Johnny Joo',
+          year: '2015',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

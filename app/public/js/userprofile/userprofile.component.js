@@ -325,6 +325,45 @@
       vm.userEditTileShareComment = userEditTileShareComment;
       vm.userEditTileShareCommentCompleted = userEditTileShareCommentCompleted;
       vm.deleteTileShare = deleteTileShare;
+      vm.addNewMusicShareComment = addNewMusicShareComment;
+
+      function addNewMusicShareComment(musicShareId) {
+        let index = null;
+        let check;
+        let subObj = {
+          user_id: currentUserId,
+          music_share: musicShareId,
+          comment: ''
+        };
+        $http.post('/music_share_comments', subObj)
+        .then(addedMusicShareCommentData => {
+          let addedMusicShareComment = addedMusicShareCommentData.data[0];
+          check = new Date(addedMusicShareComment.created_at);
+          for (let i = 0; i < vm.activeMusicShares.length; i++) {
+            if (parseInt(vm.activeMusicShares[i].id) === parseInt(musicShareId)) {
+              index = i;
+            }
+          }
+          if ((vm.activeMusicShares[index].comments === undefined) || (vm.activeMusicShares[index].comments === null)) {
+            vm.activeMusicShares[index].comments = [];
+          }
+          vm.activeMusicShares[index].comments[vm.activeMusicShares[index].comments.length] = {
+            id: addedMusicShareComment.id,
+            user_id: addedMusicShareComment.user_id,
+            comment: addedMusicShareComment.comment,
+            cleanDate: cleanDateHoliday(addedMusicShareComment.created_at) + ' at ' + check.toLocaleTimeString('en-GB') + '.'
+          };
+          obtainMusicShareCommenterDatas(addedMusicShareComment, index, (vm.activeMusicShares[index].comments.length - 1));
+          setTimeout(() => {
+              document.getElementById('thisIsTheMusicShareCommentEditor' + addedMusicShareComment.id).setAttribute("style", "display: none;");
+              document.getElementById('thisIsTheMusicShareCommentEditorDoneButton' + addedMusicShareComment.id).setAttribute("style", "visibility: hidden;");
+              document.getElementById('editDeleteMusicShareCommentDiv' + addedMusicShareComment.id).setAttribute("style", "display: initial;");
+              userEditMusicShareComment(addedMusicShareComment.id);
+              document.getElementById('thisIsTheMusicShareCommentEditor' + addedMusicShareComment.id).focus();
+          }, 500);
+        });
+
+      }
 
       function deleteTileShare(tileId) {
         $http.delete(`/tile_shares/${tileId}`)
@@ -838,6 +877,39 @@
         });
       }
 
+      function removeEmptyMusicShareComment(id) {
+        $http.delete(`/music_share_comments/${id}`)
+        .then(removedCommentData => {
+          let removedComment = removedCommentData.data;
+          for (let i = 0; i < vm.activeMusicShares.length; i++) {
+            if ((vm.activeMusicShares[i].comments !== undefined) && (vm.activeMusicShares[i].comments !== null)) {
+              for (let j = 0; vm.activeMusicShares[i].comments.length; j++) {
+                if (parseInt(vm.activeMusicShares[i].comments[j].id) === parseInt(id)) {
+                  vm.activeMusicShares[i].comments.splice(j, 1);
+                }
+              }
+            }
+          }
+        });
+      }
+
+      function removeEmptyMusicShareComments() {
+        $http.get('/music_share_comments')
+        .then(allMusicShareCommentsData => {
+          let allMusicShareComments = allMusicShareCommentsData.data;
+          let userMusicShareComments = allMusicShareComments.filter(entry => {
+            return(parseInt(entry.user_id) === parseInt(currentUserId));
+          });
+          if (userMusicShareComments.length > 0) {
+            for (let i = 0; userMusicShareComments.length; i++) {
+              if (userMusicShareComments[i].comment === '') {
+                removeEmptyMusicShareComment(userMusicShareComments[i].id);
+              }
+            }
+          }
+        });
+      }
+
       function userEditMusicShareCommentCompleted(commentId) {
         let entry = document.getElementById('thisIsTheMusicShareCommentEditor' + commentId).value;
         let now = new Date();
@@ -862,6 +934,7 @@
         document.getElementById('thisIsTheMusicShareCommentEditorDoneButton' + commentId).setAttribute("style", "visibility: hidden;");
         document.getElementById('thisIsMusicShareCommentComment' + commentId).setAttribute("style", "visibility: visible;");
         document.getElementById('thisIsTheMusicShareCommentEditor' + commentId).value = '';
+        removeEmptyMusicShareComments();
       }
 
       function userEditMusicShareComment(commentId) {

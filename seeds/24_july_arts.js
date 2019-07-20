@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/opera-kurde-1959.jpeg',
+          title: 'Opera Kurde',
+          artist: 'Jean-Michel Atlan',
+          year: '1959',
+          rule: {
+            "monday": [ 15, 24, 6, 17 ],
+            "tuesday": [ 13, 24, 5, 16 ],
+            "wednesday": [ 13, 24, 4, 5 ],
+            "thursday": [ 12, 23, 2, 4 ],
+            "friday": [ 11, 22, 2, 3 ],
+            "saturday": [ 10, 21, 1, 12 ],
+            "sunday": [ 16, 27, 7, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/danger-1937.jpeg',
+          title: 'Danger',
+          artist: 'Francis Gruber',
+          year: '1937',
+          rule: {
+            "monday": [ 16, 27, 7, 17 ],
+            "tuesday": [ 15, 24, 6, 17 ],
+            "wednesday": [ 13, 24, 5, 16 ],
+            "thursday": [ 13, 24, 4, 5 ],
+            "friday": [ 12, 23, 2, 4 ],
+            "saturday": [ 11, 22, 2, 3 ],
+            "sunday": [ 10, 21, 1, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/avenue-de-l-opera.jpeg',
+          title: 'Avenue de l\'Opera',
+          artist: 'Antoine Blanchard',
+          year: '?',
+          rule: {
+            "monday": [ 10, 21, 1, 12 ],
+            "tuesday": [ 16, 27, 7, 17 ],
+            "wednesday": [ 15, 24, 6, 17 ],
+            "thursday": [ 13, 24, 5, 16 ],
+            "friday": [ 13, 24, 4, 5 ],
+            "saturday": [ 12, 23, 2, 4 ],
+            "sunday": [ 11, 22, 2, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/octobre.jpeg',
+          title: 'Octobre',
+          artist: 'Raoul Ubac',
+          year: '?',
+          rule: {
+            "monday": [ 11, 22, 2, 3 ],
+            "tuesday": [ 10, 21, 1, 12 ],
+            "wednesday": [ 16, 27, 7, 17 ],
+            "thursday": [ 15, 24, 6, 17 ],
+            "friday": [ 13, 24, 5, 16 ],
+            "saturday": [ 13, 24, 4, 5 ],
+            "sunday": [ 12, 23, 2, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/composition-1957.jpeg',
+          title: 'Composition',
+          artist: 'Jean Le Moal',
+          year: '1957',
+          rule: {
+            "monday": [ 12, 23, 2, 4 ],
+            "tuesday": [ 11, 22, 2, 3 ],
+            "wednesday": [ 10, 21, 1, 12 ],
+            "thursday": [ 16, 27, 7, 17 ],
+            "friday": [ 15, 24, 6, 17 ],
+            "saturday": [ 13, 24, 5, 16 ],
+            "sunday": [ 13, 24, 4, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

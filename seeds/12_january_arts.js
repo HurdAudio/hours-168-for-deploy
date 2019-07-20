@@ -11704,6 +11704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 586,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/iridescent-interpenetration-no-5-eucalyptus-1914.jpeg',
+          title: 'Iridescent Interpenetration No.5 - Eucalyptus',
+          artist: 'Giacomo Balla',
+          year: '1914',
+          rule: {
+            "monday": [ 1, 3, 4, 6 ],
+            "tuesday": [ 3, 5, 9, 12 ],
+            "wednesday": [ 5, 7, 8, 9 ],
+            "thursday": [ 24, 26, 18, 7 ],
+            "friday": [ 24, 26, 18, 7 ],
+            "saturday": [ 29, 27, 19, 22 ],
+            "sunday": [ 29, 30, 21, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 587,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/planet-mercury-passing-in-front-of-the-sun-1914-2.jpeg',
+          title: 'Planet Mercury passing in front of the Sun',
+          artist: 'Giacomo Balla',
+          year: '1914',
+          rule: {
+            "monday": [ 29, 30, 21, 25 ],
+            "tuesday": [ 1, 3, 4, 6 ],
+            "wednesday": [ 3, 5, 9, 12 ],
+            "thursday": [ 5, 7, 8, 9 ],
+            "friday": [ 24, 26, 18, 7 ],
+            "saturday": [ 24, 26, 18, 7 ],
+            "sunday": [ 29, 27, 19, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 588,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/painting-deployment-intersection-1914.jpeg',
+          title: 'Painting (Deployment-intersection)',
+          artist: 'Amadeo de Souza-Cardoso',
+          year: '1914',
+          rule: {
+            "monday": [ 30, 28, 20, 23 ],
+            "tuesday": [ 30, 31, 22, 26 ],
+            "wednesday": [ 2, 4, 5, 7 ],
+            "thursday": [ 4, 6, 10, 13 ],
+            "friday": [ 6, 8, 9, 10 ],
+            "saturday": [ 25, 27, 19, 8 ],
+            "sunday": [ 25, 27, 19, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 589,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/synchromy-in-orange-to-form-1914.jpeg',
+          title: 'Synchromy in Orange: To Form',
+          artist: 'Morgan Russell',
+          year: '1914',
+          rule: {
+            "monday": [ 25, 27, 19, 8 ],
+            "tuesday": [ 30, 28, 20, 23 ],
+            "wednesday": [ 30, 31, 22, 26 ],
+            "thursday": [ 2, 4, 5, 7 ],
+            "friday": [ 4, 6, 10, 13 ],
+            "saturday": [ 6, 8, 9, 10 ],
+            "sunday": [ 25, 27, 19, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 590,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/in-the-hold-1914.jpeg',
+          title: 'In the Hold',
+          artist: 'David Bomberg',
+          year: '1914',
+          rule: {
+            "monday": [ 25, 27, 19, 8 ],
+            "tuesday": [ 25, 27, 19, 8 ],
+            "wednesday": [ 30, 28, 20, 23 ],
+            "thursday": [ 30, 31, 22, 26 ],
+            "friday": [ 2, 4, 5, 7 ],
+            "saturday": [ 4, 6, 10, 13 ],
+            "sunday": [ 6, 8, 9, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

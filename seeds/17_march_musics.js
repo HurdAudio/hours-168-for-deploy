@@ -6052,6 +6052,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 337,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3537426782/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://kainamusic.bandcamp.com/album/next-to-the-sun',
+          a_string: 'Next to The Sun by KAINA',
+          rule: {
+            "monday": [ 23, 29, 4, 12 ],
+            "tuesday": [ 22, 28, 3, 11 ],
+            "wednesday": [ 21, 27, 2, 11 ],
+            "thursday": [ 19, 26, 1, 9 ],
+            "saturday": [ 19, 25, 31, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 338,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=969446742/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ceumusic.bandcamp.com/album/tropix',
+          a_string: 'Tropix by Céu',
+          rule: {
+            "monday": [ 19, 25, 31, 8 ],
+            "tuesday": [ 23, 29, 4, 12 ],
+            "wednesday": [ 22, 28, 3, 11 ],
+            "thursday": [ 21, 27, 2, 11 ],
+            "saturday": [ 19, 26, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 339,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4171890148/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://chenoir.bandcamp.com/album/the-thrill-of-the-hunt-2',
+          a_string: 'The Thrill Of The Hunt 2 by Che` Noir',
+          rule: {
+            "monday": [ 19, 26, 1, 9 ],
+            "tuesday": [ 19, 25, 31, 8 ],
+            "wednesday": [ 23, 29, 4, 12 ],
+            "thursday": [ 22, 28, 3, 11 ],
+            "saturday": [ 21, 27, 2, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

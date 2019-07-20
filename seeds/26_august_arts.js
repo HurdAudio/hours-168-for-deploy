@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/posters-at-trouville-1906.jpeg',
+          title: 'Posters at Trouville',
+          artist: 'Albert Marquet',
+          year: '1906',
+          rule: {
+            "monday": [ 10, 13, 22, 7 ],
+            "tuesday": [ 9, 12, 21, 6 ],
+            "wednesday": [ 15, 19, 27, 12 ],
+            "thursday": [ 14, 17, 26, 11 ],
+            "friday": [ 13, 17, 25, 10 ],
+            "saturday": [ 12, 14, 24, 9 ],
+            "sunday": [ 11, 13, 23, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/painting-formerly-machine-1916.jpeg',
+          title: 'Painting (formerly Machine)',
+          artist: 'Morton Shamberg',
+          year: '1916',
+          rule: {
+            "monday": [ 11, 13, 23, 8 ],
+            "tuesday": [ 10, 13, 22, 7 ],
+            "wednesday": [ 9, 12, 21, 6 ],
+            "thursday": [ 15, 19, 27, 12 ],
+            "friday": [ 14, 17, 26, 11 ],
+            "saturday": [ 13, 17, 25, 10 ],
+            "sunday": [ 12, 14, 24, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-bridge-in-curve-1930.jpeg',
+          title: 'The Bridge in Curve',
+          artist: 'Grace Cossington Smith',
+          year: '1930',
+          rule: {
+            "monday": [ 13, 15, 25, 10 ],
+            "tuesday": [ 12, 14, 24, 9 ],
+            "wednesday": [ 11, 14, 23, 8 ],
+            "thursday": [ 10, 13, 22, 7 ],
+            "friday": [ 16, 20, 28, 13 ],
+            "saturday": [ 15, 18, 27, 12 ],
+            "sunday": [ 14, 18, 26, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-fairytale-1916.jpeg',
+          title: 'The Fairytale',
+          artist: 'Heinrich Campendonk',
+          year: '1916',
+          rule: {
+            "monday": [ 14, 18, 26, 11 ],
+            "tuesday": [ 13, 15, 25, 10 ],
+            "wednesday": [ 12, 14, 24, 9 ],
+            "thursday": [ 11, 14, 23, 8 ],
+            "friday": [ 10, 13, 22, 7 ],
+            "saturday": [ 16, 20, 28, 13 ],
+            "sunday": [ 15, 18, 27, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/advent-of-spring-and-summer-1914.jpeg',
+          title: 'Advent of spring and summer',
+          artist: 'David Burliuk',
+          year: '1914',
+          rule: {
+            "monday": [ 15, 18, 27, 12 ],
+            "tuesday": [ 14, 18, 26, 11 ],
+            "wednesday": [ 13, 15, 25, 10 ],
+            "thursday": [ 12, 14, 24, 9 ],
+            "friday": [ 11, 14, 23, 8 ],
+            "saturday": [ 10, 13, 22, 7 ],
+            "sunday": [ 16, 20, 28, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

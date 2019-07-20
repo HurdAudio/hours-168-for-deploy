@@ -6160,6 +6160,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 343,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2957344749/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mrdibiase.bandcamp.com/album/bonus-levels',
+          a_string: 'Bonus Levels by DIBIA$E',
+          rule: {
+            "monday": [ 9, 3, 5, 11 ],
+            "tuesday": [ 10, 4, 6, 12 ],
+            "wednesday": [ 22, 26, 28, 3 ],
+            "thursday": [ 25, 28, 1, 3 ],
+            "saturday": [ 7, 1, 3, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 344,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1464850037/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://belowsystem.bandcamp.com/album/the-summer-ep',
+          a_string: 'The Summer EP by The Good People',
+          rule: {
+            "monday": [ 7, 1, 3, 5 ],
+            "tuesday": [ 9, 3, 5, 11 ],
+            "wednesday": [ 10, 4, 6, 12 ],
+            "thursday": [ 22, 26, 28, 3 ],
+            "saturday": [ 25, 28, 1, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 345,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3315059735/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://liquidbeat.bandcamp.com/album/eternal-ridin',
+          a_string: 'Eternal Ridin&#39; by Libretto &amp; Buscrates',
+          rule: {
+            "monday": [ 25, 28, 1, 3 ],
+            "tuesday": [ 7, 1, 3, 5 ],
+            "wednesday": [ 9, 3, 5, 11 ],
+            "thursday": [ 10, 4, 6, 12 ],
+            "saturday": [ 22, 26, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

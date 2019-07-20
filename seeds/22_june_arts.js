@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/when_you_get_the_virus_by_oofoof699_ddc0nb3-pre.jpg',
+          title: 'when you get the virus',
+          artist: 'oofoof699',
+          year: '2019',
+          rule: {
+            "monday": [ 10, 20, 30, 8 ],
+            "tuesday": [ 16, 26, 6, 13 ],
+            "wednesday": [ 15, 25, 6, 13 ],
+            "thursday": [ 14, 24, 4, 2 ],
+            "friday": [ 13, 23, 3, 10 ],
+            "saturday": [ 22, 2, 12, 10 ],
+            "sunday": [ 11, 21, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/davis_besse__by_23jcrosby12_ddbyvvn-pre.jpg',
+          title: 'Davis Besse',
+          artist: '23jcrosby12',
+          year: '2019',
+          rule: {
+            "monday": [ 11, 21, 1, 9 ],
+            "tuesday": [ 10, 20, 30, 8 ],
+            "wednesday": [ 16, 26, 6, 13 ],
+            "thursday": [ 15, 25, 6, 13 ],
+            "friday": [ 14, 24, 4, 2 ],
+            "saturday": [ 13, 23, 3, 10 ],
+            "sunday": [ 22, 2, 12, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/lens_to_lens_by_temperate_sage_d7siivc-pre.jpg',
+          title: 'Lens to Lens',
+          artist: 'Harmony Sage Lawrence',
+          year: '2019',
+          rule: {
+            "monday": [ 22, 2, 12, 10 ],
+            "tuesday": [ 11, 21, 1, 9 ],
+            "wednesday": [ 10, 20, 30, 8 ],
+            "thursday": [ 16, 26, 6, 13 ],
+            "friday": [ 15, 25, 6, 13 ],
+            "saturday": [ 14, 24, 4, 2 ],
+            "sunday": [ 13, 23, 3, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d9jjmw-c600c22d-5078-4cc4-a279-a32e78141490.jpg',
+          title: 'McHungry - not lovin\' it',
+          artist: 'flumpie',
+          year: '2019',
+          rule: {
+            "monday": [ 14, 24, 4, 11 ],
+            "tuesday": [ 23, 3, 13, 11 ],
+            "wednesday": [ 12, 22, 2, 10 ],
+            "thursday": [ 11, 21, 1, 9 ],
+            "friday": [ 17, 27, 7, 14 ],
+            "saturday": [ 16, 26, 7, 14 ],
+            "sunday": [ 15, 25, 5, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d12rw64-23cab5a7-4e29-4e65-ad71-67d0325d0943.jpg',
+          title: 'Fluid Grace',
+          artist: 'Zhang Jingna',
+          year: '2019',
+          rule: {
+            "monday": [ 15, 25, 5, 3 ],
+            "tuesday": [ 14, 24, 4, 11 ],
+            "wednesday": [ 23, 3, 13, 11 ],
+            "thursday": [ 12, 22, 2, 10 ],
+            "friday": [ 11, 21, 1, 9 ],
+            "saturday": [ 17, 27, 7, 14 ],
+            "sunday": [ 16, 26, 7, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -9684,6 +9684,101 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 486,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/t62-70.jpeg',
+          title: 'Johannes Jan Schoonhoven',
+          artist: 'T62-70',
+          year: '?',
+          rule: {
+            "monday": [ 15, 19, 26, 30 ],
+            "tuesday": [ 14, 17, 24, 29 ],
+            "wednesday": [ 12, 17, 23, 28 ],
+            "thursday": [ 11, 16, 22, 29 ],
+            "friday": [ 17, 22, 28, 3 ],
+            "saturday": [ 16, 18, 26, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 487,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-v-1995.jpeg',
+          title: 'Untitled V',
+          artist: 'Daniel Dezeuze',
+          year: '1995',
+          rule: {
+            "monday": [ 16, 18, 26, 2 ],
+            "tuesday": [ 15, 19, 26, 30 ],
+            "wednesday": [ 14, 17, 24, 29 ],
+            "thursday": [ 12, 17, 23, 28 ],
+            "friday": [ 11, 16, 22, 29 ],
+            "saturday": [ 17, 22, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 488,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/pittura-gr-n-1995.jpeg',
+          title: 'Pittura GR N',
+          artist: 'Pino Pinelli',
+          year: '1995',
+          rule: {
+            "monday": [ 17, 22, 28, 3 ],
+            "tuesday": [ 16, 18, 26, 2 ],
+            "wednesday": [ 15, 19, 26, 30 ],
+            "thursday": [ 14, 17, 24, 29 ],
+            "friday": [ 12, 17, 23, 28 ],
+            "saturday": [ 11, 16, 22, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 489,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/klang-sound-i-1995.jpeg',
+          title: 'Klang-Sound I',
+          artist: 'Jurgen Partenheimer',
+          year: '1995',
+          rule: {
+            "monday": [ 11, 16, 22, 29 ],
+            "tuesday": [ 17, 22, 28, 3 ],
+            "wednesday": [ 16, 18, 26, 2 ],
+            "thursday": [ 15, 19, 26, 30 ],
+            "friday": [ 14, 17, 24, 29 ],
+            "saturday": [ 12, 17, 23, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 490,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/rose-with-dark-red-1995.jpeg',
+          title: 'Rose with Dark Red',
+          artist: 'Peter Joseph',
+          year: '1995',
+          rule: {
+            "monday": [ 13, 18, 24, 29 ],
+            "tuesday": [ 12, 17, 23, 30 ],
+            "wednesday": [ 18, 23, 29, 4 ],
+            "thursday": [ 17, 19, 27, 3 ],
+            "friday": [ 16, 20, 27, 31 ],
+            "saturday": [ 15, 18, 25, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
