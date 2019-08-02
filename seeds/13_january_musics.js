@@ -6322,6 +6322,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 352,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1734684108/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/too-beautiful-to-burn',
+          a_string: 'Too Beautiful To Burn by Martin Siewert/Martin Brandlmayr',
+          rule: {
+            "monday": [ 27, 3, 4, 5 ],
+            "tuesday": [ 26, 1, 2, 3 ],
+            "wednesday": [ 25, 1, 2, 3 ],
+            "thursday": [ 29, 5, 6, 7 ],
+            "saturday": [ 28, 3, 4, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 353,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2040214036/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/duos-for-doris',
+          a_string: 'Duos For Doris by Keith Rowe/John Tilbury',
+          rule: {
+            "monday": [ 28, 3, 4, 6 ],
+            "tuesday": [ 27, 3, 4, 5 ],
+            "wednesday": [ 26, 1, 2, 3 ],
+            "thursday": [ 25, 1, 2, 3 ],
+            "saturday": [ 29, 5, 6, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 354,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2436823571/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/time-travel',
+          a_string: 'Time Travel by Günter Müller/Otomo Yoshihide',
+          rule: {
+            "monday": [ 29, 5, 6, 7 ],
+            "tuesday": [ 28, 3, 4, 6 ],
+            "wednesday": [ 27, 3, 4, 5 ],
+            "thursday": [ 26, 1, 2, 3 ],
+            "saturday": [ 25, 1, 2, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

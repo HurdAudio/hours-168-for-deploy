@@ -10204,6 +10204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 511,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/alassio-nice-1971.jpeg',
+          title: 'Alassio - Nice',
+          artist: 'Joaquim Rodrigo',
+          year: '1971',
+          rule: {
+            "monday": [ 12, 18, 6, 14 ],
+            "tuesday": [ 1, 17, 5, 14 ],
+            "wednesday": [ 30, 7, 4, 12 ],
+            "thursday": [ 8, 15, 3, 10 ],
+            "friday": [ 15, 21, 9, 17 ],
+            "saturday": [ 14, 19, 8, 16 ],
+            "sunday": [ 12, 19, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 512,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-moveable-magnetic-photographic-points-on-metallic-disc.jpeg',
+          title: 'Untitled (Moveable Magnetic Photographic Points on Metallic Disc)',
+          artist: 'Li Yuan-chia',
+          year: '?',
+          rule: {
+            "monday": [ 12, 19, 7, 15 ],
+            "tuesday": [ 12, 18, 6, 14 ],
+            "wednesday": [ 1, 17, 5, 14 ],
+            "thursday": [ 30, 7, 4, 12 ],
+            "friday": [ 8, 15, 3, 10 ],
+            "saturday": [ 15, 21, 9, 17 ],
+            "sunday": [ 14, 19, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 513,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/waterdrops-no-10-1977.jpeg',
+          title: 'Waterdrops No. 10',
+          artist: 'Kim Tschang-yeul',
+          year: '1977',
+          rule: {
+            "monday": [ 14, 19, 8, 16 ],
+            "tuesday": [ 12, 19, 7, 15 ],
+            "wednesday": [ 12, 18, 6, 14 ],
+            "thursday": [ 1, 17, 5, 14 ],
+            "friday": [ 30, 7, 4, 12 ],
+            "saturday": [ 8, 15, 3, 10 ],
+            "sunday": [ 15, 21, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 514,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/table-2001.jpeg',
+          title: 'Table',
+          artist: 'Jennifer Bartlett',
+          year: '2001',
+          rule: {
+            "monday": [ 15, 21, 9, 17 ],
+            "tuesday": [ 14, 19, 8, 16 ],
+            "wednesday": [ 12, 19, 7, 15 ],
+            "thursday": [ 12, 18, 6, 14 ],
+            "friday": [ 1, 17, 5, 14 ],
+            "saturday": [ 30, 7, 4, 12 ],
+            "sunday": [ 8, 15, 3, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 515,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1982.jpeg',
+          title: 'Untitled',
+          artist: 'Martin Disler',
+          year: '1982',
+          rule: {
+            "monday": [ 8, 15, 3, 10 ],
+            "tuesday": [ 15, 21, 9, 17 ],
+            "wednesday": [ 14, 19, 8, 16 ],
+            "thursday": [ 12, 19, 7, 15 ],
+            "friday": [ 12, 18, 6, 14 ],
+            "saturday": [ 1, 17, 5, 14 ],
+            "sunday": [ 30, 7, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

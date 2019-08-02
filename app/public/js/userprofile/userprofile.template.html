@@ -4360,13 +4360,13 @@
                 <p>{{comment.authorName}} commented <br> {{comment.cleanDate}}</p><br><br><br>
                 <h3 id="thisIsMusicModuleCommentComment{{comment.id}}">{{comment.comment}}</h3>
 
-                <!-- <textarea id="thisIsTheArtModuleCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea> -->
-                <!-- <div class="thisIsArtModuleCommentEditDoneDiv" id="thisIsArtModuleCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheArtModuleCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditArtModuleCommentCompleted(comment.id, artmod.id)">done</a></div> -->
-                <!-- <div id="editDeleteArtModuleUserComments{{comment.id}}" class="messageEditDelete">
-                  <a class="btn" href="#" id="commentArtModuleEditButton{{comment.id}}" ng-click="$ctrl.userEditArtModuleComment(comment.id, artmod.id)">edit</a>
-                  <a class="btn" href="#" id="commentArtModuleDeleteButton{{comment.id}}" ng-click="$ctrl.userDeleteArtModuleComment(comment.id, artmod.id)">delete</a>
+                <textarea id="thisIsTheMusicModuleCommentEditor{{comment.id}}" class="pure-input-1" rows="5"></textarea>
+                <div class="thisIsMusicModuleCommentEditDoneDiv" id="thisIsMusicModuleCommentEditDoneDiv{{comment.id}}"><a class="btn" id="thisIsTheMusicModuleCommentEditorDoneButton{{comment.id}}" href="#" ng-click="$ctrl.userEditMusicModuleCommentCompleted(comment.id)">done</a></div>
+                <div id="editDeleteMusicModuleUserComments{{comment.id}}" class="messageEditDelete">
+                  <a class="btn" href="#" id="commentMusicModuleEditButton{{comment.id}}" ng-click="$ctrl.userEditMusicModuleComment(comment.id)">edit</a>
+                  <a class="btn" href="#" id="commentMusicModuleDeleteButton{{comment.id}}" ng-click="$ctrl.userDeleteMusicModuleComment(comment.id, musicmod.id)">delete</a>
 
-                </div> -->
+                </div>
                 <!-- <div id="deleteArtModuleCommentConfirm{{comment.id}}" class="messageEditDelete">
 
                   <h3>Delete comment forever?</h3>
@@ -5908,6 +5908,17 @@
           <div id="acceptedAppointment{{block.id}}"><h3>Appointment invitation has been accepted</h3></div>
           <div id="declineAppointment{{block.id}}"><h3>Appointment invitation has been declined</h3></div>
           <!-- <a href=""><h3>comment</h3></a> -->
+          <div id="thisIsTimeblockShareReactions{{block.id}}" class="reactionsContainer">
+            <div class="individualReactions">
+              <p class="reactionTally">1</p>
+              <div class="tooltip">
+                <img src="./img/reactions/kisspng-thumb-signal-font-awesome-computer-icons-font-green-thumbs-up-icon-5b4b607cb7a147.6508454515316665567522.png" class="reactionIcon">
+                <span class="tooltipText">Devin Hurd</span>
+              </div>
+              <p class="reactionDelete">X</p>
+            </div>
+
+          </div><br><br><br><br><br><br>
 
 
         <div class="commentsBar">

@@ -5782,6 +5782,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 322,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=635691115/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://solarfields.bandcamp.com/album/origin-03',
+          a_string: 'Origin # 03 by Solar Fields',
+          rule: {
+            "monday": [ 16, 19, 24, 6 ],
+            "tuesday": [ 15, 18, 24, 5 ],
+            "wednesday": [ 15, 18, 24, 4 ],
+            "thursday": [ 13, 21, 23, 8 ],
+            "saturday": [ 17, 21, 27, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 323,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3021798759/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://innerislands.bandcamp.com/album/vale-stone',
+          a_string: 'Vale &amp; Stone by Soda Lite',
+          rule: {
+            "monday": [ 17, 21, 27, 8 ],
+            "tuesday": [ 16, 19, 24, 6 ],
+            "wednesday": [ 15, 18, 24, 5 ],
+            "thursday": [ 15, 18, 24, 4 ],
+            "saturday": [ 13, 21, 23, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 324,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3170683357/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://modernarecords.bandcamp.com/album/particles',
+          a_string: 'Particles by Tom Adams',
+          rule: {
+            "monday": [ 13, 21, 23, 8 ],
+            "tuesday": [ 17, 21, 27, 8 ],
+            "wednesday": [ 16, 19, 24, 6 ],
+            "thursday": [ 15, 18, 24, 5 ],
+            "saturday": [ 15, 18, 24, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

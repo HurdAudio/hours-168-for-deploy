@@ -5458,6 +5458,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 304,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2002689870/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://hashshashin.bandcamp.com/album/badakhshan',
+          a_string: 'Badakhshan by Hashshashin',
+          rule: {
+            "monday": [ 16, 5, 13, 7 ],
+            "tuesday": [ 14, 4, 12, 6 ],
+            "wednesday": [ 18, 8, 16, 10 ],
+            "thursday": [ 17, 7, 15, 9 ],
+            "saturday": [ 16, 6, 14, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 305,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3034941468/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://kikagakumoyoggb.bandcamp.com/album/masana-temples',
+          a_string: 'Masana Temples by Kikagaku Moyo/幾何学模様',
+          rule: {
+            "monday": [ 16, 6, 14, 7 ],
+            "tuesday": [ 16, 5, 13, 7 ],
+            "wednesday": [ 14, 4, 12, 6 ],
+            "thursday": [ 18, 8, 16, 10 ],
+            "saturday": [ 17, 7, 15, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 306,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1440334057/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://eggsinaspic.bandcamp.com/album/black-powder-sunrise-girl',
+          a_string: 'Black Powder Sunrise Girl by Skyjelly',
+          rule: {
+            "monday": [ 17, 7, 15, 9 ],
+            "tuesday": [ 16, 6, 14, 7 ],
+            "wednesday": [ 16, 5, 13, 7 ],
+            "thursday": [ 14, 4, 12, 6 ],
+            "saturday": [ 18, 8, 16, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

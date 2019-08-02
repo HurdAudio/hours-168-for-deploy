@@ -11004,6 +11004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 551,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/goering-1943.jpeg',
+          title: 'Goering',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 9, 20, 30, 8 ],
+            "tuesday": [ 7, 17, 27, 4 ],
+            "wednesday": [ 5, 14, 26, 4 ],
+            "thursday": [ 15, 27, 6, 14 ],
+            "friday": [ 15, 26, 4, 14 ],
+            "saturday": [ 13, 23, 31, 2 ],
+            "sunday": [ 10, 21, 31, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 552,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/i-ve-lost-my-ring-1943.jpeg',
+          title: 'I\'ve lost my ring…',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 10, 21, 31, 20 ],
+            "tuesday": [ 9, 20, 30, 8 ],
+            "wednesday": [ 7, 17, 27, 4 ],
+            "thursday": [ 5, 14, 26, 4 ],
+            "friday": [ 15, 27, 6, 14 ],
+            "saturday": [ 15, 26, 4, 14 ],
+            "sunday": [ 13, 23, 31, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 553,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/obese-duce-the-tass-window-733-1943.jpeg',
+          title: 'Purse Duce (The TASS Window №733)',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 14, 24, 1, 3 ],
+            "tuesday": [ 11, 22, 1, 21 ],
+            "wednesday": [ 10, 21, 31, 9 ],
+            "thursday": [ 8, 18, 28, 5 ],
+            "friday": [ 6, 15, 27, 5 ],
+            "saturday": [ 16, 28, 7, 15 ],
+            "sunday": [ 16, 27, 5, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 554,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/rob-fritz-to-pay-iohann-the-tass-window-747-1943.jpeg',
+          title: 'Rob Fritz to pay Hans (The TASS Window №747)',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 16, 27, 5, 15 ],
+            "tuesday": [ 14, 24, 1, 3 ],
+            "wednesday": [ 11, 22, 1, 21 ],
+            "thursday": [ 10, 21, 31, 9 ],
+            "friday": [ 8, 18, 28, 5 ],
+            "saturday": [ 6, 15, 27, 5 ],
+            "sunday": [ 16, 28, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 555,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/taganrog-is-soviet-again-the-tass-window-812-1943.jpeg',
+          title: 'Taganrog is Soviet again (The TASS Window № 812)',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 16, 28, 7, 15 ],
+            "tuesday": [ 16, 27, 5, 15 ],
+            "wednesday": [ 14, 24, 1, 3 ],
+            "thursday": [ 11, 22, 1, 21 ],
+            "friday": [ 10, 21, 31, 9 ],
+            "saturday": [ 8, 18, 28, 5 ],
+            "sunday": [ 6, 15, 27, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

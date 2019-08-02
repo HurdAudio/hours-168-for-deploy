@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/seaport-1923.jpeg',
+          title: 'Seaport',
+          artist: 'Edward Wadsworth',
+          year: '1923',
+          rule: {
+            "monday": [ 16, 20, 28, 13 ],
+            "tuesday": [ 15, 18, 27, 12 ],
+            "wednesday": [ 14, 18, 26, 11 ],
+            "thursday": [ 13, 15, 25, 10 ],
+            "friday": [ 12, 14, 24, 9 ],
+            "saturday": [ 11, 14, 23, 8 ],
+            "sunday": [ 10, 13, 22, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/vitebsk-1919.jpeg',
+          title: 'Vitebsk',
+          artist: 'Mstislav Dobuzhinsky',
+          year: '1919',
+          rule: {
+            "monday": [ 10, 13, 22, 7 ],
+            "tuesday": [ 16, 20, 28, 13 ],
+            "wednesday": [ 15, 18, 27, 12 ],
+            "thursday": [ 14, 18, 26, 11 ],
+            "friday": [ 13, 15, 25, 10 ],
+            "saturday": [ 12, 14, 24, 9 ],
+            "sunday": [ 11, 14, 23, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/interior-with-a-table-1921.jpeg',
+          title: 'Interior with a Table',
+          artist: 'Vanessa Bell',
+          year: '1921',
+          rule: {
+            "monday": [ 11, 14, 23, 8 ],
+            "tuesday": [ 10, 13, 22, 7 ],
+            "wednesday": [ 16, 20, 28, 13 ],
+            "thursday": [ 15, 18, 27, 12 ],
+            "friday": [ 14, 18, 26, 11 ],
+            "saturday": [ 13, 15, 25, 10 ],
+            "sunday": [ 12, 14, 24, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/bailarico-1936.jpeg',
+          title: 'Bailarico',
+          artist: 'Mario Eloy',
+          year: '1936',
+          rule: {
+            "monday": [ 12, 14, 24, 9 ],
+            "tuesday": [ 11, 14, 23, 8 ],
+            "wednesday": [ 10, 13, 22, 7 ],
+            "thursday": [ 16, 20, 28, 13 ],
+            "friday": [ 15, 18, 27, 12 ],
+            "saturday": [ 14, 18, 26, 11 ],
+            "sunday": [ 13, 15, 25, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-three-ages-of-woman-1905.jpeg',
+          title: 'The Three Ages of Woman',
+          artist: 'Gustav Klimt',
+          year: '1905',
+          rule: {
+            "monday": [ 14, 16, 26, 11 ],
+            "tuesday": [ 13, 15, 25, 10 ],
+            "wednesday": [ 12, 15, 24, 9 ],
+            "thursday": [ 11, 14, 23, 8 ],
+            "friday": [ 17, 21, 29, 14 ],
+            "saturday": [ 16, 19, 28, 13 ],
+            "sunday": [ 15, 19, 27, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

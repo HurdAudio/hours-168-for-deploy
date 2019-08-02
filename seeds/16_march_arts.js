@@ -11404,6 +11404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 571,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/young-mother-sewing-1900.jpeg',
+          title: 'Young Mother Sewing',
+          artist: 'Mary Cassatt',
+          year: '1900',
+          rule: {
+            "monday": [ 14, 24, 2, 11 ],
+            "tuesday": [ 20, 29, 8, 16 ],
+            "wednesday": [ 19, 29, 6, 16 ],
+            "thursday": [ 17, 28, 5, 15 ],
+            "friday": [ 17, 27, 4, 14 ],
+            "saturday": [ 16, 27, 3, 13 ],
+            "sunday": [ 15, 25, 2, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 572,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-front-port.jpeg',
+          title: 'The Front Port',
+          artist: 'Eva Gonzales',
+          year: '?',
+          rule: {
+            "monday": [ 15, 25, 2, 12 ],
+            "tuesday": [ 14, 24, 2, 11 ],
+            "wednesday": [ 20, 29, 8, 16 ],
+            "thursday": [ 19, 29, 6, 16 ],
+            "friday": [ 17, 28, 5, 15 ],
+            "saturday": [ 17, 27, 4, 14 ],
+            "sunday": [ 16, 27, 3, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 573,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/clytie-1898-1.jpeg',
+          title: 'Clytie',
+          artist: 'Evelyn De Morgan',
+          year: '1898',
+          rule: {
+            "monday": [ 16, 27, 3, 13 ],
+            "tuesday": [ 15, 25, 2, 12 ],
+            "wednesday": [ 14, 24, 2, 11 ],
+            "thursday": [ 20, 29, 8, 16 ],
+            "friday": [ 19, 29, 6, 16 ],
+            "saturday": [ 17, 28, 5, 15 ],
+            "sunday": [ 17, 27, 4, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 574,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/anna-ancher-tutt-art-44.jpeg',
+          title: 'Grief',
+          artist: 'Anna Ancher',
+          year: '1902',
+          rule: {
+            "monday": [ 18, 28, 5, 15 ],
+            "tuesday": [ 17, 28, 4, 14 ],
+            "wednesday": [ 16, 26, 3, 13 ],
+            "thursday": [ 15, 25, 3, 12 ],
+            "friday": [ 21, 30, 9, 17 ],
+            "saturday": [ 20, 30, 7, 17 ],
+            "sunday": [ 18, 29, 6, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 575,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/lotte-1900.jpeg',
+          title: 'Lotte',
+          artist: 'Aura Hertwig',
+          year: '1900',
+          rule: {
+            "monday": [ 18, 29, 6, 16 ],
+            "tuesday": [ 18, 28, 5, 15 ],
+            "wednesday": [ 17, 28, 4, 14 ],
+            "thursday": [ 16, 26, 3, 13 ],
+            "friday": [ 15, 25, 3, 12 ],
+            "saturday": [ 21, 30, 9, 17 ],
+            "sunday": [ 20, 30, 7, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

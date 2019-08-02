@@ -11604,6 +11604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 581,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/dogon-country.jpg',
+          title: 'Dogon Country',
+          artist: 'Tina Williams Brewer',
+          year: '2014',
+          rule: {
+            "monday": [ 4, 9, 15, 25 ],
+            "tuesday": [ 3, 11, 19, 27 ],
+            "wednesday": [ 5, 15, 21, 27 ],
+            "thursday": [ 7, 15, 23, 4 ],
+            "friday": [ 7, 17, 13, 3 ],
+            "saturday": [ 26, 5, 13, 21 ],
+            "sunday": [ 27, 7, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 582,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/20131126153819-No._4_.jpg',
+          title: 'A Small Work for Kasimir ',
+          artist: 'Michael Bramwell',
+          year: '?',
+          rule: {
+            "monday": [ 27, 7, 15, 23 ],
+            "tuesday": [ 4, 9, 15, 25 ],
+            "wednesday": [ 3, 11, 19, 27 ],
+            "thursday": [ 5, 15, 21, 27 ],
+            "friday": [ 7, 15, 23, 4 ],
+            "saturday": [ 7, 17, 13, 3 ],
+            "sunday": [ 26, 5, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 583,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/06-18_A_MBradford_3.jpg',
+          title: 'Pickett\'s Charge (Witness Tree), detail',
+          artist: 'Mark Bradford',
+          year: '2016 - 2017',
+          rule: {
+            "monday": [ 26, 5, 13, 21 ],
+            "tuesday": [ 27, 7, 15, 23 ],
+            "wednesday": [ 4, 9, 15, 25 ],
+            "thursday": [ 3, 11, 19, 27 ],
+            "friday": [ 5, 15, 21, 27 ],
+            "saturday": [ 7, 15, 23, 4 ],
+            "sunday": [ 7, 17, 13, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 584,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/unnamed-1_8_orig.jpg',
+          title: 'Archeological Dig',
+          artist: 'Darrell urban Black',
+          year: '?',
+          rule: {
+            "monday": [ 7, 17, 13, 3 ],
+            "tuesday": [ 26, 5, 13, 21 ],
+            "wednesday": [ 27, 7, 15, 23 ],
+            "thursday": [ 4, 9, 15, 25 ],
+            "friday": [ 3, 11, 19, 27 ],
+            "saturday": [ 5, 15, 21, 27 ],
+            "sunday": [ 7, 15, 23, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 585,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/robert-blackburn-refugees.jpg',
+          title: 'Refugees',
+          artist: 'Robert Blackburn',
+          year: 'c. 1938',
+          rule: {
+            "monday": [ 7, 15, 23, 4 ],
+            "tuesday": [ 7, 17, 13, 3 ],
+            "wednesday": [ 26, 5, 13, 21 ],
+            "thursday": [ 27, 7, 15, 23 ],
+            "friday": [ 4, 9, 15, 25 ],
+            "saturday": [ 3, 11, 19, 27 ],
+            "sunday": [ 5, 15, 21, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

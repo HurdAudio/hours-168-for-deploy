@@ -6696,13 +6696,8 @@ exports.seed = function(knex, Promise) {
           day_of: new Date ('1933-08-25  21:00:00 GMT'),
           is_annual: true,
           art_override: false,
-          music_override: true,
-          override_content: {
-            "sources": [ 'bandcamp' ],
-            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=1884620230/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
-            "href_strings": [ 'http://mellowyellowlive.bandcamp.com/album/wayne-shorter-quartet-monte-carlo-2016' ],
-            "a_strings": [ 'WAYNE SHORTER QUARTET  Monte-Carlo 2016 by WAYNE SHORTER QUARTET' ]
-          },
+          music_override: false,
+          override_content: null,
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
         },
@@ -10382,7 +10377,7 @@ exports.seed = function(knex, Promise) {
           music_override: true,
           override_content: {
             "sources": [ 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp' ],
-            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=3527923352/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4050736965/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1297586379/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1334656987/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=245513594/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3845442054/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3388349123/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2842517659/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3817093493/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=299632868/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3291495781/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/unfold-ordinary-mind', 'https://bandcamp.com/EmbeddedPlayer/album=582787171/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2202493147/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/track=839819780/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2315330506/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4125540409/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2652355938/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=3527923352/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4050736965/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1297586379/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1334656987/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=245513594/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3845442054/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3388349123/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2842517659/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3817093493/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=299632868/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3291495781/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1183046122/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=582787171/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2202493147/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/track=839819780/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2315330506/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4125540409/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2652355938/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
             "href_strings": [ 'http://ben-goldberg--bag-production-records.bandcamp.com/album/simon-jermyn-ben-goldberg-silence', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/from-the-granary', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/the-door-the-hat-the-chair-the-fact', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/a-sibling-mystery', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/knuckle-sandwich', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/ben-goldberg-at-the-stone-february-march-2014-lets-cool-one', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/orphic-machine-2', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/worry-later', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/twelve-minor-2', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/here-by-now', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/go-home', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/unfold-ordinary-mind', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/subatomic-particle-homesick-blues', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/junk-genius', 'http://ben-goldberg--bag-production-records.bandcamp.com/track/ben-goldberg-on-kcsms-desert-island-jazz', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/foreign-legion', 'http://ben-goldberg--bag-production-records.bandcamp.com/album/the-relative-value-of-things', 'http://marcocolonna.bandcamp.com/album/an-evening-in-roma' ],
             "a_strings": [ 'Simon Jermyn + Ben Goldberg: Silence by Ben Goldberg / BAG Production Records', 'From the Granary by Ben Goldberg', 'The Door The Hat The Chair The Fact by Ben Goldberg', 'A Sibling Mystery by Invisible Guy', 'Knuckle Sandwich by Invisible Guy', 'Ben Goldberg At The Stone, February/March 2014: Let&#39;s Cool One by Ben Goldberg', 'Orphic Machine by Ben Goldberg', 'Worry Later by Ben Goldberg, Adam Levy, Smith Dobson', 'Twelve Minor by Ben Goldberg', 'Here By Now by Ben Goldberg Trio', 'Go Home by Ben Goldberg', 'Unfold Ordinary Mind by Ben Goldberg', 'Subatomic Particle Homesick Blues by Ben Goldberg', 'Junk Genius by Junk Genius', 'Ben Goldberg on KCSM&#39;s &quot;Desert Island Jazz&quot; by Ben Goldberg / BAG Production Records', 'Foreign Legion by Tin Hat', 'The Relative Value of Things by Kenny Wollesen + Ben Goldberg', 'An evening in Roma by Ben Goldberg, Marco Colonna' ]
           },
@@ -11093,6 +11088,44 @@ exports.seed = function(knex, Promise) {
             "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=1605921230/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
             "href_strings": [ 'http://blankformseditions.bandcamp.com/album/petra' ],
             "a_strings": [ 'Petra by Maryanne Amacher' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 714,
+          user_id: 1,
+          name: 'Frank Rosaly (drummer) born 1974',
+          color: '#030303',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/Health_and_Beauty_W710010.jpg',
+          day_of: new Date ('1974-05-30  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=65540849/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1747420297/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3426210236/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4058412698/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2489696976/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1289550539/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2749167174/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://frankrosaly.bandcamp.com/album/costra', 'http://frankrosaly.bandcamp.com/album/frank-rosalys-viscous', 'http://frankrosaly.bandcamp.com/album/tim-haldeman-frank-rosaly-shitty-sons', 'http://frankrosaly.bandcamp.com/album/milkwork', 'http://frankrosaly.bandcamp.com/album/frank-rosaly-the-rada-remixes', 'http://frankrosaly.bandcamp.com/album/frank-rosaly-solo', 'http://frankrosaly.bandcamp.com/album/one-two' ],
+            "a_strings": [ 'Costra by Frank Rosaly', 'Frank Rosaly&#39;s Viscous by Frank Rosaly', 'Tim Haldeman/Frank Rosaly - Shitty Sons by Frank Rosaly', 'Milkwork by Frank Rosaly', 'Frank Rosaly - The Rada Remixes by Frank Rosaly/Rob Rada', 'Frank Rosaly Solo by Frank Rosaly', 'One &amp; Two by Frank Rosaly' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 715,
+          user_id: 1,
+          name: 'Jason Adasiewicz (composer/vibraphonist) born 1977',
+          color: '#441C05',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ct-xpm-2012-06-22-ct-ott-0622-jason-adasiewicz-20120621.jpg',
+          day_of: new Date ('1977-10-14  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp', 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=204774978/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=653992401/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://cuneiformrecords.bandcamp.com/album/varmint', 'http://gustafsson1.bandcamp.com/album/timeless' ],
+            "a_strings": [ 'Varmint by Jason Adasiewicz’s Rolldown', 'Timeless by Mats Gustafsson and Jason Adasiewicz' ]
           },
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')

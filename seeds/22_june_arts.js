@@ -10804,6 +10804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 541,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/consumed_by_mishudo_ddct8u8-pre.jpg',
+          title: 'Consumed',
+          artist: 'Mishudo',
+          year: '2019',
+          rule: {
+            "monday": [ 16, 26, 7, 14 ],
+            "tuesday": [ 15, 25, 5, 3 ],
+            "wednesday": [ 14, 24, 4, 11 ],
+            "thursday": [ 23, 3, 13, 11 ],
+            "friday": [ 12, 22, 2, 10 ],
+            "saturday": [ 11, 21, 1, 9 ],
+            "sunday": [ 17, 27, 7, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 542,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/follow_me_by_mariestars_ddcweuh-pre.jpg',
+          title: 'Follow Me',
+          artist: 'Marie Raine',
+          year: '2019',
+          rule: {
+            "monday": [ 17, 27, 7, 14 ],
+            "tuesday": [ 16, 26, 7, 14 ],
+            "wednesday": [ 15, 25, 5, 3 ],
+            "thursday": [ 14, 24, 4, 11 ],
+            "friday": [ 23, 3, 13, 11 ],
+            "saturday": [ 12, 22, 2, 10 ],
+            "sunday": [ 11, 21, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 543,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/damaged_dragonfly_by_tailgun2009_ddcv7d1-pre.jpg',
+          title: 'Damaged Dragonfly',
+          artist: 'Russ',
+          year: '2019',
+          rule: {
+            "monday": [ 11, 21, 1, 9 ],
+            "tuesday": [ 17, 27, 7, 14 ],
+            "wednesday": [ 16, 26, 7, 14 ],
+            "thursday": [ 15, 25, 5, 3 ],
+            "friday": [ 14, 24, 4, 11 ],
+            "saturday": [ 23, 3, 13, 11 ],
+            "sunday": [ 12, 22, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 544,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/los_angeles_mta_p3_pcc_3165_by_rlkitterman_ddbto2t-pre.jpg',
+          title: 'Los Angeles MTA P3 PCC 3165',
+          artist: 'R. L. Kitterman',
+          year: '2019',
+          rule: {
+            "monday": [ 12, 22, 2, 10 ],
+            "tuesday": [ 11, 21, 1, 9 ],
+            "wednesday": [ 17, 27, 7, 14 ],
+            "thursday": [ 16, 26, 7, 14 ],
+            "friday": [ 15, 25, 5, 3 ],
+            "saturday": [ 14, 24, 4, 11 ],
+            "sunday": [ 23, 3, 13, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 545,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ddcw3qq-256faac7-829c-4049-863a-acef88d6550e.jpg',
+          title: 'Northern Lights',
+          artist: 'Juhani Viitanen',
+          year: '2019',
+          rule: {
+            "monday": [ 23, 3, 13, 11 ],
+            "tuesday": [ 12, 22, 2, 10 ],
+            "wednesday": [ 11, 21, 1, 9 ],
+            "thursday": [ 17, 27, 7, 14 ],
+            "friday": [ 16, 26, 7, 14 ],
+            "saturday": [ 15, 25, 5, 3 ],
+            "sunday": [ 14, 24, 4, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

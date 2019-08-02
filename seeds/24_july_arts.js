@@ -10604,6 +10604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/les-roseaux.jpeg',
+          title: 'Les roseaux',
+          artist: 'Paul Ackerman',
+          year: '?',
+          rule: {
+            "monday": [ 13, 24, 4, 5 ],
+            "tuesday": [ 12, 23, 2, 4 ],
+            "wednesday": [ 11, 22, 2, 3 ],
+            "thursday": [ 10, 21, 1, 12 ],
+            "friday": [ 16, 27, 7, 17 ],
+            "saturday": [ 15, 24, 6, 17 ],
+            "sunday": [ 13, 24, 5, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/thérèse-1938.jpeg',
+          title: 'Thérèse',
+          artist: 'Balthus',
+          year: '1938',
+          rule: {
+            "monday": [ 14, 25, 6, 17 ],
+            "tuesday": [ 14, 25, 5, 6 ],
+            "wednesday": [ 13, 24, 3, 5 ],
+            "thursday": [ 12, 23, 3, 4 ],
+            "friday": [ 11, 22, 2, 13 ],
+            "saturday": [ 17, 28, 8, 18 ],
+            "sunday": [ 16, 25, 7, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-three-bathers-1938.jpeg',
+          title: 'The Three Bathers',
+          artist: 'Le Pho',
+          year: '1938',
+          rule: {
+            "monday": [ 16, 25, 7, 18 ],
+            "tuesday": [ 16, 25, 7, 18 ],
+            "wednesday": [ 14, 25, 6, 17 ],
+            "thursday": [ 14, 25, 5, 6 ],
+            "friday": [ 13, 24, 3, 5 ],
+            "saturday": [ 12, 23, 3, 4 ],
+            "sunday": [ 11, 22, 2, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/composition-abstraite-1959.jpeg',
+          title: 'Composition abstraite',
+          artist: 'Serge Poliakoff',
+          year: '1959',
+          rule: {
+            "monday": [ 11, 22, 2, 13 ],
+            "tuesday": [ 16, 25, 7, 18 ],
+            "wednesday": [ 16, 25, 7, 18 ],
+            "thursday": [ 14, 25, 6, 17 ],
+            "friday": [ 14, 25, 5, 6 ],
+            "saturday": [ 13, 24, 3, 5 ],
+            "sunday": [ 12, 23, 3, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/femme-aux-deux-visages-1926.jpeg',
+          title: 'Femme aux deux visages',
+          artist: 'Leon Arthur Tutundjian',
+          year: '1926',
+          rule: {
+            "monday": [ 12, 23, 3, 4 ],
+            "tuesday": [ 11, 22, 2, 13 ],
+            "wednesday": [ 16, 25, 7, 18 ],
+            "thursday": [ 16, 25, 7, 18 ],
+            "friday": [ 14, 25, 6, 17 ],
+            "saturday": [ 14, 25, 5, 6 ],
+            "sunday": [ 13, 24, 3, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

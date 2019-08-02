@@ -7866,6 +7866,11 @@ footer img {
   margin: 1vmin 2vmin 1vmin 4vmin;
 }
 
+#musicModuleCommentSpace textarea {
+  margin: 1vmin 2vmin 1vmin 4vmin;
+  width: 80%;
+}
+
 #tilesModuleCommentSpace img {
   float: left;
   height: 3em;
@@ -9114,7 +9119,7 @@ footer img {
 
 
 /* .day {
-  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/stanislav-kondratiev-ZIQSgTMA-WI-unsplash.jpg);
+  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/istockphoto-1137047131-170667a.jpg);
   background-repeat: no-repeat;
   background-size: 160%;
 } */

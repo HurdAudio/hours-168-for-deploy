@@ -5134,6 +5134,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 286,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=515225164/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/a-passing-fancy-psych-sunshine-pop-canada-1968',
+          a_string: 'A Passing Fancy (Psych Sunshine Pop CANADA) (1968) by A Passing Fancy',
+          rule: {
+            "monday": [ 15, 21, 27, 2 ],
+            "tuesday": [ 12, 20, 26, 1 ],
+            "wednesday": [ 11, 19, 25, 31 ],
+            "thursday": [ 12, 18, 24, 30 ],
+            "saturday": [ 16, 22, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 287,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=520337553/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/rotomagus-singles-1968-1971-french-heavy-psych-rock',
+          a_string: 'Rotomagus &quot;Singles&quot; (1968 - 1971 French Heavy Psych Rock) by Rotomagus',
+          rule: {
+            "monday": [ 17, 23, 29, 4 ],
+            "tuesday": [ 16, 22, 28, 3 ],
+            "wednesday": [ 13, 21, 27, 2 ],
+            "thursday": [ 12, 20, 26, 1 ],
+            "saturday": [ 13, 19, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 288,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1694689478/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/the-mads-molesto-peru-private-psych-rock-wild-fuzz-1968-1971-masterpiece',
+          a_string: 'THE MAD&#39;s * Molesto (PERU Private Psych Rock Wild Fuzz) (1968-1971) * MASTERPIECE !!! by The Mad&#39;s',
+          rule: {
+            "monday": [ 13, 19, 25, 31 ],
+            "tuesday": [ 17, 23, 29, 4 ],
+            "wednesday": [ 16, 22, 28, 3 ],
+            "thursday": [ 13, 21, 27, 2 ],
+            "saturday": [ 12, 20, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

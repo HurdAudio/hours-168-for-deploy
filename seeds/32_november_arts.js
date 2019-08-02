@@ -9779,6 +9779,101 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 491,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1995.jpeg',
+          title: 'Untitled',
+          artist: 'Rudolf de Crignis',
+          year: '1995',
+          rule: {
+            "monday": [ 15, 18, 25, 30 ],
+            "tuesday": [ 13, 18, 24, 29 ],
+            "wednesday": [ 12, 17, 23, 30 ],
+            "thursday": [ 18, 23, 29, 4 ],
+            "friday": [ 17, 19, 27, 3 ],
+            "saturday": [ 16, 20, 27, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 492,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/ecriture-no-960714-1996.jpeg',
+          title: 'ECRITURE No.960714',
+          artist: 'Park Seo-Bo',
+          year: '1996',
+          rule: {
+            "monday": [ 16, 20, 27, 31 ],
+            "tuesday": [ 15, 18, 25, 30 ],
+            "wednesday": [ 13, 18, 24, 29 ],
+            "thursday": [ 12, 17, 23, 30 ],
+            "friday": [ 18, 23, 29, 4 ],
+            "saturday": [ 17, 19, 27, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 493,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/timeless-1996.jpeg',
+          title: 'Timeless',
+          artist: 'Fernando Calhau',
+          year: '1996',
+          rule: {
+            "monday": [ 17, 19, 27, 3 ],
+            "tuesday": [ 16, 20, 27, 31 ],
+            "wednesday": [ 15, 18, 25, 30 ],
+            "thursday": [ 13, 18, 24, 29 ],
+            "friday": [ 12, 17, 23, 30 ],
+            "saturday": [ 18, 23, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 494,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/exposed-painting-payne-s-grey-1996.jpeg',
+          title: 'Exposed Painting, Payne’s Grey',
+          artist: 'Callum Innes',
+          year: '1996',
+          rule: {
+            "monday": [ 18, 23, 29, 4 ],
+            "tuesday": [ 17, 19, 27, 3 ],
+            "wednesday": [ 16, 20, 27, 31 ],
+            "thursday": [ 15, 18, 25, 30 ],
+            "friday": [ 13, 18, 24, 29 ],
+            "saturday": [ 12, 17, 23, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 495,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-cat-257-1996.jpeg',
+          title: 'Untitled (Cat #257)',
+          artist: 'Phil Sims',
+          year: '1996',
+          rule: {
+            "monday": [ 12, 17, 23, 30 ],
+            "tuesday": [ 18, 23, 29, 4 ],
+            "wednesday": [ 17, 19, 27, 3 ],
+            "thursday": [ 16, 20, 27, 31 ],
+            "friday": [ 15, 18, 25, 30 ],
+            "saturday": [ 13, 18, 24, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

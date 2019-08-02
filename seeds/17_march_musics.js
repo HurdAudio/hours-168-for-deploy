@@ -6106,6 +6106,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 340,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=463128931/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://adaleamusic.bandcamp.com/album/what-we-say-in-private',
+          a_string: 'what we say in private by Ada Lea',
+          rule: {
+            "monday": [ 21, 27, 2, 11 ],
+            "tuesday": [ 19, 26, 1, 9 ],
+            "wednesday": [ 19, 25, 31, 8 ],
+            "thursday": [ 23, 29, 4, 12 ],
+            "saturday": [ 22, 28, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 341,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4006805118/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://florist.bandcamp.com/album/emily-alone',
+          a_string: 'Emily Alone by Florist',
+          rule: {
+            "monday": [ 22, 28, 3, 11 ],
+            "tuesday": [ 21, 27, 2, 11 ],
+            "wednesday": [ 19, 26, 1, 9 ],
+            "thursday": [ 19, 25, 31, 8 ],
+            "saturday": [ 23, 29, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 342,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3503231624/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://psychich0tline.bandcamp.com/album/heat-index',
+          a_string: 'Heat Index by Psychic Hotline',
+          rule: {
+            "monday": [ 23, 29, 4, 12 ],
+            "tuesday": [ 22, 28, 3, 11 ],
+            "wednesday": [ 21, 27, 2, 11 ],
+            "thursday": [ 19, 26, 1, 9 ],
+            "saturday": [ 19, 25, 31, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

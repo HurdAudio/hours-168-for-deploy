@@ -6214,6 +6214,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 346,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1742530095/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://donwill.bandcamp.com/album/one-word-no-space',
+          a_string: 'One Word No Space by Donwill',
+          rule: {
+            "monday": [ 22, 26, 28, 3 ],
+            "tuesday": [ 25, 28, 1, 3 ],
+            "wednesday": [ 7, 1, 3, 5 ],
+            "thursday": [ 9, 3, 5, 11 ],
+            "saturday": [ 10, 4, 6, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 347,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2795287999/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://g4jag.bandcamp.com/album/nothing-was-given',
+          a_string: 'NOTHING WAS GIVEN by G4 JAG',
+          rule: {
+            "monday": [ 10, 4, 6, 12 ],
+            "tuesday": [ 22, 26, 28, 3 ],
+            "wednesday": [ 25, 28, 1, 3 ],
+            "thursday": [ 7, 1, 3, 5 ],
+            "saturday": [ 9, 3, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 348,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3004169661/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://huskingpin.bandcamp.com/album/slime-wave',
+          a_string: 'SLIME WAVE by Hus &quot;Wavo&quot; Kingpin',
+          rule: {
+            "monday": [ 9, 3, 5, 11 ],
+            "tuesday": [ 10, 4, 6, 12 ],
+            "wednesday": [ 22, 26, 28, 3 ],
+            "thursday": [ 25, 28, 1, 3 ],
+            "saturday": [ 7, 1, 3, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

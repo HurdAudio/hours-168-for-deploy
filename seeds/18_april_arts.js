@@ -11204,6 +11204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 561,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/d6bee7324c498416d42691a28053474e.jpg',
+          title: 'Baseball Illustration',
+          artist: 'Daniela Martinez',
+          year: '?',
+          rule: {
+            "monday": [ 20, 26, 1, 7 ],
+            "tuesday": [ 4, 24, 30, 6 ],
+            "wednesday": [ 19, 22, 30, 6 ],
+            "thursday": [ 18, 22, 7, 5 ],
+            "friday": [ 15, 21, 27, 3 ],
+            "saturday": [ 16, 21, 27, 3 ],
+            "sunday": [ 15, 20, 26, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 562,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/134162.jpg',
+          title: 'Bat Flag',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 15, 20, 26, 2 ],
+            "tuesday": [ 20, 26, 1, 7 ],
+            "wednesday": [ 4, 24, 30, 6 ],
+            "thursday": [ 19, 22, 30, 6 ],
+            "friday": [ 18, 22, 7, 5 ],
+            "saturday": [ 15, 21, 27, 3 ],
+            "sunday": [ 16, 21, 27, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 563,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/134202.jpg',
+          title: 'Baseball Wallpaper',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 16, 21, 27, 3 ],
+            "tuesday": [ 15, 20, 26, 2 ],
+            "wednesday": [ 20, 26, 1, 7 ],
+            "thursday": [ 4, 24, 30, 6 ],
+            "friday": [ 19, 22, 30, 6 ],
+            "saturday": [ 18, 22, 7, 5 ],
+            "sunday": [ 15, 21, 27, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 564,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/134226.jpg',
+          title: 'Baseball Wallpaper',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 15, 21, 27, 3 ],
+            "tuesday": [ 16, 21, 27, 3 ],
+            "wednesday": [ 15, 20, 26, 2 ],
+            "thursday": [ 20, 26, 1, 7 ],
+            "friday": [ 4, 24, 30, 6 ],
+            "saturday": [ 19, 22, 30, 6 ],
+            "sunday": [ 18, 22, 7, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 565,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/134237.jpg',
+          title: 'Baseball Wallpaper',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 18, 22, 7, 5 ],
+            "tuesday": [ 15, 21, 27, 3 ],
+            "wednesday": [ 16, 21, 27, 3 ],
+            "thursday": [ 15, 20, 26, 2 ],
+            "friday": [ 20, 26, 1, 7 ],
+            "saturday": [ 4, 24, 30, 6 ],
+            "sunday": [ 19, 22, 30, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

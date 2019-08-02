@@ -11804,6 +11804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 591,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/terrestrial-forest-form-1917.jpeg',
+          title: 'Terrestrial Forest Form',
+          artist: 'Jean Arp',
+          year: '1917',
+          rule: {
+            "monday": [ 6, 8, 9, 10 ],
+            "tuesday": [ 25, 27, 19, 8 ],
+            "wednesday": [ 25, 27, 19, 8 ],
+            "thursday": [ 30, 28, 20, 23 ],
+            "friday": [ 30, 31, 22, 26 ],
+            "saturday": [ 2, 4, 5, 7 ],
+            "sunday": [ 4, 6, 10, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 592,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-ix-opus-18-1917-1917.jpeg',
+          title: 'Composition IX, opus 18, 1917',
+          artist: 'Theo van Doesburg',
+          year: '1917',
+          rule: {
+            "monday": [ 4, 6, 10, 13 ],
+            "tuesday": [ 6, 8, 9, 10 ],
+            "wednesday": [ 25, 27, 19, 8 ],
+            "thursday": [ 25, 27, 19, 8 ],
+            "friday": [ 30, 28, 20, 23 ],
+            "saturday": [ 30, 31, 22, 26 ],
+            "sunday": [ 2, 4, 5, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 593,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/dance-ii-1917.jpeg',
+          title: 'Dance II',
+          artist: 'Theo van Doesburg',
+          year: '1917',
+          rule: {
+            "monday": [ 2, 4, 5, 7 ],
+            "tuesday": [ 4, 6, 10, 13 ],
+            "wednesday": [ 6, 8, 9, 10 ],
+            "thursday": [ 25, 27, 19, 8 ],
+            "friday": [ 25, 27, 19, 8 ],
+            "saturday": [ 30, 28, 20, 23 ],
+            "sunday": [ 30, 31, 22, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 594,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/atom-series-no-8-atom-on-the-ether-plane-is-in-constant-change-between-rest-and-activity-at-the-1917.jpeg',
+          title: 'Atom Series, No. 8: Atom on the ether plane is in constant change between rest and activity. At the rest it pulls itself inwards. This affects the earthly atom as giving of force.',
+          artist: 'Hilma af Klint',
+          year: '1917',
+          rule: {
+            "monday": [ 30, 31, 22, 26 ],
+            "tuesday": [ 2, 4, 5, 7 ],
+            "wednesday": [ 4, 6, 10, 13 ],
+            "thursday": [ 6, 8, 9, 10 ],
+            "friday": [ 25, 27, 19, 8 ],
+            "saturday": [ 25, 27, 19, 8 ],
+            "sunday": [ 30, 28, 20, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 595,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-with-gray-and-light-brown-1918.jpeg',
+          title: 'Composition with Gray and Light Brown',
+          artist: 'Piet Mondrian',
+          year: '1918',
+          rule: {
+            "monday": [ 31, 29, 21, 24 ],
+            "tuesday": [ 31, 1, 23, 27 ],
+            "wednesday": [ 3, 5, 6, 8 ],
+            "thursday": [ 5, 7, 11, 14 ],
+            "friday": [ 7, 9, 10, 11 ],
+            "saturday": [ 26, 28, 20, 9 ],
+            "sunday": [ 26, 28, 20, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
