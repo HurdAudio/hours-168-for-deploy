@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_fight_for_peace.jpg',
+          title: 'We have to fight for peace!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 16, 27, 7, 11 ],
+            "tuesday": [ 15, 26, 6, 10 ],
+            "wednesday": [ 14, 25, 5, 9 ],
+            "thursday": [ 13, 24, 5, 8 ],
+            "friday": [ 12, 23, 3, 7 ],
+            "saturday": [ 11, 22, 1, 6 ],
+            "sunday": [ 20, 21, 1, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_evolution.jpg',
+          title: 'Evolution?',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 20, 21, 1, 5 ],
+            "tuesday": [ 16, 27, 7, 11 ],
+            "wednesday": [ 15, 26, 6, 10 ],
+            "thursday": [ 14, 25, 5, 9 ],
+            "friday": [ 13, 24, 5, 8 ],
+            "saturday": [ 12, 23, 3, 7 ],
+            "sunday": [ 11, 22, 1, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_earth_knife.jpg',
+          title: 'People, be vigilant!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 11, 22, 1, 6 ],
+            "tuesday": [ 20, 21, 1, 5 ],
+            "wednesday": [ 16, 27, 7, 11 ],
+            "thursday": [ 15, 26, 6, 10 ],
+            "friday": [ 14, 25, 5, 9 ],
+            "saturday": [ 13, 24, 5, 8 ],
+            "sunday": [ 12, 23, 3, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_earth_belt.jpg',
+          title: 'Field of the life interests of the USA',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 12, 23, 3, 7 ],
+            "tuesday": [ 11, 22, 1, 6 ],
+            "wednesday": [ 20, 21, 1, 5 ],
+            "thursday": [ 16, 27, 7, 11 ],
+            "friday": [ 15, 26, 6, 10 ],
+            "saturday": [ 14, 25, 5, 9 ],
+            "sunday": [ 13, 24, 5, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_war_peace._website_new.jpg',
+          title: 'Peace will win over war!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 13, 24, 5, 8 ],
+            "tuesday": [ 12, 23, 3, 7 ],
+            "wednesday": [ 11, 22, 1, 6 ],
+            "thursday": [ 20, 21, 1, 5 ],
+            "friday": [ 16, 27, 7, 11 ],
+            "saturday": [ 15, 26, 6, 10 ],
+            "sunday": [ 14, 25, 5, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -11304,6 +11304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 566,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/s464724252648038502_p289_i11_w384.jpeg',
+          title: 'Modern Baseball',
+          artist: 'Aaron Christensen',
+          year: '2019',
+          rule: {
+            "monday": [ 19, 22, 30, 6 ],
+            "tuesday": [ 18, 22, 7, 5 ],
+            "wednesday": [ 15, 21, 27, 3 ],
+            "thursday": [ 16, 21, 27, 3 ],
+            "friday": [ 15, 20, 26, 2 ],
+            "saturday": [ 20, 26, 1, 7 ],
+            "sunday": [ 4, 24, 30, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 567,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/ARS4QSHEMAI6JCFD4NVPJFXNSM.jpg',
+          title: 'unknown title',
+          artist: 'John Maggiotto',
+          year: '2015',
+          rule: {
+            "monday": [ 5, 25, 1, 7 ],
+            "tuesday": [ 20, 23, 1, 7 ],
+            "wednesday": [ 19, 23, 8, 6 ],
+            "thursday": [ 16, 22, 28, 4 ],
+            "friday": [ 17, 22, 28, 4 ],
+            "saturday": [ 16, 21, 27, 3 ],
+            "sunday": [ 21, 27, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 568,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/3b23778b-1bab-452b-b527-e9e6e9c9d4d3_1.239b3802ad838b4cc8e8a1cb284e90d6.jpeg',
+          title: 'Spain Medieval Ballgame Nbatter Pitcher And Fielders In A Spanish Game Similar To Modern Baseball Manuscript Illumination 13Th Century From The Cantigas De Alfonso ',
+          artist: 'unknown artist',
+          year: 'XIII cent.',
+          rule: {
+            "monday": [ 21, 27, 2, 8 ],
+            "tuesday": [ 5, 25, 1, 7 ],
+            "wednesday": [ 20, 23, 1, 7 ],
+            "thursday": [ 19, 23, 8, 6 ],
+            "friday": [ 16, 22, 28, 4 ],
+            "saturday": [ 17, 22, 28, 4 ],
+            "sunday": [ 16, 21, 27, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 569,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/1536x864.jpg',
+          title: 'unknown title',
+          artist: 'unknown artist',
+          year: '2018',
+          rule: {
+            "monday": [ 16, 21, 27, 3 ],
+            "tuesday": [ 21, 27, 2, 8 ],
+            "wednesday": [ 5, 25, 1, 7 ],
+            "thursday": [ 20, 23, 1, 7 ],
+            "friday": [ 19, 23, 8, 6 ],
+            "saturday": [ 16, 22, 28, 4 ],
+            "sunday": [ 17, 22, 28, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 570,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/love-baseball-gary-grayson.jpg',
+          title: 'Love Baseball',
+          artist: 'Gary Grayson',
+          year: '?',
+          rule: {
+            "monday": [ 17, 22, 28, 4 ],
+            "tuesday": [ 16, 21, 27, 3 ],
+            "wednesday": [ 21, 27, 2, 8 ],
+            "thursday": [ 5, 25, 1, 7 ],
+            "friday": [ 20, 23, 1, 7 ],
+            "saturday": [ 19, 23, 8, 6 ],
+            "sunday": [ 16, 22, 28, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

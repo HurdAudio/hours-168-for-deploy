@@ -1292,6 +1292,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#C9C5D8',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 93,
+          user_id: 1,
+          theme: 'Water',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april_tiles/air-bubbles-3944675_1920.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '190%',
+          color_dark: '#031435',
+          color_medium: '#0A47A2',
+          color_light: '#BDFEFF',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

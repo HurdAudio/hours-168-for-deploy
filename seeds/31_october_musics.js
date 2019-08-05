@@ -5404,6 +5404,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 301,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2539338538/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://antifaderecords.bandcamp.com/album/the-beginning-end-of-cereal-killer',
+          a_string: 'The Beginning &amp; End Of Cereal Killer by Cereal Killer',
+          rule: {
+            "monday": [ 20, 30, 9, 12 ],
+            "tuesday": [ 19, 29, 8, 11 ],
+            "wednesday": [ 18, 28, 8, 10 ],
+            "thursday": [ 17, 27, 6, 9 ],
+            "saturday": [ 21, 31, 10, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 302,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2639213931/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ironlungpv.bandcamp.com/album/el-reino-de-lo-falso-mlp-lungs-133',
+          a_string: 'El Reino De Lo Falso MLP (LUNGS-133) by MALCRÍA',
+          rule: {
+            "monday": [ 21, 31, 10, 13 ],
+            "tuesday": [ 20, 30, 9, 12 ],
+            "wednesday": [ 19, 29, 8, 11 ],
+            "thursday": [ 18, 28, 8, 10 ],
+            "saturday": [ 17, 27, 6, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 303,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=323729828/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mannequinpussy.bandcamp.com/album/patience',
+          a_string: 'Patience by MANNEQUIN PUSSY',
+          rule: {
+            "monday": [ 17, 27, 6, 9 ],
+            "tuesday": [ 21, 31, 10, 13 ],
+            "wednesday": [ 20, 30, 9, 12 ],
+            "thursday": [ 19, 29, 8, 11 ],
+            "saturday": [ 18, 28, 8, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

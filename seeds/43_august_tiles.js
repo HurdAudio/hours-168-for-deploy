@@ -1236,6 +1236,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#D4D9DC',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 89,
+          user_id: 1,
+          theme: 'Primary Colors',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/double-doors-1163556_1280.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '120%',
+          color_dark: '#161A2A',
+          color_medium: '#2E59BF',
+          color_light: '#BCB5AB',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

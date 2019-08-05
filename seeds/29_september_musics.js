@@ -5512,6 +5512,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 307,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=417715749/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://robintaylorsuniverse.bandcamp.com/album/return-to-whatever',
+          a_string: 'Return To Whatever by Taylor&#39;s Universe',
+          rule: {
+            "monday": [ 18, 8, 16, 10 ],
+            "tuesday": [ 17, 7, 15, 9 ],
+            "wednesday": [ 16, 6, 14, 7 ],
+            "thursday": [ 16, 5, 13, 7 ],
+            "saturday": [ 14, 4, 12, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 308,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1879058235/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://koenjihyakkei.bandcamp.com/album/nivraym',
+          a_string: 'Nivraym by Koenji Hyakkei',
+          rule: {
+            "monday": [ 15, 5, 13, 7 ],
+            "tuesday": [ 19, 9, 17, 11 ],
+            "wednesday": [ 18, 8, 16, 10 ],
+            "thursday": [ 17, 7, 15, 8 ],
+            "saturday": [ 17, 6, 14, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 309,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3290134353/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://progshinerecords.bandcamp.com/album/prov-ncia-universo',
+          a_string: 'Província Universo by Poços &amp; Nuvens',
+          rule: {
+            "monday": [ 17, 6, 14, 8 ],
+            "tuesday": [ 15, 5, 13, 7 ],
+            "wednesday": [ 19, 9, 17, 11 ],
+            "thursday": [ 18, 8, 16, 10 ],
+            "saturday": [ 17, 7, 15, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

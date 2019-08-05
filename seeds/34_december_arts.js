@@ -9704,6 +9704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 486,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/28-03-1,WarS.jpg',
+          title: 'War Stories',
+          artist: 'Julius Erbit',
+          year: '1928',
+          rule: {
+            "monday": [ 26, 18, 6, 13 ],
+            "tuesday": [ 11, 24, 1, 7 ],
+            "wednesday": [ 10, 22, 31, 6 ],
+            "thursday": [ 9, 22, 30, 5 ],
+            "friday": [ 8, 21, 29, 4 ],
+            "saturday": [ 7, 20, 28, 3 ],
+            "sunday": [ 6, 18, 17, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 487,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/38-07,StarDet2.jpg',
+          title: 'Star Detective',
+          artist: 'James A. Ernst',
+          year: '1938',
+          rule: {
+            "monday": [ 6, 18, 17, 2 ],
+            "tuesday": [ 26, 18, 6, 13 ],
+            "wednesday": [ 11, 24, 1, 7 ],
+            "thursday": [ 10, 22, 31, 6 ],
+            "friday": [ 9, 22, 30, 5 ],
+            "saturday": [ 8, 21, 29, 4 ],
+            "sunday": [ 7, 20, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 488,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/27-05,Mystery.jpg',
+          title: 'Mystery Magazine',
+          artist: 'Frederick T. Everett',
+          year: '1927',
+          rule: {
+            "monday": [ 7, 20, 28, 3 ],
+            "tuesday": [ 6, 18, 17, 2 ],
+            "wednesday": [ 26, 18, 6, 13 ],
+            "thursday": [ 11, 24, 1, 7 ],
+            "friday": [ 10, 22, 31, 6 ],
+            "saturday": [ 9, 22, 30, 5 ],
+            "sunday": [ 8, 21, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 489,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/32-08-20,WWW.jpg',
+          title: 'Wild West Weekly',
+          artist: 'John Falter',
+          year: '1932',
+          rule: {
+            "monday": [ 8, 21, 29, 4 ],
+            "tuesday": [ 7, 20, 28, 3 ],
+            "wednesday": [ 6, 18, 17, 2 ],
+            "thursday": [ 26, 18, 6, 13 ],
+            "friday": [ 11, 24, 1, 7 ],
+            "saturday": [ 10, 22, 31, 6 ],
+            "sunday": [ 9, 22, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 490,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/05-12,AdSense.jpg',
+          title: 'Ad Sense',
+          artist: 'J. W. Farrah',
+          year: '1905',
+          rule: {
+            "monday": [ 10, 23, 31, 6 ],
+            "tuesday": [ 9, 22, 30, 5 ],
+            "wednesday": [ 8, 21, 29, 4 ],
+            "thursday": [ 7, 19, 18, 3 ],
+            "friday": [ 27, 19, 7, 14 ],
+            "saturday": [ 12, 25, 2, 8 ],
+            "sunday": [ 11, 23, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

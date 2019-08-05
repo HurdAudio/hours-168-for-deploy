@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/untitled-1976.jpeg',
+          title: 'Untitled',
+          artist: 'Hans Hartung',
+          year: '1976',
+          rule: {
+            "monday": [ 13, 24, 3, 5 ],
+            "tuesday": [ 12, 23, 3, 4 ],
+            "wednesday": [ 11, 22, 2, 13 ],
+            "thursday": [ 16, 25, 7, 18 ],
+            "friday": [ 16, 25, 7, 18 ],
+            "saturday": [ 14, 25, 6, 17 ],
+            "sunday": [ 14, 25, 5, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/pembe-kahve.jpeg',
+          title: 'Pink Cafe',
+          artist: 'Fikret Mualla Saygi',
+          year: '?',
+          rule: {
+            "monday": [ 14, 25, 5, 6 ],
+            "tuesday": [ 13, 24, 3, 5 ],
+            "wednesday": [ 12, 23, 3, 4 ],
+            "thursday": [ 11, 22, 2, 13 ],
+            "friday": [ 16, 25, 7, 18 ],
+            "saturday": [ 16, 25, 7, 18 ],
+            "sunday": [ 14, 25, 6, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/scene-paysanne.jpeg',
+          title: 'Scene paysanne',
+          artist: 'Grégoire Michonze',
+          year: '?',
+          rule: {
+            "monday": [ 14, 25, 6, 17 ],
+            "tuesday": [ 14, 25, 5, 6 ],
+            "wednesday": [ 13, 24, 3, 5 ],
+            "thursday": [ 12, 23, 3, 4 ],
+            "friday": [ 11, 22, 2, 13 ],
+            "saturday": [ 16, 25, 7, 18 ],
+            "sunday": [ 16, 25, 7, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/sensation-1937.jpeg',
+          title: 'SENSATION',
+          artist: 'Cassandre',
+          year: '1937',
+          rule: {
+            "monday": [ 17, 26, 8, 19 ],
+            "tuesday": [ 15, 26, 7, 18 ],
+            "wednesday": [ 15, 26, 6, 7 ],
+            "thursday": [ 14, 25, 4, 6 ],
+            "friday": [ 13, 24, 4, 5 ],
+            "saturday": [ 12, 23, 3, 14 ],
+            "sunday": [ 17, 26, 8, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/death-awaiting-his-family-1927.jpeg',
+          title: 'Death Awaiting his Family',
+          artist: 'Yves Tanguy',
+          year: '1927',
+          rule: {
+            "monday": [ 17, 26, 8, 19 ],
+            "tuesday": [ 17, 26, 8, 19 ],
+            "wednesday": [ 15, 26, 7, 18 ],
+            "thursday": [ 15, 26, 6, 7 ],
+            "friday": [ 14, 25, 4, 6 ],
+            "saturday": [ 13, 24, 4, 5 ],
+            "sunday": [ 12, 23, 3, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

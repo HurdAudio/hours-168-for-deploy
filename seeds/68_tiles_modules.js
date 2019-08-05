@@ -949,6 +949,21 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 64,
+          user_author_id: 1,
+          theme: 'wood',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/boardwalk-2189587_1920.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '120%',
+          color_dark: '#11100E',
+          color_medium: '#3D3C24',
+          color_light: '#FCFFFF',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

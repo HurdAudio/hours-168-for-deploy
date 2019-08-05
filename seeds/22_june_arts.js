@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/dddao3i-da1c11d9-c234-4677-9851-d26b27052f88.jpg',
+          title: 'Morning Brew',
+          artist: 'Josefina',
+          year: '2019',
+          rule: {
+            "monday": [ 15, 25, 5, 12 ],
+            "tuesday": [ 24, 4, 14, 12 ],
+            "wednesday": [ 13, 23, 3, 11 ],
+            "thursday": [ 12, 22, 2, 10 ],
+            "friday": [ 18, 28, 8, 15 ],
+            "saturday": [ 17, 27, 8, 15 ],
+            "sunday": [ 16, 26, 6, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/freaky_house_by_mikelev-ddd9ctk.jpg',
+          title: 'Freaky House',
+          artist: 'Michel Levesque',
+          year: '2019',
+          rule: {
+            "monday": [ 16, 26, 6, 4 ],
+            "tuesday": [ 15, 25, 5, 12 ],
+            "wednesday": [ 24, 4, 14, 12 ],
+            "thursday": [ 13, 23, 3, 11 ],
+            "friday": [ 12, 22, 2, 10 ],
+            "saturday": [ 18, 28, 8, 15 ],
+            "sunday": [ 17, 27, 8, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/if_i_could_save_time_in_a_bottle_by_foureyes_d70bz8y-pre.jpg',
+          title: 'If I Could Save Time in a Bottle',
+          artist: 'foureyes',
+          year: '2019',
+          rule: {
+            "monday": [ 17, 27, 8, 15 ],
+            "tuesday": [ 16, 26, 6, 4 ],
+            "wednesday": [ 15, 25, 5, 12 ],
+            "thursday": [ 24, 4, 14, 12 ],
+            "friday": [ 13, 23, 3, 11 ],
+            "saturday": [ 12, 22, 2, 10 ],
+            "sunday": [ 18, 28, 8, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ddd8mpd-7cd3343d-33d5-4f29-8703-7065ac8c85b6.jpg',
+          title: '600 441683628',
+          artist: 'Virginia Black',
+          year: '2019',
+          rule: {
+            "monday": [ 18, 28, 8, 15 ],
+            "tuesday": [ 17, 27, 8, 15 ],
+            "wednesday": [ 16, 26, 6, 4 ],
+            "thursday": [ 15, 25, 5, 12 ],
+            "friday": [ 24, 4, 14, 12 ],
+            "saturday": [ 13, 23, 3, 11 ],
+            "sunday": [ 12, 22, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/water_color_by_lucifers_angel_6_d1jtgl1-pre.jpg',
+          title: 'Water Color',
+          artist: 'Nora',
+          year: '2019',
+          rule: {
+            "monday": [ 12, 22, 2, 10 ],
+            "tuesday": [ 18, 28, 8, 15 ],
+            "wednesday": [ 17, 27, 8, 15 ],
+            "thursday": [ 16, 26, 6, 4 ],
+            "friday": [ 15, 25, 5, 12 ],
+            "saturday": [ 24, 4, 14, 12 ],
+            "sunday": [ 13, 23, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

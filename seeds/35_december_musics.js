@@ -5188,6 +5188,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 289,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1665329692/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/laghonia-unglue-psych-prog-garage-rock-1967-1970',
+          a_string: 'Laghonia - Unglue (Psych Prog Garage Rock) (1967-1970) by Laghonia',
+          rule: {
+            "monday": [ 12, 20, 26, 1 ],
+            "tuesday": [ 13, 19, 25, 31 ],
+            "wednesday": [ 17, 23, 29, 4 ],
+            "thursday": [ 16, 22, 28, 3 ],
+            "saturday": [ 13, 21, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 290,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2394626200/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/classical-m-bad-guys-and-more-french-psych-rock-folk-1966-1970',
+          a_string: 'Classical M - Bad guys and more (French Psych Rock Folk 1966 - 1970) by Classical M',
+          rule: {
+            "monday": [ 13, 21, 27, 2 ],
+            "tuesday": [ 12, 20, 26, 1 ],
+            "wednesday": [ 13, 19, 25, 31 ],
+            "thursday": [ 17, 23, 29, 4 ],
+            "saturday": [ 16, 22, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 291,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1753642407/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/classical-m-vol-2-french-psych-folk-acoustic-rock-1966-1970',
+          a_string: 'Classical M - Vol 2 (French Psych Folk Acoustic Rock 1966 - 1970) by Classical M',
+          rule: {
+            "monday": [ 16, 22, 28, 3 ],
+            "tuesday": [ 13, 21, 27, 2 ],
+            "wednesday": [ 12, 20, 26, 1 ],
+            "thursday": [ 13, 19, 25, 31 ],
+            "saturday": [ 17, 23, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

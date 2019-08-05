@@ -6160,6 +6160,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 343,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1224590916/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://badabingrecords.bandcamp.com/album/cross-record-3',
+          a_string: 'Cross Record by Cross Record',
+          rule: {
+            "monday": [ 20, 26, 1, 9 ],
+            "tuesday": [ 24, 30, 5, 13 ],
+            "wednesday": [ 23, 29, 4, 12 ],
+            "thursday": [ 22, 28, 3, 12 ],
+            "saturday": [ 20, 27, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 344,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=922441338/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://lowleaf.bandcamp.com/album/bakers-dozen-low-leaf',
+          a_string: 'Baker&#39;s Dozen: Low Leaf by Low Leaf',
+          rule: {
+            "monday": [ 20, 27, 2, 10 ],
+            "tuesday": [ 20, 26, 1, 9 ],
+            "wednesday": [ 24, 30, 5, 13 ],
+            "thursday": [ 23, 29, 4, 12 ],
+            "saturday": [ 22, 28, 3, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 345,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3119769858/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://amidang.bandcamp.com/album/parted-plains',
+          a_string: 'Parted Plains by Ami Dang',
+          rule: {
+            "monday": [ 22, 28, 3, 12 ],
+            "tuesday": [ 20, 27, 2, 10 ],
+            "wednesday": [ 20, 26, 1, 9 ],
+            "thursday": [ 24, 30, 5, 13 ],
+            "saturday": [ 23, 29, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

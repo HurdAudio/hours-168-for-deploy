@@ -17854,10 +17854,72 @@
               }
               // vm.userMessages[index].comments[i].cleanDate = cleanDateHoliday(messageComments[i].created_at) + ' - ' + timeDate(messageComments[i].updated_at);
               pullCommenterUserData(messageComments[i], i, index);
+              retrieveCommentReactions(messageComments[i], i, index);
               manageCommentEditButtons(messageComments[i], i, index);
             }
           } else {
             vm.userMessages[index].commentsLength = '0 comments';
+          }
+        });
+      }
+
+      function addCommentReactor(messagesIndex, index, reactionIndex, reactorId) {
+        $http.get(`/users/${reactorId}`)
+        .then(reactorData => {
+          let reactor = reactorData.data;
+          vm.userMessages[messagesIndex].comments[index].reactions[reactionIndex].reactors += reactor.name + '   ';
+        });
+      }
+
+      function retrieveCommentReactions(comment, index, messagesIndex) {
+        let uniqueReaction = true;
+        let reactionIndex = null;
+
+        $http.get('/comment_reactions')
+        .then(allReactionsData => {
+          let allReactions = allReactionsData.data;
+          let commentReactions = allReactions.filter(entry => {
+            return(entry.comment_id === comment.id);
+          });
+          if (commentReactions.length > 0) {
+            vm.userMessages[messagesIndex].comments[index].reactions = [];
+            for (let i = 0; i < commentReactions.length; i++) {
+              uniqueReaction = true;
+              reactionIndex = null;
+              for (let j = 0; j < vm.userMessages[messagesIndex].comments[index].reactions.length; j++) {
+                if (vm.userMessages[messagesIndex].comments[index].reactions[j].type === commentReactions[i].reaction) {
+                  uniqueReaction = false;
+                  reactionIndex = j;
+                }
+              }
+              if (uniqueReaction) {
+                reactionIndex = vm.userMessages[messagesIndex].comments[index].reactions.length;
+                vm.userMessages[messagesIndex].comments[index].reactions[reactionIndex] = {
+                  type: commentReactions[i].reaction,
+                  total: 1,
+                  reactors: ''
+                };
+                switch(commentReactions[i].reaction) {
+                  case('thumbsUp'):
+                    vm.userMessages[messagesIndex].comments[index].reactions[reactionIndex].icon = './img/reactions/kisspng-thumb-signal-font-awesome-computer-icons-font-green-thumbs-up-icon-5b4b607cb7a147.6508454515316665567522.png';
+                    break;
+                  case('thumbsDown'):
+                    vm.userMessages[messagesIndex].comments[index].reactions[reactionIndex].icon = './img/reactions/isspng-computer-icons-thumb-signal-clip-art-thumbs-down-5aab2aca6869f5.4518076515211.png';
+                    break;
+                  case('love'):
+                    vm.userMessages[messagesIndex].comments[index].reactions[reactionIndex].icon = './img/reactions/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png';
+                    break;
+                  case('reject'):
+                    vm.userMessages[messagesIndex].comments[index].reactions[reactionIndex].icon = './img/reactions/kisspng-computer-icons-no-entry-sign-5b2413c277b6e8.3874724415290910104904.png';
+                    break;
+                  default:
+                    console.log('ERROR: reaction type unaccounted for');
+                }
+              } else {
+                vm.userMessages[messagesIndex].comments[index].reactions[reactionIndex].total += 1;
+              }
+              addCommentReactor(messagesIndex, index, reactionIndex, commentReactions[i].user_author_id);
+            }
           }
         });
       }

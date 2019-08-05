@@ -5296,6 +5296,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 295,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2334973202/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/african-scream-contest-vol-2-benin-1963-1980',
+          a_string: 'African Scream Contest Vol.2 - Benin 1963-1980 by Various',
+          rule: {
+            "monday": [ 11, 22, 3, 5 ],
+            "tuesday": [ 10, 21, 2, 14 ],
+            "wednesday": [ 14, 25, 6, 10 ],
+            "thursday": [ 13, 24, 5, 9 ],
+            "saturday": [ 12, 23, 4, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 296,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=658813915/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/the-message-limited-edition',
+          a_string: 'The Message (Limited Edition) by Gyedu-Blay Ambolley',
+          rule: {
+            "monday": [ 12, 23, 4, 8 ],
+            "tuesday": [ 11, 22, 3, 5 ],
+            "wednesday": [ 10, 21, 2, 14 ],
+            "thursday": [ 14, 25, 6, 10 ],
+            "saturday": [ 13, 24, 5, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 297,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4149640893/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://analogafrica.bandcamp.com/album/de-bassari-togo-limited-edition',
+          a_string: 'De Bassari Togo (Limited Edition) by Orchestre Abass',
+          rule: {
+            "monday": [ 13, 24, 5, 9 ],
+            "tuesday": [ 12, 23, 4, 8 ],
+            "wednesday": [ 11, 22, 3, 5 ],
+            "thursday": [ 10, 21, 2, 14 ],
+            "saturday": [ 14, 25, 6, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

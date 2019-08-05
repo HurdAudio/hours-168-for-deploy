@@ -5944,6 +5944,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 331,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4268758531/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://nicemusiclabel.bandcamp.com/album/spectral-arrows-auckland',
+          a_string: 'Spectral Arrows: Auckland by Marco Fusinato',
+          rule: {
+            "monday": [ 19, 25, 1, 14 ],
+            "tuesday": [ 18, 24, 31, 13 ],
+            "wednesday": [ 17, 23, 30, 12 ],
+            "thursday": [ 16, 22, 29, 11 ],
+            "saturday": [ 15, 21, 28, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 332,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2745323627/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://dovecove.bandcamp.com/album/kudler-gerycz-kapteyn-b',
+          a_string: 'Kudler/Gerycz - Kapteyn B by Dove Cove',
+          rule: {
+            "monday": [ 15, 21, 28, 10 ],
+            "tuesday": [ 19, 25, 1, 14 ],
+            "wednesday": [ 18, 24, 31, 13 ],
+            "thursday": [ 17, 23, 30, 12 ],
+            "saturday": [ 16, 22, 29, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 333,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3668549526/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://utechrecords.bandcamp.com/album/rst',
+          a_string: 'RST by RST',
+          rule: {
+            "monday": [ 16, 22, 29, 11 ],
+            "tuesday": [ 15, 21, 28, 10 ],
+            "wednesday": [ 19, 25, 1, 14 ],
+            "thursday": [ 18, 24, 31, 13 ],
+            "saturday": [ 17, 23, 30, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

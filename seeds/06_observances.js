@@ -11129,6 +11129,34 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 716,
+          user_id: 1,
+          name: 'José de San Martín (South American leader) born 1778',
+          color: '#4D5154',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Retrato_más_canónico_de_José_de_San_Martín.jpg',
+          day_of: new Date ('1778-02-25  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 717,
+          user_id: 1,
+          name: 'Antonio José de Sucre (South American leader) born 1795',
+          color: '#D93D35',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Martin_Tovar_y_Tovar_12.jpeg',
+          day_of: new Date ('1795-02-03  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

@@ -6052,6 +6052,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 337,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3762315289/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://brandee.bandcamp.com/album/soul-awakening',
+          a_string: 'Soul Awakening by Brandee Younger',
+          rule: {
+            "monday": [ 22, 30, 12, 17 ],
+            "tuesday": [ 21, 29, 11, 16 ],
+            "wednesday": [ 20, 28, 10, 15 ],
+            "thursday": [ 19, 27, 8, 14 ],
+            "saturday": [ 18, 26, 8, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 338,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3233842120/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://anzicstore.com/album/triple-helix',
+          a_string: 'Triple Helix by Anat Cohen Tentet',
+          rule: {
+            "monday": [ 18, 26, 8, 13 ],
+            "tuesday": [ 22, 30, 12, 17 ],
+            "wednesday": [ 21, 29, 11, 16 ],
+            "thursday": [ 20, 28, 10, 15 ],
+            "saturday": [ 19, 27, 8, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 339,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3038070599/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://matseilertsenhubro.bandcamp.com/album/reveries-and-revelations',
+          a_string: 'Reveries and Revelations by Mats Eilertsen',
+          rule: {
+            "monday": [ 19, 27, 8, 14 ],
+            "tuesday": [ 18, 26, 8, 13 ],
+            "wednesday": [ 22, 30, 12, 17 ],
+            "thursday": [ 21, 29, 11, 16 ],
+            "saturday": [ 20, 28, 10, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

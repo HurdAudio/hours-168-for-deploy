@@ -5620,6 +5620,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 313,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1887610953/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://catherinesikora.bandcamp.com/album/warrior',
+          a_string: 'Warrior by Catherine Sikora',
+          rule: {
+            "monday": [ 21, 29, 11, 10 ],
+            "tuesday": [ 25, 2, 15, 14 ],
+            "wednesday": [ 24, 1, 14, 13 ],
+            "thursday": [ 23, 31, 13, 12 ],
+            "saturday": [ 22, 30, 12, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 314,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1830950175/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://albertopinton.bandcamp.com/album/layers',
+          a_string: 'LAYERS by Alberto Pinton Sestetto Contemporaneo',
+          rule: {
+            "monday": [ 22, 30, 12, 11 ],
+            "tuesday": [ 21, 29, 11, 10 ],
+            "wednesday": [ 25, 2, 15, 14 ],
+            "thursday": [ 24, 1, 14, 13 ],
+            "saturday": [ 23, 31, 13, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 315,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=870150131/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jaapblonk.bandcamp.com/album/majaap',
+          a_string: 'MAJAAP by Maja Ratkje &amp; Jaap Blonk',
+          rule: {
+            "monday": [ 24, 1, 14, 13 ],
+            "tuesday": [ 23, 31, 13, 12 ],
+            "wednesday": [ 22, 30, 12, 11 ],
+            "thursday": [ 26, 3, 16, 15 ],
+            "saturday": [ 25, 2, 15, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/in-bretagne-1951(1).jpeg',
+          title: 'In Bretagne',
+          artist: 'Constant Permeke',
+          year: '1951',
+          rule: {
+            "monday": [ 30, 7, 4, 12 ],
+            "tuesday": [ 8, 15, 3, 10 ],
+            "wednesday": [ 15, 21, 9, 17 ],
+            "thursday": [ 14, 19, 8, 16 ],
+            "friday": [ 12, 19, 7, 15 ],
+            "saturday": [ 12, 18, 6, 14 ],
+            "sunday": [ 1, 17, 5, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/heat-and-dust.jpeg',
+          title: 'Heat and Dust',
+          artist: 'John Miller',
+          year: 'XX - XXI cent.',
+          rule: {
+            "monday": [ 1, 17, 5, 14 ],
+            "tuesday": [ 30, 7, 4, 12 ],
+            "wednesday": [ 8, 15, 3, 10 ],
+            "thursday": [ 15, 21, 9, 17 ],
+            "friday": [ 14, 19, 8, 16 ],
+            "saturday": [ 12, 19, 7, 15 ],
+            "sunday": [ 12, 18, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/random-63-1969.jpeg',
+          title: 'Random 63',
+          artist: 'Vladimir Bonacic',
+          year: '1969',
+          rule: {
+            "monday": [ 13, 19, 7, 15 ],
+            "tuesday": [ 2, 18, 6, 15 ],
+            "wednesday": [ 1, 8, 5, 13 ],
+            "thursday": [ 9, 16, 4, 11 ],
+            "friday": [ 16, 22, 10, 18 ],
+            "saturday": [ 15, 20, 9, 17 ],
+            "sunday": [ 13, 20, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/amenitat-d-un-bosc-1975(1).jpeg',
+          title: 'Amenitat d’un bosc',
+          artist: 'Angel Planells',
+          year: '1975',
+          rule: {
+            "monday": [ 13, 20, 8, 16 ],
+            "tuesday": [ 13, 19, 7, 15 ],
+            "wednesday": [ 2, 18, 6, 15 ],
+            "thursday": [ 1, 8, 5, 13 ],
+            "friday": [ 9, 16, 4, 11 ],
+            "saturday": [ 16, 22, 10, 18 ],
+            "sunday": [ 15, 20, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/toulouse-lautrec-1966.jpeg',
+          title: 'Toulouse Lautrec',
+          artist: 'Peter Max',
+          year: '1966',
+          rule: {
+            "monday": [ 15, 20, 9, 17 ],
+            "tuesday": [ 13, 20, 8, 16 ],
+            "wednesday": [ 13, 19, 7, 15 ],
+            "thursday": [ 2, 18, 6, 15 ],
+            "friday": [ 1, 8, 5, 13 ],
+            "saturday": [ 9, 16, 4, 11 ],
+            "sunday": [ 16, 22, 10, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -11904,6 +11904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 596,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/the-circus-1918.jpeg',
+          title: 'The Circus',
+          artist: 'Fernand Leger',
+          year: '1918',
+          rule: {
+            "monday": [ 26, 28, 20, 9 ],
+            "tuesday": [ 31, 29, 21, 24 ],
+            "wednesday": [ 31, 1, 23, 27 ],
+            "thursday": [ 3, 5, 6, 8 ],
+            "friday": [ 5, 7, 11, 14 ],
+            "saturday": [ 7, 9, 10, 11 ],
+            "sunday": [ 26, 28, 20, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 597,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/blue-black-red-1918.jpeg',
+          title: 'Blue, black, red',
+          artist: 'Aleksandra Ekster',
+          year: '1917 - 1918',
+          rule: {
+            "monday": [ 26, 28, 20, 9 ],
+            "tuesday": [ 26, 28, 20, 9 ],
+            "wednesday": [ 31, 29, 21, 24 ],
+            "thursday": [ 31, 1, 23, 27 ],
+            "friday": [ 3, 5, 6, 8 ],
+            "saturday": [ 5, 7, 11, 14 ],
+            "sunday": [ 7, 9, 10, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 598,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/suprematism-1918.jpeg',
+          title: 'Suprematism',
+          artist: 'Kazimir Malevich',
+          year: '1918',
+          rule: {
+            "monday": [ 7, 9, 10, 11 ],
+            "tuesday": [ 26, 28, 20, 9 ],
+            "wednesday": [ 26, 28, 20, 9 ],
+            "thursday": [ 31, 29, 21, 24 ],
+            "friday": [ 31, 1, 23, 27 ],
+            "saturday": [ 3, 5, 6, 8 ],
+            "sunday": [ 5, 7, 11, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 599,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-x-1918.jpeg',
+          title: 'Composition X',
+          artist: 'Theo van Doesburg',
+          year: '1918',
+          rule: {
+            "monday": [ 6, 8, 12, 15 ],
+            "tuesday": [ 8, 10, 11, 12 ],
+            "wednesday": [ 27, 29, 21, 10 ],
+            "thursday": [ 27, 29, 21, 10 ],
+            "friday": [ 1, 30, 22, 25 ],
+            "saturday": [ 1, 2, 24, 28 ],
+            "sunday": [ 4, 6, 7, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 600,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-xiii-woman-in-studio-1918.jpeg',
+          title: 'Composition XIII (Woman in studio)',
+          artist: 'Theo van Doesburg',
+          year: '1918',
+          rule: {
+            "monday": [ 4, 6, 7, 9 ],
+            "tuesday": [ 6, 8, 12, 15 ],
+            "wednesday": [ 8, 10, 11, 12 ],
+            "thursday": [ 27, 29, 21, 10 ],
+            "friday": [ 27, 29, 21, 10 ],
+            "saturday": [ 1, 30, 22, 25 ],
+            "sunday": [ 1, 2, 24, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

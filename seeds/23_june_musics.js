@@ -5836,6 +5836,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 325,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2035638436/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://eluvium.bandcamp.com/album/pianoworks',
+          a_string: 'Pianoworks by Eluvium',
+          rule: {
+            "monday": [ 15, 18, 24, 4 ],
+            "tuesday": [ 13, 21, 23, 8 ],
+            "wednesday": [ 17, 21, 27, 8 ],
+            "thursday": [ 16, 19, 24, 6 ],
+            "saturday": [ 15, 18, 24, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 326,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1028611826/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://room40.bandcamp.com/album/solastalgia',
+          a_string: 'Solastalgia by Rafael Anton Irisarri',
+          rule: {
+            "monday": [ 15, 18, 24, 5 ],
+            "tuesday": [ 15, 18, 24, 4 ],
+            "wednesday": [ 13, 21, 23, 8 ],
+            "thursday": [ 17, 21, 27, 8 ],
+            "saturday": [ 16, 19, 24, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 327,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=881961881/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erictaxxon.bandcamp.com/album/photo-4',
+          a_string: 'Photo 4 by Eric Taxxon',
+          rule: {
+            "monday": [ 16, 19, 24, 6 ],
+            "tuesday": [ 15, 18, 24, 5 ],
+            "wednesday": [ 15, 18, 24, 4 ],
+            "thursday": [ 13, 21, 23, 8 ],
+            "saturday": [ 17, 21, 27, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

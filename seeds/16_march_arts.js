@@ -11504,6 +11504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 576,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/altar-painting-1915.jpeg',
+          title: 'Altarpiece No. 1, Group X',
+          artist: 'Hilma af Klint',
+          year: '1915',
+          rule: {
+            "monday": [ 20, 30, 7, 17 ],
+            "tuesday": [ 18, 29, 6, 16 ],
+            "wednesday": [ 18, 28, 5, 15 ],
+            "thursday": [ 17, 28, 4, 14 ],
+            "friday": [ 16, 26, 3, 13 ],
+            "saturday": [ 15, 25, 3, 12 ],
+            "sunday": [ 21, 30, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 577,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/girlwithcigarette-goodsir.jpeg',
+          title: 'Girl with Cigarette',
+          artist: 'Agnes Goodsir',
+          year: 'c.1925',
+          rule: {
+            "monday": [ 21, 30, 9, 17 ],
+            "tuesday": [ 20, 30, 7, 17 ],
+            "wednesday": [ 18, 29, 6, 16 ],
+            "thursday": [ 18, 28, 5, 15 ],
+            "friday": [ 17, 28, 4, 14 ],
+            "saturday": [ 16, 26, 3, 13 ],
+            "sunday": [ 15, 25, 3, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 578,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/svolvaer-harbour-at-the-height-of-the-fishing-season-study-from-lofoten-anna-boberg-nationalmuseum.jpeg',
+          title: 'Svolvaer Harbour at the Height of the Fishing Season.Study from Lofoten',
+          artist: 'Anna Katarina Boberg',
+          year: '1934',
+          rule: {
+            "monday": [ 15, 25, 3, 12 ],
+            "tuesday": [ 21, 30, 9, 17 ],
+            "wednesday": [ 20, 30, 7, 17 ],
+            "thursday": [ 18, 29, 6, 16 ],
+            "friday": [ 18, 28, 5, 15 ],
+            "saturday": [ 17, 28, 4, 14 ],
+            "sunday": [ 16, 26, 3, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 579,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/comforted-1906.jpeg',
+          title: 'Comforted',
+          artist: 'Alice Boughton',
+          year: '1906',
+          rule: {
+            "monday": [ 16, 26, 3, 13 ],
+            "tuesday": [ 15, 25, 3, 12 ],
+            "wednesday": [ 21, 30, 9, 17 ],
+            "thursday": [ 20, 30, 7, 17 ],
+            "friday": [ 18, 29, 6, 16 ],
+            "saturday": [ 18, 28, 5, 15 ],
+            "sunday": [ 17, 28, 4, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 580,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/frances-hodgkins-arrangement-of-jugs-1938.jpeg',
+          title: 'ARRANGEMENT OF JUGS',
+          artist: 'Frances Hodgkins',
+          year: '1938',
+          rule: {
+            "monday": [ 17, 28, 4, 14 ],
+            "tuesday": [ 16, 26, 3, 13 ],
+            "wednesday": [ 15, 25, 3, 12 ],
+            "thursday": [ 21, 30, 9, 17 ],
+            "friday": [ 20, 30, 7, 17 ],
+            "saturday": [ 18, 29, 6, 16 ],
+            "sunday": [ 18, 28, 5, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

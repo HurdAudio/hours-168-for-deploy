@@ -6376,6 +6376,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 355,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2508698964/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/what-a-wonderful-world',
+          a_string: 'What A Wonderful World by Jérôme Noetinger/Erik M',
+          rule: {
+            "monday": [ 25, 1, 2, 3 ],
+            "tuesday": [ 29, 5, 6, 7 ],
+            "wednesday": [ 28, 3, 4, 6 ],
+            "thursday": [ 27, 3, 4, 5 ],
+            "saturday": [ 26, 1, 2, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 356,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4027832018/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/rabbit-run',
+          a_string: 'Rabbit Run by Keith Rowe/Thomas Lehn/Marcus Schmickler',
+          rule: {
+            "monday": [ 26, 1, 2, 3 ],
+            "tuesday": [ 25, 1, 2, 3 ],
+            "wednesday": [ 29, 5, 6, 7 ],
+            "thursday": [ 28, 3, 4, 6 ],
+            "saturday": [ 27, 3, 4, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 357,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4072874731/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/liding',
+          a_string: 'Lidingö by Andrea Neumann/Burkhard Beins',
+          rule: {
+            "monday": [ 28, 4, 5, 6 ],
+            "tuesday": [ 27, 2, 3, 4 ],
+            "wednesday": [ 26, 2, 3, 4 ],
+            "thursday": [ 30, 6, 7, 8 ],
+            "saturday": [ 29, 4, 5, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

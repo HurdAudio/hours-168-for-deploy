@@ -10,8 +10,8 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           message_id: 1,
           comment: 'First comment.',
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2019-08-01T13:44:00.000Z'),
+          updated_at: new Date('2019-08-01T13:44:00.000Z')
         }
       ]);
     }).then(() => {

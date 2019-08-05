@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2677177387/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bambamthebandband.bandcamp.com/album/nails',
+          a_string: 'NAILS by bam!bam!',
+          rule: {
+            "monday": [ 12, 14, 18, 26 ],
+            "tuesday": [ 16, 18, 22, 30 ],
+            "wednesday": [ 15, 17, 21, 29 ],
+            "thursday": [ 14, 16, 20, 28 ],
+            "saturday": [ 13, 14, 19, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2955481105/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bboys.bandcamp.com/album/dudu',
+          a_string: 'Dudu by B Boys',
+          rule: {
+            "monday": [ 13, 14, 19, 27 ],
+            "tuesday": [ 12, 14, 18, 26 ],
+            "wednesday": [ 16, 18, 22, 30 ],
+            "thursday": [ 15, 17, 21, 29 ],
+            "saturday": [ 14, 16, 20, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3211307950/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://swimteamhello.bandcamp.com/album/home-time',
+          a_string: 'Home Time by Swim Team',
+          rule: {
+            "monday": [ 14, 16, 20, 28 ],
+            "tuesday": [ 13, 14, 19, 27 ],
+            "wednesday": [ 12, 14, 18, 26 ],
+            "thursday": [ 16, 18, 22, 30 ],
+            "saturday": [ 15, 17, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

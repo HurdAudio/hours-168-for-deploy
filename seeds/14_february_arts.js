@@ -11704,6 +11704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 586,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/thomas-blackshear-handsigned-and-numbered-limited-edition-fine-art-sculpture-summer-days-16.jpeg',
+          title: 'Summer Days',
+          artist: 'Thomas Blackshear',
+          year: '?',
+          rule: {
+            "monday": [ 5, 15, 21, 27 ],
+            "tuesday": [ 7, 15, 23, 4 ],
+            "wednesday": [ 7, 17, 13, 3 ],
+            "thursday": [ 26, 5, 13, 21 ],
+            "friday": [ 27, 7, 15, 23 ],
+            "saturday": [ 4, 9, 15, 25 ],
+            "sunday": [ 3, 11, 19, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 587,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/6865_3.jpg',
+          title: 'A Long Way from Home',
+          artist: 'Betty Blayton-Taylor',
+          year: '1977',
+          rule: {
+            "monday": [ 3, 11, 19, 27 ],
+            "tuesday": [ 5, 15, 21, 27 ],
+            "wednesday": [ 7, 15, 23, 4 ],
+            "thursday": [ 7, 17, 13, 3 ],
+            "friday": [ 26, 5, 13, 21 ],
+            "saturday": [ 27, 7, 15, 23 ],
+            "sunday": [ 4, 9, 15, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 588,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/bookeranonymousdonorweb.jpg',
+          title: 'Anonymous Donor',
+          artist: 'Chakaia Booker',
+          year: '2015',
+          rule: {
+            "monday": [ 5, 10, 16, 26 ],
+            "tuesday": [ 4, 12, 20, 28 ],
+            "wednesday": [ 6, 16, 22, 28 ],
+            "thursday": [ 8, 16, 24, 5 ],
+            "friday": [ 8, 18, 14, 4 ],
+            "saturday": [ 27, 6, 14, 22 ],
+            "sunday": [ 28, 8, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 589,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Maestra-Piece_9474web-360x240.jpg',
+          title: 'Maestra Piece',
+          artist: 'Edythe Boone',
+          year: '2018',
+          rule: {
+            "monday": [ 28, 8, 16, 24 ],
+            "tuesday": [ 5, 10, 16, 26 ],
+            "wednesday": [ 4, 12, 20, 28 ],
+            "thursday": [ 6, 16, 22, 28 ],
+            "friday": [ 8, 16, 24, 5 ],
+            "saturday": [ 8, 18, 14, 4 ],
+            "sunday": [ 27, 6, 14, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 590,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/42952beb57fd34161aa5df64c5fa9166.gif',
+          title: 'It is Amazing How We Rely on Things in the Sky to Keep Us Grounded',
+          artist: 'Charles Boyce',
+          year: '2014',
+          rule: {
+            "monday": [ 27, 6, 14, 22 ],
+            "tuesday": [ 28, 8, 16, 24 ],
+            "wednesday": [ 5, 10, 16, 26 ],
+            "thursday": [ 4, 12, 20, 28 ],
+            "friday": [ 6, 16, 22, 28 ],
+            "saturday": [ 8, 16, 24, 5 ],
+            "sunday": [ 8, 18, 14, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

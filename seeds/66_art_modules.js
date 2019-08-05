@@ -3904,6 +3904,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 326,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/zurigo-1981.jpeg',
+          title: 'Zurigo',
+          artist: 'Franco Fontana',
+          year: '1981',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 327,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/swimming-pool-1984.jpeg',
+          title: 'Swimming Pool',
+          artist: 'Franco Fontana',
+          year: '1984',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 328,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/asfalto-bologna-1985.jpeg',
+          title: 'Asfalto, Bologna',
+          artist: 'Franco Fontana',
+          year: '1985',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 329,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/urban-landscape-houston-1985.jpeg',
+          title: 'Urban Landscape, Houston',
+          artist: 'Franco Fontana',
+          year: '1985',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 330,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/puglia-1987.jpeg',
+          title: 'Puglia',
+          artist: 'Franco Fontana',
+          year: '1987',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

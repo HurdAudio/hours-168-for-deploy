@@ -9319,7 +9319,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 14, 19, 25, 30 ],
             "thursday": [ 13, 15, 23, 29 ],
             "friday": [ 12, 16, 23, 27 ],
-            "saturday": [ 11, 14, 21, 26 ]
+            "saturday": [ 11, 14, 21, 26 ],
+            "sunday": [ 10, 13, 20, 25 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9338,7 +9339,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 8, 13, 19, 26 ],
             "thursday": [ 14, 19, 25, 30 ],
             "friday": [ 13, 15, 23, 29 ],
-            "saturday": [ 12, 16, 23, 27 ]
+            "saturday": [ 12, 16, 23, 27 ],
+            "sunday": [ 11, 15, 22, 26 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9357,7 +9359,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 9, 14, 20, 25 ],
             "thursday": [ 8, 13, 19, 26 ],
             "friday": [ 14, 19, 25, 30 ],
-            "saturday": [ 13, 15, 23, 29 ]
+            "saturday": [ 13, 15, 23, 29 ],
+            "sunday": [ 12, 14, 22, 28 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9376,7 +9379,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 12, 15, 22, 27 ],
             "thursday": [ 10, 15, 21, 26 ],
             "friday": [ 9, 14, 20, 27 ],
-            "saturday": [ 15, 20, 26, 1 ]
+            "saturday": [ 15, 20, 26, 1 ],
+            "sunday": [ 14, 19, 25, 31 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9395,7 +9399,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 13, 17, 24, 28 ],
             "thursday": [ 12, 15, 22, 27 ],
             "friday": [ 10, 15, 21, 26 ],
-            "saturday": [ 9, 14, 20, 27 ]
+            "saturday": [ 9, 14, 20, 27 ],
+            "sunday": [ 8, 13, 19, 26 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9414,7 +9419,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 14, 16, 24, 30 ],
             "thursday": [ 13, 17, 24, 28 ],
             "friday": [ 12, 15, 22, 27 ],
-            "saturday": [ 10, 15, 21, 26 ]
+            "saturday": [ 10, 15, 21, 26 ],
+            "sunday": [ 9, 14, 20, 25 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9433,7 +9439,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 15, 20, 26, 1 ],
             "thursday": [ 14, 16, 24, 30 ],
             "friday": [ 13, 17, 24, 28 ],
-            "saturday": [ 12, 15, 22, 27 ]
+            "saturday": [ 12, 15, 22, 27 ],
+            "sunday": [ 11, 14, 21, 26 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9452,7 +9459,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 9, 14, 20, 27 ],
             "thursday": [ 15, 20, 26, 1 ],
             "friday": [ 14, 16, 24, 30 ],
-            "saturday": [ 13, 17, 24, 28 ]
+            "saturday": [ 13, 17, 24, 28 ],
+            "sunday": [ 12, 16, 23, 27 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9471,7 +9479,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 10, 15, 21, 26 ],
             "thursday": [ 9, 14, 20, 27 ],
             "friday": [ 15, 20, 26, 1 ],
-            "saturday": [ 14, 16, 24, 30 ]
+            "saturday": [ 14, 16, 24, 30 ],
+            "sunday": [ 13, 15, 23, 29 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9490,7 +9499,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 12, 15, 22, 27 ],
             "thursday": [ 10, 15, 21, 26 ],
             "friday": [ 9, 14, 20, 27 ],
-            "saturday": [ 15, 20, 26, 1 ]
+            "saturday": [ 15, 20, 26, 1 ],
+            "sunday": [ 14, 19, 27, 31 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9509,7 +9519,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 14, 18, 25, 29 ],
             "thursday": [ 13, 16, 23, 28 ],
             "friday": [ 11, 16, 22, 27 ],
-            "saturday": [ 10, 15, 21, 28 ]
+            "saturday": [ 10, 15, 21, 28 ],
+            "sunday": [ 9, 14, 20, 27 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9528,7 +9539,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 15, 17, 25, 1 ],
             "thursday": [ 14, 18, 25, 29 ],
             "friday": [ 13, 16, 23, 28 ],
-            "saturday": [ 11, 16, 22, 27 ]
+            "saturday": [ 11, 16, 22, 27 ],
+            "sunday": [ 10, 15, 21, 26 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9547,7 +9559,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 16, 21, 27, 2 ],
             "thursday": [ 15, 17, 25, 1 ],
             "friday": [ 14, 18, 25, 29 ],
-            "saturday": [ 13, 16, 23, 28 ]
+            "saturday": [ 13, 16, 23, 28 ],
+            "sunday": [ 12, 15, 22, 27 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9566,7 +9579,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 10, 15, 21, 28 ],
             "thursday": [ 16, 21, 27, 2 ],
             "friday": [ 15, 17, 25, 1 ],
-            "saturday": [ 14, 18, 25, 29 ]
+            "saturday": [ 14, 18, 25, 29 ],
+            "sunday": [ 13, 17, 24, 28 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9585,7 +9599,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 11, 16, 22, 27 ],
             "thursday": [ 10, 15, 21, 28 ],
             "friday": [ 16, 21, 27, 2 ],
-            "saturday": [ 15, 17, 25, 1 ]
+            "saturday": [ 15, 17, 25, 1 ],
+            "sunday": [ 14, 16, 24, 2 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9604,7 +9619,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 13, 16, 23, 28 ],
             "thursday": [ 11, 16, 22, 27 ],
             "friday": [ 10, 15, 21, 28 ],
-            "saturday": [ 16, 21, 27, 2 ]
+            "saturday": [ 16, 21, 27, 2 ],
+            "sunday": [ 15, 20, 26, 3 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9623,7 +9639,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 14, 18, 25, 29 ],
             "thursday": [ 13, 16, 23, 28 ],
             "friday": [ 11, 16, 22, 27 ],
-            "saturday": [ 10, 15, 21, 28 ]
+            "saturday": [ 10, 15, 21, 28 ],
+            "sunday": [ 11, 16, 20, 27 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9642,7 +9659,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 16, 18, 26, 2 ],
             "thursday": [ 15, 19, 26, 30 ],
             "friday": [ 14, 17, 24, 29 ],
-            "saturday": [ 12, 17, 23, 28 ]
+            "saturday": [ 12, 17, 23, 28 ],
+            "sunday": [ 11, 16, 22, 27 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9661,7 +9679,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 17, 22, 28, 3 ],
             "thursday": [ 16, 18, 26, 2 ],
             "friday": [ 15, 19, 26, 30 ],
-            "saturday": [ 14, 17, 24, 29 ]
+            "saturday": [ 14, 17, 24, 29 ],
+            "sunday": [ 13, 16, 23, 28 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9680,7 +9699,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 11, 16, 22, 29 ],
             "thursday": [ 17, 22, 28, 3 ],
             "friday": [ 16, 18, 26, 2 ],
-            "saturday": [ 15, 19, 26, 30 ]
+            "saturday": [ 15, 19, 26, 30 ],
+            "sunday": [ 14, 18, 25, 29 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9699,7 +9719,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 12, 17, 23, 28 ],
             "thursday": [ 11, 16, 22, 29 ],
             "friday": [ 17, 22, 28, 3 ],
-            "saturday": [ 16, 18, 26, 2 ]
+            "saturday": [ 16, 18, 26, 2 ],
+            "sunday": [ 15, 17, 25, 1 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9718,7 +9739,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 14, 17, 24, 29 ],
             "thursday": [ 12, 17, 23, 28 ],
             "friday": [ 11, 16, 22, 29 ],
-            "saturday": [ 17, 22, 28, 3 ]
+            "saturday": [ 17, 22, 28, 3 ],
+            "sunday": [ 16, 21, 27, 2 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9737,7 +9759,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 15, 19, 26, 30 ],
             "thursday": [ 14, 17, 24, 29 ],
             "friday": [ 12, 17, 23, 28 ],
-            "saturday": [ 11, 16, 22, 29 ]
+            "saturday": [ 11, 16, 22, 29 ],
+            "sunday": [ 10, 15, 21, 28 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9756,7 +9779,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 16, 18, 26, 2 ],
             "thursday": [ 15, 19, 26, 30 ],
             "friday": [ 14, 17, 24, 29 ],
-            "saturday": [ 12, 17, 23, 28 ]
+            "saturday": [ 12, 17, 23, 28 ],
+            "sunday": [ 11, 16, 22, 27 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9775,7 +9799,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 18, 23, 29, 4 ],
             "thursday": [ 17, 19, 27, 3 ],
             "friday": [ 16, 20, 27, 31 ],
-            "saturday": [ 15, 18, 25, 30 ]
+            "saturday": [ 15, 18, 25, 30 ],
+            "sunday": [ 14, 17, 24, 29 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9794,7 +9819,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 12, 17, 23, 30 ],
             "thursday": [ 18, 23, 29, 4 ],
             "friday": [ 17, 19, 27, 3 ],
-            "saturday": [ 16, 20, 27, 31 ]
+            "saturday": [ 16, 20, 27, 31 ],
+            "sunday": [ 15, 19, 26, 30 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9813,7 +9839,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 13, 18, 24, 29 ],
             "thursday": [ 12, 17, 23, 30 ],
             "friday": [ 18, 23, 29, 4 ],
-            "saturday": [ 17, 19, 27, 3 ]
+            "saturday": [ 17, 19, 27, 3 ],
+            "sunday": [ 16, 18, 26, 2 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9832,7 +9859,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 15, 18, 25, 30 ],
             "thursday": [ 13, 18, 24, 29 ],
             "friday": [ 12, 17, 23, 30 ],
-            "saturday": [ 18, 23, 29, 4 ]
+            "saturday": [ 18, 23, 29, 4 ],
+            "sunday": [ 17, 22, 28, 3 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9851,7 +9879,8 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 16, 20, 27, 31 ],
             "thursday": [ 15, 18, 25, 30 ],
             "friday": [ 13, 18, 24, 29 ],
-            "saturday": [ 12, 17, 23, 30 ]
+            "saturday": [ 12, 17, 23, 30 ],
+            "sunday": [ 11, 16, 22, 29 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -9870,7 +9899,108 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 17, 19, 27, 3 ],
             "thursday": [ 16, 20, 27, 31 ],
             "friday": [ 15, 18, 25, 30 ],
-            "saturday": [ 13, 18, 24, 29 ]
+            "saturday": [ 13, 18, 24, 29 ],
+            "sunday": [ 12, 17, 23, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 496,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/wavy-lines-with-black-border-1997.jpeg',
+          title: 'Wavy Lines with Black Border',
+          artist: 'Sol LeWitt',
+          year: '1997',
+          rule: {
+            "monday": [ 12, 17, 23, 28 ],
+            "tuesday": [ 12, 17, 23, 30 ],
+            "wednesday": [ 18, 23, 29, 4 ],
+            "thursday": [ 17, 19, 27, 3 ],
+            "friday": [ 16, 20, 27, 31 ],
+            "saturday": [ 15, 18, 25, 30 ],
+            "sunday": [ 13, 18, 24, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 497,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/lattice-1997.jpeg',
+          title: 'Lattice',
+          artist: 'Daniel Dezeuze',
+          year: '1997',
+          rule: {
+            "monday": [ 14, 19, 25, 30 ],
+            "tuesday": [ 13, 18, 24, 29 ],
+            "wednesday": [ 13, 18, 24, 1 ],
+            "thursday": [ 19, 24, 30, 5 ],
+            "friday": [ 18, 20, 28, 4 ],
+            "saturday": [ 17, 21, 28, 1 ],
+            "sunday": [ 16, 19, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 498,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/six-soft-stones-1997.jpeg',
+          title: 'Six Soft Stones',
+          artist: 'Sheila Hicks',
+          year: '1997',
+          rule: {
+            "monday": [ 16, 19, 26, 1 ],
+            "tuesday": [ 14, 19, 25, 30 ],
+            "wednesday": [ 13, 18, 24, 29 ],
+            "thursday": [ 13, 18, 24, 1 ],
+            "friday": [ 19, 24, 30, 5 ],
+            "saturday": [ 18, 20, 28, 4 ],
+            "sunday": [ 17, 21, 28, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 499,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1997-1.jpeg',
+          title: 'Untitled',
+          artist: 'Marc Vaux',
+          year: '1997',
+          rule: {
+            "monday": [ 17, 21, 28, 1 ],
+            "tuesday": [ 16, 19, 26, 1 ],
+            "wednesday": [ 14, 19, 25, 30 ],
+            "thursday": [ 13, 18, 24, 29 ],
+            "friday": [ 13, 18, 24, 1 ],
+            "saturday": [ 19, 24, 30, 5 ],
+            "sunday": [ 18, 20, 28, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 500,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/seascape-sea-of-japan-1997.jpeg',
+          title: 'Seascape: Sea of Japan',
+          artist: 'Hiroshi Sugimoto',
+          year: '1997',
+          rule: {
+            "monday": [ 18, 20, 28, 4 ],
+            "tuesday": [ 17, 21, 28, 1 ],
+            "wednesday": [ 16, 19, 26, 1 ],
+            "thursday": [ 14, 19, 25, 30 ],
+            "friday": [ 13, 18, 24, 29 ],
+            "saturday": [ 13, 18, 24, 1 ],
+            "sunday": [ 19, 24, 30, 5 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

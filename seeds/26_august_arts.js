@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/a-song-without-words-1919.jpeg',
+          title: 'A Song without Words',
+          artist: 'John William Godward',
+          year: '1919',
+          rule: {
+            "monday": [ 15, 19, 27, 12 ],
+            "tuesday": [ 14, 16, 26, 11 ],
+            "wednesday": [ 13, 15, 25, 10 ],
+            "thursday": [ 12, 15, 24, 9 ],
+            "friday": [ 11, 14, 23, 8 ],
+            "saturday": [ 17, 21, 29, 14 ],
+            "sunday": [ 16, 19, 28, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-line-of-fire-1916.jpeg',
+          title: 'On the Line of Fire',
+          artist: 'Kuzma Petrov-Vodkin',
+          year: '1916',
+          rule: {
+            "monday": [ 16, 19, 28, 13 ],
+            "tuesday": [ 15, 19, 27, 12 ],
+            "wednesday": [ 14, 16, 26, 11 ],
+            "thursday": [ 13, 15, 25, 10 ],
+            "friday": [ 12, 15, 24, 9 ],
+            "saturday": [ 11, 14, 23, 8 ],
+            "sunday": [ 17, 21, 29, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/balchik-gulf-1930.jpeg',
+          title: 'Balchik Gulf',
+          artist: 'Stefan Dimitrescu',
+          year: '1930',
+          rule: {
+            "monday": [ 17, 21, 29, 14 ],
+            "tuesday": [ 16, 19, 28, 13 ],
+            "wednesday": [ 15, 19, 27, 12 ],
+            "thursday": [ 14, 16, 26, 11 ],
+            "friday": [ 13, 15, 25, 10 ],
+            "saturday": [ 12, 15, 24, 9 ],
+            "sunday": [ 11, 14, 23, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/le-fondeur-the-foundry-1900.jpeg',
+          title: 'Le Fondeur (The Foundry)',
+          artist: 'Eugene Carriere',
+          year: '1900',
+          rule: {
+            "monday": [ 11, 14, 23, 8 ],
+            "tuesday": [ 17, 21, 29, 14 ],
+            "wednesday": [ 16, 19, 28, 13 ],
+            "thursday": [ 15, 19, 27, 12 ],
+            "friday": [ 14, 16, 26, 11 ],
+            "saturday": [ 13, 15, 25, 10 ],
+            "sunday": [ 12, 15, 24, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/tall-portuguese-woman-1916.jpeg',
+          title: 'Tall Portuguese Woman',
+          artist: 'Robert Delaunay',
+          year: '1916',
+          rule: {
+            "monday": [ 12, 15, 24, 9 ],
+            "tuesday": [ 11, 14, 23, 8 ],
+            "wednesday": [ 17, 21, 29, 14 ],
+            "thursday": [ 16, 19, 28, 13 ],
+            "friday": [ 15, 19, 27, 12 ],
+            "saturday": [ 14, 16, 26, 11 ],
+            "sunday": [ 13, 15, 25, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

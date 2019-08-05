@@ -6268,6 +6268,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 349,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3893869606/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mmg-koolkeith.bandcamp.com/album/keith',
+          a_string: 'KEITH by Kool Keith',
+          rule: {
+            "monday": [ 7, 1, 3, 5 ],
+            "tuesday": [ 9, 3, 5, 11 ],
+            "wednesday": [ 10, 4, 6, 12 ],
+            "thursday": [ 22, 26, 28, 3 ],
+            "saturday": [ 25, 28, 1, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 350,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3975457878/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mikelikesrap.bandcamp.com/album/tears-of-joy',
+          a_string: 'tears of joy by MIKE',
+          rule: {
+            "monday": [ 26, 29, 2, 4 ],
+            "tuesday": [ 8, 2, 4, 6 ],
+            "wednesday": [ 10, 4, 6, 12 ],
+            "thursday": [ 11, 5, 7, 13 ],
+            "saturday": [ 23, 27, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 351,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2262284524/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://exqomaniarules.bandcamp.com/album/mr-muthafuckin-exquire',
+          a_string: 'Mr. Muthafuckin&#39; eXquire by Mr. Muthafuckin&#39; eXquire',
+          rule: {
+            "monday": [ 23, 27, 29, 4 ],
+            "tuesday": [ 26, 29, 2, 4 ],
+            "wednesday": [ 8, 2, 4, 6 ],
+            "thursday": [ 10, 4, 6, 12 ],
+            "saturday": [ 11, 5, 7, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
