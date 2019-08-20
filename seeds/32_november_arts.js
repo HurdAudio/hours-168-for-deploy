@@ -10004,6 +10004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 501,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/vara-din.jpeg',
+          title: 'Varaždin at night (in situ)',
+          artist: 'Alfred Freddy Krupa',
+          year: '1997',
+          rule: {
+            "monday": [ 19, 24, 30, 5 ],
+            "tuesday": [ 18, 20, 28, 4 ],
+            "wednesday": [ 17, 21, 28, 1 ],
+            "thursday": [ 16, 19, 26, 1 ],
+            "friday": [ 14, 19, 25, 30 ],
+            "saturday": [ 13, 18, 24, 29 ],
+            "sunday": [ 13, 18, 24, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 502,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/fragments-i-vii-1998.jpeg',
+          title: 'Fragments I-VII',
+          artist: 'Robert Mangold',
+          year: '1997 - 1998',
+          rule: {
+            "monday": [ 13, 18, 24, 1 ],
+            "tuesday": [ 19, 24, 30, 5 ],
+            "wednesday": [ 18, 20, 28, 4 ],
+            "thursday": [ 17, 21, 28, 1 ],
+            "friday": [ 16, 19, 26, 1 ],
+            "saturday": [ 14, 19, 25, 30 ],
+            "sunday": [ 13, 18, 24, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 503,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/on-the-beam-1998.jpeg',
+          title: 'On the Beam',
+          artist: 'John McCracken',
+          year: '1998',
+          rule: {
+            "monday": [ 13, 18, 24, 29 ],
+            "tuesday": [ 13, 18, 24, 1 ],
+            "wednesday": [ 19, 24, 30, 5 ],
+            "thursday": [ 18, 20, 28, 4 ],
+            "friday": [ 17, 21, 28, 1 ],
+            "saturday": [ 16, 19, 26, 1 ],
+            "sunday": [ 14, 19, 25, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 504,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/boys-let-s-be-bad-boys-3-1998.jpeg',
+          title: 'Boys Let’s Be Bad Boys (3)',
+          artist: 'Richard Tuttle',
+          year: '1998',
+          rule: {
+            "monday": [ 15, 20, 26, 1 ],
+            "tuesday": [ 14, 19, 25, 30 ],
+            "wednesday": [ 14, 19, 25, 2 ],
+            "thursday": [ 20, 25, 1, 6 ],
+            "friday": [ 19, 21, 29, 5 ],
+            "saturday": [ 18, 22, 29, 2 ],
+            "sunday": [ 17, 20, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 505,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/bramme-for-the-ruhr-district-1998.jpeg',
+          title: 'Bramme for the Ruhr-District',
+          artist: 'Richard Serra',
+          year: '1998',
+          rule: {
+            "monday": [ 17, 20, 27, 2 ],
+            "tuesday": [ 15, 20, 26, 1 ],
+            "wednesday": [ 14, 19, 25, 30 ],
+            "thursday": [ 14, 19, 25, 2 ],
+            "friday": [ 20, 25, 1, 6 ],
+            "saturday": [ 19, 21, 29, 5 ],
+            "sunday": [ 18, 22, 29, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5890,6 +5890,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 328,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=92107445/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://whities.bandcamp.com/album/loom-dream',
+          a_string: 'Loom Dream by Leif',
+          rule: {
+            "monday": [ 17, 21, 27, 8 ],
+            "tuesday": [ 16, 19, 24, 6 ],
+            "wednesday": [ 15, 18, 24, 5 ],
+            "thursday": [ 15, 18, 24, 4 ],
+            "saturday": [ 13, 21, 23, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 329,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2578169546/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://pitp.bandcamp.com/album/liminal',
+          a_string: 'Liminal by Jordan Christoff',
+          rule: {
+            "monday": [ 14, 22, 24, 9 ],
+            "tuesday": [ 18, 22, 28, 9 ],
+            "wednesday": [ 17, 20, 25, 7 ],
+            "thursday": [ 16, 19, 25, 6 ],
+            "saturday": [ 16, 19, 25, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 330,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1602650790/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://whitelabrecs.bandcamp.com/album/taiga',
+          a_string: 'Taiga by Old Amica',
+          rule: {
+            "monday": [ 14, 22, 24, 9 ],
+            "tuesday": [ 18, 22, 28, 9 ],
+            "wednesday": [ 17, 20, 25, 7 ],
+            "thursday": [ 16, 19, 25, 6 ],
+            "saturday": [ 16, 19, 25, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

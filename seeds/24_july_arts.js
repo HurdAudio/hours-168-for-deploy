@@ -10804,6 +10804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 541,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/la-bugatti-1925.jpeg',
+          title: 'La Bugatti',
+          artist: 'Charles Lapicque',
+          year: '1925',
+          rule: {
+            "monday": [ 12, 23, 3, 14 ],
+            "tuesday": [ 17, 26, 8, 19 ],
+            "wednesday": [ 17, 26, 8, 19 ],
+            "thursday": [ 15, 26, 7, 18 ],
+            "friday": [ 15, 26, 6, 7 ],
+            "saturday": [ 14, 25, 4, 6 ],
+            "sunday": [ 13, 24, 4, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 542,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/composition-1948.jpeg',
+          title: 'Composition',
+          artist: 'Gerard Schneider',
+          year: '1948',
+          rule: {
+            "monday": [ 13, 24, 4, 5 ],
+            "tuesday": [ 12, 23, 3, 14 ],
+            "wednesday": [ 17, 26, 8, 19 ],
+            "thursday": [ 17, 26, 8, 19 ],
+            "friday": [ 15, 26, 7, 18 ],
+            "saturday": [ 15, 26, 6, 7 ],
+            "sunday": [ 14, 25, 4, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 543,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/nu-sur-fond-bleu-1924.jpeg',
+          title: 'Nu sur fond bleu',
+          artist: 'Marcelle Cahn',
+          year: '1924',
+          rule: {
+            "monday": [ 14, 25, 4, 6 ],
+            "tuesday": [ 13, 24, 4, 5 ],
+            "wednesday": [ 12, 23, 3, 14 ],
+            "thursday": [ 17, 26, 8, 19 ],
+            "friday": [ 17, 26, 8, 19 ],
+            "saturday": [ 15, 26, 7, 18 ],
+            "sunday": [ 15, 26, 6, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 544,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/t-te-fantastique-1928.jpeg',
+          title: 'Tête fantastique',
+          artist: 'Georges Papazoff',
+          year: '1928',
+          rule: {
+            "monday": [ 15, 26, 6, 7 ],
+            "tuesday": [ 14, 25, 4, 6 ],
+            "wednesday": [ 13, 24, 4, 5 ],
+            "thursday": [ 12, 23, 3, 14 ],
+            "friday": [ 17, 26, 8, 19 ],
+            "saturday": [ 17, 26, 8, 19 ],
+            "sunday": [ 15, 26, 7, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 545,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/large-nude-josan-on-red-couch-1953.jpeg',
+          title: 'Large nude Josan on red couch',
+          artist: 'Moise Kisling',
+          year: '1953',
+          rule: {
+            "monday": [ 15, 26, 7, 18 ],
+            "tuesday": [ 15, 26, 6, 7 ],
+            "wednesday": [ 14, 25, 4, 6 ],
+            "thursday": [ 13, 24, 4, 5 ],
+            "friday": [ 12, 23, 3, 14 ],
+            "saturday": [ 17, 26, 8, 19 ],
+            "sunday": [ 17, 26, 8, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

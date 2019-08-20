@@ -6430,6 +6430,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 358,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=259268049/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/eh',
+          a_string: 'eh by Burkhard Stangl/Dieb 13',
+          rule: {
+            "monday": [ 29, 4, 5, 7 ],
+            "tuesday": [ 28, 4, 5, 6 ],
+            "wednesday": [ 27, 2, 3, 4 ],
+            "thursday": [ 26, 2, 3, 4 ],
+            "saturday": [ 30, 6, 7, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 359,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3686795508/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/tears',
+          a_string: 'Tears by Cosmos (Ami Yoshida/Sachiko M)',
+          rule: {
+            "monday": [ 30, 6, 7, 8 ],
+            "tuesday": [ 29, 4, 5, 7 ],
+            "wednesday": [ 28, 4, 5, 6 ],
+            "thursday": [ 27, 2, 3, 4 ],
+            "saturday": [ 26, 2, 3, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 360,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3690585579/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/wrapped-islands',
+          a_string: 'Wrapped Islands by Polwechsel/Fennesz',
+          rule: {
+            "monday": [ 26, 2, 3, 4 ],
+            "tuesday": [ 30, 6, 7, 8 ],
+            "wednesday": [ 29, 4, 5, 7 ],
+            "thursday": [ 28, 4, 5, 6 ],
+            "saturday": [ 27, 2, 3, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

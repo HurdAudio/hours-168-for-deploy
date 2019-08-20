@@ -1208,6 +1208,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#D3D1D6',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 87,
+          user_id: 1,
+          theme: 'Monochromatic',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/monoChurch.jpeg',
+          repeat_value: 'no-repeat',
+          size_value: '130%',
+          color_dark: '#3232A8',
+          color_medium: '#C1C6DC',
+          color_light: '#FBFCF7',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

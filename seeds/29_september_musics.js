@@ -64,9 +64,9 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Math Rock & Progressive Rock',
           source: 'bandcamp',
-          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2048046098/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://artbears.bandcamp.com/album/revisited',
-          a_string: 'revisited by Art Bears',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2290969838/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://wormed.bandcamp.com/album/metaportal',
+          a_string: 'Metaportal by Wormed',
           rule: {
             "monday": [ 2, 22, 30, 24 ],
             "tuesday": [ 1, 21, 29, 23 ],
@@ -370,9 +370,9 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Math Rock & Progressive Rock',
           source: 'bandcamp',
-          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1395941753/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://soen-sweden.bandcamp.com/album/lykaia',
-          a_string: 'Lykaia by Soen',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=814872366/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://moronpolice1.bandcamp.com/album/a-boat-on-the-sea',
+          a_string: 'A Boat on the Sea by Moron Police',
           rule: {
             "monday": [ 7, 27, 5, 29 ],
             "tuesday": [ 6, 26, 4, 28 ],
@@ -550,9 +550,9 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Math Rock & Progressive Rock',
           source: 'bandcamp',
-          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=119402848/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://jackotheclock.bandcamp.com/album/outsider-songs',
-          a_string: 'Outsider Songs by Jack O&#39; The Clock',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=261157051/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://alltrapsonearth.bandcamp.com/album/a-drop-of-light',
+          a_string: 'A Drop of Light by All Traps on Earth',
           rule: {
             "monday": [ 8, 28, 6, 30 ],
             "tuesday": [ 7, 27, 5, 29 ],
@@ -821,8 +821,8 @@ exports.seed = function(knex, Promise) {
           theme: 'Math Rock & Progressive Rock',
           source: 'bandcamp',
           src_string: 'https://bandcamp.com/EmbeddedPlayer/album=789325349/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://dtes.bandcamp.com/album/hereticsHeretics by Dream the Electric Sleep',
-          a_string: '',
+          href_string: 'http://dtes.bandcamp.com/album/heretics',
+          a_string: 'Heretics by Dream the Electric Sleep',
           rule: {
             "monday": [ 10, 30, 8, 2 ],
             "tuesday": [ 9, 29, 7, 1 ],
@@ -1144,9 +1144,9 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Math Rock & Progressive Rock',
           source: 'bandcamp',
-          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3191779155/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://plini.bandcamp.com/album/sweet-nothings',
-          a_string: 'Sweet Nothings by Plini',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3907260354/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://plini.bandcamp.com/album/sunhead',
+          a_string: 'Sunhead by Plini',
           rule: {
             "monday": [ 11, 1, 9, 3 ],
             "tuesday": [ 10, 30, 8, 2 ],
@@ -4548,7 +4548,7 @@ exports.seed = function(knex, Promise) {
           source: 'bandcamp',
           src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1259605245/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
           href_string: 'http://cleft.bandcamp.com/album/wrong',
-          a_string: '',
+          a_string: 'Wrong by Cleft',
           rule: {
             "monday": [ 7, 27, 5, 29 ],
             "tuesday": [ 11, 1, 9, 3 ],
@@ -5563,6 +5563,60 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 19, 9, 17, 11 ],
             "thursday": [ 18, 8, 16, 10 ],
             "saturday": [ 17, 7, 15, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 310,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3837754190/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://michaeleaton.bandcamp.com/album/tenor-triage',
+          a_string: 'Tenor Triage by Tenor Triage',
+          rule: {
+            "monday": [ 17, 7, 15, 8 ],
+            "tuesday": [ 17, 6, 14, 8 ],
+            "wednesday": [ 15, 5, 13, 7 ],
+            "thursday": [ 19, 9, 17, 11 ],
+            "saturday": [ 18, 8, 16, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 311,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2478047450/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://stephanthelen-moonjune.bandcamp.com/album/fractal-guitar-remixes-and-extra-tracks-including-urban-nightscape-bill-laswell-remix-hd-24bit',
+          a_string: 'Fractal Guitar Remixes and Extra Tracks, including Urban Nightscape (Bill Laswell Remix - HD 24bit) by Stephan Thelen',
+          rule: {
+            "monday": [ 18, 8, 16, 10 ],
+            "tuesday": [ 17, 7, 15, 8 ],
+            "wednesday": [ 17, 6, 14, 8 ],
+            "thursday": [ 15, 5, 13, 7 ],
+            "saturday": [ 19, 9, 17, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 312,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2880310038/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cuneiformrecords.bandcamp.com/album/modi',
+          a_string: 'Modi by Piero Milesi',
+          rule: {
+            "monday": [ 19, 9, 17, 11 ],
+            "tuesday": [ 18, 8, 16, 10 ],
+            "wednesday": [ 17, 7, 15, 8 ],
+            "thursday": [ 17, 6, 14, 8 ],
+            "saturday": [ 15, 5, 13, 7 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

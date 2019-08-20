@@ -10604,6 +10604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/funeral-symphony-v-1903.jpeg',
+          title: 'Funeral Symphony (V)',
+          artist: 'Mikalojus Konstantinas Ciurlionis',
+          year: '1903',
+          rule: {
+            "monday": [ 13, 15, 25, 10 ],
+            "tuesday": [ 12, 15, 24, 9 ],
+            "wednesday": [ 11, 14, 23, 8 ],
+            "thursday": [ 17, 21, 29, 14 ],
+            "friday": [ 16, 19, 28, 13 ],
+            "saturday": [ 15, 19, 27, 12 ],
+            "sunday": [ 14, 16, 26, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/composition-1937.jpeg',
+          title: 'Composition',
+          artist: 'Sophie Taeuber-Arp',
+          year: '1937',
+          rule: {
+            "monday": [ 15, 17, 27, 12 ],
+            "tuesday": [ 14, 16, 26, 11 ],
+            "wednesday": [ 13, 16, 25, 10 ],
+            "thursday": [ 12, 15, 24, 9 ],
+            "friday": [ 18, 22, 30, 15 ],
+            "saturday": [ 17, 20, 29, 14 ],
+            "sunday": [ 16, 20, 28, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/woman-with-fish-1934.jpeg',
+          title: 'Woman with fish',
+          artist: 'Aleksandra Ekster',
+          year: '1932 - 1934',
+          rule: {
+            "monday": [ 16, 20, 28, 13 ],
+            "tuesday": [ 15, 17, 27, 12 ],
+            "wednesday": [ 14, 16, 26, 11 ],
+            "thursday": [ 13, 16, 25, 10 ],
+            "friday": [ 12, 15, 24, 9 ],
+            "saturday": [ 18, 22, 30, 15 ],
+            "sunday": [ 17, 20, 29, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/not-identified.jpeg',
+          title: 'The Camden Town Murder',
+          artist: 'Walter Sickert',
+          year: '1908',
+          rule: {
+            "monday": [ 17, 20, 29, 14 ],
+            "tuesday": [ 16, 20, 28, 13 ],
+            "wednesday": [ 15, 17, 27, 12 ],
+            "thursday": [ 14, 16, 26, 11 ],
+            "friday": [ 13, 16, 25, 10 ],
+            "saturday": [ 12, 15, 24, 9 ],
+            "sunday": [ 18, 22, 30, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/portr-t-frau-signe-hallberg-1916.jpeg',
+          title: 'Porträt Frau Signe Hallberg',
+          artist: 'Gabriele Munter',
+          year: '1916',
+          rule: {
+            "monday": [ 18, 22, 30, 15 ],
+            "tuesday": [ 17, 20, 29, 14 ],
+            "wednesday": [ 16, 20, 28, 13 ],
+            "thursday": [ 15, 17, 27, 12 ],
+            "friday": [ 14, 16, 26, 11 ],
+            "saturday": [ 13, 16, 25, 10 ],
+            "sunday": [ 12, 15, 24, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

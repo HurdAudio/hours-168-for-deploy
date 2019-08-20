@@ -12004,6 +12004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 601,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/collage-1918.jpeg',
+          title: 'Collage',
+          artist: 'Olga Rozanova',
+          year: '1918',
+          rule: {
+            "monday": [ 1, 2, 24, 28 ],
+            "tuesday": [ 4, 6, 7, 9 ],
+            "wednesday": [ 6, 8, 12, 15 ],
+            "thursday": [ 8, 10, 11, 12 ],
+            "friday": [ 27, 29, 21, 10 ],
+            "saturday": [ 27, 29, 21, 10 ],
+            "sunday": [ 1, 30, 22, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 602,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/blue-and-red-landscape-1918.jpeg',
+          title: 'Blue and Red Landscape',
+          artist: 'Janos Mattis-Teutsch',
+          year: '1918',
+          rule: {
+            "monday": [ 2, 31, 23, 26 ],
+            "tuesday": [ 2, 3, 25, 29 ],
+            "wednesday": [ 5, 7, 8, 10 ],
+            "thursday": [ 7, 9, 13, 16 ],
+            "friday": [ 9, 11, 12, 13 ],
+            "saturday": [ 28, 30, 22, 11 ],
+            "sunday": [ 28, 30, 22, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 603,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/bild-no-84-1918.jpeg',
+          title: 'Bild no. 84',
+          artist: 'Jacoba van Heemskerck',
+          year: '1918',
+          rule: {
+            "monday": [ 28, 30, 22, 11 ],
+            "tuesday": [ 2, 31, 23, 26 ],
+            "wednesday": [ 2, 3, 25, 29 ],
+            "thursday": [ 5, 7, 8, 10 ],
+            "friday": [ 7, 9, 13, 16 ],
+            "saturday": [ 9, 11, 12, 13 ],
+            "sunday": [ 28, 30, 22, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 604,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/martwa-natura-1918.jpeg',
+          title: 'Martwa natura',
+          artist: 'Wladyslaw Strzeminski',
+          year: '1918',
+          rule: {
+            "monday": [ 28, 30, 22, 11 ],
+            "tuesday": [ 28, 30, 22, 11 ],
+            "wednesday": [ 2, 31, 23, 26 ],
+            "thursday": [ 2, 3, 25, 29 ],
+            "friday": [ 5, 7, 8, 10 ],
+            "saturday": [ 7, 9, 13, 16 ],
+            "sunday": [ 9, 11, 12, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 605,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-1918--.jpeg',
+          title: 'Untitled',
+          artist: 'Sophie Taeuber-Arp',
+          year: '1918',
+          rule: {
+            "monday": [ 9, 11, 12, 13 ],
+            "tuesday": [ 28, 30, 22, 11 ],
+            "wednesday": [ 28, 30, 22, 11 ],
+            "thursday": [ 2, 31, 23, 26 ],
+            "friday": [ 2, 3, 25, 29 ],
+            "saturday": [ 5, 7, 8, 10 ],
+            "sunday": [ 7, 9, 13, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

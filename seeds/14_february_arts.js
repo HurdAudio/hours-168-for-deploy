@@ -11804,6 +11804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 591,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/sl_brewer_37.jpg',
+          title: 'untitled',
+          artist: 'Tina Williams Brewer',
+          year: '?',
+          rule: {
+            "monday": [ 8, 18, 14, 4 ],
+            "tuesday": [ 27, 6, 14, 22 ],
+            "wednesday": [ 28, 8, 16, 24 ],
+            "thursday": [ 5, 10, 16, 26 ],
+            "friday": [ 4, 12, 20, 28 ],
+            "saturday": [ 6, 16, 22, 28 ],
+            "sunday": [ 8, 16, 24, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 592,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/bramwell_00.jpg',
+          title: 'Cargo No. (150-177), (339-392), (526-574), (582-749), (113 - 140)',
+          artist: 'Michael Bramwell',
+          year: '1998, 2000',
+          rule: {
+            "monday": [ 8, 16, 24, 5 ],
+            "tuesday": [ 8, 18, 14, 4 ],
+            "wednesday": [ 27, 6, 14, 22 ],
+            "thursday": [ 28, 8, 16, 24 ],
+            "friday": [ 5, 10, 16, 26 ],
+            "saturday": [ 4, 12, 20, 28 ],
+            "sunday": [ 6, 16, 22, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 593,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/When-did-you-get-so-old-Mark-Bradford-2MG.jpg',
+          title: 'When Did I Get so Old',
+          artist: 'Mark Bradford',
+          year: '2018',
+          rule: {
+            "monday": [ 6, 16, 22, 28 ],
+            "tuesday": [ 8, 16, 24, 5 ],
+            "wednesday": [ 8, 18, 14, 4 ],
+            "thursday": [ 27, 6, 14, 22 ],
+            "friday": [ 28, 8, 16, 24 ],
+            "saturday": [ 5, 10, 16, 26 ],
+            "sunday": [ 4, 12, 20, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 594,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Brown_001497_171357_09927985_4264.jpg',
+          title: 'unknown title',
+          artist: 'Elenora "Rukiya" Brown',
+          year: '?',
+          rule: {
+            "monday": [ 4, 12, 20, 28 ],
+            "tuesday": [ 6, 16, 22, 28 ],
+            "wednesday": [ 8, 16, 24, 5 ],
+            "thursday": [ 8, 18, 14, 4 ],
+            "friday": [ 27, 6, 14, 22 ],
+            "saturday": [ 28, 8, 16, 24 ],
+            "sunday": [ 5, 10, 16, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 595,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/brown_elmer_tom_tom.jpg',
+          title: 'Tom Tom',
+          artist: 'Elmer Brown',
+          year: '?',
+          rule: {
+            "monday": [ 6, 11, 17, 27 ],
+            "tuesday": [ 5, 13, 21, 29 ],
+            "wednesday": [ 7, 17, 23, 29 ],
+            "thursday": [ 9, 17, 25, 6 ],
+            "friday": [ 9, 19, 15, 5 ],
+            "saturday": [ 28, 7, 15, 23 ],
+            "sunday": [ 29, 9, 17, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6214,6 +6214,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 346,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1928419723/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mariausbeck.bandcamp.com/album/envejeciendo',
+          a_string: 'Envejeciendo by Maria Usbeck',
+          rule: {
+            "monday": [ 23, 29, 4, 12 ],
+            "tuesday": [ 22, 28, 3, 12 ],
+            "wednesday": [ 20, 27, 2, 10 ],
+            "thursday": [ 20, 26, 1, 9 ],
+            "saturday": [ 24, 30, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 347,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2023901144/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://laurajurd.bandcamp.com/album/stepping-back-jumping-in',
+          a_string: 'Stepping Back, Jumping In by Laura Jurd',
+          rule: {
+            "monday": [ 24, 30, 5, 13 ],
+            "tuesday": [ 23, 29, 4, 12 ],
+            "wednesday": [ 22, 28, 3, 12 ],
+            "thursday": [ 20, 27, 2, 10 ],
+            "saturday": [ 20, 26, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 348,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=604415935/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://helensvobodasprout.bandcamp.com/album/sleep-architecture',
+          a_string: 'Sleep Architecture by Helen Svoboda&#39;s SPROUT',
+          rule: {
+            "monday": [ 20, 26, 1, 9 ],
+            "tuesday": [ 24, 30, 5, 13 ],
+            "wednesday": [ 23, 29, 4, 12 ],
+            "thursday": [ 22, 28, 3, 12 ],
+            "saturday": [ 20, 27, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

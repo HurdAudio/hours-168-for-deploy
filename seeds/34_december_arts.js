@@ -9804,6 +9804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 491,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/50-00,SoPlHusky.jpg',
+          title: 'South Pole Husky',
+          artist: 'Joseph A. Farren',
+          year: '1950',
+          rule: {
+            "monday": [ 11, 23, 1, 7 ],
+            "tuesday": [ 10, 23, 31, 6 ],
+            "wednesday": [ 9, 22, 30, 5 ],
+            "thursday": [ 8, 21, 29, 4 ],
+            "friday": [ 7, 19, 18, 3 ],
+            "saturday": [ 27, 19, 7, 14 ],
+            "sunday": [ 12, 25, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 492,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/44-03,WeirdTls.jpg',
+          title: 'Weird Tales',
+          artist: 'Elton Fax',
+          year: '1944',
+          rule: {
+            "monday": [ 12, 25, 2, 8 ],
+            "tuesday": [ 11, 23, 1, 7 ],
+            "wednesday": [ 10, 23, 31, 6 ],
+            "thursday": [ 9, 22, 30, 5 ],
+            "friday": [ 8, 21, 29, 4 ],
+            "saturday": [ 7, 19, 18, 3 ],
+            "sunday": [ 27, 19, 7, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 493,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/40-11FanNvls.jpg',
+          title: 'Fantastic Novels',
+          artist: 'Virgil Finlay',
+          year: '1940',
+          rule: {
+            "monday": [ 27, 19, 7, 14 ],
+            "tuesday": [ 12, 25, 2, 8 ],
+            "wednesday": [ 11, 23, 1, 7 ],
+            "thursday": [ 10, 23, 31, 6 ],
+            "friday": [ 9, 22, 30, 5 ],
+            "saturday": [ 8, 21, 29, 4 ],
+            "sunday": [ 7, 19, 18, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 494,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/11-07-1s,ThePopular.jpg',
+          title: 'The Popular',
+          artist: 'Anton Otto Fischer',
+          year: '1911',
+          rule: {
+            "monday": [ 7, 19, 18, 3 ],
+            "tuesday": [ 27, 19, 7, 14 ],
+            "wednesday": [ 12, 25, 2, 8 ],
+            "thursday": [ 11, 23, 1, 7 ],
+            "friday": [ 10, 23, 31, 6 ],
+            "saturday": [ 9, 22, 30, 5 ],
+            "sunday": [ 8, 21, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 495,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/24-12-25,CmpS.jpg',
+          title: 'Complete Stories',
+          artist: 'Harry T. Fisk',
+          year: '1924',
+          rule: {
+            "monday": [ 8, 21, 29, 4 ],
+            "tuesday": [ 7, 19, 18, 3 ],
+            "wednesday": [ 27, 19, 7, 14 ],
+            "thursday": [ 12, 25, 2, 8 ],
+            "friday": [ 11, 23, 1, 7 ],
+            "saturday": [ 10, 23, 31, 6 ],
+            "sunday": [ 9, 22, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

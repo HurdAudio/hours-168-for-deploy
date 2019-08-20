@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/dreams-no-2-1965(1).jpeg',
+          title: 'Dreams No. 2',
+          artist: 'Jacob Lawrence',
+          year: '1965',
+          rule: {
+            "monday": [ 16, 22, 10, 18 ],
+            "tuesday": [ 15, 20, 9, 17 ],
+            "wednesday": [ 13, 20, 8, 16 ],
+            "thursday": [ 13, 19, 7, 15 ],
+            "friday": [ 2, 18, 6, 15 ],
+            "saturday": [ 1, 8, 5, 13 ],
+            "sunday": [ 9, 16, 4, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/tin-cans-1955.jpeg',
+          title: 'Tin Cans',
+          artist: 'Tsuruko Yamazaki',
+          year: '1955',
+          rule: {
+            "monday": [ 9, 16, 4, 11 ],
+            "tuesday": [ 16, 22, 10, 18 ],
+            "wednesday": [ 15, 20, 9, 17 ],
+            "thursday": [ 13, 20, 8, 16 ],
+            "friday": [ 13, 19, 7, 15 ],
+            "saturday": [ 2, 18, 6, 15 ],
+            "sunday": [ 1, 8, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/no-5-1952.jpeg',
+          title: 'No. 5',
+          artist: 'Bradley Walker Tomlin',
+          year: '1952',
+          rule: {
+            "monday": [ 1, 8, 5, 13 ],
+            "tuesday": [ 9, 16, 4, 11 ],
+            "wednesday": [ 16, 22, 10, 18 ],
+            "thursday": [ 15, 20, 9, 17 ],
+            "friday": [ 13, 20, 8, 16 ],
+            "saturday": [ 13, 19, 7, 15 ],
+            "sunday": [ 2, 18, 6, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/project-for-a-monument-1977.jpeg',
+          title: 'Project for a Monument',
+          artist: 'Pablo Palazuelo',
+          year: '1977',
+          rule: {
+            "monday": [ 2, 18, 6, 15 ],
+            "tuesday": [ 1, 8, 5, 13 ],
+            "wednesday": [ 9, 16, 4, 11 ],
+            "thursday": [ 16, 22, 10, 18 ],
+            "friday": [ 15, 20, 9, 17 ],
+            "saturday": [ 13, 20, 8, 16 ],
+            "sunday": [ 13, 19, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/tape-1975-1.jpeg',
+          title: 'Tape',
+          artist: 'Takamatsu Jiro',
+          year: '1975',
+          rule: {
+            "monday": [ 14, 20, 8, 16 ],
+            "tuesday": [ 3, 19, 7, 16 ],
+            "wednesday": [ 2, 9, 6, 14 ],
+            "thursday": [ 10, 17, 5, 12 ],
+            "friday": [ 17, 23, 11, 19 ],
+            "saturday": [ 16, 21, 10, 18 ],
+            "sunday": [ 14, 21, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

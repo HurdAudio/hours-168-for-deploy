@@ -11004,6 +11004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 551,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/egghdr2426_by_the_egg_ddebmcx-pre.jpg',
+          title: 'untitled',
+          artist: 'Dave Porteus',
+          year: '2019',
+          rule: {
+            "monday": [ 13, 23, 3, 11 ],
+            "tuesday": [ 12, 22, 2, 10 ],
+            "wednesday": [ 18, 28, 8, 15 ],
+            "thursday": [ 17, 27, 8, 15 ],
+            "friday": [ 16, 26, 6, 4 ],
+            "saturday": [ 15, 25, 5, 12 ],
+            "sunday": [ 24, 4, 14, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 552,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/prefer_to_walk__by_agevla77_ddebqvr-pre.jpg',
+          title: 'prefer to walk',
+          artist: 'agevla77',
+          year: '2019',
+          rule: {
+            "monday": [ 24, 4, 14, 12 ],
+            "tuesday": [ 13, 23, 3, 11 ],
+            "wednesday": [ 12, 22, 2, 10 ],
+            "thursday": [ 18, 28, 8, 15 ],
+            "friday": [ 17, 27, 8, 15 ],
+            "saturday": [ 16, 26, 6, 4 ],
+            "sunday": [ 15, 25, 5, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 553,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/xing_by_eintoern_ddebukf-pre.jpg',
+          title: 'Xing',
+          artist: 'EintoeRn',
+          year: '2019',
+          rule: {
+            "monday": [ 16, 26, 6, 13 ],
+            "tuesday": [ 25, 5, 15, 13 ],
+            "wednesday": [ 14, 24, 4, 12 ],
+            "thursday": [ 13, 23, 3, 11 ],
+            "friday": [ 19, 29, 9, 16 ],
+            "saturday": [ 18, 28, 9, 16 ],
+            "sunday": [ 17, 27, 7, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 554,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/p_144_volvo_by_pippa_pppx_d3bpnvp-fullview.jpg',
+          title: 'P 144 Volvo',
+          artist: 'Pippa-pppx',
+          year: '2019',
+          rule: {
+            "monday": [ 17, 27, 7, 5 ],
+            "tuesday": [ 16, 26, 6, 13 ],
+            "wednesday": [ 25, 5, 15, 13 ],
+            "thursday": [ 14, 24, 4, 12 ],
+            "friday": [ 13, 23, 3, 11 ],
+            "saturday": [ 19, 29, 9, 16 ],
+            "sunday": [ 18, 28, 9, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 555,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/deconstructing_lighthouses_id_by_eintoern_da6gmri-pre.jpg',
+          title: 'Deconstructing Lighthouses ID',
+          artist: 'EintoeRn',
+          year: '2019',
+          rule: {
+            "monday": [ 18, 28, 9, 16 ],
+            "tuesday": [ 17, 27, 7, 5 ],
+            "wednesday": [ 16, 26, 6, 13 ],
+            "thursday": [ 25, 5, 15, 13 ],
+            "friday": [ 14, 24, 4, 12 ],
+            "saturday": [ 13, 23, 3, 11 ],
+            "sunday": [ 19, 29, 9, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

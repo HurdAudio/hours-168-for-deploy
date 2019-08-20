@@ -5242,6 +5242,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 292,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3683690753/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/lexington-avenue-canada-garage-psych-organ-beat-gaiety-recs-60s',
+          a_string: 'Lexington Avenue (Canada Garage Psych Organ Beat Gaiety Recs) 60&#39;s by Lexington Avenue',
+          rule: {
+            "monday": [ 17, 23, 29, 4 ],
+            "tuesday": [ 16, 22, 28, 3 ],
+            "wednesday": [ 13, 21, 27, 2 ],
+            "thursday": [ 12, 20, 26, 1 ],
+            "saturday": [ 13, 19, 25, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 293,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4129923932/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/solid-reputation-canada-60s-garage-psych-rock-gaiety-recs-this-is-a-masterpiece-1966',
+          a_string: 'Solid Reputation (Canada 60&#39;s Garage Psych Rock Gaiety Recs) This is a MASTERPIECE ! (1966) by Solid Reputation',
+          rule: {
+            "monday": [ 13, 19, 25, 31 ],
+            "tuesday": [ 17, 23, 29, 4 ],
+            "wednesday": [ 16, 22, 28, 3 ],
+            "thursday": [ 13, 21, 27, 2 ],
+            "saturday": [ 12, 20, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 294,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3246641337/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/the-checkerlads-canada-60s-garage-rhythm-blues-rock-gaiety-recs-1966',
+          a_string: 'The Checkerlads (Canada 60&#39;s Garage Rhythm &amp; Blues Rock Gaiety Recs) (1966) by The Checkerlads',
+          rule: {
+            "monday": [ 13, 21, 27, 2 ],
+            "tuesday": [ 14, 20, 26, 1 ],
+            "wednesday": [ 18, 24, 30, 5 ],
+            "thursday": [ 17, 23, 29, 4 ],
+            "saturday": [ 14, 22, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

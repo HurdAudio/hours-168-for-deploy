@@ -11604,6 +11604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 581,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-amsterdam-port-1913.jpeg',
+          title: 'The Amsterdam Port',
+          artist: 'Anna Ostroumova-Lebedeva',
+          year: '1913',
+          rule: {
+            "monday": [ 19, 29, 6, 16 ],
+            "tuesday": [ 18, 29, 5, 15 ],
+            "wednesday": [ 17, 27, 4, 14 ],
+            "thursday": [ 16, 26, 4, 13 ],
+            "friday": [ 22, 31, 10, 18 ],
+            "saturday": [ 21, 31, 8, 18 ],
+            "sunday": [ 19, 30, 7, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 582,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-little-foot-page-1905.jpeg',
+          title: 'The Little Foot Page',
+          artist: 'Eleanor Fortescue-Brickdale',
+          year: '1905',
+          rule: {
+            "monday": [ 19, 30, 7, 17 ],
+            "tuesday": [ 19, 29, 6, 16 ],
+            "wednesday": [ 18, 29, 5, 15 ],
+            "thursday": [ 17, 27, 4, 14 ],
+            "friday": [ 16, 26, 4, 13 ],
+            "saturday": [ 22, 31, 10, 18 ],
+            "sunday": [ 21, 31, 8, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 583,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/spring.jpeg',
+          title: 'Spring',
+          artist: 'Frances Macdonald MacNair',
+          year: 'c.1900 - c.1905',
+          rule: {
+            "monday": [ 21, 31, 8, 18 ],
+            "tuesday": [ 19, 30, 7, 17 ],
+            "wednesday": [ 19, 29, 6, 16 ],
+            "thursday": [ 18, 29, 5, 15 ],
+            "friday": [ 17, 27, 4, 14 ],
+            "saturday": [ 16, 26, 4, 13 ],
+            "sunday": [ 22, 31, 10, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 584,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-beauty-and-the-beast.jpeg',
+          title: 'The Beauty and the Beast',
+          artist: 'Elenore Abbott',
+          year: '?',
+          rule: {
+            "monday": [ 22, 31, 10, 18 ],
+            "tuesday": [ 21, 31, 8, 18 ],
+            "wednesday": [ 19, 30, 7, 17 ],
+            "thursday": [ 19, 29, 6, 16 ],
+            "friday": [ 18, 29, 5, 15 ],
+            "saturday": [ 17, 27, 4, 14 ],
+            "sunday": [ 16, 26, 4, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 585,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/portrait-of-martha-vogeler.jpeg',
+          title: 'Portrait of Martha Vogeler',
+          artist: 'Paula Modersohn-Becker',
+          year: '?',
+          rule: {
+            "monday": [ 16, 26, 4, 13 ],
+            "tuesday": [ 22, 31, 10, 18 ],
+            "wednesday": [ 21, 31, 8, 18 ],
+            "thursday": [ 19, 30, 7, 17 ],
+            "friday": [ 19, 29, 6, 16 ],
+            "saturday": [ 18, 29, 5, 15 ],
+            "sunday": [ 17, 27, 4, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

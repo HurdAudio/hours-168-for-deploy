@@ -11157,6 +11157,44 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 718,
+          user_id: 1,
+          name: 'Raoul Hausmann (dada artist) born 1886',
+          color: '#494748',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/RaoulHausmann.jpg',
+          day_of: new Date ('1886-07-12  21:00:00 GMT'),
+          is_annual: true,
+          art_override: true,
+          music_override: false,
+          override_content: {
+            "img_paths": [ 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/restricted.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/hannahhochport.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/verasshoulders.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/latoilettehaus.jpeg' ],
+            "titles": [ 'ABCD', 'Hannah Höch', 'Untitled (Vera\'s Shoulders)', 'La Toilette' ],
+            "artists": [ 'Raoul Hausmann', 'Raoul Hausmann', 'Raoul Hausmann', 'Raoul Hausmann' ],
+            "years": [ '1920s', '1920', '1931', 'c.1930' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 719,
+          user_id: 1,
+          name: 'Lito Mayo (dada artist/graphic artist) born 1954',
+          color: '#FEFFF1',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/AMAYO321.jpeg',
+          day_of: new Date ('1954-12-17  21:00:00 GMT'),
+          is_annual: true,
+          art_override: true,
+          music_override: false,
+          override_content: {
+            "img_paths": [ 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/Gemini_(1982).jpg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/SelfPortraitA.jpg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/Temptation_(1976).jpg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/Mukha_Ethnic_(1976).jpg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/Mukha_(1976).jpg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/Maskara_(1976).jpg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/Insekto_(1976)_01.jpg' ],
+            "titles": [ 'Gemini', 'Self-Portrait of Lito Mayo', 'Temptation', 'Mukha Ethnic (Ethnic Face)', 'Mukha', 'Maskara 2', 'Insekto' ],
+            "artists": [ 'Lito Mayo', 'Lito Mayo', 'Lito Mayo', 'Lito Mayo', 'Lito Mayo', 'Lito Mayo', 'Lito Mayo' ],
+            "years": [ '1982', '1981', '1976', '1976', '1976', '1976', '1976' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

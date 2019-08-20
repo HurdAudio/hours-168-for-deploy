@@ -6322,6 +6322,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 352,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2391517232/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gabenandez.bandcamp.com/album/diplomacy',
+          a_string: 'Diplomacy by Gabe &#39;Nandez',
+          rule: {
+            "monday": [ 11, 5, 7, 13 ],
+            "tuesday": [ 23, 27, 29, 4 ],
+            "wednesday": [ 26, 29, 2, 4 ],
+            "thursday": [ 8, 2, 4, 6 ],
+            "saturday": [ 10, 4, 6, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 353,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3064579532/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://nickelusf.bandcamp.com/album/the-gold-mine-vol-1',
+          a_string: 'THE GOLD MINE VOL 1. by NICKELUS F',
+          rule: {
+            "monday": [ 10, 4, 6, 12 ],
+            "tuesday": [ 11, 5, 7, 13 ],
+            "wednesday": [ 23, 27, 29, 4 ],
+            "thursday": [ 26, 29, 2, 4 ],
+            "saturday": [ 8, 2, 4, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 354,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1332488496/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://seaniet.bandcamp.com/album/ruff-rugged-and-smooth',
+          a_string: 'Ruff, Rugged and Smooth by Seanie T',
+          rule: {
+            "monday": [ 8, 2, 4, 6 ],
+            "tuesday": [ 10, 4, 6, 12 ],
+            "wednesday": [ 11, 5, 7, 13 ],
+            "thursday": [ 23, 27, 29, 4 ],
+            "saturday": [ 26, 29, 2, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

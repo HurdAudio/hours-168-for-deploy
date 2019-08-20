@@ -11404,6 +11404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 571,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/baseball-player-batting-retro-aloysius-patrimonio.jpg',
+          title: 'Baseball Player Batting Retro',
+          artist: 'Aloysius Patrimonio',
+          year: '?',
+          rule: {
+            "monday": [ 16, 22, 28, 4 ],
+            "tuesday": [ 17, 22, 28, 4 ],
+            "wednesday": [ 16, 21, 27, 3 ],
+            "thursday": [ 21, 27, 2, 8 ],
+            "friday": [ 5, 25, 1, 7 ],
+            "saturday": [ 20, 23, 1, 7 ],
+            "sunday": [ 19, 23, 8, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 572,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Pitcher-WP.jpg',
+          title: 'Baseball Pitcher Art',
+          artist: 'Dennis Burnside',
+          year: '2013',
+          rule: {
+            "monday": [ 19, 23, 8, 6 ],
+            "tuesday": [ 16, 22, 28, 4 ],
+            "wednesday": [ 17, 22, 28, 4 ],
+            "thursday": [ 16, 21, 27, 3 ],
+            "friday": [ 21, 27, 2, 8 ],
+            "saturday": [ 5, 25, 1, 7 ],
+            "sunday": [ 20, 23, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 573,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/10199104_pop-art-baseball-red.jpg',
+          title: 'Baseball Art in Red',
+          artist: 'Eric Rasmusssen',
+          year: '?',
+          rule: {
+            "monday": [ 20, 23, 1, 7 ],
+            "tuesday": [ 19, 23, 8, 6 ],
+            "wednesday": [ 16, 22, 28, 4 ],
+            "thursday": [ 17, 22, 28, 4 ],
+            "friday": [ 16, 21, 27, 3 ],
+            "saturday": [ 21, 27, 2, 8 ],
+            "sunday": [ 5, 25, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 574,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/mf_kaiC5c1hwTY3b.jpg',
+          title: 'Copy Cat',
+          artist: 'Torie Tiffany',
+          year: '?',
+          rule: {
+            "monday": [ 6, 26, 2, 8 ],
+            "tuesday": [ 21, 24, 2, 8 ],
+            "wednesday": [ 20, 24, 9, 7 ],
+            "thursday": [ 17, 23, 29, 5 ],
+            "friday": [ 18, 23, 29, 5 ],
+            "saturday": [ 17, 22, 28, 4 ],
+            "sunday": [ 22, 28, 3, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 575,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/baseball-clipart-24.gif',
+          title: 'Baseball Clipart',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 22, 28, 3, 9 ],
+            "tuesday": [ 6, 26, 2, 8 ],
+            "wednesday": [ 21, 24, 2, 8 ],
+            "thursday": [ 20, 24, 9, 7 ],
+            "friday": [ 17, 23, 29, 5 ],
+            "saturday": [ 18, 23, 29, 5 ],
+            "sunday": [ 17, 22, 28, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

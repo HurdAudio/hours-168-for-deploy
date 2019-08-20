@@ -328,6 +328,158 @@
       vm.addNewMusicShareComment = addNewMusicShareComment;
       vm.userEditMusicModuleComment = userEditMusicModuleComment;
       vm.userEditMusicModuleCommentCompleted = userEditMusicModuleCommentCompleted;
+      vm.userDeleteTileShareComment = userDeleteTileShareComment;
+      vm.userTileShareCommentDeleteCancel = userTileShareCommentDeleteCancel;
+      vm.userTileShareCommentDeleteConfirmClick = userTileShareCommentDeleteConfirmClick;
+      vm.shareTilesCurrate = shareTilesCurrate;
+      vm.cancelTileShareInvite = cancelTileShareInvite;
+
+      function cancelTileShareInvite() {
+        let shareTilePane = document.getElementById('shareTilePane');
+
+        shareTilePane.setAttribute("style", "opacity: 0; z-index: -6; transition: all 0.5s linear;");
+      }
+
+      function tileFriendListener(entryDiv, friend, tile, tilesTable) {
+
+        entryDiv.addEventListener('click', () => {
+          let subObj = {
+            user_id: currentUserId,
+            tiles_month: tilesTable,
+            tiles_id: tile.id,
+            share_associate_id: friend.id,
+            responded: false,
+            accepted: false
+          }
+          $http.post('/tile_shares', subObj)
+          .then(tileShareData => {
+            let tileShare = tileShareData.data;
+            cancelTileShareInvite();
+          });
+        });
+      }
+
+      function tileShareMemberEntry(friendId, theDiv, tile, filter, tilesTable) {
+        let theImg;
+        let theP;
+        let theBR;
+        let entryDiv;
+
+        $http.get(`/users/${friendId}`)
+        .then(friendData => {
+          let friend = friendData.data;
+          if (filter !== '') {
+            if ((friend.name.indexOf(filter) === -1) && (friend.email.indexOf(filter) === -1)) {
+              return;
+            }
+          }
+          entryDiv = document.createElement('div');
+          entryDiv.setAttribute("style", "cursor: pointer;");
+          theDiv.appendChild(entryDiv);
+          theImg = document.createElement('img');
+          entryDiv.appendChild(theImg);
+          theImg.src = friend.user_avatar_url;
+          theP = document.createElement('p');
+          entryDiv.appendChild(theP);
+          theP.innerHTML = friend.name;
+          theBR = document.createElement('br');
+          entryDiv.appendChild(theBR);
+          theBR = document.createElement('br');
+          entryDiv.appendChild(theBR);
+          theBR = document.createElement('br');
+          entryDiv.appendChild(theBR);
+          theBR = document.createElement('br');
+          entryDiv.appendChild(theBR);
+          theBR = document.createElement('br');
+          entryDiv.appendChild(theBR);
+          theBR = document.createElement('br');
+          entryDiv.appendChild(theBR);
+          tileFriendListener(entryDiv, friend, tile, tilesTable);
+        });
+      }
+
+      function populateTileFriendsList(theDiv, tile, filter, tilesTable) {
+        while(theDiv.firstChild) {
+          theDiv.removeChild(theDiv.firstChild);
+        }
+        $http.get(`/users/${currentUserId}`)
+        .then(currentUserData => {
+          let currentUser = currentUserData.data;
+          if ((currentUser.associates !== null) && (currentUser.associates.friends !== null)) {
+            for (let i = 0; i < currentUser.associates.friends.length; i++) {
+              tileShareMemberEntry(currentUser.associates.friends[i], theDiv, tile, filter, tilesTable);
+            }
+          }
+        });
+      }
+
+      function shareTilesCurrate(tilesTable, tileId) {
+        let shareTilePane = document.getElementById('shareTilePane');
+        let tileShareImage = document.getElementById('tileShareImage');
+        let tileFriendsSearchList = document.getElementById('tileFriendsSearchList');
+        while(tileFriendsSearchList.firstChild) {
+          tileFriendsSearchList.removeChild(tileFriendsSearchList.firstChild);
+        }
+        let theDiv = document.createElement('div');
+        tileFriendsSearchList.appendChild(theDiv);
+        let shareTileSearchBarDiv = document.getElementById('shareTileSearchBarDiv');
+        let tileWhoToShareTileSearch = document.getElementById('tileWhoToShareTileSearch');
+        if (tileWhoToShareTileSearch) {
+          tileWhoToShareTileSearch.parentNode.removeChild(tileWhoToShareTileSearch);
+          tileWhoToShareTileSearch = document.createElement('input');
+          shareTileSearchBarDiv.appendChild(tileWhoToShareTileSearch);
+          tileWhoToShareTileSearch.id = 'tileWhoToShareTileSearch';
+          tileWhoToShareTileSearch.type = 'text';
+          tileWhoToShareTileSearch.placeholder = 'search';
+        }
+
+        $http.get(`/${tilesTable}/${tileId}`)
+        .then(tileData => {
+          let tile = tileData.data;
+          tileShareImage.src = tile.src_string;
+          populateTileFriendsList(theDiv, tile, '', tilesTable);
+
+          tileWhoToShareTileSearch.addEventListener('keyup', () => {
+            populateTileFriendsList(theDiv, tile, tileWhoToShareTileSearch.value, tilesTable);
+          });
+        });
+
+        shareTilePane.setAttribute("style", "opacity: 1; z-index: 6; transition: all 0.5s linear;");
+      }
+
+      function userTileShareCommentDeleteConfirmClick(tileId, commentId) {
+        $http.delete(`/tile_share_comments/${commentId}`)
+        .then(deletedTileShareData => {
+          let deletedTileShare = deletedTileShareData.data;
+          for (let i = 0; i < vm.activeTileShares.length; i++) {
+            if (parseInt(vm.activeTileShares[i].id) === parseInt(tileId)) {
+              for (let j = 0; j < vm.activeTileShares[i].comments.length; j++) {
+                if (parseInt(vm.activeTileShares[i].comments[j].id) === parseInt(commentId)) {
+                  vm.activeTileShares[i].comments.splice(j, 1);
+                  userTileShareCommentDeleteCancel(commentId);
+                  return;
+                }
+              }
+            }
+          }
+        });
+      }
+
+      function userTileShareCommentDeleteCancel(commentId) {
+        let editDeleteTileShareCommentDiv = document.getElementById('editDeleteTileShareCommentDiv' + commentId);
+        let deleteTileShareCommentConfirm = document.getElementById('deleteTileShareCommentConfirm' + commentId);
+
+        editDeleteTileShareCommentDiv.setAttribute("style", "display: initial;");
+        deleteTileShareCommentConfirm.setAttribute("style", "display: none;");
+      }
+
+      function userDeleteTileShareComment(commentId) {
+        let editDeleteTileShareCommentDiv = document.getElementById('editDeleteTileShareCommentDiv' + commentId);
+        let deleteTileShareCommentConfirm = document.getElementById('deleteTileShareCommentConfirm' + commentId);
+
+        editDeleteTileShareCommentDiv.setAttribute("style", "display: none;");
+        deleteTileShareCommentConfirm.setAttribute("style", "display: initial;");
+      }
 
       function userEditMusicModuleCommentCompleted(commentId) {
         let thisIsTheMusicModuleCommentEditor = document.getElementById('thisIsTheMusicModuleCommentEditor' + commentId);

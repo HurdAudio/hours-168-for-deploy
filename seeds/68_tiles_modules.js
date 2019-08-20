@@ -964,6 +964,21 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 65,
+          user_author_id: 1,
+          theme: 'default',
+          type: 'Kandinsky',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/beach-baskets-in-holland-1904.jpeg',
+          repeat_value: 'no-repeat',
+          size_value: '150%',
+          color_dark: '#4E4A41',
+          color_medium: '#E9A64B',
+          color_light: '#F2EFD0',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
