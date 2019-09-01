@@ -6268,6 +6268,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 349,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3143875730/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://estherrosemusic.bandcamp.com/album/you-made-it-this-far',
+          a_string: 'You Made It This Far by Esther Rose',
+          rule: {
+            "monday": [ 20, 27, 2, 10 ],
+            "tuesday": [ 20, 26, 1, 9 ],
+            "wednesday": [ 24, 30, 5, 13 ],
+            "thursday": [ 23, 29, 4, 12 ],
+            "saturday": [ 22, 28, 3, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 350,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2105239680/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cudighirecords.bandcamp.com/album/folksonomies',
+          a_string: 'Folksonomies by Laura Luna Castillo',
+          rule: {
+            "monday": [ 23, 29, 4, 13 ],
+            "tuesday": [ 21, 28, 3, 11 ],
+            "wednesday": [ 21, 27, 2, 10 ],
+            "thursday": [ 25, 31, 6, 14 ],
+            "saturday": [ 24, 30, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 351,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4022932274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ninakeith.bandcamp.com/album/maranasati-19111',
+          a_string: 'MARANASATI 19111 by Nina Keith',
+          rule: {
+            "monday": [ 24, 30, 5, 13 ],
+            "tuesday": [ 23, 29, 4, 13 ],
+            "wednesday": [ 21, 28, 3, 11 ],
+            "thursday": [ 21, 27, 2, 10 ],
+            "saturday": [ 25, 31, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

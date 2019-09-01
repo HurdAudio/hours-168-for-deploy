@@ -5404,6 +5404,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 301,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1168888451/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://autonomousafrica.bandcamp.com/album/autonomous-africa-vol-iii',
+          a_string: 'Autonomous Africa Vol. III by Autonomous Africa',
+          rule: {
+            "monday": [ 13, 24, 5, 9 ],
+            "tuesday": [ 12, 23, 4, 15 ],
+            "wednesday": [ 11, 22, 3, 15 ],
+            "thursday": [ 15, 26, 7, 11 ],
+            "saturday": [ 14, 25, 6, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 302,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1360782052/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://autonomousafrica.bandcamp.com/album/autonomous-africa-vol-i',
+          a_string: 'Autonomous Africa Vol. I by Autonomous Africa',
+          rule: {
+            "monday": [ 14, 25, 6, 10 ],
+            "tuesday": [ 13, 24, 5, 9 ],
+            "wednesday": [ 12, 23, 4, 15 ],
+            "thursday": [ 11, 22, 3, 15 ],
+            "saturday": [ 15, 26, 7, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 303,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4246476012/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://autonomousafrica.bandcamp.com/album/autonomous-africa-vol-ii',
+          a_string: 'Autonomous Africa Vol. II by Autonomous Africa',
+          rule: {
+            "monday": [ 15, 26, 7, 11 ],
+            "tuesday": [ 14, 25, 6, 10 ],
+            "wednesday": [ 13, 24, 5, 9 ],
+            "thursday": [ 12, 23, 4, 15 ],
+            "saturday": [ 11, 22, 3, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

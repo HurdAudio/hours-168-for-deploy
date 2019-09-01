@@ -5944,6 +5944,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 331,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2125571059/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://hiraeth-records.bandcamp.com/album/building-a-better-world',
+          a_string: 'Building a Better World by 猫 シ Corp. &amp; t e l e p a t h',
+          rule: {
+            "monday": [ 16, 19, 25, 5 ],
+            "tuesday": [ 14, 22, 24, 9 ],
+            "wednesday": [ 18, 22, 28, 9 ],
+            "thursday": [ 17, 20, 25, 7 ],
+            "saturday": [ 16, 19, 25, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 332,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1685644575/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://noise.offthesky.com/album/all-other-voices-gone-only-yours-remains',
+          a_string: 'all other voices gone, only yours remains by offthesky &amp; the humble bee',
+          rule: {
+            "monday": [ 16, 19, 25, 6 ],
+            "tuesday": [ 16, 19, 25, 5 ],
+            "wednesday": [ 14, 22, 24, 9 ],
+            "thursday": [ 18, 22, 28, 9 ],
+            "saturday": [ 17, 20, 25, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 333,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2327617860/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://whitelabrecs.bandcamp.com/album/svalbar',
+          a_string: 'Svalbarð by Glåsbird',
+          rule: {
+            "monday": [ 17, 20, 25, 7 ],
+            "tuesday": [ 16, 19, 25, 6 ],
+            "wednesday": [ 16, 19, 25, 5 ],
+            "thursday": [ 14, 22, 24, 9 ],
+            "saturday": [ 18, 22, 28, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6160,6 +6160,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 343,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1468646265/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ebi-soda.bandcamp.com/album/bedroom-tapes',
+          a_string: 'Bedroom Tapes by Ebi Soda ',
+          rule: {
+            "monday": [ 19, 27, 9, 14 ],
+            "tuesday": [ 23, 1, 13, 18 ],
+            "wednesday": [ 22, 30, 12, 17 ],
+            "thursday": [ 21, 29, 11, 16 ],
+            "saturday": [ 20, 28, 9, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 344,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3155930029/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://malborobled.bandcamp.com/album/malboro-bled',
+          a_string: 'Malboro bled by Malboro Bled',
+          rule: {
+            "monday": [ 20, 28, 9, 15 ],
+            "tuesday": [ 19, 27, 9, 14 ],
+            "wednesday": [ 23, 1, 13, 18 ],
+            "thursday": [ 22, 30, 12, 17 ],
+            "saturday": [ 21, 29, 11, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 345,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1461173993/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://store.jonahpj.com/album/helsinki-8-12-18',
+          a_string: 'Helsinki 8​.​12​.​18 by Jonah Parzen-Johnson',
+          rule: {
+            "monday": [ 21, 29, 11, 16 ],
+            "tuesday": [ 20, 28, 9, 15 ],
+            "wednesday": [ 19, 27, 9, 14 ],
+            "thursday": [ 23, 1, 13, 18 ],
+            "saturday": [ 22, 30, 12, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

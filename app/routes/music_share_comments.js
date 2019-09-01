@@ -58,7 +58,8 @@ router.patch('/:id', (req, res, next) => {
   .update({
     user_id: req.body.user_id,
     music_share: req.body.music_share,
-    comment: req.body.comment
+    comment: req.body.comment,
+    updated_at: req.body.updated_at
   }, '*')
     .then((results)=>{
        res.status(200).send(results[0]);

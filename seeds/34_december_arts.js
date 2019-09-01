@@ -9904,6 +9904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 496,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/26-07-31,Indiana.jpg',
+          title: 'Newspaper',
+          artist: 'Dorothy Flack',
+          year: '1926',
+          rule: {
+            "monday": [ 9, 22, 30, 5 ],
+            "tuesday": [ 8, 21, 29, 4 ],
+            "wednesday": [ 7, 19, 18, 3 ],
+            "thursday": [ 27, 19, 7, 14 ],
+            "friday": [ 12, 25, 2, 8 ],
+            "saturday": [ 11, 23, 1, 7 ],
+            "sunday": [ 10, 23, 31, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 497,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/23-00,BookIllus.jpg',
+          title: 'ook Illustration',
+          artist: 'John R. Flanagan',
+          year: '1923',
+          rule: {
+            "monday": [ 11, 24, 1, 7 ],
+            "tuesday": [ 10, 23, 31, 6 ],
+            "wednesday": [ 9, 22, 30, 5 ],
+            "thursday": [ 8, 20, 19, 4 ],
+            "friday": [ 28, 20, 8, 15 ],
+            "saturday": [ 13, 26, 3, 9 ],
+            "sunday": [ 12, 24, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 498,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/38-02,NewAdvCmx.jpg',
+          title: 'New Adventure',
+          artist: 'Creig Flessel',
+          year: '1938',
+          rule: {
+            "monday": [ 12, 24, 2, 8 ],
+            "tuesday": [ 11, 24, 1, 7 ],
+            "wednesday": [ 10, 23, 31, 6 ],
+            "thursday": [ 9, 22, 30, 5 ],
+            "friday": [ 8, 20, 19, 4 ],
+            "saturday": [ 28, 20, 8, 15 ],
+            "sunday": [ 13, 26, 3, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 499,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/41-01,Comet.jpg',
+          title: 'Comet',
+          artist: 'John Forte',
+          year: '1941',
+          rule: {
+            "monday": [ 13, 26, 3, 9 ],
+            "tuesday": [ 12, 24, 2, 8 ],
+            "wednesday": [ 11, 24, 1, 7 ],
+            "thursday": [ 10, 23, 31, 6 ],
+            "friday": [ 9, 22, 30, 5 ],
+            "saturday": [ 8, 20, 19, 4 ],
+            "sunday": [ 28, 20, 8, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 500,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/44-11,WeirdTales.jpg',
+          title: 'Weird Tales',
+          artist: 'Matt Fox',
+          year: '1946',
+          rule: {
+            "monday": [ 28, 20, 8, 15 ],
+            "tuesday": [ 13, 26, 3, 9 ],
+            "wednesday": [ 12, 24, 2, 8 ],
+            "thursday": [ 11, 24, 1, 7 ],
+            "friday": [ 10, 23, 31, 6 ],
+            "saturday": [ 9, 22, 30, 5 ],
+            "sunday": [ 8, 20, 19, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

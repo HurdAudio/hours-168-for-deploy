@@ -1250,6 +1250,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#F5F3F2',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 90,
+          user_id: 1,
+          theme: 'Leather',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/rebecca-aldama-G_GaeDNyMe8-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '155%',
+          color_dark: '#0D0302',
+          color_medium: '#885E42',
+          color_light: '#C3CED0',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

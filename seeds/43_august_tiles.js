@@ -1264,6 +1264,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#D1DAD6',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 91,
+          user_id: 1,
+          theme: 'Primary Colors',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/aziz-acharki-vga51HXESo8-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '100%',
+          color_dark: '#23232F',
+          color_medium: '#24A0EF',
+          color_light: '#6CCAF6',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

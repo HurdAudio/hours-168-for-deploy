@@ -11904,6 +11904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 596,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/ChildrenReleasingtheDove.jpg',
+          title: 'Children Releasing the Dove',
+          artist: 'Frank J. Brown',
+          year: '?',
+          rule: {
+            "monday": [ 29, 9, 17, 25 ],
+            "tuesday": [ 6, 11, 17, 27 ],
+            "wednesday": [ 5, 13, 21, 29 ],
+            "thursday": [ 7, 17, 23, 29 ],
+            "friday": [ 9, 17, 25, 6 ],
+            "saturday": [ 9, 19, 15, 5 ],
+            "sunday": [ 28, 7, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 597,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Brown3-jumbo.jpg',
+          title: 'De Kooning',
+          artist: 'Frederick J. Brown',
+          year: '?',
+          rule: {
+            "monday": [ 28, 7, 15, 23 ],
+            "tuesday": [ 29, 9, 17, 25 ],
+            "wednesday": [ 6, 11, 17, 27 ],
+            "thursday": [ 5, 13, 21, 29 ],
+            "friday": [ 7, 17, 23, 29 ],
+            "saturday": [ 9, 17, 25, 6 ],
+            "sunday": [ 9, 19, 15, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 598,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/to-the-beat-of-the-drum-larry-poncho-brown.jpg',
+          title: 'To the Beat of the Drum',
+          artist: 'Larry Poncho Brown',
+          year: '2004',
+          rule: {
+            "monday": [ 9, 19, 15, 5 ],
+            "tuesday": [ 28, 7, 15, 23 ],
+            "wednesday": [ 29, 9, 17, 25 ],
+            "thursday": [ 6, 11, 17, 27 ],
+            "friday": [ 5, 13, 21, 29 ],
+            "saturday": [ 7, 17, 23, 29 ],
+            "sunday": [ 9, 17, 25, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 599,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Selfie-2-1200x1200.jpg',
+          title: 'Scultor\'s Selfie',
+          artist: 'Manuelita Brown',
+          year: '?',
+          rule: {
+            "monday": [ 9, 17, 25, 6 ],
+            "tuesday": [ 9, 19, 15, 5 ],
+            "wednesday": [ 28, 7, 15, 23 ],
+            "thursday": [ 29, 9, 17, 25 ],
+            "friday": [ 6, 11, 17, 27 ],
+            "saturday": [ 5, 13, 21, 29 ],
+            "sunday": [ 7, 17, 23, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 600,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/church-2008.jpg',
+          title: 'Miz Hurston\'s Neighborhood Series - Church,',
+          artist: '',
+          year: '2008',
+          rule: {
+            "monday": [ 7, 17, 23, 29 ],
+            "tuesday": [ 9, 17, 25, 6 ],
+            "wednesday": [ 9, 19, 15, 5 ],
+            "thursday": [ 28, 7, 15, 23 ],
+            "friday": [ 29, 9, 17, 25 ],
+            "saturday": [ 6, 11, 17, 27 ],
+            "sunday": [ 5, 13, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

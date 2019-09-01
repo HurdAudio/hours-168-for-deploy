@@ -1222,6 +1222,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FBFCF7',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 88,
+          user_id: 1,
+          theme: 'Monochromatic',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/surajit-das-cSKbWdn81qs-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '145%',
+          color_dark: '#3F1D1A',
+          color_medium: '#AB7261',
+          color_light: '#EFE5B4',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -2674,6 +2674,26 @@ exports.seed = function(knex, Promise) {
           a_string: 'Solo Keyboards, Minnesota 1978 by Sun Ra',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 268,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=667764752/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunramusic.bandcamp.com/album/monorails-and-satellites-vols-1-2-and-3-cd-lp-digital',
+          a_string: 'Monorails and Satellites Vols. 1, 2 and 3 [CD, LP, digital] by Sun Ra (solo piano)',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 269,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1151077448/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://laraajisunaraw-w25th.bandcamp.com/album/professional-sunflow',
+          a_string: 'Professional Sunflow by Laraaji &amp; Sun Araw',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5296,6 +5296,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 295,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=341727407/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/the-dewline-canada-60s-garage-rhythm-blues-rock-gaiety-recs-1966',
+          a_string: 'The Dewline (Canada 60&#39;s Garage Rhythm &amp; Blues Rock Gaiety Recs) (1966) by The Dewline',
+          rule: {
+            "monday": [ 14, 22, 28, 3 ],
+            "tuesday": [ 13, 21, 27, 2 ],
+            "wednesday": [ 14, 20, 26, 1 ],
+            "thursday": [ 18, 24, 30, 5 ],
+            "saturday": [ 17, 23, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 296,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1382756178/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/the-merriday-park-canada-folk-southern-rock-gaiety-recs-60s',
+          a_string: 'The Merriday Park (Canada Folk Southern Rock Gaiety Recs) 60&#39;s by The Merriday Park',
+          rule: {
+            "monday": [ 17, 23, 29, 4 ],
+            "tuesday": [ 14, 22, 28, 3 ],
+            "wednesday": [ 13, 21, 27, 2 ],
+            "thursday": [ 14, 20, 26, 1 ],
+            "saturday": [ 18, 24, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 297,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3745106423/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/the-plague-canada-60s-garage-rhythm-blues-rock-gaiety-recs-1966-killer-tracks',
+          a_string: 'The Plague (Canada 60&#39;s Garage Rhythm &amp; Blues Rock Gaiety Recs) (1966) KILLER TRACKS !! by The Plague',
+          rule: {
+            "monday": [ 18, 24, 30, 5 ],
+            "tuesday": [ 17, 23, 29, 4 ],
+            "wednesday": [ 14, 22, 28, 3 ],
+            "thursday": [ 13, 21, 27, 2 ],
+            "saturday": [ 14, 20, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

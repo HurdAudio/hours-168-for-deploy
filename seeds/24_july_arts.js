@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/red-still-life-n2-1926.jpeg',
+          title: 'Red Still Life N2',
+          artist: 'Serge Charchoune',
+          year: '1926',
+          rule: {
+            "monday": [ 18, 27, 9, 20 ],
+            "tuesday": [ 16, 27, 8, 19 ],
+            "wednesday": [ 16, 27, 7, 8 ],
+            "thursday": [ 15, 26, 5, 7 ],
+            "friday": [ 14, 25, 5, 6 ],
+            "saturday": [ 13, 24, 4, 15 ],
+            "sunday": [ 18, 27, 9, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/pierres-no-21-1933.jpeg',
+          title: 'Pierres No. 21',
+          artist: 'Alberto Magnelli',
+          year: '1933',
+          rule: {
+            "monday": [ 18, 27, 9, 20 ],
+            "tuesday": [ 18, 27, 9, 20 ],
+            "wednesday": [ 16, 27, 8, 19 ],
+            "thursday": [ 16, 27, 7, 8 ],
+            "friday": [ 15, 26, 5, 7 ],
+            "saturday": [ 14, 25, 5, 6 ],
+            "sunday": [ 13, 24, 4, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/portrait-of-vava.jpeg',
+          title: 'Portrait of Vava',
+          artist: 'Marc Chagall',
+          year: 'c.1955',
+          rule: {
+            "monday": [ 13, 24, 4, 15 ],
+            "tuesday": [ 18, 27, 9, 20 ],
+            "wednesday": [ 18, 27, 9, 20 ],
+            "thursday": [ 16, 27, 8, 19 ],
+            "friday": [ 16, 27, 7, 8 ],
+            "saturday": [ 15, 26, 5, 7 ],
+            "sunday": [ 14, 25, 5, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/rouge-et-noir.jpeg',
+          title: 'Rouge et noir',
+          artist: 'Roger Bissière',
+          year: '?',
+          rule: {
+            "monday": [ 14, 25, 5, 6 ],
+            "tuesday": [ 13, 24, 4, 15 ],
+            "wednesday": [ 18, 27, 9, 20 ],
+            "thursday": [ 18, 27, 9, 20 ],
+            "friday": [ 16, 27, 8, 19 ],
+            "saturday": [ 16, 27, 7, 8 ],
+            "sunday": [ 15, 26, 5, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/fashion-illustration-5.jpeg',
+          title: 'Fashion Illustration',
+          artist: 'Sonia Delaunay',
+          year: '?',
+          rule: {
+            "monday": [ 15, 26, 5, 7 ],
+            "tuesday": [ 14, 25, 5, 6 ],
+            "wednesday": [ 13, 24, 4, 15 ],
+            "thursday": [ 18, 27, 9, 20 ],
+            "friday": [ 18, 27, 9, 20 ],
+            "saturday": [ 16, 27, 8, 19 ],
+            "sunday": [ 16, 27, 7, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

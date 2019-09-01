@@ -11104,6 +11104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 556,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/until_we_meet_the_sky_by_miguel_santos_d9wul4x-pre.jpg',
+          title: 'Until We Meet the Sky',
+          artist: 'Miguel Santos',
+          year: '2019',
+          rule: {
+            "monday": [ 19, 29, 9, 16 ],
+            "tuesday": [ 18, 28, 9, 16 ],
+            "wednesday": [ 17, 27, 7, 5 ],
+            "thursday": [ 16, 26, 6, 13 ],
+            "friday": [ 25, 5, 15, 13 ],
+            "saturday": [ 14, 24, 4, 12 ],
+            "sunday": [ 13, 23, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 557,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/red_fox_in_autumn_mood_by_thrumyeye_d9kszze-fullview.jpg',
+          title: 'Red Fox in Autumn Mood',
+          artist: 'thrumyeye',
+          year: '2019',
+          rule: {
+            "monday": [ 13, 23, 3, 11 ],
+            "tuesday": [ 19, 29, 9, 16 ],
+            "wednesday": [ 18, 28, 9, 16 ],
+            "thursday": [ 17, 27, 7, 5 ],
+            "friday": [ 16, 26, 6, 13 ],
+            "saturday": [ 25, 5, 15, 13 ],
+            "sunday": [ 14, 24, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 558,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d8nzt7x-68d2491d-6873-45e2-a5c2-886286a38598.jpg',
+          title: 'Team Duckling',
+          artist: 'thrumyeye',
+          year: '2019',
+          rule: {
+            "monday": [ 14, 24, 4, 12 ],
+            "tuesday": [ 13, 23, 3, 11 ],
+            "wednesday": [ 19, 29, 9, 16 ],
+            "thursday": [ 18, 28, 9, 16 ],
+            "friday": [ 17, 27, 7, 5 ],
+            "saturday": [ 16, 26, 6, 13 ],
+            "sunday": [ 25, 5, 15, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 559,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/buildings_in_edinburgh__scotland_6_by_jennystokes_d9fkye7-fullview.jpg',
+          title: 'Buildings in Edinburgh, Scotland',
+          artist: 'Jenny Stokes',
+          year: '2019',
+          rule: {
+            "monday": [ 25, 5, 15, 13 ],
+            "tuesday": [ 14, 24, 4, 12 ],
+            "wednesday": [ 13, 23, 3, 11 ],
+            "thursday": [ 19, 29, 9, 16 ],
+            "friday": [ 18, 28, 9, 16 ],
+            "saturday": [ 17, 27, 7, 5 ],
+            "sunday": [ 16, 26, 6, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 560,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/acrobat_by_julianrad_daq73u6-fullview.jpg',
+          title: 'Acrobat',
+          artist: 'Julian Rad',
+          year: '2019',
+          rule: {
+            "monday": [ 17, 27, 7, 14 ],
+            "tuesday": [ 26, 6, 16, 14 ],
+            "wednesday": [ 15, 25, 5, 13 ],
+            "thursday": [ 14, 24, 4, 12 ],
+            "friday": [ 20, 30, 10, 17 ],
+            "saturday": [ 19, 29, 10, 17 ],
+            "sunday": [ 18, 28, 8, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

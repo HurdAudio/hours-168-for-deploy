@@ -1334,6 +1334,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#F5FAFD',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 96,
+          user_id: 1,
+          theme: 'Glass',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/marcio-chagas-VQVsyLObXE8-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '110%',
+          color_dark: '#190D0A',
+          color_medium: '#857F71',
+          color_light: '#D4D1C2',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

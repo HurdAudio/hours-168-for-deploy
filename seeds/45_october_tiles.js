@@ -1236,6 +1236,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FFF396',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 89,
+          user_id: 1,
+          theme: 'Autumnal',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/chloe-benko-prieur-ti4uz330CwU-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#000100',
+          color_medium: '#B25927',
+          color_light: '#FBFCDC',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5512,6 +5512,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 307,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=796738708/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://theparanoyds.bandcamp.com/album/hungry-sam-ep',
+          a_string: 'Hungry Sam EP by The Paranoyds',
+          rule: {
+            "monday": [ 21, 31, 10, 13 ],
+            "tuesday": [ 20, 30, 9, 12 ],
+            "wednesday": [ 19, 29, 8, 11 ],
+            "thursday": [ 18, 28, 8, 10 ],
+            "saturday": [ 17, 27, 6, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 308,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2914613339/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://pleasureleftists.bandcamp.com/album/the-gate',
+          a_string: 'The Gate by Pleasure Leftists',
+          rule: {
+            "monday": [ 18, 28, 7, 10 ],
+            "tuesday": [ 22, 1, 11, 14 ],
+            "wednesday": [ 21, 31, 10, 13 ],
+            "thursday": [ 20, 30, 9, 12 ],
+            "saturday": [ 19, 29, 9, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 309,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3825750400/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://milkyflem.bandcamp.com/album/family-party',
+          a_string: 'Family Party by Knife Wife',
+          rule: {
+            "monday": [ 19, 29, 9, 11 ],
+            "tuesday": [ 18, 28, 7, 10 ],
+            "wednesday": [ 22, 1, 11, 14 ],
+            "thursday": [ 21, 31, 10, 13 ],
+            "saturday": [ 20, 30, 9, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

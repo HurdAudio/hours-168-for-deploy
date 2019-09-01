@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/bad-honnef-multiple-1998.jpeg',
+          title: 'Bad Honnef Multiple',
+          artist: 'Gunther Forg',
+          year: '1998',
+          rule: {
+            "monday": [ 19, 23, 30, 3 ],
+            "tuesday": [ 18, 21, 28, 3 ],
+            "wednesday": [ 16, 21, 27, 2 ],
+            "thursday": [ 15, 20, 26, 1 ],
+            "friday": [ 15, 20, 26, 3 ],
+            "saturday": [ 21, 26, 2, 7 ],
+            "sunday": [ 20, 22, 30, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/painting-98-19-1998.jpeg',
+          title: 'Painting 98-19',
+          artist: 'Rudolf de Crignis',
+          year: '1998',
+          rule: {
+            "monday": [ 20, 22, 30, 26 ],
+            "tuesday": [ 19, 23, 30, 3 ],
+            "wednesday": [ 18, 21, 28, 3 ],
+            "thursday": [ 16, 21, 27, 2 ],
+            "friday": [ 15, 20, 26, 1 ],
+            "saturday": [ 15, 20, 26, 3 ],
+            "sunday": [ 21, 26, 2, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/edges-1999.jpeg',
+          title: 'Edges',
+          artist: 'Richard Tuttle',
+          year: '1999',
+          rule: {
+            "monday": [ 21, 26, 2, 7 ],
+            "tuesday": [ 20, 22, 30, 26 ],
+            "wednesday": [ 19, 23, 30, 3 ],
+            "thursday": [ 18, 21, 28, 3 ],
+            "friday": [ 16, 21, 27, 2 ],
+            "saturday": [ 15, 20, 26, 1 ],
+            "sunday": [ 15, 20, 26, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/neons-for-the-reading-power-station-1999.jpeg',
+          title: 'Neons for the Reading Power Station',
+          artist: 'Stephen Antonakos',
+          year: '1999',
+          rule: {
+            "monday": [ 15, 20, 26, 3 ],
+            "tuesday": [ 21, 26, 2, 7 ],
+            "wednesday": [ 20, 22, 30, 26 ],
+            "thursday": [ 19, 23, 30, 3 ],
+            "friday": [ 18, 21, 28, 3 ],
+            "saturday": [ 16, 21, 27, 2 ],
+            "sunday": [ 15, 20, 26, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-red-1999.jpeg',
+          title: 'Untitled (Red)',
+          artist: 'Phil Sims',
+          year: '1999',
+          rule: {
+            "monday": [ 15, 20, 26, 1 ],
+            "tuesday": [ 15, 20, 26, 3 ],
+            "wednesday": [ 21, 26, 2, 7 ],
+            "thursday": [ 20, 22, 30, 26 ],
+            "friday": [ 19, 23, 30, 3 ],
+            "saturday": [ 18, 21, 28, 3 ],
+            "sunday": [ 16, 21, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

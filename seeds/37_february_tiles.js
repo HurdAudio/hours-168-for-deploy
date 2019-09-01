@@ -1348,6 +1348,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#2E89AD',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 97,
+          user_id: 1,
+          theme: 'Silk/Velvet',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/lance-matthew-pahang-umg5NCYnLpY-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '100%',
+          color_dark: '#41292F',
+          color_medium: '#0D82A3',
+          color_light: '#B4DEDB',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

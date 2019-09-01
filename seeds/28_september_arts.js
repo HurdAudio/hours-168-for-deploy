@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/m-child-1981.jpeg',
+          title: 'M & Child',
+          artist: 'Leo Valledor',
+          year: '1981',
+          rule: {
+            "monday": [ 14, 21, 9, 17 ],
+            "tuesday": [ 14, 20, 8, 16 ],
+            "wednesday": [ 3, 19, 7, 16 ],
+            "thursday": [ 2, 9, 6, 14 ],
+            "friday": [ 10, 17, 5, 12 ],
+            "saturday": [ 17, 23, 11, 19 ],
+            "sunday": [ 16, 21, 10, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/pomegranate-and-quince-1978.jpeg',
+          title: 'Pomegranate and Quince',
+          artist: 'Avigdor Arikha',
+          year: '1978',
+          rule: {
+            "monday": [ 16, 21, 10, 18 ],
+            "tuesday": [ 14, 21, 9, 17 ],
+            "wednesday": [ 14, 20, 8, 16 ],
+            "thursday": [ 3, 19, 7, 16 ],
+            "friday": [ 2, 9, 6, 14 ],
+            "saturday": [ 10, 17, 5, 12 ],
+            "sunday": [ 17, 23, 11, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/plaza-2005.jpeg',
+          title: 'Plaza',
+          artist: 'Jim Lambie',
+          year: '2005',
+          rule: {
+            "monday": [ 17, 23, 11, 19 ],
+            "tuesday": [ 16, 21, 10, 18 ],
+            "wednesday": [ 14, 21, 9, 17 ],
+            "thursday": [ 14, 20, 8, 16 ],
+            "friday": [ 3, 19, 7, 16 ],
+            "saturday": [ 2, 9, 6, 14 ],
+            "sunday": [ 10, 17, 5, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/tutti-designers-1989.jpeg',
+          title: 'Tutti Designers',
+          artist: 'Michelangelo Pistoletto',
+          year: '1989',
+          rule: {
+            "monday": [ 10, 17, 5, 12 ],
+            "tuesday": [ 17, 23, 11, 19 ],
+            "wednesday": [ 16, 21, 10, 18 ],
+            "thursday": [ 14, 21, 9, 17 ],
+            "friday": [ 14, 20, 8, 16 ],
+            "saturday": [ 3, 19, 7, 16 ],
+            "sunday": [ 2, 9, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1970_cow.jpeg',
+          title: 'Untitled',
+          artist: 'Alvaro Lapa',
+          year: '1970',
+          rule: {
+            "monday": [ 2, 9, 6, 14 ],
+            "tuesday": [ 10, 17, 5, 12 ],
+            "wednesday": [ 17, 23, 11, 19 ],
+            "thursday": [ 16, 21, 10, 18 ],
+            "friday": [ 14, 21, 9, 17 ],
+            "saturday": [ 14, 20, 8, 16 ],
+            "sunday": [ 3, 19, 7, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

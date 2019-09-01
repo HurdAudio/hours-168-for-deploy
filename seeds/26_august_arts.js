@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/  self-portrait-1917.jpeg',
+          title: 'Self-portrait',
+          artist: 'Alexandre Jacovleff',
+          year: '1917',
+          rule: {
+            "monday": [ 12, 15, 24, 9 ],
+            "tuesday": [ 18, 22, 30, 15 ],
+            "wednesday": [ 17, 20, 29, 14 ],
+            "thursday": [ 16, 20, 28, 13 ],
+            "friday": [ 15, 17, 27, 12 ],
+            "saturday": [ 14, 16, 26, 11 ],
+            "sunday": [ 13, 16, 25, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/sevilla-1921.jpeg',
+          title: 'Sevilla',
+          artist: 'Samuel Mutzner',
+          year: '1921',
+          rule: {
+            "monday": [ 13, 16, 25, 10 ],
+            "tuesday": [ 12, 15, 24, 9 ],
+            "wednesday": [ 18, 22, 30, 15 ],
+            "thursday": [ 17, 20, 29, 14 ],
+            "friday": [ 16, 20, 28, 13 ],
+            "saturday": [ 15, 17, 27, 12 ],
+            "sunday": [ 14, 16, 26, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/1936.jpeg',
+          title: 'Portrait of a man',
+          artist: 'Nikos Nikolaou',
+          year: '1936',
+          rule: {
+            "monday": [ 14, 16, 26, 11 ],
+            "tuesday": [ 13, 16, 25, 10 ],
+            "wednesday": [ 12, 15, 24, 9 ],
+            "thursday": [ 18, 22, 30, 15 ],
+            "friday": [ 17, 20, 29, 14 ],
+            "saturday": [ 16, 20, 28, 13 ],
+            "sunday": [ 15, 17, 27, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/self-portrait-in-front-of-blue-background-1905.jpeg',
+          title: 'Self-portrait in front of blue background',
+          artist: 'Richard Gerstl',
+          year: '1905',
+          rule: {
+            "monday": [ 16, 18, 28, 13 ],
+            "tuesday": [ 15, 17, 27, 12 ],
+            "wednesday": [ 14, 17, 26, 11 ],
+            "thursday": [ 13, 16, 25, 10 ],
+            "friday": [ 19, 23, 31, 16 ],
+            "saturday": [ 18, 21, 30, 15 ],
+            "sunday": [ 17, 21, 29, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/lake-keitele-1905.jpeg',
+          title: 'Lake Keitele',
+          artist: 'Akseli Gallen-Kallela',
+          year: '1905',
+          rule: {
+            "monday": [ 17, 21, 29, 14 ],
+            "tuesday": [ 16, 18, 28, 13 ],
+            "wednesday": [ 15, 17, 27, 12 ],
+            "thursday": [ 14, 17, 26, 11 ],
+            "friday": [ 13, 16, 25, 10 ],
+            "saturday": [ 19, 23, 31, 16 ],
+            "sunday": [ 18, 21, 30, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

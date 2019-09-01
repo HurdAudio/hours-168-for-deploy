@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3853895800/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://newwaveofjazz.bandcamp.com/album/boskage',
+          a_string: 'BOSKAGE by DANIEL THOMPSON &amp; COLIN WEBSTER',
+          rule: {
+            "monday": [ 23, 31, 13, 12 ],
+            "tuesday": [ 22, 30, 12, 11 ],
+            "wednesday": [ 26, 3, 16, 15 ],
+            "thursday": [ 25, 2, 15, 14 ],
+            "saturday": [ 24, 1, 14, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3719164895/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://weekertoft.bandcamp.com/album/calenture-and-light-leaks',
+          a_string: 'Calenture and Light Leaks by Evan Parker / Paul G. Smyth',
+          rule: {
+            "monday": [ 24, 1, 14, 13 ],
+            "tuesday": [ 23, 31, 13, 12 ],
+            "wednesday": [ 22, 30, 12, 11 ],
+            "thursday": [ 26, 3, 16, 15 ],
+            "saturday": [ 25, 2, 15, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3593674502/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ledbib.bandcamp.com/album/led-bib-live-2007',
+          a_string: 'Led Bib - Live (2007) by Led Bib',
+          rule: {
+            "monday": [ 25, 2, 15, 14 ],
+            "tuesday": [ 24, 1, 14, 13 ],
+            "wednesday": [ 23, 31, 13, 12 ],
+            "thursday": [ 22, 30, 12, 11 ],
+            "saturday": [ 26, 3, 16, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

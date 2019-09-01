@@ -12104,6 +12104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 606,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/variation-sonnenaufgang-1918.jpeg',
+          title: 'Variation: Sonnenaufgang',
+          artist: 'Alexej von Jawlensky',
+          year: '1918',
+          rule: {
+            "monday": [ 7, 9, 13, 16 ],
+            "tuesday": [ 9, 11, 12, 13 ],
+            "wednesday": [ 28, 30, 22, 11 ],
+            "thursday": [ 28, 30, 22, 11 ],
+            "friday": [ 2, 31, 23, 26 ],
+            "saturday": [ 2, 3, 25, 29 ],
+            "sunday": [ 5, 7, 8, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 607,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-with-grid-ix-1919.jpeg',
+          title: 'Composition with Grid IX',
+          artist: 'Piet Mondrian',
+          year: '1919',
+          rule: {
+            "monday": [ 5, 7, 8, 10 ],
+            "tuesday": [ 7, 9, 13, 16 ],
+            "wednesday": [ 9, 11, 12, 13 ],
+            "thursday": [ 28, 30, 22, 11 ],
+            "friday": [ 28, 30, 22, 11 ],
+            "saturday": [ 2, 31, 23, 26 ],
+            "sunday": [ 2, 3, 25, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 608,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/discs-1919.jpeg',
+          title: 'Discs',
+          artist: 'Fernand Leger',
+          year: '1918 - 1919',
+          rule: {
+            "monday": [ 2, 3, 25, 29 ],
+            "tuesday": [ 5, 7, 8, 10 ],
+            "wednesday": [ 7, 9, 13, 16 ],
+            "thursday": [ 9, 11, 12, 13 ],
+            "friday": [ 28, 30, 22, 11 ],
+            "saturday": [ 28, 30, 22, 11 ],
+            "sunday": [ 2, 31, 23, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 609,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/speakers-on-tribune-1919.jpeg',
+          title: 'Speakers on Tribune',
+          artist: 'Kazimir Malevich',
+          year: '1919',
+          rule: {
+            "monday": [ 3, 1, 24, 27 ],
+            "tuesday": [ 3, 4, 26, 30 ],
+            "wednesday": [ 6, 8, 9, 11 ],
+            "thursday": [ 8, 10, 14, 17 ],
+            "friday": [ 10, 12, 13, 14 ],
+            "saturday": [ 29, 31, 23, 12 ],
+            "sunday": [ 29, 31, 23, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 610,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/linienrhythmus-1919.jpeg',
+          title: 'Linienrhythmus',
+          artist: 'Johannes Itten',
+          year: '1919',
+          rule: {
+            "monday": [ 29, 31, 23, 12 ],
+            "tuesday": [ 3, 1, 24, 27 ],
+            "wednesday": [ 3, 4, 26, 30 ],
+            "thursday": [ 6, 8, 9, 11 ],
+            "friday": [ 8, 10, 14, 17 ],
+            "saturday": [ 10, 12, 13, 14 ],
+            "sunday": [ 29, 31, 23, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

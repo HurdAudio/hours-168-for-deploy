@@ -5620,6 +5620,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 313,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3298373161/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://magicpie.bandcamp.com/album/fragments-of-the-5th-element',
+          a_string: 'Fragments Of The 5th Element by Magic Pie',
+          rule: {
+            "monday": [ 15, 5, 13, 7 ],
+            "tuesday": [ 19, 9, 17, 11 ],
+            "wednesday": [ 18, 8, 16, 10 ],
+            "thursday": [ 17, 7, 15, 8 ],
+            "saturday": [ 17, 6, 14, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 314,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1561607855/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://nminus1.bandcamp.com/album/bisdacien',
+          a_string: 'Bisdacien by N-1',
+          rule: {
+            "monday": [ 17, 6, 14, 8 ],
+            "tuesday": [ 15, 5, 13, 7 ],
+            "wednesday": [ 19, 9, 17, 11 ],
+            "thursday": [ 18, 8, 16, 10 ],
+            "saturday": [ 17, 7, 15, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 315,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1304203364/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://disengage.bandcamp.com/album/snapshots',
+          a_string: 'Snapshots by Disen Gage',
+          rule: {
+            "monday": [ 18, 8, 16, 9 ],
+            "tuesday": [ 18, 7, 15, 9 ],
+            "wednesday": [ 16, 6, 14, 8 ],
+            "thursday": [ 20, 10, 18, 12 ],
+            "saturday": [ 19, 9, 17, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

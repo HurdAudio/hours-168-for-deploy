@@ -6376,6 +6376,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 355,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3876962553/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://teneshathewordsmith.bandcamp.com/album/peacocks-and-other-savage-beasts',
+          a_string: 'Peacocks and Other Savage Beasts by Tenesha The WordSmith',
+          rule: {
+            "monday": [ 26, 29, 2, 4 ],
+            "tuesday": [ 8, 2, 4, 6 ],
+            "wednesday": [ 10, 4, 6, 12 ],
+            "thursday": [ 11, 5, 7, 13 ],
+            "saturday": [ 23, 27, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 356,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=439977032/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://teneshathewordsmith.bandcamp.com/album/body-of-work',
+          a_string: 'Body Of Work by Tenesha The WordSmith',
+          rule: {
+            "monday": [ 23, 27, 29, 4 ],
+            "tuesday": [ 26, 29, 2, 4 ],
+            "wednesday": [ 8, 2, 4, 6 ],
+            "thursday": [ 10, 4, 6, 12 ],
+            "saturday": [ 11, 5, 7, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 357,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=430430275/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://teneshathewordsmith.bandcamp.com/album/madea-dangerous-women',
+          a_string: 'Madea/Dangerous Women by Tenesha The WordSmith',
+          rule: {
+            "monday": [ 12, 6, 8, 14 ],
+            "tuesday": [ 24, 28, 1, 5 ],
+            "wednesday": [ 27, 1, 3, 5 ],
+            "thursday": [ 9, 3, 5, 7 ],
+            "saturday": [ 11, 5, 7, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

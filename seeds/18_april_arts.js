@@ -11504,6 +11504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 576,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/coolpapabell500.jpg',
+          title: 'Cool Papa Bell',
+          artist: 'Will Johnson',
+          year: '?',
+          rule: {
+            "monday": [ 17, 22, 28, 4 ],
+            "tuesday": [ 22, 28, 3, 9 ],
+            "wednesday": [ 6, 26, 2, 8 ],
+            "thursday": [ 21, 24, 2, 8 ],
+            "friday": [ 20, 24, 9, 7 ],
+            "saturday": [ 17, 23, 29, 5 ],
+            "sunday": [ 18, 23, 29, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 577,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/vida-blue500.jpg',
+          title: 'Vida Blue',
+          artist: 'Will Johnson',
+          year: '?',
+          rule: {
+            "monday": [ 18, 23, 29, 5 ],
+            "tuesday": [ 17, 22, 28, 4 ],
+            "wednesday": [ 22, 28, 3, 9 ],
+            "thursday": [ 6, 26, 2, 8 ],
+            "friday": [ 21, 24, 2, 8 ],
+            "saturday": [ 20, 24, 9, 7 ],
+            "sunday": [ 17, 23, 29, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 578,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/jr-richard500.jpg',
+          title: 'JR Richard',
+          artist: 'Will Johnson',
+          year: '?',
+          rule: {
+            "monday": [ 17, 23, 29, 5 ],
+            "tuesday": [ 18, 23, 29, 5 ],
+            "wednesday": [ 17, 22, 28, 4 ],
+            "thursday": [ 22, 28, 3, 9 ],
+            "friday": [ 6, 26, 2, 8 ],
+            "saturday": [ 21, 24, 2, 8 ],
+            "sunday": [ 20, 24, 9, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 579,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/josh-gibson.jpg',
+          title: 'Josh Gibson',
+          artist: 'Will Johnson',
+          year: '?',
+          rule: {
+            "monday": [ 20, 24, 9, 7 ],
+            "tuesday": [ 17, 23, 29, 5 ],
+            "wednesday": [ 18, 23, 29, 5 ],
+            "thursday": [ 17, 22, 28, 4 ],
+            "friday": [ 22, 28, 3, 9 ],
+            "saturday": [ 6, 26, 2, 8 ],
+            "sunday": [ 21, 24, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 580,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/jackie-robinson500.jpg',
+          title: 'Jackie Robinson',
+          artist: 'Will Johnson',
+          year: '?',
+          rule: {
+            "monday": [ 21, 24, 2, 8 ],
+            "tuesday": [ 20, 24, 9, 7 ],
+            "wednesday": [ 17, 23, 29, 5 ],
+            "thursday": [ 18, 23, 29, 5 ],
+            "friday": [ 17, 22, 28, 4 ],
+            "saturday": [ 22, 28, 3, 9 ],
+            "sunday": [ 6, 26, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

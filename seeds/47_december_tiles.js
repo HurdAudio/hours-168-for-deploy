@@ -1208,6 +1208,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#E4F5FF',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 87,
+          user_id: 1,
+          theme: 'Snow',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/tycho-atsma-68BBDyysBgc-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#0B1618',
+          color_medium: '#B71F2B',
+          color_light: '#D3D9E9',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

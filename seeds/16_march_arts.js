@@ -11704,6 +11704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 586,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/mai-abend-in-stockholm-1916(1).jpeg',
+          title: 'Mai-Abend in Stockholm',
+          artist: 'Gabriele Munter',
+          year: '1916',
+          rule: {
+            "monday": [ 17, 27, 4, 14 ],
+            "tuesday": [ 16, 26, 4, 13 ],
+            "wednesday": [ 22, 31, 10, 18 ],
+            "thursday": [ 21, 31, 8, 18 ],
+            "friday": [ 19, 30, 7, 17 ],
+            "saturday": [ 19, 29, 6, 16 ],
+            "sunday": [ 18, 29, 5, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 587,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/flowers-in-a-glass-vase-with-abstract-needlework-design.jpeg',
+          title: 'Flowers in a Glass Vase with Abstract Needlework Design',
+          artist: 'Vanessa Bell',
+          year: '?',
+          rule: {
+            "monday": [ 18, 29, 5, 15 ],
+            "tuesday": [ 17, 27, 4, 14 ],
+            "wednesday": [ 16, 26, 4, 13 ],
+            "thursday": [ 22, 31, 10, 18 ],
+            "friday": [ 21, 31, 8, 18 ],
+            "saturday": [ 19, 30, 7, 17 ],
+            "sunday": [ 19, 29, 6, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 588,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/costume-design.jpeg',
+          title: 'Costume Design',
+          artist: 'Aleksandra Ekster',
+          year: '?',
+          rule: {
+            "monday": [ 20, 30, 7, 17 ],
+            "tuesday": [ 19, 30, 6, 16 ],
+            "wednesday": [ 18, 28, 5, 15 ],
+            "thursday": [ 17, 27, 5, 14 ],
+            "friday": [ 23, 1, 11, 19 ],
+            "saturday": [ 22, 1, 9, 19 ],
+            "sunday": [ 20, 31, 8, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 589,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-dancer-1919.jpeg',
+          title: 'The Dancer',
+          artist: 'Marie Laurencin',
+          year: '1919',
+          rule: {
+            "monday": [ 20, 31, 8, 18 ],
+            "tuesday": [ 20, 30, 7, 17 ],
+            "wednesday": [ 19, 30, 6, 16 ],
+            "thursday": [ 18, 28, 5, 15 ],
+            "friday": [ 17, 27, 5, 14 ],
+            "saturday": [ 23, 1, 11, 19 ],
+            "sunday": [ 22, 1, 9, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 590,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/composition-37.jpeg',
+          title: 'Composition 37',
+          artist: 'Sonia Delaunay',
+          year: 'c.1930',
+          rule: {
+            "monday": [ 22, 1, 9, 19 ],
+            "tuesday": [ 20, 31, 8, 18 ],
+            "wednesday": [ 20, 30, 7, 17 ],
+            "thursday": [ 19, 30, 6, 16 ],
+            "friday": [ 18, 28, 5, 15 ],
+            "saturday": [ 17, 27, 5, 14 ],
+            "sunday": [ 23, 1, 11, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

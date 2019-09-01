@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_corvalan_l.jpg',
+          title: 'Free Luis Corvalan!',
+          artist: '?',
+          year: '1973',
+          rule: {
+            "monday": [ 13, 24, 4, 8 ],
+            "tuesday": [ 12, 23, 2, 7 ],
+            "wednesday": [ 21, 22, 2, 6 ],
+            "thursday": [ 17, 28, 8, 12 ],
+            "friday": [ 16, 27, 7, 11 ],
+            "saturday": [ 15, 26, 6, 10 ],
+            "sunday": [ 14, 25, 6, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_construction.jpg',
+          title: 'We want to build, not to destroy!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 14, 25, 6, 9 ],
+            "tuesday": [ 13, 24, 4, 8 ],
+            "wednesday": [ 12, 23, 2, 7 ],
+            "thursday": [ 21, 22, 2, 6 ],
+            "friday": [ 17, 28, 8, 12 ],
+            "saturday": [ 16, 27, 7, 11 ],
+            "sunday": [ 15, 26, 6, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_circuit.jpg',
+          title: 'One more turn...',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 16, 27, 7, 11 ],
+            "tuesday": [ 15, 26, 7, 10 ],
+            "wednesday": [ 14, 25, 5, 9 ],
+            "thursday": [ 13, 24, 3, 8 ],
+            "friday": [ 22, 23, 3, 7 ],
+            "saturday": [ 18, 29, 9, 13 ],
+            "sunday": [ 17, 28, 8, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_chili.jpg',
+          title: 'Freedom to the people of Chile!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 17, 28, 8, 12 ],
+            "tuesday": [ 16, 27, 7, 11 ],
+            "wednesday": [ 15, 26, 7, 10 ],
+            "thursday": [ 14, 25, 5, 9 ],
+            "friday": [ 13, 24, 3, 8 ],
+            "saturday": [ 22, 23, 3, 7 ],
+            "sunday": [ 18, 29, 9, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_child.jpg',
+          title: 'Peace',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 18, 29, 9, 13 ],
+            "tuesday": [ 17, 28, 8, 12 ],
+            "wednesday": [ 16, 27, 7, 11 ],
+            "thursday": [ 15, 26, 7, 10 ],
+            "friday": [ 14, 25, 5, 9 ],
+            "saturday": [ 13, 24, 3, 8 ],
+            "sunday": [ 22, 23, 3, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

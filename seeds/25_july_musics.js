@@ -5836,6 +5836,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 325,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1199450138/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bodywashmtl.bandcamp.com/album/comforter',
+          a_string: 'Comforter by Bodywash',
+          rule: {
+            "monday": [ 14, 15, 20, 28 ],
+            "tuesday": [ 13, 15, 19, 27 ],
+            "wednesday": [ 17, 19, 23, 31 ],
+            "thursday": [ 16, 18, 22, 30 ],
+            "saturday": [ 15, 17, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 326,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=953748073/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://closetalkerband.bandcamp.com/album/how-do-we-stay-here',
+          a_string: 'How Do We Stay Here? by Close Talker',
+          rule: {
+            "monday": [ 15, 17, 21, 29 ],
+            "tuesday": [ 14, 15, 20, 28 ],
+            "wednesday": [ 13, 15, 19, 27 ],
+            "thursday": [ 17, 19, 23, 31 ],
+            "saturday": [ 16, 18, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 327,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2039840769/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mopegrooves.bandcamp.com/album/desire',
+          a_string: 'Desire by Mope Grooves',
+          rule: {
+            "monday": [ 16, 18, 22, 30 ],
+            "tuesday": [ 15, 17, 21, 29 ],
+            "wednesday": [ 14, 15, 20, 28 ],
+            "thursday": [ 13, 15, 19, 27 ],
+            "saturday": [ 17, 19, 23, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -4024,6 +4024,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 336,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/asfalto-torino-2005.jpeg',
+          title: 'Asfalto, Torino',
+          artist: 'Franco Fontana',
+          year: '2005',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 337,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/musica-ebbra-1982.jpeg',
+          title: 'Musica Ebbra',
+          artist: 'Enzo Cucchi',
+          year: '1982',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 338,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/paese-amato-1996.jpeg',
+          title: 'Paese amato',
+          artist: 'Enzo Cucchi',
+          year: '1996',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 339,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/sotto-lingua-2000.jpeg',
+          title: 'Sotto Lingua',
+          artist: 'Enzo Cucchi',
+          year: '2000',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 340,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/puzzano-2004.jpeg',
+          title: 'Puzzano',
+          artist: 'Enzo Cucchi',
+          year: '2004',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

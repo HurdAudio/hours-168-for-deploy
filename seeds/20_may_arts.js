@@ -11304,6 +11304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 566,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1943-8.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 12, 23, 2, 22 ],
+            "tuesday": [ 11, 22, 1, 10 ],
+            "wednesday": [ 9, 19, 29, 6 ],
+            "thursday": [ 7, 16, 28, 6 ],
+            "friday": [ 17, 29, 8, 16 ],
+            "saturday": [ 17, 28, 6, 16 ],
+            "sunday": [ 15, 25, 2, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 567,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1943-9.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 16, 26, 3, 5 ],
+            "tuesday": [ 13, 24, 3, 23 ],
+            "wednesday": [ 12, 23, 2, 11 ],
+            "thursday": [ 10, 20, 30, 7 ],
+            "friday": [ 8, 17, 29, 7 ],
+            "saturday": [ 18, 30, 9, 17 ],
+            "sunday": [ 18, 29, 7, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 568,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1943-10.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 18, 29, 7, 17 ],
+            "tuesday": [ 16, 26, 3, 5 ],
+            "wednesday": [ 13, 24, 3, 23 ],
+            "thursday": [ 12, 23, 2, 11 ],
+            "friday": [ 10, 20, 30, 7 ],
+            "saturday": [ 8, 17, 29, 7 ],
+            "sunday": [ 18, 30, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 569,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1943-11.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 18, 30, 9, 17 ],
+            "tuesday": [ 18, 29, 7, 17 ],
+            "wednesday": [ 16, 26, 3, 5 ],
+            "thursday": [ 13, 24, 3, 23 ],
+            "friday": [ 12, 23, 2, 11 ],
+            "saturday": [ 10, 20, 30, 7 ],
+            "sunday": [ 8, 17, 29, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 570,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1943-12.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 8, 17, 29, 7 ],
+            "tuesday": [ 18, 30, 9, 17 ],
+            "wednesday": [ 18, 29, 7, 17 ],
+            "thursday": [ 16, 26, 3, 5 ],
+            "friday": [ 13, 24, 3, 23 ],
+            "saturday": [ 12, 23, 2, 11 ],
+            "sunday": [ 10, 20, 30, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

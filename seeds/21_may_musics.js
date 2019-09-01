@@ -6052,6 +6052,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 337,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3636196756/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://catchwaveltd.bandcamp.com/album/headflush',
+          a_string: 'Headflush by Leila Bordreuil',
+          rule: {
+            "monday": [ 16, 22, 29, 11 ],
+            "tuesday": [ 20, 26, 2, 15 ],
+            "wednesday": [ 19, 25, 1, 14 ],
+            "thursday": [ 18, 24, 31, 13 ],
+            "saturday": [ 17, 23, 30, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 338,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/track=1388097873/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://longformeditions.bandcamp.com/track/behind-the-spiderweb-gate',
+          a_string: 'Behind the Spiderweb Gate by Alison Cotton',
+          rule: {
+            "monday": [ 17, 23, 30, 12 ],
+            "tuesday": [ 16, 22, 29, 11 ],
+            "wednesday": [ 20, 26, 2, 15 ],
+            "thursday": [ 19, 25, 1, 14 ],
+            "saturday": [ 18, 24, 31, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 339,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2771905008/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://dustinwong.bandcamp.com/album/kannazuki',
+          a_string: 'Kannazuki by Haco, Takako Minekawa, Dustin Wong, Tarnovski',
+          rule: {
+            "monday": [ 18, 24, 31, 13 ],
+            "tuesday": [ 17, 23, 30, 12 ],
+            "wednesday": [ 16, 22, 29, 11 ],
+            "thursday": [ 20, 26, 2, 15 ],
+            "saturday": [ 19, 25, 1, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

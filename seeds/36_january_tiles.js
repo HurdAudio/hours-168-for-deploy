@@ -1362,6 +1362,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#F7F2EE',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 98,
+          user_id: 1,
+          theme: 'Ice',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/annie-spratt-uoyGsrD6e0c-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '100%',
+          color_dark: '#000202',
+          color_medium: '#B7BBBB',
+          color_light: '#DCDFDC',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

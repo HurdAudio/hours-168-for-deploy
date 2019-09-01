@@ -2669,7 +2669,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 169,
           user_id: 1,
-          name: 'Christie Mathewson (pitcher), born 1880',
+          name: 'Christy Mathewson (pitcher), born 1880',
           color: '#7C7C7C',
           picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/christiemathewson.jpg',
           day_of: new Date ('1880-08-12  21:00:00 GMT'),
@@ -11192,6 +11192,39 @@ exports.seed = function(knex, Promise) {
             "titles": [ 'Gemini', 'Self-Portrait of Lito Mayo', 'Temptation', 'Mukha Ethnic (Ethnic Face)', 'Mukha', 'Maskara 2', 'Insekto' ],
             "artists": [ 'Lito Mayo', 'Lito Mayo', 'Lito Mayo', 'Lito Mayo', 'Lito Mayo', 'Lito Mayo', 'Lito Mayo' ],
             "years": [ '1982', '1981', '1976', '1976', '1976', '1976', '1976' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 720,
+          user_id: 1,
+          name: 'Igor Stravinsky (composer) born in 1882',
+          color: '#D9D9D9',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/igorStravinsky.jpg',
+          day_of: new Date ('1882-06-17  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 721,
+          user_id: 1,
+          name: 'Erik Satie (composer) born 1866',
+          color: '#9FABB9',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/EricSatieRamonCassas.jpeg',
+          day_of: new Date ('1866-05-17  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp', 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=1967139133/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=422645960/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://eriksatie.bandcamp.com/album/erik-satie-the-essential-collection', 'http://subrosalabel.bandcamp.com/album/42-vexations-1893' ],
+            "a_strings": [ 'Erik Satie - The Essential Collection by Erik Satie', '42 Vexations (1893) by Erik Satie' ]
           },
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')

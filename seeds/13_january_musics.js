@@ -6484,6 +6484,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 361,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2266080474/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/-',
+          a_string: '+ by poire_z (Günter Müller/Erik M/Voice Crack)',
+          rule: {
+            "monday": [ 27, 2, 3, 4 ],
+            "tuesday": [ 26, 2, 3, 4 ],
+            "wednesday": [ 30, 6, 7, 8 ],
+            "thursday": [ 29, 4, 5, 7 ],
+            "saturday": [ 28, 4, 5, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 362,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2298543467/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/the-hands-of-caravaggio',
+          a_string: 'The Hands of Caravaggio by MIMEO/John Tilbury',
+          rule: {
+            "monday": [ 28, 4, 5, 6 ],
+            "tuesday": [ 27, 2, 3, 4 ],
+            "wednesday": [ 26, 2, 3, 4 ],
+            "thursday": [ 30, 6, 7, 8 ],
+            "saturday": [ 29, 4, 5, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 363,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=154008970/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/right-after',
+          a_string: 'Right After by Giuseppe Ielasi/Domenico Sciajno',
+          rule: {
+            "monday": [ 29, 4, 5, 7 ],
+            "tuesday": [ 28, 4, 5, 6 ],
+            "wednesday": [ 27, 2, 3, 4 ],
+            "thursday": [ 26, 2, 3, 4 ],
+            "saturday": [ 30, 6, 7, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

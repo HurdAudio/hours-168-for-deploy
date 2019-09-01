@@ -2380,6 +2380,42 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 199,
+          user_author_id: 1,
+          theme: 'Reggae',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=12893476/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://rdh-hifi.bandcamp.com/album/unreleased-dubz-2011-2018',
+          a_string: 'UNRELEASED DUBZ 2011-2018 by RDH Hi-Fi',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 200,
+          user_author_id: 1,
+          theme: 'Reggae',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=959445728/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://stickfigure.bandcamp.com/album/world-on-fire',
+          a_string: 'World on Fire by Stick Figure',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 201,
+          user_author_id: 1,
+          theme: 'Reggae',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3371118111/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://lionsdensound.bandcamp.com/album/br1206ld-prophecy-jah-jah-come',
+          a_string: 'BR1206LD - Prophecy / Jah Jah Come by Mighty Massa, Sista Zari',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
