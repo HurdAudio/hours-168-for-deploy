@@ -3489,7 +3489,7 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           name: 'F Scott Fitzgerald (author), born 1896',
           color: '#9C9C9C',
-          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/fscottfitzgerald.jpg',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/fscottfitzgerald.JPG',
           day_of: new Date ('1896-09-24  21:00:00 GMT'),
           is_annual: true,
           art_override: false,
@@ -11226,6 +11226,34 @@ exports.seed = function(knex, Promise) {
             "href_strings": [ 'http://eriksatie.bandcamp.com/album/erik-satie-the-essential-collection', 'http://subrosalabel.bandcamp.com/album/42-vexations-1893' ],
             "a_strings": [ 'Erik Satie - The Essential Collection by Erik Satie', '42 Vexations (1893) by Erik Satie' ]
           },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 722,
+          user_id: 1,
+          name: 'Béla Bartók (composer) born 1881',
+          color: '#665744',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/Bela-Bartok-portrait-artist-Museum-of-Fine.jpg',
+          day_of: new Date ('1881-03-25  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 723,
+          user_id: 1,
+          name: 'Alban Berg (composer) born 1885',
+          color: '#443726',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/p02dzd04.jpeg',
+          day_of: new Date ('1885-02-09  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
         }

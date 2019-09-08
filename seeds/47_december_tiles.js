@@ -1222,6 +1222,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#D3D9E9',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 88,
+          user_id: 1,
+          theme: 'Snow',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/samuel-ferrara-xXuvG-_tElM-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '110%',
+          color_dark: '#050A0E',
+          color_medium: '#4E6575',
+          color_light: '#E4DBD3',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

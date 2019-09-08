@@ -994,6 +994,21 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 67,
+          user_author_id: 1,
+          theme: 'Kandinsky',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/crossing-1928.jpeg',
+          repeat_value: 'no-repeat',
+          size_value: '110%',
+          color_dark: '#0A0410',
+          color_medium: '#664631',
+          color_light: '#B9A889',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

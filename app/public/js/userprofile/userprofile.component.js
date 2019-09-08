@@ -18439,6 +18439,67 @@
         });
       }
 
+      function addTimeblockShareReactor(index, reactionIndex, reactorId) {
+        $http.get(`/users/${reactorId}`)
+        .then(reactorData => {
+          let reactor = reactorData.data;
+          vm.activeTimeblockShares[index].reactions[reactionIndex].reactors += reactor.name + '   ';
+        });
+      }
+
+      function retrieveTimeblockShareReactions(appointment, index) {
+        let uniqueReaction = true;
+        let reactionIndex = null;
+
+        $http.get('/timeblock_share_reactions')
+        .then(allReactionsData => {
+          let allReactions = allReactionsData.data;
+          let reactions = allReactions.filter(entry => {
+            return(entry.timeblock_share_id === appointment.id);
+          });
+          if (reactions.length > 0) {
+            vm.activeTimeblockShares[index].reactions = [];
+            for (let i = 0; i < reactions.length; i++) {
+              uniqueReaction = true;
+              reactionIndex = null;
+              for (let j = 0; j < vm.activeTimeblockShares[index].reactions.length; j++) {
+                if (vm.activeTimeblockShares[index].reactions[j].type === reactions[i].reaction) {
+                  uniqueReaction = false;
+                  reactionIndex = j;
+                }
+              }
+              if (uniqueReaction) {
+                reactionIndex = vm.activeTimeblockShares[index].reactions.length;
+                vm.activeTimeblockShares[index].reactions[reactionIndex] = {
+                  type: reactions[i].reaction,
+                  total: 1,
+                  reactors: ''
+                };
+                switch(reactions[i].reaction) {
+                  case('thumbsUp'):
+                    vm.activeTimeblockShares[index].reactions[reactionIndex].icon = './img/reactions/kisspng-thumb-signal-font-awesome-computer-icons-font-green-thumbs-up-icon-5b4b607cb7a147.6508454515316665567522.png';
+                    break;
+                  case('thumbsDown'):
+                    vm.activeTimeblockShares[index].reactions[reactionIndex].icon = './img/reactions/isspng-computer-icons-thumb-signal-clip-art-thumbs-down-5aab2aca6869f5.4518076515211.png';
+                    break;
+                  case('love'):
+                    vm.activeTimeblockShares[index].reactions[reactionIndex].icon = './img/reactions/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png';
+                    break;
+                  case('reject'):
+                    vm.activeTimeblockShares[index].reactions[reactionIndex].icon = './img/reactions/kisspng-computer-icons-no-entry-sign-5b2413c277b6e8.3874724415290910104904.png';
+                    break;
+                  default:
+                    console.log('ERROR: reaction type unaccounted for');
+                }
+              } else {
+                vm.activeTimeblockShares[index].reactions[reactionIndex].total += 1;
+              }
+              addTimeblockShareReactor(index, reactionIndex, reactions[i].user_author_id);
+            }
+          }
+        });
+      }
+
       function retrieveUserAppointments() {
         let check;
         pastAppointmentIds = [];
@@ -18460,6 +18521,7 @@
               inviteOrInvitee(userAppointments[i], i);
               timeblockShareAppointmentData(userAppointments[i], i);
               grabTimeblockShareComments(userAppointments[i], i);
+              retrieveTimeblockShareReactions(userAppointments[i], i);
             }
             setTimeout(()=>{
               if (vm.activeTimeblockShares.length > 0) {

@@ -11990,8 +11990,8 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Black History Month',
           img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/church-2008.jpg',
-          title: 'Miz Hurston\'s Neighborhood Series - Church,',
-          artist: '',
+          title: 'Miz Hurston\'s Neighborhood Series - Church',
+          artist: 'Beverly Buchanan',
           year: '2008',
           rule: {
             "monday": [ 7, 17, 23, 29 ],
@@ -12001,6 +12001,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 29, 9, 17, 25 ],
             "saturday": [ 6, 11, 17, 27 ],
             "sunday": [ 5, 13, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 601,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/3211.jpg',
+          title: 'Rev. Dr Martin Luther King Jr.',
+          artist: 'Selma Burke',
+          year: '?',
+          rule: {
+            "monday": [ 5, 13, 21, 29 ],
+            "tuesday": [ 7, 17, 23, 29 ],
+            "wednesday": [ 9, 17, 25, 6 ],
+            "thursday": [ 9, 19, 15, 5 ],
+            "friday": [ 28, 7, 15, 23 ],
+            "saturday": [ 29, 9, 17, 25 ],
+            "sunday": [ 6, 11, 17, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 602,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/3973618_1.jpg',
+          title: 'Boy with Balloons',
+          artist: 'Calvin Burnett',
+          year: '1962',
+          rule: {
+            "monday": [ 7, 12, 18, 28 ],
+            "tuesday": [ 6, 14, 22, 1 ],
+            "wednesday": [ 8, 18, 24, 1 ],
+            "thursday": [ 10, 18, 26, 7 ],
+            "friday": [ 10, 20, 16, 6 ],
+            "saturday": [ 29, 8, 16, 24 ],
+            "sunday": [ 1, 10, 18, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 603,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/burnsStillLife.jpeg',
+          title: 'Still Life',
+          artist: 'Pauline Powell Burns',
+          year: 'c.1890',
+          rule: {
+            "monday": [ 1, 10, 18, 26 ],
+            "tuesday": [ 7, 12, 18, 28 ],
+            "wednesday": [ 6, 14, 22, 1 ],
+            "thursday": [ 8, 18, 24, 1 ],
+            "friday": [ 10, 18, 26, 7 ],
+            "saturday": [ 10, 20, 16, 6 ],
+            "sunday": [ 29, 8, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 604,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Robert-Butler-4-e1515509306628.jpg',
+          title: 'unknown title',
+          artist: 'Robert Butler',
+          year: '?',
+          rule: {
+            "monday": [ 29, 8, 16, 24 ],
+            "tuesday": [ 1, 10, 18, 26 ],
+            "wednesday": [ 7, 12, 18, 28 ],
+            "thursday": [ 6, 14, 22, 1 ],
+            "friday": [ 8, 18, 24, 1 ],
+            "saturday": [ 10, 18, 26, 7 ],
+            "sunday": [ 10, 20, 16, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 605,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Frank__Calloway_untitled_detail_799_118.jpg',
+          title: 'unknown title',
+          artist: 'Frank Calloway',
+          year: '?',
+          rule: {
+            "monday": [ 10, 20, 16, 6 ],
+            "tuesday": [ 29, 8, 16, 24 ],
+            "wednesday": [ 1, 10, 18, 26 ],
+            "thursday": [ 7, 12, 18, 28 ],
+            "friday": [ 6, 14, 22, 1 ],
+            "saturday": [ 8, 18, 24, 1 ],
+            "sunday": [ 10, 18, 26, 7 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

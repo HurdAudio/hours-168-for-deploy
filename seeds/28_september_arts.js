@@ -10604,6 +10604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/tape-floor-1.jpeg',
+          title: 'Tape Floor',
+          artist: 'Jim Lambie',
+          year: '?',
+          rule: {
+            "monday": [ 3, 19, 7, 16 ],
+            "tuesday": [ 2, 9, 6, 14 ],
+            "wednesday": [ 10, 17, 5, 12 ],
+            "thursday": [ 17, 23, 11, 19 ],
+            "friday": [ 16, 21, 10, 18 ],
+            "saturday": [ 14, 21, 9, 17 ],
+            "sunday": [ 14, 20, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/composi-o-com-figuras-1965.jpeg',
+          title: 'Composition With Figures',
+          artist: 'Mario Zanini',
+          year: '1965',
+          rule: {
+            "monday": [ 15, 21, 9, 17 ],
+            "tuesday": [ 4, 20, 8, 17 ],
+            "wednesday": [ 3, 10, 7, 15 ],
+            "thursday": [ 11, 18, 6, 13 ],
+            "friday": [ 18, 24, 12, 20 ],
+            "saturday": [ 17, 22, 11, 19 ],
+            "sunday": [ 15, 22, 10, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/splashed-color-landscape-1965.jpeg',
+          title: 'Splashed-color Landscape',
+          artist: 'Chang Dai-chien',
+          year: '1965',
+          rule: {
+            "monday": [ 15, 22, 10, 18 ],
+            "tuesday": [ 15, 21, 9, 17 ],
+            "wednesday": [ 4, 20, 8, 17 ],
+            "thursday": [ 3, 10, 7, 15 ],
+            "friday": [ 11, 18, 6, 13 ],
+            "saturday": [ 18, 24, 12, 20 ],
+            "sunday": [ 17, 22, 11, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/devil-s-hole-left-and-right-1999.jpeg',
+          title: 'Devil’s Hole Left and Right',
+          artist: 'Wade Guyton',
+          year: '1999',
+          rule: {
+            "monday": [ 17, 22, 11, 19 ],
+            "tuesday": [ 15, 22, 10, 18 ],
+            "wednesday": [ 15, 21, 9, 17 ],
+            "thursday": [ 4, 20, 8, 17 ],
+            "friday": [ 3, 10, 7, 15 ],
+            "saturday": [ 11, 18, 6, 13 ],
+            "sunday": [ 18, 24, 12, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/torch-2008.jpeg',
+          title: 'Torch',
+          artist: 'Wu Guanzhong',
+          year: '2008',
+          rule: {
+            "monday": [ 18, 24, 12, 20 ],
+            "tuesday": [ 17, 22, 11, 19 ],
+            "wednesday": [ 15, 22, 10, 18 ],
+            "thursday": [ 15, 21, 9, 17 ],
+            "friday": [ 4, 20, 8, 17 ],
+            "saturday": [ 3, 10, 7, 15 ],
+            "sunday": [ 11, 18, 6, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

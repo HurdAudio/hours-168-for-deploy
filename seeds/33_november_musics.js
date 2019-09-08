@@ -5458,6 +5458,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 304,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3280779077/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tinariwenmusic.bandcamp.com/album/amadjar',
+          a_string: 'Amadjar by Tinariwen',
+          rule: {
+            "monday": [ 11, 22, 3, 15 ],
+            "tuesday": [ 15, 26, 7, 11 ],
+            "wednesday": [ 14, 25, 6, 10 ],
+            "thursday": [ 13, 24, 5, 9 ],
+            "saturday": [ 12, 23, 4, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 305,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2581492316/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tinariwenmusic.bandcamp.com/album/emmaar',
+          a_string: 'Emmaar by Tinariwen',
+          rule: {
+            "monday": [ 12, 23, 4, 15 ],
+            "tuesday": [ 11, 22, 3, 15 ],
+            "wednesday": [ 15, 26, 7, 11 ],
+            "thursday": [ 14, 25, 6, 10 ],
+            "saturday": [ 13, 24, 5, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 306,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3681570634/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mdoumoctar.bandcamp.com/album/ilana-the-creator',
+          a_string: 'Ilana: The Creator by Mdou Moctar',
+          rule: {
+            "monday": [ 13, 24, 5, 9 ],
+            "tuesday": [ 12, 23, 4, 15 ],
+            "wednesday": [ 11, 22, 3, 15 ],
+            "thursday": [ 15, 26, 7, 11 ],
+            "saturday": [ 14, 25, 6, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

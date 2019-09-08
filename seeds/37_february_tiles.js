@@ -1362,6 +1362,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#B4DEDB',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 98,
+          user_id: 1,
+          theme: 'Silk/Velvet',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '160%',
+          color_dark: '#001B0F',
+          color_medium: '#169179',
+          color_light: '#B5EDCD',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

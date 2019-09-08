@@ -5890,6 +5890,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 328,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2626824953/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://themarytimonyband.bandcamp.com/album/the-shapes-we-make',
+          a_string: 'The Shapes We Make by The Mary Timony Band',
+          rule: {
+            "monday": [ 17, 19, 23, 31 ],
+            "tuesday": [ 16, 18, 22, 30 ],
+            "wednesday": [ 15, 17, 21, 29 ],
+            "thursday": [ 14, 15, 20, 28 ],
+            "saturday": [ 13, 15, 19, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 329,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1047897368/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tropicalfstorm.bandcamp.com/album/braindrops',
+          a_string: 'Braindrops by Tropical Fuck Storm',
+          rule: {
+            "monday": [ 14, 16, 20, 28 ],
+            "tuesday": [ 18, 20, 24, 1 ],
+            "wednesday": [ 17, 19, 23, 31 ],
+            "thursday": [ 16, 18, 22, 30 ],
+            "saturday": [ 15, 16, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 330,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1754043349/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ezrafurman.bandcamp.com/album/twelve-nudes',
+          a_string: 'Twelve Nudes by Ezra Furman',
+          rule: {
+            "monday": [ 15, 16, 21, 29 ],
+            "tuesday": [ 14, 16, 20, 28 ],
+            "wednesday": [ 18, 20, 24, 1 ],
+            "thursday": [ 17, 19, 23, 31 ],
+            "saturday": [ 16, 18, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -1334,6 +1334,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#C6D4DF',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 96,
+          user_id: 1,
+          theme: 'Water',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april_tiles/elmer-canas-y10jRtxypdo-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: '190%',
+          color_dark: '#05050B',
+          color_medium: '#00CAD5',
+          color_light: '#DCEAEE',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

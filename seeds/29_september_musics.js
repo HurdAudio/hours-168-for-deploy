@@ -5674,6 +5674,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 316,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=317289154/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://asherwhite.bandcamp.com/album/i-thought-i-heard-them-call-my-name',
+          a_string: 'I Thought I Heard Them Call My Name by Asher White',
+          rule: {
+            "monday": [ 19, 9, 17, 11 ],
+            "tuesday": [ 18, 8, 16, 9 ],
+            "wednesday": [ 18, 7, 15, 9 ],
+            "thursday": [ 16, 6, 14, 8 ],
+            "saturday": [ 20, 10, 18, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 317,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3555026123/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://stephanthelen.bandcamp.com/album/works-for-piano',
+          a_string: 'Works for Piano by Stephan Thelen',
+          rule: {
+            "monday": [ 20, 10, 18, 12 ],
+            "tuesday": [ 19, 9, 17, 11 ],
+            "wednesday": [ 18, 8, 16, 9 ],
+            "thursday": [ 18, 7, 15, 9 ],
+            "saturday": [ 16, 6, 14, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 318,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=757715140/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://edgeofnow.bandcamp.com/album/momentum',
+          a_string: 'Momentum by Edge Of Now',
+          rule: {
+            "monday": [ 16, 6, 14, 8 ],
+            "tuesday": [ 20, 10, 18, 12 ],
+            "wednesday": [ 19, 9, 17, 11 ],
+            "thursday": [ 18, 8, 16, 9 ],
+            "saturday": [ 18, 7, 15, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

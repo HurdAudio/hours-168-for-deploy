@@ -5350,6 +5350,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 298,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1964603590/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/the-white-knights-canada-garage-psych-rhythm-blues-beat-60s',
+          a_string: 'The White Knights (Canada Garage Psych Rhythm &amp; Blues Beat) 60&#39;s by The White Knights',
+          rule: {
+            "monday": [ 14, 20, 26, 1 ],
+            "tuesday": [ 18, 24, 30, 5 ],
+            "wednesday": [ 17, 23, 29, 4 ],
+            "thursday": [ 14, 22, 28, 3 ],
+            "saturday": [ 13, 21, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 299,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3582190704/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/tomorrows-keepsake-canada-psych-fuzz-organ-gaiety-recs-60s',
+          a_string: 'Tomorrow&#39;s Keepsake (Canada Psych Fuzz Organ Gaiety Recs) 60&#39;s by Tomorrow&#39;s Keepsake',
+          rule: {
+            "monday": [ 13, 21, 27, 2 ],
+            "tuesday": [ 14, 20, 26, 1 ],
+            "wednesday": [ 18, 24, 30, 5 ],
+            "thursday": [ 17, 23, 29, 4 ],
+            "saturday": [ 14, 22, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 300,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2698064616/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/lee-ranaldo-jim-jarmusch-marc-urselli-balazs-pandi-s-t-experimental-rock-avantgarde-postrock-sonic-youth-2019',
+          a_string: 'Lee Ranaldo / Jim Jarmusch / Marc Urselli / Balazs Pandi S/T (Experimental Rock - Avantgarde Postrock Sonic Youth 2019) by Lee Ranaldo - Jim Jarmusch - Marc Urselli - Balazs Pandi',
+          rule: {
+            "monday": [ 14, 22, 28, 3 ],
+            "tuesday": [ 13, 21, 27, 2 ],
+            "wednesday": [ 14, 20, 26, 1 ],
+            "thursday": [ 18, 24, 30, 5 ],
+            "saturday": [ 17, 23, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

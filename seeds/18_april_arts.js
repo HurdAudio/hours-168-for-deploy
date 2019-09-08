@@ -11604,6 +11604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 581,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/modern-baseball-art-wall-digital-love-by-home-improvement-stores-open-near-me-fine.jpg',
+          title: 'Modern Baseball Art',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 7, 27, 3, 9 ],
+            "tuesday": [ 22, 25, 10, 9 ],
+            "wednesday": [ 21, 25, 10, 8 ],
+            "thursday": [ 18, 24, 30, 6 ],
+            "friday": [ 19, 24, 30, 6 ],
+            "saturday": [ 18, 23, 29, 5 ],
+            "sunday": [ 23, 29, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 582,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/d5osw50-5f3bf3e1-d534-4beb-9c01-ef58060251c3.jpg',
+          title: 'Baseball',
+          artist: 'Saccstry',
+          year: '2019',
+          rule: {
+            "monday": [ 23, 29, 4, 10 ],
+            "tuesday": [ 7, 27, 3, 9 ],
+            "wednesday": [ 22, 25, 10, 9 ],
+            "thursday": [ 21, 25, 10, 8 ],
+            "friday": [ 18, 24, 30, 6 ],
+            "saturday": [ 19, 24, 30, 6 ],
+            "sunday": [ 18, 23, 29, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 583,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/d1jtbdm-dab2f31e-971c-4579-a800-ab8da531b58d.jpg',
+          title: 'Baseball Chick',
+          artist: 'mruottin',
+          year: '2019',
+          rule: {
+            "monday": [ 18, 23, 29, 5 ],
+            "tuesday": [ 23, 29, 4, 10 ],
+            "wednesday": [ 7, 27, 3, 9 ],
+            "thursday": [ 22, 25, 10, 9 ],
+            "friday": [ 21, 25, 10, 8 ],
+            "saturday": [ 18, 24, 30, 6 ],
+            "sunday": [ 19, 24, 30, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 584,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/d1zfbz4-ccac3749-9f57-4dc3-a1a4-0a8227795cc3.jpg',
+          title: 'Baseball',
+          artist: 'Dominic Marco',
+          year: '2009',
+          rule: {
+            "monday": [ 19, 24, 30, 6 ],
+            "tuesday": [ 18, 23, 29, 5 ],
+            "wednesday": [ 23, 29, 4, 10 ],
+            "thursday": [ 7, 27, 3, 9 ],
+            "friday": [ 22, 25, 10, 9 ],
+            "saturday": [ 21, 25, 10, 8 ],
+            "sunday": [ 18, 24, 30, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 585,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/dead_stadium_by_tohad_dboixz5-pre.jpg',
+          title: 'Dead Stadium',
+          artist: 'Tohad',
+          year: '2017',
+          rule: {
+            "monday": [ 18, 24, 30, 6 ],
+            "tuesday": [ 19, 24, 30, 6 ],
+            "wednesday": [ 18, 23, 29, 5 ],
+            "thursday": [ 23, 29, 4, 10 ],
+            "friday": [ 7, 27, 3, 9 ],
+            "saturday": [ 22, 25, 10, 9 ],
+            "sunday": [ 21, 25, 10, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

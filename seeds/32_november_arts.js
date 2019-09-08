@@ -10204,6 +10204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 511,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1999Zang.jpeg',
+          title: 'Untitled',
+          artist: 'Herbert Zangs',
+          year: '1999',
+          rule: {
+            "monday": [ 17, 22, 28, 3 ],
+            "tuesday": [ 16, 21, 27, 2 ],
+            "wednesday": [ 16, 21, 27, 4 ],
+            "thursday": [ 22, 27, 3, 8 ],
+            "friday": [ 21, 23, 1, 27 ],
+            "saturday": [ 20, 24, 1, 4 ],
+            "sunday": [ 19, 22, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 512,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/blue-vertical-2000.jpeg',
+          title: 'Blue Vertical',
+          artist: 'Sol LeWitt',
+          year: '2000',
+          rule: {
+            "monday": [ 19, 22, 29, 4 ],
+            "tuesday": [ 17, 22, 28, 3 ],
+            "wednesday": [ 16, 21, 27, 2 ],
+            "thursday": [ 16, 21, 27, 4 ],
+            "friday": [ 22, 27, 3, 8 ],
+            "saturday": [ 21, 23, 1, 27 ],
+            "sunday": [ 20, 24, 1, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 513,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/a-cross-to-bare-2000.jpeg',
+          title: 'A Cross to Bare',
+          artist: 'Bob Law',
+          year: '2000',
+          rule: {
+            "monday": [ 20, 24, 1, 4 ],
+            "tuesday": [ 19, 22, 29, 4 ],
+            "wednesday": [ 17, 22, 28, 3 ],
+            "thursday": [ 16, 21, 27, 2 ],
+            "friday": [ 16, 21, 27, 4 ],
+            "saturday": [ 22, 27, 3, 8 ],
+            "sunday": [ 21, 23, 1, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 514,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/hombroich-2000.jpeg',
+          title: 'Hombroich',
+          artist: 'Katsuhito Nishikawa',
+          year: '2000',
+          rule: {
+            "monday": [ 21, 23, 1, 27 ],
+            "tuesday": [ 20, 24, 1, 4 ],
+            "wednesday": [ 19, 22, 29, 4 ],
+            "thursday": [ 17, 22, 28, 3 ],
+            "friday": [ 16, 21, 27, 2 ],
+            "saturday": [ 16, 21, 27, 4 ],
+            "sunday": [ 22, 27, 3, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 515,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/cross-race-1-h-r-v-f-w-2000.jpeg',
+          title: 'Cross Race 1 (H.R.V.F.W.)',
+          artist: 'Gianni Piacentino',
+          year: '2000',
+          rule: {
+            "monday": [ 22, 27, 3, 8 ],
+            "tuesday": [ 21, 23, 1, 27 ],
+            "wednesday": [ 20, 24, 1, 4 ],
+            "thursday": [ 19, 22, 29, 4 ],
+            "friday": [ 17, 22, 28, 3 ],
+            "saturday": [ 16, 21, 27, 2 ],
+            "sunday": [ 16, 21, 27, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

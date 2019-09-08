@@ -11804,6 +11804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 591,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/oper-rios-1933.jpeg',
+          title: 'Operários',
+          artist: 'Tarsila do Amaral',
+          year: '1933',
+          rule: {
+            "monday": [ 23, 1, 11, 19 ],
+            "tuesday": [ 22, 1, 9, 19 ],
+            "wednesday": [ 20, 31, 8, 18 ],
+            "thursday": [ 20, 30, 7, 17 ],
+            "friday": [ 19, 30, 6, 16 ],
+            "saturday": [ 18, 28, 5, 15 ],
+            "sunday": [ 17, 27, 5, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 592,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/cat-1.jpeg',
+          title: 'Cat',
+          artist: 'Mily Possoz',
+          year: '?',
+          rule: {
+            "monday": [ 17, 27, 5, 14 ],
+            "tuesday": [ 23, 1, 11, 19 ],
+            "wednesday": [ 22, 1, 9, 19 ],
+            "thursday": [ 20, 31, 8, 18 ],
+            "friday": [ 20, 30, 7, 17 ],
+            "saturday": [ 19, 30, 6, 16 ],
+            "sunday": [ 18, 28, 5, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 593,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-jug-on-the-table.jpeg',
+          title: 'The Jug on the Table',
+          artist: 'Lyubov Popova',
+          year: '1915',
+          rule: {
+            "monday": [ 18, 28, 5, 15 ],
+            "tuesday": [ 17, 27, 5, 14 ],
+            "wednesday": [ 23, 1, 11, 19 ],
+            "thursday": [ 22, 1, 9, 19 ],
+            "friday": [ 20, 31, 8, 18 ],
+            "saturday": [ 20, 30, 7, 17 ],
+            "sunday": [ 19, 30, 6, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 594,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/reed-pen-collage-1922.jpeg',
+          title: 'Reed Pen Collage',
+          artist: 'Hannah Hoch',
+          year: '1922',
+          rule: {
+            "monday": [ 19, 30, 6, 16 ],
+            "tuesday": [ 18, 28, 5, 15 ],
+            "wednesday": [ 17, 27, 5, 14 ],
+            "thursday": [ 23, 1, 11, 19 ],
+            "friday": [ 22, 1, 9, 19 ],
+            "saturday": [ 20, 31, 8, 18 ],
+            "sunday": [ 20, 30, 7, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 595,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-treasure-of-carcassonne-1928-10.jpeg',
+          title: 'The Treasure of Carcassonne',
+          artist: 'Dorothy Lathrop',
+          year: '1928',
+          rule: {
+            "monday": [ 21, 31, 8, 18 ],
+            "tuesday": [ 20, 31, 7, 17 ],
+            "wednesday": [ 19, 29, 6, 16 ],
+            "thursday": [ 18, 28, 6, 15 ],
+            "friday": [ 24, 2, 12, 20 ],
+            "saturday": [ 23, 2, 10, 20 ],
+            "sunday": [ 21, 1, 9, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

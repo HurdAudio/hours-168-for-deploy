@@ -5998,6 +5998,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 334,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2084042803/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://constantshapes.bandcamp.com/album/rainbow-rituals',
+          a_string: 'Rainbow Rituals by Constant Shapes',
+          rule: {
+            "monday": [ 18, 22, 28, 9 ],
+            "tuesday": [ 17, 20, 25, 7 ],
+            "wednesday": [ 16, 19, 25, 6 ],
+            "thursday": [ 16, 19, 25, 5 ],
+            "saturday": [ 14, 22, 24, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 335,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2551709422/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sumatranblack.bandcamp.com/album/elegy-for-a-lost-cosmonaut-e-p',
+          a_string: 'Elegy for a Lost Cosmonaut E.P by Sumatran Black',
+          rule: {
+            "monday": [ 14, 22, 24, 9 ],
+            "tuesday": [ 18, 22, 28, 9 ],
+            "wednesday": [ 17, 20, 25, 7 ],
+            "thursday": [ 16, 19, 25, 6 ],
+            "saturday": [ 16, 19, 25, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 336,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4243233056/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://astralindustries.bandcamp.com/album/ai-15-bamboo-music',
+          a_string: 'AI-15: Bamboo Music by J.Derwort',
+          rule: {
+            "monday": [ 17, 20, 26, 6 ],
+            "tuesday": [ 15, 23, 25, 10 ],
+            "wednesday": [ 19, 23, 29, 10 ],
+            "thursday": [ 18, 21, 26, 8 ],
+            "saturday": [ 17, 20, 26, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

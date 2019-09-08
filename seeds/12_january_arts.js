@@ -12204,6 +12204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 611,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/construction-for-noble-ladies-1919.jpeg',
+          title: 'Construction for Noble Ladies',
+          artist: 'Kurt Schwitters',
+          year: '1919',
+          rule: {
+            "monday": [ 29, 31, 23, 12 ],
+            "tuesday": [ 29, 31, 23, 12 ],
+            "wednesday": [ 3, 1, 24, 27 ],
+            "thursday": [ 3, 4, 26, 30 ],
+            "friday": [ 6, 8, 9, 11 ],
+            "saturday": [ 8, 10, 14, 17 ],
+            "sunday": [ 10, 12, 13, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 612,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/revolving-1919.jpeg',
+          title: 'Revolving',
+          artist: 'Kurt Schwitters',
+          year: '1919',
+          rule: {
+            "monday": [ 10, 12, 13, 14 ],
+            "tuesday": [ 29, 31, 23, 12 ],
+            "wednesday": [ 29, 31, 23, 12 ],
+            "thursday": [ 3, 1, 24, 27 ],
+            "friday": [ 3, 4, 26, 30 ],
+            "saturday": [ 6, 8, 9, 11 ],
+            "sunday": [ 8, 10, 14, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 613,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1919-1(5).jpeg',
+          title: 'Composition',
+          artist: 'Janos Mattis-Teutsch',
+          year: '1919',
+          rule: {
+            "monday": [ 8, 10, 14, 17 ],
+            "tuesday": [ 10, 12, 13, 14 ],
+            "wednesday": [ 29, 31, 23, 12 ],
+            "thursday": [ 29, 31, 23, 12 ],
+            "friday": [ 3, 1, 24, 27 ],
+            "saturday": [ 3, 4, 26, 30 ],
+            "sunday": [ 6, 8, 9, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 614,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1919-5.jpeg',
+          title: 'Composition',
+          artist: 'Janos Mattis-Teutsch',
+          year: '1919',
+          rule: {
+            "monday": [ 6, 8, 9, 11 ],
+            "tuesday": [ 8, 10, 14, 17 ],
+            "wednesday": [ 10, 12, 13, 14 ],
+            "thursday": [ 29, 31, 23, 12 ],
+            "friday": [ 29, 31, 23, 12 ],
+            "saturday": [ 3, 1, 24, 27 ],
+            "sunday": [ 3, 4, 26, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 615,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-1919.jpeg',
+          title: 'Untitled',
+          artist: 'Julius Evola',
+          year: '1919',
+          rule: {
+            "monday": [ 3, 4, 26, 30 ],
+            "tuesday": [ 6, 8, 9, 11 ],
+            "wednesday": [ 8, 10, 14, 17 ],
+            "thursday": [ 10, 12, 13, 14 ],
+            "friday": [ 29, 31, 23, 12 ],
+            "saturday": [ 29, 31, 23, 12 ],
+            "sunday": [ 3, 1, 24, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

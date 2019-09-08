@@ -10004,6 +10004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 501,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/23-07-29,NYTimes.jpg',
+          title: 'New York Times',
+          artist: 'Eugene M. Frandzen',
+          year: '1923',
+          rule: {
+            "monday": [ 8, 20, 19, 4 ],
+            "tuesday": [ 28, 20, 8, 15 ],
+            "wednesday": [ 13, 26, 3, 9 ],
+            "thursday": [ 12, 24, 2, 8 ],
+            "friday": [ 11, 24, 1, 7 ],
+            "saturday": [ 10, 23, 31, 6 ],
+            "sunday": [ 9, 22, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 502,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/21-09,Bookman.jpg',
+          title: 'The Bookman',
+          artist: 'Joseph Franke',
+          year: '1921',
+          rule: {
+            "monday": [ 9, 22, 30, 5 ],
+            "tuesday": [ 8, 20, 19, 4 ],
+            "wednesday": [ 28, 20, 8, 15 ],
+            "thursday": [ 13, 26, 3, 9 ],
+            "friday": [ 12, 24, 2, 8 ],
+            "saturday": [ 11, 24, 1, 7 ],
+            "sunday": [ 10, 23, 31, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 503,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/22-00,HiddenPlc.jpg',
+          title: 'The Hidden Place',
+          artist: 'Marshall Frantz',
+          year: '1922',
+          rule: {
+            "monday": [ 10, 23, 31, 6 ],
+            "tuesday": [ 9, 22, 30, 5 ],
+            "wednesday": [ 8, 20, 19, 4 ],
+            "thursday": [ 28, 20, 8, 15 ],
+            "friday": [ 13, 26, 3, 9 ],
+            "saturday": [ 12, 24, 2, 8 ],
+            "sunday": [ 11, 24, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 504,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/53-01,WeirdTls.jpg',
+          title: 'Weird Tales',
+          artist: 'Frank Kelly Freas',
+          year: '1953',
+          rule: {
+            "monday": [ 12, 25, 2, 8 ],
+            "tuesday": [ 11, 24, 1, 7 ],
+            "wednesday": [ 10, 23, 31, 6 ],
+            "thursday": [ 9, 21, 20, 5 ],
+            "friday": [ 29, 21, 9, 16 ],
+            "saturday": [ 14, 27, 4, 10 ],
+            "sunday": [ 13, 25, 3, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 505,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/43-06,BlueBook1.jpg',
+          title: 'Blue Book',
+          artist: 'John R. Fulton',
+          year: '1943',
+          rule: {
+            "monday": [ 13, 25, 3, 9 ],
+            "tuesday": [ 12, 25, 2, 8 ],
+            "wednesday": [ 11, 24, 1, 7 ],
+            "thursday": [ 10, 23, 31, 6 ],
+            "friday": [ 9, 21, 20, 5 ],
+            "saturday": [ 29, 21, 9, 16 ],
+            "sunday": [ 14, 27, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

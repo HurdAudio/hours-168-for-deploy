@@ -11204,6 +11204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 561,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/les_fanfarolies_d_alencon_2019_2_by_hubert61_ddfon0v-pre.jpg',
+          title: 'les fanfarolies d Alencon 2019 2',
+          artist: 'hubert61',
+          year: '2019',
+          rule: {
+            "monday": [ 18, 28, 8, 6 ],
+            "tuesday": [ 17, 27, 7, 14 ],
+            "wednesday": [ 26, 6, 16, 14 ],
+            "thursday": [ 15, 25, 5, 13 ],
+            "friday": [ 14, 24, 4, 12 ],
+            "saturday": [ 20, 30, 10, 17 ],
+            "sunday": [ 19, 29, 10, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 562,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/52_sunsets_in_alghero__week_36_by_damainnero_ddfp805-fullview.jpg',
+          title: '52 Sunsets In Alghero: Week 36',
+          artist: 'DamaInNero',
+          year: '2019',
+          rule: {
+            "monday": [ 19, 29, 10, 17 ],
+            "tuesday": [ 18, 28, 8, 6 ],
+            "wednesday": [ 17, 27, 7, 14 ],
+            "thursday": [ 26, 6, 16, 14 ],
+            "friday": [ 15, 25, 5, 13 ],
+            "saturday": [ 14, 24, 4, 12 ],
+            "sunday": [ 20, 30, 10, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 563,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/rambler_by_tireandwheel_ddfperh-fullview.jpg',
+          title: 'Rambler',
+          artist: 'Tireandwheel',
+          year: '2019',
+          rule: {
+            "monday": [ 20, 30, 10, 17 ],
+            "tuesday": [ 19, 29, 10, 17 ],
+            "wednesday": [ 18, 28, 8, 6 ],
+            "thursday": [ 17, 27, 7, 14 ],
+            "friday": [ 26, 6, 16, 14 ],
+            "saturday": [ 15, 25, 5, 13 ],
+            "sunday": [ 14, 24, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 564,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/forgotten__jewels_by_forlorntreasures_ddfotd8-fullview.jpg',
+          title: 'Forgotten Jewels',
+          artist: 'ForlornTreasures',
+          year: '2019',
+          rule: {
+            "monday": [ 14, 24, 4, 12 ],
+            "tuesday": [ 20, 30, 10, 17 ],
+            "wednesday": [ 19, 29, 10, 17 ],
+            "thursday": [ 18, 28, 8, 6 ],
+            "friday": [ 17, 27, 7, 14 ],
+            "saturday": [ 26, 6, 16, 14 ],
+            "sunday": [ 15, 25, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 565,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/mushroom_6653_by_wartydeathcap_ddfnmmq-pre.jpg',
+          title: 'mushroom 6653',
+          artist: 'Wartydeathcap',
+          year: '2019',
+          rule: {
+            "monday": [ 15, 25, 5, 13 ],
+            "tuesday": [ 14, 24, 4, 12 ],
+            "wednesday": [ 20, 30, 10, 17 ],
+            "thursday": [ 19, 29, 10, 17 ],
+            "friday": [ 18, 28, 8, 6 ],
+            "saturday": [ 17, 27, 7, 14 ],
+            "sunday": [ 26, 6, 16, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -10804,6 +10804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 541,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/clarinet-and-bottle-of-rum-on-a-mantelpiece-1911.jpeg',
+          title: 'Clarinet and Bottle of Rum on a Mantelpiece',
+          artist: 'Georges Braque',
+          year: '1911',
+          rule: {
+            "monday": [ 18, 21, 30, 15 ],
+            "tuesday": [ 17, 21, 29, 14 ],
+            "wednesday": [ 16, 18, 28, 13 ],
+            "thursday": [ 15, 17, 27, 12 ],
+            "friday": [ 14, 17, 26, 11 ],
+            "saturday": [ 13, 16, 25, 10 ],
+            "sunday": [ 19, 23, 31, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 542,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/building-under-construction-in-monte-carlo-1914.jpeg',
+          title: 'Building under Construction in Monte Carlo',
+          artist: 'Lovis Corinth',
+          year: '1914',
+          rule: {
+            "monday": [ 19, 23, 31, 16 ],
+            "tuesday": [ 18, 21, 30, 15 ],
+            "wednesday": [ 17, 21, 29, 14 ],
+            "thursday": [ 16, 18, 28, 13 ],
+            "friday": [ 15, 17, 27, 12 ],
+            "saturday": [ 14, 17, 26, 11 ],
+            "sunday": [ 13, 16, 25, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 543,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/hair-washing-1912.jpeg',
+          title: 'Hair Washing',
+          artist: 'Stefan Luchian',
+          year: '1912',
+          rule: {
+            "monday": [ 13, 16, 25, 10 ],
+            "tuesday": [ 19, 23, 31, 16 ],
+            "wednesday": [ 18, 21, 30, 15 ],
+            "thursday": [ 17, 21, 29, 14 ],
+            "friday": [ 16, 18, 28, 13 ],
+            "saturday": [ 15, 17, 27, 12 ],
+            "sunday": [ 14, 17, 26, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 544,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/three-women-and-three-wolves.jpeg',
+          title: 'Three Women and Three Wolves',
+          artist: 'Eugène Grasset',
+          year: 'XIX - XX Cent.',
+          rule: {
+            "monday": [ 14, 17, 26, 11 ],
+            "tuesday": [ 13, 16, 25, 10 ],
+            "wednesday": [ 19, 23, 31, 16 ],
+            "thursday": [ 18, 21, 30, 15 ],
+            "friday": [ 17, 21, 29, 14 ],
+            "saturday": [ 16, 18, 28, 13 ],
+            "sunday": [ 15, 17, 27, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 545,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-harem-sketch-1903.jpeg',
+          title: 'The Harem (Sketch)',
+          artist: 'Anton Azbe',
+          year: '1903',
+          rule: {
+            "monday": [ 15, 17, 27, 12 ],
+            "tuesday": [ 14, 17, 26, 11 ],
+            "wednesday": [ 13, 16, 25, 10 ],
+            "thursday": [ 19, 23, 31, 16 ],
+            "friday": [ 18, 21, 30, 15 ],
+            "saturday": [ 17, 21, 29, 14 ],
+            "sunday": [ 16, 18, 28, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

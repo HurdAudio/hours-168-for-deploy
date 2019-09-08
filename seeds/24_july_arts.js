@@ -11004,6 +11004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 551,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/paysage-au-lambrequin-rose-1914.jpeg',
+          title: 'Paysage au Lambrequin Rose',
+          artist: 'André Lhote',
+          year: '1914',
+          rule: {
+            "monday": [ 16, 27, 7, 8 ],
+            "tuesday": [ 15, 26, 5, 7 ],
+            "wednesday": [ 14, 25, 5, 6 ],
+            "thursday": [ 13, 24, 4, 15 ],
+            "friday": [ 18, 27, 9, 20 ],
+            "saturday": [ 18, 27, 9, 20 ],
+            "sunday": [ 16, 27, 8, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 552,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-circus-1910.jpeg',
+          title: 'The Circus',
+          artist: 'Jules Pascin',
+          year: '1910',
+          rule: {
+            "monday": [ 16, 27, 8, 19 ],
+            "tuesday": [ 16, 27, 7, 8 ],
+            "wednesday": [ 15, 26, 5, 7 ],
+            "thursday": [ 14, 25, 5, 6 ],
+            "friday": [ 13, 24, 4, 15 ],
+            "saturday": [ 18, 27, 9, 20 ],
+            "sunday": [ 18, 27, 9, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 553,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/gypsy-with-a-guitar-1921.jpeg',
+          title: 'Gypsy with a Guitar',
+          artist: 'Eugeniusz Zak',
+          year: '1921',
+          rule: {
+            "monday": [ 19, 28, 10, 21 ],
+            "tuesday": [ 17, 28, 9, 20 ],
+            "wednesday": [ 17, 28, 8, 9 ],
+            "thursday": [ 16, 27, 6, 8 ],
+            "friday": [ 15, 26, 6, 7 ],
+            "saturday": [ 14, 25, 5, 16 ],
+            "sunday": [ 19, 28, 10, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 554,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/54479.jpeg',
+          title: 'La Place du Tertre',
+          artist: 'Maurice Utrillo',
+          year: 'c.1910',
+          rule: {
+            "monday": [ 19, 28, 10, 21 ],
+            "tuesday": [ 19, 28, 10, 21 ],
+            "wednesday": [ 17, 28, 9, 20 ],
+            "thursday": [ 17, 28, 8, 9 ],
+            "friday": [ 16, 27, 6, 8 ],
+            "saturday": [ 15, 26, 6, 7 ],
+            "sunday": [ 14, 25, 5, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 555,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/les-bas-noirs-avec-journal-1930.jpeg',
+          title: 'Les bas noirs avec journal',
+          artist: 'Camille Bombois',
+          year: '1930',
+          rule: {
+            "monday": [ 14, 25, 5, 16 ],
+            "tuesday": [ 19, 28, 10, 21 ],
+            "wednesday": [ 19, 28, 10, 21 ],
+            "thursday": [ 17, 28, 9, 20 ],
+            "friday": [ 17, 28, 8, 9 ],
+            "saturday": [ 16, 27, 6, 8 ],
+            "sunday": [ 15, 26, 6, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6430,6 +6430,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 358,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4255505609/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://nathanielstar.bandcamp.com/album/bush-master',
+          a_string: 'Bush Master by Nathaniel Star',
+          rule: {
+            "monday": [ 11, 5, 7, 13 ],
+            "tuesday": [ 12, 6, 8, 14 ],
+            "wednesday": [ 24, 28, 1, 5 ],
+            "thursday": [ 27, 1, 3, 5 ],
+            "saturday": [ 9, 3, 5, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 359,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3033941592/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://indigoasaa.bandcamp.com/album/bloom',
+          a_string: 'Bloom by Indigo Asaá',
+          rule: {
+            "monday": [ 10, 4, 6, 8 ],
+            "tuesday": [ 12, 6, 8, 14 ],
+            "wednesday": [ 13, 7, 9, 15 ],
+            "thursday": [ 25, 29, 2, 6 ],
+            "saturday": [ 28, 2, 4, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 360,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=857076982/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://qraqim.bandcamp.com/album/days-til-nevvvaland',
+          a_string: 'Days Til NevvvaLand by Q Raqim',
+          rule: {
+            "monday": [ 28, 2, 4, 6 ],
+            "tuesday": [ 10, 4, 6, 8 ],
+            "wednesday": [ 12, 6, 8, 14 ],
+            "thursday": [ 13, 7, 9, 15 ],
+            "saturday": [ 25, 29, 2, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

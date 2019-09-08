@@ -6322,6 +6322,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 352,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1818528971/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://daymearocena.bandcamp.com/album/sonocardiogram',
+          a_string: 'Sonocardiogram by Daymé Arocena',
+          rule: {
+            "monday": [ 25, 31, 6, 14 ],
+            "tuesday": [ 24, 30, 5, 13 ],
+            "wednesday": [ 23, 29, 4, 13 ],
+            "thursday": [ 21, 28, 3, 11 ],
+            "saturday": [ 21, 27, 2, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 353,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=978479752/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://lyndadawn.bandcamp.com/album/at-first-light',
+          a_string: 'At First Light by Lynda Dawn',
+          rule: {
+            "monday": [ 21, 27, 2, 10 ],
+            "tuesday": [ 25, 31, 6, 14 ],
+            "wednesday": [ 24, 30, 5, 13 ],
+            "thursday": [ 23, 29, 4, 13 ],
+            "saturday": [ 21, 28, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 354,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2989320146/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://pharmakon.bandcamp.com/album/devour',
+          a_string: 'Devour by Pharmakon',
+          rule: {
+            "monday": [ 21, 28, 3, 11 ],
+            "tuesday": [ 21, 27, 2, 10 ],
+            "wednesday": [ 25, 31, 6, 14 ],
+            "thursday": [ 24, 30, 5, 13 ],
+            "saturday": [ 23, 29, 4, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

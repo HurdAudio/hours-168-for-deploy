@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/large_chess.jpg',
+          title: 'Checkmate!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 22, 23, 3, 7 ],
+            "tuesday": [ 18, 29, 9, 13 ],
+            "wednesday": [ 17, 28, 8, 12 ],
+            "thursday": [ 16, 27, 7, 11 ],
+            "friday": [ 15, 26, 7, 10 ],
+            "saturday": [ 14, 25, 5, 9 ],
+            "sunday": [ 13, 24, 3, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_apartheid.jpg',
+          title: 'This is Apartheid',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 13, 24, 3, 8 ],
+            "tuesday": [ 22, 23, 3, 7 ],
+            "wednesday": [ 18, 29, 9, 13 ],
+            "thursday": [ 17, 28, 8, 12 ],
+            "friday": [ 16, 27, 7, 11 ],
+            "saturday": [ 15, 26, 7, 10 ],
+            "sunday": [ 14, 25, 5, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_20000000.jpg',
+          title: '20 000 000, 1941-1945',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 14, 25, 5, 9 ],
+            "tuesday": [ 13, 24, 3, 8 ],
+            "wednesday": [ 22, 23, 3, 7 ],
+            "thursday": [ 18, 29, 9, 13 ],
+            "friday": [ 17, 28, 8, 12 ],
+            "saturday": [ 16, 27, 7, 11 ],
+            "sunday": [ 15, 26, 7, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_long_kesh.jpg',
+          title: 'Victory Long Kesh',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 15, 26, 7, 10 ],
+            "tuesday": [ 14, 25, 5, 9 ],
+            "wednesday": [ 13, 24, 3, 8 ],
+            "thursday": [ 22, 23, 3, 7 ],
+            "friday": [ 18, 29, 9, 13 ],
+            "saturday": [ 17, 28, 8, 12 ],
+            "sunday": [ 16, 27, 7, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_protect_peace.jpg',
+          title: '(We) Defended the world, world we will protect!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 17, 28, 8, 12 ],
+            "tuesday": [ 16, 27, 8, 11 ],
+            "wednesday": [ 15, 26, 6, 10 ],
+            "thursday": [ 14, 25, 4, 9 ],
+            "friday": [ 23, 24, 4, 8 ],
+            "saturday": [ 19, 30, 10, 14 ],
+            "sunday": [ 18, 29, 9, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

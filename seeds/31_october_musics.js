@@ -5566,6 +5566,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 310,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3338471206/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstetheketontraeger.bandcamp.com/album/ett-070-powerplant-people-in-the-sun-lp',
+          a_string: 'ETT - 070 - Powerplant - People In The Sun LP by Powerplant',
+          rule: {
+            "monday": [ 20, 30, 9, 12 ],
+            "tuesday": [ 19, 29, 9, 11 ],
+            "wednesday": [ 18, 28, 7, 10 ],
+            "thursday": [ 22, 1, 11, 14 ],
+            "saturday": [ 21, 31, 10, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 311,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2407613664/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://pleatherparty.bandcamp.com/album/summer-dreamin',
+          a_string: 'Summer Dreamin&#39; by Pleather',
+          rule: {
+            "monday": [ 21, 31, 10, 13 ],
+            "tuesday": [ 20, 30, 9, 12 ],
+            "wednesday": [ 19, 29, 9, 11 ],
+            "thursday": [ 18, 28, 7, 10 ],
+            "saturday": [ 22, 1, 11, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 312,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=113702211/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ironlungpv.bandcamp.com/album/demo-mlp-lungs-137',
+          a_string: 'Demo MLP (LUNGS-137) by SOGA',
+          rule: {
+            "monday": [ 22, 1, 11, 14 ],
+            "tuesday": [ 21, 31, 10, 13 ],
+            "wednesday": [ 20, 30, 9, 12 ],
+            "thursday": [ 19, 29, 9, 11 ],
+            "saturday": [ 18, 28, 7, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

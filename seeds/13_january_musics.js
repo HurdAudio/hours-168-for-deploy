@@ -6538,6 +6538,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 364,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2764027752/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/forlorn-green',
+          a_string: 'Forlorn Green by Greg Kelley/Jason Lescalleet',
+          rule: {
+            "monday": [ 31, 7, 8, 9 ],
+            "tuesday": [ 30, 5, 6, 8 ],
+            "wednesday": [ 29, 5, 6, 7 ],
+            "thursday": [ 28, 3, 4, 5 ],
+            "saturday": [ 27, 3, 4, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 365,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1478046093/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/weather-sky',
+          a_string: 'Weather Sky by Keith Rowe/Toshimaru Nakamura',
+          rule: {
+            "monday": [ 27, 3, 4, 5 ],
+            "tuesday": [ 31, 7, 8, 9 ],
+            "wednesday": [ 30, 5, 6, 8 ],
+            "thursday": [ 29, 5, 6, 7 ],
+            "saturday": [ 28, 3, 4, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 366,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3325426285/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://erstwhilerecords.bandcamp.com/album/the-flirts',
+          a_string: 'The Flirts by Cor Fuhler/Gert-Jan Prins',
+          rule: {
+            "monday": [ 28, 3, 4, 5 ],
+            "tuesday": [ 27, 3, 4, 5 ],
+            "wednesday": [ 31, 7, 8, 9 ],
+            "thursday": [ 30, 5, 6, 8 ],
+            "saturday": [ 29, 5, 6, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
