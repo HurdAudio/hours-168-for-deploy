@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-south-strand-1909.jpeg',
+          title: 'The South Strand',
+          artist: 'Emil Carlsen',
+          year: '1909',
+          rule: {
+            "monday": [ 17, 19, 29, 14 ],
+            "tuesday": [ 16, 18, 28, 13 ],
+            "wednesday": [ 15, 18, 27, 12 ],
+            "thursday": [ 14, 17, 26, 11 ],
+            "friday": [ 20, 24, 1, 17 ],
+            "saturday": [ 19, 22, 31, 16 ],
+            "sunday": [ 17, 22, 30, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/port-of-imaginary-city-1932.jpeg',
+          title: 'Port of imaginary city',
+          artist: 'Konstantin Bogaevsky',
+          year: '1932',
+          rule: {
+            "monday": [ 17, 22, 30, 15 ],
+            "tuesday": [ 17, 19, 29, 14 ],
+            "wednesday": [ 16, 18, 28, 13 ],
+            "thursday": [ 15, 18, 27, 12 ],
+            "friday": [ 14, 17, 26, 11 ],
+            "saturday": [ 20, 24, 1, 17 ],
+            "sunday": [ 19, 22, 31, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-spy-1914.jpeg',
+          title: 'The Spy',
+          artist: 'Nicolae Vermont',
+          year: '1914',
+          rule: {
+            "monday": [ 19, 22, 31, 16 ],
+            "tuesday": [ 17, 22, 30, 15 ],
+            "wednesday": [ 17, 19, 29, 14 ],
+            "thursday": [ 16, 18, 28, 13 ],
+            "friday": [ 15, 18, 27, 12 ],
+            "saturday": [ 14, 17, 26, 11 ],
+            "sunday": [ 20, 24, 1, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/mask-4-1936.jpeg',
+          title: 'Mask 4',
+          artist: 'Willi Baumeister',
+          year: '1936',
+          rule: {
+            "monday": [ 20, 24, 1, 17 ],
+            "tuesday": [ 19, 22, 31, 16 ],
+            "wednesday": [ 17, 22, 30, 15 ],
+            "thursday": [ 17, 19, 29, 14 ],
+            "friday": [ 16, 18, 28, 13 ],
+            "saturday": [ 15, 18, 27, 12 ],
+            "sunday": [ 14, 17, 26, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/camellia-and-rice-birds-1929.jpeg',
+          title: 'Camellia and Rice Birds',
+          artist: 'Ohara Koson',
+          year: '1929',
+          rule: {
+            "monday": [ 14, 17, 26, 11 ],
+            "tuesday": [ 20, 24, 1, 17 ],
+            "wednesday": [ 19, 22, 31, 16 ],
+            "thursday": [ 17, 22, 30, 15 ],
+            "friday": [ 17, 19, 29, 14 ],
+            "saturday": [ 16, 18, 28, 13 ],
+            "sunday": [ 15, 18, 27, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

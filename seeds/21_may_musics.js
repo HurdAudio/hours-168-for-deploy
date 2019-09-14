@@ -6160,6 +6160,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 343,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3885973950/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://fractalmeat.bandcamp.com/album/blud',
+          a_string: 'BLUD by Mariam Rezaei',
+          rule: {
+            "monday": [ 18, 24, 31, 13 ],
+            "tuesday": [ 17, 23, 30, 12 ],
+            "wednesday": [ 21, 27, 3, 16 ],
+            "thursday": [ 20, 26, 2, 15 ],
+            "saturday": [ 19, 25, 1, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 344,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3749409315/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cameronewen.bandcamp.com/album/see-creatures',
+          a_string: 'See Creatures by Lisa Cameron &amp; Sandy Ewen',
+          rule: {
+            "monday": [ 19, 25, 1, 14 ],
+            "tuesday": [ 18, 24, 31, 13 ],
+            "wednesday": [ 17, 23, 30, 12 ],
+            "thursday": [ 21, 27, 3, 16 ],
+            "saturday": [ 20, 26, 2, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 345,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1280286379/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cucinapovera.bandcamp.com/album/zoom',
+          a_string: 'Zoom by Cucina Povera',
+          rule: {
+            "monday": [ 20, 26, 2, 15 ],
+            "tuesday": [ 19, 25, 1, 14 ],
+            "wednesday": [ 18, 24, 31, 13 ],
+            "thursday": [ 17, 23, 30, 12 ],
+            "saturday": [ 21, 27, 3, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

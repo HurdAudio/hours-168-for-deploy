@@ -336,6 +336,38 @@
       vm.userDeleteMusicModuleComment = userDeleteMusicModuleComment;
       vm.userMusicModuleCommentDeleteCancel = userMusicModuleCommentDeleteCancel;
       vm.userMusicModuleCommentDeleteConfirmClick = userMusicModuleCommentDeleteConfirmClick;
+      vm.messageReactionDelete = messageReactionDelete;
+
+      function messageReactionDelete(reaction, message) {
+        $http.get('/messages_reactions')
+        .then(allReactionsData => {
+          let allReactions = allReactionsData.data;
+          let someReactions = allReactions.filter(entry => {
+            return(parseInt(entry.message_id) === parseInt(message.id));
+          });
+          let userReaction = someReactions.filter(entry => {
+            return((parseInt(entry.user_author_id) === parseInt(currentUserId)) && (entry.reaction === reaction.type));
+          });
+          $http.delete(`/messages_reactions/${userReaction[0].id}`)
+          .then(removedData => {
+            let removed = removedData.data;
+            for (let i = 0; i < vm.userMessages.length; i++) {
+              if (parseInt(vm.userMessages[i].id) === parseInt(message.id)) {
+                for (let j = 0; j < vm.userMessages[i].reactions.length; j++) {
+                  if (vm.userMessages[i].reactions[j].type === reaction.type) {
+                    if (vm.userMessages[i].reactions[j].total === 1) {
+                      vm.userMessages[i].reactions.splice(j, 1);
+                    } else {
+                      vm.userMessages[i].reactions[j].total -= 1;
+                      vm.userMessages[i].reactions[j].user_react = false;
+                    }
+                  }
+                }
+              }
+            }
+          });
+        });
+      }
 
       function userMusicModuleCommentDeleteConfirmClick(commentId) {
         $http.delete(`/music_module_comments/${commentId}`)
@@ -18091,6 +18123,7 @@
               if (uniqueReaction) {
                 reactionIndex = vm.userMessages[messagesIndex].comments[index].reactions.length;
                 vm.userMessages[messagesIndex].comments[index].reactions[reactionIndex] = {
+                  message_id: commentReactions[i].message_id,
                   type: commentReactions[i].reaction,
                   total: 1,
                   reactors: ''
@@ -18765,6 +18798,9 @@
         .then(reactorData => {
           let reactor = reactorData.data;
           vm.userMessages[index].reactions[reactionIndex].reactors += reactor.name + '   ';
+          if (parseInt(reactor.id) === parseInt(currentUserId)) {
+            vm.userMessages[index].reactions[reactionIndex].user_react = true;
+          }
         });
       }
 
@@ -18794,7 +18830,8 @@
                 vm.userMessages[index].reactions[reactionIndex] = {
                   type: messageReactions[i].reaction,
                   total: 1,
-                  reactors: ''
+                  reactors: '',
+                  user_react: false
                 };
                 switch(messageReactions[i].reaction) {
                   case('thumbsUp'):

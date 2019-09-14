@@ -11256,6 +11256,39 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 724,
+          user_id: 1,
+          name: 'Henri Pousseur (composer) born 1923',
+          color: '#2E2E2E',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/pousseur_c_patrice_voisin.jpg',
+          day_of: new Date ('1923-06-23  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=4195430085/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=202744014/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3913893462/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3316323587/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3826192211/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=811496857/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3445263024/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://henripousseur.bandcamp.com/album/early-experimental-electronic-music-1954-61', 'http://henripousseur.bandcamp.com/album/eight-parabolic-studies-1972', 'http://henripousseur.bandcamp.com/album/electronic-experimental-and-microtonal-1953-1999', 'http://henripousseur.bandcamp.com/album/four-parabolic-mixes', 'http://henripousseur.bandcamp.com/album/li-ge-paris-1977', 'http://henripousseur.bandcamp.com/album/mixed-music-1966-1970', 'http://henripousseur.bandcamp.com/album/paraboles-mix-avec-le-ons-denfer-1972-1991' ],
+            "a_strings": [ 'Early Experimental Electronic Music 1954-61 by Henri Pousseur', 'Eight Parabolic Studies (1972) by Henri Pousseur', 'Electronic Experimental and Microtonal (1953-1999) by Henri Pousseur', 'Four Parabolic Mixes by Henri Pousseur with  Robert Hampson/Main, Philip Jeck, Markus Popp/Oval', 'Liège à Paris (1977) by Henri Pousseur', 'Mixed Music (1966-1970) by Henri Pousseur', 'Paraboles-Mix avec Leçons d&#39;Enfer (1972-1991) by Henri Pousseur' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 725,
+          user_id: 1,
+          name: 'Nikki Giovanni (poet/writer/commentator/activist/educator) born 1943',
+          color: '#7A7B8F',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/lead_720_405.jpeg',
+          day_of: new Date ('1943-06-07  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

@@ -11104,6 +11104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 556,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-bicycle.jpeg',
+          title: 'The Bicycle',
+          artist: 'Georges Braque',
+          year: 'c.1916',
+          rule: {
+            "monday": [ 15, 26, 6, 7 ],
+            "tuesday": [ 14, 25, 5, 16 ],
+            "wednesday": [ 19, 28, 10, 21 ],
+            "thursday": [ 19, 28, 10, 21 ],
+            "friday": [ 17, 28, 9, 20 ],
+            "saturday": [ 17, 28, 8, 9 ],
+            "sunday": [ 16, 27, 6, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 557,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/la-femme-l-ara-1921.jpeg',
+          title: 'La Femme à L\'Ara',
+          artist: 'Jean Dupas',
+          year: '1921',
+          rule: {
+            "monday": [ 16, 27, 6, 8 ],
+            "tuesday": [ 15, 26, 6, 7 ],
+            "wednesday": [ 14, 25, 5, 16 ],
+            "thursday": [ 19, 28, 10, 21 ],
+            "friday": [ 19, 28, 10, 21 ],
+            "saturday": [ 17, 28, 9, 20 ],
+            "sunday": [ 17, 28, 8, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 558,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/still-life-with-candle.jpeg',
+          title: 'Still life with candle',
+          artist: 'Fernand Leger',
+          year: '?',
+          rule: {
+            "monday": [ 17, 28, 8, 9 ],
+            "tuesday": [ 16, 27, 6, 8 ],
+            "wednesday": [ 15, 26, 6, 7 ],
+            "thursday": [ 14, 25, 5, 16 ],
+            "friday": [ 19, 28, 10, 21 ],
+            "saturday": [ 19, 28, 10, 21 ],
+            "sunday": [ 17, 28, 9, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 559,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/colored-rhythm-study-for-the-film-1913(34).jpeg',
+          title: 'Colored Rhythm: Study for the Film',
+          artist: 'Leopold Survage',
+          year: '1913',
+          rule: {
+            "monday": [ 17, 28, 9, 20 ],
+            "tuesday": [ 17, 28, 8, 9 ],
+            "wednesday": [ 16, 27, 6, 8 ],
+            "thursday": [ 15, 26, 6, 7 ],
+            "friday": [ 14, 25, 5, 16 ],
+            "saturday": [ 19, 28, 10, 21 ],
+            "sunday": [ 19, 28, 10, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 560,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-large-fly-1937.jpeg',
+          title: 'The Large Fly',
+          artist: 'Louis Marcoussis',
+          year: '1937',
+          rule: {
+            "monday": [ 20, 29, 11, 22 ],
+            "tuesday": [ 18, 29, 10, 21 ],
+            "wednesday": [ 18, 29, 9, 10 ],
+            "thursday": [ 17, 28, 7, 9 ],
+            "friday": [ 16, 27, 7, 8 ],
+            "saturday": [ 15, 26, 17, 17 ],
+            "sunday": [ 20, 29, 11, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5944,6 +5944,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 331,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4104692156/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sambarker.bandcamp.com/album/utility',
+          a_string: 'Utility by Barker',
+          rule: {
+            "monday": [ 16, 18, 22, 30 ],
+            "tuesday": [ 15, 16, 21, 29 ],
+            "wednesday": [ 14, 16, 20, 28 ],
+            "thursday": [ 18, 20, 24, 1 ],
+            "saturday": [ 17, 19, 23, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 332,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3363112741/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://volarrecords.bandcamp.com/album/susan-as-i-was-lp',
+          a_string: 'Susan - As I Was LP by susan',
+          rule: {
+            "monday": [ 17, 19, 23, 31 ],
+            "tuesday": [ 16, 18, 22, 30 ],
+            "wednesday": [ 15, 16, 21, 29 ],
+            "thursday": [ 14, 16, 20, 28 ],
+            "saturday": [ 18, 20, 24, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 333,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=552799565/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://kristinhershfire.bandcamp.com/album/crooked',
+          a_string: 'Crooked by Kristin Hersh',
+          rule: {
+            "monday": [ 18, 20, 24, 1 ],
+            "tuesday": [ 17, 19, 23, 31 ],
+            "wednesday": [ 16, 18, 22, 30 ],
+            "thursday": [ 15, 16, 21, 29 ],
+            "saturday": [ 14, 16, 20, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

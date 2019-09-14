@@ -10104,6 +10104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 506,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/39-01,Amaz.jpg',
+          title: 'Amazing Stories',
+          artist: 'Robert Fuqua',
+          year: '1939',
+          rule: {
+            "monday": [ 14, 27, 4, 10 ],
+            "tuesday": [ 13, 25, 3, 9 ],
+            "wednesday": [ 12, 25, 2, 8 ],
+            "thursday": [ 11, 24, 1, 7 ],
+            "friday": [ 10, 23, 31, 6 ],
+            "saturday": [ 9, 21, 20, 5 ],
+            "sunday": [ 29, 21, 9, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 507,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/12-00,NeglectedBulldog.jpg',
+          title: 'book illustration',
+          artist: 'E. A. Furman',
+          year: '1912',
+          rule: {
+            "monday": [ 29, 21, 9, 16 ],
+            "tuesday": [ 14, 27, 4, 10 ],
+            "wednesday": [ 13, 25, 3, 9 ],
+            "thursday": [ 12, 25, 2, 8 ],
+            "friday": [ 11, 24, 1, 7 ],
+            "saturday": [ 10, 23, 31, 6 ],
+            "sunday": [ 9, 21, 20, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 508,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/29-01-14,Newspaper.jpg',
+          title: 'Newspaper',
+          artist: 'Madge Geyer',
+          year: '1928',
+          rule: {
+            "monday": [ 9, 21, 20, 5 ],
+            "tuesday": [ 29, 21, 9, 16 ],
+            "wednesday": [ 14, 27, 4, 10 ],
+            "thursday": [ 13, 25, 3, 9 ],
+            "friday": [ 12, 25, 2, 8 ],
+            "saturday": [ 11, 24, 1, 7 ],
+            "sunday": [ 10, 23, 31, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 509,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/34-11,ThrllAdv.jpg',
+          title: 'Thrilling Adventure',
+          artist: 'Terry Gilkison',
+          year: '1934',
+          rule: {
+            "monday": [ 10, 23, 31, 6 ],
+            "tuesday": [ 9, 21, 20, 5 ],
+            "wednesday": [ 29, 21, 9, 16 ],
+            "thursday": [ 14, 27, 4, 10 ],
+            "friday": [ 13, 25, 3, 9 ],
+            "saturday": [ 12, 25, 2, 8 ],
+            "sunday": [ 11, 24, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 510,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/46-09-2d,RanchRom.jpg',
+          title: 'Ranch Romances',
+          artist: 'Will Gimby',
+          year: '1946',
+          rule: {
+            "monday": [ 11, 24, 1, 7 ],
+            "tuesday": [ 10, 23, 31, 6 ],
+            "wednesday": [ 9, 21, 20, 5 ],
+            "thursday": [ 29, 21, 9, 16 ],
+            "friday": [ 14, 27, 4, 10 ],
+            "saturday": [ 13, 25, 3, 9 ],
+            "sunday": [ 12, 25, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -9127,6 +9127,7 @@ footer img {
 .reactionDelete {
   float: right !important;
   font-size: 18px !important;
+  cursor: pointer;
   margin: 2vmin 2vmin 2vmin 1vmin !important;
 }
 
@@ -9171,7 +9172,7 @@ footer img {
 
 
 /* .day {
-  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/harris-malik-TFFLqkGV0No-unsplash.jpg);
+  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/ice-2832051_1920.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 150%;
 } */

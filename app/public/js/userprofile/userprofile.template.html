@@ -4568,7 +4568,7 @@
                 <img src="{{react.icon}}" class="reactionIcon">
                 <span class="tooltipText">{{react.reactors}}</span>
               </div>
-              <p class="reactionDelete">X</p>
+              <p class="reactionDelete" ng-if="react.user_react" ng-click="$ctrl.messageReactionDelete(react, message)">X</p>
             </div>
           </main>
 

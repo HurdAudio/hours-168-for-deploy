@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3806635210/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://diagonal.bandcamp.com/album/arc',
+          a_string: 'Arc by Diagonal',
+          rule: {
+            "monday": [ 18, 7, 15, 9 ],
+            "tuesday": [ 16, 6, 14, 8 ],
+            "wednesday": [ 20, 10, 18, 12 ],
+            "thursday": [ 19, 9, 17, 11 ],
+            "saturday": [ 18, 8, 16, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4101476311/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cuneiformrecords.bandcamp.com/album/five-times-surprise',
+          a_string: 'Five Times Surprise by Henry Kaiser / Anthony Pirog / Jeff Sipe / Tracy Silverman / Andy West',
+          rule: {
+            "monday": [ 18, 8, 16, 9 ],
+            "tuesday": [ 18, 7, 15, 9 ],
+            "wednesday": [ 16, 6, 14, 8 ],
+            "thursday": [ 20, 10, 18, 12 ],
+            "saturday": [ 19, 9, 17, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3470513917/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tempertwig.bandcamp.com/album/fake-nostalgia-an-anthology-of-broken-stuff',
+          a_string: 'FAKE NOSTALGIA: An Anthology of Broken Stuff by Tempertwig',
+          rule: {
+            "monday": [ 19, 9, 17, 11 ],
+            "tuesday": [ 18, 8, 16, 9 ],
+            "wednesday": [ 18, 7, 15, 9 ],
+            "thursday": [ 16, 6, 14, 8 ],
+            "saturday": [ 20, 10, 18, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

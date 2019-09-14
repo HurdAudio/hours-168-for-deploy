@@ -12104,6 +12104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 606,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/ddf.jpg',
+          title: 'Cuties Comic Strip',
+          artist: 'E. Simms Campbell',
+          year: '1952',
+          rule: {
+            "monday": [ 10, 18, 26, 7 ],
+            "tuesday": [ 10, 20, 16, 6 ],
+            "wednesday": [ 29, 8, 16, 24 ],
+            "thursday": [ 1, 10, 18, 26 ],
+            "friday": [ 7, 12, 18, 28 ],
+            "saturday": [ 6, 14, 22, 1 ],
+            "sunday": [ 8, 18, 24, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 607,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/85b3b931606aa923d236c19e98d192ad.jpg',
+          title: 'Shine on me Good Lord',
+          artist: 'Allen \'Big Al\' Carter',
+          year: '?',
+          rule: {
+            "monday": [ 8, 18, 24, 1 ],
+            "tuesday": [ 10, 18, 26, 7 ],
+            "wednesday": [ 10, 20, 16, 6 ],
+            "thursday": [ 29, 8, 16, 24 ],
+            "friday": [ 1, 10, 18, 26 ],
+            "saturday": [ 7, 12, 18, 28 ],
+            "sunday": [ 6, 14, 22, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 608,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/FredCarter-Websiteimage2.jpg',
+          title: 'unknown title',
+          artist: 'Fred Carter',
+          year: '?',
+          rule: {
+            "monday": [ 6, 14, 22, 1 ],
+            "tuesday": [ 8, 18, 24, 1 ],
+            "wednesday": [ 10, 18, 26, 7 ],
+            "thursday": [ 10, 20, 16, 6 ],
+            "friday": [ 29, 8, 16, 24 ],
+            "saturday": [ 1, 10, 18, 26 ],
+            "sunday": [ 7, 12, 18, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 609,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/811111.jpg',
+          title: 'The Inexplicable Sound of Red',
+          artist: 'Bernie Casey',
+          year: '?',
+          rule: {
+            "monday": [ 8, 13, 19, 29 ],
+            "tuesday": [ 7, 15, 23, 2 ],
+            "wednesday": [ 9, 19, 25, 2 ],
+            "thursday": [ 11, 19, 27, 8 ],
+            "friday": [ 11, 21, 17, 7 ],
+            "saturday": [ 1, 9, 17, 25 ],
+            "sunday": [ 2, 11, 19, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 610,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/elizabeth-catlett-black-girl-1_2.jpg',
+          title: 'Black Girl',
+          artist: 'Elizabeth Catlett',
+          year: '2004',
+          rule: {
+            "monday": [ 2, 11, 19, 27 ],
+            "tuesday": [ 8, 13, 19, 29 ],
+            "wednesday": [ 7, 15, 23, 2 ],
+            "thursday": [ 9, 19, 25, 2 ],
+            "friday": [ 11, 19, 27, 8 ],
+            "saturday": [ 11, 21, 17, 7 ],
+            "sunday": [ 1, 9, 17, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

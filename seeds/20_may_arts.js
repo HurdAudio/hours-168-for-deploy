@@ -11504,6 +11504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 576,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1943-18.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 19, 31, 10, 18 ],
+            "tuesday": [ 19, 30, 8, 18 ],
+            "wednesday": [ 17, 27, 4, 6 ],
+            "thursday": [ 14, 25, 4, 24 ],
+            "friday": [ 13, 24, 3, 12 ],
+            "saturday": [ 11, 21, 31, 8 ],
+            "sunday": [ 9, 18, 30, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 577,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1943-19.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 9, 18, 30, 8 ],
+            "tuesday": [ 19, 31, 10, 18 ],
+            "wednesday": [ 19, 30, 8, 18 ],
+            "thursday": [ 17, 27, 4, 6 ],
+            "friday": [ 14, 25, 4, 24 ],
+            "saturday": [ 13, 24, 3, 12 ],
+            "sunday": [ 11, 21, 31, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 578,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1943-20.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1943',
+          rule: {
+            "monday": [ 11, 21, 31, 8 ],
+            "tuesday": [ 9, 18, 30, 8 ],
+            "wednesday": [ 19, 31, 10, 18 ],
+            "thursday": [ 19, 30, 8, 18 ],
+            "friday": [ 17, 27, 4, 6 ],
+            "saturday": [ 14, 25, 4, 24 ],
+            "sunday": [ 13, 24, 3, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 579,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/a-deadly-care-the-tass-window-956-1944.jpeg',
+          title: 'A deadly care (The TASS Window №956)',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 13, 24, 3, 12 ],
+            "tuesday": [ 11, 21, 31, 8 ],
+            "wednesday": [ 9, 18, 30, 8 ],
+            "thursday": [ 19, 31, 10, 18 ],
+            "friday": [ 19, 30, 8, 18 ],
+            "saturday": [ 17, 27, 4, 6 ],
+            "sunday": [ 14, 25, 4, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 580,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/a-good-lesson-to-the-germans-the-tass-window-929-1944.jpeg',
+          title: 'A good lesson to the Germans (The TASS Window №929)',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 14, 25, 4, 24 ],
+            "tuesday": [ 13, 24, 3, 12 ],
+            "wednesday": [ 11, 21, 31, 8 ],
+            "thursday": [ 9, 18, 30, 8 ],
+            "friday": [ 19, 31, 10, 18 ],
+            "saturday": [ 19, 30, 8, 18 ],
+            "sunday": [ 17, 27, 4, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6052,6 +6052,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 337,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4186675338/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://room40.bandcamp.com/album/serus',
+          a_string: 'Serus by Siavash Amini',
+          rule: {
+            "monday": [ 17, 20, 26, 7 ],
+            "tuesday": [ 17, 20, 26, 6 ],
+            "wednesday": [ 15, 23, 25, 10 ],
+            "thursday": [ 19, 23, 29, 10 ],
+            "saturday": [ 18, 21, 26, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 338,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3398061901/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://handstitched.bandcamp.com/album/ottava',
+          a_string: 'Ottava by Maps and Diagrams',
+          rule: {
+            "monday": [ 18, 21, 26, 8 ],
+            "tuesday": [ 17, 20, 26, 7 ],
+            "wednesday": [ 17, 20, 26, 6 ],
+            "thursday": [ 15, 23, 25, 10 ],
+            "saturday": [ 19, 23, 29, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 339,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3709006116/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://darkroomtheband.bandcamp.com/album/the-noise-is-unrest',
+          a_string: 'The Noise Is Unrest by Darkroom',
+          rule: {
+            "monday": [ 19, 23, 29, 10 ],
+            "tuesday": [ 18, 21, 26, 8 ],
+            "wednesday": [ 17, 20, 26, 7 ],
+            "thursday": [ 17, 20, 26, 6 ],
+            "saturday": [ 15, 23, 25, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

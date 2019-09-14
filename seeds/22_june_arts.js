@@ -11304,6 +11304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 566,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/a_pair__of_ruby_throated_hummingbirds_at_a_feeder_by_nini1965_ddg4sqw-pre.jpg',
+          title: 'A Pair of Ruby Throated Hummingbirds At A Feeder',
+          artist: 'Nini1965',
+          year: '2019',
+          rule: {
+            "monday": [ 26, 6, 16, 14 ],
+            "tuesday": [ 15, 25, 5, 13 ],
+            "wednesday": [ 14, 24, 4, 12 ],
+            "thursday": [ 20, 30, 10, 17 ],
+            "friday": [ 19, 29, 10, 17 ],
+            "saturday": [ 18, 28, 8, 6 ],
+            "sunday": [ 17, 27, 7, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 567,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/olddumper_by_tireandwheel_ddg5em6-fullview.jpg',
+          title: 'Old Dumper',
+          artist: 'Tireandwheel',
+          year: '2019',
+          rule: {
+            "monday": [ 18, 28, 8, 15 ],
+            "tuesday": [ 27, 7, 17, 15 ],
+            "wednesday": [ 16, 26, 6, 14 ],
+            "thursday": [ 15, 25, 5, 13 ],
+            "friday": [ 21, 1, 11, 18 ],
+            "saturday": [ 20, 30, 11, 18 ],
+            "sunday": [ 19, 29, 9, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 568,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/infrared_tennessee_by_ghostwalker2061_ddg4d5m-pre.jpg',
+          title: 'Infrared Tennessee',
+          artist: 'Ghostwalker2061',
+          year: '2019',
+          rule: {
+            "monday": [ 19, 29, 9, 7 ],
+            "tuesday": [ 18, 28, 8, 15 ],
+            "wednesday": [ 27, 7, 17, 15 ],
+            "thursday": [ 16, 26, 6, 14 ],
+            "friday": [ 15, 25, 5, 13 ],
+            "saturday": [ 21, 1, 11, 18 ],
+            "sunday": [ 20, 30, 11, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 569,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ward_co_by_josh6plus_ddg46ka-pre.jpg',
+          title: 'Ward-co',
+          artist: 'josh6plus',
+          year: '2019',
+          rule: {
+            "monday": [ 20, 30, 11, 18 ],
+            "tuesday": [ 19, 29, 9, 7 ],
+            "wednesday": [ 18, 28, 8, 15 ],
+            "thursday": [ 27, 7, 17, 15 ],
+            "friday": [ 16, 26, 6, 14 ],
+            "saturday": [ 15, 25, 5, 13 ],
+            "sunday": [ 21, 1, 11, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 570,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/a_beach_hut_sunset_by_paulneptune_ddg5t0e-pre.jpg',
+          title: 'A Beach Hut Sunset',
+          artist: 'Paul Neptune',
+          year: '2019',
+          rule: {
+            "monday": [ 21, 1, 11, 18 ],
+            "tuesday": [ 20, 30, 11, 18 ],
+            "wednesday": [ 19, 29, 9, 7 ],
+            "thursday": [ 18, 28, 8, 15 ],
+            "friday": [ 27, 7, 17, 15 ],
+            "saturday": [ 16, 26, 6, 14 ],
+            "sunday": [ 15, 25, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/stahlbau-np-24-2000.jpeg',
+          title: 'Stahlbau NP 24',
+          artist: 'James Licini',
+          year: '2000',
+          rule: {
+            "monday": [ 16, 21, 27, 4 ],
+            "tuesday": [ 22, 27, 3, 8 ],
+            "wednesday": [ 21, 23, 1, 27 ],
+            "thursday": [ 20, 24, 1, 4 ],
+            "friday": [ 19, 22, 29, 4 ],
+            "saturday": [ 17, 22, 28, 3 ],
+            "sunday": [ 16, 21, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-2001.jpeg',
+          title: 'Untitled',
+          artist: 'Agnes Martin',
+          year: '2001',
+          rule: {
+            "monday": [ 16, 21, 27, 2 ],
+            "tuesday": [ 16, 21, 27, 4 ],
+            "wednesday": [ 22, 27, 3, 8 ],
+            "thursday": [ 21, 23, 1, 27 ],
+            "friday": [ 20, 24, 1, 4 ],
+            "saturday": [ 19, 22, 29, 4 ],
+            "sunday": [ 17, 22, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/piccolo-movimento-6-2001.jpeg',
+          title: 'Piccolo movimento 6',
+          artist: 'Ettore Spalletti',
+          year: '2001',
+          rule: {
+            "monday": [ 18, 23, 29, 4 ],
+            "tuesday": [ 17, 22, 28, 3 ],
+            "wednesday": [ 17, 22, 28, 5 ],
+            "thursday": [ 23, 28, 4, 9 ],
+            "friday": [ 22, 24, 2, 28 ],
+            "saturday": [ 21, 25, 2, 5 ],
+            "sunday": [ 20, 23, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/imgonline-com-ua-resizempxxs1wowjzxojs.jpeg',
+          title: 'The landscape',
+          artist: 'Alfred Freddy Krupa',
+          year: '2001',
+          rule: {
+            "monday": [ 20, 23, 30, 5 ],
+            "tuesday": [ 18, 23, 29, 4 ],
+            "wednesday": [ 17, 22, 28, 3 ],
+            "thursday": [ 17, 22, 28, 5 ],
+            "friday": [ 23, 28, 4, 9 ],
+            "saturday": [ 22, 24, 2, 28 ],
+            "sunday": [ 21, 25, 2, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/flash-2002.jpeg',
+          title: 'Flash',
+          artist: 'John McCracken',
+          year: '2002',
+          rule: {
+            "monday": [ 21, 25, 2, 5 ],
+            "tuesday": [ 20, 23, 30, 5 ],
+            "wednesday": [ 18, 23, 29, 4 ],
+            "thursday": [ 17, 22, 28, 3 ],
+            "friday": [ 17, 22, 28, 5 ],
+            "saturday": [ 23, 28, 4, 9 ],
+            "sunday": [ 22, 24, 2, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

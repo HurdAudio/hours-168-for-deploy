@@ -12304,6 +12304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 616,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1919.jpeg',
+          title: 'Composition',
+          artist: 'Georges Valmier',
+          year: '1919',
+          rule: {
+            "monday": [ 4, 2, 25, 28 ],
+            "tuesday": [ 4, 5, 27, 31 ],
+            "wednesday": [ 7, 9, 10, 12 ],
+            "thursday": [ 9, 11, 15, 18 ],
+            "friday": [ 11, 13, 14, 15 ],
+            "saturday": [ 30, 1, 24, 13 ],
+            "sunday": [ 30, 1, 24, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 617,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/1919-spicologia-edit-1.jpeg',
+          title: 'Spicologia di 1 Uomo',
+          artist: 'Benedetta Cappa',
+          year: '1919',
+          rule: {
+            "monday": [ 30, 1, 24, 13 ],
+            "tuesday": [ 4, 2, 25, 28 ],
+            "wednesday": [ 4, 5, 27, 31 ],
+            "thursday": [ 7, 9, 10, 12 ],
+            "friday": [ 9, 11, 15, 18 ],
+            "saturday": [ 11, 13, 14, 15 ],
+            "sunday": [ 30, 1, 24, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 618,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/suprematic-compositional-elements-1920.jpeg',
+          title: 'Suprematic compositional elements',
+          artist: 'Kazimir Malevich',
+          year: '1920',
+          rule: {
+            "monday": [ 30, 1, 24, 13 ],
+            "tuesday": [ 30, 1, 24, 13 ],
+            "wednesday": [ 4, 2, 25, 28 ],
+            "thursday": [ 4, 5, 27, 31 ],
+            "friday": [ 7, 9, 10, 12 ],
+            "saturday": [ 9, 11, 15, 18 ],
+            "sunday": [ 11, 13, 14, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 619,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/the-principle-of-painting-the-walls-1920.jpeg',
+          title: 'The principle of painting the walls',
+          artist: 'Kazimir Malevich',
+          year: '1920',
+          rule: {
+            "monday": [ 11, 13, 14, 15 ],
+            "tuesday": [ 30, 1, 24, 13 ],
+            "wednesday": [ 30, 1, 24, 13 ],
+            "thursday": [ 4, 2, 25, 28 ],
+            "friday": [ 4, 5, 27, 31 ],
+            "saturday": [ 7, 9, 10, 12 ],
+            "sunday": [ 9, 11, 15, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 620,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/pure-painting-1920.jpeg',
+          title: 'Pure painting',
+          artist: 'Theo van Doesburg',
+          year: '1920',
+          rule: {
+            "monday": [ 9, 11, 15, 18 ],
+            "tuesday": [ 11, 13, 14, 15 ],
+            "wednesday": [ 30, 1, 24, 13 ],
+            "thursday": [ 30, 1, 24, 13 ],
+            "friday": [ 4, 2, 25, 28 ],
+            "saturday": [ 4, 5, 27, 31 ],
+            "sunday": [ 7, 9, 10, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

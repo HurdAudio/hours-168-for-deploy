@@ -6376,6 +6376,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 355,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2577054083/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://husbandryny.bandcamp.com/album/a-port-in-a-storm',
+          a_string: 'A Port in a Storm by Husbandry',
+          rule: {
+            "monday": [ 23, 29, 4, 13 ],
+            "tuesday": [ 21, 28, 3, 11 ],
+            "wednesday": [ 21, 27, 2, 10 ],
+            "thursday": [ 25, 31, 6, 14 ],
+            "saturday": [ 24, 30, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 356,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1380087964/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mxmtoon.bandcamp.com/album/the-masquerade',
+          a_string: 'the masquerade by mxmtoon',
+          rule: {
+            "monday": [ 24, 30, 5, 13 ],
+            "tuesday": [ 23, 29, 4, 13 ],
+            "wednesday": [ 21, 28, 3, 11 ],
+            "thursday": [ 21, 27, 2, 10 ],
+            "saturday": [ 25, 31, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 357,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3472357594/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://stacijackson.bandcamp.com/album/keep-the-peace',
+          a_string: 'Keep the Peace by Staci Jackson',
+          rule: {
+            "monday": [ 26, 1, 7, 15 ],
+            "tuesday": [ 25, 31, 5, 14 ],
+            "wednesday": [ 24, 30, 5, 14 ],
+            "thursday": [ 22, 29, 4, 12 ],
+            "saturday": [ 22, 28, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

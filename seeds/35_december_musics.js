@@ -5404,6 +5404,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 301,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2854997286/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://repsych.bandcamp.com/album/saicos-unreleased-recordings-instrumental-2-extras-garage-punk-rock-n-roll-peru-65-66',
+          a_string: 'SAICOS: Unreleased Recordings ! (Instrumental + 2 extras) (GARAGE PUNK ROCK N&#39; ROLL PERU &#39;65 - &#39;66) by SAICOS',
+          rule: {
+            "monday": [ 18, 24, 30, 5 ],
+            "tuesday": [ 15, 23, 29, 4 ],
+            "wednesday": [ 14, 22, 28, 3 ],
+            "thursday": [ 15, 21, 27, 2 ],
+            "saturday": [ 19, 25, 31, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 302,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1467139965/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://dalata.bandcamp.com/album/birds',
+          a_string: 'Birds by Da Lata',
+          rule: {
+            "monday": [ 19, 25, 31, 6 ],
+            "tuesday": [ 18, 24, 30, 5 ],
+            "wednesday": [ 15, 23, 29, 4 ],
+            "thursday": [ 14, 22, 28, 3 ],
+            "saturday": [ 15, 21, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 303,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3806171641/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mohorizons-agogo.bandcamp.com/album/coming-home',
+          a_string: 'Coming Home by Mo&#39; Horizons',
+          rule: {
+            "monday": [ 15, 21, 27, 2 ],
+            "tuesday": [ 19, 25, 31, 6 ],
+            "wednesday": [ 18, 24, 30, 5 ],
+            "thursday": [ 15, 23, 29, 4 ],
+            "saturday": [ 14, 22, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

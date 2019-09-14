@@ -6484,6 +6484,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 361,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2340718081/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://rasgtheafrikanspaceprogram.bandcamp.com/album/down-to-earth-vol-2',
+          a_string: 'Down To Earth Vol. 2 by Ras_G &amp; The Afrikan Space Program',
+          rule: {
+            "monday": [ 25, 29, 2, 6 ],
+            "tuesday": [ 28, 2, 4, 6 ],
+            "wednesday": [ 10, 4, 6, 8 ],
+            "thursday": [ 12, 6, 8, 14 ],
+            "saturday": [ 13, 7, 9, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 362,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1209329571/size=large/bgcol=ffffff/linkcol=0687f5/license_id=91/tracklist=false/transparent=true/',
+          href_string: 'http://brainfeeder.bandcamp.com/album/back-on-the-planet',
+          a_string: 'Back On The Planet by Ras G',
+          rule: {
+            "monday": [ 13, 7, 9, 15 ],
+            "tuesday": [ 25, 29, 2, 6 ],
+            "wednesday": [ 28, 2, 4, 6 ],
+            "thursday": [ 10, 4, 6, 8 ],
+            "saturday": [ 12, 6, 8, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 363,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=894242511/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://rasgtheafrikanspaceprogram.bandcamp.com/album/raw-fruit-vol-4',
+          a_string: 'Raw Fruit Vol.4 by Ras_G &amp; The Afrikan Space Program',
+          rule: {
+            "monday": [ 12, 6, 8, 14 ],
+            "tuesday": [ 13, 7, 9, 15 ],
+            "wednesday": [ 25, 29, 2, 6 ],
+            "thursday": [ 28, 2, 4, 6 ],
+            "saturday": [ 10, 4, 6, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

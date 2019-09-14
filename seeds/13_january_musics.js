@@ -6592,6 +6592,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 367,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2762716330/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://othermindsrecords.bandcamp.com/album/the-virtuoso-pianolist',
+          a_string: 'The Virtuoso Pianolist by Rex Lawson',
+          rule: {
+            "monday": [ 29, 5, 6, 7 ],
+            "tuesday": [ 28, 3, 4, 5 ],
+            "wednesday": [ 27, 3, 4, 5 ],
+            "thursday": [ 31, 7, 8, 9 ],
+            "saturday": [ 30, 5, 6, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 368,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1330017540/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://othermindsrecords.bandcamp.com/album/lost-works-last-works',
+          a_string: 'Lost Works, Last Works by Conlon Nancarrow',
+          rule: {
+            "monday": [ 30, 5, 6, 8 ],
+            "tuesday": [ 29, 5, 6, 7 ],
+            "wednesday": [ 28, 3, 4, 5 ],
+            "thursday": [ 27, 3, 4, 5 ],
+            "saturday": [ 31, 7, 8, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 369,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3387954322/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://othermindsrecords.bandcamp.com/album/antheil-plays-antheil-the-rare-spa-recordings-and-private-audio-documents-1942-1958',
+          a_string: 'Antheil Plays Antheil: The Rare SPA Recordings and Private Audio Documents 1942-1958 by George Antheil',
+          rule: {
+            "monday": [ 31, 7, 8, 9 ],
+            "tuesday": [ 30, 5, 6, 8 ],
+            "wednesday": [ 29, 5, 6, 7 ],
+            "thursday": [ 28, 3, 4, 5 ],
+            "saturday": [ 27, 3, 4, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

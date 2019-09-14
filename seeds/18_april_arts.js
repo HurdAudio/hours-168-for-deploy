@@ -11704,6 +11704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 586,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/the_baseball_by_diablodan_dkav26-pre.jpg',
+          title: 'The Baseball',
+          artist: 'DiabloDan',
+          year: '2006',
+          rule: {
+            "monday": [ 21, 25, 10, 8 ],
+            "tuesday": [ 18, 24, 30, 6 ],
+            "wednesday": [ 19, 24, 30, 6 ],
+            "thursday": [ 18, 23, 29, 5 ],
+            "friday": [ 23, 29, 4, 10 ],
+            "saturday": [ 7, 27, 3, 9 ],
+            "sunday": [ 22, 25, 10, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 587,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/out_of_the_ballpark_by_peterpulp_d8htmb1-fullview.jpg',
+          title: 'Out of the Ballpark',
+          artist: 'Peter Pulp',
+          year: '2015',
+          rule: {
+            "monday": [ 22, 25, 10, 9 ],
+            "tuesday": [ 21, 25, 10, 8 ],
+            "wednesday": [ 18, 24, 30, 6 ],
+            "thursday": [ 19, 24, 30, 6 ],
+            "friday": [ 18, 23, 29, 5 ],
+            "saturday": [ 23, 29, 4, 10 ],
+            "sunday": [ 7, 27, 3, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 588,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/baseball_field_by_scipio164_d4hr76y-fullview.jpg',
+          title: 'Baseball Field',
+          artist: 'Scipio164',
+          year: '2011',
+          rule: {
+            "monday": [ 8, 28, 4, 10 ],
+            "tuesday": [ 23, 26, 11, 10 ],
+            "wednesday": [ 22, 26, 11, 9 ],
+            "thursday": [ 19, 25, 1, 7 ],
+            "friday": [ 20, 25, 1, 7 ],
+            "saturday": [ 19, 24, 30, 6 ],
+            "sunday": [ 24, 30, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 589,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/timothy_leroy_lincecum_by_mercenarygraphics_d7eu0nr-fullview.jpg',
+          title: 'Timothy Leroy Lincecum',
+          artist: 'Mercenary Graphics',
+          year: '2014',
+          rule: {
+            "monday": [ 24, 30, 5, 11 ],
+            "tuesday": [ 8, 28, 4, 10 ],
+            "wednesday": [ 23, 26, 11, 10 ],
+            "thursday": [ 22, 26, 11, 9 ],
+            "friday": [ 19, 25, 1, 7 ],
+            "saturday": [ 20, 25, 1, 7 ],
+            "sunday": [ 19, 24, 30, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 590,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/babe_ruth_by_monsteroftheid_d1w88ft-fullview.jpg',
+          title: 'Babe Ruth',
+          artist: 'Zero',
+          year: '2009',
+          rule: {
+            "monday": [ 19, 24, 30, 6 ],
+            "tuesday": [ 24, 30, 5, 11 ],
+            "wednesday": [ 8, 28, 4, 10 ],
+            "thursday": [ 23, 26, 11, 10 ],
+            "friday": [ 22, 26, 11, 9 ],
+            "saturday": [ 19, 25, 1, 7 ],
+            "sunday": [ 20, 25, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

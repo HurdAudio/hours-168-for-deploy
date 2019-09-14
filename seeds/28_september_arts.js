@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/modern-eden-girl-with-a-golden-heart-basking-in-the-sunshine-jana-brike-2016.jpeg',
+          title: 'Girl With a Golden Heart Basking in the Sunshine',
+          artist: 'Jana Brike',
+          year: '2016',
+          rule: {
+            "monday": [ 11, 18, 6, 13 ],
+            "tuesday": [ 18, 24, 12, 20 ],
+            "wednesday": [ 17, 22, 11, 19 ],
+            "thursday": [ 15, 22, 10, 18 ],
+            "friday": [ 15, 21, 9, 17 ],
+            "saturday": [ 4, 20, 8, 17 ],
+            "sunday": [ 3, 10, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/now-a-turning-orb.jpeg',
+          title: 'Now a Turning Orb',
+          artist: 'Richard Pousette-Dart',
+          year: '?',
+          rule: {
+            "monday": [ 3, 10, 7, 15 ],
+            "tuesday": [ 11, 18, 6, 13 ],
+            "wednesday": [ 18, 24, 12, 20 ],
+            "thursday": [ 17, 22, 11, 19 ],
+            "friday": [ 15, 22, 10, 18 ],
+            "saturday": [ 15, 21, 9, 17 ],
+            "sunday": [ 4, 20, 8, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/in-the-mood-1961.jpeg',
+          title: 'In the mood',
+          artist: 'George Pemba',
+          year: '1961',
+          rule: {
+            "monday": [ 4, 20, 8, 17 ],
+            "tuesday": [ 3, 10, 7, 15 ],
+            "wednesday": [ 11, 18, 6, 13 ],
+            "thursday": [ 18, 24, 12, 20 ],
+            "friday": [ 17, 22, 11, 19 ],
+            "saturday": [ 15, 22, 10, 18 ],
+            "sunday": [ 15, 21, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/you-see-an-office-building-3-1996.jpeg',
+          title: 'You see an office building 3',
+          artist: 'Julian Opie',
+          year: '1996',
+          rule: {
+            "monday": [ 16, 22, 10, 18 ],
+            "tuesday": [ 5, 21, 9, 18 ],
+            "wednesday": [ 4, 11, 8, 16 ],
+            "thursday": [ 12, 19, 7, 14 ],
+            "friday": [ 19, 25, 13, 21 ],
+            "saturday": [ 18, 23, 12, 20 ],
+            "sunday": [ 16, 23, 11, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/field-1989.jpeg',
+          title: 'Field',
+          artist: 'Antony Gormley',
+          year: '1989',
+          rule: {
+            "monday": [ 16, 23, 11, 19 ],
+            "tuesday": [ 16, 22, 10, 18 ],
+            "wednesday": [ 5, 21, 9, 18 ],
+            "thursday": [ 4, 11, 8, 16 ],
+            "friday": [ 12, 19, 7, 14 ],
+            "saturday": [ 19, 25, 13, 21 ],
+            "sunday": [ 18, 23, 12, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

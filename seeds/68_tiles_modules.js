@@ -1009,6 +1009,21 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 68,
+          user_author_id: 1,
+          theme: 'Kandinsky',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/merry-structure-1926.jpeg',
+          repeat_value: 'no-repeat',
+          size_value: '100%',
+          color_dark: '#090812',
+          color_medium: '#E4C246',
+          color_light: '#E5ECC2',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

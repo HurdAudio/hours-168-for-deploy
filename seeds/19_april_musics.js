@@ -6268,6 +6268,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 349,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2350156432/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://spaza.bandcamp.com/album/spaza',
+          a_string: 'SPAZA by SPAZA',
+          rule: {
+            "monday": [ 20, 28, 9, 15 ],
+            "tuesday": [ 19, 27, 9, 14 ],
+            "wednesday": [ 23, 1, 13, 18 ],
+            "thursday": [ 22, 30, 12, 17 ],
+            "saturday": [ 21, 29, 11, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 350,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2399310743/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://exoterm.bandcamp.com/album/exits-into-a-corridor',
+          a_string: 'Exits Into A Corridor by Exoterm',
+          rule: {
+            "monday": [ 22, 30, 12, 17 ],
+            "tuesday": [ 21, 29, 10, 16 ],
+            "wednesday": [ 20, 28, 10, 15 ],
+            "thursday": [ 24, 2, 14, 19 ],
+            "saturday": [ 23, 30, 13, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 351,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3982889219/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://danielcarternyc.bandcamp.com/album/radical-invisibility',
+          a_string: 'Radical Invisibility by Daniel Carter, Stelios Mihas, Irma Nejando, Federico Ughi',
+          rule: {
+            "monday": [ 23, 30, 13, 18 ],
+            "tuesday": [ 22, 30, 12, 17 ],
+            "wednesday": [ 21, 29, 10, 16 ],
+            "thursday": [ 20, 28, 10, 15 ],
+            "saturday": [ 24, 2, 14, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

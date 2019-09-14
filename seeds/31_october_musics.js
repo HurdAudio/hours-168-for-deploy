@@ -5620,6 +5620,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 313,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1362828548/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://chicagoresearch.bandcamp.com/album/cr013-club-music-vol-1',
+          a_string: 'CR013 &quot;Club Music Vol. 1&quot; by CLUB MUSIC',
+          rule: {
+            "monday": [ 18, 28, 7, 10 ],
+            "tuesday": [ 22, 1, 11, 14 ],
+            "wednesday": [ 21, 31, 10, 13 ],
+            "thursday": [ 20, 30, 9, 12 ],
+            "saturday": [ 19, 29, 9, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 314,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4092090557/size=large/bgcol=ffffff/linkcol=0687f5/license_id=648/tracklist=false/transparent=true/',
+          href_string: 'http://parsniphq.bandcamp.com/album/when-the-tree-bears-fruit',
+          a_string: 'When The Tree Bears Fruit by Parsnip',
+          rule: {
+            "monday": [ 19, 29, 9, 11 ],
+            "tuesday": [ 18, 28, 7, 10 ],
+            "wednesday": [ 22, 1, 11, 14 ],
+            "thursday": [ 21, 31, 10, 13 ],
+            "saturday": [ 20, 30, 9, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 315,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=889412167/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://theparanoyds.bandcamp.com/album/carnage-bargain',
+          a_string: 'Carnage Bargain by The Paranoyds',
+          rule: {
+            "monday": [ 21, 1, 10, 13 ],
+            "tuesday": [ 20, 30, 10, 12 ],
+            "wednesday": [ 19, 29, 8, 11 ],
+            "thursday": [ 23, 2, 12, 15 ],
+            "saturday": [ 22, 1, 11, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

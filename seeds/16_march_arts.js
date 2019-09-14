@@ -11904,6 +11904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 596,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-bridge-in-curve-1930.jpeg',
+          title: 'The Bridge in Curve',
+          artist: 'Grace Cossington Smith',
+          year: '1930',
+          rule: {
+            "monday": [ 21, 1, 9, 19 ],
+            "tuesday": [ 21, 31, 8, 18 ],
+            "wednesday": [ 20, 31, 7, 17 ],
+            "thursday": [ 19, 29, 6, 16 ],
+            "friday": [ 18, 28, 6, 15 ],
+            "saturday": [ 24, 2, 12, 20 ],
+            "sunday": [ 23, 2, 10, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 597,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-hunt-1926.jpeg',
+          title: 'The Hunt',
+          artist: 'Irma Stern',
+          year: '1926',
+          rule: {
+            "monday": [ 23, 2, 10, 20 ],
+            "tuesday": [ 21, 1, 9, 19 ],
+            "wednesday": [ 21, 31, 8, 18 ],
+            "thursday": [ 20, 31, 7, 17 ],
+            "friday": [ 19, 29, 6, 16 ],
+            "saturday": [ 18, 28, 6, 15 ],
+            "sunday": [ 24, 2, 12, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 598,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/scen-s-teasc-1943.jpeg',
+          title: 'Scenă sătească',
+          artist: 'Lucia Demetriade Balacescu',
+          year: '1943',
+          rule: {
+            "monday": [ 24, 2, 12, 20 ],
+            "tuesday": [ 23, 2, 10, 20 ],
+            "wednesday": [ 21, 1, 9, 19 ],
+            "thursday": [ 21, 31, 8, 18 ],
+            "friday": [ 20, 31, 7, 17 ],
+            "saturday": [ 19, 29, 6, 16 ],
+            "sunday": [ 18, 28, 6, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 599,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/anna-c-1927.jpeg',
+          title: 'Anna',
+          artist: 'Prudence Heward',
+          year: '1927',
+          rule: {
+            "monday": [ 18, 28, 6, 15 ],
+            "tuesday": [ 24, 2, 12, 20 ],
+            "wednesday": [ 23, 2, 10, 20 ],
+            "thursday": [ 21, 1, 9, 19 ],
+            "friday": [ 21, 31, 8, 18 ],
+            "saturday": [ 20, 31, 7, 17 ],
+            "sunday": [ 19, 29, 6, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 600,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/spatial-composition-9-1933.jpeg',
+          title: 'Spatial Composition 9',
+          artist: 'Katarzyna Kobro',
+          year: '1933',
+          rule: {
+            "monday": [ 19, 29, 6, 16 ],
+            "tuesday": [ 18, 28, 6, 15 ],
+            "wednesday": [ 24, 2, 12, 20 ],
+            "thursday": [ 23, 2, 10, 20 ],
+            "friday": [ 21, 1, 9, 19 ],
+            "saturday": [ 21, 31, 8, 18 ],
+            "sunday": [ 20, 31, 7, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

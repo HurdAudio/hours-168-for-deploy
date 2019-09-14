@@ -5836,6 +5836,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 325,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1746395439/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://weinsist.bandcamp.com/album/prayer',
+          a_string: 'Prayer by Pipeline 8',
+          rule: {
+            "monday": [ 25, 2, 15, 14 ],
+            "tuesday": [ 24, 1, 14, 13 ],
+            "wednesday": [ 23, 31, 13, 12 ],
+            "thursday": [ 27, 4, 17, 16 ],
+            "saturday": [ 26, 3, 16, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 326,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=239447907/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gordongrdina.bandcamp.com/album/coopers-park-2',
+          a_string: 'Cooper&#39;s Park by Gordon Grdina',
+          rule: {
+            "monday": [ 26, 3, 16, 15 ],
+            "tuesday": [ 25, 2, 15, 14 ],
+            "wednesday": [ 24, 1, 14, 13 ],
+            "thursday": [ 23, 31, 13, 12 ],
+            "saturday": [ 27, 4, 17, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 327,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2751122518/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://flypanam.bandcamp.com/album/cest-a',
+          a_string: 'C&#39;est ça by Fly Pan Am',
+          rule: {
+            "monday": [ 27, 4, 17, 16 ],
+            "tuesday": [ 26, 3, 16, 15 ],
+            "wednesday": [ 25, 2, 15, 14 ],
+            "thursday": [ 24, 1, 14, 13 ],
+            "saturday": [ 23, 31, 13, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
