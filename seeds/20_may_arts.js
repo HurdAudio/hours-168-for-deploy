@@ -11604,6 +11604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 581,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/a-reception-given-by-the-possessed-commander-in-chief-the-tass-window-899-1944.jpeg',
+          title: 'A reception given by the possessed commander-in-chief (The TASS Window №899',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 18, 28, 5, 7 ],
+            "tuesday": [ 15, 26, 5, 25 ],
+            "wednesday": [ 14, 25, 4, 13 ],
+            "thursday": [ 12, 22, 1, 9 ],
+            "friday": [ 10, 19, 31, 9 ],
+            "saturday": [ 20, 1, 11, 19 ],
+            "sunday": [ 20, 31, 9, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 582,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/back-and-forth-tass-window-897-1944.jpeg',
+          title: 'Back and forth (TASS Window № 897)',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 20, 31, 9, 19 ],
+            "tuesday": [ 18, 28, 5, 7 ],
+            "wednesday": [ 15, 26, 5, 25 ],
+            "thursday": [ 14, 25, 4, 13 ],
+            "friday": [ 12, 22, 1, 9 ],
+            "saturday": [ 10, 19, 31, 9 ],
+            "sunday": [ 20, 1, 11, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 583,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/history-along-with-geography-the-tass-window-1218-1944.jpeg',
+          title: 'History along with geography (The TASS Window №1218)',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 20, 1, 11, 19 ],
+            "tuesday": [ 20, 31, 9, 19 ],
+            "wednesday": [ 18, 28, 5, 7 ],
+            "thursday": [ 15, 26, 5, 25 ],
+            "friday": [ 14, 25, 4, 13 ],
+            "saturday": [ 12, 22, 1, 9 ],
+            "sunday": [ 10, 19, 31, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 584,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/in-hitler-s-headquarters-after-the-20th-july-1944.jpeg',
+          title: 'In Hitler\'s headquarters after the 20th July',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 10, 19, 31, 9 ],
+            "tuesday": [ 20, 1, 11, 19 ],
+            "wednesday": [ 20, 31, 9, 19 ],
+            "thursday": [ 18, 28, 5, 7 ],
+            "friday": [ 15, 26, 5, 25 ],
+            "saturday": [ 14, 25, 4, 13 ],
+            "sunday": [ 12, 22, 1, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 585,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/on-front-lines-by-the-dnieper-the-tass-window-906-1944.jpeg',
+          title: 'On front lines by the Dnieper (The TASS Window №906)',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 12, 22, 1, 9 ],
+            "tuesday": [ 10, 19, 31, 9 ],
+            "wednesday": [ 20, 1, 11, 19 ],
+            "thursday": [ 20, 31, 9, 19 ],
+            "friday": [ 18, 28, 5, 7 ],
+            "saturday": [ 15, 26, 5, 25 ],
+            "sunday": [ 14, 25, 4, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

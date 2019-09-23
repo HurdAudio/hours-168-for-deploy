@@ -5782,6 +5782,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 322,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2238446898/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://transubstansrecords.bandcamp.com/album/ta-tjuren-vid-hornen',
+          a_string: 'Ta Tjuren Vid Hornen by Magnolia',
+          rule: {
+            "monday": [ 21, 11, 19, 13 ],
+            "tuesday": [ 20, 10, 18, 12 ],
+            "wednesday": [ 19, 9, 17, 10 ],
+            "thursday": [ 19, 8, 16, 10 ],
+            "saturday": [ 17, 7, 15, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 323,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=969071125/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://theaaroncliftexperiment.bandcamp.com/album/outer-light-inner-darkness',
+          a_string: 'Outer Light, Inner Darkness by The Aaron Clift Experiment',
+          rule: {
+            "monday": [ 17, 7, 15, 9 ],
+            "tuesday": [ 21, 11, 19, 13 ],
+            "wednesday": [ 20, 10, 18, 12 ],
+            "thursday": [ 19, 9, 17, 10 ],
+            "saturday": [ 19, 8, 16, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 324,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1365487643/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://theaaroncliftexperiment.bandcamp.com/album/lonely-hills',
+          a_string: 'Lonely Hills by The Aaron Clift Experiment',
+          rule: {
+            "monday": [ 19, 8, 16, 10 ],
+            "tuesday": [ 17, 7, 15, 9 ],
+            "wednesday": [ 21, 11, 19, 13 ],
+            "thursday": [ 20, 10, 18, 12 ],
+            "saturday": [ 19, 9, 17, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

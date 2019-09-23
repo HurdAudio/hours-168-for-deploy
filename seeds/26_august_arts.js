@@ -11004,6 +11004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 551,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/study-of-the-actor-nakamura-kichiemon-as-otokonosuke-1926.jpeg',
+          title: 'Study of the actor Nakamura Kichiemon as Otokonosuke',
+          artist: 'Natori Shunsen',
+          year: '1926',
+          rule: {
+            "monday": [ 15, 18, 27, 12 ],
+            "tuesday": [ 14, 17, 26, 11 ],
+            "wednesday": [ 20, 24, 1, 17 ],
+            "thursday": [ 19, 22, 31, 16 ],
+            "friday": [ 17, 22, 30, 15 ],
+            "saturday": [ 17, 19, 29, 14 ],
+            "sunday": [ 16, 18, 28, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 552,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/escape.jpeg',
+          title: 'Escape',
+          artist: 'Sergey Solomko',
+          year: 'c.1915',
+          rule: {
+            "monday": [ 16, 18, 28, 13 ],
+            "tuesday": [ 15, 18, 27, 12 ],
+            "wednesday": [ 14, 17, 26, 11 ],
+            "thursday": [ 20, 24, 1, 17 ],
+            "friday": [ 19, 22, 31, 16 ],
+            "saturday": [ 17, 22, 30, 15 ],
+            "sunday": [ 17, 19, 29, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 553,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/family-feast-1907(1).jpeg',
+          title: 'Family feast',
+          artist: 'Niko Pirosmani',
+          year: '1907',
+          rule: {
+            "monday": [ 18, 20, 30, 15 ],
+            "tuesday": [ 17, 19, 29, 14 ],
+            "wednesday": [ 16, 19, 28, 13 ],
+            "thursday": [ 15, 18, 27, 12 ],
+            "friday": [ 21, 25, 2, 18 ],
+            "saturday": [ 20, 23, 1, 17 ],
+            "sunday": [ 18, 23, 31, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 554,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/view-from-the-dunes-with-beach-and-piers-1909.jpeg',
+          title: 'View from the Dunes with Beach and Piers',
+          artist: 'Piet Mondrian',
+          year: '1909',
+          rule: {
+            "monday": [ 18, 23, 31, 16 ],
+            "tuesday": [ 18, 20, 30, 15 ],
+            "wednesday": [ 17, 19, 29, 14 ],
+            "thursday": [ 16, 19, 28, 13 ],
+            "friday": [ 15, 18, 27, 12 ],
+            "saturday": [ 21, 25, 2, 18 ],
+            "sunday": [ 20, 23, 1, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 555,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/lake-mcarthur-yoho-park-1924.jpeg',
+          title: 'Lake McArthur, Yoho Park',
+          artist: 'J. E. H. MacDonald',
+          year: '1924',
+          rule: {
+            "monday": [ 20, 23, 1, 17 ],
+            "tuesday": [ 18, 23, 31, 16 ],
+            "wednesday": [ 18, 20, 30, 15 ],
+            "thursday": [ 17, 19, 29, 14 ],
+            "friday": [ 16, 19, 28, 13 ],
+            "saturday": [ 15, 18, 27, 12 ],
+            "sunday": [ 21, 25, 2, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

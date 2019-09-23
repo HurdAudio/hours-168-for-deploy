@@ -5566,6 +5566,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 310,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3189176120/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://forwarduk.bandcamp.com/album/these-are-our-friends-too',
+          a_string: 'These Are Our Friends Too by Various',
+          rule: {
+            "monday": [ 13, 24, 5, 16 ],
+            "tuesday": [ 12, 23, 4, 16 ],
+            "wednesday": [ 16, 27, 8, 12 ],
+            "thursday": [ 15, 26, 7, 11 ],
+            "saturday": [ 14, 25, 6, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 311,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3028562138/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://beatingheart.bandcamp.com/album/beating-heart-tanzania-originals-recorded-by-hugh-tracey',
+          a_string: 'Beating Heart - Tanzania (Originals) Recorded by Hugh Tracey by Various Artists',
+          rule: {
+            "monday": [ 14, 25, 6, 10 ],
+            "tuesday": [ 13, 24, 5, 16 ],
+            "wednesday": [ 12, 23, 4, 16 ],
+            "thursday": [ 16, 27, 8, 12 ],
+            "saturday": [ 15, 26, 7, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 312,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3097898040/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://reynatropical.bandcamp.com/album/sol-y-lluvia',
+          a_string: 'Sol y Lluvia by Reyna Tropical',
+          rule: {
+            "monday": [ 15, 26, 7, 11 ],
+            "tuesday": [ 14, 25, 6, 10 ],
+            "wednesday": [ 13, 24, 5, 16 ],
+            "thursday": [ 12, 23, 4, 16 ],
+            "saturday": [ 16, 27, 8, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

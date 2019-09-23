@@ -6106,6 +6106,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 340,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=867266890/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://shop.serein.co.uk/album/hauch',
+          a_string: 'Hauch by Kryshe',
+          rule: {
+            "monday": [ 15, 23, 25, 10 ],
+            "tuesday": [ 19, 23, 29, 10 ],
+            "wednesday": [ 18, 21, 26, 8 ],
+            "thursday": [ 17, 20, 26, 7 ],
+            "saturday": [ 17, 20, 26, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 341,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1424216186/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://whitelabrecs.bandcamp.com/album/gr-nland',
+          a_string: 'Grønland by Glåsbird',
+          rule: {
+            "monday": [ 17, 20, 26, 6 ],
+            "tuesday": [ 15, 23, 25, 10 ],
+            "wednesday": [ 19, 23, 29, 10 ],
+            "thursday": [ 18, 21, 26, 8 ],
+            "saturday": [ 17, 20, 26, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 342,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2898828424/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://n5md.bandcamp.com/album/explosions-in-slow-motion',
+          a_string: 'Explosions in Slow Motion by bvdub',
+          rule: {
+            "monday": [ 17, 20, 26, 7 ],
+            "tuesday": [ 17, 20, 26, 6 ],
+            "wednesday": [ 15, 23, 25, 10 ],
+            "thursday": [ 19, 23, 29, 10 ],
+            "saturday": [ 18, 21, 26, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

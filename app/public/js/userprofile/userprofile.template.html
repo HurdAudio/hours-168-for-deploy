@@ -4914,12 +4914,12 @@
             <br><br><div id="tileShareAccepted{{tile.id}}">
 
               <img src="{{tile.inviterImg}}"><br>
-              <br><h3>{{tile.invitee}} has accepted this tile.</h3>
+              <br><h3>{{tile.invitee}} has accepted this tile. - {{tile.responseCleanDate}}</h3>
             </div>
             <br><br><div id="tileShareDeclined{{tile.id}}">
 
               <img src="{{tile.inviterImg}}"><br>
-              <br><h3>{{tile.invitee}} has declined this tile.</h3>
+              <br><h3>{{tile.invitee}} has declined this tile. - {{tile.responseCleanDate}}</h3>
             </div>
 
             <!-- <a href=""><h3>comment</h3></a> -->
@@ -4927,7 +4927,7 @@
             <!-- <div class="commentsBar"> -->
 
               <h1>Comments:</h1>
-              <!-- <a class="btn" href="#" ng-click="$ctrl.addNewArtShareComment(art.id)" id="newArtShareCommentButton{{art.id}}">add</a> -->
+              <a class="btn" href="#" ng-click="$ctrl.addNewTileShareComment(tile.id)" id="newTileShareCommentButton{{tile.id}}">add</a>
             <!-- </div> -->
             <div id="tileShareComments" class="occasionShareComments">
               <main ng-repeat="comment in tile.comments | orderBy : $ctrl.sortBy">

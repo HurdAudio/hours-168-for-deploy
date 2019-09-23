@@ -12204,6 +12204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 611,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/ngc_46873b_low_res.jpg',
+          title: 'Soundsuit',
+          artist: 'Nick Cave',
+          year: '2015',
+          rule: {
+            "monday": [ 1, 9, 17, 25 ],
+            "tuesday": [ 2, 11, 19, 27 ],
+            "wednesday": [ 8, 13, 19, 29 ],
+            "thursday": [ 7, 15, 23, 2 ],
+            "friday": [ 9, 19, 25, 2 ],
+            "saturday": [ 11, 19, 27, 8 ],
+            "sunday": [ 11, 21, 17, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 612,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/129738-1479748918-20161111-110632.jpg',
+          title: '(Forever Free) Black Art',
+          artist: 'Michael Ray Charles',
+          year: '1999',
+          rule: {
+            "monday": [ 11, 21, 17, 7 ],
+            "tuesday": [ 1, 9, 17, 25 ],
+            "wednesday": [ 2, 11, 19, 27 ],
+            "thursday": [ 8, 13, 19, 29 ],
+            "friday": [ 7, 15, 23, 2 ],
+            "saturday": [ 9, 19, 25, 2 ],
+            "sunday": [ 11, 19, 27, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 613,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/lellit.jpeg',
+          title: 'Le Lit',
+          artist: 'Barbara Chase-Riboud',
+          year: '1966',
+          rule: {
+            "monday": [ 11, 19, 27, 8 ],
+            "tuesday": [ 11, 21, 17, 7 ],
+            "wednesday": [ 1, 9, 17, 25 ],
+            "thursday": [ 2, 11, 19, 27 ],
+            "friday": [ 8, 13, 19, 29 ],
+            "saturday": [ 7, 15, 23, 2 ],
+            "sunday": [ 9, 19, 25, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 614,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/2790976-RJFHCZZC-7.jpg',
+          title: 'United World: New York',
+          artist: 'Jamour Chames',
+          year: '2017',
+          rule: {
+            "monday": [ 9, 19, 25, 2 ],
+            "tuesday": [ 11, 19, 27, 8 ],
+            "wednesday": [ 11, 21, 17, 7 ],
+            "thursday": [ 1, 9, 17, 25 ],
+            "friday": [ 2, 11, 19, 27 ],
+            "saturday": [ 8, 13, 19, 29 ],
+            "sunday": [ 7, 15, 23, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 615,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/UBH-Harlem1966-B-master768-v4.jpg',
+          title: 'A view of 100th Street',
+          artist: 'Don Hogan Charles',
+          year: '?',
+          rule: {
+            "monday": [ 7, 15, 23, 2 ],
+            "tuesday": [ 9, 19, 25, 2 ],
+            "wednesday": [ 11, 19, 27, 8 ],
+            "thursday": [ 11, 21, 17, 7 ],
+            "friday": [ 1, 9, 17, 25 ],
+            "saturday": [ 2, 11, 19, 27 ],
+            "sunday": [ 8, 13, 19, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -12404,6 +12404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 621,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/numbers-in-love-1920.jpeg',
+          title: 'Numbers in Love',
+          artist: 'Giacomo Balla',
+          year: '1920',
+          rule: {
+            "monday": [ 7, 9, 10, 12 ],
+            "tuesday": [ 9, 11, 15, 18 ],
+            "wednesday": [ 11, 13, 14, 15 ],
+            "thursday": [ 30, 1, 24, 13 ],
+            "friday": [ 30, 1, 24, 13 ],
+            "saturday": [ 4, 2, 25, 28 ],
+            "sunday": [ 4, 5, 27, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 622,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/merzpicture-thirty-one-1920.jpeg',
+          title: 'Merzpicture Thirty-One',
+          artist: 'Kurt Schwitters',
+          year: '1920',
+          rule: {
+            "monday": [ 4, 5, 27, 31 ],
+            "tuesday": [ 7, 9, 10, 12 ],
+            "wednesday": [ 9, 11, 15, 18 ],
+            "thursday": [ 11, 13, 14, 15 ],
+            "friday": [ 30, 1, 24, 13 ],
+            "saturday": [ 30, 1, 24, 13 ],
+            "sunday": [ 4, 2, 25, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 623,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-dada-1920.jpeg',
+          title: 'Composition Dada',
+          artist: 'Sophie Taeuber-Arp',
+          year: '1920',
+          rule: {
+            "monday": [ 5, 3, 26, 29 ],
+            "tuesday": [ 5, 6, 28, 1 ],
+            "wednesday": [ 8, 10, 11, 13 ],
+            "thursday": [ 10, 12, 16, 19 ],
+            "friday": [ 12, 14, 15, 16 ],
+            "saturday": [ 31, 2, 25, 14 ],
+            "sunday": [ 31, 2, 25, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 624,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1920(3).jpeg',
+          title: 'Composition',
+          artist: 'Janos Mattis-Teutsch',
+          year: '1920',
+          rule: {
+            "monday": [ 31, 2, 25, 14 ],
+            "tuesday": [ 5, 3, 26, 29 ],
+            "wednesday": [ 5, 6, 28, 1 ],
+            "thursday": [ 8, 10, 11, 13 ],
+            "friday": [ 10, 12, 16, 19 ],
+            "saturday": [ 12, 14, 15, 16 ],
+            "sunday": [ 31, 2, 25, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 625,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1920-5.jpeg',
+          title: 'Composition',
+          artist: 'Janos Mattis-Teutsch',
+          year: '1920',
+          rule: {
+            "monday": [ 31, 2, 25, 14 ],
+            "tuesday": [ 31, 2, 25, 14 ],
+            "wednesday": [ 5, 3, 26, 29 ],
+            "thursday": [ 5, 6, 28, 1 ],
+            "friday": [ 8, 10, 11, 13 ],
+            "saturday": [ 10, 12, 16, 19 ],
+            "sunday": [ 12, 14, 15, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

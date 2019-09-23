@@ -6538,6 +6538,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 364,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3402845005/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gourmetdeluxxx.bandcamp.com/album/ray-winstone',
+          a_string: 'Ray Winstone by GourmetDeluxxx',
+          rule: {
+            "monday": [ 11, 5, 7, 9 ],
+            "tuesday": [ 13, 7, 9, 15 ],
+            "wednesday": [ 14, 8, 10, 16 ],
+            "thursday": [ 26, 1, 3, 7 ],
+            "saturday": [ 29, 3, 5, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 365,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=518879379/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gourmetdeluxxx.bandcamp.com/album/cocaine-beach',
+          a_string: 'Cocaine Beach by Hus Kingpin &amp; Big Ghost',
+          rule: {
+            "monday": [ 29, 3, 5, 7 ],
+            "tuesday": [ 11, 5, 7, 9 ],
+            "wednesday": [ 13, 7, 9, 15 ],
+            "thursday": [ 14, 8, 10, 16 ],
+            "saturday": [ 26, 1, 3, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 366,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=679041159/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gourmetdeluxxx.bandcamp.com/album/vic-spencer-duffle-of-gems',
+          a_string: 'Vic Spencer - Duffle Of Gems by Vic Spencer',
+          rule: {
+            "monday": [ 26, 1, 3, 7 ],
+            "tuesday": [ 29, 3, 5, 7 ],
+            "wednesday": [ 11, 5, 7, 9 ],
+            "thursday": [ 13, 7, 9, 15 ],
+            "saturday": [ 14, 8, 10, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

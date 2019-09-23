@@ -11204,6 +11204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 561,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/josephine-baker-1925.jpeg',
+          title: 'Josephine Baker',
+          artist: 'Kees van Dongen',
+          year: '1925',
+          rule: {
+            "monday": [ 20, 29, 11, 22 ],
+            "tuesday": [ 20, 29, 11, 22 ],
+            "wednesday": [ 18, 29, 10, 21 ],
+            "thursday": [ 18, 29, 9, 10 ],
+            "friday": [ 17, 28, 7, 9 ],
+            "saturday": [ 16, 27, 7, 8 ],
+            "sunday": [ 15, 26, 17, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 562,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/self-portrait-with-pipe.jpeg',
+          title: 'Self Portrait With Pipe',
+          artist: 'Maurice de Vlaminck',
+          year: '?',
+          rule: {
+            "monday": [ 15, 26, 17, 17 ],
+            "tuesday": [ 20, 29, 11, 22 ],
+            "wednesday": [ 20, 29, 11, 22 ],
+            "thursday": [ 18, 29, 10, 21 ],
+            "friday": [ 18, 29, 9, 10 ],
+            "saturday": [ 17, 28, 7, 9 ],
+            "sunday": [ 16, 27, 7, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 563,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/self-portrait_0101.jpeg',
+          title: 'Self-portrait',
+          artist: 'Armand Henrion',
+          year: '?',
+          rule: {
+            "monday": [ 16, 27, 7, 8 ],
+            "tuesday": [ 15, 26, 17, 17 ],
+            "wednesday": [ 20, 29, 11, 22 ],
+            "thursday": [ 20, 29, 11, 22 ],
+            "friday": [ 18, 29, 10, 21 ],
+            "saturday": [ 18, 29, 9, 10 ],
+            "sunday": [ 17, 28, 7, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 564,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/l-epouse-1921.jpeg',
+          title: 'L’Epouse',
+          artist: 'Charles Despiau',
+          year: '1921',
+          rule: {
+            "monday": [ 17, 28, 7, 9 ],
+            "tuesday": [ 16, 27, 7, 8 ],
+            "wednesday": [ 15, 26, 17, 17 ],
+            "thursday": [ 20, 29, 11, 22 ],
+            "friday": [ 20, 29, 11, 22 ],
+            "saturday": [ 18, 29, 10, 21 ],
+            "sunday": [ 18, 29, 9, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 565,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/aviator-1929.jpeg',
+          title: 'Aviator',
+          artist: 'Pierre Dubreuil',
+          year: '1929',
+          rule: {
+            "monday": [ 18, 29, 9, 10 ],
+            "tuesday": [ 17, 28, 7, 9 ],
+            "wednesday": [ 16, 27, 7, 8 ],
+            "thursday": [ 15, 26, 17, 17 ],
+            "friday": [ 20, 29, 11, 22 ],
+            "saturday": [ 20, 29, 11, 22 ],
+            "sunday": [ 18, 29, 10, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

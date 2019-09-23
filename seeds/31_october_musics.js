@@ -1468,8 +1468,8 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Punk, Metal & Nurse with Wound',
           source: 'bandcamp',
-          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1139063092/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://palbertapalberta.bandcamp.com/album/bye-bye-berta',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3738901307/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://palbertapalberta.bandcamp.com/album/bye-bye-berta-2',
           a_string: 'Bye Bye Berta by Palberta',
           rule: {
             "monday": [ 19, 29, 8, 11 ],
@@ -3466,9 +3466,9 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Punk, Metal & Nurse with Wound',
           source: 'bandcamp',
-          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4150705894/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://whatwedoissecrete.bandcamp.com/album/what-do-you-stand-for',
-          a_string: 'What Do You Stand For? by S.H.I.T.',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2549679825/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://nursewithwound1.bandcamp.com/album/requital-for-lady-day',
+          a_string: 'Requital For Lady Day by Nurse With Wound',
           rule: {
             "monday": [ 1, 11, 22, 24 ],
             "tuesday": [ 5, 15, 25, 28 ],
@@ -3952,9 +3952,9 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           theme: 'Punk, Metal & Nurse with Wound',
           source: 'bandcamp',
-          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=152414414/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-          href_string: 'http://horrendous.bandcamp.com/album/idol',
-          a_string: 'Idol by Horrendous',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4083820156/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://palbertapalberta.bandcamp.com/album/roach-goin-down-2',
+          a_string: 'Roach Goin&#39; Down by Palberta',
           rule: {
             "monday": [ 7, 17, 27, 30 ],
             "tuesday": [ 6, 16, 27, 29 ],
@@ -5671,6 +5671,60 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 19, 29, 8, 11 ],
             "thursday": [ 23, 2, 12, 15 ],
             "saturday": [ 22, 1, 11, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 316,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1953198100/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://alestorm.bandcamp.com/album/captain-morgans-revenge-10th-anniversary-edition',
+          a_string: 'Captain Morgan&#39;s Revenge - 10th Anniversary Edition by Alestorm',
+          rule: {
+            "monday": [ 22, 1, 11, 14 ],
+            "tuesday": [ 21, 1, 10, 13 ],
+            "wednesday": [ 20, 30, 10, 12 ],
+            "thursday": [ 19, 29, 8, 11 ],
+            "saturday": [ 23, 2, 12, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 317,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=217266736/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://blazonstone.bandcamp.com/album/hymns-of-triumph-and-death',
+          a_string: 'Hymns Of Triumph And Death by Blazon Stone',
+          rule: {
+            "monday": [ 23, 2, 12, 15 ],
+            "tuesday": [ 22, 1, 11, 14 ],
+            "wednesday": [ 21, 1, 10, 13 ],
+            "thursday": [ 20, 30, 10, 12 ],
+            "saturday": [ 19, 29, 8, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 318,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2060376570/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jeanpaul2.bandcamp.com/album/pirate-hymn-crossbones',
+          a_string: 'Pirate Hymn - Crossbones by Jean Paul',
+          rule: {
+            "monday": [ 19, 29, 8, 11 ],
+            "tuesday": [ 23, 2, 12, 15 ],
+            "wednesday": [ 22, 1, 11, 14 ],
+            "thursday": [ 21, 1, 10, 13 ],
+            "saturday": [ 20, 30, 10, 12 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

@@ -11804,6 +11804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 591,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/IMG_3274B6B9D18E-1_1024x.jpeg',
+          title: 'Ski Jump',
+          artist: 'Lauren Taylor',
+          year: '2019',
+          rule: {
+            "monday": [ 20, 25, 1, 7 ],
+            "tuesday": [ 19, 24, 30, 6 ],
+            "wednesday": [ 24, 30, 5, 11 ],
+            "thursday": [ 8, 28, 4, 10 ],
+            "friday": [ 23, 26, 11, 10 ],
+            "saturday": [ 22, 26, 11, 9 ],
+            "sunday": [ 19, 25, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 592,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/pic_nrd_20180122_frankovich_1-1.jpg',
+          title: 'Rookie Routs Ruffing, Yanks',
+          artist: 'Graig Kreindler',
+          year: '2008',
+          rule: {
+            "monday": [ 19, 25, 1, 7 ],
+            "tuesday": [ 20, 25, 1, 7 ],
+            "wednesday": [ 19, 24, 30, 6 ],
+            "thursday": [ 24, 30, 5, 11 ],
+            "friday": [ 8, 28, 4, 10 ],
+            "saturday": [ 23, 26, 11, 10 ],
+            "sunday": [ 22, 26, 11, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 593,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/pic_nrd_20180122_frankovich_story_600B.jpg',
+          title: 'The Heater Makes History, Bob Feller, April 16, 1940',
+          artist: 'Graig Kreindler',
+          year: '2009',
+          rule: {
+            "monday": [ 22, 26, 11, 9 ],
+            "tuesday": [ 19, 25, 1, 7 ],
+            "wednesday": [ 20, 25, 1, 7 ],
+            "thursday": [ 19, 24, 30, 6 ],
+            "friday": [ 24, 30, 5, 11 ],
+            "saturday": [ 8, 28, 4, 10 ],
+            "sunday": [ 23, 26, 11, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 594,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/mosaic-baseball-player_41.jpg',
+          title: 'Mosaic Baseball Player',
+          artist: 'Jones & Eggy',
+          year: '2018',
+          rule: {
+            "monday": [ 23, 26, 11, 10 ],
+            "tuesday": [ 22, 26, 11, 9 ],
+            "wednesday": [ 19, 25, 1, 7 ],
+            "thursday": [ 20, 25, 1, 7 ],
+            "friday": [ 19, 24, 30, 6 ],
+            "saturday": [ 24, 30, 5, 11 ],
+            "sunday": [ 8, 28, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 595,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Cuban-Slugger-Ortiz.jpg',
+          title: 'Good Bye Lichtenstein',
+          artist: 'El Profe',
+          year: '2018',
+          rule: {
+            "monday": [ 9, 29, 5, 11 ],
+            "tuesday": [ 24, 27, 12, 11 ],
+            "wednesday": [ 23, 27, 12, 10 ],
+            "thursday": [ 20, 26, 2, 8 ],
+            "friday": [ 21, 26, 2, 8 ],
+            "saturday": [ 20, 25, 1, 7 ],
+            "sunday": [ 25, 1, 6, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

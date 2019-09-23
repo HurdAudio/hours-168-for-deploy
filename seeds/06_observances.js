@@ -11289,6 +11289,44 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 726,
+          user_id: 1,
+          name: 'Joëlle Léandre (bassist/composer) born 1951',
+          color: '#020403',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ScreenShot2016-11-26at22.46.30.jpg',
+          day_of: new Date ('1951-09-12  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=1807806451/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1924932317/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3674380055/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1161471662/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3986407207/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=487129071/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3323136162/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2797938964/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2247751030/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=784569706/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://ayler-records.bandcamp.com/album/can-you-hear-me', 'http://rectangle-records.bandcamp.com/album/dire-du-dire', 'http://ayler-records.bandcamp.com/album/chez-h-l-ne', 'http://cipsela.bandcamp.com/album/elastic', 'http://jazzdorseries.bandcamp.com/album/jo-lle-l-andre-vincent-courtois-live-at-kesselhaus-berlin-08062013', 'http://destination-out.bandcamp.com/album/blue-goo-park', 'http://montagnenoire.bandcamp.com/album/desordre', 'http://darktree.bandcamp.com/album/the-bill-has-been-paid', 'http://tricollectif.bandcamp.com/album/can-you-smile', 'http://intaktrec.bandcamp.com/album/passagio' ],
+            "a_strings": [ 'Can You Hear Me? by Joëlle Léandre', 'Dire du dire by Joëlle Léandre', 'Chez Hélène by Joëlle Léandre &amp; Marc Ducret', 'Elastic by Joëlle Léandre / Théo Ceccaldi', 'Joëlle Léandre / Vincent Courtois - Live at Kesselhaus Berlin 08.06.2013 by Joëlle Léandre, Vincent Courtois', 'Blue Goo Park by JOËLLE LÉANDRE &amp; RÜDIGER CARL', 'DESORDRE by Alexandra Grimal, Joëlle Léandre', 'The Bill has been Paid by Steve Dalachinsky • Joëlle Léandre', 'Can you smile? by THÉO CECCALDI TRIO + JOËLLE LÉANDRE', 'Passagio by Sylvie Courvoisier, Joëlle Léandre, Susie Ibarra' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 727,
+          user_id: 1,
+          name: '(Hans) Jean Arp (artist/sculptor) born 1886',
+          color: '#201C1B',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/8900d1b0-2a39-401b-ae37-60002ba97158.jpeg',
+          day_of: new Date ('1886-09-16  21:00:00 GMT'),
+          is_annual: true,
+          art_override: true,
+          music_override: false,
+          override_content: {
+            "img_paths": [ 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/before-my-birth-1914.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/geometric-forms.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/relief-clock.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/abstract-composition-jean.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/geometric-collage-jean.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/terrestrial-forest-form-1917.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/shirt-front-and-fork-1922.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/head-with-mustache.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/tete-paysage-1926.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/configuration.jpeg', 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/the-sun-recircled-1966.jpeg' ],
+            "titles": [ 'Before my Birth', 'Geometric Forms', 'Relief, Clock', 'Abstract Composition', 'Geometric Collage', 'Terrestrial Forest Form', 'Shirt Front and Fork', 'Head with mustache', 'Tete Paysage', 'Configuration', 'The Sun Recircled' ],
+            "artists": [ 'Jean Arp', 'Jean Arp', 'Jean Arp', 'Jean Arp', 'Jean Arp', 'Jean Arp', 'Jean Arp', 'Jean Arp', 'Jean Arp', 'Jean Arp', 'Jean Arp' ],
+            "years": [ '1914', '1914', '1914', '1915', '1916', '1917', '1922', '1926', '1924 - 1926', '1927', '1966' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

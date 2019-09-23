@@ -7569,9 +7569,9 @@ exports.seed = function(knex, Promise) {
           id: 379,
           user_id: 1,
           theme: 'Russian Revolution',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/.jpg',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_black_caviar.jpg',
           title: 'Black caviar',
-          artist: 'Black caviar',
+          artist: 'A.Andreadi',
           year: '1952',
           rule: {
             "monday": [ 28, 8, 19, 23 ],
@@ -8489,8 +8489,8 @@ exports.seed = function(knex, Promise) {
           id: 425,
           user_id: 1,
           theme: 'Russian Revolution',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_glory_to_peace.jpg',
-          title: 'Long live PEACE!',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/6c6ea3fa-5e27-4d8f-9d49-5c159f92bbee-1118x2040.jpeg',
+          title: 'Will Give Everything for the Front!',
           artist: '?',
           year: '?',
           rule: {
@@ -9709,10 +9709,10 @@ exports.seed = function(knex, Promise) {
           id: 486,
           user_id: 1,
           theme: 'Russian Revolution',
-          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Hr_013.jpg',
-          title: 'To the new lands, COME WITH US!',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/BRM2718-Fulfill-Partys-Commission-1957_lowres-3000x2107.jpg',
+          title: 'Fulfill Party\'s Commission',
           artist: '?',
-          year: '?',
+          year: '1957',
           rule: {
             "monday": [ 17, 18, 29, 2 ],
             "tuesday": [ 13, 24, 4, 8 ],
@@ -10601,6 +10601,106 @@ exports.seed = function(knex, Promise) {
             "friday": [ 18, 29, 9, 13 ],
             "saturday": [ 17, 28, 8, 12 ],
             "sunday": [ 16, 27, 8, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_women_planet.jpg',
+          title: 'Women of the planet for peace and friendship!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 16, 27, 8, 11 ],
+            "tuesday": [ 15, 26, 6, 10 ],
+            "wednesday": [ 14, 25, 4, 9 ],
+            "thursday": [ 23, 24, 4, 8 ],
+            "friday": [ 19, 30, 10, 14 ],
+            "saturday": [ 18, 29, 9, 13 ],
+            "sunday": [ 17, 28, 8, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_1549279897vietnam_war.jpg',
+          title: 'We are in solidarity with you, Vietnam!',
+          artist: 'R. Suryaninov',
+          year: '1979',
+          rule: {
+            "monday": [ 18, 29, 9, 13 ],
+            "tuesday": [ 17, 28, 9, 12 ],
+            "wednesday": [ 16, 27, 7, 11 ],
+            "thursday": [ 15, 26, 5, 10 ],
+            "friday": [ 24, 25, 5, 9 ],
+            "saturday": [ 20, 31, 11, 15 ],
+            "sunday": [ 19, 30, 10, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_310.jpg',
+          title: 'To the memory of Pablo Neruda',
+          artist: '?',
+          year: '1973',
+          rule: {
+            "monday": [ 19, 30, 10, 14 ],
+            "tuesday": [ 18, 29, 9, 13 ],
+            "wednesday": [ 17, 28, 9, 12 ],
+            "thursday": [ 16, 27, 7, 11 ],
+            "friday": [ 15, 26, 5, 10 ],
+            "saturday": [ 24, 25, 5, 9 ],
+            "sunday": [ 20, 31, 11, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_sovpolpost_00096.jpg',
+          title: 'Happy holidays, dear girls!',
+          artist: '?',
+          year: '1966',
+          rule: {
+            "monday": [ 20, 31, 11, 15 ],
+            "tuesday": [ 19, 30, 10, 14 ],
+            "wednesday": [ 18, 29, 9, 13 ],
+            "thursday": [ 17, 28, 9, 12 ],
+            "friday": [ 16, 27, 7, 11 ],
+            "saturday": [ 15, 26, 5, 10 ],
+            "sunday": [ 24, 25, 5, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_344.jpg',
+          title: 'The plans of the party - my plans!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 24, 25, 5, 9 ],
+            "tuesday": [ 20, 31, 11, 15 ],
+            "wednesday": [ 19, 30, 10, 14 ],
+            "thursday": [ 18, 29, 9, 13 ],
+            "friday": [ 17, 28, 9, 12 ],
+            "saturday": [ 16, 27, 7, 11 ],
+            "sunday": [ 15, 26, 5, 10 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

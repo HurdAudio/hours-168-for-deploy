@@ -5998,6 +5998,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 334,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2088394188/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://chastity-belt.bandcamp.com/album/chastity-belt',
+          a_string: 'Chastity Belt by Chastity Belt',
+          rule: {
+            "monday": [ 14, 16, 20, 28 ],
+            "tuesday": [ 18, 20, 24, 1 ],
+            "wednesday": [ 17, 19, 23, 31 ],
+            "thursday": [ 16, 18, 22, 30 ],
+            "saturday": [ 15, 16, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 335,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=759075004/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://perravida.bandcamp.com/album/eterno-retorno',
+          a_string: 'Eterno Retorno by PERRA VIDA',
+          rule: {
+            "monday": [ 15, 16, 21, 29 ],
+            "tuesday": [ 14, 16, 20, 28 ],
+            "wednesday": [ 18, 20, 24, 1 ],
+            "thursday": [ 17, 19, 23, 31 ],
+            "saturday": [ 16, 18, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 336,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4219426296/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://runchildrun.bandcamp.com/album/peace-process',
+          a_string: 'Peace Process by Run Child Run',
+          rule: {
+            "monday": [ 17, 19, 23, 31 ],
+            "tuesday": [ 16, 17, 22, 30 ],
+            "wednesday": [ 15, 17, 21, 29 ],
+            "thursday": [ 19, 21, 25, 2 ],
+            "saturday": [ 18, 20, 24, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

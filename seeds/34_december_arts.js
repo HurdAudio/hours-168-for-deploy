@@ -10204,6 +10204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 511,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/44-03,WeirdTales3.jpg',
+          title: 'Weird Tales',
+          artist: 'John Giunta',
+          year: '1944',
+          rule: {
+            "monday": [ 13, 26, 3, 9 ],
+            "tuesday": [ 12, 25, 2, 8 ],
+            "wednesday": [ 11, 24, 1, 7 ],
+            "thursday": [ 10, 22, 21, 6 ],
+            "friday": [ 30, 22, 10, 17 ],
+            "saturday": [ 15, 28, 5, 11 ],
+            "sunday": [ 14, 26, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 512,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/38-04,DmMyst.jpg',
+          title: 'Dime Mystery',
+          artist: 'Graves Gladney',
+          year: '1938',
+          rule: {
+            "monday": [ 14, 26, 4, 10 ],
+            "tuesday": [ 13, 26, 3, 9 ],
+            "wednesday": [ 12, 25, 2, 8 ],
+            "thursday": [ 11, 24, 1, 7 ],
+            "friday": [ 10, 22, 21, 6 ],
+            "saturday": [ 30, 22, 10, 17 ],
+            "sunday": [ 15, 28, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 513,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/25-09,Trpl-X.jpg',
+          title: 'Triple-X Magazine',
+          artist: 'F. R. Glass',
+          year: '1925',
+          rule: {
+            "monday": [ 15, 28, 5, 11 ],
+            "tuesday": [ 14, 26, 4, 10 ],
+            "wednesday": [ 13, 26, 3, 9 ],
+            "thursday": [ 12, 25, 2, 8 ],
+            "friday": [ 11, 24, 1, 7 ],
+            "saturday": [ 10, 22, 21, 6 ],
+            "sunday": [ 30, 22, 10, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 514,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/27-12,Thrills.jpg',
+          title: 'Thrills',
+          artist: 'Bertram Glover',
+          year: '1927',
+          rule: {
+            "monday": [ 30, 22, 10, 17 ],
+            "tuesday": [ 15, 28, 5, 11 ],
+            "wednesday": [ 14, 26, 4, 10 ],
+            "thursday": [ 13, 26, 3, 9 ],
+            "friday": [ 12, 25, 2, 8 ],
+            "saturday": [ 11, 24, 1, 7 ],
+            "sunday": [ 10, 22, 21, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 515,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/21-00,MaryJane2.jpg',
+          title: 'Mary Jane Book',
+          artist: 'Thelma Gooch',
+          year: '1921',
+          rule: {
+            "monday": [ 10, 22, 21, 6 ],
+            "tuesday": [ 30, 22, 10, 17 ],
+            "wednesday": [ 15, 28, 5, 11 ],
+            "thursday": [ 14, 26, 4, 10 ],
+            "friday": [ 13, 26, 3, 9 ],
+            "saturday": [ 12, 25, 2, 8 ],
+            "sunday": [ 11, 24, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

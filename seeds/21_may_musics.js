@@ -6214,6 +6214,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 346,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=485088595/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://badabingrecords.bandcamp.com/album/rare-ravers-2',
+          a_string: 'Rare Ravers by The Dead C',
+          rule: {
+            "monday": [ 21, 27, 3, 16 ],
+            "tuesday": [ 20, 26, 2, 15 ],
+            "wednesday": [ 19, 25, 1, 14 ],
+            "thursday": [ 18, 24, 31, 13 ],
+            "saturday": [ 17, 23, 30, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 347,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=560525658/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://fractalmeat.bandcamp.com/album/purge',
+          a_string: 'Purge by Left Hand Cuts Off The Right',
+          rule: {
+            "monday": [ 17, 23, 30, 12 ],
+            "tuesday": [ 21, 27, 3, 16 ],
+            "wednesday": [ 20, 26, 2, 15 ],
+            "thursday": [ 19, 25, 1, 14 ],
+            "saturday": [ 18, 24, 31, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 348,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3655326234/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cherylleonard.bandcamp.com/album/watershed',
+          a_string: 'Watershed by Cheryl E. Leonard',
+          rule: {
+            "monday": [ 18, 24, 31, 13 ],
+            "tuesday": [ 17, 23, 30, 12 ],
+            "wednesday": [ 21, 27, 3, 16 ],
+            "thursday": [ 20, 26, 2, 15 ],
+            "saturday": [ 19, 25, 1, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

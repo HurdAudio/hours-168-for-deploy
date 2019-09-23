@@ -12004,6 +12004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 601,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/watching-the-clock-1958.jpeg',
+          title: 'Watching the Clock',
+          artist: 'Kay Sage',
+          year: '1958',
+          rule: {
+            "monday": [ 20, 31, 7, 17 ],
+            "tuesday": [ 19, 29, 6, 16 ],
+            "wednesday": [ 18, 28, 6, 15 ],
+            "thursday": [ 24, 2, 12, 20 ],
+            "friday": [ 23, 2, 10, 20 ],
+            "saturday": [ 21, 1, 9, 19 ],
+            "sunday": [ 21, 31, 8, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 602,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/clown-tight-rope-walker-1942.jpeg',
+          title: 'Clown tight rope walker',
+          artist: 'Louise Nevelson',
+          year: '1942',
+          rule: {
+            "monday": [ 22, 1, 9, 19 ],
+            "tuesday": [ 21, 1, 8, 18 ],
+            "wednesday": [ 20, 30, 7, 17 ],
+            "thursday": [ 19, 29, 7, 16 ],
+            "friday": [ 25, 3, 13, 21 ],
+            "saturday": [ 24, 3, 11, 21 ],
+            "sunday": [ 22, 2, 10, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 603,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/cules-de-vie.jpeg',
+          title: 'Vineyard Harvest',
+          artist: 'Micaela Eleutheriade',
+          year: '?',
+          rule: {
+            "monday":[ 22, 2, 10, 20 ],
+            "tuesday": [ 22, 1, 9, 19 ],
+            "wednesday": [ 21, 1, 8, 18 ],
+            "thursday": [ 20, 30, 7, 17 ],
+            "friday": [ 19, 29, 7, 16 ],
+            "saturday": [ 25, 3, 13, 21 ],
+            "sunday": [ 24, 3, 11, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 604,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/field-of-the-collective-farm-1949.jpeg',
+          title: 'Field of the collective farm',
+          artist: 'Kateryna Bilokur',
+          year: '1948 - 1949',
+          rule: {
+            "monday": [ 24, 3, 11, 21 ],
+            "tuesday": [ 22, 2, 10, 20 ],
+            "wednesday": [ 22, 1, 9, 19 ],
+            "thursday": [ 21, 1, 8, 18 ],
+            "friday": [ 20, 30, 7, 17 ],
+            "saturday": [ 19, 29, 7, 16 ],
+            "sunday": [ 25, 3, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 605,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/screenshot-2019-07-04-19-54-21.jpeg',
+          title: 'City Scene',
+          artist: 'Esther Newport',
+          year: '?',
+          rule: {
+            "monday": [ 25, 3, 13, 21 ],
+            "tuesday": [ 24, 3, 11, 21 ],
+            "wednesday": [ 22, 2, 10, 20 ],
+            "thursday": [ 22, 1, 9, 19 ],
+            "friday": [ 21, 1, 8, 18 ],
+            "saturday": [ 20, 30, 7, 17 ],
+            "sunday": [ 19, 29, 7, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

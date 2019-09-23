@@ -11404,6 +11404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 571,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/different_shades_of_the_same_grey_by_ineedchemicalx_d81k6lm-fullview.jpg',
+          title: 'Different shades of the same grey',
+          artist: 'felicia "ineedchemicalx"',
+          year: '2014',
+          rule: {
+            "monday": [ 15, 25, 5, 13 ],
+            "tuesday": [ 21, 1, 11, 18 ],
+            "wednesday": [ 20, 30, 11, 18 ],
+            "thursday": [ 19, 29, 9, 7 ],
+            "friday": [ 18, 28, 8, 15 ],
+            "saturday": [ 27, 7, 17, 15 ],
+            "sunday": [ 16, 26, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 572,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/the_second_floor_by_ineedchemicalx_dbqbibo-fullview.jpg',
+          title: 'The second floor',
+          artist: 'felicia "ineedchemicalx"',
+          year: '2017',
+          rule: {
+            "monday": [ 16, 26, 6, 14 ],
+            "tuesday": [ 15, 25, 5, 13 ],
+            "wednesday": [ 21, 1, 11, 18 ],
+            "thursday": [ 20, 30, 11, 18 ],
+            "friday": [ 19, 29, 9, 7 ],
+            "saturday": [ 18, 28, 8, 15 ],
+            "sunday": [ 27, 7, 17, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 573,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d1xkfxd-de4f51a2-b418-47c7-8528-a2f67bf14fca.jpg',
+          title: 'Serenity II',
+          artist: 'Xavier Rey',
+          year: '2009',
+          rule: {
+            "monday": [ 27, 7, 17, 15 ],
+            "tuesday": [ 16, 26, 6, 14 ],
+            "wednesday": [ 15, 25, 5, 13 ],
+            "thursday": [ 21, 1, 11, 18 ],
+            "friday": [ 20, 30, 11, 18 ],
+            "saturday": [ 19, 29, 9, 7 ],
+            "sunday": [ 18, 28, 8, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 574,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/____by_mariababintseva_dd5raxo-fullview.jpg',
+          title: '***',
+          artist: 'Maria Babintseva',
+          year: '2019',
+          rule: {
+            "monday": [ 19, 29, 9, 16 ],
+            "tuesday": [ 28, 8, 18, 16 ],
+            "wednesday": [ 17, 27, 7, 15 ],
+            "thursday": [ 16, 26, 6, 14 ],
+            "friday": [ 22, 2, 12, 19 ],
+            "saturday": [ 21, 1, 12, 19 ],
+            "sunday": [ 20, 30, 10, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 575,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/adam_osser_s_factory_by_lantret_ddgqsof-pre.jpg',
+          title: 'Adam Osser\'s Factory',
+          artist: 'Lantret',
+          year: '2019',
+          rule: {
+            "monday": [ 20, 30, 10, 8 ],
+            "tuesday": [ 19, 29, 9, 16 ],
+            "wednesday": [ 28, 8, 18, 16 ],
+            "thursday": [ 17, 27, 7, 15 ],
+            "friday": [ 16, 26, 6, 14 ],
+            "saturday": [ 22, 2, 12, 19 ],
+            "sunday": [ 21, 1, 12, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

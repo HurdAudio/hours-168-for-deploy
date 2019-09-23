@@ -10804,6 +10804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 541,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/new-york-woman-leaning-on-storefront-window-1960.jpeg',
+          title: 'New York (Woman Leaning on Storefront Window)',
+          artist: 'Vivian Maier',
+          year: '1960',
+          rule: {
+            "monday": [ 18, 23, 12, 20 ],
+            "tuesday": [ 16, 23, 11, 19 ],
+            "wednesday": [ 16, 22, 10, 18 ],
+            "thursday": [ 5, 21, 9, 18 ],
+            "friday": [ 4, 11, 8, 16 ],
+            "saturday": [ 12, 19, 7, 14 ],
+            "sunday": [ 19, 25, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 542,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/one-world-1961.jpeg',
+          title: 'One World',
+          artist: 'John Ferren',
+          year: '1961',
+          rule: {
+            "monday": [ 19, 25, 13, 21 ],
+            "tuesday": [ 18, 23, 12, 20 ],
+            "wednesday": [ 16, 23, 11, 19 ],
+            "thursday": [ 16, 22, 10, 18 ],
+            "friday": [ 5, 21, 9, 18 ],
+            "saturday": [ 4, 11, 8, 16 ],
+            "sunday": [ 12, 19, 7, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 543,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/pot-of-shells-1971.jpeg',
+          title: 'Pot of Shells',
+          artist: 'Mary Fedden',
+          year: '1971',
+          rule: {
+            "monday": [ 12, 19, 7, 14 ],
+            "tuesday": [ 19, 25, 13, 21 ],
+            "wednesday": [ 18, 23, 12, 20 ],
+            "thursday": [ 16, 23, 11, 19 ],
+            "friday": [ 16, 22, 10, 18 ],
+            "saturday": [ 5, 21, 9, 18 ],
+            "sunday": [ 4, 11, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 544,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/autumn-wind-and-stars-1988.jpeg',
+          title: 'Autumn Wind and Stars',
+          artist: 'Karl Schrag',
+          year: '1988',
+          rule: {
+            "monday": [ 4, 11, 8, 16 ],
+            "tuesday": [ 12, 19, 7, 14 ],
+            "wednesday": [ 19, 25, 13, 21 ],
+            "thursday": [ 18, 23, 12, 20 ],
+            "friday": [ 16, 23, 11, 19 ],
+            "saturday": [ 16, 22, 10, 18 ],
+            "sunday": [ 5, 21, 9, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 545,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-mass-demon-1954.jpeg',
+          title: 'The Mass Demon',
+          artist: 'Friedrich Schroder-Sonnenstern',
+          year: '1954',
+          rule: {
+            "monday": [ 5, 21, 9, 18 ],
+            "tuesday": [ 4, 11, 8, 16 ],
+            "wednesday": [ 12, 19, 7, 14 ],
+            "thursday": [ 19, 25, 13, 21 ],
+            "friday": [ 18, 23, 12, 20 ],
+            "saturday": [ 16, 23, 11, 19 ],
+            "sunday": [ 16, 22, 10, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

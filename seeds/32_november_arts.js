@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/bed-head-2002.jpeg',
+          title: 'Bed-Head',
+          artist: 'Jim Lambie',
+          year: '2002',
+          rule: {
+            "monday": [ 22, 24, 2, 28 ],
+            "tuesday": [ 21, 25, 2, 5 ],
+            "wednesday": [ 20, 23, 30, 5 ],
+            "thursday": [ 18, 23, 29, 4 ],
+            "friday": [ 17, 22, 28, 3 ],
+            "saturday": [ 17, 22, 28, 5 ],
+            "sunday": [ 23, 28, 4, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/radic-tiva.jpeg',
+          title: 'Radic\'tiva',
+          artist: 'Rodolfo Arico',
+          year: '?',
+          rule: {
+            "monday": [ 23, 28, 4, 9 ],
+            "tuesday": [ 22, 24, 2, 28 ],
+            "wednesday": [ 21, 25, 2, 5 ],
+            "thursday": [ 20, 23, 30, 5 ],
+            "friday": [ 18, 23, 29, 4 ],
+            "saturday": [ 17, 22, 28, 3 ],
+            "sunday": [ 17, 22, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/vuoto-blu.jpeg',
+          title: 'Vuoto blu',
+          artist: 'Rodolfo Arico',
+          year: '?',
+          rule: {
+            "monday": [ 17, 22, 28, 5 ],
+            "tuesday": [ 23, 28, 4, 9 ],
+            "wednesday": [ 22, 24, 2, 28 ],
+            "thursday": [ 21, 25, 2, 5 ],
+            "friday": [ 20, 23, 30, 5 ],
+            "saturday": [ 18, 23, 29, 4 ],
+            "sunday": [ 17, 22, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/double-glaze-painting-cerulean-blue-ruby-lake-2002.jpeg',
+          title: 'Double Glaze Painting: Cerulean Blue/Ruby Lake',
+          artist: 'Marcia Hafif',
+          year: '2002',
+          rule: {
+            "monday": [ 17, 22, 28, 3 ],
+            "tuesday": [ 17, 22, 28, 5 ],
+            "wednesday": [ 23, 28, 4, 9 ],
+            "thursday": [ 22, 24, 2, 28 ],
+            "friday": [ 21, 25, 2, 5 ],
+            "saturday": [ 20, 23, 30, 5 ],
+            "sunday": [ 18, 23, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/inseparabili-dittico-2002.jpeg',
+          title: 'Inseparabili Dittico',
+          artist: 'Ettore Spalletti',
+          year: '2002',
+          rule: {
+            "monday": [ 19, 24, 30, 5 ],
+            "tuesday": [ 18, 23, 29, 4 ],
+            "wednesday": [ 18, 23, 29, 6 ],
+            "thursday": [ 24, 29, 5, 10 ],
+            "friday": [ 23, 25, 3, 29 ],
+            "saturday": [ 22, 26, 3, 6 ],
+            "sunday": [ 21, 24, 1, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

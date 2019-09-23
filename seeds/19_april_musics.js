@@ -6322,6 +6322,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 352,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=143335316/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://underpool.bandcamp.com/album/retrato',
+          a_string: 'Retrato by Jorge Abadias',
+          rule: {
+            "monday": [ 24, 2, 14, 19 ],
+            "tuesday": [ 23, 30, 13, 18 ],
+            "wednesday": [ 22, 30, 12, 17 ],
+            "thursday": [ 21, 29, 10, 16 ],
+            "saturday": [ 20, 28, 10, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 353,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3312902914/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://barquitosedward.bandcamp.com/album/lo-que-el-destino-te-depare',
+          a_string: 'Lo que el destino te depare by Barquitos Edward',
+          rule: {
+            "monday": [ 20, 28, 10, 15 ],
+            "tuesday": [ 24, 2, 14, 19 ],
+            "wednesday": [ 23, 30, 13, 18 ],
+            "thursday": [ 22, 30, 12, 17 ],
+            "saturday": [ 21, 29, 10, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 354,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=817232753/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://rebeccanashatlas.bandcamp.com/album/peaceful-king',
+          a_string: 'Peaceful King by Rebecca Nash and Atlas',
+          rule: {
+            "monday": [ 21, 29, 10, 16 ],
+            "tuesday": [ 20, 28, 10, 15 ],
+            "wednesday": [ 24, 2, 14, 19 ],
+            "thursday": [ 23, 30, 13, 18 ],
+            "saturday": [ 22, 30, 12, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

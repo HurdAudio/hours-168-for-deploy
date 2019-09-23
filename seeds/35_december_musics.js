@@ -5458,6 +5458,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 304,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3384053794/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://rhythmandroots.bandcamp.com/album/a-guide-to-the-birdsong-of-south-america',
+          a_string: 'A Guide to the Birdsong of South America by Rhythm and Roots',
+          rule: {
+            "monday": [ 14, 22, 28, 3 ],
+            "tuesday": [ 15, 21, 27, 2 ],
+            "wednesday": [ 19, 25, 31, 6 ],
+            "thursday": [ 18, 24, 30, 5 ],
+            "saturday": [ 15, 23, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 305,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3385164633/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://basytropikalne.bandcamp.com/album/basy-tropikalne-2-latin-america',
+          a_string: 'Basy Tropikalne #2 (Latin America) by Basy Tropikalne',
+          rule: {
+            "monday": [ 15, 23, 29, 4 ],
+            "tuesday": [ 14, 22, 28, 3 ],
+            "wednesday": [ 15, 21, 27, 2 ],
+            "thursday": [ 19, 25, 31, 6 ],
+            "saturday": [ 18, 24, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 306,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3928213124/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://redtruthrecords.bandcamp.com/album/demonauta-tierra-del-fuego-2017',
+          a_string: 'DEMONAUTA - Tierra del Fuego (2017) by Red Truth Records',
+          rule: {
+            "monday": [ 18, 24, 30, 5 ],
+            "tuesday": [ 15, 23, 29, 4 ],
+            "wednesday": [ 14, 22, 28, 3 ],
+            "thursday": [ 15, 21, 27, 2 ],
+            "saturday": [ 19, 25, 31, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -64,7 +64,8 @@ router.patch('/:id', (req, res, next) => {
     tiles_id: req.body.tiles_id,
     share_associate_id: req.body.share_associate_id,
     responded: req.body.responded,
-    accepted: req.body.accepted
+    accepted: req.body.accepted,
+    updated_at: req.body.updated_at
   }, '*')
     .then((results)=>{
        res.status(200).send(results[0]);

@@ -6430,6 +6430,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 358,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=608777482/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://nahawadoumbia.bandcamp.com/album/la-grande-cantatrice-malienne-vol-1',
+          a_string: 'La Grande Cantatrice Malienne Vol 1 by Nahawa Doumbia',
+          rule: {
+            "monday": [ 22, 28, 3, 11 ],
+            "tuesday": [ 26, 1, 7, 15 ],
+            "wednesday": [ 25, 31, 5, 14 ],
+            "thursday": [ 24, 30, 5, 14 ],
+            "saturday": [ 22, 29, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 359,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3944860468/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://brittanyhoward.bandcamp.com/album/jaime',
+          a_string: 'Jaime by Brittany Howard',
+          rule: {
+            "monday": [ 22, 29, 4, 12 ],
+            "tuesday": [ 22, 28, 3, 11 ],
+            "wednesday": [ 26, 1, 7, 15 ],
+            "thursday": [ 25, 31, 5, 14 ],
+            "saturday": [ 24, 30, 5, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 360,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2340474420/size=large/bgcol=ffffff/linkcol=0687f5/license_id=636/tracklist=false/transparent=true/',
+          href_string: 'http://suizhen.bandcamp.com/album/losing-linda',
+          a_string: 'Losing, Linda by Sui Zhen',
+          rule: {
+            "monday": [ 24, 30, 5, 14 ],
+            "tuesday": [ 22, 29, 4, 12 ],
+            "wednesday": [ 22, 28, 3, 11 ],
+            "thursday": [ 26, 1, 7, 15 ],
+            "saturday": [ 25, 31, 5, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
