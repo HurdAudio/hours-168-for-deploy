@@ -6376,6 +6376,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 355,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=604415935/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://helensvobodasprout.bandcamp.com/album/sleep-architecture',
+          a_string: 'Sleep Architecture by Helen Svoboda&#39;s SPROUT',
+          rule: {
+            "monday": [ 22, 30, 12, 17 ],
+            "tuesday": [ 21, 29, 10, 16 ],
+            "wednesday": [ 20, 28, 10, 15 ],
+            "thursday": [ 24, 2, 14, 19 ],
+            "saturday": [ 23, 30, 13, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 356,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3951069470/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jeremyudden.bandcamp.com/album/three-in-paris',
+          a_string: 'Three In Paris by Jeremy Udden',
+          rule: {
+            "monday": [ 23, 30, 13, 18 ],
+            "tuesday": [ 22, 30, 12, 17 ],
+            "wednesday": [ 21, 29, 10, 16 ],
+            "thursday": [ 20, 28, 10, 15 ],
+            "saturday": [ 24, 2, 14, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 357,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=592568471/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://peterbroetzmann.bandcamp.com/album/i-surrender-dear',
+          a_string: 'I Surrender Dear by Brötzmann Solo',
+          rule: {
+            "monday": [ 25, 3, 15, 20 ],
+            "tuesday": [ 24, 1, 14, 19 ],
+            "wednesday": [ 23, 1, 13, 18 ],
+            "thursday": [ 22, 30, 11, 17 ],
+            "saturday": [ 21, 29, 11, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

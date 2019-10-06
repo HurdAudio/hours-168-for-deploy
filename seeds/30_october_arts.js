@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_304.jpg',
+          title: 'Brave labor of the fishermen is in country\'s respect. Have a nice catch, have a nice journey!',
+          artist: '?',
+          year: '/',
+          rule: {
+            "monday": [ 15, 26, 5, 10 ],
+            "tuesday": [ 24, 25, 5, 9 ],
+            "wednesday": [ 20, 31, 11, 15 ],
+            "thursday": [ 19, 30, 10, 14 ],
+            "friday": [ 18, 29, 9, 13 ],
+            "saturday": [ 17, 28, 9, 12 ],
+            "sunday": [ 16, 27, 7, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_375.jpg',
+          title: 'Every child is our child! Do not let children smoke!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 16, 27, 7, 11 ],
+            "tuesday": [ 15, 26, 5, 10 ],
+            "wednesday": [ 24, 25, 5, 9 ],
+            "thursday": [ 20, 31, 11, 15 ],
+            "friday": [ 19, 30, 10, 14 ],
+            "saturday": [ 18, 29, 9, 13 ],
+            "sunday": [ 17, 28, 9, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_puzzle.jpg',
+          title: 'Where a liqueur (shot) glass is leading to...',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 17, 28, 9, 12 ],
+            "tuesday": [ 16, 27, 7, 11 ],
+            "wednesday": [ 15, 26, 5, 10 ],
+            "thursday": [ 24, 25, 5, 9 ],
+            "friday": [ 20, 31, 11, 15 ],
+            "saturday": [ 19, 30, 10, 14 ],
+            "sunday": [ 18, 29, 9, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_343.jpg',
+          title: 'Constitution of the Soviet Union',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 19, 30, 10, 14 ],
+            "tuesday": [ 18, 29, 10, 13 ],
+            "wednesday": [ 17, 28, 8, 12 ],
+            "thursday": [ 16, 27, 6, 11 ],
+            "friday": [ 25, 26, 6, 10 ],
+            "saturday": [ 21, 1, 12, 16 ],
+            "sunday": [ 20, 31, 11, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_337.jpg',
+          title: 'Save work minute!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 20, 31, 11, 15 ],
+            "tuesday": [ 19, 30, 10, 14 ],
+            "wednesday": [ 18, 29, 10, 13 ],
+            "thursday": [ 17, 28, 8, 12 ],
+            "friday": [ 16, 27, 6, 11 ],
+            "saturday": [ 25, 26, 6, 10 ],
+            "sunday": [ 21, 1, 12, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

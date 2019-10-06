@@ -5836,6 +5836,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 325,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3882273810/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://chrislightcappyroclastic.bandcamp.com/album/superbigmouth',
+          a_string: 'SuperBigmouth by Chris Lightcap',
+          rule: {
+            "monday": [ 19, 9, 17, 10 ],
+            "tuesday": [ 19, 8, 16, 10 ],
+            "wednesday": [ 17, 7, 15, 9 ],
+            "thursday": [ 21, 11, 19, 13 ],
+            "saturday": [ 20, 10, 18, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 326,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3055354661/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://dusanjevtovic-moonjune.bandcamp.com/album/am-i-walking-wrong',
+          a_string: 'Am I Walking Wrong? by Dusan Jevtovic',
+          rule: {
+            "monday": [ 20, 10, 18, 12 ],
+            "tuesday": [ 19, 9, 17, 10 ],
+            "wednesday": [ 19, 8, 16, 10 ],
+            "thursday": [ 17, 7, 15, 9 ],
+            "saturday": [ 21, 11, 19, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 327,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3015332643/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://silhouettenl.bandcamp.com/album/a-maze',
+          a_string: 'A Maze by Silhouette',
+          rule: {
+            "monday": [ 21, 11, 19, 13 ],
+            "tuesday": [ 20, 10, 18, 12 ],
+            "wednesday": [ 19, 9, 17, 10 ],
+            "thursday": [ 19, 8, 16, 10 ],
+            "saturday": [ 17, 7, 15, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -10304,6 +10304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 516,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/38-04,DmDet2.jpg',
+          title: 'Dime Detective',
+          artist: 'John Fleming Gould',
+          year: '1938',
+          rule: {
+            "monday": [ 11, 24, 1, 7 ],
+            "tuesday": [ 10, 22, 21, 6 ],
+            "wednesday": [ 30, 22, 10, 17 ],
+            "thursday": [ 15, 28, 5, 11 ],
+            "friday": [ 14, 26, 4, 10 ],
+            "saturday": [ 13, 26, 3, 9 ],
+            "sunday": [ 12, 25, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 517,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/11-07,Hamptons.jpg',
+          title: 'Hampton\'s Magazine',
+          artist: 'Robert A. Graef',
+          year: '1911',
+          rule: {
+            "monday": [ 12, 25, 2, 8 ],
+            "tuesday": [ 11, 24, 1, 7 ],
+            "wednesday": [ 10, 22, 21, 6 ],
+            "thursday": [ 30, 22, 10, 17 ],
+            "friday": [ 15, 28, 5, 11 ],
+            "saturday": [ 14, 26, 4, 10 ],
+            "sunday": [ 13, 26, 3, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 518,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/1896,NewspaperAd.jpg',
+          title: 'Newspaper Ad',
+          artist: 'Louis F. Grant',
+          year: '1896',
+          rule: {
+            "monday": [ 14, 27, 4, 10 ],
+            "tuesday": [ 13, 26, 3, 9 ],
+            "wednesday": [ 12, 25, 2, 8 ],
+            "thursday": [ 11, 23, 22, 7 ],
+            "friday": [ 31, 23, 11, 18 ],
+            "saturday": [ 16, 29, 6, 12 ],
+            "sunday": [ 15, 27, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 519,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/14-06,Yearbook1.jpg',
+          title: 'H.S. Yearbook',
+          artist: 'William A. Gray',
+          year: '1914',
+          rule: {
+            "monday": [ 15, 27, 5, 11 ],
+            "tuesday": [ 14, 27, 4, 10 ],
+            "wednesday": [ 13, 26, 3, 9 ],
+            "thursday": [ 12, 25, 2, 8 ],
+            "friday": [ 11, 23, 22, 7 ],
+            "saturday": [ 31, 23, 11, 18 ],
+            "sunday": [ 16, 29, 6, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 520,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-05,DimeW.jpg',
+          title: 'Dime Western',
+          artist: 'Hamilton Greene',
+          year: '1936',
+          rule: {
+            "monday": [ 16, 29, 6, 12 ],
+            "tuesday": [ 15, 27, 5, 11 ],
+            "wednesday": [ 14, 27, 4, 10 ],
+            "thursday": [ 13, 26, 3, 9 ],
+            "friday": [ 12, 25, 2, 8 ],
+            "saturday": [ 11, 23, 22, 7 ],
+            "sunday": [ 31, 23, 11, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

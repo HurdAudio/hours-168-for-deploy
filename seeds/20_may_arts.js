@@ -11704,6 +11704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 586,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-final-turn-the-tass-window-1119-1944.jpeg',
+          title: 'The Final Act (The TASS WIndow №1119)',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 14, 25, 4, 13 ],
+            "tuesday": [ 12, 22, 1, 9 ],
+            "wednesday": [ 10, 19, 31, 9 ],
+            "thursday": [ 20, 1, 11, 19 ],
+            "friday": [ 20, 31, 9, 19 ],
+            "saturday": [ 18, 28, 5, 7 ],
+            "sunday": [ 15, 26, 5, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 587,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-krylov-s-marmoset-about-goebbels-the-tass-window-1109-1944.jpeg',
+          title: 'Krylov`s Marmoset about Goebbels (The TASS Window № 1109)',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 15, 26, 5, 25 ],
+            "tuesday": [ 14, 25, 4, 13 ],
+            "wednesday": [ 12, 22, 1, 9 ],
+            "thursday": [ 10, 19, 31, 9 ],
+            "friday": [ 20, 1, 11, 19 ],
+            "saturday": [ 20, 31, 9, 19 ],
+            "sunday": [ 18, 28, 5, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 588,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/three-years-of-war-the-tass-window-993-1944.jpeg',
+          title: 'Three years of war (The TASS window № 993)',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 19, 29, 6, 8 ],
+            "tuesday": [ 16, 27, 6, 26 ],
+            "wednesday": [ 15, 26, 5, 14 ],
+            "thursday": [ 13, 23, 2, 10 ],
+            "friday": [ 11, 20, 1, 10 ],
+            "saturday": [ 21, 2, 12, 20 ],
+            "sunday": [ 21, 1, 10, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 589,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/two-pots-tass-window-1027-1944.jpeg',
+          title: 'Two pots (TASS Window № 1027)',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 21, 1, 10, 20 ],
+            "tuesday": [ 19, 29, 6, 8 ],
+            "wednesday": [ 16, 27, 6, 26 ],
+            "thursday": [ 15, 26, 5, 14 ],
+            "friday": [ 13, 23, 2, 10 ],
+            "saturday": [ 11, 20, 1, 10 ],
+            "sunday": [ 21, 2, 12, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 590,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1944.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 21, 2, 12, 20 ],
+            "tuesday": [ 21, 1, 10, 20 ],
+            "wednesday": [ 19, 29, 6, 8 ],
+            "thursday": [ 16, 27, 6, 26 ],
+            "friday": [ 15, 26, 5, 14 ],
+            "saturday": [ 13, 23, 2, 10 ],
+            "sunday": [ 11, 20, 1, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

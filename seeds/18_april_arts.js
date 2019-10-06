@@ -11904,6 +11904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 596,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/51Rr1g5AWVL._SX425_.jpg',
+          title: 'Classic Baseball Print',
+          artist: 'Sparrow House Prints',
+          year: '?',
+          rule: {
+            "monday": [ 25, 1, 6, 12 ],
+            "tuesday": [ 9, 29, 5, 11 ],
+            "wednesday": [ 24, 27, 12, 11 ],
+            "thursday": [ 23, 27, 12, 10 ],
+            "friday": [ 20, 26, 2, 8 ],
+            "saturday": [ 21, 26, 2, 8 ],
+            "sunday": [ 20, 25, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 597,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/140f5c1cc460e8d9ef1861587d1e6b2d.jpg',
+          title: '1955 Brooklyn Dodgers Print',
+          artist: '?',
+          year: '1955',
+          rule: {
+            "monday": [ 20, 25, 1, 7 ],
+            "tuesday": [ 25, 1, 6, 12 ],
+            "wednesday": [ 9, 29, 5, 11 ],
+            "thursday": [ 24, 27, 12, 11 ],
+            "friday": [ 23, 27, 12, 10 ],
+            "saturday": [ 20, 26, 2, 8 ],
+            "sunday": [ 21, 26, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 598,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/36b4eab879855ddf39a96d2accb67628.jpg',
+          title: 'St. Louis 1963 Print',
+          artist: '?',
+          year: '1963',
+          rule: {
+            "monday": [ 21, 26, 2, 8 ],
+            "tuesday": [ 20, 25, 1, 7 ],
+            "wednesday": [ 25, 1, 6, 12 ],
+            "thursday": [ 9, 29, 5, 11 ],
+            "friday": [ 24, 27, 12, 11 ],
+            "saturday": [ 23, 27, 12, 10 ],
+            "sunday": [ 20, 26, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 599,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/03c2228ab109e06e0e1627f8465e5645.jpg',
+          title: 'San Diego 1998 Print',
+          artist: '?',
+          year: '1998',
+          rule: {
+            "monday": [ 21, 27, 3, 9 ],
+            "tuesday": [ 22, 27, 3, 9 ],
+            "wednesday": [ 21, 26, 2, 8 ],
+            "thursday": [ 26, 2, 7, 13 ],
+            "friday": [ 10, 30, 6, 12 ],
+            "saturday": [ 25, 28, 13, 12 ],
+            "sunday": [ 24, 28, 13, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 600,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/9d5427c18000d013f305ff4cee3be076.jpg',
+          title: 'Chicago Cubs 1952 Print',
+          artist: '?',
+          year: '1952',
+          rule: {
+            "monday": [ 24, 28, 13, 11 ],
+            "tuesday": [ 21, 27, 3, 9 ],
+            "wednesday": [ 22, 27, 3, 9 ],
+            "thursday": [ 21, 26, 2, 8 ],
+            "friday": [ 26, 2, 7, 13 ],
+            "saturday": [ 10, 30, 6, 12 ],
+            "sunday": [ 25, 28, 13, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

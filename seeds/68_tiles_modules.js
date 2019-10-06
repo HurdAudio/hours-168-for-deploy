@@ -1,4 +1,4 @@
-
+'use strict';
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
   return knex('tiles_modules').del()
@@ -1036,6 +1036,21 @@ exports.seed = function(knex, Promise) {
           color_dark: '#0C1F03',
           color_medium: '#B52A04',
           color_light: '#EAEAD8',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 70,
+          user_author_id: 1,
+          theme: 'Kandinsky',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/soft-roughness-1933.jpeg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#111717',
+          color_medium: '#5C2417',
+          color_light: '#CABDAD',
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

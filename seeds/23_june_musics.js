@@ -6160,6 +6160,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 343,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3741523507/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mariasomerville.bandcamp.com/album/all-my-people',
+          a_string: 'All My People by Maria Somerville',
+          rule: {
+            "monday": [ 19, 22, 27, 9 ],
+            "tuesday": [ 18, 21, 27, 8 ],
+            "wednesday": [ 18, 21, 27, 7 ],
+            "thursday": [ 16, 24, 26, 11 ],
+            "saturday": [ 20, 24, 30, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 344,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=93030345/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://atlanticrhythms.bandcamp.com/album/icon',
+          a_string: 'Icon by George Cory Todd',
+          rule: {
+            "monday": [ 20, 24, 30, 11 ],
+            "tuesday": [ 19, 22, 27, 9 ],
+            "wednesday": [ 18, 21, 27, 8 ],
+            "thursday": [ 18, 21, 27, 7 ],
+            "saturday": [ 16, 24, 26, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 345,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4013464311/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://kankyongaku.bandcamp.com/album/kanky-ongaku-japanese-ambient-environmental-new-age-music-1980-1990',
+          a_string: 'Kankyō Ongaku: Japanese Ambient, Environmental &amp; New Age Music 1980-1990 by Kankyō Ongaku',
+          rule: {
+            "monday": [ 16, 24, 26, 11 ],
+            "tuesday": [ 20, 24, 30, 11 ],
+            "wednesday": [ 19, 22, 27, 9 ],
+            "thursday": [ 18, 21, 27, 8 ],
+            "saturday": [ 18, 21, 27, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6700,6 +6700,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 373,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1054312521/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://othermindsrecords.bandcamp.com/album/george-antheil-the-complete-works-for-string-quartet',
+          a_string: 'George Antheil, the Complete Works for String Quartet by Del Sol String Quartet',
+          rule: {
+            "monday": [ 31, 6, 7, 9 ],
+            "tuesday": [ 30, 6, 7, 8 ],
+            "wednesday": [ 29, 4, 5, 6 ],
+            "thursday": [ 28, 4, 5, 6 ],
+            "saturday": [ 1, 8, 9, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 374,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1352657534/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://othermindsrecords.bandcamp.com/album/songs-of-ned-rorem',
+          a_string: 'Songs of Ned Rorem by Ned Rorem',
+          rule: {
+            "monday": [ 1, 8, 9, 10 ],
+            "tuesday": [ 31, 6, 7, 9 ],
+            "wednesday": [ 30, 6, 7, 8 ],
+            "thursday": [ 29, 4, 5, 6 ],
+            "saturday": [ 28, 4, 5, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 375,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4260644247/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://othermindsrecords.bandcamp.com/album/solo-for-voice-58-18-microtonal-ragas',
+          a_string: 'Solo for Voice 58: 18 Microtonal Ragas by Amelia Cuni',
+          rule: {
+            "monday": [ 28, 4, 5, 6 ],
+            "tuesday": [ 1, 8, 9, 10 ],
+            "wednesday": [ 31, 6, 7, 9 ],
+            "thursday": [ 30, 6, 7, 8 ],
+            "saturday": [ 29, 4, 5, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

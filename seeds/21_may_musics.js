@@ -6268,6 +6268,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 349,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=827538860/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://porest.bandcamp.com/album/abject-mirror-2',
+          a_string: 'Abject Mirror by Porest',
+          rule: {
+            "monday": [ 19, 25, 1, 14 ],
+            "tuesday": [ 18, 24, 31, 13 ],
+            "wednesday": [ 17, 23, 30, 12 ],
+            "thursday": [ 21, 27, 3, 16 ],
+            "saturday": [ 20, 26, 2, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 350,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1839158760/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://unseenworlds.bandcamp.com/album/unseen-worlds',
+          a_string: 'Unseen Worlds by Laurie Spiegel',
+          rule: {
+            "monday": [ 21, 27, 3, 16 ],
+            "tuesday": [ 20, 26, 2, 15 ],
+            "wednesday": [ 19, 25, 1, 14 ],
+            "thursday": [ 18, 24, 31, 13 ],
+            "saturday": [ 22, 28, 4, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 351,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2954980868/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://humanhoodrecordings.bandcamp.com/album/commuter-hhr45',
+          a_string: 'Commuter (HHR45) by Stelzer/Murray',
+          rule: {
+            "monday": [ 22, 28, 4, 17 ],
+            "tuesday": [ 21, 27, 3, 16 ],
+            "wednesday": [ 20, 26, 2, 15 ],
+            "thursday": [ 19, 25, 1, 14 ],
+            "saturday": [ 18, 24, 31, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

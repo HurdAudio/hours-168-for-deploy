@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/arrivalsq-1972.jpeg',
+          title: 'Arrival',
+          artist: 'Radi Nedelchev',
+          year: '1972',
+          rule: {
+            "monday": [ 17, 23, 11, 19 ],
+            "tuesday": [ 6, 22, 10, 19 ],
+            "wednesday": [ 5, 12, 9, 17 ],
+            "thursday": [ 13, 20, 8, 15 ],
+            "friday": [ 20, 26, 14, 22 ],
+            "saturday": [ 19, 24, 13, 21 ],
+            "sunday": [ 17, 24, 12, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-man-with-cat-and-dragonfly.jpeg',
+          title: 'The Man with Cat and Dragonfly',
+          artist: 'Sorin Ilfoveanu',
+          year: '?',
+          rule: {
+            "monday": [ 17, 24, 12, 20 ],
+            "tuesday": [ 17, 23, 11, 19 ],
+            "wednesday": [ 6, 22, 10, 19 ],
+            "thursday": [ 5, 12, 9, 17 ],
+            "friday": [ 13, 20, 8, 15 ],
+            "saturday": [ 20, 26, 14, 22 ],
+            "sunday": [ 19, 24, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/papag-lia-colcha-de-retalhos.jpeg',
+          title: 'Papagália – Colcha de Retalhos',
+          artist: 'Claudio Tozzi',
+          year: '?',
+          rule: {
+            "monday": [ 19, 24, 13, 21 ],
+            "tuesday": [ 17, 24, 12, 20 ],
+            "wednesday": [ 17, 23, 11, 19 ],
+            "thursday": [ 6, 22, 10, 19 ],
+            "friday": [ 5, 12, 9, 17 ],
+            "saturday": [ 13, 20, 8, 15 ],
+            "sunday": [ 20, 26, 14, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/in-the-middle-of-the-water-1971.jpeg',
+          title: 'In the Middle of the Water',
+          artist: 'Ding Yanyong',
+          year: '1971',
+          rule: {
+            "monday": [ 20, 26, 14, 22 ],
+            "tuesday": [ 19, 24, 13, 21 ],
+            "wednesday": [ 17, 24, 12, 20 ],
+            "thursday": [ 17, 23, 11, 19 ],
+            "friday": [ 6, 22, 10, 19 ],
+            "saturday": [ 5, 12, 9, 17 ],
+            "sunday": [ 13, 20, 8, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/lost-in-translation-2004.jpeg',
+          title: 'Lost in Translation',
+          artist: 'Peter Halley',
+          year: '2004',
+          rule: {
+            "monday": [ 13, 20, 8, 15 ],
+            "tuesday": [ 20, 26, 14, 22 ],
+            "wednesday": [ 19, 24, 13, 21 ],
+            "thursday": [ 17, 24, 12, 20 ],
+            "friday": [ 17, 23, 11, 19 ],
+            "saturday": [ 6, 22, 10, 19 ],
+            "sunday": [ 5, 12, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

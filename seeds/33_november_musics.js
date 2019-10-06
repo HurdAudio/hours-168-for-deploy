@@ -5620,6 +5620,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 313,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=171993720/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gordonkoang.bandcamp.com/album/stand-up-clap-your-hands',
+          a_string: 'Stand Up (Clap Your Hands) by Gordon Koang',
+          rule: {
+            "monday": [ 16, 27, 8, 12 ],
+            "tuesday": [ 15, 26, 7, 11 ],
+            "wednesday": [ 14, 25, 6, 10 ],
+            "thursday": [ 13, 24, 5, 16 ],
+            "saturday": [ 12, 23, 4, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 314,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2472526699/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gordonkoang.bandcamp.com/album/mal-mi-goa-salaam',
+          a_string: 'Mal Mi Goa / Salaam by Gordon Koang',
+          rule: {
+            "monday": [ 12, 23, 4, 16 ],
+            "tuesday": [ 16, 27, 8, 12 ],
+            "wednesday": [ 15, 26, 7, 11 ],
+            "thursday": [ 14, 25, 6, 10 ],
+            "saturday": [ 13, 24, 5, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 315,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1571993239/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tamikrest.bandcamp.com/album/kidal',
+          a_string: 'Kidal by Tamikrest',
+          rule: {
+            "monday": [ 14, 25, 6, 17 ],
+            "tuesday": [ 13, 24, 5, 17 ],
+            "wednesday": [ 17, 28, 9, 13 ],
+            "thursday": [ 16, 27, 8, 12 ],
+            "saturday": [ 15, 26, 7, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

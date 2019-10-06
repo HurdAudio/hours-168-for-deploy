@@ -6052,6 +6052,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 337,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=327169473/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://denguedenguedengue.bandcamp.com/album/zenit-nadir',
+          a_string: 'Zenit &amp; Nadir by Dengue Dengue Dengue',
+          rule: {
+            "monday": [ 18, 20, 24, 1 ],
+            "tuesday": [ 17, 19, 23, 31 ],
+            "wednesday": [ 16, 17, 22, 30 ],
+            "thursday": [ 15, 17, 21, 29 ],
+            "saturday": [ 19, 21, 25, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 338,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=906229539/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://saultglobal.bandcamp.com/album/7',
+          a_string: '7 by SAULT',
+          rule: {
+            "monday": [ 19, 21, 25, 2 ],
+            "tuesday": [ 18, 20, 24, 1 ],
+            "wednesday": [ 17, 19, 23, 31 ],
+            "thursday": [ 16, 17, 22, 30 ],
+            "saturday": [ 15, 17, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 339,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4203745599/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://saysueme.bandcamp.com/album/your-book-good-people',
+          a_string: 'Your Book / Good People by Say Sue Me',
+          rule: {
+            "monday": [ 15, 17, 21, 29 ],
+            "tuesday": [ 19, 21, 25, 2 ],
+            "wednesday": [ 18, 20, 24, 1 ],
+            "thursday": [ 17, 19, 23, 31 ],
+            "saturday": [ 16, 17, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

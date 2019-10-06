@@ -4264,6 +4264,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 356,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/come-l-acca-2007.jpeg',
+          title: 'Come l\'acca',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 357,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/cigolio-2007.jpeg',
+          title: 'Cigolio',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 358,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/leccare-2007.jpeg',
+          title: 'Leccare',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 359,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/goccia-di-terra-2007.jpeg',
+          title: 'Goccia di terra',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 360,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/lumi-2007.jpeg',
+          title: 'Lumi',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

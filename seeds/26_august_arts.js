@@ -11104,6 +11104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 556,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/americana-1931.jpeg',
+          title: 'Americana',
+          artist: 'Charles Sheeler',
+          year: '1931',
+          rule: {
+            "monday": [ 21, 25, 2, 18 ],
+            "tuesday": [ 20, 23, 1, 17 ],
+            "wednesday": [ 18, 23, 31, 16 ],
+            "thursday": [ 18, 20, 30, 15 ],
+            "friday": [ 17, 19, 29, 14 ],
+            "saturday": [ 16, 19, 28, 13 ],
+            "sunday": [ 15, 18, 27, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 557,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/moonwatchers.jpeg',
+          title: 'Moonwatchers',
+          artist: 'Leon Dabo',
+          year: 'IX-XX cent.',
+          rule: {
+            "monday": [ 15, 18, 27, 12 ],
+            "tuesday": [ 21, 25, 2, 18 ],
+            "wednesday": [ 20, 23, 1, 17 ],
+            "thursday": [ 18, 23, 31, 16 ],
+            "friday": [ 18, 20, 30, 15 ],
+            "saturday": [ 17, 19, 29, 14 ],
+            "sunday": [ 16, 19, 28, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 558,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/opus-55-r-gne-de-l-acier-poli-heerschappij-van-gepolijst-staal-1923.jpeg',
+          title: 'Opus 55. Règne de l’acier poli (Heerschappij van gepolijst staal)',
+          artist: 'Victor Servranckx',
+          year: '1923',
+          rule: {
+            "monday": [ 16, 19, 28, 13 ],
+            "tuesday": [ 15, 18, 27, 12 ],
+            "wednesday": [ 21, 25, 2, 18 ],
+            "thursday": [ 20, 23, 1, 17 ],
+            "friday": [ 18, 23, 31, 16 ],
+            "saturday": [ 18, 20, 30, 15 ],
+            "sunday": [ 17, 19, 29, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 559,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/chess-players-iii-1924.jpeg',
+          title: 'Chess Players III',
+          artist: 'Willi Baumeister',
+          year: '1924',
+          rule: {
+            "monday": [ 17, 19, 29, 14 ],
+            "tuesday": [ 16, 19, 28, 13 ],
+            "wednesday": [ 15, 18, 27, 12 ],
+            "thursday": [ 21, 25, 2, 18 ],
+            "friday": [ 20, 23, 1, 17 ],
+            "saturday": [ 18, 23, 31, 16 ],
+            "sunday": [ 18, 20, 30, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 560,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/autorretrato.jpeg',
+          title: 'Dora Rainha do Frevo',
+          artist: 'Anita Malfatti',
+          year: '1934',
+          rule: {
+            "monday": [ 18, 20, 30, 15 ],
+            "tuesday": [ 17, 19, 29, 14 ],
+            "wednesday": [ 16, 19, 28, 13 ],
+            "thursday": [ 15, 18, 27, 12 ],
+            "friday": [ 21, 25, 2, 18 ],
+            "saturday": [ 20, 23, 1, 17 ],
+            "sunday": [ 18, 23, 31, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

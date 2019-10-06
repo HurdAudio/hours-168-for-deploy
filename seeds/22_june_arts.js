@@ -11504,6 +11504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 576,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/wheel_mining_wagon_01_by_astoko_dbhv75l-fullview.jpg',
+          title: 'Wheel mining wagon 01',
+          artist: 'AStoKo',
+          year: '2017',
+          rule: {
+            "monday": [ 21, 1, 12, 19 ],
+            "tuesday": [ 20, 30, 10, 8 ],
+            "wednesday": [ 19, 29, 9, 16 ],
+            "thursday": [ 28, 8, 18, 16 ],
+            "friday": [ 17, 27, 7, 15 ],
+            "saturday": [ 16, 26, 6, 14 ],
+            "sunday": [ 22, 2, 12, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 577,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/awesome_spring_butterfly____by_danhecho_db4u2qx-fullview.jpg',
+          title: 'awesome spring butterfly...',
+          artist: 'Dan Hecho',
+          year: '2017',
+          rule: {
+            "monday": [ 22, 2, 12, 19 ],
+            "tuesday": [ 21, 1, 12, 19 ],
+            "wednesday": [ 20, 30, 10, 8 ],
+            "thursday": [ 19, 29, 9, 16 ],
+            "friday": [ 28, 8, 18, 16 ],
+            "saturday": [ 17, 27, 7, 15 ],
+            "sunday": [ 16, 26, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 578,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/equinox_by_tairenar_d9ys86a-fullview.jpg',
+          title: 'Equinox',
+          artist: 'Tairenar',
+          year: '2016',
+          rule: {
+            "monday": [ 16, 26, 6, 14 ],
+            "tuesday": [ 22, 2, 12, 19 ],
+            "wednesday": [ 21, 1, 12, 19 ],
+            "thursday": [ 20, 30, 10, 8 ],
+            "friday": [ 19, 29, 9, 16 ],
+            "saturday": [ 28, 8, 18, 16 ],
+            "sunday": [ 17, 27, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 579,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d4kkqiw-e09b9469-f95c-4730-a592-94183118e6f5.jpg',
+          title: 'Deep Couture',
+          artist: 'Isabelle Faith',
+          year: '2011',
+          rule: {
+            "monday": [ 17, 27, 7, 15 ],
+            "tuesday": [ 16, 26, 6, 14 ],
+            "wednesday": [ 22, 2, 12, 19 ],
+            "thursday": [ 21, 1, 12, 19 ],
+            "friday": [ 20, 30, 10, 8 ],
+            "saturday": [ 19, 29, 9, 16 ],
+            "sunday": [ 28, 8, 18, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 580,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d8b13ka-eaa91034-aae2-4edc-abf8-86549c04056b.png',
+          title: 'London',
+          artist: 'Nelleke Pieters',
+          year: '2014',
+          rule: {
+            "monday": [ 28, 8, 18, 16 ],
+            "tuesday": [ 17, 27, 7, 15 ],
+            "wednesday": [ 16, 26, 6, 14 ],
+            "thursday": [ 22, 2, 12, 19 ],
+            "friday": [ 21, 1, 12, 19 ],
+            "saturday": [ 20, 30, 10, 8 ],
+            "sunday": [ 19, 29, 9, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

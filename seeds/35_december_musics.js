@@ -5512,6 +5512,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 307,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3056428043/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tomarcontrol.bandcamp.com/album/nunca-m-s-callar',
+          a_string: 'Nunca más callar by ¡Tomar Control!',
+          rule: {
+            "monday": [ 19, 25, 31, 6 ],
+            "tuesday": [ 18, 24, 30, 5 ],
+            "wednesday": [ 15, 23, 29, 4 ],
+            "thursday": [ 14, 22, 28, 3 ],
+            "saturday": [ 15, 21, 27, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 308,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3629590149/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://perravida.bandcamp.com/album/perra-vida',
+          a_string: 'Perra Vida by PERRA VIDA',
+          rule: {
+            "monday": [ 16, 22, 28, 3 ],
+            "tuesday": [ 20, 26, 1, 7 ],
+            "wednesday": [ 19, 25, 31, 6 ],
+            "thursday": [ 16, 24, 30, 5 ],
+            "saturday": [ 15, 23, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 309,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1975415301/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://gatitxdiscos.bandcamp.com/album/est-bien-por-ahora',
+          a_string: 'Está bien por ahora by Juan Gris',
+          rule: {
+            "monday": [ 15, 23, 29, 4 ],
+            "tuesday": [ 16, 22, 28, 3 ],
+            "wednesday": [ 20, 26, 1, 7 ],
+            "thursday": [ 19, 25, 31, 6 ],
+            "saturday": [ 16, 24, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

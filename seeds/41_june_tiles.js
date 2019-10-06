@@ -1348,6 +1348,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FFFCF1',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 97,
+          user_id: 1,
+          theme: 'Light',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june_tiles/light_gallery_by_rabbitica_d70mykt-pre.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#070000',
+          color_medium: '#F5865E',
+          color_light: '#FFFDFE',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

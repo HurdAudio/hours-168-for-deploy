@@ -11327,6 +11327,44 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 728,
+          user_id: 1,
+          name: 'Jenny Scheinman (violin) born 1973',
+          color: '#4B110F',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jennyscheinman-jazzstandard-01.jpg',
+          day_of: new Date ('1973-05-17  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp', 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=417869426/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1062524157/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://jennyscheinman.bandcamp.com/album/here-on-earth', 'http://jennyscheinmanallisonmillersparlourgame.bandcamp.com/album/parlour-games' ],
+            "a_strings": [ 'Here On Earth by Jenny Scheinman', 'Parlour Games by Jenny Scheinman &amp; Allison Miller&#39;s Parlour Game' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 729,
+          user_id: 1,
+          name: 'Kenny Wollesen (drums) born 1966',
+          color: '#060409',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/kennywollesen60987.jpeg',
+          day_of: new Date ('1966-04-09  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=4125540409/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=703714180/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3988964100/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3579521929/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://ben-goldberg--bag-production-records.bandcamp.com/album/the-relative-value-of-things', 'http://nobusinessrecords.bandcamp.com/album/chew-your-food', 'http://quinsin.bandcamp.com/album/flux-feat-david-binney-matt-mitchell-kenny-wollesen', 'http://nyctaper-official.bandcamp.com/album/live-at-sunnyvale-feb-3-2017' ],
+            "a_strings": [ 'The Relative Value of Things by Kenny Wollesen + Ben Goldberg', 'Chew Your Food by Kirk Knuffke, Lisle Ellis, Kenny Wollesen', 'Flux (feat. David Binney, Matt Mitchell, Kenny Wollesen) by Quinsin Nachoff', 'Live at Sunnyvale Feb 3, 2017 by Dave Harrington &amp; Kenny Wolleson' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

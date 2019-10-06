@@ -338,6 +338,52 @@
       vm.userMusicModuleCommentDeleteConfirmClick = userMusicModuleCommentDeleteConfirmClick;
       vm.messageReactionDelete = messageReactionDelete;
       vm.addNewTileShareComment = addNewTileShareComment;
+      vm.addMusicModuleComment = addMusicModuleComment;
+
+      function addMusicModuleComment(authorId, musicTheme) {
+        let subObj = {
+          user_id: currentUserId,
+          music_module_author_id: authorId,
+          theme: musicTheme,
+          comment: ''
+        };
+        $http.post(`/music_module_comments`, subObj)
+        .then(postedMusicModuleCommentData => {
+          let postedMusicModuleComment = postedMusicModuleCommentData.data[0];
+          let index;
+          for (let i = 0; i < vm.musicModulePreview.length; i++) {
+            if ((parseInt(vm.musicModulePreview[i].user_author_id) === parseInt(authorId)) && (vm.musicModulePreview[i].theme === musicTheme)) {
+              index = i;
+              if ((vm.musicModulePreview[i].comments === undefined) || (vm.musicModulePreview[i].comments === null)) {
+                vm.musicModulePreview[i].comments = [];
+              }
+              let commentSub = {
+                id: postedMusicModuleComment.id,
+                user_id: postedMusicModuleComment.user_id,
+                music_module_author_id: postedMusicModuleComment.music_module_author_id,
+                comment: postedMusicModuleComment.comment,
+                cleanDate: cleanDateHoliday(postedMusicModuleComment.created_at) + ' - ' + timeDate(postedMusicModuleComment.created_at)
+              }
+              vm.musicModulePreview[i].comments.push(commentSub);
+              musicModuleCommenterData(vm.musicModulePreview[i].comments[vm.musicModulePreview[i].comments.length - 1], i, (vm.musicModulePreview[i].comments.length - 1));
+            }
+          }
+          setTimeout(() => {
+            console.log(index);
+            for (let j = 0; j < vm.musicModulePreview[index].comments.length; j++) {
+              document.getElementById('thisIsTheMusicModuleCommentEditor' + vm.musicModulePreview[index].comments[j].id).setAttribute("style", "display: none;");
+              document.getElementById('thisIsMusicModuleCommentEditDoneDiv' + vm.musicModulePreview[index].comments[j].id).setAttribute("style", "display: none;");
+              if (parseInt(vm.musicModulePreview[index].comments[j].music_module_author_id) === parseInt(currentUserId)) {
+                document.getElementById('editDeleteMusicModuleUserComments' + vm.musicModulePreview[index].comments[j].id).setAttribute("style", "display: initial;");
+              } else {
+                document.getElementById('editDeleteMusicModuleUserComments' + vm.musicModulePreview[index].comments[j].id).setAttribute("style", "display: none;");
+              }
+            }
+            userEditMusicModuleComment(postedMusicModuleComment.id);
+            document.getElementById('thisIsTheMusicModuleCommentEditor' + postedMusicModuleComment.id).focus();
+          }, 250);
+        });
+      }
 
       function addNewTileShareComment(tileId) {
         let index;
@@ -580,6 +626,35 @@
         deleteTileShareCommentConfirm.setAttribute("style", "display: initial;");
       }
 
+      function removeBlankMusicModuleComment(commentId) {
+        $http.delete(`/music_module_comments/${commentId}`)
+        .then(removedCommentData => {
+          let removedComment = removedCommentData.data;
+          for (let i = 0; i < vm.musicModulePreview.length; i++) {
+            if ((vm.musicModulePreview[i].comments !== undefined) && (vm.musicModulePreview[i].comments !== null) && (vm.musicModulePreview[i].comments.length > 0)) {
+              for (let j = 0; j < vm.musicModulePreview[i].comments.length; j++) {
+                if (parseInt(vm.musicModulePreview[i].comments[j].id) === parseInt(commentId)) {
+                  vm.musicModulePreview[i].comments.splice(j, 1);
+                  return;
+                }
+              }
+            }
+          }
+        });
+      }
+
+      function cleanOutEmptyMusicModuleComments() {
+        $http.get('/music_module_comments')
+        .then(allCommentsData => {
+          let allComments = allCommentsData.data;
+          for (let i = 0; i < allComments.length; i++) {
+            if (allComments[i].comment === '') {
+              removeBlankMusicModuleComment(allComments[i].id);
+            }
+          }
+        });
+      }
+
       function userEditMusicModuleCommentCompleted(commentId) {
         let thisIsTheMusicModuleCommentEditor = document.getElementById('thisIsTheMusicModuleCommentEditor' + commentId);
         let thisIsMusicModuleCommentEditDoneDiv = document.getElementById('thisIsMusicModuleCommentEditDoneDiv' + commentId);
@@ -609,6 +684,7 @@
             editDeleteMusicModuleUserComments.setAttribute("style", "display: initial;");
             thisIsMusicModuleCommentComment.setAttribute("style", "visibility: visible;");
           }
+          cleanOutEmptyMusicModuleComments();
         });
       }
 

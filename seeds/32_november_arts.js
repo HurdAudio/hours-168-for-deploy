@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/6-ares-iseult-labote-photography38.jpeg',
+          title: 'Urbanus I',
+          artist: 'Iseult Labote',
+          year: '2002',
+          rule: {
+            "monday": [ 21, 24, 1, 6 ],
+            "tuesday": [ 19, 24, 30, 5 ],
+            "wednesday": [ 18, 23, 29, 4 ],
+            "thursday": [ 18, 23, 29, 6 ],
+            "friday": [ 24, 29, 5, 10 ],
+            "saturday": [ 23, 25, 3, 29 ],
+            "sunday": [ 22, 26, 3, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/first-conversion-2003.jpeg',
+          title: 'First Conversion',
+          artist: 'Robert Ryman',
+          year: '2003',
+          rule: {
+            "monday": [ 22, 26, 3, 6 ],
+            "tuesday": [ 21, 24, 1, 6 ],
+            "wednesday": [ 19, 24, 30, 5 ],
+            "thursday": [ 18, 23, 29, 4 ],
+            "friday": [ 18, 23, 29, 6 ],
+            "saturday": [ 24, 29, 5, 10 ],
+            "sunday": [ 23, 25, 3, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/20-pearls-2-2003.jpeg',
+          title: '20 Pearls (2)',
+          artist: 'Richard Tuttle',
+          year: '2003',
+          rule: {
+            "monday": [ 23, 25, 3, 29 ],
+            "tuesday": [ 22, 26, 3, 6 ],
+            "wednesday": [ 21, 24, 1, 6 ],
+            "thursday": [ 19, 24, 30, 5 ],
+            "friday": [ 18, 23, 29, 4 ],
+            "saturday": [ 18, 23, 29, 6 ],
+            "sunday": [ 24, 29, 5, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/20-pearls-6-2003.jpeg',
+          title: '20 Pearls (6)',
+          artist: 'Richard Tuttle',
+          year: '2003',
+          rule: {
+            "monday": [ 24, 29, 5, 10 ],
+            "tuesday": [ 23, 25, 3, 29 ],
+            "wednesday": [ 22, 26, 3, 6 ],
+            "thursday": [ 21, 24, 1, 6 ],
+            "friday": [ 19, 24, 30, 5 ],
+            "saturday": [ 18, 23, 29, 4 ],
+            "sunday": [ 18, 23, 29, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/20-pearls-11-2003.jpeg',
+          title: '20 Pearls (11)',
+          artist: 'Richard Tuttle',
+          year: '2003',
+          rule: {
+            "monday": [ 18, 23, 29, 6 ],
+            "tuesday": [ 24, 29, 5, 10 ],
+            "wednesday": [ 23, 25, 3, 29 ],
+            "thursday": [ 22, 26, 3, 6 ],
+            "friday": [ 21, 24, 1, 6 ],
+            "saturday": [ 19, 24, 30, 5 ],
+            "sunday": [ 18, 23, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

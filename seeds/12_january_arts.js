@@ -12504,6 +12504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 626,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/planar-relation-1920.jpeg',
+          title: 'Planar Relation',
+          artist: 'Willi Baumeister',
+          year: '1920',
+          rule: {
+            "monday": [ 12, 14, 15, 16 ],
+            "tuesday": [ 31, 2, 25, 14 ],
+            "wednesday": [ 31, 2, 25, 14 ],
+            "thursday": [ 5, 3, 26, 29 ],
+            "friday": [ 5, 6, 28, 1 ],
+            "saturday": [ 8, 10, 11, 13 ],
+            "sunday": [ 10, 12, 16, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 627,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/halraam-villa-wulffraat-1920.jpeg',
+          title: 'Halraam Villa Wulffraat',
+          artist: 'Jacoba van Heemskerck',
+          year: '1920',
+          rule: {
+            "monday": [ 10, 12, 16, 19 ],
+            "tuesday": [ 12, 14, 15, 16 ],
+            "wednesday": [ 31, 2, 25, 14 ],
+            "thursday": [ 31, 2, 25, 14 ],
+            "friday": [ 5, 3, 26, 29 ],
+            "saturday": [ 5, 6, 28, 1 ],
+            "sunday": [ 8, 10, 11, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 628,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/abstract-composition-1920.jpeg',
+          title: 'Abstract Composition',
+          artist: 'Erich Buchholz',
+          year: '1920',
+          rule: {
+            "monday": [ 8, 10, 11, 13 ],
+            "tuesday": [ 10, 12, 16, 19 ],
+            "wednesday": [ 12, 14, 15, 16 ],
+            "thursday": [ 31, 2, 25, 14 ],
+            "friday": [ 31, 2, 25, 14 ],
+            "saturday": [ 5, 3, 26, 29 ],
+            "sunday": [ 5, 6, 28, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 629,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/red-square-in-white-circle-1920.jpeg',
+          title: 'Red Square in White Circle',
+          artist: 'Erich Buchholz',
+          year: '1920',
+          rule: {
+            "monday": [ 5, 6, 28, 1 ],
+            "tuesday": [ 8, 10, 11, 13 ],
+            "wednesday": [ 10, 12, 16, 19 ],
+            "thursday": [ 12, 14, 15, 16 ],
+            "friday": [ 31, 2, 25, 14 ],
+            "saturday": [ 31, 2, 25, 14 ],
+            "sunday": [ 5, 3, 26, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 630,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/cubist-composition-1920-1.jpeg',
+          title: 'Cubist Composition',
+          artist: 'Georges Valmier',
+          year: '1920',
+          rule: {
+            "monday": [ 6, 4, 27, 30 ],
+            "tuesday": [ 6, 7, 29, 2 ],
+            "wednesday": [ 9, 11, 12, 14 ],
+            "thursday": [ 11, 13, 17, 20 ],
+            "friday": [ 13, 15, 16, 17 ],
+            "saturday": [ 1, 3, 26, 15 ],
+            "sunday": [ 1, 3, 26, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

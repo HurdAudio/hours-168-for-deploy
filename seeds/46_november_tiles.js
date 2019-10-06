@@ -1278,6 +1278,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#9DABC5',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 92,
+          user_id: 1,
+          theme: 'Monochromatic',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/gold_lamp_saucer_by_boldfrontiers_dcks8oz-pre.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#B76207',
+          color_medium: '#C08F60',
+          color_light: '#FEFAF7',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

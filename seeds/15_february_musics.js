@@ -6592,6 +6592,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 367,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=245097816/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://harrietbrown.bandcamp.com/album/contact',
+          a_string: 'Contact by Harriet Brown',
+          rule: {
+            "monday": [ 14, 8, 10, 16 ],
+            "tuesday": [ 26, 1, 3, 7 ],
+            "wednesday": [ 29, 3, 5, 7 ],
+            "thursday": [ 11, 5, 7, 9 ],
+            "saturday": [ 13, 7, 9, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 368,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=563381619/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://theapxmusic.bandcamp.com/album/amplified-experiment',
+          a_string: 'Amplified Experiment by The APX',
+          rule: {
+            "monday": [ 13, 7, 9, 15 ],
+            "tuesday": [ 14, 8, 10, 16 ],
+            "wednesday": [ 26, 1, 3, 7 ],
+            "thursday": [ 29, 3, 5, 7 ],
+            "saturday": [ 11, 5, 7, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 369,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3758976426/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://neonfingerrecords.bandcamp.com/album/electrik-funk-deluxe-edition',
+          a_string: 'Electrik Funk (Deluxe Edition) by The APX',
+          rule: {
+            "monday": [ 11, 5, 7, 9 ],
+            "tuesday": [ 13, 7, 9, 15 ],
+            "wednesday": [ 14, 8, 10, 16 ],
+            "thursday": [ 26, 1, 3, 7 ],
+            "saturday": [ 29, 3, 5, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

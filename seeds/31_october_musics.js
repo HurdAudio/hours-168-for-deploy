@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1981570512/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ironagetx.bandcamp.com/album/the-sleeping-eye',
+          a_string: 'The Sleeping Eye by IRON AGE',
+          rule: {
+            "monday": [ 20, 30, 10, 12 ],
+            "tuesday": [ 19, 29, 8, 11 ],
+            "wednesday": [ 23, 2, 12, 15 ],
+            "thursday": [ 22, 1, 11, 14 ],
+            "saturday": [ 21, 1, 10, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1417904343/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mujercitasterror.bandcamp.com/album/oscura-sala-de-la-visi-n',
+          a_string: 'Oscura sala de la visión by MUJERCITAS TERROR',
+          rule: {
+            "monday": [ 21, 1, 10, 13 ],
+            "tuesday": [ 20, 30, 10, 12 ],
+            "wednesday": [ 19, 29, 8, 11 ],
+            "thursday": [ 23, 2, 12, 15 ],
+            "saturday": [ 22, 1, 11, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=485469892/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mujercitasterror.bandcamp.com/album/mujercitas-terror',
+          a_string: 'Mujercitas Terror by MUJERCITAS TERROR',
+          rule: {
+            "monday": [ 22, 1, 11, 14 ],
+            "tuesday": [ 21, 1, 10, 13 ],
+            "wednesday": [ 20, 30, 10, 12 ],
+            "thursday": [ 19, 29, 8, 11 ],
+            "saturday": [ 23, 2, 12, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

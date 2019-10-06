@@ -12304,6 +12304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 616,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/l_Clark_2011.78.1_WEB-1.jpg',
+          title: 'Brothers and Sister',
+          artist: 'Claude Clark',
+          year: '1949',
+          rule: {
+            "monday": [ 9, 14, 20, 1 ],
+            "tuesday": [ 8, 16, 24, 3 ],
+            "wednesday": [ 10, 20, 26, 3 ],
+            "thursday": [ 12, 20, 28, 9 ],
+            "friday": [ 12, 22, 18, 8 ],
+            "saturday": [ 2, 10, 18, 26 ],
+            "sunday": [ 3, 12, 20, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 617,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/rainbow2.jpg',
+          title: 'Rainbow 2',
+          artist: 'Edward Clark',
+          year: '?',
+          rule: {
+            "monday": [ 3, 12, 20, 28 ],
+            "tuesday": [ 9, 14, 20, 1 ],
+            "wednesday": [ 8, 16, 24, 3 ],
+            "thursday": [ 10, 20, 26, 3 ],
+            "friday": [ 12, 20, 28, 9 ],
+            "saturday": [ 12, 22, 18, 8 ],
+            "sunday": [ 2, 10, 18, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 618,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Sonya-Clark-Black-Hair-Flag-FULL.jpg',
+          title: 'Black Hair Flag',
+          artist: 'Sonya Clark',
+          year: '2010',
+          rule: {
+            "monday": [ 2, 10, 18, 26 ],
+            "tuesday": [ 3, 12, 20, 28 ],
+            "wednesday": [ 9, 14, 20, 1 ],
+            "thursday": [ 8, 16, 24, 3 ],
+            "friday": [ 10, 20, 26, 3 ],
+            "saturday": [ 12, 20, 28, 9 ],
+            "sunday": [ 12, 22, 18, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 619,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/willie-cole_if_wishes_were_horses_sole-sitter_shoe-sculpture_collabcubed.jpg',
+          title: 'If Wishes were Horses - Sole Sitter',
+          artist: 'Willie Cole',
+          year: '2013',
+          rule: {
+            "monday": [ 12, 22, 18, 8 ],
+            "tuesday": [ 2, 10, 18, 26 ],
+            "wednesday": [ 3, 12, 20, 28 ],
+            "thursday": [ 9, 14, 20, 1 ],
+            "friday": [ 8, 16, 24, 3 ],
+            "saturday": [ 10, 20, 26, 3 ],
+            "sunday": [ 12, 20, 28, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 620,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/colescott-knowledge-of-the-past-some-thoughts-on-discovery-1920px.jpg',
+          title: 'Knowledge of the Past - Some Thoughts on Discovery',
+          artist: 'Robert Colescott',
+          year: '?',
+          rule: {
+            "monday": [ 12, 20, 28, 9 ],
+            "tuesday": [ 12, 22, 18, 8 ],
+            "wednesday": [ 2, 10, 18, 26 ],
+            "thursday": [ 3, 12, 20, 28 ],
+            "friday": [ 9, 14, 20, 1 ],
+            "saturday": [ 8, 16, 24, 3 ],
+            "sunday": [ 10, 20, 26, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5944,6 +5944,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 331,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1930975382/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://merzbow-haino-pandi.bandcamp.com/album/an-untroublesome-defencelessness',
+          a_string: 'An Untroublesome Defencelessness by Merzbow, Keiji Haino, Balazs Pandi',
+          rule: {
+            "monday": [ 27, 4, 17, 16 ],
+            "tuesday": [ 26, 3, 16, 15 ],
+            "wednesday": [ 25, 2, 15, 14 ],
+            "thursday": [ 24, 1, 14, 13 ],
+            "saturday": [ 28, 5, 18, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 332,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=121846026/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://merzbow-haino-pandi.bandcamp.com/album/become-the-discovered-not-the-discoverer',
+          a_string: 'Become the discovered, not the discoverer by Merzbow, Keiji Haino, Balazs Pandi',
+          rule: {
+            "monday": [ 28, 5, 18, 17 ],
+            "tuesday": [ 27, 4, 17, 16 ],
+            "wednesday": [ 26, 3, 16, 15 ],
+            "thursday": [ 25, 2, 15, 14 ],
+            "saturday": [ 24, 1, 14, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 333,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=449261500/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://saj-rec.bandcamp.com/album/all-romantic',
+          a_string: 'All Romantic by Johansson Greve Rosenbaum',
+          rule: {
+            "monday": [ 24, 1, 14, 13 ],
+            "tuesday": [ 28, 5, 18, 17 ],
+            "wednesday": [ 27, 4, 17, 16 ],
+            "thursday": [ 26, 3, 16, 15 ],
+            "saturday": [ 25, 2, 15, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

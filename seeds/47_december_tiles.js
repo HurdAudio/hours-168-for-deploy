@@ -1264,6 +1264,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FFFDFE',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 91,
+          user_id: 1,
+          theme: 'Snow',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/snow_stroll_by_zoroo_datze43-pre.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#212121',
+          color_medium: '#93A1BC',
+          color_light: '#FDFEFE',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

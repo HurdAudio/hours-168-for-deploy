@@ -1,4 +1,4 @@
-
+'use strict';
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
   return knex('music_modules').del()
@@ -2521,6 +2521,42 @@ exports.seed = function(knex, Promise) {
           src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2730292918/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
           href_string: 'http://riddimpunks.bandcamp.com/album/stranger-in-town-gentlemans-dub-club-remix',
           a_string: 'Stranger In Town (Gentleman&#39;s Dub Club remix) by Riddim Punks ft Exco Levi',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 211,
+          user_author_id: 1,
+          theme: 'Reggae',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3024644251/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://homemadesoundsystem.bandcamp.com/album/krikor-c-fran-riddims-001',
+          a_string: 'KRIKOR &quot;CÉFRAN RIDDIMS&quot; 001 by KRIKOR',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 212,
+          user_author_id: 1,
+          theme: 'Reggae',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2433622497/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://blackmarketdub.bandcamp.com/album/ghostbusters',
+          a_string: 'Ghostbusters by Black Market',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 213,
+          user_author_id: 1,
+          theme: 'Reggae',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1432223885/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://dubvision.bandcamp.com/album/hitman-fiza',
+          a_string: 'Hitman &amp; Fiza by Hitman &amp; Fiza',
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

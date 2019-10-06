@@ -12,8 +12,8 @@ exports.seed = function(knex, Promise) {
           share_associate_id: 2,
           accepted: false,
           responded: false,
-          created_at: new Date('2017-07-20T13:44:00.000Z'),
-          updated_at: new Date('2017-07-20T13:44:00.000Z')
+          created_at: new Date('2019-09-24T13:44:00.000Z'),
+          updated_at: new Date('2019-09-24T13:44:00.000Z')
         }
       ]);
     }).then(() => {

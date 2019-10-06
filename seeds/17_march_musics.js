@@ -6484,6 +6484,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 361,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1629626542/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://borndays.bandcamp.com/album/where-we-live',
+          a_string: 'Where We Live by Born Days',
+          rule: {
+            "monday": [ 25, 31, 5, 14 ],
+            "tuesday": [ 24, 30, 5, 14 ],
+            "wednesday": [ 22, 29, 4, 12 ],
+            "thursday": [ 22, 28, 3, 11 ],
+            "saturday": [ 26, 1, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 362,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1774596465/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://peytonbooker.bandcamp.com/album/reach-out',
+          a_string: 'Reach Out by Peyton',
+          rule: {
+            "monday": [ 26, 1, 7, 15 ],
+            "tuesday": [ 25, 31, 5, 14 ],
+            "wednesday": [ 24, 30, 5, 14 ],
+            "thursday": [ 22, 29, 4, 12 ],
+            "saturday": [ 22, 28, 3, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 363,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3390033096/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://night-school.bandcamp.com/album/every-and-all-we-voyage-on',
+          a_string: 'Every And All We Voyage On by R. Elizabeth',
+          rule: {
+            "monday": [ 22, 28, 3, 11 ],
+            "tuesday": [ 26, 1, 7, 15 ],
+            "wednesday": [ 25, 31, 5, 14 ],
+            "thursday": [ 24, 30, 5, 14 ],
+            "saturday": [ 22, 29, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

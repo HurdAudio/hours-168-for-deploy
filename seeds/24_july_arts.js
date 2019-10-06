@@ -11199,7 +11199,7 @@ exports.seed = function(knex, Promise) {
             "wednesday": [ 18, 29, 9, 10 ],
             "thursday": [ 17, 28, 7, 9 ],
             "friday": [ 16, 27, 7, 8 ],
-            "saturday": [ 15, 26, 17, 17 ],
+            "saturday": [ 15, 26, 17, 18 ],
             "sunday": [ 20, 29, 11, 22 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
@@ -11220,7 +11220,7 @@ exports.seed = function(knex, Promise) {
             "thursday": [ 18, 29, 9, 10 ],
             "friday": [ 17, 28, 7, 9 ],
             "saturday": [ 16, 27, 7, 8 ],
-            "sunday": [ 15, 26, 17, 17 ]
+            "sunday": [ 15, 26, 17, 18 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -11234,7 +11234,7 @@ exports.seed = function(knex, Promise) {
           artist: 'Maurice de Vlaminck',
           year: '?',
           rule: {
-            "monday": [ 15, 26, 17, 17 ],
+            "monday": [ 15, 26, 17, 18 ],
             "tuesday": [ 20, 29, 11, 22 ],
             "wednesday": [ 20, 29, 11, 22 ],
             "thursday": [ 18, 29, 10, 21 ],
@@ -11255,7 +11255,7 @@ exports.seed = function(knex, Promise) {
           year: '?',
           rule: {
             "monday": [ 16, 27, 7, 8 ],
-            "tuesday": [ 15, 26, 17, 17 ],
+            "tuesday": [ 15, 26, 17, 18 ],
             "wednesday": [ 20, 29, 11, 22 ],
             "thursday": [ 20, 29, 11, 22 ],
             "friday": [ 18, 29, 10, 21 ],
@@ -11276,7 +11276,7 @@ exports.seed = function(knex, Promise) {
           rule: {
             "monday": [ 17, 28, 7, 9 ],
             "tuesday": [ 16, 27, 7, 8 ],
-            "wednesday": [ 15, 26, 17, 17 ],
+            "wednesday": [ 15, 26, 17, 18 ],
             "thursday": [ 20, 29, 11, 22 ],
             "friday": [ 20, 29, 11, 22 ],
             "saturday": [ 18, 29, 10, 21 ],
@@ -11297,10 +11297,110 @@ exports.seed = function(knex, Promise) {
             "monday": [ 18, 29, 9, 10 ],
             "tuesday": [ 17, 28, 7, 9 ],
             "wednesday": [ 16, 27, 7, 8 ],
-            "thursday": [ 15, 26, 17, 17 ],
+            "thursday": [ 15, 26, 17, 18 ],
             "friday": [ 20, 29, 11, 22 ],
             "saturday": [ 20, 29, 11, 22 ],
             "sunday": [ 18, 29, 10, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 566,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-three-graces.jpeg',
+          title: 'The Three Graces',
+          artist: 'Michel Simonidy',
+          year: '?',
+          rule: {
+            "monday": [ 18, 29, 10, 21 ],
+            "tuesday": [ 18, 29, 9, 10 ],
+            "wednesday": [ 17, 28, 7, 9 ],
+            "thursday": [ 16, 27, 7, 8 ],
+            "friday": [ 15, 26, 17, 18 ],
+            "saturday": [ 20, 29, 11, 22 ],
+            "sunday": [ 20, 29, 11, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 567,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/paul-chabas-premier-bain.jpeg',
+          title: 'Premier Bain',
+          artist: 'Paul Émile Chabas',
+          year: '1907',
+          rule: {
+            "monday": [ 21, 30, 12, 23 ],
+            "tuesday": [ 19, 30, 11, 22 ],
+            "wednesday": [ 19, 30, 10, 11 ],
+            "thursday": [ 18, 29, 8, 10 ],
+            "friday": [ 15, 26, 17, 18 ],
+            "saturday": [ 16, 27, 18, 19 ],
+            "sunday": [ 21, 30, 12, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 568,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/beard-gleaming.jpeg',
+          title: 'Beard gleaming',
+          artist: 'Georges Lacombe',
+          year: '?',
+          rule: {
+            "monday": [ 21, 30, 12, 23 ],
+            "tuesday": [ 21, 30, 12, 23 ],
+            "wednesday": [ 19, 30, 11, 22 ],
+            "thursday": [ 19, 30, 10, 11 ],
+            "friday": [ 18, 29, 8, 10 ],
+            "saturday": [ 15, 26, 17, 18 ],
+            "sunday": [ 16, 27, 18, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 569,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/etretat-1902.jpeg',
+          title: 'Etretat',
+          artist: 'Gustave Loiseau',
+          year: '1902',
+          rule: {
+            "monday": [ 16, 27, 18, 19 ],
+            "tuesday": [ 21, 30, 12, 23 ],
+            "wednesday": [ 21, 30, 12, 23 ],
+            "thursday": [ 19, 30, 11, 22 ],
+            "friday": [ 19, 30, 10, 11 ],
+            "saturday": [ 18, 29, 8, 10 ],
+            "sunday": [ 15, 26, 17, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 570,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/at-the-moulin-rouge-la-goulue-with-her-sister-1892.jpeg',
+          title: 'At the Moulin Rouge, La Goulue with Her Sister',
+          artist: 'Henri de Toulouse-Lautrec',
+          year: '1892',
+          rule: {
+            "monday": [ 15, 26, 17, 18 ],
+            "tuesday": [ 16, 27, 18, 19 ],
+            "wednesday": [ 21, 30, 12, 23 ],
+            "thursday": [ 21, 30, 12, 23 ],
+            "friday": [ 19, 30, 11, 22 ],
+            "saturday": [ 19, 30, 10, 11 ],
+            "sunday": [ 18, 29, 8, 10 ]
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')

@@ -12104,6 +12104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 606,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/self-portrait-1949.jpeg',
+          title: 'Self-Portrait',
+          artist: 'Germaine Richier',
+          year: '1949',
+          rule: {
+            "monday": [ 20, 30, 8, 17 ],
+            "tuesday": [ 26, 4, 14, 22 ],
+            "wednesday": [ 25, 4, 12, 22 ],
+            "thursday": [ 23, 3, 11, 21 ],
+            "friday": [ 23, 2, 10, 20 ],
+            "saturday": [ 22, 2, 9, 19 ],
+            "sunday": [ 21, 31, 8, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 607,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/foreign-style-house-1928.jpeg',
+          title: 'The Foreign-style House',
+          artist: 'Guan Zilan',
+          year: '1928',
+          rule: {
+            "monday": [ 21, 31, 8, 18 ],
+            "tuesday": [ 20, 30, 8, 17 ],
+            "wednesday": [ 26, 4, 14, 22 ],
+            "thursday": [ 25, 4, 12, 22 ],
+            "friday": [ 23, 3, 11, 21 ],
+            "saturday": [ 23, 2, 10, 20 ],
+            "sunday": [ 22, 2, 9, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 608,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/ridiculous-portrait-cello-cherub-1972.jpeg',
+          title: 'Ridiculous Portrait (Cello, Cherub)',
+          artist: 'May Wilson',
+          year: '1972',
+          rule: {
+            "monday": [ 22, 2, 9, 19 ],
+            "tuesday": [ 21, 31, 8, 18 ],
+            "wednesday": [ 20, 30, 8, 17 ],
+            "thursday": [ 26, 4, 14, 22 ],
+            "friday": [ 25, 4, 12, 22 ],
+            "saturday": [ 23, 3, 11, 21 ],
+            "sunday": [ 23, 2, 10, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 609,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/self-portrait-in-red.jpeg',
+          title: 'Self-portrait in red',
+          artist: 'Mariam Aslamazian',
+          year: '?',
+          rule: {
+            "monday": [ 23, 2, 10, 20 ],
+            "tuesday": [ 22, 2, 9, 19 ],
+            "wednesday": [ 21, 31, 8, 18 ],
+            "thursday": [ 20, 30, 8, 17 ],
+            "friday": [ 26, 4, 14, 22 ],
+            "saturday": [ 25, 4, 12, 22 ],
+            "sunday": [ 23, 3, 11, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 610,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/ripolin-the-tree-prisoner-1932.jpeg',
+          title: 'Ripolin. The tree prisoner',
+          artist: 'Maria Helena Vieira da Silva',
+          year: '1932',
+          rule: {
+            "monday": [ 23, 3, 11, 21 ],
+            "tuesday": [ 23, 2, 10, 20 ],
+            "wednesday": [ 22, 2, 9, 19 ],
+            "thursday": [ 21, 31, 8, 18 ],
+            "friday": [ 20, 30, 8, 17 ],
+            "saturday": [ 26, 4, 14, 22 ],
+            "sunday": [ 25, 4, 12, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
