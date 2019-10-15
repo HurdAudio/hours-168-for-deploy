@@ -5890,6 +5890,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 328,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1749350959/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://subrosalabel.bandcamp.com/album/musique-pour-l-odyss-e-1978',
+          a_string: 'Musique pour l’Odyssée (1978) by Art Zoyd',
+          rule: {
+            "monday": [ 17, 7, 15, 9 ],
+            "tuesday": [ 21, 11, 19, 13 ],
+            "wednesday": [ 20, 10, 18, 12 ],
+            "thursday": [ 19, 9, 17, 10 ],
+            "saturday": [ 19, 8, 16, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 329,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3717202493/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://kapitaenplatte.bandcamp.com/album/orsak-oslo',
+          a_string: 'Orsak:Oslo by Orsak:Oslo',
+          rule: {
+            "monday": [ 20, 9, 17, 11 ],
+            "tuesday": [ 18, 8, 16, 10 ],
+            "wednesday": [ 22, 12, 20, 14 ],
+            "thursday": [ 21, 11, 19, 13 ],
+            "saturday": [ 20, 10, 18, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 330,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2486950346/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://kapitaenplatte.bandcamp.com/album/lockerbie-olgusjor',
+          a_string: 'Lockerbie - Olgusjor by Kapitaen Platte',
+          rule: {
+            "monday": [ 20, 10, 18, 11 ],
+            "tuesday": [ 20, 9, 17, 11 ],
+            "wednesday": [ 18, 8, 16, 10 ],
+            "thursday": [ 22, 12, 20, 14 ],
+            "saturday": [ 21, 11, 19, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

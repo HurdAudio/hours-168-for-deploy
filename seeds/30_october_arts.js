@@ -10804,6 +10804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 541,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_303.jpg',
+          title: 'Back together with you, dear land, served - and got back home, to the native fields!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 21, 1, 12, 16 ],
+            "tuesday": [ 20, 31, 11, 15 ],
+            "wednesday": [ 19, 30, 10, 14 ],
+            "thursday": [ 18, 29, 10, 13 ],
+            "friday": [ 17, 28, 8, 12 ],
+            "saturday": [ 16, 27, 6, 11 ],
+            "sunday": [ 25, 26, 6, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 542,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_370.jpg',
+          title: '1st of June. International day of the protection of the children.',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 25, 26, 6, 10 ],
+            "tuesday": [ 21, 1, 12, 16 ],
+            "wednesday": [ 20, 31, 11, 15 ],
+            "thursday": [ 19, 30, 10, 14 ],
+            "friday": [ 18, 29, 10, 13 ],
+            "saturday": [ 17, 28, 8, 12 ],
+            "sunday": [ 16, 27, 6, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 543,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_sportive_family.jpg',
+          title: 'We are a sportive family - father, mother, brother and I',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 16, 27, 6, 11 ],
+            "tuesday": [ 25, 26, 6, 10 ],
+            "wednesday": [ 21, 1, 12, 16 ],
+            "thursday": [ 20, 31, 11, 15 ],
+            "friday": [ 19, 30, 10, 14 ],
+            "saturday": [ 18, 29, 10, 13 ],
+            "sunday": [ 17, 28, 8, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 544,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_sheep_breeder.jpg',
+          title: '(I) Will become a Sheep Breeder!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 17, 28, 8, 12 ],
+            "tuesday": [ 16, 27, 6, 11 ],
+            "wednesday": [ 25, 26, 6, 10 ],
+            "thursday": [ 21, 1, 12, 16 ],
+            "friday": [ 20, 31, 11, 15 ],
+            "saturday": [ 19, 30, 10, 14 ],
+            "sunday": [ 18, 29, 10, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 545,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_325.jpg',
+          title: 'Here we will live, work and study',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 18, 29, 10, 13 ],
+            "tuesday": [ 17, 28, 8, 12 ],
+            "wednesday": [ 16, 27, 6, 11 ],
+            "thursday": [ 25, 26, 6, 10 ],
+            "friday": [ 21, 1, 12, 16 ],
+            "saturday": [ 20, 31, 11, 15 ],
+            "sunday": [ 19, 30, 10, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

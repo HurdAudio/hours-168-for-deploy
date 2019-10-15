@@ -11404,6 +11404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 571,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/evening-on-the-hudson-1909.jpeg',
+          title: 'Evening on the Hudson',
+          artist: 'Leon Dabo',
+          year: '1909',
+          rule: {
+            "monday": [ 18, 29, 8, 10 ],
+            "tuesday": [ 15, 26, 17, 18 ],
+            "wednesday": [ 16, 27, 18, 19 ],
+            "thursday": [ 21, 30, 12, 23 ],
+            "friday": [ 21, 30, 12, 23 ],
+            "saturday": [ 19, 30, 11, 22 ],
+            "sunday": [ 19, 30, 10, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 572,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/antoniodelagandara-madame-pierre-gautreau-1898-1.jpeg',
+          title: 'Portrait of Mme Pierre Gaudreau',
+          artist: 'Antonio de La Gándara',
+          year: '1898',
+          rule: {
+            "monday": [ 19, 30, 10, 11 ],
+            "tuesday": [ 18, 29, 8, 10 ],
+            "wednesday": [ 15, 26, 17, 18 ],
+            "thursday": [ 16, 27, 18, 19 ],
+            "friday": [ 21, 30, 12, 23 ],
+            "saturday": [ 21, 30, 12, 23 ],
+            "sunday": [ 19, 30, 11, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 573,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/back-to-fishing-boats-in-belle-isle-en-mer-1910.jpeg',
+          title: 'Back to Fishing boats in Belle-Isle-en-Mer',
+          artist: 'Maxime Maufra',
+          year: '1910',
+          rule: {
+            "monday": [ 19, 30, 11, 22 ],
+            "tuesday": [ 19, 30, 10, 11 ],
+            "wednesday": [ 18, 29, 8, 10 ],
+            "thursday": [ 15, 26, 17, 18 ],
+            "friday": [ 16, 27, 18, 19 ],
+            "saturday": [ 21, 30, 12, 23 ],
+            "sunday": [ 21, 30, 12, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 574,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/two-sleeping-cats-1.jpeg',
+          title: 'Two Sleeping Cats',
+          artist: 'Theophile Steinlen',
+          year: '?',
+          rule: {
+            "monday": [ 22, 31, 13, 24 ],
+            "tuesday": [ 20, 31, 12, 23 ],
+            "wednesday": [ 20, 31, 11, 12 ],
+            "thursday": [ 19, 30, 9, 11 ],
+            "friday": [ 16, 27, 18, 19 ],
+            "saturday": [ 17, 28, 19, 20 ],
+            "sunday": [ 22, 31, 13, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 575,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-iles-d-or-the-iles-d-hyeres-var.jpeg',
+          title: 'The Iles d\'Or (The Iles d\'Hyeres, Var)',
+          artist: 'Henri-Edmond Cross',
+          year: 'c.1891 - c.1892',
+          rule: {
+            "monday": [ 22, 31, 13, 24 ],
+            "tuesday": [ 22, 31, 13, 24 ],
+            "wednesday": [ 20, 31, 12, 23 ],
+            "thursday": [ 20, 31, 11, 12 ],
+            "friday": [ 19, 30, 9, 11 ],
+            "saturday": [ 16, 27, 18, 19 ],
+            "sunday": [ 17, 28, 19, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

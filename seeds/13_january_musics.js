@@ -6754,6 +6754,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 376,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3977223108/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://othermindsrecords.bandcamp.com/album/hands-like-waves-unfold',
+          a_string: 'Hands Like Waves Unfold by Kui Dong',
+          rule: {
+            "monday": [ 29, 4, 5, 6 ],
+            "tuesday": [ 28, 4, 5, 6 ],
+            "wednesday": [ 1, 8, 9, 10 ],
+            "thursday": [ 31, 6, 7, 9 ],
+            "saturday": [ 30, 6, 7, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 377,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3117397390/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://othermindsrecords.bandcamp.com/album/studies-for-player-piano',
+          a_string: 'Studies for Player Piano by Conlon Nancarrow',
+          rule: {
+            "monday": [ 30, 6, 7, 8 ],
+            "tuesday": [ 29, 4, 5, 6 ],
+            "wednesday": [ 28, 4, 5, 6 ],
+            "thursday": [ 1, 8, 9, 10 ],
+            "saturday": [ 31, 6, 7, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 378,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=861109224/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://xirecords.bandcamp.com/album/red-machinic-fantasies',
+          a_string: 'Red / Machinic Fantasies by Cecilia Lopez',
+          rule: {
+            "monday": [ 1, 7, 8, 10 ],
+            "tuesday": [ 31, 7, 8, 9 ],
+            "wednesday": [ 30, 5, 6, 7 ],
+            "thursday": [ 29, 5, 6, 7 ],
+            "saturday": [ 2, 9, 10, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

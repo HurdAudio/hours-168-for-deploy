@@ -12404,6 +12404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 621,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/kennardzuri-768x1024.png',
+          title: 'Yellow Dress Biopelo',
+          artist: 'Kennard Copeland',
+          year: '2019',
+          rule: {
+            "monday": [ 10, 20, 26, 3 ],
+            "tuesday": [ 12, 20, 28, 9 ],
+            "wednesday": [ 12, 22, 18, 8 ],
+            "thursday": [ 2, 10, 18, 26 ],
+            "friday": [ 3, 12, 20, 28 ],
+            "saturday": [ 9, 14, 20, 1 ],
+            "sunday": [ 8, 16, 24, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 622,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/eldzier-cortor-room-no-v.jpg',
+          title: 'Room No. V',
+          artist: 'Eldzier Cortor',
+          year: '1948',
+          rule: {
+            "monday": [ 8, 16, 24, 3 ],
+            "tuesday": [ 10, 20, 26, 3 ],
+            "wednesday": [ 12, 20, 28, 9 ],
+            "thursday": [ 12, 22, 18, 8 ],
+            "friday": [ 2, 10, 18, 26 ],
+            "saturday": [ 3, 12, 20, 28 ],
+            "sunday": [ 9, 14, 20, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 623,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/69df51e8-c5dc-4b01-b342-0daf7ba065f5_570.jpeg',
+          title: 'Untitled',
+          artist: 'Ernest Crichlow',
+          year: '1942',
+          rule: {
+            "monday": [ 10, 15, 21, 2 ],
+            "tuesday": [ 9, 17, 25, 4 ],
+            "wednesday": [ 11, 21, 27, 4 ],
+            "thursday": [ 13, 21, 29, 10 ],
+            "friday": [ 13, 23, 19, 9 ],
+            "saturday": [ 3, 11, 19, 27 ],
+            "sunday": [ 4, 13, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 624,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/image-asset-crite.jpeg',
+          title: 'Winter Scene from my Window',
+          artist: 'Allan Crite',
+          year: '1933',
+          rule: {
+            "monday": [ 4, 13, 21, 29 ],
+            "tuesday": [ 10, 15, 21, 2 ],
+            "wednesday": [ 9, 17, 25, 4 ],
+            "thursday": [ 11, 21, 27, 4 ],
+            "friday": [ 13, 21, 29, 10 ],
+            "saturday": [ 13, 23, 19, 9 ],
+            "sunday": [ 3, 11, 19, 27 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 625,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Emilio-Cruz-Genetic-Engineering-1988-oil-on-canvas.jpg',
+          title: 'Genetic Engineering',
+          artist: 'Emilio Cruz',
+          year: '1988',
+          rule: {
+            "monday": [ 3, 11, 19, 27 ],
+            "tuesday": [ 4, 13, 21, 29 ],
+            "wednesday": [ 10, 15, 21, 2 ],
+            "thursday": [ 9, 17, 25, 4 ],
+            "friday": [ 11, 21, 27, 4 ],
+            "saturday": [ 13, 21, 29, 10 ],
+            "sunday": [ 13, 23, 19, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

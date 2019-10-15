@@ -117,8 +117,8 @@ exports.seed = function(knex, Promise) {
           id: 9,
           user_id: 1,
           block_type: 14,
-          start_time: new Date('2019-09-10T15:00:00'),
-          end_time: new Date('2019-09-10T16:00:00'),
+          start_time: new Date('2019-10-10T15:00:00'),
+          end_time: new Date('2019-10-10T16:00:00'),
           user_notes: "Bring the donuts",
           location: 'Big Meeting Room',
           block_data: {

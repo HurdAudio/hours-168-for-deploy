@@ -1334,6 +1334,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#B6C0AA',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 96,
+          user_id: 1,
+          theme: 'Primary Colors',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/blue_bird_by_tetramodal_dc4au0t-fullview.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#071025',
+          color_medium: '#3BA1BA',
+          color_light: '#DCE2E6',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

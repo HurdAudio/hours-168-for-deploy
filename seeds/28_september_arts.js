@@ -11004,6 +11004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 551,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-money-makes-money-2001.jpeg',
+          title: 'Untitled (Money Makes Money)',
+          artist: 'Barbara Kruger',
+          year: '2001',
+          rule: {
+            "monday": [ 5, 12, 9, 17 ],
+            "tuesday": [ 13, 20, 8, 15 ],
+            "wednesday": [ 20, 26, 14, 22 ],
+            "thursday": [ 19, 24, 13, 21 ],
+            "friday": [ 17, 24, 12, 20 ],
+            "saturday": [ 17, 23, 11, 19 ],
+            "sunday": [ 6, 22, 10, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 552,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/myrrst-1963.jpeg',
+          title: 'Myrrst',
+          artist: 'Bernard Schultze',
+          year: '1963',
+          rule: {
+            "monday": [ 6, 22, 10, 19 ],
+            "tuesday": [ 5, 12, 9, 17 ],
+            "wednesday": [ 13, 20, 8, 15 ],
+            "thursday": [ 20, 26, 14, 22 ],
+            "friday": [ 19, 24, 13, 21 ],
+            "saturday": [ 17, 24, 12, 20 ],
+            "sunday": [ 17, 23, 11, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 553,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/universo-em-expans-o-i-1980.jpeg',
+          title: 'Universo em Expansão I',
+          artist: 'Eduardo Nery',
+          year: '1980',
+          rule: {
+            "monday": [ 18, 24, 12, 20 ],
+            "tuesday": [ 7, 23, 11, 20 ],
+            "wednesday": [ 6, 13, 10, 18 ],
+            "thursday": [ 14, 21, 9, 16 ],
+            "friday": [ 21, 27, 15, 23 ],
+            "saturday": [ 20, 25, 14, 22 ],
+            "sunday": [ 18, 25, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 554,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/explode-1972.jpeg',
+          title: 'Explode',
+          artist: 'Miriam Schapiro',
+          year: '1972',
+          rule: {
+            "monday": [ 18, 25, 13, 21 ],
+            "tuesday": [ 18, 24, 12, 20 ],
+            "wednesday": [ 7, 23, 11, 20 ],
+            "thursday": [ 6, 13, 10, 18 ],
+            "friday": [ 14, 21, 9, 16 ],
+            "saturday": [ 21, 27, 15, 23 ],
+            "sunday": [ 20, 25, 14, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 555,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/rosebud-1962.jpeg',
+          title: 'Rosebud',
+          artist: 'Phillip King',
+          year: '1962',
+          rule: {
+            "monday": [ 20, 25, 14, 22 ],
+            "tuesday": [ 18, 25, 13, 21 ],
+            "wednesday": [ 18, 24, 12, 20 ],
+            "thursday": [ 7, 23, 11, 20 ],
+            "friday": [ 6, 13, 10, 18 ],
+            "saturday": [ 14, 21, 9, 16 ],
+            "sunday": [ 21, 27, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

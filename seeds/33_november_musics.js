@@ -5674,6 +5674,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 316,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2193710197/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://afro-haitianexperimentalorchestra.bandcamp.com/album/afro-haitian-experimental-orchestra',
+          a_string: 'Afro-Haitian Experimental Orchestra by Afro-Haitian Experimental Orchestra',
+          rule: {
+            "monday": [ 15, 26, 7, 11 ],
+            "tuesday": [ 14, 25, 6, 17 ],
+            "wednesday": [ 13, 24, 5, 17 ],
+            "thursday": [ 17, 28, 9, 13 ],
+            "saturday": [ 16, 27, 8, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 317,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1224844617/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://yuseflateef.bandcamp.com/album/hikima-creativity',
+          a_string: 'Hikima: Creativity by Yusef Lateef',
+          rule: {
+            "monday": [ 16, 27, 8, 12 ],
+            "tuesday": [ 15, 26, 7, 11 ],
+            "wednesday": [ 14, 25, 6, 17 ],
+            "thursday": [ 13, 24, 5, 17 ],
+            "saturday": [ 17, 28, 9, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 318,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=399246313/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://happymilfrecords.bandcamp.com/album/hotline-you-are-mine',
+          a_string: 'HOTLINE - You are mine by Happy Milf Records',
+          rule: {
+            "monday": [ 17, 28, 9, 13 ],
+            "tuesday": [ 16, 27, 8, 12 ],
+            "wednesday": [ 15, 26, 7, 11 ],
+            "thursday": [ 14, 25, 6, 17 ],
+            "saturday": [ 13, 24, 5, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

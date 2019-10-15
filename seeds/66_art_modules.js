@@ -4324,6 +4324,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 361,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/marmaglia-2007.jpeg',
+          title: 'Marmaglia',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 362,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/ondeggiavano-2007.jpeg',
+          title: 'Ondeggiavano',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 363,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/sguardo-ubriaco-2007.jpeg',
+          title: 'Sguardo ubriaco',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 364,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/velato-2007.jpeg',
+          title: 'Velato',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 365,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/traversata-sbieca-2007.jpeg',
+          title: 'Traversata sbieca',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

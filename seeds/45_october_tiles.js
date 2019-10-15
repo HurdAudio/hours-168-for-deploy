@@ -1306,6 +1306,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#F1FE86',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 94,
+          user_id: 1,
+          theme: 'Autumnal',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/misty_autumn_vi_by_weissglut_d5laszz-fullview.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#140C11',
+          color_medium: '#A43718',
+          color_light: '#F9EBD3',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

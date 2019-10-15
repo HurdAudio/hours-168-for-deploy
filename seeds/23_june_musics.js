@@ -6214,6 +6214,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 346,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2863032162/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://preservedsound.bandcamp.com/album/a-room-now-empty',
+          a_string: 'A Room Now Empty by Aaron Martin',
+          rule: {
+            "monday": [ 18, 21, 27, 7 ],
+            "tuesday": [ 16, 24, 26, 11 ],
+            "wednesday": [ 20, 24, 30, 11 ],
+            "thursday": [ 19, 22, 27, 9 ],
+            "saturday": [ 18, 21, 27, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 347,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3052994392/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://anaroxanne.bandcamp.com/album/-',
+          a_string: '~~~ by ana roxanne',
+          rule: {
+            "monday": [ 18, 21, 27, 8 ],
+            "tuesday": [ 18, 21, 27, 7 ],
+            "wednesday": [ 16, 24, 26, 11 ],
+            "thursday": [ 20, 24, 30, 11 ],
+            "saturday": [ 19, 22, 27, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 348,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2245086945/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://shelterpress.bandcamp.com/album/erg-herbe',
+          a_string: 'Erg Herbe by JAB',
+          rule: {
+            "monday": [ 19, 22, 27, 9 ],
+            "tuesday": [ 18, 21, 27, 8 ],
+            "wednesday": [ 18, 21, 27, 7 ],
+            "thursday": [ 16, 24, 26, 11 ],
+            "saturday": [ 20, 24, 30, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6106,6 +6106,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 340,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1470818419/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://bitesize.bandcamp.com/album/the-best-of-bitesize',
+          a_string: 'The Best of Bitesize by Bitesize',
+          rule: {
+            "monday": [ 16, 17, 22, 30 ],
+            "tuesday": [ 15, 17, 21, 29 ],
+            "wednesday": [ 19, 21, 25, 2 ],
+            "thursday": [ 18, 20, 24, 1 ],
+            "saturday": [ 17, 19, 23, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 341,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3390033096/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://night-school.bandcamp.com/album/every-and-all-we-voyage-on',
+          a_string: 'Every And All We Voyage On by R. Elizabeth',
+          rule: {
+            "monday": [ 17, 19, 23, 31 ],
+            "tuesday": [ 16, 17, 22, 30 ],
+            "wednesday": [ 15, 17, 21, 29 ],
+            "thursday": [ 19, 21, 25, 2 ],
+            "saturday": [ 18, 20, 24, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 342,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=467348408/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://somesurprises.bandcamp.com/album/somesurprises',
+          a_string: 'somesurprises by somesurprises',
+          rule: {
+            "monday": [ 18, 20, 24, 1 ],
+            "tuesday": [ 17, 19, 23, 31 ],
+            "wednesday": [ 16, 17, 22, 30 ],
+            "thursday": [ 15, 17, 21, 29 ],
+            "saturday": [ 19, 21, 25, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

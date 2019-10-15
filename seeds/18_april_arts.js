@@ -12004,6 +12004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 601,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/yes_we_can_by_abcartattack_d8ep3yq-fullview.jpg',
+          title: 'Yes We Can',
+          artist: 'AbcArtAttack',
+          year: '2015',
+          rule: {
+            "monday": [ 25, 28, 13, 12 ],
+            "tuesday": [ 24, 28, 13, 11 ],
+            "wednesday": [ 21, 27, 3, 9 ],
+            "thursday": [ 22, 27, 3, 9 ],
+            "friday": [ 21, 26, 2, 8 ],
+            "saturday": [ 26, 2, 7, 13 ],
+            "sunday": [ 10, 30, 6, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 602,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/chicago_white_sox_by_hawthorne85_da78vya-fullview.jpg',
+          title: 'Chicago White Sox',
+          artist: 'hawthorne85',
+          year: '2016',
+          rule: {
+            "monday": [ 11, 1, 7, 13 ],
+            "tuesday": [ 26, 29, 14, 13 ],
+            "wednesday": [ 25, 29, 14, 12 ],
+            "thursday": [ 22, 28, 4, 10 ],
+            "friday": [ 23, 28, 4, 10 ],
+            "saturday": [ 22, 27, 3, 9 ],
+            "sunday": [ 27, 3, 8, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 603,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/luis_aparicio_mlb_hof_portrait_by_mlbportraits_dd4ku1w-fullview.png',
+          title: 'Luis Aparicio MLB HoF portrait',
+          artist: 'MLBportraits',
+          year: '2019',
+          rule: {
+            "monday": [ 27, 3, 8, 14 ],
+            "tuesday": [ 11, 1, 7, 13 ],
+            "wednesday": [ 26, 29, 14, 13 ],
+            "thursday": [ 25, 29, 14, 12 ],
+            "friday": [ 22, 28, 4, 10 ],
+            "saturday": [ 23, 28, 4, 10 ],
+            "sunday": [ 22, 27, 3, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 604,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/untitled_by_catchmandkillham_daisthc-fullview.jpg',
+          title: 'Untitled',
+          artist: 'Catchmandkillham',
+          year: '2016',
+          rule: {
+            "monday": [ 22, 27, 3, 9 ],
+            "tuesday": [ 27, 3, 8, 14 ],
+            "wednesday": [ 11, 1, 7, 13 ],
+            "thursday": [ 26, 29, 14, 13 ],
+            "friday": [ 25, 29, 14, 12 ],
+            "saturday": [ 22, 28, 4, 10 ],
+            "sunday": [ 23, 28, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 605,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/dc7d6ic-7bfe32be-f3af-4d61-96f0-7161ec74d4b5.jpg',
+          title: 'Lina in Chicago White Sox Bikini',
+          artist: 'Knifley',
+          year: '2018',
+          rule: {
+            "monday": [ 23, 28, 4, 10 ],
+            "tuesday": [ 22, 27, 3, 9 ],
+            "wednesday": [ 27, 3, 8, 14 ],
+            "thursday": [ 11, 1, 7, 13 ],
+            "friday": [ 26, 29, 14, 13 ],
+            "saturday": [ 25, 29, 14, 12 ],
+            "sunday": [ 22, 28, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

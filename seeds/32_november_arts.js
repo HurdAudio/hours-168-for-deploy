@@ -10604,6 +10604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/correspondance-2003.jpeg',
+          title: 'Correspondance',
+          artist: 'Lee Ufan',
+          year: '2003',
+          rule: {
+            "monday": [ 18, 23, 29, 4 ],
+            "tuesday": [ 18, 23, 29, 6 ],
+            "wednesday": [ 24, 29, 5, 10 ],
+            "thursday": [ 23, 25, 3, 29 ],
+            "friday": [ 22, 26, 3, 6 ],
+            "saturday": [ 21, 24, 1, 6 ],
+            "sunday": [ 19, 24, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/model-for-brick-structure-four-domes-and-a-sphere-2003.jpeg',
+          title: 'Model for Brick Structure (four domes and a sphere)',
+          artist: 'Sol LeWitt',
+          year: '2003',
+          rule: {
+            "monday": [ 20, 25, 1, 6 ],
+            "tuesday": [ 19, 24, 30, 5 ],
+            "wednesday": [ 19, 24, 30, 7 ],
+            "thursday": [ 25, 30, 6, 11 ],
+            "friday": [ 24, 26, 4, 30 ],
+            "saturday": [ 23, 27, 4, 7 ],
+            "sunday": [ 22, 25, 2, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/painting-03-06-2003.jpeg',
+          title: 'Painting #03-06',
+          artist: 'Rudolf de Crignis',
+          year: '2003',
+          rule: {
+            "monday": [ 22, 25, 2, 7 ],
+            "tuesday": [ 20, 25, 1, 6 ],
+            "wednesday": [ 19, 24, 30, 5 ],
+            "thursday": [ 19, 24, 30, 7 ],
+            "friday": [ 25, 30, 6, 11 ],
+            "saturday": [ 24, 26, 4, 30 ],
+            "sunday": [ 23, 27, 4, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/gouache-2004-b-7-2004.jpeg',
+          title: 'Gouache 2004 B-7',
+          artist: 'Pierre Soulages',
+          year: '2004',
+          rule: {
+            "monday": [ 23, 27, 4, 7 ],
+            "tuesday": [ 22, 25, 2, 7 ],
+            "wednesday": [ 20, 25, 1, 6 ],
+            "thursday": [ 19, 24, 30, 5 ],
+            "friday": [ 19, 24, 30, 7 ],
+            "saturday": [ 25, 30, 6, 11 ],
+            "sunday": [ 24, 26, 4, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/light-2004.jpeg',
+          title: 'Light',
+          artist: 'John McCracken',
+          year: '2004',
+          rule: {
+            "monday": [ 24, 26, 4, 30 ],
+            "tuesday": [ 23, 27, 4, 7 ],
+            "wednesday": [ 22, 25, 2, 7 ],
+            "thursday": [ 20, 25, 1, 6 ],
+            "friday": [ 19, 24, 30, 5 ],
+            "saturday": [ 19, 24, 30, 7 ],
+            "sunday": [ 25, 30, 6, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

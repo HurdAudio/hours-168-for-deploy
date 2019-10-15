@@ -5782,6 +5782,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 322,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2238617276/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cellphone100.bandcamp.com/album/sinister-realities-2',
+          a_string: 'Sinister Realities by CELLPHONE',
+          rule: {
+            "monday": [ 24, 3, 13, 16 ],
+            "tuesday": [ 23, 2, 12, 15 ],
+            "wednesday": [ 22, 2, 11, 14 ],
+            "thursday": [ 21, 31, 11, 13 ],
+            "saturday": [ 20, 30, 9, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 323,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=334312839/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://experimentspecimenmetal.bandcamp.com/album/the-cosmic-order',
+          a_string: 'The Cosmic Order by Experiment Specimen',
+          rule: {
+            "monday": [ 20, 30, 9, 12 ],
+            "tuesday": [ 24, 3, 13, 16 ],
+            "wednesday": [ 23, 2, 12, 15 ],
+            "thursday": [ 22, 2, 11, 14 ],
+            "saturday": [ 21, 31, 11, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 324,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2400165647/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://hammerhandstheband.bandcamp.com/album/model-citizen',
+          a_string: 'Model Citizen by HAMMERHANDS',
+          rule: {
+            "monday": [ 21, 31, 11, 13 ],
+            "tuesday": [ 20, 30, 9, 12 ],
+            "wednesday": [ 24, 3, 13, 16 ],
+            "thursday": [ 23, 2, 12, 15 ],
+            "saturday": [ 22, 2, 11, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

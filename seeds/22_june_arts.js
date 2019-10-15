@@ -11604,6 +11604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 581,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ddiae6u-9ee52e32-51a3-40b9-90ba-30c79c41f8e7.jpg',
+          title: 'Rear Window',
+          artist: 'Anozer',
+          year: '2019',
+          rule: {
+            "monday": [ 20, 30, 10, 17 ],
+            "tuesday": [ 29, 9, 19, 17 ],
+            "wednesday": [ 18, 28, 8, 16 ],
+            "thursday": [ 17, 27, 7, 15 ],
+            "friday": [ 23, 3, 13, 20 ],
+            "saturday": [ 22, 2, 13, 20 ],
+            "sunday": [ 21, 1, 11, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 582,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/actualize_by_siucar_ddi9cbs-fullview.jpg',
+          title: 'Actualize',
+          artist: 'Siucar',
+          year: '2019',
+          rule: {
+            "monday": [ 21, 1, 11, 9 ],
+            "tuesday": [ 20, 30, 10, 17 ],
+            "wednesday": [ 29, 9, 19, 17 ],
+            "thursday": [ 18, 28, 8, 16 ],
+            "friday": [ 17, 27, 7, 15 ],
+            "saturday": [ 23, 3, 13, 20 ],
+            "sunday": [ 22, 2, 13, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 583,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ddiai6e-2d565fc3-d1fe-4520-b922-517b13875d24.jpg',
+          title: 'Watchful parents',
+          artist: 'Benita',
+          year: '2019',
+          rule: {
+            "monday": [ 22, 2, 13, 20 ],
+            "tuesday": [ 21, 1, 11, 9 ],
+            "wednesday": [ 20, 30, 10, 17 ],
+            "thursday": [ 29, 9, 19, 17 ],
+            "friday": [ 18, 28, 8, 16 ],
+            "saturday": [ 17, 27, 7, 15 ],
+            "sunday": [ 23, 3, 13, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 584,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/yep_by_theartofchurchwell_ddiatg0-fullview.jpg',
+          title: 'yep',
+          artist: 'Thomas Churchwell',
+          year: '2019',
+          rule: {
+            "monday": [ 23, 3, 13, 20 ],
+            "tuesday": [ 22, 2, 13, 20 ],
+            "wednesday": [ 21, 1, 11, 9 ],
+            "thursday": [ 20, 30, 10, 17 ],
+            "friday": [ 29, 9, 19, 17 ],
+            "saturday": [ 18, 28, 8, 16 ],
+            "sunday": [ 17, 27, 7, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 585,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/nyasia_by_theartofchurchwell_d8pthjc-fullview.jpg',
+          title: 'nyasia',
+          artist: 'Thomas Churchwell',
+          year: '2015',
+          rule: {
+            "monday": [ 17, 27, 7, 15 ],
+            "tuesday": [ 23, 3, 13, 20 ],
+            "wednesday": [ 22, 2, 13, 20 ],
+            "thursday": [ 21, 1, 11, 9 ],
+            "friday": [ 20, 30, 10, 17 ],
+            "saturday": [ 29, 9, 19, 17 ],
+            "sunday": [ 18, 28, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

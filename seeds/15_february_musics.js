@@ -6646,6 +6646,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 370,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=328861811/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ratskinrecords.bandcamp.com/album/live-in-oakland',
+          a_string: 'Live In Oakland by Dax Pierson',
+          rule: {
+            "monday": [ 29, 3, 5, 7 ],
+            "tuesday": [ 11, 5, 7, 9 ],
+            "wednesday": [ 13, 7, 9, 15 ],
+            "thursday": [ 14, 8, 10, 16 ],
+            "saturday": [ 26, 1, 3, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 371,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2948189899/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://deathbombarc.bandcamp.com/album/death-drive',
+          a_string: 'DEATH DRIVE by DEBBY FRIDAY',
+          rule: {
+            "monday": [ 27, 2, 4, 8 ],
+            "tuesday": [ 1, 4, 6, 8 ],
+            "wednesday": [ 12, 6, 8, 10 ],
+            "thursday": [ 14, 8, 10, 16 ],
+            "saturday": [ 15, 9, 11, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 372,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2170724210/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://marquishill.bandcamp.com/album/love-tape',
+          a_string: 'Love Tape by Marquis Hill',
+          rule: {
+            "monday": [ 15, 9, 11, 17 ],
+            "tuesday": [ 27, 2, 4, 8 ],
+            "wednesday": [ 1, 4, 6, 8 ],
+            "thursday": [ 12, 6, 8, 10 ],
+            "saturday": [ 14, 8, 10, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

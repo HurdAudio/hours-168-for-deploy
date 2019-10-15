@@ -5998,6 +5998,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 334,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3111565546/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://colinwebster.bandcamp.com/album/live-at-2nd-spontaneous-music-festival',
+          a_string: 'Live at 2nd Spontaneous Music Festival by Colin Webster / Vasco Trilla / Michal Dymny',
+          rule: {
+            "monday": [ 25, 2, 15, 14 ],
+            "tuesday": [ 24, 1, 14, 13 ],
+            "wednesday": [ 28, 5, 18, 17 ],
+            "thursday": [ 27, 4, 17, 16 ],
+            "saturday": [ 26, 3, 16, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 335,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2228696841/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://akiyamafieldvidic.bandcamp.com/album/interpersonal-subjectivities',
+          a_string: 'Interpersonal Subjectivities by Akiyama / Field / Vidic',
+          rule: {
+            "monday": [ 26, 3, 16, 15 ],
+            "tuesday": [ 25, 2, 15, 14 ],
+            "wednesday": [ 24, 1, 14, 13 ],
+            "thursday": [ 28, 5, 18, 17 ],
+            "saturday": [ 27, 4, 17, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 336,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1538261798/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ernestorodrigues.bandcamp.com/album/white-bricks-and-the-wooden-mutes',
+          a_string: 'white bricks and the wooden mutes by Biliana Voutchkova, Ernesto Rodrigues &amp; Rodrigo Pinheiro',
+          rule: {
+            "monday": [ 27, 4, 17, 16 ],
+            "tuesday": [ 26, 3, 16, 15 ],
+            "wednesday": [ 25, 2, 15, 14 ],
+            "thursday": [ 24, 1, 14, 13 ],
+            "saturday": [ 28, 5, 18, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

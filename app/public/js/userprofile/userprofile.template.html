@@ -6060,14 +6060,16 @@
               <a class="btn" href="#" ng-click="$ctrl.userDeleteTimeblockShareComment(comment.id)">delete</a>
             </div>
             <div id="thisIsTimeblockShareCommentReactions{{comment.id}}" class="reactionsContainer">
-              <div class="individualReactions">
-                <p class="reactionTally">1</p>
-                <div class="tooltip">
-                  <img src="./img/reactions/kisspng-thumb-signal-font-awesome-computer-icons-font-green-thumbs-up-icon-5b4b607cb7a147.6508454515316665567522.png" class="reactionIcon">
-                  <span class="tooltipText">Devin Hurd</span>
+              <main ng-repeat="react in comment.reactions | orderBy : $ctrl.sortBy">
+                <div class="individualReactions">
+                  <p class="reactionTally">{{react.total}}</p>
+                  <div class="tooltip">
+                    <img src="{{react.icon}}" class="reactionIcon">
+                    <span class="tooltipText">{{react.reactors}}</span>
+                  </div>
+                  <p class="reactionDelete">X</p>
                 </div>
-                <p class="reactionDelete">X</p>
-              </div>
+              </main>
 
             </div><br><br><br><br>
           </main>

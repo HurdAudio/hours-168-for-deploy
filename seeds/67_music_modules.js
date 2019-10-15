@@ -2560,6 +2560,42 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 214,
+          user_author_id: 1,
+          theme: 'Reggae',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3353156234/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://princefatty.bandcamp.com/album/in-the-vipers-shadow',
+          a_string: 'In the Viper&#39;s Shadow by Prince Fatty',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 215,
+          user_author_id: 1,
+          theme: 'Reggae',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1736228510/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://hiphoppapotamus.bandcamp.com/album/samba-junglist-vol-2',
+          a_string: 'Samba Junglist Vol.2 by Hiphoppapotamus',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 216,
+          user_author_id: 1,
+          theme: 'Reggae',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2466136650/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://dubinvasion.bandcamp.com/album/dub-invasion-earl-sixteen-free-up',
+          a_string: 'Dub Invasion &amp; Earl Sixteen - Free Up by Dub Invasion &amp; Earl Sixteen',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

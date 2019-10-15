@@ -6322,6 +6322,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 352,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2092459880/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://thollem.bandcamp.com/album/electric-confluence-vol-1',
+          a_string: 'Electric Confluence Vol. 1 by Thollem',
+          rule: {
+            "monday": [ 18, 24, 31, 13 ],
+            "tuesday": [ 22, 28, 4, 17 ],
+            "wednesday": [ 21, 27, 3, 16 ],
+            "thursday": [ 20, 26, 2, 15 ],
+            "saturday": [ 19, 25, 1, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 353,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=718966717/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://senko-issha.bandcamp.com/album/unreleased-recordings-1975-2012-2',
+          a_string: 'unreleased recordings 1975 - 2012 by Otomo Yoshihide',
+          rule: {
+            "monday": [ 19, 25, 1, 14 ],
+            "tuesday": [ 18, 24, 31, 13 ],
+            "wednesday": [ 22, 28, 4, 17 ],
+            "thursday": [ 21, 27, 3, 16 ],
+            "saturday": [ 20, 26, 2, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 354,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2758515118/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://atlanticrhythms.bandcamp.com/album/blacks-myths-ii',
+          a_string: 'Blacks&#39; Myths II by Blacks&#39; Myths',
+          rule: {
+            "monday": [ 20, 26, 2, 15 ],
+            "tuesday": [ 19, 25, 1, 14 ],
+            "wednesday": [ 18, 24, 31, 13 ],
+            "thursday": [ 22, 28, 4, 17 ],
+            "saturday": [ 21, 27, 3, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

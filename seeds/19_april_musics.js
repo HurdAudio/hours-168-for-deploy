@@ -6430,6 +6430,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 358,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2230337036/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cuneiformrecords.bandcamp.com/album/old-new',
+          a_string: 'Old New by Tomeka Reid Quartet',
+          rule: {
+            "monday": [ 21, 29, 11, 16 ],
+            "tuesday": [ 25, 3, 15, 20 ],
+            "wednesday": [ 24, 1, 14, 19 ],
+            "thursday": [ 23, 1, 13, 18 ],
+            "saturday": [ 22, 30, 11, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 359,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1932392411/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://intlanthem.bandcamp.com/album/fly-or-die-ii-bird-dogs-of-paradise',
+          a_string: 'FLY or DIE II: bird dogs of paradise by jaimie branch',
+          rule: {
+            "monday": [ 22, 30, 11, 17 ],
+            "tuesday": [ 21, 29, 11, 16 ],
+            "wednesday": [ 25, 3, 15, 20 ],
+            "thursday": [ 24, 1, 14, 19 ],
+            "saturday": [ 23, 1, 13, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 360,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=119013414/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://zehra.bandcamp.com/album/the-trance-of-seven-colors',
+          a_string: 'The Trance Of Seven Colors by Maleem Mahmoud Ghania w/ Pharoah Sanders',
+          rule: {
+            "monday": [ 23, 1, 13, 18 ],
+            "tuesday": [ 22, 30, 11, 17 ],
+            "wednesday": [ 21, 29, 11, 16 ],
+            "thursday": [ 25, 3, 15, 20 ],
+            "saturday": [ 24, 1, 14, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

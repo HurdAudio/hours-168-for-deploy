@@ -1320,6 +1320,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FAECE5',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 95,
+          user_id: 1,
+          theme: 'Leather',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/axel-leather-sofa-89-c.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#260904',
+          color_medium: '#774834',
+          color_light: '#DBD1D2',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

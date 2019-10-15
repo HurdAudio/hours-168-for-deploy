@@ -12604,6 +12604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 631,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/white-stroke-1920.jpeg',
+          title: 'White Line',
+          artist: 'Wassily Kandinsky',
+          year: '1920',
+          rule: {
+            "monday": [ 1, 3, 26, 15 ],
+            "tuesday": [ 6, 4, 27, 30 ],
+            "wednesday": [ 6, 7, 29, 2 ],
+            "thursday": [ 9, 11, 12, 14 ],
+            "friday": [ 11, 13, 17, 20 ],
+            "saturday": [ 13, 15, 16, 17 ],
+            "sunday": [ 1, 3, 26, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 632,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/renewal-suprematist-square-1920.jpeg',
+          title: 'Renewal Suprematist square',
+          artist: 'Kazimir Malevich',
+          year: '1920',
+          rule: {
+            "monday": [ 1, 3, 26, 15 ],
+            "tuesday": [ 1, 3, 26, 15 ],
+            "wednesday": [ 6, 4, 27, 30 ],
+            "thursday": [ 6, 7, 29, 2 ],
+            "friday": [ 9, 11, 12, 14 ],
+            "saturday": [ 11, 13, 17, 20 ],
+            "sunday": [ 13, 15, 16, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 633,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-xx-1920.jpeg',
+          title: 'Composition XX',
+          artist: 'Theo van Doesburg',
+          year: '1920',
+          rule: {
+            "monday": [ 13, 15, 16, 17 ],
+            "tuesday": [ 1, 3, 26, 15 ],
+            "wednesday": [ 1, 3, 26, 15 ],
+            "thursday": [ 6, 4, 27, 30 ],
+            "friday": [ 6, 7, 29, 2 ],
+            "saturday": [ 9, 11, 12, 14 ],
+            "sunday": [ 11, 13, 17, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 634,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/lands.jpeg',
+          title: 'Lands',
+          artist: 'Laszlo Moholy-Nagy',
+          year: 'c.1920',
+          rule: {
+            "monday": [ 11, 13, 17, 20 ],
+            "tuesday": [ 13, 15, 16, 17 ],
+            "wednesday": [ 1, 3, 26, 15 ],
+            "thursday": [ 1, 3, 26, 15 ],
+            "friday": [ 6, 4, 27, 30 ],
+            "saturday": [ 6, 7, 29, 2 ],
+            "sunday": [ 9, 11, 12, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 635,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/science-against-obscurantism-1920.jpeg',
+          title: 'Science against Obscurantism',
+          artist: 'Giacomo Balla',
+          year: '1920',
+          rule: {
+            "monday": [ 9, 11, 12, 14 ],
+            "tuesday": [ 11, 13, 17, 20 ],
+            "wednesday": [ 13, 15, 16, 17 ],
+            "thursday": [ 1, 3, 26, 15 ],
+            "friday": [ 1, 3, 26, 15 ],
+            "saturday": [ 6, 4, 27, 30 ],
+            "sunday": [ 6, 7, 29, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -10404,6 +10404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 521,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/34-10,Forbidden.jpg',
+          title: 'Forbidden Sweets',
+          artist: 'Reginald Greenwood',
+          year: '1934',
+          rule: {
+            "monday": [ 31, 23, 11, 18 ],
+            "tuesday": [ 16, 29, 6, 12 ],
+            "wednesday": [ 15, 27, 5, 11 ],
+            "thursday": [ 14, 27, 4, 10 ],
+            "friday": [ 13, 26, 3, 9 ],
+            "saturday": [ 12, 25, 2, 8 ],
+            "sunday": [ 11, 23, 22, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 522,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/24-08,2nd,TellingTls.jpg',
+          title: '2nd Telling Tales',
+          artist: 'O. Greiner',
+          year: '1924',
+          rule: {
+            "monday": [ 11, 23, 22, 7 ],
+            "tuesday": [ 31, 23, 11, 18 ],
+            "wednesday": [ 16, 29, 6, 12 ],
+            "thursday": [ 15, 27, 5, 11 ],
+            "friday": [ 14, 27, 4, 10 ],
+            "saturday": [ 13, 26, 3, 9 ],
+            "sunday": [ 12, 25, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 523,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/32-00,WingForWing.jpg',
+          title: 'Wing For Wing',
+          artist: 'Clem Gretta',
+          year: '1932',
+          rule: {
+            "monday": [ 12, 25, 2, 8 ],
+            "tuesday": [ 11, 23, 22, 7 ],
+            "wednesday": [ 31, 23, 11, 18 ],
+            "thursday": [ 16, 29, 6, 12 ],
+            "friday": [ 15, 27, 5, 11 ],
+            "saturday": [ 14, 27, 4, 10 ],
+            "sunday": [ 13, 26, 3, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 524,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/39-04,BullsEye.jpg',
+          title: 'Bulls Eye Detective',
+          artist: 'George Gross',
+          year: '1939',
+          rule: {
+            "monday": [ 13, 26, 3, 9 ],
+            "tuesday": [ 12, 25, 2, 8 ],
+            "wednesday": [ 11, 23, 22, 7 ],
+            "thursday": [ 31, 23, 11, 18 ],
+            "friday": [ 16, 29, 6, 12 ],
+            "saturday": [ 15, 27, 5, 11 ],
+            "sunday": [ 14, 27, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 525,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/28-07-11,CpdsDiary.jpg',
+          title: 'Cupid\'s Diary',
+          artist: 'W. B. Grubb',
+          year: '1928',
+          rule: {
+            "monday": [ 15, 28, 5, 11 ],
+            "tuesday": [ 14, 27, 4, 10 ],
+            "wednesday": [ 13, 26, 3, 9 ],
+            "thursday": [ 12, 24, 23, 8 ],
+            "friday": [ 1, 24, 12, 19 ],
+            "saturday": [ 17, 30, 7, 13 ],
+            "sunday": [ 16, 28, 6, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

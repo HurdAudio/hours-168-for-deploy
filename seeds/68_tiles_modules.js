@@ -1054,6 +1054,21 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 71,
+          user_author_id: 1,
+          theme: 'Kandinsky',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/color-study-squares-with-concentric-circles-1913.jpeg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#2E1A3E',
+          color_medium: '#AA0F14',
+          color_light: '#D0B9A8',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

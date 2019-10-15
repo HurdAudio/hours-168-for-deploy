@@ -6538,6 +6538,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 364,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2528166914/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://psychiceye.bandcamp.com/album/diaspora',
+          a_string: 'Diaspora by The Bedroom Witch',
+          rule: {
+            "monday": [ 23, 30, 5, 13 ],
+            "tuesday": [ 23, 29, 4, 12 ],
+            "wednesday": [ 27, 2, 8, 16 ],
+            "thursday": [ 26, 1, 6, 15 ],
+            "saturday": [ 25, 31, 6, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 365,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3571069240/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://rhimusic.bandcamp.com/album/the-pale-queen',
+          a_string: 'The Pale Queen by Rhi',
+          rule: {
+            "monday": [ 25, 31, 6, 15 ],
+            "tuesday": [ 23, 30, 5, 13 ],
+            "wednesday": [ 23, 29, 4, 12 ],
+            "thursday": [ 27, 2, 8, 16 ],
+            "saturday": [ 26, 1, 6, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 366,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1252825944/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://viciouscircle.bandcamp.com/album/providence',
+          a_string: 'Providence by Shannon Wright',
+          rule: {
+            "monday": [ 26, 1, 6, 15 ],
+            "tuesday": [ 25, 31, 6, 15 ],
+            "wednesday": [ 23, 30, 5, 13 ],
+            "thursday": [ 23, 29, 4, 12 ],
+            "saturday": [ 27, 2, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5566,6 +5566,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 310,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3374496655/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://voodoohop.bandcamp.com/album/mamazonia-odes-to-the-forest-vol-1',
+          a_string: 'Mamazonia : Odes to the Forest - Vol.1 by voodoohop',
+          rule: {
+            "monday": [ 16, 24, 30, 5 ],
+            "tuesday": [ 15, 23, 29, 4 ],
+            "wednesday": [ 16, 22, 28, 3 ],
+            "thursday": [ 20, 26, 1, 7 ],
+            "saturday": [ 19, 25, 31, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 311,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=77298051/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://voodoohop.bandcamp.com/album/caminho-sintropia-i',
+          a_string: 'Caminho à Sintropia I by voodoohop',
+          rule: {
+            "monday": [ 19, 25, 31, 6 ],
+            "tuesday": [ 16, 24, 30, 5 ],
+            "wednesday": [ 15, 23, 29, 4 ],
+            "thursday": [ 16, 22, 28, 3 ],
+            "saturday": [ 20, 26, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 312,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2917525279/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://voodoohop.bandcamp.com/album/voodoohop-entropia-coletiva-ii',
+          a_string: 'Voodoohop : Entropia Coletiva II by voodoohop',
+          rule: {
+            "monday": [ 20, 26, 1, 7 ],
+            "tuesday": [ 19, 25, 31, 6 ],
+            "wednesday": [ 16, 24, 30, 5 ],
+            "thursday": [ 15, 23, 29, 4 ],
+            "saturday": [ 16, 22, 28, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
