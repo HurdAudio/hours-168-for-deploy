@@ -5944,6 +5944,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 331,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3310550551/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://progshinerecords.bandcamp.com/album/juststudio',
+          a_string: '#juststudio by Orgia Pravednikov',
+          rule: {
+            "monday": [ 21, 11, 19, 13 ],
+            "tuesday": [ 20, 10, 18, 11 ],
+            "wednesday": [ 20, 9, 17, 11 ],
+            "thursday": [ 18, 8, 16, 10 ],
+            "saturday": [ 22, 12, 20, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 332,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1470257725/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://pinegrove.bandcamp.com/album/marigold',
+          a_string: 'Marigold by Pinegrove',
+          rule: {
+            "monday": [ 22, 12, 20, 14 ],
+            "tuesday": [ 21, 11, 19, 13 ],
+            "wednesday": [ 20, 10, 18, 11 ],
+            "thursday": [ 20, 9, 17, 11 ],
+            "saturday": [ 18, 8, 16, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 333,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1799126968/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://soundinsilencerecords.bandcamp.com/album/global-exposure',
+          a_string: 'Global Exposure by Astatine',
+          rule: {
+            "monday": [ 18, 8, 16, 10 ],
+            "tuesday": [ 22, 12, 20, 14 ],
+            "wednesday": [ 21, 11, 19, 13 ],
+            "thursday": [ 20, 10, 18, 11 ],
+            "saturday": [ 20, 9, 17, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

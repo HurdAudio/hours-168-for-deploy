@@ -11704,6 +11704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 586,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fishing_dreams_by_t_ufan_d81g5eu-fullview.jpg',
+          title: 'fishing dreams',
+          artist: 't-ufan',
+          year: '2014',
+          rule: {
+            "monday": [ 18, 28, 8, 16 ],
+            "tuesday": [ 17, 27, 7, 15 ],
+            "wednesday": [ 23, 3, 13, 20 ],
+            "thursday": [ 22, 2, 13, 20 ],
+            "friday": [ 21, 1, 11, 9 ],
+            "saturday": [ 20, 30, 10, 17 ],
+            "sunday": [ 29, 9, 19, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 587,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/streets_of_oblivion_by_miguel_santos_d9b8lcu-fullview.jpg',
+          title: 'Streets of Oblivion',
+          artist: 'Miguel-Santos',
+          year: '2015',
+          rule: {
+            "monday": [ 29, 9, 19, 17 ],
+            "tuesday": [ 18, 28, 8, 16 ],
+            "wednesday": [ 17, 27, 7, 15 ],
+            "thursday": [ 23, 3, 13, 20 ],
+            "friday": [ 22, 2, 13, 20 ],
+            "saturday": [ 21, 1, 11, 9 ],
+            "sunday": [ 20, 30, 10, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 588,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/one_summer_s_day_by_arefin03_d8xowho-fullview.jpg',
+          title: 'One Summer\'s Day',
+          artist: 'arefin03',
+          year: '2015',
+          rule: {
+            "monday": [ 21, 1, 11, 18 ],
+            "tuesday": [ 30, 10, 20, 18 ],
+            "wednesday": [ 19, 29, 9, 17 ],
+            "thursday": [ 18, 28, 8, 16 ],
+            "friday": [ 24, 4, 14, 21 ],
+            "saturday": [ 23, 3, 14, 21 ],
+            "sunday": [ 22, 2, 12, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 589,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/rainbow_houses_by_ashamandour_dbc2uio-fullview.jpg',
+          title: 'Rainbow Houses',
+          artist: 'A. Shamandour',
+          year: '2017',
+          rule: {
+            "monday": [ 22, 2, 12, 10 ],
+            "tuesday": [ 21, 1, 11, 18 ],
+            "wednesday": [ 30, 10, 20, 18 ],
+            "thursday": [ 19, 29, 9, 17 ],
+            "friday": [ 18, 28, 8, 16 ],
+            "saturday": [ 24, 4, 14, 21 ],
+            "sunday": [ 23, 3, 14, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 590,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/cycles_of_time_by_zardo_d1wjqv7-fullview.jpg',
+          title: 'Cycles of time',
+          artist: 'zardo',
+          year: '2009',
+          rule: {
+            "monday": [ 23, 3, 14, 21 ],
+            "tuesday": [ 22, 2, 12, 10 ],
+            "wednesday": [ 21, 1, 11, 18 ],
+            "thursday": [ 30, 10, 20, 18 ],
+            "friday": [ 19, 29, 9, 17 ],
+            "saturday": [ 18, 28, 8, 16 ],
+            "sunday": [ 24, 4, 14, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

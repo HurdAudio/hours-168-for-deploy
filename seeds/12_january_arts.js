@@ -12704,6 +12704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 636,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/lucky-strike-1921.jpeg',
+          title: 'Lucky Strike',
+          artist: 'Stuart Davis',
+          year: '1921',
+          rule: {
+            "monday": [ 6, 7, 29, 2 ],
+            "tuesday": [ 9, 11, 12, 14 ],
+            "wednesday": [ 11, 13, 17, 20 ],
+            "thursday": [ 13, 15, 16, 17 ],
+            "friday": [ 1, 3, 26, 15 ],
+            "saturday": [ 1, 3, 26, 15 ],
+            "sunday": [ 6, 4, 27, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 637,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/bild-no-131-1921.jpeg',
+          title: 'Bild no. 131',
+          artist: 'Jacoba van Heemskerck',
+          year: '1921',
+          rule: {
+            "monday": [ 7, 5, 28, 31 ],
+            "tuesday": [ 7, 8, 30, 3 ],
+            "wednesday": [ 10, 12, 13, 15 ],
+            "thursday": [ 12, 14, 18, 21 ],
+            "friday": [ 14, 16, 17, 18 ],
+            "saturday": [ 2, 4, 27, 16 ],
+            "sunday": [ 2, 4, 27, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 638,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/black-frame-1922.jpeg',
+          title: 'Black Frame',
+          artist: 'Wassily Kandinsky',
+          year: '1922',
+          rule: {
+            "monday": [ 2, 4, 27, 16 ],
+            "tuesday": [ 7, 5, 28, 31 ],
+            "wednesday": [ 7, 8, 30, 3 ],
+            "thursday": [ 10, 12, 13, 15 ],
+            "friday": [ 12, 14, 18, 21 ],
+            "saturday": [ 14, 16, 17, 18 ],
+            "sunday": [ 2, 4, 27, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 639,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/small-worlds-ii-1922.jpeg',
+          title: 'Small worlds II',
+          artist: 'Wassily Kandinsky',
+          year: '1922',
+          rule: {
+            "monday": [ 2, 4, 27, 16 ],
+            "tuesday": [ 2, 4, 27, 16 ],
+            "wednesday": [ 7, 5, 28, 31 ],
+            "thursday": [ 7, 8, 30, 3 ],
+            "friday": [ 10, 12, 13, 15 ],
+            "saturday": [ 12, 14, 18, 21 ],
+            "sunday": [ 14, 16, 17, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 640,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/small-worlds-vii-1922.jpeg',
+          title: 'Small Worlds VII',
+          artist: 'Wassily Kandinsky',
+          year: '1922',
+          rule: {
+            "monday": [ 14, 16, 17, 18 ],
+            "tuesday": [ 2, 4, 27, 16 ],
+            "wednesday": [ 2, 4, 27, 16 ],
+            "thursday": [ 7, 5, 28, 31 ],
+            "friday": [ 7, 8, 30, 3 ],
+            "saturday": [ 10, 12, 13, 15 ],
+            "sunday": [ 12, 14, 18, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

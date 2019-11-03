@@ -11393,6 +11393,44 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 732,
+          user_id: 1,
+          name: 'Ivo Perelman (reeds) born 1961',
+          color: '#80A5FC',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/A-376339-1420411028-6990.jpg',
+          day_of: new Date ('1961-01-12  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=3794772102/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://perelmanshippparkerkapp.bandcamp.com/album/ineffable-joy' ],
+            "a_strings": [ 'Ineffable Joy by Perelman, Shipp, Parker, Kapp' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 733,
+          user_id: 1,
+          name: 'William Parker (bass) born 1952',
+          color: '#BA1F3E',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/William_Parker_by_Peter_Gannushkin-02-Corr_cropped-780x525.jpg',
+          day_of: new Date ('1952-01-10  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: true,
+          override_content: {
+            "sources": [ 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp' ],
+            "src_strings": [ 'https://bandcamp.com/EmbeddedPlayer/album=2142073999/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=203716336/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=123442624/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2238702751/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3015169218/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4199157330/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' ],
+            "href_strings": [ 'http://williamparker.bandcamp.com/album/live-shapeshifter', 'http://williamparker.bandcamp.com/album/flower-in-a-stained-glass-window-the-blinking-of-the-ear', 'http://williamparker.bandcamp.com/album/voices-fall-from-the-sky', 'http://williamparker.bandcamp.com/album/meditation-resurrection', 'http://williamparker.bandcamp.com/album/bass-duo', 'http://williamparker.bandcamp.com/album/stans-hat-flapping-in-the-wind' ],
+            "a_strings": [ 'Live/Shapeshifter by William Parker / In Order To Survive', 'Flower In a Stained-Glass Window -&amp;- The Blinking of The Ear by William Parker', 'Voices Fall From The Sky by William Parker', 'Meditation / Resurrection by William Parker Quartets', 'Bass Duo by William Parker &amp; Stefano Scodanibbio', 'Stan&#39;s Hat Flapping In The Wind by William Parker feat. Lisa Sokolov &amp; Cooper-Moore' ]
+          },
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

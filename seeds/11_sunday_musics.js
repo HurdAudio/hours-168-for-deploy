@@ -2694,6 +2694,36 @@ exports.seed = function(knex, Promise) {
           a_string: 'Professional Sunflow by Laraaji &amp; Sun Araw',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 270,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3636744246/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20191019-bl-oslo-nor',
+          a_string: 'SUNN O))) - 2019.10.19, Blå, Oslo, NOR by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 271,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=874263915/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20191018-kulturkirken-jakob-oslo-nor',
+          a_string: 'SUNN O))) - 2019.10.18, Kulturkirken Jakob, Oslo, NOR by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 272,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3628941226/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sunn-live.bandcamp.com/album/sunn-o-20191009-kaserne-rossstall-1-basel-ch',
+          a_string: 'SUNN O))) - 2019.10.09, Kaserne \ Rossstall 1, Basel, CH by SUNN O)))',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

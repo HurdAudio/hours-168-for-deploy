@@ -12104,6 +12104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 606,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/350px-Miami_Marlins_Mural_-_Miami,_FL.jpg',
+          title: 'Miami Marlins Mural',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 22, 28, 4, 10 ],
+            "tuesday": [ 23, 28, 4, 10 ],
+            "wednesday": [ 22, 27, 3, 9 ],
+            "thursday": [ 27, 3, 8, 14 ],
+            "friday": [ 11, 1, 7, 13 ],
+            "saturday": [ 26, 29, 14, 13 ],
+            "sunday": [ 25, 29, 14, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 607,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/floridaIchiro.jpeg',
+          title: 'Miami Marlins Outfielder Ichiro Suzuki',
+          artist: 'John Bazemore',
+          year: '2017',
+          rule: {
+            "monday": [ 25, 29, 14, 12 ],
+            "tuesday": [ 22, 28, 4, 10 ],
+            "wednesday": [ 23, 28, 4, 10 ],
+            "thursday": [ 22, 27, 3, 9 ],
+            "friday": [ 27, 3, 8, 14 ],
+            "saturday": [ 11, 1, 7, 13 ],
+            "sunday": [ 26, 29, 14, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 608,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/146.jpg',
+          title: 'Official Miami Marlins Logo',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 26, 29, 14, 13 ],
+            "tuesday": [ 25, 29, 14, 12 ],
+            "wednesday": [ 22, 28, 4, 10 ],
+            "thursday": [ 23, 28, 4, 10 ],
+            "friday": [ 22, 27, 3, 9 ],
+            "saturday": [ 27, 3, 8, 14 ],
+            "sunday": [ 11, 1, 7, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 609,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/6106942.jpg',
+          title: 'Meet the Miami Marlins',
+          artist: 'Bryan Rose',
+          year: '2014',
+          rule: {
+            "monday": [ 12, 2, 8, 14 ],
+            "tuesday": [ 27, 30, 15, 14 ],
+            "wednesday": [ 26, 30, 15, 13 ],
+            "thursday": [ 23, 29, 5, 11 ],
+            "friday": [ 24, 29, 5, 11 ],
+            "saturday": [ 23, 28, 4, 10 ],
+            "sunday": [ 28, 4, 9, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 610,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/il_570xN.1817398911_cd7x.jpg',
+          title: 'Miami Marlins Nail Decals',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 28, 4, 9, 15 ],
+            "tuesday": [ 12, 2, 8, 14 ],
+            "wednesday": [ 27, 30, 15, 14 ],
+            "thursday": [ 26, 30, 15, 13 ],
+            "friday": [ 23, 29, 5, 11 ],
+            "saturday": [ 24, 29, 5, 11 ],
+            "sunday": [ 23, 28, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

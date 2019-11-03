@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_320.jpg',
+          title: 'Dear guys! Young friends!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 20, 31, 11, 15 ],
+            "tuesday": [ 19, 30, 11, 14 ],
+            "wednesday": [ 18, 29, 9, 13 ],
+            "thursday": [ 17, 28, 7, 12 ],
+            "friday": [ 26, 27, 7, 11 ],
+            "saturday": [ 22, 2, 13, 17 ],
+            "sunday": [ 21, 1, 12, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_334.jpg',
+          title: 'The unity of the party and the people - Unbreakable',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 21, 1, 12, 16 ],
+            "tuesday": [ 20, 31, 11, 15 ],
+            "wednesday": [ 19, 30, 11, 14 ],
+            "thursday": [ 18, 29, 9, 13 ],
+            "friday": [ 17, 28, 7, 12 ],
+            "saturday": [ 26, 27, 7, 11 ],
+            "sunday": [ 22, 2, 13, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_329.jpg',
+          title: 'Be worthy!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 22, 2, 13, 17 ],
+            "tuesday": [ 21, 1, 12, 16 ],
+            "wednesday": [ 20, 31, 11, 15 ],
+            "thursday": [ 19, 30, 11, 14 ],
+            "friday": [ 18, 29, 9, 13 ],
+            "saturday": [ 17, 28, 7, 12 ],
+            "sunday": [ 26, 27, 7, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_300.jpg',
+          title: 'The sun of the new harvest',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 26, 27, 7, 11 ],
+            "tuesday": [ 22, 2, 13, 17 ],
+            "wednesday": [ 21, 1, 12, 16 ],
+            "thursday": [ 20, 31, 11, 15 ],
+            "friday": [ 19, 30, 11, 14 ],
+            "saturday": [ 18, 29, 9, 13 ],
+            "sunday": [ 17, 28, 7, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_288.jpg',
+          title: 'To the new labor victories',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 17, 28, 7, 12 ],
+            "tuesday": [ 26, 27, 7, 11 ],
+            "wednesday": [ 22, 2, 13, 17 ],
+            "thursday": [ 21, 1, 12, 16 ],
+            "friday": [ 20, 31, 11, 15 ],
+            "saturday": [ 19, 30, 11, 14 ],
+            "sunday": [ 18, 29, 9, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

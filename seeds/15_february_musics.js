@@ -6700,6 +6700,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 373,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3450277091/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://clppng.bandcamp.com/album/there-existed-an-addiction-to-blood',
+          a_string: 'There Existed an Addiction to Blood by clipping.',
+          rule: {
+            "monday": [ 14, 8, 10, 16 ],
+            "tuesday": [ 15, 9, 11, 17 ],
+            "wednesday": [ 27, 2, 4, 8 ],
+            "thursday": [ 1, 4, 6, 8 ],
+            "saturday": [ 12, 6, 8, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 374,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3748083286/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://fbdistribution.bandcamp.com/album/the-ra-w-material',
+          a_string: 'The Ra(w) Material by Czardust (Ohbliv &amp; Sadhu Gold)',
+          rule: {
+            "monday": [ 12, 6, 8, 10 ],
+            "tuesday": [ 14, 8, 10, 16 ],
+            "wednesday": [ 15, 9, 11, 17 ],
+            "thursday": [ 27, 2, 4, 8 ],
+            "saturday": [ 1, 4, 6, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 375,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=359725631/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mutantacademyrva.bandcamp.com/album/holly-water',
+          a_string: 'Holly Water by Fly Anakin &amp; Big Kahuna OG',
+          rule: {
+            "monday": [ 1, 4, 6, 8 ],
+            "tuesday": [ 12, 6, 8, 10 ],
+            "wednesday": [ 14, 8, 10, 16 ],
+            "thursday": [ 15, 9, 11, 17 ],
+            "saturday": [ 27, 2, 4, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

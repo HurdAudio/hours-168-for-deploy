@@ -11104,6 +11104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 556,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/le-photographe-1990.jpeg',
+          title: 'Le photographe',
+          artist: 'Louis Pons',
+          year: '1990',
+          rule: {
+            "monday": [ 21, 27, 15, 23 ],
+            "tuesday": [ 20, 25, 14, 22 ],
+            "wednesday": [ 18, 25, 13, 21 ],
+            "thursday": [ 18, 24, 12, 20 ],
+            "friday": [ 7, 23, 11, 20 ],
+            "saturday": [ 6, 13, 10, 18 ],
+            "sunday": [ 14, 21, 9, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 557,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/spiral-2011.jpeg',
+          title: 'Spiral',
+          artist: 'Romul Nutiu',
+          year: '2011',
+          rule: {
+            "monday": [ 14, 21, 9, 16 ],
+            "tuesday": [ 21, 27, 15, 23 ],
+            "wednesday": [ 20, 25, 14, 22 ],
+            "thursday": [ 18, 25, 13, 21 ],
+            "friday": [ 18, 24, 12, 20 ],
+            "saturday": [ 7, 23, 11, 20 ],
+            "sunday": [ 6, 13, 10, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 558,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/shed-of-rebellion(1).jpeg',
+          title: 'Shed Of Rebellion',
+          artist: 'Jacek Yerka',
+          year: '1981',
+          rule: {
+            "monday": [ 6, 13, 10, 18 ],
+            "tuesday": [ 14, 21, 9, 16 ],
+            "wednesday": [ 21, 27, 15, 23 ],
+            "thursday": [ 20, 25, 14, 22 ],
+            "friday": [ 18, 25, 13, 21 ],
+            "saturday": [ 18, 24, 12, 20 ],
+            "sunday": [ 7, 23, 11, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 559,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/self-portrait-in-the-ark-1974.jpeg',
+          title: 'Self Portrait in the Ark',
+          artist: 'Willem van Genk',
+          year: '1974',
+          rule: {
+            "monday": [ 7, 23, 11, 20 ],
+            "tuesday": [ 6, 13, 10, 18 ],
+            "wednesday": [ 14, 21, 9, 16 ],
+            "thursday": [ 21, 27, 15, 23 ],
+            "friday": [ 20, 25, 14, 22 ],
+            "saturday": [ 18, 25, 13, 21 ],
+            "sunday": [ 18, 24, 12, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 560,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/familial-i-1957.jpeg',
+          title: 'Familial I',
+          artist: 'Leo Leuppi',
+          year: '1957',
+          rule: {
+            "monday": [ 19, 25, 13, 21 ],
+            "tuesday": [ 8, 24, 12, 21 ],
+            "wednesday": [ 7, 14, 11, 19 ],
+            "thursday": [ 15, 22, 10, 17 ],
+            "friday": [ 22, 28, 16, 24 ],
+            "saturday": [ 21, 26, 15, 23 ],
+            "sunday": [ 19, 26, 14, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

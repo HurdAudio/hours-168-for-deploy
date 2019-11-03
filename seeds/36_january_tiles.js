@@ -1446,6 +1446,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#E5E9F2',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 104,
+          user_id: 1,
+          theme: 'Ice',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/regine-tholen-iYAvGFLIjpQ-unsplash.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#225267',
+          color_medium: '#567CA3',
+          color_light: '#D3E9FE',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

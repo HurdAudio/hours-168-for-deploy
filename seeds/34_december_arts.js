@@ -10504,6 +10504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 526,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/39-01,AdvComics.jpg',
+          title: 'Adventure Comics',
+          artist: 'Fred B. Guardineer',
+          year: '1939',
+          rule: {
+            "monday": [ 16, 28, 6, 12 ],
+            "tuesday": [ 15, 28, 5, 11 ],
+            "wednesday": [ 14, 27, 4, 10 ],
+            "thursday": [ 13, 26, 3, 9 ],
+            "friday": [ 12, 24, 23, 8 ],
+            "saturday": [ 1, 24, 12, 19 ],
+            "sunday": [ 17, 30, 7, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 527,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/1896,NYSundayJournal.jpg',
+          title: 'Sunday Journal',
+          artist: 'Archie Gunn',
+          year: '1898',
+          rule: {
+            "monday": [ 17, 30, 7, 13 ],
+            "tuesday": [ 16, 28, 6, 12 ],
+            "wednesday": [ 15, 28, 5, 11 ],
+            "thursday": [ 14, 27, 4, 10 ],
+            "friday": [ 13, 26, 3, 9 ],
+            "saturday": [ 12, 24, 23, 8 ],
+            "sunday": [ 1, 24, 12, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 528,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-05,BB1.jpg',
+          title: 'Blue Book',
+          artist: 'Lea Gustavson',
+          year: '1935',
+          rule: {
+            "monday": [ 1, 24, 12, 19 ],
+            "tuesday": [ 17, 30, 7, 13 ],
+            "wednesday": [ 16, 28, 6, 12 ],
+            "thursday": [ 15, 28, 5, 11 ],
+            "friday": [ 14, 27, 4, 10 ],
+            "saturday": [ 13, 26, 3, 9 ],
+            "sunday": [ 12, 24, 23, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 529,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/09-10,Munsey.jpg',
+          title: 'Munsey\'s Magazine',
+          artist: 'T. Victor Hall',
+          year: '1909',
+          rule: {
+            "monday": [ 12, 24, 23, 8 ],
+            "tuesday": [ 1, 24, 12, 19 ],
+            "wednesday": [ 17, 30, 7, 13 ],
+            "thursday": [ 16, 28, 6, 12 ],
+            "friday": [ 15, 28, 5, 11 ],
+            "saturday": [ 14, 27, 4, 10 ],
+            "sunday": [ 13, 26, 3, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 530,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/22-06,BriefS.jpg',
+          title: 'Brief Stories',
+          artist: 'Charles Hargens',
+          year: '1922',
+          rule: {
+            "monday": [ 13, 26, 3, 9 ],
+            "tuesday": [ 12, 24, 23, 8 ],
+            "wednesday": [ 1, 24, 12, 19 ],
+            "thursday": [ 17, 30, 7, 13 ],
+            "friday": [ 16, 28, 6, 12 ],
+            "saturday": [ 15, 28, 5, 11 ],
+            "sunday": [ 14, 27, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6052,6 +6052,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 337,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2433824060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://catdogmouse.bandcamp.com/album/hit',
+          a_string: 'Hit by FAT',
+          rule: {
+            "monday": [ 28, 5, 18, 17 ],
+            "tuesday": [ 27, 4, 17, 16 ],
+            "wednesday": [ 26, 3, 16, 15 ],
+            "thursday": [ 25, 2, 15, 14 ],
+            "saturday": [ 24, 1, 14, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 338,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4220723369/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://destination-out.bandcamp.com/album/the-complete-duos-europa-america-japan',
+          a_string: 'The Complete Duos: Europa · America · Japan by PETER KOWALD',
+          rule: {
+            "monday": [ 24, 1, 14, 13 ],
+            "tuesday": [ 28, 5, 18, 17 ],
+            "wednesday": [ 27, 4, 17, 16 ],
+            "thursday": [ 26, 3, 16, 15 ],
+            "saturday": [ 25, 2, 15, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 339,
+          user_id: 1,
+          theme: 'Noise Music & Non-idiomatic Improvisation',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1272441168/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://harshnoisemovement.bandcamp.com/album/thalidomide-rock',
+          a_string: 'Thalidomide Rock by Ade Rowe',
+          rule: {
+            "monday": [ 25, 2, 15, 14 ],
+            "tuesday": [ 24, 1, 14, 13 ],
+            "wednesday": [ 28, 5, 18, 17 ],
+            "thursday": [ 27, 4, 17, 16 ],
+            "saturday": [ 26, 3, 16, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

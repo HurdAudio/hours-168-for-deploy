@@ -1320,6 +1320,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#F9EBD3',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 95,
+          user_id: 1,
+          theme: 'Autumnal',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/autumn_colours_____by_kariliimatainen_d2p055u-fullview.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#0B0C04',
+          color_medium: '#DE2424',
+          color_light: '#FDFED2',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6592,6 +6592,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 367,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4264682697/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://littlescream.bandcamp.com/album/speed-queen',
+          a_string: 'Speed Queen by Little Scream',
+          rule: {
+            "monday": [ 27, 2, 8, 16 ],
+            "tuesday": [ 26, 1, 6, 15 ],
+            "wednesday": [ 25, 31, 6, 15 ],
+            "thursday": [ 23, 30, 5, 13 ],
+            "saturday": [ 23, 29, 4, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 368,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3748446013/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://nessheads.bandcamp.com/album/numb',
+          a_string: 'Numb by Ness Heads',
+          rule: {
+            "monday": [ 23, 29, 4, 12 ],
+            "tuesday": [ 27, 2, 8, 16 ],
+            "wednesday": [ 26, 1, 6, 15 ],
+            "thursday": [ 25, 31, 6, 15 ],
+            "saturday": [ 23, 30, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 369,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2722482134/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://moormother.bandcamp.com/album/analog-fluids-of-sonic-black-holes',
+          a_string: 'Analog Fluids Of Sonic Black Holes by Moor Mother',
+          rule: {
+            "monday": [ 23, 30, 5, 13 ],
+            "tuesday": [ 23, 29, 4, 12 ],
+            "wednesday": [ 27, 2, 8, 16 ],
+            "thursday": [ 26, 1, 6, 15 ],
+            "saturday": [ 25, 31, 6, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

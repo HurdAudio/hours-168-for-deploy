@@ -1432,6 +1432,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#ECECEC',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 103,
+          user_id: 1,
+          theme: 'Silk/Velvet',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/TTR-KSCD7691-t.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#0B1918',
+          color_medium: '#6C7989',
+          color_light: '#E9EE96',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

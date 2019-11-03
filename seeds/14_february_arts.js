@@ -12504,6 +12504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 626,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/faceTheMusicMirror.jpeg',
+          title: 'Face the Music (Mirror)',
+          artist: 'Frank E. Cummings III',
+          year: '1979',
+          rule: {
+            "monday": [ 13, 23, 19, 9 ],
+            "tuesday": [ 3, 11, 19, 27 ],
+            "wednesday": [ 4, 13, 21, 29 ],
+            "thursday": [ 10, 15, 21, 2 ],
+            "friday": [ 9, 17, 25, 4 ],
+            "saturday": [ 11, 21, 27, 4 ],
+            "sunday": [ 13, 21, 29, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 627,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/tumblr_pmvtvilYZ31qb972xo1_400.jpg',
+          title: 'Barack Obama',
+          artist: 'Michael A. Cummings',
+          year: '2008',
+          rule: {
+            "monday": [ 13, 21, 29, 10 ],
+            "tuesday": [ 13, 23, 19, 9 ],
+            "wednesday": [ 3, 11, 19, 27 ],
+            "thursday": [ 4, 13, 21, 29 ],
+            "friday": [ 10, 15, 21, 2 ],
+            "saturday": [ 9, 17, 25, 4 ],
+            "sunday": [ 11, 21, 27, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 628,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/folk_5143_image.jpg',
+          title: 'Tomg of Pontius Pilate',
+          artist: 'Ulysses Davis',
+          year: '?',
+          rule: {
+            "monday": [ 11, 21, 27, 4 ],
+            "tuesday": [ 13, 21, 29, 10 ],
+            "wednesday": [ 13, 23, 19, 9 ],
+            "thursday": [ 3, 11, 19, 27 ],
+            "friday": [ 4, 13, 21, 29 ],
+            "saturday": [ 10, 15, 21, 2 ],
+            "sunday": [ 9, 17, 25, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 629,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/b12e6112db93b4cf403a706bb0e1bcbe.gif',
+          title: 'unknown title',
+          artist: 'Bing Davis',
+          year: '?',
+          rule: {
+            "monday": [ 9, 17, 25, 4 ],
+            "tuesday": [ 11, 21, 27, 4 ],
+            "wednesday": [ 13, 21, 29, 10 ],
+            "thursday": [ 13, 23, 19, 9 ],
+            "friday": [ 3, 11, 19, 27 ],
+            "saturday": [ 4, 13, 21, 29 ],
+            "sunday": [ 10, 15, 21, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 630,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/38927-3.jpg',
+          title: 'unknown title',
+          artist: 'Charles C. Dawson',
+          year: '?',
+          rule: {
+            "monday": [ 11, 16, 22, 3 ],
+            "tuesday": [ 10, 18, 26, 5 ],
+            "wednesday": [ 12, 22, 28, 5 ],
+            "thursday": [ 14, 22, 1, 11 ],
+            "friday": [ 14, 24, 20, 10 ],
+            "saturday": [ 4, 12, 20, 28 ],
+            "sunday": [ 5, 14, 22, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

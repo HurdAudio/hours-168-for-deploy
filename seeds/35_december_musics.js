@@ -5620,6 +5620,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 313,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3232338699/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tropicaltwistarecords.bandcamp.com/album/ma-ra-cuy-fille-du-doute-ttr059',
+          a_string: 'Mȁ̲̠̻ͥ̾ra͔̥̩̾͊̑cuyá͊ - Fille du Doute (TTR059) by Tropical Twista Records',
+          rule: {
+            "monday": [ 16, 22, 28, 3 ],
+            "tuesday": [ 20, 26, 1, 7 ],
+            "wednesday": [ 19, 25, 31, 6 ],
+            "thursday": [ 16, 24, 30, 5 ],
+            "saturday": [ 15, 23, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 314,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3595506952/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tropicaltwistarecords.bandcamp.com/album/mamazonia-odes-to-the-forest-vol-2',
+          a_string: 'Mamazonia : Odes to the Forest - Vol​.​2 by Tropical Twista Records',
+          rule: {
+            "monday": [ 15, 23, 29, 4 ],
+            "tuesday": [ 16, 22, 28, 3 ],
+            "wednesday": [ 20, 26, 1, 7 ],
+            "thursday": [ 19, 25, 31, 6 ],
+            "saturday": [ 16, 24, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 315,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2293137184/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tropicaltwistarecords.bandcamp.com/album/thds-two-sides-of-a-world-ttr058',
+          a_string: 'thds - Two Sides of a World (TTR058) by Tropical Twista Records',
+          rule: {
+            "monday": [ 17, 25, 31, 6 ],
+            "tuesday": [ 16, 24, 30, 5 ],
+            "wednesday": [ 17, 23, 29, 4 ],
+            "thursday": [ 21, 27, 2, 8 ],
+            "saturday": [ 20, 26, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

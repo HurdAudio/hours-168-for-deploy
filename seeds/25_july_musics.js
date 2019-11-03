@@ -6160,6 +6160,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 343,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1796313983/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://omniatl.bandcamp.com/album/networker',
+          a_string: 'Networker by Omni',
+          rule: {
+            "monday": [ 20, 22, 26, 3 ],
+            "tuesday": [ 19, 21, 25, 2 ],
+            "wednesday": [ 18, 20, 24, 1 ],
+            "thursday": [ 17, 18, 23, 31 ],
+            "saturday": [ 16, 18, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 344,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1569274477/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://theshivas.bandcamp.com/album/dark-thoughts',
+          a_string: 'Dark Thoughts by The Shivas',
+          rule: {
+            "monday": [ 16, 18, 22, 30 ],
+            "tuesday": [ 20, 22, 26, 3 ],
+            "wednesday": [ 19, 21, 25, 2 ],
+            "thursday": [ 18, 20, 24, 1 ],
+            "saturday": [ 17, 18, 23, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 345,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=67051901/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jonathanfireeater.bandcamp.com/album/tremble-under-boom-lights',
+          a_string: 'Tremble Under Boom Lights by Jonathan Fire*Eater',
+          rule: {
+            "monday": [ 17, 18, 23, 31 ],
+            "tuesday": [ 16, 18, 22, 30 ],
+            "wednesday": [ 20, 22, 26, 3 ],
+            "thursday": [ 19, 21, 25, 2 ],
+            "saturday": [ 18, 20, 24, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

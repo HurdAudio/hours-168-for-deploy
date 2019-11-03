@@ -1362,6 +1362,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FFFB97',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 98,
+          user_id: 1,
+          theme: 'Steam',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/steaming_my_feathers_by_nipntuck3_dc0nprp-fullview.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#2C2D2F',
+          color_medium: '#7B5C35',
+          color_light: '#FFFFFA',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

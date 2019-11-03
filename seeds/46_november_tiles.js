@@ -1306,6 +1306,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FFFFFF',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 94,
+          user_id: 1,
+          theme: 'Monochromatic',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/roadworks_by_prose4ever_ddhaotz-fullview.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#0C0D0B',
+          color_medium: '#A0A0A0',
+          color_light: '#F9F9F9',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

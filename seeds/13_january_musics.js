@@ -6808,6 +6808,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 379,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2045785285/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://xirecords.bandcamp.com/album/drop-by-drop-suddenly',
+          a_string: 'drop by drop, suddenly by Leslie Ross',
+          rule: {
+            "monday": [ 2, 9, 10, 11 ],
+            "tuesday": [ 1, 7, 8, 10 ],
+            "wednesday": [ 31, 7, 8, 9 ],
+            "thursday": [ 30, 5, 6, 7 ],
+            "saturday": [ 29, 5, 6, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 380,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2305625765/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://xirecords.bandcamp.com/album/celestial-fires',
+          a_string: 'Celestial Fires by Mary Jane Leach',
+          rule: {
+            "monday": [ 29, 5, 6, 7 ],
+            "tuesday": [ 2, 9, 10, 11 ],
+            "wednesday": [ 1, 7, 8, 10 ],
+            "thursday": [ 31, 7, 8, 9 ],
+            "saturday": [ 30, 5, 6, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 381,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1412427909/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://sarahdavachi.bandcamp.com/album/dominions',
+          a_string: 'Dominions by Sarah Davachi',
+          rule: {
+            "monday": [ 30, 5, 6, 7 ],
+            "tuesday": [ 29, 5, 6, 7 ],
+            "wednesday": [ 2, 9, 10, 11 ],
+            "thursday": [ 1, 7, 8, 10 ],
+            "saturday": [ 31, 7, 8, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

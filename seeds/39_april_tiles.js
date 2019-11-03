@@ -1404,6 +1404,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#F1FBF5',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 101,
+          user_id: 1,
+          theme: 'Water',
+          type: 'sunday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april_tiles/frozen_wave_by_borda_d8ykw0p-fullview.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#052935',
+          color_medium: '#3D7375',
+          color_light: '#DFD2C2',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

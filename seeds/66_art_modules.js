@@ -4384,6 +4384,66 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 366,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/sopra-piume-2007.jpeg',
+          title: 'Sopra-piume',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 367,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/s-invola-2007.jpeg',
+          title: 'S\'invola',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 368,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/stelle-nitriscono-2007.jpeg',
+          title: 'Stelle nitriscono',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 369,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/soccorso-doloroso-2007.jpeg',
+          title: 'Soccorso doloroso',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 370,
+          user_author_id: 1,
+          theme: 'Transavantgarde',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/sprofondate-verit-2007.jpeg',
+          title: 'Sprofondate Verità',
+          artist: 'Enzo Cucchi',
+          year: '2007',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6268,6 +6268,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 349,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2264046810/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://12kmusic.bandcamp.com/album/upward-broken-always',
+          a_string: 'Upward, Broken, Always by OHIO',
+          rule: {
+            "monday": [ 20, 24, 30, 11 ],
+            "tuesday": [ 19, 22, 27, 9 ],
+            "wednesday": [ 18, 21, 27, 8 ],
+            "thursday": [ 18, 21, 27, 7 ],
+            "saturday": [ 16, 24, 26, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 350,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=686753670/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://peakoil.bandcamp.com/album/vol-2',
+          a_string: 'Vol. 2 by Topdown Dialectic',
+          rule: {
+            "monday": [ 17, 25, 27, 12 ],
+            "tuesday": [ 21, 25, 1, 12 ],
+            "wednesday": [ 20, 23, 28, 10 ],
+            "thursday": [ 19, 22, 28, 9 ],
+            "saturday": [ 19, 22, 28, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 351,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4226029392/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://iamthys.bandcamp.com/album/music-from-sleeping-beauty-dreams',
+          a_string: 'Music from Sleeping Beauty Dreams by thys',
+          rule: {
+            "monday": [ 19, 22, 28, 8 ],
+            "tuesday": [ 17, 25, 27, 12 ],
+            "wednesday": [ 21, 25, 1, 12 ],
+            "thursday": [ 20, 23, 28, 10 ],
+            "saturday": [ 19, 22, 28, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

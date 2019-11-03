@@ -11304,6 +11304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 566,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/preparing-for-dance-1914.jpeg',
+          title: 'Preparing for Dance',
+          artist: 'Uemura Shoen',
+          year: '1914',
+          rule: {
+            "monday": [ 17, 19, 29, 14 ],
+            "tuesday": [ 16, 19, 28, 13 ],
+            "wednesday": [ 15, 18, 27, 12 ],
+            "thursday": [ 21, 25, 2, 18 ],
+            "friday": [ 20, 23, 1, 17 ],
+            "saturday": [ 18, 23, 31, 16 ],
+            "sunday": [ 18, 20, 30, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 567,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/rex-i-1904.jpeg',
+          title: 'Rex I',
+          artist: 'Mikalojus Konstantinas Ciurlionis',
+          year: '1904',
+          rule: {
+            "monday": [ 19, 21, 31, 16 ],
+            "tuesday": [ 18, 20, 30, 15 ],
+            "wednesday": [ 17, 20, 29, 14 ],
+            "thursday": [ 16, 19, 28, 13 ],
+            "friday": [ 22, 26, 3, 19 ],
+            "saturday": [ 21, 24, 2, 18 ],
+            "sunday": [ 19, 24, 1, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 568,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/view-of-basel-and-the-rhine-1928.jpeg',
+          title: 'View of Basel and the Rhine',
+          artist: 'Ernst Ludwig Kirchner',
+          year: '1927 - 1928',
+          rule: {
+            "monday": [ 19, 24, 1, 17 ],
+            "tuesday": [ 19, 21, 31, 16 ],
+            "wednesday": [ 18, 20, 30, 15 ],
+            "thursday": [ 17, 20, 29, 14 ],
+            "friday": [ 16, 19, 28, 13 ],
+            "saturday": [ 22, 26, 3, 19 ],
+            "sunday": [ 21, 24, 2, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 569,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/electrician-1915.jpeg',
+          title: 'Electrician',
+          artist: 'Oleksandr Bogomazov',
+          year: '1915',
+          rule: {
+            "monday": [ 21, 24, 2, 18 ],
+            "tuesday": [ 19, 24, 1, 17 ],
+            "wednesday": [ 19, 21, 31, 16 ],
+            "thursday": [ 18, 20, 30, 15 ],
+            "friday": [ 17, 20, 29, 14 ],
+            "saturday": [ 16, 19, 28, 13 ],
+            "sunday": [ 22, 26, 3, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 570,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/sand-storm-1932.jpeg',
+          title: 'Sand Storm',
+          artist: 'Agnes Lawrence Pelton',
+          year: '1932',
+          rule: {
+            "monday": [ 22, 26, 3, 19 ],
+            "tuesday": [ 21, 24, 2, 18 ],
+            "wednesday": [ 19, 24, 1, 17 ],
+            "thursday": [ 19, 21, 31, 16 ],
+            "friday": [ 18, 20, 30, 15 ],
+            "saturday": [ 17, 20, 29, 14 ],
+            "sunday": [ 16, 19, 28, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

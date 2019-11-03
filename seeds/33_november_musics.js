@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2363366884/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mrbongo.bandcamp.com/album/ambolley',
+          a_string: 'Ambolley by Gyedu-Blay Ambolley',
+          rule: {
+            "monday": [ 13, 24, 5, 17 ],
+            "tuesday": [ 17, 28, 9, 13 ],
+            "wednesday": [ 16, 27, 8, 12 ],
+            "thursday": [ 15, 26, 7, 11 ],
+            "saturday": [ 14, 25, 6, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2786460064/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://matasunarecords.bandcamp.com/album/yobale-ma',
+          a_string: 'Yobale Ma! by Professor Wouassa',
+          rule: {
+            "monday": [ 14, 25, 6, 17 ],
+            "tuesday": [ 13, 24, 5, 17 ],
+            "wednesday": [ 17, 28, 9, 13 ],
+            "thursday": [ 16, 27, 8, 12 ],
+            "saturday": [ 15, 26, 7, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'Ethiopian & Pan-African',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3634466263/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mrbongo.bandcamp.com/album/control',
+          a_string: 'Control by Gyedu-Blay Ambolley',
+          rule: {
+            "monday": [ 15, 26, 7, 11 ],
+            "tuesday": [ 14, 25, 6, 17 ],
+            "wednesday": [ 13, 24, 5, 17 ],
+            "thursday": [ 17, 28, 9, 13 ],
+            "saturday": [ 16, 27, 8, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

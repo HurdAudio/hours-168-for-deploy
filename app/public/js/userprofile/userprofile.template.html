@@ -4563,6 +4563,11 @@
           <a class="btn" href="#" ng-click="$ctrl.userMessageDeleteConfirmClick(message.id)">yes</a>
         </div><br>
         <div id="thisIsMessageReactions{{message.id}}" class="reactionsContainer">
+          <div class="availableMessageReactions">
+            <main ng-repeat="moji in message.mojis">
+                <img ng-if="!moji.user_react" src="{{moji.moji}}" ng-click="$ctrl.messageAddMoji(message, moji)">
+            </main><br><br><br><br>
+          </div>
           <main ng-repeat="react in message.reactions | orderBy : $ctrl.sortBy">
             <div class="individualReactions">
               <p class="reactionTally">{{react.total}}</p>
@@ -4607,7 +4612,7 @@
                   <img src="{{react.icon}}" class="reactionIcon">
                   <span class="tooltipText">{{react.reactors}}</span>
                 </div>
-                <p class="reactionDelete">X</p>
+                <p class="reactionDelete" ng-if="react.user_react" ng-click="$ctrl.commentReactionDelete(react, comment)">X</p>
               </div>
             </main>
 

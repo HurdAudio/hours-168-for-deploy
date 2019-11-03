@@ -1292,6 +1292,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FCFBF6',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 93,
+          user_id: 1,
+          theme: 'Snow',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/the_guardian_by_newcastlemale_dc3grgf-pre.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#21181D',
+          color_medium: '#4D90E9',
+          color_light: '#E1E5EA',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

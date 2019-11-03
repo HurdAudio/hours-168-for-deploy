@@ -9170,9 +9170,20 @@ footer img {
   width: 150px !important;
 }
 
+.reactionsContainer {
+  margin: 30px 0 120px 40px;
+}
+
+.reactionsContainer img {
+  border: none !important;
+  cursor: pointer;
+  max-height: 40px;
+  max-width: 40px;
+}
+
 
 /* .day {
-  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/ice-633157_1920.jpg);
+  background-image: url(https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/regine-tholen-iYAvGFLIjpQ-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 } */

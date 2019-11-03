@@ -339,6 +339,100 @@
       vm.messageReactionDelete = messageReactionDelete;
       vm.addNewTileShareComment = addNewTileShareComment;
       vm.addMusicModuleComment = addMusicModuleComment;
+      vm.commentReactionDelete = commentReactionDelete;
+      vm.messageAddMoji = messageAddMoji;
+
+      function setMessageReactor(messageIndex, index, moji) {
+        $http.get(`/users/${currentUserId}`)
+        .then(userData => {
+          let user = userData.data;
+          vm.userMessages[messageIndex].reactions[index].reactors += user.name + '   ';
+        });
+      }
+
+      function messageAddMoji(message, moji) {
+        let index;
+        let uniqueReaction = true;
+        let subObj = {
+          user_author_id: parseInt(currentUserId),
+          message_id: message.id,
+          reaction: moji.type
+        };
+        console.log(subObj);
+        $http.post('/messages_reactions', subObj)
+        .then(postedReactionData => {
+          let postedReaction = postedReactionData.data;
+          console.log(postedReaction);
+          for (let i = 0; i < vm.userMessages.length; i++) {
+            if (parseInt(vm.userMessages[i].id) === parseInt(message.id)) {
+              for (let j = 0; j < vm.userMessages[i].mojis.length; j++) {
+                if (vm.userMessages[i].mojis[j].type === moji.type) {
+                  vm.userMessages[i].mojis[j].user_react = true;
+                }
+              }
+              if ((vm.userMessages[i].reactions !== undefined) || (vm.userMessages[i].reactions === null)) {
+                vm.userMessages[i].reactions = [];
+              } else {
+                for (let k = 0; k < vm.userMessages[i].reactions.length; k++) {
+                  if (vm.userMessages[i].reactions[k].type === moji.type) {
+                    uniqueReaction = false;
+                    vm.userMessages[i].reactions[k].total += 1;
+                    vm.userMessages[i].reactions[k].type = moji.type;
+                    vm.userMessages[i].reactions[k].user_react = true;
+                    index = k;
+                  }
+                }
+                if (uniqueReaction) {
+                  index = vm.userMessages[i].reactions.length;
+                  vm.userMessages[i].reactions.push({
+                    icon: moji.moji,
+                    reactors: '',
+                    total: 1,
+                    type: moji.type,
+                    user_react: true
+                  });
+                }
+                setMessageReactor(i, index, moji);
+              }
+            }
+          }
+        });
+      }
+
+      function commentReactionDelete(reaction, comment) {
+        $http.get('/comment_reactions')
+        .then(allReactionsData => {
+          let allReactions = allReactionsData.data;
+          let someReactions = allReactions.filter(entry => {
+            return(parseInt(entry.comment_id) === parseInt(comment.id));
+          });
+          let userReaction = someReactions.filter(entry => {
+            return((parseInt(entry.user_author_id) === parseInt(currentUserId)) && (entry.reaction === reaction.type));
+          });
+          $http.delete(`/comment_reactions/${userReaction[0].id}`)
+          .then(removedData => {
+            let removed = removedData.data;
+            for (let i = 0; i < vm.userMessages.length; i++) {
+              if ((vm.userMessages[i].comments !== undefined) && (vm.userMessages[i].comments !== null) && (vm.userMessages[i].comments.length > 0)) {
+                for (let j = 0; j < vm.userMessages[i].comments.length; j++) {
+                  if (parseInt(vm.userMessages[i].comments[j].id) === parseInt(comment.id)) {
+                    for (let k = 0; k < vm.userMessages[i].comments[j].reactions.length; k++) {
+                      if (vm.userMessages[i].comments[j].reactions[k].type === reaction.type) {
+                        if (vm.userMessages[i].comments[j].reactions[k].total === 1) {
+                          vm.userMessages[i].comments[j].reactions.splice(k, 1);
+                        } else {
+                          vm.userMessages[i].comments[j].reactions[k].total -= 1;
+                          vm.userMessages[i].comments[j].reactions[k].user_react = false;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          });
+        });
+      }
 
       function addTimeblockShareCommentReactor(appointmentIndex, commentIndex, reactionIndex, reactorId) {
         $http.get(`/users/${reactorId}`)
@@ -505,6 +599,11 @@
                     } else {
                       vm.userMessages[i].reactions[j].total -= 1;
                       vm.userMessages[i].reactions[j].user_react = false;
+                      for(let p = 0; p < vm.userMessages[i].mojis.length; p++) {
+                        if (vm.userMessages[i].mojis[p].type === vm.userMessages[i].reactions[j].type) {
+                          vm.userMessages[i].mojis[p].user_react = false;
+                        }
+                      }
                     }
                   }
                 }
@@ -18305,6 +18404,10 @@
         .then(reactorData => {
           let reactor = reactorData.data;
           vm.userMessages[messagesIndex].comments[index].reactions[reactionIndex].reactors += reactor.name + '   ';
+          if (parseInt(reactorId) === parseInt(currentUserId)) {
+            vm.userMessages[messagesIndex].comments[index].reactions[reactionIndex].user_react = true;
+          }
+
         });
       }
 
@@ -18335,7 +18438,8 @@
                   message_id: commentReactions[i].message_id,
                   type: commentReactions[i].reaction,
                   total: 1,
-                  reactors: ''
+                  reactors: '',
+                  user_react: false
                 };
                 switch(commentReactions[i].reaction) {
                   case('thumbsUp'):
@@ -19010,6 +19114,11 @@
           vm.userMessages[index].reactions[reactionIndex].reactors += reactor.name + '   ';
           if (parseInt(reactor.id) === parseInt(currentUserId)) {
             vm.userMessages[index].reactions[reactionIndex].user_react = true;
+            for (let i = 0; i < vm.userMessages[index].mojis.length; i++) {
+              if (vm.userMessages[index].mojis[i].type === vm.userMessages[index].reactions[reactionIndex].type) {
+                vm.userMessages[index].mojis[i].user_react = true;
+              }
+            }
           }
         });
       }
@@ -19017,6 +19126,29 @@
       function retrieveReactions(message, index) {
         let uniqueReaction = true;
         let reactionIndex = null;
+
+        vm.userMessages[index].mojis = [
+          {
+            moji: './img/reactions/kisspng-thumb-signal-font-awesome-computer-icons-font-green-thumbs-up-icon-5b4b607cb7a147.6508454515316665567522.png',
+            type: 'thumbsUp',
+            user_react: false
+          },
+          {
+            moji: './img/reactions/kisspng-computer-icons-thumb-signal-clip-art-thumbs-down-5aab2aca6869f5.4518076515211670504277.png',
+            type: 'thumbsDown',
+            user_react: false
+          },
+          {
+            moji:'./img/reactions/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png',
+            type: 'love',
+            user_react: false
+          },
+          {
+            moji: './img/reactions/kisspng-computer-icons-no-entry-sign-5b2413c277b6e8.3874724415290910104904.png',
+            type: 'reject',
+            user_react: false
+          }
+        ];
 
         $http.get('/messages_reactions')
         .then(allReactionsData => {
@@ -19048,7 +19180,7 @@
                     vm.userMessages[index].reactions[reactionIndex].icon = './img/reactions/kisspng-thumb-signal-font-awesome-computer-icons-font-green-thumbs-up-icon-5b4b607cb7a147.6508454515316665567522.png';
                     break;
                   case('thumbsDown'):
-                    vm.userMessages[index].reactions[reactionIndex].icon = './img/reactions/isspng-computer-icons-thumb-signal-clip-art-thumbs-down-5aab2aca6869f5.4518076515211.png';
+                    vm.userMessages[index].reactions[reactionIndex].icon = './img/reactions/kisspng-computer-icons-thumb-signal-clip-art-thumbs-down-5aab2aca6869f5.4518076515211670504277.png';
                     break;
                   case('love'):
                     vm.userMessages[index].reactions[reactionIndex].icon = './img/reactions/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png';

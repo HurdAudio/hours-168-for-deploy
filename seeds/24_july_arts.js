@@ -11504,6 +11504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 576,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/first-communion-of-anaemic-young-girls-in-the-snow.jpeg',
+          title: 'First Communion of Anaemic Young Girls in the Snow',
+          artist: 'Alphonse Allais',
+          year: '1883',
+          rule: {
+            "monday": [ 17, 28, 19, 20 ],
+            "tuesday": [ 22, 31, 13, 24 ],
+            "wednesday": [ 22, 31, 13, 24 ],
+            "thursday": [ 20, 31, 12, 23 ],
+            "friday": [ 20, 31, 11, 12 ],
+            "saturday": [ 19, 30, 9, 11 ],
+            "sunday": [ 16, 27, 18, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 577,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/rolla-1878.jpeg',
+          title: 'Rolla',
+          artist: 'Henri Gervex',
+          year: '1878',
+          rule: {
+            "monday": [ 16, 27, 18, 19 ],
+            "tuesday": [ 17, 28, 19, 20 ],
+            "wednesday": [ 22, 31, 13, 24 ],
+            "thursday": [ 22, 31, 13, 24 ],
+            "friday": [ 20, 31, 12, 23 ],
+            "saturday": [ 20, 31, 11, 12 ],
+            "sunday": [ 19, 30, 9, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 578,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-milliner.jpeg',
+          title: 'The Milliner',
+          artist: 'Eva Gonzales',
+          year: '?',
+          rule: {
+            "monday": [ 19, 30, 9, 11 ],
+            "tuesday": [ 16, 27, 18, 19 ],
+            "wednesday": [ 17, 28, 19, 20 ],
+            "thursday": [ 22, 31, 13, 24 ],
+            "friday": [ 22, 31, 13, 24 ],
+            "saturday": [ 20, 31, 12, 23 ],
+            "sunday": [ 20, 31, 11, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 579,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/young-girl.jpeg',
+          title: 'Young Girl',
+          artist: 'Jules Bastien-Lepage',
+          year: '?',
+          rule: {
+            "monday": [ 20, 31, 11, 12 ],
+            "tuesday": [ 19, 30, 9, 11 ],
+            "wednesday": [ 16, 27, 18, 19 ],
+            "thursday": [ 17, 28, 19, 20 ],
+            "friday": [ 22, 31, 13, 24 ],
+            "saturday": [ 22, 31, 13, 24 ],
+            "sunday": [ 20, 31, 12, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 580,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/gabriel-joseph-marie-augustin-ferrier-ganymede-1874.jpeg',
+          title: 'Ganymede',
+          artist: 'Gabriel Ferrier',
+          year: '1874',
+          rule: {
+            "monday": [ 20, 31, 12, 23 ],
+            "tuesday": [ 20, 31, 11, 12 ],
+            "wednesday": [ 19, 30, 9, 11 ],
+            "thursday": [ 16, 27, 18, 19 ],
+            "friday": [ 17, 28, 19, 20 ],
+            "saturday": [ 22, 31, 13, 24 ],
+            "sunday": [ 22, 31, 13, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

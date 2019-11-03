@@ -5836,6 +5836,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 325,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3128664339/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://haxanto.bandcamp.com/album/burn-the-witch',
+          a_string: 'BURN THE WITCH by HÄXAN',
+          rule: {
+            "monday": [ 22, 2, 11, 14 ],
+            "tuesday": [ 21, 31, 11, 13 ],
+            "wednesday": [ 20, 30, 9, 12 ],
+            "thursday": [ 24, 3, 13, 16 ],
+            "saturday": [ 23, 2, 12, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 326,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=275403504/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://horselungdoom.bandcamp.com/album/-',
+          a_string: 'ἔσχατον by Horse Lung',
+          rule: {
+            "monday": [ 23, 2, 12, 15 ],
+            "tuesday": [ 22, 2, 11, 14 ],
+            "wednesday": [ 21, 31, 11, 13 ],
+            "thursday": [ 20, 30, 9, 12 ],
+            "saturday": [ 24, 3, 13, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 327,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2656913877/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://realworld.bandcamp.com/album/the-language-of-my-life-is-written-in-blood',
+          a_string: 'The Language of My Life is Written in Blood by Real World',
+          rule: {
+            "monday": [ 24, 3, 13, 16 ],
+            "tuesday": [ 23, 2, 12, 15 ],
+            "wednesday": [ 22, 2, 11, 14 ],
+            "thursday": [ 21, 31, 11, 13 ],
+            "saturday": [ 20, 30, 9, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6484,6 +6484,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 361,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1887610953/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://catherinesikora.bandcamp.com/album/warrior',
+          a_string: 'Warrior by Catherine Sikora',
+          rule: {
+            "monday": [ 24, 1, 14, 19 ],
+            "tuesday": [ 23, 1, 13, 18 ],
+            "wednesday": [ 22, 30, 11, 17 ],
+            "thursday": [ 21, 29, 11, 16 ],
+            "saturday": [ 25, 3, 15, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 362,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4137933109/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://milesokazaki.bandcamp.com/album/the-sky-below',
+          a_string: 'The Sky Below by Miles Okazaki',
+          rule: {
+            "monday": [ 25, 3, 15, 20 ],
+            "tuesday": [ 24, 1, 14, 19 ],
+            "wednesday": [ 23, 1, 13, 18 ],
+            "thursday": [ 22, 30, 11, 17 ],
+            "saturday": [ 21, 29, 11, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 363,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1498433842/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://ohadtalmor.bandcamp.com/album/playing-in-traffic',
+          a_string: 'Playing In Traffic by Steve Swallow, Ohad Talmor, Adam Nussbaum',
+          rule: {
+            "monday": [ 21, 29, 11, 16 ],
+            "tuesday": [ 25, 3, 15, 20 ],
+            "wednesday": [ 24, 1, 14, 19 ],
+            "thursday": [ 23, 1, 13, 18 ],
+            "saturday": [ 22, 30, 11, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

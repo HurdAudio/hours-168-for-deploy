@@ -6376,6 +6376,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 355,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3501981487/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://alreadydeadtapes.bandcamp.com/album/ad319-cop-funeral-pain',
+          a_string: 'AD319 Cop Funeral &#39;Pain&#39; by Already Dead Tapes and Records',
+          rule: {
+            "monday": [ 21, 27, 3, 16 ],
+            "tuesday": [ 20, 26, 2, 15 ],
+            "wednesday": [ 19, 25, 1, 14 ],
+            "thursday": [ 18, 24, 31, 13 ],
+            "saturday": [ 22, 28, 4, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 356,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2081019674/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://claricejensen.bandcamp.com/album/drone-studies',
+          a_string: 'Drone Studies by Clarice Jensen',
+          rule: {
+            "monday": [ 22, 28, 4, 17 ],
+            "tuesday": [ 21, 27, 3, 16 ],
+            "wednesday": [ 20, 26, 2, 15 ],
+            "thursday": [ 19, 25, 1, 14 ],
+            "saturday": [ 18, 24, 31, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 357,
+          user_id: 1,
+          theme: 'Avant Garde/New Music',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3967148940/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://strategictapereserve.bandcamp.com/album/plays-the-vitamin-b12',
+          a_string: 'Plays The Vitamin B12 by Nicholas Langley',
+          rule: {
+            "monday": [ 19, 25, 1, 14 ],
+            "tuesday": [ 23, 29, 5, 18 ],
+            "wednesday": [ 22, 28, 4, 17 ],
+            "thursday": [ 21, 27, 3, 16 ],
+            "saturday": [ 20, 26, 2, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

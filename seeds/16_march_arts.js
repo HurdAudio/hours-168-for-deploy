@@ -12304,6 +12304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 616,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/szanto-ai-593-b.jpeg',
+          title: 'Carrot and Parsnip',
+          artist: 'Piroska Szanto',
+          year: '1986',
+          rule: {
+            "monday": [ 24, 3, 11, 21 ],
+            "tuesday": [ 23, 3, 10, 20 ],
+            "wednesday": [ 22, 1, 9, 19 ],
+            "thursday": [ 21, 31, 9, 18 ],
+            "friday": [ 27, 5, 15, 23 ],
+            "saturday": [ 26, 5, 13, 23 ],
+            "sunday": [ 24, 4, 12, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 617,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/flowers-in-a-vase-with-lemon-1987.jpeg',
+          title: 'Flowers in a vase with lemon',
+          artist: 'Mary Fedden',
+          year: '1987',
+          rule: {
+            "monday": [ 24, 4, 12, 22 ],
+            "tuesday": [ 24, 3, 11, 21 ],
+            "wednesday": [ 23, 3, 10, 20 ],
+            "thursday": [ 22, 1, 9, 19 ],
+            "friday": [ 21, 31, 9, 18 ],
+            "saturday": [ 27, 5, 15, 23 ],
+            "sunday": [ 26, 5, 13, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 618,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/color-motion-2-64-1964.jpeg',
+          title: 'Color Motion 2-64',
+          artist: 'Edna Andrade',
+          year: '1964',
+          rule: {
+            "monday": [ 26, 5, 13, 23 ],
+            "tuesday": [ 24, 4, 12, 22 ],
+            "wednesday": [ 24, 3, 11, 21 ],
+            "thursday": [ 23, 3, 10, 20 ],
+            "friday": [ 22, 1, 9, 19 ],
+            "saturday": [ 21, 31, 9, 18 ],
+            "sunday": [ 27, 5, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 619,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/z-martyl-perryville.jpeg',
+          title: 'Perryville Station',
+          artist: 'Martyl Langsdorf',
+          year: '1940',
+          rule: {
+            "monday": [ 27, 5, 15, 23 ],
+            "tuesday": [ 26, 5, 13, 23 ],
+            "wednesday": [ 24, 4, 12, 22 ],
+            "thursday": [ 24, 3, 11, 21 ],
+            "friday": [ 23, 3, 10, 20 ],
+            "saturday": [ 22, 1, 9, 19 ],
+            "sunday": [ 21, 31, 9, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 620,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/winter-windows-1967.jpeg',
+          title: 'Winter Windows',
+          artist: 'Jane Frank',
+          year: '1967',
+          rule: {
+            "monday": [ 21, 31, 9, 18 ],
+            "tuesday": [ 27, 5, 15, 23 ],
+            "wednesday": [ 26, 5, 13, 23 ],
+            "thursday": [ 24, 4, 12, 22 ],
+            "friday": [ 24, 3, 11, 21 ],
+            "saturday": [ 23, 3, 10, 20 ],
+            "sunday": [ 22, 1, 9, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

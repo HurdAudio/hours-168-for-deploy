@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/time-timeless-no-time-2004.jpeg',
+          title: 'Time/Timeless/No Time',
+          artist: 'Walter De Maria',
+          year: '2004',
+          rule: {
+            "monday": [ 25, 30, 6, 11 ],
+            "tuesday": [ 24, 26, 4, 30 ],
+            "wednesday": [ 23, 27, 4, 7 ],
+            "thursday": [ 22, 25, 2, 7 ],
+            "friday": [ 20, 25, 1, 6 ],
+            "saturday": [ 19, 24, 30, 5 ],
+            "sunday": [ 19, 24, 30, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/color-sample-for-painting-02-27-2004.jpeg',
+          title: 'Color sample for painting (#02\'27)',
+          artist: 'Rudolf de Crignis',
+          year: '2004',
+          rule: {
+            "monday": [ 19, 24, 30, 7 ],
+            "tuesday": [ 25, 30, 6, 11 ],
+            "wednesday": [ 24, 26, 4, 30 ],
+            "thursday": [ 23, 27, 4, 7 ],
+            "friday": [ 22, 25, 2, 7 ],
+            "saturday": [ 20, 25, 1, 6 ],
+            "sunday": [ 19, 24, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/conjunction-04-13-2004.jpeg',
+          title: 'Conjunction 04-13',
+          artist: 'Ha Chong-Hyun',
+          year: '2004',
+          rule: {
+            "monday": [ 19, 24, 30, 5 ],
+            "tuesday": [ 19, 24, 30, 7 ],
+            "wednesday": [ 25, 30, 6, 11 ],
+            "thursday": [ 24, 26, 4, 30 ],
+            "friday": [ 23, 27, 4, 7 ],
+            "saturday": [ 22, 25, 2, 7 ],
+            "sunday": [ 20, 25, 1, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/reconstruction-of-krasinski-s-installation-at-the-1970-tokyo-biennial.jpeg',
+          title: 'Reconstruction of Krasinski’s installation at the 1970 Tokyo Biennial',
+          artist: 'Edward Krasinski',
+          year: '?',
+          rule: {
+            "monday": [ 21, 26, 2, 7 ],
+            "tuesday": [ 20, 25, 1, 6 ],
+            "wednesday": [ 20, 25, 1, 8 ],
+            "thursday": [ 26, 1, 7, 12 ],
+            "friday": [ 25, 27, 5, 1 ],
+            "saturday": [ 24, 28, 5, 8 ],
+            "sunday": [ 23, 26, 3, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/sea-2005.jpeg',
+          title: 'Sea',
+          artist: 'Yayoi Kusama',
+          year: '2005',
+          rule: {
+            "monday": [ 23, 26, 3, 8 ],
+            "tuesday": [ 21, 26, 2, 7 ],
+            "wednesday": [ 20, 25, 1, 6 ],
+            "thursday": [ 20, 25, 1, 8 ],
+            "friday": [ 26, 1, 7, 12 ],
+            "saturday": [ 25, 27, 5, 1 ],
+            "sunday": [ 24, 28, 5, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
