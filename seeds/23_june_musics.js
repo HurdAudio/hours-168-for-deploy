@@ -6322,6 +6322,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 352,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4286121267/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://shop.serein.co.uk/album/konfusion',
+          a_string: 'Konfusion by Jonas Meyer',
+          rule: {
+            "monday": [ 19, 22, 28, 9 ],
+            "tuesday": [ 19, 22, 28, 8 ],
+            "wednesday": [ 17, 25, 27, 12 ],
+            "thursday": [ 21, 25, 1, 12 ],
+            "saturday": [ 20, 23, 28, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 353,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3103408052/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://innerislands.bandcamp.com/album/in-a-way',
+          a_string: 'in a way by softest',
+          rule: {
+            "monday": [ 20, 23, 28, 10 ],
+            "tuesday": [ 19, 22, 28, 9 ],
+            "wednesday": [ 19, 22, 28, 8 ],
+            "thursday": [ 17, 25, 27, 12 ],
+            "saturday": [ 21, 25, 1, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 354,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=876823821/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://n5md.bandcamp.com/album/secuund',
+          a_string: 'Secuund by Suumhow',
+          rule: {
+            "monday": [ 21, 25, 1, 12 ],
+            "tuesday": [ 20, 23, 28, 10 ],
+            "wednesday": [ 19, 22, 28, 9 ],
+            "thursday": [ 19, 22, 28, 8 ],
+            "saturday": [ 17, 25, 27, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

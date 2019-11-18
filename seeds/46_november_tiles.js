@@ -1320,6 +1320,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#F9F9F9',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 95,
+          user_id: 1,
+          theme: 'Monochromatic',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/abandonned_factory_by_dacored_d9qv5pb-pre.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#090909',
+          color_medium: '#626262',
+          color_light: '#E8E8E8',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6538,6 +6538,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 364,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3343109794/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://yazzahmed.bandcamp.com/album/polyhymnia',
+          a_string: 'Polyhymnia by Yazz Ahmed',
+          rule: {
+            "monday": [ 23, 1, 12, 18 ],
+            "tuesday": [ 22, 30, 12, 17 ],
+            "wednesday": [ 26, 4, 16, 21 ],
+            "thursday": [ 25, 2, 15, 20 ],
+            "saturday": [ 24, 2, 14, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 365,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=943541797/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://whyplayjazz.bandcamp.com/album/h-tte-guests-play-the-music-of-robert-wyatt',
+          a_string: 'Hütte &amp; Guests Play the Music of Robert Wyatt by Max Andrzejewski&#39;s Hütte',
+          rule: {
+            "monday": [ 24, 2, 14, 19 ],
+            "tuesday": [ 23, 1, 12, 18 ],
+            "wednesday": [ 22, 30, 12, 17 ],
+            "thursday": [ 26, 4, 16, 21 ],
+            "saturday": [ 25, 2, 15, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 366,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=937014175/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://carmen-sandim.bandcamp.com/album/play-doh',
+          a_string: 'Play-Doh by Carmen Sandim',
+          rule: {
+            "monday": [ 25, 2, 15, 20 ],
+            "tuesday": [ 24, 2, 14, 19 ],
+            "wednesday": [ 23, 1, 12, 18 ],
+            "thursday": [ 22, 30, 12, 17 ],
+            "saturday": [ 26, 4, 16, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

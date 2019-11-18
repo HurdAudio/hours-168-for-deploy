@@ -11804,6 +11804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 591,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/walking_among_whispers_by_miguel_santos_da8r49p-fullview.jpg',
+          title: 'Walking Among Whispers',
+          artist: 'Miguel Santos',
+          year: '2016',
+          rule: {
+            "monday": [ 24, 4, 14, 21 ],
+            "tuesday": [ 23, 3, 14, 21 ],
+            "wednesday": [ 22, 2, 12, 10 ],
+            "thursday": [ 21, 1, 11, 18 ],
+            "friday": [ 30, 10, 20, 18 ],
+            "saturday": [ 19, 29, 9, 17 ],
+            "sunday": [ 18, 28, 8, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 592,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d1bj7xe-eb57ee1d-13a8-4f40-a98b-dd989622c863.jpg',
+          title: 'Photography',
+          artist: 'frida-vl',
+          year: '2008',
+          rule: {
+            "monday": [ 18, 28, 8, 16 ],
+            "tuesday": [ 24, 4, 14, 21 ],
+            "wednesday": [ 23, 3, 14, 21 ],
+            "thursday": [ 22, 2, 12, 10 ],
+            "friday": [ 21, 1, 11, 18 ],
+            "saturday": [ 30, 10, 20, 18 ],
+            "sunday": [ 19, 29, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 593,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d5us99v-c28c5a6d-7317-4f70-9a9e-b3e18430e667.jpg',
+          title: 'Venice',
+          artist: 'Ssquared-Photography',
+          year: '2013',
+          rule: {
+            "monday": [ 19, 29, 9, 17 ],
+            "tuesday": [ 18, 28, 8, 16 ],
+            "wednesday": [ 24, 4, 14, 21 ],
+            "thursday": [ 23, 3, 14, 21 ],
+            "friday": [ 22, 2, 12, 10 ],
+            "saturday": [ 21, 1, 11, 18 ],
+            "sunday": [ 30, 10, 20, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 594,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d2jpr9c-233e3e8d-8f0a-4009-a6a8-35828eca605e.jpg',
+          title: 'Ladybird',
+          artist: 'Natalia Wań',
+          year: '2010',
+          rule: {
+            "monday": [ 30, 10, 20, 18 ],
+            "tuesday": [ 19, 29, 9, 17 ],
+            "wednesday": [ 18, 28, 8, 16 ],
+            "thursday": [ 24, 4, 14, 21 ],
+            "friday": [ 23, 3, 14, 21 ],
+            "saturday": [ 22, 2, 12, 10 ],
+            "sunday": [ 21, 1, 11, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 595,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/depth_by_burningmonk_d9aomuz-pre.jpg',
+          title: 'Depth',
+          artist: 'burningmonk',
+          year: '2015',
+          rule: {
+            "monday": [ 22, 2, 12, 19 ],
+            "tuesday": [ 1, 11, 21, 19 ],
+            "wednesday": [ 20, 30, 10, 18 ],
+            "thursday": [ 19, 29, 9, 17 ],
+            "friday": [ 25, 5, 15, 22 ],
+            "saturday": [ 24, 4, 15, 22 ],
+            "sunday": [ 23, 3, 13, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -11204,6 +11204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 561,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/imagen-obsesiva-1962.jpeg',
+          title: 'Imagen Obsesiva',
+          artist: 'Gunther Gerzso',
+          year: '1962',
+          rule: {
+            "monday": [ 19, 26, 14, 22 ],
+            "tuesday": [ 19, 25, 13, 21 ],
+            "wednesday": [ 8, 24, 12, 21 ],
+            "thursday": [ 7, 14, 11, 19 ],
+            "friday": [ 15, 22, 10, 17 ],
+            "saturday": [ 22, 28, 16, 24 ],
+            "sunday": [ 21, 26, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 562,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/war-against-capitalism.jpeg',
+          title: 'War Against Capitalism',
+          artist: 'Vasan Sitthiket',
+          year: '?',
+          rule: {
+            "monday": [ 21, 26, 15, 23 ],
+            "tuesday": [ 19, 26, 14, 22 ],
+            "wednesday": [ 19, 25, 13, 21 ],
+            "thursday": [ 8, 24, 12, 21 ],
+            "friday": [ 7, 14, 11, 19 ],
+            "saturday": [ 15, 22, 10, 17 ],
+            "sunday": [ 22, 28, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 563,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/annual-rings-1968.jpeg',
+          title: 'Annual Rings',
+          artist: 'Dennis Oppenheim',
+          year: '1968',
+          rule: {
+            "monday": [ 22, 28, 16, 24 ],
+            "tuesday": [ 21, 26, 15, 23 ],
+            "wednesday": [ 19, 26, 14, 22 ],
+            "thursday": [ 19, 25, 13, 21 ],
+            "friday": [ 8, 24, 12, 21 ],
+            "saturday": [ 7, 14, 11, 19 ],
+            "sunday": [ 15, 22, 10, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 564,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/poured-lines-orange-2005.jpeg',
+          title: 'Poured Lines: Orange',
+          artist: 'Ian Davenport',
+          year: '2005',
+          rule: {
+            "monday": [ 15, 22, 10, 17 ],
+            "tuesday": [ 22, 28, 16, 24 ],
+            "wednesday": [ 21, 26, 15, 23 ],
+            "thursday": [ 19, 26, 14, 22 ],
+            "friday": [ 19, 25, 13, 21 ],
+            "saturday": [ 8, 24, 12, 21 ],
+            "sunday": [ 7, 14, 11, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 565,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-maids-1987.jpeg',
+          title: 'The Maids',
+          artist: 'Paula Rego',
+          year: '1987',
+          rule: {
+            "monday": [ 7, 14, 11, 19 ],
+            "tuesday": [ 15, 22, 10, 17 ],
+            "wednesday": [ 22, 28, 16, 24 ],
+            "thursday": [ 21, 26, 15, 23 ],
+            "friday": [ 19, 26, 14, 22 ],
+            "saturday": [ 19, 25, 13, 21 ],
+            "sunday": [ 8, 24, 12, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

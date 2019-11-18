@@ -11004,6 +11004,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 551,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_10th_fiveyearplan.jpg',
+          title: 'To the 10th Five year plan - shock labor!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 18, 29, 9, 13 ],
+            "tuesday": [ 17, 28, 7, 12 ],
+            "wednesday": [ 26, 27, 7, 11 ],
+            "thursday": [ 22, 2, 13, 17 ],
+            "friday": [ 21, 1, 12, 16 ],
+            "saturday": [ 20, 31, 11, 15 ],
+            "sunday": [ 19, 30, 11, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 552,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_274.jpg',
+          title: 'The victory of October - is the main event of the 20th century.',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 19, 30, 11, 14 ],
+            "tuesday": [ 18, 29, 9, 13 ],
+            "wednesday": [ 17, 28, 7, 12 ],
+            "thursday": [ 26, 27, 7, 11 ],
+            "friday": [ 22, 2, 13, 17 ],
+            "saturday": [ 21, 1, 12, 16 ],
+            "sunday": [ 20, 31, 11, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 553,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_gagarin1.jpg',
+          title: 'Cosmos will serve people. Gagarin.',
+          artist: '?',
+          year: '1971',
+          rule: {
+            "monday": [ 21, 1, 12, 16 ],
+            "tuesday": [ 20, 31, 12, 15 ],
+            "wednesday": [ 19, 30, 10, 14 ],
+            "thursday": [ 18, 29, 8, 13 ],
+            "friday": [ 27, 28, 8, 12 ],
+            "saturday": [ 23, 3, 14, 18 ],
+            "sunday": [ 22, 2, 13, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 554,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_372_den_18_24.jpg',
+          title: 'Apollo-Soyuz project',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 22, 2, 13, 17 ],
+            "tuesday": [ 21, 1, 12, 16 ],
+            "wednesday": [ 20, 31, 12, 15 ],
+            "thursday": [ 19, 30, 10, 14 ],
+            "friday": [ 18, 29, 8, 13 ],
+            "saturday": [ 27, 28, 8, 12 ],
+            "sunday": [ 23, 3, 14, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 555,
+          user_id: 1,
+          theme: 'Russian Revolution',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_290.jpg',
+          title: 'Give the Mainline of the century!',
+          artist: '?',
+          year: '?',
+          rule: {
+            "monday": [ 23, 3, 14, 18 ],
+            "tuesday": [ 22, 2, 13, 17 ],
+            "wednesday": [ 21, 1, 12, 16 ],
+            "thursday": [ 20, 31, 12, 15 ],
+            "friday": [ 19, 30, 10, 14 ],
+            "saturday": [ 18, 29, 8, 13 ],
+            "sunday": [ 27, 28, 8, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

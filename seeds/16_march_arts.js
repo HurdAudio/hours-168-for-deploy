@@ -12404,6 +12404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 621,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/recurring-theme.jpeg',
+          title: 'Recurring Theme',
+          artist: 'Jacqueline Hick',
+          year: '?',
+          rule: {
+            "monday": [ 22, 1, 9, 19 ],
+            "tuesday": [ 21, 31, 9, 18 ],
+            "wednesday": [ 27, 5, 15, 23 ],
+            "thursday": [ 26, 5, 13, 23 ],
+            "friday": [ 24, 4, 12, 22 ],
+            "saturday": [ 24, 3, 11, 21 ],
+            "sunday": [ 23, 3, 10, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 622,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/composici-n-serial-1948.jpeg',
+          title: 'Composición serial',
+          artist: 'Lidy Prati',
+          year: '1948',
+          rule: {
+            "monday": [ 23, 3, 10, 20 ],
+            "tuesday": [ 22, 1, 9, 19 ],
+            "wednesday": [ 21, 31, 9, 18 ],
+            "thursday": [ 27, 5, 15, 23 ],
+            "friday": [ 26, 5, 13, 23 ],
+            "saturday": [ 24, 4, 12, 22 ],
+            "sunday": [ 24, 3, 11, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 623,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-dance-of-love.jpeg',
+          title: 'The Dance of Love',
+          artist: 'Tia Peltz',
+          year: '?',
+          rule: {
+            "monday": [ 25, 4, 12, 22 ],
+            "tuesday": [ 24, 4, 11, 21 ],
+            "wednesday": [ 23, 2, 10, 20 ],
+            "thursday": [ 22, 1, 10, 19 ],
+            "friday": [ 28, 6, 16, 24 ],
+            "saturday": [ 27, 6, 14, 24 ],
+            "sunday": [ 25, 5, 13, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 624,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/kabbalah-kabul-sending-emanations-to-the-aliens-2004.jpeg',
+          title: 'Kabbalah/Kabul: Sending Emanations to the Aliens',
+          artist: 'Sonya Rapoport',
+          year: '2004',
+          rule: {
+            "monday": [ 25, 5, 13, 23 ],
+            "tuesday": [ 25, 4, 12, 22 ],
+            "wednesday": [ 24, 4, 11, 21 ],
+            "thursday": [ 23, 2, 10, 20 ],
+            "friday": [ 22, 1, 10, 19 ],
+            "saturday": [ 28, 6, 16, 24 ],
+            "sunday": [ 27, 6, 14, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 625,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/.jpeg',
+          title: 'Green Twilight',
+          artist: 'Jane Wilson',
+          year: '2002',
+          rule: {
+            "monday": [ 27, 6, 14, 24 ],
+            "tuesday": [ 25, 5, 13, 23 ],
+            "wednesday": [ 25, 4, 12, 22 ],
+            "thursday": [ 24, 4, 11, 21 ],
+            "friday": [ 23, 2, 10, 20 ],
+            "saturday": [ 22, 1, 10, 19 ],
+            "sunday": [ 28, 6, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

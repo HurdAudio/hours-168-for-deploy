@@ -6754,6 +6754,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 376,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3150406304/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jamaeldean.bandcamp.com/album/black-space-tapes',
+          a_string: 'Black Space Tapes by Jamael Dean',
+          rule: {
+            "monday": [ 27, 2, 4, 8 ],
+            "tuesday": [ 1, 4, 6, 8 ],
+            "wednesday": [ 12, 6, 8, 10 ],
+            "thursday": [ 14, 8, 10, 16 ],
+            "saturday": [ 15, 9, 11, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 377,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3866511451/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jamilawoodsmusic.bandcamp.com/album/legacy-legacy',
+          a_string: 'LEGACY! LEGACY! by Jamila Woods',
+          rule: {
+            "monday": [ 15, 9, 11, 17 ],
+            "tuesday": [ 27, 2, 4, 8 ],
+            "wednesday": [ 1, 4, 6, 8 ],
+            "thursday": [ 12, 6, 8, 10 ],
+            "saturday": [ 14, 8, 10, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 378,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=620955613/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://closedsessions.bandcamp.com/album/delacreme-2-2',
+          a_string: 'Delacreme 2 by Femdot',
+          rule: {
+            "monday": [ 15, 9, 11, 17 ],
+            "tuesday": [ 16, 10, 12, 18 ],
+            "wednesday": [ 28, 3, 5, 9 ],
+            "thursday": [ 2, 5, 7, 9 ],
+            "saturday": [ 13, 7, 9, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

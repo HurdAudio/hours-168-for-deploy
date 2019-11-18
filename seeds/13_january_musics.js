@@ -6862,6 +6862,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 382,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3702873872/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://unseenworlds.bandcamp.com/album/moments',
+          a_string: 'Moments by Michael Vincent Waller',
+          rule: {
+            "monday": [ 31, 7, 8, 9 ],
+            "tuesday": [ 30, 5, 6, 7 ],
+            "wednesday": [ 29, 5, 6, 7 ],
+            "thursday": [ 2, 9, 10, 11 ],
+            "saturday": [ 1, 7, 8, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 383,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1821658275/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://unseenworlds.bandcamp.com/album/himalaya',
+          a_string: 'Himalaya by Carl Stone',
+          rule: {
+            "monday": [ 1, 7, 8, 10 ],
+            "tuesday": [ 31, 7, 8, 9 ],
+            "wednesday": [ 30, 5, 6, 7 ],
+            "thursday": [ 29, 5, 6, 7 ],
+            "saturday": [ 2, 9, 10, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 384,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1923412501/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://unseenworlds.bandcamp.com/album/river-without-banks',
+          a_string: 'River Without Banks by Leo Svirsky',
+          rule: {
+            "monday": [ 2, 9, 10, 11 ],
+            "tuesday": [ 1, 7, 8, 10 ],
+            "wednesday": [ 31, 7, 8, 9 ],
+            "thursday": [ 30, 5, 6, 7 ],
+            "saturday": [ 29, 5, 6, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -5890,6 +5890,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 328,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1142062926/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://listen.20buckspin.com/album/planetary-clairvoyance',
+          a_string: 'Planetary Clairvoyance by Tomb Mold',
+          rule: {
+            "monday": [ 20, 30, 9, 12 ],
+            "tuesday": [ 24, 3, 13, 16 ],
+            "wednesday": [ 23, 2, 12, 15 ],
+            "thursday": [ 22, 2, 11, 14 ],
+            "saturday": [ 21, 31, 11, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 329,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3611888359/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://volur.bandcamp.com/album/ancestors',
+          a_string: 'Ancestors by Völur',
+          rule: {
+            "monday": [ 22, 1, 12, 14 ],
+            "tuesday": [ 21, 31, 10, 13 ],
+            "wednesday": [ 25, 4, 14, 17 ],
+            "thursday": [ 24, 3, 13, 16 ],
+            "saturday": [ 23, 3, 12, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 330,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=367380974/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://braincandlemusic.bandcamp.com/album/ocean-of-storms',
+          a_string: 'Ocean of Storms by Brain Candle',
+          rule: {
+            "monday": [ 22, 1, 12, 14 ],
+            "tuesday": [ 21, 31, 10, 13 ],
+            "wednesday": [ 25, 4, 14, 17 ],
+            "thursday": [ 24, 3, 13, 16 ],
+            "saturday": [ 23, 3, 12, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

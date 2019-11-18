@@ -11431,6 +11431,34 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 734,
+          user_id: 1,
+          name: 'Robert G. Ingersoll (agnostic/writer/orator) born 1833',
+          color: '#5B5B5B',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Robert_G._Ingersoll_-_Brady-Handy.jpg',
+          day_of: new Date ('1833-08-11  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 735,
+          user_id: 1,
+          name: 'W.E.B. Du Bois (sociologist/historian/civil rights activist/pan-Africanist/writer) born 1868',
+          color: '#7A7A7A',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/WEB_DuBois_1918.jpg',
+          day_of: new Date ('1868-02-23  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

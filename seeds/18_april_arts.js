@@ -12204,6 +12204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 611,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/As_Scream_Munch-812x1024.jpg',
+          title: 'A\'s Scream Munch',
+          artist: 'EMI Branding',
+          year: '2018',
+          rule: {
+            "monday": [ 23, 28, 4, 10 ],
+            "tuesday": [ 28, 4, 9, 15 ],
+            "wednesday": [ 12, 2, 8, 14 ],
+            "thursday": [ 27, 30, 15, 14 ],
+            "friday": [ 26, 30, 15, 13 ],
+            "saturday": [ 23, 29, 5, 11 ],
+            "sunday": [ 24, 29, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 612,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/oakland_athletics_we-can-do-it_r-791x1024.jpg',
+          title: 'Oakland Athletics We Can Do It',
+          artist: 'EMI Branding',
+          year: '2018',
+          rule: {
+            "monday": [ 24, 29, 5, 11 ],
+            "tuesday": [ 23, 28, 4, 10 ],
+            "wednesday": [ 28, 4, 9, 15 ],
+            "thursday": [ 12, 2, 8, 14 ],
+            "friday": [ 27, 30, 15, 14 ],
+            "saturday": [ 26, 30, 15, 13 ],
+            "sunday": [ 23, 29, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 613,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/STOMPER_and_STOMPY-1024x939.gif',
+          title: 'Stomper and Stopmy',
+          artist: 'EMI Branding',
+          year: '2018',
+          rule: {
+            "monday": [ 23, 29, 5, 11 ],
+            "tuesday": [ 24, 29, 5, 11 ],
+            "wednesday": [ 23, 28, 4, 10 ],
+            "thursday": [ 28, 4, 9, 15 ],
+            "friday": [ 12, 2, 8, 14 ],
+            "saturday": [ 27, 30, 15, 14 ],
+            "sunday": [ 26, 30, 15, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 614,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/make-us-happy.jpg',
+          title: 'Make Us Happy',
+          artist: 'EMI Branding',
+          year: '2018',
+          rule: {
+            "monday": [ 26, 30, 15, 13 ],
+            "tuesday": [ 23, 29, 5, 11 ],
+            "wednesday": [ 24, 29, 5, 11 ],
+            "thursday": [ 23, 28, 4, 10 ],
+            "friday": [ 28, 4, 9, 15 ],
+            "saturday": [ 12, 2, 8, 14 ],
+            "sunday": [ 27, 30, 15, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 615,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/run_like_hell.gif',
+          title: 'Run Like Hell',
+          artist: 'EMI Branding',
+          year: '2018',
+          rule: {
+            "monday": [ 27, 30, 15, 14 ],
+            "tuesday": [ 26, 30, 15, 13 ],
+            "wednesday": [ 23, 29, 5, 11 ],
+            "thursday": [ 24, 29, 5, 11 ],
+            "friday": [ 23, 28, 4, 10 ],
+            "saturday": [ 28, 4, 9, 15 ],
+            "sunday": [ 12, 2, 8, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -11404,6 +11404,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 571,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/stone-garden-1939.jpeg',
+          title: 'Stone Garden',
+          artist: 'Willi Baumeister',
+          year: '1939',
+          rule: {
+            "monday": [ 16, 19, 28, 13 ],
+            "tuesday": [ 22, 26, 3, 19 ],
+            "wednesday": [ 21, 24, 2, 18 ],
+            "thursday": [ 19, 24, 1, 17 ],
+            "friday": [ 19, 21, 31, 16 ],
+            "saturday": [ 18, 20, 30, 15 ],
+            "sunday": [ 17, 20, 29, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 572,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/b-ni-and-no-mi-1908.jpeg',
+          title: 'Béni and Noémi',
+          artist: 'Karoly Ferenczy',
+          year: '1908',
+          rule: {
+            "monday": [ 17, 20, 29, 14 ],
+            "tuesday": [ 16, 19, 28, 13 ],
+            "wednesday": [ 22, 26, 3, 19 ],
+            "thursday": [ 21, 24, 2, 18 ],
+            "friday": [ 19, 24, 1, 17 ],
+            "saturday": [ 19, 21, 31, 16 ],
+            "sunday": [ 18, 20, 30, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 573,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/portrait-of-vsevolod-meyerhold-1916.jpeg',
+          title: 'Portrait of Vsevolod Meyerhold',
+          artist: 'Boris Grigoriev',
+          year: '1916',
+          rule: {
+            "monday": [ 18, 20, 30, 15 ],
+            "tuesday": [ 17, 20, 29, 14 ],
+            "wednesday": [ 16, 19, 28, 13 ],
+            "thursday": [ 22, 26, 3, 19 ],
+            "friday": [ 21, 24, 2, 18 ],
+            "saturday": [ 19, 24, 1, 17 ],
+            "sunday": [ 19, 21, 31, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 574,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/lichtkreise-kosmischer-regenbogen-1922.jpeg',
+          title: 'Lichtkreise (Kosmischer Regenbogen)',
+          artist: 'Otto Freundlich',
+          year: '1922',
+          rule: {
+            "monday": [ 20, 22, 1, 17 ],
+            "tuesday": [ 19, 21, 31, 16 ],
+            "wednesday": [ 18, 21, 30, 15 ],
+            "thursday": [ 17, 20, 29, 14 ],
+            "friday": [ 23, 27, 4, 20 ],
+            "saturday": [ 22, 25, 3, 19 ],
+            "sunday": [ 20, 25, 2, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 575,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/a-mermaid-1900.jpeg',
+          title: 'A Mermaid',
+          artist: 'John William Waterhouse',
+          year: '1900',
+          rule: {
+            "monday": [ 20, 25, 2, 18 ],
+            "tuesday": [ 20, 22, 1, 17 ],
+            "wednesday": [ 19, 21, 31, 16 ],
+            "thursday": [ 18, 21, 30, 15 ],
+            "friday": [ 17, 20, 29, 14 ],
+            "saturday": [ 23, 27, 4, 20 ],
+            "sunday": [ 22, 25, 3, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

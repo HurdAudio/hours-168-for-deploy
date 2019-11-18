@@ -5674,6 +5674,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 316,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=761242248/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://papisabrisa.bandcamp.com/album/fenda',
+          a_string: 'Fenda by PAPISA',
+          rule: {
+            "monday": [ 20, 26, 1, 7 ],
+            "tuesday": [ 17, 25, 31, 6 ],
+            "wednesday": [ 16, 24, 30, 5 ],
+            "thursday": [ 17, 23, 29, 4 ],
+            "saturday": [ 21, 27, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 317,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1495150035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://tomasadelreal.bandcamp.com/album/tdr',
+          a_string: 'TDR by Tomasa Del Real',
+          rule: {
+            "monday": [ 21, 27, 2, 8 ],
+            "tuesday": [ 20, 26, 1, 7 ],
+            "wednesday": [ 17, 25, 31, 6 ],
+            "thursday": [ 16, 24, 30, 5 ],
+            "saturday": [ 17, 23, 29, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 318,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2891337897/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mulaband.bandcamp.com/album/aguas',
+          a_string: 'AGUAS by MULA',
+          rule: {
+            "monday": [ 17, 23, 29, 4 ],
+            "tuesday": [ 21, 27, 2, 8 ],
+            "wednesday": [ 20, 26, 1, 7 ],
+            "thursday": [ 17, 25, 31, 6 ],
+            "saturday": [ 16, 24, 30, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

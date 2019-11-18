@@ -10604,6 +10604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 531,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/41-02,BgBkW.jpg',
+          title: 'Big Book Western',
+          artist: 'Grant Hargis',
+          year: '1941',
+          rule: {
+            "monday": [ 14, 27, 4, 10 ],
+            "tuesday": [ 13, 26, 3, 9 ],
+            "wednesday": [ 12, 24, 23, 8 ],
+            "thursday": [ 1, 24, 12, 19 ],
+            "friday": [ 17, 30, 7, 13 ],
+            "saturday": [ 16, 28, 6, 12 ],
+            "sunday": [ 15, 28, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 532,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/34-11,ThllAdv.jpg',
+          title: 'Thrilling Adventure',
+          artist: 'R. G. Harris',
+          year: '1934',
+          rule: {
+            "monday": [ 16, 29, 6, 12 ],
+            "tuesday": [ 15, 28, 5, 11 ],
+            "wednesday": [ 14, 27, 4, 10 ],
+            "thursday": [ 13, 25, 24, 9 ],
+            "friday": [ 2, 25, 13, 20 ],
+            "saturday": [ 18, 31, 8, 14 ],
+            "sunday": [ 17, 29, 7, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 533,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-12,SuperW-2.jpg',
+          title: 'Super Western',
+          artist: 'Roy Harrison',
+          year: '1937',
+          rule: {
+            "monday": [ 17, 29, 7, 13 ],
+            "tuesday": [ 16, 29, 6, 12 ],
+            "wednesday": [ 15, 28, 5, 11 ],
+            "thursday": [ 14, 27, 4, 10 ],
+            "friday": [ 13, 25, 24, 9 ],
+            "saturday": [ 2, 25, 13, 20 ],
+            "sunday": [ 18, 31, 8, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 534,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/21-09,BoysLife.jpg',
+          title: 'Boy\'s Life',
+          artist: 'Howard L. Hastings',
+          year: '1921',
+          rule: {
+            "monday": [ 18, 31, 8, 14 ],
+            "tuesday": [ 17, 29, 7, 13 ],
+            "wednesday": [ 16, 29, 6, 12 ],
+            "thursday": [ 15, 28, 5, 11 ],
+            "friday": [ 14, 27, 4, 10 ],
+            "saturday": [ 13, 25, 24, 9 ],
+            "sunday": [ 2, 25, 13, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 535,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/Drawing-2.jpg',
+          title: 'Drawing',
+          artist: 'Eunice Hatfield',
+          year: '1938',
+          rule: {
+            "monday": [ 2, 25, 13, 20 ],
+            "tuesday": [ 18, 31, 8, 14 ],
+            "wednesday": [ 17, 29, 7, 13 ],
+            "thursday": [ 16, 29, 6, 12 ],
+            "friday": [ 15, 28, 5, 11 ],
+            "saturday": [ 14, 27, 4, 10 ],
+            "sunday": [ 13, 25, 24, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

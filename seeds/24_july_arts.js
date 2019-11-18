@@ -11604,6 +11604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 581,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/sur-la-c-t-bretonne-1883.jpeg',
+          title: 'Sur la Côté Bretonne',
+          artist: 'Pierre Emmanuel Damoye',
+          year: '1883',
+          rule: {
+            "monday": [ 23, 1, 14, 25 ],
+            "tuesday": [ 21, 1, 13, 24 ],
+            "wednesday": [ 21, 1, 12, 13 ],
+            "thursday": [ 20, 31, 10, 12 ],
+            "friday": [ 17, 28, 19, 20 ],
+            "saturday": [ 18, 29, 20, 21 ],
+            "sunday": [ 23, 1, 14, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 582,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/papillon-verre-parlant-vase-1900.jpeg',
+          title: 'Papillon Verre Parlant Vase',
+          artist: 'Emile Galle',
+          year: '1900',
+          rule: {
+            "monday": [ 23, 1, 14, 25 ],
+            "tuesday": [ 23, 1, 14, 25 ],
+            "wednesday": [ 21, 1, 13, 24 ],
+            "thursday": [ 21, 1, 12, 13 ],
+            "friday": [ 20, 31, 10, 12 ],
+            "saturday": [ 17, 28, 19, 20 ],
+            "sunday": [ 18, 29, 20, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 583,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/notre-dame-view-of-the-ile-saint-louis-from-the-quai-henri-iv-1909.jpeg',
+          title: 'Notre Dame View of the Ile Saint Louis from the Quai Henri IV',
+          artist: 'Henri Rousseau',
+          year: '1909',
+          rule: {
+            "monday": [ 18, 29, 20, 21 ],
+            "tuesday": [ 23, 1, 14, 25 ],
+            "wednesday": [ 23, 1, 14, 25 ],
+            "thursday": [ 21, 1, 13, 24 ],
+            "friday": [ 21, 1, 12, 13 ],
+            "saturday": [ 20, 31, 10, 12 ],
+            "sunday": [ 17, 28, 19, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 584,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/alexandre-jacques-chantron-pierrette.jpeg',
+          title: 'Pierrette',
+          artist: 'Alexandre-Jacques Chantron',
+          year: '?',
+          rule: {
+            "monday": [ 17, 28, 19, 20 ],
+            "tuesday": [ 18, 29, 20, 21 ],
+            "wednesday": [ 23, 1, 14, 25 ],
+            "thursday": [ 23, 1, 14, 25 ],
+            "friday": [ 21, 1, 13, 24 ],
+            "saturday": [ 21, 1, 12, 13 ],
+            "sunday": [ 20, 31, 10, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 585,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-seine-river-at-charenton-1878.jpeg',
+          title: 'The Seine river at Charenton',
+          artist: 'Armand Guillaumin',
+          year: '1878',
+          rule: {
+            "monday": [ 20, 31, 10, 12 ],
+            "tuesday": [ 17, 28, 19, 20 ],
+            "wednesday": [ 18, 29, 20, 21 ],
+            "thursday": [ 23, 1, 14, 25 ],
+            "friday": [ 23, 1, 14, 25 ],
+            "saturday": [ 21, 1, 13, 24 ],
+            "sunday": [ 21, 1, 12, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6214,6 +6214,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 346,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=381686781/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://arthurrussell.bandcamp.com/album/iowa-dream',
+          a_string: 'Iowa Dream by Arthur Russell',
+          rule: {
+            "monday": [ 18, 20, 24, 1 ],
+            "tuesday": [ 17, 18, 23, 31 ],
+            "wednesday": [ 16, 18, 22, 30 ],
+            "thursday": [ 20, 22, 26, 3 ],
+            "saturday": [ 19, 21, 25, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 347,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=984984185/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://giantswan.bandcamp.com/album/giant-swan',
+          a_string: 'Giant Swan by Giant Swan',
+          rule: {
+            "monday": [ 19, 21, 25, 2 ],
+            "tuesday": [ 18, 20, 24, 1 ],
+            "wednesday": [ 17, 18, 23, 31 ],
+            "thursday": [ 16, 18, 22, 30 ],
+            "saturday": [ 20, 22, 26, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 348,
+          user_id: 1,
+          theme: 'Commercially Viable Genres',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=588033187/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://petergabriel.bandcamp.com/album/so',
+          a_string: 'So by Peter Gabriel',
+          rule: {
+            "monday": [ 20, 22, 26, 3 ],
+            "tuesday": [ 19, 21, 25, 2 ],
+            "wednesday": [ 18, 20, 24, 1 ],
+            "thursday": [ 17, 18, 23, 31 ],
+            "saturday": [ 16, 18, 22, 30 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

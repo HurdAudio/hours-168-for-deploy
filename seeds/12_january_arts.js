@@ -12804,6 +12804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 641,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/bookplate-b-g-escher-beer.jpeg',
+          title: 'Bookplate B.G. Escher [Beer]',
+          artist: 'M.C. Escher',
+          year: '1922',
+          rule: {
+            "monday": [ 12, 14, 18, 21 ],
+            "tuesday": [ 14, 16, 17, 18 ],
+            "wednesday": [ 2, 4, 27, 16 ],
+            "thursday": [ 2, 4, 27, 16 ],
+            "friday": [ 7, 5, 28, 31 ],
+            "saturday": [ 7, 8, 30, 3 ],
+            "sunday": [ 10, 12, 13, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 642,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-xxii-1922.jpeg',
+          title: 'Composition XXII',
+          artist: 'Theo van Doesburg',
+          year: '1922',
+          rule: {
+            "monday": [ 10, 12, 13, 15 ],
+            "tuesday": [ 12, 14, 18, 21 ],
+            "wednesday": [ 14, 16, 17, 18 ],
+            "thursday": [ 2, 4, 27, 16 ],
+            "friday": [ 2, 4, 27, 16 ],
+            "saturday": [ 7, 5, 28, 31 ],
+            "sunday": [ 7, 8, 30, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 643,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-k-iv-1922.jpeg',
+          title: 'Composition K IV',
+          artist: 'Laszlo Moholy-Nagy',
+          year: '1922',
+          rule: {
+            "monday": [ 7, 8, 30, 3 ],
+            "tuesday": [ 10, 12, 13, 15 ],
+            "wednesday": [ 12, 14, 18, 21 ],
+            "thursday": [ 14, 16, 17, 18 ],
+            "friday": [ 2, 4, 27, 16 ],
+            "saturday": [ 2, 4, 27, 16 ],
+            "sunday": [ 7, 5, 28, 31 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 644,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/santa-claus-1922.jpeg',
+          title: 'Santa Claus',
+          artist: 'Kurt Schwitters',
+          year: '1922',
+          rule: {
+            "monday": [ 8, 6, 29, 1 ],
+            "tuesday": [ 8, 9, 31, 4 ],
+            "wednesday": [ 11, 13, 14, 16 ],
+            "thursday": [ 13, 15, 19, 22 ],
+            "friday": [ 15, 17, 18, 19 ],
+            "saturday": [ 3, 5, 28, 17 ],
+            "sunday": [ 3, 5, 28, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 645,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-1922(1).jpeg',
+          title: 'Untitled',
+          artist: 'Hans Hartung',
+          year: '1922',
+          rule: {
+            "monday": [ 3, 5, 28, 17 ],
+            "tuesday": [ 8, 6, 29, 1 ],
+            "wednesday": [ 8, 9, 31, 4 ],
+            "thursday": [ 11, 13, 14, 16 ],
+            "friday": [ 13, 15, 19, 22 ],
+            "saturday": [ 15, 17, 18, 19 ],
+            "sunday": [ 3, 5, 28, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

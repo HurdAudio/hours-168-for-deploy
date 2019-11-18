@@ -5998,6 +5998,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 334,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1131303308/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://herdofinstinct.bandcamp.com/album/incantation',
+          a_string: 'Incantation by Herd of Instinct',
+          rule: {
+            "monday": [ 20, 9, 17, 11 ],
+            "tuesday": [ 18, 8, 16, 10 ],
+            "wednesday": [ 22, 12, 20, 14 ],
+            "thursday": [ 21, 11, 19, 13 ],
+            "saturday": [ 20, 10, 18, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 335,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=711270179/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://unitwail.bandcamp.com/album/gar-s',
+          a_string: 'égarés by unit wail',
+          rule: {
+            "monday": [ 20, 10, 18, 11 ],
+            "tuesday": [ 20, 9, 17, 11 ],
+            "wednesday": [ 18, 8, 16, 10 ],
+            "thursday": [ 22, 12, 20, 14 ],
+            "saturday": [ 21, 11, 19, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 336,
+          user_id: 1,
+          theme: 'Math Rock & Progressive Rock',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4209642027/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://cuneiformrecords.bandcamp.com/album/faultline',
+          a_string: 'Faultline by Birdsongs Of The Mesozoic',
+          rule: {
+            "monday": [ 22, 12, 20, 14 ],
+            "tuesday": [ 21, 11, 19, 12 ],
+            "wednesday": [ 21, 10, 18, 12 ],
+            "thursday": [ 19, 9, 17, 11 ],
+            "saturday": [ 23, 13, 21, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

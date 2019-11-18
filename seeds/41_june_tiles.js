@@ -1390,6 +1390,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#F5FEFC',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 100,
+          user_id: 1,
+          theme: 'Light',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june_tiles/light_at_the_end_of_the_tunnel_by_bittersweetvenom_d4b5osb-fullview.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#02020A',
+          color_medium: '#50708A',
+          color_light: '#FFFDFD',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -1446,6 +1446,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#E9EE96',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 104,
+          user_id: 1,
+          theme: 'Silk/Velvet',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/cotton-print-on-natural-cotton-fabric-130912_l.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#242427',
+          color_medium: '#5A77A0',
+          color_light: '#DED8D1',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -6646,6 +6646,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 370,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1814017026/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://chaia1.bandcamp.com/album/phase-one',
+          a_string: 'Phase One by Chaia',
+          rule: {
+            "monday": [ 25, 31, 6, 15 ],
+            "tuesday": [ 23, 30, 5, 13 ],
+            "wednesday": [ 23, 29, 4, 12 ],
+            "thursday": [ 27, 2, 8, 16 ],
+            "saturday": [ 26, 1, 6, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 371,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1301784579/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://talitres.bandcamp.com/album/immanent-fire',
+          a_string: 'Immanent Fire by Emily Jane White',
+          rule: {
+            "monday": [ 27, 2, 7, 16 ],
+            "tuesday": [ 26, 1, 7, 16 ],
+            "wednesday": [ 24, 31, 6, 14 ],
+            "thursday": [ 24, 30, 5, 13 ],
+            "saturday": [ 28, 3, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 372,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1822292793/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://madisonmcferrin.bandcamp.com/album/you-i',
+          a_string: 'You + I by Madison McFerrin',
+          rule: {
+            "monday": [ 28, 3, 9, 17 ],
+            "tuesday": [ 27, 2, 7, 16 ],
+            "wednesday": [ 26, 1, 7, 16 ],
+            "thursday": [ 24, 31, 6, 14 ],
+            "saturday": [ 24, 30, 5, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

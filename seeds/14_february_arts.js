@@ -12604,6 +12604,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 631,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/5ad1a372-59e3-491b-90c4-0eab0b269d50_600_446.jpg',
+          title: 'Oliver Beener Group #4',
+          artist: 'Roy DeCarava',
+          year: '1956',
+          rule: {
+            "monday": [ 5, 14, 22, 1 ],
+            "tuesday": [ 11, 16, 22, 3 ],
+            "wednesday": [ 10, 18, 26, 5 ],
+            "thursday": [ 12, 22, 28, 5 ],
+            "friday": [ 14, 22, 1, 11 ],
+            "saturday": [ 14, 24, 20, 10 ],
+            "sunday": [ 4, 12, 20, 28 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 632,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/a001284799-001.jpg',
+          title: 'Abstract',
+          artist: 'Beauford Delaney',
+          year: '?',
+          rule: {
+            "monday": [ 4, 12, 20, 28 ],
+            "tuesday": [ 5, 14, 22, 1 ],
+            "wednesday": [ 11, 16, 22, 3 ],
+            "thursday": [ 10, 18, 26, 5 ],
+            "friday": [ 12, 22, 28, 5 ],
+            "saturday": [ 14, 22, 1, 11 ],
+            "sunday": [ 14, 24, 20, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 633,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/SAAM-1970.176_1.jpg',
+          title: 'Penn Station at War Time',
+          artist: 'Joseph Delaney',
+          year: '1943',
+          rule: {
+            "monday": [ 14, 24, 20, 10 ],
+            "tuesday": [ 4, 12, 20, 28 ],
+            "wednesday": [ 5, 14, 22, 1 ],
+            "thursday": [ 11, 16, 22, 3 ],
+            "friday": [ 10, 18, 26, 5 ],
+            "saturday": [ 12, 22, 28, 5 ],
+            "sunday": [ 14, 22, 1, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 634,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/artist-louis-delsarte-02-450x300.jpg',
+          title: 'Obama Bust`',
+          artist: 'Louis Delsarte',
+          year: '?',
+          rule: {
+            "monday": [ 14, 22, 1, 11 ],
+            "tuesday": [ 14, 24, 20, 10 ],
+            "wednesday": [ 4, 12, 20, 28 ],
+            "thursday": [ 5, 14, 22, 1 ],
+            "friday": [ 11, 16, 22, 3 ],
+            "saturday": [ 10, 18, 26, 5 ],
+            "sunday": [ 12, 22, 28, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 635,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Photo_of_Cabin_and_Mountain_Scene_by_Joseph_Clinton_Devillis.png',
+          title: 'Cabin and Mountain Scene',
+          artist: 'Joseph Clinton Devillis',
+          year: '?',
+          rule: {
+            "monday": [ 12, 22, 28, 5 ],
+            "tuesday": [ 14, 22, 1, 11 ],
+            "wednesday": [ 14, 24, 20, 10 ],
+            "thursday": [ 4, 12, 20, 28 ],
+            "friday": [ 5, 14, 22, 1 ],
+            "saturday": [ 11, 16, 22, 3 ],
+            "sunday": [ 10, 18, 26, 5 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

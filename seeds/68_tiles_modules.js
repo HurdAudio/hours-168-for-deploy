@@ -1084,6 +1084,21 @@ exports.seed = function(knex, Promise) {
           public: true,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 73,
+          user_author_id: 1,
+          theme: 'Kandinsky',
+          type: 'friday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/intime-message-1942.jpeg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#131847',
+          color_medium: '#377A82',
+          color_light: '#8DA5A4',
+          public: true,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
