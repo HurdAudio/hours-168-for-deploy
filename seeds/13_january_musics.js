@@ -6916,6 +6916,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 385,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2147853262/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://unseenworlds.bandcamp.com/album/trust-in-rock',
+          a_string: 'Trust in Rock by &quot;Blue&quot; Gene Tyranny and Peter Gordon',
+          rule: {
+            "monday": [ 30, 6, 7, 8 ],
+            "tuesday": [ 3, 10, 11, 12 ],
+            "wednesday": [ 2, 8, 9, 11 ],
+            "thursday": [ 1, 8, 9, 10 ],
+            "saturday": [ 31, 6, 7, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 386,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1560988978/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://unseenworlds.bandcamp.com/album/out-of-the-blue',
+          a_string: 'Out of the Blue by &quot;Blue&quot; Gene Tyranny',
+          rule: {
+            "monday": [ 31, 6, 7, 8 ],
+            "tuesday": [ 30, 6, 7, 8 ],
+            "wednesday": [ 3, 10, 11, 12 ],
+            "thursday": [ 2, 8, 9, 11 ],
+            "saturday": [ 1, 8, 9, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 387,
+          user_id: 1,
+          theme: 'American Maverick Tradition',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1017065128/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://unseenworlds.bandcamp.com/album/baroo',
+          a_string: 'Baroo by Carl Stone',
+          rule: {
+            "monday": [ 1, 8, 9, 10 ],
+            "tuesday": [ 31, 6, 7, 8 ],
+            "wednesday": [ 30, 6, 7, 8 ],
+            "thursday": [ 3, 10, 11, 12 ],
+            "saturday": [ 2, 8, 9, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

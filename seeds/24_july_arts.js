@@ -11704,6 +11704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 586,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/san-giorgio-maggiore-at-dusk.jpeg',
+          title: 'San Giorgio Maggiore at Dusk',
+          artist: 'Claude Monet',
+          year: '1908',
+          rule: {
+            "monday": [ 21, 1, 12, 13 ],
+            "tuesday": [ 20, 31, 10, 12 ],
+            "wednesday": [ 17, 28, 19, 20 ],
+            "thursday": [ 18, 29, 20, 21 ],
+            "friday": [ 23, 1, 14, 25 ],
+            "saturday": [ 23, 1, 14, 25 ],
+            "sunday": [ 21, 1, 13, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 587,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/Odilon Redon.jpeg',
+          title: 'Orpheus',
+          artist: 'Odilon Redon',
+          year: '?',
+          rule: {
+            "monday": [ 21, 1, 13, 24 ],
+            "tuesday": [ 21, 1, 12, 13 ],
+            "wednesday": [ 20, 31, 10, 12 ],
+            "thursday": [ 17, 28, 19, 20 ],
+            "friday": [ 18, 29, 20, 21 ],
+            "saturday": [ 23, 1, 14, 25 ],
+            "sunday": [ 23, 1, 14, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 588,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/bathers-1906.jpeg',
+          title: 'Bathers',
+          artist: 'Paul Cezanne',
+          year: '2006',
+          rule: {
+            "monday": [ 24, 2, 15, 26 ],
+            "tuesday": [ 22, 2, 14, 25 ],
+            "wednesday": [ 22, 2, 13, 14 ],
+            "thursday": [ 21, 1, 11, 13 ],
+            "friday": [ 18, 29, 20, 21 ],
+            "saturday": [ 19, 30, 21, 22 ],
+            "sunday": [ 24, 2, 15, 26 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 589,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/sovereigns-no-10-caricature-of-napoleon-iii.jpeg',
+          title: 'Sovereigns No.10 Caricature of Napoleon III',
+          artist: 'James Tissot',
+          year: '?',
+          rule: {
+            "monday":[ 24, 2, 15, 26 ],
+            "tuesday": [ 24, 2, 15, 26 ],
+            "wednesday": [ 22, 2, 14, 25 ],
+            "thursday": [ 22, 2, 13, 14 ],
+            "friday": [ 21, 1, 11, 13 ],
+            "saturday": [ 18, 29, 20, 21 ],
+            "sunday": [ 19, 30, 21, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 590,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/around-the-piano-1885.jpeg',
+          title: 'Around the piano',
+          artist: 'Henri Fantin-Latour',
+          year: '1885',
+          rule: {
+            "monday": [ 19, 30, 21, 22 ],
+            "tuesday": [ 24, 2, 15, 26 ],
+            "wednesday": [ 24, 2, 15, 26 ],
+            "thursday": [ 22, 2, 14, 25 ],
+            "friday": [ 22, 2, 13, 14 ],
+            "saturday": [ 21, 1, 11, 13 ],
+            "sunday": [ 18, 29, 20, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -1348,6 +1348,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FAFEFF',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 97,
+          user_id: 1,
+          theme: 'Autumnal',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/autumn_dorwin_staircase_by_boldfrontiers_dcr1bn1-pre.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#2E1403',
+          color_medium: '#047D36',
+          color_light: '#DDAE2A',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

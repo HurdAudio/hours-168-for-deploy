@@ -5728,6 +5728,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 319,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=687337230/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jovenabuelo.bandcamp.com/album/ni-o-sol',
+          a_string: 'Niño Sol by Jovenabuelo',
+          rule: {
+            "monday": [ 16, 24, 30, 5 ],
+            "tuesday": [ 17, 23, 29, 4 ],
+            "wednesday": [ 21, 27, 2, 8 ],
+            "thursday": [ 20, 26, 1, 7 ],
+            "saturday": [ 17, 25, 31, 6 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 320,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2305310922/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jovenabuelo.bandcamp.com/album/6123',
+          a_string: '6123 by Jovenabuelo',
+          rule: {
+            "monday": [ 17, 25, 31, 6 ],
+            "tuesday": [ 16, 24, 30, 5 ],
+            "wednesday": [ 17, 23, 29, 4 ],
+            "thursday": [ 21, 27, 2, 8 ],
+            "saturday": [ 20, 26, 1, 7 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 321,
+          user_id: 1,
+          theme: 'Brazil & Pan-South American',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3049895837/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://jovenabuelo.bandcamp.com/album/ya-listo-chao',
+          a_string: 'Ya Listo Chao by Jovenabuelo',
+          rule: {
+            "monday": [ 20, 26, 1, 7 ],
+            "tuesday": [ 17, 25, 31, 6 ],
+            "wednesday": [ 16, 24, 30, 5 ],
+            "thursday": [ 17, 23, 29, 4 ],
+            "saturday": [ 21, 27, 2, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

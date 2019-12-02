@@ -12304,6 +12304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 616,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/8da8da93dd7f229f491e2e4e80820a0c.jpg',
+          title: 'Vintage Pittsburgh Pirates Poster',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 13, 3, 9, 15 ],
+            "tuesday": [ 28, 1, 14, 15 ],
+            "wednesday": [ 27, 1, 16, 14 ],
+            "thursday": [ 24, 30, 6, 12 ],
+            "friday": [ 25, 30, 6, 12 ],
+            "saturday": [ 24, 29, 5, 11 ],
+            "sunday": [ 29, 5, 10, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 617,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/retroPiratesBaseball.jpeg',
+          title: 'Pittsburgh Pirates Rawlings Retro Logo Baseball',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 29, 5, 10, 16 ],
+            "tuesday": [ 13, 3, 9, 15 ],
+            "wednesday": [ 28, 1, 14, 15 ],
+            "thursday": [ 27, 1, 16, 14 ],
+            "friday": [ 24, 30, 6, 12 ],
+            "saturday": [ 25, 30, 6, 12 ],
+            "sunday": [ 24, 29, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 618,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/pirates1910.jpeg',
+          title: '1910 Pittsburgh Pirates Team Cabinet Photograph',
+          artist: 'unknown artist',
+          year: '1910',
+          rule: {
+            "monday": [ 24, 29, 5, 11 ],
+            "tuesday": [ 29, 5, 10, 16 ],
+            "wednesday": [ 13, 3, 9, 15 ],
+            "thursday": [ 28, 1, 14, 15 ],
+            "friday": [ 27, 1, 16, 14 ],
+            "saturday": [ 24, 30, 6, 12 ],
+            "sunday": [ 25, 30, 6, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 619,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/ForbesField7.jpeg',
+          title: 'The final game at Forbes Field was played on June 28, 1970',
+          artist: 'unknown artist',
+          year: '?',
+          rule: {
+            "monday": [ 25, 30, 6, 12 ],
+            "tuesday": [ 24, 29, 5, 11 ],
+            "wednesday": [ 29, 5, 10, 16 ],
+            "thursday": [ 13, 3, 9, 15 ],
+            "friday": [ 28, 1, 14, 15 ],
+            "saturday": [ 27, 1, 16, 14 ],
+            "sunday": [ 24, 30, 6, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 620,
+          user_id: 1,
+          theme: 'Baseball',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/item_87302_1.jpg',
+          title: 'June 1911 Baseball Magazine "Addie Joss" Cover Art Study',
+          artist: 'Gerrit Beneker',
+          year: '1911',
+          rule: {
+            "monday": [ 24, 30, 6, 12 ],
+            "tuesday": [ 25, 30, 6, 12 ],
+            "wednesday": [ 24, 29, 5, 11 ],
+            "thursday": [ 29, 5, 10, 16 ],
+            "friday": [ 13, 3, 9, 15 ],
+            "saturday": [ 28, 1, 14, 15 ],
+            "sunday": [ 27, 1, 16, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

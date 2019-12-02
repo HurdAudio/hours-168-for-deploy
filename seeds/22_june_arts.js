@@ -11904,6 +11904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 596,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/chevrolet_by_scheinbar_dd9xqxz-fullview.jpg',
+          title: 'Chevrolet',
+          artist: 'scheinbar',
+          year: '2019',
+          rule: {
+            "monday": [ 23, 3, 13, 11 ],
+            "tuesday": [ 22, 2, 12, 19 ],
+            "wednesday": [ 1, 11, 21, 19 ],
+            "thursday": [ 20, 30, 10, 18 ],
+            "friday": [ 19, 29, 9, 17 ],
+            "saturday": [ 25, 5, 15, 22 ],
+            "sunday": [ 24, 4, 15, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 597,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/in_the_car_by_niklin1_ddlfac1-pre.jpg',
+          title: 'In the Car',
+          artist: 'niklin1',
+          year: '2019',
+          rule: {
+            "monday": [ 24, 4, 15, 22 ],
+            "tuesday": [ 23, 3, 13, 11 ],
+            "wednesday": [ 22, 2, 12, 19 ],
+            "thursday": [ 1, 11, 21, 19 ],
+            "friday": [ 20, 30, 10, 18 ],
+            "saturday": [ 19, 29, 9, 17 ],
+            "sunday": [ 25, 5, 15, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 598,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/high_cup_nick_by_omick_ddkqraq-fullview.jpg',
+          title: 'High Cup Nick',
+          artist: 'omick',
+          year: '2019',
+          rule: {
+            "monday": [ 25, 5, 15, 22 ],
+            "tuesday": [ 24, 4, 15, 22 ],
+            "wednesday": [ 23, 3, 13, 11 ],
+            "thursday": [ 22, 2, 12, 19 ],
+            "friday": [ 1, 11, 21, 19 ],
+            "saturday": [ 20, 30, 10, 18 ],
+            "sunday": [ 19, 29, 9, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 599,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/cleaning_chickie_by_innocentium_ddlfi5p-fullview.jpg',
+          title: 'Cleaning Chickie',
+          artist: 'Innocentium',
+          year: '2019',
+          rule: {
+            "monday": [ 19, 29, 9, 17 ],
+            "tuesday": [ 25, 5, 15, 22 ],
+            "wednesday": [ 24, 4, 15, 22 ],
+            "thursday": [ 23, 3, 13, 11 ],
+            "friday": [ 22, 2, 12, 19 ],
+            "saturday": [ 1, 11, 21, 19 ],
+            "sunday": [ 20, 30, 10, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 600,
+          user_id: 1,
+          theme: 'Photography',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/prague_by_alexandraryglova_ddlghi3-fullview.jpg',
+          title: 'Prague',
+          artist: 'Alexandra Ryglova',
+          year: '2019',
+          rule: {
+            "monday": [ 20, 30, 10, 18 ],
+            "tuesday": [ 19, 29, 9, 17 ],
+            "wednesday": [ 25, 5, 15, 22 ],
+            "thursday": [ 24, 4, 15, 22 ],
+            "friday": [ 23, 3, 13, 11 ],
+            "saturday": [ 22, 2, 12, 19 ],
+            "sunday": [ 1, 11, 21, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

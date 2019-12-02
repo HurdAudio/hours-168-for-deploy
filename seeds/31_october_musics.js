@@ -5944,6 +5944,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 331,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3480590986/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://thrillingliving.bandcamp.com/album/traffic-control-12',
+          a_string: '&quot;Traffic Control&quot; 12&quot; by Warp',
+          rule: {
+            "monday": [ 23, 3, 12, 15 ],
+            "tuesday": [ 22, 1, 12, 14 ],
+            "wednesday": [ 21, 31, 10, 13 ],
+            "thursday": [ 25, 4, 14, 17 ],
+            "saturday": [ 24, 3, 13, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 332,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1605167825/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://currentaffairs.bandcamp.com/album/object-subject-2',
+          a_string: 'Object &amp; Subject by Current Affairs',
+          rule: {
+            "monday": [ 24, 3, 13, 16 ],
+            "tuesday": [ 23, 3, 12, 15 ],
+            "wednesday": [ 22, 1, 12, 14 ],
+            "thursday": [ 21, 31, 10, 13 ],
+            "saturday": [ 25, 4, 14, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 333,
+          user_id: 1,
+          theme: 'Punk, Metal & Nurse with Wound',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3540021719/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://nervebeats.bandcamp.com/album/document-baton-rouge',
+          a_string: 'Document Baton Rouge by Nerve Beats',
+          rule: {
+            "monday": [ 25, 4, 14, 17 ],
+            "tuesday": [ 24, 3, 13, 16 ],
+            "wednesday": [ 23, 3, 12, 15 ],
+            "thursday": [ 22, 1, 12, 14 ],
+            "saturday": [ 21, 31, 10, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -1320,6 +1320,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#FCFCFF',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 95,
+          user_id: 1,
+          theme: 'Snow',
+          type: 'saturday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/l_i_g_h_t_and_d_a_r_k_by_marcoheisler_d5ug6lx-pre.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#060D27',
+          color_medium: '#B4A784',
+          color_light: '#FEF7C6',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

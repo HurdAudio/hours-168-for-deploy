@@ -6808,6 +6808,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 379,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3069278286/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://antoinettekonan.bandcamp.com/album/antoinette-konan',
+          a_string: 'Antoinette Konan by Antoinette Konan',
+          rule: {
+            "monday": [ 13, 7, 9, 11 ],
+            "tuesday": [ 15, 9, 11, 17 ],
+            "wednesday": [ 16, 10, 12, 18 ],
+            "thursday": [ 28, 3, 5, 9 ],
+            "saturday": [ 2, 5, 7, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 380,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1842087781/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://junetyson.bandcamp.com/album/saturnian-queen-of-the-sun-ra-arkestra',
+          a_string: 'Saturnian Queen Of The Sun Ra Arkestra by June Tyson',
+          rule: {
+            "monday": [ 2, 5, 7, 9 ],
+            "tuesday": [ 13, 7, 9, 11 ],
+            "wednesday": [ 15, 9, 11, 17 ],
+            "thursday": [ 16, 10, 12, 18 ],
+            "saturday": [ 28, 3, 5, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 381,
+          user_id: 1,
+          theme: 'Black History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=979325641/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://kesswa.bandcamp.com/album/soften',
+          a_string: 'Soften by Kesswa',
+          rule: {
+            "monday": [ 28, 3, 5, 9 ],
+            "tuesday": [ 2, 5, 7, 9 ],
+            "wednesday": [ 13, 7, 9, 11 ],
+            "thursday": [ 15, 9, 11, 17 ],
+            "saturday": [ 16, 10, 12, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

@@ -1418,6 +1418,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#ADE73B',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 102,
+          user_id: 1,
+          theme: 'Greenery',
+          type: 'holiday',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/d5r8evk-eb5a5ffd-a909-4309-86c7-5bb5a331c9b0.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#1F3C29',
+          color_medium: '#00A2B3',
+          color_light: '#EAF4E7',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

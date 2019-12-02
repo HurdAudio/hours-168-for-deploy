@@ -6700,6 +6700,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 373,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3780718580/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://lidiadamunt.bandcamp.com/album/nacer-en-marte-2',
+          a_string: 'Nacer en Marte by Lidia Damunt',
+          rule: {
+            "monday": [ 24, 30, 5, 13 ],
+            "tuesday": [ 28, 3, 9, 17 ],
+            "wednesday": [ 27, 2, 7, 16 ],
+            "thursday": [ 26, 1, 7, 16 ],
+            "saturday": [ 24, 31, 6, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 374,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3392728224/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://deathbedtapes.com/album/exploit',
+          a_string: 'Exploit by Ritual Chair',
+          rule: {
+            "monday": [ 24, 31, 6, 14 ],
+            "tuesday": [ 24, 30, 5, 13 ],
+            "wednesday": [ 28, 3, 9, 17 ],
+            "thursday": [ 27, 2, 7, 16 ],
+            "saturday": [ 26, 1, 7, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 375,
+          user_id: 1,
+          theme: 'Women\'s History Month',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2849228915/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/fhttps://bandcamp.com/EmbeddedPlayer/album=2849228915/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://deathbedtapes.com/album/7-deadly-sins',
+          a_string: '7 DEADLY SINS by deathbed tapes',
+          rule: {
+            "monday": [ 26, 1, 7, 16 ],
+            "tuesday": [ 24, 31, 6, 14 ],
+            "wednesday": [ 24, 30, 5, 13 ],
+            "thursday": [ 28, 3, 9, 17 ],
+            "saturday": [ 27, 2, 7, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

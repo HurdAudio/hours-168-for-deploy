@@ -12904,6 +12904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 646,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1922-3.jpeg',
+          title: 'Composition',
+          artist: 'Janos Mattis-Teutsch',
+          year: '1922',
+          rule: {
+            "monday": [ 3, 5, 28, 17 ],
+            "tuesday": [ 3, 5, 28, 17 ],
+            "wednesday": [ 8, 6, 29, 1 ],
+            "thursday": [ 8, 9, 31, 4 ],
+            "friday": [ 11, 13, 14, 16 ],
+            "saturday": [ 13, 15, 19, 22 ],
+            "sunday": [ 15, 17, 18, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 647,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1922-7.jpeg',
+          title: 'Composition',
+          artist: 'Janos Mattis-Teutsch',
+          year: '1922',
+          rule: {
+            "monday": [ 15, 17, 18, 19 ],
+            "tuesday": [ 3, 5, 28, 17 ],
+            "wednesday": [ 3, 5, 28, 17 ],
+            "thursday": [ 8, 6, 29, 1 ],
+            "friday": [ 8, 9, 31, 4 ],
+            "saturday": [ 11, 13, 14, 16 ],
+            "sunday": [ 13, 15, 19, 22 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 648,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1922-11.jpeg',
+          title: 'Composition',
+          artist: 'Janos Mattis-Teutsch',
+          year: '1922',
+          rule: {
+            "monday": [ 13, 15, 19, 22 ],
+            "tuesday": [ 15, 17, 18, 19 ],
+            "wednesday": [ 3, 5, 28, 17 ],
+            "thursday": [ 3, 5, 28, 17 ],
+            "friday": [ 8, 6, 29, 1 ],
+            "saturday": [ 8, 9, 31, 4 ],
+            "sunday": [ 11, 13, 14, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 649,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-1922--jk.jpeg',
+          title: 'Untitled',
+          artist: 'Lajos Kassak',
+          year: '1922',
+          rule: {
+            "monday": [ 11, 13, 14, 16 ],
+            "tuesday": [ 13, 15, 19, 22 ],
+            "wednesday": [ 15, 17, 18, 19 ],
+            "thursday": [ 3, 5, 28, 17 ],
+            "friday": [ 3, 5, 28, 17 ],
+            "saturday": [ 8, 6, 29, 1 ],
+            "sunday": [ 8, 9, 31, 4 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 650,
+          user_id: 1,
+          theme: 'Abstract Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/geometrical-composition-1922.jpeg',
+          title: 'Geometrical Composition',
+          artist: 'Sandor Bortnyik',
+          year: '1922',
+          rule: {
+            "monday": [ 8, 9, 31, 4 ],
+            "tuesday": [ 11, 13, 14, 16 ],
+            "wednesday": [ 13, 15, 19, 22 ],
+            "thursday": [ 15, 17, 18, 19 ],
+            "friday": [ 3, 5, 28, 17 ],
+            "saturday": [ 3, 5, 28, 17 ],
+            "sunday": [ 8, 6, 29, 1 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

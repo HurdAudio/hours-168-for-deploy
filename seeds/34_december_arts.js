@@ -10704,6 +10704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 536,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/04-00,MITCalendar.jpg',
+          title: 'M.I.T. Calendar',
+          artist: 'I. B. Hazelton',
+          year: '1904',
+          rule: {
+            "monday": [ 13, 25, 24, 9 ],
+            "tuesday": [ 2, 25, 13, 20 ],
+            "wednesday": [ 18, 31, 8, 14 ],
+            "thursday": [ 17, 29, 7, 13 ],
+            "friday": [ 16, 29, 6, 12 ],
+            "saturday": [ 15, 28, 5, 11 ],
+            "sunday": [ 14, 27, 4, 10 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 537,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/32-02,Battle.jpg',
+          title: 'Battle Stories',
+          artist: 'Albin Henning',
+          year: '1932',
+          rule: {
+            "monday": [ 14, 27, 4, 10 ],
+            "tuesday": [ 13, 25, 24, 9 ],
+            "wednesday": [ 2, 25, 13, 20 ],
+            "thursday": [ 18, 31, 8, 14 ],
+            "friday": [ 17, 29, 7, 13 ],
+            "saturday": [ 16, 29, 6, 12 ],
+            "sunday": [ 15, 28, 5, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 538,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/30-04,BlueBk.jpg',
+          title: 'Blue Book',
+          artist: 'Lawrence Herndon',
+          year: '1930',
+          rule: {
+            "monday": [ 15, 28, 5, 11 ],
+            "tuesday": [ 14, 27, 4, 10 ],
+            "wednesday": [ 13, 25, 24, 9 ],
+            "thursday": [ 2, 25, 13, 20 ],
+            "friday": [ 18, 31, 8, 14 ],
+            "saturday": [ 17, 29, 7, 13 ],
+            "sunday": [ 16, 29, 6, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 539,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/23-01,BoysLife.jpg',
+          title: 'Boy\'s Life',
+          artist: 'Colcord Heurlin',
+          year: '1923',
+          rule: {
+            "monday": [ 17, 30, 7, 13 ],
+            "tuesday": [ 16, 29, 6, 12 ],
+            "wednesday": [ 15, 28, 5, 11 ],
+            "thursday": [ 14, 26, 25, 10 ],
+            "friday": [ 3, 26, 14, 21 ],
+            "saturday": [ 19, 1, 9, 15 ],
+            "sunday": [ 18, 30, 8, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 540,
+          user_id: 1,
+          theme: 'Pulp Art',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/31-00,CmpS.jpg',
+          title: 'Complete Stories',
+          artist: 'Don Hewitt',
+          year: '1931',
+          rule: {
+            "monday": [ 18, 30, 8, 14 ],
+            "tuesday": [ 17, 30, 7, 13 ],
+            "wednesday": [ 16, 29, 6, 12 ],
+            "thursday": [ 15, 28, 5, 11 ],
+            "friday": [ 14, 26, 25, 10 ],
+            "saturday": [ 3, 26, 14, 21 ],
+            "sunday": [ 19, 1, 9, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

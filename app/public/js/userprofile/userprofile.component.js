@@ -342,6 +342,67 @@
       vm.commentReactionDelete = commentReactionDelete;
       vm.messageAddMoji = messageAddMoji;
 
+      function addHolidayShareReactor(index, reactionIndex, reactorId) {
+        $http.get(`/users/${reactorId}`)
+        .then(reactorData => {
+          let reactor = reactorData.data;
+          vm.activeHolidayShares[index].reactions[reactionIndex].reactors += reactor.name + '   ';
+        });
+      }
+
+      function retrieveHolidayShareReactions(holidayShare, index) {
+        let uniqueReaction = true;
+        let reactionIndex = null;
+
+        $http.get('/holiday_share_reactions')
+        .then(allReactionsData => {
+          let allReactions = allReactionsData.data;
+          let reactions = allReactions.filter(entry => {
+            return(entry.holiday_share_id === holidayShare.id);
+          });
+          if (reactions.length > 0) {
+            vm.activeHolidayShares[index].reactions = [];
+            for (let i = 0; i < reactions.length; i++) {
+              uniqueReaction = true;
+              reactionIndex = null;
+              for (let j = 0; j < vm.activeHolidayShares[index].reactions.length; j++) {
+                if (vm.activeHolidayShares[index].reactions[j].type === reactions[i].reaction) {
+                  uniqueReaction = false;
+                  reactionIndex = j;
+                }
+              }
+              if (uniqueReaction) {
+                reactionIndex = vm.activeHolidayShares[index].reactions.length;
+                vm.activeHolidayShares[index].reactions[reactionIndex] = {
+                  type: reactions[i].reaction,
+                  total: 1,
+                  reactors: ''
+                };
+                switch(reactions[i].reaction) {
+                  case('thumbsUp'):
+                    vm.activeHolidayShares[index].reactions[reactionIndex].icon = './img/reactions/kisspng-thumb-signal-font-awesome-computer-icons-font-green-thumbs-up-icon-5b4b607cb7a147.6508454515316665567522.png';
+                    break;
+                  case('thumbsDown'):
+                    vm.activeHolidayShares[index].reactions[reactionIndex].icon = './img/reactions/isspng-computer-icons-thumb-signal-clip-art-thumbs-down-5aab2aca6869f5.4518076515211.png';
+                    break;
+                  case('love'):
+                    vm.activeHolidayShares[index].reactions[reactionIndex].icon = './img/reactions/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png';
+                    break;
+                  case('reject'):
+                    vm.activeHolidayShares[index].reactions[reactionIndex].icon = './img/reactions/kisspng-computer-icons-no-entry-sign-5b2413c277b6e8.3874724415290910104904.png';
+                    break;
+                  default:
+                    console.log('ERROR: reaction type unaccounted for');
+                }
+              } else {
+                vm.activeHolidayShares[index].reactions[reactionIndex].total += 1;
+              }
+              addHolidayShareReactor(index, reactionIndex, reactions[i].user_author_id);
+            }
+          }
+        });
+      }
+
       function setMessageReactor(messageIndex, index, moji) {
         $http.get(`/users/${currentUserId}`)
         .then(userData => {
@@ -19066,6 +19127,7 @@
                   vm.activeHolidayShares[i].cleanDate = cleanDateHoliday(holidayShares[i].updated_at) + ' - ' + timeDate(holidayShares[i].updated_at);
                 }
                 gatherHolidayShareHoliday(holidayShares[i].holiday_id, i);
+                retrieveHolidayShareReactions(holidayShares[i], i);
                 gatherHolidayShareComments(i, holidayShares[i]);
               }
             }
@@ -19727,10 +19789,6 @@
             retrieveUserTileShares();
           });
         }
-
-
       }
     }
-
-
 }());

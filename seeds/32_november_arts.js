@@ -10904,6 +10904,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 546,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/work-no-508-black-painting-2006.jpeg',
+          title: 'Work No. 508 (Black painting)',
+          artist: 'Martin Creed',
+          year: '2006',
+          rule: {
+            "monday": [ 22, 27, 3, 8 ],
+            "tuesday": [ 21, 26, 2, 7 ],
+            "wednesday": [ 21, 26, 2, 9 ],
+            "thursday": [ 27, 2, 8, 13 ],
+            "friday": [ 26, 28, 6, 2 ],
+            "saturday": [ 25, 29, 6, 9 ],
+            "sunday": [ 24, 27, 4, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 547,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/ochre-with-brown-violet-332-2006.jpeg',
+          title: 'Ochre with Brown Violet (332)',
+          artist: 'Peter Joseph',
+          year: '2006',
+          rule: {
+            "monday": [ 24, 27, 4, 9 ],
+            "tuesday": [ 22, 27, 3, 8 ],
+            "wednesday": [ 21, 26, 2, 7 ],
+            "thursday": [ 21, 26, 2, 9 ],
+            "friday": [ 27, 2, 8, 13 ],
+            "saturday": [ 26, 28, 6, 2 ],
+            "sunday": [ 25, 29, 6, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 548,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/pair.jpeg',
+          title: 'Pair',
+          artist: 'Roman Cotosman',
+          year: '?',
+          rule: {
+            "monday": [ 25, 29, 6, 9 ],
+            "tuesday": [ 24, 27, 4, 9 ],
+            "wednesday": [ 22, 27, 3, 8 ],
+            "thursday": [ 21, 26, 2, 7 ],
+            "friday": [ 21, 26, 2, 9 ],
+            "saturday": [ 27, 2, 8, 13 ],
+            "sunday": [ 26, 28, 6, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 549,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/unknown-title-2.jpeg',
+          title: 'unknown title',
+          artist: 'oman Cotosman',
+          year: '?',
+          rule: {
+            "monday": [ 26, 28, 6, 2 ],
+            "tuesday": [ 25, 29, 6, 9 ],
+            "wednesday": [ 24, 27, 4, 9 ],
+            "thursday": [ 22, 27, 3, 8 ],
+            "friday": [ 21, 26, 2, 7 ],
+            "saturday": [ 21, 26, 2, 9 ],
+            "sunday": [ 27, 2, 8, 13 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 550,
+          user_id: 1,
+          theme: 'Minimalism',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/ecriture-no-070628-2007.jpeg',
+          title: 'Ecriture No. 070628',
+          artist: 'Park Seo-Bo',
+          year: '2007',
+          rule: {
+            "monday": [ 27, 2, 8, 13 ],
+            "tuesday": [ 26, 28, 6, 2 ],
+            "wednesday": [ 25, 29, 6, 9 ],
+            "thursday": [ 24, 27, 4, 9 ],
+            "friday": [ 22, 27, 3, 8 ],
+            "saturday": [ 21, 26, 2, 7 ],
+            "sunday": [ 21, 26, 2, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

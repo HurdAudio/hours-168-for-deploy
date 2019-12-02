@@ -12104,6 +12104,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 606,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1944-16.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 16, 26, 5, 13 ],
+            "tuesday": [ 14, 23, 4, 13 ],
+            "wednesday": [ 24, 5, 15, 23 ],
+            "thursday": [ 24, 4, 13, 23 ],
+            "friday": [ 22, 1, 9, 11 ],
+            "saturday": [ 19, 30, 9, 29 ],
+            "sunday": [ 18, 29, 8, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 607,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1944-17.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 18, 29, 8, 17 ],
+            "tuesday": [ 16, 26, 5, 13 ],
+            "wednesday": [ 14, 23, 4, 13 ],
+            "thursday": [ 24, 5, 15, 23 ],
+            "friday": [ 24, 4, 13, 23 ],
+            "saturday": [ 22, 1, 9, 11 ],
+            "sunday": [ 19, 30, 9, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 608,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1944-18.jpeg',
+          title: 'Untitled',
+          artist: 'Kukryniksy',
+          year: '1944',
+          rule: {
+            "monday": [ 19, 30, 9, 29 ],
+            "tuesday": [ 18, 29, 8, 17 ],
+            "wednesday": [ 16, 26, 5, 13 ],
+            "thursday": [ 14, 23, 4, 13 ],
+            "friday": [ 24, 5, 15, 23 ],
+            "saturday": [ 24, 4, 13, 23 ],
+            "sunday": [ 22, 1, 9, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 609,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/albrecht-durer-house-in-nuremberg-1945.jpeg',
+          title: 'Albrecht Durer House in Nuremberg',
+          artist: 'Kukryniksy',
+          year: '1945',
+          rule: {
+            "monday": [ 23, 2, 10, 12 ],
+            "tuesday": [ 20, 31, 10, 30 ],
+            "wednesday": [ 19, 30, 9, 18 ],
+            "thursday": [ 17, 27, 6, 14 ],
+            "friday": [ 15, 24, 5, 14 ],
+            "saturday": [ 25, 6, 16, 24 ],
+            "sunday": [ 25, 5, 14, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 610,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/berlin-1945-1945.jpeg',
+          title: 'Berlin 1945',
+          artist: 'Kukryniksy',
+          year: '1945',
+          rule: {
+            "monday": [ 25, 5, 14, 24 ],
+            "tuesday": [ 23, 2, 10, 12 ],
+            "wednesday": [ 20, 31, 10, 30 ],
+            "thursday": [ 19, 30, 9, 18 ],
+            "friday": [ 17, 27, 6, 14 ],
+            "saturday": [ 15, 24, 5, 14 ],
+            "sunday": [ 25, 6, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

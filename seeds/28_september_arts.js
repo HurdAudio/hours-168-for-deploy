@@ -11304,6 +11304,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 566,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/man-and-ape.jpeg',
+          title: 'Man and Ape',
+          artist: 'Stanley Pinker',
+          year: '?',
+          rule: {
+            "monday": [ 8, 24, 12, 21 ],
+            "tuesday": [ 7, 14, 11, 19 ],
+            "wednesday": [ 15, 22, 10, 17 ],
+            "thursday": [ 22, 28, 16, 24 ],
+            "friday": [ 21, 26, 15, 23 ],
+            "saturday": [ 19, 26, 14, 22 ],
+            "sunday": [ 19, 25, 13, 21 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 567,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-2009.jpeg',
+          title: 'Untitled',
+          artist: 'Dominique Gonzalez-Foerster',
+          year: '2009',
+          rule: {
+            "monday": [ 20, 26, 14, 22 ],
+            "tuesday": [ 9, 25, 13, 22 ],
+            "wednesday": [ 8, 15, 12, 20 ],
+            "thursday": [ 16, 23, 11, 18 ],
+            "friday": [ 23, 29, 17, 25 ],
+            "saturday": [ 22, 27, 16, 24 ],
+            "sunday": [ 20, 27, 15, 23 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 568,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/fraction-1245-1996.jpeg',
+          title: 'Fraction #1245',
+          artist: 'Larry Bell',
+          year: '1996',
+          rule: {
+            "monday": [ 20, 27, 15, 23 ],
+            "tuesday": [ 20, 26, 14, 22 ],
+            "wednesday": [ 9, 25, 13, 22 ],
+            "thursday": [ 8, 15, 12, 20 ],
+            "friday": [ 16, 23, 11, 18 ],
+            "saturday": [ 23, 29, 17, 25 ],
+            "sunday": [ 22, 27, 16, 24 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 569,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/three-places-1983.jpeg',
+          title: 'Three Places',
+          artist: 'Antony Gormley',
+          year: '1983',
+          rule: {
+            "monday": [ 22, 27, 16, 24 ],
+            "tuesday": [ 20, 27, 15, 23 ],
+            "wednesday": [ 20, 26, 14, 22 ],
+            "thursday": [ 9, 25, 13, 22 ],
+            "friday": [ 8, 15, 12, 20 ],
+            "saturday": [ 16, 23, 11, 18 ],
+            "sunday": [ 23, 29, 17, 25 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 570,
+          user_id: 1,
+          theme: 'Modern Art after World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/li-tai-po-1988.jpeg',
+          title: 'Li Tai Po',
+          artist: 'Nam June Paik',
+          year: '1988',
+          rule: {
+            "monday": [ 23, 29, 17, 25 ],
+            "tuesday": [ 22, 27, 16, 24 ],
+            "wednesday": [ 20, 27, 15, 23 ],
+            "thursday": [ 20, 26, 14, 22 ],
+            "friday": [ 9, 25, 13, 22 ],
+            "saturday": [ 8, 15, 12, 20 ],
+            "sunday": [ 16, 23, 11, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

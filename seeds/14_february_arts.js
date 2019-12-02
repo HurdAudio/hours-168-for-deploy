@@ -12704,6 +12704,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 636,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/BirdwithSpider.jpg',
+          title: 'Bird with Spider',
+          artist: 'Thornton Dial',
+          year: '?',
+          rule: {
+            "monday": [ 10, 18, 26, 5 ],
+            "tuesday": [ 12, 22, 28, 5 ],
+            "wednesday": [ 14, 22, 1, 11 ],
+            "thursday": [ 14, 24, 20, 10 ],
+            "friday": [ 4, 12, 20, 28 ],
+            "saturday": [ 5, 14, 22, 1 ],
+            "sunday": [ 11, 16, 22, 3 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 637,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Cerbera_Gallery_TDI_1809_001_Artist_Terry-Dixon_Mixed-Media_Kinetic-Abstraction_Number-4_36-inch-by-36-inch_Copryright-2017-low-res-1410x1440.jpg',
+          title: 'Kinetic Abstraction Number 4',
+          artist: 'Terry Dixon',
+          year: '2017',
+          rule: {
+            "monday": [ 12, 17, 23, 4 ],
+            "tuesday": [ 11, 19, 27, 6 ],
+            "wednesday": [ 13, 23, 29, 6 ],
+            "thursday": [ 15, 23, 2, 12 ],
+            "friday": [ 15, 25, 21, 11 ],
+            "saturday": [ 5, 13, 21, 29 ],
+            "sunday": [ 6, 15, 23, 2 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 638,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/jeff-donaldson-artist-f31769b4-d1f6-4e68-9d4c-973dd70c822-resize-750.jpg',
+          title: 'Soul of a Nation',
+          artist: 'Jeff Donaldson',
+          year: '?',
+          rule: {
+            "monday": [ 6, 15, 23, 2 ],
+            "tuesday": [ 12, 17, 23, 4 ],
+            "wednesday": [ 11, 19, 27, 6 ],
+            "thursday": [ 13, 23, 29, 6 ],
+            "friday": [ 15, 23, 2, 12 ],
+            "saturday": [ 15, 25, 21, 11 ],
+            "sunday": [ 5, 13, 21, 29 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 639,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/douglas-3.jpg',
+          title: 'The Negro In An African Setting',
+          artist: 'Aaron Douglas',
+          year: 'xx cent.',
+          rule: {
+            "monday": [ 5, 13, 21, 29 ],
+            "tuesday": [ 6, 15, 23, 2 ],
+            "wednesday": [ 12, 17, 23, 4 ],
+            "thursday": [ 11, 19, 27, 6 ],
+            "friday": [ 13, 23, 29, 6 ],
+            "saturday": [ 15, 23, 2, 12 ],
+            "sunday": [ 15, 25, 21, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 640,
+          user_id: 1,
+          theme: 'Black History Month',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/15rr-douglass-art-slide-VOUP-jumbo.jpg',
+          title: 'Paper Boy Black Panthers',
+          artist: 'Emory Douglas',
+          year: '?',
+          rule: {
+            "monday": [ 15, 25, 21, 11 ],
+            "tuesday": [ 5, 13, 21, 29 ],
+            "wednesday": [ 6, 15, 23, 2 ],
+            "thursday": [ 12, 17, 23, 4 ],
+            "friday": [ 11, 19, 27, 6 ],
+            "saturday": [ 13, 23, 29, 6 ],
+            "sunday": [ 15, 23, 2, 12 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

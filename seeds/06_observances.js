@@ -11459,6 +11459,34 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20  21:00:00 GMT'),
           updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 736,
+          user_id: 1,
+          name: 'Samuel Fielden (Methodist pastor/socialist/anarchist/labor activist/) born 1847. One of the 1886 Haymarket 8 who was convicted.',
+          color: '#E3E0DB',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Samuel_Fielden_portrait_2.jpg',
+          day_of: new Date ('1847-02-25  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+        {
+          id: 737,
+          user_id: 1,
+          name: 'Victor Serge (revolutionary/activist/writer) born 1890.',
+          color: '#60594F',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Victor_serge.jpg',
+          day_of: new Date ('1890-12-30  21:00:00 GMT'),
+          is_annual: true,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20  21:00:00 GMT'),
+          updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
     }).then(() => {

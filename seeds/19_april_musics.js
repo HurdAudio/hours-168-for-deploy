@@ -6592,6 +6592,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 367,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=954001128/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://mattulerywoolgathering.bandcamp.com/album/delicate-charms',
+          a_string: 'Delicate Charms by Woolgathering Records',
+          rule: {
+            "monday": [ 26, 4, 16, 21 ],
+            "tuesday": [ 25, 2, 15, 20 ],
+            "wednesday": [ 24, 2, 14, 19 ],
+            "thursday": [ 23, 1, 12, 18 ],
+            "saturday": [ 22, 30, 12, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 368,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3882932945/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://matana-roberts.bandcamp.com/album/coin-coin-chapter-four-memphis',
+          a_string: 'Coin Coin Chapter Four: Memphis by Matana Roberts',
+          rule: {
+            "monday": [ 22, 30, 12, 17 ],
+            "tuesday": [ 26, 4, 16, 21 ],
+            "wednesday": [ 25, 2, 15, 20 ],
+            "thursday": [ 24, 2, 14, 19 ],
+            "saturday": [ 23, 1, 12, 18 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 369,
+          user_id: 1,
+          theme: 'Free Jazz',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3882273810/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://chrislightcappyroclastic.bandcamp.com/album/superbigmouth',
+          a_string: 'SuperBigmouth by Chris Lightcap',
+          rule: {
+            "monday": [ 23, 1, 12, 18 ],
+            "tuesday": [ 22, 30, 12, 17 ],
+            "wednesday": [ 26, 4, 16, 21 ],
+            "thursday": [ 25, 2, 15, 20 ],
+            "saturday": [ 24, 2, 14, 19 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

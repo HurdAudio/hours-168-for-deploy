@@ -11504,6 +11504,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 576,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/ancestral-nature-1938.jpeg',
+          title: 'Ancestral Nature',
+          artist: 'Vajda Lajos',
+          year: '1938',
+          rule: {
+            "monday": [ 22, 25, 3, 19 ],
+            "tuesday": [ 20, 25, 2, 18 ],
+            "wednesday": [ 20, 22, 1, 17 ],
+            "thursday": [ 19, 21, 31, 16 ],
+            "friday": [ 18, 21, 30, 15 ],
+            "saturday": [ 17, 20, 29, 14 ],
+            "sunday": [ 23, 27, 4, 20 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 577,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-crossing-1913.jpeg',
+          title: 'The Crossing',
+          artist: 'Leon Spilliaert',
+          year: '1913',
+          rule: {
+            "monday": [ 23, 27, 4, 20 ],
+            "tuesday": [ 22, 25, 3, 19 ],
+            "wednesday": [ 20, 25, 2, 18 ],
+            "thursday": [ 20, 22, 1, 17 ],
+            "friday": [ 19, 21, 31, 16 ],
+            "saturday": [ 18, 21, 30, 15 ],
+            "sunday": [ 17, 20, 29, 14 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 578,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/vegetable-fields.jpeg',
+          title: 'Vegetable fields',
+          artist: 'August Macke',
+          year: '1911',
+          rule: {
+            "monday": [ 17, 20, 29, 14 ],
+            "tuesday": [ 23, 27, 4, 20 ],
+            "wednesday": [ 22, 25, 3, 19 ],
+            "thursday": [ 20, 25, 2, 18 ],
+            "friday": [ 20, 22, 1, 17 ],
+            "saturday": [ 19, 21, 31, 16 ],
+            "sunday": [ 18, 21, 30, 15 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 579,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-last-king-1902.jpeg',
+          title: 'The Last King',
+          artist: 'Alfred Kubin',
+          year: '1902',
+          rule: {
+            "monday": [ 18, 21, 30, 15 ],
+            "tuesday": [ 17, 20, 29, 14 ],
+            "wednesday": [ 23, 27, 4, 20 ],
+            "thursday": [ 22, 25, 3, 19 ],
+            "friday": [ 20, 25, 2, 18 ],
+            "saturday": [ 20, 22, 1, 17 ],
+            "sunday": [ 19, 21, 31, 16 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 580,
+          user_id: 1,
+          theme: 'Modern Art before World War II',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-passing-of-shah-jahan-1902.jpeg',
+          title: 'The Passing of Shah Jahan',
+          artist: 'Abanindranath Tagore',
+          year: '1902',
+          rule: {
+            "monday": [ 19, 21, 31, 16 ],
+            "tuesday": [ 18, 21, 30, 15 ],
+            "wednesday": [ 17, 20, 29, 14 ],
+            "thursday": [ 23, 27, 4, 20 ],
+            "friday": [ 22, 25, 3, 19 ],
+            "saturday": [ 20, 25, 2, 18 ],
+            "sunday": [ 20, 22, 1, 17 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

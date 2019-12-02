@@ -6376,6 +6376,60 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 355,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4156651823/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://whitelabrecs.bandcamp.com/album/material-forces',
+          a_string: 'Material Forces by Gray Acres',
+          rule: {
+            "monday": [ 17, 25, 27, 12 ],
+            "tuesday": [ 21, 25, 1, 12 ],
+            "wednesday": [ 20, 23, 28, 10 ],
+            "thursday": [ 19, 22, 28, 9 ],
+            "saturday": [ 19, 22, 28, 8 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 356,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2060810605/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://accidentdutravail.bandcamp.com/album/boucles',
+          a_string: 'boucles by Accident du Travail',
+          rule: {
+            "monday": [ 19, 22, 28, 8 ],
+            "tuesday": [ 17, 25, 27, 12 ],
+            "wednesday": [ 21, 25, 1, 12 ],
+            "thursday": [ 20, 23, 28, 10 ],
+            "saturday": [ 19, 22, 28, 9 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+        {
+          id: 357,
+          user_id: 1,
+          theme: 'Drone',
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3908587257/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://celer.bandcamp.com/album/boundary-layer',
+          a_string: 'Boundary Layer by Celer',
+          rule: {
+            "monday": [ 20, 23, 29, 10 ],
+            "tuesday": [ 20, 23, 29, 9 ],
+            "wednesday": [ 18, 26, 28, 13 ],
+            "thursday": [ 22, 26, 2, 13 ],
+            "saturday": [ 21, 24, 29, 11 ]
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {
