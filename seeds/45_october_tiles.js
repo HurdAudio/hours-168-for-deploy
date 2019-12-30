@@ -1362,6 +1362,20 @@ exports.seed = function(knex, Promise) {
           color_light: '#DDAE2A',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 98,
+          user_id: 1,
+          theme: 'Autumnal',
+          type: 'week',
+          src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/bathed_in_autumn_magic_by_elanordh_d30g4ew-fullview.jpg',
+          repeat_value: 'no-repeat',
+          size_value: 'cover',
+          color_dark: '#352808',
+          color_medium: '#B8280C',
+          color_light: '#FDF5D0',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

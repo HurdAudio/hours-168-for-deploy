@@ -12204,6 +12204,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 611,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/dresden-1945.jpeg',
+          title: 'Dresden',
+          artist: 'Kukryniksy',
+          year: '1945',
+          rule: {
+            "monday": [ 25, 6, 16, 24 ],
+            "tuesday": [ 25, 5, 14, 24 ], 
+            "wednesday": [ 23, 2, 10, 12 ], 
+            "thursday": [ 20, 31, 10, 30 ],
+            "friday": [ 19, 30, 9, 18 ], 
+            "saturday": [ 17, 27, 6, 14 ], 
+            "sunday": [ 15, 24, 5, 14 ]  
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 612,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/erich-koch-1945.jpeg',
+          title: 'Erich Koch',
+          artist: 'Kukryniksy',
+          year: '1945',
+          rule: {
+            "monday": [ 15, 24, 5, 14 ], 
+            "tuesday": [ 25, 6, 16, 24 ], 
+            "wednesday": [ 25, 5, 14, 24 ], 
+            "thursday": [ 23, 2, 10, 12 ], 
+            "friday": [ 20, 31, 10, 30 ],
+            "saturday": [ 19, 30, 9, 18 ], 
+            "sunday": [ 17, 27, 6, 14 ]  
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 613,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/fleeing-of-fascists-from-novgorod-1945.jpeg',
+          title: 'Fleeing of fascists from Novgorod',
+          artist: 'Kukryniksy',
+          year: '1945',
+          rule: {
+            "monday": [ 17, 27, 6, 14 ],
+            "tuesday": [ 15, 24, 5, 14 ], 
+            "wednesday": [ 25, 6, 16, 24 ], 
+            "thursday": [ 25, 5, 14, 24 ], 
+            "friday": [ 23, 2, 10, 12 ], 
+            "saturday": [ 20, 31, 10, 30 ],
+            "sunday": [ 19, 30, 9, 18 ]  
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 614,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/fleeing-of-fascists-from-novgorod-1945-1.jpeg',
+          title: 'Fleeing of fascists from Novgorod',
+          artist: 'Kukryniksy',
+          year: '1945',
+          rule: {
+            "monday": [ 19, 30, 9, 18 ],
+            "tuesday": [ 17, 27, 6, 14 ], 
+            "wednesday": [ 15, 24, 5, 14 ], 
+            "thursday": [ 25, 6, 16, 24 ], 
+            "friday": [ 25, 5, 14, 24 ], 
+            "saturday": [ 23, 2, 10, 12 ], 
+            "sunday": [ 20, 31, 10, 30 ] 
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 615,
+          user_id: 1,
+          theme: 'Socialism & Worker\'s Rights',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/fleeing-of-fascists-from-novgorod-1945-2.jpeg',
+          title: 'Fleeing of fascists from Novgorod',
+          artist: 'Kukryniksy',
+          year: '1945',
+          rule: {
+            "monday": [ 20, 31, 10, 30 ],
+            "tuesday": [ 19, 30, 9, 18 ], 
+            "wednesday": [ 17, 27, 6, 14 ], 
+            "thursday": [ 15, 24, 5, 14 ], 
+            "friday": [ 25, 6, 16, 24 ], 
+            "saturday": [ 25, 5, 14, 24 ], 
+            "sunday": [ 23, 2, 10, 12 ]  
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

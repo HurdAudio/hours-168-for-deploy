@@ -11804,6 +11804,106 @@ exports.seed = function(knex, Promise) {
           },
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 591,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/mary-sears-later-mrs-francis-shaw-1878.jpeg',
+          title: 'MARY SEARS (LATER MRS. FRANCIS SHAW)',
+          artist: 'Leon Bonnat',
+          year: '1878',
+          rule: {
+            "monday": [ 18, 29, 20, 21 ],
+            "tuesday": [ 19, 30, 21, 22 ],
+            "wednesday": [ 24, 2, 15, 26 ], 
+            "thursday": [ 24, 2, 15, 26 ], 
+            "friday": [ 22, 2, 14, 25 ], 
+            "saturday": [ 22, 2, 13, 14 ], 
+            "sunday": [ 21, 1, 11, 13 ]  
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 592,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/vanity-1890.jpeg',
+          title: 'Vanity',
+          artist: 'Auguste Toulmouche',
+          year: '1890',
+          rule: {
+            "monday": [ 21, 1, 11, 13 ],
+            "tuesday": [ 18, 29, 20, 21 ],
+            "wednesday": [ 19, 30, 21, 22 ],
+            "thursday": [ 24, 2, 15, 26 ], 
+            "friday": [ 24, 2, 15, 26 ], 
+            "saturday": [ 22, 2, 14, 25 ], 
+            "sunday": [ 22, 2, 13, 14 ]  
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 593,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/carpeaux-valenciennes-080810-49-pecheur.jpeg',
+          title: 'Neapolitan Fisherboy with Shell',
+          artist: 'Jean-Baptiste Carpeaux',
+          year: '?',
+          rule: {
+            "monday": [ 22, 2, 13, 14 ],
+            "tuesday": [ 21, 1, 11, 13 ], 
+            "wednesday": [ 18, 29, 20, 21 ],
+            "thursday": [ 19, 30, 21, 22 ],
+            "friday": [ 24, 2, 15, 26 ], 
+            "saturday": [ 24, 2, 15, 26 ], 
+            "sunday": [ 22, 2, 14, 25 ]  
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 594,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/art-and-literature.jpeg',
+          title: 'Art and Literature',
+          artist: 'William-Adolphe Bouguereau',
+          year: 'c. 1867',
+          rule: {
+            "monday": [ 22, 2, 14, 25 ],
+            "tuesday": [ 22, 2, 13, 14 ], 
+            "wednesday": [ 21, 1, 11, 13 ], 
+            "thursday": [ 18, 29, 20, 21 ],
+            "friday": [ 19, 30, 21, 22 ],
+            "saturday": [ 24, 2, 15, 26 ], 
+            "sunday": [ 24, 2, 15, 26 ]  
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 595,
+          user_id: 1,
+          theme: 'French',
+          img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/door-of-the-touques-church.jpeg',
+          title: 'Door of the Touques Church',
+          artist: 'Eugene Boudin',
+          year: 'c. 1890',
+          rule: {
+            "monday": [ 25, 3, 16, 27 ],
+            "tuesday": [ 23, 3, 15, 26 ], 
+            "wednesday": [ 23, 3, 14, 15 ], 
+            "thursday": [ 22, 2, 12, 14 ],
+            "friday": [ 19, 30, 21, 22 ],
+            "saturday": [ 20, 31, 22, 23 ], 
+            "sunday": [ 25, 3, 16, 27 ]  
+          },
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

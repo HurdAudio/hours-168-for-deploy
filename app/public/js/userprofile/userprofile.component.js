@@ -341,6 +341,41 @@
       vm.addMusicModuleComment = addMusicModuleComment;
       vm.commentReactionDelete = commentReactionDelete;
       vm.messageAddMoji = messageAddMoji;
+      vm.timeblockReactionDelete = timeblockReactionDelete;
+
+      function timeblockReactionDelete(react, block) {
+
+        let index;
+        $http.get('/timeblock_share_reactions')
+        .then(allReactionsData => {
+          let allReactions = allReactionsData.data;
+          for (let i = 0; i < vm.activeTimeblockShares.length; i++) {
+            if (parseInt(vm.activeTimeblockShares[i].id) === parseInt(block.id)) {
+              index = i;
+            }
+          }
+          let someReactions = allReactions.filter(entry => {
+            return(parseInt(entry.user_author_id) === parseInt(currentUserId) && (entry.reaction === react.type));
+          });
+          let reaction = someReactions.filter(entry => {
+            return(parseInt(entry.timeblock_share_id) === parseInt(block.id));
+          });
+          $http.delete(`/timeblock_share_reactions/${reaction[0].id}`)
+          .then(removedReactionData => {
+            let removedReaction = removedReactionData.data;
+            for (let j = 0; j < vm.activeTimeblockShares[index].reactions.length; j++) {
+              if (react.type === vm.activeTimeblockShares[index].reactions[j].type) {
+                if (vm.activeTimeblockShares[index].reactions[j].total > 1) {
+                  vm.activeTimeblockShares[index].reactions[j].total--;
+
+                } else {
+                  vm.activeTimeblockShares[index].reactions.splice(j, 1);
+                }
+              }
+            }
+          });
+        });
+      }
 
       function addHolidayShareReactor(index, reactionIndex, reactorId) {
         $http.get(`/users/${reactorId}`)
