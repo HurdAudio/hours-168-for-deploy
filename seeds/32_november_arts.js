@@ -11104,6 +11104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 556,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-structure.jpeg',
+                    title: 'Untitled Structure',
+                    artist: 'Sol LeWitt',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 29, 7, 3],
+                        "tuesday": [26, 30, 7, 10], 
+                        "wednesday":[25, 28, 5, 10], 
+                        "thursday":  [23, 28, 4, 9], 
+                        "friday": [22, 27, 3, 8],  
+                        "saturday": [22, 27, 3, 10], 
+                        "sunday": [28, 3, 9, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 557,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/break-2008.jpeg',
+                    title: 'Break',
+                    artist: 'John McCracken',
+                    year: '2008',
+                    rule: {
+                        "monday": [28, 3, 9, 14],
+                        "tuesday": [27, 29, 7, 3],  
+                        "wednesday":[26, 30, 7, 10], 
+                        "thursday":  [25, 28, 5, 10], 
+                        "friday": [23, 28, 4, 9],  
+                        "saturday": [22, 27, 3, 8],  
+                        "sunday": [22, 27, 3, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 558,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-2008.jpeg',
+                    title: 'Untitled',
+                    artist: 'Lee Ufan',
+                    year: '2008',
+                    rule: {
+                        "monday": [22, 27, 3, 10],
+                        "tuesday": [28, 3, 9, 14],  
+                        "wednesday":[27, 29, 7, 3],  
+                        "thursday":  [26, 30, 7, 10], 
+                        "friday": [25, 28, 5, 10], 
+                        "saturday": [23, 28, 4, 9],  
+                        "sunday": [22, 27, 3, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 559,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/lamentable-despicable-2008.jpeg',
+                    title: 'Lamentable (Despicable)',
+                    artist: 'Francois Morellet',
+                    year: '2008',
+                    rule: {
+                        "monday": [22, 27, 3, 8],
+                        "tuesday": [22, 27, 3, 10], 
+                        "wednesday":[28, 3, 9, 14],  
+                        "thursday":  [27, 29, 7, 3],  
+                        "friday": [26, 30, 7, 10], 
+                        "saturday": [25, 28, 5, 10], 
+                        "sunday": [23, 28, 4, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 560,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/quadri-comunicanti-2008.jpeg',
+                    title: 'Quadri comunicanti',
+                    artist: 'Grazia Varisco',
+                    year: '2008',
+                    rule: {
+                        "monday": [24, 29, 5, 10],
+                        "tuesday": [23, 28, 4, 9], 
+                        "wednesday":[23, 28, 4, 11],  
+                        "thursday":  [29, 4, 10, 15],  
+                        "friday": [28, 30, 8, 4], 
+                        "saturday": [27, 1, 8, 11], 
+                        "sunday": [26, 29, 6, 11]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

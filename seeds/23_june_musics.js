@@ -6474,13 +6474,67 @@ exports.seed = function (knex, Promise) {
                     source: 'bandcamp',
                     src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4155406989/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
                     href_string: 'http://slowmeadow.bandcamp.com/album/happy-occident',
-                    a_string: 'Happy Occident by Slow Meadow    ',
+                    a_string: 'Happy Occident by Slow Meadow',
                     rule: {
                         "monday": [18, 26, 28, 13],
                         "tuesday": [22, 26, 2, 13],
                         "wednesday": [21, 24, 29, 11],
                         "thursday": [20, 23, 29, 10],
                         "saturday": [20, 23, 29, 9]
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 361,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2929986997/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://stevehauschildt.bandcamp.com/album/nonlin',
+                    a_string: 'Nonlin by Steve Hauschildt',
+                    rule: {
+                        "monday": [20, 23, 29, 9],
+                        "tuesday": [18, 26, 28, 13],
+                        "wednesday": [22, 26, 2, 13], 
+                        "thursday": [21, 24, 29, 11],
+                        "saturday": [20, 23, 29, 10] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 362,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1643680908/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://meemocomma.bandcamp.com/album/sleepmoss',
+                    a_string: 'Sleepmoss by Meemo Comma',
+                    rule: {
+                        "monday": [20, 23, 29, 10],
+                        "tuesday": [20, 23, 29, 9], 
+                        "wednesday": [18, 26, 28, 13],
+                        "thursday": [22, 26, 2, 13], 
+                        "saturday": [21, 24, 29, 11] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 363,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1042693855/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://music.takearestnow.com/album/chyo',
+                    a_string: 'Chyo by Tristan',
+                    rule: {
+                        "monday": [21, 24, 29, 11],
+                        "tuesday": [20, 23, 29, 10],
+                        "wednesday": [20, 23, 29, 9], 
+                        "thursday": [18, 26, 28, 13],
+                        "saturday": [22, 26, 2, 13]  
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

@@ -6160,6 +6160,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 343,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2611233366/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://isistheband-ipecac.bandcamp.com/album/live-vii-022510',
+                    a_string: 'Live VII 02.25.10 by Isis (the band)',
+                    rule: {
+                        "monday": [20, 10, 18, 12],
+                        "tuesday": [24, 14, 22, 16],
+                        "wednesday": [23, 13, 21, 15],
+                        "thursday": [22, 12, 20, 13],
+                        "saturday": [22, 11, 19, 13]
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 344,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=414598053/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://altrockproductions.bandcamp.com/album/factor-burzaco-ii',
+                    a_string: 'Factor Burzaco II by Factor Burzaco',
+                    rule: {
+                        "monday": [22, 11, 19, 13],
+                        "tuesday": [20, 10, 18, 12],
+                        "wednesday": [24, 14, 22, 16],
+                        "thursday": [23, 13, 21, 15],
+                        "saturday": [22, 12, 20, 13] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 345,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3645529207/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://progshinerecords.bandcamp.com/album/clouds-on-the-road-live-in-niter-i-2005',
+                    a_string: 'Clouds On The Road (Live In Niterói 2005) by Poços &amp; Nuvens',
+                    rule: {
+                        "monday": [22, 12, 20, 13],
+                        "tuesday": [22, 11, 19, 13],
+                        "wednesday": [20, 10, 18, 12],
+                        "thursday": [24, 14, 22, 16],
+                        "saturday": [23, 13, 21, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

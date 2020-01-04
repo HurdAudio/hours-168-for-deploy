@@ -12504,6 +12504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 626,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/beer.0.jpg',
+                    title: 'Arizona Diamondbacks 6, Milwaukee Brewers 8: Live Beercap!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [26, 1, 7, 13],
+                        "tuesday": [25, 30, 6, 12], 
+                        "wednesday": [30, 6, 11, 17], 
+                        "thursday": [14, 4, 10, 16], 
+                        "friday": [29, 2, 15, 16], 
+                        "saturday": [28, 2, 17, 15], 
+                        "sunday": [25, 1, 7, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 627,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/5101072_0.jpg',
+                    title: 'Diamondbacks Baseball, Skyline Arizona T-Shirt T-Shirt',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 1, 7, 13],
+                        "tuesday": [26, 1, 7, 13],  
+                        "wednesday": [25, 30, 6, 12], 
+                        "thursday": [30, 6, 11, 17], 
+                        "friday": [14, 4, 10, 16], 
+                        "saturday": [29, 2, 15, 16], 
+                        "sunday": [28, 2, 17, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 628,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/AI01-00773_Arizona_Diamondbacks_Mailbox_Logo_Large_pdp.jpg',
+                    title: 'Arizona Diamondbacks: Mailbox Logo',
+                    artist: 'Fatheads',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 2, 17, 15],
+                        "tuesday": [25, 1, 7, 13],  
+                        "wednesday": [26, 1, 7, 13],  
+                        "thursday": [25, 30, 6, 12], 
+                        "friday": [30, 6, 11, 17], 
+                        "saturday": [14, 4, 10, 16], 
+                        "sunday": [29, 2, 15, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 629,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/azclock.jpeg',
+                    title: 'Arizona Diamondbacks Clock',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 2, 15, 16],
+                        "tuesday": [28, 2, 17, 15], 
+                        "wednesday": [25, 1, 7, 13],  
+                        "thursday": [26, 1, 7, 13],  
+                        "friday": [25, 30, 6, 12], 
+                        "saturday": [30, 6, 11, 17], 
+                        "sunday": [14, 4, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 630,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/P8.jpg',
+                    title: 'Diamondbacks Up',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [15, 5, 11, 17],
+                        "tuesday": [30, 3, 16, 17], 
+                        "wednesday": [29, 3, 18, 16],  
+                        "thursday": [26, 2, 8, 14],  
+                        "friday": [27, 2, 8, 14], 
+                        "saturday": [26, 1, 7, 13], 
+                        "sunday": [1, 7, 12, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

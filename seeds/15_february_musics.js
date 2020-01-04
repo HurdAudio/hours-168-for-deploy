@@ -6916,6 +6916,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 385,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3805769060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://choosey.bandcamp.com/album/black-beans',
+                    a_string: 'Black Beans by Choosey &amp; Exile',
+                    rule: {
+                        "monday": [3, 6, 8, 10],
+                        "tuesday": [14, 8, 10, 12],
+                        "wednesday": [16, 10, 12, 18],
+                        "thursday": [17, 11, 13, 19],
+                        "saturday": [29, 4, 6, 10]
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2711106365/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://santandave.bandcamp.com/album/psychodrama',
+                    a_string: 'PSYCHODRAMA by Dave',
+                    rule: {
+                        "monday": [29, 4, 6, 10],
+                        "tuesday": [3, 6, 8, 10],   
+                        "wednesday": [14, 8, 10, 12], 
+                        "thursday": [16, 10, 12, 18],
+                        "saturday": [17, 11, 13, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3855725919/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://homeboysandman-mmg.bandcamp.com/album/dusty',
+                    a_string: 'Dusty by Homeboy Sandman',
+                    rule: {
+                        "monday": [17, 11, 13, 19],
+                        "tuesday": [29, 4, 6, 10],  
+                        "wednesday": [3, 6, 8, 10],   
+                        "thursday": [14, 8, 10, 12], 
+                        "saturday": [16, 10, 12, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

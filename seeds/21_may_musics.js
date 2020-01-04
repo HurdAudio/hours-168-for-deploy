@@ -6592,6 +6592,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 367,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=475280687/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://alreadydeadtapes.bandcamp.com/album/ad247-ichtyor-tides-en-brunsia',
+                    a_string: 'AD247 Ichtyor Tides &#39;En-Brunsia&#39; by Already Dead Tapes and Records',
+                    rule: {
+                        "monday": [20, 26, 2, 15],
+                        "tuesday": [24, 30, 6, 19], 
+                        "wednesday": [23, 29, 5, 18], 
+                        "thursday": [22, 28, 4, 17], 
+                        "saturday": [21, 27, 3, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 368,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3710289218/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://fandf.bandcamp.com/album/the-blow-volume-3',
+                    a_string: 'The Blow Volume 3 by Sophie Cooper &amp; Julian Bradley',
+                    rule: {
+                        "monday": [21, 27, 3, 16],
+                        "tuesday": [20, 26, 2, 15], 
+                        "wednesday": [24, 30, 6, 19], 
+                        "thursday": [23, 29, 5, 18], 
+                        "saturday": [22, 28, 4, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 369,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4203696644/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://helenscarsdale.bandcamp.com/album/the-story-surrounds-us',
+                    a_string: 'the story surrounds us by kate carr',
+                    rule: {
+                        "monday": [22, 28, 4, 17],
+                        "tuesday": [21, 27, 3, 16], 
+                        "wednesday": [20, 26, 2, 15], 
+                        "thursday": [24, 30, 6, 19], 
+                        "saturday": [23, 29, 5, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

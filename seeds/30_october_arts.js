@@ -11304,6 +11304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 566,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_006.jpg',
+                    title: 'Lenin the great lighted up our path!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [21, 1, 13, 16],
+                        "tuesday": [20, 31, 11, 15],
+                        "wednesday": [19, 30, 9, 14], 
+                        "thursday": [28, 29, 9, 13], 
+                        "friday": [24, 4, 15, 19], 
+                        "saturday": [23, 3, 14, 18], 
+                        "sunday": [22, 2, 13, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 567,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_005.jpg',
+                    title: 'Heart of Lenin.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [23, 3, 14, 18],
+                        "tuesday": [22, 2, 14, 17],
+                        "wednesday": [21, 1, 12, 16], 
+                        "thursday": [20, 31, 10, 15], 
+                        "friday": [29, 30, 10, 14], 
+                        "saturday": [25, 5, 16, 20], 
+                        "sunday": [24, 4, 15, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 568,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_lenin_1973.jpg',
+                    title: '1917 Lenin',
+                    artist: 'O. Savostuk',
+                    year: '1973',
+                    rule: {
+                        "monday": [24, 4, 15, 19],
+                        "tuesday": [23, 3, 14, 18], 
+                        "wednesday": [22, 2, 14, 17], 
+                        "thursday": [21, 1, 12, 16], 
+                        "friday": [20, 31, 10, 15],
+                        "saturday": [29, 30, 10, 14],
+                        "sunday": [25, 5, 16, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 569,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_002.jpg',
+                    title: 'The Decree on Peace.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 5, 16, 20],
+                        "tuesday": [24, 4, 15, 19], 
+                        "wednesday": [23, 3, 14, 18], 
+                        "thursday": [22, 2, 14, 17], 
+                        "friday": [21, 1, 12, 16], 
+                        "saturday": [20, 31, 10, 15],
+                        "sunday": [29, 30, 10, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 570,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_1526566151lenin.jpg',
+                    title: 'The most humane human. Lenin.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 30, 10, 14],
+                        "tuesday": [25, 5, 16, 20], 
+                        "wednesday": [24, 4, 15, 19], 
+                        "thursday": [23, 3, 14, 18], 
+                        "friday": [22, 2, 14, 17], 
+                        "saturday": [21, 1, 12, 16], 
+                        "sunday": [20, 31, 10, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

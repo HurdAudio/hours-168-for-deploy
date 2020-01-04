@@ -12704,6 +12704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 636,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/77r-84-1984.jpeg',
+                    title: '77R-‘84',
+                    artist: 'Atsuko Tanaka',
+                    year: '1984',
+                    rule: {
+                        "monday": [25, 5, 12, 22],
+                        "tuesday": [24, 3, 11, 21], 
+                        "wednesday": [23, 2, 11, 20], 
+                        "thursday": [29, 7, 17, 25], 
+                        "friday": [28, 7, 15, 25], 
+                        "saturday": [26, 6, 14, 24], 
+                        "sunday": [26, 5, 13, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 637,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/girl-with-rose-1963.jpeg',
+                    title: 'Girl with Rose',
+                    artist: 'Marjorie Strider',
+                    year: '1963',
+                    rule: {
+                        "monday": [27, 6, 14, 24],
+                        "tuesday": [26, 6, 13, 23], 
+                        "wednesday": [25, 4, 12, 22], 
+                        "thursday": [24, 3, 12, 21], 
+                        "friday": [30, 8, 18, 26], 
+                        "saturday": [29, 8, 16, 26], 
+                        "sunday": [27, 7, 15, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 638,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/zoya-kosmodemyanskaya.jpeg',
+                    title: 'Zoya Kosmodemyanskaya',
+                    artist: 'Zoe Lerman',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 7, 15, 25],
+                        "tuesday": [27, 6, 14, 24], 
+                        "wednesday": [26, 6, 13, 23], 
+                        "thursday": [25, 4, 12, 22], 
+                        "friday": [24, 3, 12, 21], 
+                        "saturday": [30, 8, 18, 26], 
+                        "sunday": [29, 8, 16, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 639,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/cold-cream-1983.jpeg',
+                    title: 'Cold Cream',
+                    artist: 'Mary Pratt',
+                    year: '1983',
+                    rule: {
+                        "monday": [29, 8, 16, 26],
+                        "tuesday": [27, 7, 15, 25], 
+                        "wednesday": [27, 6, 14, 24], 
+                        "thursday": [26, 6, 13, 23], 
+                        "friday": [25, 4, 12, 22], 
+                        "saturday": [24, 3, 12, 21], 
+                        "sunday": [30, 8, 18, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 640,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/trapped-fly-on-2-light-sensitive-plates-photogravure-1981.jpeg',
+                    title: 'Trapped fly on 2 light-sensitive plates - photogravure, Hubertine Heijermans',
+                    artist: 'Hubertine Heijermans',
+                    year: '1981',
+                    rule: {
+                        "monday": [30, 8, 18, 26],
+                        "tuesday": [29, 8, 16, 26], 
+                        "wednesday": [27, 7, 15, 25], 
+                        "thursday": [27, 6, 14, 24], 
+                        "friday": [26, 6, 13, 23], 
+                        "saturday": [25, 4, 12, 22], 
+                        "sunday": [24, 3, 12, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

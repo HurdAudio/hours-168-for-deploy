@@ -1418,6 +1418,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#FFFDE4',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 102,
+                    user_id: 1,
+                    theme: 'Steam',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/clouds-above-a-sea-calm-1889.jpeg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#3F3035',
+                    color_medium: '#978D8C',
+                    color_light: '#F0EACE',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

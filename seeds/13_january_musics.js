@@ -7024,6 +7024,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 391,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2427946619/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://unseenworlds.bandcamp.com/album/donnie-and-laurie',
+                    a_string: 'Donnie and Laurie by Laurie Spiegel',
+                    rule: {
+                        "monday": [31, 6, 7, 8],
+                        "tuesday": [30, 6, 7, 8],   
+                        "wednesday": [3, 10, 11, 12], 
+                        "thursday": [2, 8, 9, 11],   
+                        "saturday": [1, 8, 9, 10]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 392,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3452737813/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://unseenworlds.bandcamp.com/album/fr-he-jahre',
+                    a_string: 'FRÜHE JAHRE by C-Schulz',
+                    rule: {
+                        "monday": [2, 9, 10, 11],
+                        "tuesday": [1, 7, 8, 9],   
+                        "wednesday": [31, 7, 8, 9], 
+                        "thursday": [4, 11, 12, 13],   
+                        "saturday": [3, 9, 10, 12]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 393,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3411352510/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://unseenworlds.bandcamp.com/album/love-and-peace',
+                    a_string: 'Love and Peace by Girma Yifrashewa',
+                    rule: {
+                        "monday": [3, 9, 10, 12],
+                        "tuesday": [2, 9, 10, 11],  
+                        "wednesday": [1, 7, 8, 9],    
+                        "thursday": [31, 7, 8, 9],   
+                        "saturday": [4, 11, 12, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

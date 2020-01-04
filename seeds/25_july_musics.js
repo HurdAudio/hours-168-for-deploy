@@ -6376,6 +6376,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 355,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3540667125/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://grimalkinrecords.bandcamp.com/album/deviancy',
+                    a_string: 'Deviancy by Backxwash',
+                    rule: {
+                        "monday": [18, 19, 24, 1],
+                        "tuesday": [17, 19, 23, 31],
+                        "wednesday": [21, 23, 27, 4], 
+                        "thursday": [20, 22, 26, 3], 
+                        "saturday": [19, 21, 25, 2]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 356,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1866552877/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://angelolsen.bandcamp.com/album/all-mirrors',
+                    a_string: 'All Mirrors by Angel Olsen',
+                    rule: {
+                        "monday": [19, 21, 25, 2],
+                        "tuesday": [18, 19, 24, 1], 
+                        "wednesday": [17, 19, 23, 31],
+                        "thursday": [21, 23, 27, 4], 
+                        "saturday": [20, 22, 26, 3]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 357,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=399826373/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://purpletapepedigree.bandcamp.com/album/wahala',
+                    a_string: 'WAHALA by YATTA',
+                    rule: {
+                        "monday": [21, 23, 27, 4],
+                        "tuesday": [20, 22, 26, 3], 
+                        "wednesday": [19, 20, 25, 2],
+                        "thursday": [18, 20, 24, 1], 
+                        "saturday": [22, 24, 28, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

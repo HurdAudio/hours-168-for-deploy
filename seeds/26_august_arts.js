@@ -11704,6 +11704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 586,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-city-from-greenwich-village-1922.jpeg',
+                    title: 'The City from Greenwich Village',
+                    artist: 'John French Sloan',
+                    year: '1922',
+                    rule: {
+                        "monday": [19, 22, 31, 16],
+                        "tuesday": [18, 21, 30, 15],
+                        "wednesday": [24, 28, 5, 21], 
+                        "thursday": [23, 26, 4, 20], 
+                        "friday": [21, 26, 3, 19], 
+                        "saturday": [21, 23, 2, 18], 
+                        "sunday": [20, 22, 1, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 587,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/lux-in-tenebris-lucet-1909.jpeg',
+                    title: 'Lux in tenebris lucet',
+                    artist: 'Ion Theodorescu-Sion',
+                    year: '1909',
+                    rule: {
+                        "monday": [20, 22, 1, 17],
+                        "tuesday": [19, 22, 31, 16],
+                        "wednesday": [18, 21, 30, 15],
+                        "thursday": [24, 28, 5, 21], 
+                        "friday": [23, 26, 4, 20], 
+                        "saturday": [21, 26, 3, 19], 
+                        "sunday": [21, 23, 2, 18]
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 588,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/1918-portrait-of-fay-bainter.jpeg',
+                    title: 'Portrait of Fay Bainter',
+                    artist: 'Robert Henri',
+                    year: '1918',
+                    rule: {
+                        "monday": [22, 24, 3, 19],
+                        "tuesday": [21, 23, 2, 18],
+                        "wednesday": [20, 23, 1, 17],
+                        "thursday": [19, 22, 31, 16], 
+                        "friday": [25, 29, 6, 22], 
+                        "saturday": [24, 27, 5, 21], 
+                        "sunday": [22, 27, 4, 20]
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 589,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/prim-var-1930.jpeg',
+                    title: 'Springtime',
+                    artist: 'Samuel Mutzner',
+                    year: '1930',
+                    rule: {
+                        "monday": [22, 27, 4, 20],
+                        "tuesday": [22, 24, 3, 19], 
+                        "wednesday": [21, 23, 2, 18], 
+                        "thursday": [20, 23, 1, 17], 
+                        "friday": [19, 22, 31, 16],
+                        "saturday": [25, 29, 6, 22], 
+                        "sunday": [24, 27, 5, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 590,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/distant-view-of-the-pyramids-1921-1(1).jpeg',
+                    title: 'Distant View of the Pyramids',
+                    artist: 'Winston Churchill',
+                    year: '1921',
+                    rule: {
+                        "monday": [24, 27, 5, 21],
+                        "tuesday": [22, 27, 4, 20], 
+                        "wednesday": [22, 24, 3, 19], 
+                        "thursday": [21, 23, 2, 18], 
+                        "friday": [20, 23, 1, 17], 
+                        "saturday": [19, 22, 31, 16],
+                        "sunday": [25, 29, 6, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

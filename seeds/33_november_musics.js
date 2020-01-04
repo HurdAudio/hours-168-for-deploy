@@ -5944,6 +5944,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 331,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3704740897/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://zombaprisonproject.bandcamp.com/album/i-will-not-stop-singing',
+                    a_string: 'I will not stop singing by Zomba Prison Project',
+                    rule: {
+                        "monday": [17, 28, 9, 13],
+                        "tuesday": [16, 27, 8, 19], 
+                        "wednesday": [15, 26, 7, 19], 
+                        "thursday": [19, 30, 11, 15],
+                        "saturday": [18, 29, 10, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 332,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1598632885/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://zombaprisonproject.bandcamp.com/album/i-have-no-everything-here',
+                    a_string: 'I Have No Everything Here by Zomba Prison Project',
+                    rule: {
+                        "monday": [18, 29, 10, 14],
+                        "tuesday": [17, 28, 9, 13], 
+                        "wednesday": [16, 27, 8, 19], 
+                        "thursday": [15, 26, 7, 19], 
+                        "saturday": [19, 30, 11, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 333,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1073224562/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://elwali.bandcamp.com/album/tiris',
+                    a_string: 'Tiris by El Wali',
+                    rule: {
+                        "monday": [19, 30, 11, 15],
+                        "tuesday": [18, 29, 10, 14],
+                        "wednesday": [17, 28, 9, 13], 
+                        "thursday": [16, 27, 8, 19], 
+                        "saturday": [15, 26, 7, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

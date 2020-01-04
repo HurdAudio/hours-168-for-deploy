@@ -4624,6 +4624,66 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/sketch-for-wounded-kitty-s-going-doggy-s-ear-he-s-gnawing-1989-jpeg-1.jpeg',
+                    title: 'Sketch for Wounded Kitty\'s Going, Doggy\'s Ear He\'s Gnawing',
+                    artist: 'Valeria Trubina',
+                    year: '1989',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/adoration-of-the-newborn-fear-1989.jpeg',
+                    title: 'Adoration of the Newborn Fear',
+                    artist: 'Valeria Trubina',
+                    year: '1989',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/perfect-lover-1990.jpeg',
+                    title: 'Perfect Lover',
+                    artist: 'Valeria Trubina',
+                    year: '1990',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/cool-of-heaven-1990.jpeg',
+                    title: 'Cool of Heaven',
+                    artist: 'Valeria Trubina',
+                    year: '1990',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/dream-landscapes-1990.jpeg',
+                    title: 'Dream Landscapes',
+                    artist: 'Valeria Trubina',
+                    year: '1990',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

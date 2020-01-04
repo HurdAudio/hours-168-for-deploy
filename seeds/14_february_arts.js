@@ -12904,6 +12904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 646,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/89-Benefane-2004-1600.jpg',
+                    title: 'Benefane',
+                    artist: 'Mel Edwards',
+                    year: '2004',
+                    rule: {
+                        "monday": [6, 14, 22, 1],
+                        "tuesday": [7, 16, 24, 3], 
+                        "wednesday": [13, 18, 24, 5], 
+                        "thursday":[12, 20, 28, 7], 
+                        "friday":  [14, 24, 1, 7], 
+                        "saturday": [16, 24, 3, 13], 
+                        "sunday": [16, 26, 22, 12] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 647,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/janiva_body.jpg',
+                    title: 'Dashland Updrown',
+                    artist: 'Janiva Ellis',
+                    year: '2019',
+                    rule: {
+                        "monday": [16, 26, 22, 12],
+                        "tuesday": [6, 14, 22, 1],  
+                        "wednesday": [7, 16, 24, 3],   
+                        "thursday":[13, 18, 24, 5],  
+                        "friday":  [12, 20, 28, 7],  
+                        "saturday": [14, 24, 1, 7],   
+                        "sunday": [16, 24, 3, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 648,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/trainstationchicago.jpg',
+                    title: 'Train Station',
+                    artist: 'Walter Ellison',
+                    year: '1935',
+                    rule: {
+                        "monday": [16, 24, 3, 13],
+                        "tuesday": [16, 26, 22, 12],
+                        "wednesday": [6, 14, 22, 1],  
+                        "thursday": [7, 16, 24, 3],  
+                        "friday": [13, 18, 24, 5], 
+                        "saturday": [12, 20, 28, 7], 
+                        "sunday": [14, 24, 1, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 649,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/1980_116_1a-1000x600.jpg',
+                    title: 'A Dream, Prophets in the Air',
+                    artist: 'Minnie Evans',
+                    year: '1959',
+                    rule: {
+                        "monday": [14, 24, 1, 7],
+                        "tuesday": [16, 24, 3, 13], 
+                        "wednesday": [16, 26, 22, 12],
+                        "thursday": [6, 14, 22, 1],  
+                        "friday": [7, 16, 24, 3],  
+                        "saturday": [13, 18, 24, 5], 
+                        "sunday": [12, 20, 28, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 650,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Bust-Young-Boy-683x1024.jpg',
+                    title: 'Bust of a Young Boy',
+                    artist: 'Meta Vaux Warrick Fuller',
+                    year: '1914',
+                    rule: {
+                        "monday": [12, 20, 28, 7],
+                        "tuesday": [14, 24, 1, 7],  
+                        "wednesday": [16, 24, 3, 13], 
+                        "thursday": [16, 26, 22, 12],
+                        "friday": [6, 14, 22, 1],  
+                        "saturday": [7, 16, 24, 3],  
+                        "sunday": [13, 18, 24, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

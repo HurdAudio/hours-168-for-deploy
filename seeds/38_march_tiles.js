@@ -1474,6 +1474,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#F7F7F1',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 106,
+                    user_id: 1,
+                    theme: 'Glass',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/stained_glass_window_at_the_glass_museum_2__by_martynwright_dbjjekn-pre.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#00134F',
+                    color_medium: '#06B22C',
+                    color_light: '#DFFCF1',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -10904,6 +10904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 546,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/28-10,BlueBk.jpg',
+                    title: 'Blue Book',
+                    artist: 'Frank J. Hoban',
+                    year: '1928',
+                    rule: {
+                        "monday": [18, 31, 8, 14],
+                        "tuesday": [17, 30, 7, 13],
+                        "wednesday": [16, 29, 6, 12],
+                        "thursday": [15, 27, 26, 11],
+                        "friday": [4, 27, 15, 22],
+                        "saturday": [20, 2, 10, 16],
+                        "sunday": [19, 31, 9, 15]
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 547,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/18-12,Scribners2.jpg',
+                    title: 'Scribners',
+                    artist: 'Edward Hopper',
+                    year: '1918',
+                    rule: {
+                        "monday": [19, 31, 9, 15],
+                        "tuesday": [18, 31, 8, 14], 
+                        "wednesday": [17, 30, 7, 13], 
+                        "thursday": [16, 29, 6, 12], 
+                        "friday": [15, 27, 26, 11],
+                        "saturday": [4, 27, 15, 22], 
+                        "sunday": [20, 2, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 548,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/22-00,Book.jpg',
+                    title: 'Book Cover',
+                    artist: 'Gayle Hoskins',
+                    year: '1922',
+                    rule: {
+                        "monday": [20, 2, 10, 16],
+                        "tuesday": [19, 31, 9, 15], 
+                        "wednesday": [18, 31, 8, 14], 
+                        "thursday": [17, 30, 7, 13], 
+                        "friday": [16, 29, 6, 12], 
+                        "saturday": [15, 27, 26, 11],
+                        "sunday": [4, 27, 15, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 549,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/17-12,Scribners.jpg',
+                    title: 'Scribners',
+                    artist: 'John Newton Howitt',
+                    year: '1917',
+                    rule: {
+                        "monday": [4, 27, 15, 22],
+                        "tuesday": [20, 2, 10, 16], 
+                        "wednesday": [19, 31, 9, 15], 
+                        "thursday": [18, 31, 8, 14], 
+                        "friday": [17, 30, 7, 13], 
+                        "saturday": [16, 29, 6, 12], 
+                        "sunday": [15, 27, 26, 11] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 550,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/44-07-25,SS4.jpg',
+                    title: 'Short Stories',
+                    artist: 'Fred Humiston',
+                    year: '1944',
+                    rule: {
+                        "monday": [15, 27, 26, 11],
+                        "tuesday": [4, 27, 15, 22], 
+                        "wednesday": [20, 2, 10, 16], 
+                        "thursday": [19, 31, 9, 15], 
+                        "friday": [18, 31, 8, 14], 
+                        "saturday": [17, 30, 7, 13], 
+                        "sunday": [16, 29, 6, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

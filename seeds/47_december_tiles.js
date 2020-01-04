@@ -1348,6 +1348,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#FFFFFF',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 97,
+                    user_id: 1,
+                    theme: 'Snow',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/village-in-the-snow-1894.jpeg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#0F1738',
+                    color_medium: '#7E5948',
+                    color_light: '#EFF0D0',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

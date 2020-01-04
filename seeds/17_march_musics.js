@@ -6808,6 +6808,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 379,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1340505271/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://shanacleveland.bandcamp.com/album/night-of-the-worm-moon',
+                    a_string: 'Night of the Worm Moon by Shana Cleveland',
+                    rule: {
+                        "monday": [25, 1, 7, 15],
+                        "tuesday": [25, 31, 6, 14], 
+                        "wednesday": [29, 4, 10, 18], 
+                        "thursday": [28, 3, 8, 17],  
+                        "saturday": [27, 2, 8, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 380,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1866552877/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://angelolsen.bandcamp.com/album/all-mirrors',
+                    a_string: 'All Mirrors by Angel Olsen',
+                    rule: {
+                        "monday": [27, 2, 8, 17],
+                        "tuesday": [25, 1, 7, 15],  
+                        "wednesday": [25, 31, 6, 14], 
+                        "thursday": [29, 4, 10, 18], 
+                        "saturday": [28, 3, 8, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 381,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2803152612/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sleaterkinney.bandcamp.com/album/the-center-wont-hold',
+                    a_string: 'The Center Won&#39;t Hold by Sleater-Kinney',
+                    rule: {
+                        "monday": [28, 3, 8, 17],
+                        "tuesday": [27, 2, 8, 17],  
+                        "wednesday": [25, 1, 7, 15],  
+                        "thursday": [25, 31, 6, 14], 
+                        "saturday": [29, 4, 10, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

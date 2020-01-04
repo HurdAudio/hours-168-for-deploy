@@ -1362,6 +1362,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#FFFFFF',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 98,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/canadian_sandstone_coast_by_boldfrontiers_dceu4b1-pre.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#020100',
+                    color_medium: '#B4723C',
+                    color_light: '#F3E5DA',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

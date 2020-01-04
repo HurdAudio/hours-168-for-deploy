@@ -5836,6 +5836,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 325,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1955704295/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://deafkidspunx.bandcamp.com/album/metaprograma-o',
+                    a_string: 'Metaprogramação by DEAFKIDS',
+                    rule: {
+                        "monday": [18, 26, 1, 7],
+                        "tuesday": [17, 25, 31, 6], 
+                        "wednesday": [18, 24, 30, 5], 
+                        "thursday": [22, 28, 3, 9],  
+                        "saturday": [21, 27, 2, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 326,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2990795249/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://deafkidspunx.bandcamp.com/album/permanent-dystopia-configura-o-do-lamento-remixes',
+                    a_string: 'Permanent Dystopia: Configuração do Lamento Remixes by DEAFKIDS',
+                    rule: {
+                        "monday": [21, 27, 2, 8],
+                        "tuesday": [18, 26, 1, 7],  
+                        "wednesday": [17, 25, 31, 6], 
+                        "thursday": [18, 24, 30, 5], 
+                        "saturday":  [22, 28, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 327,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=949995560/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://deafkidspunx.bandcamp.com/album/configura-o-do-lamento',
+                    a_string: 'Configuração do Lamento by DEAFKIDS',
+                    rule: {
+                        "monday": [22, 28, 3, 9],
+                        "tuesday": [21, 27, 2, 8],  
+                        "wednesday": [18, 26, 1, 7],  
+                        "thursday": [17, 25, 31, 6], 
+                        "saturday": [18, 24, 30, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -13104,6 +13104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 656,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/architectural-analysis-1923.jpeg',
+                    title: 'Architectural Analysis',
+                    artist: 'Theo van Doesburg',
+                    year: '1923',
+                    rule: {
+                        "monday": [12, 14, 15, 17],
+                        "tuesday": [14, 16, 20, 23],
+                        "wednesday": [16, 18, 19, 20],
+                        "thursday": [4, 6, 29, 18],  
+                        "friday": [4, 6, 29, 18],  
+                        "saturday": [9, 7, 30, 2],   
+                        "sunday": [9, 10, 1, 5]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 657,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-xxi-1923.jpeg',
+                    title: 'Composition XXI',
+                    artist: 'Theo van Doesburg',
+                    year: '1923',
+                    rule: {
+                        "monday": [9, 10, 1, 5],
+                        "tuesday": [12, 14, 15, 17],
+                        "wednesday": [14, 16, 20, 23],
+                        "thursday": [16, 18, 19, 20],
+                        "friday": [4, 6, 29, 18],  
+                        "saturday": [4, 6, 29, 18],  
+                        "sunday": [9, 7, 30, 2]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 658,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/construction-1923.jpeg',
+                    title: 'Construction',
+                    artist: 'Laszlo Moholy-Nagy',
+                    year: '1923',
+                    rule: {
+                        "monday": [10, 8, 31, 3],
+                        "tuesday": [10, 11, 2, 6],
+                        "wednesday": [13, 15, 16, 18],
+                        "thursday": [15, 17, 21, 24],
+                        "friday": [17, 19, 20, 21],  
+                        "saturday": [5, 7, 30, 19],  
+                        "sunday": [5, 7, 30, 19]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 659,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/aphorism-1923.jpeg',
+                    title: 'Aphorism',
+                    artist: 'Kurt Schwitters',
+                    year: '1923',
+                    rule: {
+                        "monday": [5, 7, 30, 19],
+                        "tuesday": [10, 8, 31, 3],  
+                        "wednesday": [10, 11, 2, 6],  
+                        "thursday": [13, 15, 16, 18],
+                        "friday": [15, 17, 21, 24],
+                        "saturday": [17, 19, 20, 21],
+                        "sunday": [5, 7, 30, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 660,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1923-1(8).jpeg',
+                    title: 'Composition',
+                    artist: 'Janos Mattis-Teutsch',
+                    year: '1923',
+                    rule: {
+                        "monday": [5, 7, 30, 19],
+                        "tuesday": [5, 7, 30, 19],  
+                        "wednesday": [10, 8, 31, 3],  
+                        "thursday": [10, 11, 2, 6],  
+                        "friday": [13, 15, 16, 18],
+                        "saturday": [15, 17, 21, 24],
+                        "sunday": [17, 19, 20, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

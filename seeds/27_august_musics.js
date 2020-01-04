@@ -6268,6 +6268,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 349,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1198329772/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://scottwclark.bandcamp.com/album/tonow',
+                    a_string: 'ToNow by ScottClark',
+                    rule: {
+                        "monday": [26, 3, 16, 15],
+                        "tuesday": [25, 2, 15, 14], 
+                        "wednesday": [29, 6, 19, 18], 
+                        "thursday": [28, 5, 18, 17], 
+                        "saturday": [27, 4, 17, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 350,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2683440050/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://frodegjerstad.bandcamp.com/album/tampere-08',
+                    a_string: 'Tampere -08 by Circulasione Totale Orchestra',
+                    rule: {
+                        "monday": [28, 5, 18, 17],
+                        "tuesday": [27, 4, 17, 16], 
+                        "wednesday": [26, 3, 16, 15], 
+                        "thursday": [30, 7, 20, 19], 
+                        "saturday": [29, 6, 19, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 351,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3652713447/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://frodegjerstad.bandcamp.com/album/gromka-13',
+                    a_string: 'Gromka -13 by Frode Gjerstad, reeds, Jon Rune Strøm, bass, Paal Nilssen-Love, dr',
+                    rule: {
+                        "monday": [29, 6, 19, 18],
+                        "tuesday": [28, 5, 18, 17], 
+                        "wednesday": [27, 4, 17, 16], 
+                        "thursday": [26, 3, 16, 15], 
+                        "saturday": [30, 7, 20, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

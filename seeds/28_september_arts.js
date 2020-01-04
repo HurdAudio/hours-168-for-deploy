@@ -11504,6 +11504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 576,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/sandblasted-etched-glass-window-1974.jpeg',
+                    title: 'Sandblasted Etched Glass Window',
+                    artist: 'Michael Heizer',
+                    year: '1974',
+                    rule: {
+                        "monday": [23, 28, 17, 25],
+                        "tuesday": [21, 28, 16, 24],
+                        "wednesday": [21, 27, 15, 23],
+                        "thursday": [10, 26, 14, 23],
+                        "friday": [9, 16, 13, 21], 
+                        "saturday": [17, 24, 12, 19],
+                        "sunday": [24, 30, 18, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 577,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/girl-with-a-rose-in-her-lap-1960.jpeg',
+                    title: 'Girl with a Rose in Her Lap',
+                    artist: 'John Bratby',
+                    year: '1960',
+                    rule: {
+                        "monday": [24, 30, 18, 26],
+                        "tuesday": [23, 28, 17, 25],
+                        "wednesday": [21, 28, 16, 24],
+                        "thursday": [21, 27, 15, 23],
+                        "friday": [10, 26, 14, 23],
+                        "saturday": [9, 16, 13, 21], 
+                        "sunday": [17, 24, 12, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 578,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/pavo-1968.jpeg',
+                    title: 'Pavo',
+                    artist: 'Dan Christensen',
+                    year: '1968',
+                    rule: {
+                        "monday": [17, 24, 12, 19],
+                        "tuesday": [24, 30, 18, 26],
+                        "wednesday": [23, 28, 17, 25],
+                        "thursday": [21, 28, 16, 24],
+                        "friday": [21, 27, 15, 23],
+                        "saturday": [10, 26, 14, 23],
+                        "sunday": [9, 16, 13, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 579,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/tonsils-2010.jpeg',
+                    title: 'Tonsils',
+                    artist: 'Marjan Eggermont',
+                    year: '2010',
+                    rule: {
+                        "monday": [9, 16, 13, 21], 
+                        "tuesday": [17, 24, 12, 19],
+                        "wednesday": [24, 30, 18, 26],
+                        "thursday": [23, 28, 17, 25],
+                        "friday": [21, 28, 16, 24],
+                        "saturday": [21, 27, 15, 23],
+                        "sunday": [10, 26, 14, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 580,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/ballon-dog.jpeg',
+                    title: 'Ballon Dog',
+                    artist: 'Jeff Koons',
+                    year: '?',
+                    rule: {
+                        "monday": [10, 26, 14, 23],
+                        "tuesday": [9, 16, 13, 21], 
+                        "wednesday": [17, 24, 12, 19],
+                        "thursday": [24, 30, 18, 26],
+                        "friday": [23, 28, 17, 25],
+                        "saturday": [21, 28, 16, 24],
+                        "sunday": [21, 27, 15, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

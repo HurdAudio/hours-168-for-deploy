@@ -6700,6 +6700,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 373,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2124288435/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://rainydaysrecords.bandcamp.com/album/zoo',
+                    a_string: 'Zoo by Evgeny Sivtsov',
+                    rule: {
+                        "monday": [23, 1, 13, 18],
+                        "tuesday": [27, 5, 17, 22], 
+                        "wednesday": [26, 3, 16, 21], 
+                        "thursday": [25, 3, 15, 20], 
+                        "saturday": [24, 2, 13, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 374,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=57909673/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://goorganicorchestra.bandcamp.com/album/ragmala-a-garland-of-ragas',
+                    a_string: 'Ragmala: A Garland of Ragas by Go: Organic Orchestra',
+                    rule: {
+                        "monday": [24, 2, 13, 19],
+                        "tuesday": [23, 1, 13, 18], 
+                        "wednesday": [27, 5, 17, 22], 
+                        "thursday": [26, 3, 16, 21], 
+                        "saturday": [25, 3, 15, 20]
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 375,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2064249341/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://katibriensdreamband.bandcamp.com/album/happy-music',
+                    a_string: 'Happy Music by Kati Briens Dream Band',
+                    rule: {
+                        "monday": [25, 3, 15, 20],
+                        "tuesday": [24, 2, 13, 19], 
+                        "wednesday": [23, 1, 13, 18], 
+                        "thursday": [27, 5, 17, 22], 
+                        "saturday": [26, 3, 16, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

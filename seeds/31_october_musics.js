@@ -6052,6 +6052,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 337,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2890940805/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://drunkensailorrecords.bandcamp.com/album/do-the-get-around-lp',
+                    a_string: 'Do The Get Around LP by Gino And The Goons',
+                    rule: {
+                        "monday": [25, 4, 14, 17],
+                        "tuesday": [24, 4, 13, 16], 
+                        "wednesday": [23, 2, 13, 15], 
+                        "thursday": [22, 1, 11, 14], 
+                        "saturday": [26, 5, 15, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 338,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2627599599/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://adagio830-records.bandcamp.com/album/m-y-t-h',
+                    a_string: 'M.y.t.h. by RANK / XEROX',
+                    rule: {
+                        "monday": [26, 5, 15, 18],
+                        "tuesday": [25, 4, 14, 17], 
+                        "wednesday": [24, 4, 13, 16], 
+                        "thursday": [23, 2, 13, 15], 
+                        "saturday": [22, 1, 11, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 339,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1276889110/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://adagio830-records.bandcamp.com/album/mass-transit',
+                    a_string: 'Mass Transit by RANK / XEROX',
+                    rule: {
+                        "monday": [22, 1, 11, 14],
+                        "tuesday": [26, 5, 15, 18], 
+                        "wednesday": [25, 4, 14, 17], 
+                        "thursday": [24, 4, 13, 16], 
+                        "saturday": [23, 2, 13, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

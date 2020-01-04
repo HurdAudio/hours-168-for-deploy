@@ -12104,6 +12104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 606,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ddng2ji-7dd51a07-cf8e-469c-bf2a-d095b22641ca.jpg',
+                    title: 'Who Was Knocking On The Door',
+                    artist: 'Inayat Ali Shah',
+                    year: '2020',
+                    rule: {
+                        "monday": [20, 30, 10, 18],
+                        "tuesday": [26, 6, 16, 23], 
+                        "wednesday": [25, 5, 16, 23], 
+                        "thursday": [24, 4, 14, 12], 
+                        "friday": [23, 3, 13, 20], 
+                        "saturday": [2, 12, 22, 20], 
+                        "sunday": [21, 1, 11, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 607,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/water_sedges_by_minamiko_ddngbk3-fullview.jpg',
+                    title: 'water sedges',
+                    artist: 'minamiko',
+                    year: '2020',
+                    rule: {
+                        "monday": [21, 1, 11, 19],
+                        "tuesday": [20, 30, 10, 18],
+                        "wednesday": [26, 6, 16, 23], 
+                        "thursday": [25, 5, 16, 23], 
+                        "friday": [24, 4, 14, 12], 
+                        "saturday": [23, 3, 13, 20], 
+                        "sunday": [2, 12, 22, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 608,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/wrinkled_man_by_utico_ddng4sr-fullview.jpg',
+                    title: 'Wrinkled man',
+                    artist: 'utico',
+                    year: '2020',
+                    rule: {
+                        "monday": [2, 12, 22, 20],
+                        "tuesday": [21, 1, 11, 19], 
+                        "wednesday": [20, 30, 10, 18],
+                        "thursday": [26, 6, 16, 23], 
+                        "friday": [25, 5, 16, 23], 
+                        "saturday": [24, 4, 14, 12], 
+                        "sunday": [23, 3, 13, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 609,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ddngncz-4c017004-14d1-4655-b175-ec006325ed3e.jpg',
+                    title: 'Reflect',
+                    artist: 'Anthony Presley',
+                    year: '2020',
+                    rule: {
+                        "monday": [24, 4, 14, 21],
+                        "tuesday": [3, 13, 23, 21], 
+                        "wednesday": [22, 2, 12, 20],
+                        "thursday": [21, 1, 11, 19], 
+                        "friday": [27, 7, 17, 24], 
+                        "saturday": [26, 6, 17, 24], 
+                        "sunday": [25, 5, 15, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 610,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/description_by_floh555_ddng31b-fullview.jpg',
+                    title: 'description',
+                    artist: 'floh555',
+                    year: '2020',
+                    rule: {
+                        "monday": [25, 5, 15, 13],
+                        "tuesday": [24, 4, 14, 21], 
+                        "wednesday": [3, 13, 23, 21], 
+                        "thursday": [22, 2, 12, 20], 
+                        "friday": [21, 1, 11, 19], 
+                        "saturday": [27, 7, 17, 24], 
+                        "sunday": [26, 6, 17, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
