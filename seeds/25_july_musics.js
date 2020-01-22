@@ -6430,6 +6430,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 358,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=425779052/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://theinnocencemission.bandcamp.com/album/see-you-tomorrow',
+                    a_string: 'see you tomorrow by the innocence mission',
+                    rule: {
+                        "monday": [22, 24, 28, 5],
+                        "tuesday": [21, 23, 27, 4], 
+                        "wednesday": [20, 22, 26, 3], 
+                        "thursday": [19, 20, 25, 2], 
+                        "saturday": [18, 20, 24, 1]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 359,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2953224167/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://terence.bandcamp.com/album/things-i-never-had-ep',
+                    a_string: 'Things I Never Had EP by Terence Etc.',
+                    rule: {
+                        "monday": [18, 20, 24, 1],
+                        "tuesday": [22, 24, 28, 5], 
+                        "wednesday": [21, 23, 27, 4], 
+                        "thursday": [20, 22, 26, 3], 
+                        "saturday": [19, 20, 25, 2]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 360,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1395787659/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://noisemanifesto.bandcamp.com/album/edge-of-everything-digital-album',
+                    a_string: 'Edge of Everything (Digital Album) by Paula Temple',
+                    rule: {
+                        "monday": [19, 20, 25, 2],
+                        "tuesday": [18, 20, 24, 1], 
+                        "wednesday": [22, 24, 28, 5], 
+                        "thursday": [21, 23, 27, 4], 
+                        "saturday": [20, 22, 26, 3]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

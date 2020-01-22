@@ -6646,6 +6646,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 370,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=867658204/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://tymbaltapes.bandcamp.com/album/boneblack',
+                    a_string: 'Boneblack by Yves Malone',
+                    rule: {
+                        "monday": [23, 29, 5, 18],
+                        "tuesday": [22, 28, 4, 17], 
+                        "wednesday": [21, 27, 3, 16], 
+                        "thursday": [20, 26, 2, 15], 
+                        "saturday": [24, 30, 6, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 371,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2200084213/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://marginalfrequency.bandcamp.com/album/mfcs-f-kieran-daly-sam-sfirri-derrison',
+                    a_string: 'MFCS F | Kieran Daly / Sam Sfirri - Derrison by Marginal Frequency',
+                    rule: {
+                        "monday": [25, 31, 7, 20],
+                        "tuesday": [24, 30, 6, 19], 
+                        "wednesday": [23, 29, 5, 18], 
+                        "thursday": [22, 28, 4, 17], 
+                        "saturday": [21, 27, 3, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 372,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=504864069/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://hausumountain.bandcamp.com/album/didnt-have-to-cut',
+                    a_string: 'Didn&#39;t Have To Cut by Khaki Blazer',
+                    rule: {
+                        "monday": [21, 27, 3, 16],
+                        "tuesday": [25, 31, 7, 20], 
+                        "wednesday": [24, 30, 6, 19], 
+                        "thursday": [23, 29, 5, 18], 
+                        "saturday": [22, 28, 4, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

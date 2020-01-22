@@ -6322,6 +6322,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 352,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1655301632/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://whirrboom.bandcamp.com/album/bouche-perdue',
+                    a_string: 'Bouche Perdue by Achim Kaufmann, Michael Moore, Dylan van der Schyff',
+                    rule: {
+                        "monday": [30, 7, 20, 19],
+                        "tuesday": [29, 6, 19, 18], 
+                        "wednesday": [28, 5, 18, 17], 
+                        "thursday": [27, 4, 17, 16], 
+                        "saturday": [26, 3, 16, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 353,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3891591691/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://humanhoodrecordings.bandcamp.com/album/split-hhr100',
+                    a_string: 'Split (HHR100) by GX Jupitter-Larsen / Crank Sturgeon',
+                    rule: {
+                        "monday": [26, 3, 16, 15],
+                        "tuesday": [30, 7, 20, 19], 
+                        "wednesday": [29, 6, 19, 18], 
+                        "thursday": [28, 5, 18, 17], 
+                        "saturday": [27, 4, 17, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 354,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4234233833/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://nachtrecords.com/album/socialized-improvisation',
+                    a_string: 'Socialized Improvisation by Noordzy, Jennings, Ware',
+                    rule: {
+                        "monday": [27, 4, 17, 16],
+                        "tuesday": [26, 3, 16, 15], 
+                        "wednesday": [30, 7, 20, 19], 
+                        "thursday": [29, 6, 19, 18], 
+                        "saturday": [28, 5, 18, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

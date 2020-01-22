@@ -1362,6 +1362,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#EFF0D0',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 98,
+                    user_id: 1,
+                    theme: 'Snow',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/snowy_rowboat_by_pajunen_dcfpf0l-pre.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#170507',
+                    color_medium: '#7E2E31',
+                    color_light: '#C6CDDF',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

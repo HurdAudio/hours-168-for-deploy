@@ -11604,6 +11604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 581,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/composition-har-1957.jpeg',
+                    title: 'Composition Har',
+                    artist: 'Carl Buchheister',
+                    year: '1957',
+                    rule: {
+                        "monday": [22, 28, 16, 24],
+                        "tuesday": [11, 27, 15, 24], 
+                        "wednesday": [10, 17, 14, 22],
+                        "thursday": [18, 25, 13, 20],
+                        "friday": [25, 1, 19, 27],
+                        "saturday": [24, 29, 18, 26],
+                        "sunday": [22, 29, 17, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 582,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/pink-blue-cube-1967.jpeg',
+                    title: 'Pink Blue Cube',
+                    artist: 'Peter Alexander',
+                    year: '1967',
+                    rule: {
+                        "monday": [22, 29, 17, 25],
+                        "tuesday": [22, 28, 16, 24],
+                        "wednesday": [11, 27, 15, 24],
+                        "thursday": [10, 17, 14, 22],
+                        "friday": [18, 25, 13, 20],
+                        "saturday": [25, 1, 19, 27], 
+                        "sunday": [24, 29, 18, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 583,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/campieri-1949(1).jpeg',
+                    title: 'Campieri',
+                    artist: 'Renato Guttuso',
+                    year: '1949',
+                    rule: {
+                        "monday": [24, 29, 18, 26],
+                        "tuesday": [22, 29, 17, 25],
+                        "wednesday": [22, 28, 16, 24],
+                        "thursday": [11, 27, 15, 24],
+                        "friday": [10, 17, 14, 22],
+                        "saturday": [18, 25, 13, 20],
+                        "sunday": [25, 1, 19, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 584,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/bowl-d-banana-1981.jpeg',
+                    title: 'Bowl’d Banana',
+                    artist: 'Mary Pratt',
+                    year: '1981',
+                    rule: {
+                        "monday": [25, 1, 19, 27],
+                        "tuesday": [24, 29, 18, 26],
+                        "wednesday": [22, 29, 17, 25],
+                        "thursday": [22, 28, 16, 24],
+                        "friday": [11, 27, 15, 24],
+                        "saturday": [10, 17, 14, 22],
+                        "sunday": [18, 25, 13, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 585,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/impeller-1972.jpeg',
+                    title: 'Impeller',
+                    artist: 'Peter Phillips',
+                    year: '1972',
+                    rule: {
+                        "monday": [18, 25, 13, 20],
+                        "tuesday": [25, 1, 19, 27], 
+                        "wednesday": [24, 29, 18, 26],
+                        "thursday": [22, 29, 17, 25],
+                        "friday": [22, 28, 16, 24],
+                        "saturday": [11, 27, 15, 24],
+                        "sunday": [10, 17, 14, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

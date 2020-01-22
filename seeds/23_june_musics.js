@@ -6538,6 +6538,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 364,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=655342258/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://alexsomers.bandcamp.com/album/honey-boy',
+                    a_string: 'Honey Boy by Alex Somers',
+                    rule: {
+                        "monday": [23, 27, 3, 14],
+                        "tuesday": [22, 25, 30, 12],
+                        "wednesday": [21, 24, 30, 11], 
+                        "thursday": [21, 24, 30, 10],
+                        "saturday": [19, 27, 29, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 365,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=916759258/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://shop.hammockmusic.com/album/silencia',
+                    a_string: 'Silencia by Hammock',
+                    rule: {
+                        "monday": [19, 27, 29, 14],
+                        "tuesday": [23, 27, 3, 14], 
+                        "wednesday": [22, 25, 30, 12],
+                        "thursday": [21, 24, 30, 11],
+                        "saturday": [21, 24, 30, 10] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 366,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3281473626/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://freedomtospend.bandcamp.com/album/neighborhoods',
+                    a_string: 'Neighborhoods by Ernest Hood',
+                    rule: {
+                        "monday": [21, 24, 30, 10],
+                        "tuesday": [19, 27, 29, 14],
+                        "wednesday": [23, 27, 3, 14], 
+                        "thursday": [22, 25, 30, 12],
+                        "saturday": [21, 24, 30, 11] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

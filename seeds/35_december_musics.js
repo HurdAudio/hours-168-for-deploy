@@ -5890,6 +5890,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 328,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3307946838/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lebutcherettes.bandcamp.com/album/sin-sin-sin',
+                    a_string: 'Sin Sin Sin by Le Butcherettes',
+                    rule: {
+                        "monday": [18, 24, 30, 5],
+                        "tuesday": [22, 28, 3, 9],  
+                        "wednesday": [21, 27, 2, 8],  
+                        "thursday": [18, 26, 1, 7],  
+                        "saturday": [17, 25, 31, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 329,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=133904525/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://cianmx.bandcamp.com/album/and-n',
+                    a_string: 'andén by CIAN',
+                    rule: {
+                        "monday": [18, 26, 1, 7],
+                        "tuesday": [19, 25, 31, 6],  
+                        "wednesday": [23, 29, 4, 10],  
+                        "thursday": [22, 28, 3, 9],  
+                        "saturday": [19, 27, 2, 8]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 330,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4157682630/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lafiebrex.bandcamp.com/album/las-fiebretonas-x',
+                    a_string: 'Las Fiebretonas X by La Fiebre X',
+                    rule: {
+                        "monday": [19, 27, 2, 8],
+                        "tuesday": [18, 26, 1, 7],  
+                        "wednesday": [19, 25, 31, 6], 
+                        "thursday": [23, 29, 4, 10], 
+                        "saturday": [22, 28, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

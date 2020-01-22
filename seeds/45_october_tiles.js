@@ -1390,6 +1390,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#BEC29E',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 100,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/autumn_tunnel_to_nowhere__freebie__by_boldfrontiers_dcks7qv-pre.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#0A0502',
+                    color_medium: '#C0830A',
+                    color_light: '#7ACFFD',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

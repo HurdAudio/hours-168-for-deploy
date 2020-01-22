@@ -12604,6 +12604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 631,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/8189949972_32942ff015_n.jpg',
+                    title: 'Rick Ross graffiti character as a Cleveland Indians pitcher',
+                    artist: 'Rick Ross',
+                    year: '2011',
+                    rule: {
+                        "monday": [1, 7, 12, 18],
+                        "tuesday": [15, 5, 11, 17], 
+                        "wednesday": [30, 3, 16, 17], 
+                        "thursday": [29, 3, 18, 16], 
+                        "friday": [26, 2, 8, 14],  
+                        "saturday": [27, 2, 8, 14],  
+                        "sunday": [26, 1, 7, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 632,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/73349396_179226199922815_2562502876530501916_n.jpg',
+                    title: 'Larry Doby Graffiti',
+                    artist: 'camvas',
+                    year: 'xxi cent.',
+                    rule: {
+                        "monday": [26, 1, 7, 13],
+                        "tuesday": [1, 7, 12, 18],  
+                        "wednesday": [15, 5, 11, 17], 
+                        "thursday": [30, 3, 16, 17], 
+                        "friday": [29, 3, 18, 16], 
+                        "saturday": [26, 2, 8, 14],  
+                        "sunday": [27, 2, 8, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 633,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/FRANCISCO-LINDOR-GRIN-AND-WIN-GV-Art-Design.jpg',
+                    title: 'Francisco Lindor Grin and Win',
+                    artist: 'unknown artist',
+                    year: 'xxi cent.',
+                    rule: {
+                        "monday": [27, 2, 8, 14],
+                        "tuesday": [26, 1, 7, 13],  
+                        "wednesday": [1, 7, 12, 18],  
+                        "thursday": [15, 5, 11, 17], 
+                        "friday": [30, 3, 16, 17], 
+                        "saturday": [29, 3, 18, 16], 
+                        "sunday": [26, 2, 8, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 634,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/D1Dwx6wWsAEiv1i.jpg',
+                    title: '1977 Cleveland Indians Official Souvenir Guide',
+                    artist: 'unknown artist',
+                    year: '1977',
+                    rule: {
+                        "monday": [26, 2, 8, 14],
+                        "tuesday": [27, 2, 8, 14],  
+                        "wednesday": [26, 1, 7, 13],  
+                        "thursday": [1, 7, 12, 18],  
+                        "friday": [15, 5, 11, 17], 
+                        "saturday": [30, 3, 16, 17], 
+                        "sunday": [29, 3, 18, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 635,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/1_xlItHrjZqZK0de1euwdwqQ.jpeg',
+                    title: 'Carlos Carrasco Visits Luis Munoz Marin to Support WKYC’s Reading Campaign',
+                    artist: 'unknown artist',
+                    year: '2015',
+                    rule: {
+                        "monday": [29, 3, 18, 16] ,
+                        "tuesday": [26, 2, 8, 14],  
+                        "wednesday": [27, 2, 8, 14],  
+                        "thursday": [26, 1, 7, 13],  
+                        "friday": [1, 7, 12, 18],  
+                        "saturday": [15, 5, 11, 17], 
+                        "sunday": [30, 3, 16, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

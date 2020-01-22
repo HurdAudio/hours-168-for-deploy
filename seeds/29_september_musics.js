@@ -6214,6 +6214,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 346,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2761700936/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://triptonusband.bandcamp.com/album/sprout',
+                    a_string: 'Sprout by Triptonus',
+                    rule: {
+                        "monday": [23, 13, 21, 15],
+                        "tuesday": [22, 12, 20, 13],
+                        "wednesday": [22, 11, 19, 13],
+                        "thursday": [20, 10, 18, 12],
+                        "saturday": [24, 14, 22, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 347,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=926940121/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://triptonusband.bandcamp.com/album/triptonus',
+                    a_string: 'Triptonus by Triptonus',
+                    rule: {
+                        "monday": [24, 14, 22, 16],
+                        "tuesday": [23, 13, 21, 15],
+                        "wednesday": [22, 12, 20, 13],
+                        "thursday": [22, 11, 19, 13],
+                        "saturday": [20, 10, 18, 12] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 348,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2199048410/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mambocatso.bandcamp.com/album/mambo-catso',
+                    a_string: 'Mambo Catso by Mambo Catso',
+                    rule: {
+                        "monday": [20, 10, 18, 12],
+                        "tuesday": [24, 14, 22, 16],
+                        "wednesday": [23, 13, 21, 15],
+                        "thursday": [22, 12, 20, 13],
+                        "saturday": [22, 11, 19, 13] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

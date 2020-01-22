@@ -1460,7 +1460,21 @@ exports.seed = function (knex, Promise) {
                     color_light: '#91EFD1',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
-        }
+        },
+             {
+                    id: 105,
+                    user_id: 1,
+                    theme: 'Greenery',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/greenery_by_emilycreates_d3nuf4m-fullview.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#132E0C',
+                    color_medium: '#4D8810',
+                    color_light: '#97CC38',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        }   
       ]);
         }).then(() => {
             return knex.raw("SELECT setval('may_tiles_id_seq', (SELECT MAX(id) FROM may_tiles));");

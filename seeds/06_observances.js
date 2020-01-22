@@ -11571,6 +11571,34 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 744,
+                    user_id: 1,
+                    name: 'Lucretia Mott (abolitionist/woment\'s rights activist/social reformer) born 1793',
+                    color: '#814717',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/mott.jpg',
+                    day_of: new Date('1793-01-03  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 745,
+                    user_id: 1,
+                    name: 'Margaret Sanger (birth control activist/sex educator/writer/nurse) born 1879',
+                    color: '#232323',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/sanger1.jpeg',
+                    day_of: new Date('1879-09-14  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

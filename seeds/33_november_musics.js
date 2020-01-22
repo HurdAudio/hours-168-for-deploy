@@ -5998,6 +5998,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 334,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=95753531/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://etrandelair.bandcamp.com/album/music-from-saharan-whatsapp',
+                    a_string: 'Music from Saharan WhatsApp by Etran de L&#39;Aïr',
+                    rule: {
+                        "monday": [15, 26, 7, 19],
+                        "tuesday": [19, 30, 11, 15],
+                        "wednesday": [18, 29, 10, 14],
+                        "thursday": [17, 28, 9, 13], 
+                        "saturday": [16, 27, 8, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 335,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2062834667/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://syrphe.bandcamp.com/album/alternate-african-reality-electronic-electroacoustic-and-experimental-music-from-africa-and-the-diaspora',
+                    a_string: 'Alternate African Reality – Electronic, electroacoustic and experimental music from Africa and the diaspora by Compilation',
+                    rule: {
+                        "monday": [16, 27, 8, 19],
+                        "tuesday": [15, 26, 7, 19], 
+                        "wednesday": [19, 30, 11, 15],
+                        "thursday": [18, 29, 10, 14],
+                        "saturday": [17, 28, 9, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 336,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1822005270/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lesangescompagnie.bandcamp.com/album/the-black-slavics-afro-russian-a-capella-songs',
+                    a_string: 'The BLACK SLAVICS  (Afro-Russian a capella songs) by Les Anges Compagnie',
+                    rule: {
+                        "monday": [18, 29, 10, 14],
+                        "tuesday": [17, 28, 9, 20], 
+                        "wednesday": [16, 27, 8, 20],
+                        "thursday": [20, 1, 12, 16],
+                        "saturday": [19, 30, 11, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

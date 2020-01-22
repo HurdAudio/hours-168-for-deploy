@@ -13004,6 +13004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 651,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/WhaleFalls.jpg',
+                    title: 'Whale Falls',
+                    artist: 'Ellen Gallagher',
+                    year: '2017',
+                    rule: {
+                        "monday": [14, 19, 25, 6],
+                        "tuesday": [13, 21, 29, 8],  
+                        "wednesday": [15, 25, 2, 8], 
+                        "thursday": [17, 25, 4, 14],
+                        "friday": [17, 27, 23, 13],  
+                        "saturday": [7, 15, 23, 2],  
+                        "sunday": [8, 17, 25, 4]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 652,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/rzqoqzydemimj9czuc1t.jpg',
+                    title: 'Orange Ceramic Mask Sculpture',
+                    artist: 'Melvino Garretti',
+                    year: '?',
+                    rule: {
+                        "monday": [8, 17, 25, 4],
+                        "tuesday": [14, 19, 25, 6], 
+                        "wednesday": [13, 21, 29, 8], 
+                        "thursday": [15, 25, 2, 8],  
+                        "friday": [17, 25, 4, 14], 
+                        "saturday": [17, 27, 23, 13],
+                        "sunday": [7, 15, 23, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 653,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/022219_theastergates_palaisdetokyo-334_web.jpg',
+                    title: 'So Bitter This Curse of Darkness',
+                    artist: 'Theaster Gates',
+                    year: '2019',
+                    rule: {
+                        "monday": [7, 15, 23, 2],
+                        "tuesday": [8, 17, 25, 4],  
+                        "wednesday": [14, 19, 25, 6], 
+                        "thursday": [13, 21, 29, 8], 
+                        "friday": [15, 25, 2, 8],  
+                        "saturday": [17, 25, 4, 14], 
+                        "sunday": [17, 27, 23, 13] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 654,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/reginald-k-gee-clerk-at-lunchbreak.jpeg',
+                    title: 'Clerk At Lunchbreak',
+                    artist: 'Reginald K Gee',
+                    year: '2014',
+                    rule: {
+                        "monday": [17, 27, 23, 13],
+                        "tuesday": [7, 15, 23, 2],  
+                        "wednesday": [8, 17, 25, 4],  
+                        "thursday": [14, 19, 25, 6], 
+                        "friday": [13, 21, 29, 8], 
+                        "saturday": [15, 25, 2, 8],  
+                        "sunday": [17, 25, 4, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 655,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/172428c87824d74b2814a4bdcf3c8650.jpeg',
+                    title: 'And A Star',
+                    artist: 'Herbert Gentry',
+                    year: '1978',
+                    rule: {
+                        "monday": [17, 25, 4, 14],
+                        "tuesday": [17, 27, 23, 13],
+                        "wednesday": [7, 15, 23, 2],  
+                        "thursday": [8, 17, 25, 4],  
+                        "friday": [14, 19, 25, 6], 
+                        "saturday": [13, 21, 29, 8], 
+                        "sunday": [15, 25, 2, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

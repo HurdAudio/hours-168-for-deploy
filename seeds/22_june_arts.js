@@ -12204,6 +12204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 611,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ddoof1t-88a2ce16-4073-4c3e-bc49-09fce340e131.png',
+                    title: 'Balloon River',
+                    artist: 'thefirebomb',
+                    year: '2020',
+                    rule: {
+                        "monday": [26, 6, 17, 24],
+                        "tuesday": [25, 5, 15, 13], 
+                        "wednesday": [24, 4, 14, 21], 
+                        "thursday": [3, 13, 23, 21], 
+                        "friday": [22, 2, 12, 20], 
+                        "saturday": [21, 1, 11, 19], 
+                        "sunday": [27, 7, 17, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 612,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/abandoned_tanker_trailer_by_billynikoll_ddonxpu-pre.jpg',
+                    title: 'Abandoned Tanker Trailer',
+                    artist: 'Billy Nikoll',
+                    year: '2020',
+                    rule: {
+                        "monday": [27, 7, 17, 24],
+                        "tuesday": [26, 6, 17, 24], 
+                        "wednesday": [25, 5, 15, 13], 
+                        "thursday": [24, 4, 14, 21], 
+                        "friday": [3, 13, 23, 21], 
+                        "saturday": [22, 2, 12, 20], 
+                        "sunday": [21, 1, 11, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 613,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/turkey_baby_wants_the_tea__by_innocentium_ddontpw-fullview.jpg',
+                    title: 'Turkey Baby Wants the Tea!',
+                    artist: 'Innocentium',
+                    year: '2020',
+                    rule: {
+                        "monday": [21, 1, 11, 19],
+                        "tuesday": [27, 7, 17, 24], 
+                        "wednesday": [26, 6, 17, 24], 
+                        "thursday": [25, 5, 15, 13], 
+                        "friday": [24, 4, 14, 21], 
+                        "saturday": [3, 13, 23, 21], 
+                        "sunday": [22, 2, 12, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 614,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fairness_zone_by_thinking_silence_ddonu9e-fullview.jpg',
+                    title: 'Fairness Zone',
+                    artist: 'Thinking-Silence',
+                    year: '2020',
+                    rule: {
+                        "monday": [22, 2, 12, 20],
+                        "tuesday": [21, 1, 11, 19], 
+                        "wednesday": [27, 7, 17, 24], 
+                        "thursday": [26, 6, 17, 24], 
+                        "friday": [25, 5, 15, 13], 
+                        "saturday": [24, 4, 14, 21], 
+                        "sunday": [3, 13, 23, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 615,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/blurry_by_drawncreature_ddop1ow-pre.jpg',
+                    title: 'Blurry',
+                    artist: 'DrawnCreature',
+                    year: '2020',
+                    rule: {
+                        "monday": [3, 13, 23, 21],
+                        "tuesday": [22, 2, 12, 20], 
+                        "wednesday": [21, 1, 11, 19], 
+                        "thursday": [27, 7, 17, 24], 
+                        "friday": [26, 6, 17, 24], 
+                        "saturday": [25, 5, 15, 13], 
+                        "sunday": [24, 4, 14, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

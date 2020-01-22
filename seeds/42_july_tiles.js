@@ -1432,6 +1432,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#F0EACE',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 103,
+                    user_id: 1,
+                    theme: 'Steam',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/flow_by_aphantopus_d8wncen-pre.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#000904',
+                    color_medium: '#3568A9',
+                    color_light: '#FFFAF8',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

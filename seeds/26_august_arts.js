@@ -11804,6 +11804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 591,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-dream-1910.jpeg',
+                    title: 'The Dream',
+                    artist: 'Henri Rousseau',
+                    year: '1910',
+                    rule: {
+                        "monday": [25, 29, 6, 22],
+                        "tuesday": [24, 27, 5, 21], 
+                        "wednesday": [22, 27, 4, 20], 
+                        "thursday": [22, 24, 3, 19], 
+                        "friday": [21, 23, 2, 18], 
+                        "saturday": [20, 23, 1, 17], 
+                        "sunday": [19, 22, 31, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 592,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/woman-by-a-goldfish-tank-1911.jpeg',
+                    title: 'Woman by a Goldfish Tank',
+                    artist: 'Lovis Corinth',
+                    year: '1911',
+                    rule: {
+                        "monday": [19, 22, 31, 16],
+                        "tuesday": [25, 29, 6, 22], 
+                        "wednesday": [24, 27, 5, 21], 
+                        "thursday": [22, 27, 4, 20], 
+                        "friday": [22, 24, 3, 19], 
+                        "saturday": [21, 23, 2, 18], 
+                        "sunday": [20, 23, 1, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 593,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/draft-for-a-book-cover-nikolai-evreinov-pro-scena-suo-1915.jpeg',
+                    title: 'Draft for a book cover - Nikolai Evreinov "Pro Scena Suo.."',
+                    artist: 'Serge Sudeikin',
+                    year: '1915',
+                    rule: {
+                        "monday": [20, 23, 1, 17],
+                        "tuesday": [19, 22, 31, 16],
+                        "wednesday": [25, 29, 6, 22], 
+                        "thursday": [24, 27, 5, 21], 
+                        "friday": [22, 27, 4, 20], 
+                        "saturday": [22, 24, 3, 19], 
+                        "sunday": [21, 23, 2, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 594,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/worpsweder-landscape.jpeg',
+                    title: 'Worpsweder Landscape',
+                    artist: 'Paula Modersohn-Becker',
+                    year: 'c.1908',
+                    rule: {
+                        "monday": [21, 23, 2, 18],
+                        "tuesday": [20, 23, 1, 17], 
+                        "wednesday": [19, 22, 31, 16],
+                        "thursday": [25, 29, 6, 22], 
+                        "friday": [24, 27, 5, 21], 
+                        "saturday": [22, 27, 4, 20], 
+                        "sunday": [22, 24, 3, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 595,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-port-1914.jpeg',
+                    title: 'The Port',
+                    artist: 'Félix Del Marle',
+                    year: '1914',
+                    rule: {
+                        "monday": [23, 25, 4, 20],
+                        "tuesday": [22, 24, 3, 19], 
+                        "wednesday": [21, 24, 2, 18],
+                        "thursday": [20, 23, 1, 17], 
+                        "friday": [26, 30, 7, 23], 
+                        "saturday": [25, 28, 6, 22], 
+                        "sunday": [23, 28, 5, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

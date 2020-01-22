@@ -1144,6 +1144,21 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 77,
+                    user_author_id: 1,
+                    theme: 'Kandinsky',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/PictureIIGnomus.jpeg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#180F12',
+                    color_medium: '#528E88',
+                    color_light: '#F7FDFB',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

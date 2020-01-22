@@ -1376,6 +1376,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#F3E5DA',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 99,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/monochromatic_sunflowers_by_linuron_d2y7kma-fullview.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#000103',
+                    color_medium: '#657C89',
+                    color_light: '#A0C0CD',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

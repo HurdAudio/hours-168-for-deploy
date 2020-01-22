@@ -7078,6 +7078,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 394,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3763747041/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://unseenworlds.bandcamp.com/album/il-bestiario',
+                    a_string: 'Il Bestiario by Maria Monti',
+                    rule: {
+                        "monday": [4, 11, 12, 13],
+                        "tuesday": [3, 9, 10, 12],  
+                        "wednesday": [2, 9, 10, 11],  
+                        "thursday": [1, 7, 8, 9],    
+                        "saturday": [31, 7, 8, 9]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 395,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=90072233/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://unseenworlds.bandcamp.com/album/three-solo-pieces',
+                    a_string: 'Three Solo Pieces by Lubomyr Melnyk',
+                    rule: {
+                        "monday": [31, 7, 8, 9],
+                        "tuesday": [4, 11, 12, 13], 
+                        "wednesday": [3, 9, 10, 12],  
+                        "thursday": [2, 9, 10, 11],  
+                        "saturday": [1, 7, 8, 9]     
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 396,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2968798269/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://unseenworlds.bandcamp.com/album/fifteen-saxophones',
+                    a_string: 'Fifteen Saxophones by Dickie Landry',
+                    rule: {
+                        "monday": [1, 7, 8, 9],
+                        "tuesday": [31, 7, 8, 9],   
+                        "wednesday": [4, 11, 12, 13], 
+                        "thursday": [3, 9, 10, 12],  
+                        "saturday": [2, 9, 10, 11]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6862,6 +6862,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 382,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=913173262/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://deenabdelwahed.bandcamp.com/album/dhakar',
+                    a_string: 'Dhakar by Deena Abdelwahed',
+                    rule: {
+                        "monday": [29, 4, 10, 18],
+                        "tuesday": [28, 3, 8, 17],  
+                        "wednesday": [27, 2, 8, 17],  
+                        "thursday": [25, 1, 7, 15],  
+                        "saturday": [25, 31, 6, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 383,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1535950305/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://green-house.bandcamp.com/album/six-songs-for-invisible-gardens',
+                    a_string: 'Six Songs for Invisible Gardens by Green-House',
+                    rule: {
+                        "monday": [25, 31, 6, 14],
+                        "tuesday": [29, 4, 10, 18], 
+                        "wednesday": [28, 3, 8, 17],  
+                        "thursday": [27, 2, 8, 17],  
+                        "saturday": [25, 1, 7, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 384,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1578420896/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://annavo.bandcamp.com/album/vo-i-call-upon-the-dead-to-rise-sp',
+                    a_string: 'VO // I call upon the dead to rise SP by Anna Vo',
+                    rule: {
+                        "monday": [25, 1, 7, 15],
+                        "tuesday": [25, 31, 6, 14], 
+                        "wednesday": [29, 4, 10, 18], 
+                        "thursday": [28, 3, 8, 17],  
+                        "saturday": [27, 2, 8, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

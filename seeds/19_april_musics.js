@@ -6754,6 +6754,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 376,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3138997252/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://earsandeyesrecords.bandcamp.com/album/feather',
+                    a_string: 'Feather by Bram Weijters &amp; Chad McCullough',
+                    rule: {
+                        "monday": [26, 3, 16, 21],
+                        "tuesday": [25, 3, 15, 20], 
+                        "wednesday": [24, 2, 13, 19], 
+                        "thursday": [23, 1, 13, 18], 
+                        "saturday":  [27, 5, 17, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 377,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=556415400/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jeremydanneman.bandcamp.com/album/honey-wine',
+                    a_string: 'Honey Wine by Jeremy Danneman',
+                    rule: {
+                        "monday": [27, 5, 17, 22],
+                        "tuesday": [26, 3, 16, 21], 
+                        "wednesday": [25, 3, 15, 20], 
+                        "thursday": [24, 2, 13, 19], 
+                        "saturday":  [23, 1, 13, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 378,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=811456488/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://kneebody.bandcamp.com/album/anti-hero',
+                    a_string: 'Anti-Hero by Kneebody',
+                    rule: {
+                        "monday": [24, 2, 14, 19],
+                        "tuesday": [28, 6, 18, 23], 
+                        "wednesday": [27, 4, 17, 22], 
+                        "thursday": [26, 4, 16, 21], 
+                        "saturday":  [25, 3, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

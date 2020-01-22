@@ -13204,6 +13204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 661,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1923-4.jpeg',
+                    title: 'Composition',
+                    artist: 'Janos Mattis-Teutsch',
+                    year: '1923',
+                    rule: {
+                        "monday": [17, 19, 20, 21],
+                        "tuesday": [5, 7, 30, 19],  
+                        "wednesday": [5, 7, 30, 19],  
+                        "thursday": [10, 8, 31, 3],  
+                        "friday": [10, 11, 2, 6],  
+                        "saturday": [13, 15, 16, 18],
+                        "sunday": [15, 17, 21, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 662,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1923-8.jpeg',
+                    title: 'Composition',
+                    artist: 'Janos Mattis-Teutsch',
+                    year: '1923',
+                    rule: {
+                        "monday": [15, 17, 21, 24],
+                        "tuesday": [17, 19, 20, 21],
+                        "wednesday": [5, 7, 30, 19],  
+                        "thursday": [5, 7, 30, 19],  
+                        "friday": [10, 8, 31, 3],  
+                        "saturday": [10, 11, 2, 6],  
+                        "sunday": [13, 15, 16, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 663,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/wooden-relief-1923.jpeg',
+                    title: 'Wooden Relief',
+                    artist: 'Lajos Kassak',
+                    year: '1923',
+                    rule: {
+                        "monday": [13, 15, 16, 18],
+                        "tuesday": [15, 17, 21, 24],
+                        "wednesday": [17, 19, 20, 21],
+                        "thursday": [5, 7, 30, 19],  
+                        "friday": [5, 7, 30, 19],  
+                        "saturday": [10, 8, 31, 3],  
+                        "sunday": [10, 11, 2, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 664,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/the-sculptor-1923.jpeg',
+                    title: 'The Sculptor',
+                    artist: 'Willi Baumeister',
+                    year: '1923',
+                    rule: {
+                        "monday": [10, 11, 2, 6],
+                        "tuesday": [13, 15, 16, 18],
+                        "wednesday": [15, 17, 21, 24],
+                        "thursday": [17, 19, 20, 21],
+                        "friday": [5, 7, 30, 19],  
+                        "saturday": [5, 7, 30, 19],  
+                        "sunday": [10, 8, 31, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 665,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/holzbild-23-1923.jpeg',
+                    title: 'Holzbild 23',
+                    artist: 'Erich Buchholz',
+                    year: '1923',
+                    rule: {
+                        "monday": [10, 8, 31, 3],
+                        "tuesday": [10, 11, 2, 6],  
+                        "wednesday": [13, 15, 16, 18],
+                        "thursday": [15, 17, 21, 24],
+                        "friday": [17, 19, 20, 21],
+                        "saturday": [5, 7, 30, 19],  
+                        "sunday": [5, 7, 30, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

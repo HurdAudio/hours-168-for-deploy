@@ -6970,6 +6970,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3305864446/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lojii.bandcamp.com/album/lo-behold-2',
+                    a_string: 'lo&amp;behold by lojii',
+                    rule: {
+                        "monday": [16, 10, 12, 18],
+                        "tuesday": [17, 11, 13, 19],
+                        "wednesday": [29, 4, 6, 10],  
+                        "thursday": [3, 6, 8, 10],   
+                        "saturday": [14, 8, 10, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=948571856/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://madlib.bandcamp.com/album/the-professionals',
+                    a_string: 'The Professionals by The Professionals',
+                    rule: {
+                        "monday": [14, 8, 10, 12],
+                        "tuesday": [16, 10, 12, 18],
+                        "wednesday": [17, 11, 13, 19],
+                        "thursday": [29, 4, 6, 10],  
+                        "saturday": [3, 6, 8, 10]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=62357769/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://dalekipecac.bandcamp.com/album/from-filthy-tongue-of-gods-and-griots',
+                    a_string: 'From Filthy Tongue Of Gods And Griots by Dälek',
+                    rule: {
+                        "monday": [3, 6, 8, 10],
+                        "tuesday": [14, 8, 10, 12], 
+                        "wednesday": [16, 10, 12, 18],
+                        "thursday": [17, 11, 13, 19],
+                        "saturday": [29, 4, 6, 10]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

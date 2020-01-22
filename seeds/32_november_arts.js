@@ -11204,6 +11204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 561,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-2008__1.jpeg',
+                    title: 'Untitled',
+                    artist: 'Wade Guyton',
+                    year: '2008',
+                    rule: {
+                        "monday": [26, 29, 6, 11],
+                        "tuesday": [24, 29, 5, 10], 
+                        "wednesday":[23, 28, 4, 9],  
+                        "thursday":  [23, 28, 4, 11], 
+                        "friday": [29, 4, 10, 15], 
+                        "saturday": [28, 30, 8, 4],  
+                        "sunday": [27, 1, 8, 11]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 562,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/67892047-396330967903626-5995221939407290368-n-1.jpeg',
+                    title: 'In the morning',
+                    artist: 'Alfred Freddy Krupa',
+                    year: '2008',
+                    rule: {
+                        "monday": [27, 1, 8, 11],
+                        "tuesday": [26, 29, 6, 11], 
+                        "wednesday":[24, 29, 5, 10], 
+                        "thursday":  [23, 28, 4, 9],  
+                        "friday": [23, 28, 4, 11], 
+                        "saturday": [29, 4, 10, 15], 
+                        "sunday": [28, 30, 8, 4] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 563,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/impression-2009.jpeg',
+                    title: 'Impression',
+                    artist: 'Genevieve Asse',
+                    year: '2009',
+                    rule: {
+                        "monday": [28, 30, 8, 4],
+                        "tuesday": [27, 1, 8, 11],  
+                        "wednesday":[26, 29, 6, 11], 
+                        "thursday": [24, 29, 5, 10], 
+                        "friday": [23, 28, 4, 9],  
+                        "saturday": [23, 28, 4, 11], 
+                        "sunday": [29, 4, 10, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 564,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/weiss-und-schwarz-3-2009.jpeg',
+                    title: 'Weiss und Schwarz-3',
+                    artist: 'Imi Knoebel',
+                    year: '2009',
+                    rule: {
+                        "monday": [29, 4, 10, 15],
+                        "tuesday": [28, 30, 8, 4],  
+                        "wednesday":[27, 1, 8, 11],  
+                        "thursday": [26, 29, 6, 11], 
+                        "friday": [24, 29, 5, 10], 
+                        "saturday": [23, 28, 4, 9],  
+                        "sunday": [23, 28, 4, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 565,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-2009_jua.jpeg',
+                    title: 'Untitled',
+                    artist: 'Joachim Bandau',
+                    year: '2009',
+                    rule: {
+                        "monday": [23, 28, 4, 11],
+                        "tuesday": [29, 4, 10, 15], 
+                        "wednesday":[28, 30, 8, 4],  
+                        "thursday": [27, 1, 8, 11],  
+                        "friday": [26, 29, 6, 11], 
+                        "saturday": [24, 29, 5, 10], 
+                        "sunday": [23, 28, 4, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

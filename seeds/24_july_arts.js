@@ -12004,6 +12004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 601,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/running-dogs-1853.jpeg',
+                    title: 'Running dogs',
+                    artist: 'Constant Troyon',
+                    year: '1853',
+                    rule: {
+                        "monday": [23, 3, 15, 26],
+                        "tuesday": [23, 3, 14, 15], 
+                        "wednesday": [22, 2, 12, 14], 
+                        "thursday": [19, 30, 21, 22],
+                        "friday": [20, 31, 22, 23],
+                        "saturday": [25, 3, 16, 27], 
+                        "sunday": [25, 3, 16, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 602,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/emile-prisse-avennes-9.jpeg',
+                    title: 'Peinture : indigène du pays de pount (Thèbes : El-Assacif - XVIIe dynastie)',
+                    artist: 'Émile Prisse d\'Avennes',
+                    year: '1878',
+                    rule: {
+                        "monday": [26, 4, 17, 28],
+                        "tuesday": [24, 4, 16, 27], 
+                        "wednesday": [24, 4, 15, 16], 
+                        "thursday": [23, 3, 13, 15],
+                        "friday": [20, 31, 22, 23],
+                        "saturday": [21, 1, 23, 24], 
+                        "sunday": [26, 4, 17, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 603,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/girls-on-the-balcony-1860.jpeg',
+                    title: 'Girls on the Balcony',
+                    artist: 'Constantin Guys',
+                    year: '1860',
+                    rule: {
+                        "monday": [26, 4, 17, 28],
+                        "tuesday": [26, 4, 17, 28], 
+                        "wednesday": [24, 4, 16, 27], 
+                        "thursday": [24, 4, 15, 16], 
+                        "friday": [23, 3, 13, 15], 
+                        "saturday": [20, 31, 22, 23],
+                        "sunday": [21, 1, 23, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 604,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/herodias-with-the-head-of-st-john-the-baptist-paul-delaroche-wallraf-richartz-museum-cologne-germany.jpeg',
+                    title: 'Herodias',
+                    artist: 'Paul Delaroche',
+                    year: '1843',
+                    rule: {
+                        "monday": [21, 1, 23, 24],
+                        "tuesday": [26, 4, 17, 28], 
+                        "wednesday": [26, 4, 17, 28], 
+                        "thursday": [24, 4, 16, 27], 
+                        "friday": [24, 4, 15, 16], 
+                        "saturday": [23, 3, 13, 15], 
+                        "sunday": [20, 31, 22, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 605,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/massacre-of-the-innocents-cogniet.jpeg',
+                    title: 'Massacre of the Innocents',
+                    artist: 'Léon Cogniet',
+                    year: '?',
+                    rule: {
+                        "monday": [20, 31, 22, 23],
+                        "tuesday": [21, 1, 23, 24], 
+                        "wednesday": [26, 4, 17, 28], 
+                        "thursday": [26, 4, 17, 28], 
+                        "friday": [24, 4, 16, 27], 
+                        "saturday": [24, 4, 15, 16], 
+                        "sunday": [23, 3, 13, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6106,6 +6106,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 340,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4055226785/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://discontinuousinnovationinc.bandcamp.com/album/6-vitamins',
+                    a_string: '6 Vitamins by Wonder Bread',
+                    rule: {
+                        "monday": [23, 2, 13, 15],
+                        "tuesday": [22, 1, 11, 14], 
+                        "wednesday": [26, 5, 15, 18], 
+                        "thursday": [25, 4, 14, 17], 
+                        "saturday": [24, 4, 13, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 341,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=908391000/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://d4mtlabsinc.bandcamp.com/album/volume-3',
+                    a_string: 'VOLUME 3 by KALEIDOSCOPE',
+                    rule: {
+                        "monday": [24, 4, 13, 16],
+                        "tuesday": [23, 2, 13, 15], 
+                        "wednesday": [22, 1, 11, 14], 
+                        "thursday": [26, 5, 15, 18], 
+                        "saturday": [25, 4, 14, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 342,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1651629848/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lavidaesunmus.bandcamp.com/album/wild-life-7',
+                    a_string: 'Wild Life 7&quot; by Anxiety',
+                    rule: {
+                        "monday": [25, 4, 14, 17],
+                        "tuesday": [24, 4, 13, 16], 
+                        "wednesday": [23, 2, 13, 15], 
+                        "thursday": [22, 1, 11, 14], 
+                        "saturday": [26, 5, 15, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

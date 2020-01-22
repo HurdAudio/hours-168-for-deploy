@@ -12404,6 +12404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 621,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/nuremberg-advocates-1945-1.jpeg',
+                    title: 'Nuremberg. Advocates.',
+                    artist: 'Kukryniksy',
+                    year: '1945',
+                    rule: {
+                        "monday": [20, 31, 10, 19],
+                        "tuesday": [18, 28, 7, 15], 
+                        "wednesday": [16, 25, 6, 15], 
+                        "thursday": [26, 7, 17, 25], 
+                        "friday": [26, 6, 15, 25], 
+                        "saturday": [24, 3, 11, 13], 
+                        "sunday": [21, 1, 11, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 622,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-loner.jpeg',
+                    title: 'The loner',
+                    artist: 'Kukryniksy',
+                    year: 'c.1945',
+                    rule: {
+                        "monday": [21, 1, 11, 31],
+                        "tuesday": [20, 31, 10, 19],
+                        "wednesday": [18, 28, 7, 15], 
+                        "thursday": [16, 25, 6, 15], 
+                        "friday": [26, 7, 17, 25], 
+                        "saturday": [26, 6, 15, 25], 
+                        "sunday": [24, 3, 11, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 623,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1945.jpeg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '1945',
+                    rule: {
+                        "monday": [25, 4, 12, 14],
+                        "tuesday": [22, 2, 12, 1],
+                        "wednesday": [21, 1, 11, 20], 
+                        "thursday": [19, 29, 8, 16], 
+                        "friday": [17, 26, 7, 16], 
+                        "saturday": [27, 8, 18, 26], 
+                        "sunday": [27, 7, 16, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 624,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1945-1.jpeg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '1945',
+                    rule: {
+                        "monday": [27, 7, 16, 26],
+                        "tuesday": [25, 4, 12, 14], 
+                        "wednesday": [22, 2, 12, 1],  
+                        "thursday": [21, 1, 11, 20], 
+                        "friday": [19, 29, 8, 16], 
+                        "saturday": [17, 26, 7, 16], 
+                        "sunday": [27, 8, 18, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 625,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1945-2.jpeg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '1945',
+                    rule: {
+                        "monday": [27, 8, 18, 26],
+                        "tuesday": [27, 7, 16, 26], 
+                        "wednesday": [25, 4, 12, 14], 
+                        "thursday": [22, 2, 12, 1],  
+                        "friday": [21, 1, 11, 20], 
+                        "saturday": [19, 29, 8, 16], 
+                        "sunday": [17, 26, 7, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

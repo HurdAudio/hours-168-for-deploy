@@ -11404,6 +11404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 571,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_nostalgy.jpg',
+                    title: '"Nostalgy" movie (film) poster, directed by Andrei Tarkovsky',
+                    artist: 'I. Maistrovskii',
+                    year: '?',
+                    rule: {
+                        "monday": [20, 31, 10, 15],
+                        "tuesday": [29, 30, 10, 14],
+                        "wednesday": [25, 5, 16, 20], 
+                        "thursday": [24, 4, 15, 19], 
+                        "friday": [23, 3, 14, 18], 
+                        "saturday": [22, 2, 14, 17], 
+                        "sunday": [21, 1, 12, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 572,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cinsovpost_00029.jpg',
+                    title: '"Forgotten Melody for a Flute" movie (film) poster, directed by Eldar Ryazanov',
+                    artist: 'Yu. Boxer',
+                    year: '1987',
+                    rule: {
+                        "monday": [21, 1, 12, 16],
+                        "tuesday": [20, 31, 10, 15],
+                        "wednesday": [29, 30, 10, 14],
+                        "thursday": [25, 5, 16, 20], 
+                        "friday": [24, 4, 15, 19], 
+                        "saturday": [23, 3, 14, 18], 
+                        "sunday": [22, 2, 14, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 573,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cinsovpost_00028.jpg',
+                    title: 'The poster for the movie "To Kill a Dragon" directed by Mark Zakharov',
+                    artist: '?',
+                    year: '1988',
+                    rule: {
+                        "monday": [22, 2, 14, 17],
+                        "tuesday": [21, 1, 12, 16], 
+                        "wednesday": [20, 31, 10, 15],
+                        "thursday": [29, 30, 10, 14],
+                        "friday": [25, 5, 16, 20], 
+                        "saturday": [24, 4, 15, 19], 
+                        "sunday": [23, 3, 14, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 574,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cinsovpost_00025.jpg',
+                    title: '"The Dawns Here Are Quiet" movie (film) poster, directed by S. Rostovkii',
+                    artist: 'E. Grebenshchikov',
+                    year: '1980',
+                    rule: {
+                        "monday": [24, 4, 15, 19],
+                        "tuesday": [23, 3, 15, 18], 
+                        "wednesday": [22, 2, 13, 17],
+                        "thursday": [21, 1, 11, 16],
+                        "friday": [30, 31, 11, 15], 
+                        "saturday": [26, 6, 17, 21], 
+                        "sunday": [25, 5, 16, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 575,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cinsovpost_00024.jpg',
+                    title: '"Subject" movie (film) poster, directed by G. Panfilov',
+                    artist: 'L. Bogdanov',
+                    year: '1986',
+                    rule: {
+                        "monday": [25, 5, 16, 20],
+                        "tuesday": [24, 4, 15, 19], 
+                        "wednesday": [23, 3, 15, 18], 
+                        "thursday": [22, 2, 13, 17], 
+                        "friday": [21, 1, 11, 16], 
+                        "saturday": [30, 31, 11, 15],
+                        "sunday": [26, 6, 17, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

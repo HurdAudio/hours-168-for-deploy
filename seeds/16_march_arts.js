@@ -12804,6 +12804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 641,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/bridges-45x65.jpeg',
+                    title: 'Bridges',
+                    artist: 'Rochelle Blumenfeld',
+                    year: '2012',
+                    rule: {
+                        "monday": [24, 3, 12, 21],
+                        "tuesday": [30, 8, 18, 26], 
+                        "wednesday": [29, 8, 16, 26], 
+                        "thursday": [27, 7, 15, 25], 
+                        "friday": [27, 6, 14, 24], 
+                        "saturday": [26, 6, 13, 23], 
+                        "sunday": [25, 4, 12, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 642,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-1970-6.jpeg',
+                    title: 'Untitled',
+                    artist: 'Nasreen Mohamedi',
+                    year: '1970',
+                    rule: {
+                        "monday": [25, 4, 12, 22],
+                        "tuesday": [24, 3, 12, 21], 
+                        "wednesday": [30, 8, 18, 26], 
+                        "thursday": [29, 8, 16, 26], 
+                        "friday": [27, 7, 15, 25], 
+                        "saturday": [27, 6, 14, 24], 
+                        "sunday": [26, 6, 13, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 643,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/black-1973.jpeg',
+                    title: 'Black',
+                    artist: 'Pat Steir',
+                    year: '1973',
+                    rule: {
+                        "monday": [26, 6, 13, 23],
+                        "tuesday": [25, 4, 12, 22], 
+                        "wednesday": [24, 3, 12, 21], 
+                        "thursday": [30, 8, 18, 26], 
+                        "friday": [29, 8, 16, 26], 
+                        "saturday": [27, 7, 15, 25], 
+                        "sunday": [27, 6, 14, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 644,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/celia-birtwell-and-some-of-her-heroes-1963.jpeg',
+                    title: 'Celia Birtwell and Some of her Heroes',
+                    artist: 'Pauline Boty',
+                    year: '1963',
+                    rule: {
+                        "monday": [28, 7, 15, 25],
+                        "tuesday": [27, 7, 14, 24], 
+                        "wednesday": [26, 5, 13, 23], 
+                        "thursday": [25, 4, 13, 22], 
+                        "friday": [31, 9, 19, 27], 
+                        "saturday": [30, 9, 17, 27], 
+                        "sunday": [28, 8, 16, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 645,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-ocean-1972.jpeg',
+                    title: 'Untitled (Ocean)',
+                    artist: 'Vija Celmins',
+                    year: '1972',
+                    rule: {
+                        "monday": [28, 8, 16, 26],
+                        "tuesday": [28, 7, 15, 25], 
+                        "wednesday": [27, 7, 14, 24], 
+                        "thursday": [26, 5, 13, 23], 
+                        "friday": [25, 4, 13, 22], 
+                        "saturday": [31, 9, 19, 27], 
+                        "sunday": [30, 9, 17, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
