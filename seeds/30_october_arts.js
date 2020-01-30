@@ -11504,6 +11504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 576,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_golden_age.jpg',
+                    title: 'The Golden Age or The Age of Gold',
+                    artist: 'O.Savostyuk',
+                    year: '1982',
+                    rule: {
+                        "monday": [26, 6, 17, 21],
+                        "tuesday": [25, 5, 16, 20], 
+                        "wednesday": [24, 4, 15, 19], 
+                        "thursday": [23, 3, 15, 18], 
+                        "friday": [22, 2, 13, 17], 
+                        "saturday": [21, 1, 11, 16], 
+                        "sunday": [30, 31, 11, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 577,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_tulip.jpg',
+                    title: 'One-night stand',
+                    artist: 'A.Braz',
+                    year: '1986',
+                    rule: {
+                        "monday": [30, 31, 11, 15],
+                        "tuesday": [26, 6, 17, 21], 
+                        "wednesday": [25, 5, 16, 20], 
+                        "thursday": [24, 4, 15, 19], 
+                        "friday": [23, 3, 15, 18], 
+                        "saturday": [22, 2, 13, 17], 
+                        "sunday": [21, 1, 11, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 578,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_our_request.jpg',
+                    title: 'Our term (requirement) - down with foul language!',
+                    artist: 'K.Ivanov',
+                    year: '1981',
+                    rule: {
+                        "monday": [21, 1, 11, 16],
+                        "tuesday": [30, 31, 11, 15],
+                        "wednesday": [26, 6, 17, 21], 
+                        "thursday": [25, 5, 16, 20], 
+                        "friday": [24, 4, 15, 19], 
+                        "saturday": [23, 3, 15, 18], 
+                        "sunday": [22, 2, 13, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 579,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_sovpolpost_00116.jpg',
+                    title: '1929. Collectivization',
+                    artist: '?',
+                    year: '1989',
+                    rule: {
+                        "monday": [22, 2, 13, 17],
+                        "tuesday": [21, 1, 11, 16], 
+                        "wednesday": [30, 31, 11, 15],
+                        "thursday": [26, 6, 17, 21], 
+                        "friday": [25, 5, 16, 20], 
+                        "saturday": [24, 4, 15, 19], 
+                        "sunday": [23, 3, 15, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 580,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_sovpolpost_00115.jpg',
+                    title: 'Thus let\'s come bravely ahead...',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [23, 3, 15, 18],
+                        "tuesday": [22, 2, 13, 17], 
+                        "wednesday": [21, 1, 11, 16], 
+                        "thursday": [30, 31, 11, 15],
+                        "friday": [26, 6, 17, 21], 
+                        "saturday": [25, 5, 16, 20], 
+                        "sunday": [24, 4, 15, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

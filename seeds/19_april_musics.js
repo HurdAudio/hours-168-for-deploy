@@ -6768,7 +6768,7 @@ exports.seed = function (knex, Promise) {
                         "tuesday": [25, 3, 15, 20], 
                         "wednesday": [24, 2, 13, 19], 
                         "thursday": [23, 1, 13, 18], 
-                        "saturday":  [27, 5, 17, 22]  
+                        "saturday": [27, 5, 17, 22]  
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -6786,7 +6786,7 @@ exports.seed = function (knex, Promise) {
                         "tuesday": [26, 3, 16, 21], 
                         "wednesday": [25, 3, 15, 20], 
                         "thursday": [24, 2, 13, 19], 
-                        "saturday":  [23, 1, 13, 18]  
+                        "saturday": [23, 1, 13, 18]  
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -6804,7 +6804,61 @@ exports.seed = function (knex, Promise) {
                         "tuesday": [28, 6, 18, 23], 
                         "wednesday": [27, 4, 17, 22], 
                         "thursday": [26, 4, 16, 21], 
-                        "saturday":  [25, 3, 14, 20]  
+                        "saturday": [25, 3, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 379,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1047905789/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://milesokazaki.bandcamp.com/album/trickster',
+                    a_string: 'Trickster by Miles Okazaki',
+                    rule: {
+                        "monday": [25, 3, 14, 20],
+                        "tuesday": [24, 2, 14, 19], 
+                        "wednesday": [28, 6, 18, 23], 
+                        "thursday": [27, 4, 17, 22], 
+                        "saturday": [26, 4, 16, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 380,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2893982020/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://eivindopsvik.bandcamp.com/album/overseas-v',
+                    a_string: 'Overseas V by Eivind Opsvik',
+                    rule: {
+                        "monday": [26, 4, 16, 21],
+                        "tuesday": [25, 3, 14, 20], 
+                        "wednesday": [24, 2, 14, 19], 
+                        "thursday": [28, 6, 18, 23], 
+                        "saturday": [27, 4, 17, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 381,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2883764722/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://marcellobenetti.bandcamp.com/album/il-vizio',
+                    a_string: 'Il Vizio! by Marcello Benetti',
+                    rule: {
+                        "monday": [27, 4, 17, 22],
+                        "tuesday": [26, 4, 16, 21], 
+                        "wednesday": [25, 3, 14, 20], 
+                        "thursday": [24, 2, 14, 19], 
+                        "saturday": [28, 6, 18, 23]  
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

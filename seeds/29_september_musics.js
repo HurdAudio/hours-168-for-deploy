@@ -6268,6 +6268,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 349,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=460607198/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jackotheclock.bandcamp.com/album/witness',
+                    a_string: 'Witness by Jack O&#39; The Clock',
+                    rule: {
+                        "monday": [22, 11, 19, 13],
+                        "tuesday": [20, 10, 18, 12],
+                        "wednesday": [24, 14, 22, 16],
+                        "thursday": [23, 13, 21, 15],
+                        "saturday": [22, 12, 20, 13] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 350,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=130980545/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://progriver.bandcamp.com/album/surface-tension',
+                    a_string: 'Surface Tension by Aleph',
+                    rule: {
+                        "monday": [23, 13, 21, 14],
+                        "tuesday": [23, 12, 20, 14],
+                        "wednesday": [21, 11, 19, 13],
+                        "thursday": [25, 15, 23, 17],
+                        "saturday": [24, 14, 22, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 351,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=64953826/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://horselords.bandcamp.com/album/the-common-task',
+                    a_string: 'The Common Task by Horse Lords',
+                    rule: {
+                        "monday": [24, 14, 22, 16],
+                        "tuesday": [23, 13, 21, 14],
+                        "wednesday": [23, 12, 20, 14],
+                        "thursday": [21, 11, 19, 13],
+                        "saturday": [25, 15, 23, 17] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

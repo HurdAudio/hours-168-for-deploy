@@ -6160,6 +6160,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 343,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2681330709/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true',
+                    href_string: 'http://mutualjerk.bandcamp.com/album/7',
+                    a_string: '7&quot; by Mutual Jerk',
+                    rule: {
+                        "monday": [27, 6, 16, 19],
+                        "tuesday": [26, 5, 15, 18], 
+                        "wednesday": [25, 5, 14, 17], 
+                        "thursday": [24, 3, 14, 16], 
+                        "saturday": [23, 2, 12, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 344,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1405713725/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://derangedrecords.bandcamp.com/album/paper-thin-community',
+                    a_string: 'Paper-Thin Community by Leisure World',
+                    rule: {
+                        "monday": [23, 2, 12, 15],
+                        "tuesday": [27, 6, 16, 19], 
+                        "wednesday": [26, 5, 15, 18], 
+                        "thursday": [25, 5, 14, 17], 
+                        "saturday": [24, 3, 14, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 345,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2647418784/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://digitalregress.bandcamp.com/album/ep-ii-7',
+                    a_string: 'EP II 7&quot; by Marbled Eye',
+                    rule: {
+                        "monday": [24, 3, 14, 16],
+                        "tuesday": [23, 2, 12, 15], 
+                        "wednesday": [27, 6, 16, 19], 
+                        "thursday": [26, 5, 15, 18], 
+                        "saturday": [25, 5, 14, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

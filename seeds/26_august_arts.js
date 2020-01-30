@@ -11904,6 +11904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 596,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/a-birch-grove-1901.jpeg',
+                    title: 'A Birch Grove',
+                    artist: 'Arkhip Kuindzhi',
+                    year: '1901',
+                    rule: {
+                        "monday": [23, 28, 5, 21],
+                        "tuesday": [23, 25, 4, 20], 
+                        "wednesday": [22, 24, 3, 19], 
+                        "thursday": [21, 24, 2, 18], 
+                        "friday": [20, 23, 1, 17], 
+                        "saturday": [26, 30, 7, 23], 
+                        "sunday": [25, 28, 6, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 597,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/view-on-the-cote-d-azur-menton-1916.jpeg',
+                    title: 'View on the Cote d\'Azur, Menton',
+                    artist: 'Roger Fry',
+                    year: '1916',
+                    rule: {
+                        "monday": [25, 28, 6, 22],
+                        "tuesday": [23, 28, 5, 21], 
+                        "wednesday": [23, 25, 4, 20], 
+                        "thursday": [22, 24, 3, 19], 
+                        "friday": [21, 24, 2, 18], 
+                        "saturday": [20, 23, 1, 17], 
+                        "sunday": [26, 30, 7, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 598,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/god-in-collaboration-with-elsa-von-freytag-loringhoven-1917.jpeg',
+                    title: 'God (in collaboration with Elsa von Freytag-Loringhoven)',
+                    artist: 'Morton Shamberg',
+                    year: '1917',
+                    rule: {
+                        "monday": [26, 30, 7, 23],
+                        "tuesday": [25, 28, 6, 22], 
+                        "wednesday": [23, 28, 5, 21], 
+                        "thursday": [23, 25, 4, 20], 
+                        "friday": [22, 24, 3, 19], 
+                        "saturday": [21, 24, 2, 18], 
+                        "sunday": [20, 23, 1, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 599,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/notre-dame-in-winter-1902.jpeg',
+                    title: 'Notre-Dame in Winter',
+                    artist: 'Albert Marquet',
+                    year: '1902',
+                    rule: {
+                        "monday": [21, 24, 2, 18],
+                        "tuesday": [27, 31, 8, 24], 
+                        "wednesday": [26, 29, 7, 23], 
+                        "thursday": [24, 29, 6, 22], 
+                        "friday": [24, 26, 5, 21], 
+                        "saturday": [23, 25, 4, 20], 
+                        "sunday": [22, 25, 3, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 600,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/homem-do-mar-le-a-1905.jpeg',
+                    title: 'Homem do Mar (Leça)',
+                    artist: 'Antonio Carneiro',
+                    year: '1905',
+                    rule: {
+                        "monday": [22, 25, 3, 19],
+                        "tuesday": [21, 24, 2, 18], 
+                        "wednesday": [27, 31, 8, 24], 
+                        "thursday": [26, 29, 7, 23], 
+                        "friday": [24, 29, 6, 22], 
+                        "saturday": [24, 26, 5, 21], 
+                        "sunday": [23, 25, 4, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -1502,6 +1502,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#D2FCFF',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 108,
+                    user_id: 1,
+                    theme: 'Glass',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/glass_by_trgiant_dcxnklz-pre.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#0E1B2E',
+                    color_medium: '#3D5152',
+                    color_light: '#55696A',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

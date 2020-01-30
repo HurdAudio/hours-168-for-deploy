@@ -11599,6 +11599,34 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 746,
+                    user_id: 1,
+                    name: 'William Lloyd Garrison (abolitionist/journalist/suffragist/social reformer) born 1805',
+                    color: '#403822',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/William_Lloyd_Garrison-1.jpg',
+                    day_of: new Date('1805-12-10  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 747,
+                    user_id: 1,
+                    name: 'Theodore Dwight Weld (abolitionist/writer/editor/speaker/organizer) born 1803',
+                    color: '#FFFFFF',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Theodore-Dwight-Weld.jpg',
+                    day_of: new Date('1803-11-23  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

@@ -11704,6 +11704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 586,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/ecriture-no-070201-2007.jpeg',
+                    title: 'Ecriture No. 070201',
+                    artist: 'Park Seo-Bo',
+                    year: '2007',
+                    rule: {
+                        "monday": [10, 17, 14, 22],
+                        "tuesday": [18, 25, 13, 20],
+                        "wednesday": [25, 1, 19, 27], 
+                        "thursday": [24, 29, 18, 26],
+                        "friday": [22, 29, 17, 25],
+                        "saturday": [22, 28, 16, 24],
+                        "sunday": [11, 27, 15, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 587,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/owl-1973.jpeg',
+                    title: 'Owl',
+                    artist: 'Huang Yongyu',
+                    year: '1973',
+                    rule: {
+                        "monday": [11, 27, 15, 24],
+                        "tuesday": [10, 17, 14, 22],
+                        "wednesday": [18, 25, 13, 20],
+                        "thursday": [25, 1, 19, 27], 
+                        "friday": [24, 29, 18, 26],
+                        "saturday": [22, 29, 17, 25],
+                        "sunday": [22, 28, 16, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 588,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/hunter-1976.jpeg',
+                    title: 'Hunter',
+                    artist: 'Peter Phillips',
+                    year: '1976',
+                    rule: {
+                        "monday": [23, 29, 17, 25],
+                        "tuesday": [12, 28, 16, 25],
+                        "wednesday": [11, 18, 15, 23],
+                        "thursday": [19, 26, 14, 21], 
+                        "friday": [26, 2, 20, 28],
+                        "saturday": [25, 30, 19, 27],
+                        "sunday": [23, 30, 18, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 589,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/sf-spring-sweet-rain-1974.jpeg',
+                    title: 'SF Spring (Sweet Rain)',
+                    artist: 'Leo Valledor',
+                    year: '1974',
+                    rule: {
+                        "monday": [23, 30, 18, 26],
+                        "tuesday": [23, 29, 17, 25],
+                        "wednesday": [12, 28, 16, 25],
+                        "thursday": [11, 18, 15, 23],
+                        "friday": [19, 26, 14, 21],
+                        "saturday": [26, 2, 20, 28], 
+                        "sunday": [25, 30, 19, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 590,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/phase-no-10-1968.jpeg',
+                    title: 'Phase No. 10',
+                    artist: 'Nobuo Sekine',
+                    year: '1968',
+                    rule: {
+                        "monday": [25, 30, 19, 27],
+                        "tuesday": [23, 30, 18, 26],
+                        "wednesday": [23, 29, 17, 25],
+                        "thursday": [12, 28, 16, 25],
+                        "friday": [11, 18, 15, 23],
+                        "saturday": [19, 26, 14, 21],
+                        "sunday": [26, 2, 20, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

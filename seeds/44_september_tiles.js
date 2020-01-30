@@ -1418,6 +1418,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#E9E9E9',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 102,
+                    user_id: 1,
+                    theme: 'Leather',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/brown_leather-wallpaper-1440x900.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#100F0D',
+                    color_medium: '#60432E',
+                    color_light: '#8C8A81',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -12904,6 +12904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 646,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/variability-of-similar-forms-1970.jpeg',
+                    title: 'Variability of Similar Forms',
+                    artist: 'Nancy Graves',
+                    year: '1970',
+                    rule: {
+                        "monday": [30, 9, 17, 27],
+                        "tuesday": [28, 8, 16, 26], 
+                        "wednesday": [28, 7, 15, 25], 
+                        "thursday": [27, 7, 14, 24], 
+                        "friday": [26, 5, 13, 23], 
+                        "saturday": [25, 4, 13, 22], 
+                        "sunday": [31, 9, 19, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 647,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/flesh-art-1974.jpeg',
+                    title: 'Flesh Art',
+                    artist: 'Joan Snyder',
+                    year: '1974',
+                    rule: {
+                        "monday": [31, 9, 19, 27],
+                        "tuesday": [30, 9, 17, 27], 
+                        "wednesday": [28, 8, 16, 26], 
+                        "thursday": [28, 7, 15, 25], 
+                        "friday": [27, 7, 14, 24], 
+                        "saturday": [26, 5, 13, 23], 
+                        "sunday": [25, 4, 13, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 648,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/strong-silent-type-1.jpeg',
+                    title: 'Strong Silent Type',
+                    artist: 'Harriet Bart',
+                    year: '2016',
+                    rule: {
+                        "monday": [25, 4, 13, 22],
+                        "tuesday": [31, 9, 19, 27], 
+                        "wednesday": [30, 9, 17, 27], 
+                        "thursday": [28, 8, 16, 26], 
+                        "friday": [28, 7, 15, 25], 
+                        "saturday": [27, 7, 14, 24], 
+                        "sunday": [26, 5, 13, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 649,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/iii-15-din-14-1989.jpeg',
+                    title: 'III 15 Din 14',
+                    artist: 'Hanne Darboven',
+                    year: '1989',
+                    rule: {
+                        "monday": [26, 5, 13, 23],
+                        "tuesday": [25, 4, 13, 22], 
+                        "wednesday": [31, 9, 19, 27], 
+                        "thursday": [30, 9, 17, 27], 
+                        "friday": [28, 8, 16, 26], 
+                        "saturday": [28, 7, 15, 25], 
+                        "sunday": [27, 7, 14, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 650,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/nudez-dos-sentidos-1987.jpeg',
+                    title: 'Nudez Dos Sentidos',
+                    artist: 'Graca Morais',
+                    year: '1987',
+                    rule: {
+                        "monday": [27, 7, 14, 24],
+                        "tuesday": [26, 5, 13, 23], 
+                        "wednesday": [25, 4, 13, 22], 
+                        "thursday": [31, 9, 19, 27], 
+                        "friday": [30, 9, 17, 27], 
+                        "saturday": [28, 8, 16, 26], 
+                        "sunday": [28, 7, 15, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -13104,6 +13104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 656,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/14_gntt.jpg',
+                    title: 'Solar Abstract',
+                    artist: 'Wilda Gerideau-Squires',
+                    year: '?',
+                    rule: {
+                        "monday": [15, 25, 2, 8],
+                        "tuesday": [17, 25, 4, 14], 
+                        "wednesday": [17, 27, 23, 13],
+                        "thursday": [7, 15, 23, 2],  
+                        "friday": [8, 17, 25, 4],  
+                        "saturday": [14, 19, 25, 6], 
+                        "sunday": [13, 21, 29, 8]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 657,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/duplan-sapphire.jpg',
+                    title: 'Saphire and the Slave Girl',
+                    artist: 'Leah Gilliam',
+                    year: '1995',
+                    rule: {
+                        "monday": [13, 21, 29, 8],
+                        "tuesday": [15, 25, 2, 8],  
+                        "wednesday": [17, 25, 4, 14], 
+                        "thursday": [17, 27, 23, 13],
+                        "friday": [7, 15, 23, 2],  
+                        "saturday": [8, 17, 25, 4],  
+                        "sunday": [14, 19, 25, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 658,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Carousel-Walker.jpg',
+                    title: 'Carousel',
+                    artist: 'Sam Gilliam',
+                    year: '1969',
+                    rule: {
+                        "monday": [15, 20, 26, 7],
+                        "tuesday": [14, 22, 1, 9],  
+                        "wednesday": [16, 26, 3, 9], 
+                        "thursday": [18, 26, 5, 15],
+                        "friday": [18, 28, 24, 14],  
+                        "saturday": [8, 16, 24, 3],  
+                        "sunday": [9, 18, 26, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 659,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/H1012-L72155635.jpg',
+                    title: 'Feisty Phantom Fedora',
+                    artist: 'Russell T. Gordon',
+                    year: '?',
+                    rule: {
+                        "monday": [9, 18, 26, 5],
+                        "tuesday": [15, 20, 26, 7], 
+                        "wednesday": [14, 22, 1, 9],  
+                        "thursday": [16, 26, 3, 9],  
+                        "friday": [18, 26, 5, 15], 
+                        "saturday": [18, 28, 24, 14],
+                        "sunday": [8, 16, 24, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 660,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/portrait_uncanny.jpg',
+                    title: 'The Black Panther',
+                    artist: 'Billy Graham',
+                    year: '?',
+                    rule: {
+                        "monday": [8, 16, 24, 3],
+                        "tuesday": [9, 18, 26, 5],  
+                        "wednesday": [15, 20, 26, 7], 
+                        "thursday": [14, 22, 1, 9],  
+                        "friday": [16, 26, 3, 9],  
+                        "saturday": [18, 26, 5, 15], 
+                        "sunday": [18, 28, 24, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

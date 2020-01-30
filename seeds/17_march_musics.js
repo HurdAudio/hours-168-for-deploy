@@ -6916,6 +6916,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 385,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4245657599/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://louisebock.bandcamp.com/album/sketch-for-winter-vii-abyss-for-cello',
+                    a_string: 'Sketch for Winter VII - Abyss: For Cello by Louise Bock',
+                    rule: {
+                        "monday": [28, 3, 9, 18],
+                        "tuesday": [26, 2, 8, 16], 
+                        "wednesday": [26, 1, 7, 15], 
+                        "thursday": [30, 5, 11, 19],  
+                        "saturday": [29, 4, 9, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2104393723/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://marthahigh.bandcamp.com/album/nothings-going-wrong',
+                    a_string: 'Nothing&#39;s Going Wrong by Martha High &amp; The Italian Royal Family',
+                    rule: {
+                        "monday": [29, 4, 9, 18],
+                        "tuesday": [28, 3, 9, 18],  
+                        "wednesday": [26, 2, 8, 16],  
+                        "thursday": [26, 1, 7, 15],  
+                        "saturday": [30, 5, 11, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3084477846/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://francesquinlan.bandcamp.com/album/likewise',
+                    a_string: 'Likewise by Frances Quinlan',
+                    rule: {
+                        "monday": [30, 5, 11, 19],
+                        "tuesday": [29, 4, 9, 18],  
+                        "wednesday": [28, 3, 9, 18],  
+                        "thursday": [26, 2, 8, 16],  
+                        "saturday": [26, 1, 7, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -7132,6 +7132,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 397,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4294545183/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://unseenworlds.bandcamp.com/album/piano-works-revisited',
+                    a_string: 'Piano Works Revisited by Elodie Lauten',
+                    rule: {
+                        "monday": [2, 9, 10, 11],
+                        "tuesday": [1, 7, 8, 9],    
+                        "wednesday": [31, 7, 8, 9],   
+                        "thursday": [4, 11, 12, 13], 
+                        "saturday": [3, 9, 10, 12]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 398,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3639273125/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://unseenworlds.bandcamp.com/album/the-death-of-don-juan',
+                    a_string: 'The Death of Don Juan by Elodie Lauten',
+                    rule: {
+                        "monday": [3, 9, 10, 12],
+                        "tuesday": [2, 9, 10, 11],  
+                        "wednesday": [1, 7, 8, 9],    
+                        "thursday": [31, 7, 8, 9],   
+                        "saturday": [4, 11, 12, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 399,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2299037072/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://unseenworlds.bandcamp.com/album/kmh-piano-music-in-the-continuous-mode',
+                    a_string: 'KMH: Piano Music in the Continuous Mode by Lubomyr Melnyk',
+                    rule: {
+                        "monday": [5, 12, 13, 14],
+                        "tuesday": [4, 10, 11, 13],  
+                        "wednesday": [3, 10, 11, 12],    
+                        "thursday": [2, 8, 9, 10],   
+                        "saturday": [1, 8, 9, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

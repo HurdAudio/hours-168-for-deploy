@@ -6376,6 +6376,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 355,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3076579979/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://newfocusrecordings.bandcamp.com/album/jennifer-curtis-tyshawn-sorey-invisible-ritual',
+                    a_string: 'Jennifer Curtis &amp; Tyshawn Sorey: Invisible Ritual by Jennifer Curtis, Tyshawn Sorey',
+                    rule: {
+                        "monday": [28, 5, 18, 17],
+                        "tuesday": [27, 4, 17, 16], 
+                        "wednesday": [26, 3, 16, 15], 
+                        "thursday": [30, 7, 20, 19], 
+                        "saturday": [29, 6, 19, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 356,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2431274395/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sabirmateen.bandcamp.com/album/survival-situation',
+                    a_string: 'Survival Situation by Sabir Mateen, Patrick Holmes, Federico Ughi',
+                    rule: {
+                        "monday": [29, 6, 19, 18],
+                        "tuesday": [28, 5, 18, 17], 
+                        "wednesday": [27, 4, 17, 16], 
+                        "thursday": [26, 3, 16, 15], 
+                        "saturday": [30, 7, 20, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 357,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4050595199/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://trostrecords.bandcamp.com/album/crucial-anatomy',
+                    a_string: 'Crucial Anatomy by LAST DREAM OF THE MORNING - Butcher / Edwards / Sanders',
+                    rule: {
+                        "monday": [31, 8, 21, 20],
+                        "tuesday": [30, 7, 20, 19], 
+                        "wednesday": [29, 6, 19, 18], 
+                        "thursday": [28, 5, 18, 17], 
+                        "saturday": [27, 4, 17, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

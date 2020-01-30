@@ -12694,13 +12694,113 @@ exports.seed = function (knex, Promise) {
                     artist: 'unknown artist',
                     year: '2015',
                     rule: {
-                        "monday": [29, 3, 18, 16] ,
+                        "monday": [29, 3, 18, 16],
                         "tuesday": [26, 2, 8, 14],  
                         "wednesday": [27, 2, 8, 14],  
                         "thursday": [26, 1, 7, 13],  
                         "friday": [1, 7, 12, 18],  
                         "saturday": [15, 5, 11, 17], 
                         "sunday": [30, 3, 16, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 636,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/CQ-bN7OUYAAO-Gq.jpg',
+                    title: 'New York Mets, Darryl Strawberry and Dwight Gooden',
+                    artist: 'Dave Choate',
+                    year: '2015',
+                    rule: {
+                        "monday": [30, 3, 16, 17],
+                        "tuesday": [29, 3, 18, 16], 
+                        "wednesday": [26, 2, 8, 14],  
+                        "thursday": [27, 2, 8, 14],  
+                        "friday": [26, 1, 7, 13],  
+                        "saturday": [1, 7, 12, 18],  
+                        "sunday": [15, 5, 11, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 637,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Sean-Kane-Mr-Met-glove-art-5.jpg',
+                    title: 'Mr. Met Glove',
+                    artist: 'Sean Kane',
+                    year: '?',
+                    rule: {
+                        "monday": [16, 6, 12, 18],
+                        "tuesday": [1, 4, 17, 18], 
+                        "wednesday": [30, 4, 19, 17],  
+                        "thursday": [27, 3, 9, 15],  
+                        "friday": [28, 3, 9, 15],  
+                        "saturday": [27, 2, 8, 14],  
+                        "sunday": [2, 8, 13, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 638,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Mike-Pete-small.jpg',
+                    title: 'NY Mets’ Mike & Pete',
+                    artist: 'Ed West',
+                    year: '2019',
+                    rule: {
+                        "monday": [2, 8, 13, 19],
+                        "tuesday": [16, 6, 12, 18], 
+                        "wednesday": [1, 4, 17, 18],  
+                        "thursday": [30, 4, 19, 17], 
+                        "friday": [27, 3, 9, 15],  
+                        "saturday": [28, 3, 9, 15],  
+                        "sunday": [27, 2, 8, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 639,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/york-mets-original-wood-art-harry_1_d98bcf627ef4d56908fb5a5024b83cb5.jpg',
+                    title: 'New York Mets Original Wood',
+                    artist: 'Harry Glaubach',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 2, 8, 14],
+                        "tuesday": [2, 8, 13, 19],  
+                        "wednesday": [16, 6, 12, 18], 
+                        "thursday": [1, 4, 17, 18],  
+                        "friday": [30, 4, 19, 17], 
+                        "saturday": [27, 3, 9, 15],  
+                        "sunday": [28, 3, 9, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 640,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/mets-and-grouse-patty-donoghue.jpg',
+                    title: 'New York Mets Pigeon',
+                    artist: 'Patty Donoghue',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 3, 9, 15],
+                        "tuesday": [27, 2, 8, 14],  
+                        "wednesday": [2, 8, 13, 19],  
+                        "thursday": [16, 6, 12, 18], 
+                        "friday": [1, 4, 17, 18],  
+                        "saturday": [30, 4, 19, 17], 
+                        "sunday": [27, 3, 9, 15]   
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

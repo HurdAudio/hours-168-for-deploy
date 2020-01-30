@@ -11104,6 +11104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 556,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/40-PopularCom.jpeg',
+                    title: 'Popular Comics',
+                    artist: 'Robert Jenney',
+                    year: '1940',
+                    rule: {
+                        "monday": [5, 28, 16, 23],
+                        "tuesday": [21, 3, 11, 17], 
+                        "wednesday": [20, 1, 10, 16], 
+                        "thursday": [19, 1, 9, 15],  
+                        "friday": [18, 31, 8, 14], 
+                        "saturday": [17, 30, 7, 13], 
+                        "sunday": [16, 28, 27, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 557,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-02,RodRian.jpg',
+                    title: 'Rod Rian Sky Police',
+                    artist: 'Paul H. Jepsen',
+                    year: '1936',
+                    rule: {
+                        "monday": [16, 28, 27, 12],
+                        "tuesday": [5, 28, 16, 23], 
+                        "wednesday": [21, 3, 11, 17], 
+                        "thursday": [20, 1, 10, 16], 
+                        "friday": [19, 1, 9, 15],  
+                        "saturday": [18, 31, 8, 14], 
+                        "sunday": [17, 30, 7, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 558,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/48-1106,AceMallory.jpg',
+                    title: 'Ace Mallory',
+                    artist: 'E. Harper Johnson',
+                    year: '1948',
+                    rule: {
+                        "monday": [17, 30, 7, 13],
+                        "tuesday": [16, 28, 27, 12],
+                        "wednesday": [5, 28, 16, 23], 
+                        "thursday": [21, 3, 11, 17], 
+                        "friday": [20, 1, 10, 16], 
+                        "saturday": [19, 1, 9, 15],  
+                        "sunday": [18, 31, 8, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 559,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/43-02,FantAdv.jpg',
+                    title: 'Fantastic Adventure',
+                    artist: 'Robert Gibson Jones',
+                    year: '1943',
+                    rule: {
+                        "monday": [18, 31, 8, 14],
+                        "tuesday": [17, 30, 7, 13], 
+                        "wednesday": [16, 28, 27, 12],
+                        "thursday": [5, 28, 16, 23], 
+                        "friday": [21, 3, 11, 17], 
+                        "saturday": [20, 1, 10, 16], 
+                        "sunday": [19, 1, 9, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 560,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/43-01-23,SEPost.jpg',
+                    title: 'Saturday Evening Post',
+                    artist: 'Mat Kauten',
+                    year: '1943',
+                    rule: {
+                        "monday": [20, 2, 10, 16],
+                        "tuesday": [19, 1, 9, 15], 
+                        "wednesday": [18, 31, 8, 14],
+                        "thursday": [17, 29, 28, 13], 
+                        "friday": [6, 29, 17, 24], 
+                        "saturday": [22, 4, 12, 18], 
+                        "sunday": [21, 2, 11, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

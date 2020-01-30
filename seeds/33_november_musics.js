@@ -6052,6 +6052,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 337,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1230249874/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ajoyo.bandcamp.com/album/war-chant-ep',
+                    a_string: 'WAR CHANT - EP by Ajoyo',
+                    rule: {
+                        "monday": [19, 30, 11, 15],
+                        "tuesday": [18, 29, 10, 14],
+                        "wednesday": [17, 28, 9, 20], 
+                        "thursday": [16, 27, 8, 20], 
+                        "saturday": [20, 1, 12, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 338,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2967603247/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://alexboye.bandcamp.com/album/we-all-bleed-the-same-ep',
+                    a_string: 'We All Bleed the Same - EP by Alex Boye&#39;',
+                    rule: {
+                        "monday": [20, 1, 12, 16],
+                        "tuesday": [19, 30, 11, 15],
+                        "wednesday": [18, 29, 10, 14],
+                        "thursday": [17, 28, 9, 20], 
+                        "saturday": [16, 27, 8, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 339,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3148244332/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://zimbamoto.bandcamp.com/album/tambai-2',
+                    a_string: 'Tambai by Zimbamoto',
+                    rule: {
+                        "monday": [16, 27, 8, 20],
+                        "tuesday": [20, 1, 12, 16], 
+                        "wednesday": [19, 30, 11, 15],
+                        "thursday": [18, 29, 10, 14],
+                        "saturday": [17, 28, 9, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

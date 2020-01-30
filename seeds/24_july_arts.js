@@ -12104,6 +12104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 606,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-magic-lantern.jpeg',
+                    title: 'The Magic Lantern',
+                    artist: 'Auguste Edouart',
+                    year: '?',
+                    rule: {
+                        "monday": [23, 3, 13, 15],
+                        "tuesday": [20, 31, 22, 23],
+                        "wednesday": [21, 1, 23, 24], 
+                        "thursday": [26, 4, 17, 28], 
+                        "friday": [26, 4, 17, 28], 
+                        "saturday": [24, 4, 16, 27], 
+                        "sunday": [24, 4, 15, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 607,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/portrait-of-auguste-francois-talma-ensign-nephew-of-the-tragedian-talma.jpeg',
+                    title: 'Portrait of Auguste Francois Talma, Ensign, nephew of the tragedian Talma',
+                    artist: 'Jean Auguste Dominique Ingres',
+                    year: '?',
+                    rule: {
+                        "monday": [24, 4, 15, 16],
+                        "tuesday": [23, 3, 13, 15], 
+                        "wednesday": [20, 31, 22, 23],
+                        "thursday": [21, 1, 23, 24], 
+                        "friday": [26, 4, 17, 28], 
+                        "saturday": [26, 4, 17, 28], 
+                        "sunday": [24, 4, 16, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 608,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/young-woman-drawing-1801.jpeg',
+                    title: 'Young Woman Drawing',
+                    artist: 'Marie-Denise Villers',
+                    year: '1801',
+                    rule: {
+                        "monday": [24, 4, 16, 27],
+                        "tuesday": [24, 4, 15, 16], 
+                        "wednesday": [23, 3, 13, 15], 
+                        "thursday": [20, 31, 22, 23],
+                        "friday": [21, 1, 23, 24], 
+                        "saturday": [26, 4, 17, 28], 
+                        "sunday": [26, 4, 17, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 609,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/64233-01-017615.jpeg',
+                    title: 'Psyché et l\'Amour, dit aussi Psyché recevant le premier baiser de l’Amour',
+                    artist: 'François Gérard',
+                    year: '1782',
+                    rule: {
+                        "monday": [27, 4, 18, 29],
+                        "tuesday": [25, 5, 17, 28], 
+                        "wednesday": [25, 5, 16, 17], 
+                        "thursday": [24, 4, 14, 16],
+                        "friday": [21, 1, 23, 24], 
+                        "saturday": [22, 2, 24, 25], 
+                        "sunday": [27, 5, 18, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 610,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/41644966-290785621527127-1765688212463812608-n.jpeg',
+                    title: 'Catherine the Great',
+                    artist: 'Marie-Gabrielle Capet',
+                    year: '1781',
+                    rule: {
+                        "monday": [27, 5, 18, 29],
+                        "tuesday": [27, 4, 18, 29], 
+                        "wednesday": [25, 5, 17, 28], 
+                        "thursday": [25, 5, 16, 17], 
+                        "friday": [24, 4, 14, 16], 
+                        "saturday": [21, 1, 23, 24], 
+                        "sunday": [22, 2, 24, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

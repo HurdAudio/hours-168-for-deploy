@@ -1488,6 +1488,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#FFFEF8',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 107,
+                    user_id: 1,
+                    theme: 'Water',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april_tiles/town_on_horizon_by_leonid_afremov_by_leonidafremov_d1vln9m-pre.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#010100',
+                    color_medium: '#F05A00',
+                    color_light: '#FDFCE3',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

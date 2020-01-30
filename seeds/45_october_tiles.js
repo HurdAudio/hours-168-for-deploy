@@ -1404,6 +1404,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#7ACFFD',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 101,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/autumn_sunrise_by_lucreciamortishia_ddjumx1-pre.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#120202',
+                    color_medium: '#A11904',
+                    color_light: '#F8F6ED',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

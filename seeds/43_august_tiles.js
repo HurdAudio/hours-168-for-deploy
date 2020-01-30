@@ -1432,6 +1432,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#E6C75D',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 103,
+                    user_id: 1,
+                    theme: 'Primary Colors',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/women_in_jazz_by_adbauer04_d8vj243-pre.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#06060C',
+                    color_medium: '#566BFE',
+                    color_light: '#F4FEFE',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

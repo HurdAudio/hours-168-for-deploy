@@ -13304,6 +13304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 666,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/space-construction-vi-1923.jpeg',
+                    title: 'Space construction VI',
+                    artist: 'Peter Laszlo Peri',
+                    year: '1923',
+                    rule: {
+                        "monday": [5, 7, 30, 19],
+                        "tuesday": [10, 8, 31, 3],  
+                        "wednesday": [10, 11, 2, 6],  
+                        "thursday": [13, 15, 16, 18],
+                        "friday": [15, 17, 21, 24],
+                        "saturday": [17, 19, 20, 21],
+                        "sunday": [5, 7, 30, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 667,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/img-5207.jpeg',
+                    title: 'Space constructions from Der Sturm portfolio',
+                    artist: 'Peter Laszlo Peri',
+                    year: '1922 - 1923',
+                    rule: {
+                        "monday": [5, 7, 30, 19],
+                        "tuesday": [5, 7, 30, 19],  
+                        "wednesday": [10, 8, 31, 3],  
+                        "thursday": [10, 11, 2, 6],  
+                        "friday": [13, 15, 16, 18],
+                        "saturday": [15, 17, 21, 24],
+                        "sunday": [17, 19, 20, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 668,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/kmlvch-1923.jpeg',
+                    title: 'Black Square (2nd version)',
+                    artist: 'Kazimir Malevich',
+                    year: 'c. 1923',
+                    rule: {
+                        "monday": [17, 19, 20, 21],
+                        "tuesday": [5, 7, 30, 19],  
+                        "wednesday": [5, 7, 30, 19],  
+                        "thursday": [10, 8, 31, 3],  
+                        "friday": [10, 11, 2, 6],  
+                        "saturday": [13, 15, 16, 18],
+                        "sunday": [15, 17, 21, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 669,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/abstract-composition-1924p.jpeg',
+                    title: 'Abstract composition',
+                    artist: 'Fernand Leger',
+                    year: '1924',
+                    rule: {
+                        "monday": [15, 17, 21, 24],
+                        "tuesday": [17, 19, 20, 21],
+                        "wednesday": [5, 7, 30, 19],  
+                        "thursday": [5, 7, 30, 19],  
+                        "friday": [10, 8, 31, 3],  
+                        "saturday": [10, 11, 2, 6],  
+                        "sunday": [13, 15, 16, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 670,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/the-hunter-1924.jpeg',
+                    title: 'The Hunter',
+                    artist: 'Joan Miro',
+                    year: '1923 - 1924',
+                    rule: {
+                        "monday": [13, 15, 16, 18],
+                        "tuesday": [15, 17, 21, 24],
+                        "wednesday": [17, 19, 20, 21],
+                        "thursday": [5, 7, 30, 19],  
+                        "friday": [5, 7, 30, 19],  
+                        "saturday": [10, 8, 31, 3],  
+                        "sunday": [10, 11, 2, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

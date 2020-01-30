@@ -12304,6 +12304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 616,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/a_gloomy_day_revisited_by_stoppersempre_ddp3ugq-fullview.jpg',
+                    title: 'A Gloomy Day Revisited',
+                    artist: 'Stoppersempre',
+                    year: '2020',
+                    rule: {
+                        "monday": [25, 5, 15, 22],
+                        "tuesday": [4, 14, 24, 22], 
+                        "wednesday": [23, 3, 13, 21], 
+                        "thursday": [22, 2, 12, 20], 
+                        "friday": [28, 8, 18, 25], 
+                        "saturday": [27, 7, 18, 25], 
+                        "sunday": [26, 6, 16, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 617,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/take_your_turn_by_eintoern_ddp4rts-pre.jpg',
+                    title: 'take your turn',
+                    artist: 'EintoeRn',
+                    year: '2020',
+                    rule: {
+                        "monday": [26, 6, 16, 14],
+                        "tuesday": [25, 5, 15, 22], 
+                        "wednesday": [4, 14, 24, 22], 
+                        "thursday": [23, 3, 13, 21], 
+                        "friday": [22, 2, 12, 20], 
+                        "saturday": [28, 8, 18, 25], 
+                        "sunday": [27, 7, 18, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 618,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/zwinger_vii_duotone_by_vw1956_ddp4rsl-pre.jpg',
+                    title: 'Zwinger VII duotone',
+                    artist: 'Volker',
+                    year: '2020',
+                    rule: {
+                        "monday": [27, 7, 18, 25],
+                        "tuesday": [26, 6, 16, 14], 
+                        "wednesday": [25, 5, 15, 22], 
+                        "thursday": [4, 14, 24, 22], 
+                        "friday": [23, 3, 13, 21], 
+                        "saturday": [22, 2, 12, 20], 
+                        "sunday": [28, 8, 18, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 619,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/dawn_by_deepgrounduk_ddp0ir9-pre.jpg',
+                    title: 'Dawn',
+                    artist: 'Deep',
+                    year: '2020',
+                    rule: {
+                        "monday": [28, 8, 18, 25],
+                        "tuesday": [27, 7, 18, 25], 
+                        "wednesday": [26, 6, 16, 14], 
+                        "thursday": [25, 5, 15, 22], 
+                        "friday": [4, 14, 24, 22], 
+                        "saturday": [23, 3, 13, 21], 
+                        "sunday": [22, 2, 12, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 620,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/memory_of_the_trees__double_exposure__by_horemweb_ddp58uc-pre.jpg',
+                    title: 'Memory of the Trees (Double Exposure)',
+                    artist: 'HoremWeb',
+                    year: '2020',
+                    rule: {
+                        "monday": [22, 2, 12, 20],
+                        "tuesday": [28, 8, 18, 25], 
+                        "wednesday": [27, 7, 18, 25], 
+                        "thursday": [26, 6, 16, 14], 
+                        "friday": [25, 5, 15, 22], 
+                        "saturday": [4, 14, 24, 22], 
+                        "sunday": [23, 3, 13, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

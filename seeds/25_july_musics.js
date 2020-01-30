@@ -6484,6 +6484,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 361,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1042390611/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://enattendantana.bandcamp.com/album/juillet',
+                    a_string: 'Juillet by En Attendant Ana',
+                    rule: {
+                        "monday": [20, 22, 26, 3],
+                        "tuesday": [19, 20, 25, 2], 
+                        "wednesday": [18, 20, 24, 1], 
+                        "thursday": [22, 24, 28, 5], 
+                        "saturday": [21, 23, 27, 4]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 362,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3960555323/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://macaroom.bandcamp.com/album/cage-out',
+                    a_string: 'cage out by macaroom',
+                    rule: {
+                        "monday": [21, 23, 27, 4],
+                        "tuesday": [20, 22, 26, 3], 
+                        "wednesday": [19, 20, 25, 2], 
+                        "thursday": [18, 20, 24, 1], 
+                        "saturday": [22, 24, 28, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 363,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=318056701/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mrwrongwitches.bandcamp.com/album/create-a-place-2',
+                    a_string: 'Create A Place by Mr. Wrong',
+                    rule: {
+                        "monday": [22, 24, 28, 5],
+                        "tuesday": [21, 23, 27, 4], 
+                        "wednesday": [20, 22, 26, 3], 
+                        "thursday": [19, 20, 25, 2], 
+                        "saturday": [18, 20, 24, 1]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

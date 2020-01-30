@@ -6592,6 +6592,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 367,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3613403627/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://fenneszreleases.bandcamp.com/album/seven-stars',
+                    a_string: 'Seven Stars by Fennesz',
+                    rule: {
+                        "monday": [21, 24, 30, 11],
+                        "tuesday": [21, 24, 30, 10],
+                        "wednesday": [19, 27, 29, 14],
+                        "thursday": [23, 27, 3, 14], 
+                        "saturday": [22, 25, 30, 12] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 368,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=53742627/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://pantheophania.bandcamp.com/album/liquid-golden-fur',
+                    a_string: 'Liquid Golden Fur by MOXOMEX',
+                    rule: {
+                        "monday": [22, 25, 30, 12],
+                        "tuesday": [21, 24, 30, 11],
+                        "wednesday": [21, 24, 30, 10],
+                        "thursday": [19, 27, 29, 14],
+                        "saturday": [23, 27, 3, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 369,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3844465112/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://pantheophania.bandcamp.com/album/dialectica',
+                    a_string: 'Dialectica by Tim Six',
+                    rule: {
+                        "monday": [23, 27, 3, 14],
+                        "tuesday": [22, 25, 30, 12],
+                        "wednesday": [21, 24, 30, 11],
+                        "thursday": [21, 24, 30, 10],
+                        "saturday": [19, 27, 29, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

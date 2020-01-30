@@ -6700,6 +6700,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 373,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4245657599/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://louisebock.bandcamp.com/album/sketch-for-winter-vii-abyss-for-cello',
+                    a_string: 'Sketch for Winter VII - Abyss: For Cello by Louise Bock',
+                    rule: {
+                        "monday": [22, 28, 4, 17],
+                        "tuesday": [21, 27, 3, 16], 
+                        "wednesday": [25, 31, 7, 20], 
+                        "thursday": [24, 30, 6, 19], 
+                        "saturday": [23, 29, 5, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 374,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2719626233/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mappa.bandcamp.com/album/i-love-this-city-and-its-outlying-lands',
+                    a_string: 'I love this city and its outlying lands by Sarah Hughes',
+                    rule: {
+                        "monday": [23, 29, 5, 18],
+                        "tuesday": [22, 28, 4, 17], 
+                        "wednesday": [21, 27, 3, 16], 
+                        "thursday": [25, 31, 7, 20], 
+                        "saturday": [24, 30, 6, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 375,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=582535509/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://handsinthedarkrecords.bandcamp.com/album/dream-character',
+                    a_string: 'Dream Character by Matt Jencik',
+                    rule: {
+                        "monday": [24, 30, 6, 19],
+                        "tuesday": [23, 29, 5, 18], 
+                        "wednesday": [22, 28, 4, 17], 
+                        "thursday": [21, 27, 3, 16], 
+                        "saturday": [25, 31, 7, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

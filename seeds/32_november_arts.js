@@ -11304,6 +11304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 566,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/ring-image-m-2010.jpeg',
+                    title: 'Ring Image M',
+                    artist: 'Robert Mangold',
+                    year: '2010',
+                    rule: {
+                        "monday": [23, 28, 4, 9],
+                        "tuesday": [23, 28, 4, 11], 
+                        "wednesday":[29, 4, 10, 15], 
+                        "thursday": [28, 30, 8, 4],  
+                        "friday": [27, 1, 8, 11],  
+                        "saturday": [26, 29, 6, 11], 
+                        "sunday": [24, 29, 5, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 567,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/rosa-sposa-2010.jpeg',
+                    title: 'Rosa, sposa',
+                    artist: 'Ettore Spalletti',
+                    year: '2010',
+                    rule: {
+                        "monday": [25, 30, 6, 11],
+                        "tuesday": [24, 29, 5, 10], 
+                        "wednesday":[24, 29, 5, 12], 
+                        "thursday": [30, 5, 11, 16],  
+                        "friday": [29, 1, 9, 5],  
+                        "saturday": [28, 2, 9, 12], 
+                        "sunday": [27, 30, 7, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 568,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/le-lien-temps-2010.jpeg',
+                    title: 'Le, Lien, Temps',
+                    artist: 'Peter Downsbrough',
+                    year: '2010',
+                    rule: {
+                        "monday": [27, 30, 7, 12],
+                        "tuesday": [25, 30, 6, 11], 
+                        "wednesday":[24, 29, 5, 10], 
+                        "thursday": [24, 29, 5, 12], 
+                        "friday": [30, 5, 11, 16], 
+                        "saturday": [29, 1, 9, 5],   
+                        "sunday": [28, 2, 9, 12]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 569,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/peinture-244-x-181-cm-23-novembre-2010-2010.jpeg',
+                    title: 'Peinture 244 x 181 cm, 23 novembre 2010',
+                    artist: 'Pierre Soulages',
+                    year: '2010',
+                    rule: {
+                        "monday": [28, 2, 9, 12],
+                        "tuesday": [27, 30, 7, 12], 
+                        "wednesday":[25, 30, 6, 11], 
+                        "thursday": [24, 29, 5, 10], 
+                        "friday": [24, 29, 5, 12], 
+                        "saturday": [30, 5, 11, 16], 
+                        "sunday": [29, 1, 9, 5]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 570,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-26-11-2011-2011.jpeg',
+                    title: 'Untitled, 26.11.2011',
+                    artist: 'Joachim Bandau',
+                    year: '2011',
+                    rule: {
+                        "monday": [29, 1, 9, 5],
+                        "tuesday": [28, 2, 9, 12],  
+                        "wednesday":[27, 30, 7, 12], 
+                        "thursday": [25, 30, 6, 11], 
+                        "friday": [24, 29, 5, 10], 
+                        "saturday": [24, 29, 5, 12], 
+                        "sunday": [30, 5, 11, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

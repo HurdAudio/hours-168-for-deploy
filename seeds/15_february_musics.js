@@ -7024,6 +7024,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 391,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=187719075/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://intlanthem.bandcamp.com/album/max-brown-part-1',
+                    a_string: 'Max Brown - Part 1 by Jeff Parker',
+                    rule: {
+                        "monday": [29, 4, 6, 10],
+                        "tuesday": [3, 6, 8, 10],   
+                        "wednesday": [14, 8, 10, 12], 
+                        "thursday": [16, 10, 12, 18],
+                        "saturday":  [17, 11, 13, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 392,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1020863419/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'zhttp://intlanthem.bandcamp.com/album/suite-for-max-brown',
+                    a_string: 'Suite for Max Brown by Jeff Parker',
+                    rule: {
+                        "monday": [18, 12, 14, 20],
+                        "tuesday": [1, 5, 7, 11],   
+                        "wednesday": [4, 7, 9, 11], 
+                        "thursday": [15, 9, 11, 13],
+                        "saturday": [17, 11, 13, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 393,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1246905825/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://intlanthem.bandcamp.com/album/ism',
+                    a_string: 'Ism by Junius Paul',
+                    rule: {
+                        "monday": [17, 11, 13, 19],
+                        "tuesday": [18, 12, 14, 20],
+                        "wednesday": [1, 5, 7, 11],   
+                        "thursday": [4, 7, 9, 11],   
+                        "saturday": [15, 9, 11, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
