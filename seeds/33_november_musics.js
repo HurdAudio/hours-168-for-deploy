@@ -6106,6 +6106,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 340,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1930749213/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://alogteohoandhissoundsofjoy.bandcamp.com/album/mam-yinne-wa-2',
+                    a_string: 'Mam Yinne Wa by Alogte Oho and his Sounds of Joy',
+                    rule: {
+                        "monday": [17, 28, 9, 20],
+                        "tuesday": [16, 27, 8, 20], 
+                        "wednesday": [20, 1, 12, 16], 
+                        "thursday": [19, 30, 11, 15],
+                        "saturday": [18, 29, 10, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 341,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2193341049/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://burland.bandcamp.com/album/tell-me-why-you-worry-ep',
+                    a_string: 'Tell Me Why You Worry EP by Burland',
+                    rule: {
+                        "monday": [18, 29, 10, 14],
+                        "tuesday": [17, 28, 9, 20], 
+                        "wednesday": [16, 27, 8, 20], 
+                        "thursday": [20, 1, 12, 16], 
+                        "saturday": [19, 30, 11, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 342,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2959325854/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jowaa.bandcamp.com/album/manjaano',
+                    a_string: 'MANJAANO by Jowaa',
+                    rule: {
+                        "monday": [19, 30, 11, 15],
+                        "tuesday": [18, 29, 10, 14],
+                        "wednesday": [17, 28, 9, 20], 
+                        "thursday": [16, 27, 8, 20], 
+                        "saturday": [20, 1, 12, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

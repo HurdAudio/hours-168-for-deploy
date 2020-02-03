@@ -7078,6 +7078,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 394,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1741237107/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://108missioninfinite.bandcamp.com/album/mission-infinite',
+                    a_string: 'Mission Infinite by 108',
+                    rule: {
+                        "monday": [15, 9, 11, 13],
+                        "tuesday": [17, 11, 13, 19],
+                        "wednesday": [18, 12, 14, 20],
+                        "thursday": [1, 5, 7, 11],   
+                        "saturday": [4, 7, 9, 11]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 395,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3472109924/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://akaisolo.bandcamp.com/album/mad-moon-mad-space',
+                    a_string: 'MAD MOON - MAD SPACE by MAD MOON',
+                    rule: {
+                        "monday": [4, 7, 9, 11],
+                        "tuesday": [15, 9, 11, 13], 
+                        "wednesday": [17, 11, 13, 19],
+                        "thursday": [18, 12, 14, 20],
+                        "saturday": [1, 5, 7, 11]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 396,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3591124811/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://bagtalk.bandcamp.com/album/bag-talk-pink-siifu-yungmorpheus',
+                    a_string: 'Bag Talk - Pink Siifu &amp; YUNGMORPHEUS by Pink Siifu, YungMorpheus',
+                    rule: {
+                        "monday": [1, 5, 7, 11],
+                        "tuesday": [4, 7, 9, 11],   
+                        "wednesday": [15, 9, 11, 13], 
+                        "thursday": [17, 11, 13, 19],
+                        "saturday": [18, 12, 14, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6214,6 +6214,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 346,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3073525176/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://m80sucks.bandcamp.com/album/apathy',
+                    a_string: 'Apathy by M80',
+                    rule: {
+                        "monday": [25, 5, 14, 17],
+                        "tuesday": [24, 3, 14, 16], 
+                        "wednesday": [23, 2, 12, 15], 
+                        "thursday": [27, 6, 16, 19], 
+                        "saturday": [26, 5, 15, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 347,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1090246941/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://junkorecs.bandcamp.com/album/desventura-de-verano',
+                    a_string: 'Desventura De Verano by La Casa De Emma',
+                    rule: {
+                        "monday": [26, 5, 15, 18],
+                        "tuesday": [25, 5, 14, 17], 
+                        "wednesday": [24, 3, 14, 16], 
+                        "thursday": [23, 2, 12, 15], 
+                        "saturday": [27, 6, 16, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 348,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3442130657/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sorrystaterecords.bandcamp.com/album/cochonne',
+                    a_string: 'Cochonne by Cochonne',
+                    rule: {
+                        "monday": [27, 6, 16, 19],
+                        "tuesday": [26, 5, 15, 18], 
+                        "wednesday": [25, 5, 14, 17], 
+                        "thursday": [24, 3, 14, 16], 
+                        "saturday": [23, 2, 12, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

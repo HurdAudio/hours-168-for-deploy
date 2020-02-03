@@ -1174,6 +1174,21 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 79,
+                    user_author_id: 1,
+                    theme: 'Kandinsky',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/black-and-violet-1923.jpeg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#050304',
+                    color_medium: '#8D601F',
+                    color_light: '#C5BC9F',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6430,6 +6430,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 358,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3081771058/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://werewolfjerusalem.bandcamp.com/album/carnal-violence',
+                    a_string: 'Carnal Violence by Werewolf Jerusalem',
+                    rule: {
+                        "monday": [27, 4, 17, 16],
+                        "tuesday": [31, 8, 21, 20], 
+                        "wednesday": [30, 7, 20, 19], 
+                        "thursday": [29, 6, 19, 18], 
+                        "saturday": [28, 5, 18, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 359,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1668455364/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://blackleatherjesus.bandcamp.com/album/even-deeper',
+                    a_string: 'Even Deeper by Black Leather Jesus',
+                    rule: {
+                        "monday": [28, 5, 18, 17],
+                        "tuesday": [27, 4, 17, 16], 
+                        "wednesday": [31, 8, 21, 20], 
+                        "thursday": [30, 7, 20, 19], 
+                        "saturday": [29, 6, 19, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 360,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=607351253/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://vertpituitelabelle.bandcamp.com/album/org',
+                    a_string: 'ORG by PUCE MOMENT',
+                    rule: {
+                        "monday": [29, 6, 19, 18],
+                        "tuesday": [28, 5, 18, 17], 
+                        "wednesday": [27, 4, 17, 16], 
+                        "thursday": [31, 8, 21, 20], 
+                        "saturday": [30, 7, 20, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

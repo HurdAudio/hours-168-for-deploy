@@ -7186,6 +7186,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 400,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3856129970/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://othermindsrecords.bandcamp.com/album/real-to-reel',
+                    a_string: 'Real to Reel by Helen Thorington',
+                    rule: {
+                        "monday": [1, 8, 9, 10],
+                        "tuesday": [5, 12, 13, 14], 
+                        "wednesday": [4, 10, 11, 13], 
+                        "thursday": [3, 10, 11, 12], 
+                        "saturday": [2, 8, 9, 10]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 401,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=920534872/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://othermindsrecords.bandcamp.com/album/warehouse-revival',
+                    a_string: 'Warehouse Revival by Paul Kalbach',
+                    rule: {
+                        "monday": [2, 8, 9, 10],
+                        "tuesday": [1, 8, 9, 10],   
+                        "wednesday": [5, 12, 13, 14], 
+                        "thursday": [4, 10, 11, 13], 
+                        "saturday": [3, 10, 11, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 402,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1650807164/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://othermindsrecords.bandcamp.com/album/what-is-the-matter-in-amy-glennon',
+                    a_string: 'What is the Matter in Amy Glennon? by Sheila Davies Sumner',
+                    rule: {
+                        "monday": [3, 10, 11, 12],
+                        "tuesday": [2, 8, 9, 10],   
+                        "wednesday": [1, 8, 9, 10],   
+                        "thursday": [5, 12, 13, 14], 
+                        "saturday": [4, 10, 11, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6322,6 +6322,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 352,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1080232355/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://desertmammooth.bandcamp.com/album/seed-to-stoned',
+                    a_string: 'Seed to Stoned by Desert Mammooth',
+                    rule: {
+                        "monday": [25, 15, 23, 17],
+                        "tuesday": [24, 14, 22, 16],
+                        "wednesday": [23, 13, 21, 14],
+                        "thursday": [23, 12, 20, 14],
+                        "saturday": [21, 11, 19, 13] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 353,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4040917898/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://progshinerecords.bandcamp.com/album/substancia',
+                    a_string: 'Substancia by Jonatan Piña Duluc',
+                    rule: {
+                        "monday": [21, 11, 19, 13],
+                        "tuesday": [25, 15, 23, 17],
+                        "wednesday": [24, 14, 22, 16],
+                        "thursday": [23, 13, 21, 14],
+                        "saturday": [23, 12, 20, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 354,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1306769667/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://pallasofficial.bandcamp.com/album/an-alternative-arrive-alive',
+                    a_string: 'An Alternative Arrive Alive by Pallas',
+                    rule: {
+                        "monday": [23, 12, 20, 14],
+                        "tuesday": [21, 11, 19, 13],
+                        "wednesday": [25, 15, 23, 17],
+                        "thursday": [24, 14, 22, 16],
+                        "saturday": [23, 13, 21, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

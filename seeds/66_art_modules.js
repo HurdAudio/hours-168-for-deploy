@@ -4804,6 +4804,66 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 401,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/labyrinth-1992.jpeg',
+                    title: 'Labyrinth',
+                    artist: 'Valeria Trubina',
+                    year: '1992',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 402,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/twilight-in-the-park-1993.jpeg',
+                    title: 'Twilight in the Park',
+                    artist: 'Valeria Trubina',
+                    year: '1993',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 403,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/morning-glory-1993.jpeg',
+                    title: 'Morning Glory',
+                    artist: 'Valeria Trubina',
+                    year: '1993',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 404,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/palm-1993.jpeg',
+                    title: 'Palm',
+                    artist: 'Valeria Trubina',
+                    year: '1993',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 405,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/bridge-1993.jpeg',
+                    title: 'Bridge',
+                    artist: 'Valeria Trubina',
+                    year: '1993',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

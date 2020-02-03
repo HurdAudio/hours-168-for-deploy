@@ -6970,6 +6970,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=968674732/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://tawiahmusic.bandcamp.com/album/starts-again',
+                    a_string: 'Starts Again by Tawiah',
+                    rule: {
+                        "monday": [26, 1, 7, 15],
+                        "tuesday": [30, 5, 11, 19], 
+                        "wednesday": [29, 4, 9, 18],  
+                        "thursday": [28, 3, 9, 18],  
+                        "saturday": [26, 2, 8, 16]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3397803964/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://bryonyjarman-pinto.bandcamp.com/album/cage-aviary',
+                    a_string: 'Cage &amp; Aviary by Bryony Jarman-Pinto',
+                    rule: {
+                        "monday": [26, 2, 8, 16],
+                        "tuesday": [26, 1, 7, 15],  
+                        "wednesday": [30, 5, 11, 19], 
+                        "thursday": [29, 4, 9, 18],  
+                        "saturday": [28, 3, 9, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=473175380/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://majjamaja.bandcamp.com/album/concrete-roses-ep',
+                    a_string: 'Concrete Roses EP by Majja',
+                    rule: {
+                        "monday": [28, 3, 9, 18],
+                        "tuesday": [26, 2, 8, 16],  
+                        "wednesday": [26, 1, 7, 15],  
+                        "thursday": [30, 5, 11, 19], 
+                        "saturday": [29, 4, 9, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

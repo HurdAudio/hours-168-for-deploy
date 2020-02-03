@@ -6646,6 +6646,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 370,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2086152203/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://pitp.bandcamp.com/album/rushing',
+                    a_string: 'Rushing by Lucy Gooch',
+                    rule: {
+                        "monday": [19, 27, 29, 14],
+                        "tuesday": [23, 27, 3, 14], 
+                        "wednesday": [22, 25, 30, 12],
+                        "thursday": [21, 24, 30, 11],
+                        "saturday": [21, 24, 30, 10] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 371,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=932966123/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roguelikemusic.bandcamp.com/album/rl1',
+                    a_string: 'RL1 by roguelike',
+                    rule: {
+                        "monday": [22, 25, 1, 11],
+                        "tuesday": [20, 28, 30, 15], 
+                        "wednesday": [24, 28, 4, 15],
+                        "thursday": [23, 26, 1, 13],
+                        "saturday": [22, 25, 1, 12] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 372,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1799460869/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://cryochamber.bandcamp.com/album/hastur',
+                    a_string: 'Hastur by Cryo Chamber',
+                    rule: {
+                        "monday": [22, 25, 1, 12],
+                        "tuesday": [22, 25, 1, 11], 
+                        "wednesday": [20, 28, 30, 15],
+                        "thursday": [24, 28, 4, 15], 
+                        "saturday": [23, 26, 1, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

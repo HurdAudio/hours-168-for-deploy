@@ -11404,6 +11404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 571,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/ru-ware-project-2012.jpeg',
+                    title: 'Ru Ware Project',
+                    artist: 'Brice Marden',
+                    year: '2012',
+                    rule: {
+                        "monday": [30, 5, 11, 16],
+                        "tuesday": [29, 1, 9, 5],   
+                        "wednesday":[28, 2, 9, 12],  
+                        "thursday": [27, 30, 7, 12], 
+                        "friday": [25, 30, 6, 11], 
+                        "saturday": [24, 29, 5, 10], 
+                        "sunday": [24, 29, 5, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 572,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/stahlbau-he-22b-2012.jpeg',
+                    title: 'Stahlbau HE 22B',
+                    artist: 'James Licini',
+                    year: '2012',
+                    rule: {
+                        "monday": [24, 29, 5, 12],
+                        "tuesday": [30, 5, 11, 16], 
+                        "wednesday":[29, 1, 9, 5],   
+                        "thursday": [28, 2, 9, 12],  
+                        "friday": [27, 30, 7, 12], 
+                        "saturday": [25, 30, 6, 11], 
+                        "sunday": [24, 29, 5, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 573,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/scan-14-kopija.jpeg',
+                    title: 'The beginning',
+                    artist: 'Alfred Freddy Krupa',
+                    year: '2013',
+                    rule: {
+                        "monday": [24, 29, 5, 10],
+                        "tuesday": [24, 29, 5, 12], 
+                        "wednesday":[30, 5, 11, 16], 
+                        "thursday": [29, 1, 9, 5],   
+                        "friday": [28, 2, 9, 12],  
+                        "saturday": [27, 30, 7, 12], 
+                        "sunday": [25, 30, 6, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 574,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1-gunter.jpeg',
+                    title: 'Untitled',
+                    artist: 'Gunther Forg',
+                    year: 'XX - XXI cent.',
+                    rule: {
+                        "monday": [26, 1, 7, 12],
+                        "tuesday": [25, 30, 6, 11], 
+                        "wednesday":[25, 30, 6, 13], 
+                        "thursday": [1, 6, 12, 17],   
+                        "friday": [30, 2, 10, 6],  
+                        "saturday": [29, 3, 10, 13], 
+                        "sunday": [28, 1, 8, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 575,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/yui-yaegashi-yy011.jpeg',
+                    title: 'Untitled',
+                    artist: 'Yui Yaegashi',
+                    year: '2014',
+                    rule: {
+                        "monday": [28, 1, 8, 13],
+                        "tuesday": [26, 1, 7, 12],  
+                        "wednesday":[25, 30, 6, 11], 
+                        "thursday": [25, 30, 6, 13], 
+                        "friday": [1, 6, 12, 17],  
+                        "saturday": [30, 2, 10, 6],  
+                        "sunday": [29, 3, 10, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

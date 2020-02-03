@@ -12004,6 +12004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 601,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/my-dress-hangs-there-1933.jpeg',
+                    title: 'My Dress Hangs There',
+                    artist: 'Frida Kahlo',
+                    year: '1933',
+                    rule: {
+                        "monday": [23, 25, 4, 20],
+                        "tuesday": [22, 25, 3, 19], 
+                        "wednesday": [21, 24, 2, 18], 
+                        "thursday": [27, 31, 8, 24], 
+                        "friday": [26, 29, 7, 23], 
+                        "saturday": [24, 29, 6, 22], 
+                        "sunday": [24, 26, 5, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 602,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/constructivist-composition-1921.jpeg',
+                    title: 'Constructivist Composition',
+                    artist: 'Lajos Kassak',
+                    year: '1921',
+                    rule: {
+                        "monday": [25, 27, 6, 22],
+                        "tuesday": [24, 26, 5, 21], 
+                        "wednesday": [23, 26, 4, 20], 
+                        "thursday": [22, 25, 3, 19], 
+                        "friday": [28, 1, 9, 25], 
+                        "saturday": [27, 30, 8, 24], 
+                        "sunday": [25, 30, 7, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 603,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/etretat-1902-1.jpeg',
+                    title: 'Etretat',
+                    artist: 'Gustave Loiseau',
+                    year: '1902',
+                    rule: {
+                        "monday": [25, 30, 7, 23],
+                        "tuesday": [25, 27, 6, 22], 
+                        "wednesday": [24, 26, 5, 21], 
+                        "thursday": [23, 26, 4, 20], 
+                        "friday": [22, 25, 3, 19], 
+                        "saturday": [28, 1, 9, 25],  
+                        "sunday": [27, 30, 8, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 604,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/my-room-has-two-doors-1939.jpeg',
+                    title: 'My Room Has Two Doors',
+                    artist: 'Kay Sage',
+                    year: '1939',
+                    rule: {
+                        "monday": [27, 30, 8, 24],
+                        "tuesday": [25, 30, 7, 23], 
+                        "wednesday": [25, 27, 6, 22], 
+                        "thursday": [24, 26, 5, 21], 
+                        "friday": [23, 26, 4, 20], 
+                        "saturday": [22, 25, 3, 19], 
+                        "sunday": [28, 1, 9, 25]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 605,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/spring-landscape-1904(1).jpeg',
+                    title: 'Spring Landscape',
+                    artist: 'Emil Carlsen',
+                    year: '1904',
+                    rule: {
+                        "monday": [28, 1, 9, 25],
+                        "tuesday": [27, 30, 8, 24], 
+                        "wednesday": [25, 30, 7, 23], 
+                        "thursday": [25, 27, 6, 22], 
+                        "friday": [24, 26, 5, 21], 
+                        "saturday": [23, 26, 4, 20], 
+                        "sunday": [22, 25, 3, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

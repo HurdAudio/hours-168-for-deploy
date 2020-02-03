@@ -2848,6 +2848,42 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 238,
+                    user_author_id: 1,
+                    theme: 'Reggae',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2821560997/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://music.dubfx.com/album/roots',
+                    a_string: 'ROOTS by Dub Fx',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 239,
+                    user_author_id: 1,
+                    theme: 'Reggae',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2197929213/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true',
+                    href_string: 'http://evidencemusic.bandcamp.com/album/tuff-like-iron',
+                    a_string: 'Tuff Like Iron by Iron Dubz',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 240,
+                    user_author_id: 1,
+                    theme: 'Reggae',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3658334166/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://moonshinerecordings.bandcamp.com/album/politician',
+                    a_string: 'Politician by Dubbing Sun, Echo Ranks, Radikal Guru',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

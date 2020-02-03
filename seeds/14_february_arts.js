@@ -13204,6 +13204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 661,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/image-asset-lonn.jpeg',
+                    title: 'Man with Food for Cow, Mugaga, Kenya',
+                    artist: 'Lonnie Graham',
+                    year: '1982',
+                    rule: {
+                        "monday": [18, 28, 24, 14],
+                        "tuesday": [8, 16, 24, 3],  
+                        "wednesday": [9, 18, 26, 5],  
+                        "thursday": [15, 20, 26, 7], 
+                        "friday": [14, 22, 1, 9],  
+                        "saturday": [16, 26, 3, 9],  
+                        "sunday": [18, 26, 5, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 662,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Grant-PhDfullsize_RGB_72dpi_800px.jpg',
+                    title: 'How to Pronounce Ph.D.',
+                    artist: 'Deborah Grant',
+                    year: '2007',
+                    rule: {
+                        "monday": [18, 26, 5, 15],
+                        "tuesday": [18, 28, 24, 14],
+                        "wednesday": [8, 16, 24, 3],  
+                        "thursday": [9, 18, 26, 5],  
+                        "friday": [15, 20, 26, 7], 
+                        "saturday": [14, 22, 1, 9],  
+                        "sunday": [16, 26, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 663,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/todd-gray-s9.jpg',
+                    title: 'Euclidean Gris Gris',
+                    artist: 'Todd Gray',
+                    year: '2019',
+                    rule: {
+                        "monday": [16, 26, 3, 9],
+                        "tuesday": [18, 26, 5, 15], 
+                        "wednesday": [18, 28, 24, 14],
+                        "thursday": [8, 16, 24, 3],  
+                        "friday": [9, 18, 26, 5],  
+                        "saturday": [15, 20, 26, 7], 
+                        "sunday": [14, 22, 1, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 664,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Training.jpg',
+                    title: 'Training',
+                    artist: 'Leamon Green',
+                    year: '2016',
+                    rule: {
+                        "monday": [14, 22, 1, 9],
+                        "tuesday": [16, 26, 3, 9],  
+                        "wednesday": [18, 26, 5, 15], 
+                        "thursday": [18, 28, 24, 14],
+                        "friday": [8, 16, 24, 3],  
+                        "saturday": [9, 18, 26, 5],  
+                        "sunday": [15, 20, 26, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 665,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/2004-069_GREEN_A_num4000_nr-1536x1151.jpg',
+                    title: 'Commemorative Toile',
+                    artist: 'Renée Green',
+                    year: '1992',
+                    rule: {
+                        "monday": [16, 21, 27, 8],
+                        "tuesday": [15, 23, 2, 10],  
+                        "wednesday": [17, 27, 4, 10], 
+                        "thursday": [19, 27, 6, 16],
+                        "friday": [19, 29, 25, 15],  
+                        "saturday": [9, 17, 25, 4],  
+                        "sunday": [10, 19, 27, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

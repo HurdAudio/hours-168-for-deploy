@@ -13004,6 +13004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 651,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/Soledad-Sevilla-untitled-1969-4.jpeg',
+                    title: 'Untitled',
+                    artist: 'Soledad Sevilla',
+                    year: '1969',
+                    rule: {
+                        "monday": [29, 8, 16, 26],
+                        "tuesday": [28, 8, 15, 25], 
+                        "wednesday": [27, 6, 14, 24], 
+                        "thursday": [26, 5, 14, 23], 
+                        "friday": [1, 10, 20, 28], 
+                        "saturday": [31, 10, 18, 28], 
+                        "sunday": [29, 9, 17, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 652,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/shedmesh-1976.jpeg',
+                    title: 'Shedmesh',
+                    artist: 'Phyllida Barlow',
+                    year: '1976',
+                    rule: {
+                        "monday": [29, 9, 17, 27],
+                        "tuesday": [29, 8, 16, 26], 
+                        "wednesday": [28, 8, 15, 25], 
+                        "thursday": [27, 6, 14, 24], 
+                        "friday": [26, 5, 14, 23], 
+                        "saturday": [1, 10, 20, 28], 
+                        "sunday": [31, 10, 18, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 653,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-white-hexagon-1964.jpeg',
+                    title: 'Untitled (White Hexagon)',
+                    artist: 'Mary Corse',
+                    year: '1964',
+                    rule: {
+                        "monday": [31, 10, 18, 28],
+                        "tuesday": [29, 9, 17, 27], 
+                        "wednesday": [29, 8, 16, 26], 
+                        "thursday": [28, 8, 15, 25], 
+                        "friday": [27, 6, 14, 24], 
+                        "saturday": [26, 5, 14, 23], 
+                        "sunday": [1, 10, 20, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 654,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-art-of-human-being-collection-1987.jpeg',
+                    title: 'The Art of Human Being Collection',
+                    artist: 'Laurel Burch',
+                    year: '1987',
+                    rule: {
+                        "monday": [1, 10, 20, 28],
+                        "tuesday": [31, 10, 18, 28],
+                        "wednesday": [29, 9, 17, 27], 
+                        "thursday": [29, 8, 16, 26], 
+                        "friday": [28, 8, 15, 25], 
+                        "saturday": [27, 6, 14, 24], 
+                        "sunday": [26, 5, 14, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 655,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/malibu-line-1978.jpeg',
+                    title: 'Malibu Line',
+                    artist: 'Lita Albuquerque',
+                    year: '1978',
+                    rule: {
+                        "monday": [26, 5, 14, 23],
+                        "tuesday": [1, 10, 20, 28], 
+                        "wednesday": [31, 10, 18, 28],
+                        "thursday": [29, 9, 17, 27], 
+                        "friday": [29, 8, 16, 26], 
+                        "saturday": [28, 8, 15, 25], 
+                        "sunday": [27, 6, 14, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

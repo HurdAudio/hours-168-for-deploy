@@ -11604,6 +11604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 581,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_sovpolpost_00111.jpg',
+                    title: 'Constitution of the USA',
+                    artist: '?',
+                    year: '1981',
+                    rule: {
+                        "monday": [25, 5, 16, 20],
+                        "tuesday": [24, 4, 16, 19], 
+                        "wednesday": [23, 3, 14, 18], 
+                        "thursday": [22, 2, 12, 17],
+                        "friday": [31, 1, 12, 16], 
+                        "saturday": [27, 7, 18, 22], 
+                        "sunday": [26, 6, 17, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 582,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_myth-reality.jpg',
+                    title: 'Myth and reality',
+                    artist: 'V.Slepukhin',
+                    year: '1984',
+                    rule: {
+                        "monday": [26, 6, 17, 21],
+                        "tuesday": [25, 5, 16, 20], 
+                        "wednesday": [24, 4, 16, 19], 
+                        "thursday": [23, 3, 14, 18], 
+                        "friday": [22, 2, 12, 17], 
+                        "saturday": [31, 1, 12, 16], 
+                        "sunday": [27, 7, 18, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 583,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_flower_bomb.jpg',
+                    title: 'Peace symbol flower is growing out of the broken bomb',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 7, 18, 22],
+                        "tuesday": [26, 6, 17, 21], 
+                        "wednesday": [25, 5, 16, 20], 
+                        "thursday": [24, 4, 16, 19], 
+                        "friday": [23, 3, 14, 18], 
+                        "saturday": [22, 2, 12, 17], 
+                        "sunday": [31, 1, 12, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 584,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_flag_wrap.jpg',
+                    title: 'Nuclear and Hydrogen bombs wrapped into an American flag',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [31, 1, 12, 16],
+                        "tuesday": [27, 7, 18, 22], 
+                        "wednesday": [26, 6, 17, 21], 
+                        "thursday": [25, 5, 16, 20], 
+                        "friday": [24, 4, 16, 19], 
+                        "saturday": [23, 3, 14, 18], 
+                        "sunday": [22, 2, 12, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 585,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_paint_brush.jpg',
+                    title: 'We will use for peace all our strength, not to have mushrooms like this raised.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [22, 2, 12, 17],
+                        "tuesday": [31, 1, 12, 16], 
+                        "wednesday": [27, 7, 18, 22], 
+                        "thursday": [26, 6, 17, 21], 
+                        "friday": [25, 5, 16, 20], 
+                        "saturday": [24, 4, 16, 19], 
+                        "sunday": [23, 3, 14, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

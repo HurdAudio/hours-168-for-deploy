@@ -12804,6 +12804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 641,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/5a15475b2908e5ad5b0425f9e6f609a4.jpg',
+                    title: 'Mariners Oil Painting',
+                    artist: 'Ethan Jack Art',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 3, 9, 15],
+                        "tuesday": [28, 3, 9, 15],  
+                        "wednesday": [27, 2, 8, 14],  
+                        "thursday": [2, 8, 13, 19],  
+                        "friday": [16, 6, 12, 18], 
+                        "saturday": [1, 4, 17, 18],  
+                        "sunday": [30, 4, 19, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 642,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/oldschool_ms_jersey.jpeg',
+                    title: 'Majestic Seattle Mariners Youth Royal Baseball Stripes Cooperstown Collection Ringer T-Shirt',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 4, 19, 17],
+                        "tuesday": [27, 3, 9, 15],  
+                        "wednesday": [28, 3, 9, 15],  
+                        "thursday": [27, 2, 8, 14],  
+                        "friday": [2, 8, 13, 19],  
+                        "saturday": [16, 6, 12, 18], 
+                        "sunday": [1, 4, 17, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 643,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/1491114-large-seattle-mariners-hd-wallpaper-2560x1440.jpg',
+                    title: 'Seattle Mariners Background',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 4, 17, 18],
+                        "tuesday": [30, 4, 19, 17], 
+                        "wednesday": [27, 3, 9, 15],  
+                        "thursday": [28, 3, 9, 15],  
+                        "friday": [27, 2, 8, 14],  
+                        "saturday": [2, 8, 13, 19],  
+                        "sunday": [16, 6, 12, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 644,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/pilotswordlogos.jpg',
+                    title: 'Seattle Pilots Logo',
+                    artist: '?',
+                    year: 'XX cent.',
+                    rule: {
+                        "monday": [17, 7, 13, 19],
+                        "tuesday": [2, 5, 18, 19], 
+                        "wednesday": [1, 5, 20, 18],  
+                        "thursday": [28, 4, 10, 16],  
+                        "friday": [29, 4, 10, 16],  
+                        "saturday": [28, 3, 9, 15],  
+                        "sunday": [17, 9, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 645,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Seattle-Mariners-MLB-Picks-King-Felix-Hernandez.jpg',
+                    title: 'Cleveland Indians vs. Seattle Mariners 32918-Free Pick, MLB Betting Odds',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [17, 9, 14, 20],
+                        "tuesday": [17, 7, 13, 19], 
+                        "wednesday": [2, 5, 18, 19],  
+                        "thursday": [1, 5, 20, 18],  
+                        "friday": [28, 4, 10, 16], 
+                        "saturday": [29, 4, 10, 16], 
+                        "sunday": [28, 3, 9, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

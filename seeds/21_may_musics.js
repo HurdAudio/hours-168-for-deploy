@@ -6754,6 +6754,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 376,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=502739173/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jenkutler.bandcamp.com/album/disembodied',
+                    a_string: 'Disembodied by Jen Kutler',
+                    rule: {
+                        "monday": [25, 31, 7, 20],
+                        "tuesday": [24, 30, 6, 19], 
+                        "wednesday": [23, 29, 5, 18], 
+                        "thursday": [22, 28, 4, 17], 
+                        "saturday": [21, 27, 3, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 377,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3065399038/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://tradingwreckage.bandcamp.com/album/moistured-bag',
+                    a_string: 'Moistured Bag by Reece McLean',
+                    rule: {
+                        "monday": [21, 27, 3, 16],
+                        "tuesday": [25, 31, 7, 20], 
+                        "wednesday": [24, 30, 6, 19], 
+                        "thursday": [23, 29, 5, 18], 
+                        "saturday": [22, 28, 4, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 378,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1773224882/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://dave-phillips.bandcamp.com/album/post-homo-sapiens',
+                    a_string: 'post homo sapiens by dave phillips',
+                    rule: {
+                        "monday": [23, 29, 5, 18],
+                        "tuesday": [22, 28, 4, 17], 
+                        "wednesday": [26, 1, 8, 21], 
+                        "thursday": [25, 31, 7, 20], 
+                        "saturday": [24, 30, 6, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

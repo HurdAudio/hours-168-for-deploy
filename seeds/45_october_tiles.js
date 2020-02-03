@@ -1418,6 +1418,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#F8F6ED',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 102,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/pumpkin_by_istealurface_d1r43ui-fullview.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#0B0A09',
+                    color_medium: '#DC8934',
+                    color_light: '#F6FEFF',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

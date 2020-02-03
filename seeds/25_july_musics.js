@@ -6538,6 +6538,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 364,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1771736739/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://prophetla.bandcamp.com/album/dont-forget-it',
+                    a_string: 'Don&#39;t Forget It by Prophet',
+                    rule: {
+                        "monday": [19, 21, 25, 2],
+                        "tuesday": [23, 25, 29, 6], 
+                        "wednesday": [22, 24, 28, 5], 
+                        "thursday": [21, 23, 27, 4], 
+                        "saturday": [20, 21, 26, 3]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 365,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3866782869/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://grimalkinrecords.bandcamp.com/album/veraniegas',
+                    a_string: 'Veraniegas by kate can wait',
+                    rule: {
+                        "monday": [20, 21, 26, 3],
+                        "tuesday": [19, 21, 25, 2], 
+                        "wednesday": [23, 25, 29, 6], 
+                        "thursday": [22, 24, 28, 5], 
+                        "saturday": [21, 23, 27, 4]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 366,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3698946174/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recondite-music.bandcamp.com/album/dwell',
+                    a_string: 'Dwell by Recondite',
+                    rule: {
+                        "monday": [21, 23, 27, 4],
+                        "tuesday": [20, 21, 26, 3], 
+                        "wednesday": [19, 21, 25, 2], 
+                        "thursday": [23, 25, 29, 6], 
+                        "saturday": [22, 24, 28, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

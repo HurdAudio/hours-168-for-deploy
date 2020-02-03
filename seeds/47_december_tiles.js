@@ -1390,6 +1390,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#EAEBED',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 100,
+                    user_id: 1,
+                    theme: 'Snow',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/path_through_the_snowy_forest_by_pajunen_ddmuvuu-pre.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#262B2E',
+                    color_medium: '#6F8087',
+                    color_light: '#DEDDE2',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -11627,6 +11627,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 748,
+                    user_id: 1,
+                    name: 'Eve Beglarian (composer) born 1958.',
+                    color: '#7388C8',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/tumblr_pz0p6mW2l41xf5zj0o1_400.jpg',
+                    day_of: new Date('1958-07-22  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=3478230392/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3559409829/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3439089081/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4172480169/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1309266938/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=565780380/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['http://evbvd.bandcamp.com/album/songs-from-the-river-project-volume-3', 'http://evbvd.bandcamp.com/album/play-like-a-girl', 'http://evbvd.bandcamp.com/album/songs-from-the-river-project-volume-2', 'http://evbvd.bandcamp.com/album/songs-from-the-river-project-volume-1', 'http://evbvd.bandcamp.com/album/play-nice', 'http://evbvd.bandcamp.com/album/overstepping'],
+                        "a_strings": ['Songs from the River Project, Volume 3 by Eve Beglarian', 'Play Like a Girl by Eve Beglarian', 'Songs from the River Project, Volume 2 by Eve Beglarian', 'Songs from the River Project, Volume 1 by BRIM', 'Play Nice by twisted tutu', 'Overstepping by Eve Beglarian']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 749,
+                    user_id: 1,
+                    name: 'Frances E.W. Harper (abolitionist/poet/suffragist/teacher/public speaker/writer) born 1825',
+                    color: '#E5E5E5',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Frances-EW-Harper-portrait.jpg',
+                    day_of: new Date('1825-09-24  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

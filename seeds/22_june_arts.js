@@ -12404,6 +12404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 621,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fire_station_by_smallcurryleaf_ddpjass-pre.jpg',
+                    title: 'fire station',
+                    artist: 'katy (SmallCurryLeaf)',
+                    year: '2020',
+                    rule: {
+                        "monday": [23, 3, 13, 21],
+                        "tuesday": [22, 2, 12, 20], 
+                        "wednesday": [28, 8, 18, 25], 
+                        "thursday": [27, 7, 18, 25], 
+                        "friday": [26, 6, 16, 14], 
+                        "saturday": [25, 5, 15, 22], 
+                        "sunday": [4, 14, 24, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 622,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/depot_by_forlorntreasures_ddpjp95-fullview.jpg',
+                    title: 'Depot',
+                    artist: 'ForlornTreasures',
+                    year: '2020',
+                    rule: {
+                        "monday": [4, 14, 24, 22],
+                        "tuesday": [23, 3, 13, 21], 
+                        "wednesday": [22, 2, 12, 20], 
+                        "thursday": [28, 8, 18, 25], 
+                        "friday": [27, 7, 18, 25], 
+                        "saturday": [26, 6, 16, 14], 
+                        "sunday": [25, 5, 15, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 623,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/59vwcabriolet_by_felixffds_ddpkezv-pre.jpg',
+                    title: '59VWCabriolet',
+                    artist: 'FelixFFDS',
+                    year: '2020',
+                    rule: {
+                        "monday": [26, 6, 16, 23],
+                        "tuesday": [5, 15, 25, 23], 
+                        "wednesday": [24, 4, 14, 22], 
+                        "thursday": [23, 3, 13, 21], 
+                        "friday": [29, 9, 19, 26], 
+                        "saturday": [28, 8, 19, 26], 
+                        "sunday": [27, 7, 17, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 624,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/frecce_tricolori_by_james147741_ddh9gg6-fullview.jpg',
+                    title: 'Frecce Tricolori',
+                    artist: 'James McDonald',
+                    year: '2020',
+                    rule: {
+                        "monday": [27, 7, 17, 15],
+                        "tuesday": [26, 6, 16, 23], 
+                        "wednesday": [5, 15, 25, 23], 
+                        "thursday": [24, 4, 14, 22], 
+                        "friday": [23, 3, 13, 21], 
+                        "saturday": [29, 9, 19, 26], 
+                        "sunday": [28, 8, 19, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 625,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/venice_by_nukkenfutz_ddpkrgo-pre.jpg',
+                    title: 'Venice',
+                    artist: 'Nekkenfutz',
+                    year: '2020',
+                    rule: {
+                        "monday": [28, 8, 19, 26],
+                        "tuesday": [27, 7, 17, 15], 
+                        "wednesday": [26, 6, 16, 23], 
+                        "thursday": [5, 15, 25, 23], 
+                        "friday": [24, 4, 14, 22], 
+                        "saturday": [23, 3, 13, 21], 
+                        "sunday": [29, 9, 19, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

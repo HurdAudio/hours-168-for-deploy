@@ -11204,6 +11204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 561,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/06-00,GoldenGoblin2.jpg',
+                    title: 'The Golden Goblin',
+                    artist: 'George F. Kerr',
+                    year: '1906',
+                    rule: {
+                        "monday": [21, 2, 11, 17],
+                        "tuesday": [20, 2, 10, 16], 
+                        "wednesday": [19, 1, 9, 15],  
+                        "thursday": [18, 31, 8, 14], 
+                        "friday": [17, 29, 28, 13],
+                        "saturday": [6, 29, 17, 24], 
+                        "sunday": [22, 4, 12, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 562,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-03,ScyMT.jpg',
+                    title: 'Saucy Movie Tales',
+                    artist: 'H. C. Kiefer',
+                    year: '1936',
+                    rule: {
+                        "monday": [22, 4, 12, 18],
+                        "tuesday": [21, 2, 11, 17], 
+                        "wednesday": [20, 2, 10, 16], 
+                        "thursday": [19, 1, 9, 15],  
+                        "friday": [18, 31, 8, 14], 
+                        "saturday": [17, 29, 28, 13],
+                        "sunday": [6, 29, 17, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 563,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/32-06,AceHi.jpg',
+                    title: 'Ace-High',
+                    artist: 'H. W. Kiemle',
+                    year: '1932',
+                    rule: {
+                        "monday": [6, 29, 17, 24],
+                        "tuesday": [22, 4, 12, 18], 
+                        "wednesday": [21, 2, 11, 17], 
+                        "thursday": [20, 2, 10, 16], 
+                        "friday": [19, 1, 9, 15],  
+                        "saturday": [18, 31, 8, 14], 
+                        "sunday": [17, 29, 28, 13] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 564,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/41-10,ClassicComics1.jpg',
+                    title: 'Classic Comics',
+                    artist: 'Malcolm Kildale',
+                    year: '1940',
+                    rule: {
+                        "monday": [17, 29, 28, 13],
+                        "tuesday": [6, 29, 17, 24], 
+                        "wednesday": [22, 4, 12, 18], 
+                        "thursday": [21, 2, 11, 17], 
+                        "friday": [20, 2, 10, 16], 
+                        "saturday": [19, 1, 9, 15],  
+                        "sunday": [18, 31, 8, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 565,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/42-08,ZipComics.jpg',
+                    title: 'Zip Comics',
+                    artist: 'Warren King',
+                    year: '1942',
+                    rule: {
+                        "monday": [18, 31, 8, 14],
+                        "tuesday": [17, 29, 28, 13],
+                        "wednesday": [6, 29, 17, 24], 
+                        "thursday": [22, 4, 12, 18], 
+                        "friday": [21, 2, 11, 17], 
+                        "saturday": [20, 2, 10, 16], 
+                        "sunday": [19, 1, 9, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

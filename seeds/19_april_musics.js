@@ -6862,6 +6862,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 382,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3574590170/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ddhorns.bandcamp.com/album/dd-horns',
+                    a_string: 'DD Horns by DD Horns',
+                    rule: {
+                        "monday": [28, 6, 18, 23],
+                        "tuesday": [27, 4, 17, 22], 
+                        "wednesday": [26, 4, 16, 21], 
+                        "thursday": [25, 3, 14, 20], 
+                        "saturday": [24, 2, 14, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 383,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3258206667/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jazzandpeople.bandcamp.com/album/gil-evans-paris-workshop-laurent-cugny-spoonful',
+                    a_string: 'Gil Evans Paris Workshop - Laurent Cugny &quot;Spoonful&quot; by Gil Evans Paris Workshop - Laurent Cugny',
+                    rule: {
+                        "monday": [24, 2, 14, 19],
+                        "tuesday": [28, 6, 18, 23], 
+                        "wednesday": [27, 4, 17, 22], 
+                        "thursday": [26, 4, 16, 21], 
+                        "saturday": [25, 3, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 384,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2766546390/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mem3.bandcamp.com/album/circles',
+                    a_string: 'Circles by MEM3',
+                    rule: {
+                        "monday": [25, 3, 14, 20],
+                        "tuesday": [24, 2, 14, 19], 
+                        "wednesday": [28, 6, 18, 23], 
+                        "thursday": [27, 4, 17, 22], 
+                        "saturday": [26, 4, 16, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

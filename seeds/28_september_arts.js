@@ -11804,6 +11804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 591,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/dull-amaranth-disk-1966.jpeg',
+                    title: 'Dull-Amaranth Disk',
+                    artist: 'Gianni Piacentino',
+                    year: '1966',
+                    rule: {
+                        "monday": [26, 2, 20, 28],
+                        "tuesday": [25, 30, 19, 27],
+                        "wednesday": [23, 30, 18, 26],
+                        "thursday": [23, 29, 17, 25],
+                        "friday": [12, 28, 16, 25],
+                        "saturday": [11, 18, 15, 23],
+                        "sunday": [19, 26, 14, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 592,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/avec-les-deux-lustres-furniture-sculpture-1993.jpeg',
+                    title: 'Avec les deux lustres (Furniture Sculpture)',
+                    artist: 'John Armleder',
+                    year: '1993',
+                    rule: {
+                        "monday": [19, 26, 14, 21],
+                        "tuesday": [26, 2, 20, 28], 
+                        "wednesday": [25, 30, 19, 27],
+                        "thursday": [23, 30, 18, 26],
+                        "friday": [23, 29, 17, 25],
+                        "saturday": [12, 28, 16, 25],
+                        "sunday": [11, 18, 15, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 593,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/rits-rats-2004.jpeg',
+                    title: 'Rits rats',
+                    artist: 'Rune Jansson',
+                    year: '2004',
+                    rule: {
+                        "monday": [11, 18, 15, 23],
+                        "tuesday": [19, 26, 14, 21],
+                        "wednesday": [26, 2, 20, 28], 
+                        "thursday": [25, 30, 19, 27],
+                        "friday": [23, 30, 18, 26],
+                        "saturday": [23, 29, 17, 25],
+                        "sunday": [12, 28, 16, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 594,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/iras-1959.jpeg',
+                    title: 'Iras',
+                    artist: 'Olle Baertling',
+                    year: '1959',
+                    rule: {
+                        "monday": [12, 28, 16, 25],
+                        "tuesday": [11, 18, 15, 23],
+                        "wednesday": [19, 26, 14, 21],
+                        "thursday": [26, 2, 20, 28], 
+                        "friday": [25, 30, 19, 27],
+                        "saturday": [23, 30, 18, 26],
+                        "sunday": [23, 29, 17, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 595,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-moralistic-moon-dualism-1955.jpeg',
+                    title: 'The Moralistic Moon Dualism',
+                    artist: 'Friedrich Schroder-Sonnenstern',
+                    year: '1955',
+                    rule: {
+                        "monday": [24, 30, 18, 26],
+                        "tuesday": [13, 29, 17, 26],
+                        "wednesday": [12, 19, 16, 24],
+                        "thursday": [20, 27, 15, 22], 
+                        "friday": [27, 3, 21, 29],
+                        "saturday": [26, 1, 20, 28],
+                        "sunday": [24, 1, 19, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

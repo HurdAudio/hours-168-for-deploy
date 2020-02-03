@@ -1404,6 +1404,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#FEFEFE',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 101,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/monochromatic_reflections_by_anshiazhoriel_d1uwjei-fullview.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#363940',
+                    color_medium: '#A78D74',
+                    color_light: '#DFE8F1',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

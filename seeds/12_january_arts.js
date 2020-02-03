@@ -13404,6 +13404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 671,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/contra-composition-vii-1924.jpeg',
+                    title: 'Contra-Composition VII',
+                    artist: 'Theo van Doesburg',
+                    year: '1924',
+                    rule: {
+                        "monday": [10, 11, 2, 6],
+                        "tuesday": [13, 15, 16, 18],
+                        "wednesday": [15, 17, 21, 24],
+                        "thursday": [17, 19, 20, 21],
+                        "friday": [5, 7, 30, 19],  
+                        "saturday": [5, 7, 30, 19],  
+                        "sunday": [10, 8, 31, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 672,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-z-viii-1924.jpeg',
+                    title: 'Composition Z VIII',
+                    artist: 'Laszlo Moholy-Nagy',
+                    year: '1924',
+                    rule: {
+                        "monday": [11, 9, 1, 4],
+                        "tuesday": [11, 12, 3, 7],
+                        "wednesday": [14, 16, 17, 19],
+                        "thursday": [16, 18, 22, 25],
+                        "friday": [18, 20, 21, 22],  
+                        "saturday": [6, 8, 31, 20],  
+                        "sunday": [6, 8, 31, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 673,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/red-glove-and-white-glove-1924.jpeg',
+                    title: 'Red Glove and White Glove',
+                    artist: 'Georges Papazoff',
+                    year: '1924',
+                    rule: {
+                        "monday": [6, 8, 31, 20],
+                        "tuesday": [11, 9, 1, 4],   
+                        "wednesday": [11, 12, 3, 7],  
+                        "thursday": [14, 16, 17, 19],
+                        "friday": [16, 18, 22, 25],
+                        "saturday": [18, 20, 21, 22],
+                        "sunday": [6, 8, 31, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 674,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/1924-first-abstract-painting-chelsea-1924.jpeg',
+                    title: '1924 (first abstract painting, Chelsea)',
+                    artist: 'Ben Nicholson',
+                    year: 'c.1923 - 1924',
+                    rule: {
+                        "monday": [6, 8, 31, 20],
+                        "tuesday": [6, 8, 31, 20],  
+                        "wednesday": [11, 9, 1, 4],   
+                        "thursday": [11, 12, 3, 7],  
+                        "friday": [14, 16, 17, 19],
+                        "saturday": [16, 18, 22, 25],
+                        "sunday": [18, 20, 21, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 675,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1924.jpeg',
+                    title: 'composition',
+                    artist: 'David Kakabadze',
+                    year: '1924',
+                    rule: {
+                        "monday": [18, 20, 21, 22],
+                        "tuesday": [6, 8, 31, 20],  
+                        "wednesday": [6, 8, 31, 20],  
+                        "thursday": [11, 9, 1, 4],   
+                        "friday": [11, 12, 3, 7],  
+                        "saturday": [14, 16, 17, 19],
+                        "sunday": [16, 18, 22, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

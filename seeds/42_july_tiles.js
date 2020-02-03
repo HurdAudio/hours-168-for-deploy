@@ -1460,6 +1460,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#E3D6C0',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 105,
+                    user_id: 1,
+                    theme: 'Steam',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/samovar-4548477_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#02040B',
+                    color_medium: '#BB5336',
+                    color_light: '#E4F5FF',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

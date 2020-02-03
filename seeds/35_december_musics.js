@@ -5998,6 +5998,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 334,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3910140530/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://fabianalmazan.bandcamp.com/album/this-land-abounds-with-life',
+                    a_string: 'This Land Abounds With Life by Fabian Almazan',
+                    rule: {
+                        "monday": [18, 26, 1, 7],
+                        "tuesday": [19, 25, 31, 6], 
+                        "wednesday": [23, 29, 4, 10], 
+                        "thursday": [22, 28, 3, 9],  
+                        "saturday": [19, 27, 2, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 335,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1818528971/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://daymearocena.bandcamp.com/album/sonocardiogram',
+                    a_string: 'Sonocardiogram by Daymé Arocena',
+                    rule: {
+                        "monday": [19, 27, 2, 8],
+                        "tuesday": [18, 26, 1, 7],  
+                        "wednesday": [19, 25, 31, 6], 
+                        "thursday": [23, 29, 4, 10], 
+                        "saturday": [22, 28, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 336,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=981719982/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://davidvirelles.bandcamp.com/album/igb-al-ko-rin-the-singer-s-grove-vol-i-and-ii',
+                    a_string: 'Igbó Alákọrin (The Singer’s Grove) Vol. I and II by David Virelles',
+                    rule: {
+                        "monday": [23, 29, 4, 10],
+                        "tuesday": [20, 28, 3, 9],  
+                        "wednesday": [19, 27, 2, 8], 
+                        "thursday": [20, 26, 1, 7], 
+                        "saturday": [24, 30, 5, 11]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

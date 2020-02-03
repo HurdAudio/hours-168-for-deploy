@@ -12204,6 +12204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 611,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/portrait-of-mme-d-aguesseau.jpeg',
+                    title: 'Portrait of Mme D\'Aguesseau',
+                    artist: 'Louise Elisabeth Vigee Le Brun',
+                    year: 'c.1770',
+                    rule: {
+                        "monday": [22, 2, 24, 25],
+                        "tuesday": [27, 5, 18, 29], 
+                        "wednesday": [27, 4, 18, 29], 
+                        "thursday": [25, 5, 17, 28], 
+                        "friday": [25, 5, 16, 17], 
+                        "saturday": [24, 4, 14, 16], 
+                        "sunday": [21, 1, 23, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 612,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/portrait-of-an-elderly-lady-with-her-daughter.jpeg',
+                    title: 'Portrait of an elderly lady with her daughter',
+                    artist: 'Anne Vallayer-Coster',
+                    year: '?',
+                    rule: {
+                        "monday": [21, 1, 23, 24],
+                        "tuesday": [22, 2, 24, 25], 
+                        "wednesday": [27, 5, 18, 29], 
+                        "thursday": [27, 4, 18, 29], 
+                        "friday": [25, 5, 17, 28], 
+                        "saturday": [25, 5, 16, 17], 
+                        "sunday": [24, 4, 14, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 613,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-shepherdess-1752.jpeg',
+                    title: 'The Shepherdess',
+                    artist: 'Jean-Honore Fragonard',
+                    year: 'c.1750 - c.1752',
+                    rule: {
+                        "monday": [24, 4, 14, 16],
+                        "tuesday": [21, 1, 23, 24], 
+                        "wednesday": [22, 2, 24, 25], 
+                        "thursday": [27, 5, 18, 29], 
+                        "friday": [27, 4, 18, 29], 
+                        "saturday": [25, 5, 17, 28], 
+                        "sunday": [25, 5, 16, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 614,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/studies-of-men-s-hands.jpeg',
+                    title: 'Studies of men\'s hands',
+                    artist: 'Maurice Quentin de La Tour',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 5, 16, 17],
+                        "tuesday": [24, 4, 14, 16], 
+                        "wednesday": [21, 1, 23, 24], 
+                        "thursday": [22, 2, 24, 25], 
+                        "friday": [27, 5, 18, 29], 
+                        "saturday": [27, 4, 18, 29], 
+                        "sunday": [25, 5, 17, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 615,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-attributes-of-painting-and-sculpture.jpeg',
+                    title: 'The Attributes of Painting and Sculpture',
+                    artist: 'Jean-Baptiste-Simeon Chardin',
+                    year: 'c.1728',
+                    rule: {
+                        "monday": [25, 5, 17, 28],
+                        "tuesday": [25, 5, 16, 17], 
+                        "wednesday": [24, 4, 14, 16], 
+                        "thursday": [21, 1, 23, 24], 
+                        "friday": [22, 2, 24, 25], 
+                        "saturday": [27, 5, 18, 29], 
+                        "sunday": [27, 4, 18, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
