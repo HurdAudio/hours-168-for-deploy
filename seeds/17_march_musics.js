@@ -7024,6 +7024,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 391,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=634545499/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://annpeebles.bandcamp.com/album/straight-from-the-heart',
+                    a_string: 'Straight From The Heart by Ann Peebles',
+                    rule: {
+                        "monday": [29, 4, 9, 18],
+                        "tuesday": [28, 3, 9, 18],  
+                        "wednesday": [26, 2, 8, 16],  
+                        "thursday": [26, 1, 7, 15],  
+                        "saturday": [30, 5, 11, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 392,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2780304104/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://annpeebles.bandcamp.com/album/i-cant-stand-the-rain',
+                    a_string: 'I Can&#39;t Stand The Rain by Ann Peebles',
+                    rule: {
+                        "monday": [31, 6, 12, 20],
+                        "tuesday": [30, 5, 10, 19],  
+                        "wednesday": [29, 4, 10, 19],  
+                        "thursday": [27, 3, 9, 17],  
+                        "saturday": [27, 2, 8, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 393,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1655917537/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://annpeebles.bandcamp.com/album/greatest-hits',
+                    a_string: 'Greatest Hits by Ann Peebles',
+                    rule: {
+                        "monday": [27, 2, 8, 16],
+                        "tuesday": [31, 6, 12, 20], 
+                        "wednesday": [30, 5, 10, 19], 
+                        "thursday": [29, 4, 10, 19], 
+                        "saturday": [27, 3, 9, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

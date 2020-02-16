@@ -11904,6 +11904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 596,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/yellow-green-abstract-watercolor-art-on-paper-nr-g-616-2007.jpeg',
+                    title: '\'Yellow & Green\' - abstract watercolor art - drip-painting on paper - nr. G 616',
+                    artist: 'Daan Lemaire',
+                    year: '2007',
+                    rule: {
+                        "monday": [24, 1, 19, 27],
+                        "tuesday": [24, 30, 18, 26],
+                        "wednesday": [13, 29, 17, 26],
+                        "thursday": [12, 19, 16, 24],
+                        "friday": [20, 27, 15, 22],
+                        "saturday": [27, 3, 21, 29], 
+                        "sunday": [26, 1, 20, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 597,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1971.jpeg',
+                    title: 'Untitled',
+                    artist: 'Mario Prassinos',
+                    year: '1971',
+                    rule: {
+                        "monday": [26, 1, 20, 28],
+                        "tuesday": [24, 1, 19, 27], 
+                        "wednesday": [24, 30, 18, 26],
+                        "thursday": [13, 29, 17, 26],
+                        "friday": [12, 19, 16, 24],
+                        "saturday": [20, 27, 15, 22],
+                        "sunday": [27, 3, 21, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 598,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/number-2-1950.jpeg',
+                    title: 'Number 2',
+                    artist: 'Bradley Walker Tomlin',
+                    year: '1950',
+                    rule: {
+                        "monday": [27, 3, 21, 29],
+                        "tuesday": [26, 1, 20, 28], 
+                        "wednesday": [24, 1, 19, 27], 
+                        "thursday": [24, 30, 18, 26],
+                        "friday": [13, 29, 17, 26],
+                        "saturday": [12, 19, 16, 24],
+                        "sunday": [20, 27, 15, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 599,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/heliogravuren-zu-den-documenta-bildern-1993.jpeg',
+                    title: 'Heliogravuren zu den Documenta Bildern',
+                    artist: 'Gunther Forg',
+                    year: '1993',
+                    rule: {
+                        "monday": [21, 28, 16, 23],
+                        "tuesday": [28, 4, 22, 30], 
+                        "wednesday": [27, 2, 21, 29], 
+                        "thursday": [25, 2, 20, 28],
+                        "friday": [25, 1, 19, 27],
+                        "saturday": [14, 30, 18, 27],
+                        "sunday": [13, 20, 17, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 600,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-sea-at-odessa-2002.jpeg',
+                    title: 'The Sea at Odessa',
+                    artist: 'Constantin Flondor',
+                    year: '2002',
+                    rule: {
+                        "monday": [13, 20, 17, 25],
+                        "tuesday": [21, 28, 16, 23],
+                        "wednesday": [28, 4, 22, 30], 
+                        "thursday": [27, 2, 21, 29], 
+                        "friday": [25, 2, 20, 28], 
+                        "saturday": [25, 1, 19, 27], 
+                        "sunday": [14, 30, 18, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

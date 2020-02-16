@@ -12104,6 +12104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 606,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/illustration-for-oscar-wilde-s-salome-1927-1.jpeg',
+                    title: 'Illustration for Oscar Wilde\'s \'Salome\'',
+                    artist: 'John Vassos',
+                    year: '1927',
+                    rule: {
+                        "monday": [22, 25, 3, 19],
+                        "tuesday": [28, 1, 9, 25],  
+                        "wednesday": [27, 30, 8, 24], 
+                        "thursday": [25, 30, 7, 23], 
+                        "friday": [25, 27, 6, 22], 
+                        "saturday": [24, 26, 5, 21], 
+                        "sunday": [23, 26, 4, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 607,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-walchensee-mountains-wreathed-in-cloud-1925.jpeg',
+                    title: 'The Walchensee-Mountains Wreathed in Cloud',
+                    artist: 'Lovis Corinth',
+                    year: '1925',
+                    rule: {
+                        "monday": [23, 26, 4, 20],
+                        "tuesday": [22, 25, 3, 19], 
+                        "wednesday": [28, 1, 9, 25],  
+                        "thursday": [27, 30, 8, 24], 
+                        "friday": [25, 30, 7, 23], 
+                        "saturday": [25, 27, 6, 22], 
+                        "sunday": [24, 26, 5, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 608,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/genius-of-the-species-1938.jpeg',
+                    title: 'Genius of the Species',
+                    artist: 'Wolfgang Paalen',
+                    year: '1938',
+                    rule: {
+                        "monday": [24, 26, 5, 21],
+                        "tuesday": [23, 26, 4, 20], 
+                        "wednesday": [22, 25, 3, 19], 
+                        "thursday": [28, 1, 9, 25],  
+                        "friday": [27, 30, 8, 24], 
+                        "saturday": [25, 30, 7, 23], 
+                        "sunday": [25, 27, 6, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 609,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-year-s-at-the-spring-1920-41.jpeg',
+                    title: 'The Year\'s at the Spring',
+                    artist: 'Harry Clarke',
+                    year: '1920',
+                    rule: {
+                        "monday": [26, 28, 7, 23],
+                        "tuesday": [25, 27, 6, 22], 
+                        "wednesday": [24, 27, 5, 21], 
+                        "thursday": [23, 26, 4, 20],  
+                        "friday": [29, 2, 10, 26], 
+                        "saturday": [28, 31, 9, 25], 
+                        "sunday": [26, 31, 8, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 610,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-lamplighter-1921.jpeg',
+                    title: 'The Lamplighter',
+                    artist: 'Sandor Bortnyik',
+                    year: '1921',
+                    rule: {
+                        "monday": [26, 31, 8, 24],
+                        "tuesday": [26, 28, 7, 23], 
+                        "wednesday": [25, 27, 6, 22], 
+                        "thursday": [24, 27, 5, 21], 
+                        "friday": [23, 26, 4, 20], 
+                        "saturday": [29, 2, 10, 26], 
+                        "sunday": [28, 31, 9, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

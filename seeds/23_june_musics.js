@@ -6700,6 +6700,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 373,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2679730887/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://soundinsilencerecords.bandcamp.com/album/crystalline',
+                    a_string: 'Crystalline by worriedaboutsatan',
+                    rule: {
+                        "monday": [23, 26, 1, 13],
+                        "tuesday": [22, 25, 1, 12], 
+                        "wednesday": [22, 25, 1, 11], 
+                        "thursday": [20, 28, 30, 15],
+                        "saturday": [24, 28, 4, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 374,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=201531684/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://neotantra.bandcamp.com/album/t-ntr',
+                    a_string: 'tʌntrə by Various',
+                    rule: {
+                        "monday": [24, 28, 4, 15],
+                        "tuesday": [23, 26, 1, 13], 
+                        "wednesday": [22, 25, 1, 12], 
+                        "thursday": [22, 25, 1, 11], 
+                        "saturday": [20, 28, 30, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 375,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=538844455/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://archivesdubmusic.bandcamp.com/album/wildlife-addendum',
+                    a_string: 'Wildlife Addendum by Warmth',
+                    rule: {
+                        "monday": [20, 28, 30, 15],
+                        "tuesday": [24, 28, 4, 15], 
+                        "wednesday": [23, 26, 1, 13], 
+                        "thursday": [22, 25, 1, 12], 
+                        "saturday": [22, 25, 1, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -12504,6 +12504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 626,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/somewhere_in_portugal_119_by_jacac_ddq4s3x-pre.jpg',
+                    title: 'Somewhere in Portugal 119',
+                    artist: 'José Calheiros',
+                    year: '2020',
+                    rule: {
+                        "monday": [29, 9, 19, 26],
+                        "tuesday": [28, 8, 19, 26], 
+                        "wednesday": [27, 7, 17, 15], 
+                        "thursday": [26, 6, 16, 23], 
+                        "friday": [5, 15, 25, 23], 
+                        "saturday": [24, 4, 14, 22], 
+                        "sunday": [23, 3, 13, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 627,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/do_you_dare__by_erdbeersternchen_ddq5i4a-pre.jpg',
+                    title: 'Do you dare?',
+                    artist: 'Erdbeersternchen',
+                    year: '2020',
+                    rule: {
+                        "monday": [23, 3, 13, 21],
+                        "tuesday": [29, 9, 19, 26], 
+                        "wednesday": [28, 8, 19, 26], 
+                        "thursday": [27, 7, 17, 15], 
+                        "friday": [26, 6, 16, 23], 
+                        "saturday": [5, 15, 25, 23], 
+                        "sunday": [24, 4, 14, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 628,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/atavistic_by_lady_schnaps_ddq58an-fullview.jpg',
+                    title: 'Atavistic',
+                    artist: 'Lady-Schnaps',
+                    year: '2020',
+                    rule: {
+                        "monday": [24, 4, 14, 22],
+                        "tuesday": [23, 3, 13, 21], 
+                        "wednesday": [29, 9, 19, 26], 
+                        "thursday": [28, 8, 19, 26], 
+                        "friday": [27, 7, 17, 15], 
+                        "saturday": [26, 6, 16, 23], 
+                        "sunday": [5, 15, 25, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 629,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/identity_disorder_by_lady_schnaps_ddienp7-fullview.jpg',
+                    title: 'Identity Disorder',
+                    artist: 'Lady-Schnaps',
+                    year: '2019',
+                    rule: {
+                        "monday": [5, 15, 25, 23],
+                        "tuesday": [24, 4, 14, 22], 
+                        "wednesday": [23, 3, 13, 21], 
+                        "thursday": [29, 9, 19, 26], 
+                        "friday": [28, 8, 19, 26], 
+                        "saturday": [27, 7, 17, 15], 
+                        "sunday": [26, 6, 16, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 630,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/terra_incognita_by_lady_schnaps_ddf1avm-fullview.jpg',
+                    title: 'Terra Incognita',
+                    artist: 'Lady-Schnaps',
+                    year: '2019',
+                    rule: {
+                        "monday": [27, 7, 17, 24],
+                        "tuesday": [6, 16, 26, 24], 
+                        "wednesday": [25, 5, 15, 23], 
+                        "thursday": [24, 4, 14, 22], 
+                        "friday": [30, 10, 20, 27], 
+                        "saturday": [29, 9, 20, 27], 
+                        "sunday": [28, 8, 18, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

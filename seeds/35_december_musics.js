@@ -6052,6 +6052,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 337,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3488192441/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://teutlimiranda.bandcamp.com/album/cre-siendo',
+                    a_string: 'Cre é Siendo by Teutli Miranda',
+                    rule: {
+                        "monday": [24, 30, 5, 11],
+                        "tuesday": [23, 29, 4, 10], 
+                        "wednesday": [20, 28, 3, 9],  
+                        "thursday": [19, 27, 2, 8],  
+                        "saturday": [20, 26, 1, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 338,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3036986073/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://spacegoatmx.bandcamp.com/album/spacegoat-e-p',
+                    a_string: 'Spacegoat E.P. by Spacegoat',
+                    rule: {
+                        "monday": [20, 26, 1, 7],
+                        "tuesday": [24, 30, 5, 11], 
+                        "wednesday": [23, 29, 4, 10], 
+                        "thursday": [20, 28, 3, 9],  
+                        "saturday": [19, 27, 2, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 339,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2585117380/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://calypsorecordsmx.bandcamp.com/album/sangoma',
+                    a_string: 'Sangoma by Kolago Kult',
+                    rule: {
+                        "monday": [19, 27, 2, 8],
+                        "tuesday": [20, 26, 1, 7],  
+                        "wednesday": [24, 30, 5, 11], 
+                        "thursday": [23, 29, 4, 10], 
+                        "saturday": [20, 28, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

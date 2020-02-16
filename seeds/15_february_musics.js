@@ -7132,6 +7132,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 397,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2620663447/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://tyfarris.com/album/no-cosign-just-cocaine-3',
+                    a_string: 'No Cosign Just Cocaine 3 by Ty Farris',
+                    rule: {
+                        "monday": [18, 12, 14, 20],
+                        "tuesday": [1, 5, 7, 11],   
+                        "wednesday": [4, 7, 9, 11],   
+                        "thursday": [15, 9, 11, 13], 
+                        "saturday": [17, 11, 13, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 398,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4079952691/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://annpeebles.bandcamp.com/album/part-time-love',
+                    a_string: 'Part Time Love by Ann Peebles',
+                    rule: {
+                        "monday": [17, 11, 13, 19],
+                        "tuesday": [18, 12, 14, 20],
+                        "wednesday": [1, 5, 7, 11],   
+                        "thursday": [4, 7, 9, 11],   
+                        "saturday": [15, 9, 11, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 399,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=859695233/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://annpeebles.bandcamp.com/album/tellin-it',
+                    a_string: 'Tellin&#39; It by Ann Peebles',
+                    rule: {
+                        "monday": [16, 10, 12, 14],
+                        "tuesday": [18, 12, 14, 20],
+                        "wednesday": [19, 13, 15, 21],   
+                        "thursday": [2, 6, 8, 12],   
+                        "saturday": [5, 8, 10, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

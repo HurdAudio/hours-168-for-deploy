@@ -11704,6 +11704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 586,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_peaceful_people.jpg',
+                    title: 'We (are) - a peaceful people',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [23, 3, 14, 18],
+                        "tuesday": [22, 2, 12, 17], 
+                        "wednesday": [31, 1, 12, 16], 
+                        "thursday": [27, 7, 18, 22], 
+                        "friday": [26, 6, 17, 21], 
+                        "saturday": [25, 5, 16, 20], 
+                        "sunday": [24, 4, 16, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 587,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_peace_needed.jpg',
+                    title: 'We need peace',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [24, 4, 16, 19],
+                        "tuesday": [23, 3, 14, 18], 
+                        "wednesday": [22, 2, 12, 17], 
+                        "thursday": [31, 1, 12, 16], 
+                        "friday": [27, 7, 18, 22], 
+                        "saturday": [26, 6, 17, 21], 
+                        "sunday": [25, 5, 16, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 588,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_planet_peace.jpg',
+                    title: 'Peace, Harmony, Equity, Progress. Planet Earth.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [26, 6, 17, 21],
+                        "tuesday": [25, 5, 17, 20], 
+                        "wednesday": [24, 4, 15, 19], 
+                        "thursday": [23, 3, 13, 18], 
+                        "friday": [1, 2, 13, 17], 
+                        "saturday": [28, 8, 19, 23], 
+                        "sunday": [27, 7, 18, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 589,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_peace_chalk.jpg',
+                    title: 'Peace Mir',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 7, 18, 22],
+                        "tuesday": [26, 6, 17, 21], 
+                        "wednesday": [25, 5, 17, 20], 
+                        "thursday": [24, 4, 15, 19], 
+                        "friday": [23, 3, 13, 18], 
+                        "saturday": [1, 2, 13, 17],  
+                        "sunday": [28, 8, 19, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 590,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_peace_birds.jpg',
+                    title: 'Nuclear energy - to serve peace and progress!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 8, 19, 23],
+                        "tuesday": [27, 7, 18, 22], 
+                        "wednesday": [26, 6, 17, 21], 
+                        "thursday": [25, 5, 17, 20], 
+                        "friday": [24, 4, 15, 19], 
+                        "saturday": [23, 3, 13, 18], 
+                        "sunday": [1, 2, 13, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

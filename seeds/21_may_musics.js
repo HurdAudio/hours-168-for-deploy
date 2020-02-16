@@ -6808,6 +6808,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 379,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=396142671/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://cudighirecords.bandcamp.com/album/nya-perspektiv',
+                    a_string: 'Nya Perspektiv by TV dinner Education',
+                    rule: {
+                        "monday": [24, 30, 6, 19],
+                        "tuesday": [23, 29, 5, 18], 
+                        "wednesday": [22, 28, 4, 17], 
+                        "thursday": [26, 1, 8, 21],  
+                        "saturday": [25, 31, 7, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 380,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2544936951/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://noticerecordings.bandcamp.com/album/in-low-light-music-for-the-winter-solstice',
+                    a_string: 'In Low Light (Music for the Winter Solstice) by Mike Weis',
+                    rule: {
+                        "monday": [25, 31, 7, 20],
+                        "tuesday": [24, 30, 6, 19], 
+                        "wednesday": [23, 29, 5, 18], 
+                        "thursday": [22, 28, 4, 17], 
+                        "saturday": [26, 1, 8, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 381,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3734815619/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://eunhyejeong.bandcamp.com/album/the-colliding-beings-chi-da',
+                    a_string: 'The Colliding Beings, Chi-Da by Eunhye Jeong (Audioguy)',
+                    rule: {
+                        "monday": [26, 1, 8, 21],
+                        "tuesday": [25, 31, 7, 20], 
+                        "wednesday": [24, 30, 6, 19], 
+                        "thursday": [23, 29, 5, 18], 
+                        "saturday": [22, 28, 4, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

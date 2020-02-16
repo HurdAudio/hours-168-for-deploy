@@ -6916,6 +6916,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 385,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1020863419/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://intlanthem.bandcamp.com/album/suite-for-max-brown',
+                    a_string: 'Suite for Max Brown by Jeff Parker',
+                    rule: {
+                        "monday": [27, 5, 17, 22],
+                        "tuesday": [26, 4, 15, 21], 
+                        "wednesday": [25, 3, 15, 20], 
+                        "thursday": [29, 7, 19, 24], 
+                        "saturday": [28, 5, 18, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2223288217/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://murielgrossmann.bandcamp.com/album/reverence',
+                    a_string: 'EVERENCE by Muriel Grossmann',
+                    rule: {
+                        "monday": [28, 5, 18, 23],
+                        "tuesday": [27, 5, 17, 22], 
+                        "wednesday": [26, 4, 15, 21], 
+                        "thursday": [25, 3, 15, 20], 
+                        "saturday": [29, 7, 19, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=762715109/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://samuelestrufaldi.bandcamp.com/album/115k',
+                    a_string: '1.15K by Samuele Strufaldi, Tommaso Rosati',
+                    rule: {
+                        "monday": [29, 7, 19, 24],
+                        "tuesday": [28, 5, 18, 23], 
+                        "wednesday": [27, 5, 17, 22], 
+                        "thursday": [26, 4, 15, 21], 
+                        "saturday": [25, 3, 15, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

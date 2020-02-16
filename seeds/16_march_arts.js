@@ -13104,6 +13104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 656,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-2010___.jpeg',
+                    title: 'Untitled',
+                    artist: 'Harriet Korman',
+                    year: '2010',
+                    rule: {
+                        "monday": [27, 6, 14, 24],
+                        "tuesday": [26, 5, 14, 23], 
+                        "wednesday": [1, 10, 20, 28], 
+                        "thursday": [31, 10, 18, 28],
+                        "friday": [29, 9, 17, 27], 
+                        "saturday": [29, 8, 16, 26], 
+                        "sunday": [28, 8, 15, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 657,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/mrl-1992.jpeg',
+                    title: 'MRL',
+                    artist: 'Isa Genzken',
+                    year: '1992',
+                    rule: {
+                        "monday": [28, 8, 15, 25],
+                        "tuesday": [27, 6, 14, 24], 
+                        "wednesday": [26, 5, 14, 23], 
+                        "thursday": [1, 10, 20, 28], 
+                        "friday": [31, 10, 18, 28],
+                        "saturday": [29, 9, 17, 27], 
+                        "sunday": [29, 8, 16, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 658,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/two-thugs-and-a-victim-victim-from-flying-to-the-moon-1987.jpeg',
+                    title: 'Two Thugs and a Victim – Victim, from Flying to the Moon',
+                    artist: 'Wanda Koop',
+                    year: '1987',
+                    rule: {
+                        "monday": [30, 9, 17, 27],
+                        "tuesday": [29, 9, 16, 26], 
+                        "wednesday": [28, 7, 15, 25], 
+                        "thursday": [27, 6, 15, 24], 
+                        "friday": [2, 11, 21, 29],
+                        "saturday": [1, 11, 19, 29], 
+                        "sunday": [30, 10, 18, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 659,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/sh-h-1992.jpeg',
+                    title: 'sh-h',
+                    artist: 'Leiko Ikemura',
+                    year: '1992',
+                    rule: {
+                        "monday": [30, 10, 18, 28],
+                        "tuesday": [30, 9, 17, 27], 
+                        "wednesday": [29, 9, 16, 26], 
+                        "thursday": [28, 7, 15, 25], 
+                        "friday": [27, 6, 15, 24], 
+                        "saturday": [2, 11, 21, 29], 
+                        "sunday": [1, 11, 19, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 660,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-1985_Rosmarie.jpeg',
+                    title: 'Untitled',
+                    artist: 'Rosemarie Trockel',
+                    year: '1985',
+                    rule: {
+                        "monday": [1, 11, 19, 29],
+                        "tuesday": [30, 10, 18, 28],
+                        "wednesday": [30, 9, 17, 27], 
+                        "thursday": [29, 9, 16, 26], 
+                        "friday": [28, 7, 15, 25], 
+                        "saturday": [27, 6, 15, 24], 
+                        "sunday": [2, 11, 21, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

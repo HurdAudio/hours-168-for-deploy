@@ -12904,6 +12904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 646,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/d3crlx4-1258994b-195d-4847-b0c1-54bec022f67d.jpg',
+                    title: 'st. louis cardinals drawing 2',
+                    artist: 'Jason (Coldstone02)',
+                    year: '2011',
+                    rule: {
+                        "monday": [28, 3, 9, 15],
+                        "tuesday": [17, 9, 14, 20], 
+                        "wednesday": [17, 7, 13, 19], 
+                        "thursday": [2, 5, 18, 19],  
+                        "friday": [1, 5, 20, 18],  
+                        "saturday": [28, 4, 10, 16], 
+                        "sunday": [29, 4, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 647,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/st-louis-cardinals-whitey-kurowski_1_454d64083023973a2306cd3b1ea9d5c6.jpg',
+                    title: 'St Louis Cardinals Whitey Kurowski Sporting News',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 4, 10, 16],
+                        "tuesday": [28, 3, 9, 15],  
+                        "wednesday": [17, 9, 14, 20], 
+                        "thursday": [17, 7, 13, 19], 
+                        "friday": [2, 5, 18, 19],  
+                        "saturday": [1, 5, 20, 18],  
+                        "sunday": [28, 4, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 648,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Wong-Small.jpg',
+                    title: 'Kolten Wong',
+                    artist: 'Lauren Heimbaugh',
+                    year: '2015',
+                    rule: {
+                        "monday": [28, 4, 10, 16],
+                        "tuesday": [29, 4, 10, 16], 
+                        "wednesday": [28, 3, 9, 15],  
+                        "thursday": [17, 9, 14, 20], 
+                        "friday": [17, 7, 13, 19], 
+                        "saturday": [2, 5, 18, 19],  
+                        "sunday": [1, 5, 20, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 649,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/st._louis_cardinals_logo_step_06.png',
+                    title: 'Learn how to draw St. Louis Cardinals Logo',
+                    artist: 'EasyDrawEverything.com',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 5, 20, 18],
+                        "tuesday": [28, 4, 10, 16], 
+                        "wednesday": [29, 4, 10, 16], 
+                        "thursday": [28, 3, 9, 15],  
+                        "friday": [17, 9, 14, 20], 
+                        "saturday": [17, 7, 13, 19], 
+                        "sunday": [2, 5, 18, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 650,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/st-louis-skyline-drawing-39.jpg',
+                    title: 'St. Louis Clipart',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 5, 18, 19],
+                        "tuesday": [1, 5, 20, 18],  
+                        "wednesday": [28, 4, 10, 16], 
+                        "thursday": [29, 4, 10, 16], 
+                        "friday": [28, 3, 9, 15],  
+                        "saturday": [17, 9, 14, 20], 
+                        "sunday": [17, 7, 13, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6268,6 +6268,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 349,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1559414888/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://shop.alonasdreamrecords.com/album/live-in-chicago-1979',
+                    a_string: 'Live In Chicago 1979 by The Only Ones',
+                    rule: {
+                        "monday": [23, 2, 12, 15],
+                        "tuesday": [27, 6, 16, 19], 
+                        "wednesday": [26, 5, 15, 18], 
+                        "thursday": [25, 5, 14, 17], 
+                        "saturday": [24, 3, 14, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 350,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2577349813/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://11pmrecords.bandcamp.com/album/2020',
+                    a_string: '2020 by Subliminal Excess',
+                    rule: {
+                        "monday": [25, 4, 15, 17],
+                        "tuesday": [24, 3, 13, 16], 
+                        "wednesday": [28, 7, 17, 20], 
+                        "thursday": [27, 6, 16, 19], 
+                        "saturday": [26, 6, 15, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 351,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=362574344/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://dotx3.bandcamp.com/album/noxeema-3',
+                    a_string: 'Noxeema by dotx3',
+                    rule: {
+                        "monday": [26, 6, 15, 18],
+                        "tuesday": [25, 4, 15, 17], 
+                        "wednesday": [24, 3, 13, 16], 
+                        "thursday": [28, 7, 17, 20], 
+                        "saturday": [27, 6, 16, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

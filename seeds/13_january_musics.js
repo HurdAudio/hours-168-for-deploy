@@ -7240,6 +7240,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 403,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=459798035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://othermindsrecords.bandcamp.com/album/the-sixth-extinction-press-conference-with-the-permian-triassic-rhap-and-the-choral-ode-to-planet-earth',
+                    a_string: 'The Sixth Extinction Press Conference with The Permian Triassic Rhap and The Choral Ode To Planet Earth by Sheila Davies Sumner',
+                    rule: {
+                        "monday": [4, 10, 11, 13],
+                        "tuesday": [3, 10, 11, 12], 
+                        "wednesday": [2, 8, 9, 10],   
+                        "thursday": [1, 8, 9, 10],   
+                        "saturday": [5, 12, 13, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 404,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=997166064/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/each-flows-into-the-other',
+                    a_string: 'Each flows into the other by R. Andrew Lee',
+                    rule: {
+                        "monday": [5, 12, 13, 14],
+                        "tuesday": [4, 10, 11, 13], 
+                        "wednesday": [3, 10, 11, 12], 
+                        "thursday": [2, 8, 9, 10],   
+                        "saturday": [1, 8, 9, 10]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 405,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=162015708/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/pentecost-2',
+                    a_string: 'Pentecost by Scott Blasco',
+                    rule: {
+                        "monday": [1, 8, 9, 10],
+                        "tuesday": [5, 12, 13, 14], 
+                        "wednesday": [4, 10, 11, 13], 
+                        "thursday": [3, 10, 11, 12], 
+                        "saturday": [2, 8, 9, 10]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

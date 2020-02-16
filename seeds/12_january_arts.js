@@ -13504,6 +13504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 676,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/constructive-decorative-composition-1924-2.jpeg',
+                    title: 'Constructive-decorative composition',
+                    artist: 'David Kakabadze',
+                    year: '1924',
+                    rule: {
+                        "monday": [16, 18, 22, 25],
+                        "tuesday": [18, 20, 21, 22],
+                        "wednesday": [6, 8, 31, 20],  
+                        "thursday": [6, 8, 31, 20],  
+                        "friday": [11, 9, 1, 4],   
+                        "saturday": [11, 12, 3, 7],  
+                        "sunday": [14, 16, 17, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 677,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/constructive-decorative-composition-1924-6.jpeg',
+                    title: 'Constructive-decorative composition',
+                    artist: 'David Kakabadze',
+                    year: '1924',
+                    rule: {
+                        "monday": [14, 16, 17, 19],
+                        "tuesday": [16, 18, 22, 25],
+                        "wednesday": [18, 20, 21, 22],
+                        "thursday": [6, 8, 31, 20],  
+                        "friday": [6, 8, 31, 20],  
+                        "saturday": [11, 9, 1, 4],   
+                        "sunday": [11, 12, 3, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 678,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/kontrasty-mekanofakturowe-1924.jpeg',
+                    title: 'Kontrasty Mekanofakturowe',
+                    artist: 'Henryk Berlewi',
+                    year: '1924',
+                    rule: {
+                        "monday": [11, 12, 3, 7],
+                        "tuesday": [14, 16, 17, 19],
+                        "wednesday": [16, 18, 22, 25],
+                        "thursday": [18, 20, 21, 22],
+                        "friday": [6, 8, 31, 20],  
+                        "saturday": [6, 8, 31, 20],  
+                        "sunday": [11, 9, 1, 4]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 679,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/mechano-faktura-1924.jpeg',
+                    title: 'Mechano-Faktura',
+                    artist: 'Henryk Berlewi',
+                    year: '1924',
+                    rule: {
+                        "monday": [12, 10, 2, 5],
+                        "tuesday": [12, 13, 4, 8],
+                        "wednesday": [15, 17, 18, 20],
+                        "thursday": [17, 19, 23, 26],
+                        "friday": [19, 21, 22, 23],  
+                        "saturday": [7, 9, 1, 21],  
+                        "sunday": [7, 9, 1, 21]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 680,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/1924-lights-edit-1.jpeg',
+                    title: 'Lights + Sounds of a Night Train',
+                    artist: 'Benedetta Cappa',
+                    year: '1924',
+                    rule: {
+                        "monday": [7, 9, 1, 21],
+                        "tuesday": [12, 10, 2, 5],  
+                        "wednesday": [12, 13, 4, 8],  
+                        "thursday": [15, 17, 18, 20],
+                        "friday": [17, 19, 23, 26],
+                        "saturday": [19, 21, 22, 23],
+                        "sunday": [7, 9, 1, 21]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

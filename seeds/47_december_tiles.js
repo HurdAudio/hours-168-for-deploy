@@ -1404,6 +1404,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#DEDDE2',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 101,
+                    user_id: 1,
+                    theme: 'Snow',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/hotel-2158962_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#0F162A',
+                    color_medium: '#49456B',
+                    color_light: '#F3F6FF',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

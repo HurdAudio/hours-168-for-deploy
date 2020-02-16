@@ -11504,6 +11504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 576,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/yui-yaegashi-060-1-1.jpeg',
+                    title: 'untitled',
+                    artist: 'Yui Yaegashi',
+                    year: '2015',
+                    rule: {
+                        "monday": [29, 3, 10, 13],
+                        "tuesday": [28, 1, 8, 13],  
+                        "wednesday":[26, 1, 7, 12],  
+                        "thursday": [25, 30, 6, 11], 
+                        "friday": [25, 30, 6, 13], 
+                        "saturday": [1, 6, 12, 17],  
+                        "sunday": [30, 2, 10, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 577,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/yy088-1.jpeg',
+                    title: 'Untitled',
+                    artist: 'Yui Yaegashi',
+                    year: '2016',
+                    rule: {
+                        "monday": [30, 2, 10, 6],
+                        "tuesday": [29, 3, 10, 13], 
+                        "wednesday":[28, 1, 8, 13],  
+                        "thursday": [26, 1, 7, 12],  
+                        "friday": [25, 30, 6, 11], 
+                        "saturday": [25, 30, 6, 13], 
+                        "sunday": [1, 6, 12, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 578,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/yy091-1.jpeg',
+                    title: 'Violet No. 2',
+                    artist: 'Yui Yaegashi',
+                    year: '2017',
+                    rule: {
+                        "monday": [1, 6, 12, 17],
+                        "tuesday": [30, 2, 10, 6],  
+                        "wednesday":[29, 3, 10, 13], 
+                        "thursday": [28, 1, 8, 13],  
+                        "friday": [26, 1, 7, 12],  
+                        "saturday": [25, 30, 6, 11], 
+                        "sunday": [25, 30, 6, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 579,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/raw-2.jpeg',
+                    title: 'Hyper Ellipsoid (Gold Aqua)',
+                    artist: 'Gisela Colon',
+                    year: '2017',
+                    rule: {
+                        "monday": [25, 30, 6, 13],
+                        "tuesday": [1, 6, 12, 17],  
+                        "wednesday":[30, 2, 10, 6],  
+                        "thursday": [29, 3, 10, 13], 
+                        "friday": [28, 1, 8, 13],  
+                        "saturday": [26, 1, 7, 12],  
+                        "sunday": [25, 30, 6, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 580,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/enter.jpeg',
+                    title: 'Enter',
+                    artist: 'Robert Ryman',
+                    year: 'XX cent.',
+                    rule: {
+                        "monday": [25, 30, 6, 11],
+                        "tuesday": [25, 30, 6, 13], 
+                        "wednesday":[1, 6, 12, 17],  
+                        "thursday": [30, 2, 10, 6],  
+                        "friday": [29, 3, 10, 13], 
+                        "saturday": [28, 1, 8, 13],  
+                        "sunday": [26, 1, 7, 12]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

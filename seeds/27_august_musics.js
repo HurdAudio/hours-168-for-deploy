@@ -6484,6 +6484,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 361,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=660951842/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://paraphrasetimberne.bandcamp.com/album/please-advise',
+                    a_string: 'Please Advise by Paraphrase &amp; Tim Berne',
+                    rule: {
+                        "monday": [30, 7, 20, 19],
+                        "tuesday": [29, 6, 19, 18], 
+                        "wednesday": [28, 5, 18, 17], 
+                        "thursday": [27, 4, 17, 16], 
+                        "saturday": [31, 8, 21, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 362,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3190600263/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://brakophonic.bandcamp.com/album/tors-hammare-thors-hammer-fisk-sviten-the-fish-suite',
+                    a_string: 'Tors Hammare // Thor&#39;s Hammer // Fisk sviten // The Fish Suite by Gunnar Backman, Brakophonic , The World',
+                    rule: {
+                        "monday": [31, 8, 21, 20],
+                        "tuesday": [30, 7, 20, 19], 
+                        "wednesday": [29, 6, 19, 18], 
+                        "thursday": [28, 5, 18, 17], 
+                        "saturday": [27, 4, 17, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 363,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2069933630/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://brakophonic.bandcamp.com/album/tors-hammare-the-sami-out-tapes',
+                    a_string: 'Tors Hammare // The Sami Out-Tapes by Tors Hammare // Thor&#39;s Hammer',
+                    rule: {
+                        "monday": [27, 4, 17, 16],
+                        "tuesday": [31, 8, 21, 20], 
+                        "wednesday": [30, 7, 20, 19], 
+                        "thursday": [29, 6, 19, 18], 
+                        "saturday": [28, 5, 18, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

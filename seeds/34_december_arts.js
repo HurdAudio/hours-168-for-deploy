@@ -11304,6 +11304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 566,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/49-00,Avon-712.jpg',
+                    title: 'Avon Paperback Cover',
+                    artist: 'Everett Raymond Kinstler',
+                    year: '1949',
+                    rule: {
+                        "monday": [19, 1, 9, 15],
+                        "tuesday": [18, 31, 8, 14], 
+                        "wednesday": [17, 29, 28, 13],
+                        "thursday": [6, 29, 17, 24], 
+                        "friday": [22, 4, 12, 18], 
+                        "saturday": [21, 2, 11, 17], 
+                        "sunday": [20, 2, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 567,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-00,Illus5.jpg',
+                    title: 'pulp illustration',
+                    artist: 'Harry Kirchner',
+                    year: '1935',
+                    rule: {
+                        "monday": [21, 3, 11, 17],
+                        "tuesday": [20, 2, 10, 16], 
+                        "wednesday": [19, 1, 9, 15],
+                        "thursday": [18, 30, 29, 14], 
+                        "friday": [7, 30, 18, 25], 
+                        "saturday": [23, 5, 13, 19], 
+                        "sunday": [22, 3, 12, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 568,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-10,LvFctMtly3.jpg',
+                    title: 'Love Fiction',
+                    artist: 'Alice Kirkpatrick',
+                    year: '1937',
+                    rule: {
+                        "monday": [22, 3, 12, 18],
+                        "tuesday": [21, 3, 11, 17], 
+                        "wednesday": [20, 2, 10, 16], 
+                        "thursday": [19, 1, 9, 15],  
+                        "friday": [18, 30, 29, 14],
+                        "saturday": [7, 30, 18, 25], 
+                        "sunday": [23, 5, 13, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 569,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/43-00,CrimeNovel.jpg',
+                    title: 'Crime Novel',
+                    artist: 'George Klein',
+                    year: '1943',
+                    rule: {
+                        "monday": [23, 5, 13, 19],
+                        "tuesday": [22, 3, 12, 18], 
+                        "wednesday": [21, 3, 11, 17], 
+                        "thursday": [20, 2, 10, 16], 
+                        "friday": [19, 1, 9, 15],  
+                        "saturday": [18, 30, 29, 14],
+                        "sunday": [7, 30, 18, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 570,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/46-07,MamAdv.jpg',
+                    title: 'Mammoth Adventures',
+                    artist: 'Arnold Kohn',
+                    year: '1946',
+                    rule: {
+                        "monday": [7, 30, 18, 25],
+                        "tuesday": [23, 5, 13, 19], 
+                        "wednesday": [22, 3, 12, 18], 
+                        "thursday": [21, 3, 11, 17], 
+                        "friday": [20, 2, 10, 16], 
+                        "saturday": [19, 1, 9, 15],  
+                        "sunday": [18, 30, 29, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

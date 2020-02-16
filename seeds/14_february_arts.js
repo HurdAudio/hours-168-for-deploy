@@ -13304,6 +13304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 666,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/dirtybones1.jpg',
+                    title: 'Dirty Bones',
+                    artist: 'Mario Gully',
+                    year: '?',
+                    rule: {
+                        "monday": [10, 19, 27, 6],
+                        "tuesday": [16, 21, 27, 8], 
+                        "wednesday": [15, 23, 2, 10], 
+                        "thursday": [17, 27, 4, 10], 
+                        "friday": [19, 27, 6, 16], 
+                        "saturday": [19, 29, 25, 15],
+                        "sunday": [9, 17, 25, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 667,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/article00_1064x.jpg',
+                    title: 'The Times',
+                    artist: 'Tyree Guyton',
+                    year: '2017',
+                    rule: {
+                        "monday": [9, 17, 25, 4],
+                        "tuesday": [10, 19, 27, 6], 
+                        "wednesday": [16, 21, 27, 8], 
+                        "thursday": [15, 23, 2, 10], 
+                        "friday": [17, 27, 4, 10], 
+                        "saturday": [19, 27, 6, 16], 
+                        "sunday": [19, 29, 25, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 668,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/54896617fd48ea62a268af39a7122ef9.jpg',
+                    title: 'The Unfinished March',
+                    artist: 'Ed Hamilton',
+                    year: '?',
+                    rule: {
+                        "monday": [19, 29, 25, 15],
+                        "tuesday": [9, 17, 25, 4],  
+                        "wednesday": [10, 19, 27, 6], 
+                        "thursday": [16, 21, 27, 8], 
+                        "friday": [15, 23, 2, 10], 
+                        "saturday": [17, 27, 4, 10], 
+                        "sunday": [19, 27, 6, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 669,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/2010Hammie-350.jpg',
+                    title: 'Homunculus',
+                    artist: 'Patrick Earl Hammie',
+                    year: '2010',
+                    rule: {
+                        "monday": [19, 27, 6, 16],
+                        "tuesday": [19, 29, 25, 15],
+                        "wednesday": [9, 17, 25, 4],  
+                        "thursday": [10, 19, 27, 6], 
+                        "friday": [16, 21, 27, 8], 
+                        "saturday": [15, 23, 2, 10], 
+                        "sunday": [17, 27, 4, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 670,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/jjacksonasawhitemanprovoked.jpeg',
+                    title: 'How Ya Like Me Now?',
+                    artist: 'David Hammons',
+                    year: '1988',
+                    rule: {
+                        "monday": [17, 27, 4, 10],
+                        "tuesday": [19, 27, 6, 16], 
+                        "wednesday": [19, 29, 25, 15],
+                        "thursday": [9, 17, 25, 4],  
+                        "friday": [10, 19, 27, 6], 
+                        "saturday": [16, 21, 27, 8], 
+                        "sunday": [15, 23, 2, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

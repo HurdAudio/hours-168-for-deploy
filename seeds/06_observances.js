@@ -11660,6 +11660,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 750,
+                    user_id: 1,
+                    name: 'Jessica Pavone (violinst/violist/composer) born 1976.',
+                    color: '#6E311C',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/A-484272-1269341453.jpg',
+                    day_of: new Date('1976-12-17  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=592229490/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4260345228/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1341618477/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2049191518/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4017614520/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2914064702/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=412760955/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1363539984/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3741430214/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1232055467/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['http://jessicapavone.bandcamp.com/album/brick-and-mortar', 'http://jessicapavone.bandcamp.com/album/in-the-action', 'http://jessicapavone.bandcamp.com/album/silent-spills-2', 'http://jessicapavone.bandcamp.com/album/knuckle-under', 'http://jessicapavone.bandcamp.com/album/walking-sleeping-breathing', 'http://jessicapavone.bandcamp.com/album/hope-dawson-is-missing', 'http://jessicapavone.bandcamp.com/album/songs-of-synastry-and-solitude', 'http://jessicapavone.bandcamp.com/album/quartet-solo-series-volume-2', 'http://jessicapavone.bandcamp.com/album/quotidian', 'http://jessicapavone.bandcamp.com/album/27-epigrams'],
+                        "a_strings": ['Brick and Mortar by J. Pavone String Ensemble', 'In the Action by Jessica Pavone', 'Silent Spills by http://www.relativepitchrecords.com/releases/rpr1038.html', 'Knuckle Under by Jessica Pavone', 'Walking, Sleeping, Breathing by https://www.nowaki-music.org/#artiste9', 'Hope Dawson is Missing by Jessica Pavone', 'Songs of Synastry and Solitude by Jessica Pavone', 'Quartet Solo Series volume 2 by Jessica Pavone', 'Quotidian by Jessica Pavone', '27 Epigrams by Jessica Pavone']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 751,
+                    user_id: 1,
+                    name: 'Václav Havel (dissident/playwright/writer/former president of Czechoslovakia and the Czech Republic) born 1936',
+                    color: '#5A6680',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Vaclav_Havel.jpg',
+                    day_of: new Date('1936-10-05  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

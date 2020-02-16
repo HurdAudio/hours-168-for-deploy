@@ -6160,6 +6160,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 343,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4013310561/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mississippirecords.bandcamp.com/album/frank-and-his-sisters',
+                    a_string: 'Frank and His Sisters by Frank and His Sisters',
+                    rule: {
+                        "monday": [21, 2, 13, 17],
+                        "tuesday": [20, 1, 12, 16],
+                        "wednesday": [19, 30, 11, 15], 
+                        "thursday": [18, 29, 10, 21], 
+                        "saturday": [17, 28, 9, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 344,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4180894842/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lesdisquesbongojoe.bandcamp.com/album/l-ve-l-ve-sao-tom-principe-sounds-70s-80s',
+                    a_string: 'LÉVE LÉVE Sao Tomé &amp; Principe sounds 70s-80s by Various Artists',
+                    rule: {
+                        "monday": [17, 28, 9, 21],
+                        "tuesday": [21, 2, 13, 17], 
+                        "wednesday": [20, 1, 12, 16], 
+                        "thursday": [19, 30, 11, 15],
+                        "saturday": [18, 29, 10, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 345,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=668121111/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://secousse.bandcamp.com/album/nyako-konya',
+                    a_string: 'Nyako Konya by Les Mangelepa',
+                    rule: {
+                        "monday": [18, 29, 10, 21],
+                        "tuesday": [17, 28, 9, 21], 
+                        "wednesday": [21, 2, 13, 17], 
+                        "thursday": [20, 1, 12, 16], 
+                        "saturday": [19, 30, 11, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

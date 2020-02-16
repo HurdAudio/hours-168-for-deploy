@@ -12304,6 +12304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 616,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/watteau-antoine-quellnymphe-1708.jpeg',
+                    title: 'Quellnymphe',
+                    artist: 'Antoine Watteau',
+                    year: '1708',
+                    rule: {
+                        "monday": [28, 5, 19, 30],
+                        "tuesday": [26, 6, 18, 29], 
+                        "wednesday": [26, 6, 17, 18], 
+                        "thursday": [25, 5, 15, 17], 
+                        "friday": [22, 2, 24, 25], 
+                        "saturday": [23, 3, 25, 26], 
+                        "sunday": [28, 6, 19, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 617,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/gilles-personne-de-roberval.jpeg',
+                    title: 'Gilles Personne De Roberval',
+                    artist: 'Charles Le Brun',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 6, 19, 30],
+                        "tuesday": [28, 5, 19, 30], 
+                        "wednesday": [26, 6, 18, 29], 
+                        "thursday": [26, 6, 17, 18], 
+                        "friday": [25, 5, 15, 17], 
+                        "saturday": [22, 2, 24, 25], 
+                        "sunday": [23, 3, 25, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 618,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/display-image-7-cherries.jpeg',
+                    title: 'Still Life with Cherries, Strawberries and Gooseberries',
+                    artist: 'Louise Moillon',
+                    year: '1630',
+                    rule: {
+                        "monday": [23, 3, 25, 26],
+                        "tuesday": [28, 6, 19, 30], 
+                        "wednesday": [28, 5, 19, 30], 
+                        "thursday": [26, 6, 18, 29], 
+                        "friday": [26, 6, 17, 18], 
+                        "saturday": [25, 5, 15, 17], 
+                        "sunday": [22, 2, 24, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 619,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/portrait-of-jacques-stella-and-her-mother-claudine-de-masso.jpeg',
+                    title: 'Portrait of Jacques Stella and her mother, Claudine de Masso',
+                    artist: 'Jacques Stella',
+                    year: '?',
+                    rule: {
+                        "monday": [22, 2, 24, 25],
+                        "tuesday": [23, 3, 25, 26], 
+                        "wednesday": [28, 6, 19, 30], 
+                        "thursday": [28, 5, 19, 30], 
+                        "friday": [26, 6, 18, 29], 
+                        "saturday": [26, 6, 17, 18], 
+                        "sunday": [25, 5, 15, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 620,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/montb-liard.jpeg',
+                    title: 'Montbéliard',
+                    artist: 'Nicolas Tournier',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 5, 15, 17],
+                        "tuesday": [22, 2, 24, 25], 
+                        "wednesday": [23, 3, 25, 26], 
+                        "thursday": [28, 6, 19, 30], 
+                        "friday": [28, 5, 19, 30], 
+                        "saturday": [26, 6, 18, 29], 
+                        "sunday": [26, 6, 17, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6376,6 +6376,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 355,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=127177559/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://besides.bandcamp.com/album/bystanders',
+                    a_string: 'Bystanders by Besides',
+                    rule: {
+                        "monday": [23, 13, 21, 14],
+                        "tuesday": [23, 12, 20, 14],
+                        "wednesday": [21, 11, 19, 13],
+                        "thursday": [25, 15, 23, 17],
+                        "saturday": [24, 14, 22, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 356,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1593257179/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://alarmist.bandcamp.com/album/sequesterer',
+                    a_string: 'Sequesterer by Alarmist',
+                    rule: {
+                        "monday": [24, 14, 22, 16],
+                        "tuesday": [23, 13, 21, 14],
+                        "wednesday": [23, 12, 20, 14],
+                        "thursday": [21, 11, 19, 13],
+                        "saturday": [25, 15, 23, 17] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 357,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3889990997/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ineachhandacutlass.bandcamp.com/album/the-kraken',
+                    a_string: 'The Kraken by In Each Hand A Cutlass',
+                    rule: {
+                        "monday": [26, 16, 24, 18],
+                        "tuesday": [25, 15, 23, 17],
+                        "wednesday": [24, 14, 22, 15],
+                        "thursday": [24, 13, 21, 15],
+                        "saturday": [22, 12, 20, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

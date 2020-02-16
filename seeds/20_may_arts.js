@@ -12704,6 +12704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 636,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1945-13.jpeg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '1945',
+                    rule: {
+                        "monday": [23, 3, 13, 2],
+                        "tuesday": [22, 2, 12, 21], 
+                        "wednesday": [20, 30, 9, 17], 
+                        "thursday": [18, 27, 8, 17], 
+                        "friday": [28, 9, 19, 27], 
+                        "saturday": [28, 8, 17, 27], 
+                        "sunday": [26, 5, 13, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 637,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1945-14.jpeg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '1945',
+                    rule: {
+                        "monday": [27, 6, 14, 16],
+                        "tuesday": [24, 4, 14, 3], 
+                        "wednesday": [23, 3, 13, 22], 
+                        "thursday": [21, 31, 10, 18], 
+                        "friday": [19, 28, 9, 18], 
+                        "saturday": [29, 10, 20, 28], 
+                        "sunday": [29, 9, 18, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 638,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/walther-funk-1945.jpeg',
+                    title: 'Walther Funk',
+                    artist: 'Kukryniksy',
+                    year: '1945',
+                    rule: {
+                        "monday": [29, 9, 18, 28],
+                        "tuesday": [27, 6, 14, 16], 
+                        "wednesday": [24, 4, 14, 3],  
+                        "thursday": [23, 3, 13, 22], 
+                        "friday": [21, 31, 10, 18],
+                        "saturday": [19, 28, 9, 18], 
+                        "sunday": [29, 10, 20, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 639,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/wilhelm-keitel-1945.jpeg',
+                    title: 'Wilhelm Keitel',
+                    artist: 'Kukryniksy',
+                    year: '1945',
+                    rule: {
+                        "monday": [29, 10, 20, 28],
+                        "tuesday": [29, 9, 18, 28], 
+                        "wednesday": [27, 6, 14, 16], 
+                        "thursday": [24, 4, 14, 3],  
+                        "friday": [23, 3, 13, 22], 
+                        "saturday": [21, 31, 10, 18],
+                        "sunday": [19, 28, 9, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 640,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/study-to-the-end-of-hitler.jpeg',
+                    title: 'Study to \'The End of Hitler \'',
+                    artist: 'Kukryniksy',
+                    year: 'c. 1946',
+                    rule: {
+                        "monday": [19, 28, 9, 18],
+                        "tuesday": [29, 10, 20, 28],
+                        "wednesday": [29, 9, 18, 28], 
+                        "thursday": [27, 6, 14, 16], 
+                        "friday": [24, 4, 14, 3],  
+                        "saturday": [23, 3, 13, 22], 
+                        "sunday": [21, 31, 10, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

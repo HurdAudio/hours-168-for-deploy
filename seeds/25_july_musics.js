@@ -6592,6 +6592,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 367,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3553494893/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ittakestimerecords.bandcamp.com/album/waterfowl',
+                    a_string: 'Waterfowl by Frankie valet',
+                    rule: {
+                        "monday": [22, 24, 28, 5],
+                        "tuesday": [21, 23, 27, 4], 
+                        "wednesday": [20, 21, 26, 3], 
+                        "thursday": [19, 21, 25, 2], 
+                        "saturday": [23, 25, 29, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 368,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=102098242/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://initiatehc.bandcamp.com/album/lavender',
+                    a_string: 'Lavender by Initiate',
+                    rule: {
+                        "monday": [23, 25, 29, 6],
+                        "tuesday": [22, 24, 28, 5], 
+                        "wednesday": [21, 23, 27, 4], 
+                        "thursday": [20, 21, 26, 3], 
+                        "saturday": [19, 21, 25, 2]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 369,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3920342063/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://box-records.com/album/nah-nah-nah-yeh-yeh-yeh',
+                    a_string: 'Nah Nah Nah Yeh Yeh Yeh by Luminous Bodies',
+                    rule: {
+                        "monday": [19, 21, 25, 2],
+                        "tuesday": [23, 25, 29, 6], 
+                        "wednesday": [22, 24, 28, 5], 
+                        "thursday": [21, 23, 27, 4], 
+                        "saturday": [20, 21, 26, 3]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
