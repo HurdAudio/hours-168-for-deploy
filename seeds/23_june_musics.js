@@ -6754,6 +6754,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 376,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=644755429/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/durch-die-w-ste',
+                    a_string: 'Durch die Wüste by Roedelius',
+                    rule: {
+                        "monday": [22, 25, 1, 11],
+                        "tuesday": [20, 28, 30, 15],
+                        "wednesday": [24, 28, 4, 15], 
+                        "thursday": [23, 26, 1, 13], 
+                        "saturday": [22, 25, 1, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 377,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=387089400/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/flieg-vogel-fliege',
+                    a_string: 'Flieg Vogel fliege by Roedelius',
+                    rule: {
+                        "monday": [22, 25, 1, 12],
+                        "tuesday": [22, 25, 1, 11], 
+                        "wednesday": [20, 28, 30, 15],
+                        "thursday": [24, 28, 4, 15], 
+                        "saturday": [23, 26, 1, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 378,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1686925681/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/offene-t-ren',
+                    a_string: 'Offene Türen by Roedelius',
+                    rule: {
+                        "monday": [24, 27, 2, 14],
+                        "tuesday": [23, 26, 2, 13], 
+                        "wednesday": [23, 26, 2, 12],
+                        "thursday": [21, 29, 1, 16], 
+                        "saturday": [25, 29, 5, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

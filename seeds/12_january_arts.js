@@ -13604,6 +13604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 681,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/dramatic-architecture.jpeg',
+                    title: 'Dramatic Architecture',
+                    artist: 'Lyubov Popova',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 9, 1, 21],
+                        "tuesday": [7, 9, 1, 21],   
+                        "wednesday": [12, 10, 2, 5],  
+                        "thursday": [12, 13, 4, 8],  
+                        "friday": [15, 17, 18, 20],
+                        "saturday": [17, 19, 23, 26],
+                        "sunday": [19, 21, 22, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 682,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/space-force-construction.jpeg',
+                    title: 'Space Force Construction',
+                    artist: 'Lyubov Popova',
+                    year: '?',
+                    rule: {
+                        "monday": [19, 21, 22, 23],
+                        "tuesday": [7, 9, 1, 21],   
+                        "wednesday": [7, 9, 1, 21],   
+                        "thursday": [12, 10, 2, 5],  
+                        "friday": [12, 13, 4, 8],  
+                        "saturday": [15, 17, 18, 20],
+                        "sunday": [17, 19, 23, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 683,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/with-full-force.jpeg',
+                    title: 'With full force',
+                    artist: 'Lyubov Popova',
+                    year: '?',
+                    rule: {
+                        "monday": [17, 19, 23, 26],
+                        "tuesday": [19, 21, 22, 23],
+                        "wednesday": [7, 9, 1, 21],   
+                        "thursday": [7, 9, 1, 21],   
+                        "friday": [12, 10, 2, 5],  
+                        "saturday": [12, 13, 4, 8],  
+                        "sunday": [15, 17, 18, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 684,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/lozenge-composition-with-red-gray-blue-yellow-and-black-1925.jpeg',
+                    title: 'Lozenge Composition with Red, Gray, Blue, Yellow, and Black',
+                    artist: 'Piet Mondrian',
+                    year: '1924 - 1925',
+                    rule: {
+                        "monday": [15, 17, 18, 20],
+                        "tuesday": [17, 19, 23, 26],
+                        "wednesday": [19, 21, 22, 23],
+                        "thursday": [7, 9, 1, 21],   
+                        "friday": [7, 9, 1, 21],   
+                        "saturday": [12, 10, 2, 5],  
+                        "sunday": [12, 13, 4, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 685,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/not_detected_189364Blue.jpeg',
+                    title: 'Blue',
+                    artist: 'Wassily Kandinsky',
+                    year: '1925',
+                    rule: {
+                        "monday": [12, 13, 4, 8],
+                        "tuesday": [15, 17, 18, 20],
+                        "wednesday": [17, 19, 23, 26],
+                        "thursday": [19, 21, 22, 23],
+                        "friday": [7, 9, 1, 21],   
+                        "saturday": [7, 9, 1, 21],   
+                        "sunday": [12, 10, 2, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

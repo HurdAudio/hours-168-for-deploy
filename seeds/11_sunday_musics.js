@@ -2864,6 +2864,26 @@ exports.seed = function (knex, Promise) {
                     a_string: 'Rock Sutra by SUN ARAW',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 287,
+                    user_id: 1,
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=911397409/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sunramusic.bandcamp.com/album/the-solar-myth-approach-vol-1',
+                    a_string: 'The Solar-Myth Approach, Vol. 1 by Sun Ra &amp; His Solar-Myth Arkestra',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 288,
+                    user_id: 1,
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2335012582/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sunramusic.bandcamp.com/album/the-solar-myth-approach-vol-2',
+                    a_string: 'The Solar​-​Myth Approach, Vol. 2 by Sun Ra &amp; His Solar-Myth Arkestra',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

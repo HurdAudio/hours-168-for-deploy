@@ -7294,6 +7294,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 406,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/track=1350102133/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/track/city-flexure-buffalo-ny-14-september-2017',
+                    a_string: '...city flexure... (Buffalo NY, 14 September 2017) by Ensemble of Irreproducible Outcomes',
+                    rule: {
+                        "monday": [3, 9, 10, 11],
+                        "tuesday": [2, 9, 10, 11], 
+                        "wednesday": [6, 13, 14, 15], 
+                        "thursday": [5, 11, 12, 14], 
+                        "saturday": [4, 11, 12, 13]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 407,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3581088232/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/buch-der-r-ume-und-zeiten',
+                    a_string: 'Buch der Räume und Zeiten by Jürg Frey',
+                    rule: {
+                        "monday": [4, 11, 12, 13],
+                        "tuesday": [3, 9, 10, 11],  
+                        "wednesday": [2, 9, 10, 11],  
+                        "thursday": [6, 13, 14, 15], 
+                        "saturday": [5, 11, 12, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 408,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1993253100/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/eighty-trips-around-the-sun-music-by-and-for-terry-riley',
+                    a_string: 'Eighty Trips Around the Sun: Music by and for Terry Riley by Sarah Cahill',
+                    rule: {
+                        "monday": [5, 11, 12, 14],
+                        "tuesday": [4, 11, 12, 13], 
+                        "wednesday": [3, 9, 10, 11],  
+                        "thursday": [2, 9, 10, 11],  
+                        "saturday": [6, 13, 14, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

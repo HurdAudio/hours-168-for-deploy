@@ -6214,6 +6214,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 346,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1099319844/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://azutiwaline.bandcamp.com/album/draw-me-a-silence-part-i',
+                    a_string: 'Draw Me A Silence Part. I by Azu Tiwaline',
+                    rule: {
+                        "monday": [19, 30, 11, 15],
+                        "tuesday": [18, 29, 10, 21],
+                        "wednesday": [17, 28, 9, 21], 
+                        "thursday": [21, 2, 13, 17], 
+                        "saturday": [20, 1, 12, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 347,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2082169861/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sebtaylor.bandcamp.com/album/desert-phase',
+                    a_string: 'Desert Phase by Kaya Project',
+                    rule: {
+                        "monday": [20, 1, 12, 16],
+                        "tuesday": [19, 30, 11, 15],
+                        "wednesday": [18, 29, 10, 21],
+                        "thursday": [17, 28, 9, 21], 
+                        "saturday": [21, 2, 13, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 348,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3269870922/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lepers.bandcamp.com/album/jhator',
+                    a_string: 'Jhator by Jhator',
+                    rule: {
+                        "monday": [21, 2, 13, 17],
+                        "tuesday": [20, 1, 12, 16], 
+                        "wednesday": [19, 30, 11, 15],
+                        "thursday": [18, 29, 10, 21],
+                        "saturday": [17, 28, 9, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

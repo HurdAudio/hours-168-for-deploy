@@ -12604,6 +12604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 631,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/resort_composition_by_tahirlazim_ddr0oll-fullview.jpg',
+                    title: 'Resort Composition',
+                    artist: 'tahirlazim',
+                    year: '2020',
+                    rule: {
+                        "monday": [28, 8, 18, 16],
+                        "tuesday": [27, 7, 17, 24], 
+                        "wednesday": [6, 16, 26, 24], 
+                        "thursday": [25, 5, 15, 23], 
+                        "friday": [24, 4, 14, 22], 
+                        "saturday": [30, 10, 20, 27],
+                        "sunday": [29, 9, 20, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 632,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/machine_by_tireandwheel_ddr1lvs-fullview.jpg',
+                    title: 'machine',
+                    artist: 'Tireandwheel',
+                    year: '2020',
+                    rule: {
+                        "monday": [29, 9, 20, 27],
+                        "tuesday": [28, 8, 18, 16], 
+                        "wednesday": [27, 7, 17, 24], 
+                        "thursday": [6, 16, 26, 24], 
+                        "friday": [25, 5, 15, 23], 
+                        "saturday": [24, 4, 14, 22], 
+                        "sunday": [30, 10, 20, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 633,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/too_old_for_this_world_by_tradt_production_ddr1it9-pre.jpg',
+                    title: 'Too old for this world',
+                    artist: 'TRADT-PRODUCTION',
+                    year: '2020',
+                    rule: {
+                        "monday": [30, 10, 20, 27],
+                        "tuesday": [29, 9, 20, 27], 
+                        "wednesday": [28, 8, 18, 16], 
+                        "thursday": [27, 7, 17, 24], 
+                        "friday": [6, 16, 26, 24], 
+                        "saturday": [25, 5, 15, 23], 
+                        "sunday": [24, 4, 14, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 634,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/dramatic_sunrise_by_bogdanphotography_ddr0xh0-pre.jpg',
+                    title: 'Dramatic sunrise',
+                    artist: 'BogdanPhotography',
+                    year: '2020',
+                    rule: {
+                        "monday": [24, 4, 14, 22],
+                        "tuesday": [30, 10, 20, 27],
+                        "wednesday": [29, 9, 20, 27], 
+                        "thursday": [28, 8, 18, 16], 
+                        "friday": [27, 7, 17, 24], 
+                        "saturday": [6, 16, 26, 24], 
+                        "sunday": [25, 5, 15, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 635,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/madrid_nights_8_by_illegalfpv_ddr2la2-fullview.jpg',
+                    title: 'Madrid Nights 8',
+                    artist: 'illegalfpv',
+                    year: '2020',
+                    rule: {
+                        "monday": [25, 5, 15, 23],
+                        "tuesday": [24, 4, 14, 22], 
+                        "wednesday": [30, 10, 20, 27],
+                        "thursday": [29, 9, 20, 27], 
+                        "friday": [28, 8, 18, 16], 
+                        "saturday": [27, 7, 17, 24], 
+                        "sunday": [6, 16, 26, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

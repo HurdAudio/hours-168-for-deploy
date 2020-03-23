@@ -6538,6 +6538,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 364,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1070456243/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://johnbutcher1.bandcamp.com/album/the-geometry-of-sentiment',
+                    a_string: 'The Geometry of Sentiment by John Butcher',
+                    rule: {
+                        "monday": [29, 6, 19, 18],
+                        "tuesday": [28, 5, 18, 17], 
+                        "wednesday": [1, 9, 22, 21], 
+                        "thursday": [31, 8, 21, 20], 
+                        "saturday": [30, 7, 20, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 365,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3683004011/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://chrispitsiokos.bandcamp.com/album/one-foot-on-the-ground-smoking-mirror-shakedown',
+                    a_string: 'One Foot On The Ground Smoking Mirror Shakedown by CP Unit',
+                    rule: {
+                        "monday": [30, 7, 20, 19],
+                        "tuesday": [29, 6, 19, 18], 
+                        "wednesday": [28, 5, 18, 17], 
+                        "thursday": [1, 9, 22, 21],  
+                        "saturday": [31, 8, 21, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 366,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=975247049/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://discordianrecords.bandcamp.com/album/energ-a-tan-oscura',
+                    a_string: 'Energía [tan] oscura by MALIGNÆ',
+                    rule: {
+                        "monday": [31, 8, 21, 20],
+                        "tuesday": [30, 7, 20, 19], 
+                        "wednesday": [29, 6, 19, 18], 
+                        "thursday": [28, 5, 18, 17], 
+                        "saturday": [1, 9, 22, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -13404,6 +13404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 671,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/HANCOCK_As_U_Now_Enliven_A_Test5_0.jpg',
+                    title: 'As U Now Enliven A Test',
+                    artist: 'Trenton Doyle Hancock',
+                    year: '?',
+                    rule: {
+                        "monday": [15, 23, 2, 10],
+                        "tuesday": [17, 27, 4, 10], 
+                        "wednesday": [19, 27, 6, 16], 
+                        "thursday": [19, 29, 25, 15],
+                        "friday": [9, 17, 25, 4],  
+                        "saturday": [10, 19, 27, 6], 
+                        "sunday": [16, 21, 27, 8]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 672,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/theHoneyMan.jpeg',
+                    title: 'The Honey Man',
+                    artist: 'Edwin Harleston',
+                    year: 'c. 1929',
+                    rule: {
+                        "monday": [17, 22, 28, 9],
+                        "tuesday": [16, 24, 3, 11], 
+                        "wednesday": [18, 28, 5, 11], 
+                        "thursday": [20, 28, 7, 17],
+                        "friday": [20, 1, 26, 16],  
+                        "saturday": [10, 18, 26, 5], 
+                        "sunday": [11, 20, 28, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 673,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/74-0.jpg',
+                    title: 'unknown title',
+                    artist: 'Elise Forrest Harleston',
+//                    year: '',
+                    rule: {
+                        "monday": [11, 20, 28, 7],
+                        "tuesday": [17, 22, 28, 9], 
+                        "wednesday": [16, 24, 3, 11], 
+                        "thursday": [18, 28, 5, 11], 
+                        "friday": [20, 28, 7, 17], 
+                        "saturday": [20, 1, 26, 16], 
+                        "sunday": [10, 18, 26, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 674,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Harris_edited_00008.jpg',
+                    title: 'Glittering Dystopias',
+                    artist: 'Kira Lynn Harris',
+                    year: '2015',
+                    rule: {
+                        "monday": [10, 18, 26, 5],
+                        "tuesday": [11, 20, 28, 7], 
+                        "wednesday": [17, 22, 28, 9], 
+                        "thursday": [16, 24, 3, 11], 
+                        "friday": [18, 28, 5, 11], 
+                        "saturday": [20, 28, 7, 17], 
+                        "sunday": [20, 1, 26, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 675,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/5152574_1.jpg',
+                    title: 'Portrait',
+                    artist: 'John Wesley Hardrick',
+                    year: 'c. 1930',
+                    rule: {
+                        "monday": [20, 1, 26, 16],
+                        "tuesday": [10, 18, 26, 5], 
+                        "wednesday": [11, 20, 28, 7], 
+                        "thursday": [17, 22, 28, 9], 
+                        "friday": [16, 24, 3, 11], 
+                        "saturday": [18, 28, 5, 11], 
+                        "sunday": [20, 28, 7, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

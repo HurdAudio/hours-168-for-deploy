@@ -6970,6 +6970,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=671189673/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://thewesterliesmusic.bandcamp.com/album/wherein-lies-the-good',
+                    a_string: 'Wherein Lies the Good by The Westerlies',
+                    rule: {
+                        "monday": [25, 3, 15, 20],
+                        "tuesday": [29, 7, 19, 24], 
+                        "wednesday": [28, 5, 18, 23], 
+                        "thursday": [27, 5, 17, 22], 
+                        "saturday": [26, 4, 15, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1165465083/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://danrosenboom.bandcamp.com/album/absurd-in-the-anthropocene',
+                    a_string: 'Absurd in the Anthropocene by Dan Rosenboom',
+                    rule: {
+                        "monday": [26, 4, 15, 21],
+                        "tuesday": [25, 3, 15, 20], 
+                        "wednesday": [29, 7, 19, 24], 
+                        "thursday": [28, 5, 18, 23], 
+                        "saturday": [27, 5, 17, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2508190023/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://iseecolors.bandcamp.com/album/moving-cities',
+                    a_string: 'Moving Cities by Antoine Berjeaut, Makaya McCraven',
+                    rule: {
+                        "monday": [27, 5, 17, 22],
+                        "tuesday": [26, 4, 15, 21], 
+                        "wednesday": [25, 3, 15, 20], 
+                        "thursday": [29, 7, 19, 24], 
+                        "saturday": [28, 5, 18, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

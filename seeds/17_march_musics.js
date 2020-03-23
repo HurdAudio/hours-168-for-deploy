@@ -7078,6 +7078,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 394,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=292376487/size=large/bgcol=ffffff/linkcol=0687f5/license_id=806/tracklist=false/transparent=true/',
+                    href_string: 'http://banoffeemusic.bandcamp.com/album/look-at-us-now-dad',
+                    a_string: 'Look At Us Now Dad by Banoffee',
+                    rule: {
+                        "monday": [27, 3, 9, 17],
+                        "tuesday": [27, 2, 8, 16],  
+                        "wednesday": [31, 6, 12, 20], 
+                        "thursday": [30, 5, 10, 19], 
+                        "saturday": [29, 4, 10, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 395,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=501810072/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sarahharmer.bandcamp.com/album/are-you-gone',
+                    a_string: 'Are You Gone by Sarah Harmer',
+                    rule: {
+                        "monday": [29, 4, 10, 19],
+                        "tuesday": [27, 3, 9, 17],  
+                        "wednesday": [27, 2, 8, 16],  
+                        "thursday": [31, 6, 12, 20], 
+                        "saturday": [30, 5, 10, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 396,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3644868482/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://nappynina.bandcamp.com/album/dumb-doubt',
+                    a_string: 'Dumb Doubt by Nappy Nina',
+                    rule: {
+                        "monday": [30, 5, 10, 19],
+                        "tuesday": [29, 4, 10, 19], 
+                        "wednesday": [27, 3, 9, 17],  
+                        "thursday": [27, 2, 8, 16],  
+                        "saturday": [31, 6, 12, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

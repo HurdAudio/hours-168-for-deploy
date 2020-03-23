@@ -12404,6 +12404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 621,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-dauphin-charles-orlant-1494.jpeg',
+                    title: 'The Dauphin Charles Orlant',
+                    artist: 'Jean Hey',
+                    year: '1494',
+                    rule: {
+                        "monday": [26, 6, 17, 18],
+                        "tuesday": [25, 5, 15, 17], 
+                        "wednesday": [22, 2, 24, 25], 
+                        "thursday": [23, 3, 25, 26], 
+                        "friday": [28, 6, 19, 30], 
+                        "saturday": [28, 5, 19, 30], 
+                        "sunday": [26, 6, 18, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 622,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/jonas-out-of-the-jaws-of-the-monster.jpeg',
+                    title: 'Jonas out of the jaws of the monster',
+                    artist: 'Herrad of Landsberg',
+                    year: '?',
+                    rule: {
+                        "monday": [26, 6, 18, 29],
+                        "tuesday": [26, 6, 17, 18], 
+                        "wednesday": [25, 5, 15, 17], 
+                        "thursday": [22, 2, 24, 25], 
+                        "friday": [23, 3, 25, 26], 
+                        "saturday": [28, 6, 19, 30], 
+                        "sunday": [28, 5, 19, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 623,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/phoenix-2010-video-art.jpeg',
+                    title: 'Phoenix (video Art)',
+                    artist: 'Joseph Dadoune',
+                    year: '2010',
+                    rule: {
+                        "monday": [29, 6, 20, 31],
+                        "tuesday": [27, 7, 19, 30], 
+                        "wednesday": [27, 7, 18, 19], 
+                        "thursday": [26, 6, 16, 18], 
+                        "friday": [23, 3, 25, 26], 
+                        "saturday": [24, 4, 26, 27], 
+                        "sunday": [29, 7, 20, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 624,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/cell-1991.jpeg',
+                    title: 'Cell',
+                    artist: 'Absalon',
+                    year: '1991',
+                    rule: {
+                        "monday": [29, 7, 20, 31],
+                        "tuesday": [29, 6, 20, 31], 
+                        "wednesday": [27, 7, 19, 30], 
+                        "thursday": [27, 7, 18, 19], 
+                        "friday": [26, 6, 16, 18], 
+                        "saturday": [23, 3, 25, 26], 
+                        "sunday": [24, 4, 26, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 625,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/untilled-detail-2012-1.jpeg',
+                    title: 'Untilled (detail)',
+                    artist: 'Pierre Huyghe',
+                    year: '2012',
+                    rule: {
+                        "monday": [24, 4, 26, 27],
+                        "tuesday": [29, 7, 20, 31], 
+                        "wednesday": [29, 6, 20, 31], 
+                        "thursday": [27, 7, 19, 30], 
+                        "friday": [27, 7, 18, 19], 
+                        "saturday": [26, 6, 16, 18], 
+                        "sunday": [23, 3, 25, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

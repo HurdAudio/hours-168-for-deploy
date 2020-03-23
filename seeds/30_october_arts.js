@@ -11804,6 +11804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 591,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_peace_vote.jpg',
+                    title: 'I (vote) for peace!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 2, 13, 17],
+                        "tuesday": [28, 8, 19, 23], 
+                        "wednesday": [27, 7, 18, 22], 
+                        "thursday": [26, 6, 17, 21], 
+                        "friday": [25, 5, 17, 20], 
+                        "saturday": [24, 4, 15, 19], 
+                        "sunday": [23, 3, 13, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 592,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_signatures.jpg',
+                    title: 'Peace',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [23, 3, 13, 18],
+                        "tuesday": [1, 2, 13, 17],  
+                        "wednesday": [28, 8, 19, 23], 
+                        "thursday": [27, 7, 18, 22], 
+                        "friday": [26, 6, 17, 21], 
+                        "saturday": [25, 5, 17, 20], 
+                        "sunday": [24, 4, 15, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 593,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_to_build.jpg',
+                    title: 'To build, not to destroy!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [24, 4, 15, 19],
+                        "tuesday": [23, 3, 13, 18], 
+                        "wednesday": [1, 2, 13, 17],  
+                        "thursday": [28, 8, 19, 23], 
+                        "friday": [27, 7, 18, 22], 
+                        "saturday": [26, 6, 17, 21], 
+                        "sunday": [25, 5, 17, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 594,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_white_bird.jpg',
+                    title: 'Our poloitics - is the politics of peace!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 5, 17, 20],
+                        "tuesday": [24, 4, 15, 19], 
+                        "wednesday": [23, 3, 13, 18], 
+                        "thursday": [1, 2, 13, 17],  
+                        "friday": [28, 8, 19, 23], 
+                        "saturday": [27, 7, 18, 22], 
+                        "sunday": [26, 6, 17, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 595,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_leninas.jpg',
+                    title: 'Leninas su mumis',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 7, 18, 22],
+                        "tuesday": [26, 6, 18, 21], 
+                        "wednesday": [25, 5, 16, 20], 
+                        "thursday": [24, 4, 14, 19],  
+                        "friday": [2, 3, 14, 18], 
+                        "saturday": [29, 9, 20, 24], 
+                        "sunday": [28, 8, 19, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

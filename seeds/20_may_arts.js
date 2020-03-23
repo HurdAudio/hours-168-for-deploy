@@ -12804,6 +12804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 641,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-end-of-hitler.jpeg',
+                    title: 'The End of Hitler',
+                    artist: 'Kukryniksy',
+                    year: 'c. 1946',
+                    rule: {
+                        "monday": [21, 31, 10, 18],
+                        "tuesday": [19, 28, 9, 18], 
+                        "wednesday": [29, 10, 20, 28],
+                        "thursday": [29, 9, 18, 28], 
+                        "friday": [27, 6, 14, 16], 
+                        "saturday": [24, 4, 14, 3],  
+                        "sunday": [23, 3, 13, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 642,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-signing-of-the-act-of-unconditional-surrender-of-germany-1946.jpeg',
+                    title: 'Signing the Act of Unconditional Surrender of Germany',
+                    artist: 'Kukryniksy',
+                    year: '1946',
+                    rule: {
+                        "monday": [23, 3, 13, 22],
+                        "tuesday": [21, 31, 10, 18],
+                        "wednesday": [19, 28, 9, 18], 
+                        "thursday": [29, 10, 20, 28],
+                        "friday": [29, 9, 18, 28], 
+                        "saturday": [27, 6, 14, 16], 
+                        "sunday": [24, 4, 14, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 643,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/tania-the-feat-of-zoya-kosmodemyanskaya-1947.jpeg',
+                    title: 'Tania (The Feat of Zoya Kosmodemyanskaya)',
+                    artist: 'Kukryniksy',
+                    year: '1942 - 1947',
+                    rule: {
+                        "monday": [24, 4, 14, 3],
+                        "tuesday": [23, 3, 13, 22], 
+                        "wednesday": [21, 31, 10, 18],
+                        "thursday": [19, 28, 9, 18], 
+                        "friday": [29, 10, 20, 28],
+                        "saturday": [29, 9, 18, 28], 
+                        "sunday": [27, 6, 14, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 644,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-1948-k.jpeg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '1948',
+                    rule: {
+                        "monday": [28, 7, 15, 17],
+                        "tuesday": [25, 5, 15, 4], 
+                        "wednesday": [24, 4, 14, 23],
+                        "thursday": [22, 1, 11, 19], 
+                        "friday": [20, 29, 10, 19],
+                        "saturday": [30, 11, 21, 29], 
+                        "sunday": [30, 10, 19, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 645,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/himmler-s-home-guard-out-unless-everything-that-crawls-or-flies.jpeg',
+                    title: 'Himmler\'s \'Home Guard\'. \'Wellcome all who crawls or flies\'.',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 10, 19, 29],
+                        "tuesday": [28, 7, 15, 17],
+                        "wednesday": [25, 5, 15, 4],  
+                        "thursday": [24, 4, 14, 23], 
+                        "friday": [22, 1, 11, 19], 
+                        "saturday": [20, 29, 10, 19],
+                        "sunday": [30, 11, 21, 29] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

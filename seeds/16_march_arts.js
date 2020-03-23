@@ -13204,6 +13204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 661,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/lost-river-series-no-4-1981.jpeg',
+                    title: 'Lost River Series No. 4',
+                    artist: 'Landon Mackenzie',
+                    year: '1981',
+                    rule: {
+                        "monday": [2, 11, 21, 29],
+                        "tuesday": [1, 11, 19, 29], 
+                        "wednesday": [30, 10, 18, 28],
+                        "thursday": [30, 9, 17, 27], 
+                        "friday": [29, 9, 16, 26], 
+                        "saturday": [28, 7, 15, 25], 
+                        "sunday": [27, 6, 15, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 662,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled-183-1988.jpeg',
+                    title: 'Untitled #183',
+                    artist: 'Cindy Sherman',
+                    year: '1988',
+                    rule: {
+                        "monday": [27, 6, 15, 24],
+                        "tuesday": [2, 11, 21, 29], 
+                        "wednesday": [1, 11, 19, 29], 
+                        "thursday": [30, 10, 18, 28],
+                        "friday": [30, 9, 17, 27], 
+                        "saturday": [29, 9, 16, 26], 
+                        "sunday": [28, 7, 15, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 663,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/black-asphere-9-1988.jpeg',
+                    title: 'Black Asphere 9',
+                    artist: 'Roni Horn',
+                    year: '1988',
+                    rule: {
+                        "monday": [28, 7, 15, 25],
+                        "tuesday": [27, 6, 15, 24], 
+                        "wednesday": [2, 11, 21, 29], 
+                        "thursday": [1, 11, 19, 29], 
+                        "friday": [30, 10, 18, 28],
+                        "saturday": [30, 9, 17, 27], 
+                        "sunday": [29, 9, 16, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 664,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/thirty-pieces-of-silver-1989.jpeg',
+                    title: 'Thirty Pieces of Silver',
+                    artist: 'Cornelia Parker',
+                    year: '1989',
+                    rule: {
+                        "monday": [29, 9, 16, 26],
+                        "tuesday": [28, 7, 15, 25], 
+                        "wednesday": [27, 6, 15, 24], 
+                        "thursday": [2, 11, 21, 29], 
+                        "friday": [1, 11, 19, 29], 
+                        "saturday": [30, 10, 18, 28],
+                        "sunday": [30, 9, 17, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 665,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/eel-series-roma-may-1977-august-1978.jpeg',
+                    title: 'Eel Series, Roma, May 1977 - August 1978',
+                    artist: 'Francesca Woodman',
+                    year: '1978',
+                    rule: {
+                        "monday": [31, 10, 18, 28],
+                        "tuesday": [30, 10, 17, 27], 
+                        "wednesday": [29, 8, 16, 26], 
+                        "thursday": [28, 7, 16, 25], 
+                        "friday": [3, 12, 22, 30], 
+                        "saturday": [2, 12, 20, 30],
+                        "sunday": [31, 11, 19, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

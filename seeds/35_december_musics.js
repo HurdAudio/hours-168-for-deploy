@@ -6106,6 +6106,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 340,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=487258975/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://hiedrah.bandcamp.com/album/lamurya',
+                    a_string: 'Lamurya by Stasya',
+                    rule: {
+                        "monday": [20, 28, 3, 9],
+                        "tuesday": [19, 27, 2, 8],  
+                        "wednesday": [20, 26, 1, 7],  
+                        "thursday": [24, 30, 5, 11], 
+                        "saturday": [23, 29, 4, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 341,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1772511665/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://romanticamilonguera.bandcamp.com/album/algo-contigo',
+                    a_string: 'Algo contigo by Romantica Milonguera',
+                    rule: {
+                        "monday": [23, 29, 4, 10],
+                        "tuesday": [20, 28, 3, 9],  
+                        "wednesday": [19, 27, 2, 8],  
+                        "thursday": [20, 26, 1, 7],  
+                        "saturday": [24, 30, 5, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 342,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=921940030/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ojonegrofuzz.bandcamp.com/album/vol-i',
+                    a_string: 'VOL. I by Ojo Negro',
+                    rule: {
+                        "monday": [24, 30, 5, 11],
+                        "tuesday": [23, 29, 4, 10], 
+                        "wednesday": [20, 28, 3, 9],  
+                        "thursday": [19, 27, 2, 8],  
+                        "saturday": [20, 26, 1, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

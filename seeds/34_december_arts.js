@@ -11404,6 +11404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 571,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/40-04,VarietyLove.jpg',
+                    title: 'Variety Love',
+                    artist: 'Ilo Kopland',
+                    year: '1940',
+                    rule: {
+                        "monday": [18, 30, 29, 14],
+                        "tuesday": [7, 30, 18, 25], 
+                        "wednesday": [23, 5, 13, 19], 
+                        "thursday": [22, 3, 12, 18], 
+                        "friday": [21, 3, 11, 17], 
+                        "saturday": [20, 2, 10, 16], 
+                        "sunday": [19, 1, 9, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 572,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/47-04,Adv09.jpg',
+                    title: 'Adventure illustrated',
+                    artist: 'Frank Kramer',
+                    year: '1947',
+                    rule: {
+                        "monday": [19, 1, 9, 15],
+                        "tuesday": [18, 30, 29, 14],
+                        "wednesday": [7, 30, 18, 25], 
+                        "thursday": [23, 5, 13, 19], 
+                        "friday": [22, 3, 12, 18], 
+                        "saturday": [21, 3, 11, 17], 
+                        "sunday": [20, 2, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 573,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/40-10,StrangeS.jpg',
+                    title: 'Strange Stories',
+                    artist: 'Warren Kremer',
+                    year: '1940',
+                    rule: {
+                        "monday": [20, 2, 10, 16],
+                        "tuesday": [19, 1, 9, 15],  
+                        "wednesday": [18, 30, 29, 14],
+                        "thursday": [7, 30, 18, 25], 
+                        "friday": [23, 5, 13, 19], 
+                        "saturday": [22, 3, 12, 18], 
+                        "sunday": [21, 3, 11, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 574,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/53-09,SciFiction.jpg',
+                    title: 'Science Fiction',
+                    artist: 'Roy G. Krenkel',
+                    year: '1953',
+                    rule: {
+                        "monday": [22, 4, 12, 18],
+                        "tuesday": [21, 3, 11, 17],  
+                        "wednesday": [20, 2, 10, 16],
+                        "thursday": [19, 31, 30, 15], 
+                        "friday": [8, 31, 19, 26], 
+                        "saturday": [24, 6, 14, 20], 
+                        "sunday": [23, 4, 13, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 575,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-01-25,SS.jpg',
+                    title: 'Short Stories',
+                    artist: 'Pete Kuhlhoff',
+                    year: '1953',
+                    rule: {
+                        "monday": [23, 4, 13, 19],
+                        "tuesday": [22, 4, 12, 18], 
+                        "wednesday": [21, 3, 11, 17], 
+                        "thursday": [20, 2, 10, 16], 
+                        "friday": [19, 31, 30, 15],
+                        "saturday": [8, 31, 19, 26], 
+                        "sunday": [24, 6, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

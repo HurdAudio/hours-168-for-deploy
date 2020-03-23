@@ -11604,6 +11604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 581,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/uncle-up.jpeg',
+                    title: 'Uncle Up',
+                    artist: 'Robert Ryman',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 2, 8, 13],
+                        "tuesday": [26, 1, 7, 12], 
+                        "wednesday":[26, 1, 7, 14],  
+                        "thursday": [2, 7, 13, 18],  
+                        "friday": [1, 3, 11, 7], 
+                        "saturday": [30, 4, 11, 14],  
+                        "sunday": [29, 2, 9, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 582,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled(1)_ryman.jpeg',
+                    title: 'Untitled',
+                    artist: 'Robert Ryman',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 2, 9, 14],
+                        "tuesday": [27, 2, 8, 13],  
+                        "wednesday":[26, 1, 7, 12],  
+                        "thursday": [26, 1, 7, 14],  
+                        "friday": [2, 7, 13, 18],  
+                        "saturday": [1, 3, 11, 7],   
+                        "sunday": [30, 4, 11, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 583,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-lavender-wraparound.jpeg',
+                    title: 'Untitled (Lavender Wraparound)',
+                    artist: 'Jo Baer',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 4, 11, 14],
+                        "tuesday": [29, 2, 9, 14],  
+                        "wednesday":[27, 2, 8, 13],  
+                        "thursday": [26, 1, 7, 12],  
+                        "friday": [26, 1, 7, 14],  
+                        "saturday": [2, 7, 13, 18],  
+                        "sunday": [1, 3, 11, 7]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 584,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/grid-i-lewison-17.jpeg',
+                    title: 'Grid I (Lewison 17)',
+                    artist: 'Brice Marden',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 3, 11, 7],
+                        "tuesday": [30, 4, 11, 14], 
+                        "wednesday":[29, 2, 9, 14],  
+                        "thursday": [27, 2, 8, 13],  
+                        "friday": [26, 1, 7, 12],  
+                        "saturday": [26, 1, 7, 14],  
+                        "sunday": [2, 7, 13, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 585,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/unknown-title__Horn.jpeg',
+                    title: 'Unknown Title',
+                    artist: 'Roni Horn',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 7, 13, 18],
+                        "tuesday": [1, 3, 11, 7],   
+                        "wednesday":[30, 4, 11, 14], 
+                        "thursday": [29, 2, 9, 14],  
+                        "friday": [27, 2, 8, 13],  
+                        "saturday": [26, 1, 7, 12],  
+                        "sunday": [26, 1, 7, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

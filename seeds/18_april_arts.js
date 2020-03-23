@@ -13004,6 +13004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 651,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/baltimore-orioles-sign-hand-painted_1_c20e34880f17e21f7e5422b3e9101896.jpg',
+                    title: 'Baltimore Orioles Sign Hand Painted',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [18, 8, 14, 20],
+                        "tuesday": [3, 6, 19, 20],  
+                        "wednesday": [2, 6, 21, 19], 
+                        "thursday": [29, 5, 11, 17], 
+                        "friday": [30, 5, 11, 17],  
+                        "saturday": [29, 4, 10, 16], 
+                        "sunday": [18, 10, 15, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 652,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/99cbeb8b97c47584a4a1fc280cd76ce3.jpg',
+                    title: 'Baltimore Orioles Hand Painted Sign',
+                    artist: 'Zekes Antique Signs',
+                    year: '?',
+                    rule: {
+                        "monday": [18, 10, 15, 21],
+                        "tuesday": [18, 8, 14, 20], 
+                        "wednesday": [3, 6, 19, 20],  
+                        "thursday": [2, 6, 21, 19],  
+                        "friday": [29, 5, 11, 17], 
+                        "saturday": [30, 5, 11, 17], 
+                        "sunday": [29, 4, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 653,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/1b5e65e29642925fad5d2f99c4dbf48a.jpg',
+                    title: 'Baltimore Orioles Print',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 4, 10, 16],
+                        "tuesday": [18, 10, 15, 21],
+                        "wednesday": [18, 8, 14, 20], 
+                        "thursday": [3, 6, 19, 20],  
+                        "friday": [2, 6, 21, 19],  
+                        "saturday": [29, 5, 11, 17], 
+                        "sunday": [30, 5, 11, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 654,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/il_570xN.1832828913_ezez.jpg',
+                    title: 'Baltimore Orioles String Art',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 5, 11, 17],
+                        "tuesday": [29, 4, 10, 16], 
+                        "wednesday": [18, 10, 15, 21],
+                        "thursday": [18, 8, 14, 20], 
+                        "friday": [3, 6, 19, 20],  
+                        "saturday": [2, 6, 21, 19],  
+                        "sunday": [29, 5, 11, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 655,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/372e66434e61514bf9a8721a0ae78771.jpg',
+                    title: 'Baltimore Orioles Baseball',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 5, 11, 17],
+                        "tuesday": [30, 5, 11, 17], 
+                        "wednesday": [29, 4, 10, 16], 
+                        "thursday": [18, 10, 15, 21],
+                        "friday": [18, 8, 14, 20], 
+                        "saturday": [3, 6, 19, 20],  
+                        "sunday": [2, 6, 21, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

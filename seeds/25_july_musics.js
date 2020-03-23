@@ -6646,6 +6646,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 370,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=292376487/size=large/bgcol=ffffff/linkcol=0687f5/license_id=806/tracklist=false/transparent=true/',
+                    href_string: 'http://banoffeemusic.bandcamp.com/album/look-at-us-now-dad',
+                    a_string: 'Look At Us Now Dad by Banoffee',
+                    rule: {
+                        "monday": [20, 21, 26, 3],
+                        "tuesday": [19, 21, 25, 2], 
+                        "wednesday": [23, 25, 29, 6], 
+                        "thursday": [22, 24, 28, 5], 
+                        "saturday": [21, 23, 27, 4]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 371,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=738915226/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://spinningcoin.bandcamp.com/album/hyacinth',
+                    a_string: 'Hyacinth by Spinning Coin',
+                    rule: {
+                        "monday": [22, 24, 28, 5],
+                        "tuesday": [21, 22, 27, 4], 
+                        "wednesday": [20, 22, 26, 3], 
+                        "thursday": [24, 26, 30, 7], 
+                        "saturday": [23, 25, 29, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 372,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4036200010/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://denisonwitmer.bandcamp.com/album/january-2020',
+                    a_string: 'January 2020 by Uncle Denny',
+                    rule: {
+                        "monday": [23, 25, 29, 6],
+                        "tuesday": [22, 24, 28, 5], 
+                        "wednesday": [21, 22, 27, 4], 
+                        "thursday": [20, 22, 26, 3], 
+                        "saturday": [24, 26, 30, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

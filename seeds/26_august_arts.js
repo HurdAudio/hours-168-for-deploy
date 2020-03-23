@@ -12204,6 +12204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 611,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/italo-american-celebration-washington-square.jpeg',
+                    title: 'Italo-American Celebration, Washington Square',
+                    artist: 'William James Glackens',
+                    year: 'c. 1912',
+                    rule: {
+                        "monday": [28, 31, 9, 25],
+                        "tuesday": [26, 31, 8, 24], 
+                        "wednesday": [26, 28, 7, 23], 
+                        "thursday": [25, 27, 6, 22], 
+                        "friday": [24, 27, 5, 21], 
+                        "saturday": [23, 26, 4, 20], 
+                        "sunday": [29, 2, 10, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 612,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-camden-town-murder-or-what-shall-we-do-for-the-rent.jpeg',
+                    title: 'The Camden Town Murder, or What Shall We Do For the Rent?',
+                    artist: 'Walter Sickert',
+                    year: 'c. 1908 - c. 1909',
+                    rule: {
+                        "monday": [29, 2, 10, 26],
+                        "tuesday": [28, 31, 9, 25], 
+                        "wednesday": [26, 31, 8, 24], 
+                        "thursday": [26, 28, 7, 23], 
+                        "friday": [25, 27, 6, 22], 
+                        "saturday": [24, 27, 5, 21], 
+                        "sunday": [23, 26, 4, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 613,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/still-life-with-buddha-lobsters-and-oysters-1916.jpeg',
+                    title: 'Still Life with Buddha-Lobsters and Oysters',
+                    artist: 'Lovis Corinth',
+                    year: '1916',
+                    rule: {
+                        "monday": [23, 26, 4, 20],
+                        "tuesday": [29, 2, 10, 26], 
+                        "wednesday": [28, 31, 9, 25], 
+                        "thursday": [26, 31, 8, 24], 
+                        "friday": [26, 28, 7, 23], 
+                        "saturday": [25, 27, 6, 22], 
+                        "sunday": [24, 27, 5, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 614,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/reading-1919.jpeg',
+                    title: 'Reading',
+                    artist: 'Nicolae Vermont',
+                    year: '1919',
+                    rule: {
+                        "monday": [24, 27, 5, 21],
+                        "tuesday": [23, 26, 4, 20], 
+                        "wednesday": [29, 2, 10, 26], 
+                        "thursday": [28, 31, 9, 25], 
+                        "friday": [26, 31, 8, 24], 
+                        "saturday": [26, 28, 7, 23], 
+                        "sunday": [25, 27, 6, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 615,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/ichikawa-shocho-ii-as-oman-1920.jpeg',
+                    title: 'Ichikawa Shocho II as Oman',
+                    artist: 'Yamamura Toyonari',
+                    year: '1920',
+                    rule: {
+                        "monday": [25, 27, 6, 22],
+                        "tuesday": [24, 27, 5, 21], 
+                        "wednesday": [23, 26, 4, 20], 
+                        "thursday": [29, 2, 10, 26], 
+                        "friday": [28, 31, 9, 25], 
+                        "saturday": [26, 31, 8, 24], 
+                        "sunday": [26, 28, 7, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

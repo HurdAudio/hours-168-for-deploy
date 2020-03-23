@@ -7186,6 +7186,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 400,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2553083691/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mosesboyd.bandcamp.com/album/dark-matter-2',
+                    a_string: 'Dark Matter by Moses Boyd',
+                    rule: {
+                        "monday": [5, 8, 10, 12],
+                        "tuesday": [16, 10, 12, 14],
+                        "wednesday": [18, 12, 14, 20],
+                        "thursday": [19, 13, 15, 21],
+                        "saturday": [2, 6, 8, 12]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 401,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=842118211/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://elaquent-mello-catalog.bandcamp.com/album/forever-is-a-pretty-long-time',
+                    a_string: 'Forever Is A Pretty Long Time by Elaquent',
+                    rule: {
+                        "monday": [2, 6, 8, 12],
+                        "tuesday": [5, 8, 10, 12],  
+                        "wednesday": [16, 10, 12, 14],
+                        "thursday": [18, 12, 14, 20],
+                        "saturday": [19, 13, 15, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 402,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2200522372/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://gqomoh.bandcamp.com/album/from-avoca-hills-to-the-world',
+                    a_string: 'From Avoca Hills to the World by Citizen Boy &amp; Mafia Boyz',
+                    rule: {
+                        "monday": [19, 13, 15, 21],
+                        "tuesday": [2, 6, 8, 12],   
+                        "wednesday": [5, 8, 10, 12],  
+                        "thursday": [16, 10, 12, 14],
+                        "saturday": [18, 12, 14, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6862,6 +6862,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 382,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=792411820/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://iliantape.bandcamp.com/album/it005-jichael-mackson-plex',
+                    a_string: 'IT005 Jichael Mackson - Plex by Jichael Mackson',
+                    rule: {
+                        "monday": [22, 28, 4, 17],
+                        "tuesday": [26, 1, 8, 21],  
+                        "wednesday": [25, 31, 7, 20], 
+                        "thursday": [24, 30, 6, 19], 
+                        "saturday": [23, 29, 5, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 383,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3880176412/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://iliantape.bandcamp.com/album/itlp01-zenker-brothers-immersion',
+                    a_string: 'ITLP01 Zenker Brothers - Immersion by Zenker Brothers',
+                    rule: {
+                        "monday": [23, 29, 5, 18],
+                        "tuesday": [22, 28, 4, 17], 
+                        "wednesday": [26, 1, 8, 21],  
+                        "thursday": [25, 31, 7, 20], 
+                        "saturday": [24, 30, 6, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 384,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=864823517/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://iliantape.bandcamp.com/album/it028-andrea-outlines',
+                    a_string: 'IT028 Andrea - Outlines by Andrea',
+                    rule: {
+                        "monday": [24, 30, 6, 19],
+                        "tuesday": [23, 29, 5, 18], 
+                        "wednesday": [22, 28, 4, 17], 
+                        "thursday": [26, 1, 8, 21],  
+                        "saturday": [25, 31, 7, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

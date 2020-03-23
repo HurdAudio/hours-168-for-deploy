@@ -12004,6 +12004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 601,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/veil-of-light-1964.jpeg',
+                    title: 'Veil of Light',
+                    artist: 'Heinz Mack',
+                    year: '1964',
+                    rule: {
+                        "monday": [14, 30, 18, 27],
+                        "tuesday": [13, 20, 17, 25],
+                        "wednesday": [21, 28, 16, 23],
+                        "thursday": [28, 4, 22, 30], 
+                        "friday": [27, 2, 21, 29], 
+                        "saturday": [25, 2, 20, 28], 
+                        "sunday": [25, 1, 19, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 602,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/inner-courtyard-of-sintra-1990.jpeg',
+                    title: 'Inner Courtyard of Sintra',
+                    artist: 'Katsuhito Nishikawa',
+                    year: '1990',
+                    rule: {
+                        "monday": [26, 2, 20, 28],
+                        "tuesday": [15, 1, 19, 28],
+                        "wednesday": [14, 21, 18, 26],
+                        "thursday": [22, 29, 17, 24], 
+                        "friday": [29, 5, 23, 1], 
+                        "saturday": [28, 3, 22, 30], 
+                        "sunday": [26, 3, 21, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 603,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/messiah.jpeg',
+                    title: 'Messiah',
+                    artist: 'George Stefanescu',
+                    year: '1983',
+                    rule: {
+                        "monday": [26, 3, 21, 29],
+                        "tuesday": [26, 2, 20, 28], 
+                        "wednesday": [15, 1, 19, 28], 
+                        "thursday": [14, 21, 18, 26],
+                        "friday": [22, 29, 17, 24],
+                        "saturday": [29, 5, 23, 1],  
+                        "sunday": [28, 3, 22, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 604,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/farbwanne-1984.jpeg',
+                    title: 'Farbwanne',
+                    artist: 'Gotthard Graubner',
+                    year: '1984',
+                    rule: {
+                        "monday": [28, 3, 22, 30],
+                        "tuesday": [26, 3, 21, 29], 
+                        "wednesday": [26, 2, 20, 28], 
+                        "thursday": [15, 1, 19, 28], 
+                        "friday": [14, 21, 18, 26],
+                        "saturday": [22, 29, 17, 24],
+                        "sunday": [29, 5, 23, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 605,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/greengage-1962.jpeg',
+                    title: 'Greengage',
+                    artist: 'Jack Youngerman',
+                    year: '1962',
+                    rule: {
+                        "monday": [29, 5, 23, 1],
+                        "tuesday": [28, 3, 22, 30], 
+                        "wednesday": [26, 3, 21, 29], 
+                        "thursday": [26, 2, 20, 28], 
+                        "friday": [15, 1, 19, 28], 
+                        "saturday": [14, 21, 18, 26],
+                        "sunday": [22, 29, 17, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
