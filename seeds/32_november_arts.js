@@ -11704,6 +11704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 586,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-blue-monochrome-1956.jpg',
+                    title: 'Untitled Blue Monochrome',
+                    artist: 'Yves Klein',
+                    year: '1956',
+                    rule: {
+                        "monday": [26, 1, 7, 14],
+                        "tuesday": [2, 7, 13, 18],  
+                        "wednesday":[1, 3, 11, 7],   
+                        "thursday": [30, 4, 11, 14], 
+                        "friday": [29, 2, 9, 14],  
+                        "saturday": [27, 2, 8, 13],  
+                        "sunday": [26, 1, 7, 12]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 587,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-pink-monochrome-1956.jpg',
+                    title: 'Untitled Pink Monochrome',
+                    artist: 'Yves Klein',
+                    year: '1956',
+                    rule: {
+                        "monday": [26, 1, 7, 12],
+                        "tuesday": [26, 1, 7, 14],  
+                        "wednesday":[2, 7, 13, 18],  
+                        "thursday": [1, 3, 11, 7],   
+                        "friday": [30, 4, 11, 14], 
+                        "saturday": [29, 2, 9, 14],  
+                        "sunday": [27, 2, 8, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 588,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/lago-d-orta-1956.jpg',
+                    title: 'Lago d\'Orta',
+                    artist: 'Antonio Calderara',
+                    year: '1956',
+                    rule: {
+                        "monday": [28, 3, 9, 14],
+                        "tuesday": [27, 2, 8, 13],  
+                        "wednesday":[27, 2, 8, 15],  
+                        "thursday": [3, 8, 14, 19],   
+                        "friday": [2, 4, 12, 8], 
+                        "saturday": [1, 5, 12, 15],  
+                        "sunday": [30, 3, 10, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 589,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/ha-nevicato-1957.jpg',
+                    title: 'Ha nevicato',
+                    artist: 'Antonio Calderara',
+                    year: '1957',
+                    rule: {
+                        "monday": [30, 3, 10, 15],
+                        "tuesday": [28, 3, 9, 14],  
+                        "wednesday": [27, 2, 8, 13],  
+                        "thursday": [27, 2, 8, 15],  
+                        "friday": [3, 8, 14, 19],  
+                        "saturday": [2, 4, 12, 8],   
+                        "sunday": [1, 5, 12, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 590,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/study-for-white-sculpture-1958.jpg',
+                    title: 'Study for White Sculpture',
+                    artist: 'Ellsworth Kelly',
+                    year: '1958',
+                    rule: {
+                        "monday": [1, 5, 12, 15],
+                        "tuesday": [30, 3, 10, 15], 
+                        "wednesday": [28, 3, 9, 14],  
+                        "thursday": [27, 2, 8, 13],  
+                        "friday": [27, 2, 8, 15],  
+                        "saturday": [3, 8, 14, 19],  
+                        "sunday": [2, 4, 12, 8]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

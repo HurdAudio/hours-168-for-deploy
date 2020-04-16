@@ -6366,13 +6366,67 @@ exports.seed = function (knex, Promise) {
                     source: 'bandcamp',
                     src_string: 'https://bandcamp.com/EmbeddedPlayer/album=86036750/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
                     href_string: 'http://odiousmortem.bandcamp.com/album/synesthesia',
-                    a_string: 'Synesthesia by Odious Mortem ',
+                    a_string: 'Synesthesia by Odious Mortem',
                     rule: {
                         "monday": [24, 3, 13, 16],
                         "tuesday": [28, 7, 17, 20], 
                         "wednesday": [27, 6, 16, 19], 
                         "thursday": [26, 6, 15, 18], 
                         "saturday": [25, 4, 15, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 355,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3498954062/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://hauntthenation.bandcamp.com/album/mind-freeze',
+                    a_string: 'Mind Freeze by Haunt',
+                    rule: {
+                        "monday": [25, 4, 15, 17],
+                        "tuesday": [24, 3, 13, 16], 
+                        "wednesday": [28, 7, 17, 20], 
+                        "thursday": [27, 6, 16, 19], 
+                        "saturday": [26, 6, 15, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 356,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1971868768/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://fighter-records.bandcamp.com/album/die-by-my-sword',
+                    a_string: 'Die By My Sword by WAR DOGS',
+                    rule: {
+                        "monday": [26, 6, 15, 18],
+                        "tuesday": [25, 4, 15, 17], 
+                        "wednesday": [24, 3, 13, 16], 
+                        "thursday": [28, 7, 17, 20], 
+                        "saturday": [27, 6, 16, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 357,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1462255327/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://kirkwindstein.bandcamp.com/album/dream-in-motion',
+                    a_string: 'Dream In Motion by Kirk Windstein',
+                    rule: {
+                        "monday": [28, 7, 17, 20],
+                        "tuesday": [27, 7, 16, 19], 
+                        "wednesday": [26, 5, 16, 18], 
+                        "thursday": [25, 4, 14, 17], 
+                        "saturday": [29, 8, 18, 21]  
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

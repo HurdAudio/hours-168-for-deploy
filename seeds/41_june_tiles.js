@@ -1516,6 +1516,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#FAFCF9',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 109,
+                    user_id: 1,
+                    theme: 'Light',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june_tiles/shokhjakhon-kamolov-67TZmPNs9yM-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#0f0606',
+                    color_medium: '#008237',
+                    color_light: '#ffffff',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

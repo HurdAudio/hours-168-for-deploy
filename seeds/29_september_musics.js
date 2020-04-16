@@ -6484,6 +6484,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 361,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1698150244/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://subrosalabel.bandcamp.com/album/eggs-ashes-music-from-the-wim-vandekeybus-performances',
+                    a_string: 'Eggs &amp; Ashes (Music from the Wim Vandekeybus performances) by X-Legged sally',
+                    rule: {
+                        "monday": [25, 15, 23, 17],
+                        "tuesday": [24, 14, 22, 15],
+                        "wednesday": [24, 13, 21, 15],
+                        "thursday": [22, 12, 20, 14],
+                        "saturday": [26, 16, 24, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 362,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2390167413/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://subrosalabel.bandcamp.com/album/killed-by-charity-produced-by-bill-laswell',
+                    a_string: 'Killed by Charity (Produced by Bill Laswell) by X-Legged Sally',
+                    rule: {
+                        "monday": [26, 16, 24, 18],
+                        "tuesday": [25, 15, 23, 17],
+                        "wednesday": [24, 14, 22, 15],
+                        "thursday": [24, 13, 21, 15],
+                        "saturday": [22, 12, 20, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 363,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=444519429/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://subrosalabel.bandcamp.com/album/slow-up-produced-by-bill-laswell',
+                    a_string: 'Slow-Up (Produced by Bill Laswell) by X-Legged Sally',
+                    rule: {
+                        "monday": [22, 12, 20, 14],
+                        "tuesday": [26, 16, 24, 18],
+                        "wednesday": [25, 15, 23, 17],
+                        "thursday": [24, 14, 22, 15],
+                        "saturday": [24, 13, 21, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

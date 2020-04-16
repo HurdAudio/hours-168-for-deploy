@@ -6916,6 +6916,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 385,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1726683889/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://annawebber.bandcamp.com/album/binary',
+                    a_string: 'Binary by Anna Webber',
+                    rule: {
+                        "monday": [26, 1, 8, 21],
+                        "tuesday": [25, 31, 7, 20], 
+                        "wednesday": [24, 30, 6, 19], 
+                        "thursday": [23, 29, 5, 18],  
+                        "saturday": [27, 2, 9, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1147831992/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://adamrudolph.bandcamp.com/album/chi',
+                    a_string: 'CHI by Adam Rudolph',
+                    rule: {
+                        "monday": [27, 2, 9, 22],
+                        "tuesday": [26, 1, 8, 21],  
+                        "wednesday": [25, 31, 7, 20], 
+                        "thursday": [24, 30, 6, 19], 
+                        "saturday": [23, 29, 5, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2263382137/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://glisteningexamples.bandcamp.com/album/love-me-two-times',
+                    a_string: 'Love Me Two Times by Nmperign/Jason Lescalleet',
+                    rule: {
+                        "monday": [23, 29, 5, 18],
+                        "tuesday": [27, 2, 9, 22],  
+                        "wednesday": [26, 1, 8, 21],  
+                        "thursday": [25, 31, 7, 20], 
+                        "saturday": [24, 30, 6, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

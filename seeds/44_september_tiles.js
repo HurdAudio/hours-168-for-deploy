@@ -1474,6 +1474,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#CFE6EE',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 106,
+                    user_id: 1,
+                    theme: 'Leather',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/chris-knight-_H1XXY96pqw-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#050301',
+                    color_medium: '#a96d48',
+                    color_light: '#e7e2de',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

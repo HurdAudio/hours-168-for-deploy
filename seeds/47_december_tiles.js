@@ -1432,6 +1432,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#B5B4B0',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 103,
+                    user_id: 1,
+                    theme: 'Snow',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/courtney-chestnut-OxpxgR0cKc8-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#160d0a',
+                    color_medium: '#9a7e7a',
+                    color_light: '#e4e5ea',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6268,6 +6268,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 349,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1127033507/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://gordonkoang.bandcamp.com/album/mal-mi-goa-liluzu-dub-try-again',
+                    a_string: 'Mal Mi Goa (Liluzu Dub) / Try Again by Gordon Koang',
+                    rule: {
+                        "monday": [17, 28, 9, 21],
+                        "tuesday": [21, 2, 13, 17], 
+                        "wednesday": [20, 1, 12, 16], 
+                        "thursday": [19, 30, 11, 15],
+                        "saturday": [18, 29, 10, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 350,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2163825777/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://zenzinpawcut.bandcamp.com/album/ripple-effect',
+                    a_string: 'Ripple Effect by Zen-Zin &amp; Pawcut',
+                    rule: {
+                        "monday": [19, 30, 11, 22],
+                        "tuesday": [18, 29, 10, 22], 
+                        "wednesday": [22, 3, 14, 18], 
+                        "thursday": [21, 2, 13, 17],
+                        "saturday": [20, 1, 12, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 351,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=495742897/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://acetantina.bandcamp.com/album/dead-internet',
+                    a_string: 'Dead Internet by Acetantina',
+                    rule: {
+                        "monday": [20, 1, 12, 16],
+                        "tuesday": [19, 30, 11, 22],
+                        "wednesday": [18, 29, 10, 22],
+                        "thursday": [22, 3, 14, 18], 
+                        "saturday": [21, 2, 13, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

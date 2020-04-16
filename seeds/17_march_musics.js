@@ -7132,6 +7132,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 397,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2754775418/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://keiyaa.bandcamp.com/album/forever-ya-girl',
+                    a_string: 'Forever, Ya Girl by KeiyaA',
+                    rule: {
+                        "monday": [31, 6, 12, 20],
+                        "tuesday": [30, 5, 10, 19], 
+                        "wednesday": [29, 4, 10, 19], 
+                        "thursday": [27, 3, 9, 17],  
+                        "saturday": [27, 2, 8, 16]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 398,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2443156388/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://waxahatchee.bandcamp.com/album/saint-cloud-2',
+                    a_string: 'Saint Cloud by Waxahatchee',
+                    rule: {
+                        "monday": [27, 2, 8, 16],
+                        "tuesday": [31, 6, 12, 20], 
+                        "wednesday": [30, 5, 10, 19], 
+                        "thursday": [29, 4, 10, 19], 
+                        "saturday": [27, 3, 9, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 399,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=925811280/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://witchprophet.bandcamp.com/album/dna-activation',
+                    a_string: 'DNA ACTIVATION by Witch Prophet',
+                    rule: {
+                        "monday": [28, 4, 10, 18],
+                        "tuesday": [28, 3, 9, 17], 
+                        "wednesday": [1, 7, 13, 21], 
+                        "thursday": [31, 6, 11, 20], 
+                        "saturday": [30, 5, 11, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

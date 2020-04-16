@@ -12104,6 +12104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 606,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/modez-1971.jpg',
+                    title: 'Modez',
+                    artist: 'Cesar Paternosto',
+                    year: '1971',
+                    rule: {
+                        "monday": [22, 29, 17, 24],
+                        "tuesday": [29, 5, 23, 1],  
+                        "wednesday": [28, 3, 22, 30], 
+                        "thursday": [26, 3, 21, 29], 
+                        "friday": [26, 2, 20, 28], 
+                        "saturday": [15, 1, 19, 28], 
+                        "sunday": [14, 21, 18, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 607,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/guston-untitled-1980.jpg',
+                    title: 'Untitled',
+                    artist: 'Philip Guston',
+                    year: '1980',
+                    rule: {
+                        "monday": [14, 21, 18, 26],
+                        "tuesday": [22, 29, 17, 24],
+                        "wednesday": [29, 5, 23, 1],  
+                        "thursday": [28, 3, 22, 30], 
+                        "friday": [26, 3, 21, 29], 
+                        "saturday": [26, 2, 20, 28], 
+                        "sunday": [15, 1, 19, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 608,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/yamamoto-untitled.jpg',
+                    title: 'Untitled',
+                    artist: 'Kansuke Yamamoto',
+                    year: '?',
+                    rule: {
+                        "monday": [15, 1, 19, 28],
+                        "tuesday": [14, 21, 18, 26],
+                        "wednesday": [22, 29, 17, 24],
+                        "thursday": [29, 5, 23, 1],  
+                        "friday": [28, 3, 22, 30], 
+                        "saturday": [26, 3, 21, 29], 
+                        "sunday": [26, 2, 20, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 609,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/eternal-love-iv-2008.jpg',
+                    title: 'Eternal Love IV',
+                    artist: 'Jahar Dasgupta',
+                    year: '2008',
+                    rule: {
+                        "monday": [27, 3, 21, 29],
+                        "tuesday": [16, 2, 20, 29],
+                        "wednesday": [15, 22, 19, 27],
+                        "thursday": [23, 30, 18, 25],  
+                        "friday": [30, 6, 24, 2], 
+                        "saturday": [29, 4, 23, 1], 
+                        "sunday": [27, 4, 22, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 610,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/fast-food-1999.jpg',
+                    title: 'Fast Food',
+                    artist: 'Nyoman Masriadi',
+                    year: '1999',
+                    rule: {
+                        "monday": [27, 4, 22, 30],
+                        "tuesday": [27, 3, 21, 29], 
+                        "wednesday": [16, 2, 20, 29], 
+                        "thursday": [15, 22, 19, 27],
+                        "friday": [23, 30, 18, 25],
+                        "saturday": [30, 6, 24, 2],  
+                        "sunday": [29, 4, 23, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

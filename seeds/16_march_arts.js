@@ -13304,6 +13304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 666,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/o-voo-das-azuis.jpeg',
+                    title: 'O VÔO DAS AZUIS',
+                    artist: 'Lelli de Orleans e Bragança',
+                    year: '?',
+                    rule: {
+                        "monday": [31, 11, 19, 29],
+                        "tuesday": [31, 10, 18, 28],
+                        "wednesday": [30, 10, 17, 27],
+                        "thursday": [29, 8, 16, 26], 
+                        "friday": [28, 7, 16, 25], 
+                        "saturday": [3, 12, 22, 30], 
+                        "sunday": [2, 12, 20, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 667,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/groundswell-1992-93.jpg',
+                    title: 'Groundswell',
+                    artist: 'Maya Lin',
+                    year: '1992 - 1993',
+                    rule: {
+                        "monday": [2, 12, 20, 30],
+                        "tuesday": [31, 11, 19, 29],
+                        "wednesday": [31, 10, 18, 28],
+                        "thursday": [30, 10, 17, 27],
+                        "friday": [29, 8, 16, 26], 
+                        "saturday": [28, 7, 16, 25], 
+                        "sunday": [3, 12, 22, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 668,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/imgp-rosa-rot-malwerk-silvia-l-lueftenegger-contemporary-art-design-performance-theater-shoe-7312.jpg',
+                    title: 'IMGP Rosa Rot Malwerk Silvia L Lueftenegger Contemporary Art Design Performance Theater Shoe 7312',
+                    artist: 'Silvia L. Lueftenegger RosaRot',
+                    year: '2007',
+                    rule: {
+                        "monday": [3, 12, 22, 30],
+                        "tuesday": [2, 12, 20, 30], 
+                        "wednesday": [31, 11, 19, 29],
+                        "thursday": [31, 10, 18, 28],
+                        "friday": [30, 10, 17, 27],
+                        "saturday": [29, 8, 16, 26], 
+                        "sunday": [28, 7, 16, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 669,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/colormirror-glow-open-b-c-2010.jpg',
+                    title: 'Colormirror Glow Open B - C',
+                    artist: 'Regine Schumann',
+                    year: '2010',
+                    rule: {
+                        "monday": [28, 7, 16, 25],
+                        "tuesday": [3, 12, 22, 30], 
+                        "wednesday": [2, 12, 20, 30], 
+                        "thursday": [31, 11, 19, 29],
+                        "friday": [31, 10, 18, 28],
+                        "saturday": [30, 10, 17, 27],
+                        "sunday": [29, 8, 16, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 670,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/candy-ring-mint.jpeg',
+                    title: 'CANDY RING MINT',
+                    artist: 'Miriam de Ungría',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 8, 16, 26],
+                        "tuesday": [28, 7, 16, 25], 
+                        "wednesday": [3, 12, 22, 30], 
+                        "thursday": [2, 12, 20, 30], 
+                        "friday": [31, 11, 19, 29],
+                        "saturday": [31, 10, 18, 28],
+                        "sunday": [30, 10, 17, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

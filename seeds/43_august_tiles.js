@@ -1488,6 +1488,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#B8B057',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 107,
+                    user_id: 1,
+                    theme: 'Primary Colors',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/alexandra-vazquez-tzHqbOskmBQ-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#161117',
+                    color_medium: '#859409',
+                    color_light: '#cfc1b6',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

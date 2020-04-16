@@ -11504,6 +11504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 576,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-02,MotnPx.jpg',
+                    title: 'Motion Picture',
+                    artist: 'Morr Kusnet',
+                    year: '1935',
+                    rule: {
+                        "monday": [24, 6, 14, 20],
+                        "tuesday": [23, 4, 13, 19], 
+                        "wednesday": [22, 4, 12, 18], 
+                        "thursday": [21, 3, 11, 17], 
+                        "friday": [20, 2, 10, 16], 
+                        "saturday": [19, 31, 30, 15],
+                        "sunday": [8, 31, 19, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 577,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/27-05-20,ThePopular.jpg',
+                    title: 'The Popular',
+                    artist: 'Charles Lassell',
+                    year: '1927',
+                    rule: {
+                        "monday": [8, 31, 19, 26],
+                        "tuesday": [24, 6, 14, 20], 
+                        "wednesday": [23, 4, 13, 19], 
+                        "thursday": [22, 4, 12, 18], 
+                        "friday": [21, 3, 11, 17], 
+                        "saturday": [20, 2, 10, 16], 
+                        "sunday": [19, 31, 30, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 578,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/45-09,FFM.jpg',
+                    title: 'Fantastic Mysteries',
+                    artist: 'Lawrence (Sterne Stevens)',
+                    year: '1945',
+                    rule: {
+                        "monday": [19, 31, 30, 15],
+                        "tuesday": [8, 31, 19, 26], 
+                        "wednesday": [24, 6, 14, 20], 
+                        "thursday": [23, 4, 13, 19], 
+                        "friday": [22, 4, 12, 18], 
+                        "saturday": [21, 3, 11, 17], 
+                        "sunday": [20, 2, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 579,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/31-05,AmericanBoy.jpg',
+                    title: 'American Boy',
+                    artist: 'Manning de V. Lee',
+                    year: '1931',
+                    rule: {
+                        "monday": [20, 2, 10, 16],
+                        "tuesday": [19, 31, 30, 15],
+                        "wednesday": [8, 31, 19, 26], 
+                        "thursday": [24, 6, 14, 20], 
+                        "friday": [23, 4, 13, 19], 
+                        "saturday": [22, 4, 12, 18], 
+                        "sunday": [21, 3, 11, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 580,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/40-10,TenDetAces1.jpg',
+                    title: 'Ten Detective Aces',
+                    artist: 'M. Lincoln Lee',
+                    year: '1940',
+                    rule: {
+                        "monday": [21, 3, 11, 17],
+                        "tuesday": [20, 2, 10, 16], 
+                        "wednesday": [19, 31, 30, 15],
+                        "thursday": [8, 31, 19, 26], 
+                        "friday": [24, 6, 14, 20], 
+                        "saturday": [23, 4, 13, 19], 
+                        "sunday": [22, 4, 12, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

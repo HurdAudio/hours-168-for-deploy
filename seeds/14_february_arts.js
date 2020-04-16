@@ -13504,6 +13504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 676,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/12088539_1671387759743431_6250081926651983521_n.jpg',
+                    title: 'untitled',
+                    artist: 'Jerry Harris',
+                    year: '2020',
+                    rule: {
+                        "monday": [20, 28, 7, 17],
+                        "tuesday": [20, 1, 26, 16], 
+                        "wednesday": [10, 18, 26, 5], 
+                        "thursday": [11, 20, 28, 7], 
+                        "friday": [17, 22, 28, 9], 
+                        "saturday": [16, 24, 3, 11], 
+                        "sunday": [18, 28, 5, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 677,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/fe9454b4-8595-458e-b6a3-d0a75b36efc5_338.jpeg',
+                    title: 'Still Life',
+                    artist: 'Lawrence Harris',
+                    year: '?',
+                    rule: {
+                        "monday": [18, 28, 5, 11],
+                        "tuesday": [20, 28, 7, 17], 
+                        "wednesday": [20, 1, 26, 16], 
+                        "thursday": [10, 18, 26, 5], 
+                        "friday": [11, 20, 28, 7], 
+                        "saturday": [17, 22, 28, 9], 
+                        "sunday": [16, 24, 3, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 678,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/7-3huhu.jpg',
+                    title: 'Finishing a Raw Basement',
+                    artist: 'Ilana Harris-Babou',
+                    year: '2017',
+                    rule: {
+                        "monday": [16, 24, 3, 11],
+                        "tuesday": [18, 28, 5, 11], 
+                        "wednesday": [20, 28, 7, 17], 
+                        "thursday": [20, 1, 26, 16], 
+                        "friday": [10, 18, 26, 5], 
+                        "saturday": [11, 20, 28, 7], 
+                        "sunday": [17, 22, 28, 9]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 679,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/2018_Maren_Hassinger_71_o5.jpg',
+                    title: 'The Spirit of Things',
+                    artist: 'Maren Hassinger',
+                    year: '2018',
+                    rule: {
+                        "monday": [18, 23, 29, 10],
+                        "tuesday": [17, 25, 4, 12], 
+                        "wednesday": [19, 29, 6, 12], 
+                        "thursday": [21, 29, 8, 18], 
+                        "friday": [21, 2, 27, 17], 
+                        "saturday": [11, 19, 27, 6], 
+                        "sunday": [12, 21, 29, 8]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 680,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/2016_234_v1_ds_201610_o3-p1b8bv0v7e1pbpvoqs155r21mk1.jpg',
+                    title: 'Untitled (Dreamer)',
+                    artist: 'Palmer Hayden',
+                    year: '1930',
+                    rule: {
+                        "monday": [12, 21, 29, 8],
+                        "tuesday": [18, 23, 29, 10],
+                        "wednesday": [17, 25, 4, 12], 
+                        "thursday": [19, 29, 6, 12], 
+                        "friday": [21, 29, 8, 18], 
+                        "saturday": [21, 2, 27, 17], 
+                        "sunday": [11, 19, 27, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

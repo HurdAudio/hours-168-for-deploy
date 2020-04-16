@@ -7348,6 +7348,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 409,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3405436270/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/randy-gibson-the-four-pillars-appearing-from-the-equal-d-under-resonating-apparitions-of-the-eternal-process-in-the-midwinter-starfield-16-viii-10-kansas-city',
+                    a_string: 'Randy Gibson: The Four Pillars Appearing from The Equal D under Resonating  Apparitions of The Eternal Process in The Midwinter Starfield 16 VIII 10 (Kansas City) by R. Andrew Lee',
+                    rule: {
+                        "monday": [6, 13, 14, 15],
+                        "tuesday": [5, 11, 12, 14], 
+                        "wednesday": [4, 11, 12, 13], 
+                        "thursday": [3, 9, 10, 11],  
+                        "saturday": [2, 9, 10, 11]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 410,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2951496190/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/inner-monologues-venn-diagram-of-six-pitches',
+                    a_string: 'Inner Monologues (Venn Diagram of Six Pitches) by R. Andrew Lee',
+                    rule: {
+                        "monday": [2, 9, 10, 11],
+                        "tuesday": [6, 13, 14, 15], 
+                        "wednesday": [5, 11, 12, 14], 
+                        "thursday": [4, 11, 12, 13], 
+                        "saturday": [3, 9, 10, 11]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 411,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=41065711/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/silo-city-20-september-2016',
+                    a_string: 'Silo City: 20 September 2016 by Ensemble of Irreproducible Outcomes',
+                    rule: {
+                        "monday": [3, 9, 10, 11],
+                        "tuesday": [2, 9, 10, 11],  
+                        "wednesday": [6, 13, 14, 15], 
+                        "thursday": [5, 11, 12, 14], 
+                        "saturday": [4, 11, 12, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

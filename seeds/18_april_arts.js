@@ -13104,6 +13104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 656,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Rocks_display_imagePark.png',
+                    title: 'Colorado Rockies South Park Style',
+                    artist: 'Trey Parker and Matt Stone',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 6, 21, 19],
+                        "tuesday": [29, 5, 11, 17], 
+                        "wednesday": [30, 5, 11, 17], 
+                        "thursday": [29, 4, 10, 16], 
+                        "friday": [18, 10, 15, 21],
+                        "saturday": [18, 8, 14, 20], 
+                        "sunday": [3, 6, 19, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 657,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/DEQDou1XoAAfaZc.jpg',
+                    title: 'Marvel Super Heroes Night',
+                    artist: 'unknown',
+                    year: '2017',
+                    rule: {
+                        "monday": [3, 6, 19, 20],
+                        "tuesday": [2, 6, 21, 19],  
+                        "wednesday": [29, 5, 11, 17], 
+                        "thursday": [30, 5, 11, 17], 
+                        "friday": [29, 4, 10, 16], 
+                        "saturday": [18, 10, 15, 21],
+                        "sunday": [18, 8, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 658,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/EDeAxTlU0AAKnrc.jpg',
+                    title: 'Colorado Rockies Sketches',
+                    artist: 'Howell',
+                    year: '?',
+                    rule: {
+                        "monday": [19, 9, 15, 21],
+                        "tuesday": [4, 7, 20, 21],  
+                        "wednesday": [3, 7, 22, 20], 
+                        "thursday": [30, 6, 12, 18], 
+                        "friday": [1, 6, 12, 18], 
+                        "saturday": [30, 5, 11, 17],
+                        "sunday": [19, 11, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 659,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/gettyimages-485141262-612x612.jpg',
+                    title: 'Rockies Poster',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [19, 11, 16, 22],
+                        "tuesday": [19, 9, 15, 21], 
+                        "wednesday": [4, 7, 20, 21],  
+                        "thursday": [3, 7, 22, 20],  
+                        "friday": [30, 6, 12, 18], 
+                        "saturday": [1, 6, 12, 18],  
+                        "sunday": [30, 5, 11, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 660,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/rockiesPoster4.jpg',
+                    title: 'Rockies Poster',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 5, 11, 17],
+                        "tuesday": [19, 11, 16, 22],
+                        "wednesday": [19, 9, 15, 21], 
+                        "thursday": [4, 7, 20, 21],  
+                        "friday": [3, 7, 22, 20],  
+                        "saturday": [30, 6, 12, 18], 
+                        "sunday": [1, 6, 12, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

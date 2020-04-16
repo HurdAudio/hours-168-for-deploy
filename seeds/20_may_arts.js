@@ -12904,6 +12904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 646,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/liberate.jpg',
+                    title: 'Liberate',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 11, 21, 29],
+                        "tuesday": [30, 10, 19, 29],
+                        "wednesday": [28, 7, 15, 17], 
+                        "thursday": [25, 5, 15, 4],  
+                        "friday": [24, 4, 14, 23], 
+                        "saturday": [22, 1, 11, 19], 
+                        "sunday": [20, 29, 10, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 647,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/milch-cow.jpg',
+                    title: 'Milking cow',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [20, 29, 10, 19],
+                        "tuesday": [30, 11, 21, 29],
+                        "wednesday": [30, 10, 19, 29],
+                        "thursday": [28, 7, 15, 17], 
+                        "friday": [25, 5, 15, 4],  
+                        "saturday": [24, 4, 14, 23], 
+                        "sunday": [22, 1, 11, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 648,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-last-year-fritz-to-today-fritz-last-winter-hitler-had-promised-us-the-warm-clothing-too.jpg',
+                    title: 'The last year Fritz to today Fritz : "Last winter Hitler had promised us the warm clothing too"',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [22, 1, 11, 19],
+                        "tuesday": [20, 29, 10, 19],
+                        "wednesday": [30, 11, 21, 29],
+                        "thursday": [30, 10, 19, 29],
+                        "friday": [28, 7, 15, 17], 
+                        "saturday": [25, 5, 15, 4],  
+                        "sunday": [24, 4, 14, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 649,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/kmoin_untitled_ds.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [24, 4, 14, 23],
+                        "tuesday": [22, 1, 11, 19], 
+                        "wednesday": [20, 29, 10, 19],
+                        "thursday": [30, 11, 21, 29],
+                        "friday": [30, 10, 19, 29],
+                        "saturday": [28, 7, 15, 17], 
+                        "sunday": [25, 5, 15, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 650,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/asdfjoie__untitled-1.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 5, 15, 4],
+                        "tuesday": [24, 4, 14, 23], 
+                        "wednesday": [22, 1, 11, 19], 
+                        "thursday": [20, 29, 10, 19],
+                        "friday": [30, 11, 21, 29],
+                        "saturday": [30, 10, 19, 29],
+                        "sunday": [28, 7, 15, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

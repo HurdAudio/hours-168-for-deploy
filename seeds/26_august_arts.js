@@ -12304,6 +12304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 616,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-truth-1903.jpg',
+                    title: 'The truth',
+                    artist: 'Ferdinand Hodler',
+                    year: '1903',
+                    rule: {
+                        "monday": [27, 29, 8, 24],
+                        "tuesday": [26, 28, 7, 23], 
+                        "wednesday": [25, 28, 6, 22], 
+                        "thursday": [24, 27, 5, 21], 
+                        "friday": [30, 3, 11, 27], 
+                        "saturday": [29, 1, 10, 26], 
+                        "sunday": [27, 1, 9, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 617,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/maria-verk-ndigung-1919.jpg',
+                    title: 'Maria Verkündigung',
+                    artist: 'Heinrich Campendonk',
+                    year: '1919',
+                    rule: {
+                        "monday": [27, 1, 9, 25],
+                        "tuesday": [27, 29, 8, 24], 
+                        "wednesday": [26, 28, 7, 23], 
+                        "thursday": [25, 28, 6, 22], 
+                        "friday": [24, 27, 5, 21], 
+                        "saturday": [30, 3, 11, 27], 
+                        "sunday": [29, 1, 10, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 618,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/st-botolph-street-1922.jpg',
+                    title: 'St. Botolph Street',
+                    artist: 'George Luks',
+                    year: '1922',
+                    rule: {
+                        "monday": [29, 1, 10, 26],
+                        "tuesday": [27, 1, 9, 25],  
+                        "wednesday": [27, 29, 8, 24], 
+                        "thursday": [26, 28, 7, 23], 
+                        "friday": [25, 28, 6, 22], 
+                        "saturday": [24, 27, 5, 21], 
+                        "sunday": [30, 3, 11, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 619,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/juggler-1926.jpg',
+                    title: 'Juggler',
+                    artist: 'Antonio Donghi',
+                    year: '1926',
+                    rule: {
+                        "monday": [30, 3, 11, 27],
+                        "tuesday": [29, 1, 10, 26], 
+                        "wednesday": [27, 1, 9, 25],  
+                        "thursday": [27, 29, 8, 24], 
+                        "friday": [26, 28, 7, 23], 
+                        "saturday": [25, 28, 6, 22], 
+                        "sunday": [24, 27, 5, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 620,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/beowulf-wrestles-with-grendel-1933.jpg',
+                    title: 'Beowulf wrestles with Grendel',
+                    artist: 'Lynd Ward',
+                    year: '1933',
+                    rule: {
+                        "monday": [24, 27, 5, 21],
+                        "tuesday": [30, 3, 11, 27], 
+                        "wednesday": [29, 1, 10, 26], 
+                        "thursday": [27, 1, 9, 25],  
+                        "friday": [27, 29, 8, 24], 
+                        "saturday": [26, 28, 7, 23], 
+                        "sunday": [25, 28, 6, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

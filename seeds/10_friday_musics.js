@@ -494,6 +494,16 @@ exports.seed = function(knex, Promise) {
           a_string: 'Highlife-Jazz and Afro-Soul (1963-69) by Fela Kuti',
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 50,
+          user_id: 1,
+          source: 'bandcamp',
+          src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3195302156/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+          href_string: 'http://felakuti.bandcamp.com/album/i-go-shout-plenty',
+          a_string: 'I Go Shout Plenty!!! by Fela Kuti &amp; Afrika &#39;70',
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     }).then(() => {

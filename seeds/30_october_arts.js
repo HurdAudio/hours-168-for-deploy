@@ -11904,6 +11904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 596,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_militarism_bomb.jpg',
+                    title: 'Militarism Agressioon Konfrontatsioon (Estonian)',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 8, 19, 23],
+                        "tuesday": [27, 7, 18, 22], 
+                        "wednesday": [26, 6, 18, 21], 
+                        "thursday": [25, 5, 16, 20], 
+                        "friday": [24, 4, 14, 19], 
+                        "saturday": [2, 3, 14, 18],  
+                        "sunday": [29, 9, 20, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 597,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_usa_nato.jpg',
+                    title: 'US and NATO: making money out of deadly weapons.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 9, 20, 24],
+                        "tuesday": [28, 8, 19, 23], 
+                        "wednesday": [27, 7, 18, 22], 
+                        "thursday": [26, 6, 18, 21], 
+                        "friday": [25, 5, 16, 20], 
+                        "saturday": [24, 4, 14, 19], 
+                        "sunday": [2, 3, 14, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 598,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_nato_tree.jpg',
+                    title: 'N.A.T.O. tree',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 3, 14, 18],
+                        "tuesday": [29, 9, 20, 24], 
+                        "wednesday": [28, 8, 19, 23], 
+                        "thursday": [27, 7, 18, 22], 
+                        "friday": [26, 6, 18, 21], 
+                        "saturday": [25, 5, 16, 20], 
+                        "sunday": [24, 4, 14, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 599,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_brother.jpg',
+                    title: 'My brother is a hero',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [24, 4, 14, 19],
+                        "tuesday": [2, 3, 14, 18],  
+                        "wednesday": [29, 9, 20, 24], 
+                        "thursday": [28, 8, 19, 23], 
+                        "friday": [27, 7, 18, 22], 
+                        "saturday": [26, 6, 18, 21], 
+                        "sunday": [25, 5, 16, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 600,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_rainbow_olympic_colors.jpg',
+                    title: 'A pencil splits a bomb',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 5, 16, 20],
+                        "tuesday": [24, 4, 14, 19], 
+                        "wednesday": [2, 3, 14, 18],  
+                        "thursday": [29, 9, 20, 24], 
+                        "friday": [28, 8, 19, 23], 
+                        "saturday": [27, 7, 18, 22], 
+                        "sunday": [26, 6, 18, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

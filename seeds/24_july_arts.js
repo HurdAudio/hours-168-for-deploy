@@ -12504,6 +12504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 626,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/rue-des-5-diamants-paris-xiii-2010.jpg',
+                    title: 'Rue des 5 diamants, Paris XIII',
+                    artist: 'Speedy Graphito',
+                    year: '2010',
+                    rule: {
+                        "monday": [23, 3, 25, 26],
+                        "tuesday": [24, 4, 26, 27], 
+                        "wednesday": [29, 7, 20, 31], 
+                        "thursday": [29, 6, 20, 31], 
+                        "friday": [27, 7, 19, 30], 
+                        "saturday": [27, 7, 18, 19], 
+                        "sunday": [26, 6, 16, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 627,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/wall-of-oil-barrels-the-iron-curtain-paris-1962.jpg',
+                    title: 'Wall of Oil Barrels – The Iron Curtain (Paris)',
+                    artist: 'Christo and Jeanne-Claude',
+                    year: '1962',
+                    rule: {
+                        "monday": [26, 6, 16, 18],
+                        "tuesday": [23, 3, 25, 26], 
+                        "wednesday": [24, 4, 26, 27], 
+                        "thursday": [29, 7, 20, 31], 
+                        "friday": [29, 6, 20, 31], 
+                        "saturday": [27, 7, 19, 30], 
+                        "sunday": [27, 7, 18, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 628,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/sexy5.jpg',
+                    title: 'SEXY',
+                    artist: 'Cricorps',
+                    year: 'c.2018',
+                    rule: {
+                        "monday": [27, 7, 18, 19],
+                        "tuesday": [26, 6, 16, 18], 
+                        "wednesday": [23, 3, 25, 26], 
+                        "thursday": [24, 4, 26, 27], 
+                        "friday": [29, 7, 20, 31], 
+                        "saturday": [29, 6, 20, 31], 
+                        "sunday": [27, 7, 19, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 629,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/33-avenue-paul-vaillant-couturier-1.jpg',
+                    title: '33 avenue Paul Vaillant Couturier',
+                    artist: 'Epsylon Point',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 7, 19, 30],
+                        "tuesday": [27, 7, 18, 19], 
+                        "wednesday": [26, 6, 16, 18], 
+                        "thursday": [23, 3, 25, 26], 
+                        "friday": [24, 4, 26, 27], 
+                        "saturday": [29, 7, 20, 31], 
+                        "sunday": [29, 6, 20, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 630,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/les-grilles-1976.jpg',
+                    title: 'Les Grilles',
+                    artist: 'Louis Cane',
+                    year: '1976',
+                    rule: {
+                        "monday": [30, 7, 21, 1],
+                        "tuesday": [28, 8, 20, 31], 
+                        "wednesday": [28, 8, 19, 20], 
+                        "thursday": [27, 7, 17, 19], 
+                        "friday": [24, 4, 26, 27], 
+                        "saturday": [25, 5, 27, 28], 
+                        "sunday": [30, 8, 21, 1]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

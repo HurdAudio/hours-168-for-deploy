@@ -1558,6 +1558,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#F8F8F8',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 112,
+                    user_id: 1,
+                    theme: 'Glass',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/ilya-gorborukov-t5BojIDbegQ-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#0b0b0b',
+                    color_medium: '#aeafb3',
+                    color_light: '#fafafc',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

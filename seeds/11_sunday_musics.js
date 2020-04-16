@@ -2884,6 +2884,26 @@ exports.seed = function (knex, Promise) {
                     a_string: 'The Solar​-​Myth Approach, Vol. 2 by Sun Ra &amp; His Solar-Myth Arkestra',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 289,
+                    user_id: 1,
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1619017463/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sunramusic.bandcamp.com/album/nuits-de-la-fondation-maeght-vol-1',
+                    a_string: 'Nuits de la Fondation Maeght Vol. 1 by Sun Ra &amp; His Arkestra',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 290,
+                    user_id: 1,
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1197208946/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sunramusic.bandcamp.com/album/nuits-de-la-fondation-maeght-vol-2',
+                    a_string: 'Nuits de la Fondation Maeght Vol. 2 by Sun Ra &amp; His Arkestra',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

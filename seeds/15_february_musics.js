@@ -7240,6 +7240,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 403,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1983252636/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://algreen.bandcamp.com/album/the-hi-records-singles',
+                    a_string: 'The Hi Records Singles by Al Green',
+                    rule: {
+                        "monday": [18, 12, 14, 20],
+                        "tuesday": [19, 13, 15, 21],
+                        "wednesday": [2, 6, 8, 12],   
+                        "thursday": [5, 8, 10, 12],  
+                        "saturday": [16, 10, 12, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 404,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3148669767/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://algreen.bandcamp.com/album/lets-stay-together',
+                    a_string: 'Let&#39;s Stay Together by Al Green',
+                    rule: {
+                        "monday": [16, 10, 12, 14],
+                        "tuesday": [18, 12, 14, 20],
+                        "wednesday": [19, 13, 15, 21],
+                        "thursday": [2, 6, 8, 12],   
+                        "saturday": [5, 8, 10, 12]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 405,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3554788493/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://algreen.bandcamp.com/album/im-still-in-love-with-you',
+                    a_string: 'I&#39;m Still In Love With You by Al Green',
+                    rule: {
+                        "monday": [5, 8, 10, 12],
+                        "tuesday": [16, 10, 12, 14],
+                        "wednesday": [18, 12, 14, 20],
+                        "thursday": [19, 13, 15, 21],
+                        "saturday": [2, 6, 8, 12]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

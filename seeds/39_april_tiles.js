@@ -1544,6 +1544,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#F6F3F1',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 111,
+                    user_id: 1,
+                    theme: 'Water',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april_tiles/liubov-ilchuk-4PrZxsSwqdo-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#17170f',
+                    color_medium: '#713219',
+                    color_light: '#a3a39b',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

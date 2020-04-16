@@ -6160,6 +6160,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 343,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4045270195/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://violoncheloops.bandcamp.com/album/donde-los-caminos-se-encuentran',
+                    a_string: 'Donde los Caminos Se Encuentran by Violoncheloops',
+                    rule: {
+                        "monday": [21, 27, 2, 8],
+                        "tuesday": [25, 31, 6, 12], 
+                        "wednesday": [24, 30, 5, 11],  
+                        "thursday": [21, 29, 4, 10],  
+                        "saturday": [20, 28, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 344,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3719027000/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://frairemusic.bandcamp.com/album/seguimos-andando-2',
+                    a_string: 'Seguimos Andando by FRAIRE',
+                    rule: {
+                        "monday": [20, 28, 3, 9],
+                        "tuesday": [21, 27, 2, 8],  
+                        "wednesday": [25, 31, 6, 12], 
+                        "thursday": [24, 30, 5, 11], 
+                        "saturday": [21, 29, 4, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 345,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2130522523/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://explodedview.bandcamp.com/album/exploded-view',
+                    a_string: 'Exploded View by Exploded View',
+                    rule: {
+                        "monday": [21, 29, 4, 10],
+                        "tuesday": [20, 28, 3, 9],  
+                        "wednesday": [21, 27, 2, 8],  
+                        "thursday": [25, 31, 6, 12], 
+                        "saturday": [24, 30, 5, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

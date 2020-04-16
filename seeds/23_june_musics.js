@@ -6808,6 +6808,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 379,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3556089316/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/selbstportrait-iii-reise-durch-arcadien',
+                    a_string: 'Selbstportrait III - Reise durch Arcadien by Roedelius',
+                    rule: {
+                        "monday": [25, 29, 5, 16],
+                        "tuesday": [24, 27, 2, 14], 
+                        "wednesday": [23, 26, 2, 13], 
+                        "thursday": [23, 26, 2, 12], 
+                        "saturday": [21, 29, 1, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 380,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1271362136/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/plays-piano-bloomsbury-theatre-london-july-28th-1985-live',
+                    a_string: 'Plays Piano (Bloomsbury Theatre, London, July 28th 1985) [Live] by Roedelius',
+                    rule: {
+                        "monday": [21, 29, 1, 16],
+                        "tuesday": [25, 29, 5, 16], 
+                        "wednesday": [24, 27, 2, 14], 
+                        "thursday": [23, 26, 2, 13], 
+                        "saturday": [23, 26, 2, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 381,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1491000052/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/wasser-im-wind',
+                    a_string: 'Wasser im Wind by Roedelius',
+                    rule: {
+                        "monday": [23, 26, 2, 12],
+                        "tuesday": [21, 29, 1, 16], 
+                        "wednesday": [25, 29, 5, 16], 
+                        "thursday": [24, 27, 2, 14], 
+                        "saturday": [23, 26, 2, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

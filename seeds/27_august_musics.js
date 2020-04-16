@@ -6592,6 +6592,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 367,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2871859187/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://timberne.bandcamp.com/album/the-coand-effect',
+                    a_string: 'The Coandă Effect by Tim Berne and Nasheet Waits',
+                    rule: {
+                        "monday": [1, 9, 22, 21],
+                        "tuesday": [31, 8, 21, 20], 
+                        "wednesday": [30, 7, 20, 19], 
+                        "thursday": [29, 6, 19, 18], 
+                        "saturday": [28, 5, 18, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 368,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=840478837/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://johnbutcher1.bandcamp.com/album/tincture',
+                    a_string: 'Tincture by Butcher / Lonberg-Holm / Zerang',
+                    rule: {
+                        "monday": [28, 5, 18, 17],
+                        "tuesday": [1, 9, 22, 21],  
+                        "wednesday": [31, 8, 21, 20], 
+                        "thursday": [30, 7, 20, 19], 
+                        "saturday": [29, 6, 19, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 369,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1945289545/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://guilhermerodrigues.bandcamp.com/album/the-book-of-spirals',
+                    a_string: 'The Book of Spirals by Guilherme Rodrigues, Pedro Carneiro, Ernesto Rodrigues, Rodrigo Pinheiro &amp; Hernâni Faustino',
+                    rule: {
+                        "monday": [29, 6, 19, 18],
+                        "tuesday": [28, 5, 18, 17], 
+                        "wednesday": [1, 9, 22, 21],  
+                        "thursday": [31, 8, 21, 20], 
+                        "saturday": [30, 7, 20, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

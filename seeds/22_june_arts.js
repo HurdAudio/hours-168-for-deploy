@@ -12704,6 +12704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 636,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/antithesis_by_fae_photography_daq6q35-fullview.jpg',
+                    title: 'antithesis',
+                    artist: 'fae-photography',
+                    year: '2016',
+                    rule: {
+                        "monday": [6, 16, 26, 24],
+                        "tuesday": [25, 5, 15, 23], 
+                        "wednesday": [24, 4, 14, 22], 
+                        "thursday": [30, 10, 20, 27],
+                        "friday": [29, 9, 20, 27], 
+                        "saturday": [28, 8, 18, 16], 
+                        "sunday": [27, 7, 17, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 637,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/back_by_itskaylaerin_db5bx8p-fullview.jpg',
+                    title: 'Back',
+                    artist: 'ItsKaylaErin',
+                    year: '2017',
+                    rule: {
+                        "monday": [28, 8, 18, 25],
+                        "tuesday": [7, 17, 27, 25], 
+                        "wednesday": [26, 6, 16, 24], 
+                        "thursday": [25, 5, 15, 23],
+                        "friday": [1, 11, 21, 28], 
+                        "saturday": [30, 10, 21, 28], 
+                        "sunday": [29, 9, 19, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 638,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/photography_workshops_by_art_de_viant_d4qiveh-pre.jpg',
+                    title: 'photography workshops',
+                    artist: 'Art-de-Viant',
+                    year: '2012',
+                    rule: {
+                        "monday": [29, 9, 19, 17],
+                        "tuesday": [28, 8, 18, 25], 
+                        "wednesday": [7, 17, 27, 25], 
+                        "thursday": [26, 6, 16, 24], 
+                        "friday": [25, 5, 15, 23], 
+                        "saturday": [1, 11, 21, 28], 
+                        "sunday": [30, 10, 21, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 639,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/one_for_sorrow_by_nanfe_d8vm741-fullview.jpg',
+                    title: 'one for sorrow',
+                    artist: 'NanFe',
+                    year: '2015',
+                    rule: {
+                        "monday": [30, 10, 21, 28],
+                        "tuesday": [29, 9, 19, 17], 
+                        "wednesday": [28, 8, 18, 25], 
+                        "thursday": [7, 17, 27, 25], 
+                        "friday": [26, 6, 16, 24], 
+                        "saturday": [25, 5, 15, 23], 
+                        "sunday": [1, 11, 21, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 640,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/paw_up___by_kristynakvapilova_dcn5dao-fullview.jpg',
+                    title: 'Paw up !',
+                    artist: 'Kristyna Kvapilova',
+                    year: '2018',
+                    rule: {
+                        "monday": [1, 11, 21, 28],
+                        "tuesday": [30, 10, 21, 28],
+                        "wednesday": [29, 9, 19, 17], 
+                        "thursday": [28, 8, 18, 25], 
+                        "friday": [7, 17, 27, 25], 
+                        "saturday": [26, 6, 16, 24], 
+                        "sunday": [25, 5, 15, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

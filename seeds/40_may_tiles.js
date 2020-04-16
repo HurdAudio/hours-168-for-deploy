@@ -1530,6 +1530,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#CBE9E9',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 110,
+                    user_id: 1,
+                    theme: 'Greenery',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/micah-hallahan-UCmkmGxuWX4-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#010300',
+                    color_medium: '#132200',
+                    color_light: '#c9d984',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

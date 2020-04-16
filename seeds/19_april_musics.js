@@ -7024,6 +7024,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 391,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2115263749/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://fabianmanuel.bandcamp.com/album/berg',
+                    a_string: 'BERG by Fabian M. Mueller, Kaspar von Grünigen, Oyvind Hegg-Lunde',
+                    rule: {
+                        "monday": [28, 5, 18, 23] ,
+                        "tuesday": [27, 5, 17, 22], 
+                        "wednesday": [26, 4, 15, 21], 
+                        "thursday": [25, 3, 15, 20], 
+                        "saturday": [29, 7, 19, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 392,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3601672892/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://brianshankaradler.bandcamp.com/album/fourth-dimension',
+                    a_string: 'Fourth Dimension by Brian Shankar Adler',
+                    rule: {
+                        "monday": [30, 8, 20, 25],
+                        "tuesday": [29, 6, 19, 24], 
+                        "wednesday": [28, 6, 18, 23], 
+                        "thursday": [27, 5, 16, 22], 
+                        "saturday": [26, 4, 16, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 393,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1659768429/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lukenorris.bandcamp.com/album/northernsong',
+                    a_string: 'Northernsong by Luke Norris',
+                    rule: {
+                        "monday": [26, 4, 16, 21],
+                        "tuesday": [30, 8, 20, 25], 
+                        "wednesday": [29, 6, 19, 24], 
+                        "thursday": [28, 6, 18, 23], 
+                        "saturday": [27, 5, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

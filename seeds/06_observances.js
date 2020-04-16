@@ -11726,6 +11726,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 754,
+                    user_id: 1,
+                    name: 'Michael Formanek (bass) born 1958.',
+                    color: '#000000',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/Formanek-2014-1.jpg',
+                    day_of: new Date('1958-05-07  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=3070021368/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1143278801/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3942067495/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1837993852/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=710407335/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2426584285/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['http://timbernemichaelformanek.bandcamp.com/album/ornery-people', 'http://intaktrec.bandcamp.com/album/time-like-this-24bit-96khz', 'http://cuneiformrecords.bandcamp.com/album/ours-hd-24b-48k', 'http://cuneiformrecords.bandcamp.com/album/theirs-hd-24b-48k', 'http://cuneiformrecords.bandcamp.com/album/convallaria', 'http://timbernesbloodcount.bandcamp.com/album/discretion-featuring-chris-speed-michael-formanek-and-jim-black'],
+                        "a_strings": ['Ornery People by Tim Berne &amp; Michael Formanek', 'Time Like This (24bit 96khz) by Michael Formanek Elusion Quartet', 'Ours [HD 24b/48k] by Thumbscrew [Michael Formanek / Tomas Fujiwara / Mary Halvorson]', 'Theirs [HD 24b/48k] by Thumbscrew [Michael Formanek / Tomas Fujiwara / Mary Halvorson]', 'Convallaria by Thumbscrew: Mary Halvorson, Michael Formanek, Tomas Fujiwara', 'Discretion (featuring Chris Speed, Michael Formanek and Jim Black) by Tim Berne']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 755,
+                    user_id: 1,
+                    name: 'Pietro Acciarito (anarchist) born in 1871',
+                    color: '#9a9a9a',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/4704350.jpg',
+                    day_of: new Date('1871-06-27  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

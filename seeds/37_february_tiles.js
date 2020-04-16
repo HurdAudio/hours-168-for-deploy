@@ -1572,6 +1572,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#F3EBF8',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 113,
+                    user_id: 1,
+                    theme: 'Silk/Velvet',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/joshua-coleman-_yVRLC75Ma8-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#3e4145',
+                    color_medium: '#ED00B1',
+                    color_light: '#D8EAE4',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -10709,7 +10709,7 @@ exports.seed = function (knex, Promise) {
                     id: 536,
                     user_id: 1,
                     theme: 'Abstract Art',
-                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/abstract(3).jpg',
+                    img_path: 'https://hours168-hurdaudio.s3.amazonaws.com/img/january/abstract---3.jpg',
                     title: '(Abstract)',
                     artist: 'Bui Xuan Phai',
                     year: '?',
@@ -13509,7 +13509,7 @@ exports.seed = function (knex, Promise) {
                     id: 676,
                     user_id: 1,
                     theme: 'Abstract Art',
-                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/constructive-decorative-composition-1924-2.jpeg',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/constructive-decorative-composition-1924-2.jpg',
                     title: 'Constructive-decorative composition',
                     artist: 'David Kakabadze',
                     year: '1924',
@@ -13701,6 +13701,106 @@ exports.seed = function (knex, Promise) {
                         "friday": [7, 9, 1, 21],   
                         "saturday": [7, 9, 1, 21],   
                         "sunday": [12, 10, 2, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 686,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/photo-this-is-the-color-of-my-dreams.jpg',
+                    title: 'Photo; This is the Color of My Dreams',
+                    artist: 'Joan Miro',
+                    year: '1925',
+                    rule: {
+                        "monday": [13, 11, 3, 6],
+                        "tuesday": [13, 14, 5, 9],
+                        "wednesday": [16, 18, 19, 21],
+                        "thursday": [18, 20, 24, 27],
+                        "friday": [20, 22, 23, 24],   
+                        "saturday": [8, 10, 2, 22],   
+                        "sunday": [8, 10, 2, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 687,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-a-xxi-1925.jpg',
+                    title: 'Composition A XXI',
+                    artist: 'Laszlo Moholy-Nagy',
+                    year: '1925',
+                    rule: {
+                        "monday": [8, 10, 2, 22],
+                        "tuesday": [13, 11, 3, 6],  
+                        "wednesday": [13, 14, 5, 9],  
+                        "thursday": [16, 18, 19, 21],
+                        "friday": [18, 20, 24, 27],
+                        "saturday": [20, 22, 23, 24],
+                        "sunday": [8, 10, 2, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 688,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/elikan-1925.jpg',
+                    title: '(Elikan)',
+                    artist: 'Kurt Schwitters',
+                    year: 'c. 1925',
+                    rule: {
+                        "monday": [8, 10, 2, 22],
+                        "tuesday": [8, 10, 2, 22],  
+                        "wednesday": [13, 11, 3, 6],  
+                        "thursday": [13, 14, 5, 9],  
+                        "friday": [16, 18, 19, 21],
+                        "saturday": [18, 20, 24, 27],
+                        "sunday": [20, 22, 23, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 689,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/birth-of-birds.jpg',
+                    title: 'Birth of Birds',
+                    artist: 'Andre Masson',
+                    year: '1925',
+                    rule: {
+                        "monday": [20, 22, 23, 24],
+                        "tuesday": [8, 10, 2, 22],  
+                        "wednesday": [8, 10, 2, 22],  
+                        "thursday": [13, 11, 3, 6],  
+                        "friday": [13, 14, 5, 9],  
+                        "saturday": [16, 18, 19, 21],
+                        "sunday": [18, 20, 24, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 690,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1925(6).jpg',
+                    title: 'Composition',
+                    artist: 'Janos Mattis-Teutsch',
+                    year: '1925',
+                    rule: {
+                        "monday": [18, 20, 24, 27],
+                        "tuesday": [20, 22, 23, 24],
+                        "wednesday": [8, 10, 2, 22],  
+                        "thursday": [8, 10, 2, 22],  
+                        "friday": [13, 11, 3, 6],  
+                        "saturday": [13, 14, 5, 9],  
+                        "sunday": [16, 18, 19, 21] 
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

@@ -6700,6 +6700,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 373,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1433922372/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://rookandnomie.bandcamp.com/album/me-you',
+                    a_string: 'me&amp;you by rook&amp;nomie',
+                    rule: {
+                        "monday": [24, 26, 30, 7],
+                        "tuesday": [23, 25, 29, 6], 
+                        "wednesday": [22, 24, 28, 5], 
+                        "thursday": [21, 22, 27, 4], 
+                        "saturday": [20, 22, 26, 3]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 374,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1220897800/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://masterbootrecord.bandcamp.com/album/floppy-disk-overdrive',
+                    a_string: 'FLOPPY DISK OVERDRIVE by MASTER BOOT RECORD',
+                    rule: {
+                        "monday": [20, 22, 26, 3],
+                        "tuesday": [24, 26, 30, 7], 
+                        "wednesday": [23, 25, 29, 6], 
+                        "thursday": [22, 24, 28, 5], 
+                        "saturday": [21, 22, 27, 4]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 375,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=665013625/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://grimalkinrecords.bandcamp.com/album/aarupa',
+                    a_string: 'AARUPA by Quinton Barnes',
+                    rule: {
+                        "monday": [21, 22, 27, 4],
+                        "tuesday": [20, 22, 26, 3], 
+                        "wednesday": [24, 26, 30, 7], 
+                        "thursday": [23, 25, 29, 6], 
+                        "saturday": [22, 24, 28, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -1460,6 +1460,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#EEBD05',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 105,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/ricardo-gomez-angel-SaGYQxHQN0w-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#090404',
+                    color_medium: '#CE0000',
+                    color_light: '#E2EBF6',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
