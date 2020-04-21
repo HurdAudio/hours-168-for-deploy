@@ -13804,6 +13804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 691,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-no-15-1925.jpg',
+                    title: 'Composition No. 15',
+                    artist: 'Friedrich Vordemberge-Gildewart',
+                    year: '1925',
+                    rule: {
+                        "monday": [16, 18, 19, 21],
+                        "tuesday": [18, 20, 24, 27],
+                        "wednesday": [20, 22, 23, 24],
+                        "thursday": [8, 10, 2, 22],  
+                        "friday": [8, 10, 2, 22],  
+                        "saturday": [13, 11, 3, 6],  
+                        "sunday": [13, 14, 5, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 692,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/wall-hanging-1925-1.jpg',
+                    title: 'Wall Hanging',
+                    artist: 'Anni Albers',
+                    year: '1925',
+                    rule: {
+                        "monday": [13, 14, 5, 9],
+                        "tuesday": [16, 18, 19, 21],
+                        "wednesday": [18, 20, 24, 27],
+                        "thursday": [20, 22, 23, 24],
+                        "friday": [8, 10, 2, 22],  
+                        "saturday": [8, 10, 2, 22],  
+                        "sunday": [13, 11, 3, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 693,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1925.jpg',
+                    title: 'Composition',
+                    artist: 'Otto Gustav Carlsund',
+                    year: '1925',
+                    rule: {
+                        "monday": [14, 12, 4, 7],
+                        "tuesday": [14, 15, 6, 10],
+                        "wednesday": [17, 19, 20, 22],
+                        "thursday": [19, 21, 25, 28],
+                        "friday": [21, 23, 24, 25],  
+                        "saturday": [9, 11, 3, 23],  
+                        "sunday": [9, 11, 3, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 694,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-tight-curves-25-1925.jpg',
+                    title: 'Composition Tight Curves. 25',
+                    artist: 'Carl Buchheister',
+                    year: '1925',
+                    rule: {
+                        "monday": [9, 11, 3, 23],
+                        "tuesday": [14, 12, 4, 7],  
+                        "wednesday": [14, 15, 6, 10], 
+                        "thursday": [17, 19, 20, 22],
+                        "friday": [19, 21, 25, 28],
+                        "saturday": [21, 23, 24, 25],
+                        "sunday": [9, 11, 3, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 695,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled_fhihwe_red.jpg',
+                    title: 'Untitled',
+                    artist: 'Almir Mavignier',
+                    year: '?',
+                    rule: {
+                        "monday": [9, 11, 3, 23],
+                        "tuesday": [9, 11, 3, 23],  
+                        "wednesday": [14, 12, 4, 7],  
+                        "thursday": [14, 15, 6, 10], 
+                        "friday": [17, 19, 20, 22],
+                        "saturday": [19, 21, 25, 28],
+                        "sunday": [21, 23, 24, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

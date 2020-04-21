@@ -11804,6 +11804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 591,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/Jill.jpg',
+                    title: 'Jill',
+                    artist: 'Frank Stella',
+                    year: '1959',
+                    rule: {
+                        "monday": [2, 4, 12, 8],
+                        "tuesday": [1, 5, 12, 15],  
+                        "wednesday": [30, 3, 10, 15], 
+                        "thursday": [28, 3, 9, 14],  
+                        "friday": [27, 2, 8, 13],  
+                        "saturday": [27, 2, 8, 15],  
+                        "sunday": [3, 8, 14, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 592,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/two-whites-1959.jpg',
+                    title: 'Two Whites',
+                    artist: 'Ellsworth Kelly',
+                    year: '1959',
+                    rule: {
+                        "monday": [3, 8, 14, 19],
+                        "tuesday": [2, 4, 12, 8],   
+                        "wednesday": [1, 5, 12, 15],  
+                        "thursday": [30, 3, 10, 15], 
+                        "friday": [28, 3, 9, 14],  
+                        "saturday": [27, 2, 8, 13],  
+                        "sunday": [27, 2, 8, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 593,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/59-96-x-88-b-1959.jpg',
+                    title: '59-96 X 88-b',
+                    artist: 'Martin Barre',
+                    year: '1959',
+                    rule: {
+                        "monday": [27, 2, 8, 15],
+                        "tuesday": [3, 8, 14, 19],  
+                        "wednesday": [2, 4, 12, 8],   
+                        "thursday": [1, 5, 12, 15],  
+                        "friday": [30, 3, 10, 15], 
+                        "saturday": [28, 3, 9, 14],  
+                        "sunday": [27, 2, 8, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 594,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-black-painting-1959.jpg',
+                    title: 'Untitled (black painting)',
+                    artist: 'Ronald Bladen',
+                    year: '1959',
+                    rule: {
+                        "monday": [27, 2, 8, 13],
+                        "tuesday": [27, 2, 8, 15],  
+                        "wednesday": [3, 8, 14, 19],  
+                        "thursday": [2, 4, 12, 8],   
+                        "friday": [1, 5, 12, 15],  
+                        "saturday": [30, 3, 10, 15], 
+                        "sunday": [28, 3, 9, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 595,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/self-portrait-1959.jpg',
+                    title: 'Self-Portrait',
+                    artist: 'James Lee Byars',
+                    year: '1959',
+                    rule: {
+                        "monday": [29, 4, 10, 15],
+                        "tuesday": [28, 3, 9, 14],  
+                        "wednesday": [28, 3, 9, 16],  
+                        "thursday": [4, 9, 15, 20],   
+                        "friday": [3, 5, 13, 9],  
+                        "saturday": [2, 6, 13, 16], 
+                        "sunday": [1, 4, 11, 16]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -1572,6 +1572,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#fafafc',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 113,
+                    user_id: 1,
+                    theme: 'Glass',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/waldemar-brandt-qVu_xl3MB-4-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#262018',
+                    color_medium: '#78684a',
+                    color_light: '#b3b4aa',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

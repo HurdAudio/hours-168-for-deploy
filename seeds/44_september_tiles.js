@@ -1488,6 +1488,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#e7e2de',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 107,
+                    user_id: 1,
+                    theme: 'Leather',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/marc-noorman-hMmNHuVZw4M-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#191514',
+                    color_medium: '#4c3b36',
+                    color_light: '#87a5b0',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

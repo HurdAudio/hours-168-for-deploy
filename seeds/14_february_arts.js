@@ -13604,6 +13604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 681,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/BHPassionDancehall22011.jpg',
+                    title: 'Passion Dancehall # 2',
+                    artist: 'Barkley L. Hendricks',
+                    year: '2011',
+                    rule: {
+                        "monday": [11, 19, 27, 6],
+                        "tuesday": [12, 21, 29, 8], 
+                        "wednesday": [18, 23, 29, 10],
+                        "thursday": [17, 25, 4, 12], 
+                        "friday": [19, 29, 6, 12], 
+                        "saturday": [21, 29, 8, 18], 
+                        "sunday": [21, 2, 27, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 682,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Nestor-Hernandez-PlayPen.jpg',
+                    title: 'Playpen',
+                    artist: 'Nestor Hernández',
+                    year: '1998',
+                    rule: {
+                        "monday": [21, 2, 27, 17],
+                        "tuesday": [11, 19, 27, 6], 
+                        "wednesday": [12, 21, 29, 8], 
+                        "thursday": [18, 23, 29, 10],
+                        "friday": [17, 25, 4, 12], 
+                        "saturday": [19, 29, 6, 12], 
+                        "sunday": [21, 29, 8, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 683,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/herriman_baronbean.jpg',
+                    title: 'Baron Bean',
+                    artist: 'George Herriman',
+                    year: '?',
+                    rule: {
+                        "monday": [21, 29, 8, 18],
+                        "tuesday": [21, 2, 27, 17], 
+                        "wednesday": [11, 19, 27, 6], 
+                        "thursday": [12, 21, 29, 8], 
+                        "friday": [18, 23, 29, 10],
+                        "saturday": [17, 25, 4, 12], 
+                        "sunday": [19, 29, 6, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 684,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/H4429-L104172146.jpg',
+                    title: 'Lonely Woman',
+                    artist: 'Alvin Hollingsworth',
+                    year: 'c.1960',
+                    rule: {
+                        "monday": [19, 29, 6, 12],
+                        "tuesday": [21, 29, 8, 18], 
+                        "wednesday": [21, 2, 27, 17], 
+                        "thursday": [11, 19, 27, 6], 
+                        "friday": [12, 21, 29, 8], 
+                        "saturday": [18, 23, 29, 10],
+                        "sunday": [17, 25, 4, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 685,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/806501-7.jpg',
+                    title: 'Untitled Composition #15',
+                    artist: 'Bryce Hudson',
+                    year: '2013',
+                    rule: {
+                        "monday": [17, 25, 4, 12],
+                        "tuesday": [19, 29, 6, 12], 
+                        "wednesday": [21, 29, 8, 18], 
+                        "thursday": [21, 2, 27, 17], 
+                        "friday": [11, 19, 27, 6], 
+                        "saturday": [12, 21, 29, 8], 
+                        "sunday": [18, 23, 29, 10] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

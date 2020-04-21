@@ -11604,6 +11604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 581,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/42-01,DetComic59.jpg',
+                    title: 'Detective Comics',
+                    artist: 'John Lehti',
+                    year: '1942',
+                    rule: {
+                        "monday": [23, 5, 13, 19],
+                        "tuesday": [22, 4, 12, 18], 
+                        "wednesday": [21, 3, 11, 17],
+                        "thursday": [20, 1, 31, 16], 
+                        "friday": [9, 1, 20, 27], 
+                        "saturday": [25, 7, 15, 21], 
+                        "sunday": [24, 5, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 582,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/42-04,PlanetS.jpg',
+                    title: 'Planet Stories',
+                    artist: 'Alexander Leydenfrost',
+                    year: '1942',
+                    rule: {
+                        "monday": [24, 5, 14, 20],
+                        "tuesday": [23, 5, 13, 19], 
+                        "wednesday": [22, 4, 12, 18], 
+                        "thursday": [21, 3, 11, 17], 
+                        "friday": [20, 1, 31, 16], 
+                        "saturday": [9, 1, 20, 27],  
+                        "sunday": [25, 7, 15, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 583,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/02-09-06,Colliers.jpg',
+                    title: 'Colliers',
+                    artist: 'Frank Leyendecker',
+                    year: '1902',
+                    rule: {
+                        "monday": [25, 7, 15, 21],
+                        "tuesday": [24, 5, 14, 20], 
+                        "wednesday": [23, 5, 13, 19], 
+                        "thursday": [22, 4, 12, 18], 
+                        "friday": [21, 3, 11, 17], 
+                        "saturday": [20, 1, 31, 16], 
+                        "sunday": [9, 1, 20, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 584,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/44-10,PvtDet.jpg',
+                    title: 'Private Detective',
+                    artist: 'Richard Lillis',
+                    year: '1944',
+                    rule: {
+                        "monday": [9, 1, 20, 27],
+                        "tuesday": [25, 7, 15, 21], 
+                        "wednesday": [24, 5, 14, 20], 
+                        "thursday": [23, 5, 13, 19], 
+                        "friday": [22, 4, 12, 18], 
+                        "saturday": [21, 3, 11, 17], 
+                        "sunday": [20, 1, 31, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 585,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/32-06,Racktr.jpg',
+                    title: 'Racketeer',
+                    artist: 'Thomas Lovell',
+                    year: '1932',
+                    rule: {
+                        "monday": [20, 1, 31, 16],
+                        "tuesday": [9, 1, 20, 27],  
+                        "wednesday": [25, 7, 15, 21], 
+                        "thursday": [24, 5, 14, 20], 
+                        "friday": [23, 5, 13, 19], 
+                        "saturday": [22, 4, 12, 18], 
+                        "sunday": [21, 3, 11, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6970,6 +6970,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=774652819/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://hansonrecords.bandcamp.com/album/songs-about-jason',
+                    a_string: 'Songs About Jason by Aaron Dilloway',
+                    rule: {
+                        "monday": [24, 30, 6, 19],
+                        "tuesday": [23, 29, 5, 18], 
+                        "wednesday": [27, 2, 9, 22],  
+                        "thursday": [26, 1, 8, 21],  
+                        "saturday": [25, 31, 7, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3696103084/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://aarondilloway.bandcamp.com/album/psychic-driving-tapes',
+                    a_string: 'Psychic Driving Tapes by Aaron Dilloway',
+                    rule: {
+                        "monday": [25, 31, 7, 20],
+                        "tuesday": [24, 30, 6, 19], 
+                        "wednesday": [23, 29, 5, 18], 
+                        "thursday": [27, 2, 9, 22],  
+                        "saturday": [26, 1, 8, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1513306714/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://hansonrecords.bandcamp.com/album/medicine-stunts',
+                    a_string: 'Medicine Stunts by Aaron Dilloway',
+                    rule: {
+                        "monday": [26, 1, 8, 21],
+                        "tuesday": [25, 31, 7, 20], 
+                        "wednesday": [24, 30, 6, 19], 
+                        "thursday": [23, 29, 5, 18], 
+                        "saturday": [27, 2, 9, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

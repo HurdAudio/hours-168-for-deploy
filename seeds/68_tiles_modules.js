@@ -1234,6 +1234,21 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 83,
+                    user_author_id: 1,
+                    theme: 'Kandinsky',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/improvisation-28-second-version-1912.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#243438',
+                    color_medium: '#5d6869',
+                    color_light: '#e4d8d0',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

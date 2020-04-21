@@ -11759,6 +11759,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 756,
+                    user_id: 1,
+                    name: 'Damon Smith (bassist) born 1972',
+                    color: '#6e5856',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/damon-smith-by-rob-miller-600-2.jpg',
+                    day_of: new Date('1972-10-17  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=1736923121/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1582882663/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2576278741/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2863523155/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2876696499/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3828647617/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=119974093/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=272975531/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3664789898/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['http://balancepointacoustics.bandcamp.com/album/lifes-intense-mystery-mf193-as090', 'http://balancepointacoustics.bandcamp.com/album/bpaltd-505-relations', 'http://balancepointacoustics.bandcamp.com/album/cliffpools-driff-cd-2002', 'http://balancepointacoustics.bandcamp.com/album/pioneer-works-vol-1-bpa-19', 'http://balancepointacoustics.bandcamp.com/album/unhesitating-nuscope-cd-1032', 'http://balancepointacoustics.bandcamp.com/album/theory-of-colors-umland-lc5284', 'http://balancepointacoustics.bandcamp.com/album/oakland-2007', 'http://balancepointacoustics.bandcamp.com/album/pioneer-works-vol-2-bpa-9', 'http://balancepointacoustics.bandcamp.com/album/bpa-7-winter-solos-for-robert-ryman'],
+                        "a_strings": ['Life&#39;s Intense Mystery MF193/AS090 by Burton Greene / Damon Smith / Ra Kalam Bob Moses', 'BPALTD 505 Relations by Henry Kaiser / Damon Smith', 'CliffPools Driff CD 2002 by Pandelis Karayorgis, Nate McBride, Damon Smith, Luther Gray, Eric Rosenthal', 'Pioneer Works Vol. 1 BPA 19 by JeJaWeDa (Jeb Bishop / Jaap Blonk / Weasel Walter / Damon Smith)', 'Unhesitating Nuscope CD 1032 by Georg Graewe / Damon Smith / Michael Vatcher', 'Theory of Colors - Umland: LC5284 by Stephen Haynes / Damon Smith / Matt Crane / Jeff Platz', 'Oakland 2007 by Paul Hartsaw&#39;s SocioCybernetic Music Machine (SCMM)', 'Pioneer Works Vol. 2 BPA -9 by JeJaWeDa (Jeb Bishop / Jaap Blonk / Weasel Walter / Damon Smith)', 'BPA -7 Winter Solos  for Robert Ryman by Damon Smith']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 757,
+                    user_id: 1,
+                    name: 'Olga Taratuta (anarcho-communist) born 1876',
+                    color: '#5b5b5b',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Taratuta_Olga.jpg',
+                    day_of: new Date('1876-01-21  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

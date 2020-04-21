@@ -6646,6 +6646,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 370,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3438985850/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://kylebruckmann.bandcamp.com/album/triptych-tautological',
+                    a_string: 'Triptych (tautological) by Kyle Bruckmann',
+                    rule: {
+                        "monday": [30, 7, 20, 19],
+                        "tuesday": [29, 6, 19, 18], 
+                        "wednesday": [28, 5, 18, 17], 
+                        "thursday": [1, 9, 22, 21],  
+                        "saturday": [31, 8, 21, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 371,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=640510889/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jorritdijkstra.bandcamp.com/album/maatjes',
+                    a_string: 'Maatjes by The Flatlands Collective',
+                    rule: {
+                        "monday": [1, 9, 22, 21],
+                        "tuesday": [31, 8, 21, 20], 
+                        "wednesday": [30, 7, 20, 19], 
+                        "thursday": [29, 6, 19, 18],  
+                        "saturday": [2, 10, 23, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 372,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2644505637/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://scotray.bandcamp.com/album/dua-kepala-kelapa',
+                    a_string: 'Dua Kepala Kelapa by Mike Cooper and Scot Ray',
+                    rule: {
+                        "monday": [2, 10, 23, 22],
+                        "tuesday": [1, 9, 22, 21],  
+                        "wednesday": [31, 8, 21, 20], 
+                        "thursday": [30, 7, 20, 19], 
+                        "saturday": [29, 6, 19, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

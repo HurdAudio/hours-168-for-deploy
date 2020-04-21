@@ -12804,6 +12804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 641,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/new_york_i_by_xa_xa_xa_d4gyvcf-fullview.jpg',
+                    title: 'New York I',
+                    artist: 'xa-xa-xa',
+                    year: '2011',
+                    rule: {
+                        "monday": [25, 5, 15, 23],
+                        "tuesday": [1, 11, 21, 28], 
+                        "wednesday": [30, 10, 21, 28],
+                        "thursday": [29, 9, 19, 17], 
+                        "friday": [28, 8, 18, 25], 
+                        "saturday": [7, 17, 27, 25], 
+                        "sunday": [26, 6, 16, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 642,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/omoideyokocho_by_burningmonk_d8nnf78-pre.jpg',
+                    title: 'Omoideyokocho',
+                    artist: 'burningmonk',
+                    year: '2015',
+                    rule: {
+                        "monday": [26, 6, 16, 24],
+                        "tuesday": [25, 5, 15, 23], 
+                        "wednesday": [1, 11, 21, 28], 
+                        "thursday": [30, 10, 21, 28],
+                        "friday": [29, 9, 19, 17], 
+                        "saturday": [28, 8, 18, 25], 
+                        "sunday": [7, 17, 27, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 643,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/vestrahorn__panorama_at_sunrise_by_sergey_ryzhkov_dcnw5dm-pre.jpg',
+                    title: 'Vestrahorn. Panorama at sunrise',
+                    artist: 'Sergey-Ryzhkov',
+                    year: '2018',
+                    rule: {
+                        "monday": [7, 17, 27, 25],
+                        "tuesday": [26, 6, 16, 24], 
+                        "wednesday": [25, 5, 15, 23], 
+                        "thursday": [1, 11, 21, 28], 
+                        "friday": [30, 10, 21, 28],
+                        "saturday": [29, 9, 19, 17], 
+                        "sunday": [28, 8, 18, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 644,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/riders_on_the_storm_by_miguel_santos_db26mvz-pre.jpg',
+                    title: 'Riders on the Storm',
+                    artist: 'Miguel-Santos',
+                    year: '2017',
+                    rule: {
+                        "monday": [29, 9, 19, 26],
+                        "tuesday": [8, 18, 28, 26], 
+                        "wednesday": [27, 7, 17, 25], 
+                        "thursday": [26, 6, 16, 24], 
+                        "friday": [2, 12, 22, 29],
+                        "saturday": [1, 11, 22, 29], 
+                        "sunday": [30, 10, 20, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 645,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/dark_water_by_laura_makabresku_db968wm-fullview.jpg',
+                    title: 'Dark water',
+                    artist: 'Laura Makabresku',
+                    year: '2017',
+                    rule: {
+                        "monday": [30, 10, 20, 18],
+                        "tuesday": [29, 9, 19, 26], 
+                        "wednesday": [8, 18, 28, 26], 
+                        "thursday": [27, 7, 17, 25], 
+                        "friday": [26, 6, 16, 24], 
+                        "saturday": [2, 12, 22, 29], 
+                        "sunday": [1, 11, 22, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

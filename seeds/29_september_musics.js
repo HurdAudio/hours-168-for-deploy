@@ -6538,6 +6538,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 364,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1867137429/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://cuneiformrecords.bandcamp.com/album/forked-tongue',
+                    a_string: 'Forked Tongue by Revolutionary Snake Ensemble',
+                    rule: {
+                        "monday": [25, 14, 22, 16],
+                        "tuesday": [23, 13, 21, 15],
+                        "wednesday": [27, 17, 25, 19],
+                        "thursday": [26, 16, 24, 18],
+                        "saturday": [25, 15, 23, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 365,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=748056733/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://themoss.bandcamp.com/album/wulfram',
+                    a_string: 'Wulfram by Fellwoods',
+                    rule: {
+                        "monday": [25, 15, 23, 16],
+                        "tuesday": [25, 14, 22, 16],
+                        "wednesday": [23, 13, 21, 15],
+                        "thursday": [27, 17, 25, 19],
+                        "saturday": [26, 16, 24, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 366,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3404792312/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://music.jsegel.com/album/storytelling',
+                    a_string: 'Storytelling by Jonathan Segel',
+                    rule: {
+                        "monday": [26, 16, 24, 18],
+                        "tuesday": [25, 15, 23, 16],
+                        "wednesday": [25, 14, 22, 16],
+                        "thursday": [23, 13, 21, 15],
+                        "saturday": [27, 17, 25, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

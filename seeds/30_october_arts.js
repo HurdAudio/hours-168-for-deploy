@@ -12004,6 +12004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 601,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_1265418908usa_bombs.jpg',
+                    title: 'USA',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [26, 6, 18, 21],
+                        "tuesday": [25, 5, 16, 20], 
+                        "wednesday": [24, 4, 14, 19], 
+                        "thursday": [2, 3, 14, 18],  
+                        "friday": [29, 9, 20, 24], 
+                        "saturday": [28, 8, 19, 23], 
+                        "sunday": [27, 7, 18, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 602,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_war_suicide.jpg',
+                    title: 'A war is a suicide',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 8, 19, 23],
+                        "tuesday": [27, 7, 19, 22], 
+                        "wednesday": [26, 6, 17, 21], 
+                        "thursday": [25, 5, 15, 20],  
+                        "friday": [3, 4, 15, 19], 
+                        "saturday": [30, 10, 21, 25], 
+                        "sunday": [29, 9, 20, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 603,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_fist_pigeon.jpg',
+                    title: 'A dove of peace is squeezing a bomb like a fist.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 9, 20, 24],
+                        "tuesday": [28, 8, 19, 23], 
+                        "wednesday": [27, 7, 19, 22], 
+                        "thursday": [26, 6, 17, 21], 
+                        "friday": [25, 5, 15, 20], 
+                        "saturday": [3, 4, 15, 19],  
+                        "sunday": [30, 10, 21, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 604,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_export_usa.jpg',
+                    title: 'Export USA',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 10, 21, 25],
+                        "tuesday": [29, 9, 20, 24], 
+                        "wednesday": [28, 8, 19, 23], 
+                        "thursday": [27, 7, 19, 22], 
+                        "friday": [26, 6, 17, 21], 
+                        "saturday": [25, 5, 15, 20], 
+                        "sunday": [3, 4, 15, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 605,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_evolution_tools.jpg',
+                    title: 'Evolution of tools',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 4, 15, 19],
+                        "tuesday": [30, 10, 21, 25],
+                        "wednesday": [29, 9, 20, 24], 
+                        "thursday": [28, 8, 19, 23], 
+                        "friday": [27, 7, 19, 22], 
+                        "saturday": [26, 6, 17, 21], 
+                        "sunday": [25, 5, 15, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

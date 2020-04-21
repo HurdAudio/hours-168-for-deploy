@@ -118,9 +118,9 @@ exports.seed = function (knex, Promise) {
                     user_id: 1,
                     theme: 'American Maverick Tradition',
                     source: 'bandcamp',
-                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2996579334/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-                    href_string: 'http://prawnshocker.bandcamp.com/album/charles-ives-orchestral-set-no-2',
-                    a_string: 'Charles Ives - Orchestral Set no. 2 by Prawnshocker',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1009247007/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://yalesymphonyorchestra.bandcamp.com/album/december-1-1984-in-woolsey-hall',
+                    a_string: 'December 1, 1984 in Woolsey Hall by Leif Bjaland, Music Director',
                     rule: {
                         "monday": [7, 14, 16, 15],
                         "tuesday": [5, 9, 11, 16],
@@ -7399,6 +7399,60 @@ exports.seed = function (knex, Promise) {
                         "wednesday": [6, 13, 14, 15], 
                         "thursday": [5, 11, 12, 14], 
                         "saturday": [4, 11, 12, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 412,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2406841034/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/adrian-knight-obsessions',
+                    a_string: 'Adrian Knight: Obsessions by R. Andrew Lee',
+                    rule: {
+                        "monday": [4, 11, 12, 13],
+                        "tuesday": [3, 9, 10, 11],  
+                        "wednesday": [2, 9, 10, 11],  
+                        "thursday": [6, 13, 14, 15], 
+                        "saturday": [5, 11, 12, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 413,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3428741071/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/paul-a-epstein-piano-music',
+                    a_string: 'Paul A. Epstein: Piano Music by R. Andrew Lee',
+                    rule: {
+                        "monday": [6, 12, 13, 15],
+                        "tuesday": [5, 12, 13, 14],  
+                        "wednesday": [4, 10, 11, 12],  
+                        "thursday": [3, 10, 11, 12], 
+                        "saturday": [7, 14, 15, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 414,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=111690656/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/manfred-werder-st-ck-1998',
+                    a_string: 'Manfred Werder: Stück 1998 by Cristián Alvear',
+                    rule: {
+                        "monday": [7, 14, 15, 16],
+                        "tuesday": [6, 12, 13, 15], 
+                        "wednesday": [5, 12, 13, 14], 
+                        "thursday": [4, 10, 11, 12], 
+                        "saturday": [3, 10, 11, 12]  
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

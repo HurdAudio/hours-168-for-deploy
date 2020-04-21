@@ -12404,6 +12404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 621,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/two-prawns-1924.jpg',
+                    title: 'Two Prawns',
+                    artist: 'Yamamura Toyonari',
+                    year: '1924',
+                    rule: {
+                        "monday": [25, 28, 6, 22],
+                        "tuesday": [24, 27, 5, 21], 
+                        "wednesday": [30, 3, 11, 27], 
+                        "thursday": [29, 1, 10, 26], 
+                        "friday": [27, 1, 9, 25],  
+                        "saturday": [27, 29, 8, 24], 
+                        "sunday": [26, 28, 7, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 622,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/matsumoto-koshiro-vii-as-sekibei-1919.jpg',
+                    title: 'Matsumoto Koshiro VII as Sekibei',
+                    artist: 'Yamamura Toyonari',
+                    year: '1919',
+                    rule: {
+                        "monday": [26, 28, 7, 23],
+                        "tuesday": [25, 28, 6, 22], 
+                        "wednesday": [24, 27, 5, 21], 
+                        "thursday": [30, 3, 11, 27], 
+                        "friday": [29, 1, 10, 26], 
+                        "saturday": [27, 1, 9, 25],  
+                        "sunday": [27, 29, 8, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 623,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/three-ages-1913.jpg',
+                    title: 'Three ages',
+                    artist: 'Fedir Krychevsky',
+                    year: '1913',
+                    rule: {
+                        "monday": [28, 30, 9, 25],
+                        "tuesday": [27, 29, 8, 24], 
+                        "wednesday": [26, 29, 7, 23], 
+                        "thursday": [25, 28, 6, 22], 
+                        "friday": [31, 4, 12, 28], 
+                        "saturday": [30, 2, 11, 27],  
+                        "sunday": [28, 2, 10, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 624,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/landscape-1918.jpg',
+                    title: 'Landscape',
+                    artist: 'Enrico Prampolini',
+                    year: '1918',
+                    rule: {
+                        "monday": [28, 2, 10, 26],
+                        "tuesday": [28, 30, 9, 25], 
+                        "wednesday": [27, 29, 8, 24], 
+                        "thursday": [26, 29, 7, 23], 
+                        "friday": [25, 28, 6, 22], 
+                        "saturday": [31, 4, 12, 28], 
+                        "sunday": [30, 2, 11, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 625,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/miori-a-1923.jpg',
+                    title: 'Miorița',
+                    artist: 'Ion Theodorescu-Sion',
+                    year: '1923',
+                    rule: {
+                        "monday": [30, 2, 11, 27],
+                        "tuesday": [28, 2, 10, 26], 
+                        "wednesday": [28, 30, 9, 25], 
+                        "thursday": [27, 29, 8, 24], 
+                        "friday": [26, 29, 7, 23], 
+                        "saturday": [25, 28, 6, 22], 
+                        "sunday": [31, 4, 12, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

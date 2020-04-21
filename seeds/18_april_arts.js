@@ -13204,6 +13204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 661,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/james_burns.12.jpeg',
+                    title: 'Portrait of the Detroit Tigers with James Burns in the center',
+                    artist: 'Ernie Harwell Sports Collection',
+                    year: '1900',
+                    rule: {
+                        "monday": [1, 6, 12, 18],
+                        "tuesday": [30, 5, 11, 17], 
+                        "wednesday": [19, 11, 16, 22],
+                        "thursday": [19, 9, 15, 21], 
+                        "friday": [4, 7, 20, 21],  
+                        "saturday": [3, 7, 22, 20],  
+                        "sunday": [30, 6, 12, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 662,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/bcbde084-caff-4528-b23d-d2b7166c0814-2060x1236.jpeg',
+                    title: 'An aerial view of Detroit’s Tiger Stadium during the 1968 World Series',
+                    artist: 'Bettmann/Corbis',
+                    year: '1968',
+                    rule: {
+                        "monday": [30, 6, 12, 18],
+                        "tuesday": [1, 6, 12, 18],  
+                        "wednesday": [30, 5, 11, 17], 
+                        "thursday": [19, 11, 16, 22],
+                        "friday": [19, 9, 15, 21], 
+                        "saturday": [4, 7, 20, 21],  
+                        "sunday": [3, 7, 22, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 663,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/s-l400.jpg',
+                    title: 'Gordie Howe/Al Kaline',
+                    artist: '?',
+                    year: '1957',
+                    rule: {
+                        "monday": [3, 7, 22, 20],
+                        "tuesday": [30, 6, 12, 18], 
+                        "wednesday": [1, 6, 12, 18],  
+                        "thursday": [30, 5, 11, 17], 
+                        "friday": [19, 11, 16, 22],
+                        "saturday": [19, 9, 15, 21], 
+                        "sunday": [4, 7, 20, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 664,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/hi-res-e4b6b52a46e5cef7e230c3983c1aed39_crop_exact.jpg',
+                    title: 'Miguel Cabrera',
+                    artist: 'Carlos Osorio',
+                    year: '2015',
+                    rule: {
+                        "monday": [4, 7, 20, 21],
+                        "tuesday": [3, 7, 22, 20],  
+                        "wednesday": [30, 6, 12, 18], 
+                        "thursday": [1, 6, 12, 18],  
+                        "friday": [30, 5, 11, 17], 
+                        "saturday": [19, 11, 16, 22],
+                        "sunday": [19, 9, 15, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 665,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/56fb92ce-f95f-417e-9e99-3c45cf7d9c7e-mary-schroeder-photos-12.jpeg',
+                    title: 'Detroit Tigers\' Alan Trammell in the tunnel leading from the field to the clubhouse after winning the World Series in 1984 at Tiger Stadium in Detroit',
+                    artist: 'Mary Schroeder',
+                    year: '1984',
+                    rule: {
+                        "monday": [20, 10, 16, 22],
+                        "tuesday": [5, 8, 21, 22],  
+                        "wednesday": [4, 8, 23, 21], 
+                        "thursday": [1, 7, 13, 19],  
+                        "friday": [2, 7, 13, 19], 
+                        "saturday": [1, 6, 12, 18],
+                        "sunday": [20, 12, 17, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

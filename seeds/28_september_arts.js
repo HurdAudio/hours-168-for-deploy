@@ -12204,6 +12204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 611,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/aleijadinho-et-eius-proditores-left-panel-2014(2).jpg',
+                    title: 'Aleijadinho Et Eius Proditores - Left Panel',
+                    artist: 'Paulo Tercio',
+                    year: '2014',
+                    rule: {
+                        "monday": [29, 4, 23, 1],
+                        "tuesday": [27, 4, 22, 30], 
+                        "wednesday": [27, 3, 21, 29], 
+                        "thursday": [16, 2, 20, 29], 
+                        "friday": [15, 22, 19, 27],
+                        "saturday": [23, 30, 18, 25],
+                        "sunday": [30, 6, 24, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 612,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-davidsons-1997.jpg',
+                    title: 'The Davidsons',
+                    artist: 'Ashley Bickerton',
+                    year: '1997',
+                    rule: {
+                        "monday": [30, 6, 24, 2],
+                        "tuesday": [29, 4, 23, 1],  
+                        "wednesday": [27, 4, 22, 30], 
+                        "thursday": [27, 3, 21, 29], 
+                        "friday": [16, 2, 20, 29], 
+                        "saturday": [15, 22, 19, 27],
+                        "sunday": [23, 30, 18, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 613,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/music-of-the-jaguar-1977.jpg',
+                    title: 'Music of the Jaguar',
+                    artist: 'Alice Baber',
+                    year: '1977',
+                    rule: {
+                        "monday": [23, 30, 18, 25],
+                        "tuesday": [30, 6, 24, 2],  
+                        "wednesday": [29, 4, 23, 1],  
+                        "thursday": [27, 4, 22, 30], 
+                        "friday": [27, 3, 21, 29], 
+                        "saturday": [16, 2, 20, 29], 
+                        "sunday": [15, 22, 19, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 614,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/waterfall.jpg',
+                    title: 'Waterfall',
+                    artist: 'M.C. Escher',
+                    year: '1961',
+                    rule: {
+                        "monday": [15, 22, 19, 27],
+                        "tuesday": [23, 30, 18, 25],
+                        "wednesday": [30, 6, 24, 2],  
+                        "thursday": [29, 4, 23, 1],  
+                        "friday": [27, 4, 22, 30], 
+                        "saturday": [27, 3, 21, 29], 
+                        "sunday": [16, 2, 20, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 615,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/figure-with-legs-crossed-1991.jpg',
+                    title: 'Figure with Legs Crossed',
+                    artist: 'Manuel Neri',
+                    year: '1991',
+                    rule: {
+                        "monday": [16, 2, 20, 29],
+                        "tuesday": [15, 22, 19, 27],
+                        "wednesday": [23, 30, 18, 25],
+                        "thursday": [30, 6, 24, 2],  
+                        "friday": [29, 4, 23, 1],  
+                        "saturday": [27, 4, 22, 30], 
+                        "sunday": [27, 3, 21, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

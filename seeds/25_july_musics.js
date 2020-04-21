@@ -6754,6 +6754,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 376,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1700771105/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://talitres.bandcamp.com/album/bluffers-guide-to-the-flight-deck',
+                    a_string: 'Bluffer&#39;s Guide To The Flight Deck by Flotation Toy Warning',
+                    rule: {
+                        "monday": [22, 24, 28, 5],
+                        "tuesday": [21, 22, 27, 4], 
+                        "wednesday": [20, 22, 26, 3], 
+                        "thursday": [24, 26, 30, 7], 
+                        "saturday": [23, 25, 29, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 377,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3765006516/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://harpersjar.bandcamp.com/album/thank-you-ancestor-finger',
+                    a_string: 'Thank You Ancestor Finger by Harper&#39;s Jar',
+                    rule: {
+                        "monday": [23, 25, 29, 6],
+                        "tuesday": [22, 24, 28, 5], 
+                        "wednesday": [21, 22, 27, 4], 
+                        "thursday": [20, 22, 26, 3], 
+                        "saturday": [24, 26, 30, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 378,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1444929064/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://kompromat-official.bandcamp.com/album/traum-und-existenz',
+                    a_string: 'Traum Und Existenz by KOMPROMAT',
+                    rule: {
+                        "monday": [25, 27, 31, 8],
+                        "tuesday": [24, 26, 30, 7], 
+                        "wednesday": [23, 25, 29, 6], 
+                        "thursday": [22, 23, 28, 5], 
+                        "saturday": [21, 23, 27, 4]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

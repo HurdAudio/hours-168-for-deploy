@@ -12604,6 +12604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 631,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/idole-cycladique-1988.jpg',
+                    title: 'Idole cycladique',
+                    artist: 'Francois Rouan',
+                    year: '1988',
+                    rule: {
+                        "monday": [30, 8, 21, 1],
+                        "tuesday": [30, 7, 21, 1],  
+                        "wednesday": [28, 8, 20, 31], 
+                        "thursday": [28, 8, 19, 20], 
+                        "friday": [27, 7, 17, 19], 
+                        "saturday": [24, 4, 26, 27], 
+                        "sunday": [25, 5, 27, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 632,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/d-finition-m-thode-505-lettre-au-docteur-barnes-2010.jpg',
+                    title: 'dé-finition/méthode #505: lettre au docteur barnes',
+                    artist: 'Claude Rutault',
+                    year: '2010',
+                    rule: {
+                        "monday": [25, 5, 27, 28],
+                        "tuesday": [30, 8, 21, 1],  
+                        "wednesday": [30, 7, 21, 1],  
+                        "thursday": [28, 8, 20, 31], 
+                        "friday": [28, 8, 19, 20], 
+                        "saturday": [27, 7, 17, 19], 
+                        "sunday": [24, 4, 26, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 633,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/my-painting-drips-1966.jpg',
+                    title: 'My Painting Drips',
+                    artist: 'Gerard Fromanger',
+                    year: '1966',
+                    rule: {
+                        "monday": [24, 4, 26, 27],
+                        "tuesday": [25, 5, 27, 28], 
+                        "wednesday": [30, 8, 21, 1],  
+                        "thursday": [30, 7, 21, 1],  
+                        "friday": [28, 8, 20, 31], 
+                        "saturday": [28, 8, 19, 20], 
+                        "sunday": [27, 7, 17, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 634,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/untitled-1962_fren.jpg',
+                    title: 'Untitled',
+                    artist: 'Michel Parmentier',
+                    year: '1962',
+                    rule: {
+                        "monday": [27, 7, 17, 19],
+                        "tuesday": [24, 4, 26, 27], 
+                        "wednesday": [25, 5, 27, 28], 
+                        "thursday": [30, 8, 21, 1],  
+                        "friday": [30, 7, 21, 1],  
+                        "saturday": [28, 8, 20, 31], 
+                        "sunday": [28, 8, 19, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 635,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/flowered-flavor-2004.jpg',
+                    title: 'Flowered flavor',
+                    artist: 'Monique Orsini',
+                    year: '2004',
+                    rule: {
+                        "monday": [28, 8, 19, 20],
+                        "tuesday": [27, 7, 17, 19], 
+                        "wednesday": [24, 4, 26, 27], 
+                        "thursday": [25, 5, 27, 28], 
+                        "friday": [30, 8, 21, 1],  
+                        "saturday": [30, 7, 21, 1],  
+                        "sunday": [28, 8, 20, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

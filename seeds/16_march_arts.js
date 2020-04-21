@@ -13404,6 +13404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 671,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/badende-nach-tizian-1.jpg',
+                    title: 'Badende',
+                    artist: 'Manuela Sambo',
+                    year: '2011',
+                    rule: {
+                        "monday": [30, 10, 17, 27],
+                        "tuesday": [29, 8, 16, 26], 
+                        "wednesday": [28, 7, 16, 25], 
+                        "thursday": [3, 12, 22, 30], 
+                        "friday": [2, 12, 20, 30], 
+                        "saturday": [31, 11, 19, 29],
+                        "sunday": [31, 10, 18, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 672,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/now-you-re-half-way-home-2005.jpg',
+                    title: 'Now you\'re half way home',
+                    artist: 'Marjan Eggermont',
+                    year: '2005',
+                    rule: {
+                        "monday": [1, 11, 19, 29],
+                        "tuesday": [31, 11, 18, 28], 
+                        "wednesday": [30, 9, 17, 27], 
+                        "thursday": [29, 8, 17, 26], 
+                        "friday": [4, 13, 23, 31], 
+                        "saturday": [3, 13, 21, 31],
+                        "sunday": [1, 12, 20, 30] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 673,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/adoration-of-the-newborn-fear-1989.jpeg',
+                    title: 'Adoration of the Newborn Fear',
+                    artist: 'Valeria Trubina',
+                    year: '1989',
+                    rule: {
+                        "monday": [1, 12, 20, 30],
+                        "tuesday": [1, 11, 19, 29], 
+                        "wednesday": [31, 11, 18, 28],
+                        "thursday": [30, 9, 17, 27], 
+                        "friday": [29, 8, 17, 26], 
+                        "saturday": [4, 13, 23, 31], 
+                        "sunday": [3, 13, 21, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 674,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/img-paula-klien-20-choice.jpeg',
+                    title: 'Choice',
+                    artist: 'Paula Klien',
+                    year: '2017',
+                    rule: {
+                        "monday": [3, 13, 21, 31],
+                        "tuesday": [1, 12, 20, 30], 
+                        "wednesday": [1, 11, 19, 29], 
+                        "thursday": [31, 11, 18, 28],
+                        "friday": [30, 9, 17, 27], 
+                        "saturday": [29, 8, 17, 26], 
+                        "sunday": [4, 13, 23, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 675,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/haiku.jpg',
+                    title: 'Haiku',
+                    artist: 'Dana Levin',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 13, 23, 31],
+                        "tuesday": [3, 13, 21, 31], 
+                        "wednesday": [1, 12, 20, 30], 
+                        "thursday": [1, 11, 19, 29], 
+                        "friday": [31, 11, 18, 28],
+                        "saturday": [30, 9, 17, 27], 
+                        "sunday": [29, 8, 17, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -5044,6 +5044,66 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 421,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/second-entrance-2007.jpg',
+                    title: 'Second Entrance',
+                    artist: 'Valeria Trubina',
+                    year: '2007',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 422,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/date-2008.jpg',
+                    title: 'Date',
+                    artist: 'Valeria Trubina',
+                    year: '2008',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 423,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/sempre-2008.jpeg',
+                    title: 'Sempre',
+                    artist: 'Valeria Trubina',
+                    year: '2008',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 424,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/night-porch-2009.jpeg',
+                    title: 'Night Porch',
+                    artist: 'Valeria Trubina',
+                    year: '2009',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 425,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/night-light-2010.jpg',
+                    title: 'Night Light',
+                    artist: 'Valeria Trubina',
+                    year: '2010',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -7294,6 +7294,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 406,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4290398555/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://va-stonecrush.bandcamp.com/album/stone-crush-memphis-modern-soul-1977-1987',
+                    a_string: 'Stone Crush: Memphis Modern Soul 1977-1987 by V/A - Stone Crush',
+                    rule: {
+                        "monday": [3, 7, 9, 13],
+                        "tuesday": [17, 9, 11, 13],
+                        "wednesday": [17, 11, 13, 15],
+                        "thursday": [19, 13, 15, 21],
+                        "saturday": [20, 14, 16, 22]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 407,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4062773150/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://joshuavirtue.bandcamp.com/album/jackies-house',
+                    a_string: 'Jackie&#39;s House by Joshua Virtue',
+                    rule: {
+                        "monday": [20, 14, 16, 22],
+                        "tuesday": [3, 7, 9, 13],   
+                        "wednesday": [17, 9, 11, 13], 
+                        "thursday": [17, 11, 13, 15],
+                        "saturday": [19, 13, 15, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 408,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2235826523/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://malci.bandcamp.com/album/papaya',
+                    a_string: 'Papaya! by Malci',
+                    rule: {
+                        "monday": [19, 13, 15, 21],
+                        "tuesday": [20, 14, 16, 22],
+                        "wednesday": [3, 7, 9, 13],   
+                        "thursday": [17, 9, 11, 13], 
+                        "saturday": [17, 11, 13, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

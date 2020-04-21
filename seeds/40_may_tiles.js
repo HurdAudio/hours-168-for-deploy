@@ -1544,6 +1544,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#c9d984',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 111,
+                    user_id: 1,
+                    theme: 'Greenery',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/loonback-YTannMljUJ0-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#18321d',
+                    color_medium: '#44ae2e',
+                    color_light: '#cfd5cf',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

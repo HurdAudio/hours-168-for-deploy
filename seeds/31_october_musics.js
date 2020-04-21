@@ -6430,6 +6430,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 358,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=847281751/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://snorlaxbm.bandcamp.com/album/ii',
+                    a_string: 'II by Snorlax',
+                    rule: {
+                        "monday": [29, 8, 18, 21],
+                        "tuesday": [28, 7, 17, 20], 
+                        "wednesday": [27, 7, 16, 19], 
+                        "thursday": [26, 5, 16, 18], 
+                        "saturday": [25, 4, 14, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 359,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1257772847/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://deathwhite.bandcamp.com/album/grave-image',
+                    a_string: 'Grave Image by Deathwhite',
+                    rule: {
+                        "monday": [25, 4, 14, 17],
+                        "tuesday": [29, 8, 18, 21], 
+                        "wednesday": [28, 7, 17, 20], 
+                        "thursday": [27, 7, 16, 19], 
+                        "saturday": [26, 5, 16, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 360,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3893379847/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://midnight-ohio.bandcamp.com/album/rebirth-by-blasphemy',
+                    a_string: 'Rebirth by Blasphemy by MIDNIGHT',
+                    rule: {
+                        "monday": [26, 5, 16, 18],
+                        "tuesday": [25, 4, 14, 17], 
+                        "wednesday": [29, 8, 18, 21], 
+                        "thursday": [28, 7, 17, 20], 
+                        "saturday": [27, 7, 16, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

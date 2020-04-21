@@ -7186,6 +7186,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 400,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=45149684/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://elefantrecords.bandcamp.com/album/fuego',
+                    a_string: 'Fuego by LA BIEN QUERIDA',
+                    rule: {
+                        "monday": [30, 5, 11, 20],
+                        "tuesday": [28, 4, 10, 18], 
+                        "wednesday": [28, 3, 9, 17],  
+                        "thursday": [1, 7, 13, 21],  
+                        "saturday": [31, 6, 11, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 401,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1741060333/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://shop.arkestra.net/album/kwalia',
+                    a_string: 'Kwalia by BFlecha',
+                    rule: {
+                        "monday": [31, 6, 11, 20],
+                        "tuesday": [30, 5, 11, 20], 
+                        "wednesday": [28, 4, 10, 18], 
+                        "thursday": [28, 3, 9, 17],  
+                        "saturday": [1, 7, 13, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 402,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2277781459/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://aleciarenece.bandcamp.com/album/play-vol-1',
+                    a_string: 'Play Vol. 1 by Alecia Renece',
+                    rule: {
+                        "monday": [1, 7, 13, 21],
+                        "tuesday": [31, 6, 11, 20], 
+                        "wednesday": [30, 5, 11, 20], 
+                        "thursday": [28, 4, 10, 18], 
+                        "saturday": [28, 3, 9, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

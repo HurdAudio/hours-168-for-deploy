@@ -2992,6 +2992,42 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 250,
+                    user_author_id: 1,
+                    theme: 'Reggae',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3137491907/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://pressuresounds.bandcamp.com/album/kingston-shuffle',
+                    a_string: 'Kingston Shuffle by Various Artists',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 251,
+                    user_author_id: 1,
+                    theme: 'Reggae',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3213714985/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://homemadesoundsystem.bandcamp.com/album/josi-devil-jds-wourld-002',
+                    a_string: 'JOSI DEVIL &quot; JD&#39;S WOURLD&quot; 002 by JOSI DEVIL',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 252,
+                    user_author_id: 1,
+                    theme: 'Reggae',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2727967325/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://newleafmusic.bandcamp.com/album/feels-like',
+                    a_string: 'Feels Like... by New Leaf',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

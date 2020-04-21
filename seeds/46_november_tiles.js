@@ -1460,6 +1460,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#e6f2ec',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 105,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/holger-link-Jp9OqUO1MYs-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#151515',
+                    color_medium: '#5c5c5c',
+                    color_light: '#dddddd',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -7078,6 +7078,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 394,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3461314737/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://marcosbassogrupo.bandcamp.com/album/serpiente-c-smica',
+                    a_string: 'Serpiente Cósmica by Marcos Basso Grupo',
+                    rule: {
+                        "monday": [27, 5, 16, 22],
+                        "tuesday": [26, 4, 16, 21], 
+                        "wednesday": [30, 8, 20, 25], 
+                        "thursday": [29, 6, 19, 24], 
+                        "saturday": [28, 6, 18, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 395,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=154530131/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://johntchicaiquartet.bandcamp.com/album/live-at-the-stone',
+                    a_string: 'Live at the Stone by John Tchicai Quartet',
+                    rule: {
+                        "monday": [28, 6, 18, 23],
+                        "tuesday": [27, 5, 16, 22], 
+                        "wednesday": [26, 4, 16, 21], 
+                        "thursday": [30, 8, 20, 25], 
+                        "saturday": [29, 6, 19, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 396,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2015962542/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jeremycunningham.bandcamp.com/album/the-weather-up-there',
+                    a_string: 'The Weather Up There by Jeremy Cunningham',
+                    rule: {
+                        "monday": [29, 6, 19, 24],
+                        "tuesday": [28, 6, 18, 23], 
+                        "wednesday": [27, 5, 16, 22], 
+                        "thursday": [26, 4, 16, 21], 
+                        "saturday": [30, 8, 20, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

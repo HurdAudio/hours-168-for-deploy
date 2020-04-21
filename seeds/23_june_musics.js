@@ -6862,6 +6862,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 382,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3780323283/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/wie-das-wispern-des-windes',
+                    a_string: 'Wie das Wispern des Windes by Roedelius',
+                    rule: {
+                        "monday": [23, 26, 2, 13],
+                        "tuesday": [23, 26, 2, 12], 
+                        "wednesday": [21, 29, 1, 16], 
+                        "thursday": [25, 29, 5, 16], 
+                        "saturday": [24, 27, 2, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 383,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=434086619/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/piano-piano',
+                    a_string: 'Piano Piano by Roedelius',
+                    rule: {
+                        "monday": [24, 27, 2, 14],
+                        "tuesday": [23, 26, 2, 13], 
+                        "wednesday": [23, 26, 2, 12], 
+                        "thursday": [21, 29, 1, 16], 
+                        "saturday": [25, 29, 5, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 384,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2955754212/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/geschenk-des-augenblicks',
+                    a_string: 'Geschenk des Augenblicks by Roedelius',
+                    rule: {
+                        "monday": [25, 29, 5, 16],
+                        "tuesday": [24, 27, 2, 14], 
+                        "wednesday": [23, 26, 2, 13], 
+                        "thursday": [23, 26, 2, 12], 
+                        "saturday": [21, 29, 1, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

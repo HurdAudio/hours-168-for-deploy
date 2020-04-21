@@ -6322,6 +6322,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 352,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4228511871/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://tatapaul.bandcamp.com/album/dey-no-di-force-love',
+                    a_string: 'Dey No Di Force Love by Tata',
+                    rule: {
+                        "monday": [21, 2, 13, 17],
+                        "tuesday": [20, 1, 12, 16], 
+                        "wednesday": [19, 30, 11, 22],
+                        "thursday": [18, 29, 10, 22],
+                        "saturday": [22, 3, 14, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 353,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2155349809/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://wahenga.bandcamp.com/album/wahenga-the-official-documentary-soundtrack',
+                    a_string: 'Wahenga: The Official Documentary Soundtrack by Wahenga',
+                    rule: {
+                        "monday": [22, 3, 14, 18],
+                        "tuesday": [21, 2, 13, 17], 
+                        "wednesday": [20, 1, 12, 16], 
+                        "thursday": [19, 30, 11, 22],
+                        "saturday": [18, 29, 10, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 354,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3441335669/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ketebul.bandcamp.com/album/garissa-express',
+                    a_string: 'Garissa Express by Gargar',
+                    rule: {
+                        "monday": [18, 29, 10, 22],
+                        "tuesday": [22, 3, 14, 18], 
+                        "wednesday": [21, 2, 13, 17], 
+                        "thursday": [20, 1, 12, 16], 
+                        "saturday": [19, 30, 11, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

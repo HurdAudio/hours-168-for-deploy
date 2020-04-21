@@ -6214,6 +6214,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 346,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=310570357/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://arthuri.bandcamp.com/album/volume-de-coisas-esquecidas',
+                    a_string: 'Volume de coisas esquecidas by arthuri',
+                    rule: {
+                        "monday": [24, 30, 5, 11],
+                        "tuesday": [21, 29, 4, 10], 
+                        "wednesday": [20, 28, 3, 9],  
+                        "thursday": [21, 27, 2, 8],  
+                        "saturday": [25, 31, 6, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 347,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4040718164/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://arthuri.bandcamp.com/album/modo-macaco',
+                    a_string: 'modo macaco by arthuri',
+                    rule: {
+                        "monday": [25, 31, 6, 12],
+                        "tuesday": [24, 30, 5, 11], 
+                        "wednesday": [21, 29, 4, 10], 
+                        "thursday": [20, 28, 3, 9],  
+                        "saturday": [21, 27, 2, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 348,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3640437088/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://arthuri.bandcamp.com/album/fim-do-film',
+                    a_string: 'fim do film by arthuri',
+                    rule: {
+                        "monday": [21, 27, 2, 8],
+                        "tuesday": [25, 31, 6, 12], 
+                        "wednesday": [24, 30, 5, 11], 
+                        "thursday": [21, 29, 4, 10], 
+                        "saturday": [20, 28, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
