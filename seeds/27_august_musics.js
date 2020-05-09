@@ -6700,6 +6700,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 373,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=866306114/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://arturmajewski.bandcamp.com/album/unimaginable-game',
+                    a_string: 'Unimaginable Game by Artur Majewski',
+                    rule: {
+                        "monday": [29, 6, 19, 18],
+                        "tuesday": [2, 10, 23, 22], 
+                        "wednesday": [1, 9, 22, 21],  
+                        "thursday": [31, 8, 21, 20], 
+                        "saturday": [30, 7, 20, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 374,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=202774300/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://johnbutcher1.bandcamp.com/album/on-being-observed',
+                    a_string: 'On Being Observed by John Butcher',
+                    rule: {
+                        "monday": [30, 7, 20, 19],
+                        "tuesday": [29, 6, 19, 18], 
+                        "wednesday": [2, 10, 23, 22], 
+                        "thursday": [1, 9, 22, 21],  
+                        "saturday": [31, 8, 21, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 375,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1254473677/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://linearobsessional.bandcamp.com/album/we-love-to-wash-our-hands',
+                    a_string: 'We Love To Wash Our Hands by Cyff Gwawd',
+                    rule: {
+                        "monday": [31, 8, 21, 20],
+                        "tuesday": [30, 7, 20, 19], 
+                        "wednesday": [29, 6, 19, 18], 
+                        "thursday": [2, 10, 23, 22], 
+                        "saturday": [1, 9, 22, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

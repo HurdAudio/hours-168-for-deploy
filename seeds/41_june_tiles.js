@@ -1544,6 +1544,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#fbf2f1',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 111,
+                    user_id: 1,
+                    theme: 'Light',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june_tiles/tim-mossholder-NB6L_KzHlrI-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#272419',
+                    color_medium: '#434420',
+                    color_light: '#c9bba5',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

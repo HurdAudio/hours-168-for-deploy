@@ -1600,6 +1600,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#a89f99',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 115,
+                    user_id: 1,
+                    theme: 'Silk/Velvet',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/deena-englard-3JkHYiGtT-Y-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#250704',
+                    color_medium: '#95341c',
+                    color_light: '#d2b7a4',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

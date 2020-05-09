@@ -12104,6 +12104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 606,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_europe_target.jpg',
+                    title: 'For Europe without Nuclear weapons',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 5, 15, 20],
+                        "tuesday": [3, 4, 15, 19],  
+                        "wednesday": [30, 10, 21, 25],
+                        "thursday": [29, 9, 20, 24], 
+                        "friday": [28, 8, 19, 23], 
+                        "saturday": [27, 7, 19, 22], 
+                        "sunday": [26, 6, 17, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 607,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_europe_rocket.jpg',
+                    title: 'Europe',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [26, 6, 17, 21],
+                        "tuesday": [25, 5, 15, 20], 
+                        "wednesday": [3, 4, 15, 19],  
+                        "thursday": [30, 10, 21, 25],
+                        "friday": [29, 9, 20, 24], 
+                        "saturday": [28, 8, 19, 23], 
+                        "sunday": [27, 7, 19, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 608,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_europe_peace.jpg',
+                    title: 'Peace and security to Europe!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 7, 19, 22],
+                        "tuesday": [26, 6, 17, 21], 
+                        "wednesday": [25, 5, 15, 20], 
+                        "thursday": [3, 4, 15, 19],  
+                        "friday": [30, 10, 21, 25],
+                        "saturday": [29, 9, 20, 24], 
+                        "sunday": [28, 8, 19, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 609,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_europe_nuclear.jpg',
+                    title: 'Localized nuclear war in EUROPE...',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 9, 20, 24],
+                        "tuesday": [28, 8, 20, 23], 
+                        "wednesday": [27, 7, 18, 22], 
+                        "thursday": [26, 6, 16, 21],  
+                        "friday": [4, 5, 16, 20],
+                        "saturday": [31, 11, 22, 26], 
+                        "sunday": [30, 10, 21, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 610,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_egg_bird.jpg',
+                    title: 'To stop the arms race',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 10, 21, 25],
+                        "tuesday": [29, 9, 20, 24], 
+                        "wednesday": [28, 8, 20, 23], 
+                        "thursday": [27, 7, 18, 22], 
+                        "friday": [26, 6, 16, 21], 
+                        "saturday": [4, 5, 16, 20],  
+                        "sunday": [31, 11, 22, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

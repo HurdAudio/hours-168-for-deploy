@@ -13304,6 +13304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 666,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/61WBX3Yx1tL._AC_SX385_.jpg',
+                    title: '1960 Topps # 138 Rookie Star Art Mahaffey Philadelphia Phillies (Baseball Card)',
+                    artist: 'unknown artist',
+                    year: '1960',
+                    rule: {
+                        "monday": [20, 12, 17, 23],
+                        "tuesday": [20, 10, 16, 22],
+                        "wednesday": [5, 8, 21, 22],  
+                        "thursday": [4, 8, 23, 21],  
+                        "friday": [1, 7, 13, 19],  
+                        "saturday": [2, 7, 13, 19],  
+                        "sunday": [1, 6, 12, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 667,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/c13f13bd6a5570e279d2bebe55324d37.jpg',
+                    title: 'Rhys Hoskins Bryce Harper Art Print Watercolor Philadelphia Phillies',
+                    artist: 'Lou Baker',
+                    year: '2019',
+                    rule: {
+                        "monday": [1, 6, 12, 18],
+                        "tuesday": [20, 12, 17, 23],
+                        "wednesday": [20, 10, 16, 22],
+                        "thursday": [5, 8, 21, 22],  
+                        "friday": [4, 8, 23, 21],  
+                        "saturday": [1, 7, 13, 19],  
+                        "sunday": [2, 7, 13, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 668,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/george-mcquillan-philadelphia-phillies-baseball-photo-philadelphia-pa_u-l-q1gnbv20.jpg',
+                    title: 'George McQuillan, Philadelphia Phillies, Baseball Photo',
+                    artist: 'unknown artist',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 7, 13, 19],
+                        "tuesday": [1, 6, 12, 18],  
+                        "wednesday": [20, 12, 17, 23],
+                        "thursday": [20, 10, 16, 22],
+                        "friday": [5, 8, 21, 22],  
+                        "saturday": [4, 8, 23, 21],  
+                        "sunday": [1, 7, 13, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 669,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/gettyimages-487118117-612x612.jpg',
+                    title: 'Cody Asche of the Philadelphia Phillies',
+                    artist: 'Christian Petersen',
+                    year: '2014',
+                    rule: {
+                        "monday": [1, 7, 13, 19],
+                        "tuesday": [2, 7, 13, 19],  
+                        "wednesday": [1, 6, 12, 18],  
+                        "thursday": [20, 12, 17, 23],
+                        "friday": [20, 10, 16, 22],
+                        "saturday": [5, 8, 21, 22],  
+                        "sunday": [4, 8, 23, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 670,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/e8b7533116f006b09bef1e78df26d06e.jpg',
+                    title: 'Jimmy Rollins',
+                    artist: 'Dick Perez',
+                    year: '2000',
+                    rule: {
+                        "monday": [4, 8, 23, 21],
+                        "tuesday": [1, 7, 13, 19],  
+                        "wednesday": [2, 7, 13, 19],  
+                        "thursday": [1, 6, 12, 18],  
+                        "friday": [20, 12, 17, 23],
+                        "saturday": [20, 10, 16, 22],
+                        "sunday": [5, 8, 21, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

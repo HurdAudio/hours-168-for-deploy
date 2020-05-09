@@ -6376,6 +6376,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 355,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1854712429/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://emaenuel.bandcamp.com/album/tatu',
+                    a_string: 'tatu by emaenuel',
+                    rule: {
+                        "monday": [19, 30, 11, 22],
+                        "tuesday": [18, 29, 10, 22],
+                        "wednesday": [22, 3, 14, 18], 
+                        "thursday": [21, 2, 13, 17], 
+                        "saturday": [20, 1, 12, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 356,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=411729046/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://remiekaso.bandcamp.com/album/the-gold-ep-dedications',
+                    a_string: 'THE GOLD EP - Dedications by Remie Kaso',
+                    rule: {
+                        "monday": [20, 1, 12, 16],
+                        "tuesday": [19, 30, 11, 22],
+                        "wednesday": [18, 29, 10, 22],
+                        "thursday": [22, 3, 14, 18], 
+                        "saturday": [21, 2, 13, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 357,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2146236599/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://nigeria70.bandcamp.com/album/nigeria-70-no-wahala-highlife-afro-funk-juju-1973-1987',
+                    a_string: 'Nigeria 70: No Wahala: Highlife, Afro-Funk &amp; Juju 1973-1987 by Nigeria 70',
+                    rule: {
+                        "monday": [22, 3, 14, 18],
+                        "tuesday": [21, 2, 13, 17],
+                        "wednesday": [20, 1, 12, 23],
+                        "thursday": [19, 30, 11, 23], 
+                        "saturday": [23, 4, 15, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

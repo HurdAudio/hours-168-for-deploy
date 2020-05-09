@@ -12704,6 +12704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 636,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/7-ans-de-bonheur-livre-d-art-1991.jpg',
+                    title: '7 Ans de Bonheur, Livre d\'art',
+                    artist: 'Ben',
+                    year: '1991',
+                    rule: {
+                        "monday": [28, 8, 20, 31],
+                        "tuesday": [28, 8, 19, 20], 
+                        "wednesday": [27, 7, 17, 19], 
+                        "thursday": [24, 4, 26, 27], 
+                        "friday": [25, 5, 27, 28], 
+                        "saturday": [30, 8, 21, 1],  
+                        "sunday": [30, 7, 21, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 637,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/untitled-1971--fe-rs.jpg',
+                    title: 'Untitled',
+                    artist: 'Bernard Aubertin',
+                    year: '1971',
+                    rule: {
+                        "monday": [31, 8, 22, 2],
+                        "tuesday": [29, 9, 21, 1], 
+                        "wednesday": [29, 9, 20, 21], 
+                        "thursday": [28, 8, 18, 20], 
+                        "friday": [25, 5, 27, 28], 
+                        "saturday": [26, 6, 28, 29],  
+                        "sunday": [31, 9, 22, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 638,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/boukoko-triptyque-1975.jpg',
+                    title: 'Boukoko Triptyque',
+                    artist: 'Dado',
+                    year: '1975',
+                    rule: {
+                        "monday": [31, 9, 22, 2],
+                        "tuesday": [31, 8, 22, 2],  
+                        "wednesday": [29, 9, 21, 1],  
+                        "thursday": [29, 9, 20, 21], 
+                        "friday": [28, 8, 18, 20], 
+                        "saturday": [25, 5, 27, 28], 
+                        "sunday": [26, 6, 28, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 639,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/1965-1-unknown-detail-of-detail-2.jpg',
+                    title: '1965 / 1 - ∞ / unknown detail of detail',
+                    artist: 'Roman Opalka',
+                    year: '1965',
+                    rule: {
+                        "monday": [26, 6, 28, 29],
+                        "tuesday": [31, 9, 22, 2],  
+                        "wednesday": [31, 8, 22, 2],  
+                        "thursday": [29, 9, 21, 1],  
+                        "friday": [29, 9, 20, 21], 
+                        "saturday": [28, 8, 18, 20], 
+                        "sunday": [25, 5, 27, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 640,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-family-1962.jpg',
+                    title: 'The Family',
+                    artist: 'Marisol Escobar',
+                    year: '1962',
+                    rule: {
+                        "monday": [25, 5, 27, 28],
+                        "tuesday": [26, 6, 28, 29], 
+                        "wednesday": [31, 9, 22, 2],  
+                        "thursday": [31, 8, 22, 2],  
+                        "friday": [29, 9, 21, 1],  
+                        "saturday": [29, 9, 20, 21], 
+                        "sunday": [28, 8, 18, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

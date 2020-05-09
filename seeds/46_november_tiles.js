@@ -1474,6 +1474,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#dddddd',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 106,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/foodism360-Sp2l3EhSbRg-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#476411',
+                    color_medium: '#a8c05d',
+                    color_light: '#d3ebbc',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

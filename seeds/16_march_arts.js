@@ -13504,6 +13504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 676,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/all-men-are-equal-but-some-men-are-more-equal-than-others-orwell-2008.jpg',
+                    title: 'All men are equal, but some men are more equal than others (Orwell)',
+                    artist: 'Tea Jorjadze',
+                    year: '2008',
+                    rule: {
+                        "monday": [29, 8, 17, 26],
+                        "tuesday": [4, 13, 23, 31], 
+                        "wednesday": [3, 13, 21, 31], 
+                        "thursday": [1, 12, 20, 30], 
+                        "friday": [1, 11, 19, 29], 
+                        "saturday": [31, 11, 18, 28],
+                        "sunday": [30, 9, 17, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 677,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/cavar-digging-1998.jpg',
+                    title: 'Cavar (Digging)',
+                    artist: 'Lara Almarcegui',
+                    year: '1998',
+                    rule: {
+                        "monday": [30, 9, 17, 27],
+                        "tuesday": [29, 8, 17, 26], 
+                        "wednesday": [4, 13, 23, 31], 
+                        "thursday": [3, 13, 21, 31], 
+                        "friday": [1, 12, 20, 30], 
+                        "saturday": [1, 11, 19, 29], 
+                        "sunday": [31, 11, 18, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 678,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/export-2-not-torn-away00.jpeg',
+                    title: 'Not torn away',
+                    artist: 'Reshma Arora',
+                    year: '2020',
+                    rule: {
+                        "monday": [31, 11, 18, 28],
+                        "tuesday": [30, 9, 17, 27], 
+                        "wednesday": [29, 8, 17, 26], 
+                        "thursday": [4, 13, 23, 31], 
+                        "friday": [3, 13, 21, 31], 
+                        "saturday": [1, 12, 20, 30], 
+                        "sunday": [1, 11, 19, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 679,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/dm9a7679.jpg',
+                    title: 'Holding the world',
+                    artist: 'Raiskina Marina',
+                    year: '2013',
+                    rule: {
+                        "monday": [2, 12, 20, 30],
+                        "tuesday": [1, 12, 19, 29], 
+                        "wednesday": [31, 10, 18, 28], 
+                        "thursday": [30, 9, 18, 27], 
+                        "friday": [5, 14, 24, 1], 
+                        "saturday": [4, 14, 22, 1], 
+                        "sunday": [2, 13, 21, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 680,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/aeny19-4.jpg',
+                    title: 'Aeny19 4',
+                    artist: 'Sonaly Gandhi',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 13, 21, 31],
+                        "tuesday": [2, 12, 20, 30], 
+                        "wednesday": [1, 12, 19, 29], 
+                        "thursday": [31, 10, 18, 28],
+                        "friday": [30, 9, 18, 27], 
+                        "saturday": [5, 14, 24, 1],  
+                        "sunday": [4, 14, 22, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

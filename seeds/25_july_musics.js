@@ -6808,6 +6808,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 379,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3624295311/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://frankierose.bandcamp.com/album/interstellar-2',
+                    a_string: 'Interstellar by Frankie Rose',
+                    rule: {
+                        "monday": [21, 23, 27, 4],
+                        "tuesday": [25, 27, 31, 8], 
+                        "wednesday": [24, 26, 30, 7], 
+                        "thursday": [23, 25, 29, 6], 
+                        "saturday": [22, 23, 28, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 380,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1672850785/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sheppartonairplane.bandcamp.com/album/sharks',
+                    a_string: 'Sharks by Shepparton Airplane',
+                    rule: {
+                        "monday": [22, 23, 28, 5],
+                        "tuesday": [21, 23, 27, 4], 
+                        "wednesday": [25, 27, 31, 8], 
+                        "thursday": [24, 26, 30, 7], 
+                        "saturday": [23, 25, 29, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 381,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3066901464/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://melkbelly.bandcamp.com/album/pith',
+                    a_string: 'PITH by Melkbelly',
+                    rule: {
+                        "monday": [23, 25, 29, 6],
+                        "tuesday": [22, 23, 28, 5], 
+                        "wednesday": [21, 23, 27, 4], 
+                        "thursday": [25, 27, 31, 8], 
+                        "saturday": [24, 26, 30, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

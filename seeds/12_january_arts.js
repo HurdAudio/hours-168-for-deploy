@@ -13904,6 +13904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 696,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/several-circles-1926.jpg',
+                    title: 'Several circles',
+                    artist: 'Wassily Kandinsky',
+                    year: '1926',
+                    rule: {
+                        "monday": [21, 23, 24, 25],
+                        "tuesday": [9, 11, 3, 23],  
+                        "wednesday": [9, 11, 3, 23],  
+                        "thursday": [14, 12, 4, 7],  
+                        "friday": [14, 15, 6, 10], 
+                        "saturday": [17, 19, 20, 22],
+                        "sunday": [19, 21, 25, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 697,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/tete-paysage-1926.jpg',
+                    title: 'Tete Paysage',
+                    artist: 'Jean Arp',
+                    year: '1924 - 1926',
+                    rule: {
+                        "monday": [19, 21, 25, 28],
+                        "tuesday": [21, 23, 24, 25],
+                        "wednesday": [9, 11, 3, 23],  
+                        "thursday": [9, 11, 3, 23],  
+                        "friday": [14, 12, 4, 7],  
+                        "saturday": [14, 15, 6, 10], 
+                        "sunday": [17, 19, 20, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 698,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/drill-1926.jpg',
+                    title: 'Drill',
+                    artist: 'Frantisek Kupka',
+                    year: '1926',
+                    rule: {
+                        "monday": [17, 19, 20, 22],
+                        "tuesday": [19, 21, 25, 28],
+                        "wednesday": [21, 23, 24, 25],
+                        "thursday": [9, 11, 3, 23],  
+                        "friday": [9, 11, 3, 23],  
+                        "saturday": [14, 12, 4, 7],  
+                        "sunday": [14, 15, 6, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 699,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/figures-1926.jpg',
+                    title: 'Figures',
+                    artist: 'Sophie Taeuber-Arp',
+                    year: '1926',
+                    rule: {
+                        "monday": [14, 15, 6, 10],
+                        "tuesday": [17, 19, 20, 22],
+                        "wednesday": [19, 21, 25, 28],
+                        "thursday": [21, 23, 24, 25],
+                        "friday": [9, 11, 3, 23],  
+                        "saturday": [9, 11, 3, 23],  
+                        "sunday": [14, 12, 4, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 700,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/legend-from-the-portfolio-revolving-doors-1926.jpg',
+                    title: 'Legend from the portfolio Revolving Doors',
+                    artist: 'Man Ray',
+                    year: '1926',
+                    rule: {
+                        "monday": [15, 13, 5, 8],
+                        "tuesday": [15, 16, 7, 11],
+                        "wednesday": [18, 20, 21, 23],
+                        "thursday": [20, 22, 26, 29],
+                        "friday": [22, 24, 25, 26],  
+                        "saturday": [10, 12, 4, 24],  
+                        "sunday": [10, 12, 4, 24]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

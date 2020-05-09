@@ -12504,6 +12504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 626,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-snake-charmer-1907.jpg',
+                    title: 'The Snake Charmer',
+                    artist: 'Henri Rousseau',
+                    year: '1907',
+                    rule: {
+                        "monday": [31, 4, 12, 28],
+                        "tuesday": [30, 2, 11, 27], 
+                        "wednesday": [28, 2, 10, 26], 
+                        "thursday": [28, 30, 9, 25], 
+                        "friday": [27, 29, 8, 24], 
+                        "saturday": [26, 29, 7, 23], 
+                        "sunday": [25, 28, 6, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 627,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/life-triptych-love-1927-1.jpg',
+                    title: 'Life (triptych) - Love',
+                    artist: 'Fedir Krychevsky',
+                    year: '1927',
+                    rule: {
+                        "monday": [25, 28, 6, 22],
+                        "tuesday": [31, 4, 12, 28], 
+                        "wednesday": [30, 2, 11, 27], 
+                        "thursday": [28, 2, 10, 26], 
+                        "friday": [28, 30, 9, 25], 
+                        "saturday": [27, 29, 8, 24], 
+                        "sunday": [26, 29, 7, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 628,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/dada-head-1920(1).jpg',
+                    title: 'Dada Head',
+                    artist: 'Sophie Taeuber-Arp',
+                    year: '1920',
+                    rule: {
+                        "monday": [26, 29, 7, 23],
+                        "tuesday": [25, 28, 6, 22], 
+                        "wednesday": [31, 4, 12, 28], 
+                        "thursday": [30, 2, 11, 27], 
+                        "friday": [28, 2, 10, 26], 
+                        "saturday": [28, 30, 9, 25], 
+                        "sunday": [27, 29, 8, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 629,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/costume-design-for-dance-of-the-seven-veils-1917.jpg',
+                    title: 'Costume design for "Dance of the Seven Veils"',
+                    artist: 'Aleksandra Ekster',
+                    year: '1917',
+                    rule: {
+                        "monday": [27, 29, 8, 24],
+                        "tuesday": [26, 29, 7, 23], 
+                        "wednesday": [25, 28, 6, 22], 
+                        "thursday": [31, 4, 12, 28], 
+                        "friday": [30, 2, 11, 27], 
+                        "saturday": [28, 2, 10, 26], 
+                        "sunday": [28, 30, 9, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 630,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/vom-strande-page-1-1913.jpg',
+                    title: 'Vom Strande. Page 1',
+                    artist: 'Arthur Segal',
+                    year: '1913',
+                    rule: {
+                        "monday": [29, 31, 10, 26],
+                        "tuesday": [28, 30, 9, 25], 
+                        "wednesday": [27, 30, 8, 24], 
+                        "thursday": [26, 29, 7, 23], 
+                        "friday": [1, 5, 13, 29], 
+                        "saturday": [31, 3, 12, 28], 
+                        "sunday": [29, 3, 11, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

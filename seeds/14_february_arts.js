@@ -13704,6 +13704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 686,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/1bf0cff873db71ced041413e50812189.jpg',
+                    title: 'Petit Blanc Que J\'aime',
+                    artist: 'Julien Hudson',
+                    year: '?',
+                    rule: {
+                        "monday": [19, 24, 1, 11],
+                        "tuesday": [18, 26, 5, 13], 
+                        "wednesday": [20, 1, 7, 13], 
+                        "thursday": [22, 1, 9, 19], 
+                        "friday": [22, 3, 28, 18], 
+                        "saturday": [12, 20, 28, 7], 
+                        "sunday": [13, 22, 1, 9] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 687,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/unnamed_dsafo.jpg',
+                    title: 'Earth Blues (in prayer for the rejection of the anti-lynching bills)',
+                    artist: 'David Huffman (artist)',
+                    year: '2006',
+                    rule: {
+                        "monday": [13, 22, 1, 9],
+                        "tuesday": [19, 24, 1, 11], 
+                        "wednesday": [18, 26, 5, 13], 
+                        "thursday": [20, 1, 7, 13],  
+                        "friday": [22, 1, 9, 19],  
+                        "saturday": [22, 3, 28, 18], 
+                        "sunday": [12, 20, 28, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 688,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/file_uploads_exhibitions_Falling.jpg',
+                    title: 'Falling',
+                    artist: 'Richard Hunt',
+                    year: 'c. 1953',
+                    rule: {
+                        "monday": [12, 20, 28, 7],
+                        "tuesday": [13, 22, 1, 9],  
+                        "wednesday": [19, 24, 1, 11], 
+                        "thursday": [18, 26, 5, 13], 
+                        "friday": [20, 1, 7, 13],  
+                        "saturday": [22, 1, 9, 19],  
+                        "sunday": [22, 3, 28, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 689,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Clementine_Hunter221500x1135.jpg',
+                    title: 'Funeral Procession',
+                    artist: 'Clementine Hunter',
+                    year: '1970',
+                    rule: {
+                        "monday": [22, 3, 28, 18],
+                        "tuesday": [12, 20, 28, 7], 
+                        "wednesday": [13, 22, 1, 9],  
+                        "thursday": [19, 24, 1, 11], 
+                        "friday": [18, 26, 5, 13], 
+                        "saturday": [20, 1, 7, 13],  
+                        "sunday": [22, 1, 9, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 690,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/detail_wadsworth_jarrell_-_eternity_-_2000_.jpg',
+                    title: 'Detail from Eternity',
+                    artist: 'Wadsworth Jarrell',
+                    year: '2000',
+                    rule: {
+                        "monday": [22, 1, 9, 19],
+                        "tuesday": [22, 3, 28, 18], 
+                        "wednesday": [12, 20, 28, 7], 
+                        "thursday": [13, 22, 1, 9],  
+                        "friday": [19, 24, 1, 11], 
+                        "saturday": [18, 26, 5, 13], 
+                        "sunday": [20, 1, 7, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

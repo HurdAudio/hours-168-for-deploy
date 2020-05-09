@@ -11904,6 +11904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 596,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1960rryman.jpg',
+                    title: 'Untitled',
+                    artist: 'Robert Ryman',
+                    year: '1960',
+                    rule: {
+                        "monday": [1, 4, 11, 16],
+                        "tuesday": [29, 4, 10, 15], 
+                        "wednesday": [28, 3, 9, 14],  
+                        "thursday": [28, 3, 9, 16],  
+                        "friday": [4, 9, 15, 20],  
+                        "saturday": [3, 5, 13, 9],   
+                        "sunday": [2, 6, 13, 16]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 597,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/achrome-1960-2.jpg',
+                    title: 'Achrome',
+                    artist: 'Piero Manzoni',
+                    year: '1960',
+                    rule: {
+                        "monday": [2, 6, 13, 16],
+                        "tuesday": [1, 4, 11, 16],  
+                        "wednesday": [29, 4, 10, 15], 
+                        "thursday": [28, 3, 9, 14],  
+                        "friday": [28, 3, 9, 16],  
+                        "saturday": [4, 9, 15, 20],  
+                        "sunday": [3, 5, 13, 9]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 598,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/eight-cones-1960.jpg',
+                    title: 'Eight Cones',
+                    artist: 'James Lee Byars',
+                    year: '1960',
+                    rule: {
+                        "monday": [3, 5, 13, 9],
+                        "tuesday": [2, 6, 13, 16],  
+                        "wednesday": [1, 4, 11, 16],  
+                        "thursday": [29, 4, 10, 15], 
+                        "friday": [28, 3, 9, 14],  
+                        "saturday": [28, 3, 9, 16],  
+                        "sunday": [4, 9, 15, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 599,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/criture-1961.jpg',
+                    title: 'Écriture',
+                    artist: 'Jean Degottex',
+                    year: '1961',
+                    rule: {
+                        "monday": [5, 10, 16, 21],
+                        "tuesday": [4, 6, 14, 10],  
+                        "wednesday": [3, 7, 14, 17],  
+                        "thursday": [2, 5, 12, 17], 
+                        "friday": [30, 5, 11, 16],  
+                        "saturday": [29, 3, 10, 15],  
+                        "sunday": [29, 4, 10, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 600,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/musical-forest-1961.jpg',
+                    title: 'Musical Forest',
+                    artist: 'Ruth Vollmer',
+                    year: '1961',
+                    rule: {
+                        "monday": [29, 4, 10, 17],
+                        "tuesday": [5, 10, 16, 21], 
+                        "wednesday": [4, 6, 14, 10],  
+                        "thursday": [3, 7, 14, 17],  
+                        "friday": [2, 5, 12, 17],  
+                        "saturday": [30, 5, 11, 16], 
+                        "sunday": [29, 3, 10, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

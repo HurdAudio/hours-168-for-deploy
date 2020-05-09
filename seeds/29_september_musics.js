@@ -6592,6 +6592,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 367,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=212607621/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://cuneiformrecords.bandcamp.com/album/the-music-or-the-money-2',
+                    a_string: 'The Music or The Money? by Mats/Morgan Band',
+                    rule: {
+                        "monday": [27, 17, 25, 19],
+                        "tuesday": [26, 16, 24, 18],
+                        "wednesday": [25, 15, 23, 16],
+                        "thursday": [25, 14, 22, 16],
+                        "saturday": [23, 13, 21, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 368,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2274432209/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://subrosalabel.bandcamp.com/album/deadheads-and-roses-1987-91',
+                    a_string: 'Deadheads And Roses (1987-91) by A Scanner Darkly - Controlled Bleeding - Emerald Vein - Manapsara',
+                    rule: {
+                        "monday": [23, 13, 21, 15],
+                        "tuesday": [27, 17, 25, 19],
+                        "wednesday": [26, 16, 24, 18],
+                        "thursday": [25, 15, 23, 16],
+                        "saturday": [25, 14, 22, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 369,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=913180222/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://music.treygunn.com/album/raw-power',
+                    a_string: 'Raw Power by Trey Gunn',
+                    rule: {
+                        "monday": [25, 14, 22, 16],
+                        "tuesday": [23, 13, 21, 15],
+                        "wednesday": [27, 17, 25, 19],
+                        "thursday": [26, 16, 24, 18],
+                        "saturday": [25, 15, 23, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -5104,6 +5104,66 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 426,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/palm-grove-2011.jpeg',
+                    title: 'Palm Grove',
+                    artist: 'Valeria Trubina',
+                    year: '2011',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 427,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/fortune-telling-on-a-thundercloud-2011.jpg',
+                    title: 'Fortune Telling on a Thundercloud',
+                    artist: 'Valeria Trubina',
+                    year: '2011',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 428,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/two-in-space-space-odyssey-2011.jpeg',
+                    title: 'Two in Space. Space Odyssey',
+                    artist: 'Valeria Trubina',
+                    year: '2011',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 429,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/water-geometry-2012.jpg',
+                    title: 'Water Geometry',
+                    artist: 'Water Geometry',
+                    year: '2012',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 430,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/silver-water-2013.jpeg',
+                    title: 'Silver Water',
+                    artist: 'Valeria Trubina',
+                    year: '2013',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

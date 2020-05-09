@@ -13104,6 +13104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 656,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-7fj0wehpad.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 5, 15, 24],
+                        "tuesday": [23, 2, 12, 20], 
+                        "wednesday": [21, 30, 11, 20],
+                        "thursday": [31, 12, 22, 30],
+                        "friday": [31, 11, 20, 30],
+                        "saturday": [29, 8, 16, 18], 
+                        "sunday": [26, 6, 16, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 657,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-8owpjekkojasdkk.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [26, 6, 16, 5],
+                        "tuesday": [25, 5, 15, 24], 
+                        "wednesday": [23, 2, 12, 20], 
+                        "thursday": [21, 30, 11, 20],
+                        "friday": [31, 12, 22, 30],
+                        "saturday": [31, 11, 20, 30],
+                        "sunday": [29, 8, 16, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 658,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-9fdowkkkkkkkk.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 9, 17, 19],
+                        "tuesday": [27, 7, 17, 6], 
+                        "wednesday": [26, 6, 16, 25], 
+                        "thursday": [24, 3, 13, 21],
+                        "friday": [22, 31, 12, 21],
+                        "saturday": [1, 13, 23, 31],
+                        "sunday": [1, 12, 21, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 659,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-10kkkkkk-jwefpaoijdss.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 12, 21, 31],
+                        "tuesday": [30, 9, 17, 19], 
+                        "wednesday": [27, 7, 17, 6], 
+                        "thursday": [26, 6, 16, 25], 
+                        "friday": [24, 3, 13, 21], 
+                        "saturday": [22, 31, 12, 21],
+                        "sunday": [1, 13, 23, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 660,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-11fwohapodfihhfdkk.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 13, 23, 31],
+                        "tuesday": [1, 12, 21, 31], 
+                        "wednesday": [30, 9, 17, 19], 
+                        "thursday": [27, 7, 17, 6],  
+                        "friday": [26, 6, 16, 25], 
+                        "saturday": [24, 3, 13, 21], 
+                        "sunday": [22, 31, 12, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

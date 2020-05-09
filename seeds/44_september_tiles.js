@@ -1502,6 +1502,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#87a5b0',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 108,
+                    user_id: 1,
+                    theme: 'Leather',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/ryan-stone-GLswVVfbOjY-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#0B0B0D',
+                    color_medium: '#B56C45',
+                    color_light: '#EBD9D3',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

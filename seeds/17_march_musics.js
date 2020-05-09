@@ -7240,6 +7240,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 403,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1922001394/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://nubyagarcia.bandcamp.com/album/nubyas-5ive',
+                    a_string: 'Nubya&#39;s 5ive by Nubya Garcia',
+                    rule: {
+                        "monday": [28, 3, 9, 17],
+                        "tuesday": [1, 7, 13, 21],  
+                        "wednesday": [31, 6, 11, 20], 
+                        "thursday": [30, 5, 11, 20], 
+                        "saturday": [28, 4, 10, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 404,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=161948662/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://avantrecords.bandcamp.com/album/the-visionary',
+                    a_string: 'The Visionary by M!R!M',
+                    rule: {
+                        "monday": [28, 4, 10, 18],
+                        "tuesday": [28, 3, 9, 17],  
+                        "wednesday": [1, 7, 13, 21],  
+                        "thursday": [31, 6, 11, 20], 
+                        "saturday": [30, 5, 11, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 405,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=928401977/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ellissongs.bandcamp.com/album/born-again',
+                    a_string: 'born again by Ellis',
+                    rule: {
+                        "monday": [30, 5, 11, 20],
+                        "tuesday": [28, 4, 10, 18], 
+                        "wednesday": [28, 3, 9, 17],  
+                        "thursday": [1, 7, 13, 21],  
+                        "saturday": [31, 6, 11, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

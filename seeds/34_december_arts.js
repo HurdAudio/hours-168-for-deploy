@@ -11704,6 +11704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 586,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-12,SctAgtX.jpg',
+                    title: 'Secret Agent-X',
+                    artist: 'William Luberoff',
+                    year: '1936',
+                    rule: {
+                        "monday": [21, 3, 11, 17],
+                        "tuesday": [20, 1, 31, 16], 
+                        "wednesday": [9, 1, 20, 27],  
+                        "thursday": [25, 7, 15, 21], 
+                        "friday": [24, 5, 14, 20], 
+                        "saturday": [23, 5, 13, 19], 
+                        "sunday": [22, 4, 12, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 587,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/30-11,ManS.jpg',
+                    title: 'Man Stories',
+                    artist: 'Eric Lundgren',
+                    year: '1930',
+                    rule: {
+                        "monday": [22, 4, 12, 18],
+                        "tuesday": [21, 3, 11, 17], 
+                        "wednesday": [20, 1, 31, 16], 
+                        "thursday": [9, 1, 20, 27],  
+                        "friday": [25, 7, 15, 21], 
+                        "saturday": [24, 5, 14, 20], 
+                        "sunday": [23, 5, 13, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 588,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-08,CwbyRom.jpg',
+                    title: 'Cowboy Romances',
+                    artist: 'Milton Luros',
+                    year: '1937',
+                    rule: {
+                        "monday": [24, 6, 14, 20],
+                        "tuesday": [23, 5, 13, 19], 
+                        "wednesday": [22, 4, 12, 18], 
+                        "thursday": [21, 2, 1, 17],  
+                        "friday": [10, 2, 21, 28], 
+                        "saturday": [26, 8, 16, 22], 
+                        "sunday": [25, 6, 15, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 589,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-10,GMen.jpg',
+                    title: 'G-Men',
+                    artist: 'Richard Lyon',
+                    year: '1935',
+                    rule: {
+                        "monday": [25, 6, 15, 21],
+                        "tuesday": [24, 6, 14, 20], 
+                        "wednesday": [23, 5, 13, 19], 
+                        "thursday": [22, 4, 12, 18], 
+                        "friday": [21, 2, 1, 17],  
+                        "saturday": [10, 2, 21, 28], 
+                        "sunday": [26, 8, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 590,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-01,AstndngS-2.jpg',
+                    title: 'Astounding Stories',
+                    artist: 'Mark Marchioni',
+                    year: '1935',
+                    rule: {
+                        "monday": [26, 8, 16, 22],
+                        "tuesday": [25, 6, 15, 21], 
+                        "wednesday": [24, 6, 14, 20], 
+                        "thursday": [23, 5, 13, 19], 
+                        "friday": [22, 4, 12, 18], 
+                        "saturday": [21, 2, 1, 17],  
+                        "sunday": [10, 2, 21, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

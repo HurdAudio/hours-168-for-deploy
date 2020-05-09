@@ -6268,6 +6268,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 349,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4288313468/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sataniquesambatrio.bandcamp.com/album/instant-karma',
+                    a_string: 'Instant Karma by Satanique Samba Trio',
+                    rule: {
+                        "monday": [20, 28, 3, 9],
+                        "tuesday": [21, 27, 2, 8],  
+                        "wednesday": [25, 31, 6, 12], 
+                        "thursday": [24, 30, 5, 11], 
+                        "saturday": [21, 29, 4, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 350,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2432050339/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://julianshore.bandcamp.com/album/where-we-started',
+                    a_string: 'Where We Started by Julian Shore',
+                    rule: {
+                        "monday": [22, 30, 5, 11],
+                        "tuesday": [21, 29, 4, 10],  
+                        "wednesday": [22, 28, 3, 9], 
+                        "thursday": [26, 1, 7, 13], 
+                        "saturday": [25, 31, 6, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 351,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3820436525/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lapetitechambrerecords.bandcamp.com/album/at-home-with-songs-for-solitude-vol-06',
+                    a_string: 'At Home With...(songs for solitude) Vol. 06 by JAMES A. McDERMID',
+                    rule: {
+                        "monday": [25, 31, 6, 12],
+                        "tuesday": [22, 30, 5, 11], 
+                        "wednesday": [21, 29, 4, 10], 
+                        "thursday": [22, 28, 3, 9],  
+                        "saturday": [26, 1, 7, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

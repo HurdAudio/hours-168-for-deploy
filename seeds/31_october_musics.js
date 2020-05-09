@@ -6484,6 +6484,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 361,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1576385305/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://vananidr.bandcamp.com/album/damnation',
+                    a_string: 'Damnation by Vananidr',
+                    rule: {
+                        "monday": [27, 7, 16, 19],
+                        "tuesday": [26, 5, 16, 18], 
+                        "wednesday": [25, 4, 14, 17], 
+                        "thursday": [29, 8, 18, 21], 
+                        "saturday": [28, 7, 17, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 362,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1529389541/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://profoundlorerecords.bandcamp.com/album/reflections',
+                    a_string: 'Reflections by GODTHRYMM',
+                    rule: {
+                        "monday": [28, 7, 17, 20],
+                        "tuesday": [27, 7, 16, 19], 
+                        "wednesday": [26, 5, 16, 18], 
+                        "thursday": [25, 4, 14, 17], 
+                        "saturday": [29, 8, 18, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 363,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4077813178/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://raspberrybulbs.bandcamp.com/album/before-the-age-of-mirrors',
+                    a_string: 'Before The Age Of Mirrors by Raspberry Bulbs',
+                    rule: {
+                        "monday": [29, 8, 18, 21],
+                        "tuesday": [28, 7, 17, 20], 
+                        "wednesday": [27, 7, 16, 19], 
+                        "thursday": [26, 5, 16, 18], 
+                        "saturday": [25, 4, 14, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -11792,6 +11792,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 758,
+                    user_id: 1,
+                    name: 'Ramon Lopez (drummer) born 1961',
+                    color: '#a77586',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/Aurora_Trio_in_Moscow_(2013)_-_20.jpg',
+                    day_of: new Date('1961-08-06  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=3801911543/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1097256071/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['http://mayarecordings.bandcamp.com/album/sidereus-nuncius-the-starry-messenger', 'http://relativepitchrecords.bandcamp.com/album/trappist-1'],
+                        "a_strings": ['Sidereus Nuncius — The Starry Messenger by Ramón López &amp; Barry Guy', 'Trappist-1 by Ramon Lopez, Mark Feldman']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 759,
+                    user_id: 1,
+                    name: 'Rudolf Rocker (writer/activist/anarchist) born in 1873',
+                    color: '#5b523f',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/28903.jpg',
+                    day_of: new Date('1873-03-25  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

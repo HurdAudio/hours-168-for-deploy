@@ -12304,6 +12304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 616,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/phase-mother-earth-2008.jpg',
+                    title: 'Phase - Mother Earth',
+                    artist: 'Nobuo Sekine',
+                    year: '1968 - 2008',
+                    rule: {
+                        "monday": [28, 4, 22, 30],
+                        "tuesday": [17, 3, 21, 30],
+                        "wednesday": [16, 23, 20, 28],
+                        "thursday": [24, 1, 19, 26],  
+                        "friday": [1, 7, 25, 3],  
+                        "saturday": [30, 5, 24, 2], 
+                        "sunday": [28, 53, 23, 1]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 617,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/the-mad-king-1987.jpg',
+                    title: 'The Mad King',
+                    artist: 'Corneliu Baba',
+                    year: '1987',
+                    rule: {
+                        "monday": [28, 53, 23, 1],
+                        "tuesday": [28, 4, 22, 30], 
+                        "wednesday": [17, 3, 21, 30], 
+                        "thursday": [16, 23, 20, 28],
+                        "friday": [24, 1, 19, 26], 
+                        "saturday": [1, 7, 25, 3],   
+                        "sunday": [30, 5, 24, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 618,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/athens-iv-1968.jpg',
+                    title: 'Athens IV',
+                    artist: 'Panayiotis Tetsis',
+                    year: 'c. 1968',
+                    rule: {
+                        "monday": [30, 5, 24, 2],
+                        "tuesday": [28, 53, 23, 1], 
+                        "wednesday": [28, 4, 22, 30], 
+                        "thursday": [17, 3, 21, 30], 
+                        "friday": [16, 23, 20, 28],
+                        "saturday": [24, 1, 19, 26], 
+                        "sunday": [1, 7, 25, 3]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 619,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/manetta-1984.jpg',
+                    title: 'Manetta',
+                    artist: 'Valerie Jaudon',
+                    year: '1984',
+                    rule: {
+                        "monday": [1, 7, 25, 3],
+                        "tuesday": [30, 5, 24, 2],  
+                        "wednesday": [28, 53, 23, 1], 
+                        "thursday": [28, 4, 22, 30], 
+                        "friday": [17, 3, 21, 30], 
+                        "saturday": [16, 23, 20, 28],
+                        "sunday": [24, 1, 19, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 620,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/sombra-projectada-de-andre-morain-1967.jpg',
+                    title: 'Sombra projectada de Andre Morain',
+                    artist: 'Lourdes Castro',
+                    year: '1967',
+                    rule: {
+                        "monday": [24, 1, 19, 26],
+                        "tuesday": [1, 7, 25, 3],   
+                        "wednesday": [30, 5, 24, 2],  
+                        "thursday": [28, 53, 23, 1], 
+                        "friday": [28, 4, 22, 30], 
+                        "saturday": [17, 3, 21, 30], 
+                        "sunday": [16, 23, 20, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

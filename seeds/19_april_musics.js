@@ -7132,6 +7132,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 397,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4036168539/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://collocutor.bandcamp.com/album/continuation',
+                    a_string: 'Continuation by Collocutor',
+                    rule: {
+                        "monday": [30, 8, 20, 25],
+                        "tuesday": [29, 6, 19, 24], 
+                        "wednesday": [28, 6, 18, 23], 
+                        "thursday": [27, 5, 16, 22], 
+                        "saturday": [26, 4, 16, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 398,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=298873697/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://masaaofficial.bandcamp.com/album/irade',
+                    a_string: 'Irade by Masaa',
+                    rule: {
+                        "monday": [26, 4, 16, 21],
+                        "tuesday": [30, 8, 20, 25], 
+                        "wednesday": [29, 6, 19, 24], 
+                        "thursday": [28, 6, 18, 23], 
+                        "saturday": [27, 5, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 399,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=642036989/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jimhartivoneame.bandcamp.com/album/multiverse',
+                    a_string: 'Multiverse by Jim Hart &amp; Ivo Neame',
+                    rule: {
+                        "monday": [28, 6, 17, 23],
+                        "tuesday": [27, 5, 17, 22], 
+                        "wednesday": [1, 9, 21, 26], 
+                        "thursday": [30, 7, 20, 25], 
+                        "saturday": [29, 7, 19, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

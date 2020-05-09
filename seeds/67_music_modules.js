@@ -3028,6 +3028,42 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 253,
+                    user_author_id: 1,
+                    theme: 'Reggae',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2778394961/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://dubamine.bandcamp.com/album/redeye-ep',
+                    a_string: 'RedEye EP by Dubamine',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 254,
+                    user_author_id: 1,
+                    theme: 'Reggae',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2879102011/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://theslackers.bandcamp.com/album/rarities-1996-2000',
+                    a_string: 'Rarities 1996-2000 by The Slackers',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 255,
+                    user_author_id: 1,
+                    theme: 'Reggae',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1690666867/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://crazybaldhead.bandcamp.com/album/rocksteady-7-meets-crazy-baldhead-gutter-sky-soundation',
+                    a_string: 'Rocksteady 7 meets Crazy Baldhead - Gutter &amp; Sky Soundation by Crazy Baldhead',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

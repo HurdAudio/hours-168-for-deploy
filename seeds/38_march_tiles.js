@@ -1586,6 +1586,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#b3b4aa',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 114,
+                    user_id: 1,
+                    theme: 'Glass',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/anna-onishchuk-IeNoBmJ011g-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#191315',
+                    color_medium: '#966a6e',
+                    color_light: '#b4a5ab',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

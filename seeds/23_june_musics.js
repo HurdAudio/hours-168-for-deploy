@@ -6916,6 +6916,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 385,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3967305232/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/selbstportrait-i',
+                    a_string: 'Selbstportrait I by Roedelius',
+                    rule: {
+                        "monday": [22, 30, 2, 17],
+                        "tuesday": [26, 30, 26, 17], 
+                        "wednesday": [25, 28, 3, 15], 
+                        "thursday": [24, 27, 3, 14], 
+                        "saturday": [24, 27, 3, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1030934091/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/selbstportrait-ii',
+                    a_string: 'Selbstportrait II by Roedelius',
+                    rule: {
+                        "monday": [24, 27, 3, 13],
+                        "tuesday": [22, 30, 2, 17], 
+                        "wednesday": [26, 30, 26, 17],
+                        "thursday": [25, 28, 3, 15], 
+                        "saturday": [24, 27, 3, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=903414351/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/lustwandel',
+                    a_string: 'Lustwandel by Roedelius',
+                    rule: {
+                        "monday": [24, 27, 3, 14],
+                        "tuesday": [24, 27, 3, 13], 
+                        "wednesday": [22, 30, 2, 17], 
+                        "thursday": [26, 30, 26, 17],
+                        "saturday": [25, 28, 3, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

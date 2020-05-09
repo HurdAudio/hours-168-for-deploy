@@ -7348,6 +7348,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 409,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3328630916/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://theopioidera.bandcamp.com/album/the-throwaways',
+                    a_string: 'The Throwaways by The Opioid Era',
+                    rule: {
+                        "monday": [17, 11, 13, 15],
+                        "tuesday": [19, 13, 15, 21],
+                        "wednesday": [20, 14, 16, 22],
+                        "thursday": [3, 7, 9, 13],   
+                        "saturday": [17, 9, 11, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 410,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=616843781/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://theopioidera.bandcamp.com/album/pills-and-needles',
+                    a_string: 'Pills And Needles by The Opioid Era',
+                    rule: {
+                        "monday": [17, 9, 11, 13],
+                        "tuesday": [17, 11, 13, 15],
+                        "wednesday": [19, 13, 15, 21],
+                        "thursday": [20, 14, 16, 22],
+                        "saturday": [3, 7, 9, 13]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 411,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1030556411/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://theopioidera.bandcamp.com/album/brick-and-mortar-pt1',
+                    a_string: 'Brick And Mortar Pt1 by The Opioid Era',
+                    rule: {
+                        "monday": [3, 7, 9, 13],
+                        "tuesday": [17, 9, 11, 13], 
+                        "wednesday": [17, 11, 13, 15],
+                        "thursday": [19, 13, 15, 21],
+                        "saturday": [20, 14, 16, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

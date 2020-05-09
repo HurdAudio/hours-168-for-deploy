@@ -7456,6 +7456,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 415,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2672609783/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/as-if-to-each-other',
+                    a_string: 'as if to each other... by R. Andrew Lee',
+                    rule: {
+                        "monday": [3, 10, 11, 12],
+                        "tuesday": [7, 14, 15, 16], 
+                        "wednesday": [6, 12, 13, 15], 
+                        "thursday": [5, 12, 13, 14], 
+                        "saturday": [4, 10, 11, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 416,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2185664905/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/memory-and-weather',
+                    a_string: 'Memory and Weather by Ensemble of Irreproducible Outcomes',
+                    rule: {
+                        "monday": [4, 10, 11, 12],
+                        "tuesday": [3, 10, 11, 12], 
+                        "wednesday": [7, 14, 15, 16], 
+                        "thursday": [6, 12, 13, 15], 
+                        "saturday": [5, 12, 13, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 417,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=523635068/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/foggy-foggy-dew',
+                    a_string: 'Foggy, Foggy Dew by Ensemble of Irreproducible Outcomes',
+                    rule: {
+                        "monday": [5, 12, 13, 14],
+                        "tuesday": [4, 10, 11, 12], 
+                        "wednesday": [3, 10, 11, 12], 
+                        "thursday": [7, 14, 15, 16], 
+                        "saturday": [6, 12, 13, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -12904,6 +12904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 646,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/the_parasol_by_emmelody_dbiv8yv-fullview.jpg',
+                    title: 'The Parasol',
+                    artist: 'EmMelody',
+                    year: '2017',
+                    rule: {
+                        "monday": [1, 11, 22, 29],
+                        "tuesday": [30, 10, 20, 18],
+                        "wednesday": [29, 9, 19, 26], 
+                        "thursday": [8, 18, 28, 26], 
+                        "friday": [27, 7, 17, 25], 
+                        "saturday": [26, 6, 16, 24], 
+                        "sunday": [2, 12, 22, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 647,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/nature_in_my_blood_by_davidschermann_d8pbpaq-fullview.jpg',
+                    title: 'nature in my blood',
+                    artist: 'David Schermann',
+                    year: '2015',
+                    rule: {
+                        "monday": [2, 12, 22, 29],
+                        "tuesday": [1, 11, 22, 29], 
+                        "wednesday": [30, 10, 20, 18],
+                        "thursday": [29, 9, 19, 26], 
+                        "friday": [8, 18, 28, 26], 
+                        "saturday": [27, 7, 17, 25], 
+                        "sunday": [26, 6, 16, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 648,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/into_the_old_mine_by_miguel_santos_db66tju-pre.jpg',
+                    title: 'Into the Old Mine',
+                    artist: 'Miguel Santos',
+                    year: '2017',
+                    rule: {
+                        "monday": [26, 6, 16, 24],
+                        "tuesday": [2, 12, 22, 29], 
+                        "wednesday": [1, 11, 22, 29], 
+                        "thursday": [30, 10, 20, 18],
+                        "friday": [29, 9, 19, 26], 
+                        "saturday": [8, 18, 28, 26], 
+                        "sunday": [27, 7, 17, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 649,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/photography__this_is_not_london_eye__by_vt2000_dbk9snr-fullview.jpg',
+                    title: 'This is NOT London Eye!',
+                    artist: 'vt2000',
+                    year: '2017',
+                    rule: {
+                        "monday": [27, 7, 17, 25],
+                        "tuesday": [26, 6, 16, 24], 
+                        "wednesday": [2, 12, 22, 29], 
+                        "thursday": [1, 11, 22, 29], 
+                        "friday": [30, 10, 20, 18],
+                        "saturday": [29, 9, 19, 26], 
+                        "sunday": [8, 18, 28, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 650,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d3gdkh1-1c093c3c-0957-4004-b73e-796dd2b53a24.jpg',
+                    title: '.:: Happy Wanderer ::.',
+                    artist: 'Whimsical-Dreams',
+                    year: '2011',
+                    rule: {
+                        "monday": [8, 18, 28, 26],
+                        "tuesday": [27, 7, 17, 25], 
+                        "wednesday": [26, 6, 16, 24], 
+                        "thursday": [2, 12, 22, 29], 
+                        "friday": [1, 11, 22, 29], 
+                        "saturday": [30, 10, 20, 18],
+                        "sunday": [29, 9, 19, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

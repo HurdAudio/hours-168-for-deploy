@@ -7024,6 +7024,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 391,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3869855159/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://feliciaatkinson.bandcamp.com/album/everything-evaporate',
+                    a_string: 'EVERYTHING EVAPORATE by Félicia Atkinson',
+                    rule: {
+                        "monday": [27, 2, 9, 22],
+                        "tuesday": [26, 1, 8, 21],  
+                        "wednesday": [25, 31, 7, 20], 
+                        "thursday": [24, 30, 6, 19], 
+                        "saturday": [23, 29, 5, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 392,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=243512512/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://leabertucci.bandcamp.com/album/acoustic-shadows',
+                    a_string: 'Acoustic Shadows by Lea Bertucci',
+                    rule: {
+                        "monday": [24, 30, 6, 19],
+                        "tuesday": [28, 3, 10, 23],  
+                        "wednesday": [27, 2, 9, 22], 
+                        "thursday": [26, 1, 8, 21], 
+                        "saturday": [25, 31, 7, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 393,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3698299853/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://thegertrudetapes.bandcamp.com/album/a-jurist-for-nothing',
+                    a_string: 'A Jurist For Nothing by A.F. Jones',
+                    rule: {
+                        "monday": [25, 31, 7, 20],
+                        "tuesday": [24, 30, 6, 19], 
+                        "wednesday": [28, 3, 10, 23], 
+                        "thursday": [27, 2, 9, 22],  
+                        "saturday": [26, 1, 8, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

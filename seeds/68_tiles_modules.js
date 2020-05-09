@@ -1249,6 +1249,21 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 84,
+                    user_author_id: 1,
+                    theme: 'Kandinsky',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/tiles/at-rest.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#393e3b',
+                    color_medium: '#95ae82',
+                    color_light: '#becebf',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
