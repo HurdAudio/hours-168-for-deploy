@@ -1488,6 +1488,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#d3ebbc',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 107,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/meritt-thomas-d0DFGL4b9Ig-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#a9b2a7',
+                    color_medium: '#dbddeb',
+                    color_light: '#f0f6fc',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -11804,6 +11804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 591,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/46-09,TenStoryDet1a.jpg',
+                    title: '10-Story Detective',
+                    artist: 'Chester Martin',
+                    year: '1946',
+                    rule: {
+                        "monday": [10, 2, 21, 28],
+                        "tuesday": [26, 8, 16, 22], 
+                        "wednesday": [25, 6, 15, 21], 
+                        "thursday": [24, 6, 14, 20], 
+                        "friday": [23, 5, 13, 19], 
+                        "saturday": [22, 4, 12, 18], 
+                        "sunday": [21, 2, 1, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 592,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-11,WAces2.jpg',
+                    title: 'Western Aces',
+                    artist: 'Pete Martinez',
+                    year: '1937',
+                    rule: {
+                        "monday": [21, 2, 1, 17],
+                        "tuesday": [10, 2, 21, 28], 
+                        "wednesday": [26, 8, 16, 22], 
+                        "thursday": [25, 6, 15, 21], 
+                        "friday": [24, 6, 14, 20], 
+                        "saturday": [23, 5, 13, 19], 
+                        "sunday": [22, 4, 12, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 593,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-06,SpcyMyst2.jpg',
+                    title: 'Spicy Mystery',
+                    artist: 'Rex Maxon',
+                    year: '1936',
+                    rule: {
+                        "monday": [22, 4, 12, 18],
+                        "tuesday": [21, 2, 1, 17],  
+                        "wednesday": [10, 2, 21, 28], 
+                        "thursday": [26, 8, 16, 22], 
+                        "friday": [25, 6, 15, 21], 
+                        "saturday": [24, 6, 14, 20], 
+                        "sunday": [23, 5, 13, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 594,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-12,CompAdv2.jpg',
+                    title: 'Complete Adventure',
+                    artist: 'Earl Mayan',
+                    year: '1837',
+                    rule: {
+                        "monday": [23, 5, 13, 19],
+                        "tuesday": [22, 4, 12, 18], 
+                        "wednesday": [21, 2, 1, 17],  
+                        "thursday": [10, 2, 21, 28], 
+                        "friday": [26, 8, 16, 22], 
+                        "saturday": [25, 6, 15, 21], 
+                        "sunday": [24, 6, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 595,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-01,Estrellas.jpg',
+                    title: 'Estrellas',
+                    artist: 'Gabriel Mayorga',
+                    year: '1937',
+                    rule: {
+                        "monday": [25, 7, 15, 21],
+                        "tuesday": [24, 6, 14, 20], 
+                        "wednesday": [23, 5, 13, 19],  
+                        "thursday": [22, 3, 2, 18], 
+                        "friday": [11, 3, 22, 29], 
+                        "saturday": [27, 9, 17, 23], 
+                        "sunday": [26, 7, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

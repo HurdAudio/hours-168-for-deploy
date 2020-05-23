@@ -14004,6 +14004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 701,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/shadows-from-the-portfolio-revolving-doors-1926.jpg',
+                    title: 'Shadows from the portfolio Revolving Doors',
+                    artist: 'Man Ray',
+                    year: '1926',
+                    rule: {
+                        "monday": [10, 12, 4, 24],
+                        "tuesday": [15, 13, 5, 8],  
+                        "wednesday": [15, 16, 7, 11], 
+                        "thursday": [18, 20, 21, 23],
+                        "friday": [20, 22, 26, 29],
+                        "saturday": [22, 24, 25, 26],
+                        "sunday": [10, 12, 4, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 702,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/158-rue-de-tolbiac.jpg',
+                    title: '158 Rue de Tolbiac',
+                    artist: 'Jacques Villeglé',
+                    year: '?',
+                    rule: {
+                        "monday": [10, 12, 4, 24],
+                        "tuesday": [10, 12, 4, 24], 
+                        "wednesday": [15, 13, 5, 8],  
+                        "thursday": [15, 16, 7, 11], 
+                        "friday": [18, 20, 21, 23],
+                        "saturday": [20, 22, 26, 29],
+                        "sunday": [22, 24, 25, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 703,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/black-white-yellow-1926.jpg',
+                    title: 'Black-White-Yellow',
+                    artist: 'Anni Albers',
+                    year: '1926',
+                    rule: {
+                        "monday": [22, 24, 25, 26],
+                        "tuesday": [10, 12, 4, 24], 
+                        "wednesday": [10, 12, 4, 24], 
+                        "thursday": [15, 13, 5, 8],  
+                        "friday": [15, 16, 7, 11], 
+                        "saturday": [18, 20, 21, 23],
+                        "sunday": [20, 22, 26, 29] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 704,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/komposition-1926___.jpg',
+                    title: 'Komposition',
+                    artist: 'Otto Gustav Carlsund',
+                    year: '1926',
+                    rule: {
+                        "monday": [20, 22, 26, 29],
+                        "tuesday": [22, 24, 25, 26],
+                        "wednesday": [10, 12, 4, 24], 
+                        "thursday": [10, 12, 4, 24], 
+                        "friday": [15, 13, 5, 8],  
+                        "saturday": [15, 16, 7, 11], 
+                        "sunday": [18, 20, 21, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 705,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/haven-opus-2-1926.jpg',
+                    title: 'Haven - Opus 2',
+                    artist: 'Victor Servranckx',
+                    year: '1926',
+                    rule: {
+                        "monday": [18, 20, 21, 23],
+                        "tuesday": [20, 22, 26, 29],
+                        "wednesday": [22, 24, 25, 26],
+                        "thursday": [10, 12, 4, 24], 
+                        "friday": [10, 12, 4, 24], 
+                        "saturday": [15, 13, 5, 8],  
+                        "sunday": [15, 16, 7, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6754,6 +6754,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 376,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=514534932/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://newbraxtonhouse.bandcamp.com/album/duo-improv-2017',
+                    a_string: 'Duo (Improv) 2017 by Anthony Braxton Eugene Chadbourne',
+                    rule: {
+                        "monday": [1, 9, 22, 21],
+                        "tuesday": [31, 8, 21, 20], 
+                        "wednesday": [30, 7, 20, 19], 
+                        "thursday": [29, 6, 19, 18], 
+                        "saturday": [2, 10, 23, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 377,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3350500964/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://frodegjerstad.bandcamp.com/album/kampen-complete-vol-1',
+                    a_string: 'Kampen - complete vol 1 by Bobby Bradford tpt, Frode Gjerstad, reeds, Ingebrigt H. Flaten, bass, Paal Nilssen-Love, dr',
+                    rule: {
+                        "monday": [2, 10, 23, 22],
+                        "tuesday": [1, 9, 22, 21],  
+                        "wednesday": [31, 8, 21, 20], 
+                        "thursday": [30, 7, 20, 19], 
+                        "saturday": [29, 6, 19, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 378,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=366099180/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://aerophonicrecords.bandcamp.com/album/the-eagle',
+                    a_string: 'The Eagle by Foster/Rempis/Roebke/Damon',
+                    rule: {
+                        "monday": [30, 7, 20, 19],
+                        "tuesday": [3, 11, 24, 23],  
+                        "wednesday": [2, 10, 23, 22], 
+                        "thursday": [1, 9, 22, 21], 
+                        "saturday": [31, 8, 21, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

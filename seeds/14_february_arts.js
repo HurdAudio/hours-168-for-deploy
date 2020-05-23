@@ -13804,6 +13804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 691,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/64302453_137880274065526_4076679639249511477_n-Copy-1024x1024.jpg',
+                    title: 'The Woman is King (Mary and Marlene)',
+                    artist: 'Tomashi Jackson',
+                    year: '2019',
+                    rule: {
+                        "monday": [20, 1, 7, 13],
+                        "tuesday": [22, 1, 9, 19],  
+                        "wednesday": [22, 3, 28, 18], 
+                        "thursday": [12, 20, 28, 7], 
+                        "friday": [13, 22, 1, 9],  
+                        "saturday": [19, 24, 1, 11], 
+                        "sunday": [18, 26, 5, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 692,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Jemison_Plant_You_Now_3-23-17_Revised-17_1000.jpg',
+                    title: 'Plant You Now, Dig You Later',
+                    artist: 'Steffani Jemison',
+                    year: '2017',
+                    rule: {
+                        "monday": [18, 26, 5, 13],
+                        "tuesday": [20, 1, 7, 13],  
+                        "wednesday": [22, 1, 9, 19],  
+                        "thursday": [22, 3, 28, 18], 
+                        "friday": [12, 20, 28, 7], 
+                        "saturday": [13, 22, 1, 9],  
+                        "sunday": [19, 24, 1, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 693,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/thbwaj.png',
+                    title: 'Harangue',
+                    artist: 'Wilmer Angier Jennings',
+                    year: '1941',
+                    rule: {
+                        "monday": [20, 25, 2, 12],
+                        "tuesday": [19, 27, 6, 14],  
+                        "wednesday": [21, 2, 8, 14],  
+                        "thursday": [23, 2, 10, 20], 
+                        "friday": [23, 4, 29, 19], 
+                        "saturday": [13, 21, 29, 8],  
+                        "sunday": [14, 23, 2, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 694,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/43088_1215016.jpg',
+                    title: 'Eye Se U',
+                    artist: 'Annette P. Jimerson',
+                    year: '?',
+                    rule: {
+                        "monday": [14, 23, 2, 10],
+                        "tuesday": [20, 25, 2, 12], 
+                        "wednesday": [19, 27, 6, 14], 
+                        "thursday": [21, 2, 8, 14],  
+                        "friday": [23, 2, 10, 20], 
+                        "saturday": [23, 4, 29, 19], 
+                        "sunday": [13, 21, 29, 8]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 695,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Joshua_Johnson_-_Letitia_Grace_McCurdy_42x50_oryfcz__78365.1486483055-min.jpg',
+                    title: 'Letita Grace McCurdy',
+                    artist: 'Joshua Johnson',
+                    year: '?',
+                    rule: {
+                        "monday": [13, 21, 29, 8],
+                        "tuesday": [14, 23, 2, 10], 
+                        "wednesday": [20, 25, 2, 12], 
+                        "thursday": [19, 27, 6, 14], 
+                        "friday": [21, 2, 8, 14],  
+                        "saturday": [23, 2, 10, 20], 
+                        "sunday": [23, 4, 29, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

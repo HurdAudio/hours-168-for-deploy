@@ -12004,6 +12004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 601,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/saka-sama-ni-1961.jpg',
+                    title: 'Saka-Sama-Ni',
+                    artist: 'Yves Gaucher',
+                    year: '1961',
+                    rule: {
+                        "monday": [29, 3, 10, 15],
+                        "tuesday": [29, 4, 10, 17], 
+                        "wednesday": [5, 10, 16, 21], 
+                        "thursday": [4, 6, 14, 10],  
+                        "friday": [3, 7, 14, 17],  
+                        "saturday": [2, 5, 12, 17],  
+                        "sunday": [30, 5, 11, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 602,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/window-piece-1961.jpg',
+                    title: 'Window Piece',
+                    artist: 'Phillip King',
+                    year: '1961',
+                    rule: {
+                        "monday": [1, 6, 12, 17],
+                        "tuesday": [30, 4, 11, 16], 
+                        "wednesday": [30, 5, 11, 18], 
+                        "thursday": [6, 11, 17, 22],  
+                        "friday": [5, 7, 15, 11],  
+                        "saturday": [4, 8, 15, 18],  
+                        "sunday": [3, 6, 13, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 603,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/icon-v-coran-s-broadway-flesh-1962.jpg',
+                    title: 'Icon V (Coran\'s Broadway Flesh)',
+                    artist: 'Dan Flavin',
+                    year: '1962',
+                    rule: {
+                        "monday": [3, 6, 13, 18],
+                        "tuesday": [1, 6, 12, 17],  
+                        "wednesday": [30, 4, 11, 16], 
+                        "thursday": [30, 5, 11, 18], 
+                        "friday": [6, 11, 17, 22], 
+                        "saturday": [5, 7, 15, 11],  
+                        "sunday": [4, 8, 15, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 604,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1962.jpg',
+                    title: 'Untitled',
+                    artist: 'Jiro Yoshihara',
+                    year: '1962',
+                    rule: {
+                        "monday": [4, 8, 15, 18],
+                        "tuesday": [3, 6, 13, 18],  
+                        "wednesday": [1, 6, 12, 17],  
+                        "thursday": [30, 4, 11, 16], 
+                        "friday": [30, 5, 11, 18], 
+                        "saturday": [6, 11, 17, 22], 
+                        "sunday": [5, 7, 15, 11]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 605,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/catawba-1962.jpg',
+                    title: 'Catawba',
+                    artist: 'Anne Truitt',
+                    year: '1962',
+                    rule: {
+                        "monday": [5, 7, 15, 11],
+                        "tuesday": [4, 8, 15, 18],  
+                        "wednesday": [3, 6, 13, 18],  
+                        "thursday": [1, 6, 12, 17],  
+                        "friday": [30, 4, 11, 16], 
+                        "saturday": [30, 5, 11, 18], 
+                        "sunday": [6, 11, 17, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

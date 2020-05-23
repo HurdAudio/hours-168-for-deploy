@@ -13404,6 +13404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 671,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/wp1869605.jpg',
+                    title: 'Texas Rangers Wallpaper',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 8, 21, 22],
+                        "tuesday": [4, 8, 23, 21],  
+                        "wednesday": [1, 7, 13, 19],  
+                        "thursday": [2, 7, 13, 19],  
+                        "friday": [1, 6, 12, 18],  
+                        "saturday": [20, 12, 17, 23],
+                        "sunday": [20, 10, 16, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 672,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/0e6dd423a1e9402c828da5d5510fcb13-1.jpg',
+                    title: 'Nolan Ryan Statue',
+                    artist: 'Smiley N. Pool',
+                    year: '2020',
+                    rule: {
+                        "monday": [21, 11, 17, 23],
+                        "tuesday": [6, 9, 22, 23],  
+                        "wednesday": [5, 9, 24, 22],  
+                        "thursday": [2, 8, 14, 20],  
+                        "friday": [3, 8, 14, 20],  
+                        "saturday": [2, 7, 13, 19],
+                        "sunday": [21, 13, 18, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 673,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/905a69e36d8d85b281bf3d2ede590850.jpg',
+                    title: 'Texas Rangers Pin',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [21, 13, 18, 24],
+                        "tuesday": [21, 11, 17, 23],
+                        "wednesday": [6, 9, 22, 23],  
+                        "thursday": [5, 9, 24, 22],  
+                        "friday": [2, 8, 14, 20],  
+                        "saturday": [3, 8, 14, 20],  
+                        "sunday": [2, 7, 13, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 674,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/82106129.jpg',
+                    title: 'Texas Rangers file Photo',
+                    artist: 'Focus on Spor',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 7, 13, 19],
+                        "tuesday": [21, 13, 18, 24],
+                        "wednesday": [21, 11, 17, 23],
+                        "thursday": [6, 9, 22, 23],  
+                        "friday": [5, 9, 24, 22],  
+                        "saturday": [2, 8, 14, 20],  
+                        "sunday": [3, 8, 14, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 675,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/High_resolution_wallpaper_background_ID_77701948373-1200x675.jpg',
+                    title: 'Texas Rangers Wallpaper',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 8, 14, 20],
+                        "tuesday": [2, 7, 13, 19],  
+                        "wednesday": [21, 13, 18, 24],
+                        "thursday": [21, 11, 17, 23],
+                        "friday": [6, 9, 22, 23],  
+                        "saturday": [5, 9, 24, 22],  
+                        "sunday": [2, 8, 14, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

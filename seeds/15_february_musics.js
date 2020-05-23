@@ -7402,6 +7402,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 412,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3615371442/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ronee.bandcamp.com/album/negro',
+                    a_string: 'NEGRO by Pink Siifu',
+                    rule: {
+                        "monday": [20, 14, 16, 22],
+                        "tuesday": [3, 7, 9, 13],   
+                        "wednesday": [17, 9, 11, 13], 
+                        "thursday": [17, 11, 13, 15],
+                        "saturday": [19, 13, 15, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 413,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3739374590/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://blaque-dynamite.bandcamp.com/album/time-out',
+                    a_string: 'Time Out by Blaque Dynamite',
+                    rule: {
+                        "monday": [20, 14, 16, 22],
+                        "tuesday": [21, 15, 17, 23],   
+                        "wednesday": [4, 8, 10, 14], 
+                        "thursday": [18, 10, 12, 14],
+                        "saturday": [18, 12, 14, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 414,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1737841734/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ricwilsonisme.bandcamp.com/album/they-call-me-disco',
+                    a_string: 'They Call Me Disco by Ric Wilson, Terrace Martin',
+                    rule: {
+                        "monday": [18, 12, 14, 16],
+                        "tuesday": [20, 14, 16, 22],
+                        "wednesday": [21, 15, 17, 23],
+                        "thursday": [4, 8, 10, 14],  
+                        "saturday": [18, 10, 12, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

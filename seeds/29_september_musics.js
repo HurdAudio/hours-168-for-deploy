@@ -6646,6 +6646,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 370,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=843590072/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://akuphone.bandcamp.com/album/rats-don-t-eat-synthesizers',
+                    a_string: 'Rats Don’t Eat Synthesizers by Dwarfs of East Agouza',
+                    rule: {
+                        "monday": [25, 15, 23, 16],
+                        "tuesday": [25, 14, 22, 16],
+                        "wednesday": [23, 13, 21, 15],
+                        "thursday": [27, 17, 25, 19],
+                        "saturday": [26, 16, 24, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 371,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3364534100/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://akuphone.bandcamp.com/album/the-green-dogs-of-dahshur',
+                    a_string: 'The Green Dogs of Dahshur by The Dwarfs Of East Agouza',
+                    rule: {
+                        "monday": [27, 17, 25, 19],
+                        "tuesday": [26, 16, 24, 17],
+                        "wednesday": [26, 15, 23, 17],
+                        "thursday": [24, 14, 22, 16],
+                        "saturday": [28, 18, 26, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 372,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1264051621/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://brackwasserknipp.bandcamp.com/album/schieres-entsetzen',
+                    a_string: 'Schieres Entsetzen by Brackwasser Knipp',
+                    rule: {
+                        "monday": [28, 18, 26, 20],
+                        "tuesday": [27, 17, 25, 19],
+                        "wednesday": [26, 16, 24, 17],
+                        "thursday": [26, 15, 23, 17],
+                        "saturday": [24, 14, 22, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

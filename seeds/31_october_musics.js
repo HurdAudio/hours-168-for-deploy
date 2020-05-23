@@ -6538,6 +6538,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 364,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2881610335/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://throneofiron.bandcamp.com/album/adventure-one',
+                    a_string: 'Adventure One by Throne Of Iron',
+                    rule: {
+                        "monday": [26, 5, 15, 18],
+                        "tuesday": [30, 9, 19, 22], 
+                        "wednesday": [29, 8, 18, 21], 
+                        "thursday": [28, 8, 17, 20], 
+                        "saturday": [27, 6, 17, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 365,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2918176519/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://thebody.bandcamp.com/album/grave-of-a-dog',
+                    a_string: 'Grave of a Dog by Sightless Pit',
+                    rule: {
+                        "monday": [27, 6, 17, 19],
+                        "tuesday": [26, 5, 15, 18], 
+                        "wednesday": [30, 9, 19, 22], 
+                        "thursday": [29, 8, 18, 21], 
+                        "saturday": [28, 8, 17, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 366,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1048750677/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://bindrunerecordings.bandcamp.com/album/volume-iii',
+                    a_string: 'Volume III by Obsidian Tongue',
+                    rule: {
+                        "monday": [28, 8, 17, 20],
+                        "tuesday": [27, 6, 17, 19], 
+                        "wednesday": [26, 5, 15, 18], 
+                        "thursday": [30, 9, 19, 22], 
+                        "saturday": [29, 8, 18, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

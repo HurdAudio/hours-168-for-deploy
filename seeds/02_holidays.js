@@ -16474,6 +16474,36 @@ exports.seed = function(knex, Promise) {
           override_content: null,
           created_at: new Date('2017-07-20T13:44:00.000Z'),
           updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 1067,
+          user_id: 1,
+          name: 'International Holocaust Remembrance Day',
+          color: '#2a241c',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/holidays/shutterstock_506740828.jpg',
+          day_of: new Date('2021-01-27T13:44:00.000Z'),
+          is_annual: true,
+          rule: null,
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+          {
+          id: 1068,
+          user_id: 1,
+          name: 'National Clean Your Desk Day',
+          color: '#4b4339',
+          picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/holidays/National-Clean-Off-Your-Desk-Day.jpg',
+          day_of: new Date('2021-01-11T13:44:00.000Z'),
+          is_annual: false,
+          rule: ['january', 'monday', 2],
+          art_override: false,
+          music_override: false,
+          override_content: null,
+          created_at: new Date('2017-07-20T13:44:00.000Z'),
+          updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
     })

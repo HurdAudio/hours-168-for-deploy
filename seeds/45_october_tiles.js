@@ -1502,6 +1502,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#e3ded8',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 108,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/jan-kaluza-lfLff4rY3Ho-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#150e0d',
+                    color_medium: '#4486e4',
+                    color_light: '#d9bbbc',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -13604,6 +13604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 681,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/sdc14770.jpeg',
+                    title: 'Hot pepper',
+                    artist: 'Tanya Stepanenko',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 14, 22, 1],
+                        "tuesday": [2, 13, 21, 31], 
+                        "wednesday": [2, 12, 20, 30], 
+                        "thursday": [1, 12, 19, 29], 
+                        "friday": [31, 10, 18, 28],
+                        "saturday": [30, 9, 18, 27], 
+                        "sunday": [5, 14, 24, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 682,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/captura-de-pantalla-2020-02-24-a-las-8-57-43.jpeg',
+                    title: '.',
+                    artist: 'Zoe Marmentini',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 14, 24, 1],
+                        "tuesday": [4, 14, 22, 1],  
+                        "wednesday": [2, 13, 21, 31], 
+                        "thursday": [2, 12, 20, 30], 
+                        "friday": [1, 12, 19, 29], 
+                        "saturday": [31, 10, 18, 28],
+                        "sunday": [30, 9, 18, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 683,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/i-am-your-moonlight-and-flower-garden-2015.jpg',
+                    title: 'I Am Your Moonlight and Flower Garden',
+                    artist: 'Jana Brike',
+                    year: '2015',
+                    rule: {
+                        "monday": [30, 9, 18, 27],
+                        "tuesday": [5, 14, 24, 1],  
+                        "wednesday": [4, 14, 22, 1],  
+                        "thursday": [2, 13, 21, 31], 
+                        "friday": [2, 12, 20, 30], 
+                        "saturday": [1, 12, 19, 29], 
+                        "sunday": [31, 10, 18, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 684,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/field-of-blooms.jpg',
+                    title: 'Field of Blooms',
+                    artist: 'Erin Hanson',
+                    year: '?',
+                    rule: {
+                        "monday": [31, 10, 18, 28],
+                        "tuesday": [30, 9, 18, 27], 
+                        "wednesday": [5, 14, 24, 1],  
+                        "thursday": [4, 14, 22, 1],  
+                        "friday": [2, 13, 21, 31], 
+                        "saturday": [2, 12, 20, 30], 
+                        "sunday": [1, 12, 19, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 685,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/yy103-1.jpg',
+                    title: 'midstream',
+                    artist: 'Yui Yaegashi',
+                    year: '2016',
+                    rule: {
+                        "monday": [1, 12, 19, 29],
+                        "tuesday": [31, 10, 18, 28],
+                        "wednesday": [30, 9, 18, 27], 
+                        "thursday": [5, 14, 24, 1],  
+                        "friday": [4, 14, 22, 1],  
+                        "saturday": [2, 13, 21, 31], 
+                        "sunday": [2, 12, 20, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -7510,6 +7510,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 418,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2988431279/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/j-rg-frey-pianist-alone',
+                    a_string: 'Jürg Frey: Pianist, Alone by R. Andrew Lee',
+                    rule: {
+                        "monday": [6, 12, 13, 15],
+                        "tuesday": [5, 12, 13, 14], 
+                        "wednesday": [4, 10, 11, 12], 
+                        "thursday": [3, 10, 11, 12], 
+                        "saturday": [7, 14, 15, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 419,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=64449763/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/dave-seidel-60-hz',
+                    a_string: 'Dave Seidel: ~60 Hz by Dave Seidel',
+                    rule: {
+                        "monday": [7, 14, 15, 16],
+                        "tuesday": [6, 12, 13, 15], 
+                        "wednesday": [5, 12, 13, 14], 
+                        "thursday": [4, 10, 11, 12], 
+                        "saturday": [3, 10, 11, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 420,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2790072942/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/electronic-music-midwest',
+                    a_string: 'Electronic Music Midwest by Irritable Hedgehog',
+                    rule: {
+                        "monday": [4, 11, 12, 13],
+                        "tuesday": [8, 15, 16, 17], 
+                        "wednesday": [7, 13, 14, 16], 
+                        "thursday": [6, 13, 14, 15], 
+                        "saturday": [5, 11, 12, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

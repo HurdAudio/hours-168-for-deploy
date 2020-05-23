@@ -6322,6 +6322,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 352,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=136095045/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://intlanthem.bandcamp.com/album/transition-east',
+                    a_string: 'Transition East by Angel Bat Dawid',
+                    rule: {
+                        "monday": [26, 1, 7, 13],
+                        "tuesday": [25, 31, 6, 12], 
+                        "wednesday": [22, 30, 5, 11], 
+                        "thursday": [21, 29, 4, 10], 
+                        "saturday": [22, 28, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 353,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=814379421/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://tropicaltwistarecords.bandcamp.com/album/tha-guts-muddy-ttr065',
+                    a_string: 'Tha_guts - Muddy (TTR065) by Tropical Twista Records',
+                    rule: {
+                        "monday": [22, 28, 3, 9],
+                        "tuesday": [26, 1, 7, 13],  
+                        "wednesday": [25, 31, 6, 12], 
+                        "thursday": [22, 30, 5, 11], 
+                        "saturday": [21, 29, 4, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 354,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2418775121/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lglopes.bandcamp.com/album/presente-2',
+                    a_string: 'Presente by Luiz Gabriel Lopes',
+                    rule: {
+                        "monday": [21, 29, 4, 10],
+                        "tuesday": [22, 28, 3, 9],  
+                        "wednesday": [26, 1, 7, 13],  
+                        "thursday": [25, 31, 6, 12], 
+                        "saturday": [22, 30, 5, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

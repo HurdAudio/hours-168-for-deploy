@@ -6970,6 +6970,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1017288067/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/the-diary-of-the-unforgotten-selbstportrait-vi',
+                    a_string: 'The Diary of the Unforgotten (Selbstportrait VI) by Roedelius',
+                    rule: {
+                        "monday": [25, 28, 3, 15],
+                        "tuesday": [24, 27, 3, 14], 
+                        "wednesday": [24, 27, 3, 13], 
+                        "thursday": [22, 30, 2, 17], 
+                        "saturday": [26, 30, 26, 17] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=183642768/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/wenn-der-s-dwind-weht',
+                    a_string: 'Wenn der Südwind weht by Roedelius',
+                    rule: {
+                        "monday": [26, 30, 26, 17],
+                        "tuesday": [25, 28, 3, 15], 
+                        "wednesday": [24, 27, 3, 14], 
+                        "thursday": [24, 27, 3, 13], 
+                        "saturday": [22, 30, 2, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4092844769/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roedelius-official.bandcamp.com/album/jardin-au-fou',
+                    a_string: 'Jardin au fou by Roedelius',
+                    rule: {
+                        "monday": [22, 30, 2, 17],
+                        "tuesday": [26, 30, 26, 17],
+                        "wednesday": [25, 28, 3, 15], 
+                        "thursday": [24, 27, 3, 14], 
+                        "saturday": [24, 27, 3, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

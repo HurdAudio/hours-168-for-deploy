@@ -1530,6 +1530,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#63acbd',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 110,
+                    user_id: 1,
+                    theme: 'Primary Colors',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/nick-fewings-Ncwqg5yinZ8-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#110706',
+                    color_medium: '#361310',
+                    color_light: '#ebc7d2',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

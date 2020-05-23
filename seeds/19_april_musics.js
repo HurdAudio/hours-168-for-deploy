@@ -7186,6 +7186,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 400,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3594209295/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://roninrhythmrecords.bandcamp.com/album/yellow',
+                    a_string: 'Yellow by Blaer',
+                    rule: {
+                        "monday": [29, 7, 19, 24],
+                        "tuesday": [28, 6, 17, 23], 
+                        "wednesday": [27, 5, 17, 22], 
+                        "thursday": [1, 9, 21, 26],  
+                        "saturday": [30, 7, 20, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 401,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1340165819/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://grundstein.bandcamp.com/album/schetsen-i',
+                    a_string: 'schetsen I by Grundstein',
+                    rule: {
+                        "monday": [30, 7, 20, 25],
+                        "tuesday": [29, 7, 19, 24], 
+                        "wednesday": [28, 6, 17, 23], 
+                        "thursday": [27, 5, 17, 22], 
+                        "saturday": [1, 9, 21, 26]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 402,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=395670367/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://alfamist.bandcamp.com/album/on-my-ones',
+                    a_string: 'On My Ones by Alfa Mist',
+                    rule: {
+                        "monday": [1, 9, 21, 26],
+                        "tuesday": [30, 7, 20, 25], 
+                        "wednesday": [29, 7, 19, 24], 
+                        "thursday": [28, 6, 17, 23], 
+                        "saturday": [27, 5, 17, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

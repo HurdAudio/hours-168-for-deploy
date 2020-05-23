@@ -13004,6 +13004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 651,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d1ox50i-c50a32cf-db12-440c-a120-4336499f763d.jpg',
+                    title: 'Udagawa Mural',
+                    artist: 'Lisa Rye',
+                    year: '2008',
+                    rule: {
+                        "monday": [30, 10, 20, 27],
+                        "tuesday": [9, 19, 29, 27], 
+                        "wednesday": [28, 8, 18, 26], 
+                        "thursday": [27, 7, 17, 25], 
+                        "friday": [3, 13, 23, 30], 
+                        "saturday": [2, 12, 23, 30],
+                        "sunday": [1, 11, 21, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 652,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/yi_peng_lantern_festival_2014__chiang_mai_by_josgoh_d858yu8-fullview.jpg',
+                    title: 'Yi Peng Lantern Festival 2014, Chiang Mai',
+                    artist: 'Joseph Goh Meng Huat',
+                    year: '2014',
+                    rule: {
+                        "monday": [1, 11, 21, 19],
+                        "tuesday": [30, 10, 20, 27],
+                        "wednesday": [9, 19, 29, 27], 
+                        "thursday": [28, 8, 18, 26], 
+                        "friday": [27, 7, 17, 25], 
+                        "saturday": [3, 13, 23, 30], 
+                        "sunday": [2, 12, 23, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 653,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/equanimous_by_miguel_santos_db3qpta-pre.jpg',
+                    title: 'Equanimous',
+                    artist: 'Miguel Santos',
+                    year: '2017',
+                    rule: {
+                        "monday": [2, 12, 23, 30],
+                        "tuesday": [1, 11, 21, 19], 
+                        "wednesday": [30, 10, 20, 27],
+                        "thursday": [9, 19, 29, 27], 
+                        "friday": [28, 8, 18, 26], 
+                        "saturday": [27, 7, 17, 25], 
+                        "sunday": [3, 13, 23, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 654,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/new_york_ii_by_xa_xa_xa_d4gyvoe-fullview.jpg',
+                    title: 'New York II',
+                    artist: 'xa-xa-xa',
+                    year: '2011',
+                    rule: {
+                        "monday": [3, 13, 23, 30],
+                        "tuesday": [2, 12, 23, 30], 
+                        "wednesday": [1, 11, 21, 19], 
+                        "thursday": [30, 10, 20, 27],
+                        "friday": [9, 19, 29, 27], 
+                        "saturday": [28, 8, 18, 26], 
+                        "sunday": [27, 7, 17, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 655,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/pretty_in_pink_by_miguel_santos_dbfkun2-pre.jpg',
+                    title: 'Pretty in Pink',
+                    artist: 'Miguel Santos',
+                    year: '2017',
+                    rule: {
+                        "monday": [27, 7, 17, 25],
+                        "tuesday": [3, 13, 23, 30], 
+                        "wednesday": [2, 12, 23, 30], 
+                        "thursday": [1, 11, 21, 19], 
+                        "friday": [30, 10, 20, 27],
+                        "saturday": [9, 19, 29, 27], 
+                        "sunday": [28, 8, 18, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

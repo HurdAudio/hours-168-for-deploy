@@ -12320,7 +12320,7 @@ exports.seed = function (knex, Promise) {
                         "thursday": [24, 1, 19, 26],  
                         "friday": [1, 7, 25, 3],  
                         "saturday": [30, 5, 24, 2], 
-                        "sunday": [28, 53, 23, 1]  
+                        "sunday": [28, 5, 23, 1]  
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -12334,7 +12334,7 @@ exports.seed = function (knex, Promise) {
                     artist: 'Corneliu Baba',
                     year: '1987',
                     rule: {
-                        "monday": [28, 53, 23, 1],
+                        "monday": [28, 5, 23, 1],
                         "tuesday": [28, 4, 22, 30], 
                         "wednesday": [17, 3, 21, 30], 
                         "thursday": [16, 23, 20, 28],
@@ -12355,7 +12355,7 @@ exports.seed = function (knex, Promise) {
                     year: 'c. 1968',
                     rule: {
                         "monday": [30, 5, 24, 2],
-                        "tuesday": [28, 53, 23, 1], 
+                        "tuesday": [28, 5, 23, 1], 
                         "wednesday": [28, 4, 22, 30], 
                         "thursday": [17, 3, 21, 30], 
                         "friday": [16, 23, 20, 28],
@@ -12376,7 +12376,7 @@ exports.seed = function (knex, Promise) {
                     rule: {
                         "monday": [1, 7, 25, 3],
                         "tuesday": [30, 5, 24, 2],  
-                        "wednesday": [28, 53, 23, 1], 
+                        "wednesday": [28, 5, 23, 1], 
                         "thursday": [28, 4, 22, 30], 
                         "friday": [17, 3, 21, 30], 
                         "saturday": [16, 23, 20, 28],
@@ -12397,10 +12397,110 @@ exports.seed = function (knex, Promise) {
                         "monday": [24, 1, 19, 26],
                         "tuesday": [1, 7, 25, 3],   
                         "wednesday": [30, 5, 24, 2],  
-                        "thursday": [28, 53, 23, 1], 
+                        "thursday": [28, 5, 23, 1], 
                         "friday": [28, 4, 22, 30], 
                         "saturday": [17, 3, 21, 30], 
                         "sunday": [16, 23, 20, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 621,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/nine-discourses-on-commodus-1963.jpg',
+                    title: 'Nine Discourses on Commodus',
+                    artist: 'Cy Twombly',
+                    year: '1963',
+                    rule: {
+                        "monday": [16, 23, 20, 28],
+                        "tuesday": [24, 1, 19, 26], 
+                        "wednesday": [1, 7, 25, 3],   
+                        "thursday": [30, 5, 24, 2],  
+                        "friday": [28, 5, 23, 1], 
+                        "saturday": [28, 4, 22, 30], 
+                        "sunday": [17, 3, 21, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 622,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/ascension-of-polkadots-on-the-trees-2006.jpg',
+                    title: 'Ascension of Polkadots on the Trees',
+                    artist: 'Yayoi Kusama',
+                    year: '2006',
+                    rule: {
+                        "monday": [17, 3, 21, 30],
+                        "tuesday": [16, 23, 20, 28],
+                        "wednesday": [24, 1, 19, 26], 
+                        "thursday": [1, 7, 25, 3],   
+                        "friday": [30, 5, 24, 2],  
+                        "saturday": [28, 5, 23, 1], 
+                        "sunday": [28, 4, 22, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 623,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/monument-in-all-situations-1964-1.jpg',
+                    title: 'Monument in all Situations',
+                    artist: 'Lygia Clark',
+                    year: '1964',
+                    rule: {
+                        "monday": [29, 5, 23, 31],
+                        "tuesday": [18, 4, 22, 31],
+                        "wednesday": [17, 24, 21, 29], 
+                        "thursday": [25, 2, 20, 27],   
+                        "friday": [2, 8, 26, 4],  
+                        "saturday": [28, 6, 25, 3], 
+                        "sunday": [29, 4, 22, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 624,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/life-cycle-of-a-leaf.jpg',
+                    title: 'Life Cycle of a Leaf',
+                    artist: 'Morris Graves',
+                    year: 'XX - XXI Cent.',
+                    rule: {
+                        "monday": [29, 4, 22, 30],
+                        "tuesday": [29, 5, 23, 31], 
+                        "wednesday": [18, 4, 22, 31], 
+                        "thursday": [17, 24, 21, 29],
+                        "friday": [25, 2, 20, 27], 
+                        "saturday": [2, 8, 26, 4],   
+                        "sunday": [28, 6, 25, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 625,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/roi-d-eclair-1945.jpg',
+                    title: 'Roi d\'eclair',
+                    artist: 'Enrico Donati',
+                    year: '1945',
+                    rule: {
+                        "monday": [28, 6, 25, 3],
+                        "tuesday": [29, 4, 22, 30], 
+                        "wednesday": [29, 5, 23, 31], 
+                        "thursday": [18, 4, 22, 31], 
+                        "friday": [17, 24, 21, 29],
+                        "saturday": [25, 2, 20, 27], 
+                        "sunday": [2, 8, 26, 4]    
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

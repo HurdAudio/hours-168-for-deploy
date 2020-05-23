@@ -6430,6 +6430,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 358,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=203969309/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mdoumoctar.bandcamp.com/album/mdou-moctar-mixtape-vol-1',
+                    a_string: 'Mdou Moctar Mixtape Vol. 1 by Mdou Moctar',
+                    rule: {
+                        "monday": [23, 4, 15, 19],
+                        "tuesday": [22, 3, 14, 18], 
+                        "wednesday": [21, 2, 13, 17], 
+                        "thursday": [20, 1, 12, 23], 
+                        "saturday": [19, 30, 11, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 359,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4293170184/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://reniss.bandcamp.com/album/nzo',
+                    a_string: 'Nzo by Reniss',
+                    rule: {
+                        "monday": [19, 30, 11, 23],
+                        "tuesday": [23, 4, 15, 19], 
+                        "wednesday": [22, 3, 14, 18], 
+                        "thursday": [21, 2, 13, 17], 
+                        "saturday": [20, 1, 12, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 360,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2476150361/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mutimaproductions.bandcamp.com/album/free-africa',
+                    a_string: 'Free Africa by Culture (feat. Kenyatta Hill)',
+                    rule: {
+                        "monday": [20, 1, 12, 23],
+                        "tuesday": [19, 30, 11, 23],
+                        "wednesday": [23, 4, 15, 19], 
+                        "thursday": [22, 3, 14, 18], 
+                        "saturday": [21, 2, 13, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

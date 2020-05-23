@@ -7294,6 +7294,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 406,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3623353059/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://kaitlynaureliasmith.bandcamp.com/album/the-mosaic-of-transformation',
+                    a_string: 'The Mosaic Of Transformation by Kaitlyn Aurelia Smith',
+                    rule: {
+                        "monday": [1, 7, 12, 21],
+                        "tuesday": [31, 6, 12, 21], 
+                        "wednesday": [29, 5, 11, 19],  
+                        "thursday": [29, 4, 10, 18],  
+                        "saturday": [2, 8, 14, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 407,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2574016957/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://linaallemano.bandcamp.com/album/glimmer-glammer-solo-trumpet',
+                    a_string: 'Glimmer Glammer, solo trumpet by Lina Allemano',
+                    rule: {
+                        "monday": [2, 8, 14, 22],
+                        "tuesday": [1, 7, 12, 21],  
+                        "wednesday": [31, 6, 12, 21], 
+                        "thursday": [29, 5, 11, 19], 
+                        "saturday": [29, 4, 10, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 408,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1313553782/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://karenng.bandcamp.com/album/here',
+                    a_string: 'Here by Karen Ng',
+                    rule: {
+                        "monday": [29, 4, 10, 18],
+                        "tuesday": [2, 8, 14, 22],  
+                        "wednesday": [1, 7, 12, 21],  
+                        "thursday": [31, 6, 12, 21], 
+                        "saturday": [29, 5, 11, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

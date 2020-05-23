@@ -12604,6 +12604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 631,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/horse-in-a-landscape-1910.jpg',
+                    title: 'Horse in a landscape',
+                    artist: 'Franz Marc',
+                    year: '1910',
+                    rule: {
+                        "monday": [29, 3, 11, 27],
+                        "tuesday": [29, 31, 10, 26],
+                        "wednesday": [28, 30, 9, 25], 
+                        "thursday": [27, 30, 8, 24], 
+                        "friday": [26, 29, 7, 23], 
+                        "saturday": [1, 5, 13, 29],  
+                        "sunday": [31, 3, 12, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 632,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-signal-1915.jpg',
+                    title: 'The Signal',
+                    artist: 'Henri Le Fauconnier',
+                    year: '1915',
+                    rule: {
+                        "monday": [31, 3, 12, 28],
+                        "tuesday": [29, 3, 11, 27], 
+                        "wednesday": [29, 31, 10, 26],
+                        "thursday": [28, 30, 9, 25], 
+                        "friday": [27, 30, 8, 24], 
+                        "saturday": [26, 29, 7, 23], 
+                        "sunday": [1, 5, 13, 29]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 633,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/shipwreck-1903.jpg',
+                    title: 'Shipwreck',
+                    artist: 'Tivadar Kosztka Csontvary',
+                    year: '1903',
+                    rule: {
+                        "monday": [1, 5, 13, 29],
+                        "tuesday": [31, 3, 12, 28], 
+                        "wednesday": [29, 3, 11, 27], 
+                        "thursday": [29, 31, 10, 26],
+                        "friday": [28, 30, 9, 25], 
+                        "saturday": [27, 30, 8, 24], 
+                        "sunday": [26, 29, 7, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 634,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/cartier-din-tunis-1920.jpg',
+                    title: 'Quarter in Tunis',
+                    artist: 'Samuel Mutzner',
+                    year: '1920',
+                    rule: {
+                        "monday": [26, 29, 7, 23],
+                        "tuesday": [1, 5, 13, 29],  
+                        "wednesday": [31, 3, 12, 28], 
+                        "thursday": [29, 3, 11, 27], 
+                        "friday": [29, 31, 10, 26],
+                        "saturday": [28, 30, 9, 25], 
+                        "sunday": [27, 30, 8, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 635,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/portrait-of-hermine-david-1910.jpg',
+                    title: 'Portrait of Hermine David',
+                    artist: 'Jules Pascin',
+                    year: '1910',
+                    rule: {
+                        "monday": [27, 30, 8, 24],
+                        "tuesday": [26, 29, 7, 23], 
+                        "wednesday": [1, 5, 13, 29],  
+                        "thursday": [31, 3, 12, 28], 
+                        "friday": [29, 3, 11, 27], 
+                        "saturday": [29, 31, 10, 26],
+                        "sunday": [28, 30, 9, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

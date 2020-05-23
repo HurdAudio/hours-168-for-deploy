@@ -12804,6 +12804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 641,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/mouvement-1965.jpg',
+                    title: 'Mouvement',
+                    artist: 'Horacio Garcia-Rossi',
+                    year: '1965',
+                    rule: {
+                        "monday": [28, 8, 18, 20],
+                        "tuesday": [25, 5, 27, 28], 
+                        "wednesday": [26, 6, 28, 29], 
+                        "thursday": [31, 9, 22, 2],  
+                        "friday": [31, 8, 22, 2],  
+                        "saturday": [29, 9, 21, 1],  
+                        "sunday": [29, 9, 20, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 642,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/le-cirque-acrobate-la-bicyclette-1955.jpg',
+                    title: 'Le cirque: Acrobate à la bicyclette',
+                    artist: 'Bernard Buffet',
+                    year: '1955',
+                    rule: {
+                        "monday": [29, 9, 20, 21],
+                        "tuesday": [28, 8, 18, 20], 
+                        "wednesday": [25, 5, 27, 28], 
+                        "thursday": [26, 6, 28, 29], 
+                        "friday": [31, 9, 22, 2],  
+                        "saturday": [31, 8, 22, 2],  
+                        "sunday": [29, 9, 21, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 643,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/unknown-title-4-99-9.jpg',
+                    title: 'unknown title',
+                    artist: 'Jacques Le Marechal',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 9, 21, 1],
+                        "tuesday": [29, 9, 20, 21], 
+                        "wednesday": [28, 8, 18, 20], 
+                        "thursday": [25, 5, 27, 28], 
+                        "friday": [26, 6, 28, 29], 
+                        "saturday": [31, 9, 22, 2],  
+                        "sunday": [31, 8, 22, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 644,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/les-pinces-linge-1954.jpg',
+                    title: 'Les pinces à linge',
+                    artist: 'Louis Pons',
+                    year: '1954',
+                    rule: {
+                        "monday": [1, 9, 23, 3],
+                        "tuesday": [30, 10, 22, 2], 
+                        "wednesday": [30, 10, 21, 22], 
+                        "thursday": [29, 9, 19, 21], 
+                        "friday": [26, 6, 28, 29], 
+                        "saturday": [27, 7, 29, 30],  
+                        "sunday": [1, 10, 23, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 645,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/instant-ebloui-1979.jpg',
+                    title: 'Instant Ebloui',
+                    artist: 'Jean Miotte',
+                    year: '1979',
+                    rule: {
+                        "monday": [1, 10, 23, 3],
+                        "tuesday": [1, 9, 23, 3],   
+                        "wednesday": [30, 10, 22, 2], 
+                        "thursday": [30, 10, 21, 22],
+                        "friday": [29, 9, 19, 21], 
+                        "saturday": [26, 6, 28, 29], 
+                        "sunday": [27, 7, 29, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

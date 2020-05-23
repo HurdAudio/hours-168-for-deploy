@@ -12204,6 +12204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 611,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_earth_palms.jpg',
+                    title: 'Palms holding the earth',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [31, 11, 22, 26],
+                        "tuesday": [30, 10, 21, 25],
+                        "wednesday": [29, 9, 20, 24], 
+                        "thursday": [28, 8, 20, 23], 
+                        "friday": [27, 7, 18, 22], 
+                        "saturday": [26, 6, 16, 21], 
+                        "sunday": [4, 5, 16, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 612,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_earth.jpg',
+                    title: 'There is no other home!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 5, 16, 20],
+                        "tuesday": [31, 11, 22, 26],
+                        "wednesday": [30, 10, 21, 25],
+                        "thursday": [29, 9, 20, 24], 
+                        "friday": [28, 8, 20, 23], 
+                        "saturday": [27, 7, 18, 22], 
+                        "sunday": [26, 6, 16, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 613,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_baby_earth.jpg',
+                    title: 'We all have only one earth',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [26, 6, 16, 21],
+                        "tuesday": [4, 5, 16, 20],  
+                        "wednesday": [31, 11, 22, 26],
+                        "thursday": [30, 10, 21, 25],
+                        "friday": [29, 9, 20, 24], 
+                        "saturday": [28, 8, 20, 23], 
+                        "sunday": [27, 7, 18, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 614,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_earth_burn.jpg',
+                    title: 'NO!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 7, 18, 22],
+                        "tuesday": [26, 6, 16, 21], 
+                        "wednesday": [4, 5, 16, 20],  
+                        "thursday": [31, 11, 22, 26],
+                        "friday": [30, 10, 21, 25],
+                        "saturday": [29, 9, 20, 24], 
+                        "sunday": [28, 8, 20, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 615,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_dollar_chain.jpg',
+                    title: 'Dollar shaped chain link',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 8, 20, 23],
+                        "tuesday": [27, 7, 18, 22], 
+                        "wednesday": [26, 6, 16, 21], 
+                        "thursday": [4, 5, 16, 20],  
+                        "friday": [31, 11, 22, 26],
+                        "saturday": [30, 10, 21, 25],
+                        "sunday": [29, 9, 20, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
