@@ -12904,6 +12904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 646,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/sculpture-magn-tique-limaille-de-fer-1969.jpg',
+                    title: 'Sculpture magnétique limaille de fer',
+                    artist: 'Takis',
+                    year: '1969',
+                    rule: {
+                        "monday": [27, 7, 29, 30],
+                        "tuesday": [1, 10, 23, 3],  
+                        "wednesday": [1, 9, 23, 3],   
+                        "thursday": [30, 10, 22, 2], 
+                        "friday": [30, 10, 21, 22],
+                        "saturday": [29, 9, 19, 21], 
+                        "sunday": [26, 6, 28, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 647,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/bombardement-22-d-un-petit-monde-solaire-et-v-g-tal-1965.jpg',
+                    title: 'Bombardement 22 d\'un petit monde solaire et végétal',
+                    artist: 'Francois Arnal',
+                    year: '1965',
+                    rule: {
+                        "monday": [26, 6, 28, 29],
+                        "tuesday": [27, 7, 29, 30], 
+                        "wednesday": [1, 10, 23, 3],  
+                        "thursday": [1, 9, 23, 3],   
+                        "friday": [30, 10, 22, 2], 
+                        "saturday": [30, 10, 21, 22],
+                        "sunday": [29, 9, 19, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 648,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/atlantique-v.jpg',
+                    title: 'Atlantique V',
+                    artist: 'Genevieve Asse',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 9, 19, 21],
+                        "tuesday": [26, 6, 28, 29], 
+                        "wednesday": [27, 7, 29, 30], 
+                        "thursday": [1, 10, 23, 3],  
+                        "friday": [1, 9, 23, 3],   
+                        "saturday": [30, 10, 22, 2], 
+                        "sunday": [30, 10, 21, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 649,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/etang-la-nuit-1947.jpg',
+                    title: 'Etang la nuit',
+                    artist: 'acques Busse',
+                    year: '1947',
+                    rule: {
+                        "monday": [30, 10, 21, 22],
+                        "tuesday": [29, 9, 19, 21], 
+                        "wednesday": [26, 6, 28, 29], 
+                        "thursday": [27, 7, 29, 30], 
+                        "friday": [1, 10, 23, 3],  
+                        "saturday": [1, 9, 23, 3],   
+                        "sunday": [30, 10, 22, 2]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 650,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/1-carr-dans-1-disque-1990.jpg',
+                    title: '1 Carré dans 1 disque',
+                    artist: 'Pol Bury',
+                    year: '1990',
+                    rule: {
+                        "monday": [30, 10, 22, 2],
+                        "tuesday": [30, 10, 21, 22],
+                        "wednesday": [29, 9, 19, 21], 
+                        "thursday": [26, 6, 28, 29], 
+                        "friday": [27, 7, 29, 30], 
+                        "saturday": [1, 10, 23, 3],  
+                        "sunday": [1, 9, 23, 3]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -1572,6 +1572,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#fbf4d9',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 113,
+                    user_id: 1,
+                    theme: 'Light',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june_tiles/lighthouse-5120135_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#11131c',
+                    color_medium: '#749db8',
+                    color_light: '#c7cad0',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

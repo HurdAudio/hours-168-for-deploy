@@ -7348,6 +7348,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 409,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2040779349/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://joypostell.bandcamp.com/album/diaspora',
+                    a_string: 'Diaspora by Joy Postell',
+                    rule: {
+                        "monday": [29, 5, 11, 19],
+                        "tuesday": [29, 4, 10, 18], 
+                        "wednesday": [2, 8, 14, 22],  
+                        "thursday": [1, 7, 12, 21],  
+                        "saturday": [31, 6, 12, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 410,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=745544400/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://arc-records.bandcamp.com/album/one-for-me',
+                    a_string: 'One For Me by Shirley Scott',
+                    rule: {
+                        "monday": [31, 6, 12, 21],
+                        "tuesday": [29, 5, 11, 19], 
+                        "wednesday": [29, 4, 10, 18], 
+                        "thursday": [2, 8, 14, 22],  
+                        "saturday": [1, 7, 12, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 411,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1537520032/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://clavender.bandcamp.com/album/myth-of-equilibrium',
+                    a_string: 'Myth of Equilibrium by C. Lavender',
+                    rule: {
+                        "monday": [1, 7, 12, 21],
+                        "tuesday": [31, 6, 12, 21], 
+                        "wednesday": [29, 5, 11, 19], 
+                        "thursday": [29, 4, 10, 18], 
+                        "saturday": [2, 8, 14, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

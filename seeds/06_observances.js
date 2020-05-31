@@ -8,7 +8,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 1,
                     user_id: 1,
-                    name: 'Hari Kunzru (author), born 1969',
+                    name: 'Hari Kunzru (1969 - ), a British-Indian novelist and journalist. He is the author of the novels The Impressionist, Transmission, My Revolutions, Gods Without Men, and White Tears.',
                     color: '#95A9A2',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/harikunzru.jpg',
                     day_of: new Date('1969-01-01  21:00:00 GMT'),
@@ -22,7 +22,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 2,
                     user_id: 1,
-                    name: 'Umberto Eco (author), born 1932',
+                    name: 'Umberto Eco (1932 - 2016), an Italian novelist, literary critic, philosopher, semiotician, and university professor. He is widely known for his 1980 novel Il nome della rosa (The Name of the Rose), a historical mystery combining semiotics in fiction with biblical analysis, medieval studies, and literary theory. He later wrote other novels, including Il pendolo di Foucault (Foucault\'s Pendulum) and L\'isola del giorno prima (The Island of the Day Before). His novel Il cimitero di Praga (The Prague Cemetery), released in 2010, topped the bestseller charts in Italy.',
                     color: '#013800',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/umbertoeco.jpg',
                     day_of: new Date('1932-01-05  21:00:00 GMT'),
@@ -36,7 +36,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 3,
                     user_id: 1,
-                    name: 'Myra Melford (pianist/composer), born 1957',
+                    name: 'Myra Melford (1957 - ), an American avant-garde jazz pianist and composer. A 2013 Guggenheim Fellow, Melford was described by the San Francisco Chronicle as an "explosive player, a virtuoso who shocks and soothes, and who can make the piano stand up and do things it doesn\'t seem to have been designed for."',
                     color: '#772700',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/myramelford.jpg',
                     day_of: new Date('1957-01-05  21:00:00 GMT'),
@@ -55,7 +55,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 4,
                     user_id: 1,
-                    name: 'Paul Dresher (guitarist/composer), born 1951',
+                    name: 'Paul Dresher (1951 - ), is an American composer. Dresher received his B.A. in music from the University of California, Berkeley and his M.A. in composition from the University of California, San Diego, where he studied with Robert Erickson, Roger Reynolds, Pauline Oliveros, and Bernard Rands. He also studied Ghanaian drumming with C. K. and Kobla Ladzekpo, Hindustani classical music with Nikhil Banerjee, and Balinese and Javanese music. Dresher\'s music has been variously described as minimalist and postminimalist. Dresher himself, poking fun at the latter term (which he perceives as fairly meaningless), has referred to himself as a "pre-maximalist," hence the name of his record label, MinMax.',
                     color: '#FFFED6',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/pauldresher.jpg',
                     day_of: new Date('1951-01-08  21:00:00 GMT'),
@@ -74,7 +74,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 5,
                     user_id: 1,
-                    name: 'David Lang (composer), born 1957',
+                    name: 'David Lang (1957 - ), is an American composer living in New York City. Co-founder of the musical collective Bang on a Can, he was awarded the 2008 Pulitzer Prize for Music for The Little Match Girl Passion, which went on to win a 2010 Grammy Award for Best Small Ensemble Performance.',
                     color: '#2D1D27',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidlang.jpg',
                     day_of: new Date('1957-01-08  21:00:00 GMT'),
@@ -93,7 +93,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 6,
                     user_id: 1,
-                    name: 'Morton Feldman (composer), born 1926',
+                    name: 'Morton Feldman (1926 - 1987), an American composer. A major figure in 20th-century music, Feldman was a pioneer of indeterminate music, a development associated with the experimental New York School of composers also including John Cage, Christian Wolff, and Earle Brown. Feldman\'s works are characterized by notational innovations that he developed to create his characteristic sound: rhythms that seem to be free and floating; pitch shadings that seem softly unfocused; a generally quiet and slowly evolving music; recurring asymmetric patterns. His later works, after 1977, also begin to explore extremes of duration.',
                     color: '#D4D4D4',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/mortonfeldman.jpg',
                     day_of: new Date('1926-01-12  21:00:00 GMT'),
@@ -107,7 +107,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 7,
                     user_id: 1,
-                    name: 'Haruki Murakami (author), born 1949',
+                    name: 'Haruki Murakami (1949 - ), a Japanese writer. His books and stories have been bestsellers in Japan as well as internationally, with his work being translated into 50 languages and selling millions of copies outside his native country. His work has received numerous awards, including the World Fantasy Award, the Frank O\'Connor International Short Story Award, the Franz Kafka Prize, and the Jerusalem Prize.',
                     color: '#365CCB',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/harukimurakami.jpg',
                     day_of: new Date('1949-01-12  21:00:00 GMT'),
@@ -121,7 +121,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 8,
                     user_id: 1,
-                    name: 'Martin Irigoyen (guitarist/composer), born 1977',
+                    name: 'Martin Irigoyen (1977 - ), an Argentine musician best known as a composer and multi-instrumentalist with Vernian Process and Profondo Delle Tenebre. He has participated in many solo and group projects outside of Vernian Process, as well as being an active producer.',
                     color: '#4FB9B4',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/MartinIrigoyen.jpg',
                     day_of: new Date('1977-01-14  21:00:00 GMT'),
@@ -135,7 +135,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 9,
                     user_id: 1,
-                    name: 'Robert Filliou (artist), born 1926',
+                    name: 'Robert Filliou (1926 - 1987), a French artist associated with Fluxus, who produced works as a filmmaker, "action poet," sculptor, and happenings maestro.',
                     color: '#747474',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/RobertFilliou.jpg',
                     day_of: new Date('1926-01-17  21:00:00 GMT'),
@@ -154,7 +154,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 10,
                     user_id: 1,
-                    name: 'Edward Feigenbaum (computer scientist), born 1936',
+                    name: 'Edward Feigenbaum (1936 - ), a computer scientist working in the field of artificial intelligence, and joint winner of the 1994 ACM Turing Award. He is often called the "father of expert systems."',
                     color: '#B5ABAF',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/EdwardFeigenbaum.jpg',
                     day_of: new Date('1936-01-20  21:00:00 GMT'),
@@ -168,7 +168,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 11,
                     user_id: 1,
-                    name: 'Antonio Gramsci (communist/theorist), born 1891',
+                    name: 'Antonio Gramsci (1891 - 1937), an Italian Marxist philosopher and communist politician. He wrote on political theory, sociology and linguistics. He attempted to break from the economic determinism of traditional Marxist thought and so is considered a key neo-Marxist. He was a founding member and one-time leader of the Communist Party of Italy and was imprisoned by Benito Mussolini\'s Fascist regime.',
                     color: '#F17D71',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/antoniogransci.png',
                     day_of: new Date('1891-01-22  21:00:00 GMT'),
@@ -182,7 +182,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 12,
                     user_id: 1,
-                    name: 'John Luther Adams (composer), born 1953',
+                    name: 'John Luther Adams (1953 - ), an American composer whose music is inspired by nature, especially the landscapes of Alaska, where he lived from 1978 to 2014. His orchestral work Become Ocean was awarded the 2014 Pulitzer Prize for Music.',
                     color: '#0F89DA',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/johnlutheradams.jpg',
                     day_of: new Date('1953-01-23  21:00:00 GMT'),
@@ -201,7 +201,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 13,
                     user_id: 1,
-                    name: 'Luigi Nono (composer), born 1924',
+                    name: 'Luigi Nono (1924 - 1990), an Italian avant-garde composer of classical music.',
                     color: '#3F3F3D',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/luiginono.jpg',
                     day_of: new Date('1924-01-29  21:00:00 GMT'),
@@ -215,7 +215,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 14,
                     user_id: 1,
-                    name: 'Ahmed Abdul-Malik (bassist/oud), born 1927',
+                    name: 'Ahmed Abdul-Malik (1927 - 1993), an American jazz double bassist and oud player. Abdul-Malik is remembered for integrating Middle Eastern and North African music styles in his jazz music. He was a bass player for Art Blakey, Earl Hines, Randy Weston, and Thelonious Monk, among others.',
                     color: '#75332E',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ahmedabdulmalik.jpg',
                     day_of: new Date('1927-01-30  21:00:00 GMT'),
@@ -229,7 +229,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 15,
                     user_id: 1,
-                    name: 'Derek Bailey (guitar), born 1930',
+                    name: 'Derek Bailey (1930 - 2005), an English avant-garde guitarist and figure in the free improvisation movement. Bailey abandoned conventional performance techniques found in jazz, exploring atonality, noise, and whatever unusual sounds he could produce with the guitar. Much of his work was released on his own label Incus Records. In addition to solo work, Bailey collaborated frequently with other musicians and recorded with collectives such as Spontaneous Music Ensemble and Company.',
                     color: '#747474',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/derekbailey.png',
                     day_of: new Date('1930-01-29  21:00:00 GMT'),
@@ -248,7 +248,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 16,
                     user_id: 1,
-                    name: 'Pheeroan akLaff (drummer), born 1955',
+                    name: 'Pheeroan akLaff (1955 - ), an American jazz drummer. Pheeroan akLaff began playing in his hometown of Detroit, and Ann Arbor, Michigan, with Travis Biggs, Ars Nova, The Ebony Set, The Last Days, and Rod Lumpkin, recorded with Major Lansky. He moved to New Haven, Connecticut, and formed DejaVu with Dwight Andrews. He debuted with Bill Baron in 1975, followed by tenure in Leo Smith\'s New Dalta Ahkri.  Later developed a longstanding association with Oliver Lake, which included writing for their fusion ensemble, Jump Up. His performance and recorded history includes works with Andrew Hill, Cecil Taylor, Reggie Workman, and many others. In 2006 he co-founded Seed Artists in Brooklyn and currently teaches music at Wesleyan University.',
                     color: '#91A9B5',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/PheeroanakLaff.jpg',
                     day_of: new Date('1955-01-27  21:00:00 GMT'),
@@ -267,7 +267,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 17,
                     user_id: 1,
-                    name: 'Simon H. Fell (bassist/composer), born 1959',
+                    name: 'Simon H. Fell (1959 - ), a bassist and composer; he is primarily known for his work as a free improviser and the composer of ambitiously complex post-serialist works. Fell began playing double bass in 1973. From 1978 to 1981 he read English Literature at Fitzwilliam College of Cambridge University, an interest that led to ties to many of the poets associated with the Cambridge scene (a later work, Music for 10(0), involves settings of texts by the poet/music journalist/provocateur Ben Watson).',
                     color: '#E36407',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/simonhfell.jpg',
                     day_of: new Date('1959-01-13  21:00:00 GMT'),
@@ -469,7 +469,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 30,
                     user_id: 1,
-                    name: 'Philip Glass (composer), born 1937',
+                    name: 'Philip Glass (1937 - ), an American composer and pianist. He is widely regarded as one of the most influential composers of the late 20th century. Glass\'s work has been described as minimal music, having similar qualities to other "minimalist" composers such as La Monte Young, Steve Reich, and Terry Riley. Glass describes himself as a composer of "music with repetitive structures", which he has helped evolve stylistically. Glass founded the Philip Glass Ensemble, with which he still performs on keyboards. He has written numerous operas and musical theatre works, twelve symphonies, eleven concertos, eight string quartets and various other chamber music, and film scores. Three of his film scores have been nominated for Academy Awards.',
                     color: '#BEBEBE',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/philipglass.jpg',
                     day_of: new Date('1937-01-31  21:00:00 GMT'),
@@ -779,7 +779,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 49,
                     user_id: 1,
-                    name: 'Trevor Dunn (bassist), born 1968',
+                    name: 'Trevor Dunn (1968 - ), an American composer, bass guitarist, and double bassist. He came to prominence in the 1990s with the experimental band Mr. Bungle. While performing with Mr. Bungle, Dunn would dress similar to the St. Pauli Girl. He has since worked in an array of musical styles, including with saxophonist/composer John Zorn, Secret Chiefs 3 and with his own avant-garde jazz/rock ensemble Trevor Dunn\'s Trio-Convulsant. He is also a member of the band Tomahawk.',
                     color: '#C0956A',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/trevordunn.jpg',
                     day_of: new Date('1968-01-30  21:00:00 GMT'),
@@ -1145,7 +1145,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 73,
                     user_id: 1,
-                    name: 'Ken Ueno (composer), born 1970',
+                    name: 'Ken Ueno (1970 - ), an American composer. He studied at the United States Military Academy. He graduated from Berklee College of Music with a B.M. in Film Scoring/Composition Summa Cum Laude, from Boston University with a M.M., from Yale School of Music with a M.M.A., and from Harvard University with a PhD. He taught at the University of Massachusetts Dartmouth. He teaches at the University of California, Berkeley. He is co-director of Minimum Security Composers Collective.',
                     color: '#C1C3BD',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/kenueno.jpeg',
                     day_of: new Date('1970-01-11  21:00:00 GMT'),
@@ -1982,7 +1982,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 126,
                     user_id: 1,
-                    name: 'Al Foster (drummer), born in 1943',
+                    name: 'Al Foster (1943 - ), an American jazz drummer. Foster played with Miles Davis during the 1970s and was one of the few people to have contact with Davis during his retirement from 1975–1981. Foster also played on Davis\'s 1981 comeback album The Man with the Horn. He was the only musician to play in Davis\'s band both before and after his retirement. He has toured extensively with Herbie Hancock, Sonny Rollins, and Joe Henderson.',
                     color: '#4C231F',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/alfoster.jpg',
                     day_of: new Date('1943-01-18  21:00:00 GMT'),
@@ -1996,7 +1996,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 127,
                     user_id: 1,
-                    name: 'Julius Hemphill (reeds), born in 1938',
+                    name: 'Julius Hemphill (1938 - 1995), a jazz composer and saxophone player. He performed mainly on alto saxophone, less often on soprano and tenor saxophones and flute. Hemphill recorded over twenty albums as a leader, about ten records with the World Saxophone Quartet and recorded or performed with Björk, Bill Frisell, Anthony Braxton and others.',
                     color: '#E5E5E5',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/juliushemphill.jpg',
                     day_of: new Date('1938-01-24  21:00:00 GMT'),
@@ -2015,7 +2015,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 128,
                     user_id: 1,
-                    name: 'Herbie Nichols (pianist/composer), born 1919',
+                    name: 'Herbie Nichols (1919 - 1963), an American jazz pianist and composer who wrote the jazz standard "Lady Sings the Blues". Obscure during his lifetime, he is now highly regarded by many musicians and critics.',
                     color: '#D2D2D2',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/herbienichols.jpg',
                     day_of: new Date('1919-01-03  21:00:00 GMT'),
@@ -2067,7 +2067,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 131,
                     user_id: 1,
-                    name: 'David Tudor (pianist/composer), born 1926',
+                    name: 'David Tudor (1926 - 1996), American pianist and composer of experimental music.',
                     color: '#E3C9B2',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/davidtudor.jpg',
                     day_of: new Date('1926-01-20  21:00:00 GMT'),
@@ -3732,7 +3732,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 237,
                     user_id: 1,
-                    name: 'Alice Paul (suffragist/feminist/activist), born 1885',
+                    name: 'Alice Paul (1885 - 1977), an American suffragist, feminist, and women\'s rights activist, and one of the main leaders and strategists of the campaign for the Nineteenth Amendment to the U.S. Constitution, which prohibits sex discrimination in the right to vote. Paul initiated, and along with Lucy Burns and others, strategized events such as the Woman Suffrage Procession and the Silent Sentinels, which were part of the successful campaign that resulted in the amendment\'s passage in 1920. After 1920, Paul spent a half century as leader of the National Woman\'s Party, which fought for the Equal Rights Amendment, written by Paul and Crystal Eastman, to secure constitutional equality for women. She won a large degree of success with the inclusion of women as a group protected against discrimination by the Civil Rights Act of 1964 alongside legal scholar Pauli Murray. She also went to jail for protesting in front of the White House.',
                     color: '#CDCDCD',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/alicepaul.jpg',
                     day_of: new Date('1885-01-11  21:00:00 GMT'),
@@ -5115,7 +5115,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 324,
                     user_id: 1,
-                    name: 'The world ended on this day in 2000 as per the prophesy of Jerry Falwell.',
+                    name: 'The world ended on this day in 2000 as per the prophesy of Jerry Falwell. "Jerry Falwell has predicted that Jan. 1 will be a "fateful day in the history of the world," a day when God\'s wrath will be felt on all those who have rebelled against Him. A group of more than 100 Americans have moved to Jerusalem to await the end of the millennium, and with it, the end of all time." - Rod Harmon, writing for the Chicago Tribute, August 10, 1999',
                     color: '#908C73',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/doomsday/fallwellisachump.jpg',
                     day_of: new Date('2000-01-01  21:00:00 GMT'),
@@ -6041,7 +6041,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 383,
                     user_id: 1,
-                    name: 'Joseph L. Ullman (mathematician), born 1923',
+                    name: 'Joseph L. Ullman (1923 - 1995), a mathematician who worked on classical analysis with a focus on approximation theory. Ullman received his A.B. from the University of Buffalo and his graduate study was interrupted by service in the U.S. Army in World War II. He was injured, received a Purple Heart, and spent the rest of the war as a mathematics instructor. He received a Ph.D. in 1949 from Stanford University with thesis Studies on Faber Polynomials under the direction of Gábor Szegő. Ullman became an instructor at the University of Michigan in 1949, an assistant professor in 1954, an associate professor in 1962, and a professor in 1966.',
                     color: '#C9C8C4',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/maths/josephlullman.jpg',
                     day_of: new Date('1923-01-30  21:00:00 GMT'),
@@ -6450,7 +6450,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 409,
                     user_id: 1,
-                    name: 'Giacinto Scelsi (composer), born 1905',
+                    name: 'Giacinto Scelsi (1905 - 1988), an Italian composer who also wrote surrealist poetry in French. He is best known for writing music based around only one pitch, altered in all manners through microtonal oscillations, harmonic allusions, and changes in timbre and dynamics, as paradigmatically exemplified in his Quattro pezzi su una nota sola ("Four Pieces on a single note", 1959). This composition remains his most famous work and one of the few performed to significant recognition during his lifetime. His musical output, which encompassed all Western classical genres except scenic music, remained largely undiscovered even within contemporary musical circles during most of his life. Today, some of his music has gained popularity in certain postmodern composition circles, with pieces like his "Anahit" and his String Quartets rising to increased prominence. Scelsi collaborated with American composers including John Cage, Morton Feldman and Earle Brown, as well as being a friend and a mentor to Alvin Curran. His work was a source of inspiration to Ennio Morricone\'s Gruppo di Improvvisazione di Nuova Consonanza, and his music influenced composers like Tristan Murail and Solange Ancona.',
                     color: '#FEEFD0',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/giacintoscelsi.jpg',
                     day_of: new Date('1905-01-08  21:00:00 GMT'),
@@ -6830,7 +6830,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 434,
                     user_id: 1,
-                    name: 'The Man in High Castle by Philip K. Dick published in 1962',
+                    name: 'The Man in High Castle by Philip K. Dick published in 1962. It is an alternate history novel set in 1962, the novel takes place fifteen years after a different end to World War II, and depicts intrigues between the victorious Axis Powers—primarily, Imperial Japan and Nazi Germany—as they rule over the former United States, as well as daily life under totalitarian rule. The Man in the High Castle won the Hugo Award for Best Novel in 1963. Reported inspirations include Ward Moore\'s alternate Civil War history, Bring the Jubilee (1953), classic World War II histories and the I Ching (referred to in the novel). There is a "novel within the novel", an alternate history within the alternate history where the Allies defeat the Axis (though in a manner distinct from the real-life events of the war).',
                     color: '#D0BD92',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/themaninthehighcastle.jpg',
                     day_of: new Date('1962-01-01  21:00:00 GMT'),
@@ -7098,7 +7098,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 451,
                     user_id: 1,
-                    name: 'Kenny Wheeler (trumpet), born 1930',
+                    name: 'Kenny Wheeler (1930 - 2014), a Canadian composer and trumpet and flugelhorn player, based in the U.K. from the 1950s onwards. Most of his performances were rooted in jazz, but he was also active in free improvisation and occasionally contributed to rock music recordings. Wheeler wrote over one hundred compositions and was a skilled arranger for small groups and large ensembles.',
                     color: '#13354E',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/kennywheeler.jpg',
                     day_of: new Date('1930-01-14  21:00:00 GMT'),
@@ -7234,7 +7234,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 460,
                     user_id: 1,
-                    name: 'Orfeo by Richard Powers published in 2014',
+                    name: 'Orfeo by Richard Powers published in 2014. Orfeo tells the story of 70-year-old avant-garde composer Peter Els, whose home experiments in biohacking musical patterns into a bacterial human pathogen, Serratia marcescens, have attracted the worried hazmat-suit-level attention of Homeland Security. Els flees in panic, and becomes known as the "Bioterrorist Bach". The novel interleaves Els\' attempt at a final redemption with a retrospective telling of his life.',
                     color: '#313234',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/orfeo.jpg',
                     day_of: new Date('2014-01-20  21:00:00 GMT'),
@@ -7262,7 +7262,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 462,
                     user_id: 1,
-                    name: 'Max Roach (drummer), born 1924',
+                    name: 'Max Roach (1924 - 2007), an American jazz drummer and composer. A pioneer of bebop, he worked in many other styles of music, and is generally considered one of the most important drummers in history. He worked with many famous jazz musicians, including Coleman Hawkins, Dizzy Gillespie, Charlie Parker, Miles Davis, Duke Ellington, Thelonious Monk, Abbey Lincoln, Dinah Washington, Charles Mingus, Billy Eckstine, Stan Getz, Sonny Rollins, Eric Dolphy, and Booker Little. He was inducted into the DownBeat Hall of Fame in 1980 and the Modern Drummer Hall of Fame in 1992. Roach also co-led a pioneering quintet with trumpeter Clifford Brown and the percussion ensemble M\'Boom. He made numerous musical statements relating to the civil rights movement.',
                     color: '#B57E5F',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/maxroach.jpg',
                     day_of: new Date('1924-01-10  21:00:00 GMT'),
@@ -7431,7 +7431,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 473,
                     user_id: 1,
-                    name: 'Pilgrim by Timothy Findley published in 2001',
+                    name: 'Pilgrim by Timothy Findley published in 2001. First published by HarperFlamingo in Canada in 1999. The first US edition was published by HarperCollins in 2000. The novel is typical of Findley\'s interest in Jungian psychology; in fact, Carl Jung himself is a major character. The novel\'s protagonist is Pilgrim, an immortal who is brought to Jung\'s clinic in Zürich after his latest suicide attempt. Pilgrim has lived through the ages, moving from one life to another, and claims to be tired of living. Jung takes it upon himself to cure what he sees as a delusion and to restore Pilgrim\'s will to live. Pilgrim was nominated for the 1999 Giller Prize. Pilgrim is the inspiration for a contemporary opera, The Dream Healer, composed by Lloyd Burritt, with libretto by Christopher Allan and Don Mowatt. The premiere was March 2008 at the Chan Centre for the Performing Arts at the University of British Columbia. It featured star mezzo-soprano Judith Forst as Lady Sybil Quartermaine, John Avey as Carl Jung, and Roelof Oostwould as Pilgrim.',
                     color: '#323232',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/pilgrim.jpg',
                     day_of: new Date('2001-01-23  21:00:00 GMT'),
@@ -7647,7 +7647,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 487,
                     user_id: 1,
-                    name: 'Christian Marclay (turntablist/artist), born 1955',
+                    name: 'Christian Marclay (1955 - ), is a visual artist and composer. He holds both American and Swiss nationality. Marclay\'s work explores connections between sound, noise, photography, video, and film. A pioneer of using gramophone records and turntables as musical instruments to create sound collages, Marclay is, in the words of critic Thom Jurek, perhaps the "unwitting inventor of turntablism." His own use of turntables and records, beginning in the late 1970s, was developed independently of but roughly parallel to hip hop\'s use of the instrument.',
                     color: '#E8D22F',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/christianmarclay.jpg',
                     day_of: new Date('1955-01-11  21:00:00 GMT'),
@@ -7840,7 +7840,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 499,
                     user_id: 1,
-                    name: 'Sophie Taeuber-Arp (artist/designer/architect/dancer), born 1889',
+                    name: 'Sophie Taeuber-Arp (1889 - 1943), a Swiss artist, painter, sculptor, textile designer, furniture and interior designer, architect and dancer. She is considered one of the most important artists of concrete art and geometric abstraction of the 20th century.',
                     color: '',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/sophietaeuberarp.jpg',
                     day_of: new Date('1889-01-19  21:00:00 GMT'),
@@ -8393,7 +8393,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 536,
                     user_id: 1,
-                    name: 'Nels Cline (guitar), born 1956',
+                    name: 'Nels Cline (1956 - ), an American guitarist and composer. He has been the guitarist for the band Wilco since 2004. In the 1980s he played jazz, often in collaboration with his twin brother Alex Cline, a percussionist. He has worked with musicians in punk and alternative rock such as Mike Watt and Thurston Moore. He leads the Nels Cline Singers, Nels Cline Trio, and the Nels Cline 4. Cline was named the 82nd greatest guitarist of all time by Rolling Stone magazine in November 2011.',
                     color: '#D2311D',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/nelscline.jpg',
                     day_of: new Date('1956-01-04  21:00:00 GMT'),
@@ -8980,7 +8980,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 574,
                     user_id: 1,
-                    name: 'Paul Lafargue (French revolutionary/writer/activist) born in 1842',
+                    name: 'Paul Lafargue (1842 - 1911) a French revolutionary Marxist socialist journalist, literary critic, political writer and activist; he was Karl Marx\'s son-in-law having married his second daughter, Laura. His best known work is The Right To Be Lazy. Born in Cuba to French and Creole parents, Lafargue spent most of his life in France, with periods in England and Spain. At the age of 69, he and 66-year-old Laura died together by a suicide pact. Lafargue was the subject of a famous quotation by Karl Marx. Soon before Marx died in 1883, he wrote a letter to Lafargue and the French Workers\' Party organizer Jules Guesde, both of whom already claimed to represent "Marxist" principles. Marx accused them of "revolutionary phrase-mongering" and of denying the value of reformist struggles. This exchange is the source of Marx\'s remark, reported by Friedrich Engels, "ce qu\'il y a de certain c\'est que moi, je ne suis pas Marxiste" ("what is certain to me is that [, if they are Marxists, then] I am not [a] Marxist").',
                     color: '#25200D',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/paullafargue.jpg',
                     day_of: new Date('1842-01-15  21:00:00 GMT'),
@@ -10429,7 +10429,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 670,
                     user_id: 1,
-                    name: 'Murray Bookchin (social theorist/ author/ orator/ historian/ political philosopher) born 1921',
+                    name: 'Murray Bookchin (1921 - 2006) an American social theorist, author, orator, historian, and political philosopher. A pioneer in the environmental movement, Bookchin formulated and developed the theory of social ecology and urban planning, within anarchist, libertarian socialist, and environmental philosophy. He was the author of two dozen books covering topics in politics, philosophy, history, urban affairs, and social ecology. Among the most important were Our Synthetic Environment (1962), Post-Scarcity Anarchism (1971), The Ecology of Freedom (1982) and Urbanization Without Cities (1987). In the late 1990s he became disenchanted with what he saw as an increasingly apolitical "lifestylism" of the contemporary anarchist movement, stopped referring to himself as an anarchist, and founded his own libertarian socialist ideology called Communalism, which seeks to reconcile Marxist and anarchist thought. Bookchin was a prominent anti-capitalist and advocate of social decentralisation along ecological and democratic lines. His ideas have influenced social movements since the 1960s, including the New Left, the anti-nuclear movement, the anti-globalization movement, Occupy Wall Street, and more recently, the democratic confederalism of Rojava. He was a central figure in the American green movement and the Burlington Greens.',
                     color: '#593232',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/220px-Murray_Bookchin_in_Burlington.jpg',
                     day_of: new Date('1921-01-14  21:00:00 GMT'),
@@ -10631,7 +10631,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 683,
                     user_id: 1,
-                    name: 'Mark Natanson (revolutionary/co-founder of the Circle of Tchaikovsky, Land and Liberty, and the Socialist-Revolutionary Party) born in 1851',
+                    name: 'Mark Natanson (1851 - 1919) a Russian-Jewish revolutionary and one of the founders of the Circle of Tchaikovsky, Land and Liberty, and the Socialist-Revolutionary Party. In 1917, he was a leader of the Left Socialist-Revolutionaries, supporting the Bolsheviks in the October Revolution. He was the uncle of Alexander Berkman.',
                     color: '#8E825C',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Felix_Vallotton_Alfred-Athis_Natanson.jpg',
                     day_of: new Date('1851-01-06  21:00:00 GMT'),
@@ -10645,7 +10645,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 684,
                     user_id: 1,
-                    name: 'Pierre-Joseph Proudhon (founder of mutualist philosophy and first proclaimed anarchist) born in 1809',
+                    name: 'Pierre-Joseph Proudhon (1809 - 1865) a French politician and the founder of mutualist philosophy. He was the first person to declare himself an anarchist, using that term and is widely regarded as one of the ideology\'s most influential theorists. Proudhon is even considered by many to be the "father of anarchism". He became a member of the French Parliament after the Revolution of 1848, whereafter he referred to himself as a federalist.  Proudhon, who was born in Besançon, was a printer who taught himself Latin in order to better print books in the language. His best-known assertion is that "property is theft!", contained in his first major work, What Is Property? Or, an Inquiry into the Principle of Right and Government (Qu\'est-ce que la propriété? Recherche sur le principe du droit et du gouvernement), published in 1840. The book\'s publication attracted the attention of the French authorities. It also attracted the scrutiny of Karl Marx, who started a correspondence with its author. The two influenced each other and they met in Paris while Marx was exiled there. Their friendship finally ended when Marx responded to Proudhon\'s The System of Economic Contradictions, or The Philosophy of Poverty with the provocatively titled The Poverty of Philosophy. The dispute became one of the sources of the split between the anarchist and Marxist wings of the International Working Men\'s Association. Some such as Edmund Wilson have contended that Marx\'s attack on Proudhon had its origin in the latter\'s defense of Karl Grün, whom Marx bitterly disliked, but who had been preparing translations of Proudhon\'s work. Proudhon favored workers\' associations or co-operatives as well as individual worker/peasant possession over private ownership or the nationalization of land and workplaces. He considered social revolution to be achievable in a peaceful manner. In The Confessions of a Revolutionary, Proudhon asserted that "Anarchy is Order Without Power", the phrase which much later inspired in the view of some the anarchist circled-A symbol, today "one of the most common graffiti on the urban landscape". He unsuccessfully tried to create a national bank, to be funded by what became an abortive attempt at an income tax on capitalists and shareholders. Similar in some respects to a credit union, it would have given interest-free loans.',
                     color: '#362E21',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Portrait_of_Pierre_Joseph_Proudhon_1865.jpg',
                     day_of: new Date('1809-01-15  21:00:00 GMT'),
@@ -10865,7 +10865,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 699,
                     user_id: 1,
-                    name: 'Éliane Radigue (composer) born in 1932',
+                    name: 'Éliane Radigue (1932 - ) a French electronic music composer. She began working in the 1950s and her first compositions were presented in the late 1960s. Until 2000 her work was almost exclusively created with the ARP 2500 modular synthesizer and tape. Since 2001 she has composed mainly for acoustic instruments.',
                     color: '#C6C6C6',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/1_-e6M2IAKwYBsBc9fuOKnzA.jpeg',
                     day_of: new Date('1932-01-24  21:00:00 GMT'),
@@ -10884,7 +10884,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 700,
                     user_id: 1,
-                    name: 'Benjamin Lay (humanitarian/abolitionist) born in 1682',
+                    name: 'Benjamin Lay (1682 - 1759) an Anglo-American Quaker humanitarian and abolitionist. He is best known for his early and strident anti-slavery activities which would culminate in dramatic protests. He was also an author, farmer, an early vegetarian, and distinguished by his early concern for the moral treatment of animals. Born in England, into a farming family, his early trade was as a shepherd and glove-maker. After becoming a Quaker, he worked as a sailor, and in 1718 moved to Barbados. Here he witnessed the poor treatment of African slaves that instilled in him his lifelong abolitionist principles. Lay later settled in Philadelphia, and was made unpopular among his fellow Quakers by his strident anti-slavery stance, which would often culminate in acts of public protest. He published several pamphlets on social causes during his lifetime, and one book – All Slave-keepers that keep the Innocent in Bondage, Apostates.',
                     color: '#6B8EA4',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Benjamin_Lay_painted_by_William_Williams_in_1790.jpg',
                     day_of: new Date('1682-01-26  21:00:00 GMT'),
@@ -10912,7 +10912,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 702,
                     user_id: 1,
-                    name: 'Anthony Benezet (abolitionist/educator) born 1713.',
+                    name: 'Anthony Benezet (1713 - 1784) an American abolitionist and educator who was active in Philadelphia, Pennsylvania. One of the early American abolitionists, Benezet founded one of the world\'s first anti-slavery societies, the Society for the Relief of Free Negroes Unlawfully Held in Bondage (after his death it was revived as the Pennsylvania Society for Promoting the Abolition of Slavery); the first public school for girls in North America; and the Negro School at Philadelphia, which operated into the nineteenth century. He was a vegetarian and advocated for the kind treatment of animals; integrating this in his teachings.',
                     color: '#454545',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Benezet.jpg',
                     day_of: new Date('1713-01-31  21:00:00 GMT'),
@@ -10926,7 +10926,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 703,
                     user_id: 1,
-                    name: 'Benjamin Rush (abolitionist/founding father) born 1746',
+                    name: 'Benjamin Rush (1746 - 1813) a signer of the United States Declaration of Independence and a civic leader in Philadelphia, where he was a physician, politician, social reformer, humanitarian, and educator as well as the founder of Dickinson College. Rush attended the Continental Congress. His later self-description there was: "He aimed right." He served as Surgeon General of the Continental Army and became a professor of chemistry, medical theory, and clinical practice at the University of Pennsylvania. Rush was a leader of the American Enlightenment and an enthusiastic supporter of the American Revolution. He was a leader in Pennsylvania\'s ratification of the Constitution in 1788. He was prominent in many reforms, especially in the areas of medicine and education. He opposed slavery, advocated free public schools, and sought improved education for women and a more enlightened penal system. As a leading physician, Rush had a major impact on the emerging medical profession. As an Enlightenment intellectual, he was committed to organizing all medical knowledge around explanatory theories, rather than rely on empirical methods. Rush argued that illness was the result of imbalances in the body\'s physical system and was caused by malfunctions in the brain. His approach prepared the way for later medical research, but Rush himself undertook none of it. He promoted public health by advocating clean environment and stressing the importance of personal and military hygiene. His study of mental disorder made him one of the founders of American psychiatry. In 1965 the American Psychiatric Association recognized Rush as the "father of American psychiatry".',
                     color: '#635548',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Benjamin_Rush_Painting_by_Peale.jpg',
                     day_of: new Date('1746-01-04  21:00:00 GMT'),
@@ -11378,9 +11378,9 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 731,
                     user_id: 1,
-                    name: 'Sébastien Faure (anarchist/freethought/secularist) born 1858',
+                    name: 'Sébastien Faure (1858 - 1942) a French anarchist, freethought and secularist activist and a principal proponent of synthesis anarchism.',
                     color: '#D8D3B6',
-                    picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Fauresebastien_police.jpeg',
+                    picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Fauresebastien_police.jpg',
                     day_of: new Date('1858-01-06  21:00:00 GMT'),
                     is_annual: true,
                     art_override: false,
@@ -11392,7 +11392,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 732,
                     user_id: 1,
-                    name: 'Ivo Perelman (reeds) born 1961',
+                    name: 'Ivo Perelman (1961 - ) a Brazilian free jazz saxophonist born in São Paulo.',
                     color: '#80A5FC',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/A-376339-1420411028-6990.jpg',
                     day_of: new Date('1961-01-12  21:00:00 GMT'),
@@ -11411,7 +11411,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 733,
                     user_id: 1,
-                    name: 'William Parker (bass) born 1952',
+                    name: 'William Parker (1952 - ) an American free jazz double bassist, multi-instrumentalist, poet and composer.',
                     color: '#BA1F3E',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/William_Parker_by_Peter_Gannushkin-02-Corr_cropped-780x525.jpg',
                     day_of: new Date('1952-01-10  21:00:00 GMT'),
@@ -11575,7 +11575,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 744,
                     user_id: 1,
-                    name: 'Lucretia Mott (abolitionist/woment\'s rights activist/social reformer) born 1793',
+                    name: 'Lucretia Mott (1793 - 1880) a U.S. Quaker, abolitionist, women\'s rights activist, and social reformer. She had formed the idea of reforming the position of women in society when she was amongst the women excluded from the World Anti-Slavery Convention in 1840. In 1848 she was invited by Jane Hunt to a meeting that led to the first meeting about women\'s rights. Mott helped write the Declaration of Sentiments during the 1848 Seneca Falls Convention. Her speaking abilities made her an important abolitionist, feminist, and reformer. When slavery was outlawed in 1865, she advocated giving former slaves who had been bound to slavery laws within the boundaries of the United States, whether male or female, the right to vote. She remained a central figure in the abolition and suffrage movement until her death in 1880.',
                     color: '#814717',
                     picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/mott.jpg',
                     day_of: new Date('1793-01-03  21:00:00 GMT'),
@@ -11782,7 +11782,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 757,
                     user_id: 1,
-                    name: 'Olga Taratuta (anarcho-communist) born 1876',
+                    name: 'Olga Taratuta (1876 - 1938) a Ukrainian anarcho-communist. She was the founder of the Ukrainian Anarchist Black Cross.',
                     color: '#5b5b5b',
                     picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Taratuta_Olga.jpg',
                     day_of: new Date('1876-01-21  21:00:00 GMT'),
@@ -11852,6 +11852,34 @@ exports.seed = function (knex, Promise) {
                     color: '#d9d9d9',
                     picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/berneri.jpg',
                     day_of: new Date('1897-05-20  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 762,
+                    user_id: 1,
+                    name: 'Don Buchla (inventor) born 1937',
+                    color: '#d6ae8b',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/18Buchla-articleLarge.jpg',
+                    day_of: new Date('1937-04-17  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 763,
+                    user_id: 1,
+                    name: 'Frantz Fanon (psychiatrist/political philosopher) born 1925',
+                    color: '#1f201f',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/fanon3.jpg',
+                    day_of: new Date('1925-07-20  21:00:00 GMT'),
                     is_annual: true,
                     art_override: false,
                     music_override: false,

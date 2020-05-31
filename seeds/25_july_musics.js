@@ -6916,6 +6916,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 385,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=937891294/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://holyhivemusic.bandcamp.com/album/float-back-to-you',
+                    a_string: 'Float Back To You by Holy Hive',
+                    rule: {
+                        "monday": [23, 24, 39, 6],
+                        "tuesday": [22, 24, 28, 5], 
+                        "wednesday": [26, 28, 1, 9], 
+                        "thursday": [25, 27, 31, 8], 
+                        "saturday": [24, 26, 30, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1893191969/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://timburgess.bandcamp.com/album/i-love-the-new-sky',
+                    a_string: 'I Love The New Sky by Tim Burgess',
+                    rule: {
+                        "monday": [24, 26, 30, 7],
+                        "tuesday": [23, 24, 39, 6], 
+                        "wednesday": [22, 24, 28, 5], 
+                        "thursday": [26, 28, 1, 9],  
+                        "saturday": [25, 27, 31, 8]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1617920154/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://titusandronicus.bandcamp.com/album/the-most-lamentable-tragedy',
+                    a_string: 'The Most Lamentable Tragedy by Titus Andronicus',
+                    rule: {
+                        "monday": [25, 27, 31, 8],
+                        "tuesday": [24, 26, 30, 7], 
+                        "wednesday": [23, 24, 39, 6], 
+                        "thursday": [22, 24, 28, 5], 
+                        "saturday": [26, 28, 1, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

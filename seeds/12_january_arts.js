@@ -14104,6 +14104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 706,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-192600000.jpg',
+                    title: 'Composition',
+                    artist: 'David Kakabadze',
+                    year: '1926',
+                    rule: {
+                        "monday": [15, 16, 7, 11],
+                        "tuesday": [18, 20, 21, 23],
+                        "wednesday": [20, 22, 26, 29],
+                        "thursday": [22, 24, 25, 26],
+                        "friday": [10, 12, 4, 24], 
+                        "saturday": [10, 12, 4, 24], 
+                        "sunday": [15, 13, 5, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 707,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-4.jpg',
+                    title: 'Composition 4',
+                    artist: 'Stefan Sevastre',
+                    year: 'XX Cent.',
+                    rule: {
+                        "monday": [16, 14, 6, 9],
+                        "tuesday": [16, 17, 8, 12],
+                        "wednesday": [19, 21, 22, 24],
+                        "thursday": [21, 23, 27, 30],
+                        "friday": [23, 25, 26, 27], 
+                        "saturday": [11, 13, 5, 25], 
+                        "sunday": [11, 13, 5, 25]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 708,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-13dsji.jpg',
+                    title: 'Composition 13',
+                    artist: 'Stefan Sevastre',
+                    year: 'XX Cent.',
+                    rule: {
+                        "monday": [11, 13, 5, 25],
+                        "tuesday": [16, 14, 6, 9],  
+                        "wednesday": [16, 17, 8, 12], 
+                        "thursday": [19, 21, 22, 24],
+                        "friday": [21, 23, 27, 30],
+                        "saturday": [23, 25, 26, 27],
+                        "sunday": [11, 13, 5, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 709,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-24.jpg',
+                    title: 'Composition 24',
+                    artist: 'Stefan Sevastre',
+                    year: 'XX Cent.',
+                    rule: {
+                        "monday": [11, 13, 5, 25],
+                        "tuesday": [11, 13, 5, 25], 
+                        "wednesday": [16, 14, 6, 9],  
+                        "thursday": [16, 17, 8, 12], 
+                        "friday": [19, 21, 22, 24],
+                        "saturday": [21, 23, 27, 30],
+                        "sunday": [23, 25, 26, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 710,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-31.jpg',
+                    title: 'Composition 31',
+                    artist: 'Stefan Sevastre',
+                    year: 'XX Cent.',
+                    rule: {
+                        "monday": [23, 25, 26, 27],
+                        "tuesday": [11, 13, 5, 25], 
+                        "wednesday": [11, 13, 5, 25], 
+                        "thursday": [16, 14, 6, 9],  
+                        "friday": [16, 17, 8, 12], 
+                        "saturday": [19, 21, 22, 24],
+                        "sunday": [21, 23, 27, 30] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

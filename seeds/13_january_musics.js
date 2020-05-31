@@ -7564,6 +7564,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 421,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=362314653/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/eva-maria-houben-piano-music',
+                    a_string: 'Eva-Maria Houben: Piano Music by R. Andrew Lee',
+                    rule: {
+                        "monday": [5, 11, 12, 13],
+                        "tuesday": [4, 11, 12, 13], 
+                        "wednesday": [8, 15, 16, 17], 
+                        "thursday": [7, 13, 14, 16], 
+                        "saturday": [6, 13, 14, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 422,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=993242086/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/landscape-of-descent',
+                    a_string: 'Landscape of Descent by David D. McIntire',
+                    rule: {
+                        "monday": [6, 13, 14, 15],
+                        "tuesday": [5, 11, 12, 13], 
+                        "wednesday": [4, 11, 12, 13], 
+                        "thursday": [8, 15, 16, 17], 
+                        "saturday": [7, 13, 14, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 423,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2208626214/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/dennis-johnson-november-2',
+                    a_string: 'Dennis Johnson: November by R. Andrew Lee',
+                    rule: {
+                        "monday": [7, 13, 14, 16],
+                        "tuesday": [6, 13, 14, 15], 
+                        "wednesday": [5, 11, 12, 13], 
+                        "thursday": [4, 11, 12, 13], 
+                        "saturday": [8, 15, 16, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

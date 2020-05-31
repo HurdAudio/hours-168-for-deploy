@@ -6376,6 +6376,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 355,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2408132544/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://windows96.bandcamp.com/album/glass-prism',
+                    a_string: 'Glass Prism by Windows96',
+                    rule: {
+                        "monday": [22, 30, 5, 11],
+                        "tuesday": [21, 29, 4, 10], 
+                        "wednesday": [22, 28, 3, 9],  
+                        "thursday": [26, 1, 7, 13],  
+                        "saturday": [25, 31, 6, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 356,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=936498825/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://fl-xiaoquan.bandcamp.com/album/connection-ep',
+                    a_string: 'Connection EP by Xiao Quan',
+                    rule: {
+                        "monday": [25, 31, 6, 12],
+                        "tuesday": [22, 30, 5, 11], 
+                        "wednesday": [21, 29, 4, 10], 
+                        "thursday": [22, 28, 3, 9],  
+                        "saturday": [26, 1, 7, 13]
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 357,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4024881224/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://erasy.bandcamp.com/album/some-nice-flowers',
+                    a_string: 'Some Nice Flowers by Erasy',
+                    rule: {
+                        "monday": [27, 2, 8, 14],
+                        "tuesday": [26, 1, 7, 13], 
+                        "wednesday": [23, 31, 6, 12], 
+                        "thursday": [22, 30, 5, 11],  
+                        "saturday": [23, 29, 4, 10]
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -12304,6 +12304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 616,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_crutches.jpg',
+                    title: 'Inseparable',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 10, 21, 25],
+                        "tuesday": [29, 9, 21, 24], 
+                        "wednesday": [28, 8, 19, 23], 
+                        "thursday": [27, 7, 17, 22],  
+                        "friday": [5, 6, 17, 21],
+                        "saturday": [1, 12, 23, 27],
+                        "sunday": [31, 11, 22, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 617,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_cosmos_peace.jpg',
+                    title: 'Peaceful Cosmos',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [31, 11, 22, 26],
+                        "tuesday": [30, 10, 21, 25],
+                        "wednesday": [29, 9, 21, 24], 
+                        "thursday": [28, 8, 19, 23], 
+                        "friday": [27, 7, 17, 22], 
+                        "saturday": [5, 6, 17, 21],  
+                        "sunday": [1, 12, 23, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 618,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_constellation.jpg',
+                    title: 'Cosmos must be peaceful!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 12, 23, 27],
+                        "tuesday": [31, 11, 22, 26],
+                        "wednesday": [30, 10, 21, 25],
+                        "thursday": [29, 9, 21, 24], 
+                        "friday": [28, 8, 19, 23], 
+                        "saturday": [27, 7, 17, 22], 
+                        "sunday": [5, 6, 17, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 619,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_clear_sky.jpg',
+                    title: 'Clear sky to the world!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 6, 17, 21],
+                        "tuesday": [1, 12, 23, 27], 
+                        "wednesday": [31, 11, 22, 26],
+                        "thursday": [30, 10, 21, 25],
+                        "friday": [29, 9, 21, 24], 
+                        "saturday": [28, 8, 19, 23], 
+                        "sunday": [27, 7, 17, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 620,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_clean_sky22.jpg',
+                    title: 'Clean sky to the world!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 7, 17, 22],
+                        "tuesday": [5, 6, 17, 21],  
+                        "wednesday": [1, 12, 23, 27], 
+                        "thursday": [31, 11, 22, 26],
+                        "friday": [30, 10, 21, 25],
+                        "saturday": [29, 9, 21, 24], 
+                        "sunday": [28, 8, 19, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

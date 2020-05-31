@@ -12104,6 +12104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 606,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/primrose-1962.jpg',
+                    title: 'Primrose',
+                    artist: 'Anne Truitt',
+                    year: '1962',
+                    rule: {
+                        "monday": [6, 11, 17, 22],
+                        "tuesday": [5, 7, 15, 11],  
+                        "wednesday": [4, 8, 15, 18],  
+                        "thursday": [3, 6, 13, 18],  
+                        "friday": [1, 6, 12, 17],  
+                        "saturday": [30, 4, 11, 16], 
+                        "sunday": [30, 5, 11, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 607,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/morning-star-1962.jpg',
+                    title: 'Morning Star',
+                    artist: 'Agnes Martin',
+                    year: '1962',
+                    rule: {
+                        "monday": [30, 5, 11, 18],
+                        "tuesday": [6, 11, 17, 22], 
+                        "wednesday": [5, 7, 15, 11],  
+                        "thursday": [4, 8, 15, 18],  
+                        "friday": [3, 6, 13, 18],  
+                        "saturday": [1, 6, 12, 17],  
+                        "sunday": [30, 4, 11, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 608,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/camellia-same-1962.jpg',
+                    title: 'Camellia Same',
+                    artist: 'Walter Darby Bannard',
+                    year: '1962',
+                    rule: {
+                        "monday": [30, 4, 11, 16],
+                        "tuesday": [30, 5, 11, 18], 
+                        "wednesday": [6, 11, 17, 22], 
+                        "thursday": [5, 7, 15, 11],  
+                        "friday": [4, 8, 15, 18],  
+                        "saturday": [3, 6, 13, 18],  
+                        "sunday": [1, 6, 12, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 609,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/naka-1962.jpg',
+                    title: 'Naka',
+                    artist: 'Yves Gaucher',
+                    year: '1962',
+                    rule: {
+                        "monday": [2, 7, 13, 18],
+                        "tuesday": [1, 5, 12, 17], 
+                        "wednesday": [1, 6, 12, 19], 
+                        "thursday": [7, 12, 18, 23],  
+                        "friday": [6, 8, 16, 12],  
+                        "saturday": [5, 9, 16, 19],  
+                        "sunday": [4, 7, 14, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 610,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/sphere-matter-1962.jpg',
+                    title: 'Sphere - Matter',
+                    artist: 'Francois Morellet',
+                    year: '1962',
+                    rule: {
+                        "monday": [4, 7, 14, 19],
+                        "tuesday": [2, 7, 13, 18],  
+                        "wednesday": [1, 5, 12, 17],  
+                        "thursday": [1, 6, 12, 19],  
+                        "friday": [7, 12, 18, 23], 
+                        "saturday": [6, 8, 16, 12],  
+                        "sunday": [5, 9, 16, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

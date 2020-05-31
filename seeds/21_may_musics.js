@@ -7132,6 +7132,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 397,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1654702948/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://wearethreefour.bandcamp.com/album/racconto-artigiano',
+                    a_string: 'Racconto Artigiano by Loup Uberto',
+                    rule: {
+                        "monday": [24, 30, 6, 19],
+                        "tuesday": [28, 3, 10, 23], 
+                        "wednesday": [27, 2, 9, 22],  
+                        "thursday": [26, 1, 8, 21],  
+                        "saturday": [25, 31, 7, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 398,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2071803081/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mattweston.bandcamp.com/album/tell-us-about-your-stupor',
+                    a_string: 'Tell Us About Your Stupor by Matt Weston',
+                    rule: {
+                        "monday": [25, 31, 7, 20],
+                        "tuesday": [24, 30, 6, 19], 
+                        "wednesday": [28, 3, 10, 23], 
+                        "thursday": [27, 2, 9, 22],  
+                        "saturday": [26, 1, 8, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 399,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=683131128/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://fortevilfruit.bandcamp.com/album/whok-lab-emissions-vol-ii',
+                    a_string: 'WHOK Lab Emissions Vol. II by Whirling Hall of Knives',
+                    rule: {
+                        "monday": [27, 2, 9, 22],
+                        "tuesday": [26, 1, 8, 21], 
+                        "wednesday": [25, 31, 7, 20], 
+                        "thursday": [29, 4, 11, 24],  
+                        "saturday": [28, 3, 10, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -13104,6 +13104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 656,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/king_s_palace_by_anthonypresley_ddrnly8-fullview.jpg',
+                    title: 'King\'s Palace',
+                    artist: 'Anthony Presley',
+                    year: '2020',
+                    rule: {
+                        "monday": [28, 8, 18, 26],
+                        "tuesday": [27, 7, 17, 25], 
+                        "wednesday": [3, 13, 23, 30], 
+                        "thursday": [2, 12, 23, 30], 
+                        "friday": [1, 11, 21, 19], 
+                        "saturday": [30, 10, 20, 27],
+                        "sunday": [9, 19, 29, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 657,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/country_gas_station_by_anthonypresley_ddnawwn-pre.jpg',
+                    title: 'Country Gas Station',
+                    artist: 'Anthony Presley',
+                    year: '2019',
+                    rule: {
+                        "monday": [9, 19, 29, 27],
+                        "tuesday": [28, 8, 18, 26], 
+                        "wednesday": [27, 7, 17, 25], 
+                        "thursday": [3, 13, 23, 30], 
+                        "friday": [2, 12, 23, 30], 
+                        "saturday": [1, 11, 21, 19], 
+                        "sunday": [30, 10, 20, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 658,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/mini_mart_by_anthonypresley_ddorcjv-fullview.jpg',
+                    title: 'Mini Mart',
+                    artist: 'Anthony Presley',
+                    year: '2020',
+                    rule: {
+                        "monday": [1, 11, 21, 28],
+                        "tuesday": [10, 20, 30, 28], 
+                        "wednesday": [29, 9, 19, 27], 
+                        "thursday": [28, 8, 18, 26], 
+                        "friday": [4, 14, 24, 1], 
+                        "saturday": [3, 13, 24, 1], 
+                        "sunday": [1, 12, 22, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 659,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d97mimd-b0726f7b-94a3-439b-a43b-8db08ae99067.jpg',
+                    title: 'forlorn.',
+                    artist: 'cristina otero',
+                    year: '2015',
+                    rule: {
+                        "monday": [1, 12, 22, 20],
+                        "tuesday": [1, 11, 21, 28], 
+                        "wednesday": [10, 20, 30, 28],
+                        "thursday": [29, 9, 19, 27], 
+                        "friday": [28, 8, 18, 26], 
+                        "saturday": [4, 14, 24, 1],  
+                        "sunday": [3, 13, 24, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 660,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d8ma8c4-8e864adb-5bfb-42e3-8a42-36d493408905.jpg',
+                    title: 'Cold Flame',
+                    artist: 'Marina Ćorić',
+                    year: '2015',
+                    rule: {
+                        "monday": [3, 13, 24, 1],
+                        "tuesday": [1, 12, 22, 20], 
+                        "wednesday": [1, 11, 21, 28], 
+                        "thursday": [10, 20, 30, 28],
+                        "friday": [29, 9, 19, 27], 
+                        "saturday": [28, 8, 18, 26], 
+                        "sunday": [4, 14, 24, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

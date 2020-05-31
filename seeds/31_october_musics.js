@@ -6592,6 +6592,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 367,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3784238831/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://conjureth.bandcamp.com/album/foul-formations',
+                    a_string: 'Foul Formations by Conjureth',
+                    rule: {
+                        "monday": [29, 8, 18, 21],
+                        "tuesday": [28, 8, 17, 20], 
+                        "wednesday": [27, 6, 17, 19], 
+                        "thursday": [26, 5, 15, 18], 
+                        "saturday": [30, 9, 19, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 368,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2094925983/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://darkdescentrecords.bandcamp.com/album/abject-darkness-ineffable-winds',
+                    a_string: 'Abject Darkness/Ineffable Winds by Anhedonist/Spectral Voice',
+                    rule: {
+                        "monday": [30, 9, 19, 22],
+                        "tuesday": [29, 8, 18, 21], 
+                        "wednesday": [28, 8, 17, 20], 
+                        "thursday": [27, 6, 17, 19], 
+                        "saturday": [26, 5, 15, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 369,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2219724157/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://cruzdelsurmusic.bandcamp.com/album/road-warrior-gravebreaker-split-7',
+                    a_string: 'ROAD WARRIOR / GRAVEBREAKER SPLIT 7&#39;&#39; by Cruz del Sur Music',
+                    rule: {
+                        "monday": [26, 5, 15, 18],
+                        "tuesday": [30, 9, 19, 22], 
+                        "wednesday": [29, 8, 18, 21], 
+                        "thursday": [28, 8, 17, 20], 
+                        "saturday": [27, 6, 17, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

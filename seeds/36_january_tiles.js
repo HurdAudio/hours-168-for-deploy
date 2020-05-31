@@ -1642,6 +1642,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#c0c9e8',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 118,
+                    user_id: 1,
+                    theme: 'Ice',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/hoarfrost-5121131_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#2e776d',
+                    color_medium: '#ad9d8e',
+                    color_light: '#d4d8dc',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

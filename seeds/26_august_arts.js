@@ -12704,6 +12704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 636,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/portrait-of-diego-rivera-1914-1.jpg',
+                    title: 'Portrait of Diego Rivera',
+                    artist: 'Amedeo Modigliani',
+                    year: '1914',
+                    rule: {
+                        "monday": [28, 30, 9, 25],
+                        "tuesday": [27, 30, 8, 24], 
+                        "wednesday": [26, 29, 7, 23], 
+                        "thursday": [1, 5, 13, 29],  
+                        "friday": [31, 3, 12, 28], 
+                        "saturday": [29, 3, 11, 27], 
+                        "sunday": [29, 31, 10, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 637,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/figures-on-a-beach-1930.jpg',
+                    title: 'Figures on a Beach',
+                    artist: 'Louis Marcoussis',
+                    year: '1930',
+                    rule: {
+                        "monday": [30, 1, 11, 27],
+                        "tuesday": [29, 31, 10, 26], 
+                        "wednesday": [28, 31, 9, 25], 
+                        "thursday": [27, 30, 8, 24],  
+                        "friday": [2, 6, 14, 30], 
+                        "saturday": [1, 4, 13, 29], 
+                        "sunday": [30, 4, 12, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 638,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/untitled-35-14-1935.jpg',
+                    title: 'Untitled (35-14)',
+                    artist: 'Balcomb Greene',
+                    year: '1935',
+                    rule: {
+                        "monday": [30, 4, 12, 28],
+                        "tuesday": [30, 1, 11, 27], 
+                        "wednesday": [29, 31, 10, 26],
+                        "thursday": [28, 31, 9, 25], 
+                        "friday": [27, 30, 8, 24], 
+                        "saturday": [2, 6, 14, 30],  
+                        "sunday": [1, 4, 13, 29]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 639,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/a-naturalist-s-study-1928.jpg',
+                    title: 'A Naturalist\'s Study',
+                    artist: 'Pierre Roy',
+                    year: '1928',
+                    rule: {
+                        "monday": [1, 4, 13, 29],
+                        "tuesday": [30, 4, 12, 28], 
+                        "wednesday": [30, 1, 11, 27], 
+                        "thursday": [29, 31, 10, 26],
+                        "friday": [28, 31, 9, 25], 
+                        "saturday": [27, 30, 8, 24], 
+                        "sunday": [2, 6, 14, 30]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 640,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/in-the-rain-1912.jpg',
+                    title: 'In the Rain',
+                    artist: 'Franz Marc',
+                    year: '1912',
+                    rule: {
+                        "monday": [2, 6, 14, 30],
+                        "tuesday": [1, 4, 13, 29],  
+                        "wednesday": [30, 4, 12, 28], 
+                        "thursday": [30, 1, 11, 27], 
+                        "friday": [29, 31, 10, 26],
+                        "saturday": [28, 31, 9, 25], 
+                        "sunday": [27, 30, 8, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

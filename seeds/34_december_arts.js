@@ -11904,6 +11904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 596,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://hours168-hurdaudio.s3.amazonaws.com/img/34-10%2CSkyBirds.jpg',
+                    title: 'Sky Birds',
+                    artist: 'Casimir B. Mayshark',
+                    year: '1934',
+                    rule: {
+                        "monday": [26, 7, 16, 22],
+                        "tuesday": [25, 7, 15, 21], 
+                        "wednesday": [24, 6, 14, 20], 
+                        "thursday": [23, 5, 13, 19], 
+                        "friday": [22, 3, 2, 18], 
+                        "saturday": [11, 3, 22, 29], 
+                        "sunday": [27, 9, 17, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 597,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://hours168-hurdaudio.s3.amazonaws.com/img/28-02%2CWings.jpeg',
+                    title: 'Wings',
+                    artist: 'Frank McAleer',
+                    year: '1928',
+                    rule: {
+                        "monday": [27, 9, 17, 23],
+                        "tuesday": [26, 7, 16, 22], 
+                        "wednesday": [25, 7, 15, 21], 
+                        "thursday": [24, 6, 14, 20], 
+                        "friday": [23, 5, 13, 19], 
+                        "saturday": [22, 3, 2, 18],  
+                        "sunday": [11, 3, 22, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 598,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-08,SpcyMyst-093.jpg',
+                    title: 'Spicy Mystery',
+                    artist: 'Jay McArdle',
+                    year: '1935',
+                    rule: {
+                        "monday": [11, 3, 22, 29],
+                        "tuesday": [27, 9, 17, 23], 
+                        "wednesday": [26, 7, 16, 22], 
+                        "thursday": [25, 7, 15, 21], 
+                        "friday": [24, 6, 14, 20], 
+                        "saturday": [23, 5, 13, 19], 
+                        "sunday": [22, 3, 2, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 599,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-01,WAces1.jpg',
+                    title: 'Western Aces',
+                    artist: 'Charles L. McCann',
+                    year: '1935',
+                    rule: {
+                        "monday": [22, 3, 2, 18],
+                        "tuesday": [11, 3, 22, 29], 
+                        "wednesday": [27, 9, 17, 23], 
+                        "thursday": [26, 7, 16, 22], 
+                        "friday": [25, 7, 15, 21], 
+                        "saturday": [24, 6, 14, 20], 
+                        "sunday": [23, 5, 13, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 600,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/41-11,ThrllSprts.jpg',
+                    title: 'Thrilling Sports',
+                    artist: 'Gerald McCann',
+                    year: '1941',
+                    rule: {
+                        "monday": [23, 5, 13, 19],
+                        "tuesday": [22, 3, 2, 18],  
+                        "wednesday": [11, 3, 22, 29], 
+                        "thursday": [27, 9, 17, 23], 
+                        "friday": [26, 7, 16, 22], 
+                        "saturday": [25, 7, 15, 21], 
+                        "sunday": [24, 6, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

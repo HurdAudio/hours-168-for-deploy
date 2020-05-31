@@ -6484,6 +6484,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 361,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1871357033/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sorcerers.bandcamp.com/album/in-search-of-the-lost-city-of-the-monkey-god',
+                    a_string: 'In Search Of The Lost City Of The Monkey God by The Sorcerers',
+                    rule: {
+                        "monday": [21, 2, 13, 17],
+                        "tuesday": [20, 1, 12, 23], 
+                        "wednesday": [19, 30, 11, 23],
+                        "thursday": [23, 4, 15, 19], 
+                        "saturday": [22, 3, 14, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 362,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3919793098/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mikaelseifu.bandcamp.com/album/the-lost-drum-beat',
+                    a_string: 'The Lost Drum Beat by Mikael Seifu',
+                    rule: {
+                        "monday": [22, 3, 14, 18],
+                        "tuesday": [21, 2, 13, 17], 
+                        "wednesday": [20, 1, 12, 23], 
+                        "thursday": [19, 30, 11, 23],
+                        "saturday": [23, 4, 15, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 363,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1811901698/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://dre-kay1.bandcamp.com/album/dre-kay-common-thread',
+                    a_string: 'Dre Kay Common Thread by Dre-Kay',
+                    rule: {
+                        "monday": [23, 4, 15, 19],
+                        "tuesday": [22, 3, 14, 18], 
+                        "wednesday": [21, 2, 13, 17], 
+                        "thursday": [20, 1, 12, 23], 
+                        "saturday": [19, 30, 11, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -13504,6 +13504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 676,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/IMG_0033cubs.jpg',
+                    title: 'Chicago Cubs',
+                    artist: 'Russell Copenharve',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 8, 14, 20],
+                        "tuesday": [3, 8, 14, 20],  
+                        "wednesday": [2, 7, 13, 19],  
+                        "thursday": [21, 13, 18, 24],
+                        "friday": [21, 11, 17, 23],
+                        "saturday": [6, 9, 22, 23],  
+                        "sunday": [5, 9, 24, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 677,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/0befc2a30c720dcd0e90c00824ac8de5.jpg',
+                    title: 'Chicago Cubs Art Print',
+                    artist: 'Unknown Artist',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 9, 24, 22],
+                        "tuesday": [2, 8, 14, 20],  
+                        "wednesday": [3, 8, 14, 20],  
+                        "thursday": [2, 7, 13, 19],  
+                        "friday": [21, 13, 18, 24],
+                        "saturday": [21, 11, 17, 23],
+                        "sunday": [6, 9, 22, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 678,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/13x19Wilson.jpg',
+                    title: 'Wilson',
+                    artist: 'JJ Weinberg',
+                    year: '2016',
+                    rule: {
+                        "monday": [6, 9, 22, 23],
+                        "tuesday": [5, 9, 24, 22],  
+                        "wednesday": [2, 8, 14, 20],  
+                        "thursday": [3, 8, 14, 20],  
+                        "friday": [2, 7, 13, 19],  
+                        "saturday": [21, 13, 18, 24],
+                        "sunday": [21, 11, 17, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 679,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://hours168-hurdaudio.s3.amazonaws.com/img/april/Copy%2Bof%2BReflections%2BFinal.jpg',
+                    title: 'Reflections Final',
+                    artist: 'JJ Weinberg',
+                    year: '2016',
+                    rule: {
+                        "monday": [22, 12, 18, 24],
+                        "tuesday": [7, 10, 23, 24],  
+                        "wednesday": [6, 10, 25, 23],  
+                        "thursday": [3, 9, 15, 21],  
+                        "friday": [4, 9, 15, 21],  
+                        "saturday": [3, 8, 14, 20],
+                        "sunday": [22, 14, 19, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 680,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/ef390a45207869.Y3JvcCw5MjIsNzIxLDI1OCwzMQ.jpg',
+                    title: 'Chicago Cubs Typography Project',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [22, 14, 19, 25],
+                        "tuesday": [22, 12, 18, 24],
+                        "wednesday": [7, 10, 23, 24], 
+                        "thursday": [6, 10, 25, 23], 
+                        "friday": [3, 9, 15, 21],  
+                        "saturday": [4, 9, 15, 21],  
+                        "sunday": [3, 8, 14, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

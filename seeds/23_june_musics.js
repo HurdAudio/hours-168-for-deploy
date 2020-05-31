@@ -7024,6 +7024,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 391,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3742626777/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lyrapramuk.bandcamp.com/album/fountain',
+                    a_string: 'Fountain by Lyra Pramuk',
+                    rule: {
+                        "monday": [24, 27, 3, 13],
+                        "tuesday": [22, 30, 2, 17], 
+                        "wednesday": [26, 30, 26, 17],
+                        "thursday": [25, 28, 3, 15], 
+                        "saturday": [24, 27, 3, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 392,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=672291144/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://clarenceclarity.bandcamp.com/album/dead-screen-scrolls',
+                    a_string: 'DEAD SCREEN SCROLLS by Clarence Clarity',
+                    rule: {
+                        "monday": [25, 28, 4, 15],
+                        "tuesday": [25, 28, 4, 14], 
+                        "wednesday": [23, 1, 3, 18],
+                        "thursday": [27, 1, 27, 18], 
+                        "saturday": [26, 29, 4, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 393,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1686304996/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://nicolasjaar.bandcamp.com/album/cenizas',
+                    a_string: 'Cenizas by Nicolas Jaar',
+                    rule: {
+                        "monday": [26, 29, 4, 16],
+                        "tuesday": [25, 28, 4, 15], 
+                        "wednesday": [25, 28, 4, 14], 
+                        "thursday": [23, 1, 3, 18],  
+                        "saturday": [27, 1, 27, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

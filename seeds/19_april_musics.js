@@ -7240,6 +7240,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 403,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=694083614/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://stefaniekuncklerymonos.bandcamp.com/album/amateur',
+                    a_string: 'Amateur by Stefanie Kunckler Ymonos',
+                    rule: {
+                        "monday": [27, 5, 17, 22],
+                        "tuesday": [1, 9, 21, 26],  
+                        "wednesday": [30, 7, 20, 25], 
+                        "thursday": [29, 7, 19, 24], 
+                        "saturday": [28, 6, 17, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 404,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2680294012/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://gparadisomusic.bandcamp.com/album/metropolitan-sketches',
+                    a_string: 'Metropolitan Sketches by Giuseppe Paradiso Meridian 71',
+                    rule: {
+                        "monday": [28, 6, 17, 23],
+                        "tuesday": [27, 5, 17, 22], 
+                        "wednesday": [1, 9, 21, 26],  
+                        "thursday": [30, 7, 20, 25], 
+                        "saturday": [29, 7, 19, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 405,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3341792217/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://kirkknuffke.bandcamp.com/album/brightness-live-in-amsterdam',
+                    a_string: 'Brightness Live In Amsterdam by Kirk Knuffke',
+                    rule: {
+                        "monday": [29, 7, 19, 24],
+                        "tuesday": [28, 6, 17, 23], 
+                        "wednesday": [27, 5, 17, 22], 
+                        "thursday": [1, 9, 21, 26],  
+                        "saturday": [30, 7, 20, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

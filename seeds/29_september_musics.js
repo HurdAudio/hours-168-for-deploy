@@ -6700,6 +6700,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 373,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2505672263/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://zombi.bandcamp.com/album/2020',
+                    a_string: '2020 by Zombi',
+                    rule: {
+                        "monday": [24, 14, 22, 16],
+                        "tuesday": [28, 18, 26, 20],
+                        "wednesday": [27, 17, 25, 19],
+                        "thursday": [26, 16, 24, 17],
+                        "saturday": [26, 15, 23, 17] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 374,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=811787446/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://satokofujii.bandcamp.com/album/baikamo',
+                    a_string: 'Baikamo by Toh-Kichi, Satoko Fujii, Tatsuya Yoshida',
+                    rule: {
+                        "monday": [26, 15, 23, 17],
+                        "tuesday": [24, 14, 22, 16],
+                        "wednesday": [28, 18, 26, 20],
+                        "thursday": [27, 17, 25, 19],
+                        "saturday": [26, 16, 24, 17] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 375,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2506404019/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://senampalmer.bandcamp.com/album/-',
+                    a_string: 'ƖԀƎ by Senam Palmer',
+                    rule: {
+                        "monday": [26, 16, 24, 17],
+                        "tuesday": [26, 15, 23, 17],
+                        "wednesday": [24, 14, 22, 16],
+                        "thursday": [28, 18, 26, 20],
+                        "saturday": [27, 17, 25, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

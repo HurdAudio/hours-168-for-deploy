@@ -13704,6 +13704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 686,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/park-pobedy-2018-mixed-media-on-canvas-150x190-1100-e1548337132856.jpg',
+                    title: 'Victory Park',
+                    artist: 'Lucy Ivanova',
+                    year: '2018',
+                    rule: {
+                        "monday": [3, 13, 21, 31],
+                        "tuesday": [2, 13, 20, 30],
+                        "wednesday": [1, 11, 19, 29], 
+                        "thursday": [31, 10, 19, 28],  
+                        "friday": [6, 15, 25, 2],  
+                        "saturday": [5, 15, 23, 2], 
+                        "sunday": [3, 14, 22, 1]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 687,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/dscf5798.jpeg',
+                    title: 'Cozinheira portuguesa',
+                    artist: 'Lilian Greisse',
+                    year: '2019',
+                    rule: {
+                        "monday": [3, 14, 22, 1],
+                        "tuesday": [3, 13, 21, 31], 
+                        "wednesday": [2, 13, 20, 30], 
+                        "thursday": [1, 11, 19, 29], 
+                        "friday": [31, 10, 19, 28],
+                        "saturday": [6, 15, 25, 2],  
+                        "sunday": [5, 15, 23, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 688,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/94.jpg',
+                    title: 'naughty Glotzi',
+                    artist: 'Patricia Jaqueline',
+                    year: '2015',
+                    rule: {
+                        "monday": [5, 15, 23, 2],
+                        "tuesday": [3, 14, 22, 1],  
+                        "wednesday": [3, 13, 21, 31], 
+                        "thursday": [2, 13, 20, 30], 
+                        "friday": [1, 11, 19, 29], 
+                        "saturday": [31, 10, 19, 28],
+                        "sunday": [6, 15, 25, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 689,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/vision-of-the-last-days.jpg',
+                    title: 'Vision of the Last Days',
+                    artist: 'Hildegard of Bingen',
+                    year: '?',
+                    rule: {
+                        "monday": [6, 15, 25, 2],
+                        "tuesday": [5, 15, 23, 2],  
+                        "wednesday": [3, 14, 22, 1],  
+                        "thursday": [3, 13, 21, 31], 
+                        "friday": [2, 13, 20, 30], 
+                        "saturday": [1, 11, 19, 29], 
+                        "sunday": [31, 10, 19, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 690,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/bamboo-and-stone.jpg',
+                    title: 'Bamboo and Stone',
+                    artist: 'Guan Daosheng',
+                    year: '?',
+                    rule: {
+                        "monday": [31, 10, 19, 28],
+                        "tuesday": [6, 15, 25, 2],  
+                        "wednesday": [5, 15, 23, 2],  
+                        "thursday": [3, 14, 22, 1],  
+                        "friday": [3, 13, 21, 31], 
+                        "saturday": [2, 13, 20, 30], 
+                        "sunday": [1, 11, 19, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

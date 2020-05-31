@@ -12454,8 +12454,8 @@ exports.seed = function (knex, Promise) {
                     artist: 'Lygia Clark',
                     year: '1964',
                     rule: {
-                        "monday": [29, 5, 23, 31],
-                        "tuesday": [18, 4, 22, 31],
+                        "monday": [29, 5, 23, 1],
+                        "tuesday": [18, 4, 22, 1],
                         "wednesday": [17, 24, 21, 29], 
                         "thursday": [25, 2, 20, 27],   
                         "friday": [2, 8, 26, 4],  
@@ -12475,8 +12475,8 @@ exports.seed = function (knex, Promise) {
                     year: 'XX - XXI Cent.',
                     rule: {
                         "monday": [29, 4, 22, 30],
-                        "tuesday": [29, 5, 23, 31], 
-                        "wednesday": [18, 4, 22, 31], 
+                        "tuesday": [29, 5, 23, 1], 
+                        "wednesday": [18, 4, 22, 1], 
                         "thursday": [17, 24, 21, 29],
                         "friday": [25, 2, 20, 27], 
                         "saturday": [2, 8, 26, 4],   
@@ -12496,11 +12496,111 @@ exports.seed = function (knex, Promise) {
                     rule: {
                         "monday": [28, 6, 25, 3],
                         "tuesday": [29, 4, 22, 30], 
-                        "wednesday": [29, 5, 23, 31], 
-                        "thursday": [18, 4, 22, 31], 
+                        "wednesday": [29, 5, 23, 1], 
+                        "thursday": [18, 4, 22, 1], 
                         "friday": [17, 24, 21, 29],
                         "saturday": [25, 2, 20, 27], 
                         "sunday": [2, 8, 26, 4]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 626,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/thicket-no-1-1990.jpg',
+                    title: 'Thicket No. 1',
+                    artist: 'Roni Horn',
+                    year: '1989 - 1990',
+                    rule: {
+                        "monday": [2, 8, 26, 4],
+                        "tuesday": [28, 6, 25, 3],  
+                        "wednesday": [29, 4, 22, 30], 
+                        "thursday": [29, 5, 23, 1], 
+                        "friday": [18, 4, 22, 1], 
+                        "saturday": [17, 24, 21, 29],
+                        "sunday": [25, 2, 20, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 627,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/grazing-in-peace-1970.jpg',
+                    title: 'Grazing in Peace',
+                    artist: 'Eyvind Earle',
+                    year: '1970',
+                    rule: {
+                        "monday": [25, 2, 20, 27],
+                        "tuesday": [2, 8, 26, 4],   
+                        "wednesday": [28, 6, 25, 3],  
+                        "thursday": [29, 4, 22, 30], 
+                        "friday": [29, 5, 23, 1], 
+                        "saturday": [18, 4, 22, 1], 
+                        "sunday": [17, 24, 21, 29] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 628,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/bird-boy-1995.jpg',
+                    title: 'Bird Boy',
+                    artist: 'Lenore Tawney',
+                    year: '1995',
+                    rule: {
+                        "monday": [17, 24, 21, 29],
+                        "tuesday": [25, 2, 20, 27], 
+                        "wednesday": [2, 8, 26, 4],   
+                        "thursday": [28, 6, 25, 3],  
+                        "friday": [29, 4, 22, 30], 
+                        "saturday": [29, 5, 23, 1], 
+                        "sunday": [18, 4, 22, 1]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 629,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/jeune-fille-au-chandail-rouge-1974.jpg',
+                    title: 'Jeune fille au chandail rouge',
+                    artist: 'Jean Paul Lemieux',
+                    year: '1974',
+                    rule: {
+                        "monday": [18, 4, 22, 1],
+                        "tuesday": [17, 24, 21, 29],
+                        "wednesday": [25, 2, 20, 27], 
+                        "thursday": [2, 8, 26, 4],   
+                        "friday": [28, 6, 25, 3],  
+                        "saturday": [29, 4, 22, 30], 
+                        "sunday": [29, 5, 23, 1]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 630,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/abstraction.jpg',
+                    title: 'Abstraction',
+                    artist: 'Louis Schanker',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 6, 24, 2],
+                        "tuesday": [19, 5, 23, 2],
+                        "wednesday": [18, 25, 22, 30], 
+                        "thursday": [26, 3, 21, 28],   
+                        "friday": [3, 9, 27, 5],  
+                        "saturday": [29, 5, 26, 4], 
+                        "sunday": [30, 5, 23, 1]  
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

@@ -13904,6 +13904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 696,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/restricted.jpeg',
+                    title: 'Negro Masks',
+                    artist: 'Malvin Gray Johnson',
+                    year: '1932',
+                    rule: {
+                        "monday": [23, 4, 29, 19],
+                        "tuesday": [13, 21, 29, 8], 
+                        "wednesday": [14, 23, 2, 10], 
+                        "thursday": [20, 25, 2, 12], 
+                        "friday": [19, 27, 6, 14], 
+                        "saturday": [21, 2, 8, 14],  
+                        "sunday": [23, 2, 10, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 697,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/4e3741f3ce66fa7a1288835393dfbe39.jpeg',
+                    title: 'Untitled Escape Collage',
+                    artist: 'Rashid Johnson',
+                    year: '2017',
+                    rule: {
+                        "monday": [23, 2, 10, 20],
+                        "tuesday": [23, 4, 29, 19], 
+                        "wednesday": [13, 21, 29, 8], 
+                        "thursday": [14, 23, 2, 10], 
+                        "friday": [20, 25, 2, 12], 
+                        "saturday": [19, 27, 6, 14], 
+                        "sunday": [21, 2, 8, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 698,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/restricted__111.jpeg',
+                    title: 'Lenox Avenue',
+                    artist: 'Sargent Claude Johnson',
+                    year: '1938',
+                    rule: {
+                        "monday": [21, 2, 8, 14],
+                        "tuesday": [23, 2, 10, 20], 
+                        "wednesday": [23, 4, 29, 19], 
+                        "thursday": [13, 21, 29, 8], 
+                        "friday": [14, 23, 2, 10], 
+                        "saturday": [20, 25, 2, 12], 
+                        "sunday": [19, 27, 6, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 699,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/c60c1e7538056493bf5470ad75a26577.jpg',
+                    title: 'Three Great Dancers',
+                    artist: 'William Johnson',
+                    year: '?',
+                    rule: {
+                        "monday":[19, 27, 6, 14],
+                        "tuesday":  [21, 2, 8, 14], 
+                        "wednesday": [23, 2, 10, 20], 
+                        "thursday": [23, 4, 29, 19], 
+                        "friday": [13, 21, 29, 8], 
+                        "saturday": [14, 23, 2, 10], 
+                        "sunday": [20, 25, 2, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 700,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Maskomorphosis-Calvin-B.jpg',
+                    title: 'Masckomophosis',
+                    artist: 'Calvin B. Jones',
+                    year: '?',
+                    rule: {
+                        "monday":[21, 26, 3, 13],
+                        "tuesday":  [20, 28, 7, 15], 
+                        "wednesday": [22, 3, 9, 15], 
+                        "thursday": [24, 3, 11, 21], 
+                        "friday": [24, 5, 1, 20], 
+                        "saturday": [14, 22, 1, 9], 
+                        "sunday": [15, 24, 3, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

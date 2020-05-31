@@ -7456,6 +7456,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 415,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=302471015/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://alexandriaofficial.bandcamp.com/album/journey',
+                    a_string: 'Journey by A l e x a n d r i a',
+                    rule: {
+                        "monday": [18, 10, 12, 14],
+                        "tuesday": [18, 12, 14, 16],
+                        "wednesday": [20, 14, 16, 22],
+                        "thursday": [21, 15, 17, 23],
+                        "saturday": [4, 8, 10, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 416,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2751566711/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://choukbwa.bandcamp.com/album/vodou-al-2',
+                    a_string: 'Vodou Alé by Chouk Bwa &amp; The Ångstromers',
+                    rule: {
+                        "monday": [4, 8, 10, 14],
+                        "tuesday": [18, 10, 12, 14],
+                        "wednesday": [18, 12, 14, 16],
+                        "thursday": [20, 14, 16, 22],
+                        "saturday": [21, 15, 17, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 417,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2593393361/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sicrecords.bandcamp.com/album/deadly-verses',
+                    a_string: 'Deadly Verses by Gangsta Pat',
+                    rule: {
+                        "monday": [21, 15, 17, 23],
+                        "tuesday": [4, 8, 10, 14],  
+                        "wednesday": [18, 10, 12, 14],
+                        "thursday": [18, 12, 14, 16],
+                        "saturday": [20, 14, 16, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
