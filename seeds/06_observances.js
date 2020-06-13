@@ -11886,6 +11886,34 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 764,
+                    user_id: 1,
+                    name: 'Jim Hall (guitar) born 1930',
+                    color: '#43579a',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/jim-hall-580.jpeg',
+                    day_of: new Date('1930-12-04  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 765,
+                    user_id: 1,
+                    name: 'Óscar Romero (dissident/perlate) born 1917',
+                    color: '#c49da2',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Monsen%CC%83or_Romero_(colour).jpg',
+                    day_of: new Date('1917-08-15  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

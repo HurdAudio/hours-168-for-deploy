@@ -7402,6 +7402,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 412,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1521988680/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://noveller.bandcamp.com/album/arrow',
+                    a_string: 'Arrow by Noveller',
+                    rule: {
+                        "monday": [2, 8, 14, 22],
+                        "tuesday": [1, 7, 12, 21],  
+                        "wednesday": [31, 6, 12, 21], 
+                        "thursday": [29, 5, 11, 19], 
+                        "saturday": [29, 4, 10, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 413,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3961907389/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://nailahhunter.bandcamp.com/album/spells',
+                    a_string: 'Spells by Nailah Hunter',
+                    rule: {
+                        "monday": [30, 5, 11, 19],
+                        "tuesday": [3, 9, 15, 23],  
+                        "wednesday": [2, 8, 13, 22], 
+                        "thursday": [1, 7, 13, 22], 
+                        "saturday": [30, 6, 12, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 414,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2046396637/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://principediscos.bandcamp.com/album/n-o-fales-nela-que-a-mentes',
+                    a_string: 'Não Fales Nela Que A Mentes by NÍDIA',
+                    rule: {
+                        "monday": [30, 6, 12, 20],
+                        "tuesday": [30, 5, 11, 19], 
+                        "wednesday": [3, 9, 15, 23],  
+                        "thursday": [2, 8, 13, 22],  
+                        "saturday": [1, 7, 13, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -12404,6 +12404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 621,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_childred_of_earth.jpg',
+                    title: 'Peace to the children of the Earth!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 8, 19, 23],
+                        "tuesday": [27, 7, 17, 22], 
+                        "wednesday": [5, 6, 17, 21],  
+                        "thursday": [1, 12, 23, 27], 
+                        "friday": [31, 11, 22, 26],
+                        "saturday": [30, 10, 21, 25],
+                        "sunday": [29, 9, 21, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 622,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_child_mother.jpg',
+                    title: 'Peace to the children of all the planet.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 9, 21, 24],
+                        "tuesday": [28, 8, 19, 23], 
+                        "wednesday": [27, 7, 17, 22], 
+                        "thursday": [5, 6, 17, 21],  
+                        "friday": [1, 12, 23, 27], 
+                        "saturday": [31, 11, 22, 26],
+                        "sunday": [30, 10, 21, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 623,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_child_helmet.jpg',
+                    title: 'A child is inside a soldier helmet - kaska.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [31, 11, 22, 26],
+                        "tuesday": [30, 10, 22, 25], 
+                        "wednesday": [29, 9, 20, 24], 
+                        "thursday": [28, 8, 18, 23],  
+                        "friday": [6, 7, 18, 22], 
+                        "saturday": [2, 13, 24, 28],
+                        "sunday": [1, 12, 23, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 624,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_child_earth.jpg',
+                    title: 'Peace between USA and Soviet Union',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 12, 23, 27],
+                        "tuesday": [31, 11, 22, 26],
+                        "wednesday": [30, 10, 22, 25],
+                        "thursday": [29, 9, 20, 24], 
+                        "friday": [28, 8, 18, 23], 
+                        "saturday": [6, 7, 18, 22],  
+                        "sunday": [2, 13, 24, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 625,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_child_draw.jpg',
+                    title: 'No need for bombs!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 13, 24, 28],
+                        "tuesday": [1, 12, 23, 27], 
+                        "wednesday": [31, 11, 22, 26],
+                        "thursday": [30, 10, 22, 25],
+                        "friday": [29, 9, 20, 24], 
+                        "saturday": [28, 8, 18, 23], 
+                        "sunday": [6, 7, 18, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

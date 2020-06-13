@@ -1628,6 +1628,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#c9a896',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 117,
+                    user_id: 1,
+                    theme: 'Glass',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/tim-mossholder-cxOVig_feVA-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#191817',
+                    color_medium: '#55614e',
+                    color_light: '#c3b19a',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

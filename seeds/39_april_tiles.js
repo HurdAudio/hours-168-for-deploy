@@ -1614,6 +1614,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#c7c77d',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 116,
+                    user_id: 1,
+                    theme: 'Water',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april_tiles/mohamed-ajufaan-SMjZ9NzZUh0-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#073d51',
+                    color_medium: '#41b8d5',
+                    color_light: '#bbcdd2',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

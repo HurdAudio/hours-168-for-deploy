@@ -13804,6 +13804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 691,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/self-portrait-at-the-clavichord-with-a-servant-1577.jpg',
+                    title: 'Self-Portrait at the Clavichord with a Servant',
+                    artist: 'Lavinia Fontana',
+                    year: '1577',
+                    rule: {
+                        "monday": [1, 11, 19, 29],
+                        "tuesday": [31, 10, 19, 28],
+                        "wednesday": [6, 15, 25, 2],  
+                        "thursday": [5, 15, 23, 2],  
+                        "friday": [3, 14, 22, 1],  
+                        "saturday": [3, 13, 21, 31], 
+                        "sunday": [2, 13, 20, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 692,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/portrait-of-a-physician-1605.jpg',
+                    title: 'Portrait of a Physician',
+                    artist: 'Fede Galizia',
+                    year: '1605',
+                    rule: {
+                        "monday": [2, 13, 20, 30],
+                        "tuesday": [1, 11, 19, 29], 
+                        "wednesday": [31, 10, 19, 28],
+                        "thursday": [6, 15, 25, 2],  
+                        "friday": [5, 15, 23, 2],  
+                        "saturday": [3, 14, 22, 1],  
+                        "sunday": [3, 13, 21, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 693,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/display-image-11.jpg',
+                    title: 'Market Scene with a Pick-pocket',
+                    artist: 'Louise Moillon',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 14, 22, 1],
+                        "tuesday": [3, 14, 21, 31], 
+                        "wednesday": [2, 12, 20, 30],
+                        "thursday": [1, 11, 20, 29],  
+                        "friday": [7, 16, 26, 3],  
+                        "saturday": [6, 16, 24, 3],  
+                        "sunday": [3, 15, 23, 2]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 694,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/frances-pierrepont-duchess-of-newcastle-1630-1695-by-mary-beale.jpg',
+                    title: 'Frances Pierrepont, Duchess of Newcastle (1630-1695)',
+                    artist: 'Mary Beale',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 15, 23, 2],
+                        "tuesday": [4, 14, 22, 1],  
+                        "wednesday": [3, 14, 21, 31], 
+                        "thursday": [2, 12, 20, 30], 
+                        "friday": [1, 11, 20, 29], 
+                        "saturday": [7, 16, 26, 3],  
+                        "sunday": [6, 16, 24, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 695,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/flora-1730.jpg',
+                    title: 'Flora',
+                    artist: 'Rosalba Carriera',
+                    year: '1730',
+                    rule: {
+                        "monday": [6, 16, 24, 3],
+                        "tuesday": [3, 15, 23, 2],  
+                        "wednesday": [4, 14, 22, 1],  
+                        "thursday": [3, 14, 21, 31], 
+                        "friday": [2, 12, 20, 30], 
+                        "saturday": [1, 11, 20, 29], 
+                        "sunday": [7, 16, 26, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

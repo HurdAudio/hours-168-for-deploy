@@ -12804,6 +12804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 641,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/garden-of-allah-1918.jpg',
+                    title: 'Garden of Allah',
+                    artist: 'Maxfield Parrish',
+                    year: '1918',
+                    rule: {
+                        "monday": [27, 30, 8, 24],
+                        "tuesday": [2, 6, 14, 30],  
+                        "wednesday": [1, 4, 13, 29],  
+                        "thursday": [30, 4, 12, 28], 
+                        "friday": [30, 1, 11, 27], 
+                        "saturday": [29, 31, 10, 26],
+                        "sunday": [28, 31, 9, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 642,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/jean-blo-niestl-1921.jpg',
+                    title: 'Jean Bloé Niestlé',
+                    artist: 'Heinrich Campendonk',
+                    year: '1921',
+                    rule: {
+                        "monday": [28, 31, 9, 25],
+                        "tuesday": [27, 30, 8, 24], 
+                        "wednesday": [2, 6, 14, 30],  
+                        "thursday": [1, 4, 13, 29],  
+                        "friday": [30, 4, 12, 28], 
+                        "saturday": [30, 1, 11, 27], 
+                        "sunday": [29, 31, 10, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 643,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-nile-at-aswan.jpg',
+                    title: 'The Nile at Aswan',
+                    artist: 'Max Slevogt',
+                    year: '1914',
+                    rule: {
+                        "monday": [29, 31, 10, 26],
+                        "tuesday": [28, 31, 9, 25], 
+                        "wednesday": [27, 30, 8, 24], 
+                        "thursday": [2, 6, 14, 30],  
+                        "friday": [1, 4, 13, 29],  
+                        "saturday": [30, 4, 12, 28], 
+                        "sunday": [30, 1, 11, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 644,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/departure-of-fishing-boats-1900.jpg',
+                    title: 'Departure of Fishing Boats',
+                    artist: 'Maxime Maufra',
+                    year: '1900',
+                    rule: {
+                        "monday": [31, 2, 12, 28],
+                        "tuesday": [30, 1, 11, 27], 
+                        "wednesday": [29, 1, 10, 26], 
+                        "thursday": [28, 31, 9, 25],  
+                        "friday": [3, 7, 15, 31],  
+                        "saturday": [2, 5, 14, 30], 
+                        "sunday": [31, 5, 13, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 645,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/elisium-1906.jpg',
+                    title: 'Elisium',
+                    artist: 'Leon Bakst',
+                    year: '1906',
+                    rule: {
+                        "monday": [31, 5, 13, 29],
+                        "tuesday": [31, 2, 12, 28], 
+                        "wednesday": [30, 1, 11, 27], 
+                        "thursday": [29, 1, 10, 26], 
+                        "friday": [28, 31, 9, 25], 
+                        "saturday": [3, 7, 15, 31],  
+                        "sunday": [2, 5, 14, 30]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

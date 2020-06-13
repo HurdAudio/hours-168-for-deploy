@@ -6862,6 +6862,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 382,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2957025569/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jazzcerkno.bandcamp.com/album/age-of-chaos',
+                    a_string: 'Age Of Chaos by Cene Resnik Free Stellar Trio + Rob Mazurek',
+                    rule: {
+                        "monday": [3, 11, 24, 23],
+                        "tuesday": [2, 10, 23, 22], 
+                        "wednesday": [1, 9, 22, 21],  
+                        "thursday": [31, 8, 21, 20], 
+                        "saturday": [30, 7, 20, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 383,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=854479678/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://luislopes.bandcamp.com/album/noise-solo',
+                    a_string: 'Noise Solo by Luis Lopes',
+                    rule: {
+                        "monday": [30, 7, 20, 19],
+                        "tuesday": [3, 11, 24, 23], 
+                        "wednesday": [2, 10, 23, 22], 
+                        "thursday": [1, 9, 22, 21],  
+                        "saturday": [31, 8, 21, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 384,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=193908465/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://luislopes.bandcamp.com/album/the-pineapple-circunstance',
+                    a_string: 'The Pineapple Circunstance by Luis Lopes / Fred Lonberg-holm',
+                    rule: {
+                        "monday": [31, 8, 21, 20],
+                        "tuesday": [30, 7, 20, 19], 
+                        "wednesday": [3, 11, 24, 23], 
+                        "thursday": [2, 10, 23, 22], 
+                        "saturday": [1, 9, 22, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

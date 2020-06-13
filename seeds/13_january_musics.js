@@ -7618,6 +7618,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 424,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2152016612/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/j-rg-frey-piano-music',
+                    a_string: 'Jürg Frey: Piano Music by R. Andrew Lee',
+                    rule: {
+                        "monday": [8, 15, 16, 17],
+                        "tuesday": [7, 13, 14, 16], 
+                        "wednesday": [6, 13, 14, 15], 
+                        "thursday": [5, 11, 12, 13], 
+                        "saturday": [4, 11, 12, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 425,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1088103409/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/one-gate-one-hundred-paths-one-arrival-for-john-cage-2',
+                    a_string: 'One Gate, One Hundred Paths, One Arrival (for John Cage) by David D. McIntire',
+                    rule: {
+                        "monday": [4, 11, 12, 13],
+                        "tuesday": [8, 15, 16, 17], 
+                        "wednesday": [7, 13, 14, 16], 
+                        "thursday": [6, 13, 14, 15], 
+                        "saturday": [5, 11, 12, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 426,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3027320411/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/queen-of-heaven',
+                    a_string: 'Queen of Heaven by Scott Blasco',
+                    rule: {
+                        "monday": [5, 11, 12, 13],
+                        "tuesday": [4, 11, 12, 13], 
+                        "wednesday": [8, 15, 16, 17], 
+                        "thursday": [7, 13, 14, 16], 
+                        "saturday": [6, 13, 14, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

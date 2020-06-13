@@ -12604,6 +12604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 631,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/an-accordment-73-1973.jpg',
+                    title: 'An Accordment #73',
+                    artist: 'Perle Fine',
+                    year: '1973',
+                    rule: {
+                        "monday": [30, 5, 23, 1],
+                        "tuesday": [30, 6, 24, 2],  
+                        "wednesday": [19, 5, 23, 2],  
+                        "thursday": [18, 25, 22, 30],
+                        "friday": [26, 3, 21, 28], 
+                        "saturday": [3, 9, 27, 5],   
+                        "sunday": [29, 5, 26, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 632,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/great-criticism-coca-cola-2005.jpg',
+                    title: 'Great Criticism – Coca-Cola',
+                    artist: 'Wang Guangyi',
+                    year: '2005',
+                    rule: {
+                        "monday": [29, 5, 26, 4],
+                        "tuesday": [30, 5, 23, 1],  
+                        "wednesday": [30, 6, 24, 2],  
+                        "thursday": [19, 5, 23, 2],  
+                        "friday": [18, 25, 22, 30],
+                        "saturday": [26, 3, 21, 28], 
+                        "sunday": [3, 9, 27, 5]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 633,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-graphic-composition-1951-5(1).jpg',
+                    title: 'Untitled (Graphic Composition)',
+                    artist: 'Bruno Munari',
+                    year: '1951',
+                    rule: {
+                        "monday": [3, 9, 27, 5],
+                        "tuesday": [29, 5, 26, 4],  
+                        "wednesday": [30, 5, 23, 1],  
+                        "thursday": [30, 6, 24, 2],  
+                        "friday": [19, 5, 23, 2],  
+                        "saturday": [18, 25, 22, 30],
+                        "sunday": [26, 3, 21, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 634,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/orange-1973.jpg',
+                    title: 'Orange',
+                    artist: 'Robert Goodnough',
+                    year: '1973',
+                    rule: {
+                        "monday": [26, 3, 21, 28],
+                        "tuesday": [3, 9, 27, 5],   
+                        "wednesday": [29, 5, 26, 4],  
+                        "thursday": [30, 5, 23, 1],  
+                        "friday": [30, 6, 24, 2],  
+                        "saturday": [19, 5, 23, 2],  
+                        "sunday": [18, 25, 22, 30] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 635,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/spring-aspen-2000.jpg',
+                    title: 'Spring Aspen',
+                    artist: 'Anne Appleby',
+                    year: '2000',
+                    rule: {
+                        "monday": [18, 25, 22, 30],
+                        "tuesday": [26, 3, 21, 28], 
+                        "wednesday": [3, 9, 27, 5],   
+                        "thursday": [29, 5, 26, 4],  
+                        "friday": [30, 5, 23, 1],  
+                        "saturday": [30, 6, 24, 2],  
+                        "sunday": [19, 5, 23, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

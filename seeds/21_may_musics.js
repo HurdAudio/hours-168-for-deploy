@@ -7186,6 +7186,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 400,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1342824661/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://astraldoberman.bandcamp.com/album/illusory-expansion',
+                    a_string: 'illusory expansion by Crazy Doberman',
+                    rule: {
+                        "monday": [28, 3, 10, 23],
+                        "tuesday": [27, 2, 9, 22],  
+                        "wednesday": [26, 1, 8, 21],  
+                        "thursday": [25, 31, 7, 20], 
+                        "saturday": [29, 4, 11, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 401,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2189811208/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://dial.bandcamp.com/album/trace',
+                    a_string: 'Trace by Dial',
+                    rule: {
+                        "monday": [29, 4, 11, 24],
+                        "tuesday": [28, 3, 10, 23], 
+                        "wednesday": [27, 2, 9, 22],  
+                        "thursday": [26, 1, 8, 21],  
+                        "saturday": [25, 31, 7, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 402,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3244372808/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://feedingtuberecords.bandcamp.com/album/option',
+                    a_string: 'Option by Don Dietrich',
+                    rule: {
+                        "monday": [25, 31, 7, 20],
+                        "tuesday": [29, 4, 11, 24], 
+                        "wednesday": [28, 3, 10, 23], 
+                        "thursday": [27, 2, 9, 22],  
+                        "saturday": [26, 1, 8, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -12004,6 +12004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 601,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/46-11,MamDt.jpg',
+                    title: 'Mammoth Detective',
+                    artist: 'Harold McCauley',
+                    year: '1946',
+                    rule: {
+                        "monday": [24, 6, 14, 20],
+                        "tuesday": [23, 5, 13, 19], 
+                        "wednesday": [22, 3, 2, 18],  
+                        "thursday": [11, 3, 22, 29], 
+                        "friday": [27, 9, 17, 23], 
+                        "saturday": [26, 7, 16, 22], 
+                        "sunday": [25, 7, 15, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 602,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-08,FunnyPages.jpg',
+                    title: 'The Comics',
+                    artist: 'M. MacIntyre',
+                    year: '1936',
+                    rule: {
+                        "monday": [26, 8, 16, 22],
+                        "tuesday": [25, 7, 15, 21], 
+                        "wednesday": [24, 6, 14, 20],  
+                        "thursday": [23, 4, 3, 19], 
+                        "friday": [12, 4, 23, 30], 
+                        "saturday": [28, 10, 18, 24], 
+                        "sunday": [27, 8, 17, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 603,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/25-05,FrntrS.jpg',
+                    title: 'The Frontier',
+                    artist: 'James C. McKell',
+                    year: '1925',
+                    rule: {
+                        "monday": [27, 8, 17, 23],
+                        "tuesday": [26, 8, 16, 22], 
+                        "wednesday": [25, 7, 15, 21], 
+                        "thursday": [24, 6, 14, 20], 
+                        "friday": [23, 4, 3, 19],  
+                        "saturday": [12, 4, 23, 30], 
+                        "sunday": [28, 10, 18, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 604,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/28-11-15,Adv.jpg',
+                    title: 'Adventure',
+                    artist: 'Duncan McMillan',
+                    year: '1928',
+                    rule: {
+                        "monday": [28, 10, 18, 24],
+                        "tuesday": [27, 8, 17, 23], 
+                        "wednesday": [26, 8, 16, 22], 
+                        "thursday": [25, 7, 15, 21], 
+                        "friday": [24, 6, 14, 20], 
+                        "saturday": [23, 4, 3, 19],  
+                        "sunday": [12, 4, 23, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 605,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/19-05,TheCentury.jpg',
+                    title: 'The Century',
+                    artist: 'William McNulty',
+                    year: '1919',
+                    rule: {
+                        "monday": [12, 4, 23, 30],
+                        "tuesday": [28, 10, 18, 24],
+                        "wednesday": [27, 8, 17, 23], 
+                        "thursday": [26, 8, 16, 22], 
+                        "friday": [25, 7, 15, 21], 
+                        "saturday": [24, 6, 14, 20], 
+                        "sunday": [23, 4, 3, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

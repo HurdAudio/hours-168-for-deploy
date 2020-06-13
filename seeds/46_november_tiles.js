@@ -1516,6 +1516,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#d2d6d8',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 109,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/eduardo-alvarado-u9tSAjjvlVY-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#2b2d2e',
+                    color_medium: '#8e8f91',
+                    color_light: '#bcbec0',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

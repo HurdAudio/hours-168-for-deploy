@@ -1600,6 +1600,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#9fd3d0',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 115,
+                    user_id: 1,
+                    theme: 'Greenery',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/k8-VdJrwCeWEl8-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#041704',
+                    color_medium: '#195e09',
+                    color_light: '#bad33b',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

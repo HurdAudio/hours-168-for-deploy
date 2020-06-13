@@ -12971,7 +12971,7 @@ exports.seed = function (knex, Promise) {
                     theme: 'French',
                     img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/etang-la-nuit-1947.jpg',
                     title: 'Etang la nuit',
-                    artist: 'acques Busse',
+                    artist: 'Jacques Busse',
                     year: '1947',
                     rule: {
                         "monday": [30, 10, 21, 22],
@@ -13001,6 +13001,106 @@ exports.seed = function (knex, Promise) {
                         "friday": [27, 7, 29, 30], 
                         "saturday": [1, 10, 23, 3],  
                         "sunday": [1, 9, 23, 3]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 651,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/adam-and-eve.jpg',
+                    title: 'Adam and Eve',
+                    artist: 'Jean Benoit',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 10, 24, 4],
+                        "tuesday": [31, 11, 23, 3],
+                        "wednesday": [31, 11, 22, 23], 
+                        "thursday": [30, 10, 20, 22], 
+                        "friday": [27, 7, 29, 30], 
+                        "saturday": [28, 8, 30, 31],  
+                        "sunday": [2, 11, 24, 4]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 652,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/composition-1950.jpg',
+                    title: 'Composition',
+                    artist: 'Jean Messagier',
+                    year: '1950',
+                    rule: {
+                        "monday": [2, 11, 24, 4],
+                        "tuesday": [2, 10, 24, 4],  
+                        "wednesday": [31, 11, 23, 3], 
+                        "thursday": [31, 11, 22, 23],
+                        "friday": [30, 10, 20, 22],
+                        "saturday": [27, 7, 29, 30], 
+                        "sunday": [28, 8, 30, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 653,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/1-07-2001-2001.jpg',
+                    title: '1-07-2001',
+                    artist: 'Zao Wou-Ki',
+                    year: '2001',
+                    rule: {
+                        "monday": [28, 8, 30, 31],
+                        "tuesday": [2, 11, 24, 4],  
+                        "wednesday": [2, 10, 24, 4],  
+                        "thursday": [31, 11, 23, 3], 
+                        "friday": [31, 11, 22, 23],
+                        "saturday": [30, 10, 20, 22],
+                        "sunday": [27, 7, 29, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 654,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/saint-mand.jpg',
+                    title: 'Saint-Mandé',
+                    artist: 'Maurice Boitel',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 7, 29, 30],
+                        "tuesday": [28, 8, 30, 31], 
+                        "wednesday": [2, 11, 24, 4],  
+                        "thursday": [2, 10, 24, 4],  
+                        "friday": [31, 11, 23, 3], 
+                        "saturday": [31, 11, 22, 23],
+                        "sunday": [30, 10, 20, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 655,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/playa-1984.jpg',
+                    title: 'Playa',
+                    artist: 'Carlos Nadal',
+                    year: '1984',
+                    rule: {
+                        "monday": [30, 10, 20, 22],
+                        "tuesday": [27, 7, 29, 30], 
+                        "wednesday": [28, 8, 30, 31], 
+                        "thursday": [2, 11, 24, 4],  
+                        "friday": [2, 10, 24, 4],  
+                        "saturday": [31, 11, 23, 3], 
+                        "sunday": [31, 11, 22, 23] 
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

@@ -7078,6 +7078,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 394,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=175547016/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ianwilliamcraig.bandcamp.com/album/red-sun-through-smoke',
+                    a_string: 'Red Sun Through Smoke by Ian William Craig',
+                    rule: {
+                        "monday": [27, 1, 27, 18],
+                        "tuesday": [26, 29, 4, 16], 
+                        "wednesday": [25, 28, 4, 15], 
+                        "thursday": [25, 28, 4, 14], 
+                        "saturday": [23, 1, 3, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 395,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=540892589/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://shop.mentalgroove.ch/album/collected-ambient-grooves-1993-2001',
+                    a_string: 'Collected Ambient Grooves 1993 - 2001 by Osamu Sato',
+                    rule: {
+                        "monday": [23, 1, 3, 18],
+                        "tuesday": [27, 1, 27, 18], 
+                        "wednesday": [26, 29, 4, 16], 
+                        "thursday": [25, 28, 4, 15], 
+                        "saturday": [25, 28, 4, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 396,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2355753207/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://celer.bandcamp.com/album/could-i-not-be-saved-after-all-that',
+                    a_string: 'Could I Not Be Saved After All That? by Celer',
+                    rule: {
+                        "monday": [25, 28, 4, 14],
+                        "tuesday": [23, 1, 3, 18],  
+                        "wednesday": [27, 1, 27, 18], 
+                        "thursday": [26, 29, 4, 16], 
+                        "saturday": [25, 28, 4, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

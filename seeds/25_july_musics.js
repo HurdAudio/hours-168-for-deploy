@@ -6970,6 +6970,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4260390995/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://madaboutrecordslabel.bandcamp.com/album/luiz-carlos-vinhas-o-som-psicod-lico-de-l-c-v',
+                    a_string: 'Luiz Carlos Vinhas - &quot;O Som Psicodélico De L. C. V.&quot; by MAD ABOUT RECORDS',
+                    rule: {
+                        "monday": [26, 28, 1, 9],
+                        "tuesday": [25, 27, 31, 8], 
+                        "wednesday": [24, 26, 30, 7], 
+                        "thursday": [23, 24, 39, 6], 
+                        "saturday": [22, 24, 28, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2387066049/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://deerhoof.bandcamp.com/album/future-teenage-cave-artists',
+                    a_string: 'Future Teenage Cave Artists by Deerhoof',
+                    rule: {
+                        "monday": [22, 24, 28, 5],
+                        "tuesday": [26, 28, 1, 9],  
+                        "wednesday": [25, 27, 31, 8], 
+                        "thursday": [24, 26, 30, 7], 
+                        "saturday": [23, 24, 39, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2477291838/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jeffrosenstock.bandcamp.com/album/no-dream',
+                    a_string: 'NO DREAM by Jeff Rosenstock',
+                    rule: {
+                        "monday": [23, 24, 39, 6],
+                        "tuesday": [22, 24, 28, 5], 
+                        "wednesday": [26, 28, 1, 9],  
+                        "thursday": [25, 27, 31, 8], 
+                        "saturday": [24, 26, 30, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

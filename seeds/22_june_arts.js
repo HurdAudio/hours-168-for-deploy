@@ -13204,6 +13204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 661,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/foggy_venice_by_coccineus_das8c8y-fullview.jpg',
+                    title: 'Foggy Venice',
+                    artist: 'Coccineus',
+                    year: '2016',
+                    rule: {
+                        "monday": [4, 14, 24, 1],
+                        "tuesday": [3, 13, 24, 1],  
+                        "wednesday": [1, 12, 22, 20], 
+                        "thursday": [1, 11, 21, 28], 
+                        "friday": [10, 20, 30, 28],
+                        "saturday": [29, 9, 19, 27], 
+                        "sunday": [28, 8, 18, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 662,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d5hasci-07f142da-7fca-4eb1-b9c1-9de59a5c8db1.jpg',
+                    title: 'Silent reflections at dusk',
+                    artist: 'SSquared-Photography',
+                    year: '2012',
+                    rule: {
+                        "monday": [28, 8, 18, 26],
+                        "tuesday": [4, 14, 24, 1],  
+                        "wednesday": [3, 13, 24, 1],  
+                        "thursday": [1, 12, 22, 20], 
+                        "friday": [1, 11, 21, 28], 
+                        "saturday": [10, 20, 30, 28],
+                        "sunday": [29, 9, 19, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 663,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/poem_of_umbrellas_by_piroshki_photography_d6h69zf-fullview.jpg',
+                    title: 'Poem of umbrellas',
+                    artist: 'Piroshki-Photography',
+                    year: '2013',
+                    rule: {
+                        "monday": [29, 9, 19, 27],
+                        "tuesday": [28, 8, 18, 26], 
+                        "wednesday": [4, 14, 24, 1],  
+                        "thursday": [3, 13, 24, 1],  
+                        "friday": [1, 12, 22, 20], 
+                        "saturday": [1, 11, 21, 28], 
+                        "sunday": [10, 20, 30, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 664,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/civilization_by_pajunen_d7l57kj-fullview.jpg',
+                    title: 'Civilization',
+                    artist: 'Pajunen',
+                    year: '2014',
+                    rule: {
+                        "monday": [10, 20, 30, 28],
+                        "tuesday": [29, 9, 19, 27], 
+                        "wednesday": [28, 8, 18, 26], 
+                        "thursday": [4, 14, 24, 1],  
+                        "friday": [3, 13, 24, 1],  
+                        "saturday": [1, 12, 22, 20], 
+                        "sunday": [1, 11, 21, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 665,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d5k1ig9-ef4450fb-5102-4b4d-8bb3-e32f1450f94d.jpg',
+                    title: 'Venetian Blue Hours',
+                    artist: 'SSquared-Photography',
+                    year: '2012',
+                    rule: {
+                        "monday": [2, 12, 22, 29],
+                        "tuesday": [11, 21, 1, 29], 
+                        "wednesday": [30, 10, 20, 28], 
+                        "thursday": [29, 9, 19, 27],  
+                        "friday": [5, 15, 25, 2],  
+                        "saturday": [4, 14, 25, 2], 
+                        "sunday": [2, 13, 23, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

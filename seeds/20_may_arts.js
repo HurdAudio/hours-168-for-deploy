@@ -13404,6 +13404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 671,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-22fewieufhiuoaisudhf.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 8, 18, 7],
+                        "tuesday": [27, 7, 17, 27], 
+                        "wednesday": [25, 4, 14, 22], 
+                        "thursday": [23, 1, 13, 22], 
+                        "friday": [2, 14, 24, 1],  
+                        "saturday": [2, 13, 22, 1],  
+                        "sunday": [31, 10, 18, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 672,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-23feioh88hkoadf.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 11, 19, 21],
+                        "tuesday": [29, 9, 19, 8], 
+                        "wednesday": [28, 8, 18, 28], 
+                        "thursday": [26, 5, 15, 23], 
+                        "friday": [24, 2, 14, 23],  
+                        "saturday": [3, 15, 25, 2],  
+                        "sunday": [3, 14, 23, 2] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 673,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-24f83osdigff.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 14, 23, 2],
+                        "tuesday": [1, 11, 19, 21], 
+                        "wednesday": [29, 9, 19, 8],  
+                        "thursday": [28, 8, 18, 28], 
+                        "friday": [26, 5, 15, 23], 
+                        "saturday": [24, 2, 14, 23], 
+                        "sunday": [3, 15, 25, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 674,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/untitled-25o10euosgig44djksh.jpg',
+                    title: 'Untitled',
+                    artist: 'Kukryniksy',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 15, 25, 2],
+                        "tuesday": [3, 14, 23, 2],  
+                        "wednesday": [1, 11, 19, 21], 
+                        "thursday": [29, 9, 19, 8],  
+                        "friday": [28, 8, 18, 28], 
+                        "saturday": [26, 5, 15, 23], 
+                        "sunday": [24, 2, 14, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 675,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/child-s-drawing.jpg',
+                    title: 'Child\'s drawing',
+                    artist: 'Aleksandr Deyneka',
+                    year: '1903',
+                    rule: {
+                        "monday": [24, 2, 14, 23],
+                        "tuesday": [3, 15, 25, 2],  
+                        "wednesday": [3, 14, 23, 2],  
+                        "thursday": [1, 11, 19, 21], 
+                        "friday": [29, 9, 19, 8],  
+                        "saturday": [28, 8, 18, 28], 
+                        "sunday": [26, 5, 15, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

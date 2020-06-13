@@ -6646,6 +6646,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 370,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=965643960/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://primocassetto.bandcamp.com/album/sogni-2',
+                    a_string: 'Sogni by Primo!',
+                    rule: {
+                        "monday": [27, 6, 17, 19],
+                        "tuesday": [26, 5, 15, 18], 
+                        "wednesday": [30, 9, 19, 22], 
+                        "thursday": [29, 8, 18, 21], 
+                        "saturday": [28, 8, 17, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 371,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1312095842/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ironlungpv.bandcamp.com/album/in-due-time-7-lungs-161',
+                    a_string: 'In Due Time 7&quot; (LUNGS-161) by C.H.E.W.',
+                    rule: {
+                        "monday": [29, 9, 18, 21],
+                        "tuesday": [28, 7, 18, 20], 
+                        "wednesday": [27, 6, 16, 19], 
+                        "thursday": [31, 10, 20, 23], 
+                        "saturday": [30, 9, 19, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 372,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3797201692/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://notnormaltapes.bandcamp.com/album/nni-006-cb-radio-gorgeous-ep',
+                    a_string: 'NNI#006 CB Radio Gorgeous - EP by Not Normal Tapes',
+                    rule: {
+                        "monday": [30, 9, 19, 22],
+                        "tuesday": [29, 9, 18, 21], 
+                        "wednesday": [28, 7, 18, 20], 
+                        "thursday": [27, 6, 16, 19], 
+                        "saturday": [31, 10, 20, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

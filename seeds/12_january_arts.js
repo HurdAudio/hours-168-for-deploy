@@ -14204,6 +14204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 711,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-36.jpg',
+                    title: 'Composition 36',
+                    artist: 'Stefan Sevastre',
+                    year: 'XX Cent.',
+                    rule: {
+                        "monday": [21, 23, 27, 30],
+                        "tuesday": [23, 25, 26, 27],
+                        "wednesday": [11, 13, 5, 25], 
+                        "thursday": [11, 13, 5, 25], 
+                        "friday": [16, 14, 6, 9],  
+                        "saturday": [16, 17, 8, 12], 
+                        "sunday": [19, 21, 22, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 712,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-10.jpg',
+                    title: 'Composition 10',
+                    artist: 'Stefan Sevastre',
+                    year: 'XX Cent.',
+                    rule: {
+                        "monday": [19, 21, 22, 24],
+                        "tuesday": [21, 23, 27, 30],
+                        "wednesday": [23, 25, 26, 27],
+                        "thursday": [11, 13, 5, 25], 
+                        "friday": [11, 13, 5, 25], 
+                        "saturday": [16, 14, 6, 9],  
+                        "sunday": [16, 17, 8, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 713,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/not_detected_227971composition.jpg',
+                    title: 'Composition',
+                    artist: 'Joan Miro',
+                    year: '1927',
+                    rule: {
+                        "monday": [16, 17, 8, 12],
+                        "tuesday": [19, 21, 22, 24],
+                        "wednesday": [21, 23, 27, 30],
+                        "thursday": [23, 25, 26, 27],
+                        "friday": [11, 13, 5, 25], 
+                        "saturday": [11, 13, 5, 25], 
+                        "sunday": [16, 14, 6, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 714,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/the-circus-house.jpg',
+                    title: 'The Circus House',
+                    artist: 'Joan Miro',
+                    year: '1927',
+                    rule: {
+                        "monday": [17, 15, 7, 10],
+                        "tuesday": [17, 18, 9, 13],
+                        "wednesday": [20, 22, 23, 25],
+                        "thursday": [22, 24, 28, 31],
+                        "friday": [24, 26, 27, 28], 
+                        "saturday": [12, 14, 6, 26], 
+                        "sunday": [12, 14, 6, 26]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 715,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/child-horse-flower-and-snake-1927.jpg',
+                    title: 'Child, Horse, Flower and Snake',
+                    artist: 'Max Ernst',
+                    year: '1927',
+                    rule: {
+                        "monday": [12, 14, 6, 26],
+                        "tuesday": [17, 15, 7, 10], 
+                        "wednesday": [17, 18, 9, 13], 
+                        "thursday": [20, 22, 23, 25],
+                        "friday": [22, 24, 28, 31],
+                        "saturday": [24, 26, 27, 28],
+                        "sunday": [12, 14, 6, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

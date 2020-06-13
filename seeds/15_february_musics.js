@@ -7510,6 +7510,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 418,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1786971325/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://leeperry.bandcamp.com/album/the-mighty-upsetter',
+                    a_string: 'The Mighty Upsetter by Lee &quot;Scratch&quot; Perry',
+                    rule: {
+                        "monday": [20, 14, 16, 22],
+                        "tuesday": [21, 15, 17, 23],
+                        "wednesday": [4, 8, 10, 14],  
+                        "thursday": [18, 10, 12, 14],
+                        "saturday": [18, 12, 14, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 419,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4270306678/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://maxromeoariwa.bandcamp.com/album/pocomania-songs',
+                    a_string: 'Pocomania Songs by Max Romeo',
+                    rule: {
+                        "monday": [18, 12, 14, 16],
+                        "tuesday": [20, 14, 16, 22],
+                        "wednesday": [21, 15, 17, 23],
+                        "thursday": [4, 8, 10, 14],  
+                        "saturday": [18, 10, 12, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 420,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3425780263/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://augustuspablo.bandcamp.com/album/earths-rightful-ruler',
+                    a_string: 'Earth&#39;s Rightful Ruler by Augustus Pablo',
+                    rule: {
+                        "monday": [19, 11, 13, 15],
+                        "tuesday": [19, 13, 15, 17],
+                        "wednesday": [21, 15, 17, 23],
+                        "thursday": [22, 16, 18, 24],  
+                        "saturday": [5, 9, 11, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

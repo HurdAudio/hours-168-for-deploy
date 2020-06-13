@@ -1586,6 +1586,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#c7cad0',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 114,
+                    user_id: 1,
+                    theme: 'Light',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june_tiles/susanne-duke-s7yDKMpLhDw-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#44444c',
+                    color_medium: '#aaa195',
+                    color_light: '#f4da8f',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

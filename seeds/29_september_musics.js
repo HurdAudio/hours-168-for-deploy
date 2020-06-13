@@ -6754,6 +6754,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 376,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=589466255/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://beak.bandcamp.com/album/wulfstan-ep',
+                    a_string: 'Wulfstan EP by Beak&gt;',
+                    rule: {
+                        "monday": [27, 17, 25, 19],
+                        "tuesday": [26, 16, 24, 17],
+                        "wednesday": [26, 15, 23, 17],
+                        "thursday": [24, 14, 22, 16],
+                        "saturday": [28, 18, 26, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 377,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=872335621/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ohmme.bandcamp.com/album/fantasize-your-ghost',
+                    a_string: 'Fantasize Your Ghost by OHMME',
+                    rule: {
+                        "monday": [28, 18, 26, 20],
+                        "tuesday": [27, 17, 25, 19],
+                        "wednesday": [26, 16, 24, 17],
+                        "thursday": [26, 15, 23, 17],
+                        "saturday": [24, 14, 22, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 378,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2168419856/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://blackholedistortion.bandcamp.com/album/abyssal',
+                    a_string: 'ABYSSAL by Black Hole Distortion',
+                    rule: {
+                        "monday": [25, 15, 23, 17],
+                        "tuesday": [29, 19, 27, 21],
+                        "wednesday": [28, 18, 26, 20],
+                        "thursday": [27, 17, 25, 18],
+                        "saturday": [27, 16, 24, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

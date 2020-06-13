@@ -6430,6 +6430,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 358,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3710635671/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://miltonnascimento.bandcamp.com/album/maria-maria',
+                    a_string: 'Maria Maria by Milton Nascimento',
+                    rule: {
+                        "monday": [23, 29, 4, 10],
+                        "tuesday": [27, 2, 8, 14],  
+                        "wednesday": [26, 1, 7, 13],  
+                        "thursday": [23, 31, 6, 12], 
+                        "saturday": [22, 30, 5, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 359,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3780174964/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://yissygarcia.bandcamp.com/album/ltima-noticia',
+                    a_string: 'Última noticia by Yissy García',
+                    rule: {
+                        "monday": [22, 30, 5, 11],
+                        "tuesday": [23, 29, 4, 10], 
+                        "wednesday": [27, 2, 8, 14],  
+                        "thursday": [26, 1, 7, 13],  
+                        "saturday": [23, 31, 6, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 360,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2019111525/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://shop.buyu-records.com/album/the-cuban-tapes',
+                    a_string: 'The Cuban Tapes by Bahama Soul Club',
+                    rule: {
+                        "monday": [23, 31, 6, 12],
+                        "tuesday": [22, 30, 5, 11], 
+                        "wednesday": [23, 29, 4, 10], 
+                        "thursday": [27, 2, 8, 14],  
+                        "saturday": [26, 1, 7, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

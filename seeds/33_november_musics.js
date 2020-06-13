@@ -6538,6 +6538,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 364,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=442891796/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://digthiswayrecords.bandcamp.com/album/the-unreleased-sounds-of-top-rank-aba-nigeria',
+                    a_string: 'The Unreleased Sounds of Top Rank - Aba - Nigeria by Dig This Way Records',
+                    rule: {
+                        "monday": [20, 1, 12, 24],
+                        "tuesday": [24, 5, 16, 20], 
+                        "wednesday": [23, 4, 15, 19], 
+                        "thursday": [22, 3, 14, 18], 
+                        "saturday": [21, 2, 13, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 365,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3121821758/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lughz.bandcamp.com/album/my-way',
+                    a_string: 'MY WAY by LuGhz x Dan.Akill',
+                    rule: {
+                        "monday": [21, 2, 13, 24],
+                        "tuesday": [20, 1, 12, 24], 
+                        "wednesday": [24, 5, 16, 20], 
+                        "thursday": [23, 4, 15, 19], 
+                        "saturday": [22, 3, 14, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 366,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1451837762/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://caveofadullam.bandcamp.com/album/no-chaser-ep',
+                    a_string: 'No Chaser EP by Jazz and Vodka (Grolok Panicrum &amp; Uzee The Bovvaking)',
+                    rule: {
+                        "monday": [22, 3, 14, 18],
+                        "tuesday": [21, 2, 13, 24], 
+                        "wednesday": [20, 1, 12, 24], 
+                        "thursday": [24, 5, 16, 20], 
+                        "saturday": [23, 4, 15, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

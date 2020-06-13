@@ -12204,6 +12204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 611,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/drift-1962.jpg',
+                    title: 'Drift',
+                    artist: 'Phillip King',
+                    year: '1962',
+                    rule: {
+                        "monday": [5, 9, 16, 19],
+                        "tuesday": [4, 7, 14, 19],  
+                        "wednesday": [2, 7, 13, 18],  
+                        "thursday": [1, 5, 12, 17],  
+                        "friday": [1, 6, 12, 19],  
+                        "saturday": [7, 12, 18, 23], 
+                        "sunday": [6, 8, 16, 12]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 612,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/tsukubai-waterholder-1962.jpg',
+                    title: 'Tsukubai (Waterholder)',
+                    artist: 'Noguchi Isamu',
+                    year: '1962',
+                    rule: {
+                        "monday": [6, 8, 16, 12],
+                        "tuesday": [5, 9, 16, 19],  
+                        "wednesday": [4, 7, 14, 19],  
+                        "thursday": [2, 7, 13, 18],  
+                        "friday": [1, 5, 12, 17],  
+                        "saturday": [1, 6, 12, 19],  
+                        "sunday": [7, 12, 18, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 613,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/the-nominal-three-to-william-of-ockham-1963.jpg',
+                    title: 'The nominal three (to William of Ockham)',
+                    artist: 'Dan Flavin',
+                    year: '1963',
+                    rule: {
+                        "monday": [7, 12, 18, 23],
+                        "tuesday": [6, 8, 16, 12],  
+                        "wednesday": [5, 9, 16, 19],  
+                        "thursday": [4, 7, 14, 19],  
+                        "friday": [2, 7, 13, 18],  
+                        "saturday": [1, 5, 12, 17],  
+                        "sunday": [1, 6, 12, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 614,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-36-1963.jpg',
+                    title: 'Untitled #36',
+                    artist: 'Robert Ryman',
+                    year: '1963',
+                    rule: {
+                        "monday": [1, 6, 12, 19],
+                        "tuesday": [7, 12, 18, 23], 
+                        "wednesday": [6, 8, 16, 12],  
+                        "thursday": [5, 9, 16, 19],  
+                        "friday": [4, 7, 14, 19],  
+                        "saturday": [2, 7, 13, 18],  
+                        "sunday": [1, 5, 12, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 615,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/number-6-1963.jpg',
+                    title: 'Number 6',
+                    artist: 'John McLaughlin',
+                    year: '1963',
+                    rule: {
+                        "monday": [1, 5, 12, 17],
+                        "tuesday": [1, 6, 12, 19],  
+                        "wednesday": [7, 12, 18, 23], 
+                        "thursday": [6, 8, 16, 12],  
+                        "friday": [5, 9, 16, 19],  
+                        "saturday": [4, 7, 14, 19],  
+                        "sunday": [2, 7, 13, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

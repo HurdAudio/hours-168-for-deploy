@@ -13604,6 +13604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 681,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Red-Sox-Unraveling-Ball-0910.2012.jpg',
+                    title: 'Red Sox Unraveling Baseball',
+                    artist: 'Brandon Hickie',
+                    year: '2012',
+                    rule: {
+                        "monday": [3, 8, 14, 20],
+                        "tuesday": [22, 14, 19, 25],
+                        "wednesday": [22, 12, 18, 24],
+                        "thursday": [7, 10, 23, 24], 
+                        "friday": [6, 10, 25, 23], 
+                        "saturday": [3, 9, 15, 21],  
+                        "sunday": [4, 9, 15, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 682,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/lfBos.jpeg',
+                    title: 'Boston Red Sox Original Painting',
+                    artist: 'Grant Smith',
+                    year: '1903',
+                    rule: {
+                        "monday": [4, 9, 15, 21],
+                        "tuesday": [3, 8, 14, 20],  
+                        "wednesday": [22, 14, 19, 25],
+                        "thursday": [22, 12, 18, 24],
+                        "friday": [7, 10, 23, 24], 
+                        "saturday": [6, 10, 25, 23], 
+                        "sunday": [3, 9, 15, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 683,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/damon5x.jpg',
+                    title: 'Johnny Damon',
+                    artist: 'Paul B.',
+                    year: '2004',
+                    rule: {
+                        "monday": [3, 9, 15, 21],
+                        "tuesday": [4, 9, 15, 21],  
+                        "wednesday": [3, 8, 14, 20],  
+                        "thursday": [22, 14, 19, 25],
+                        "friday": [22, 12, 18, 24],
+                        "saturday": [7, 10, 23, 24], 
+                        "sunday": [6, 10, 25, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 684,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/06669b91e608d8b5-baseball-line-drawing-at-getdrawings-com-free-for-personal-use.gif',
+                    title: 'David Ortiz',
+                    artist: 'unknown artist',
+                    year: '?',
+                    rule: {
+                        "monday": [6, 10, 25, 23],
+                        "tuesday": [3, 9, 15, 21],  
+                        "wednesday": [4, 9, 15, 21],  
+                        "thursday": [3, 8, 14, 20],  
+                        "friday": [22, 14, 19, 25],
+                        "saturday": [22, 12, 18, 24],
+                        "sunday": [7, 10, 23, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 685,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/il_570xN.642928782_fp6h.jpg',
+                    title: 'Jake Peavy',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 10, 23, 24],
+                        "tuesday": [6, 10, 25, 23], 
+                        "wednesday": [3, 9, 15, 21],  
+                        "thursday": [4, 9, 15, 21],  
+                        "friday": [3, 8, 14, 20],  
+                        "saturday": [22, 14, 19, 25],
+                        "sunday": [22, 12, 18, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

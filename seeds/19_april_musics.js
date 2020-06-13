@@ -7294,6 +7294,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 406,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2283614198/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://christianwallumrod.bandcamp.com/album/many-2',
+                    a_string: 'Many by Christian Wallumrød Ensemble',
+                    rule: {
+                        "monday": [1, 8, 21, 26],
+                        "tuesday": [30, 8, 20, 25], 
+                        "wednesday": [29, 7, 18, 24], 
+                        "thursday": [28, 6, 18, 23],  
+                        "saturday": [2, 10, 22, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 407,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2135764505/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://joaobarradas.bandcamp.com/album/portrait',
+                    a_string: 'Portrait by João Barradas',
+                    rule: {
+                        "monday": [2, 10, 22, 27],
+                        "tuesday": [1, 8, 21, 26],  
+                        "wednesday": [30, 8, 20, 25], 
+                        "thursday": [29, 7, 18, 24], 
+                        "saturday": [28, 6, 18, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 408,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2277550019/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://intlanthem.bandcamp.com/album/who-sent-you',
+                    a_string: 'Who Sent You? by Irreversible Entanglements',
+                    rule: {
+                        "monday": [28, 6, 18, 23],
+                        "tuesday": [2, 10, 22, 27], 
+                        "wednesday": [1, 8, 21, 26],  
+                        "thursday": [30, 8, 20, 25], 
+                        "saturday": [29, 7, 18, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
