@@ -11914,6 +11914,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 766,
+                    user_id: 1,
+                    name: 'Jean Sibelius (composer) born 1865',
+                    color: '#cec4b9',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/p05x45v2.jpg',
+                    day_of: new Date('1865-12-08  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=4262253116/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2275201264/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3676569841/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['http://classically-inclined.bandcamp.com/album/karelia-op-11', 'http://yalesymphonyorchestra.bandcamp.com/album/february-1-1986-in-woolsey-hall', 'http://virtualphilharmonic.bandcamp.com/album/karelia-suite-op-11-1893'],
+                        "a_strings": ['Karelia [Op. 11] by Jean Sibelius', 'February 1, 1986 in Woolsey Hall by Leif Bjaland, Music Director', 'Karelia Suite, op.11 (1893) by Jean Sibelius (1865-1957)']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 767,
+                    user_id: 1,
+                    name: 'Benjamin Tucker (anarchist/socialist) born 1854',
+                    color: '#ededed',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/BenjaminTucker.jpg',
+                    day_of: new Date('1854-04-17  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

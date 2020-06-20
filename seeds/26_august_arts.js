@@ -12904,6 +12904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 646,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-treachery-of-images-this-is-not-a-pipe-1948(2).jpg',
+                    title: 'The treachery of images (This is not a pipe)',
+                    artist: 'Rene Magritte',
+                    year: '1928 - 1929',
+                    rule: {
+                        "monday": [2, 5, 14, 30],
+                        "tuesday": [31, 5, 13, 29], 
+                        "wednesday": [31, 2, 12, 28], 
+                        "thursday": [30, 1, 11, 27], 
+                        "friday": [29, 1, 10, 26], 
+                        "saturday": [28, 31, 9, 25], 
+                        "sunday": [3, 7, 15, 31]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 647,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/self-portrait-aka-the-model-1913.jpg',
+                    title: 'Self Portrait aka The Model',
+                    artist: 'Laura Knight',
+                    year: '1913',
+                    rule: {
+                        "monday": [3, 7, 15, 31],
+                        "tuesday": [2, 5, 14, 30],  
+                        "wednesday": [31, 5, 13, 29], 
+                        "thursday": [31, 2, 12, 28], 
+                        "friday": [30, 1, 11, 27], 
+                        "saturday": [29, 1, 10, 26], 
+                        "sunday": [28, 31, 9, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 648,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/le-mort-de-don-juan-1935.jpg',
+                    title: 'Le mort de Don Juan',
+                    artist: 'Mario Prassinos',
+                    year: '1935',
+                    rule: {
+                        "monday": [28, 31, 9, 25],
+                        "tuesday": [3, 7, 15, 31],  
+                        "wednesday": [2, 5, 14, 30],  
+                        "thursday": [31, 5, 13, 29], 
+                        "friday": [31, 2, 12, 28], 
+                        "saturday": [30, 1, 11, 27], 
+                        "sunday": [29, 1, 10, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 649,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/portrait-of-julia-parthenis-1914.jpg',
+                    title: 'Portrait of Julia Parthenis',
+                    artist: 'Konstantinos Parthenis',
+                    year: 'c.1911 - c.1914',
+                    rule: {
+                        "monday": [29, 1, 10, 26],
+                        "tuesday": [28, 31, 9, 25], 
+                        "wednesday": [3, 7, 15, 31],  
+                        "thursday": [2, 5, 14, 30],  
+                        "friday": [31, 5, 13, 29], 
+                        "saturday": [31, 2, 12, 28], 
+                        "sunday": [30, 1, 11, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 650,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/forest-wilderness-1921.jpg',
+                    title: 'Forest Wilderness',
+                    artist: 'J. E. H. MacDonald',
+                    year: '1921',
+                    rule: {
+                        "monday": [30, 1, 11, 27],
+                        "tuesday": [29, 1, 10, 26], 
+                        "wednesday": [28, 31, 9, 25], 
+                        "thursday": [3, 7, 15, 31],  
+                        "friday": [2, 5, 14, 30],  
+                        "saturday": [31, 5, 13, 29], 
+                        "sunday": [31, 2, 12, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

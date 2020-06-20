@@ -13304,6 +13304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 666,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d5dmwc5-3784ffb0-8cdc-409d-b712-f0757404f91f.jpg',
+                    title: 'Venice',
+                    artist: 'SSquared-Photography',
+                    year: '2012',
+                    rule: {
+                        "monday": [2, 13, 23, 21],
+                        "tuesday": [2, 12, 22, 29], 
+                        "wednesday": [11, 21, 1, 29], 
+                        "thursday": [30, 10, 20, 28],
+                        "friday": [29, 9, 19, 27], 
+                        "saturday": [5, 15, 25, 2],  
+                        "sunday": [4, 14, 25, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 667,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/homunkulus_ii_by_ceecore_d9h7t2n-fullview.jpg',
+                    title: 'Homunkulus II',
+                    artist: 'Tim Cavadini',
+                    year: '2015',
+                    rule: {
+                        "monday": [4, 14, 25, 2],
+                        "tuesday": [2, 13, 23, 21], 
+                        "wednesday": [2, 12, 22, 29], 
+                        "thursday": [11, 21, 1, 29], 
+                        "friday": [30, 10, 20, 28],
+                        "saturday": [29, 9, 19, 27], 
+                        "sunday": [5, 15, 25, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 668,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/the_beautiful_mess_by_lowapproach_d5cmp13-fullview.jpg',
+                    title: 'The beautiful mess',
+                    artist: 'lowapproach',
+                    year: '2012',
+                    rule: {
+                        "monday": [5, 15, 25, 2],
+                        "tuesday": [4, 14, 25, 2],  
+                        "wednesday": [2, 13, 23, 21], 
+                        "thursday": [2, 12, 22, 29], 
+                        "friday": [11, 21, 1, 29], 
+                        "saturday": [30, 10, 20, 28],
+                        "sunday": [29, 9, 19, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 669,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/d56jcng-26c45d6b-7b0a-44d4-b91e-db672d6391e5.jpg',
+                    title: 'Angel Of The City',
+                    artist: 'Carlos Henrique Reinesch',
+                    year: '2012',
+                    rule: {
+                        "monday": [29, 9, 19, 27],
+                        "tuesday": [5, 15, 25, 2],  
+                        "wednesday": [4, 14, 25, 2],  
+                        "thursday": [2, 13, 23, 21], 
+                        "friday": [2, 12, 22, 29], 
+                        "saturday": [11, 21, 1, 29], 
+                        "sunday": [30, 10, 20, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 670,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/trio_by_wordup_d5x5iox-fullview.jpg',
+                    title: 'Trio',
+                    artist: 'gDani',
+                    year: '2013',
+                    rule: {
+                        "monday": [30, 10, 20, 28],
+                        "tuesday": [29, 9, 19, 27], 
+                        "wednesday": [5, 15, 25, 2],  
+                        "thursday": [4, 14, 25, 2],  
+                        "friday": [2, 13, 23, 21], 
+                        "saturday": [2, 12, 22, 29], 
+                        "sunday": [11, 21, 1, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

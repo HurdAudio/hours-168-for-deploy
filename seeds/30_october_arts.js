@@ -12504,6 +12504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 626,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_space_militarization.jpg',
+                    title: 'To prohibit the militarization of outer space!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [6, 7, 18, 22],
+                        "tuesday": [2, 13, 24, 28], 
+                        "wednesday": [1, 12, 23, 27], 
+                        "thursday": [31, 11, 22, 26],
+                        "friday": [30, 10, 22, 25],
+                        "saturday": [29, 9, 20, 24], 
+                        "sunday": [28, 8, 18, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 627,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_broken_bomb.jpg',
+                    title: 'Net! No! Nein! Non!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 8, 18, 23],
+                        "tuesday": [6, 7, 18, 22],  
+                        "wednesday": [2, 13, 24, 28], 
+                        "thursday": [1, 12, 23, 27], 
+                        "friday": [31, 11, 22, 26],
+                        "saturday": [30, 10, 22, 25],
+                        "sunday": [29, 9, 20, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 628,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_1538394038breaking_bomb.jpg',
+                    title: 'Peace will be victorious! 1980s',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 9, 20, 24],
+                        "tuesday": [28, 8, 18, 23], 
+                        "wednesday": [6, 7, 18, 22],  
+                        "thursday": [2, 13, 24, 28], 
+                        "friday": [1, 12, 23, 27], 
+                        "saturday": [31, 11, 22, 26],
+                        "sunday": [30, 10, 22, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 629,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_lithuania.jpg',
+                    title: 'Kovo 8 Tarptautine moters diena',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 10, 22, 25],
+                        "tuesday": [29, 9, 20, 24], 
+                        "wednesday": [28, 8, 18, 23], 
+                        "thursday": [6, 7, 18, 22],  
+                        "friday": [2, 13, 24, 28], 
+                        "saturday": [1, 12, 23, 27], 
+                        "sunday": [31, 11, 22, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 630,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_bouquet.jpg',
+                    title: 'Disarmament - is a dictate of the time!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 12, 23, 27],
+                        "tuesday": [31, 11, 23, 26], 
+                        "wednesday": [30, 10, 21, 25], 
+                        "thursday": [29, 9, 19, 24],  
+                        "friday": [7, 8, 19, 23], 
+                        "saturday": [3, 14, 25, 29], 
+                        "sunday": [2, 13, 24, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

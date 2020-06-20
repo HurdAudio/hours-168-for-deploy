@@ -13504,6 +13504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 676,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-a-boy-1915.jpg',
+                    title: 'Portrait of a Boy',
+                    artist: 'Aleksandr Deyneka',
+                    year: '1915',
+                    rule: {
+                        "monday": [26, 5, 15, 23],
+                        "tuesday": [24, 2, 14, 23], 
+                        "wednesday": [3, 15, 25, 2],  
+                        "thursday": [3, 14, 23, 2],  
+                        "friday": [1, 11, 19, 21], 
+                        "saturday": [29, 9, 19, 8],  
+                        "sunday": [28, 8, 18, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 677,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-a-student-1916.jpg',
+                    title: 'Portrait of a student',
+                    artist: 'Aleksandr Deyneka',
+                    year: '1916',
+                    rule: {
+                        "monday": [28, 8, 18, 28],
+                        "tuesday": [26, 5, 15, 23], 
+                        "wednesday": [24, 2, 14, 23], 
+                        "thursday": [3, 15, 25, 2],  
+                        "friday": [3, 14, 23, 2],  
+                        "saturday": [1, 11, 19, 21], 
+                        "sunday": [29, 9, 19, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 678,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-an-old-man-1916.jpg',
+                    title: 'Portrait of an old man',
+                    artist: 'Aleksandr Deyneka',
+                    year: '1916',
+                    rule: {
+                        "monday": [29, 9, 19, 8],
+                        "tuesday": [28, 8, 18, 28], 
+                        "wednesday": [26, 5, 15, 23], 
+                        "thursday": [24, 2, 14, 23], 
+                        "friday": [3, 15, 25, 2],  
+                        "saturday": [3, 14, 23, 2],  
+                        "sunday": [1, 11, 19, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 679,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/self-portrait-1916-d.jpg',
+                    title: 'Self-portrait',
+                    artist: 'Aleksandr Deyneka',
+                    year: '1916',
+                    rule: {
+                        "monday": [2, 12, 20, 22],
+                        "tuesday": [30, 10, 20, 9], 
+                        "wednesday": [29, 9, 19, 29], 
+                        "thursday": [27, 6, 16, 24], 
+                        "friday": [25, 3, 15, 24],  
+                        "saturday": [4, 16, 26, 3],  
+                        "sunday": [4, 15, 24, 3]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 680,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/roofs-under-the-snow.jpg',
+                    title: 'Roofs under the Snow',
+                    artist: 'Igor Grabar',
+                    year: '1889',
+                    rule: {
+                        "monday": [4, 15, 24, 3],
+                        "tuesday": [2, 12, 20, 22], 
+                        "wednesday": [30, 10, 20, 9], 
+                        "thursday": [29, 9, 19, 29], 
+                        "friday": [27, 6, 16, 24], 
+                        "saturday": [25, 3, 15, 24], 
+                        "sunday": [4, 16, 26, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

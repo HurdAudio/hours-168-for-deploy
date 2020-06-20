@@ -14104,6 +14104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 706,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/BRcynaLz2TZE_585x1170.jpg',
+                    title: 'From a Tropical Space',
+                    artist: 'Titus Kaphar',
+                    year: '2019',
+                    rule: {
+                        "monday": [20, 28, 7, 15],
+                        "tuesday": [22, 3, 9, 15],  
+                        "wednesday": [24, 3, 11, 21], 
+                        "thursday": [24, 5, 1, 20],  
+                        "friday": [14, 22, 1, 9],  
+                        "saturday": [15, 24, 3, 11], 
+                        "sunday": [21, 26, 3, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 707,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/bd238cdad9b2950d0522a8852b23e07e.jpeg',
+                    title: 'Haunts',
+                    artist: 'Richard Gordon Kendall',
+                    year: '2015',
+                    rule: {
+                        "monday": [22, 27, 4, 14],
+                        "tuesday": [21, 29, 8, 16],  
+                        "wednesday": [23, 4, 10, 16], 
+                        "thursday": [25, 4, 12, 22],  
+                        "friday": [25, 6, 2, 21],  
+                        "saturday": [15, 23, 2, 10], 
+                        "sunday": [16, 25, 4, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 708,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Autumn-Knight-A.-Knight-WALL-2-1000x667.jpg',
+                    title: 'Installation',
+                    artist: 'Autumn Knight',
+                    year: '?',
+                    rule: {
+                        "monday": [16, 25, 4, 12],
+                        "tuesday": [22, 27, 4, 14], 
+                        "wednesday": [21, 29, 8, 16], 
+                        "thursday": [23, 4, 10, 16], 
+                        "friday": [25, 4, 12, 22], 
+                        "saturday": [25, 6, 2, 21],  
+                        "sunday": [15, 23, 2, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 709,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/e9009222bce8b4226f8c7491e7cfbcbb.jpg',
+                    title: 'Untitled (Barbados)',
+                    artist: 'Gwendolyn Knight',
+                    year: '1945',
+                    rule: {
+                        "monday": [15, 23, 2, 10],
+                        "tuesday": [16, 25, 4, 12], 
+                        "wednesday": [22, 27, 4, 14], 
+                        "thursday": [21, 29, 8, 16], 
+                        "friday": [23, 4, 10, 16], 
+                        "saturday": [25, 4, 12, 22], 
+                        "sunday": [25, 6, 2, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 710,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/restricted____.jpg',
+                    title: 'The Shoemaker',
+                    artist: 'Jacob Lawrence',
+                    year: '1945',
+                    rule: {
+                        "monday": [25, 6, 2, 21],
+                        "tuesday": [15, 23, 2, 10], 
+                        "wednesday": [16, 25, 4, 12], 
+                        "thursday": [22, 27, 4, 14], 
+                        "friday": [21, 29, 8, 16], 
+                        "saturday": [23, 4, 10, 16], 
+                        "sunday": [25, 4, 12, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

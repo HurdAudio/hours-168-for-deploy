@@ -12704,6 +12704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 636,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/arianna-pitagora-1987.jpg',
+                    title: 'Arianna & Pitagora',
+                    artist: 'Luciano Bartolini',
+                    year: '1987',
+                    rule: {
+                        "monday": [19, 5, 23, 2],
+                        "tuesday": [18, 25, 22, 30],
+                        "wednesday": [26, 3, 21, 28], 
+                        "thursday": [3, 9, 27, 5],   
+                        "friday": [29, 5, 26, 4],  
+                        "saturday": [30, 5, 23, 1],  
+                        "sunday": [30, 6, 24, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 637,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/facade-and-flight-of-happiness-1982.jpg',
+                    title: 'Facade and Flight of Happiness',
+                    artist: 'John Hilliard',
+                    year: '1982',
+                    rule: {
+                        "monday": [1, 7, 25, 3],
+                        "tuesday": [20, 6, 24, 3],
+                        "wednesday": [19, 26, 23, 1], 
+                        "thursday": [27, 4, 22, 29],   
+                        "friday": [4, 10, 28, 6],  
+                        "saturday": [30, 6, 27, 5],  
+                        "sunday": [1, 6, 28, 24]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 638,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/excerpt-riot-2003.jpg',
+                    title: 'Excerpt (Riot)',
+                    artist: 'Julie Mehretu',
+                    year: '2003',
+                    rule: {
+                        "monday": [1, 6, 28, 24],
+                        "tuesday": [1, 7, 25, 3],   
+                        "wednesday": [20, 6, 24, 3],  
+                        "thursday": [19, 26, 23, 1], 
+                        "friday": [27, 4, 22, 29], 
+                        "saturday": [4, 10, 28, 6],  
+                        "sunday": [30, 6, 27, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 639,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-i-shop-therefore-i-am-1987.jpg',
+                    title: 'Untitled (I shop therefore I am)',
+                    artist: 'Barbara Kruger',
+                    year: '1987',
+                    rule: {
+                        "monday": [30, 6, 27, 5],
+                        "tuesday": [1, 6, 28, 24],  
+                        "wednesday": [1, 7, 25, 3],  
+                        "thursday": [20, 6, 24, 3],  
+                        "friday": [19, 26, 23, 1], 
+                        "saturday": [27, 4, 22, 29], 
+                        "sunday": [4, 10, 28, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 640,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/venetian-glow-1959.jpg',
+                    title: 'Venetian Glow',
+                    artist: 'Peter Busa',
+                    year: '1959',
+                    rule: {
+                        "monday": [4, 10, 28, 6],
+                        "tuesday": [30, 6, 27, 5],  
+                        "wednesday": [1, 6, 28, 24],  
+                        "thursday": [1, 7, 25, 3],   
+                        "friday": [20, 6, 24, 3],  
+                        "saturday": [19, 26, 23, 1], 
+                        "sunday": [27, 4, 22, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

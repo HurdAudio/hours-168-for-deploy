@@ -6916,6 +6916,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 385,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3837721162/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://room40.bandcamp.com/album/theforestthegardenthesea',
+                    a_string: 'theforestthegardenthesea by Marina Rosenfeld',
+                    rule: {
+                        "monday": [2, 10, 23, 22],
+                        "tuesday": [1, 9, 22, 21], 
+                        "wednesday": [31, 8, 21, 20], 
+                        "thursday": [4, 12, 25, 24], 
+                        "saturday": [3, 11, 24, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2176849953/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://inexhaustibleeditions.bandcamp.com/album/dedekind-duos',
+                    a_string: 'Dedekind Duos by Antoine Beuger',
+                    rule: {
+                        "monday": [3, 11, 24, 23],
+                        "tuesday": [2, 10, 23, 22], 
+                        "wednesday": [1, 9, 22, 21],  
+                        "thursday": [31, 8, 21, 20], 
+                        "saturday": [4, 12, 25, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4176897918/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://inexhaustibleeditions.bandcamp.com/album/wolkokrot',
+                    a_string: 'Wolkokrot by Miguel A. García / Ilia Belorukov',
+                    rule: {
+                        "monday": [4, 12, 25, 24],
+                        "tuesday": [3, 11, 24, 23], 
+                        "wednesday": [2, 10, 23, 22], 
+                        "thursday": [1, 9, 22, 21],  
+                        "saturday": [31, 8, 21, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -1656,6 +1656,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#efeadb',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 119,
+                    user_id: 1,
+                    theme: 'Silk/Velvet',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/markus-spiske-hYFqKc6lxvo-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#312420',
+                    color_medium: '#a45328',
+                    color_light: '#c3c0be',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

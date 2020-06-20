@@ -1530,6 +1530,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#bcbec0',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 110,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/chris-lutke-13h68adCMHY-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#1e1e1e',
+                    color_medium: '#727272',
+                    color_light: '#c6c6c6',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

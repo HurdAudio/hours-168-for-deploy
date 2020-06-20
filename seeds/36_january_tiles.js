@@ -1670,6 +1670,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#cfd6e0',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 120,
+                    user_id: 1,
+                    theme: 'Ice',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/wolfgang-hasselmann-54NubjhY-bc-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#2a3648',
+                    color_medium: '#7f92b1',
+                    color_light: '#d6e6fb',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

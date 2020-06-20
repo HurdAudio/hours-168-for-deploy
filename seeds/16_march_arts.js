@@ -13904,6 +13904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 696,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/portrait-of-an-elderly-lady-with-her-daughter.jpg',
+                    title: 'Portrait of an elderly lady with her daughter',
+                    artist: 'Anne Vallayer-Coster',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 16, 26, 3],
+                        "tuesday": [6, 16, 24, 3],  
+                        "wednesday": [3, 15, 23, 2],  
+                        "thursday": [4, 14, 22, 1],  
+                        "friday": [3, 14, 21, 31], 
+                        "saturday": [2, 12, 20, 30], 
+                        "sunday": [1, 11, 20, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 697,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/unknown-title-fishdhhuueg.jpg',
+                    title: 'unknown title',
+                    artist: 'Marie-Guillemine Benoist',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 11, 20, 29],
+                        "tuesday": [7, 16, 26, 3],  
+                        "wednesday": [6, 16, 24, 3],  
+                        "thursday": [3, 15, 23, 2],  
+                        "friday": [4, 14, 22, 1],  
+                        "saturday": [3, 14, 21, 31], 
+                        "sunday": [2, 12, 20, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 698,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/paul-and-virginia-1864.jpg',
+                    title: 'Paul and Virginia',
+                    artist: 'Julia Margaret Cameron',
+                    year: '1864',
+                    rule: {
+                        "monday": [2, 12, 20, 30],
+                        "tuesday": [1, 11, 20, 29], 
+                        "wednesday": [7, 16, 26, 3],  
+                        "thursday": [6, 16, 24, 3],  
+                        "friday": [3, 15, 23, 2],  
+                        "saturday": [4, 14, 22, 1],  
+                        "sunday": [3, 14, 21, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 699,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-aqueduct-of-morro-velho-brazil-1873.jpg',
+                    title: 'The Aqueduct of Morro Velho, Brazil',
+                    artist: 'Marianne North',
+                    year: '1873',
+                    rule: {
+                        "monday": [3, 14, 21, 31],
+                        "tuesday": [2, 12, 20, 30], 
+                        "wednesday": [1, 11, 20, 29], 
+                        "thursday": [7, 16, 26, 3],  
+                        "friday": [6, 16, 24, 3],  
+                        "saturday": [3, 15, 23, 2],  
+                        "sunday": [4, 14, 22, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 700,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/iris-in-a-vase-1886.jpg',
+                    title: 'Iris in a vase 1886',
+                    artist: 'Marie Bracquemond',
+                    year: '1886',
+                    rule: {
+                        "monday": [5, 15, 23, 2],
+                        "tuesday": [4, 15, 22, 1], 
+                        "wednesday": [3, 13, 21, 31], 
+                        "thursday": [2, 12, 21, 30],  
+                        "friday": [8, 17, 27, 4],  
+                        "saturday": [7, 17, 25, 4],  
+                        "sunday": [4, 16, 24, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

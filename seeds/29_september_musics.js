@@ -6808,6 +6808,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 379,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3530100356/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://cuneiformrecords.bandcamp.com/album/the-avondale-addition',
+                    a_string: 'The Avondale Addition by Stirrup+6',
+                    rule: {
+                        "monday": [27, 16, 24, 18],
+                        "tuesday": [25, 15, 23, 17],
+                        "wednesday": [29, 19, 27, 21],
+                        "thursday": [28, 18, 26, 20],
+                        "saturday": [27, 17, 25, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 380,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3777254192/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://arakirecords.bandcamp.com/album/mirrors',
+                    a_string: 'Mirrors by still motions',
+                    rule: {
+                        "monday": [27, 17, 25, 18],
+                        "tuesday": [27, 16, 24, 18],
+                        "wednesday": [25, 15, 23, 17],
+                        "thursday": [29, 19, 27, 21],
+                        "saturday": [28, 18, 26, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 381,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2723178145/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://room40.bandcamp.com/album/vacant',
+                    a_string: 'Vacant by Ytamo',
+                    rule: {
+                        "monday": [28, 18, 26, 20],
+                        "tuesday": [27, 17, 25, 18],
+                        "wednesday": [27, 16, 24, 18],
+                        "thursday": [25, 15, 23, 17],
+                        "saturday": [29, 19, 27, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

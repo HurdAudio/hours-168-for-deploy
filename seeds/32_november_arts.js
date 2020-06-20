@@ -12304,6 +12304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 616,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1963-0000.jpg',
+                    title: 'Untitled',
+                    artist: 'Brice Marden',
+                    year: '1963',
+                    rule: {
+                        "monday": [3, 8, 14, 19],
+                        "tuesday": [2, 6, 13, 18],  
+                        "wednesday": [2, 7, 13, 20], 
+                        "thursday": [8, 13, 19, 24],  
+                        "friday": [7, 9, 17, 13],  
+                        "saturday": [6, 10, 17, 20],  
+                        "sunday": [5, 8, 15, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 617,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/63-m-3-1963.jpg',
+                    title: '63-M-3',
+                    artist: 'Martin Barre',
+                    year: '1963',
+                    rule: {
+                        "monday": [5, 8, 15, 20],
+                        "tuesday": [3, 8, 14, 19],  
+                        "wednesday": [2, 6, 13, 18],  
+                        "thursday": [2, 7, 13, 20],  
+                        "friday": [8, 13, 19, 24], 
+                        "saturday": [7, 9, 17, 13],  
+                        "sunday": [6, 10, 17, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 618,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/obelisk-1963.jpg',
+                    title: 'Obelisk',
+                    artist: 'Ruth Vollmer',
+                    year: '1963',
+                    rule: {
+                        "monday": [6, 10, 17, 20],
+                        "tuesday": [5, 8, 15, 20],  
+                        "wednesday": [3, 8, 14, 19],  
+                        "thursday": [2, 6, 13, 18],  
+                        "friday": [2, 7, 13, 20],  
+                        "saturday": [8, 13, 19, 24], 
+                        "sunday": [7, 9, 17, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 619,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/yellow-rose-1-1963.jpg',
+                    title: 'Yellow Rose #1',
+                    artist: 'Walter Darby Bannard',
+                    year: '1963',
+                    rule: {
+                        "monday": [7, 9, 17, 13],
+                        "tuesday": [6, 10, 17, 20], 
+                        "wednesday": [5, 8, 15, 20],  
+                        "thursday": [3, 8, 14, 19],  
+                        "friday": [2, 6, 13, 18],  
+                        "saturday": [2, 7, 13, 20],  
+                        "sunday": [8, 13, 19, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 620,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/compression-to-one-1963.jpg',
+                    title: 'Compression to one',
+                    artist: 'Robert Huot',
+                    year: '1963',
+                    rule: {
+                        "monday": [8, 13, 19, 24],
+                        "tuesday": [7, 9, 17, 13],  
+                        "wednesday": [6, 10, 17, 20], 
+                        "thursday": [5, 8, 15, 20],  
+                        "friday": [3, 8, 14, 19],  
+                        "saturday": [2, 6, 13, 18],  
+                        "sunday": [2, 7, 13, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

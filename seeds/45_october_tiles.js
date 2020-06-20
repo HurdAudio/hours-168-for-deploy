@@ -1544,6 +1544,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#b2b7b8',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 111,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/simon-berger-t0GD85EZ05Y-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#2f1712',
+                    color_medium: '#ef8a30',
+                    color_light: '#ecc887',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6484,6 +6484,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 361,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=980426634/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://manfredofest.bandcamp.com/album/brazilian-dorian-dream',
+                    a_string: 'Brazilian Dorian Dream by Manfredo Fest',
+                    rule: {
+                        "monday": [26, 1, 7, 13],
+                        "tuesday": [23, 31, 6, 12], 
+                        "wednesday": [22, 30, 5, 11], 
+                        "thursday": [23, 29, 4, 10], 
+                        "saturday": [27, 2, 8, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 362,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2319102887/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://minyocrusaders.bandcamp.com/album/echoes-of-japan',
+                    a_string: 'Echoes Of Japan by minyo crusaders',
+                    rule: {
+                        "monday": [27, 2, 8, 14],
+                        "tuesday": [26, 1, 7, 13],  
+                        "wednesday": [23, 31, 6, 12], 
+                        "thursday": [22, 30, 5, 11], 
+                        "saturday": [23, 29, 4, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 363,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1026123790/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://numagama.bandcamp.com/album/me-redesenho',
+                    a_string: 'Me Redesenho by Numa Gama',
+                    rule: {
+                        "monday": [23, 29, 4, 10],
+                        "tuesday": [27, 2, 8, 14],  
+                        "wednesday": [26, 1, 7, 13],  
+                        "thursday": [23, 31, 6, 12], 
+                        "saturday": [22, 30, 5, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -7240,6 +7240,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 403,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1627754402/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://trostrecords.bandcamp.com/album/to-catch-a-bird-in-a-net-of-wind',
+                    a_string: 'To Catch A Bird In A Net Of Wind by Tashi Dorji / Tyler Damon',
+                    rule: {
+                        "monday": [26, 1, 8, 21],
+                        "tuesday": [25, 31, 7, 20], 
+                        "wednesday": [29, 4, 11, 24], 
+                        "thursday": [28, 3, 10, 23], 
+                        "saturday": [27, 2, 9, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 404,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1537520032/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://clavender.bandcamp.com/album/myth-of-equilibrium',
+                    a_string: 'Myth of Equilibrium by C. Lavender',
+                    rule: {
+                        "monday": [27, 2, 9, 22],
+                        "tuesday": [26, 1, 8, 21],  
+                        "wednesday": [25, 31, 7, 20], 
+                        "thursday": [29, 4, 11, 24], 
+                        "saturday": [28, 3, 10, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 405,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4195954013/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://cuneiformrecords.bandcamp.com/album/interactivity',
+                    a_string: 'Interactivity by Tatsuya Nakatani &amp; Shane Parish',
+                    rule: {
+                        "monday": [28, 3, 10, 23],
+                        "tuesday": [27, 2, 9, 22],  
+                        "wednesday": [26, 1, 8, 21],  
+                        "thursday": [25, 31, 7, 20], 
+                        "saturday": [29, 4, 11, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

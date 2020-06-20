@@ -7348,6 +7348,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 409,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1229160347/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jasperhoiby.bandcamp.com/album/planet-b',
+                    a_string: 'Planet B by Jasper Høiby',
+                    rule: {
+                        "monday": [29, 7, 18, 24],
+                        "tuesday": [28, 6, 18, 23], 
+                        "wednesday": [2, 10, 22, 27], 
+                        "thursday": [1, 8, 21, 26],  
+                        "saturday": [30, 8, 20, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 410,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2575834152/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://astralcuq.bandcamp.com/album/good-days',
+                    a_string: 'Good Days by Chicago Underground Quartet',
+                    rule: {
+                        "monday": [30, 8, 20, 25],
+                        "tuesday": [29, 7, 18, 24], 
+                        "wednesday": [28, 6, 18, 23], 
+                        "thursday": [2, 10, 22, 27], 
+                        "saturday": [1, 8, 21, 26]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 411,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=325183472/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://johnaxsonellis.bandcamp.com/album/the-ice-siren',
+                    a_string: 'The Ice Siren by John Ellis',
+                    rule: {
+                        "monday": [1, 8, 21, 26],
+                        "tuesday": [30, 8, 20, 25], 
+                        "wednesday": [29, 7, 18, 24], 
+                        "thursday": [28, 6, 18, 23], 
+                        "saturday": [2, 10, 22, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

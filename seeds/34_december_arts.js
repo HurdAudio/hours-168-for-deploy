@@ -12104,6 +12104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 606,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/39-12,FlyingAces.jpg',
+                    title: '12 Flying Aces',
+                    artist: 'Alden McWilliams',
+                    year: '1939',
+                    rule: {
+                        "monday": [23, 4, 3, 19],
+                        "tuesday": [12, 4, 23, 30], 
+                        "wednesday": [28, 10, 18, 24],
+                        "thursday": [27, 8, 17, 23], 
+                        "friday": [26, 8, 16, 22], 
+                        "saturday": [25, 7, 15, 21], 
+                        "sunday": [24, 6, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 607,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/39-02,PvtDet2.jpg',
+                    title: 'Private Detective',
+                    artist: 'William Meilink',
+                    year: '1939',
+                    rule: {
+                        "monday": [24, 6, 14, 20],
+                        "tuesday": [23, 4, 3, 19],  
+                        "wednesday": [12, 4, 23, 30], 
+                        "thursday": [28, 10, 18, 24],
+                        "friday": [27, 8, 17, 23], 
+                        "saturday": [26, 8, 16, 22], 
+                        "sunday": [25, 7, 15, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 608,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-03,NewMystAdv-2.jpg',
+                    title: 'New Mystery Adventure',
+                    artist: 'John Meola',
+                    year: '1936',
+                    rule: {
+                        "monday": [25, 7, 15, 21],
+                        "tuesday": [24, 6, 14, 20], 
+                        "wednesday": [23, 4, 3, 19],  
+                        "thursday": [12, 4, 23, 30], 
+                        "friday": [28, 10, 18, 24],
+                        "saturday": [27, 8, 17, 23], 
+                        "sunday": [26, 8, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 609,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/29-11,FrntrS.jpg',
+                    title: 'Frontier Stories',
+                    artist: 'A. R. Mitchell',
+                    year: '1929',
+                    rule: {
+                        "monday": [27, 9, 17, 23],
+                        "tuesday": [26, 8, 16, 22], 
+                        "wednesday": [25, 7, 15, 21],  
+                        "thursday": [24, 5, 4, 20], 
+                        "friday": [13, 5, 24, 31],
+                        "saturday": [29, 11, 19, 25], 
+                        "sunday": [28, 9, 18, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 610,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/44-11,DbleActW.jpg',
+                    title: 'Double Action Western',
+                    artist: 'Ed Moline',
+                    year: '1944',
+                    rule: {
+                        "monday": [28, 9, 18, 24],
+                        "tuesday": [27, 9, 17, 23], 
+                        "wednesday": [26, 8, 16, 22], 
+                        "thursday":[25, 7, 15, 21], 
+                        "friday":  [24, 5, 4, 20], 
+                        "saturday": [13, 5, 24, 31], 
+                        "sunday": [29, 11, 19, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

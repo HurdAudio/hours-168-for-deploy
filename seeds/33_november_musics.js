@@ -6592,6 +6592,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 367,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2201961144/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://hotcasarecords.bandcamp.com/album/k-frimpong-backed-by-vis-a-vis',
+                    a_string: 'K. Frimpong backed by Vis-A-Vis by K. Frimpong with Vis-A-Vis',
+                    rule: {
+                        "monday": [23, 4, 15, 19],
+                        "tuesday": [22, 3, 14, 18], 
+                        "wednesday": [21, 2, 13, 24], 
+                        "thursday": [20, 1, 12, 24], 
+                        "saturday": [24, 5, 16, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 368,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1579501984/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ba-ereyoteregyil.bandcamp.com/album/sordi',
+                    a_string: 'Sordi by Ba-ere Yotere',
+                    rule: {
+                        "monday": [24, 5, 16, 20],
+                        "tuesday": [23, 4, 15, 19], 
+                        "wednesday": [22, 3, 14, 18], 
+                        "thursday": [21, 2, 13, 24], 
+                        "saturday": [20, 1, 12, 24]
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 369,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3536660989/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://onipa.bandcamp.com/album/we-no-be-machine',
+                    a_string: 'We No Be Machine by ONIPA',
+                    rule: {
+                        "monday": [20, 1, 12, 24], 
+                        "tuesday": [24, 5, 16, 20], 
+                        "wednesday": [23, 4, 15, 19], 
+                        "thursday": [22, 3, 14, 18], 
+                        "saturday": [21, 2, 13, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

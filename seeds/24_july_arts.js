@@ -13104,6 +13104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 656,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/red-and-black-1964.jpg',
+                    title: 'Red and Black',
+                    artist: 'Natalia Dumitresco',
+                    year: '1964',
+                    rule: {
+                        "monday": [31, 11, 22, 23],
+                        "tuesday": [30, 10, 20, 22],
+                        "wednesday": [27, 7, 29, 30], 
+                        "thursday": [28, 8, 30, 31], 
+                        "friday": [2, 11, 24, 4],  
+                        "saturday": [2, 10, 24, 4],  
+                        "sunday": [31, 11, 23, 3]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 657,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/feuillage-d-automne-1997.jpg',
+                    title: 'Feuillage d\'automne',
+                    artist: 'Aurel Cojan',
+                    year: '1997',
+                    rule: {
+                        "monday": [31, 11, 23, 3],
+                        "tuesday": [31, 11, 22, 23],
+                        "wednesday": [30, 10, 20, 22],
+                        "thursday": [27, 7, 29, 30], 
+                        "friday": [28, 8, 30, 31], 
+                        "saturday": [2, 11, 24, 4],  
+                        "sunday": [2, 10, 24, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 658,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/collage_002.jpg',
+                    title: 'Collage',
+                    artist: 'Gherasim Luca',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 11, 25, 5],
+                        "tuesday": [1, 12, 24, 4],
+                        "wednesday": [1, 12, 23, 24],
+                        "thursday": [31, 11, 21, 23], 
+                        "friday": [28, 8, 30, 31], 
+                        "saturday": [29, 9, 31, 1],  
+                        "sunday": [3, 12, 25, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 659,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/untitled-1953.jpg',
+                    title: 'Untitled',
+                    artist: 'Jean-Michel Atlan',
+                    year: '1953',
+                    rule: {
+                        "monday": [3, 12, 25, 5],
+                        "tuesday": [3, 11, 25, 5],  
+                        "wednesday": [1, 12, 24, 4], 
+                        "thursday": [1, 12, 23, 24], 
+                        "friday": [31, 11, 21, 23],
+                        "saturday": [28, 8, 30, 31], 
+                        "sunday": [29, 9, 31, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 660,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/l-automne-1937.jpg',
+                    title: 'L\'automne',
+                    artist: 'Francis Gruber',
+                    year: '1937',
+                    rule: {
+                        "monday": [29, 9, 31, 1],
+                        "tuesday": [3, 12, 25, 5],  
+                        "wednesday": [3, 11, 25, 5],  
+                        "thursday": [1, 12, 24, 4],  
+                        "friday": [1, 12, 23, 24], 
+                        "saturday": [31, 11, 21, 23],
+                        "sunday": [28, 8, 30, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

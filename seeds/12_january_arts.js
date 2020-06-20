@@ -14304,6 +14304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 716,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/axl-ii-1927.jpg',
+                    title: 'AXL II',
+                    artist: 'Laszlo Moholy-Nagy',
+                    year: '1927',
+                    rule: {
+                        "monday": [12, 14, 6, 26],
+                        "tuesday": [12, 14, 6, 26], 
+                        "wednesday": [17, 15, 7, 10], 
+                        "thursday": [17, 18, 9, 13], 
+                        "friday": [20, 22, 23, 25],
+                        "saturday": [22, 24, 28, 31],
+                        "sunday": [24, 26, 27, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 717,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/figure-1927.jpg',
+                    title: 'Figure',
+                    artist: 'Andre Masson',
+                    year: '1926 - 1927',
+                    rule: {
+                        "monday": [24, 26, 27, 28],
+                        "tuesday": [12, 14, 6, 26], 
+                        "wednesday": [12, 14, 6, 26], 
+                        "thursday": [17, 15, 7, 10], 
+                        "friday": [17, 18, 9, 13], 
+                        "saturday": [20, 22, 23, 25],
+                        "sunday": [22, 24, 28, 31] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 718,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/unknown-title(2)fdiowhe.jpg',
+                    title: 'unknown title',
+                    artist: 'Adnan Coker',
+                    year: '?',
+                    rule: {
+                        "monday": [22, 24, 28, 31],
+                        "tuesday": [24, 26, 27, 28],
+                        "wednesday": [12, 14, 6, 26], 
+                        "thursday": [12, 14, 6, 26], 
+                        "friday": [17, 15, 7, 10], 
+                        "saturday": [17, 18, 9, 13], 
+                        "sunday": [20, 22, 23, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 719,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/unknown-title(4)fewohie.jpg',
+                    title: 'unknown title',
+                    artist: 'Adnan Coker',
+                    year: '?',
+                    rule: {
+                        "monday": [20, 22, 23, 25],
+                        "tuesday": [22, 24, 28, 31],
+                        "wednesday": [24, 26, 27, 28],
+                        "thursday": [12, 14, 6, 26], 
+                        "friday": [12, 14, 6, 26], 
+                        "saturday": [17, 15, 7, 10], 
+                        "sunday": [17, 18, 9, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 720,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/unknown-title(8)a0hlwb.jpg',
+                    title: 'unknown title',
+                    artist: 'Adnan Coker',
+                    year: '?',
+                    rule: {
+                        "monday": [17, 18, 9, 13],
+                        "tuesday": [20, 22, 23, 25],
+                        "wednesday": [22, 24, 28, 31],
+                        "thursday": [24, 26, 27, 28],
+                        "friday": [12, 14, 6, 26], 
+                        "saturday": [12, 14, 6, 26], 
+                        "sunday": [17, 15, 7, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

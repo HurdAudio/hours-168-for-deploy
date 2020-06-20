@@ -13704,6 +13704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 686,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/DqdEDMOWkAA4uRa.jpg',
+                    title: 'I got my house ready for game 3, let’s get it',
+                    artist: 'TurtleMau5',
+                    year: '2018',
+                    rule: {
+                        "monday": [23, 13, 19, 25],
+                        "tuesday": [8, 11, 24, 25], 
+                        "wednesday": [7, 11, 26, 24],  
+                        "thursday": [4, 10, 16, 22],  
+                        "friday": [5, 10, 16, 22],  
+                        "saturday": [4, 9, 15, 21],
+                        "sunday": [23, 15, 20, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 687,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/thumbLeather.jpeg',
+                    title: 'Los Angeles Dodgers JH Design Hand-Painted Leather Jacket',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [23, 15, 20, 26],
+                        "tuesday": [23, 13, 19, 25],
+                        "wednesday": [8, 11, 24, 25], 
+                        "thursday": [7, 11, 26, 24], 
+                        "friday": [4, 10, 16, 22], 
+                        "saturday": [5, 10, 16, 22], 
+                        "sunday": [4, 9, 15, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 688,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/10_17_10_dave_choate 013.jpg',
+                    title: 'Sandy Koufax, Dodgers',
+                    artist: 'Dave Choate',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 9, 15, 21],
+                        "tuesday": [23, 15, 20, 26],
+                        "wednesday": [23, 13, 19, 25],
+                        "thursday": [8, 11, 24, 25], 
+                        "friday": [7, 11, 26, 24], 
+                        "saturday": [4, 10, 16, 22], 
+                        "sunday": [5, 10, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 689,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/11_23_10_dave_choate-006.jpg',
+                    title: 'Sandy Koufax, Dodgers',
+                    artist: 'Dave Choate',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 10, 16, 22],
+                        "tuesday": [4, 9, 15, 21],  
+                        "wednesday": [23, 15, 20, 26],
+                        "thursday": [23, 13, 19, 25],
+                        "friday": [8, 11, 24, 25], 
+                        "saturday": [7, 11, 26, 24], 
+                        "sunday": [4, 10, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 690,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/1-forever-la-ivan-godinez.jpg',
+                    title: 'Forever LA',
+                    artist: 'Ivan Godinez',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 10, 16, 22],
+                        "tuesday": [5, 10, 16, 22], 
+                        "wednesday": [4, 9, 15, 21],  
+                        "thursday": [23, 15, 20, 26],
+                        "friday": [23, 13, 19, 25],
+                        "saturday": [8, 11, 24, 25], 
+                        "sunday": [7, 11, 26, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

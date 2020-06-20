@@ -2026,9 +2026,9 @@ exports.seed = function (knex, Promise) {
                     user_id: 1,
                     theme: 'Black History Month',
                     source: 'bandcamp',
-                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1742132074/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-                    href_string: 'http://noahhowardaltsax.bandcamp.com/album/patterns-message-to-south-africa',
-                    a_string: 'Patterns - Message to South Africa by Noah Howard',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1479464054/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://noahhowardaltsax.bandcamp.com/album/live-in-europe-vol-1',
+                    a_string: 'Live In Europe Vol.1 by Noah Howard',
                     rule: {
                         "monday": [5, 28, 1, 7],
                         "tuesday": [17, 22, 24, 7],
@@ -2656,9 +2656,9 @@ exports.seed = function (knex, Promise) {
                     user_id: 1,
                     theme: 'Black History Month',
                     source: 'bandcamp',
-                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1003274087/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-                    href_string: 'http://horez.bandcamp.com/album/0-emissions-5',
-                    a_string: '0 EMISSIONS 5 by zeroh',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=818190734/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://horez.bandcamp.com/album/blqlyte',
+                    a_string: 'BLQLYTE by zeroh',
                     rule: {
                         "monday": [10, 4, 6, 12],
                         "tuesday": [22, 27, 29, 12],
@@ -5068,9 +5068,9 @@ exports.seed = function (knex, Promise) {
                     user_id: 1,
                     theme: 'Black History Month',
                     source: 'bandcamp',
-                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2116410171/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-                    href_string: 'http://michaeljudahmusic.bandcamp.com/album/colloquial-setup',
-                    a_string: 'Colloquial Setup by Michael Judah',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=794012059/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://grimalkinrecords.bandcamp.com/album/god-has-nothing-to-do-with-this-leave-him-out-of-it',
+                    a_string: 'God Has Nothing To Do With This Leave Him Out Of It by Backxwash',
                     rule: {
                         "monday": [1, 24, 26, 3],
                         "tuesday": [13, 17, 19, 23],
@@ -5104,9 +5104,9 @@ exports.seed = function (knex, Promise) {
                     user_id: 1,
                     theme: 'Black History Month',
                     source: 'bandcamp',
-                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3677204173/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-                    href_string: 'http://anticon.bandcamp.com/album/theres-a-situation-on-the-homefront',
-                    a_string: 'There&#39;s A Situation On The Homefront by Tha Grimm Teachaz',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2332502753/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://armandhammer.bandcamp.com/album/shrines',
+                    a_string: 'Shrines by Armand Hammer',
                     rule: {
                         "monday": [27, 21, 23, 25],
                         "tuesday": [29, 23, 25, 2],
@@ -5122,9 +5122,9 @@ exports.seed = function (knex, Promise) {
                     user_id: 1,
                     theme: 'Black History Month',
                     source: 'bandcamp',
-                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=524158919/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-                    href_string: 'http://anticon.bandcamp.com/album/kenny-dennis-ep',
-                    a_string: 'Kenny Dennis EP by SERENGETI',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1006315159/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://bishopnehru.bandcamp.com/album/nehruvia-my-disregarded-thoughts',
+                    a_string: 'Nehruvia: My Disregarded Thoughts by Bishop Nehru',
                     rule: {
                         "monday": [16, 19, 21, 23],
                         "tuesday": [27, 21, 23, 25],
@@ -6076,7 +6076,7 @@ exports.seed = function (knex, Promise) {
                     user_id: 1,
                     theme: 'Black History Month',
                     source: 'bandcamp',
-                    src_string: 'zhttps://bandcamp.com/EmbeddedPlayer/album=1214601129/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1214601129/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
                     href_string: 'http://heemstogied.bandcamp.com/album/the-definition-of-pimpin',
                     a_string: 'The Definition of Pimpin&#39; by Heem Stogied x Nicholas Craven x Tha God Fahim',
                     rule: {
@@ -6940,9 +6940,9 @@ exports.seed = function (knex, Promise) {
                     user_id: 1,
                     theme: 'Black History Month',
                     source: 'bandcamp',
-                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2711106365/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-                    href_string: 'http://santandave.bandcamp.com/album/psychodrama',
-                    a_string: 'PSYCHODRAMA by Dave',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3670324389/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://damuthefudgemunk.bandcamp.com/album/ocean-bridges',
+                    a_string: 'Ocean Bridges by Damu the Fudgemunk, Archie Shepp &amp; Raw Poetic',
                     rule: {
                         "monday": [29, 4, 6, 10],
                         "tuesday": [3, 6, 8, 10],   
@@ -7561,6 +7561,60 @@ exports.seed = function (knex, Promise) {
                         "wednesday": [21, 15, 17, 23],
                         "thursday": [22, 16, 18, 24],  
                         "saturday": [5, 9, 11, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 421,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1038696456/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://freddiemcgregor.bandcamp.com/album/bobby-bobylon-deluxe-edition',
+                    a_string: 'Bobby Bobylon: Deluxe Edition by Freddie McGregor',
+                    rule: {
+                        "monday": [5, 9, 11, 15],
+                        "tuesday": [19, 11, 13, 15],
+                        "wednesday": [19, 13, 15, 17],
+                        "thursday": [21, 15, 17, 23],
+                        "saturday": [22, 16, 18, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 422,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4167874067/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://hempresssativa.bandcamp.com/album/unconquerebel',
+                    a_string: 'Unconquerebel by Hempress Sativa',
+                    rule: {
+                        "monday": [22, 16, 18, 24],
+                        "tuesday": [5, 9, 11, 15],  
+                        "wednesday": [19, 11, 13, 15],
+                        "thursday": [19, 13, 15, 17],
+                        "saturday": [21, 15, 17, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 423,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1638957037/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://kabakapyramid.bandcamp.com/album/kontraband',
+                    a_string: 'Kontraband by Kabaka Pyramid',
+                    rule: {
+                        "monday": [21, 15, 17, 23],
+                        "tuesday": [22, 16, 18, 24],
+                        "wednesday": [5, 9, 11, 15],  
+                        "thursday": [19, 11, 13, 15],
+                        "saturday": [19, 13, 15, 17] 
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

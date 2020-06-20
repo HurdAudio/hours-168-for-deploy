@@ -7672,6 +7672,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 427,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3402890710/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/william-duckworth-the-time-curve-preludes',
+                    a_string: 'William Duckworth: The Time Curve Preludes by R. Andrew Lee',
+                    rule: {
+                        "monday": [7, 14, 15, 16],
+                        "tuesday": [6, 12, 13, 14], 
+                        "wednesday": [5, 12, 13, 14], 
+                        "thursday": [9, 16, 17, 18], 
+                        "saturday": [8, 14, 15, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 428,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1300020834/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/ann-southam-soundings-for-a-new-piano',
+                    a_string: 'Ann Southam: Soundings for a New Piano by R. Andrew Lee',
+                    rule: {
+                        "monday": [8, 14, 15, 17],
+                        "tuesday": [7, 14, 15, 16], 
+                        "wednesday": [6, 12, 13, 14], 
+                        "thursday": [5, 12, 13, 14], 
+                        "saturday": [9, 16, 17, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 429,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1202073379/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/tom-johnson-an-hour-for-piano',
+                    a_string: 'Tom Johnson: An Hour for Piano by R. Andrew Lee',
+                    rule: {
+                        "monday": [9, 16, 17, 18],
+                        "tuesday": [8, 14, 15, 17], 
+                        "wednesday": [7, 14, 15, 16], 
+                        "thursday": [6, 12, 13, 14], 
+                        "saturday": [5, 12, 13, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

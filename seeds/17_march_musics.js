@@ -7456,6 +7456,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 415,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3936836145/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://alanlomaxarchive.bandcamp.com/album/get-in-union',
+                    a_string: 'Get In Union by Bessie Jones and the Georgia Sea Island Singers',
+                    rule: {
+                        "monday": [1, 7, 13, 22],
+                        "tuesday": [30, 6, 12, 20], 
+                        "wednesday": [30, 5, 11, 19], 
+                        "thursday": [3, 9, 15, 23],  
+                        "saturday": [2, 8, 13, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 416,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2290346559/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sluchaj.bandcamp.com/album/stormy-whispers-2',
+                    a_string: 'Stormy Whispers by Joëlle Léandre / Myra Melford / Lauren Newton',
+                    rule: {
+                        "monday": [2, 8, 13, 22],
+                        "tuesday": [1, 7, 13, 22],  
+                        "wednesday": [30, 6, 12, 20], 
+                        "thursday": [30, 5, 11, 19], 
+                        "saturday": [3, 9, 15, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 417,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2262650617/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://eleanorfriedberger.bandcamp.com/album/last-summer',
+                    a_string: 'Last Summer by Eleanor Friedberger',
+                    rule: {
+                        "monday": [3, 9, 15, 23],
+                        "tuesday": [2, 8, 13, 22],  
+                        "wednesday": [1, 7, 13, 22],  
+                        "thursday": [30, 6, 12, 20], 
+                        "saturday": [30, 5, 11, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

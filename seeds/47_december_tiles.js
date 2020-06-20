@@ -1516,6 +1516,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#b8daf4',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 109,
+                    user_id: 1,
+                    theme: 'Snow',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december_tiles/hans-jurgen-mager-nxdFIObszJw-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#393136',
+                    color_medium: '#a5a5bb',
+                    color_light: '#ebdfc1',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

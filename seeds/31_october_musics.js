@@ -6700,6 +6700,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 373,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1315977018/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://thrillingliving.bandcamp.com/album/the-greatest-nits-ep',
+                    a_string: '&quot;The Greatest Nits&quot; EP by Sniffany &amp; the Nits',
+                    rule: {
+                        "monday": [31, 10, 20, 23],
+                        "tuesday": [30, 9, 19, 22], 
+                        "wednesday": [29, 9, 18, 21], 
+                        "thursday": [28, 7, 18, 20], 
+                        "saturday": [27, 6, 16, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 374,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3456621140/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lavidaesunmus.bandcamp.com/album/modern-world',
+                    a_string: 'Modern World by Fried E/M',
+                    rule: {
+                        "monday": [27, 6, 16, 19],
+                        "tuesday": [31, 10, 20, 23],
+                        "wednesday": [30, 9, 19, 22], 
+                        "thursday": [29, 9, 18, 21], 
+                        "saturday": [28, 7, 18, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 375,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=845887212/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://rubblepdx.bandcamp.com/album/parts-per-million-ep',
+                    a_string: 'PARTS PER MILLION EP by RUBBLE',
+                    rule: {
+                        "monday": [28, 7, 18, 20],
+                        "tuesday": [27, 6, 16, 19], 
+                        "wednesday": [31, 10, 20, 23],
+                        "thursday": [30, 9, 19, 22], 
+                        "saturday": [29, 9, 18, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

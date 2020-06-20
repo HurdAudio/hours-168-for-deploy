@@ -1614,6 +1614,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#bad33b',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 116,
+                    user_id: 1,
+                    theme: 'Greenery',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/farhan-azam-LH2f77VWuGI-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#0b1708',
+                    color_medium: '#64991f',
+                    color_light: '#d3e2cf',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

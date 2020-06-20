@@ -7132,6 +7132,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 397,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3854557899/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://rbeny.bandcamp.com/album/natural-fiction',
+                    a_string: 'natural fiction by r beny',
+                    rule: {
+                        "monday": [25, 28, 4, 15],
+                        "tuesday": [25, 28, 4, 14], 
+                        "wednesday": [23, 1, 3, 18],  
+                        "thursday": [27, 1, 27, 18], 
+                        "saturday": [26, 29, 4, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 398,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2458850201/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://dust-editions.bandcamp.com/album/varispeed-hydra',
+                    a_string: 'Varispeed Hydra by Evan Caminiti',
+                    rule: {
+                        "monday": [26, 29, 4, 16],
+                        "tuesday": [25, 28, 4, 15], 
+                        "wednesday": [25, 28, 4, 14], 
+                        "thursday": [23, 1, 3, 18],  
+                        "saturday": [27, 1, 27, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 399,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=708157735/size=large/bgcol=ffffff/linkcol=0687f5/license_id=1083/tracklist=false/transparent=true/',
+                    href_string: 'http://danielavery.bandcamp.com/album/illusion-of-time',
+                    a_string: 'Illusion of Time by Daniel Avery &amp; Alessandro Cortini',
+                    rule: {
+                        "monday": [28, 2, 28, 19],
+                        "tuesday": [27, 30, 5, 17], 
+                        "wednesday": [26, 29, 5, 16], 
+                        "thursday": [26, 29, 5, 15],  
+                        "saturday": [24, 2, 4, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

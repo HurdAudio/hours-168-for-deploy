@@ -1642,6 +1642,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#c3b19a',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 118,
+                    user_id: 1,
+                    theme: 'Glass',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/geraltyichen-9jb7bnlfVHA-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#222f32',
+                    color_medium: '#3ba3d4',
+                    color_light: '#d6cfcb',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
