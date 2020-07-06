@@ -7294,6 +7294,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 406,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=624339578/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://pakradooni.bandcamp.com/album/flite',
+                    a_string: 'FLITE by Lauren Pakradooni',
+                    rule: {
+                        "monday": [30, 5, 12, 25],
+                        "tuesday": [29, 4, 11, 24],  
+                        "wednesday": [28, 3, 10, 23],  
+                        "thursday": [27, 2, 9, 22], 
+                        "saturday": [26, 1, 8, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 407,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2740607788/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://invisiblecityrecords.bandcamp.com/album/too-close-to-home',
+                    a_string: 'Too Close To Home by Rovox 625',
+                    rule: {
+                        "monday": [26, 1, 8, 21],
+                        "tuesday": [30, 5, 12, 25], 
+                        "wednesday": [29, 4, 11, 24], 
+                        "thursday": [28, 3, 10, 23], 
+                        "saturday": [27, 2, 9, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 408,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1156688159/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://opaltapes.com/album/sugarstick-xerox',
+                    a_string: 'Sugarstick &amp; Xerox by Sugarstick &amp; Xerox',
+                    rule: {
+                        "monday": [27, 2, 9, 22],
+                        "tuesday": [26, 1, 8, 21],  
+                        "wednesday": [30, 5, 12, 25], 
+                        "thursday": [29, 4, 11, 24], 
+                        "saturday": [28, 3, 10, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

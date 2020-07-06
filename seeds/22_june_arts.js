@@ -13404,6 +13404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 671,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/xshanghai-zhang-kechun-2013--b6cbb7483dd9c9b23404a7040c6fa0fd212fa7aa-s800-c85.jpg',
+                    title: 'Under the Abandoned Pier',
+                    artist: 'Zhang Kechun',
+                    year: '2013 - 2014',
+                    rule: {
+                        "monday": [11, 21, 1, 29],
+                        "tuesday": [30, 10, 20, 28],
+                        "wednesday": [29, 9, 19, 27], 
+                        "thursday": [5, 15, 25, 2],  
+                        "friday": [4, 14, 25, 2],  
+                        "saturday": [2, 13, 23, 21], 
+                        "sunday": [2, 12, 22, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 672,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/shanghai-liu_custom-c1dc9bfabae5d445cfb8b2048670d43219f23fdf-s800-c85.jpg',
+                    title: 'Animal Regulation – No. 18.',
+                    artist: 'Liu Di',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 13, 23, 30],
+                        "tuesday": [12, 22, 2, 30],
+                        "wednesday": [1, 11, 21, 29], 
+                        "thursday": [30, 10, 20, 28],  
+                        "friday": [6, 16, 26, 3],  
+                        "saturday": [5, 15, 26, 3], 
+                        "sunday": [3, 14, 24, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 673,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/shanghai-art-004-903212e783fe56c9e24e567fe0564f0f518aba86-s800-c85.jpg',
+                    title: 'Praying from the Lost and Found Series',
+                    artist: 'Peikwen Cheng',
+                    year: '2010',
+                    rule: {
+                        "monday": [3, 14, 24, 22],
+                        "tuesday": [3, 13, 23, 30], 
+                        "wednesday": [12, 22, 2, 30], 
+                        "thursday": [1, 11, 21, 29], 
+                        "friday": [30, 10, 20, 28],
+                        "saturday": [6, 16, 26, 3],  
+                        "sunday": [5, 15, 26, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 674,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/shanghai-art-005-9321cd198fb0a7ffa9cd81de781b4450dcff6651-s800-c85.jpg',
+                    title: 'Street Scene',
+                    artist: 'Ho Fan',
+                    year: '1957',
+                    rule: {
+                        "monday": [5, 15, 26, 3],
+                        "tuesday": [3, 14, 24, 22], 
+                        "wednesday": [3, 13, 23, 30], 
+                        "thursday": [12, 22, 2, 30], 
+                        "friday": [1, 11, 21, 29], 
+                        "saturday": [30, 10, 20, 28],
+                        "sunday": [6, 16, 26, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 675,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/shanghai-art-007-a476a683cf3e88fb8ad283dbf4367e9a76a63dbf-s800-c85.jpg',
+                    title: 'The Nirvana of Phoenix. No. 14',
+                    artist: 'Peng Jiang',
+                    year: '?',
+                    rule: {
+                        "monday": [6, 16, 26, 3],
+                        "tuesday": [5, 15, 26, 3],  
+                        "wednesday": [3, 14, 24, 22], 
+                        "thursday": [3, 13, 23, 30], 
+                        "friday": [12, 22, 2, 30], 
+                        "saturday": [1, 11, 21, 29], 
+                        "sunday": [30, 10, 20, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

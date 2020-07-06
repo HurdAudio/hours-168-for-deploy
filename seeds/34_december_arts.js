@@ -12197,10 +12197,110 @@ exports.seed = function (knex, Promise) {
                         "monday": [28, 9, 18, 24],
                         "tuesday": [27, 9, 17, 23], 
                         "wednesday": [26, 8, 16, 22], 
-                        "thursday":[25, 7, 15, 21], 
-                        "friday":  [24, 5, 4, 20], 
+                        "thursday": [25, 7, 15, 21], 
+                        "friday": [24, 5, 4, 20], 
                         "saturday": [13, 5, 24, 31], 
                         "sunday": [29, 11, 19, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 611,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/12-09-01,LesliesWkly.jpg',
+                    title: 'Leslie\'s Weekly',
+                    artist: 'P. J. Monahan',
+                    year: '1912',
+                    rule: {
+                        "monday": [29, 11, 19, 25],
+                        "tuesday": [28, 9, 18, 24], 
+                        "wednesday": [27, 9, 17, 23], 
+                        "thursday": [26, 8, 16, 22], 
+                        "friday": [25, 7, 15, 21], 
+                        "saturday": [24, 5, 4, 20],  
+                        "sunday": [13, 5, 24, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 612,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-08,DblActW2.jpg',
+                    title: 'Double Action',
+                    artist: 'D. H. Moneypenny',
+                    year: '1937',
+                    rule: {
+                        "monday": [13, 5, 24, 31],
+                        "tuesday": [29, 11, 19, 25],
+                        "wednesday": [28, 9, 18, 24], 
+                        "thursday": [27, 9, 17, 23], 
+                        "friday": [26, 8, 16, 22], 
+                        "saturday": [25, 7, 15, 21], 
+                        "sunday": [24, 5, 4, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 613,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-10,SaucyRomAdv.jpg',
+                    title: 'Saucy Romantic',
+                    artist: 'Martha E. Moore',
+                    year: '1936',
+                    rule: {
+                        "monday": [24, 5, 4, 20],
+                        "tuesday": [13, 5, 24, 31], 
+                        "wednesday": [29, 11, 19, 25],
+                        "thursday": [28, 9, 18, 24], 
+                        "friday": [27, 9, 17, 23], 
+                        "saturday": [26, 8, 16, 22], 
+                        "sunday": [25, 7, 15, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 614,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/32-08,Amazing.jpg',
+                    title: 'Amazing Stories',
+                    artist: 'Leo Morey',
+                    year: '1932',
+                    rule: {
+                        "monday": [25, 7, 15, 21],
+                        "tuesday": [24, 5, 4, 20],  
+                        "wednesday": [13, 5, 24, 31], 
+                        "thursday": [29, 11, 19, 25],
+                        "friday": [28, 9, 18, 24], 
+                        "saturday": [27, 9, 17, 23], 
+                        "sunday": [26, 8, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 615,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/20-01-17,AllSWa.jpg',
+                    title: 'All-Story',
+                    artist: 'R. B. Morrison',
+                    year: '1920',
+                    rule: {
+                        "monday": [26, 8, 16, 22],
+                        "tuesday": [25, 7, 15, 21], 
+                        "wednesday": [24, 5, 4, 20],  
+                        "thursday": [13, 5, 24, 31], 
+                        "friday": [29, 11, 19, 25],
+                        "saturday": [28, 9, 18, 24], 
+                        "sunday": [27, 9, 17, 23]  
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

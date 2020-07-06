@@ -13604,6 +13604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 681,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/a-girl-sketch-1897.jpg',
+                    title: 'A Girl. Sketch',
+                    artist: 'Boris Kustodiev',
+                    year: '1897',
+                    rule: {
+                        "monday": [4, 16, 26, 3],
+                        "tuesday": [4, 15, 24, 3],  
+                        "wednesday": [2, 12, 20, 22], 
+                        "thursday": [30, 10, 20, 9], 
+                        "friday": [29, 9, 19, 29], 
+                        "saturday": [27, 6, 16, 24], 
+                        "sunday": [25, 3, 15, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 682,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/fist-fight-on-the-moscow-river-1897.jpg',
+                    title: 'Fist fight on the Moscow River',
+                    artist: 'Boris Kustodiev',
+                    year: '1897',
+                    rule: {
+                        "monday": [25, 3, 15, 24],
+                        "tuesday": [4, 16, 26, 3],  
+                        "wednesday": [4, 15, 24, 3],  
+                        "thursday": [2, 12, 20, 22], 
+                        "friday": [30, 10, 20, 9], 
+                        "saturday": [29, 9, 19, 29], 
+                        "sunday": [27, 6, 16, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 683,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/revolt-against-the-boyars-in-the-old-russia-1897.jpg',
+                    title: 'Revolt against the boyars in the old Russia',
+                    artist: 'Boris Kustodiev',
+                    year: '1897',
+                    rule: {
+                        "monday": [27, 6, 16, 24],
+                        "tuesday": [25, 3, 15, 24], 
+                        "wednesday": [4, 16, 26, 3],  
+                        "thursday": [4, 15, 24, 3],  
+                        "friday": [2, 12, 20, 22], 
+                        "saturday": [30, 10, 20, 9], 
+                        "sunday": [29, 9, 19, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 684,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-gury-nikolaevich-smirnov-a-cousin-of-the-artist-1898.jpg',
+                    title: 'Portrait of Gury Nikolaevich Smirnov, a cousin of the artist',
+                    artist: 'Boris Kustodiev',
+                    year: '1898',
+                    rule: {
+                        "monday": [29, 9, 19, 29],
+                        "tuesday": [27, 6, 16, 24], 
+                        "wednesday": [25, 3, 15, 24], 
+                        "thursday": [4, 16, 26, 3],  
+                        "friday": [4, 15, 24, 3],  
+                        "saturday": [2, 12, 20, 22], 
+                        "sunday": [30, 10, 20, 9]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 685,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/seated-model-1898.jpg',
+                    title: 'Seated Model',
+                    artist: 'Boris Kustodiev',
+                    year: '1898',
+                    rule: {
+                        "monday": [30, 10, 20, 9],
+                        "tuesday": [29, 9, 19, 29], 
+                        "wednesday": [27, 6, 16, 24], 
+                        "thursday": [25, 3, 15, 24], 
+                        "friday": [4, 16, 26, 3],  
+                        "saturday": [4, 15, 24, 3],  
+                        "sunday": [2, 12, 20, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

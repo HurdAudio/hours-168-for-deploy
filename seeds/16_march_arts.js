@@ -14004,6 +14004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 701,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/floreat-etona-1882.jpg',
+                    title: 'Floreat Etona',
+                    artist: 'Elizabeth Thompson',
+                    year: '1882',
+                    rule: {
+                        "monday": [4, 16, 24, 3],
+                        "tuesday": [5, 15, 23, 2],  
+                        "wednesday": [4, 15, 22, 1],  
+                        "thursday": [3, 13, 21, 31], 
+                        "friday": [2, 12, 21, 30], 
+                        "saturday": [8, 17, 27, 4],  
+                        "sunday": [7, 17, 25, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 702,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/nid-qub-qub-477-001.jpg',
+                    title: 'Esposito, Composer',
+                    artist: 'Sarah Purser',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 17, 25, 4],
+                        "tuesday": [4, 16, 24, 3],  
+                        "wednesday": [5, 15, 23, 2],  
+                        "thursday": [4, 15, 22, 1],  
+                        "friday": [3, 13, 21, 31], 
+                        "saturday": [2, 12, 21, 30], 
+                        "sunday": [8, 17, 27, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 703,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/cae-19-abbema054a.jpg',
+                    title: 'La peinture',
+                    artist: 'Louise Abbéma',
+                    year: 'c.1897',
+                    rule: {
+                        "monday": [8, 17, 27, 4],
+                        "tuesday": [7, 17, 25, 4],  
+                        "wednesday": [4, 16, 24, 3],  
+                        "thursday": [5, 15, 23, 2],  
+                        "friday": [4, 15, 22, 1],  
+                        "saturday": [3, 13, 21, 31], 
+                        "sunday": [2, 12, 21, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 704,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/in-memoriam-1898-1.jpg',
+                    title: 'In Memoriam',
+                    artist: 'Evelyn De Morgan',
+                    year: '1898',
+                    rule: {
+                        "monday": [2, 12, 21, 30],
+                        "tuesday": [8, 17, 27, 4],  
+                        "wednesday": [7, 17, 25, 4],  
+                        "thursday": [4, 16, 24, 3],  
+                        "friday": [5, 15, 23, 2],  
+                        "saturday": [4, 15, 22, 1],  
+                        "sunday": [3, 13, 21, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 705,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/800px-a-young-girl-plucking-a-swan-anna-ancher.jpg',
+                    title: 'A Young Girl Plucking a Swan',
+                    artist: 'Anna Ancher',
+                    year: '1900',
+                    rule: {
+                        "monday": [3, 13, 21, 31],
+                        "tuesday": [2, 12, 21, 30], 
+                        "wednesday": [8, 17, 27, 4],  
+                        "thursday": [7, 17, 25, 4],  
+                        "friday": [4, 16, 24, 3],  
+                        "saturday": [5, 15, 23, 2],  
+                        "sunday": [4, 15, 22, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6862,6 +6862,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 382,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3414845502/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://cuneiformrecords.bandcamp.com/album/i-just-did-say-something',
+                    a_string: 'I Just Did Say Something by I.P.A.',
+                    rule: {
+                        "monday": [29, 19, 27, 21],
+                        "tuesday": [28, 18, 26, 20],
+                        "wednesday": [27, 17, 25, 18],
+                        "thursday": [27, 16, 24, 18],
+                        "saturday": [25, 15, 23, 17] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 383,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3126464408/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://arakirecords.bandcamp.com/album/split',
+                    a_string: 'Split by Chafouin / Lapin',
+                    rule: {
+                        "monday": [25, 15, 23, 17],
+                        "tuesday": [29, 19, 27, 21],
+                        "wednesday": [28, 18, 26, 20],
+                        "thursday": [27, 17, 25, 18],
+                        "saturday": [27, 16, 24, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 384,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3267326866/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://stillnessandstars.bandcamp.com/album/stillness-and-stars-2',
+                    a_string: 'Stillness and Stars 2 by Stillness and Stars',
+                    rule: {
+                        "monday": [27, 16, 24, 18],
+                        "tuesday": [25, 15, 23, 17],
+                        "wednesday": [29, 19, 27, 21],
+                        "thursday": [28, 18, 26, 20],
+                        "saturday": [27, 17, 25, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

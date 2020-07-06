@@ -12404,6 +12404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 621,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/red-bird-1964.jpg',
+                    title: 'Red Bird',
+                    artist: 'Agnes Martin',
+                    year: '1964',
+                    rule: {
+                        "monday": [2, 7, 13, 20],
+                        "tuesday": [8, 13, 19, 24], 
+                        "wednesday": [7, 9, 17, 13],  
+                        "thursday": [6, 10, 17, 20], 
+                        "friday": [5, 8, 15, 20],  
+                        "saturday": [3, 8, 14, 19],  
+                        "sunday": [2, 6, 13, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 622,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/monument-1-for-v-tatlin-1964.jpg',
+                    title: '”Monument” 1 for V. Tatlin',
+                    artist: 'Dan Flavin',
+                    year: '1964',
+                    rule: {
+                        "monday": [2, 6, 13, 18],
+                        "tuesday": [2, 7, 13, 20],  
+                        "wednesday": [8, 13, 19, 24], 
+                        "thursday": [7, 9, 17, 13],  
+                        "friday": [6, 10, 17, 20], 
+                        "saturday": [5, 8, 15, 20],  
+                        "sunday": [3, 8, 14, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 623,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/no-4-1964.jpg',
+                    title: 'No. 4',
+                    artist: 'Mark Rothko',
+                    year: '1964',
+                    rule: {
+                        "monday": [4, 9, 15, 20],
+                        "tuesday": [3, 7, 14, 19],  
+                        "wednesday": [3, 8, 14, 21], 
+                        "thursday": [9, 14, 20, 25],  
+                        "friday": [8, 10, 18, 14], 
+                        "saturday": [7, 11, 18, 21],  
+                        "sunday": [6, 9, 16, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 624,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1964-fhiuevw-wheeler.jpg',
+                    title: 'Untitled',
+                    artist: 'Doug Wheeler',
+                    year: '1964',
+                    rule: {
+                        "monday": [6, 9, 16, 21],
+                        "tuesday": [4, 9, 15, 20],  
+                        "wednesday": [3, 7, 14, 19],  
+                        "thursday": [3, 8, 14, 21],  
+                        "friday": [9, 14, 20, 25], 
+                        "saturday": [8, 10, 18, 14], 
+                        "sunday": [7, 11, 18, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 625,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/floor-piece-bench-1964.jpg',
+                    title: 'Floor Piece (Bench)',
+                    artist: 'Robert Morris',
+                    year: '1964',
+                    rule: {
+                        "monday": [7, 11, 18, 21],
+                        "tuesday": [6, 9, 16, 21],  
+                        "wednesday": [4, 9, 15, 20],  
+                        "thursday": [3, 7, 14, 19],  
+                        "friday": [3, 8, 14, 21],  
+                        "saturday": [9, 14, 20, 25], 
+                        "sunday": [8, 10, 18, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -7186,6 +7186,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 400,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3759956101/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://masonjones.bandcamp.com/album/the-crystalline-world-of-memory',
+                    a_string: 'The Crystalline World Of Memory by Mason Jones',
+                    rule: {
+                        "monday": [24, 2, 4, 19],
+                        "tuesday": [28, 2, 28, 19], 
+                        "wednesday": [27, 30, 5, 17], 
+                        "thursday": [26, 29, 5, 16], 
+                        "saturday": [26, 29, 5, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 401,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=498871223/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://masonjones.bandcamp.com/album/dimly-recalled',
+                    a_string: 'Dimly Recalled by Mason Jones',
+                    rule: {
+                        "monday": [26, 29, 5, 15],
+                        "tuesday": [24, 2, 4, 19],  
+                        "wednesday": [28, 2, 28, 19], 
+                        "thursday": [27, 30, 5, 17], 
+                        "saturday": [26, 29, 5, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 402,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2697540102/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mutualaidrecords.bandcamp.com/album/improvised-sessions-iv',
+                    a_string: 'Improvised Sessions IV by Walter Wright',
+                    rule: {
+                        "monday": [26, 29, 5, 16],
+                        "tuesday": [26, 29, 5, 15], 
+                        "wednesday": [24, 2, 4, 19],  
+                        "thursday": [28, 2, 28, 19], 
+                        "saturday": [27, 30, 5, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

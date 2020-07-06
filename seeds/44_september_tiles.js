@@ -1572,6 +1572,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#beaba5',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 113,
+                    user_id: 1,
+                    theme: 'Leather',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/still-life-5347676_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#15110d',
+                    color_medium: '#a44c24',
+                    color_light: '#dc985a',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

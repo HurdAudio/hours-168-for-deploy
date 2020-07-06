@@ -13204,6 +13204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 661,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/grands-boulevard-et-porte-st-denis-sous-la-neige.jpg',
+                    title: 'Grands Boulevard et Porte St. Denis, Sous la Neige',
+                    artist: 'Antoine Blanchard',
+                    year: '',
+                    rule: {
+                        "monday": [28, 8, 30, 31],
+                        "tuesday": [29, 9, 31, 1],  
+                        "wednesday": [3, 12, 25, 5],  
+                        "thursday": [3, 11, 25, 5],  
+                        "friday": [1, 12, 24, 4],  
+                        "saturday": [1, 12, 23, 24], 
+                        "sunday": [31, 11, 21, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 662,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/t-te-du-mannequin-d-andre-masson-1937.jpg',
+                    title: 'Tête du Mannequin d\'Andre Masson',
+                    artist: 'Raoul Ubac',
+                    year: '1937',
+                    rule: {
+                        "monday": [31, 11, 21, 23],
+                        "tuesday": [28, 8, 30, 31], 
+                        "wednesday": [29, 9, 31, 1],  
+                        "thursday": [3, 12, 25, 5],  
+                        "friday": [3, 11, 25, 5],  
+                        "saturday": [1, 12, 24, 4],  
+                        "sunday": [1, 12, 23, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 663,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/composition-abstraite-1983.jpg',
+                    title: 'Composition abstraite',
+                    artist: 'Jean Le Moal',
+                    year: '1983',
+                    rule: {
+                        "monday": [1, 12, 23, 24],
+                        "tuesday": [31, 11, 21, 23],
+                        "wednesday": [28, 8, 30, 31], 
+                        "thursday": [29, 9, 31, 1],  
+                        "friday": [3, 12, 25, 5],  
+                        "saturday": [3, 11, 25, 5],  
+                        "sunday": [1, 12, 24, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 664,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/seven-figures-in-a-landscape-1950.jpg',
+                    title: 'Seven Figures in a Landscape',
+                    artist: 'Paul Ackerman',
+                    year: '1950',
+                    rule: {
+                        "monday": [1, 12, 24, 4],
+                        "tuesday": [1, 12, 23, 24], 
+                        "wednesday": [31, 11, 21, 23],
+                        "thursday": [28, 8, 30, 31], 
+                        "friday": [29, 9, 31, 1],  
+                        "saturday": [3, 12, 25, 5],  
+                        "sunday": [3, 11, 25, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 665,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/cathy-s-toilette-1933.jpg',
+                    title: 'Cathy\'s toilette',
+                    artist: 'Balthus',
+                    year: '1933',
+                    rule: {
+                        "monday": [4, 12, 26, 6],
+                        "tuesday": [2, 13, 25, 5], 
+                        "wednesday": [2, 13, 24, 25],
+                        "thursday": [1, 12, 22, 24], 
+                        "friday": [29, 9, 31, 1],  
+                        "saturday": [30, 10, 1, 2],  
+                        "sunday": [4, 13, 26, 66]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

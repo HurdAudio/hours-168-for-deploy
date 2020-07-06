@@ -6970,6 +6970,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1784959245/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://deathbedtapes.com/album/lost-wisdom',
+                    a_string: 'LOST WISDOM by Primitive Knot',
+                    rule: {
+                        "monday": [31, 8, 21, 20],
+                        "tuesday": [4, 12, 25, 24], 
+                        "wednesday": [3, 11, 24, 23], 
+                        "thursday": [2, 10, 23, 22], 
+                        "saturday": [1, 9, 22, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2325190983/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://weinsist.bandcamp.com/album/area-sismica',
+                    a_string: 'Area Sismica by Joëlle Léandre, Pascal Contet',
+                    rule: {
+                        "monday": [1, 9, 22, 21],
+                        "tuesday": [31, 8, 21, 20], 
+                        "wednesday": [4, 12, 25, 24], 
+                        "thursday": [3, 11, 24, 23], 
+                        "saturday": [2, 10, 23, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3099349147/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://brandonseabrook.bandcamp.com/album/exultations',
+                    a_string: 'Exultations by Brandon Seabrook',
+                    rule: {
+                        "monday": [2, 10, 23, 22],
+                        "tuesday": [1, 9, 22, 21],  
+                        "wednesday": [31, 8, 21, 20], 
+                        "thursday": [4, 12, 25, 24], 
+                        "saturday": [3, 11, 24, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

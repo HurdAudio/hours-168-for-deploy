@@ -13004,6 +13004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 651,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/dancer-of-delhi-betalo-rubino-1916.jpg',
+                    title: 'Dancer of Delhi (Betalo Rubino)',
+                    artist: 'Robert Henri',
+                    year: '1916',
+                    rule: {
+                        "monday": [1, 3, 13, 29],
+                        "tuesday": [31, 2, 12, 28], 
+                        "wednesday": [30, 2, 11, 27], 
+                        "thursday": [29, 1, 10, 26],  
+                        "friday": [4, 8, 16, 1],  
+                        "saturday": [3, 6, 15, 31], 
+                        "sunday": [1, 6, 14, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 652,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/baik-in-the-role-of-ibara-1915.jpg',
+                    title: 'Baikō in the role of Ibara',
+                    artist: 'Natori Shunsen',
+                    year: '1915',
+                    rule: {
+                        "monday": [1, 6, 14, 30],
+                        "tuesday": [1, 3, 13, 29],  
+                        "wednesday": [31, 2, 12, 28], 
+                        "thursday": [30, 2, 11, 27], 
+                        "friday": [29, 1, 10, 26], 
+                        "saturday": [4, 8, 16, 1],   
+                        "sunday": [3, 6, 15, 31]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 653,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/sans-titre-main-coquillage-1934.jpg',
+                    title: 'Sans Titre (Main-coquillage)',
+                    artist: 'Dora Maar',
+                    year: '1934',
+                    rule: {
+                        "monday": [3, 6, 15, 31],
+                        "tuesday": [1, 6, 14, 30],  
+                        "wednesday": [1, 3, 13, 29],  
+                        "thursday": [31, 2, 12, 28], 
+                        "friday": [30, 2, 11, 27], 
+                        "saturday": [29, 1, 10, 26], 
+                        "sunday": [4, 8, 16, 1]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 654,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/winter-landscape-with-pink-house-1918.jpg',
+                    title: 'Winter Landscape with Pink House',
+                    artist: 'Lawren Harris',
+                    year: '1918',
+                    rule: {
+                        "monday": [4, 8, 16, 1],
+                        "tuesday": [3, 6, 15, 31],  
+                        "wednesday": [1, 6, 14, 30],  
+                        "thursday": [1, 3, 13, 29],  
+                        "friday": [31, 2, 12, 28], 
+                        "saturday": [30, 2, 11, 27], 
+                        "sunday": [29, 1, 10, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 655,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/composition-1920-dfhwodivf.jpg',
+                    title: 'Composition',
+                    artist: 'Janos Mattis-Teutsch',
+                    year: '1920',
+                    rule: {
+                        "monday": [29, 1, 10, 26],
+                        "tuesday": [4, 8, 16, 1],   
+                        "wednesday": [3, 6, 15, 31],  
+                        "thursday": [1, 6, 14, 30],  
+                        "friday": [1, 3, 13, 29],  
+                        "saturday": [31, 2, 12, 28], 
+                        "sunday": [30, 2, 11, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

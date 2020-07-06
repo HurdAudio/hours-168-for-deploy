@@ -7078,6 +7078,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 394,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3587485563/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://candaceisaband.bandcamp.com/album/ideal-corners',
+                    a_string: 'Ideal Corners by Candace',
+                    rule: {
+                        "monday": [23, 25, 29, 6],
+                        "tuesday": [27, 29, 2, 10], 
+                        "wednesday": [25, 27, 31, 9], 
+                        "thursday": [25, 26, 2, 8],  
+                        "saturday": [24, 25, 1, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 395,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3749261515/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://specialinterestno.bandcamp.com/album/the-passion-of',
+                    a_string: 'The Passion Of by SPECIAL INTEREST',
+                    rule: {
+                        "monday": [24, 25, 1, 7],
+                        "tuesday": [23, 25, 29, 6], 
+                        "wednesday": [27, 29, 2, 10], 
+                        "thursday": [25, 27, 31, 9], 
+                        "saturday": [25, 26, 2, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 396,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3286831465/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://arthurrussell.bandcamp.com/album/calling-out-of-context',
+                    a_string: 'Calling Out Of Context by Arthur Russell',
+                    rule: {
+                        "monday": [25, 26, 2, 8],
+                        "tuesday": [24, 25, 1, 7],  
+                        "wednesday": [23, 25, 29, 6], 
+                        "thursday": [27, 29, 2, 10], 
+                        "saturday": [25, 27, 31, 9]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

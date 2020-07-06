@@ -1558,6 +1558,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#ecc887',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 112,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/mushrooms-5328475_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#141315',
+                    color_medium: '#9e4613',
+                    color_light: '#caa666',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

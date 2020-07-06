@@ -6538,6 +6538,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 364,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=995552252/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mr-spaceman.bandcamp.com/album/loop',
+                    a_string: 'loop by mr.spaceman',
+                    rule: {
+                        "monday": [23, 31, 6, 12],
+                        "tuesday": [24, 30, 5, 11],  
+                        "wednesday": [28, 3, 9, 15],  
+                        "thursday": [27, 2, 8, 14], 
+                        "saturday": [24, 1, 7, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 365,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1318088933/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://federicodurand.bandcamp.com/album/flor-imaginaria',
+                    a_string: 'Flor Imaginaria by Federico Durand',
+                    rule: {
+                        "monday": [24, 1, 7, 13],
+                        "tuesday": [23, 31, 6, 12], 
+                        "wednesday": [24, 30, 5, 11], 
+                        "thursday": [28, 3, 9, 15],  
+                        "saturday": [27, 2, 8, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 366,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1723110115/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://danpocetti.bandcamp.com/album/reto-ar',
+                    a_string: 'Retoñar by Dan Pocetti',
+                    rule: {
+                        "monday": [27, 2, 8, 14],
+                        "tuesday": [24, 1, 7, 13],  
+                        "wednesday": [23, 31, 6, 12], 
+                        "thursday": [24, 30, 5, 11], 
+                        "saturday": [28, 3, 9, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

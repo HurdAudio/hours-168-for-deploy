@@ -11947,6 +11947,34 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 768,
+                    user_id: 1,
+                    name: 'Charles T. Griffes (composer) born 1884',
+                    color: '#2e2e2e',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/charles-griffes-cafc0fc4-0f31-4317-92c1-203f65b9ca6-resize-750.png',
+                    day_of: new Date('1884-09-17  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 769,
+                    user_id: 1,
+                    name: 'Boots Riley (rapper/producer/screenwriter/film director/activist) born 1971',
+                    color: '#ac373d',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/961732_v9_ba.jpg',
+                    day_of: new Date('1971-04-01  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

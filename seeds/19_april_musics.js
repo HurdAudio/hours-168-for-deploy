@@ -7402,6 +7402,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 412,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2318794395/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lakeciabenjamin.bandcamp.com/album/pursuance-the-coltranes',
+                    a_string: 'Pursuance : The Coltranes by Lakecia Benjamin',
+                    rule: {
+                        "monday": [2, 10, 22, 27],
+                        "tuesday": [1, 8, 21, 26],  
+                        "wednesday": [30, 8, 20, 25], 
+                        "thursday": [29, 7, 18, 24], 
+                        "saturday": [28, 6, 18, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 413,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=442239713/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://chrisdingman.bandcamp.com/album/embrace',
+                    a_string: 'Embrace by Chris Dingman',
+                    rule: {
+                        "monday": [29, 7, 19, 24],
+                        "tuesday": [3, 11, 23, 28],  
+                        "wednesday": [2, 9, 22, 27], 
+                        "thursday": [1, 9, 21, 26], 
+                        "saturday": [30, 8, 19, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 414,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4185856817/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://thenecksau.bandcamp.com/album/three',
+                    a_string: 'Three by The Necks',
+                    rule: {
+                        "monday": [30, 8, 19, 25],
+                        "tuesday": [29, 7, 19, 24], 
+                        "wednesday": [3, 11, 23, 28], 
+                        "thursday": [2, 9, 22, 27],  
+                        "saturday": [1, 9, 21, 26]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

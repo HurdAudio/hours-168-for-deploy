@@ -13804,6 +13804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 691,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/882122942a644c2f5f6ddb88eecae182.jpg',
+                    title: 'Kansas City Royals Desktop Wallpaper',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 11, 26, 24],
+                        "tuesday": [4, 10, 16, 22], 
+                        "wednesday": [5, 10, 16, 22], 
+                        "thursday": [4, 9, 15, 21],  
+                        "friday": [23, 15, 20, 26],
+                        "saturday": [23, 13, 19, 25],
+                        "sunday": [8, 11, 24, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 692,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/thumb2-kansas-city-royals-american-baseball-club-mlb-golden-silver-logo-kansas-city.jpg',
+                    title: 'Kansas City Royals Golden Silver Logo',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [8, 11, 24, 25],
+                        "tuesday": [7, 11, 26, 24], 
+                        "wednesday": [4, 10, 16, 22], 
+                        "thursday": [5, 10, 16, 22], 
+                        "friday": [4, 9, 15, 21],  
+                        "saturday": [23, 15, 20, 26],
+                        "sunday": [23, 13, 19, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 693,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/wallpaper2you_380149.jpg',
+                    title: 'Kansas City Royals Wallpaper',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [24, 14, 20, 26],
+                        "tuesday": [9, 12, 25, 26], 
+                        "wednesday": [8, 12, 27, 25], 
+                        "thursday": [5, 11, 17, 23], 
+                        "friday": [6, 11, 17, 23],  
+                        "saturday": [5, 10, 16, 22],
+                        "sunday": [24, 16, 21, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 694,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/hd-kansas-city-royals-photos-hd-wallpapers-background-photos-mac-wallpapers-tablet-artworks-high-definition-wallpaper-for-iphone-download-2560x1440.jpg',
+                    title: 'Kansas City Royals Wallpaper',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [24, 16, 21, 27],
+                        "tuesday": [24, 14, 20, 26],
+                        "wednesday": [9, 12, 25, 26], 
+                        "thursday": [8, 12, 27, 25], 
+                        "friday": [5, 11, 17, 23], 
+                        "saturday": [6, 11, 17, 23], 
+                        "sunday": [5, 10, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 695,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/OhSoLovelyBlog-KCRoyals-Desktop-Wallpapers-03.png',
+                    title: 'Royals Desktop Wallpaper',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 10, 16, 22],
+                        "tuesday": [24, 16, 21, 27],
+                        "wednesday": [24, 14, 20, 26],
+                        "thursday": [9, 12, 25, 26], 
+                        "friday": [8, 12, 27, 25], 
+                        "saturday": [5, 11, 17, 23], 
+                        "sunday": [6, 11, 17, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

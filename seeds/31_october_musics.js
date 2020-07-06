@@ -6754,6 +6754,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 376,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3054973761/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://staticshockrecords.bandcamp.com/album/a-spine-evidence',
+                    a_string: 'A Spine / Evidence by Powerplant',
+                    rule: {
+                        "monday": [29, 9, 18, 21],
+                        "tuesday": [28, 7, 18, 20], 
+                        "wednesday": [27, 6, 16, 19], 
+                        "thursday": [31, 10, 20, 23],
+                        "saturday": [30, 9, 19, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 377,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1387980144/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://lavidaesunmus.bandcamp.com/album/over-the-hills-and-far-away',
+                    a_string: 'Over The Hills And Far Away by Subdued',
+                    rule: {
+                        "monday": [30, 9, 19, 22],
+                        "tuesday": [29, 9, 18, 21], 
+                        "wednesday": [28, 7, 18, 20], 
+                        "thursday": [27, 6, 16, 19], 
+                        "saturday": [31, 10, 20, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 378,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2658743607/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://drunkensailorrecords.bandcamp.com/album/st-lp-11',
+                    a_string: 'ST LP by A Culture of Killing',
+                    rule: {
+                        "monday": [1, 11, 21, 24],
+                        "tuesday": [31, 10, 20, 23], 
+                        "wednesday": [30, 10, 19, 22], 
+                        "thursday": [29, 8, 19, 21], 
+                        "saturday": [28, 7, 17, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

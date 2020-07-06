@@ -12604,6 +12604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 631,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_bomb_on_earth.jpg',
+                    title: 'Nuclear bomb',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 13, 24, 28],
+                        "tuesday": [1, 12, 23, 27], 
+                        "wednesday": [31, 11, 23, 26],
+                        "thursday": [30, 10, 21, 25],
+                        "friday": [29, 9, 19, 24], 
+                        "saturday": [7, 8, 19, 23],  
+                        "sunday": [3, 14, 25, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 632,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_bomb_no.jpg',
+                    title: 'Net No Nein',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 14, 25, 29],
+                        "tuesday": [2, 13, 24, 28], 
+                        "wednesday": [1, 12, 23, 27], 
+                        "thursday": [31, 11, 23, 26],
+                        "friday": [30, 10, 21, 25],
+                        "saturday": [29, 9, 19, 24], 
+                        "sunday": [7, 8, 19, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 633,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_bomb_hand.jpg',
+                    title: 'The cause of peace, is in the hands of young (people)!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 8, 19, 23],
+                        "tuesday": [3, 14, 25, 29], 
+                        "wednesday": [2, 13, 24, 28], 
+                        "thursday": [1, 12, 23, 27], 
+                        "friday": [31, 11, 23, 26],
+                        "saturday": [30, 10, 21, 25],
+                        "sunday": [29, 9, 19, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 634,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_bomb_cage.jpg',
+                    title: 'There is no other home!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [29, 9, 19, 24],
+                        "tuesday": [7, 8, 19, 23],  
+                        "wednesday": [3, 14, 25, 29], 
+                        "thursday": [2, 13, 24, 28], 
+                        "friday": [1, 12, 23, 27], 
+                        "saturday": [31, 11, 23, 26],
+                        "sunday": [30, 10, 21, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 635,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_blue_planet.jpg',
+                    title: 'My blue planet, I love you and hug (you).',
+                    artist: 'L. Tarasova',
+                    year: '1989',
+                    rule: {
+                        "monday": [30, 10, 21, 25],
+                        "tuesday": [29, 9, 19, 24], 
+                        "wednesday": [7, 8, 19, 23],  
+                        "thursday": [3, 14, 25, 29], 
+                        "friday": [2, 13, 24, 28], 
+                        "saturday": [1, 12, 23, 27], 
+                        "sunday": [31, 11, 23, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -14404,6 +14404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 721,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/unknown-title(12).jpg',
+                    title: 'unknown title',
+                    artist: 'Adnan Coker',
+                    year: '?',
+                    rule: {
+                        "monday": [18, 16, 8, 11],
+                        "tuesday": [18, 19, 10, 14],
+                        "wednesday": [21, 23, 24, 26],
+                        "thursday": [23, 25, 29, 1],
+                        "friday": [25, 27, 28, 29], 
+                        "saturday": [13, 15, 7, 27], 
+                        "sunday": [13, 15, 7, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 722,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/unknown-title(16).jpg',
+                    title: 'unknown title',
+                    artist: 'Adnan Coker',
+                    year: '?',
+                    rule: {
+                        "monday": [13, 15, 7, 27],
+                        "tuesday": [18, 16, 8, 11], 
+                        "wednesday": [18, 19, 10, 14],
+                        "thursday": [21, 23, 24, 26],
+                        "friday": [23, 25, 29, 1], 
+                        "saturday": [25, 27, 28, 29],
+                        "sunday": [13, 15, 7, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 723,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/unknown-title(1)-huihsid.jpg',
+                    title: 'Composition No.41',
+                    artist: 'Friedrich Vordemberge-Gildewart',
+                    year: '1927',
+                    rule: {
+                        "monday": [13, 15, 7, 27],
+                        "tuesday": [13, 15, 7, 27], 
+                        "wednesday": [18, 16, 8, 11], 
+                        "thursday": [18, 19, 10, 14],
+                        "friday": [21, 23, 24, 26],
+                        "saturday": [23, 25, 29, 1], 
+                        "sunday": [25, 27, 28, 29] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 724,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/il-trittico-della-velocit-l-arrivo-1927.jpg',
+                    title: 'il Trittico della Velocità: L\'Arrivo',
+                    artist: 'Gerardo Dottori',
+                    year: '1927',
+                    rule: {
+                        "monday": [25, 27, 28, 29],
+                        "tuesday": [13, 15, 7, 27], 
+                        "wednesday": [13, 15, 7, 27], 
+                        "thursday": [18, 16, 8, 11], 
+                        "friday": [18, 19, 10, 14],
+                        "saturday": [21, 23, 24, 26],
+                        "sunday": [23, 25, 29, 1]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 725,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-with-red-dots-1927.jpg',
+                    title: 'Composition with red dots',
+                    artist: 'Otto Gustav Carlsund',
+                    year: '1927',
+                    rule: {
+                        "monday": [23, 25, 29, 1],
+                        "tuesday": [25, 27, 28, 29],
+                        "wednesday": [13, 15, 7, 27], 
+                        "thursday": [13, 15, 7, 27], 
+                        "friday": [18, 16, 8, 11], 
+                        "saturday": [18, 19, 10, 14],
+                        "sunday": [21, 23, 24, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

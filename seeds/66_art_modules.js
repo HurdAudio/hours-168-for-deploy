@@ -5404,6 +5404,66 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 451,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/those-who-eat-crabs-part-of-the-diptych-1992.jpg',
+                    title: 'Those Who Eat Crabs. Part of the Diptych',
+                    artist: 'Dmytro Kavsan',
+                    year: '1992',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 452,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/oil-in-the-snow-1992.jpg',
+                    title: 'Oil in the Snow',
+                    artist: 'Dmytro Kavsan',
+                    year: '1992',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 453,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/i-am-the-sun-1992.jpg',
+                    title: 'I Am the Sun',
+                    artist: 'Dmytro Kavsan',
+                    year: '1992',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 454,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/curtsey-1993.jpg',
+                    title: 'Curtsey',
+                    artist: 'Dmytro Kavsan',
+                    year: '1993',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 455,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/europe-africa-1993.jpg',
+                    title: 'Europe + Africa',
+                    artist: 'Dmytro Kavsan',
+                    year: '1993',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

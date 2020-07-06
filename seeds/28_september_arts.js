@@ -12804,6 +12804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 641,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1971-bell.jpg',
+                    title: 'Untitled',
+                    artist: 'Larry Bell',
+                    year: '1971',
+                    rule: {
+                        "monday": [27, 4, 22, 29],
+                        "tuesday": [4, 10, 28, 6],  
+                        "wednesday": [30, 6, 27, 5],  
+                        "thursday": [1, 6, 28, 24],  
+                        "friday": [1, 7, 25, 3],   
+                        "saturday": [20, 6, 24, 3],  
+                        "sunday": [19, 26, 23, 1]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 642,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/calligraphy-one-stroke-2000.jpg',
+                    title: 'Calligraphy One Stroke',
+                    artist: 'Kazuaki Tanahashi',
+                    year: '2000',
+                    rule: {
+                        "monday": [19, 26, 23, 1],
+                        "tuesday": [27, 4, 22, 29], 
+                        "wednesday": [4, 10, 28, 6],  
+                        "thursday": [30, 6, 27, 5],  
+                        "friday": [1, 6, 28, 24],  
+                        "saturday": [1, 7, 25, 3],   
+                        "sunday": [20, 6, 24, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 643,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1956-feiosbapiue.jpg',
+                    title: 'Untitled',
+                    artist: 'Mario Prassinos',
+                    year: '1956',
+                    rule: {
+                        "monday": [20, 6, 24, 3],
+                        "tuesday": [19, 26, 23, 1], 
+                        "wednesday": [27, 4, 22, 29], 
+                        "thursday": [4, 10, 28, 6],  
+                        "friday": [30, 6, 27, 5],  
+                        "saturday": [1, 6, 28, 24],  
+                        "sunday": [1, 7, 25, 3]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 644,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/back-of-the-zoo-1971.jpg',
+                    title: 'Back of the Zoo',
+                    artist: 'Patrick Procktor',
+                    year: '1971',
+                    rule: {
+                        "monday": [2, 8, 26, 4],
+                        "tuesday": [21, 7, 25, 4], 
+                        "wednesday": [20, 27, 24, 2], 
+                        "thursday": [28, 5, 23, 30],  
+                        "friday": [5, 11, 29, 7],  
+                        "saturday": [1, 7, 28, 6],  
+                        "sunday": [2, 7, 29, 25]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 645,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/bild-painting-1989.jpg',
+                    title: 'Bild (Painting)',
+                    artist: 'Isa Genzken',
+                    year: '1989',
+                    rule: {
+                        "monday": [2, 7, 29, 25],
+                        "tuesday": [2, 8, 26, 4],   
+                        "wednesday": [21, 7, 25, 4],  
+                        "thursday": [20, 27, 24, 2], 
+                        "friday": [28, 5, 23, 30], 
+                        "saturday": [5, 11, 29, 7],  
+                        "sunday": [1, 7, 28, 6]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

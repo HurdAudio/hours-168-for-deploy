@@ -6646,6 +6646,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 370,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2251873155/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mdoumoctar.bandcamp.com/album/mdou-moctar-mixtape-vol-2',
+                    a_string: 'Mdou Moctar Mixtape Vol 2 by Mdou Moctar',
+                    rule: {
+                        "monday": [21, 2, 13, 24],
+                        "tuesday": [20, 1, 12, 24], 
+                        "wednesday": [24, 5, 16, 20], 
+                        "thursday": [23, 4, 15, 19], 
+                        "saturday": [22, 3, 14, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 371,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4290744036/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://bantoumentale.bandcamp.com/album/congo-animal',
+                    a_string: 'Congo Animal by Bantou Mentale',
+                    rule: {
+                        "monday": [22, 3, 14, 18],
+                        "tuesday": [21, 2, 13, 24], 
+                        "wednesday": [20, 1, 12, 24], 
+                        "thursday": [24, 5, 16, 20], 
+                        "saturday": [23, 4, 15, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 372,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1744667580/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://greed261.bandcamp.com/album/red-kulture',
+                    a_string: 'Red Kulture by GREED',
+                    rule: {
+                        "monday": [23, 4, 15, 19],
+                        "tuesday": [22, 3, 14, 18], 
+                        "wednesday": [21, 2, 13, 24], 
+                        "thursday": [20, 1, 12, 24], 
+                        "saturday": [24, 5, 16, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

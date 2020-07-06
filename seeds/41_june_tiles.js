@@ -1614,6 +1614,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#fbf8d5',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 116,
+                    user_id: 1,
+                    theme: 'Light',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june_tiles/sunrise-5348143_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#733704',
+                    color_medium: '#943404',
+                    color_light: '#fbf8de',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

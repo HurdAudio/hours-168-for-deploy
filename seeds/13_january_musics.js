@@ -7726,6 +7726,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 430,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=116985326/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/the-putney-project-volume-2',
+                    a_string: 'The Putney Project (Volume 2) by Various artists',
+                    rule: {
+                        "monday": [5, 12, 13, 14],
+                        "tuesday": [9, 16, 17, 18], 
+                        "wednesday": [8, 14, 15, 17], 
+                        "thursday": [7, 14, 15, 16], 
+                        "saturday": [6, 12, 13, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 431,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2874416032/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/music-of-variable-circumstance',
+                    a_string: 'music of variable circumstance by David D. McIntire',
+                    rule: {
+                        "monday": [6, 12, 13, 14],
+                        "tuesday": [5, 12, 13, 14], 
+                        "wednesday": [9, 16, 17, 18], 
+                        "thursday": [8, 14, 15, 17], 
+                        "saturday": [7, 14, 15, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 432,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/track=1426773939/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/track/this-b-is-for-brian-a-drone-for-brian-padavic',
+                    a_string: 'This &quot;B&quot; is for Brian (A drone for Brian Padavic) by David D. McIntire',
+                    rule: {
+                        "monday": [7, 14, 15, 16],
+                        "tuesday": [6, 12, 13, 14], 
+                        "wednesday": [5, 12, 13, 14], 
+                        "thursday": [9, 16, 17, 18], 
+                        "saturday": [8, 14, 15, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

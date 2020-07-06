@@ -14204,6 +14204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 711,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/DeenaLLarge.jpg',
+                    title: 'Soweto Queen',
+                    artist: 'Deana Lawson',
+                    year: '2018',
+                    rule: {
+                        "monday": [25, 4, 12, 22],
+                        "tuesday": [25, 6, 2, 21],  
+                        "wednesday": [15, 23, 2, 10], 
+                        "thursday": [16, 25, 4, 12], 
+                        "friday": [22, 27, 4, 14], 
+                        "saturday": [21, 29, 8, 16], 
+                        "sunday": [23, 4, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 712,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/NFTWR1_EFA.jpg',
+                    title: 'Notes From the Waiting Room',
+                    artist: 'Carolyn Lazard',
+                    year: '2017',
+                    rule: {
+                        "monday": [23, 4, 10, 16],
+                        "tuesday": [25, 4, 12, 22], 
+                        "wednesday": [25, 6, 2, 21],  
+                        "thursday": [15, 23, 2, 10], 
+                        "friday": [16, 25, 4, 12], 
+                        "saturday": [22, 27, 4, 14], 
+                        "sunday": [21, 29, 8, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 713,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Lee_Smith_Waiting_IMAGE_ONLY0.jpg',
+                    title: 'Waiting',
+                    artist: 'Hughie Lee-Smith',
+                    year: 'c. 1956',
+                    rule: {
+                        "monday": [21, 29, 8, 16],
+                        "tuesday": [23, 4, 10, 16], 
+                        "wednesday": [25, 4, 12, 22], 
+                        "thursday": [25, 6, 2, 21],  
+                        "friday": [15, 23, 2, 10], 
+                        "saturday": [16, 25, 4, 12], 
+                        "sunday": [22, 27, 4, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 714,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/10299366a.jpg',
+                    title: 'Brick House',
+                    artist: 'Simone Leigh',
+                    year: '2019',
+                    rule: {
+                        "monday": [23, 28, 5, 15],
+                        "tuesday": [22, 1, 9, 17], 
+                        "wednesday": [24, 5, 11, 17], 
+                        "thursday": [26, 5, 13, 23],  
+                        "friday": [26, 7, 3, 22], 
+                        "saturday": [16, 24, 3, 11], 
+                        "sunday": [17, 26, 5, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 715,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/the_death_of_cleopatra-edmonia-lewis1.jpg',
+                    title: 'The Death of Cleopatra',
+                    artist: 'Edmonia Lewis',
+                    year: '1859',
+                    rule: {
+                        "monday": [17, 26, 5, 13],
+                        "tuesday": [23, 28, 5, 15], 
+                        "wednesday": [22, 1, 9, 17],  
+                        "thursday": [24, 5, 11, 17], 
+                        "friday": [26, 5, 13, 23], 
+                        "saturday": [26, 7, 3, 22],  
+                        "sunday": [16, 24, 3, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

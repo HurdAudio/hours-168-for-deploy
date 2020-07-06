@@ -7618,6 +7618,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 424,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=846920466/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://blackjoshape.bandcamp.com/album/mannyfornia',
+                    a_string: 'MANNYFORNIA by Black Josh',
+                    rule: {
+                        "monday": [19, 13, 15, 17],
+                        "tuesday": [21, 15, 17, 23],
+                        "wednesday": [22, 16, 18, 24],
+                        "thursday": [5, 9, 11, 15],  
+                        "saturday": [19, 11, 13, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 425,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2604974434/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://g4-jag.bandcamp.com/album/scriptures-in-the-sky',
+                    a_string: 'Scriptures In The Sky by G4JAG x The Musalini',
+                    rule: {
+                        "monday": [19, 11, 13, 15],
+                        "tuesday": [19, 13, 15, 17],
+                        "wednesday": [21, 15, 17, 23],
+                        "thursday": [22, 16, 18, 24],
+                        "saturday": [5, 9, 11, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 426,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=507661671/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://thekoreatownoddity.bandcamp.com/album/little-dominiques-nosebleed',
+                    a_string: 'Little Dominiques Nosebleed by The Koreatown Oddity',
+                    rule: {
+                        "monday": [5, 9, 11, 15],
+                        "tuesday": [19, 11, 13, 15],
+                        "wednesday": [19, 13, 15, 17],
+                        "thursday": [21, 15, 17, 23],
+                        "saturday": [22, 16, 18, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
