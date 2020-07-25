@@ -7348,6 +7348,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 409,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1117914817/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://vhfrecords.bandcamp.com/album/greatest-imaginary-hits',
+                    a_string: 'Greatest Imaginary Hits by Ashtray Navigations',
+                    rule: {
+                        "monday": [28, 3, 10, 23],
+                        "tuesday": [27, 2, 9, 22],  
+                        "wednesday": [26, 1, 8, 21],  
+                        "thursday": [30, 5, 12, 25], 
+                        "saturday": [29, 4, 11, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 410,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2068255399/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mattchristensensolo.bandcamp.com/album/mo-pussyfooting',
+                    a_string: 'Mo Pussyfooting by Matt Christensen',
+                    rule: {
+                        "monday": [29, 4, 11, 24],
+                        "tuesday": [28, 3, 10, 23], 
+                        "wednesday": [27, 2, 9, 22],  
+                        "thursday": [26, 1, 8, 21],  
+                        "saturday": [30, 5, 12, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 411,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2782542395/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://davidfirst.bandcamp.com/album/the-consummation-of-right-and-wrong',
+                    a_string: 'The Consummation of Right and Wrong by David First/The Western Enisphere',
+                    rule: {
+                        "monday": [30, 5, 12, 25],
+                        "tuesday": [29, 4, 11, 24], 
+                        "wednesday": [28, 3, 10, 23], 
+                        "thursday": [27, 2, 9, 22],  
+                        "saturday": [26, 1, 8, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

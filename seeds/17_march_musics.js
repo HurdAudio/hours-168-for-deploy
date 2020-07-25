@@ -7564,6 +7564,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 421,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2073377509/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://moonlightbenjamin.bandcamp.com/album/siltane',
+                    a_string: 'Siltane by Moonlight Benjamin',
+                    rule: {
+                        "monday": [3, 9, 14, 23],
+                        "tuesday": [2, 8, 14, 23],  
+                        "wednesday": [31, 7, 13, 21], 
+                        "thursday": [31, 6, 12, 20], 
+                        "saturday": [4, 10, 16, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 422,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2273648133/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://margoprice.bandcamp.com/album/thats-how-rumors-get-started',
+                    a_string: 'That&#39;s How Rumors Get Started by Margo Price',
+                    rule: {
+                        "monday": [4, 10, 16, 24],
+                        "tuesday": [3, 9, 14, 23],  
+                        "wednesday": [2, 8, 14, 23],  
+                        "thursday": [31, 7, 13, 21], 
+                        "saturday": [31, 6, 12, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 423,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1613241991/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://zara-mcfarlane.bandcamp.com/album/songs-of-an-unknown-tongue-2',
+                    a_string: 'Songs Of An Unknown Tongue by Zara McFarlane',
+                    rule: {
+                        "monday": [31, 6, 12, 20],
+                        "tuesday": [4, 10, 16, 24], 
+                        "wednesday": [3, 9, 14, 23],  
+                        "thursday": [2, 8, 14, 23],  
+                        "saturday": [31, 7, 13, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

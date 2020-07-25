@@ -14304,6 +14304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 716,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Nate-Lewis-sadfh.jpg',
+                    title: 'Signalling',
+                    artist: 'Nate Lewis',
+                    year: '2020',
+                    rule: {
+                        "monday": [16, 24, 3, 11],
+                        "tuesday": [17, 26, 5, 13], 
+                        "wednesday": [23, 28, 5, 15], 
+                        "thursday": [22, 1, 9, 17],  
+                        "friday": [24, 5, 11, 17], 
+                        "saturday": [26, 5, 13, 23], 
+                        "sunday": [26, 7, 3, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 717,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/norman-lewis-16-tu-subway-station.jpg',
+                    title: 'Title Unknown (Subway Station)',
+                    artist: 'Norman Lewis',
+                    year: '1945',
+                    rule: {
+                        "monday": [26, 7, 3, 22],
+                        "tuesday": [16, 24, 3, 11], 
+                        "wednesday": [17, 26, 5, 13], 
+                        "thursday": [23, 28, 5, 15], 
+                        "friday": [22, 1, 9, 17],  
+                        "saturday": [24, 5, 11, 17], 
+                        "sunday": [26, 5, 13, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 718,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/H0062-L140369633_mid.jpg',
+                    title: 'Bird on Man\'s Head',
+                    artist: 'Joe Louis Light',
+                    year: '1994',
+                    rule: {
+                        "monday": [26, 5, 13, 23],
+                        "tuesday": [26, 7, 3, 22],  
+                        "wednesday": [16, 24, 3, 11], 
+                        "thursday": [17, 26, 5, 13], 
+                        "friday": [23, 28, 5, 15], 
+                        "saturday": [22, 1, 9, 17],  
+                        "sunday": [24, 5, 11, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 719,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Glenn-Ligon_Debris-Field-5_2018-700x861.jpg',
+                    title: 'Debris Field 5',
+                    artist: 'Glenn Ligon',
+                    year: '2018',
+                    rule: {
+                        "monday": [24, 5, 11, 17],
+                        "tuesday": [26, 5, 13, 23], 
+                        "wednesday": [26, 7, 3, 22],  
+                        "thursday": [16, 24, 3, 11], 
+                        "friday": [17, 26, 5, 13], 
+                        "saturday": [23, 28, 5, 15], 
+                        "sunday": [22, 1, 9, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 720,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/fcc493bdd67c92238580f93c9ff8ccd9.jpg',
+                    title: 'We Love What We Got',
+                    artist: 'Llanakila',
+                    year: '?',
+                    rule: {
+                        "monday": [22, 1, 9, 17],
+                        "tuesday": [24, 5, 11, 17], 
+                        "wednesday": [26, 5, 13, 23], 
+                        "thursday": [26, 7, 3, 22],  
+                        "friday": [16, 24, 3, 11], 
+                        "saturday": [17, 26, 5, 13], 
+                        "sunday": [23, 28, 5, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

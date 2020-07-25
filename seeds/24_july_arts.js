@@ -13300,7 +13300,107 @@ exports.seed = function (knex, Promise) {
                         "thursday": [1, 12, 22, 24], 
                         "friday": [29, 9, 31, 1],  
                         "saturday": [30, 10, 1, 2],  
-                        "sunday": [4, 13, 26, 66]   
+                        "sunday": [4, 13, 26, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 666,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/two-women.jpg',
+                    title: 'Two Women',
+                    artist: 'Le Pho',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 13, 26, 6],
+                        "tuesday": [4, 12, 26, 6],  
+                        "wednesday": [2, 13, 25, 5],  
+                        "thursday": [2, 13, 24, 25], 
+                        "friday": [1, 12, 22, 24], 
+                        "saturday": [29, 9, 31, 1],  
+                        "sunday": [30, 10, 1, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 667,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/composition-jaune-mauve-bleu-et-noir-la-table-d-or-1952.jpg',
+                    title: 'Composition jaune, mauve, bleu et noir (La table d\'or)',
+                    artist: 'Serge Poliakoff',
+                    year: '1952',
+                    rule: {
+                        "monday": [30, 10, 1, 2],
+                        "tuesday": [4, 13, 26, 6],  
+                        "wednesday": [4, 12, 26, 6],  
+                        "thursday": [2, 13, 25, 5],  
+                        "friday": [2, 13, 24, 25], 
+                        "saturday": [1, 12, 22, 24], 
+                        "sunday": [29, 9, 31, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 668,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/la-boule-noire-1926.jpg',
+                    title: 'La Boule Noire',
+                    artist: 'Leon Arthur Tutundjian',
+                    year: '1926',
+                    rule: {
+                        "monday": [29, 9, 31, 1],
+                        "tuesday": [30, 10, 1, 2],  
+                        "wednesday": [4, 13, 26, 6],  
+                        "thursday": [4, 12, 26, 6],  
+                        "friday": [2, 13, 25, 5],  
+                        "saturday": [2, 13, 24, 25], 
+                        "sunday": [1, 12, 22, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 669,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/untitled-t1938-31-1938.jpg',
+                    title: 'Untitled (T1938-31)',
+                    artist: 'Hans Hartung',
+                    year: '1938',
+                    rule: {
+                        "monday": [1, 12, 22, 24],
+                        "tuesday": [29, 9, 31, 1],  
+                        "wednesday": [30, 10, 1, 2],  
+                        "thursday": [4, 13, 26, 6],  
+                        "friday": [4, 12, 26, 6],  
+                        "saturday": [2, 13, 25, 5],  
+                        "sunday": [2, 13, 24, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 670,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/mavi-bar.jpg',
+                    title: 'Blue Bar',
+                    artist: 'Fikret Mualla Saygi',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 13, 24, 25],
+                        "tuesday": [1, 12, 22, 24], 
+                        "wednesday": [29, 9, 31, 1],  
+                        "thursday": [30, 10, 1, 2],  
+                        "friday": [4, 13, 26, 6],  
+                        "saturday": [4, 12, 26, 6],  
+                        "sunday": [2, 13, 25, 5]   
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

@@ -14104,6 +14104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 706,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/clara-southern-the-back-of-the-barn.jpg',
+                    title: 'The Back of the Barn',
+                    artist: 'Clara Southern',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 15, 22, 1],
+                        "tuesday": [3, 13, 21, 31], 
+                        "wednesday": [2, 12, 21, 30], 
+                        "thursday": [8, 17, 27, 4],  
+                        "friday": [7, 17, 25, 4],  
+                        "saturday": [4, 16, 24, 3],  
+                        "sunday": [5, 15, 23, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 707,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/circus-girl-1916.jpg',
+                    title: 'Circus Girl',
+                    artist: 'Helene Schjerfbeck',
+                    year: '1916',
+                    rule: {
+                        "monday": [6, 16, 24, 3],
+                        "tuesday": [5, 16, 23, 2], 
+                        "wednesday": [4, 14, 22, 1], 
+                        "thursday": [3, 13, 22, 31],  
+                        "friday": [9, 18, 28, 5],  
+                        "saturday": [8, 18, 26, 5],  
+                        "sunday": [5, 17, 25, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 708,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/display-image-5.jpg',
+                    title: 'The girl at the window',
+                    artist: 'Hanna Hirsch-Pauli',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 17, 25, 4],
+                        "tuesday": [6, 16, 24, 3],  
+                        "wednesday": [5, 16, 23, 2],  
+                        "thursday": [4, 14, 22, 1],  
+                        "friday": [3, 13, 22, 31], 
+                        "saturday": [9, 18, 28, 5],  
+                        "sunday": [8, 18, 26, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 709,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/mackintosh-margaret-macdonald-three-perfumes-1912.jpg',
+                    title: 'The Three Perfumes',
+                    artist: 'Margaret Macdonald',
+                    year: '1912',
+                    rule: {
+                        "monday": [8, 18, 26, 5],
+                        "tuesday": [5, 17, 25, 4],  
+                        "wednesday": [6, 16, 24, 3],  
+                        "thursday": [5, 16, 23, 2],  
+                        "friday": [4, 14, 22, 1],  
+                        "saturday": [3, 13, 22, 31], 
+                        "sunday": [9, 18, 28, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 710,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/mother-and-daughter-after-the-bath-ii-1908.jpg',
+                    title: 'Mother and Daughter After the Bath II',
+                    artist: 'Suzanne Valadon',
+                    year: '1908',
+                    rule: {
+                        "monday": [9, 18, 28, 5],
+                        "tuesday": [8, 18, 26, 5],  
+                        "wednesday": [5, 17, 25, 4],  
+                        "thursday": [6, 16, 24, 3],  
+                        "friday": [5, 16, 23, 2],  
+                        "saturday": [4, 14, 22, 1],  
+                        "sunday": [3, 13, 22, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

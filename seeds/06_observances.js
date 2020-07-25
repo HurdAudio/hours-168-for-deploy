@@ -11975,6 +11975,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 770,
+                    user_id: 1,
+                    name: 'Maurice Ravel (composer) born 1875',
+                    color: '#a9a9a9',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/p01bqt98.jpg',
+                    day_of: new Date('1875-03-07  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=3035090249/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1827864589/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['http://classical-music.bandcamp.com/album/maurice-ravel-the-essential-collection', 'http://virtualphilharmonic.bandcamp.com/album/le-tombeau-de-couperin-1919'],
+                        "a_strings": ['Maurice Ravel: The Essential Collection by Maurice Ravel', 'Le Tombeau de Couperin (1919) by Maurice Ravel']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 771,
+                    user_id: 1,
+                    name: 'Nelson Mandela (activist/anti-apartheid revolutionary) born 1918',
+                    color: '#c5a491',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Nelson-Mandela-South-African.jpg',
+                    day_of: new Date('1918-07-18  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

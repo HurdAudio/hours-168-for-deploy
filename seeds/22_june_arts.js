@@ -13504,6 +13504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 676,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/olivier-valsecchi-04.jpg',
+                    title: 'Drifting',
+                    artist: 'Olivier Valsecchi',
+                    year: '2016',
+                    rule: {
+                        "monday": [1, 11, 21, 29],
+                        "tuesday": [7, 17, 27, 4],  
+                        "wednesday": [6, 16, 27, 4], 
+                        "thursday": [4, 15, 25, 23], 
+                        "friday": [4, 14, 24, 1], 
+                        "saturday": [13, 23, 3, 1], 
+                        "sunday": [2, 12, 22, 30] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 677,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/olivier-valsecchi-02.jpg',
+                    title: 'Drifting',
+                    artist: 'Olivier Valsecchi',
+                    year: '2016',
+                    rule: {
+                        "monday": [2, 12, 22, 30],
+                        "tuesday": [1, 11, 21, 29], 
+                        "wednesday": [7, 17, 27, 4],  
+                        "thursday": [6, 16, 27, 4],  
+                        "friday": [4, 15, 25, 23], 
+                        "saturday": [4, 14, 24, 1],  
+                        "sunday": [13, 23, 3, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 678,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/olivier-valsecchi-06.jpg',
+                    title: 'Drifting',
+                    artist: 'Olivier Valsecchi',
+                    year: '2016',
+                    rule: {
+                        "monday": [13, 23, 3, 1],
+                        "tuesday": [2, 12, 22, 30], 
+                        "wednesday": [1, 11, 21, 29], 
+                        "thursday": [7, 17, 27, 4],  
+                        "friday": [6, 16, 27, 4],  
+                        "saturday": [4, 15, 25, 23], 
+                        "sunday": [4, 14, 24, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 679,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/olivier-valsecchi-09.jpg',
+                    title: 'Drifting',
+                    artist: 'Olivier Valsecchi',
+                    year: '2016',
+                    rule: {
+                        "monday": [4, 14, 24, 1],
+                        "tuesday": [13, 23, 3, 1],  
+                        "wednesday": [2, 12, 22, 30], 
+                        "thursday": [1, 11, 21, 29], 
+                        "friday": [7, 17, 27, 4],  
+                        "saturday": [6, 16, 27, 4],  
+                        "sunday": [4, 15, 25, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 680,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/olivier-valsecchi-10.jpg',
+                    title: 'Drifting',
+                    artist: 'Olivier Valsecchi',
+                    year: '2016',
+                    rule: {
+                        "monday": [4, 15, 25, 23],
+                        "tuesday": [4, 14, 24, 1],  
+                        "wednesday": [13, 23, 3, 1],  
+                        "thursday": [2, 12, 22, 30], 
+                        "friday": [1, 11, 21, 29], 
+                        "saturday": [7, 17, 27, 4],  
+                        "sunday": [6, 16, 27, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

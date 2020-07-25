@@ -7780,6 +7780,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 433,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4010929613/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/the-putney-project-volume-i',
+                    a_string: 'The Putney Project (Volume I) by Various artists',
+                    rule: {
+                        "monday": [8, 14, 15, 17],
+                        "tuesday": [7, 14, 15, 16], 
+                        "wednesday": [6, 12, 13, 14], 
+                        "thursday": [5, 12, 13, 14], 
+                        "saturday": [9, 16, 17, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 434,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/track=4001287830/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/track/the-pornography-of-unfettered-optimism',
+                    a_string: 'The Pornography of Unfettered Optimism by David D. McIntire',
+                    rule: {
+                        "monday": [10, 17, 18, 19],
+                        "tuesday": [9, 15, 16, 18], 
+                        "wednesday": [8, 15, 16, 17], 
+                        "thursday": [7, 13, 14, 15], 
+                        "saturday": [6, 13, 14, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 435,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3352552075/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/chronomosaic',
+                    a_string: 'Chronomosaic by David D. McIntire',
+                    rule: {
+                        "monday": [6, 13, 14, 15],
+                        "tuesday": [10, 17, 18, 19],
+                        "wednesday": [9, 15, 16, 18], 
+                        "thursday": [8, 15, 16, 17], 
+                        "saturday": [7, 13, 14, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

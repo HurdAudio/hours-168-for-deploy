@@ -7240,6 +7240,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 403,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2662667661/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://thiswilldestroyyou.bandcamp.com/album/vespertine',
+                    a_string: 'Vespertine by This Will Destroy You',
+                    rule: {
+                        "monday": [27, 30, 5, 17],
+                        "tuesday": [26, 29, 5, 16], 
+                        "wednesday": [26, 29, 5, 15], 
+                        "thursday": [24, 2, 4, 19],  
+                        "saturday": [28, 2, 28, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 404,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3974959088/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://tenggerbbib.bandcamp.com/album/nomad',
+                    a_string: 'Nomad by TENGGER',
+                    rule: {
+                        "monday": [28, 2, 28, 19],
+                        "tuesday": [27, 30, 5, 17], 
+                        "wednesday": [26, 29, 5, 16], 
+                        "thursday": [26, 29, 5, 15], 
+                        "saturday": [24, 2, 4, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 405,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1010182728/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://iliantape.bandcamp.com/album/iss006-skee-mask-iss006',
+                    a_string: 'ISS006 Skee Mask - ISS006 by Skee Mask',
+                    rule: {
+                        "monday": [24, 2, 4, 19],
+                        "tuesday": [28, 2, 28, 19], 
+                        "wednesday": [27, 30, 5, 17], 
+                        "thursday": [26, 29, 5, 16], 
+                        "saturday": [26, 29, 5, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

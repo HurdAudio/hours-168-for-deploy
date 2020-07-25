@@ -1656,6 +1656,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#ccdbea',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 119,
+                    user_id: 1,
+                    theme: 'Water',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april_tiles/red-zeppelin-_pQS1UfmGYk-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#042b11',
+                    color_medium: '#418566',
+                    color_light: '#a8b7aa',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

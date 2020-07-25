@@ -12704,6 +12704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 636,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_blade.jpg',
+                    title: 'Pershing II',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [31, 11, 23, 26],
+                        "tuesday": [30, 10, 21, 25],
+                        "wednesday": [29, 9, 19, 24], 
+                        "thursday": [7, 8, 19, 23],  
+                        "friday": [3, 14, 25, 29], 
+                        "saturday": [2, 13, 24, 28], 
+                        "sunday": [1, 12, 23, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 637,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_birth.jpg',
+                    title: 'Arms race - is a race of death!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 13, 24, 28],
+                        "tuesday": [1, 12, 24, 27],
+                        "wednesday": [31, 11, 22, 26], 
+                        "thursday": [30, 10, 20, 25],  
+                        "friday": [8, 9, 20, 24], 
+                        "saturday": [4, 15, 26, 30], 
+                        "sunday": [3, 14, 25, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 638,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_bird_house.jpg',
+                    title: 'A bomb takes over a bird house.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 14, 25, 29],
+                        "tuesday": [2, 13, 24, 28], 
+                        "wednesday": [1, 12, 24, 27], 
+                        "thursday": [31, 11, 22, 26],
+                        "friday": [30, 10, 20, 25],
+                        "saturday": [8, 9, 20, 24],  
+                        "sunday": [4, 15, 26, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 639,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_billiards.jpg',
+                    title: 'To refuse (to do) the first nuclear strike',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 15, 26, 30],
+                        "tuesday": [3, 14, 25, 29], 
+                        "wednesday": [2, 13, 24, 28], 
+                        "thursday": [1, 12, 24, 27], 
+                        "friday": [31, 11, 22, 26],
+                        "saturday": [30, 10, 20, 25],
+                        "sunday": [8, 9, 20, 24]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 640,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_bell_mir.jpg',
+                    title: 'Paix, Mir, Frieden',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [8, 9, 20, 24],
+                        "tuesday": [4, 15, 26, 30], 
+                        "wednesday": [3, 14, 25, 29], 
+                        "thursday": [2, 13, 24, 28], 
+                        "friday": [1, 12, 24, 27], 
+                        "saturday": [31, 11, 22, 26],
+                        "sunday": [30, 10, 20, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

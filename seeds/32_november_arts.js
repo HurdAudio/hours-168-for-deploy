@@ -12504,6 +12504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 626,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/moondog-1964.jpg',
+                    title: 'Moondog',
+                    artist: 'Tony Smith',
+                    year: '1964',
+                    rule: {
+                        "monday": [8, 10, 18, 14],
+                        "tuesday": [7, 11, 18, 21], 
+                        "wednesday": [6, 9, 16, 21],  
+                        "thursday": [4, 9, 15, 20],  
+                        "friday": [3, 7, 14, 19],  
+                        "saturday": [3, 8, 14, 21],  
+                        "sunday": [9, 14, 20, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 627,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/the-negative-way-9-1964.jpg',
+                    title: 'The Negative Way #9',
+                    artist: 'Paul Brach',
+                    year: '1964',
+                    rule: {
+                        "monday": [9, 14, 20, 25],
+                        "tuesday": [8, 10, 18, 14], 
+                        "wednesday": [7, 11, 18, 21], 
+                        "thursday": [6, 9, 16, 21],  
+                        "friday": [4, 9, 15, 20],  
+                        "saturday": [3, 7, 14, 19],  
+                        "sunday": [3, 8, 14, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 628,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/naxos-1964.jpg',
+                    title: 'Naxos',
+                    artist: 'Jeremy Moon',
+                    year: '1964',
+                    rule: {
+                        "monday": [3, 8, 14, 21],
+                        "tuesday": [9, 14, 20, 25], 
+                        "wednesday": [8, 10, 18, 14], 
+                        "thursday": [7, 11, 18, 21], 
+                        "friday": [6, 9, 16, 21],  
+                        "saturday": [4, 9, 15, 20],  
+                        "sunday": [3, 7, 14, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 629,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/and-the-birds-began-to-sing-1964.jpg',
+                    title: 'And the Birds Began to Sing',
+                    artist: 'Phillip King',
+                    year: '1964',
+                    rule: {
+                        "monday": [3, 7, 14, 19],
+                        "tuesday": [3, 8, 14, 21],  
+                        "wednesday": [9, 14, 20, 25], 
+                        "thursday": [8, 10, 18, 14], 
+                        "friday": [7, 11, 18, 21], 
+                        "saturday": [6, 9, 16, 21],  
+                        "sunday": [4, 9, 15, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 630,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1965-agnes.jpg',
+                    title: 'Untitled',
+                    artist: 'Jo Baer',
+                    year: '1965',
+                    rule: {
+                        "monday": [5, 10, 16, 21],
+                        "tuesday": [4, 8, 15, 20],  
+                        "wednesday": [4, 9, 15, 22], 
+                        "thursday": [10, 15, 21, 26], 
+                        "friday": [9, 11, 19, 15], 
+                        "saturday": [8, 12, 19, 22],  
+                        "sunday": [7, 10, 17, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

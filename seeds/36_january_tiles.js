@@ -1698,6 +1698,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#b9d3d8',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 122,
+                    user_id: 1,
+                    theme: 'Ice',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/birger-strahl-QD89CTZZjOM-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#05274a',
+                    color_medium: '#7accec',
+                    color_light: '#b2cee5',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

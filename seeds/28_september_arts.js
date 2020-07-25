@@ -12904,6 +12904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 646,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/couleur-lumi-re-1992.jpg',
+                    title: 'Couleur lumière',
+                    artist: 'Horacio Garcia-Rossi',
+                    year: '1992',
+                    rule: {
+                        "monday": [1, 7, 28, 6],
+                        "tuesday": [2, 7, 29, 25],  
+                        "wednesday": [2, 8, 26, 4],   
+                        "thursday": [21, 7, 25, 4],  
+                        "friday": [20, 27, 24, 2], 
+                        "saturday": [28, 5, 23, 30], 
+                        "sunday": [5, 11, 29, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 647,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-blue-1969.jpg',
+                    title: 'Untitled (Blue)',
+                    artist: 'Kazuo Shiraga',
+                    year: '1969',
+                    rule: {
+                        "monday": [5, 11, 29, 7],
+                        "tuesday": [1, 7, 28, 6],   
+                        "wednesday": [2, 7, 29, 25],  
+                        "thursday": [2, 8, 26, 4],   
+                        "friday": [21, 7, 25, 4],  
+                        "saturday": [20, 27, 24, 2], 
+                        "sunday": [28, 5, 23, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 648,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1964-dfhoaieufoiawefka.jpg',
+                    title: 'Untitled',
+                    artist: 'Peter Busa',
+                    year: '1964',
+                    rule: {
+                        "monday": [28, 5, 23, 30],
+                        "tuesday": [5, 11, 29, 7],  
+                        "wednesday": [1, 7, 28, 6],   
+                        "thursday": [2, 7, 29, 25],  
+                        "friday": [2, 8, 26, 4],   
+                        "saturday": [21, 7, 25, 4],  
+                        "sunday": [20, 27, 24, 2]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 649,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/6-bars-1970.jpg',
+                    title: '6 Bars',
+                    artist: 'Andre Cadere',
+                    year: '1970',
+                    rule: {
+                        "monday": [20, 27, 24, 2],
+                        "tuesday": [28, 5, 23, 30], 
+                        "wednesday": [5, 11, 29, 7],  
+                        "thursday": [1, 7, 28, 6],   
+                        "friday": [2, 7, 29, 25],  
+                        "saturday": [2, 8, 26, 4],   
+                        "sunday": [21, 7, 25, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 650,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/skogssp-r-trail-of-prints-in-the-woods-1962.jpg',
+                    title: 'Skogsspår (Trail of Prints in the Woods)',
+                    artist: 'Oyvind Fahlstrom',
+                    year: '1962',
+                    rule: {
+                        "monday": [21, 7, 25, 4],
+                        "tuesday": [20, 27, 24, 2], 
+                        "wednesday": [28, 5, 23, 30], 
+                        "thursday": [5, 11, 29, 7],  
+                        "friday": [1, 7, 28, 6],   
+                        "saturday": [2, 7, 29, 25],  
+                        "sunday": [2, 8, 26, 4]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

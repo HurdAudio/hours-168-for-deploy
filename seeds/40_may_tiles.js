@@ -1642,6 +1642,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#cecca4',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 118,
+                    user_id: 1,
+                    theme: 'Greenery',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/jeremy-zero--eD3Gdkfl0c-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#27802a',
+                    color_medium: '#54ad60',
+                    color_light: '#ddf4c4',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

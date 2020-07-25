@@ -1572,6 +1572,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#caa666',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 113,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october_tiles/rashid-khreiss-1cP36lYiDd4-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#282413',
+                    color_medium: '#d50523',
+                    color_light: '#87919c',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

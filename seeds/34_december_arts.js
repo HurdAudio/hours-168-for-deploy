@@ -12304,6 +12304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 616,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/24-11,Snappy.jpg',
+                    title: 'Snappy Stories',
+                    artist: 'Wesley Morse',
+                    year: '1924',
+                    rule: {
+                        "monday": [27, 9, 17, 23],
+                        "tuesday": [26, 8, 16, 22], 
+                        "wednesday": [25, 7, 15, 21], 
+                        "thursday": [24, 5, 4, 20],  
+                        "friday": [13, 5, 24, 31], 
+                        "saturday": [29, 11, 19, 25],
+                        "sunday": [28, 9, 18, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 617,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/21-04,GoodHardware.jpg',
+                    title: 'Good Hardware',
+                    artist: 'H. S. Moskovitz',
+                    year: '1921',
+                    rule: {
+                        "monday": [28, 9, 18, 24],
+                        "tuesday": [27, 9, 17, 23], 
+                        "wednesday": [26, 8, 16, 22], 
+                        "thursday": [25, 7, 15, 21], 
+                        "friday": [24, 5, 4, 20],  
+                        "saturday": [13, 5, 24, 31], 
+                        "sunday": [29, 11, 19, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 618,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/51-05,RR.jpg',
+                    title: 'Railroad Magazine',
+                    artist: 'Herb Mott',
+                    year: '1951',
+                    rule: {
+                        "monday": [29, 11, 19, 25],
+                        "tuesday": [28, 9, 18, 24], 
+                        "wednesday": [27, 9, 17, 23], 
+                        "thursday": [26, 8, 16, 22], 
+                        "friday": [25, 7, 15, 21], 
+                        "saturday": [24, 5, 4, 20],  
+                        "sunday": [13, 5, 24, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 619,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/34-11,NtLfTls.jpg',
+                    title: 'Night Life Tales',
+                    artist: 'Zoe Mozert',
+                    year: '1934',
+                    rule: {
+                        "monday": [14, 6, 25, 1],
+                        "tuesday": [30, 12, 20, 26], 
+                        "wednesday": [29, 10, 19, 25], 
+                        "thursday": [28, 10, 18, 24], 
+                        "friday": [27, 9, 17, 23], 
+                        "saturday": [26, 8, 16, 22],  
+                        "sunday": [25, 6, 5, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 620,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/24-02-02,Argosy.jpg',
+                    title: 'Argosy',
+                    artist: 'Stockton Mulford',
+                    year: '1924',
+                    rule: {
+                        "monday": [25, 6, 5, 21],
+                        "tuesday": [14, 6, 25, 1],  
+                        "wednesday": [30, 12, 20, 26],
+                        "thursday": [29, 10, 19, 25],
+                        "friday": [28, 10, 18, 24],
+                        "saturday": [27, 9, 17, 23], 
+                        "sunday": [26, 8, 16, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

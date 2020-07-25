@@ -1586,6 +1586,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#dc985a',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 114,
+                    user_id: 1,
+                    theme: 'Leather',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/ali-mucci-5bqMOlB45b0-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#190f1e',
+                    color_medium: '#3c232f',
+                    color_light: '#d6b1b0',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

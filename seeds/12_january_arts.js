@@ -14504,6 +14504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 726,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-cellulaire-au-cercle-rouge-1927(1).jpg',
+                    title: 'Composition cellulaire au cercle rouge',
+                    artist: 'Leon Arthur Tutundjian',
+                    year: '1927',
+                    rule: {
+                        "monday": [21, 23, 24, 26],
+                        "tuesday": [23, 25, 29, 1], 
+                        "wednesday": [25, 27, 28, 29],
+                        "thursday": [13, 15, 7, 27], 
+                        "friday": [13, 15, 7, 27], 
+                        "saturday": [18, 16, 8, 11], 
+                        "sunday": [18, 19, 10, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 727,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/opus-14-1927.jpg',
+                    title: 'Opus 14',
+                    artist: 'Victor Servranckx',
+                    year: '1927',
+                    rule: {
+                        "monday": [18, 19, 10, 14],
+                        "tuesday": [21, 23, 24, 26],
+                        "wednesday": [23, 25, 29, 1], 
+                        "thursday": [25, 27, 28, 29],
+                        "friday": [13, 15, 7, 27], 
+                        "saturday": [13, 15, 7, 27], 
+                        "sunday": [18, 16, 8, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 728,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/abstraction-1927-3.jpg',
+                    title: 'Abstraction',
+                    artist: 'David Kakabadze',
+                    year: '1927',
+                    rule: {
+                        "monday": [19, 17, 9, 12],
+                        "tuesday": [19, 20, 11, 15],
+                        "wednesday": [22, 24, 25, 27], 
+                        "thursday": [24, 26, 30, 2],
+                        "friday": [26, 28, 29, 30], 
+                        "saturday": [14, 16, 8, 28], 
+                        "sunday": [14, 16, 8, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 729,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/bauhausbuch-suprematistische-komposition-empfindung-einer-mystischen-welle-aus-dem-weltall.jpeg',
+                    title: 'Suprematistic composition (Feeling of a mystic "wave" out of the cosmos)',
+                    artist: 'Kazimir Malevich',
+                    year: '1927',
+                    rule: {
+                        "monday": [14, 16, 8, 28],
+                        "tuesday": [19, 17, 9, 12], 
+                        "wednesday": [19, 20, 11, 15],
+                        "thursday": [22, 24, 25, 27],
+                        "friday": [24, 26, 30, 2], 
+                        "saturday": [26, 28, 29, 30],
+                        "sunday": [14, 16, 8, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 730,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/bauhausbuch-combined-suprematistic-composition-feeling-of-metallic-sounds-dynamic-pale-metallic.jpeg',
+                    title: 'Combined Suprematistic Composition. (Feeling of Metallic Sounds - Dynamic) (Pale - Metallic Colour)',
+                    artist: 'Kazimir Malevich',
+                    year: '1927',
+                    rule: {
+                        "monday": [14, 16, 8, 28],
+                        "tuesday": [14, 16, 8, 28], 
+                        "wednesday": [19, 17, 9, 12], 
+                        "thursday": [19, 20, 11, 15],
+                        "friday": [22, 24, 25, 27],
+                        "saturday": [24, 26, 30, 2], 
+                        "sunday": [26, 28, 29, 30] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

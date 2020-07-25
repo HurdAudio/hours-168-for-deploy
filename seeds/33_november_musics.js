@@ -6700,6 +6700,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 373,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3394186148/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://afriquoi.bandcamp.com/album/time-is-a-gift-which-we-share-all-the-time',
+                    a_string: 'Time is A Gift Which We Share All The Time by Afriquoi',
+                    rule: {
+                        "monday": [24, 5, 16, 20],
+                        "tuesday": [23, 4, 15, 19], 
+                        "wednesday": [22, 3, 14, 18], 
+                        "thursday": [21, 2, 13, 24], 
+                        "saturday": [20, 1, 12, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 374,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=596358343/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://keenanahrends.bandcamp.com/album/keenan-ahrends-trio-live-at-house-on-the-hill-sessions',
+                    a_string: 'Keenan Ahrends trio live at House on the Hill sessions by Keenan Ahrends',
+                    rule: {
+                        "monday": [20, 1, 12, 24],
+                        "tuesday": [24, 5, 16, 20], 
+                        "wednesday": [23, 4, 15, 19], 
+                        "thursday": [22, 3, 14, 18], 
+                        "saturday": [21, 2, 13, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 375,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=661693572/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://elhijodelacumbia.bandcamp.com/album/genero-genero',
+                    a_string: 'Genero Genero by El Hijo de la Cumbia',
+                    rule: {
+                        "monday": [21, 2, 13, 24],
+                        "tuesday": [20, 1, 12, 24], 
+                        "wednesday": [24, 5, 16, 20], 
+                        "thursday": [23, 4, 15, 19], 
+                        "saturday": [22, 3, 14, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6808,6 +6808,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 379,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1493975807/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://tumbas.bandcamp.com/album/dolor',
+                    a_string: 'Dolor by Tumbas',
+                    rule: {
+                        "monday": [28, 7, 17, 20],
+                        "tuesday": [1, 11, 21, 24], 
+                        "wednesday": [31, 10, 20, 23],
+                        "thursday": [30, 10, 19, 22],
+                        "saturday": [29, 8, 19, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 380,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1043575132/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://notnormaltapes.bandcamp.com/album/nni-007-mister-espejismo-ep',
+                    a_string: 'NNI#007 Mister - Espejismo EP by Not Normal Tapes',
+                    rule: {
+                        "monday": [29, 8, 19, 21],
+                        "tuesday": [28, 7, 17, 20], 
+                        "wednesday": [1, 11, 21, 24], 
+                        "thursday": [31, 10, 20, 23],
+                        "saturday": [30, 10, 19, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 381,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3960307087/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://imorgana.bandcamp.com/album/demo-2020',
+                    a_string: 'Demo 2020 by Morgana',
+                    rule: {
+                        "monday": [30, 10, 19, 22],
+                        "tuesday": [29, 8, 19, 21], 
+                        "wednesday": [28, 7, 17, 20], 
+                        "thursday": [1, 11, 21, 24], 
+                        "saturday": [31, 10, 20, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -6592,6 +6592,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 367,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3394400533/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://pornopararicardo.bandcamp.com/album/maleconazo-ahora',
+                    a_string: 'MALECONAZO AHORA ! by PORNO PARA RICARDO',
+                    rule: {
+                        "monday": [28, 3, 9, 15],
+                        "tuesday": [27, 2, 8, 14],  
+                        "wednesday": [24, 1, 7, 13],  
+                        "thursday": [23, 31, 6, 12], 
+                        "saturday": [24, 30, 5, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 368,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1204611822/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://smoothoperator3000.bandcamp.com/album/prel-dio',
+                    a_string: 'Prelúdio by Smooth Operator 3000',
+                    rule: {
+                        "monday": [24, 30, 5, 11],
+                        "tuesday": [28, 3, 9, 15],  
+                        "wednesday": [27, 2, 8, 14],  
+                        "thursday": [24, 1, 7, 13],  
+                        "saturday": [23, 31, 6, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 369,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3254550592/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sonicfunkfoundry.bandcamp.com/album/latin-edits-vol-4',
+                    a_string: 'Latin Edits Vol.4 by Sonic Funk Foundry',
+                    rule: {
+                        "monday": [23, 31, 6, 12],
+                        "tuesday": [24, 30, 5, 11], 
+                        "wednesday": [28, 3, 9, 15],  
+                        "thursday": [27, 2, 8, 14],  
+                        "saturday": [24, 1, 7, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

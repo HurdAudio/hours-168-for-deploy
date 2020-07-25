@@ -7132,6 +7132,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 397,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1705072270/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://accidente.bandcamp.com/album/can-bal',
+                    a_string: 'Caníbal by Accidente',
+                    rule: {
+                        "monday": [25, 27, 31, 9],
+                        "tuesday": [25, 26, 2, 8],  
+                        "wednesday": [24, 25, 1, 7],  
+                        "thursday": [23, 25, 29, 6], 
+                        "saturday": [27, 29, 2, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 398,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3778861122/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://uraniumdaughters.bandcamp.com/album/fall-of-love-rif',
+                    a_string: 'Fall Of Love / RIF by Twig',
+                    rule: {
+                        "monday": [27, 29, 2, 10],
+                        "tuesday": [25, 27, 31, 9], 
+                        "wednesday": [25, 26, 2, 8],  
+                        "thursday": [24, 25, 1, 7],  
+                        "saturday": [23, 25, 29, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 399,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=914800508/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://tarajaneoneil.bandcamp.com/album/songs-for-peacock-2',
+                    a_string: 'Songs for Peacock by TJO',
+                    rule: {
+                        "monday": [24, 26, 30, 7],
+                        "tuesday": [28, 30, 3, 11], 
+                        "wednesday": [26, 28, 1, 10],  
+                        "thursday": [26, 27, 3, 9],  
+                        "saturday": [25, 26, 2, 8]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

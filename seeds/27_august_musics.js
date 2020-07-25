@@ -7024,6 +7024,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 391,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2842154900/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://mattsmiley.bandcamp.com/album/mtm',
+                    a_string: 'MTM by MTM',
+                    rule: {
+                        "monday": [3, 11, 24, 23],
+                        "tuesday": [2, 10, 23, 22], 
+                        "wednesday": [1, 9, 22, 21],  
+                        "thursday": [31, 8, 21, 20], 
+                        "saturday": [4, 12, 25, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 392,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3686471303/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://schimscheimerfamilytrio.bandcamp.com/album/broken-home',
+                    a_string: 'Broken Home by Schimscheimer Family Trio',
+                    rule: {
+                        "monday": [5, 13, 26, 25],
+                        "tuesday": [4, 12, 25, 24], 
+                        "wednesday": [3, 11, 24, 23],  
+                        "thursday": [2, 10, 23, 22], 
+                        "saturday": [1, 9, 22, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 393,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2534955244/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://schimscheimerfamilytrio.bandcamp.com/album/family-fun-time',
+                    a_string: 'Family Fun Time by Schimscheimer Family Trio',
+                    rule: {
+                        "monday": [1, 9, 22, 21],
+                        "tuesday": [5, 13, 26, 25], 
+                        "wednesday": [4, 12, 25, 24], 
+                        "thursday": [3, 11, 24, 23], 
+                        "saturday": [2, 10, 23, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

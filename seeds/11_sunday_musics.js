@@ -2924,6 +2924,16 @@ exports.seed = function (knex, Promise) {
                     a_string: 'The Heliocentric Worlds of Sun Ra, vol. 1 by Sun Ra',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 293,
+                    user_id: 1,
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=547191521/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://sunrastrut.bandcamp.com/album/swirling',
+                    a_string: 'Swirling by Sun Ra Arkestra',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -7672,7 +7672,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
-        }
+        },
+                {
+                    id: 427,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1335420724/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://habibifunkrecords.bandcamp.com/album/habibi-funk-013-the-king-of-sudanese-jazz',
+                    a_string: 'Habibi Funk 013: The King Of Sudanese Jazz by Sharhabil Ahmed',
+                    rule: {
+                        "monday": [23, 17, 19, 25],
+                        "tuesday": [6, 10, 12, 16],
+                        "wednesday": [20, 12, 14, 16],
+                        "thursday": [20, 14, 16, 18],
+                        "saturday": [23, 16, 18, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 428,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1499288468/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://nickhakim.bandcamp.com/album/will-this-make-me-good',
+                    a_string: 'WILL THIS MAKE ME GOOD by Nick Hakim',
+                    rule: {
+                        "monday": [23, 16, 18, 24],
+                        "tuesday": [23, 17, 19, 25],
+                        "wednesday": [6, 10, 12, 16], 
+                        "thursday": [20, 12, 14, 16],
+                        "saturday": [20, 14, 16, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        }  ,{
+                    id: 429,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2491612017/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://madvillain.bandcamp.com/album/madvillainy',
+                    a_string: 'Madvillainy by Madvillain',
+                    rule: {
+                        "monday": [20, 14, 16, 18],
+                        "tuesday": [23, 16, 18, 24],
+                        "wednesday": [23, 17, 19, 25],
+                        "thursday": [6, 10, 12, 16], 
+                        "saturday": [20, 12, 14, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        }      
       ]);
         }).then(() => {
             return knex.raw("SELECT setval('february_musics_id_seq', (SELECT MAX(id) FROM february_musics));");

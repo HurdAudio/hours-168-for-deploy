@@ -6916,6 +6916,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 385,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3239283327/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://submarinebroadcastingco.bandcamp.com/album/kafou-in-avalonia',
+                    a_string: 'Kafou in Avalonia by Cousin Silas and the Glove of Bones',
+                    rule: {
+                        "monday": [28, 18, 26, 19],
+                        "tuesday": [28, 17, 25, 19],
+                        "wednesday": [26, 16, 24, 18],
+                        "thursday": [30, 20, 28, 22],
+                        "saturday": [29, 19, 27, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1385117650/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://submarinebroadcastingco.bandcamp.com/album/micrographia',
+                    a_string: 'micrographia by qualchan./Dogs versus Shadows',
+                    rule: {
+                        "monday": [29, 19, 27, 21],
+                        "tuesday": [28, 18, 26, 19],
+                        "wednesday": [28, 17, 25, 19],
+                        "thursday": [26, 16, 24, 18],
+                        "saturday": [30, 20, 28, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1677073661/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://skingraftrecords.bandcamp.com/album/evening-dressings',
+                    a_string: 'Evening Dressings by Tijuana Hercules',
+                    rule: {
+                        "monday": [30, 20, 28, 22],
+                        "tuesday": [29, 19, 27, 21],
+                        "wednesday": [28, 18, 26, 19],
+                        "thursday": [28, 17, 25, 19],
+                        "saturday": [26, 16, 24, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

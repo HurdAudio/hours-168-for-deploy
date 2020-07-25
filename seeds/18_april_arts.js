@@ -13904,6 +13904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 696,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/03E588AC90F346CFB5FEF085738FB68E_5.jpg',
+                    title: 'Racing President tryouts kick off the Washington Nationals\' 2020 season preps',
+                    artist: 'unknown artist',
+                    year: '2020',
+                    rule: {
+                        "monday": [6, 11, 17, 23],
+                        "tuesday": [5, 10, 16, 22], 
+                        "wednesday": [24, 16, 21, 27],
+                        "thursday": [24, 14, 20, 26],
+                        "friday": [9, 12, 25, 26], 
+                        "saturday": [8, 12, 27, 25], 
+                        "sunday": [5, 11, 17, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 697,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/medium-pl-wall-poster-sports-washington-nationals-13-19-inches-original-imafyupugy9wcmp6.jpeg',
+                    title: 'Washington Nationals Wallpaper',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 11, 17, 23],
+                        "tuesday": [6, 11, 17, 23], 
+                        "wednesday": [5, 10, 16, 22], 
+                        "thursday": [24, 16, 21, 27],
+                        "friday": [24, 14, 20, 26],
+                        "saturday": [9, 12, 25, 26], 
+                        "sunday": [8, 12, 27, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 698,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/721d0o0sdj.jpg',
+                    title: 'Bryce Harper Washington Nationals Signed autographed logo baseball',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [8, 12, 27, 25],
+                        "tuesday": [5, 11, 17, 23], 
+                        "wednesday": [6, 11, 17, 23], 
+                        "thursday": [5, 10, 16, 22], 
+                        "friday": [24, 16, 21, 27],
+                        "saturday": [24, 14, 20, 26],
+                        "sunday": [9, 12, 25, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 699,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/0ce1132fc1aa6e58db60facea2da0d24.jpg',
+                    title: 'Bryce Harper Illustration',
+                    artist: 'Alan Oronoz',
+                    year: '2013',
+                    rule: {
+                        "monday": [9, 12, 25, 26],
+                        "tuesday": [8, 12, 27, 25], 
+                        "wednesday": [5, 11, 17, 23], 
+                        "thursday": [6, 11, 17, 23], 
+                        "friday": [5, 10, 16, 22], 
+                        "saturday": [24, 16, 21, 27],
+                        "sunday": [24, 14, 20, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 700,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/cf0e1b32c7950c08fdf474f054ad9bba.jpg',
+                    title: 'Stephen Harper Illustraion',
+                    artist: 'Alan Oronoz',
+                    year: '2013',
+                    rule: {
+                        "monday": [25, 15, 21, 27],
+                        "tuesday": [10, 13, 26, 27], 
+                        "wednesday": [9, 13, 28, 26], 
+                        "thursday": [6, 12, 18, 24], 
+                        "friday": [7, 12, 18, 24], 
+                        "saturday": [6, 11, 17, 23],
+                        "sunday": [25, 17, 22, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

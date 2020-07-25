@@ -13104,6 +13104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 656,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/sweet-dreams-1901.jpg',
+                    title: 'Sweet Dreams',
+                    artist: 'John William Godward',
+                    year: '1901',
+                    rule: {
+                        "monday": [30, 2, 11, 27],
+                        "tuesday": [29, 1, 10, 26], 
+                        "wednesday": [4, 8, 16, 1],   
+                        "thursday": [3, 6, 15, 31],  
+                        "friday": [1, 6, 14, 30],  
+                        "saturday": [1, 3, 13, 29],  
+                        "sunday": [31, 2, 12, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 657,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/fire-sounds-1930.jpg',
+                    title: 'Fire Sounds',
+                    artist: 'Agnes Lawrence Pelton',
+                    year: '1930',
+                    rule: {
+                        "monday": [31, 2, 12, 28],
+                        "tuesday": [30, 2, 11, 27], 
+                        "wednesday": [29, 1, 10, 26], 
+                        "thursday": [4, 8, 16, 1],   
+                        "friday": [3, 6, 15, 31],  
+                        "saturday": [1, 6, 14, 30],  
+                        "sunday": [1, 3, 13, 29]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 658,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/perfil-de-zulmira-1928.jpg',
+                    title: 'Perfil de Zulmira',
+                    artist: 'Lasar Segall',
+                    year: '1928',
+                    rule: {
+                        "monday": [2, 4, 14, 30],
+                        "tuesday": [1, 3, 13, 29], 
+                        "wednesday": [31, 3, 12, 28], 
+                        "thursday": [30, 2, 11, 27],   
+                        "friday": [5, 9, 17, 2],  
+                        "saturday": [2, 7, 16, 1],  
+                        "sunday": [2, 7, 15, 31]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 659,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-fire-ranger-1920.jpg',
+                    title: 'The Fire Ranger',
+                    artist: 'Frank Johnston',
+                    year: '1920',
+                    rule: {
+                        "monday": [2, 7, 15, 31],
+                        "tuesday": [2, 4, 14, 30],  
+                        "wednesday": [1, 3, 13, 29],  
+                        "thursday": [31, 3, 12, 28], 
+                        "friday": [30, 2, 11, 27], 
+                        "saturday": [5, 9, 17, 2],   
+                        "sunday": [2, 7, 16, 1]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 660,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/landscape-of-olympia-1934.jpg',
+                    title: 'Landscape of Olympia',
+                    artist: 'Yiannis Tsaroychis',
+                    year: '1934',
+                    rule: {
+                        "monday": [2, 7, 16, 1],
+                        "tuesday": [2, 7, 15, 31],  
+                        "wednesday": [2, 4, 14, 30],  
+                        "thursday": [1, 3, 13, 29],  
+                        "friday": [31, 3, 12, 28], 
+                        "saturday": [30, 2, 11, 27], 
+                        "sunday": [5, 9, 17, 2]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

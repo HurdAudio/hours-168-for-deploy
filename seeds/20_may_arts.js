@@ -13704,6 +13704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 686,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/self-portrait-near-the-window-1899.jpg',
+                    title: 'Self Portrait near the Window',
+                    artist: 'Boris Kustodiev',
+                    year: '1899',
+                    rule: {
+                        "monday": [3, 13, 21, 23],
+                        "tuesday": [31, 11, 21, 10], 
+                        "wednesday": [30, 10, 20, 30], 
+                        "thursday": [28, 7, 17, 25], 
+                        "friday": [26, 4, 16, 25],  
+                        "saturday": [5, 17, 27, 4],  
+                        "sunday": [5, 16, 25, 4]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 687,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/statement-of-the-model-in-the-studio-of-ilya-repin-1899.jpg',
+                    title: 'Statement of the model in the studio of Ilya Repin',
+                    artist: 'Boris Kustodiev',
+                    year: '1899',
+                    rule: {
+                        "monday": [5, 16, 25, 4],
+                        "tuesday": [3, 13, 21, 23], 
+                        "wednesday": [31, 11, 21, 10],
+                        "thursday": [30, 10, 20, 30],
+                        "friday": [28, 7, 17, 25], 
+                        "saturday": [26, 4, 16, 25], 
+                        "sunday": [5, 17, 27, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 688,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/statement-of-the-model-in-the-studio-of-ilya-repin-academy-of-arts-1899.jpg',
+                    title: 'Statement of the model in the studio of Ilya Repin Academy of Arts',
+                    artist: 'Boris Kustodiev',
+                    year: '1899',
+                    rule: {
+                        "monday": [5, 17, 27, 4],
+                        "tuesday": [5, 16, 25, 4],  
+                        "wednesday": [3, 13, 21, 23], 
+                        "thursday": [31, 11, 21, 10],
+                        "friday": [30, 10, 20, 30],
+                        "saturday": [28, 7, 17, 25], 
+                        "sunday": [26, 4, 16, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 689,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/alexander-murashko-at-work-on-a-collective-picture-of-the-model-statement-in-the-studio-of-ilya-1900.jpg',
+                    title: 'Alexander Murashko at work on a collective picture of the Model statement in the studio of Ilya Repin',
+                    artist: 'Boris Kustodiev',
+                    year: '1900',
+                    rule: {
+                        "monday": [26, 4, 16, 25],
+                        "tuesday": [5, 17, 27, 4],  
+                        "wednesday": [5, 16, 25, 4],  
+                        "thursday": [3, 13, 21, 23], 
+                        "friday": [31, 11, 21, 10],
+                        "saturday": [30, 10, 20, 30],
+                        "sunday": [28, 7, 17, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 690,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/children-1900.jpg',
+                    title: 'Children',
+                    artist: 'Boris Kustodiev',
+                    year: '1900',
+                    rule: {
+                        "monday": [28, 7, 17, 25],
+                        "tuesday": [26, 4, 16, 25], 
+                        "wednesday": [5, 17, 27, 4],  
+                        "thursday": [5, 16, 25, 4],  
+                        "friday": [3, 13, 21, 23], 
+                        "saturday": [31, 11, 21, 10],
+                        "sunday": [30, 10, 20, 30] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
