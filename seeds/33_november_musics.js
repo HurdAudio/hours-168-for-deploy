@@ -6754,6 +6754,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 377,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1847749542/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://bablbluz.bandcamp.com/album/nayda',
+                    a_string: 'Nayda! by Bab L&#39; Bluz',
+                    rule: {
+                        "monday": [22, 3, 14, 18],
+                        "tuesday": [21, 2, 13, 24], 
+                        "wednesday": [20, 1, 12, 24], 
+                        "thursday": [24, 5, 16, 20], 
+                        "saturday": [23, 4, 15, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 378,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2706852059/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://worldman.bandcamp.com/album/lila',
+                    a_string: 'Lila by Worldman',
+                    rule: {
+                        "monday": [24, 5, 16, 20],
+                        "tuesday": [23, 4, 15, 19], 
+                        "wednesday": [22, 3, 14, 25], 
+                        "thursday": [21, 2, 13, 25], 
+                        "saturday": [25, 6, 17, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 379,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3793301332/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://moulayahmedelhassani.bandcamp.com/album/atlas-electric',
+                    a_string: 'Atlas Electric by Moulay Ahmed El Hassani',
+                    rule: {
+                        "monday": [25, 6, 17, 21],
+                        "tuesday": [24, 5, 16, 20], 
+                        "wednesday": [23, 4, 15, 19], 
+                        "thursday": [22, 3, 14, 25], 
+                        "saturday": [21, 2, 13, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

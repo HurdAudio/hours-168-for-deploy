@@ -267,7 +267,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 17,
                     user_id: 1,
-                    name: 'Simon H. Fell (1959 - ), a bassist and composer; he is primarily known for his work as a free improviser and the composer of ambitiously complex post-serialist works. Fell began playing double bass in 1973. From 1978 to 1981 he read English Literature at Fitzwilliam College of Cambridge University, an interest that led to ties to many of the poets associated with the Cambridge scene (a later work, Music for 10(0), involves settings of texts by the poet/music journalist/provocateur Ben Watson).',
+                    name: 'Simon H. Fell (1959 - 2020), a bassist and composer; he is primarily known for his work as a free improviser and the composer of ambitiously complex post-serialist works. Fell began playing double bass in 1973. From 1978 to 1981 he read English Literature at Fitzwilliam College of Cambridge University, an interest that led to ties to many of the poets associated with the Cambridge scene (a later work, Music for 10(0), involves settings of texts by the poet/music journalist/provocateur Ben Watson).',
                     color: '#E36407',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/simonhfell.jpg',
                     day_of: new Date('1959-01-13  21:00:00 GMT'),
@@ -286,7 +286,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 18,
                     user_id: 1,
-                    name: 'Luigi Dallapiccola (composer), born 1904',
+                    name: 'Luigi Dallapiccola (1904 - 1975), an Italian composer known for his lyrical twelve-tone compositions.\n Unlike many composers born into highly musical environments, his early musical career was irregular at best. Political disputes over his birthplace of Istria, then part of the Austro-Hungarian empire, led to instability and frequent moves. His father was headmaster of an Italian-language school – the only one in the city – which was shut down at the start of World War I. The family, considered politically subversive, was placed in internment at Graz, Austria, where the budding composer did not even have access to a piano, though he did attend performances at the local opera house, which cemented his desire to pursue composition as a career. Once back to his hometown Pisino after the war, he travelled frequently.\n\n Dallapiccola took his piano degree at the Florence Conservatory in the 1920s and became professor there in 1931; until his 1967 retirement he spent his career there teaching lessons in piano as a secondary instrument, replacing his teacher Ernesto Consolo as the older man\'s illness prevented him from continuing. He also studied composition with Vito Frazzi at the Conservatorio Luigi Cherubini. Dallapiccola\'s students include Abraham Zalman Walker, Luciano Berio, Bernard Rands, Donald Martino, Halim El-Dabh, Ernesto Rubin de Cervin, Arlene Zallman, Roland Trogan, Noel Da Costa, and Raymond Wilding-White. See: List of music students by teacher: C to F#Luigi Dallapiccola.\n\n Dallapiccola\'s early experiences under the fascist regime of Benito Mussolini, who governed Italy from October 1922 to July 1943, colored his outlook and output for the rest of his life. He once supported Mussolini, believing the propaganda, and it was not until the 1930s that he became passionate about his political views, in protest to the Abyssinian campaign and Italy\'s involvement in the Spanish Civil War. Mussolini\'s sympathy with Adolf Hitler\'s views on race, which threatened Dallapiccola\'s Jewish wife Laura Luzzatto, only hardened his stance. Canti di prigionia and Il prigioniero are reflections of this impassioned concern; the former was his first true protest work.\n\n During World War II he was in the dangerous position of opposing the Nazis; though he tried to go about his career as usual, and did, to a limited extent. On two occasions he was forced to go into hiding for several months. Dallapiccola continued his touring as a recitalist – but only in countries not occupied by the Nazis.\n\n Though it was only after the war that his compositions made it into the public eye (with his opera Il prigioniero sparking his fame), it was then that his life became relatively quiet. He made frequent travels to the United States, including appearances at Tanglewood in the summers of 1951 and 1952 and several semesters of teaching courses in composition at Queens College, New York beginning in 1956. He was a sought-after lecturer throughout Western Europe and the Americas. Dallapiccola\'s 1968 opera Ulisse would be the peak of his career, after which his compositional output was sparse; his later years were largely spent writing essays rather than music.\n\n He had no more finished compositions after 1972 due to his failing health, and he died in Florence in 1975 of edema of the lungs. There are, however, a very few sketches and fragments of work from this period, including a vocal work left unfinished just hours before his death.',
                     color: '#B6AA90',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/luigidallapiccola.jpg',
                     day_of: new Date('1904-02-03  21:00:00 GMT'),
@@ -305,7 +305,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 19,
                     user_id: 1,
-                    name: 'Betty Friedan (feminist/activist), born 1921',
+                    name: 'Betty Friedan (1921 - 2006) was an American feminist writer and activist. A leading figure in the women\'s movement in the United States, her 1963 book The Feminine Mystique is often credited with sparking the second wave of American feminism in the 20th century. In 1966, Friedan co-founded and was elected the first president of the National Organization for Women (NOW), which aimed to bring women "into the mainstream of American society now [in] fully equal partnership with men."\n\n In 1970, after stepping down as NOW\'s first president, Friedan organized the nationwide Women\'s Strike for Equality on August 26, the 50th anniversary of the Nineteenth Amendment to the United States Constitution granting women the right to vote. The national strike was successful beyond expectations in broadening the feminist movement; the march led by Friedan in New York City alone attracted over 50,000 people. In 1971, Friedan joined other leading feminists to establish the National Women\'s Political Caucus. Friedan was also a strong supporter of the proposed Equal Rights Amendment to the United States Constitution that passed the United States House of Representatives (by a vote of 354–24) and Senate (84–8) following intense pressure by women\'s groups led by NOW in the early 1970s. Following Congressional passage of the amendment, Friedan advocated for ratification of the amendment in the states and supported other women\'s rights reforms: she founded the National Association for the Repeal of Abortion Laws but was later critical of the abortion-centered positions of many liberal feminists.\n\nRegarded as an influential author and intellectual in the United States, Friedan remained active in politics and advocacy until the late 1990s, authoring six books. As early as the 1960s Friedan was critical of polarized and extreme factions of feminism that attacked groups such as men and homemakers. One of her later books, The Second Stage (1981), critiqued what Friedan saw as the extremist excesses of some feminists.',
                     color: '#AF3F27',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/BettyFriedan.jpg',
                     day_of: new Date('1921-02-04  21:00:00 GMT'),
@@ -319,7 +319,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 20,
                     user_id: 1,
-                    name: 'Jin-hi Kim (koto/composer), born 1957',
+                    name: 'Jin-hi Kim (1957 -  ) is a composer and performer of komungo and electric komungo, and a Korean music specialist.\n\n Kim is known as a pioneer for introducing geomungo (거문고, a Korean fretted board zither, also spelled komungo) to American contemporary classical music scene through her own cross-cultural chamber and orchestral compositions and her extensive solo work in avant-garde, as well as cross-cultural free improvisation. She is a Guggenheim fellow in composition and her recent works include the development of komungobot (algorithmic robotic instrument) and solo performances of the world\'s only electric komungo with live interactive MIDI computer system in her large-scale multimedia performance pieces.\n\nKim has received commissions from the American Composers Orchestra, Kronos Quartet, and Tan Dun\'s New Generation of East for Chamber Music Society of Lincoln Center, among others.\n\n During the last three decades Kim has performed as a komungo soloist in her own compositions at Carnegie Hall, Lincoln Center, Kennedy Center (Washington, D.C.), Smithsonian Freer Gallery of Art (Washington, DC), Metropolitan Museum of Art, Asia Society (NYC), Haus der Kulturen der Welt (Berlin), and for collaborative improvisations at Royal Festival Hall (London), Venice Biennale, Moers Festival (Germany) and many significant international festivals throughout the USA, Europe, Canada, Latin America, South America, Russia, Asia, New Zealand, and Australia.',
                     color: '#F1B25B',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jin-hikim.jpg',
                     day_of: new Date('1957-02-06  21:00:00 GMT'),
@@ -333,7 +333,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 21,
                     user_id: 1,
-                    name: 'Harriet Ann Jacobs (abolitionist), born 1813',
+                    name: 'Harriet Ann Jacobs (1813 - 1897) was an African-American writer. Born into slavery in Edenton, North Carolina, she was sexually harassed by her master. When he threatened to sell her children, she hid in a tiny crawlspace under the roof of her grandmother\'s house, where she wasn\'t even able to stand. After staying there for seven years, she finally managed to escape to New York, where she was reunited with her children Joseph and Louisa Matilda and her brother John S. Jacobs. She found work as a nanny for the children of Nathaniel Parker Willis and got into contact with abolitionist and feminist reformers. Her autobiography, Incidents in the Life of a Slave Girl, published in 1861, is now considered an "American classic".\n\n During and immediately after the Civil War, she went to the Union-occupied parts of the South together with her daughter, organizing help and founding two schools for fugitive and freed slaves.',
                     color: '#704F3E',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/JacobsHarrietAnn.jpg',
                     day_of: new Date('1813-02-11  21:00:00 GMT'),
@@ -347,7 +347,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 22,
                     user_id: 1,
-                    name: 'Susan B. Anthony (feminist/activist), born 1820',
+                    name: 'Susan B. Anthony (1820 - 1906) was an American social reformer and women\'s rights activist who played a pivotal role in the women\'s suffrage movement. Born into a Quaker family committed to social equality, she collected anti-slavery petitions at the age of 17. In 1856, she became the New York state agent for the American Anti-Slavery Society.\n\n In 1851, she met Elizabeth Cady Stanton, who became her lifelong friend and co-worker in social reform activities, primarily in the field of women\'s rights. In 1852, they founded the New York Women\'s State Temperance Society after Anthony was prevented from speaking at a temperance conference because she was female. In 1863, they founded the Women\'s Loyal National League, which conducted the largest petition drive in United States history up to that time, collecting nearly 400,000 signatures in support of the abolition of slavery. In 1866, they initiated the American Equal Rights Association, which campaigned for equal rights for both women and African Americans. In 1868, they began publishing a women\'s rights newspaper called The Revolution. In 1869, they founded the National Woman Suffrage Association as part of a split in the women\'s movement. In 1890, the split was formally healed when their organization merged with the rival American Woman Suffrage Association to form the National American Woman Suffrage Association, with Anthony as its key force. In 1876, Anthony and Stanton began working with Matilda Joslyn Gage on what eventually grew into the six-volume History of Woman Suffrage. The interests of Anthony and Stanton diverged somewhat in later years, but the two remained close friends.\n\n In 1872, Anthony was arrested for voting in her hometown of Rochester, New York, and convicted in a widely publicized trial. Although she refused to pay the fine, the authorities declined to take further action. In 1878, Anthony and Stanton arranged for Congress to be presented with an amendment giving women the right to vote. Introduced by Sen. Aaron A. Sargent (R-CA), it later became known colloquially as the Susan B. Anthony Amendment. It was eventually ratified as the Nineteenth Amendment to the U.S. Constitution in 1920.\n\n Anthony traveled extensively in support of women\'s suffrage, giving as many as 75 to 100 speeches per year and working on many state campaigns. She worked internationally for women\'s rights, playing a key role in creating the International Council of Women, which is still active. She also helped to bring about the World\'s Congress of Representative Women at the World\'s Columbian Exposition in Chicago in 1893.\n\n When she first began campaigning for women\'s rights, Anthony was harshly ridiculed and accused of trying to destroy the institution of marriage. Public perception of her changed radically during her lifetime, however. Her 80th birthday was celebrated in the White House at the invitation of President William McKinley. She became the first female citizen to be depicted on U.S. coinage when her portrait appeared on the 1979 dollar coin.',
                     color: '#F0EFEB',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/susanbanthony.jpg',
                     day_of: new Date('1820-02-15  21:00:00 GMT'),
@@ -361,7 +361,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 23,
                     user_id: 1,
-                    name: 'Fred Frith (musician), born 1949',
+                    name: 'Fred Frith (1949 - ) is an English multi-instrumentalist, composer, and improvisor.\n\n Probably best known for his guitar work, Frith first came to attention as one of the founding members of the English avant-rock group Henry Cow. He was also a member of the groups Art Bears, Massacre, and Skeleton Crew. He has collaborated with a number of prominent musicians, including Robert Wyatt, Derek Bailey, the Residents, Lol Coxhill, John Zorn, Brian Eno, Mike Patton, Lars Hollmer, Bill Laswell, Iva Bittová, Jad Fair, Kramer, the ARTE Quartett, and Bob Ostertag. He has also composed several long works, including Traffic Continues (1996, performed 1998 by Frith and Ensemble Modern) and Freedom in Fragments (1993, performed 1999 by Rova Saxophone Quartet). Frith produces most of his own music, and has also produced many albums by other musicians, including Curlew, the Muffins, Etron Fou Leloublan, and Orthotonics.\n\n Frith is the subject of Nicolas Humbert and Werner Penzel\'s award-winning 1990 documentary Step Across the Border. He also appears in the Canadian documentary Act of God, which is about the metaphysical effects of being struck by lightning. Frith has contributed to a number of music publications, including New Musical Express and Trouser Press, and has conducted improvising workshops across the world. Frith\'s career spans over four decades and he appears on over 400 albums. He still performs actively throughout the world.\n\n Frith was awarded the 2008 Demetrio Stratos Prize for his career achievements in experimental music. The prize was established in 2005 in honour of experimental vocalist Demetrio Stratos, of the Italian group Area, who died in 1979. In 2010 Frith received an honorary doctorate from the University of Huddersfield in West Yorkshire, England in recognition of his contribution to music. Frith was Professor of Composition in the Music Department at Mills College in Oakland, California until his retirement in 2018. He is the brother of Simon Frith, a music critic and sociologist, and Chris Frith, a psychologist at University College London.',
                     color: '#AAABAD',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/fredfrith.jpg',
                     day_of: new Date('1949-02-17  21:00:00 GMT'),
@@ -380,7 +380,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 24,
                     user_id: 1,
-                    name: 'Andre Norton (author), born 1912',
+                    name: 'Andre Norton (1912 - 2005) was an American writer of science fiction and fantasy, who also wrote works of historical fiction and contemporary fiction. She wrote primarily under the pen name Andre Norton, but also under Andrew North and Allen Weston. She was the first woman to be Gandalf Grand Master of Fantasy, to be SFWA Grand Master, and to be inducted by the Science Fiction and Fantasy Hall of Fame.',
                     color: '#6F7068',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/andrenorton.jpeg',
                     day_of: new Date('1912-02-17  21:00:00 GMT'),
@@ -394,7 +394,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 25,
                     user_id: 1,
-                    name: 'Anthony Davis (pianist/composer), born 1951',
+                    name: 'Anthony Davis (1951 -  ) is an American pianist and composer. He incorporates several styles including jazz, rhythm \'n\' blues, gospel, non-Western, African, European classical, Indonesian gamelan, and experimental music. He has played with several groups and is also professor of music at University of California, San Diego.\n\n Davis is perhaps best known for his operas; he has been called "the dean of African-American opera composers." His better known compositions include X, The Life and Times of Malcolm X, which was premiered by the New York City Opera in 1986; Amistad, which premiered with the Lyric Opera of Chicago in 1997; and Wakonda\'s Dream, which premiered at Opera Omaha in 2007. His opera The Central Park Five premiered on June 15, 2019 at the Long Beach Opera Company in California. It won him a Pulitzer Prize for Music on May 4, 2020.',
                     color: '#D06209',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/anthonydavis.jpg',
                     day_of: new Date('1951-02-20  21:00:00 GMT'),
@@ -408,7 +408,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 26,
                     user_id: 1,
-                    name: 'Lejaren Hiller (composer), born 1924',
+                    name: 'Lejaren Hiller (1924 - 1994) was an American composer.\n\n In 1957 he collaborated with Leonard Issacson on his String Quartet No. 4, Illiac Suite, the first significant use of a computer to compose music. In 1958 Hiller founded the Experimental Music Studios at the University of Illinois at Urbana-Champaign. His notable pupils included composers James Fulkerson, Larry Lake, Ilza Nogueira, David Rosenboom, Bernadette Speach and James Tenney. See: List of music students by teacher: G to J#Lejaren Hiller.\n\n He was originally trained as a chemist, and worked as a research chemist for DuPont in Waynesboro, Virginia (1947–52). He developed the first reliable process for dyeing Orlon and coauthored a popular textbook.\n\n He played piano, oboe, clarinet, and saxophone as a child. He also studied composition with Roger Sessions and Milton Babbitt while earning his chemistry degree at Princeton University. His father, Lejaren Hiller, Sr., was a well-known art photographer who specialized in historical tableaux.\n\n He wrote an article on the Illiac Suite for Scientific American which garnered a lot of attention from the press, generating a storm of controversy. The musical establishment was so hostile to this interloper scientist that both Baker\'s Biographical Dictionary of Musicians and the New Grove Dictionary of Music and Musicians refused to include him until shortly before his death.\n\n A majority of Hiller\'s works after 1957 do not involve computers at all, but might include stochastic music, indeterminacy, serialism, Brahmsian traditionalism, jazz, performance art, folksong and counterpoint mixed together. He also collaborated with John Cage for HPSCHD.\n\n He created the MUSICOMP ("MUsic SImulator-Interpreter for COMpositional Procedures") programming language for music composition with Robert Baker in order to create their Computer Cantata (1963). In 1968, he joined the faculty at University at Buffalo as Slee Professor of Composition, where he established the school\'s first computer music facility and co-directed with Lukas Foss at the Center of the Creative and Performing Arts. Illness forced him to retire in 1989',
                     color: '#8F8F8F',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/lejarenhiller.jpg',
                     day_of: new Date('1924-02-23  21:00:00 GMT'),
@@ -422,7 +422,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 27,
                     user_id: 1,
-                    name: 'Monte Irvin (outfielder), born 1919',
+                    name: 'Monte Irvin (1919 - 2016) was an American left fielder and right fielder in the Negro leagues and Major League Baseball (MLB) who played with the Newark Eagles (1938–1942, 1946–1948), New York Giants (1949–1955) and Chicago Cubs (1956). He grew up in New Jersey and was a standout football player at Lincoln University. Irvin left Lincoln to spend several seasons in Negro league baseball. His career was interrupted by military service from 1943 to 1945.\n\n When he joined the New York Giants, Irvin became one of the earliest African-American MLB players. He played in two World Series for the Giants. When future Hall of Famer Willie Mays joined the Giants in 1951, Irvin was asked to mentor him. He was inducted into the Baseball Hall of Fame in 1973. After his playing career, Irvin was a baseball scout and held an administrative role with the MLB commissioner\'s office.\n\n At the time of his death, Irvin was the oldest living former Negro Leagues player, New York Giant and Chicago Cub. He lived in a retirement community in Houston prior to his death.',
                     color: '#9C8D62',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/monteirvin.jpg',
                     day_of: new Date('1919-02-25  21:00:00 GMT'),
@@ -436,7 +436,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 28,
                     user_id: 1,
-                    name: 'Pete (Grover) Cleveland (pitcher), born 1887',
+                    name: 'Pete (Grover) Cleveland (1887 - 1950), nicknamed "Old Pete", was an American Major League Baseball pitcher. He played from 1911 through 1930 for the Philadelphia Phillies, Chicago Cubs, and St. Louis Cardinals. He was elected into the Baseball Hall of Fame in 1938.',
                     color: '#BBB9AC',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/petealexander.jpg',
                     day_of: new Date('1887-02-26  21:00:00 GMT'),
@@ -450,19 +450,14 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 29,
                     user_id: 1,
-                    name: 'Dexter Gordon (saxophonist), born 1923',
+                    name: 'Dexter Gordon (1923 - 1990) was an American jazz tenor saxophonist. He was one of the first players of the instrument in the bebop idiom of musicians such as Charlie Parker, Dizzy Gillespie, and Bud Powell. Gordon\'s height was 6 feet 6 inches (198 cm), so he was also known as "Long Tall Dexter" and "Sophisticated Giant". His studio and performance career spanned over 40 years.\n\n Gordon\'s sound was commonly characterized as being "large" and spacious and he had a tendency to play behind the beat. He was known for humorously inserting musical quotes into his solos, with sources as diverse as popular tunes like "Happy Birthday" to the operas of Wagner. This is not unusual in common-practice jazz improvisation, but Gordon did it frequently enough to make it a hallmark of his style. One of his major influences was Lester Young. Gordon, in turn, was an early influence on John Coltrane and Sonny Rollins. Rollins and Coltrane then influenced Gordon\'s playing as he explored hard bop and modal playing during the 1960s.\n\n Gordon was known for his genial and humorous stage presence. He was an advocate of playing to communicate with the audience. One of his idiosyncratic rituals was to recite lyrics from each ballad before playing it.\n\n A photograph by Herman Leonard of Gordon taking a smoke break at the Royal Roost in 1948 is one of the iconic images in jazz photography. Cigarettes were a recurring theme on covers of Gordon\'s albums.\n\nGordon was nominated for an Academy Award for Best Actor in a Leading Role for his performance in the Bertrand Tavernier film Round Midnight (Warner Bros, 1986), and he won a Grammy for Best Jazz Instrumental Performance, Soloist, for the soundtrack album The Other Side of Round Midnight (Blue Note Records, 1986). He also had a cameo role in the 1990 film Awakenings. In 2019, Gordon\'s album Go (Blue Note, 1962) was selected by the Library of Congress for preservation in the National Recording Registry for being "culturally, historically, or aesthetically significant".',
                     color: '#7F5A54',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/dextergordon.jpg',
                     day_of: new Date('1923-02-27  21:00:00 GMT'),
                     is_annual: true,
                     art_override: false,
-                    music_override: true,
-                    override_content: {
-                        "sources": ['bandcamp'],
-                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=4193897739/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
-                        "href_strings": ['http://futuramarge.bandcamp.com/album/parisian-concert'],
-                        "a_strings": ['Parisian Concert by Sonny Grey, Dexter Gordon, Georges Arvanitas Trio']
-                    },
+                    music_override: false,
+                    override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
         },
@@ -488,7 +483,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 31,
                     user_id: 1,
-                    name: 'Yoko Ono (musician/activist/artist), born 1933',
+                    name: 'Yoko Ono (1933 - ) is a Japanese multimedia artist, singer, songwriter and peace activist. Her work also encompasses performance art, which she performs in both English and Japanese, and filmmaking. She was married to English singer-songwriter John Lennon of the Beatles from 1969 until his murder in 1980.\n\n Ono grew up in Tokyo and also spent several years in New York City. She studied at Gakushuin University, but withdrew from her course after two years and moved to New York in 1953 to live with her family. She spent some time at Sarah Lawrence College and then became involved in New York City\'s downtown artists scene, which included the Fluxus group. With their performance Bed-Ins for Peace in Amsterdam and Montreal in 1969, Ono and Lennon used their honeymoon at the Hilton Amsterdam as a stage for public protests against the Vietnam War. The feminist themes of her music have influenced musicians as diverse as the B-52s and Meredith Monk. She achieved commercial and critical acclaim in 1980 with the chart-topping album Double Fantasy, a collaboration with Lennon that was released three weeks before his murder.\n\n Public appreciation of Ono\'s work has shifted over time and was helped by a retrospective at a Whitney Museum branch in 1989 and the 1992 release of the six-disc box set Onobox. Retrospectives of her artwork have also been presented at the Japan Society in New York City in 2001, in Bielefeld, Germany, and the UK in 2008, Frankfurt, and Bilbao, Spain, in 2013 and The Museum of Modern Art in New York City in 2015. She received a Golden Lion Award for lifetime achievement from the Venice Biennale in 2009 and the 2012 Oskar Kokoschka Prize, Austria\'s highest award for applied contemporary art.\n\nAs Lennon\'s widow, Ono works to preserve his legacy. She funded the Strawberry Fields memorial in Manhattan\'s Central Park, the Imagine Peace Tower in Iceland, and the John Lennon Museum in Saitama, Japan (which closed in 2010). She has made significant philanthropic contributions to the arts, peace, Philippines and Japan disaster relief, and other causes. In 2012, Ono received the Dr. Rainer Hildebrandt Human Rights Award. The award is given annually in recognition of extraordinary, nonviolent commitment to human rights. Ono continued her social activism when she inaugurated a biennial $50,000 LennonOno Grant for Peace in 2002. She also co-founded the group Artists Against Fracking in 2012.\n\n Ono married four times to three different people. She was married to Japanese composer Toshi Ichiyanagi from 1956 until they divorced in 1962. Her marriage with the producer Anthony Cox lasted from 1962 to 1968, with a brief hiatus in 1963. In 1969, she married John Lennon, whom she had met in 1966 at her own art exhibition in London. She has a daughter, Kyoko Chan Cox, from her marriage to Anthony Cox and a son, Sean Taro Ono Lennon, from her marriage to Lennon. She collaborates musically with Sean.',
                     color: '#C5A590',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/yokoono.jpg',
                     day_of: new Date('1933-02-18  21:00:00 GMT'),
@@ -812,7 +807,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 51,
                     user_id: 1,
-                    name: 'Sonia Johnson (feminist/writer), 1936',
+                    name: 'Sonia Johnson (1936 - ) is an American feminist activist and writer. She was an outspoken supporter of the Equal Rights Amendment (ERA) and in the late 1970s was publicly critical of the position of The Church of Jesus Christ of Latter-day Saints (LDS Church), of which she was a member, against the proposed amendment. She eventually was excommunicated from the church for her activities. She went on to publish several radical feminist books, ran for president in 1984, and become a popular feminist speaker.',
                     color: '#FC1273',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/soniajohnson.jpg',
                     day_of: new Date('1936-02-27  21:00:00 GMT'),
@@ -981,7 +976,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 62,
                     user_id: 1,
-                    name: 'Hugo Ball (dadaist/sound poet), born 1886',
+                    name: 'Hugo Ball (1886 - 1927) was a German author, poet, and essentially the founder of the Dada movement in European art in Zürich in 1916. Among other accomplishments, he was a pioneer in the development of sound poetry.',
                     color: '#686A67',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dada/hugoball.jpg',
                     day_of: new Date('1886-02-22  21:00:00 GMT'),
@@ -1051,7 +1046,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 67,
                     user_id: 1,
-                    name: 'Toshi Ichiyanagi (composer), born 1933',
+                    name: 'Toshi Ichiyanagi (1933 - ) is a Japanese composer and pianist and former husband of Yoko Ono.',
                     color: '#959490',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/toshiichiyanagi.jpg',
                     day_of: new Date('1933-02-03  21:00:00 GMT'),
@@ -1065,7 +1060,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 68,
                     user_id: 1,
-                    name: 'Don Joyce (composer), born 1944',
+                    name: 'Don Joyce (1944 - 2015) was an American musician who was a member of the experimental music group Negativland. He also hosted a weekly radio program called Over the Edge on the Berkeley, California, radio station KPFA, for more than 30 years.\n\n Joyce was born in Keene, New Hampshire. Originally a visual artist, he earned a master\'s degree in painting from the Rhode Island School of Design before moving to the Bay Area, where he lived most of his life. While working at KPFA hosting a more mainstream type music show, he encountered Ian Allen and other members of Negativland. Don was a master at tape editing and he began developing his sound collage techniques using radio and television broadcasts captured on tape and blending them into layered mixes, each with a unique theme.\n\n Heavily influenced by Bob and Ray and the Firesign Theater, Joyce developed a number of continuing characters whom he would portray in the more theatrical episodes of Over The Edge.\n\n In 1984, he coined the phrase culture jamming. Using his alter ego, cultural reviewer Crosley Bendix, he presented an explanation of culture jamming and its importance on the 1984 album Over the Edge Vol. 1: JAMCON\'84:\n\n As awareness of how the media environment we occupy affects and directs our inner life grows, some resist. The skillfully reworked billboard . . . directs the public viewer to a consideration of the original corporate strategy. The studio for the cultural jammer is the world at large.',
                     color: '#EEC5CD',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/donjoyce.jpg',
                     day_of: new Date('1944-02-09  21:00:00 GMT'),
@@ -1079,7 +1074,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 69,
                     user_id: 1,
-                    name: 'Florynce Kennedy (feminist/activist), born 1916',
+                    name: 'Florynce Kennedy (1916 - 2000) was an American lawyer, feminist, civil rights advocate, lecturer and activist.\n\n In 1946, Kennedy wrote a monograph called "The Case Against Marriage", which she later summarized in her autobiography:\n\n ...the idea being that marriage is a crock. Why should you lock yourself in the bathroom just because you have to go three times a day?',
                     color: '#81807E',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/floryncekennedy.jpg',
                     day_of: new Date('1916-02-11  21:00:00 GMT'),
@@ -1461,7 +1456,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 92,
                     user_id: 1,
-                    name: 'Svend Asmussen (violinist), born 1916',
+                    name: 'Svend Asmussen (1916 - 2017) was a Danish jazz violinist, known as "The Fiddling Viking". A Swing style virtuoso, he played and recorded with many of the greats of Jazz, including Duke Ellington, Benny Goodman and Stephane Grappelli. He played publicly until 2010 when he had a blood clot, his career having spanned eight decades.',
                     color: '#D09133',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/svendasmussen.jpeg',
                     day_of: new Date('1916-02-28  21:00:00 GMT'),
@@ -1522,7 +1517,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 96,
                     user_id: 1,
-                    name: 'Audre Lorde (feminist/writer/activist), born 1934',
+                    name: 'Audre Lorde (1934 - 1992) was an American writer, feminist, womanist, librarian, and civil rights activist. She was a self-described “black, lesbian, mother, warrior, poet,” who dedicated both her life and her creative talent to confronting and addressing injustices of racism, sexism, classism, heterosexism, and homophobia.\n\n As a poet, she is best known for technical mastery and emotional expression, as well as her poems that express anger and outrage at civil and social injustices she observed throughout her life. Her poems and prose largely deal with issues related to civil rights, feminism, lesbianism, illness and disability, and the exploration of black female identity.',
                     color: '#7A7571',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/feminist/audrelorde.jpg',
                     day_of: new Date('1934-02-18  21:00:00 GMT'),
@@ -1968,7 +1963,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 125,
                     user_id: 1,
-                    name: 'Yamantaka Eye (vocalist), born 1964',
+                    name: 'Yamantaka Eye (1964 - ) is a Japanese vocalist and visual artist, best known as a member of Boredoms and Naked City. He has changed his stage name three times, from Yamatsuka Eye, to Yamantaka Eye, to Yamataka Eye, and sometimes calls himself eYe or EYヨ. He also DJs under the name DJ 光光光 or "DJ pica pica pica" ("pica" means "bright" or "shiny"), and has used numerous other pseudonyms.',
                     color: '#A21D1A',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/yamantakaeye.jpg',
                     day_of: new Date('1964-02-13  21:00:00 GMT'),
@@ -2029,7 +2024,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 129,
                     user_id: 1,
-                    name: 'Gerhard Richter (artist), born 1932',
+                    name: 'Gerhard Richter (1932 - ) is a German visual artist. Richter has produced abstract as well as photorealistic paintings, and also photographs and glass pieces. He is widely regarded as one of the most important contemporary German artists and several of his works have set record prices at auction.',
                     color: '#9A4249',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/artists/gerhardrichter.jpg',
                     day_of: new Date('1932-02-09  21:00:00 GMT'),
@@ -3694,7 +3689,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 235,
                     user_id: 1,
-                    name: 'Maggie Nichols (vocalist/dancer), born 1948',
+                    name: 'Maggie Nichols (1948 - ) is a Scottish free-jazz and improvising vocalist, dancer, and performer.',
                     color: '#5883BB',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/maggienichols.jpg',
                     day_of: new Date('1948-02-24  21:00:00 GMT'),
@@ -3760,7 +3755,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 239,
                     user_id: 1,
-                    name: 'Ron Santo (third baseman), born 1940',
+                    name: 'Ron Santo (1940 - 2010) was an American Major League Baseball (MLB) third baseman who played for the Chicago Cubs from 1960 through 1973 and the Chicago White Sox in 1974. In 1990, Santo became a member of the Cubs broadcasting team providing commentary for Cubs games on WGN radio and remained at that position until his death in 2010. In 1999, he was selected to the Cubs All-Century Team. He was inducted into the National Baseball Hall of Fame in 2012.\n\n Santo was raised in Southeast Seattle, attending Franklin High School, and played newly organized youth baseball in the Babe Ruth League. He grew up near Sicks Stadium, home of the Pacific Coast League’s Seattle Rainiers, and had summer jobs there as a batboy, groundskeeper and clubhouse attendant, while playing three sports in high school. At age 14 he made the Seattle, Washington All Star Babe Ruth team which advanced to the 1954 Babe Ruth World Series. In a game at then Washington DC Stadium, Dave Tacher (coach) inserted Santo at first base to replace his 15 year old who broke his thumb. In that game Santo hit a grand slam home run over the 354 foot mark in left center field and the Washington All Stars defeated Tennessee.\n\n Santo was an All-Star for nine seasons during his 15-year career. He led the National League (NL) in triples one time, in walks four times, and in on-base percentage two times. He batted .300 or more and hit 30 or more home runs four times each, and is the only third baseman in MLB history to post eight consecutive seasons with over 90 runs batted in (RBI) (1963–70). Santo is second to Eddie Mathews in slugging average (.464), and is the third ranking third baseman in walks (1,108), in RBI (1,331), and total bases (3,779).\n\n He also was a Gold Glove Award winner for five consecutive seasons. He led the NL in total chances eight times, in games, putouts and assists seven times each, and in double plays six times. From 1966 to 1974, he held the NL record for assists in a single season. He also set NL records for career assists (4,532), total chances (6,777) and double plays (389) at third base, all of which were eventually broken between 1986 and 1988 by Mike Schmidt. His NL total of 2,102 games at third base is 52 short of Mathews\' league record, and he ranks sixth in putouts (1,930) and ninth in fielding percentage (.954).\n\n Santo enjoyed his success despite battling diabetes since he was a teenager, a condition which was carefully and generally concealed publicly until 1971; it eventually necessitated the amputation of the lower half of both his legs. Since 1979, Santo endorsed the Juvenile Diabetes Research Foundation\'s annual Ron Santo Walk to Cure Diabetes in Chicago. He helped raise over $65 million for the foundation. In 2002, he was named the Juvenile Diabetes Research Foundation\'s "Person of the Year".',
                     color: '#E2E3E5',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/ronsanto.jpg',
                     day_of: new Date('1940-02-25  21:00:00 GMT'),
@@ -6417,7 +6412,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 407,
                     user_id: 1,
-                    name: 'Iva Papazov (clarinet), born 1952',
+                    name: 'Ivo Papazov (1952 - ) is a Bulgarian clarinetist. He leads the "Ivo Papazov Wedding Band" in performances of jazz-infused Stambolovo music, and is one of the premier creators of the genre known as "wedding band" music in Bulgaria, along with the violinist Georgi Yanev, saxophonist Yuri Yunakov and accordionists Neshko Neshev, Ivan Milev and Peter Ralchev. Together with Emilia they are known as Mames 2001. An orchestra that had great success in the TV show Познай кой е под масатаn ("Guess who is under the table").\n\n According to Garth Cartwright, he was "the first Balkan Gypsy musician to win a wide international following with his two Joe Boyd-produced albums for Hannibal Records in the early 1990s." Papazov and his Wedding Band have toured the United States several times.\n\nIn 2005, Papazov won the Audience Award from the BBC\'s Radio3 World Music Awards.\n\nPapazov and Yuri Yunakov are briefly profiled and the recording of "Kurdzhaliiska Ruchenica" from their 2005 album Together Again is analyzed in the popular textbook, Worlds of Music, 5th Edition.\n\nIvo Papazov is a Bulgarian Roma and his original name is Ibrahim (Turkish name). Papazov has stated: "I am one of the few light skinned people in my family but I know I am Romani." As a result of the extensive programme of forced nationalisation of ethnic minority groups during Bulgaria\'s socialist rule, Papazov changed his first name to Ivo (adapted from Ibo, short for Ibrahim). He speaks Turkish and comes from Kardzhali, a city close to Bulgaria’s Turkish and Greek borders. He grew up in a musical family and followed the Balkan Gypsy tradition of leaving school at a young age, in his case to focus on playing music for a living.',
                     color: '#FEFEFE',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/ivapapazov.jpg',
                     day_of: new Date('1952-02-16  21:00:00 GMT'),
@@ -6478,7 +6473,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 411,
                     user_id: 1,
-                    name: 'Fred Van Hove (pianist), born 1937',
+                    name: 'Fred Van Hove (1937 - ) is a Belgian jazz musician and a pioneer of European free jazz. He is a pianist, accordionist, church organist, and carillonist, an improviser and a composer. He is known for his work in the 1960s and 1970s with saxophonist Peter Brötzmann and drummer Han Bennink and for his subsequent work in various duos and as a solo artist.\n\n Van Hove studied musical theory, harmony and piano in Belgium. He began an association with saxophonist Peter Brötzmann in 1966, playing on his early quartet and sextet recordings including 1968\'s Machine Gun album, and then as part of a trio with Brötzmann and drummer Han Bennink. Van Hove has since played in a number of duos, notably with saxophonists Steve Lacy and Lol Coxhill and with trombonists Albert Mangelsdorff and Vinko Globokar. He has composed for film and theatre and taught local musicians in Berlin. He has held workshops in Germany, France, England, Belgium, and the Netherlands, and has held studios at the University of Lille III. Van Hove has collaborated with a number of his fellow Belgian musicians and in 1996 he was given the title of Cultural Ambassador of Flanders by the Belgian government.',
                     color: '#957A29',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/fredvanhove.jpg',
                     day_of: new Date('1937-02-19  21:00:00 GMT'),
@@ -6924,7 +6919,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 440,
                     user_id: 1,
-                    name: 'James "Blood" Ulmer (guitarist), born 1940',
+                    name: 'James "Blood" Ulmer (1940 - ) is an American jazz, free funk and blues guitarist and singer. Ulmer plays a Gibson Byrdland guitar. His guitar sound has been described as "jagged" and "stinging". His singing has been called "raggedly soulful".',
                     color: '#844A33',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/jamesbloodulmer.jpg',
                     day_of: new Date('1940-02-08  21:00:00 GMT'),
@@ -7060,7 +7055,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 449,
                     user_id: 1,
-                    name: 'Rufus Reid (bassist), born 1944',
+                    name: 'Rufus Reid (1944 - ) is an American jazz bassist, educator, and composer.\n\n Reid was raised in Sacramento, California, where he played the trumpet through junior high and high school. Upon graduation from Sacramento High School, he entered the United States Air Force as a trumpet player. During that period he began to be seriously interested in the bass.\n\n After fulfilling his duties in the military, Rufus had decided he wanted to pursue a career as a professional bassist. He moved to Seattle, Washington, where he began serious study with James Harnett of the Seattle Symphony. He continued his education at Northwestern University in Evanston, Illinois, where he studied with Warren Benfield and principal bassist, Joseph Guastefeste, both of the Chicago Symphony. He graduated in 1971 with a Bachelor of Music Degree as a Performance Major on the Double Bass.\n\n Rufus Reid\'s major professional career began in Chicago and continues since 1976 in New York City. Playing with hundreds of the world\'s greatest musicians, he is famously the bassist that saxophonist Dexter Gordon chose when he returned to the states from his decade-long exile in Denmark. His colleagues include Thad Jones, Nancy Wilson, Eddie Harris, and Bob Berg.\n\n Reid has been a resident of Teaneck, New Jersey.',
                     color: '#232321',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/rufusreid.jpg',
                     day_of: new Date('1944-02-10  21:00:00 GMT'),
@@ -7314,7 +7309,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 465,
                     user_id: 1,
-                    name: 'Ulysses by James Joyce published in 1922',
+                    name: 'Ulysses by James Joyce published on this day in 1922. It was first serialised in parts in the American journal The Little Review from March 1918 to December 1920 and then published in its entirety in Paris by Sylvia Beach on 2 February 1922, Joyce\'s 40th birthday. It is considered one of the most important works of modernist literature and has been called "a demonstration and summation of the entire movement." According to Declan Kiberd, "Before Joyce, no writer of fiction had so foregrounded the process of thinking".\n\n Ulysses chronicles the peripatetic appointments and encounters of Leopold Bloom in Dublin in the course of an ordinary day, 16 June 1904. Ulysses is the Latinised name of Odysseus, the hero of Homer\'s epic poem the Odyssey, and the novel establishes a series of parallels between the poem and the novel, with structural correspondences between the characters and experiences of Bloom and Odysseus, Molly Bloom and Penelope, and Stephen Dedalus and Telemachus, in addition to events and themes of the early 20th-century context of modernism, Dublin, and Ireland\'s relationship to Britain. The novel is highly allusive and also imitates the styles of different periods of English literature.\n\n Since its publication, the book has attracted controversy and scrutiny, ranging from an obscenity trial in the United States in 1921 to protracted textual "Joyce Wars". The novel\'s stream-of-consciousness technique, careful structuring, and experimental prose—replete with puns, parodies, and allusions—as well as its rich characterisation and broad humour, have led it to be regarded as one of the greatest literary works in history; Joyce fans worldwide now celebrate 16 June as Bloomsday.',
                     color: '#EDE6D4',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/ulysses.jpg',
                     day_of: new Date('1922-02-02  21:00:00 GMT'),
@@ -7562,7 +7557,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 482,
                     user_id: 1,
-                    name: 'The Queen of the Night by Alexander Chee published in 2016',
+                    name: 'The Queen of the Night by Alexander Chee published on this day in 2016.',
                     color: '#98693F',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/books/thequeenofthenight.jpg',
                     day_of: new Date('2016-02-02  21:00:00 GMT'),
@@ -8014,7 +8009,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 510,
                     user_id: 1,
-                    name: 'Babe Ruth (outfielder and pitcher), born 1895',
+                    name: 'Babe Ruth (1895 - 1948) was an American professional baseball player whose career in Major League Baseball (MLB) spanned 22 seasons, from 1914 through 1935. Nicknamed "The Bambino" and "The Sultan of Swat", he began his MLB career as a star left-handed pitcher for the Boston Red Sox, but achieved his greatest fame as a slugging outfielder for the New York Yankees. Ruth established many MLB batting (and some pitching) records, including career home runs (714), runs batted in (RBIs) (2,213), bases on balls (2,062), slugging percentage (.690), and on-base plus slugging (OPS) (1.164); the last two still stand as of 2019. Ruth is regarded as one of the greatest sports heroes in American culture and is considered by many to be the greatest baseball player of all time. In 1936, Ruth was elected into the Baseball Hall of Fame as one of its "first five" inaugural members.\n\n At age seven, Ruth was sent to St. Mary\'s Industrial School for Boys, a reformatory where he was mentored by Brother Matthias Boutlier of the Xaverian Brothers, the school\'s disciplinarian and a capable baseball player. In 1914, Ruth was signed to play minor-league baseball for the Baltimore Orioles but was soon sold to the Red Sox. By 1916, he had built a reputation as an outstanding pitcher who sometimes hit long home runs, a feat unusual for any player in the pre-1920 dead-ball era. Although Ruth twice won 23 games in a season as a pitcher and was a member of three World Series championship teams with the Red Sox, he wanted to play every day and was allowed to convert to an outfielder. With regular playing time, he broke the MLB single-season home run record in 1919.\n\n After that season, Red Sox owner Harry Frazee sold Ruth to the Yankees amid controversy. The trade fueled Boston\'s subsequent 86-year championship drought and popularized the "Curse of the Bambino" superstition. In his 15 years with the Yankees, Ruth helped the team win seven American League (AL) pennants and four World Series championships. His big swing led to escalating home run totals that not only drew fans to the ballpark and boosted the sport\'s popularity but also helped usher in baseball\'s live-ball era, which evolved from a low-scoring game of strategy to a sport where the home run was a major factor. As part of the Yankees\' vaunted "Murderers\' Row" lineup of 1927, Ruth hit 60 home runs, which extended his MLB single-season record by a single home run. Ruth\'s last season with the Yankees was 1934; he retired from the game the following year, after a short stint with the Boston Braves. During his career, Ruth led the AL in home runs during a season 12 times.\n\n During Ruth\'s career, he was the target of intense press and public attention for his baseball exploits and off-field penchants for drinking and womanizing. After his retirement as a player, he was denied the opportunity to manage a major league club, most likely due to poor behavior during parts of his playing career. In his final years, Ruth made many public appearances, especially in support of American efforts in World War II. In 1946, he became ill with nasopharyngeal cancer and died from the disease two years later. Ruth remains a part of American culture.',
                     color: '#171717',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/baseball/baberuth.jpg',
                     day_of: new Date('1895-02-06  21:00:00 GMT'),
@@ -8360,7 +8355,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 534,
                     user_id: 1,
-                    name: 'Janel Leppin (cello/voice), born 1981',
+                    name: 'Janel Leppin (1981 - ) is an American cellist and multi-instrumentalist. Her work has been shown at the San Francisco Museum of Modern Art, the Kennedy Center for the Performing Arts and at many international festivals worldwide including the High Zero Festival, the Swedish Women in Jazz Festival and the Washington Women in Jazz Festival. She has acted as curator for works shown at the Kennedy Center for the Performing Arts and the ISSUE Project Room.\n\n Leppin has released three solo recordings, Mellow Diamond (2016), Songs for Voice and Mellotron (2016), and American God (2017), on her record label Wedderburn Records. She collaborates as part of Janel and Anthony with her husband, American guitar player Anthony Pirog. Recordings of her work as a composer and side musician appear on Touch, Tzadik, Sub Pop, Editions Mego, Ideologic Organ and Cuneiform Records. Her work uses experimental, avant-garde, modal jazz, free jazz, classical, ambient and rock influences.',
                     color: '#782E0E',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/janelleppin.jpg',
                     day_of: new Date('1981-02-13  21:00:00 GMT'),
@@ -9242,7 +9237,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 592,
                     user_id: 1,
-                    name: 'Henry Threagdill (composer/reeds) born in 1944',
+                    name: 'Henry Threadgdill (1944 -  ) is an American composer, saxophonist and flautist. He came to prominence in the 1970s leading ensembles rooted in jazz but with unusual instrumentation and often incorporating other genres of music. He has performed and recorded with several ensembles: Air, Aggregation Orb, Make a Move, the seven-piece Henry Threadgill Sextett, the twenty-piece Society Situation Dance Band, Very Very Circus, X-75, and Zooid.\n\n He was awarded the 2016 Pulitzer Prize for Music for his album In for a Penny, In for a Pound, which premiered at Roulette Intermedium on December 4, 2014.',
                     color: '#E3BEB5',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/Henry-Threadgill-768x432.jpg',
                     day_of: new Date('1944-02-15  21:00:00 GMT'),
@@ -9402,7 +9397,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 602,
                     user_id: 1,
-                    name: 'Craig Taborn (piano) born in 1970',
+                    name: 'Craig Taborn (1970 -  ) is an American pianist, organist, keyboardist and composer. He works solo and in bands, mostly playing various forms of jazz. He started playing piano and Moog synthesizer as an adolescent and was influenced at an early stage by a wide range of music, including by the freedom expressed in recordings of free jazz and contemporary classical music.\n\n While at university, Taborn toured and recorded with jazz saxophonist James Carter. Taborn went on to play with numerous other musicians in electronic and acoustic settings, while also building a reputation as a solo pianist. He has a range of styles, and often adapts his playing to the nature of the instrument and the sounds that he can make it produce. His improvising, particularly for solo piano, often adopts a modular approach, in which he begins with small units of melody and rhythm and then develops them into larger forms and structures.\n\n In 2011, Down Beat magazine chose Taborn as winner of the electric keyboard category, as well as rising star in both the piano and organ categories. By mid-2017, Taborn had released nine albums as leader or co-leader, and had appeared on more than ninety as a sideman.',
                     color: '#5C6E7A',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/craig_nc.jpg',
                     day_of: new Date('1970-02-20  21:00:00 GMT'),
@@ -9778,7 +9773,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 626,
                     user_id: 1,
-                    name: 'June Tyson (vocalist/dancer) born 1936',
+                    name: 'June Tyson (1936 - 1992) was a singer, violinist, and dancer who performed with bandleader Sun Ra.\n\n A native of Albemarle, North Carolina, she worked in Harlem during the 1960s as a singer. She met pianist Sun Ra and became the only woman in his band, the Arkestra. She also worked as the band\'s costume designer, choreographer, and violinist. She married a member of the crew who designed lighting and sound. Their home in Harlem became a regular stop for members of the band.',
                     color: '#CDCFCA',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/A-252035-1342324645-8192.jpg',
                     day_of: new Date('1936-02-05  21:00:00 GMT'),
@@ -10279,7 +10274,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 660,
                     user_id: 1,
-                    name: 'John Steinbeck (author) born 1902',
+                    name: 'John Steinbeck (1902 - 1968) was an American author. He won the 1962 Nobel Prize in Literature "for his realistic and imaginative writings, combining as they do sympathetic humour and keen social perception." He has been called "a giant of American letters," and many of his works are considered classics of Western literature.\n\n During his writing career, he authored 33 books, including 16 novels, six non-fiction books, and two collections of short stories. He is widely known for the comic novels Tortilla Flat (1935) and Cannery Row (1945), the multi-generation epic East of Eden (1952), and the novellas The Red Pony (1933) and Of Mice and Men (1937). The Pulitzer Prize-winning The Grapes of Wrath (1939) is considered Steinbeck\'s masterpiece and part of the American literary canon. In the first 75 years after it was published, it sold 14 million copies.\n\n Most of Steinbeck\'s work is set in central California, particularly in the Salinas Valley and the California Coast Ranges region. His works frequently explored the themes of fate and injustice, especially as applied to downtrodden or everyman protagonists.',
                     color: '#596476',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/authors/steinbeck.jpg',
                     day_of: new Date('1902-02-27  21:00:00 GMT'),
@@ -10982,7 +10977,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 707,
                     user_id: 1,
-                    name: 'Alice Walker (author/activist) born 1944',
+                    name: 'Alice Walker (1944 -  ) is an American novelist, short story writer, poet, and social activist. In 1982, she wrote the novel The Color Purple, for which she won the National Book Award for hardcover fiction, and the Pulitzer Prize for Fiction. She also wrote the novels Meridian (1976) and The Third Life of Grange Copeland (1970). An avowed feminist, Walker coined the term womanist to mean "A black feminist or feminist of color" in 1983.',
                     color: '#3C4468',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/455482_v9_ba.jpg',
                     day_of: new Date('1944-02-09  21:00:00 GMT'),
@@ -11038,7 +11033,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 711,
                     user_id: 1,
-                    name: 'Meena Keshwar Kamal (revolutionary/political activist/feminist/women\'s rights activist) born 1956',
+                    name: 'Meena Keshwar Kamal (1956 - 1987), commonly known as Meena, was an Afghan revolutionary political activist, feminist, women\'s rights activist and founder of Revolutionary Association of the Women of Afghanistan (RAWA), who was assassinated in 1987.',
                     color: '#0210C3',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/1517685804_3.jpg',
                     day_of: new Date('1956-02-27  21:00:00 GMT'),
@@ -11071,7 +11066,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 713,
                     user_id: 1,
-                    name: 'Maryanne Amacher (composer) born 1938',
+                    name: 'Maryanne Amacher (1938 - 2009) was an American composer and installation artist. She is known for working extensively with a family of psychoacoustic phenomena called auditory distortion products (also known as distortion product otoacoustic emissions and combination tones), in which the ears themselves produce audible sound.',
                     color: '#515151',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/Amacher_knobs-2-2000x1200.jpg',
                     day_of: new Date('1938-02-25  21:00:00 GMT'),
@@ -11128,9 +11123,9 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 716,
                     user_id: 1,
-                    name: 'José de San Martín (South American leader) born 1778',
+                    name: 'José de San Martín (1778 - 1850) known simply as José de San Martín or El Libertador of Argentina, Chile and Peru, was a Spanish-Argentine general and the prime leader of the southern and central parts of South America\'s successful struggle for independence from the Spanish Empire who served as the Protector of Peru. Born in Yapeyú, Corrientes, in modern-day Argentina, he left the Viceroyalty of the Río de la Plata at the early age of seven to study in Málaga, Spain.\n\n In 1808, after taking part in the Peninsular War against France, San Martín contacted in London South American supporters of independence from Spain. In 1812, he set sail for Buenos Aires and offered his services to the United Provinces of the Río de la Plata, present-day Argentina. After the Battle of San Lorenzo and time commanding the Army of the North during 1814, he organized a plan to defeat the Spanish forces that menaced the United Provinces from the north, using an alternative path to the Viceroyalty of Peru. This objective first involved the establishment of a new army, the Army of the Andes, in Cuyo Province, Argentina. From there, he led the Crossing of the Andes to Chile, and triumphed at the Battle of Chacabuco and the Battle of Maipú (1818), thus liberating Chile from royalist rule. Then he sailed to attack the Spanish stronghold of Lima, Peru.\n\n On 12 July 1821, after seizing partial control of Lima, San Martín was appointed Protector of Peru, and Peruvian independence was officially declared on 28 July. On 22 July 1822, after a closed-door meeting with fellow libertador Simón Bolívar at Guayaquil, Ecuador, Bolívar took over the task of fully liberating Peru. San Martín unexpectedly left the country and resigned the command of his army, excluding himself from politics and the military, and moved to France in 1824. The details of 22 July meeting would be a subject of debate by later historians.\n\n San Martín is regarded as a national hero of Argentina and Peru, and one of the Liberators of Spanish South America. The Order of the Liberator General San Martín (Orden del Libertador General San Martín), created in his honor, is the highest decoration conferred by the Argentine government.',
                     color: '#4D5154',
-                    picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Retrato_más_canónico_de_José_de_San_Martín.jpg',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Retrato_ma%CC%81s_cano%CC%81nico_de_Jose%CC%81_de_San_Marti%CC%81n.jpg',
                     day_of: new Date('1778-02-25  21:00:00 GMT'),
                     is_annual: true,
                     art_override: false,
@@ -11142,7 +11137,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 717,
                     user_id: 1,
-                    name: 'Antonio José de Sucre (South American leader) born 1795',
+                    name: 'Antonio José de Sucre (1795 - 1830), known as "Gran Mariscal de Ayacucho" (English: "Grand Marshal of Ayacucho"), was a Venezuelan independence leader who served as the fourth President of Peru and as President of Bolivia. Sucre was one of Simón Bolívar\'s closest friends, generals and statesmen.\n\n Due to his influence on geopolitical affairs of Latin America, a number of notable localities on the continent now bear Sucre\'s name. These include the eponymous capital of Bolivia, the Venezuelan state, the department of Colombia and both the old and new airports of Ecuador\'s capital Quito. Additionally, many schools, streets and districts across the region bear his name as well.',
                     color: '#D93D35',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Martin_Tovar_y_Tovar_12.jpeg',
                     day_of: new Date('1795-02-03  21:00:00 GMT'),
@@ -11241,9 +11236,9 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 723,
                     user_id: 1,
-                    name: 'Alban Berg (composer) born 1885',
+                    name: 'Alban Berg (1885 - 1935) was an Austrian composer of the Second Viennese School. His compositional style combined Romantic lyricism with the twelve-tone technique. Although he left a relatively small oeuvre, he is remembered as one of the most important composers of the 20th century for his expressive style encompassing "entire worlds of emotion and structure".\n\n Berg was born and lived in Vienna. He began to compose only at the age of fifteen. He studied counterpoint, music theory and harmony with Arnold Schoenberg between 1904 and 1911, and adopted his principles of developing variation and the twelve-tone technique. Berg\'s major works include the operas Wozzeck (1924) and Lulu (1935, finished posthumously), the chamber pieces Lyric Suite and Chamber Concerto, as well as a Violin Concerto. He also composed a number of songs (lieder). He is said to have brought more "human values" to the twelve-tone system, his works seen as more "emotional" than Schoenberg\'s.',
                     color: '#443726',
-                    picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/p02dzd04.jpeg',
+                    picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/musicians/p02dzd04.jpg',
                     day_of: new Date('1885-02-09  21:00:00 GMT'),
                     is_annual: true,
                     art_override: false,
@@ -11444,7 +11439,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 735,
                     user_id: 1,
-                    name: 'W.E.B. Du Bois (sociologist/historian/civil rights activist/pan-Africanist/writer) born 1868',
+                    name: 'W.E.B. Du Bois (1868 - 1963) was an American sociologist, socialist, historian, civil rights activist, Pan-Africanist, author, writer and editor. Born in Great Barrington, Massachusetts, Du Bois grew up in a relatively tolerant and integrated community, and after completing graduate work at the University of Berlin and Harvard, where he was the first African American to earn a doctorate, he became a professor of history, sociology and economics at Atlanta University. Du Bois was one of the founders of the National Association for the Advancement of Colored People (NAACP) in 1909.\n\n Before that, Du Bois had risen to national prominence as the leader of the Niagara Movement, a group of African-American activists that wanted equal rights for blacks. Du Bois and his supporters opposed the Atlanta compromise, an agreement crafted by Booker T. Washington which provided that Southern blacks would work and submit to white political rule, while Southern whites guaranteed that blacks would receive basic educational and economic opportunities. Instead, Du Bois insisted on full civil rights and increased political representation, which he believed would be brought about by the African-American intellectual elite. He referred to this group as the Talented Tenth, a concept under the umbrella of Racial uplift, and believed that African Americans needed the chances for advanced education to develop its leadership.\n\n Racism was the main target of Du Bois\'s polemics, and he strongly protested against lynching, Jim Crow laws, and discrimination in education and employment. His cause included people of color everywhere, particularly Africans and Asians in colonies. He was a proponent of Pan-Africanism and helped organize several Pan-African Congresses to fight for the independence of African colonies from European powers. Du Bois made several trips to Europe, Africa and Asia. After World War I, he surveyed the experiences of American black soldiers in France and documented widespread prejudice and racism in the United States military.\n\n Du Bois was a prolific author. His collection of essays, The Souls of Black Folk, is a seminal work in African-American literature; and his 1935 magnum opus, Black Reconstruction in America, challenged the prevailing orthodoxy that blacks were responsible for the failures of the Reconstruction Era. Borrowing a phrase from Frederick Douglass, he popularized the use of the term color line to represent the injustice of the separate but equal doctrine prevalent in American social and political life. He opens The Souls of Black Folk with the central thesis of much of his life\'s work: "The problem of the twentieth century is the problem of the color-line."\n\n His 1940 autobiography Dusk of Dawn is regarded in part as one of the first scientific treatises in the field of American sociology, and he published two other life stories, all three containing essays on sociology, politics and history. In his role as editor of the NAACP\'s journal The Crisis, he published many influential pieces. Du Bois believed that capitalism was a primary cause of racism, and he was generally sympathetic to socialist causes throughout his life. He was an ardent peace activist and advocated nuclear disarmament. The United States\' Civil Rights Act, embodying many of the reforms for which Du Bois had campaigned his entire life, was enacted a year after his death.',
                     color: '#7A7A7A',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/WEB_DuBois_1918.jpg',
                     day_of: new Date('1868-02-23  21:00:00 GMT'),
@@ -11458,7 +11453,7 @@ exports.seed = function (knex, Promise) {
                 {
                     id: 736,
                     user_id: 1,
-                    name: 'Samuel Fielden (Methodist pastor/socialist/anarchist/labor activist) born 1847. One of the 1886 Haymarket 8 who was convicted.',
+                    name: 'Samuel Fielden (1847 - 1922) was an English-born American Methodist pastor, socialist, anarchist and labor activist who was one of eight convicted in the 1886 Haymarket bombing.',
                     color: '#E3E0DB',
                     picture: 'https://s3.amazonaws.com/hours168-hurdaudio/img/dissent/Samuel_Fielden_portrait_2.jpg',
                     day_of: new Date('1847-02-25  21:00:00 GMT'),
@@ -12002,6 +11997,34 @@ exports.seed = function (knex, Promise) {
                     color: '#c5a491',
                     picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Nelson-Mandela-South-African.jpg',
                     day_of: new Date('1918-07-18  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 772,
+                    user_id: 1,
+                    name: 'Bennie Maupin (reeds) born 1940',
+                    color: '#cd66a6',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/6a00e008dca1f088340240a48df517200d-500wi.jpg',
+                    day_of: new Date('1940-08-29  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 773,
+                    user_id: 1,
+                    name: 'Jacobo Timerman (1923 - 1999), was a Soviet-born Argentine publisher, journalist, and author, who is most noted for his confronting and reporting the atrocities of the Argentine military regime\'s Dirty War during a period of widespread repression in which an estimated 30,000 political prisoners were disappeared. He was persecuted, tortured and imprisoned by the Argentine junta in the late 1970s and was exiled in 1979 with his wife to Israel. He was widely honored for his work as a journalist and publisher.\n\nIn Israel, Timerman wrote and published his most well-known book, Prisoner Without A Name, Cell Without a Number (1981), a memoir of his prison experience that added to his international reputation. A longtime Zionist, he also published The Longest War, a strongly critical book about Israel\'s 1982 Lebanon war.\n\nTimerman returned to Argentina in 1984, and testified to the National Commission on the Disappearance of Persons. He continued to write, publishing books in 1987 about Chile under the Augusto Pinochet regime and in 1990 about Cuba under Fidel Castro.',
+                    color: '#18110e',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Timerman_en_sept_2015_(cropped).jpg',
+                    day_of: new Date('1923-01-06  21:00:00 GMT'),
                     is_annual: true,
                     art_override: false,
                     music_override: false,

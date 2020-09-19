@@ -1642,6 +1642,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#f5f5f5',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 118,
+                    user_id: 1,
+                    theme: 'Light',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june_tiles/operation-lamp-5380238_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#282d3d',
+                    color_medium: '#54617a',
+                    color_light: '#caced8',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

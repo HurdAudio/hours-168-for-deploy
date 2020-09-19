@@ -14404,6 +14404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 721,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/IMG_20200701_130133_master.jpg',
+                    title: 'Hightide',
+                    artist: 'Edward L. Loper Sr.',
+                    year: '1999',
+                    rule: {
+                        "monday": [24, 29, 6, 16],
+                        "tuesday": [23, 2, 10, 18], 
+                        "wednesday": [25, 6, 12, 18], 
+                        "thursday": [27, 6, 14, 24],  
+                        "friday": [27, 8, 4, 23], 
+                        "saturday": [17, 25, 4, 12], 
+                        "sunday": [18, 27, 6, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 722,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Whitfield-Lovell.jpg',
+                    title: 'Visitation: The Richmond Project',
+                    artist: 'Whitfield Lovell',
+                    year: '?',
+                    rule: {
+                        "monday": [18, 27, 6, 14],
+                        "tuesday": [24, 29, 6, 16], 
+                        "wednesday": [23, 2, 10, 18], 
+                        "thursday": [25, 6, 12, 18], 
+                        "friday": [27, 6, 14, 24], 
+                        "saturday": [27, 8, 4, 23],  
+                        "sunday": [17, 25, 4, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 723,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/922d10eb5f671dd761517cfffba7cbb0.jpg',
+                    title: '9 Septehedrons',
+                    artist: 'Alvin D. Loving',
+                    year: '1970',
+                    rule: {
+                        "monday": [17, 25, 4, 12],
+                        "tuesday": [18, 27, 6, 14], 
+                        "wednesday": [24, 29, 6, 16], 
+                        "thursday": [23, 2, 10, 18], 
+                        "friday": [25, 6, 12, 18], 
+                        "saturday": [27, 6, 14, 24], 
+                        "sunday": [27, 8, 4, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 724,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/fiefhladv9df0bv0ds.jpg',
+                    title: 'Willow within the Form of Prose',
+                    artist: 'Eric N. Mack',
+                    year: '2016',
+                    rule: {
+                        "monday": [27, 8, 4, 23],
+                        "tuesday": [17, 25, 4, 12], 
+                        "wednesday": [18, 27, 6, 14], 
+                        "thursday": [24, 29, 6, 16], 
+                        "friday": [23, 2, 10, 18], 
+                        "saturday": [25, 6, 12, 18], 
+                        "sunday": [27, 6, 14, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 725,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/moye-001-lifteveryvoiceandsingtitle-lg.jpg',
+                    title: 'Lift Every Voice and Sing',
+                    artist: 'Gwendolyn Ann Magee',
+                    year: '2004',
+                    rule: {
+                        "monday": [27, 6, 14, 24],
+                        "tuesday": [27, 8, 4, 23],  
+                        "wednesday": [17, 25, 4, 12], 
+                        "thursday": [18, 27, 6, 14], 
+                        "friday": [24, 29, 6, 16], 
+                        "saturday": [23, 2, 10, 18], 
+                        "sunday": [25, 6, 12, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

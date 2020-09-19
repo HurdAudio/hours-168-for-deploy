@@ -7510,6 +7510,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 418,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=389161172/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://farnellnewton.bandcamp.com/album/rippin-runnin">Rippin&#39',
+                    a_string: 'Rippin&#39; &amp; Runnin&#39; by Farnell Newton',
+                    rule: {
+                        "monday": [29, 7, 19, 24],
+                        "tuesday": [3, 11, 23, 28], 
+                        "wednesday": [2, 9, 22, 27],  
+                        "thursday": [1, 9, 21, 26],  
+                        "saturday": [30, 8, 19, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 419,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=291540661/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://woodrivermusic.bandcamp.com/album/more-than-i-can-see',
+                    a_string: 'More Than I Can See by Wood River',
+                    rule: {
+                        "monday": [30, 8, 19, 25],
+                        "tuesday": [29, 7, 19, 24], 
+                        "wednesday": [3, 11, 23, 28], 
+                        "thursday": [2, 9, 22, 27],  
+                        "saturday": [1, 9, 21, 26]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 420,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=870441239/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://577records.bandcamp.com/album/signs',
+                    a_string: 'Signs by Gerald Cleaver',
+                    rule: {
+                        "monday": [2, 10, 22, 27],
+                        "tuesday": [1, 9, 20, 26], 
+                        "wednesday": [30, 8, 20, 25], 
+                        "thursday": [4, 12, 24, 29],  
+                        "saturday": [3, 10, 23, 28]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -14604,6 +14604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 731,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/bird-s-eye-view.jpg',
+                    title: 'Bird\'s-eye view',
+                    artist: 'Pierre Alechinsky',
+                    year: '?',
+                    rule: {
+                        "monday": [26, 28, 29, 30],
+                        "tuesday": [14, 16, 8, 28], 
+                        "wednesday": [14, 16, 8, 28], 
+                        "thursday": [19, 17, 9, 12], 
+                        "friday": [19, 20, 11, 15],
+                        "saturday": [22, 24, 25, 27],
+                        "sunday": [24, 26, 30, 2]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 732,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/de-toutes-parts.jpg',
+                    title: 'De toutes parts',
+                    artist: 'Pierre Alechinsky',
+                    year: '?',
+                    rule: {
+                        "monday": [24, 26, 30, 2],
+                        "tuesday": [26, 28, 29, 30],
+                        "wednesday": [14, 16, 8, 28], 
+                        "thursday": [14, 16, 8, 28], 
+                        "friday": [19, 17, 9, 12], 
+                        "saturday": [19, 20, 11, 15],
+                        "sunday": [22, 24, 25, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 733,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/one-stone-two-passes.jpg',
+                    title: 'One Stone, Two Passes',
+                    artist: 'Pierre Alechinsky',
+                    year: '?',
+                    rule: {
+                        "monday": [22, 24, 25, 27],
+                        "tuesday": [24, 26, 30, 2], 
+                        "wednesday": [26, 28, 29, 30],
+                        "thursday": [14, 16, 8, 28], 
+                        "friday": [14, 16, 8, 28], 
+                        "saturday": [19, 17, 9, 12], 
+                        "sunday": [19, 20, 11, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 734,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/plate-ii-from-the-portfolio-papiers-trait-s.jpg',
+                    title: 'Plate II from the portfolio Papiers Traités',
+                    artist: 'Pierre Alechinsky',
+                    year: '?',
+                    rule: {
+                        "monday": [19, 20, 11, 15],
+                        "tuesday": [22, 24, 25, 27],
+                        "wednesday": [24, 26, 30, 2], 
+                        "thursday": [26, 28, 29, 30],
+                        "friday": [14, 16, 8, 28], 
+                        "saturday": [14, 16, 8, 28], 
+                        "sunday": [19, 17, 9, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 735,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/the-amazon-unconscious.jpg',
+                    title: 'The Amazon unconscious',
+                    artist: 'Pierre Alechinsky',
+                    year: '?',
+                    rule: {
+                        "monday": [19, 17, 9, 12],
+                        "tuesday": [19, 20, 11, 15],
+                        "wednesday": [22, 24, 25, 27],
+                        "thursday": [24, 26, 30, 2], 
+                        "friday": [26, 28, 29, 30],
+                        "saturday": [14, 16, 8, 28], 
+                        "sunday": [14, 16, 8, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

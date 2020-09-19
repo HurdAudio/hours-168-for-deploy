@@ -7402,6 +7402,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 412,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2483117089/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://suzannelangillenyc.bandcamp.com/album/come-when-the-raven-calls',
+                    a_string: 'Come When The Raven Calls by Suzanne Langille &amp; Neel Murgai',
+                    rule: {
+                        "monday": [26, 1, 8, 21],
+                        "tuesday": [30, 5, 12, 25], 
+                        "wednesday": [29, 4, 11, 24], 
+                        "thursday": [28, 3, 10, 23], 
+                        "saturday": [27, 2, 9, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 413,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2851467951/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recitalprogram.bandcamp.com/album/nam-junes-spirit-was-speaking-to-me',
+                    a_string: 'Nam June&#39;s Spirit Was Speaking To Me by Aki Onda',
+                    rule: {
+                        "monday": [28, 3, 10, 23],
+                        "tuesday": [27, 2, 9, 22], 
+                        "wednesday": [31, 6, 13, 26], 
+                        "thursday": [30, 5, 12, 25], 
+                        "saturday": [29, 4, 11, 24]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 414,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1695917141/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://wagtailrecordings.bandcamp.com/album/knots-movement',
+                    a_string: 'Knots, Movement by Ashley Paul &amp; Otto Willberg',
+                    rule: {
+                        "monday": [29, 4, 11, 24],
+                        "tuesday": [28, 3, 10, 23], 
+                        "wednesday": [27, 2, 9, 22],  
+                        "thursday": [31, 6, 13, 26], 
+                        "saturday": [30, 5, 12, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

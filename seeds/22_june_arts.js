@@ -13604,6 +13604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 681,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/201712-alittlebirdtoldme__large_403_600_75_8d63a76e3dee9df7.jpg',
+                    title: 'A Little Bird Told Me',
+                    artist: 'Thomas Dodd',
+                    year: '2017',
+                    rule: {
+                        "monday": [6, 16, 27, 4],
+                        "tuesday": [4, 15, 25, 23], 
+                        "wednesday": [4, 14, 24, 1],  
+                        "thursday": [13, 23, 3, 1],  
+                        "friday": [2, 12, 22, 30], 
+                        "saturday": [1, 11, 21, 29], 
+                        "sunday": [7, 17, 27, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 682,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/201712-astralbody__large_750_600_75_8d63a76e3dee9df7.jpg',
+                    title: 'Astral Body',
+                    artist: 'Thomas Dodd',
+                    year: '2017',
+                    rule: {
+                        "monday": [7, 17, 27, 4],
+                        "tuesday": [6, 16, 27, 4],  
+                        "wednesday": [4, 15, 25, 23], 
+                        "thursday": [4, 14, 24, 1],  
+                        "friday": [13, 23, 3, 1],  
+                        "saturday": [2, 12, 22, 30], 
+                        "sunday": [1, 11, 21, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 683,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/201712-brainstorm__large_631_600_75_8d63a76e3dee9df7.jpg',
+                    title: 'Brainstorm',
+                    artist: 'Thomas Dodd',
+                    year: '2017',
+                    rule: {
+                        "monday": [1, 11, 21, 29],
+                        "tuesday": [7, 17, 27, 4],  
+                        "wednesday": [6, 16, 27, 4],  
+                        "thursday": [4, 15, 25, 23], 
+                        "friday": [4, 14, 24, 1],  
+                        "saturday": [13, 23, 3, 1],  
+                        "sunday": [2, 12, 22, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 684,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/201712-atmosphere__large_458_600_75_8d63a76e3dee9df7.jpg',
+                    title: 'Atmosphere',
+                    artist: 'Thomas Dodd',
+                    year: '2017',
+                    rule: {
+                        "monday": [2, 12, 22, 30],
+                        "tuesday": [1, 11, 21, 29], 
+                        "wednesday": [7, 17, 27, 4],  
+                        "thursday": [6, 16, 27, 4],  
+                        "friday": [4, 15, 25, 23], 
+                        "saturday": [4, 14, 24, 1],  
+                        "sunday": [13, 23, 3, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 685,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/201712-dandelion__large_402_600_75_8d63a76e3dee9df7.jpg',
+                    title: 'Dandelion',
+                    artist: 'Thomas Dodd',
+                    year: '2017',
+                    rule: {
+                        "monday": [13, 23, 3, 1],
+                        "tuesday": [2, 12, 22, 30], 
+                        "wednesday": [1, 11, 21, 29], 
+                        "thursday": [7, 17, 27, 4],  
+                        "friday": [6, 16, 27, 4],  
+                        "saturday": [4, 15, 25, 23], 
+                        "sunday": [4, 14, 24, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

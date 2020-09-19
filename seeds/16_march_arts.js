@@ -14204,6 +14204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 711,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/not_detected_235977.jpg',
+                    title: 'Never Again War',
+                    artist: '',
+                    year: '',
+                    rule: {
+                        "monday": [3, 13, 22, 31],
+                        "tuesday": [9, 18, 28, 5],  
+                        "wednesday": [8, 18, 26, 5],  
+                        "thursday": [5, 17, 25, 4],  
+                        "friday": [6, 16, 24, 3],  
+                        "saturday": [5, 16, 23, 2],  
+                        "sunday": [4, 14, 22, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 712,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/aquifer.jpg',
+                    title: 'Aquifer',
+                    artist: 'Thalia Flora-Karavia',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 14, 22, 1],
+                        "tuesday": [3, 13, 22, 31], 
+                        "wednesday": [9, 18, 28, 5],  
+                        "thursday": [8, 18, 26, 5],  
+                        "friday": [5, 17, 25, 4],  
+                        "saturday": [6, 16, 24, 3],  
+                        "sunday": [5, 16, 23, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 713,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/forest-british-columbia-1932.jpg',
+                    title: 'Forest, British Columbia',
+                    artist: 'Emily Carr',
+                    year: '1932',
+                    rule: {
+                        "monday": [5, 16, 23, 2],
+                        "tuesday": [4, 14, 22, 1],  
+                        "wednesday": [3, 13, 22, 31], 
+                        "thursday": [9, 18, 28, 5],  
+                        "friday": [8, 18, 26, 5],  
+                        "saturday": [5, 17, 25, 4],  
+                        "sunday": [6, 16, 24, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 714,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/le-caprice-des-belles-by-alice-bailly-1.jpg',
+                    title: 'Beauties\' Fancy',
+                    artist: 'Alice Bailly',
+                    year: '1918',
+                    rule: {
+                        "monday": [7, 17, 25, 4],
+                        "tuesday": [6, 17, 24, 3],  
+                        "wednesday": [5, 15, 23, 2], 
+                        "thursday": [4, 14, 23, 1],  
+                        "friday": [10, 19, 29, 6],  
+                        "saturday": [9, 19, 27, 6],
+                        "sunday": [6, 18, 26, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 715,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/eune-emme-aux-lys.jpg',
+                    title: 'Оeune Аemme Aux Lys',
+                    artist: 'Elisabeth Sonrel',
+                    year: '?',
+                    rule: {
+                        "monday": [6, 18, 26, 5],
+                        "tuesday": [7, 17, 25, 4],  
+                        "wednesday": [6, 17, 24, 3],  
+                        "thursday": [5, 15, 23, 2],  
+                        "friday": [4, 14, 23, 1],  
+                        "saturday": [10, 19, 29, 6], 
+                        "sunday": [9, 19, 27, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

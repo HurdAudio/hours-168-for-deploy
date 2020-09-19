@@ -6862,6 +6862,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 382,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3856304297/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://symphonyofdestruction.bandcamp.com/album/demo-2019-cassette',
+                    a_string: 'Demo 2019 Cassette by SEDITION ACT',
+                    rule: {
+                        "monday": [31, 10, 20, 23],
+                        "tuesday": [30, 10, 19, 22],
+                        "wednesday": [29, 8, 19, 21], 
+                        "thursday": [28, 7, 17, 20], 
+                        "saturday": [1, 11, 21, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 383,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2160572727/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://thrillingliving.bandcamp.com/album/the-passion-of',
+                    a_string: 'The Passion Of by Special Interest',
+                    rule: {
+                        "monday": [1, 11, 21, 24],
+                        "tuesday": [31, 10, 20, 23],
+                        "wednesday": [30, 10, 19, 22],
+                        "thursday": [29, 8, 19, 21], 
+                        "saturday": [28, 7, 17, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 384,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3189793640/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://urgerecords.bandcamp.com/album/demo-cs-3',
+                    a_string: 'Demo CS by Utopian',
+                    rule: {
+                        "monday": [28, 7, 17, 20],
+                        "tuesday": [1, 11, 21, 24], 
+                        "wednesday": [31, 10, 20, 23],
+                        "thursday": [30, 10, 19, 22],
+                        "saturday": [29, 8, 19, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

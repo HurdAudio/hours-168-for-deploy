@@ -13404,6 +13404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 671,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-painter-1977.jpg',
+                    title: 'The Painter',
+                    artist: 'Grégoire Michonze',
+                    year: '1977',
+                    rule: {
+                        "monday": [2, 13, 25, 5],
+                        "tuesday": [2, 13, 24, 25], 
+                        "wednesday": [1, 12, 22, 24], 
+                        "thursday": [29, 9, 31, 1],  
+                        "friday": [30, 10, 1, 2],  
+                        "saturday": [4, 13, 26, 6],  
+                        "sunday": [4, 12, 26, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 672,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/baladin-1950.jpg',
+                    title: 'BALADIN',
+                    artist: 'Cassandre',
+                    year: '1950',
+                    rule: {
+                        "monday": [5, 13, 27, 7],
+                        "tuesday": [3, 14, 26, 6], 
+                        "wednesday": [3, 14, 25, 26], 
+                        "thursday": [2, 13, 23, 25],  
+                        "friday": [30, 10, 1, 2],  
+                        "saturday": [31, 11, 2, 3],  
+                        "sunday": [5, 14, 27, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 673,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/mama-papa-is-wounded-1927.jpg',
+                    title: 'Mama, Papa is Wounded!',
+                    artist: 'Yves Tanguy',
+                    year: '1927',
+                    rule: {
+                        "monday": [5, 14, 27, 7],
+                        "tuesday": [5, 13, 27, 7],  
+                        "wednesday": [3, 14, 26, 6], 
+                        "thursday": [3, 14, 25, 26], 
+                        "friday": [2, 13, 23, 25], 
+                        "saturday": [30, 10, 1, 2],  
+                        "sunday": [31, 11, 2, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 674,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/le-bal-1976.jpg',
+                    title: 'Le bal',
+                    artist: 'Charles Lapicque',
+                    year: '1976',
+                    rule: {
+                        "monday": [31, 11, 2, 3],
+                        "tuesday": [5, 14, 27, 7],  
+                        "wednesday": [5, 13, 27, 7],  
+                        "thursday": [3, 14, 26, 6],  
+                        "friday": [3, 14, 25, 26], 
+                        "saturday": [2, 13, 23, 25], 
+                        "sunday": [30, 10, 1, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 675,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/jeanne-he-buterne-autoportrait.jpg',
+                    title: 'Self portrait',
+                    artist: 'Jeanne Hébuterne',
+                    year: '1916',
+                    rule: {
+                        "monday": [30, 10, 1, 2],
+                        "tuesday": [31, 11, 2, 3],  
+                        "wednesday": [5, 14, 27, 7],  
+                        "thursday": [5, 13, 27, 7],  
+                        "friday": [3, 14, 26, 6],  
+                        "saturday": [3, 14, 25, 26], 
+                        "sunday": [2, 13, 23, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

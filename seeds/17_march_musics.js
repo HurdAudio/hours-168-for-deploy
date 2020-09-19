@@ -7618,6 +7618,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 424,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4153713109/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://jennacamille.bandcamp.com/album/the-time-is-now',
+                    a_string: 'The Time is Now by Jenna Camille',
+                    rule: {
+                        "monday": [31, 7, 13, 21],
+                        "tuesday": [31, 6, 12, 20], 
+                        "wednesday": [4, 10, 16, 24], 
+                        "thursday": [3, 9, 14, 23],  
+                        "saturday": [2, 8, 14, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 425,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3365586912/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://shirleycollins.bandcamp.com/album/hearts-ease',
+                    a_string: 'Heart&#39;s Ease by Shirley Collins',
+                    rule: {
+                        "monday": [2, 8, 14, 23],
+                        "tuesday": [31, 7, 13, 21], 
+                        "wednesday": [31, 6, 12, 20], 
+                        "thursday": [4, 10, 16, 24], 
+                        "saturday": [3, 9, 14, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 426,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2485813537/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://shirleycollins.bandcamp.com/album/lodestar',
+                    a_string: 'Lodestar by Shirley Collins',
+                    rule: {
+                        "monday": [3, 9, 14, 23],
+                        "tuesday": [2, 8, 14, 23],  
+                        "wednesday": [31, 7, 13, 21], 
+                        "thursday": [31, 6, 12, 20], 
+                        "saturday": [4, 10, 16, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

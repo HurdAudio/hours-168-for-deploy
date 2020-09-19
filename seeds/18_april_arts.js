@@ -14004,6 +14004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 701,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/MLBHOAS10-3_800x.jpg',
+                    title: 'Houston Astros Retro Logo',
+                    artist: 'Hex Head',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 17, 22, 28],
+                        "tuesday": [25, 15, 21, 27],
+                        "wednesday": [10, 13, 26, 27],
+                        "thursday": [9, 13, 28, 26], 
+                        "friday": [6, 12, 18, 24], 
+                        "saturday": [7, 12, 18, 24], 
+                        "sunday": [6, 11, 17, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 702,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/222657.jpeg',
+                    title: 'Astros Toolbox',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [6, 11, 17, 23],
+                        "tuesday": [25, 17, 22, 28],
+                        "wednesday": [25, 15, 21, 27],
+                        "thursday": [10, 13, 26, 27],
+                        "friday": [9, 13, 28, 26], 
+                        "saturday": [6, 12, 18, 24], 
+                        "sunday": [7, 12, 18, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 703,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/mlb_minutemaidpark2__27278.1490921193.webp',
+                    title: 'Minute Maid Park',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 12, 18, 24],
+                        "tuesday": [6, 11, 17, 23], 
+                        "wednesday": [25, 17, 22, 28],
+                        "thursday": [25, 15, 21, 27],
+                        "friday": [10, 13, 26, 27],
+                        "saturday": [9, 13, 28, 26], 
+                        "sunday": [6, 12, 18, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 704,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/8328246_0.jpg',
+                    title: 'Asterisks',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [6, 12, 18, 24],
+                        "tuesday": [7, 12, 18, 24], 
+                        "wednesday": [6, 11, 17, 23], 
+                        "thursday": [25, 17, 22, 28],
+                        "friday": [25, 15, 21, 27],
+                        "saturday": [10, 13, 26, 27],
+                        "sunday": [9, 13, 28, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 705,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/wp-rastros-slap-w-can-880x400.jpg',
+                    title: 'Astros Hand Slap',
+                    artist: '?',
+                    year: '2020',
+                    rule: {
+                        "monday": [9, 13, 28, 26],
+                        "tuesday": [6, 12, 18, 24], 
+                        "wednesday": [7, 12, 18, 24], 
+                        "thursday": [6, 11, 17, 23], 
+                        "friday": [25, 17, 22, 28],
+                        "saturday": [25, 15, 21, 27],
+                        "sunday": [10, 13, 26, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

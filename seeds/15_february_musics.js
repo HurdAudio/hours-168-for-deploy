@@ -7708,7 +7708,8 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
-        }  ,{
+        },
+                {
                     id: 429,
                     user_id: 1,
                     theme: 'Black History Month',
@@ -7725,7 +7726,61 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
-        }      
+        } ,
+                {
+                    id: 430,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2897236005/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://akaisolo.bandcamp.com/album/eleventh-wind',
+                    a_string: 'Eleventh Wind by AKAI SOLO',
+                    rule: {
+                        "monday": [20, 12, 14, 16],
+                        "tuesday": [20, 14, 16, 18],
+                        "wednesday": [23, 16, 18, 24],
+                        "thursday": [23, 17, 19, 25],
+                        "saturday": [6, 10, 12, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 431,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4277126782/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://theallergies.bandcamp.com/album/say-the-word',
+                    a_string: 'Say The Word by The Allergies',
+                    rule: {
+                        "monday": [6, 10, 12, 16],
+                        "tuesday": [20, 12, 14, 16],
+                        "wednesday": [20, 14, 16, 18],
+                        "thursday": [23, 16, 18, 24],
+                        "saturday": [23, 17, 19, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 432,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=282387554/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://apollobrown360.bandcamp.com/album/as-god-intended',
+                    a_string: 'As God Intended by Apollo Brown &amp; Che&#39; Noir',
+                    rule: {
+                        "monday": [23, 17, 19, 25],
+                        "tuesday": [6, 10, 12, 16], 
+                        "wednesday": [20, 12, 14, 16],
+                        "thursday": [20, 14, 16, 18],
+                        "saturday": [23, 16, 18, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        }
       ]);
         }).then(() => {
             return knex.raw("SELECT setval('february_musics_id_seq', (SELECT MAX(id) FROM february_musics));");

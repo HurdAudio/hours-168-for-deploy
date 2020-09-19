@@ -12804,6 +12804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 641,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_voice_of_earth.jpg',
+                    title: 'The Voice of the Planet: No - to nuclear madness!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [30, 10, 20, 25],
+                        "tuesday": [8, 9, 20, 24],  
+                        "wednesday": [4, 15, 26, 30], 
+                        "thursday": [3, 14, 25, 29], 
+                        "friday": [2, 13, 24, 28], 
+                        "saturday": [1, 12, 24, 27], 
+                        "sunday": [31, 11, 22, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 642,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_basket_flowers.jpg',
+                    title: 'The united will of the nations - peace!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [31, 11, 22, 26],
+                        "tuesday": [30, 10, 20, 25],
+                        "wednesday": [8, 9, 20, 24],  
+                        "thursday": [4, 15, 26, 30], 
+                        "friday": [3, 14, 25, 29], 
+                        "saturday": [2, 13, 24, 28], 
+                        "sunday": [1, 12, 24, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 643,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_baloon.jpg',
+                    title: 'The nuclear conflict is irreversible!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 12, 24, 27],
+                        "tuesday": [31, 11, 22, 26],
+                        "wednesday": [30, 10, 20, 25],
+                        "thursday": [8, 9, 20, 24],  
+                        "friday": [4, 15, 26, 30], 
+                        "saturday": [3, 14, 25, 29], 
+                        "sunday": [2, 13, 24, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 644,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_gonka1.jpg',
+                    title: 'Arms race - is a race of death!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 14, 25, 29],
+                        "tuesday": [2, 13, 25, 28],
+                        "wednesday": [1, 12, 23, 27],
+                        "thursday": [31, 11, 21, 26],  
+                        "friday": [9, 10, 21, 25], 
+                        "saturday": [5, 16, 27, 31], 
+                        "sunday": [4, 15, 26, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 645,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_apple_worm.jpg',
+                    title: 'People, be vigilant!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 15, 26, 30],
+                        "tuesday": [3, 14, 25, 29], 
+                        "wednesday": [2, 13, 25, 28], 
+                        "thursday": [1, 12, 23, 27], 
+                        "friday": [31, 11, 21, 26],
+                        "saturday": [9, 10, 21, 25], 
+                        "sunday": [5, 16, 27, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

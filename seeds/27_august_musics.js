@@ -7078,6 +7078,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 394,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1157953788/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://danclucas.bandcamp.com/album/after-upingos',
+                    a_string: 'After Upingos by Lost Iguana Ensemble',
+                    rule: {
+                        "monday": [2, 10, 23, 22],
+                        "tuesday": [1, 9, 22, 21],  
+                        "wednesday": [5, 13, 26, 25], 
+                        "thursday": [4, 12, 25, 24], 
+                        "saturday": [3, 11, 24, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 395,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3892333491/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://genettirousay.bandcamp.com/album/live-at-elastic-arts',
+                    a_string: 'Live at Elastic Arts by Carol Genetti &amp; claire rousay',
+                    rule: {
+                        "monday": [3, 11, 24, 23],
+                        "tuesday": [2, 10, 23, 22], 
+                        "wednesday": [1, 9, 22, 21],  
+                        "thursday": [5, 13, 26, 25], 
+                        "saturday": [4, 12, 25, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 396,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1091763070/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://aerophonicrecords.bandcamp.com/album/znachki-stilyag',
+                    a_string: 'Znachki Stilyag by Ballister',
+                    rule: {
+                        "monday": [4, 12, 25, 24],
+                        "tuesday": [3, 11, 24, 23], 
+                        "wednesday": [2, 10, 23, 22], 
+                        "thursday": [1, 9, 22, 21],  
+                        "saturday": [5, 13, 26, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

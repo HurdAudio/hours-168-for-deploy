@@ -13004,6 +13004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 651,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/phi-1961.jpg',
+                    title: 'Phi',
+                    artist: 'Morris Louis',
+                    year: '19660 - 1961',
+                    rule: {
+                        "monday": [3, 9, 27, 5],
+                        "tuesday": [22, 8, 26, 5], 
+                        "wednesday": [21, 28, 25, 3], 
+                        "thursday": [29, 6, 24, 1],  
+                        "friday": [6, 12, 30, 8],   
+                        "saturday": [2, 8, 29, 7],  
+                        "sunday": [3, 8, 30, 26]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 652,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/escaped-animals-2002.jpg',
+                    title: 'Escaped Animals',
+                    artist: 'Julian Opie',
+                    year: '2002',
+                    rule: {
+                        "monday": [3, 8, 30, 26],
+                        "tuesday": [3, 9, 27, 5],   
+                        "wednesday": [22, 8, 26, 5],  
+                        "thursday": [21, 28, 25, 3], 
+                        "friday": [29, 6, 24, 1],  
+                        "saturday": [6, 12, 30, 8],  
+                        "sunday": [2, 8, 29, 7]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 653,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/capri-1988.jpg',
+                    title: 'Capri',
+                    artist: 'Gunther Forg',
+                    year: '1988',
+                    rule: {
+                        "monday": [2, 8, 29, 7],
+                        "tuesday": [3, 8, 30, 26],  
+                        "wednesday": [3, 9, 27, 5],   
+                        "thursday": [22, 8, 26, 5],  
+                        "friday": [21, 28, 25, 3], 
+                        "saturday": [29, 6, 24, 1],  
+                        "sunday": [6, 12, 30, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 654,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/dominic-prima-1981.jpg',
+                    title: 'Dominic Prima',
+                    artist: 'Patrick Procktor',
+                    year: '1981',
+                    rule: {
+                        "monday": [6, 12, 30, 8],
+                        "tuesday": [2, 8, 29, 7],   
+                        "wednesday": [3, 8, 30, 26],  
+                        "thursday": [3, 9, 27, 5],   
+                        "friday": [22, 8, 26, 5],  
+                        "saturday": [21, 28, 25, 3], 
+                        "sunday": [29, 6, 24, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 655,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/lemon-cards-1-1963.jpg',
+                    title: 'Lemon Cards #1',
+                    artist: 'Walter Darby Bannard',
+                    year: '1963',
+                    rule: {
+                        "monday": [29, 6, 24, 1],
+                        "tuesday": [6, 12, 30, 8],  
+                        "wednesday": [2, 8, 29, 7],   
+                        "thursday": [3, 8, 30, 26],  
+                        "friday": [3, 9, 27, 5],   
+                        "saturday": [22, 8, 26, 5],  
+                        "sunday": [21, 28, 25, 3]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

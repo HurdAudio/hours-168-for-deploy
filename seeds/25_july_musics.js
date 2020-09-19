@@ -7186,6 +7186,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 400,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1205003537/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://fontainesdc.bandcamp.com/album/a-heros-death',
+                    a_string: 'A Hero&#39;s Death by Fontaines D.C.',
+                    rule: {
+                        "monday": [25, 26, 2, 8],
+                        "tuesday": [24, 26, 30, 7], 
+                        "wednesday": [28, 30, 3, 11], 
+                        "thursday": [26, 28, 1, 10], 
+                        "saturday": [26, 27, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 401,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=897241492/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://galoresf.bandcamp.com/album/galore',
+                    a_string: 'Galore by Galore',
+                    rule: {
+                        "monday": [26, 27, 3, 9],
+                        "tuesday": [25, 26, 2, 8],  
+                        "wednesday": [24, 26, 30, 7], 
+                        "thursday": [28, 30, 3, 11], 
+                        "saturday": [26, 28, 1, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 402,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1444822917/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://ganser.bandcamp.com/album/just-look-at-that-sky',
+                    a_string: 'Just Look At That Sky by Ganser',
+                    rule: {
+                        "monday": [26, 28, 1, 10],
+                        "tuesday": [26, 27, 3, 9],  
+                        "wednesday": [25, 26, 2, 8],  
+                        "thursday": [24, 26, 30, 7], 
+                        "saturday": [28, 30, 3, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

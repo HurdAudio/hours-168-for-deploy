@@ -7834,6 +7834,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 436,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2653987074/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/album/hommage-nancarrow',
+                    a_string: 'Hommage á Nancarrow by David D. McIntire',
+                    rule: {
+                        "monday": [7, 13, 14, 15],
+                        "tuesday": [6, 13, 14, 15], 
+                        "wednesday": [10, 17, 18, 19],
+                        "thursday": [9, 15, 16, 18], 
+                        "saturday": [8, 15, 16, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 437,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/track=3854758681/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/track/unhurried-untitled',
+                    a_string: 'unhurried, untitled by David D. McIntire',
+                    rule: {
+                        "monday": [8, 15, 16, 17],
+                        "tuesday": [7, 13, 14, 15], 
+                        "wednesday": [6, 13, 14, 15], 
+                        "thursday": [10, 17, 18, 19],
+                        "saturday": [9, 15, 16, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 438,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/track=3391448835/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://recordings.irritablehedgehog.com/track/longbow-creek',
+                    a_string: 'Longbow Creek by David D. McIntire',
+                    rule: {
+                        "monday": [9, 15, 16, 18],
+                        "tuesday": [8, 15, 16, 17], 
+                        "wednesday": [7, 13, 14, 15], 
+                        "thursday": [6, 13, 14, 15], 
+                        "saturday": [10, 17, 18, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

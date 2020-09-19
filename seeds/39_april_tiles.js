@@ -1670,6 +1670,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#a8b7aa',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 120,
+                    user_id: 1,
+                    theme: 'Water',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april_tiles/water-5434369_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#151a15',
+                    color_medium: '#4c4a35',
+                    color_light: '#b9b095',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

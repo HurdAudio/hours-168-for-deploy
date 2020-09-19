@@ -12404,6 +12404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 621,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/39-05,G-Men3.jpg',
+                    title: 'G-Men',
+                    artist: 'C. A. Murphy',
+                    year: '1939',
+                    rule: {
+                        "monday": [26, 8, 16, 22],
+                        "tuesday": [25, 6, 5, 21],  
+                        "wednesday": [14, 6, 25, 1],  
+                        "thursday": [30, 12, 20, 26],
+                        "friday": [29, 10, 19, 25],
+                        "saturday": [28, 10, 18, 24],
+                        "sunday": [27, 9, 17, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 622,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/24-12,ActS.jpg',
+                    title: 'Action Stories',
+                    artist: 'H. C. Murphy',
+                    year: '1924',
+                    rule: {
+                        "monday": [27, 9, 17, 23],
+                        "tuesday": [26, 8, 16, 22], 
+                        "wednesday": [25, 6, 5, 21], 
+                        "thursday": [14, 6, 25, 1],  
+                        "friday": [30, 12, 20, 26],
+                        "saturday": [29, 10, 19, 25],
+                        "sunday": [28, 10, 18, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 623,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-08,NewFun.jpg',
+                    title: 'New Fun',
+                    artist: 'Connie Naar',
+                    year: '1935',
+                    rule: {
+                        "monday": [29, 11, 19, 25],
+                        "tuesday": [28, 10, 18, 24], 
+                        "wednesday": [27, 9, 17, 23], 
+                        "thursday": [26, 7, 6, 22],  
+                        "friday": [15, 7, 26, 2],
+                        "saturday": [31, 13, 21, 27],
+                        "sunday": [30, 11, 20, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 624,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/36-11-01,AmWkly.jpg',
+                    title: 'American Weekly',
+                    artist: 'Vincent Napoli',
+                    year: '1936',
+                    rule: {
+                        "monday": [30, 11, 20, 26],
+                        "tuesday": [29, 11, 19, 25],
+                        "wednesday": [28, 10, 18, 24],
+                        "thursday": [27, 9, 17, 23], 
+                        "friday": [26, 7, 6, 22],  
+                        "saturday": [15, 7, 26, 2],  
+                        "sunday": [31, 13, 21, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 625,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/38-05-19,Ken.jpg',
+                    title: 'Ken Magazine',
+                    artist: 'Wesley Neff',
+                    year: '1938',
+                    rule: {
+                        "monday": [31, 13, 21, 27],
+                        "tuesday": [30, 11, 20, 26],
+                        "wednesday": [29, 11, 19, 25],
+                        "thursday": [28, 10, 18, 24],
+                        "friday": [27, 9, 17, 23], 
+                        "saturday": [26, 7, 6, 22],  
+                        "sunday": [15, 7, 26, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -13804,6 +13804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 691,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/exit-of-tsar-ivan-the-terrible-1900.jpg',
+                    title: 'Exit of Tsar Ivan the Terrible',
+                    artist: 'Boris Kustodiev',
+                    year: '1900',
+                    rule: {
+                        "monday": [30, 10, 20, 30],
+                        "tuesday": [28, 7, 17, 25], 
+                        "wednesday": [26, 4, 16, 25], 
+                        "thursday": [5, 17, 27, 4],  
+                        "friday": [5, 16, 25, 4],  
+                        "saturday": [3, 13, 21, 23], 
+                        "sunday": [31, 11, 21, 10] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 692,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-a-n-protasova-1900.jpg',
+                    title: 'Portrait of A.N. Protasova',
+                    artist: 'Boris Kustodiev',
+                    year: '1900',
+                    rule: {
+                        "monday": [31, 11, 21, 10],
+                        "tuesday": [30, 10, 20, 30],
+                        "wednesday": [28, 7, 17, 25], 
+                        "thursday": [26, 4, 16, 25], 
+                        "friday": [5, 17, 27, 4],  
+                        "saturday": [5, 16, 25, 4],  
+                        "sunday": [3, 13, 21, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 693,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-d-f-bogoslovsky-1900.jpg',
+                    title: 'Portrait of D.F. Bogoslovsky',
+                    artist: 'Boris Kustodiev',
+                    year: '1900',
+                    rule: {
+                        "monday": [4, 14, 22, 24],
+                        "tuesday": [1, 12, 22, 11],
+                        "wednesday": [31, 11, 21, 31], 
+                        "thursday": [29, 8, 18, 26], 
+                        "friday": [27, 5, 17, 26],  
+                        "saturday": [6, 18, 28, 5],  
+                        "sunday": [6, 17, 26, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 694,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-d-s-stelletsky-at-work-1900.jpg',
+                    title: 'Portrait of D.S. Stelletsky at work',
+                    artist: 'Boris Kustodiev',
+                    year: '1900',
+                    rule: {
+                        "monday": [6, 17, 26, 5],
+                        "tuesday": [4, 14, 22, 24], 
+                        "wednesday": [1, 12, 22, 11], 
+                        "thursday": [31, 11, 21, 31],
+                        "friday": [29, 8, 18, 26], 
+                        "saturday": [27, 5, 17, 26], 
+                        "sunday": [6, 18, 28, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 695,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-f-a-malyavin-1900.jpg',
+                    title: 'Portrait of F.A. Malyavin',
+                    artist: 'Boris Kustodiev',
+                    year: '1900',
+                    rule: {
+                        "monday": [6, 18, 28, 5],
+                        "tuesday": [6, 17, 26, 5],  
+                        "wednesday": [4, 14, 22, 24], 
+                        "thursday": [1, 12, 22, 11], 
+                        "friday": [31, 11, 21, 31],
+                        "saturday": [29, 8, 18, 26], 
+                        "sunday": [27, 5, 17, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

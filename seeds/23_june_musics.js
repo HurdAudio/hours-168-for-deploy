@@ -7294,6 +7294,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 406,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1521988680/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://noveller.bandcamp.com/album/arrow',
+                    a_string: 'Arrow by Noveller',
+                    rule: {
+                        "monday": [27, 30, 6, 16],
+                        "tuesday": [25, 3, 5, 20], 
+                        "wednesday": [29, 3, 29, 20], 
+                        "thursday": [28, 1, 6, 18], 
+                        "saturday": [27, 30, 6, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 407,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2035780857/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://space-afrika.bandcamp.com/album/hybtwibt',
+                    a_string: 'hybtwibt? by Space Afrika',
+                    rule: {
+                        "monday": [27, 30, 6, 17],
+                        "tuesday": [27, 30, 6, 16], 
+                        "wednesday": [25, 3, 5, 20],  
+                        "thursday": [29, 3, 29, 20], 
+                        "saturday": [28, 1, 6, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 408,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3161759369/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://graceferguson.bandcamp.com/album/voler',
+                    a_string: 'Voler by Grace Ferguson',
+                    rule: {
+                        "monday": [28, 1, 6, 18],
+                        "tuesday": [27, 30, 6, 17], 
+                        "wednesday": [27, 30, 6, 16], 
+                        "thursday": [25, 3, 5, 20],  
+                        "saturday": [29, 3, 29, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

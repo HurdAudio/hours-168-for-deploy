@@ -12604,6 +12604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 631,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/studio-per-la-mia-ombra-verso-l-infinito-dalla-cima-dello-stromboli-durante-l-alba-del-16-1965.jpg',
+                    title: 'Studio per la mia ombra verso l\'infinito dalla cima dello Stromboli durante l\'alba del 16 agosto 1965',
+                    artist: 'Giovanni Anselmo',
+                    year: '1965',
+                    rule: {
+                        "monday": [7, 10, 17, 22],
+                        "tuesday": [5, 10, 16, 21], 
+                        "wednesday": [4, 8, 15, 20],  
+                        "thursday": [4, 9, 15, 22],  
+                        "friday": [10, 15, 21, 26],
+                        "saturday": [9, 11, 19, 15], 
+                        "sunday": [8, 12, 19, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 632,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/drift-iii-1965.jpg',
+                    title: 'Drift III',
+                    artist: 'Richard Tuttle',
+                    year: '1965',
+                    rule: {
+                        "monday": [8, 12, 19, 22],
+                        "tuesday": [7, 10, 17, 22], 
+                        "wednesday": [5, 10, 16, 21], 
+                        "thursday": [4, 8, 15, 20],  
+                        "friday": [4, 9, 15, 22],  
+                        "saturday": [10, 15, 21, 26],
+                        "sunday": [9, 11, 19, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 633,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/twin-river-1965.jpg',
+                    title: 'Twin River',
+                    artist: 'Richard Tuttle',
+                    year: '1965',
+                    rule: {
+                        "monday": [9, 11, 19, 15],
+                        "tuesday": [8, 12, 19, 22], 
+                        "wednesday": [7, 10, 17, 22], 
+                        "thursday": [5, 10, 16, 21], 
+                        "friday": [4, 8, 15, 20],  
+                        "saturday": [4, 9, 15, 22],  
+                        "sunday": [10, 15, 21, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 634,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/65-s-10-1965.jpg',
+                    title: '65-s-10',
+                    artist: 'Martin Barre',
+                    year: '`965',
+                    rule: {
+                        "monday": [10, 15, 21, 26],
+                        "tuesday": [9, 11, 19, 15], 
+                        "wednesday": [8, 12, 19, 22], 
+                        "thursday": [7, 10, 17, 22], 
+                        "friday": [5, 10, 16, 21], 
+                        "saturday": [4, 8, 15, 20],  
+                        "sunday": [4, 9, 15, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 635,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/pentameter-1965.jpg',
+                    title: 'Pentameter',
+                    artist: 'Ruth Vollmer',
+                    year: '1965',
+                    rule: {
+                        "monday": [4, 9, 15, 22],
+                        "tuesday": [10, 15, 21, 26],
+                        "wednesday": [9, 11, 19, 15], 
+                        "thursday": [8, 12, 19, 22], 
+                        "friday": [7, 10, 17, 22], 
+                        "saturday": [5, 10, 16, 21], 
+                        "sunday": [4, 8, 15, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

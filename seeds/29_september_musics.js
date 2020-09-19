@@ -6970,6 +6970,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=402556529/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://deadrider.bandcamp.com/album/dead-rider-trio-featuring-mr-paul-williams',
+                    a_string: 'Dead Rider Trio featuring Mr. Paul Williams by Dead Rider',
+                    rule: {
+                        "monday": [26, 16, 24, 18],
+                        "tuesday": [30, 20, 28, 22],
+                        "wednesday": [29, 19, 27, 21],
+                        "thursday": [28, 18, 26, 19],
+                        "saturday": [28, 17, 25, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=935632410/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://moongoosecult.bandcamp.com/album/the-wax-monster-lives-behind-the-first-row-of-trees',
+                    a_string: 'The  Wax Monster Lives Behind the First Row of Trees by Moon Goose',
+                    rule: {
+                        "monday": [28, 17, 25, 19],
+                        "tuesday": [26, 16, 24, 18],
+                        "wednesday": [30, 20, 28, 22],
+                        "thursday": [29, 19, 27, 21],
+                        "saturday": [28, 18, 26, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2181153324/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://almostmidnight.bandcamp.com/album/almost-midnight',
+                    a_string: 'Almost Midnight by Almost Midnight',
+                    rule: {
+                        "monday": [28, 18, 26, 19],
+                        "tuesday": [28, 17, 25, 19],
+                        "wednesday": [26, 16, 24, 18],
+                        "thursday": [30, 20, 28, 22],
+                        "saturday": [29, 19, 27, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

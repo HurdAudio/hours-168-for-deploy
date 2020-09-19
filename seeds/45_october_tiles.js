@@ -1586,6 +1586,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#87919c',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 114,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'friday',
+                    src_string: 'https://hours168-hurdaudio.s3.amazonaws.com/img/october/berries-5411132_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#233804',
+                    color_medium: '#dba108',
+                    color_light: '#ede8cc',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

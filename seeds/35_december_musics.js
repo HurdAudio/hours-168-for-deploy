@@ -6646,6 +6646,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 370,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=386715940/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://rivorecords.bandcamp.com/album/happy-reunion-2',
+                    a_string: 'Happy Reunion by Sebastián Loiácono',
+                    rule: {
+                        "monday": [24, 1, 7, 13],
+                        "tuesday": [23, 31, 6, 12], 
+                        "wednesday": [24, 30, 5, 11], 
+                        "thursday": [28, 3, 9, 15],  
+                        "saturday": [27, 2, 8, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 371,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1281332356/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://rivorecords.bandcamp.com/album/lament',
+                    a_string: 'Lament by Jeronimo Carmona',
+                    rule: {
+                        "monday": [28, 3, 9, 15],
+                        "tuesday": [25, 2, 8, 14], 
+                        "wednesday": [24, 1, 7, 13], 
+                        "thursday": [25, 31, 6, 12],  
+                        "saturday": [29, 4, 10, 16]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 372,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=74400987/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'http://rivorecords.bandcamp.com/album/back-in-town',
+                    a_string: 'Back In Town by Gustavo Musso - Francisco Lo Vuolo',
+                    rule: {
+                        "monday": [29, 4, 10, 16],
+                        "tuesday": [28, 3, 9, 15],  
+                        "wednesday": [25, 2, 8, 14],  
+                        "thursday": [24, 1, 7, 13],  
+                        "saturday": [25, 31, 6, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

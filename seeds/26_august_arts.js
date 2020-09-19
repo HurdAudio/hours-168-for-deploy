@@ -13204,6 +13204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 661,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-young-mother-1944.jpg',
+                    title: 'The Young Mother',
+                    artist: 'Philip Guston',
+                    year: '1944',
+                    rule: {
+                        "monday": [5, 9, 17, 2],
+                        "tuesday": [2, 7, 16, 1],   
+                        "wednesday": [2, 7, 15, 31],  
+                        "thursday": [2, 4, 14, 30],  
+                        "friday": [1, 3, 13, 29],  
+                        "saturday": [31, 3, 12, 28], 
+                        "sunday": [30, 2, 11, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 662,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/oak-1934.jpg',
+                    title: 'Oak',
+                    artist: 'Wladyslaw Strzeminski',
+                    year: '1934',
+                    rule: {
+                        "monday": [30, 2, 11, 27],
+                        "tuesday": [5, 9, 17, 2],   
+                        "wednesday": [2, 7, 16, 1],   
+                        "thursday": [2, 7, 15, 31],  
+                        "friday": [2, 4, 14, 30],  
+                        "saturday": [1, 3, 13, 29],  
+                        "sunday": [31, 3, 12, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 663,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/invention-composition-31-1933.jpg',
+                    title: 'Invention (Composition 31)',
+                    artist: 'Rudolf Bauer',
+                    year: '1933',
+                    rule: {
+                        "monday": [31, 3, 12, 28],
+                        "tuesday": [30, 2, 11, 27], 
+                        "wednesday": [5, 9, 17, 2],   
+                        "thursday": [2, 7, 16, 1],   
+                        "friday": [2, 7, 15, 31],  
+                        "saturday": [2, 4, 14, 30],  
+                        "sunday": [1, 3, 13, 29]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 664,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/bassin-du-luxembourg-1930.jpg',
+                    title: 'Bassin du Luxembourg',
+                    artist: 'Brassai',
+                    year: '1930',
+                    rule: {
+                        "monday": [1, 3, 13, 29],
+                        "tuesday": [31, 3, 12, 28], 
+                        "wednesday": [30, 2, 11, 27], 
+                        "thursday": [5, 9, 17, 2],   
+                        "friday": [2, 7, 16, 1],   
+                        "saturday": [2, 7, 15, 31],  
+                        "sunday": [2, 4, 14, 30]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 665,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/camden-1923.jpg',
+                    title: 'Camden',
+                    artist: 'Abraham Manievich',
+                    year: '1923',
+                    rule: {
+                        "monday": [3, 5, 15, 31],
+                        "tuesday": [2, 4, 14, 30], 
+                        "wednesday": [1, 4, 13, 29], 
+                        "thursday": [31, 3, 12, 28],   
+                        "friday": [6, 10, 18, 3],   
+                        "saturday": [3, 8, 17, 2],  
+                        "sunday": [3, 8, 16, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
