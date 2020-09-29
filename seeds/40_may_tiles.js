@@ -1670,6 +1670,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#bec994',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 120,
+                    user_id: 1,
+                    theme: 'Greenery',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/david-clode-abDPQtcEtUQ-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#121f14',
+                    color_medium: '#597f47',
+                    color_light: '#121f14',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

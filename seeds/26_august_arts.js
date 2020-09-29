@@ -13304,6 +13304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 666,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/the-metamorphosis-of-narcissus.jpg',
+                    title: 'The Metamorphosis of Narcissus',
+                    artist: 'Salvador Dali',
+                    year: '1937',
+                    rule: {
+                        "monday": [3, 8, 16, 1],
+                        "tuesday": [3, 5, 15, 31],  
+                        "wednesday": [2, 4, 14, 30],  
+                        "thursday": [1, 4, 13, 29],  
+                        "friday": [31, 3, 12, 28], 
+                        "saturday": [6, 10, 18, 3],  
+                        "sunday": [3, 8, 17, 2]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 667,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/seated-woman-1915.jpg',
+                    title: 'Seated woman',
+                    artist: 'Rik Wouters',
+                    year: '1915',
+                    rule: {
+                        "monday": [3, 8, 17, 2],
+                        "tuesday": [3, 8, 16, 1],   
+                        "wednesday": [3, 5, 15, 31],  
+                        "thursday": [2, 4, 14, 30],  
+                        "friday": [1, 4, 13, 29],  
+                        "saturday": [31, 3, 12, 28], 
+                        "sunday": [6, 10, 18, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 668,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/bird-romance-1946.jpg',
+                    title: 'Bird Romance',
+                    artist: 'Jock Macdonald',
+                    year: '1946',
+                    rule: {
+                        "monday": [6, 10, 18, 3],
+                        "tuesday": [3, 8, 17, 2],   
+                        "wednesday": [3, 8, 16, 1],   
+                        "thursday": [3, 5, 15, 31],  
+                        "friday": [2, 4, 14, 30],  
+                        "saturday": [1, 4, 13, 29],  
+                        "sunday": [31, 3, 12, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 669,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/soft-construction-with-boiled-beans-premonition-of-civil-war(1).jpg',
+                    title: 'Soft Construction with Boiled Beans: Premonition of Civil War',
+                    artist: 'Salvador Dali',
+                    year: '1936',
+                    rule: {
+                        "monday": [31, 3, 12, 28],
+                        "tuesday": [6, 10, 18, 3],  
+                        "wednesday": [3, 8, 17, 2],   
+                        "thursday": [3, 8, 16, 1],   
+                        "friday": [3, 5, 15, 31],  
+                        "saturday": [2, 4, 14, 30],  
+                        "sunday": [1, 4, 13, 29]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 670,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/trees-1927.jpg',
+                    title: 'Trees',
+                    artist: 'Grace Cossington Smith',
+                    year: '1927',
+                    rule: {
+                        "monday": [1, 4, 13, 29],
+                        "tuesday": [31, 3, 12, 28], 
+                        "wednesday": [6, 10, 18, 3],  
+                        "thursday": [3, 8, 17, 2],   
+                        "friday": [3, 8, 16, 1],   
+                        "saturday": [3, 5, 15, 31],  
+                        "sunday": [2, 4, 14, 30]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -13904,6 +13904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 696,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-ilya-repin-1900.jpg',
+                    title: 'Portrait of Ilya Repin',
+                    artist: 'Boris Kustodiev',
+                    year: '1900',
+                    rule: {
+                        "monday": [27, 5, 17, 26],
+                        "tuesday": [6, 18, 28, 5],  
+                        "wednesday": [6, 17, 26, 5],  
+                        "thursday": [4, 14, 22, 24], 
+                        "friday": [1, 12, 22, 11], 
+                        "saturday": [31, 11, 21, 31],
+                        "sunday": [29, 8, 18, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 697,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/the-model-wearing-a-greatcoat-1900.jpg',
+                    title: 'The Model Wearing a Greatcoat',
+                    artist: 'Boris Kustodiev',
+                    year: '1900',
+                    rule: {
+                        "monday": [29, 8, 18, 26],
+                        "tuesday": [27, 5, 17, 26], 
+                        "wednesday": [6, 18, 28, 5],  
+                        "thursday": [6, 17, 26, 5],  
+                        "friday": [4, 14, 22, 24], 
+                        "saturday": [1, 12, 22, 11], 
+                        "sunday": [31, 11, 21, 31] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 698,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/abbess-1901.jpg',
+                    title: 'Abbess',
+                    artist: 'Boris Kustodiev',
+                    year: '1901',
+                    rule: {
+                        "monday": [31, 11, 21, 31],
+                        "tuesday": [29, 8, 18, 26], 
+                        "wednesday": [27, 5, 17, 26], 
+                        "thursday": [6, 18, 28, 5],  
+                        "friday": [6, 17, 26, 5],  
+                        "saturday": [4, 14, 22, 24], 
+                        "sunday": [1, 12, 22, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 699,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/at-cradling-archers-walk-1901.jpg',
+                    title: 'At cradling archers walk',
+                    artist: 'Boris Kustodiev',
+                    year: '1901',
+                    rule: {
+                        "monday": [1, 12, 22, 11],
+                        "tuesday": [31, 11, 21, 31],
+                        "wednesday": [29, 8, 18, 26], 
+                        "thursday": [27, 5, 17, 26], 
+                        "friday": [6, 18, 28, 5],  
+                        "saturday": [6, 17, 26, 5],  
+                        "sunday": [4, 14, 22, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 700,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/in-the-manor-vysokovo-kostroma-1901.jpg',
+                    title: 'In the Manor Vysokovo (Kostroma)',
+                    artist: 'Boris Kustodiev',
+                    year: '1901',
+                    rule: {
+                        "monday": [5, 15, 23, 25],
+                        "tuesday": [2, 13, 23, 12],
+                        "wednesday": [1, 12, 22, 1], 
+                        "thursday": [30, 9, 19, 27], 
+                        "friday": [28, 6, 18, 27],  
+                        "saturday": [7, 19, 29, 6],  
+                        "sunday": [7, 18, 27, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -1614,6 +1614,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#bfb195',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 116,
+                    user_id: 1,
+                    theme: 'Leather',
+                    type: 'sunday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/adam-hornyak-2icN5otUUOU-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#1f1107',
+                    color_medium: '#6b371e',
+                    color_light: '#c7afa4',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

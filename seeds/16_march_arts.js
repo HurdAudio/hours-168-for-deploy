@@ -809,9 +809,9 @@ exports.seed = function (knex, Promise) {
                     id: 41,
                     user_id: 1,
                     theme: 'Women\'s History Month',
-                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/3-lemons-18x24in-2015-oil-svetlana-kanyo-2.jpg',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/3-lemons-18x24in-2015-oil-svetlana-kanyo-2.JPG',
                     title: 'Lemons',
-                    artist: 'Svetlana Kanyo',
+                    artist: 'Lana Kanyo',
                     year: '2015',
                     rule: {
                         "monday": [3, 13, 21, 31],
@@ -14301,6 +14301,106 @@ exports.seed = function (knex, Promise) {
                         "friday": [4, 14, 23, 1],  
                         "saturday": [10, 19, 29, 6], 
                         "sunday": [9, 19, 27, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 716,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/the-stake-1912.jpg',
+                    title: 'The Stake',
+                    artist: 'Elenore Abbott',
+                    year: '1912',
+                    rule: {
+                        "monday": [9, 19, 27, 6],
+                        "tuesday": [6, 18, 26, 5],  
+                        "wednesday": [7, 17, 25, 4],  
+                        "thursday": [6, 17, 24, 3],  
+                        "friday": [5, 15, 23, 2],  
+                        "saturday": [4, 14, 23, 1],  
+                        "sunday": [10, 19, 29, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 717,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/girl-with-stork-1907.jpg',
+                    title: 'Girl with Stork',
+                    artist: 'Paula Modersohn-Becker',
+                    year: '1906 - 1907',
+                    rule: {
+                        "monday": [10, 19, 29, 6],
+                        "tuesday": [9, 19, 27, 6],  
+                        "wednesday": [6, 18, 26, 5],  
+                        "thursday": [7, 17, 25, 4],  
+                        "friday": [6, 17, 24, 3],  
+                        "saturday": [5, 15, 23, 2],  
+                        "sunday": [4, 14, 23, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 718,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/hauptstrasse-mit-mann-1934(1).jpg',
+                    title: 'Hauptstrasse (Mit Mann)',
+                    artist: 'Gabriele Munter',
+                    year: '1934',
+                    rule: {
+                        "monday": [4, 14, 23, 1],
+                        "tuesday": [10, 19, 29, 6], 
+                        "wednesday": [9, 19, 27, 6],  
+                        "thursday": [6, 18, 26, 5],  
+                        "friday": [7, 17, 25, 4],  
+                        "saturday": [6, 17, 24, 3],  
+                        "sunday": [5, 15, 23, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 719,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/roofs.jpg',
+                    title: 'Roofs',
+                    artist: 'Vanessa Bell',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 15, 23, 2],
+                        "tuesday": [4, 14, 23, 1],  
+                        "wednesday": [10, 19, 29, 6], 
+                        "thursday": [9, 19, 27, 6],  
+                        "friday": [6, 18, 26, 5],  
+                        "saturday": [7, 17, 25, 4],  
+                        "sunday": [6, 17, 24, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 720,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/women-s-costume-for-the-spanish-dance-1920-2.jpg',
+                    title: 'Women\'s costume for the Spanish dance',
+                    artist: 'Aleksandra Ekster',
+                    year: '1920',
+                    rule: {
+                        "monday": [6, 17, 24, 3],
+                        "tuesday": [5, 15, 23, 2],  
+                        "wednesday": [4, 14, 23, 1],  
+                        "thursday": [10, 19, 29, 6], 
+                        "friday": [9, 19, 27, 6],  
+                        "saturday": [6, 18, 26, 5],  
+                        "sunday": [7, 17, 25, 4]   
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

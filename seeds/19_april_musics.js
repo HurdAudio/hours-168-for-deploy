@@ -7564,6 +7564,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 421,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3577702279/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://gardnilssensupersonicorchestra.bandcamp.com/album/if-you-listen-carefully-the-music-is-yours',
+                    a_string: 'If You Listen Carefully The Music Is Yours by Gard Nilssen´s Supersonic Orchestra',
+                    rule: {
+                        "monday": [3, 10, 23, 28],
+                        "tuesday": [2, 10, 22, 27], 
+                        "wednesday": [1, 9, 20, 26],  
+                        "thursday": [30, 8, 20, 25], 
+                        "saturday": [4, 12, 24, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 422,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1004487579/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://webbermorrisbigband.bandcamp.com/album/both-are-true',
+                    a_string: 'Both Are True by Webber/Morris Big Band',
+                    rule: {
+                        "monday": [4, 12, 24, 29],
+                        "tuesday": [3, 10, 23, 28], 
+                        "wednesday": [2, 10, 22, 27], 
+                        "thursday": [1, 9, 20, 26],  
+                        "saturday": [30, 8, 20, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 423,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3572160275/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://raymondlarsen.bandcamp.com/album/songs-to-fill-the-air',
+                    a_string: 'Songs to fill the air by Ray Larsen',
+                    rule: {
+                        "monday": [30, 8, 20, 25],
+                        "tuesday": [4, 12, 24, 29], 
+                        "wednesday": [3, 10, 23, 28], 
+                        "thursday": [2, 10, 22, 27], 
+                        "saturday": [1, 9, 20, 26]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

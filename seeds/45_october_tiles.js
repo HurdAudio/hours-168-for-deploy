@@ -1600,6 +1600,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#ede8cc',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 115,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'saturday',
+                    src_string: 'https://hours168-hurdaudio.s3.amazonaws.com/img/october_tiles/sami-takarautio-e4It5xPkXt4-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#424147',
+                    color_medium: '#6f8fa9',
+                    color_light: '#c9c2bd',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

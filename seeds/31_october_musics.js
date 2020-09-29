@@ -6916,6 +6916,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 385,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2093337726/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://fearnotourselvesalone.bandcamp.com/album/you-in-the-heart-of-everyone',
+                    a_string: 'You in the Heart of Everyone by Fear Not Ourselves Alone',
+                    rule: {
+                        "monday": [30, 9, 20, 22],
+                        "tuesday": [29, 8, 18, 21], 
+                        "wednesday": [2, 12, 22, 25],
+                        "thursday": [1, 11, 21, 24],
+                        "saturday": [31, 11, 20, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=815077253/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://geld.bandcamp.com/album/beyond-the-floor-lp',
+                    a_string: 'Beyond The Floor LP by GELD',
+                    rule: {
+                        "monday": [31, 11, 20, 23],
+                        "tuesday": [30, 9, 20, 22], 
+                        "wednesday": [29, 8, 18, 21], 
+                        "thursday": [2, 12, 22, 25], 
+                        "saturday": [1, 11, 21, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2657736941/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://lavidaesunmus.bandcamp.com/album/more-echoes-of-a-question-never-answered-why',
+                    a_string: 'More Echoes Of A Question Never Answered... Why? by Cry Out',
+                    rule: {
+                        "monday": [1, 11, 21, 24],
+                        "tuesday": [31, 11, 20, 23],
+                        "wednesday": [30, 9, 20, 22], 
+                        "thursday": [29, 8, 18, 21], 
+                        "saturday": [2, 12, 22, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

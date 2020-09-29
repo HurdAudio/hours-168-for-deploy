@@ -13504,6 +13504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 676,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-painter-and-the-time.jpg',
+                    title: 'The painter and the time',
+                    artist: 'Andre Masson',
+                    year: '1938',
+                    rule: {
+                        "monday": [2, 13, 23, 25],
+                        "tuesday": [30, 10, 1, 2],  
+                        "wednesday": [31, 11, 2, 3],  
+                        "thursday": [5, 14, 27, 7],  
+                        "friday": [5, 13, 27, 7],  
+                        "saturday": [3, 14, 26, 6],  
+                        "sunday": [3, 14, 25, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 677,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/barques.jpg',
+                    title: 'Barques',
+                    artist: 'Jean Hugo',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 14, 25, 26],
+                        "tuesday": [2, 13, 23, 25], 
+                        "wednesday": [30, 10, 1, 2],  
+                        "thursday": [31, 11, 2, 3],  
+                        "friday": [5, 14, 27, 7],  
+                        "saturday": [5, 13, 27, 7],  
+                        "sunday": [3, 14, 26, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 678,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/surrealist-composition-1928.jpg',
+                    title: 'Surrealist Composition',
+                    artist: 'Georges Papazoff',
+                    year: '1928',
+                    rule: {
+                        "monday": [3, 14, 26, 6],
+                        "tuesday": [3, 14, 25, 26], 
+                        "wednesday": [2, 13, 23, 25], 
+                        "thursday": [30, 10, 1, 2],  
+                        "friday": [31, 11, 2, 3],  
+                        "saturday": [5, 14, 27, 7],  
+                        "sunday": [5, 13, 27, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 679,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/nude-woman-with-blonde-hair-1942.jpg',
+                    title: 'Nude woman with blonde hair',
+                    artist: 'Moise Kisling',
+                    year: '1942',
+                    rule: {
+                        "monday": [6, 14, 28, 8],
+                        "tuesday": [4, 15, 27, 7], 
+                        "wednesday": [4, 15, 26, 27], 
+                        "thursday": [3, 14, 24, 26],  
+                        "friday": [31, 11, 2, 3],  
+                        "saturday": [1, 12, 3, 4],  
+                        "sunday": [6, 15, 28, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 680,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-violin-s-reflection-1945.jpg',
+                    title: 'The Violin\’s Reflection',
+                    artist: 'Serge Charchoune',
+                    year: '1945',
+                    rule: {
+                        "monday": [6, 15, 28, 8],
+                        "tuesday": [6, 14, 28, 8],  
+                        "wednesday": [4, 15, 27, 7],  
+                        "thursday": [4, 15, 26, 27], 
+                        "friday": [3, 14, 24, 26], 
+                        "saturday": [31, 11, 2, 3],  
+                        "sunday": [1, 12, 3, 4]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

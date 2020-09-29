@@ -7672,6 +7672,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 427,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2814175824/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://lucreciadalt.bandcamp.com/album/no-era-s-lida',
+                    a_string: 'No era sólida by Lucrecia Dalt',
+                    rule: {
+                        "monday": [5, 11, 17, 25],
+                        "tuesday": [4, 10, 15, 24],  
+                        "wednesday": [3, 9, 15, 24], 
+                        "thursday": [1, 8, 14, 22], 
+                        "saturday": [1, 7, 13, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 428,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4231233869/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://polyvinylrecords.bandcamp.com/album/wake-up',
+                    a_string: 'Wake UP! by Hazel English',
+                    rule: {
+                        "monday": [1, 7, 13, 21],
+                        "tuesday": [5, 11, 17, 25], 
+                        "wednesday": [4, 10, 15, 24], 
+                        "thursday": [3, 9, 15, 24],  
+                        "saturday": [1, 8, 14, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 429,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1294285140/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://fennelily.bandcamp.com/album/breach',
+                    a_string: 'BREACH by Fenne Lily',
+                    rule: {
+                        "monday": [1, 8, 14, 22],
+                        "tuesday": [1, 7, 13, 21],  
+                        "wednesday": [5, 11, 17, 25], 
+                        "thursday": [4, 10, 15, 24], 
+                        "saturday": [3, 9, 15, 24]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

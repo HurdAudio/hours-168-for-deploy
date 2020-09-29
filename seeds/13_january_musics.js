@@ -7888,6 +7888,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 439,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1277290761/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://othermindsrecords.bandcamp.com/album/namely',
+                    a_string: 'Namely by Beth Anderson',
+                    rule: {
+                        "monday": [10, 17, 18, 19],
+                        "tuesday": [9, 15, 16, 18], 
+                        "wednesday": [8, 15, 16, 17], 
+                        "thursday": [7, 13, 14, 15], 
+                        "saturday": [6, 13, 14, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 440,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1353444366/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://unseenworlds.bandcamp.com/album/m-sica-callada-see-the-welter',
+                    a_string: 'Música Callada / See the Welter by James Rushford',
+                    rule: {
+                        "monday": [6, 13, 14, 15],
+                        "tuesday": [10, 17, 18, 19],
+                        "wednesday": [9, 15, 16, 18], 
+                        "thursday": [8, 15, 16, 17], 
+                        "saturday": [7, 13, 14, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 441,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2354563353/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://unseenworlds.bandcamp.com/album/stolen-car',
+                    a_string: 'Stolen Car by Carl Stone',
+                    rule: {
+                        "monday": [8, 14, 15, 16],
+                        "tuesday": [7, 14, 15, 16],
+                        "wednesday": [11, 18, 19, 20], 
+                        "thursday": [10, 16, 17, 19], 
+                        "saturday": [9, 16, 17, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

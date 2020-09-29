@@ -1628,6 +1628,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#a0c6fa',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 117,
+                    user_id: 1,
+                    theme: 'Primary Colors',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august_tiles/ant-rozetsky-bSOM3kQbxTs-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#221011',
+                    color_medium: '#3e3780',
+                    color_light: '#fbc859',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

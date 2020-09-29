@@ -14504,6 +14504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 726,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/204_bg.jpg',
+                    title: 'unknown title',
+                    artist: 'Clarence Major',
+                    year: '?',
+                    rule: {
+                        "monday": [25, 6, 12, 18],
+                        "tuesday": [27, 6, 14, 24], 
+                        "wednesday": [27, 8, 4, 23],  
+                        "thursday": [17, 25, 4, 12], 
+                        "friday": [18, 27, 6, 14], 
+                        "saturday": [24, 29, 6, 16], 
+                        "sunday": [23, 2, 10, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 727,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/1001BlackMen843Web.jpg',
+                    title: 'Black Men 843',
+                    artist: 'Ajuan Mance',
+                    year: '?',
+                    rule: {
+                        "monday": [23, 2, 10, 18],
+                        "tuesday": [25, 6, 12, 18], 
+                        "wednesday": [27, 6, 14, 24], 
+                        "thursday": [27, 8, 4, 23],  
+                        "friday": [17, 25, 4, 12], 
+                        "saturday": [18, 27, 6, 14], 
+                        "sunday": [24, 29, 6, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 728,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/untitledLarge_jofj.jpg',
+                    title: 'Untitled',
+                    artist: 'Kerry James Marshall',
+                    year: '2009',
+                    rule: {
+                        "monday": [25, 1, 7, 17],
+                        "tuesday": [24, 3, 11, 19], 
+                        "wednesday": [26, 7, 13, 19], 
+                        "thursday": [28, 7, 15, 25],  
+                        "friday": [28, 9, 5, 24], 
+                        "saturday": [18, 26, 5, 13], 
+                        "sunday": [19, 28, 7, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 729,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/010_Eugene_J_Martin_1999_priv_coll_BATON_ROUGE_beta_pictoris_gallery.jpg',
+                    title: 'Untitled',
+                    artist: 'Eugene J. Martin',
+                    year: '1999',
+                    rule: {
+                        "monday": [19, 28, 7, 15],
+                        "tuesday": [25, 1, 7, 17],  
+                        "wednesday": [24, 3, 11, 19], 
+                        "thursday": [26, 7, 13, 19], 
+                        "friday": [28, 7, 15, 25], 
+                        "saturday": [28, 9, 5, 24],  
+                        "sunday": [18, 26, 5, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 730,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/26232020_10156180186432089_2493202207806124770_o.jpg',
+                    title: 'Nostalgia',
+                    artist: 'Richard Mayhew',
+                    year: '2016',
+                    rule: {
+                        "monday": [18, 26, 5, 13],
+                        "tuesday": [19, 28, 7, 15], 
+                        "wednesday": [25, 1, 7, 17],  
+                        "thursday": [24, 3, 11, 19], 
+                        "friday": [26, 7, 13, 19], 
+                        "saturday": [28, 7, 15, 25], 
+                        "sunday": [28, 9, 5, 24]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

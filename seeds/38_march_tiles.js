@@ -1698,6 +1698,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#b1b4a3',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 122,
+                    user_id: 1,
+                    theme: 'Glass',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/glen-ardi-C-StLOP8GIo-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#1f3943',
+                    color_medium: '#3b92ab',
+                    color_light: '#d2dadf',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

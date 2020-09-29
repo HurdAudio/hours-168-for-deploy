@@ -13704,6 +13704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 686,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Lips_djie.jpg',
+                    title: 'Lips',
+                    artist: 'Baciar',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 15, 25, 2],
+                        "tuesday": [14, 24, 4, 2], 
+                        "wednesday": [3, 13, 24, 1], 
+                        "thursday": [2, 12, 22, 30],  
+                        "friday": [8, 18, 28, 5],  
+                        "saturday": [7, 17, 28, 5], 
+                        "sunday": [5, 16, 26, 24]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 687,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/hearing__fdoijs.jpg',
+                    title: 'Hearing',
+                    artist: 'Baciar',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 16, 26, 24],
+                        "tuesday": [5, 15, 25, 2],  
+                        "wednesday": [14, 24, 4, 2],  
+                        "thursday": [3, 13, 24, 1],  
+                        "friday": [2, 12, 22, 30], 
+                        "saturday": [8, 18, 28, 5],  
+                        "sunday": [7, 17, 28, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 688,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/hubertus_ifh.jpg',
+                    title: 'Hubertus',
+                    artist: 'Baciar',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 17, 28, 5],
+                        "tuesday": [5, 16, 26, 24], 
+                        "wednesday": [5, 15, 25, 2],  
+                        "thursday": [14, 24, 4, 2],  
+                        "friday": [3, 13, 24, 1],  
+                        "saturday": [2, 12, 22, 30], 
+                        "sunday": [8, 18, 28, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 689,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/ear_fjfjfj.jpg',
+                    title: 'Ear',
+                    artist: 'Baciar',
+                    year: '?',
+                    rule: {
+                        "monday": [8, 18, 28, 5],
+                        "tuesday": [7, 17, 28, 5],  
+                        "wednesday": [5, 16, 26, 24], 
+                        "thursday": [5, 15, 25, 2],  
+                        "friday": [14, 24, 4, 2],  
+                        "saturday": [3, 13, 24, 1],  
+                        "sunday": [2, 12, 22, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 690,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/fist_ooff.jpg',
+                    title: 'Fist',
+                    artist: 'Baciar',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 12, 22, 30],
+                        "tuesday": [8, 18, 28, 5],  
+                        "wednesday": [7, 17, 28, 5],  
+                        "thursday": [5, 16, 26, 24], 
+                        "friday": [5, 15, 25, 2],  
+                        "saturday": [14, 24, 4, 2],  
+                        "sunday": [3, 13, 24, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

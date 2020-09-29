@@ -7024,6 +7024,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 391,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2086436080/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://fruitlooopswsr.bandcamp.com/album/orangina',
+                    a_string: 'Orangina by Fruit LoOops',
+                    rule: {
+                        "monday": [29, 19, 27, 21],
+                        "tuesday": [28, 18, 26, 19],
+                        "wednesday": [28, 17, 25, 19],
+                        "thursday": [26, 16, 24, 18],
+                        "saturday": [30, 20, 28, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 392,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4075624594/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://weirdartifacts.bandcamp.com/album/squirmer',
+                    a_string: 'Squirmer by Weird Artifacts',
+                    rule: {
+                        "monday": [1, 21, 29, 23],
+                        "tuesday": [30, 20, 28, 22],
+                        "wednesday": [29, 19, 27, 20],
+                        "thursday": [29, 18, 26, 20],
+                        "saturday": [27, 17, 25, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 393,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1786370048/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://kningdisk.bandcamp.com/album/oche',
+                    a_string: 'OCHE by Christian Munthe &amp; Roger Turner',
+                    rule: {
+                        "monday": [27, 17, 25, 19],
+                        "tuesday": [1, 21, 29, 23], 
+                        "wednesday": [30, 20, 28, 22],
+                        "thursday": [29, 19, 27, 20],
+                        "saturday": [29, 18, 26, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

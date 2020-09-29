@@ -13104,6 +13104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 656,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/cabot-street-cinema-massachusetts-1978.jpg',
+                    title: 'Cabot Street Cinema, Massachusetts',
+                    artist: 'Hiroshi Sugimoto',
+                    year: '1978',
+                    rule: {
+                        "monday": [21, 28, 25, 3],
+                        "tuesday": [29, 6, 24, 1],  
+                        "wednesday": [6, 12, 30, 8],  
+                        "thursday": [2, 8, 29, 7],   
+                        "friday": [3, 8, 30, 26],  
+                        "saturday": [3, 9, 27, 5],   
+                        "sunday": [22, 8, 26, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 657,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-1981.jpg',
+                    title: 'Untitled',
+                    artist: 'Luciano Bartolini',
+                    year: '1981',
+                    rule: {
+                        "monday": [22, 8, 26, 5],
+                        "tuesday": [21, 28, 25, 3], 
+                        "wednesday": [29, 6, 24, 1],  
+                        "thursday": [6, 12, 30, 8],  
+                        "friday": [2, 8, 29, 7],   
+                        "saturday": [3, 8, 30, 26],  
+                        "sunday": [3, 9, 27, 5]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 658,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/boys-art-19-skagerrak-2002.jpg',
+                    title: 'Boys’ Art #19: Skagerrak',
+                    artist: 'Joyce Kozloff',
+                    year: '2002',
+                    rule: {
+                        "monday": [4, 10, 28, 6],
+                        "tuesday": [23, 9, 27, 6], 
+                        "wednesday": [22, 29, 26, 4],  
+                        "thursday": [30, 7, 25, 2],  
+                        "friday": [7, 13, 1, 9],   
+                        "saturday": [3, 9, 30, 8],  
+                        "sunday": [4, 9, 1, 27]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 659,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/montaru-9-1953.jpg',
+                    title: 'Montaru 9',
+                    artist: 'Willi Baumeister',
+                    year: '1953',
+                    rule: {
+                        "monday": [4, 9, 1, 27],
+                        "tuesday": [4, 10, 28, 6],  
+                        "wednesday": [23, 9, 27, 6],  
+                        "thursday": [22, 29, 26, 4], 
+                        "friday": [30, 7, 25, 2],  
+                        "saturday": [7, 13, 1, 9],   
+                        "sunday": [3, 9, 30, 8]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 660,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/a-for-apple-1963.jpg',
+                    title: 'A for Apple',
+                    artist: 'Billy Apple',
+                    year: '1963',
+                    rule: {
+                        "monday": [3, 9, 30, 8],
+                        "tuesday": [4, 9, 1, 27],   
+                        "wednesday": [4, 10, 28, 6],  
+                        "thursday": [23, 9, 27, 6],  
+                        "friday": [22, 29, 26, 4], 
+                        "saturday": [30, 7, 25, 2],  
+                        "sunday": [7, 13, 1, 9]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

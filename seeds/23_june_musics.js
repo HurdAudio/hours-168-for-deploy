@@ -7348,6 +7348,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 409,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3690957057/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://jameskrivchenia.bandcamp.com/album/a-new-found-relaxation',
+                    a_string: 'A New Found Relaxation by James Krivchenia',
+                    rule: {
+                        "monday": [29, 3, 29, 20],
+                        "tuesday": [28, 1, 6, 18],  
+                        "wednesday": [27, 30, 6, 17], 
+                        "thursday": [27, 30, 6, 16], 
+                        "saturday": [25, 3, 5, 20]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 410,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3074600684/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://giamargaret.bandcamp.com/album/mia-gargaret',
+                    a_string: 'Mia Gargaret by Gia Margaret',
+                    rule: {
+                        "monday": [25, 3, 5, 20],
+                        "tuesday": [29, 3, 29, 20], 
+                        "wednesday": [28, 1, 6, 18],  
+                        "thursday": [27, 30, 6, 17], 
+                        "saturday": [27, 30, 6, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 411,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3148382703/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://silencebox.bandcamp.com/album/silence-box-1',
+                    a_string: 'silence box 1 by perila and ulla',
+                    rule: {
+                        "monday": [27, 30, 6, 16],
+                        "tuesday": [25, 3, 5, 20],  
+                        "wednesday": [29, 3, 29, 20], 
+                        "thursday": [28, 1, 6, 18],  
+                        "saturday": [27, 30, 6, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

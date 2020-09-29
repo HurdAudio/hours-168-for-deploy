@@ -12904,6 +12904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 646,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_american_flag.jpg',
+                    title: 'Null decision',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 16, 27, 31],
+                        "tuesday": [4, 15, 26, 30], 
+                        "wednesday": [3, 14, 25, 29], 
+                        "thursday": [2, 13, 25, 28], 
+                        "friday": [1, 12, 23, 27], 
+                        "saturday": [31, 11, 21, 26],
+                        "sunday": [9, 10, 21, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 647,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_airplane_flag.jpg',
+                    title: 'Airplane over US flag',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [9, 10, 21, 25],
+                        "tuesday": [5, 16, 27, 31], 
+                        "wednesday": [4, 15, 26, 30], 
+                        "thursday": [3, 14, 25, 29], 
+                        "friday": [2, 13, 25, 28], 
+                        "saturday": [1, 12, 23, 27], 
+                        "sunday": [31, 11, 21, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 648,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_sovpolpost_00114.jpg',
+                    title: 'No!',
+                    artist: '?',
+                    year: '1985',
+                    rule: {
+                        "monday": [31, 11, 21, 26],
+                        "tuesday": [9, 10, 21, 25], 
+                        "wednesday": [5, 16, 27, 31], 
+                        "thursday": [4, 15, 26, 30], 
+                        "friday": [3, 14, 25, 29], 
+                        "saturday": [2, 13, 25, 28], 
+                        "sunday": [1, 12, 23, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 649,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_1945_1985.jpg',
+                    title: '(We) Defended the peace, world we will protect!',
+                    artist: '?',
+                    year: '1985',
+                    rule: {
+                        "monday": [1, 12, 23, 27],
+                        "tuesday": [31, 11, 21, 26],
+                        "wednesday": [9, 10, 21, 25], 
+                        "thursday": [5, 16, 27, 31], 
+                        "friday": [4, 15, 26, 30], 
+                        "saturday": [3, 14, 25, 29], 
+                        "sunday": [2, 13, 25, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 650,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_1917.jpg',
+                    title: '1917',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 13, 25, 28],
+                        "tuesday": [1, 12, 23, 27], 
+                        "wednesday": [31, 11, 21, 26],
+                        "thursday": [9, 10, 21, 25], 
+                        "friday": [5, 16, 27, 31], 
+                        "saturday": [4, 15, 26, 30], 
+                        "sunday": [3, 14, 25, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

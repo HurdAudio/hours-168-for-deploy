@@ -2934,6 +2934,16 @@ exports.seed = function (knex, Promise) {
                     a_string: 'Swirling by Sun Ra Arkestra',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 294,
+                    user_id: 1,
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2746119670/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://sunaraw.bandcamp.com/album/fantasias-for-violin-guitar',
+                    a_string: 'Fantasias for Violin &amp; Guitar by Maarja Nuut &amp; Sun Araw',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

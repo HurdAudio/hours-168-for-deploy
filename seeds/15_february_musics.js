@@ -7780,6 +7780,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 433,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2589780549/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://cramenmcrae.bandcamp.com/album/carmen-mcrae',
+                    a_string: 'Carmen McRae by Carmen Mcrae',
+                    rule: {
+                        "monday": [23, 16, 18, 24],
+                        "tuesday": [23, 17, 19, 25],
+                        "wednesday": [6, 10, 12, 16], 
+                        "thursday": [20, 12, 14, 16],
+                        "saturday": [20, 14, 16, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 434,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3805853058/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://haroldland1.bandcamp.com/album/choma-burn',
+                    a_string: 'Choma (Burn) by Harold Land',
+                    rule: {
+                        "monday": [21, 15, 17, 19],
+                        "tuesday": [24, 17, 19, 25],
+                        "wednesday": [24, 18, 20, 26], 
+                        "thursday": [7, 11, 13, 17],
+                        "saturday": [21, 13, 15, 17] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 435,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2702909763/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://sarahvaughan1.bandcamp.com/album/feelin-good',
+                    a_string: 'Feelin Good by Sarah Vaughan',
+                    rule: {
+                        "monday": [21, 13, 15, 17],
+                        "tuesday": [21, 15, 17, 19],
+                        "wednesday": [24, 17, 19, 25],
+                        "thursday": [24, 18, 20, 26],
+                        "saturday": [7, 11, 13, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

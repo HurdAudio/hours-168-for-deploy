@@ -6700,6 +6700,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 373,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3372217051/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://futuro.bandcamp.com/album/os-segredos-do-espa-o-e-tempo',
+                    a_string: 'Os Segredos Do Espaço e Tempo by Futuro',
+                    rule: {
+                        "monday": [25, 31, 6, 12],
+                        "tuesday": [29, 4, 10, 16], 
+                        "wednesday": [28, 3, 9, 15],  
+                        "thursday": [25, 2, 8, 14],  
+                        "saturday": [24, 1, 7, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 374,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3029489959/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://enniostyles.bandcamp.com/album/unreleased-brazilian-remix',
+                    a_string: 'Unreleased Brazilian Remix by Ennio Styles',
+                    rule: {
+                        "monday": [24, 1, 7, 13],
+                        "tuesday": [25, 31, 6, 12], 
+                        "wednesday": [29, 4, 10, 16], 
+                        "thursday": [28, 3, 9, 15],  
+                        "saturday": [25, 2, 8, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 375,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2035245643/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://suave.bandcamp.com/album/brasil-um-sonho-intenso',
+                    a_string: 'brasil, um sonho intenso by suave',
+                    rule: {
+                        "monday": [25, 2, 8, 14],
+                        "tuesday": [24, 1, 7, 13],  
+                        "wednesday": [25, 31, 6, 12], 
+                        "thursday": [29, 4, 10, 16], 
+                        "saturday": [28, 3, 9, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

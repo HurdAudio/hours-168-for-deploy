@@ -1726,6 +1726,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#d4dee8',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 124,
+                    user_id: 1,
+                    theme: 'Ice',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january_tiles/bechir-kaddech-5FotoW_7Yg0-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#101b22',
+                    color_medium: '#3c7494',
+                    color_light: '#d2e1ed',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

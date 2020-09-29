@@ -1712,6 +1712,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#e1cbaa',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 123,
+                    user_id: 1,
+                    theme: 'Silk/Velvet',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/engin-akyurt-xRfG6f_xSSg-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#2e2719',
+                    color_medium: '#8da604',
+                    color_light: '#0ea3e4',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

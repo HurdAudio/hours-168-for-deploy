@@ -12704,6 +12704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 636,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/dark-vessel-1965.jpg',
+                    title: 'Dark Vessel',
+                    artist: 'Paul Brach',
+                    year: '1965',
+                    rule: {
+                        "monday": [4, 8, 15, 20],
+                        "tuesday": [4, 9, 15, 22],  
+                        "wednesday": [10, 15, 21, 26],
+                        "thursday": [9, 11, 19, 15], 
+                        "friday": [8, 12, 19, 22], 
+                        "saturday": [7, 10, 17, 22], 
+                        "sunday": [5, 10, 16, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 637,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/return-i-1965.jpg',
+                    title: 'Return I',
+                    artist: 'Brice Marden',
+                    year: '1965',
+                    rule: {
+                        "monday": [6, 11, 17, 22],
+                        "tuesday": [5, 9, 16, 21],  
+                        "wednesday": [5, 10, 16, 23],
+                        "thursday": [11, 16, 22, 27], 
+                        "friday": [10, 12, 20, 16], 
+                        "saturday": [9, 13, 20, 23], 
+                        "sunday": [8, 11, 18, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 638,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/striped-picture-1965-1(1).jpg',
+                    title: 'Striped Picture',
+                    artist: 'Charlotte Posenenske',
+                    year: '1965',
+                    rule: {
+                        "monday": [8, 11, 18, 23],
+                        "tuesday": [6, 11, 17, 22], 
+                        "wednesday": [5, 9, 16, 21],  
+                        "thursday": [5, 10, 16, 23], 
+                        "friday": [11, 16, 22, 27],
+                        "saturday": [10, 12, 20, 16],
+                        "sunday": [9, 13, 20, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 639,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/three-elements-1965.jpg',
+                    title: 'Three Elements',
+                    artist: 'Ronald Bladen',
+                    year: '1965',
+                    rule: {
+                        "monday": [9, 13, 20, 23],
+                        "tuesday": [8, 11, 18, 23], 
+                        "wednesday": [6, 11, 17, 22], 
+                        "thursday": [5, 9, 16, 21],  
+                        "friday": [5, 10, 16, 23], 
+                        "saturday": [11, 16, 22, 27],
+                        "sunday": [10, 12, 20, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 640,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/mountain-i-1966.jpg',
+                    title: 'Mountain I',
+                    artist: 'Agnes Martin',
+                    year: '1966',
+                    rule: {
+                        "monday": [10, 12, 20, 16],
+                        "tuesday": [9, 13, 20, 23], 
+                        "wednesday": [8, 11, 18, 23], 
+                        "thursday": [6, 11, 17, 22], 
+                        "friday": [5, 9, 16, 21],  
+                        "saturday": [5, 10, 16, 23], 
+                        "sunday": [11, 16, 22, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

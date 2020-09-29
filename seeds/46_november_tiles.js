@@ -1586,6 +1586,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#d4d4d4',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 114,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/helen-g-8roGGOgcVfg-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#151515',
+                    color_medium: '#5f5f5f',
+                    color_light: '#d0d0d0',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

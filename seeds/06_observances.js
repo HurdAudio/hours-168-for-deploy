@@ -12031,6 +12031,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 774,
+                    user_id: 1,
+                    name: 'Ingrid Laubrock (reeds), born in 1970.',
+                    color: '#d09260',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/Ingrid_laubrock_05N9250.jpg',
+                    day_of: new Date('1970-09-24  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp', 'bandcamp', 'bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=3896505887/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4106453273/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1985687658/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2240822472/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3475725911/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['https://laubrock-intakt.bandcamp.com/album/blood-moon-flac-96khz', 'https://laubrock-intakt.bandcamp.com/album/kasumi-flac-24bit-88khz', 'https://laubrock-intakt.bandcamp.com/album/contemporary-chaos-practices-two-works-for-orchestra-with-soloists-24bit-96khz', 'https://laubrock-intakt.bandcamp.com/album/serpentines-24bit-96khz', 'https://laubrock-intakt.bandcamp.com/album/roulette-of-the-cradle-24bit-96khz'],
+                        "a_strings": ['Blood Moon (FLAC 96khz) by INGRID LAUBROCK - KRIS DAVIS', 'Kasumi (FLAC 24bit 88khz) by INGRID LAUBROCK - AKI TAKASE', 'Contemporary Chaos Practices - Two Works For Orchestra With Soloists (24bit 96khz) by INGRID LAUBROCK with Orchestra. Soloists: Mary Halvorson, Kris Davis, Nate Wooley, Ingrid Laubrock', 'Serpentines (24bit 96khz) by INGRID LAUBROCK with Peter Evans, Craig Taborn, Tyshawn Sorey, Miya Masaoka, Dan Peck, Sam Pluta', 'Roulette of the Cradle (24bit 96khz) by INGRID LAUBROCK ANTI-HOUSE with Mary Halvorson, Kris Davis, John Hébert, Oscar Noriega, Tom Rainey']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 775,
+                    user_id: 1,
+                    name: 'Rosetta Douglass-Sprague (abolitionist/teacher/activist) born 1839.',
+                    color: '#ebe2cb',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Frederick_Douglass_first_child_Rosetta_Douglass_Sprague.png',
+                    day_of: new Date('1839-06-24  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

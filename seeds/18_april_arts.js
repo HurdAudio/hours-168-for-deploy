@@ -14104,6 +14104,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 706,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/0c7542a55d0563881257c924e5c113db.jpg',
+                    title: 'Historic Victorian Cincinnati Reds Art',
+                    artist: 'Peter Ogden Gallery',
+                    year: '?',
+                    rule: {
+                        "monday": [10, 13, 26, 27],
+                        "tuesday": [9, 13, 28, 26], 
+                        "wednesday": [6, 12, 18, 24], 
+                        "thursday": [7, 12, 18, 24], 
+                        "friday": [6, 11, 17, 23], 
+                        "saturday": [25, 17, 22, 28],
+                        "sunday": [25, 15, 21, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 707,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/1919-w514-category.png',
+                    title: '1919 - 1921 W514 Baseball Cards',
+                    artist: 'unknown artist',
+                    year: '1919 - 1921',
+                    rule: {
+                        "monday": [26, 16, 22, 28],
+                        "tuesday": [11, 14, 27, 28], 
+                        "wednesday": [10, 14, 29, 27], 
+                        "thursday": [7, 13, 19, 25], 
+                        "friday": [8, 13, 19, 25], 
+                        "saturday": [7, 12, 18, 24],
+                        "sunday": [26, 18, 23, 29] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 708,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/downey-cincinnati-reds-david-letts.jpg',
+                    title: 'Thomas Downey of the Reds',
+                    artist: 'David Letts',
+                    year: '2015',
+                    rule: {
+                        "monday": [26, 18, 23, 29],
+                        "tuesday": [26, 16, 22, 28],
+                        "wednesday": [11, 14, 27, 28],
+                        "thursday": [10, 14, 29, 27],
+                        "friday": [7, 13, 19, 25], 
+                        "saturday": [8, 13, 19, 25], 
+                        "sunday": [7, 12, 18, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 709,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/635690493576721673-05122015-REDSart-0001.JPG.jpg',
+                    title: 'Great Eight',
+                    artist: 'Mark Riedy',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 12, 18, 24],
+                        "tuesday": [26, 18, 23, 29],
+                        "wednesday": [26, 16, 22, 28],
+                        "thursday": [11, 14, 27, 28],
+                        "friday": [10, 14, 29, 27],
+                        "saturday": [7, 13, 19, 25], 
+                        "sunday": [8, 13, 19, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 710,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/1200px-Reds_Legends_of_Crosley_Field_rev.jpg',
+                    title: 'Reds Legends of Crosley Field',
+                    artist: 'Tom Tsuchiya',
+                    year: '2003 - 2004',
+                    rule: {
+                        "monday": [8, 13, 19, 25],
+                        "tuesday": [7, 12, 18, 24], 
+                        "wednesday": [26, 18, 23, 29],
+                        "thursday": [26, 16, 22, 28],
+                        "friday": [11, 14, 27, 28],
+                        "saturday": [10, 14, 29, 27],
+                        "sunday": [7, 13, 19, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

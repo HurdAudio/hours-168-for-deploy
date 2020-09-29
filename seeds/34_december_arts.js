@@ -12504,6 +12504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 626,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/11-00,SeaFairies.jpg',
+                    title: 'Sea Fairies',
+                    artist: 'John R. Neill',
+                    year: '1911',
+                    rule: {
+                        "monday": [15, 7, 26, 2],
+                        "tuesday": [31, 13, 21, 27],
+                        "wednesday": [30, 11, 20, 26],
+                        "thursday": [29, 11, 19, 25],
+                        "friday": [28, 10, 18, 24],
+                        "saturday": [27, 9, 17, 23], 
+                        "sunday": [26, 7, 6, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 627,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/31-06,TruckingAd.jpg',
+                    title: 'Trucking Ad',
+                    artist: 'Art Nelson',
+                    year: '1931',
+                    rule: {
+                        "monday": [26, 7, 6, 22],
+                        "tuesday": [15, 7, 26, 2],  
+                        "wednesday": [31, 13, 21, 27],
+                        "thursday": [30, 11, 20, 26],
+                        "friday": [29, 11, 19, 25],
+                        "saturday": [28, 10, 18, 24],
+                        "sunday": [27, 9, 17, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 628,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: "https://hours168-hurdaudio.s3.amazonaws.com/img/december/24-10%2CBoy'sLife-2.jpg",
+                    title: 'Boy\'s Life',
+                    artist: 'Ralph Nelson',
+                    year: '1924',
+                    rule: {
+                        "monday": [27, 9, 17, 23],
+                        "tuesday": [26, 7, 6, 22],  
+                        "wednesday": [15, 7, 26, 2],  
+                        "thursday": [31, 13, 21, 27],
+                        "friday": [30, 11, 20, 26],
+                        "saturday": [29, 11, 19, 25],
+                        "sunday": [28, 10, 18, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 629,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/28-11,MotorBoat.jpg',
+                    title: 'Motor Boating',
+                    artist: 'A. D. Neville',
+                    year: '1928',
+                    rule: {
+                        "monday": [28, 10, 18, 24],
+                        "tuesday": [27, 9, 17, 23], 
+                        "wednesday": [26, 7, 6, 22],  
+                        "thursday": [15, 7, 26, 2],  
+                        "friday": [31, 13, 21, 27],
+                        "saturday": [30, 11, 20, 26],
+                        "sunday": [29, 11, 19, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 630,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/18-00,KingArthur.jpg',
+                    title: 'King Arthur Book',
+                    artist: 'Neil O\'Keeffe',
+                    year: '1918',
+                    rule: {
+                        "monday": [30, 12, 20, 26],
+                        "tuesday": [29, 11, 19, 25], 
+                        "wednesday": [28, 10, 18, 24],  
+                        "thursday": [27, 8, 7, 23],  
+                        "friday": [16, 8, 27, 3],
+                        "saturday": [1, 14, 22, 28],
+                        "sunday": [31, 12, 21, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

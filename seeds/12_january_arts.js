@@ -14704,6 +14704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 736,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/black-red-1928.jpg',
+                    title: 'Black-Red',
+                    artist: 'Wassily Kandinsky',
+                    year: '1928',
+                    rule: {
+                        "monday": [14, 16, 8, 28],
+                        "tuesday": [19, 17, 9, 12], 
+                        "wednesday": [19, 20, 11, 15],
+                        "thursday": [22, 24, 25, 27],
+                        "friday": [24, 26, 30, 2], 
+                        "saturday": [26, 28, 29, 30],
+                        "sunday": [14, 16, 8, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 737,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/on-the-points-1928.jpg',
+                    title: 'On the points',
+                    artist: 'Wassily Kandinsky',
+                    year: '1928',
+                    rule: {
+                        "monday": [14, 16, 8, 28],
+                        "tuesday": [14, 16, 8, 28], 
+                        "wednesday": [19, 17, 9, 12], 
+                        "thursday": [19, 20, 11, 15],
+                        "friday": [22, 24, 25, 27],
+                        "saturday": [24, 26, 30, 2], 
+                        "sunday": [26, 28, 29, 30] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 738,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-with-half-values-1928.jpg',
+                    title: 'Composition with half values',
+                    artist: 'Theo van Doesburg',
+                    year: '1928',
+                    rule: {
+                        "monday": [26, 28, 29, 30],
+                        "tuesday": [14, 16, 8, 28], 
+                        "wednesday": [14, 16, 8, 28], 
+                        "thursday": [19, 17, 9, 12], 
+                        "friday": [19, 20, 11, 15],
+                        "saturday": [22, 24, 25, 27],
+                        "sunday": [24, 26, 30, 2]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 739,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/two-grays-i-1928.jpg',
+                    title: 'Two grays I',
+                    artist: 'Frantisek Kupka',
+                    year: '1928',
+                    rule: {
+                        "monday": [24, 26, 30, 2],
+                        "tuesday": [26, 28, 29, 30],
+                        "wednesday": [14, 16, 8, 28], 
+                        "thursday": [14, 16, 8, 28], 
+                        "friday": [19, 17, 9, 12], 
+                        "saturday": [19, 20, 11, 15],
+                        "sunday": [22, 24, 25, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 740,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/vertical-and-horizontal-composition-1928.jpg',
+                    title: 'Vertical and horizontal composition',
+                    artist: 'Sophie Taeuber-Arp',
+                    year: '1928',
+                    rule: {
+                        "monday": [22, 24, 25, 27],
+                        "tuesday": [24, 26, 30, 2], 
+                        "wednesday": [26, 28, 29, 30],
+                        "thursday": [14, 16, 8, 28], 
+                        "friday": [14, 16, 8, 28], 
+                        "saturday": [19, 17, 9, 12], 
+                        "sunday": [19, 20, 11, 15] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

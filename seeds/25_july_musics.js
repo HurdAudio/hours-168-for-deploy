@@ -7240,6 +7240,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 403,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2547054754/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://bullythemusic.bandcamp.com/album/sugaregg',
+                    a_string: 'SUGAREGG by Bully',
+                    rule: {
+                        "monday": [28, 30, 3, 11],
+                        "tuesday": [26, 28, 1, 10], 
+                        "wednesday": [26, 27, 3, 9],  
+                        "thursday": [25, 26, 2, 8],  
+                        "saturday": [24, 26, 30, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 404,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2083008795/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://carlajeaston.bandcamp.com/album/weirdo',
+                    a_string: 'Weirdo by Carla J. Easton',
+                    rule: {
+                        "monday": [24, 26, 30, 7],
+                        "tuesday": [28, 30, 3, 11], 
+                        "wednesday": [26, 28, 1, 10], 
+                        "thursday": [26, 27, 3, 9],  
+                        "saturday": [25, 26, 2, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 405,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3246652643/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://explodingflowers.bandcamp.com/album/stumbling-blocks',
+                    a_string: 'Stumbling Blocks by Exploding Flowers',
+                    rule: {
+                        "monday": [25, 26, 2, 8],
+                        "tuesday": [24, 26, 30, 7], 
+                        "wednesday": [28, 30, 3, 11], 
+                        "thursday": [26, 28, 1, 10], 
+                        "saturday": [26, 27, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

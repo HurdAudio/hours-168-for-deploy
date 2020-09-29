@@ -7456,6 +7456,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 415,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1077804204/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://phewjapan.bandcamp.com/album/vertical-jamming',
+                    a_string: 'Vertical Jamming by Phew',
+                    rule: {
+                        "monday": [30, 5, 12, 25],
+                        "tuesday": [29, 4, 11, 24], 
+                        "wednesday": [28, 3, 10, 23], 
+                        "thursday": [27, 2, 9, 22],  
+                        "saturday": [31, 6, 13, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 416,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4097849251/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://mikebullock.bandcamp.com/album/at-home-benefit-album',
+                    a_string: 'At Home (benefit album) by Barre Phillips, Mike Bullock',
+                    rule: {
+                        "monday": [31, 6, 13, 26],
+                        "tuesday": [30, 5, 12, 25], 
+                        "wednesday": [29, 4, 11, 24], 
+                        "thursday": [28, 3, 10, 23], 
+                        "saturday": [27, 2, 9, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 417,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=703128863/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://orangemilkrecords.bandcamp.com/album/otohime',
+                    a_string: 'OTOHIME by toiret status',
+                    rule: {
+                        "monday": [27, 2, 9, 22],
+                        "tuesday": [31, 6, 13, 26], 
+                        "wednesday": [30, 5, 12, 25], 
+                        "thursday": [29, 4, 11, 24], 
+                        "saturday": [28, 3, 10, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
