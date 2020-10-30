@@ -1614,6 +1614,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#c9c2bd',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 116,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'sunday',
+                    src_string: 'https://hours168-hurdaudio.s3.amazonaws.com/img/october_tiles/wine-partner-5664562_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#2e231b',
+                    color_medium: '#932b35',
+                    color_light: '#a7a29e',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

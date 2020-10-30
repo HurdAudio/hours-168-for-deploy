@@ -13004,6 +13004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 651,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_1914_1941.jpg',
+                    title: '1914 1941 19X',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 15, 26, 30],
+                        "tuesday": [3, 14, 26, 29], 
+                        "wednesday": [2, 13, 24, 28],
+                        "thursday": [1, 12, 22, 27], 
+                        "friday": [10, 11, 22, 26], 
+                        "saturday": [6, 17, 28, 1], 
+                        "sunday": [5, 16, 27, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 652,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/.jpg',
+                    title: '',
+                    artist: '',
+                    year: '',
+                    rule: {
+                        "monday": [5, 16, 27, 31],
+                        "tuesday": [4, 15, 26, 30], 
+                        "wednesday": [3, 14, 26, 29], 
+                        "thursday": [2, 13, 24, 28], 
+                        "friday": [1, 12, 22, 27], 
+                        "saturday": [10, 11, 22, 26],
+                        "sunday": [6, 17, 28, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 653,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/.jpg',
+                    title: '',
+                    artist: '',
+                    year: '',
+                    rule: {
+                        "monday": [6, 17, 28, 1],
+                        "tuesday": [5, 16, 27, 31], 
+                        "wednesday": [4, 15, 26, 30], 
+                        "thursday": [3, 14, 26, 29], 
+                        "friday": [2, 13, 24, 28], 
+                        "saturday": [1, 12, 22, 27], 
+                        "sunday": [10, 11, 22, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 654,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/.jpg',
+                    title: '',
+                    artist: '',
+                    year: '',
+                    rule: {
+                        "monday": [10, 11, 22, 26],
+                        "tuesday": [6, 17, 28, 1],  
+                        "wednesday": [5, 16, 27, 31], 
+                        "thursday": [4, 15, 26, 30], 
+                        "friday": [3, 14, 26, 29], 
+                        "saturday": [2, 13, 24, 28], 
+                        "sunday": [1, 12, 22, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 655,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/.jpg',
+                    title: '',
+                    artist: '',
+                    year: '',
+                    rule: {
+                        "monday": [1, 12, 22, 27],
+                        "tuesday": [10, 11, 22, 26],
+                        "wednesday": [6, 17, 28, 1],  
+                        "thursday": [5, 16, 27, 31], 
+                        "friday": [4, 15, 26, 30], 
+                        "saturday": [3, 14, 26, 29], 
+                        "sunday": [2, 13, 24, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

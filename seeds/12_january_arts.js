@@ -14804,6 +14804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 741,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/painting-iv-mechanical-abstraction-1916.jpg',
+                    title: 'Painting IV (Mechanical Abstraction)',
+                    artist: 'Morton Shamberg',
+                    year: '1916',
+                    rule: {
+                        "monday": [19, 20, 11, 15],
+                        "tuesday": [22, 24, 25, 27],
+                        "wednesday": [24, 26, 30, 2], 
+                        "thursday": [26, 28, 29, 30],
+                        "friday": [14, 16, 8, 28], 
+                        "saturday": [14, 16, 8, 28], 
+                        "sunday": [19, 17, 9, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 742,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1928.jpg',
+                    title: 'Composition',
+                    artist: 'Auguste Herbin',
+                    year: '1928',
+                    rule: {
+                        "monday": [20, 18, 10, 13],
+                        "tuesday": [20, 21, 12, 16],
+                        "wednesday": [23, 25, 26, 28], 
+                        "thursday": [25, 27, 31, 3],
+                        "friday": [27, 29, 30, 31], 
+                        "saturday": [15, 17, 9, 29], 
+                        "sunday": [15, 17, 9, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 743,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/relief-rouge-d-placement.jpg',
+                    title: 'Relief rouge à déplacement',
+                    artist: 'Julio Le Parc',
+                    year: '?',
+                    rule: {
+                        "monday": [15, 17, 9, 29],
+                        "tuesday": [20, 18, 10, 13],
+                        "wednesday": [20, 21, 12, 16],
+                        "thursday": [23, 25, 26, 28],
+                        "friday": [25, 27, 31, 3], 
+                        "saturday": [27, 29, 30, 31],
+                        "sunday": [15, 17, 9, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 744,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/the-tree-1928.jpg',
+                    title: 'The Tree',
+                    artist: 'Serge Charchoune',
+                    year: '1928',
+                    rule: {
+                        "monday": [15, 17, 9, 29],
+                        "tuesday": [15, 17, 9, 29], 
+                        "wednesday": [20, 18, 10, 13],
+                        "thursday": [20, 21, 12, 16],
+                        "friday": [23, 25, 26, 28],
+                        "saturday": [25, 27, 31, 3], 
+                        "sunday": [27, 29, 30, 31] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 745,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/untitled-07-2006(1).jpg',
+                    title: 'Untitled 07',
+                    artist: 'Gary Hume',
+                    year: '2006',
+                    rule: {
+                        "monday": [27, 29, 30, 31],
+                        "tuesday": [15, 17, 9, 29], 
+                        "wednesday": [15, 17, 9, 29], 
+                        "thursday": [20, 18, 10, 13],
+                        "friday": [20, 21, 12, 16],
+                        "saturday": [23, 25, 26, 28],
+                        "sunday": [25, 27, 31, 3]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

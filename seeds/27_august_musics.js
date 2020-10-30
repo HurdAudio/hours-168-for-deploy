@@ -7186,6 +7186,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 400,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=154613271/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://saj-rec.bandcamp.com/album/shotgun-wedding',
+                    a_string: 'Shotgun Wedding by Mayo Thompson with Sven-Åke Johansson Quintett',
+                    rule: {
+                        "monday": [4, 12, 25, 24],
+                        "tuesday": [3, 11, 24, 23], 
+                        "wednesday": [2, 10, 23, 22], 
+                        "thursday": [6, 14, 27, 26], 
+                        "saturday": [5, 13, 26, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 401,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2788528957/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://saj-rec.bandcamp.com/album/hudson-riv-a-foggy-day',
+                    a_string: 'Hudson Riv - A Foggy Day by Carl Johansson Williamson',
+                    rule: {
+                        "monday": [5, 13, 26, 25],
+                        "tuesday": [4, 12, 25, 24], 
+                        "wednesday": [3, 11, 24, 23], 
+                        "thursday": [2, 10, 23, 22], 
+                        "saturday": [6, 14, 27, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 402,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=716942255/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://saj-rec.bandcamp.com/album/s-j-mit-dem-nmui-im-so36-79',
+                    a_string: 'SÅJ mit dem NMUI im SO36’79 by Sven-Åke Johansson &amp; NMUI',
+                    rule: {
+                        "monday": [6, 14, 27, 26],
+                        "tuesday": [5, 13, 26, 25], 
+                        "wednesday": [4, 12, 25, 24], 
+                        "thursday": [3, 11, 24, 23], 
+                        "saturday": [2, 10, 23, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -7618,6 +7618,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 424,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3349498105/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://gilfema.bandcamp.com/album/three',
+                    a_string: 'Three by Gilfema',
+                    rule: {
+                        "monday": [1, 9, 20, 26],
+                        "tuesday": [30, 8, 20, 25], 
+                        "wednesday": [4, 12, 24, 29], 
+                        "thursday": [3, 10, 23, 28], 
+                        "saturday": [2, 10, 22, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 425,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=629206590/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://underpool.bandcamp.com/album/trabalenguas',
+                    a_string: 'Trabalenguas by Ester Quevedo Quintet',
+                    rule: {
+                        "monday": [2, 10, 22, 27],
+                        "tuesday": [1, 9, 20, 26],  
+                        "wednesday": [30, 8, 20, 25], 
+                        "thursday": [4, 12, 24, 29], 
+                        "saturday": [3, 10, 23, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 426,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2373116457/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://thegoodlifeband.bandcamp.com/album/the-animals-took-over',
+                    a_string: 'The Animals Took Over by The Good Life - John Dieterich, Nels Cline, Ben Goldberg, Trevor Dunn, &amp; Scott Amendola',
+                    rule: {
+                        "monday": [3, 10, 23, 28],
+                        "tuesday": [2, 10, 22, 27], 
+                        "wednesday": [1, 9, 20, 26],  
+                        "thursday": [30, 8, 20, 25], 
+                        "saturday": [4, 12, 24, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -7510,6 +7510,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 418,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3161590533/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://livingmyth.bandcamp.com/album/live-at-the-stone',
+                    a_string: 'Live at The Stone by YoshimiO &amp; Chuck Bettis',
+                    rule: {
+                        "monday": [28, 3, 10, 23],
+                        "tuesday": [27, 2, 9, 22],  
+                        "wednesday": [31, 6, 13, 26], 
+                        "thursday": [30, 5, 12, 25], 
+                        "saturday": [29, 4, 11, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 419,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=318770789/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://stuartchalmers.bandcamp.com/album/the-heart-of-contemplation',
+                    a_string: 'The Heart Of Contemplation by Stuart Chalmers',
+                    rule: {
+                        "monday": [29, 4, 11, 24],
+                        "tuesday": [28, 3, 10, 23], 
+                        "wednesday": [27, 2, 9, 22],  
+                        "thursday": [31, 6, 13, 26], 
+                        "saturday": [30, 5, 12, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 420,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1716385490/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://fortevilfruit.bandcamp.com/album/notes-from-the-bath',
+                    a_string: 'Notes from the Bath by Jane Deasy',
+                    rule: {
+                        "monday": [31, 6, 13, 26],
+                        "tuesday": [30, 5, 12, 25], 
+                        "wednesday": [29, 4, 11, 24],  
+                        "thursday": [28, 3, 10, 23], 
+                        "saturday": [1, 7, 14, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

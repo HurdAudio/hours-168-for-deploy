@@ -13996,11 +13996,111 @@ exports.seed = function (knex, Promise) {
                     rule: {
                         "monday": [5, 15, 23, 25],
                         "tuesday": [2, 13, 23, 12],
-                        "wednesday": [1, 12, 22, 1], 
+                        "wednesday": [1, 12, 22, 11], 
                         "thursday": [30, 9, 19, 27], 
                         "friday": [28, 6, 18, 27],  
                         "saturday": [7, 19, 29, 6],  
                         "sunday": [7, 18, 27, 6]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 701,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-a-sculptor-and-painter-d-s-stelletsky-1901.jpg',
+                    title: 'Portrait of a sculptor and painter D.S. Stelletsky',
+                    artist: 'Boris Kustodiev',
+                    year: '1901',
+                    rule: {
+                        "monday": [7, 18, 27, 6],
+                        "tuesday": [5, 15, 23, 25], 
+                        "wednesday": [2, 13, 23, 12], 
+                        "thursday": [1, 12, 22, 11], 
+                        "friday": [30, 9, 19, 27], 
+                        "saturday": [28, 6, 18, 27], 
+                        "sunday": [7, 19, 29, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 702,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-julia-petrovna-greek-1901.jpg',
+                    title: 'Portrait of Julia Petrovna Greek',
+                    artist: 'Boris Kustodiev',
+                    year: '1901',
+                    rule: {
+                        "monday": [7, 19, 29, 6],
+                        "tuesday": [7, 18, 27, 6],  
+                        "wednesday": [5, 15, 23, 25], 
+                        "thursday": [2, 13, 23, 12], 
+                        "friday": [1, 12, 22, 11], 
+                        "saturday": [30, 9, 19, 27], 
+                        "sunday": [28, 6, 18, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 703,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-m-i-heylik-1901.jpg',
+                    title: 'Portrait of M.I. Heylik',
+                    artist: 'Boris Kustodiev',
+                    year: '1901',
+                    rule: {
+                        "monday": [28, 6, 18, 27],
+                        "tuesday": [7, 19, 29, 6],  
+                        "wednesday": [7, 18, 27, 6],  
+                        "thursday": [5, 15, 23, 25], 
+                        "friday": [2, 13, 23, 12], 
+                        "saturday": [1, 12, 22, 11], 
+                        "sunday": [30, 9, 19, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 704,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-stjepan-nikolsky-uncle-of-the-artist-1901.jpg',
+                    title: 'Portrait of Stjepan Nikolsky, uncle of the artist',
+                    artist: 'Boris Kustodiev',
+                    year: '1901',
+                    rule: {
+                        "monday": [30, 9, 19, 27],
+                        "tuesday": [28, 6, 18, 27], 
+                        "wednesday": [7, 19, 29, 6],  
+                        "thursday": [7, 18, 27, 6],  
+                        "friday": [5, 15, 23, 25], 
+                        "saturday": [2, 13, 23, 12], 
+                        "sunday": [1, 12, 22, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 705,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-the-painter-ivan-bilibin-1901.jpg',
+                    title: 'Portrait of the Painter Ivan Bilibin',
+                    artist: 'Boris Kustodiev',
+                    year: '1901',
+                    rule: {
+                        "monday": [1, 12, 22, 11],
+                        "tuesday": [30, 9, 19, 27], 
+                        "wednesday": [28, 6, 18, 27], 
+                        "thursday": [7, 19, 29, 6],  
+                        "friday": [7, 18, 27, 6],  
+                        "saturday": [5, 15, 23, 25], 
+                        "sunday": [2, 13, 23, 12]  
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

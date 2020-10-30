@@ -14204,6 +14204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 711,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/900_Row-One-Brand_1956-new-york-yankees-yearbook-art-row-one-brand-vintage-sports-poster-art.jpg',
+                    title: '1956 New York Hankees',
+                    artist: '?',
+                    year: '1956',
+                    rule: {
+                        "monday": [7, 13, 19, 25],
+                        "tuesday": [8, 13, 19, 25], 
+                        "wednesday": [7, 12, 18, 24], 
+                        "thursday": [26, 18, 23, 29],
+                        "friday": [26, 16, 22, 28],
+                        "saturday": [11, 14, 27, 28],
+                        "sunday": [10, 14, 29, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 712,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/61WZjFyfDfL._AC_SX425_.jpg',
+                    title: 'Atlas New York Yankees Art Sketch Style Poster',
+                    artist: 'Atlas Store',
+                    year: '?',
+                    rule: {
+                        "monday": [10, 14, 29, 27],
+                        "tuesday": [7, 13, 19, 25], 
+                        "wednesday": [8, 13, 19, 25], 
+                        "thursday": [7, 12, 18, 24], 
+                        "friday": [26, 18, 23, 29],
+                        "saturday": [26, 16, 22, 28],
+                        "sunday": [11, 14, 27, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 713,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/f0f27e032fd0d104b7d4df9cf54d0dc4.jpg',
+                    title: 'New York Yankees Logo 3D',
+                    artist: 'popsicart',
+                    year: '?',
+                    rule: {
+                        "monday": [11, 14, 27, 28],
+                        "tuesday": [10, 14, 29, 27],
+                        "wednesday": [7, 13, 19, 25], 
+                        "thursday": [8, 13, 19, 25], 
+                        "friday": [7, 12, 18, 24], 
+                        "saturday": [26, 18, 23, 29],
+                        "sunday": [26, 16, 22, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 714,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/4-chicago-cubs-v-new-york-yankees-rob-tringali.jpg',
+                    title: 'Chicago Cubs V. New York Yankees',
+                    artist: 'Rob Tringali',
+                    year: '2014',
+                    rule: {
+                        "monday": [27, 17, 23, 29],
+                        "tuesday": [12, 15, 28, 29],
+                        "wednesday": [11, 15, 30, 28], 
+                        "thursday": [8, 14, 20, 26], 
+                        "friday": [9, 14, 20, 26], 
+                        "saturday": [8, 13, 19, 25],
+                        "sunday": [27, 19, 24, 30] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 715,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/5b5bbe64df7665c8c88e1ed039ad3535.jpg',
+                    title: 'Yankees Graffiti',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 19, 24, 30],
+                        "tuesday": [27, 17, 23, 29],
+                        "wednesday": [12, 15, 28, 29],
+                        "thursday": [11, 15, 30, 28],
+                        "friday": [8, 14, 20, 26], 
+                        "saturday": [9, 14, 20, 26], 
+                        "sunday": [8, 13, 19, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

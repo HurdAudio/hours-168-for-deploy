@@ -13404,6 +13404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 671,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/trouville-1911.jpg',
+                    title: 'Trouville',
+                    artist: 'Fernand Leger',
+                    year: '1910 - 1911',
+                    rule: {
+                        "monday": [2, 4, 14, 30],
+                        "tuesday": [1, 4, 13, 29],  
+                        "wednesday": [31, 3, 12, 28], 
+                        "thursday": [6, 10, 18, 3],  
+                        "friday": [3, 8, 17, 2],   
+                        "saturday": [3, 8, 16, 1],   
+                        "sunday": [3, 5, 15, 31]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 672,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/composition-1933.jpg',
+                    title: 'Composition',
+                    artist: 'Otto Freundlich',
+                    year: '1933',
+                    rule: {
+                        "monday": [4, 6, 16, 1],
+                        "tuesday": [3, 5, 15, 31],  
+                        "wednesday": [2, 5, 14, 30], 
+                        "thursday": [1, 4, 13, 29],  
+                        "friday": [7, 11, 19, 4],   
+                        "saturday": [4, 9, 17, 3],   
+                        "sunday": [4, 9, 17, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 673,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/interior-from-strandgade-with-sunlight-on-the-floor-1901.jpg',
+                    title: 'Interior from Strandgade with Sunlight on the Floor',
+                    artist: 'Vilhelm Hammershoi',
+                    year: '1901',
+                    rule: {
+                        "monday": [4, 9, 17, 2],
+                        "tuesday": [4, 6, 16, 1],   
+                        "wednesday": [3, 5, 15, 31],  
+                        "thursday": [2, 5, 14, 30],  
+                        "friday": [1, 4, 13, 29],  
+                        "saturday": [7, 11, 19, 4],  
+                        "sunday": [4, 9, 17, 3]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 674,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/monsieur-cactus-1939.jpg',
+                    title: 'Monsieur Cactus',
+                    artist: 'Julio Gonzalez',
+                    year: '1939',
+                    rule: {
+                        "monday": [4, 9, 17, 3],
+                        "tuesday": [4, 9, 17, 2],   
+                        "wednesday": [4, 6, 16, 1],   
+                        "thursday": [3, 5, 15, 31],  
+                        "friday": [2, 5, 14, 30],  
+                        "saturday": [1, 4, 13, 29],  
+                        "sunday": [7, 11, 19, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 675,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/woman-in-a-deck-chair-by-the-window-1913.jpg',
+                    title: 'Woman in a Deck Chair by the Window',
+                    artist: 'Lovis Corinth',
+                    year: '1913',
+                    rule: {
+                        "monday": [7, 11, 19, 4],
+                        "tuesday": [4, 9, 17, 3],   
+                        "wednesday": [4, 9, 17, 2],   
+                        "thursday": [4, 6, 16, 1],   
+                        "friday": [3, 5, 15, 31],  
+                        "saturday": [2, 5, 14, 30],  
+                        "sunday": [1, 4, 13, 29]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

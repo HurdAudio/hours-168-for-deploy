@@ -12604,6 +12604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 631,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/39-00,Doc.jpg',
+                    title: 'Doc Savage',
+                    artist: 'Paul Orban',
+                    year: '1939',
+                    rule: {
+                        "monday": [31, 12, 21, 27],
+                        "tuesday": [30, 12, 20, 26],
+                        "wednesday": [29, 11, 19, 25],
+                        "thursday": [28, 10, 18, 24],
+                        "friday": [27, 8, 7, 23],  
+                        "saturday": [16, 8, 27, 3],  
+                        "sunday": [1, 14, 22, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 632,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/28-00,Calendar.jpg',
+                    title: 'Calendar',
+                    artist: 'G. C. Orde',
+                    year: '1929',
+                    rule: {
+                        "monday": [1, 14, 22, 28],
+                        "tuesday": [31, 12, 21, 27],
+                        "wednesday": [30, 12, 20, 26],
+                        "thursday": [29, 11, 19, 25],
+                        "friday": [28, 10, 18, 24],
+                        "saturday": [27, 8, 7, 23],  
+                        "sunday": [16, 8, 27, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 633,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/24-00,JungleLv.jpg',
+                    title: 'Book Cover',
+                    artist: 'Delos Palmer',
+                    year: '1924',
+                    rule: {
+                        "monday": [16, 8, 27, 3],
+                        "tuesday": [1, 14, 22, 28], 
+                        "wednesday": [31, 12, 21, 27],
+                        "thursday": [30, 12, 20, 26],
+                        "friday": [29, 11, 19, 25],
+                        "saturday": [28, 10, 18, 24],
+                        "sunday": [27, 8, 7, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 634,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/54-Fall,ThrillingLove.jpg',
+                    title: 'all Thrilling Love',
+                    artist: 'John Parker',
+                    year: '1954',
+                    rule: {
+                        "monday": [27, 8, 7, 23],
+                        "tuesday": [16, 8, 27, 3],  
+                        "wednesday": [1, 14, 22, 28], 
+                        "thursday": [31, 12, 21, 27],
+                        "friday": [30, 12, 20, 26],
+                        "saturday": [29, 11, 19, 25],
+                        "sunday": [28, 10, 18, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 635,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/02-10,Everybodys.jpg',
+                    title: 'Everybody\'s',
+                    artist: 'H. L. Parkhurst',
+                    year: '1902 - 1910',
+                    rule: {
+                        "monday": [28, 10, 18, 24],
+                        "tuesday": [27, 8, 7, 23],  
+                        "wednesday": [16, 8, 27, 3],  
+                        "thursday": [1, 14, 22, 28], 
+                        "friday": [31, 12, 21, 27],
+                        "saturday": [30, 12, 20, 26],
+                        "sunday": [29, 11, 19, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

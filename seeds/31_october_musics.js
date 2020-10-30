@@ -6970,6 +6970,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2198471086/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://ironlungpv.bandcamp.com/album/men-and-their-work-lp-lungs-160',
+                    a_string: 'Men And Their Work LP (LUNGS-160) by ALL HITS',
+                    rule: {
+                        "monday": [2, 12, 22, 25],
+                        "tuesday": [1, 11, 21, 24], 
+                        "wednesday": [31, 11, 20, 23],
+                        "thursday": [30, 9, 20, 22], 
+                        "saturday": [29, 8, 18, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=897241492/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://galoresf.bandcamp.com/album/galore',
+                    a_string: 'Galore by Galore',
+                    rule: {
+                        "monday": [29, 8, 18, 21],
+                        "tuesday": [2, 12, 22, 25], 
+                        "wednesday": [1, 11, 21, 24], 
+                        "thursday": [31, 11, 20, 23],
+                        "saturday": [30, 9, 20, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2934980383/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://bigjoanie.bandcamp.com/album/cranes-in-the-sky-b-w-its-you',
+                    a_string: 'Cranes in the Sky b/w It&#39;s You by Big Joanie',
+                    rule: {
+                        "monday": [30, 9, 20, 22],
+                        "tuesday": [29, 8, 18, 21], 
+                        "wednesday": [2, 12, 22, 25], 
+                        "thursday": [1, 11, 21, 24], 
+                        "saturday": [31, 11, 20, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

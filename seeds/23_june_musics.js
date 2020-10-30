@@ -7402,6 +7402,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 412,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1770815062/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://juliannabarwick.bandcamp.com/album/healing-is-a-miracle',
+                    a_string: 'Healing Is A Miracle by Julianna Barwick',
+                    rule: {
+                        "monday": [27, 30, 6, 17],
+                        "tuesday": [27, 30, 6, 16], 
+                        "wednesday": [25, 3, 5, 20],  
+                        "thursday": [29, 3, 29, 20], 
+                        "saturday": [28, 1, 6, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 413,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=961232104/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://jonhassell.bandcamp.com/album/seeing-through-sound-pentimento-volume-two',
+                    a_string: 'Seeing Through Sound (Pentimento Volume Two) by Jon Hassell',
+                    rule: {
+                        "monday": [29, 2, 7, 19],
+                        "tuesday": [28, 1, 7, 18], 
+                        "wednesday": [28, 1, 7, 17],  
+                        "thursday": [26, 4, 6, 21], 
+                        "saturday": [30, 4, 30, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 414,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1873899069/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://lillernetapes.bandcamp.com/album/lillerne-122-fundraiser-compilation',
+                    a_string: 'Lillerne #122 Fundraiser Compilation by Lillerne Tapes',
+                    rule: {
+                        "monday": [30, 4, 30, 21],
+                        "tuesday": [29, 2, 7, 19],  
+                        "wednesday": [28, 1, 7, 18],  
+                        "thursday": [28, 1, 7, 17],  
+                        "saturday": [26, 4, 6, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

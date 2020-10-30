@@ -13804,6 +13804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 691,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/_TeodelinaDetry.jpg',
+                    title: 'The power of a look',
+                    artist: 'Teodelina Detry',
+                    year: '2020',
+                    rule: {
+                        "monday": [3, 13, 24, 1],
+                        "tuesday": [2, 12, 22, 30], 
+                        "wednesday": [8, 18, 28, 5],  
+                        "thursday": [7, 17, 28, 5],  
+                        "friday": [5, 16, 26, 24], 
+                        "saturday": [5, 15, 25, 2],  
+                        "sunday": [14, 24, 4, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 692,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/U9A0820.jpg',
+                    title: 'Raw feelings',
+                    artist: 'Teodelina Detry',
+                    year: '2020',
+                    rule: {
+                        "monday": [14, 24, 4, 2],
+                        "tuesday": [3, 13, 24, 1],  
+                        "wednesday": [2, 12, 22, 30], 
+                        "thursday": [8, 18, 28, 5],  
+                        "friday": [7, 17, 28, 5],  
+                        "saturday": [5, 16, 26, 24], 
+                        "sunday": [5, 15, 25, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 693,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/U9A9728-2.jpg',
+                    title: 'The power of music',
+                    artist: 'Teodelina Detry',
+                    year: '2020',
+                    rule: {
+                        "monday": [6, 16, 26, 3],
+                        "tuesday": [15, 25, 4, 3],  
+                        "wednesday": [4, 14, 25, 2], 
+                        "thursday": [3, 13, 23, 1],  
+                        "friday": [9, 19, 29, 6],  
+                        "saturday": [8, 18, 29, 6], 
+                        "sunday": [6, 17, 27, 25]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 694,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/U9A6244.jpg',
+                    title: 'Chi',
+                    artist: 'Teodelina Detry',
+                    year: '2020',
+                    rule: {
+                        "monday": [6, 17, 27, 25],
+                        "tuesday": [6, 16, 26, 3],  
+                        "wednesday": [15, 25, 4, 3],  
+                        "thursday": [4, 14, 25, 2],  
+                        "friday": [3, 13, 23, 1],  
+                        "saturday": [9, 19, 29, 6],  
+                        "sunday": [8, 18, 29, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 695,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/U9A7070.jpg',
+                    title: 'Insight',
+                    artist: 'Teodelina Detry',
+                    year: '2020',
+                    rule: {
+                        "monday": [8, 18, 29, 6],
+                        "tuesday": [6, 17, 27, 25], 
+                        "wednesday": [6, 16, 26, 3],  
+                        "thursday": [15, 25, 4, 3],  
+                        "friday": [4, 14, 25, 2],  
+                        "saturday": [3, 13, 23, 1],  
+                        "sunday": [9, 19, 29, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -13604,6 +13604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 681,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/nude-no-1-1914.jpg',
+                    title: 'Nude No. 1',
+                    artist: 'Alberto Magnelli',
+                    year: '1914',
+                    rule: {
+                        "monday": [1, 12, 3, 4],
+                        "tuesday": [6, 15, 28, 8],  
+                        "wednesday": [6, 14, 28, 8],  
+                        "thursday": [4, 15, 27, 7],  
+                        "friday": [4, 15, 26, 27], 
+                        "saturday": [3, 14, 24, 26], 
+                        "sunday": [31, 11, 2, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 682,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/the-clown-musician-1957.jpg',
+                    title: 'The clown musician',
+                    artist: 'Marc Chagall',
+                    year: '1957',
+                    rule: {
+                        "monday": [31, 11, 2, 3],
+                        "tuesday": [1, 12, 3, 4],   
+                        "wednesday": [6, 15, 28, 8],  
+                        "thursday": [6, 14, 28, 8],  
+                        "friday": [4, 15, 27, 7],  
+                        "saturday": [4, 15, 26, 27], 
+                        "sunday": [3, 14, 24, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 683,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/portrait-de-suzy-solidor-1927.jpg',
+                    title: 'Portrait De Suzy Solidor',
+                    artist: 'Tsuguharu Foujita',
+                    year: '1927',
+                    rule: {
+                        "monday": [3, 14, 24, 26],
+                        "tuesday": [31, 11, 2, 3],  
+                        "wednesday": [1, 12, 3, 4],   
+                        "thursday": [6, 15, 28, 8],  
+                        "friday": [6, 14, 28, 8],  
+                        "saturday": [4, 15, 27, 7],  
+                        "sunday": [4, 15, 26, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 684,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/synth-se.jpg',
+                    title: 'Synthèse',
+                    artist: 'Amedee Ozenfant',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 15, 26, 27],
+                        "tuesday": [3, 14, 24, 26], 
+                        "wednesday": [31, 11, 2, 3],  
+                        "thursday": [1, 12, 3, 4],   
+                        "friday": [6, 15, 28, 8],  
+                        "saturday": [6, 14, 28, 8],  
+                        "sunday": [4, 15, 27, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 685,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/standing-nude-from-the-front.jpg',
+                    title: 'Standing nude from the front',
+                    artist: 'Roger de La Fresnaye',
+                    year: '1910',
+                    rule: {
+                        "monday": [4, 15, 27, 7],
+                        "tuesday": [4, 15, 26, 27], 
+                        "wednesday": [3, 14, 24, 26], 
+                        "thursday": [31, 11, 2, 3],  
+                        "friday": [1, 12, 3, 4],   
+                        "saturday": [6, 15, 28, 8],  
+                        "sunday": [6, 14, 28, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

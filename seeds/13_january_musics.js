@@ -7942,6 +7942,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 442,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3300265794/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://kakiking.bandcamp.com/album/modern-yesterdays',
+                    a_string: 'Modern Yesterdays by Kaki King',
+                    rule: {
+                        "monday": [9, 16, 17, 18],
+                        "tuesday": [8, 14, 15, 16], 
+                        "wednesday": [7, 14, 15, 16], 
+                        "thursday": [11, 18, 19, 20],
+                        "saturday": [10, 16, 17, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 443,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3827557956/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://johnlutheradams.bandcamp.com/album/the-become-trilogy',
+                    a_string: 'The Become Trilogy by John Luther Adams',
+                    rule: {
+                        "monday": [10, 16, 17, 19],
+                        "tuesday": [9, 16, 17, 18], 
+                        "wednesday": [8, 14, 15, 16], 
+                        "thursday": [7, 14, 15, 16], 
+                        "saturday": [11, 18, 19, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 444,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2908170535/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://davidlangmusic.bandcamp.com/album/love-fail-2',
+                    a_string: 'love fail by David Lang &amp; Lorelei Ensemble',
+                    rule: {
+                        "monday": [11, 18, 19, 20],
+                        "tuesday": [10, 16, 17, 19],
+                        "wednesday": [9, 16, 17, 18], 
+                        "thursday": [8, 14, 15, 16], 
+                        "saturday": [7, 14, 15, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

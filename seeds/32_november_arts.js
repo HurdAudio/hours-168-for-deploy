@@ -12804,6 +12804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 641,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/eagle-turquoise-7h-4-1966.jpg',
+                    title: 'Eagle Turquoise 7H#4',
+                    artist: 'Robert Ryman',
+                    year: '1966',
+                    rule: {
+                        "monday": [11, 16, 22, 27],
+                        "tuesday": [10, 12, 20, 16],
+                        "wednesday": [9, 13, 20, 23], 
+                        "thursday": [8, 11, 18, 23], 
+                        "friday": [6, 11, 17, 22], 
+                        "saturday": [5, 9, 16, 21],  
+                        "sunday": [5, 10, 16, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 642,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/series-painting-2-1966.jpg',
+                    title: 'Series Painting 2',
+                    artist: 'Ronnie Landfield',
+                    year: '1966',
+                    rule: {
+                        "monday": [5, 10, 16, 23],
+                        "tuesday": [11, 16, 22, 27],
+                        "wednesday": [10, 12, 20, 16],
+                        "thursday": [9, 13, 20, 23], 
+                        "friday": [8, 11, 18, 23], 
+                        "saturday": [6, 11, 17, 22], 
+                        "sunday": [5, 9, 16, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 643,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/series-painting-7-1966.jpg',
+                    title: 'Series Painting 7',
+                    artist: 'Ronnie Landfield',
+                    year: '1966',
+                    rule: {
+                        "monday": [5, 9, 16, 21],
+                        "tuesday": [5, 10, 16, 23], 
+                        "wednesday": [11, 16, 22, 27],
+                        "thursday": [10, 12, 20, 16],
+                        "friday": [9, 13, 20, 23], 
+                        "saturday": [8, 11, 18, 23], 
+                        "sunday": [6, 11, 17, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 644,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/brown-block-in-three-parts-1966.jpg',
+                    title: 'Brown Block in Three Parts',
+                    artist: 'John McCracken',
+                    year: '1966',
+                    rule: {
+                        "monday": [7, 12, 18, 23],
+                        "tuesday": [6, 10, 17, 22], 
+                        "wednesday": [6, 11, 17, 24],
+                        "thursday": [12, 17, 23, 28],
+                        "friday": [11, 13, 21, 17], 
+                        "saturday": [10, 14, 21, 24], 
+                        "sunday": [9, 12, 19, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 645,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/unknown-title-1966.jpg',
+                    title: 'unknown title',
+                    artist: 'Angelo de Sousa',
+                    year: '1966',
+                    rule: {
+                        "monday": [9, 12, 19, 24],
+                        "tuesday": [7, 12, 18, 23], 
+                        "wednesday": [6, 10, 17, 22], 
+                        "thursday": [6, 11, 17, 24], 
+                        "friday": [12, 17, 23, 28],
+                        "saturday": [11, 13, 21, 17],
+                        "sunday": [10, 14, 21, 24] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

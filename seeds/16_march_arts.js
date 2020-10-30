@@ -14404,6 +14404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 721,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/new-hope-bucks-county-1935.jpg',
+                    title: 'New Hope - Bucks County',
+                    artist: 'Fern Coppedge',
+                    year: '1935',
+                    rule: {
+                        "monday": [8, 18, 26, 5],
+                        "tuesday": [7, 18, 25, 4],  
+                        "wednesday": [6, 16, 24, 3],  
+                        "thursday": [5, 15, 24, 2], 
+                        "friday": [11, 20, 30, 7],  
+                        "saturday": [10, 20, 28, 7],  
+                        "sunday": [7, 19, 27, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 722,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/at-the-dressing-table-1909.jpg',
+                    title: 'At the dressing table',
+                    artist: 'Zinaida Serebriakova',
+                    year: '1909',
+                    rule: {
+                        "monday": [7, 19, 27, 6],
+                        "tuesday": [8, 18, 26, 5],  
+                        "wednesday": [7, 18, 25, 4],  
+                        "thursday": [6, 16, 24, 3],  
+                        "friday": [5, 15, 24, 2],  
+                        "saturday": [11, 20, 30, 7], 
+                        "sunday": [10, 20, 28, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 723,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/62-5-x50-5-gen-erkek-portresi-sak-p-sabanc.jpg',
+                    title: 'A Male Portrait',
+                    artist: 'Mihri Musfik',
+                    year: '?',
+                    rule: {
+                        "monday": [10, 20, 28, 7],
+                        "tuesday": [7, 19, 27, 6],  
+                        "wednesday": [8, 18, 26, 5],  
+                        "thursday": [7, 18, 25, 4],  
+                        "friday": [6, 16, 24, 3],  
+                        "saturday": [5, 15, 24, 2],  
+                        "sunday": [11, 20, 30, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 724,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/carnaval-em-madureira-1924.jpg',
+                    title: 'Carnaval em Madureira',
+                    artist: 'Tarsila do Amaral',
+                    year: '1924',
+                    rule: {
+                        "monday": [11, 20, 30, 7],
+                        "tuesday": [10, 20, 28, 7], 
+                        "wednesday": [7, 19, 27, 6],  
+                        "thursday": [8, 18, 26, 5],  
+                        "friday": [7, 18, 25, 4],  
+                        "saturday": [6, 16, 24, 3],  
+                        "sunday": [5, 15, 24, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 725,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/draft-for-the-tearoom-on-the-ground-floor-of-the-cafe-aubette-1926.jpg',
+                    title: 'Draft for the tearoom on the ground floor of the Cafe Aubette',
+                    artist: 'Sophie Taeuber-Arp',
+                    year: '1926',
+                    rule: {
+                        "monday": [5, 15, 24, 2],
+                        "tuesday": [11, 20, 30, 7], 
+                        "wednesday": [10, 20, 28, 7], 
+                        "thursday": [7, 19, 27, 6],  
+                        "friday": [8, 18, 26, 5],  
+                        "saturday": [7, 18, 25, 4],  
+                        "sunday": [6, 16, 24, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

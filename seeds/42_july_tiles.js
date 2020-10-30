@@ -1656,6 +1656,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#d4ccdf',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 119,
+                    user_id: 1,
+                    theme: 'Steam',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july_tiles/mountains-5438469_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#141310',
+                    color_medium: '#a7b7c5',
+                    color_light: '#d1d7dd',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

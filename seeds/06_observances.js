@@ -12064,6 +12064,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 776,
+                    user_id: 1,
+                    name: 'Archie Shepp (reeds) born 1937',
+                    color: '#51499c',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/33690987_10155329203070825_2621021981570498560_o.jpg',
+                    day_of: new Date('1937-05-24  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=1429094428/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=3151002255/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=4094599429/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['https://futuramarge.bandcamp.com/album/attica-blues-big-band-live-at-the-palais-des-glaces', 'https://storyvillerecords.bandcamp.com/album/archie-shepp-and-the-new-york-contemporary-five', 'https://storyvillerecords.bandcamp.com/album/archie-shepp-the-new-york-contemporary-five-vol-2-remastered'],
+                        "a_strings": ['Attica Blues Big Band (Live At The Palais Des Glaces) by Archie Shepp', 'Archie Shepp And The New York Contemporary Five by Archie Shepp', 'Archie Shepp &amp; The New York Contemporary Five - Vol. 2 - Remastered by Archie Shepp']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 777,
+                    user_id: 1,
+                    name: 'Amadeo Bordiga (political theorist/communist) born 1889',
+                    color: '#4f4f4f',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Bordiga.gif',
+                    day_of: new Date('1889-06-13  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

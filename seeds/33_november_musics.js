@@ -6844,6 +6844,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 382,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=683137931/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://analogafrica.bandcamp.com/album/take-one-2',
+                    a_string: 'Take One by Hallelujah Chicken Run Band',
+                    rule: {
+                        "monday": [23, 4, 15, 19],
+                        "tuesday": [22, 3, 14, 25], 
+                        "wednesday": [21, 2, 13, 25], 
+                        "thursday": [25, 6, 17, 21], 
+                        "saturday": [24, 5, 16, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 383,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1466879152/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://jovilemonstre.bandcamp.com/album/yaj-vol-2-sun-yellow',
+                    a_string: 'Yajé, Vol. 2: Sun Yellow by Jovi',
+                    rule: {
+                        "monday": [24, 5, 16, 20],
+                        "tuesday": [23, 4, 15, 19], 
+                        "wednesday": [22, 3, 14, 25], 
+                        "thursday": [21, 2, 13, 25], 
+                        "saturday": [25, 6, 17, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 384,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3644553927/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://forbiddenplacerecords.bandcamp.com/album/return-to-worm-mountain-acoustic-tracks-2020',
+                    a_string: 'Return to Worm Mountain - &quot;Acoustic Tracks 2020&quot; by Forbidden Place Records',
+                    rule: {
+                        "monday": [25, 6, 17, 21],
+                        "tuesday": [24, 5, 16, 20], 
+                        "wednesday": [23, 4, 15, 19], 
+                        "thursday": [22, 3, 14, 25], 
+                        "saturday": [21, 2, 13, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

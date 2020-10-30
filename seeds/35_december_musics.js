@@ -6754,6 +6754,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 376,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1033287349/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://juanamolina.bandcamp.com/album/anrmal',
+                    a_string: 'ANRMAL by Juana Molina',
+                    rule: {
+                        "monday": [28, 3, 9, 15],
+                        "tuesday": [25, 2, 8, 14],  
+                        "wednesday": [24, 1, 7, 13],  
+                        "thursday": [25, 31, 6, 12], 
+                        "saturday": [29, 4, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 377,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=403448091/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://weepermusic.bandcamp.com/album/love-is-a-long-commute',
+                    a_string: 'Love is a Long Commute by Weeper',
+                    rule: {
+                        "monday": [29, 4, 10, 16],
+                        "tuesday": [28, 3, 9, 15],  
+                        "wednesday": [25, 2, 8, 14],  
+                        "thursday": [24, 1, 7, 13],  
+                        "saturday": [25, 31, 6, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 378,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2369313991/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://cyclicaldreams.bandcamp.com/album/gemstones-cyd-0012',
+                    a_string: 'Gemstones [CYD 0012] by Cyclical Dreams',
+                    rule: {
+                        "monday": [26, 1, 7, 13],
+                        "tuesday": [30, 5, 11, 17],  
+                        "wednesday": [29, 4, 10, 16],  
+                        "thursday": [26, 3, 9, 15],  
+                        "saturday": [25, 2, 8, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

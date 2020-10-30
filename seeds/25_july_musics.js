@@ -7294,6 +7294,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 406,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=25406970/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://profligate.bandcamp.com/album/too-numb-to-know',
+                    a_string: 'Too Numb to Know by Profligate',
+                    rule: {
+                        "monday": [27, 28, 4, 10],
+                        "tuesday": [26, 27, 3, 9], 
+                        "wednesday": [25, 27, 31, 8], 
+                        "thursday": [29, 31, 4, 12], 
+                        "saturday": [27, 28, 2, 11]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 407,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2523507957/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://thisisthekit.bandcamp.com/album/off-off-on',
+                    a_string: 'Off Off On by This Is The Kit',
+                    rule: {
+                        "monday": [27, 28, 2, 11],
+                        "tuesday": [27, 28, 4, 10], 
+                        "wednesday": [26, 27, 3, 9],  
+                        "thursday": [25, 27, 31, 8], 
+                        "saturday": [29, 31, 4, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 408,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4055473971/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://dorianelectra.bandcamp.com/album/my-agenda',
+                    a_string: 'My Agenda by DORIAN ELECTRA',
+                    rule: {
+                        "monday": [29, 31, 4, 12],
+                        "tuesday": [27, 28, 2, 11], 
+                        "wednesday": [27, 28, 4, 10], 
+                        "thursday": [26, 27, 3, 9],  
+                        "saturday": [25, 27, 31, 8]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

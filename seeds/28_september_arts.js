@@ -13204,6 +13204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 661,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/glass-slippers-1960.jpg',
+                    title: 'Glass Slippers',
+                    artist: 'Jo Baer',
+                    year: '1960',
+                    rule: {
+                        "monday": [7, 13, 1, 9],
+                        "tuesday": [3, 9, 30, 8],   
+                        "wednesday": [4, 9, 1, 27],   
+                        "thursday": [4, 10, 28, 6],  
+                        "friday": [23, 9, 27, 6],  
+                        "saturday": [22, 29, 26, 4], 
+                        "sunday": [30, 7, 25, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 662,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/senza-titolo-sottosopra-2000.jpg',
+                    title: 'Senza Titolo, Sottosopra',
+                    artist: 'Ettore Spalletti',
+                    year: '2000',
+                    rule: {
+                        "monday": [30, 7, 25, 2],
+                        "tuesday": [7, 13, 1, 9],   
+                        "wednesday": [3, 9, 30, 8],   
+                        "thursday": [4, 9, 1, 27],   
+                        "friday": [4, 10, 28, 6],  
+                        "saturday": [23, 9, 27, 6],  
+                        "sunday": [22, 29, 26, 4]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 663,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/impudent-encounter-1979.jpg',
+                    title: 'Impudent Encounter',
+                    artist: 'Kit Williams',
+                    year: '1979',
+                    rule: {
+                        "monday": [22, 29, 26, 4],
+                        "tuesday": [30, 7, 25, 2],  
+                        "wednesday": [7, 13, 1, 9],   
+                        "thursday": [3, 9, 30, 8],   
+                        "friday": [4, 9, 1, 27],   
+                        "saturday": [4, 10, 28, 6],  
+                        "sunday": [23, 9, 27, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 664,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/criminals-and-their-properties-1974.jpg',
+                    title: 'Criminals and their Properties',
+                    artist: 'Alvaro Lapa',
+                    year: '1974',
+                    rule: {
+                        "monday": [23, 9, 27, 6],
+                        "tuesday": [22, 29, 26, 4], 
+                        "wednesday": [30, 7, 25, 2],  
+                        "thursday": [7, 13, 1, 9],   
+                        "friday": [3, 9, 30, 8],   
+                        "saturday": [4, 9, 1, 27],   
+                        "sunday": [4, 10, 28, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 665,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/monkey-with-fish-2008.jpg',
+                    title: 'Monkey with Fish',
+                    artist: 'Twins Seven Seven',
+                    year: '2008',
+                    rule: {
+                        "monday": [5, 11, 29, 7],
+                        "tuesday": [24, 10, 28, 7], 
+                        "wednesday": [23, 30, 27, 5],  
+                        "thursday": [1, 8, 26, 3],   
+                        "friday": [8, 14, 2, 10],   
+                        "saturday": [4, 10, 1, 9],   
+                        "sunday": [5, 10, 2, 28]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

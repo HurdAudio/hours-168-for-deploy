@@ -1628,6 +1628,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#c7afa4',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 117,
+                    user_id: 1,
+                    theme: 'Leather',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/baseball-5375817_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#181818',
+                    color_medium: '#fbb82b',
+                    color_light: '#cfd0c8',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

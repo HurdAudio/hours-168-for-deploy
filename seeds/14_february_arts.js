@@ -14604,6 +14604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 731,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/valerie_maynard_harlem_973.jpg',
+                    title: 'Harlem Adventures',
+                    artist: 'Valerie Maynard',
+                    year: '2020',
+                    rule: {
+                        "monday": [28, 9, 5, 24],
+                        "tuesday": [18, 26, 5, 13], 
+                        "wednesday": [19, 28, 7, 15], 
+                        "thursday": [25, 1, 7, 17],  
+                        "friday": [24, 3, 11, 19], 
+                        "saturday": [26, 7, 13, 19], 
+                        "sunday": [28, 7, 15, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 732,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/fullsizeoutput_68d1-9999x700.jpeg',
+                    title: 'Cleaning Up Picasso\'s Studio',
+                    artist: 'Ealy Mays',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 7, 15, 25],
+                        "tuesday": [28, 9, 5, 24],  
+                        "wednesday": [18, 26, 5, 13], 
+                        "thursday": [19, 28, 7, 15], 
+                        "friday": [25, 1, 7, 17],  
+                        "saturday": [24, 3, 11, 19], 
+                        "sunday": [26, 7, 13, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 733,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/H0137-L09342177.jpg',
+                    title: 'Mask',
+                    artist: 'William McBride',
+                    year: '?',
+                    rule: {
+                        "monday": [26, 7, 13, 19],
+                        "tuesday": [28, 7, 15, 25], 
+                        "wednesday": [28, 9, 5, 24],  
+                        "thursday": [18, 26, 5, 13], 
+                        "friday": [19, 28, 7, 15], 
+                        "saturday": [25, 1, 7, 17],  
+                        "sunday": [24, 3, 11, 19]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 734,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/73315_ca_object_representations_media_940_publiclarge.jpg',
+                    title: 'Object Representations',
+                    artist: 'Howard McCalebb',
+                    year: '?',
+                    rule: {
+                        "monday": [24, 3, 11, 19],
+                        "tuesday": [26, 7, 13, 19], 
+                        "wednesday": [28, 7, 15, 25], 
+                        "thursday": [28, 9, 5, 24],  
+                        "friday": [18, 26, 5, 13], 
+                        "saturday": [19, 28, 7, 15], 
+                        "sunday": [25, 1, 7, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 735,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/corky-mccoy-dac124ab-7f1c-4af2-95e5-3537c2fea41-resize-750.jpeg',
+                    title: 'Miles Davis in Concert',
+                    artist: 'Corky McCoy',
+                    year: '?',
+                    rule: {
+                        "monday": [26, 2, 8, 18],
+                        "tuesday": [25, 4, 12, 20], 
+                        "wednesday": [27, 8, 14, 20], 
+                        "thursday": [29, 8, 16, 26],  
+                        "friday": [29, 10, 6, 25], 
+                        "saturday": [19, 27, 6, 14], 
+                        "sunday": [20, 29, 8, 16]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

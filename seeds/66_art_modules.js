@@ -5644,6 +5644,66 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 471,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/water-1-2008.jpeg',
+                    title: 'Water 1',
+                    artist: 'Dmytro Kavsan',
+                    year: '2008',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 472,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/seafood-at-the-opera-2008.jpeg',
+                    title: 'Seafood at the Opera',
+                    artist: 'Dmytro Kavsan',
+                    year: '2008',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 473,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/psalms-2009.jpg',
+                    title: 'Psalms',
+                    artist: 'Dmytro Kavsan',
+                    year: '2009',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 474,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/water-77-2009.jpg',
+                    title: 'Water #77',
+                    artist: 'Dmytro Kavsan',
+                    year: '2009',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 475,
+                    user_author_id: 1,
+                    theme: 'Transavantgarde',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/still-life-water-2009.jpg',
+                    title: 'Still Life. Water',
+                    artist: 'Dmytro Kavsan',
+                    year: '2009',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -7078,6 +7078,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 394,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2986432798/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://cuneiformrecords.bandcamp.com/album/1984',
+                    a_string: '1984 by Hugh Hopper',
+                    rule: {
+                        "monday": [29, 18, 26, 20],
+                        "tuesday": [27, 17, 25, 19],
+                        "wednesday": [1, 21, 29, 23], 
+                        "thursday": [30, 20, 28, 22],
+                        "saturday": [29, 19, 27, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 395,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4197946582/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://lapristinastereotipia.bandcamp.com/album/encantador-de-pesadillas',
+                    a_string: 'Encantador de pesadillas by La Prístina Stereotipia',
+                    rule: {
+                        "monday": [29, 19, 27, 20],
+                        "tuesday": [29, 18, 26, 20],
+                        "wednesday": [27, 17, 25, 19],
+                        "thursday": [1, 21, 29, 23], 
+                        "saturday": [30, 20, 28, 22] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 396,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3098101500/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://lapristinastereotipia.bandcamp.com/album/nervio-muerto',
+                    a_string: 'Nervio Muerto by La Prístina Stereotipia',
+                    rule: {
+                        "monday": [30, 20, 28, 22],
+                        "tuesday": [29, 19, 27, 20],
+                        "wednesday": [29, 18, 26, 20],
+                        "thursday": [27, 17, 25, 19],
+                        "saturday": [1, 21, 29, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

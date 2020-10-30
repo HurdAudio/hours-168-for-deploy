@@ -1600,6 +1600,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#d0d0d0',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 115,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/nail-5504053_1920.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#6f5739',
+                    color_medium: '#bba87e',
+                    color_light: '#f5edda',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

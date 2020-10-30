@@ -2944,6 +2944,16 @@ exports.seed = function (knex, Promise) {
                     a_string: 'Fantasias for Violin &amp; Guitar by Maarja Nuut &amp; Sun Araw',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 295,
+                    user_id: 1,
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1625575448/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://sunramusic.bandcamp.com/album/unity-live-at-storyville-nyc-oct-1977',
+                    a_string: 'Unity: Live at Storyville NYC Oct 1977 by Sun Ra &amp; His Arkestra',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

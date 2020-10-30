@@ -7834,6 +7834,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 436,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1492670727/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://spaza.bandcamp.com/album/uprize-music-from-the-original-motion-picture',
+                    a_string: 'UPRIZE! (Music from the Original Motion Picture) by SPAZA feat. Ariel Zamonsky, Gontse Makhene, Malcolm Jiyane, Nonku Phiri',
+                    rule: {
+                        "monday": [7, 11, 13, 17],
+                        "tuesday": [21, 13, 15, 17],
+                        "wednesday": [21, 15, 17, 19],
+                        "thursday": [24, 17, 19, 25],
+                        "saturday": [24, 18, 20, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 437,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1882448583/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://tcheserholmes.bandcamp.com/album/the-t-is-silent',
+                    a_string: '...the T is silent by Tcheser Holmes',
+                    rule: {
+                        "monday": [24, 18, 20, 26],
+                        "tuesday": [7, 11, 13, 17], 
+                        "wednesday": [21, 13, 15, 17],
+                        "thursday": [21, 15, 17, 19],
+                        "saturday": [24, 17, 19, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 438,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3151002255/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://storyvillerecords.bandcamp.com/album/archie-shepp-and-the-new-york-contemporary-five',
+                    a_string: 'Archie Shepp And The New York Contemporary Five by Archie Shepp',
+                    rule: {
+                        "monday": [24, 17, 19, 25],
+                        "tuesday": [24, 18, 20, 26],
+                        "wednesday": [7, 11, 13, 17], 
+                        "thursday": [21, 13, 15, 17],
+                        "saturday": [21, 15, 17, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
