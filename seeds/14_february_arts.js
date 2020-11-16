@@ -14704,6 +14704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 736,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/08Mcgee_NoahsArkGenesis.jpg',
+                    title: 'Noah’s Ark Genesis',
+                    artist: 'Charles McGee',
+                    year: '1984',
+                    rule: {
+                        "monday": [20, 29, 8, 16],
+                        "tuesday": [26, 2, 8, 18],  
+                        "wednesday": [25, 4, 12, 20], 
+                        "thursday": [27, 8, 14, 20], 
+                        "friday": [29, 8, 16, 26], 
+                        "saturday": [29, 10, 6, 25], 
+                        "sunday": [19, 27, 6, 14]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 737,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/the_history_if_sex_and_race,_part_i_-_2014.jpg',
+                    title: 'The History of Race and Sex, Part I',
+                    artist: 'Charles McGill',
+                    year: '2008 - 2014',
+                    rule: {
+                        "monday": [19, 27, 6, 14],
+                        "tuesday": [20, 29, 8, 16], 
+                        "wednesday": [26, 2, 8, 18],  
+                        "thursday": [25, 4, 12, 20], 
+                        "friday": [27, 8, 14, 20], 
+                        "saturday": [29, 8, 16, 26], 
+                        "sunday": [29, 10, 6, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 738,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/2016_NYR_12159_0429_000(julie_mehretu_excerpt012600).jpg',
+                    title: 'Excerpt (citadel)',
+                    artist: 'Julie Mehretu',
+                    year: '2003',
+                    rule: {
+                        "monday": [29, 10, 6, 25],
+                        "tuesday": [19, 27, 6, 14], 
+                        "wednesday": [20, 29, 8, 16], 
+                        "thursday": [26, 2, 8, 18],  
+                        "friday": [25, 4, 12, 20], 
+                        "saturday": [27, 8, 14, 20], 
+                        "sunday": [29, 8, 16, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 739,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/fjoepoaoge999sfb.jpg',
+                    title: 'Doubling',
+                    artist: 'Troy Michie',
+                    year: '2019',
+                    rule: {
+                        "monday": [29, 8, 16, 26],
+                        "tuesday": [29, 10, 6, 25], 
+                        "wednesday": [19, 27, 6, 14], 
+                        "thursday": [20, 29, 8, 16], 
+                        "friday": [26, 2, 8, 18],  
+                        "saturday": [25, 4, 12, 20], 
+                        "sunday": [27, 8, 14, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 740,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/c5c2db238c85736fa46e4b27f8710f90.jpg',
+                    title: 'The Conductor',
+                    artist: 'Nicole Miller',
+                    year: '2009',
+                    rule: {
+                        "monday": [27, 8, 14, 20],
+                        "tuesday": [29, 8, 16, 26], 
+                        "wednesday": [29, 10, 6, 25], 
+                        "thursday": [19, 27, 6, 14], 
+                        "friday": [20, 29, 8, 16], 
+                        "saturday": [26, 2, 8, 18],  
+                        "sunday": [25, 4, 12, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

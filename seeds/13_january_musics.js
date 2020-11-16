@@ -7996,6 +7996,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 445,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1569959751/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://davidlangmusic.bandcamp.com/album/when-i-am-alone',
+                    a_string: 'when I am alone by Caroline Shaw',
+                    rule: {
+                        "monday": [7, 14, 15, 16],
+                        "tuesday": [11, 18, 19, 20],
+                        "wednesday": [10, 16, 17, 19],
+                        "thursday": [9, 16, 17, 18], 
+                        "saturday": [8, 14, 15, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 446,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1047864402/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://bangonacan.bandcamp.com/album/memory-game',
+                    a_string: 'MEMORY GAME by Meredith Monk &amp; Bang on a Can All-Stars',
+                    rule: {
+                        "monday": [8, 14, 15, 16],
+                        "tuesday": [7, 14, 15, 16], 
+                        "wednesday": [11, 18, 19, 20],
+                        "thursday": [10, 16, 17, 19],
+                        "saturday": [9, 16, 17, 18]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 447,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=656783816/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://michaelgordonmusic.bandcamp.com/album/anonymous-man',
+                    a_string: 'Anonymous Man by Michael Gordon &amp; The Crossing',
+                    rule: {
+                        "monday": [9, 16, 17, 18],
+                        "tuesday": [8, 14, 15, 16], 
+                        "wednesday": [7, 14, 15, 16], 
+                        "thursday": [11, 18, 19, 20],
+                        "saturday": [10, 16, 17, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

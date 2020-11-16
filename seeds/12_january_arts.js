@@ -14904,6 +14904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 746,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1928.jpg',
+                    title: 'Composition',
+                    artist: 'Leon Arthur Tutundjian',
+                    year: '1928',
+                    rule: {
+                        "monday": [25, 27, 31, 3],
+                        "tuesday": [27, 29, 30, 31],
+                        "wednesday": [15, 17, 9, 29], 
+                        "thursday": [15, 17, 9, 29], 
+                        "friday": [20, 18, 10, 13],
+                        "saturday": [20, 21, 12, 16],
+                        "sunday": [23, 25, 26, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 747,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/unknown-title.jpg',
+                    title: 'unknown title',
+                    artist: 'Shozo Shimamoto',
+                    year: '?',
+                    rule: {
+                        "monday": [23, 25, 26, 28],
+                        "tuesday": [25, 27, 31, 3], 
+                        "wednesday": [27, 29, 30, 31],
+                        "thursday": [15, 17, 9, 29], 
+                        "friday": [15, 17, 9, 29], 
+                        "saturday": [20, 18, 10, 13],
+                        "sunday": [20, 21, 12, 16] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 748,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/unknown-title_odiid.jpg',
+                    title: 'unknown title',
+                    artist: 'Abraham Palatnik',
+                    year: '?',
+                    rule: {
+                        "monday": [20, 21, 12, 16],
+                        "tuesday": [23, 25, 26, 28],
+                        "wednesday": [25, 27, 31, 3], 
+                        "thursday": [27, 29, 30, 31],
+                        "friday": [15, 17, 9, 29], 
+                        "saturday": [15, 17, 9, 29], 
+                        "sunday": [20, 18, 10, 13] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 749,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/magic-rain-cloud.jpg',
+                    title: 'Magic Rain Cloud',
+                    artist: 'Yaacov Agam',
+                    year: '?',
+                    rule: {
+                        "monday": [21, 19, 11, 14],
+                        "tuesday": [21, 22, 13, 17],
+                        "wednesday": [24, 26, 27, 29], 
+                        "thursday": [26, 28, 1, 4],
+                        "friday": [28, 30, 31, 1], 
+                        "saturday": [16, 18, 10, 30], 
+                        "sunday": [16, 18, 10, 30] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 750,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/reflection.jpg',
+                    title: 'Reflection',
+                    artist: 'Yaacov Agam',
+                    year: '?',
+                    rule: {
+                        "monday": [16, 18, 10, 30],
+                        "tuesday": [21, 19, 11, 14],
+                        "wednesday": [21, 22, 13, 17],
+                        "thursday": [24, 26, 27, 29],
+                        "friday": [26, 28, 1, 4],  
+                        "saturday": [28, 30, 31, 1], 
+                        "sunday": [16, 18, 10, 30] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

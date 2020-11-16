@@ -7456,6 +7456,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 415,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=52972548/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://steveroach.bandcamp.com/album/a-soul-ascends',
+                    a_string: 'A Soul Ascends by Steve Roach',
+                    rule: {
+                        "monday": [26, 4, 6, 21],
+                        "tuesday": [30, 4, 30, 21], 
+                        "wednesday": [29, 2, 7, 19],  
+                        "thursday": [28, 1, 7, 18],  
+                        "saturday": [28, 1, 7, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 416,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3551512510/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://laminfofana.bandcamp.com/album/blues',
+                    a_string: 'Blues by Lamin Fofana',
+                    rule: {
+                        "monday": [28, 1, 7, 17],
+                        "tuesday": [26, 4, 6, 21],  
+                        "wednesday": [30, 4, 30, 21], 
+                        "thursday": [29, 2, 7, 19],  
+                        "saturday": [28, 1, 7, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 417,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=867500091/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://qasimnaqvi.bandcamp.com/album/beta-2',
+                    a_string: 'Beta by Qasim Naqvi',
+                    rule: {
+                        "monday": [28, 1, 7, 18],
+                        "tuesday": [28, 1, 7, 17],  
+                        "wednesday": [26, 4, 6, 21],  
+                        "thursday": [30, 4, 30, 21], 
+                        "saturday": [29, 2, 7, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

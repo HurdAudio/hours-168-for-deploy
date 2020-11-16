@@ -14304,6 +14304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 716,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/tatistatis.jpeg',
+                    title: 'Padres shortstop Fernando Tatis Jr. celebrates a home run by a teammate last weekend against the Diamondbacks at Petco Park.',
+                    artist: 'Nelvin C. Cepeda',
+                    year: '2020',
+                    rule: {
+                        "monday": [8, 13, 19, 25],
+                        "tuesday": [27, 19, 24, 30],
+                        "wednesday": [27, 17, 23, 29],
+                        "thursday": [12, 15, 28, 29],
+                        "friday": [11, 15, 30, 28],
+                        "saturday": [8, 14, 20, 26], 
+                        "sunday": [9, 14, 20, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 717,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/il_340x270.2574133785_srzq.jpg',
+                    title: 'Fernando Tatis Jr Canvas Print - San Diego Padres',
+                    artist: '?',
+                    year: '2020',
+                    rule: {
+                        "monday": [9, 14, 20, 26],
+                        "tuesday": [8, 13, 19, 25], 
+                        "wednesday": [27, 19, 24, 30],
+                        "thursday": [27, 17, 23, 29],
+                        "friday": [12, 15, 28, 29],
+                        "saturday": [11, 15, 30, 28],
+                        "sunday": [8, 14, 20, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 718,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/Padres_50-Years-of-Friars-Baseball.jpg',
+                    title: 'Padres: 50 Years of Friars Baseball',
+                    artist: '?',
+                    year: '2019',
+                    rule: {
+                        "monday": [8, 14, 20, 26],
+                        "tuesday": [9, 14, 20, 26], 
+                        "wednesday": [8, 13, 19, 25], 
+                        "thursday": [27, 19, 24, 30],
+                        "friday": [27, 17, 23, 29],
+                        "saturday": [12, 15, 28, 29],
+                        "sunday": [11, 15, 30, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 719,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/iMorelandOption.jpeg',
+                    title: 'The Padres declined a $3 million option on Mitch Moreland',
+                    artist: '?',
+                    year: '2020',
+                    rule: {
+                        "monday": [11, 15, 30, 28],
+                        "tuesday": [8, 14, 20, 26], 
+                        "wednesday": [9, 14, 20, 26], 
+                        "thursday": [8, 13, 19, 25], 
+                        "friday": [27, 19, 24, 30],
+                        "saturday": [27, 17, 23, 29],
+                        "sunday": [12, 15, 28, 29] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 720,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/img_3542z-the-san-diego-padres-happy-mascot-the-swinging-friar-greets-visitors-to-the-big-local-sports-teams-event.jpg',
+                    title: 'The San Diego Padres Happy Mascot',
+                    artist: 'Alice DeForest',
+                    year: '?',
+                    rule: {
+                        "monday": [12, 15, 28, 29],
+                        "tuesday": [11, 15, 30, 28],
+                        "wednesday": [8, 14, 20, 26], 
+                        "thursday": [9, 14, 20, 26], 
+                        "friday": [8, 13, 19, 25], 
+                        "saturday": [27, 19, 24, 30],
+                        "sunday": [27, 17, 23, 29] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

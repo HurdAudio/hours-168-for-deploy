@@ -7348,6 +7348,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 409,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3393908882/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://mournct.bandcamp.com/album/self-worth',
+                    a_string: 'Self Worth by MOURN',
+                    rule: {
+                        "monday": [25, 27, 31, 8],
+                        "tuesday": [29, 31, 4, 12], 
+                        "wednesday": [27, 28, 2, 11], 
+                        "thursday": [27, 28, 4, 10], 
+                        "saturday": [26, 27, 3, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 410,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1415477298/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://nothing.bandcamp.com/album/the-great-dismal',
+                    a_string: 'The Great Dismal by Nothing',
+                    rule: {
+                        "monday": [26, 27, 3, 9],
+                        "tuesday": [25, 27, 31, 8], 
+                        "wednesday": [29, 31, 4, 12], 
+                        "thursday": [27, 28, 2, 11], 
+                        "saturday": [27, 28, 4, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 411,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2771889075/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://stroomtv.bandcamp.com/album/time-together-hues-and-intensities',
+                    a_string: 'Time Together (Hues and Intensities) by Susannah Stark',
+                    rule: {
+                        "monday": [27, 28, 4, 10],
+                        "tuesday": [26, 27, 3, 9],  
+                        "wednesday": [25, 27, 31, 8], 
+                        "thursday": [29, 31, 4, 12], 
+                        "saturday": [27, 28, 2, 11]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

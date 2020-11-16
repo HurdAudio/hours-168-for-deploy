@@ -7132,6 +7132,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 397,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1158989597/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://kscopemusic.bandcamp.com/album/grace-for-drowning',
+                    a_string: 'Grace For Drowning by Steven Wilson',
+                    rule: {
+                        "monday": [1, 21, 29, 23],
+                        "tuesday": [30, 20, 28, 22],
+                        "wednesday": [29, 19, 27, 20],
+                        "thursday": [29, 18, 26, 20],
+                        "saturday": [27, 17, 25, 19] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 398,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1852842199/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://kscopemusic.bandcamp.com/album/distant-satellites',
+                    a_string: 'Distant Satellites by Anathema',
+                    rule: {
+                        "monday": [27, 17, 25, 19],
+                        "tuesday": [1, 21, 29, 23], 
+                        "wednesday": [30, 20, 28, 22],
+                        "thursday": [29, 19, 27, 20],
+                        "saturday": [29, 18, 26, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 399,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4212443171/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://kscopemusic.bandcamp.com/album/the-optimist',
+                    a_string: 'The Optimist by Anathema',
+                    rule: {
+                        "monday": [30, 19, 27, 21],
+                        "tuesday": [28, 18, 26, 20], 
+                        "wednesday": [2, 22, 30, 24],
+                        "thursday": [1, 21, 29, 23],
+                        "saturday": [30, 20, 28, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

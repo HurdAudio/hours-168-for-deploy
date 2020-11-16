@@ -7672,6 +7672,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 427,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2860436734/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://monocledman-whirlwind.bandcamp.com/album/bernabe-jurado-ep',
+                    a_string: 'Bernabe Jurado EP by Monocled Man',
+                    rule: {
+                        "monday": [5, 13, 25, 30],
+                        "tuesday": [4, 11, 24, 29], 
+                        "wednesday": [3, 11, 23, 28],  
+                        "thursday": [2, 10, 21, 27], 
+                        "saturday": [1, 9, 21, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 428,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=208831462/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://cesarcardoso.bandcamp.com/album/dice-of-tenors',
+                    a_string: 'Dice of Tenors by César Cardoso',
+                    rule: {
+                        "monday": [1, 9, 21, 26],
+                        "tuesday": [5, 13, 25, 30], 
+                        "wednesday": [4, 11, 24, 29], 
+                        "thursday": [3, 11, 23, 28], 
+                        "saturday": [2, 10, 21, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 429,
+                    user_id: 1,
+                    theme: 'Free Jazz',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=559123764/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://yolkrecords.bandcamp.com/album/clover',
+                    a_string: 'CLOVER by Alban Darche, Sebastien Boisseau, Jean-Louis Pommier',
+                    rule: {
+                        "monday": [2, 10, 21, 27],
+                        "tuesday": [1, 9, 21, 26],  
+                        "wednesday": [5, 13, 25, 30], 
+                        "thursday": [4, 11, 24, 29], 
+                        "saturday": [3, 11, 23, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

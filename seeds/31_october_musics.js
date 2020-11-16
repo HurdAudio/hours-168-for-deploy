@@ -7024,6 +7024,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                 {
+                    id: 391,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2453257888/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://sweepingpromises.bandcamp.com/album/hunger-for-a-way-out',
+                    a_string: 'Hunger for a Way Out by Sweeping Promises',
+                    rule: {
+                        "monday": [31, 11, 20, 23],
+                        "tuesday": [30, 9, 20, 22], 
+                        "wednesday": [29, 8, 18, 21], 
+                        "thursday": [2, 12, 22, 25], 
+                        "saturday": [1, 11, 21, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 392,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2802890920/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://beachimpedimentrecords.bandcamp.com/album/dame',
+                    a_string: 'Dame by Dame',
+                    rule: {
+                        "monday": [2, 12, 22, 25],
+                        "tuesday": [1, 12, 21, 24], 
+                        "wednesday": [31, 10, 21, 23], 
+                        "thursday": [30, 9, 19, 22], 
+                        "saturday": [3, 13, 23, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 393,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3124743805/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://ironlungpv.bandcamp.com/album/brujas-cholas-e-inventadas-7-lungs-170',
+                    a_string: 'Brujas, Cholas E Inventadas 7&quot; (LUNGS-170) by HURAÑA',
+                    rule: {
+                        "monday": [3, 13, 23, 26],
+                        "tuesday": [2, 12, 22, 25], 
+                        "wednesday": [1, 12, 21, 24], 
+                        "thursday": [31, 10, 21, 23],
+                        "saturday": [30, 9, 19, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

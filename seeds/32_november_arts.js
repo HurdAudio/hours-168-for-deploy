@@ -12904,6 +12904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 646,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1966_ifif-I-__.jpg',
+                    title: 'Untitled',
+                    artist: 'Richard Artschwager',
+                    year: '1966',
+                    rule: {
+                        "monday": [10, 14, 21, 24],
+                        "tuesday": [9, 12, 19, 24], 
+                        "wednesday": [7, 12, 18, 23], 
+                        "thursday": [6, 10, 17, 22], 
+                        "friday": [6, 11, 17, 24], 
+                        "saturday": [12, 17, 23, 28],
+                        "sunday": [11, 13, 21, 17] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 647,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/letters-the-twenty-six-series-1966.jpg',
+                    title: 'Letters (The Twenty-Six Series)',
+                    artist: 'Richard Tuttle',
+                    year: '1966',
+                    rule: {
+                        "monday": [11, 13, 21, 17],
+                        "tuesday": [10, 14, 21, 24],
+                        "wednesday": [9, 12, 19, 24], 
+                        "thursday": [7, 12, 18, 23], 
+                        "friday": [6, 10, 17, 22], 
+                        "saturday": [6, 11, 17, 24], 
+                        "sunday": [12, 17, 23, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 648,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/columns_19999.jpg',
+                    title: 'Columns',
+                    artist: 'Agnes Martin',
+                    year: '1966',
+                    rule: {
+                        "monday": [12, 17, 23, 28],
+                        "tuesday": [11, 13, 21, 17],
+                        "wednesday": [10, 14, 21, 24],
+                        "thursday": [9, 12, 19, 24], 
+                        "friday": [7, 12, 18, 23], 
+                        "saturday": [6, 10, 17, 22], 
+                        "sunday": [6, 11, 17, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 649,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/4-1-for-david-novros-1966.jpg',
+                    title: '4:1 (for David Novros)',
+                    artist: 'Brice Marden',
+                    year: '1966',
+                    rule: {
+                        "monday": [6, 11, 17, 24],
+                        "tuesday": [12, 17, 23, 28],
+                        "wednesday": [11, 13, 21, 17],
+                        "thursday": [10, 14, 21, 24],
+                        "friday": [9, 12, 19, 24], 
+                        "saturday": [7, 12, 18, 23], 
+                        "sunday": [6, 10, 17, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 650,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/serial-project-1-abcd-1966.jpg',
+                    title: 'Serial Project #1 ABCD',
+                    artist: 'Sol LeWitt',
+                    year: '1966',
+                    rule: {
+                        "monday": [6, 10, 17, 22],
+                        "tuesday": [6, 11, 17, 24], 
+                        "wednesday": [12, 17, 23, 28],
+                        "thursday": [11, 13, 21, 17],
+                        "friday": [10, 14, 21, 24],
+                        "saturday": [9, 12, 19, 24], 
+                        "sunday": [7, 12, 18, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -14504,6 +14504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 726,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/scottish-espagnole-1920.jpg',
+                    title: 'Scottish Espagnole',
+                    artist: 'Suzanne Duchamp',
+                    year: '1920',
+                    rule: {
+                        "monday": [6, 16, 24, 3],
+                        "tuesday": [5, 15, 24, 2],  
+                        "wednesday": [11, 20, 30, 7], 
+                        "thursday": [10, 20, 28, 7], 
+                        "friday": [7, 19, 27, 6],  
+                        "saturday": [8, 18, 26, 5],  
+                        "sunday": [7, 18, 25, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 727,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/professionalization-albeeg-canal-1932.jpg',
+                    title: 'On the Canal “Lac d’Annecy”',
+                    artist: 'Grace Albee',
+                    year: '1932',
+                    rule: {
+                        "monday": [7, 18, 25, 4],
+                        "tuesday": [6, 16, 24, 3],  
+                        "wednesday": [5, 15, 24, 2],  
+                        "thursday": [11, 20, 30, 7], 
+                        "friday": [10, 20, 28, 7], 
+                        "saturday": [7, 19, 27, 6],  
+                        "sunday": [8, 18, 26, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 728,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/self-portrait-with-still-life-1917.jpg',
+                    title: 'Self-Portrait with Still Life',
+                    artist: 'Marevna (Marie Vorobieff)',
+                    year: '1917',
+                    rule: {
+                        "monday": [9, 19, 27, 6],
+                        "tuesday": [8, 19, 26, 5],  
+                        "wednesday": [7, 17, 25, 4],  
+                        "thursday": [6, 16, 25, 3], 
+                        "friday": [12, 21, 31, 8], 
+                        "saturday": [11, 21, 29, 8],  
+                        "sunday": [8, 20, 28, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 729,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/costa-brava-1953.jpg',
+                    title: 'Costa Brava',
+                    artist: 'Winifred Nicholson',
+                    year: '1953',
+                    rule: {
+                        "monday": [8, 20, 28, 7],
+                        "tuesday": [9, 19, 27, 6],  
+                        "wednesday": [8, 19, 26, 5],  
+                        "thursday": [7, 17, 25, 4],  
+                        "friday": [6, 16, 25, 3],  
+                        "saturday": [12, 21, 31, 8], 
+                        "sunday": [11, 21, 29, 8]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 730,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/unknown-title-5.jpg',
+                    title: 'unknown title',
+                    artist: 'Antonietta Raphael',
+                    year: '?',
+                    rule: {
+                        "monday": [11, 21, 29, 8],
+                        "tuesday": [8, 20, 28, 7],  
+                        "wednesday": [9, 19, 27, 6],  
+                        "thursday": [8, 19, 26, 5],  
+                        "friday": [7, 17, 25, 4],  
+                        "saturday": [6, 16, 25, 3],  
+                        "sunday": [12, 21, 31, 8]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

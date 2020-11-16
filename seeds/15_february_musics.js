@@ -7888,6 +7888,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 439,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1628513108/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://calebgiles.bandcamp.com/album/meditations',
+                    a_string: 'Meditations by Caleb Giles',
+                    rule: {
+                        "monday": [21, 15, 17, 19],
+                        "tuesday": [24, 17, 19, 25],
+                        "wednesday": [24, 18, 20, 26],
+                        "thursday": [7, 11, 13, 17], 
+                        "saturday": [21, 13, 15, 17] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 440,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2547294676/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://delthefunkyhomosapien.bandcamp.com/album/deltron-3030',
+                    a_string: 'Deltron 3030 by Del The Funky Homosapien',
+                    rule: {
+                        "monday": [21, 13, 15, 17],
+                        "tuesday": [21, 15, 17, 19],
+                        "wednesday": [24, 17, 19, 25],
+                        "thursday": [24, 18, 20, 26],
+                        "saturday": [7, 11, 13, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 441,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=116659035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://adrianyounge.bandcamp.com/album/twelve-reasons-to-die-delux',
+                    a_string: 'Twelve Reasons To Die (Delux) by Adrian Younge',
+                    rule: {
+                        "monday": [8, 12, 14, 18],
+                        "tuesday": [22, 14, 16, 18],
+                        "wednesday": [22, 16, 18, 20],
+                        "thursday": [25, 18, 20, 26],
+                        "saturday": [25, 19, 21, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

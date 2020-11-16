@@ -7780,6 +7780,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 433,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3393908882/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://mournct.bandcamp.com/album/self-worth',
+                    a_string: 'Self Worth by MOURN',
+                    rule: {
+                        "monday": [1, 7, 13, 21],
+                        "tuesday": [5, 11, 17, 25], 
+                        "wednesday": [4, 10, 15, 24], 
+                        "thursday": [3, 9, 15, 24],  
+                        "saturday": [1, 8, 14, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 434,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2652045580/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://ojerime.bandcamp.com/album/b4-i-breakdown',
+                    a_string: 'B4 I Breakdown by Ojerime',
+                    rule: {
+                        "monday": [2, 9, 15, 23],
+                        "tuesday": [2, 8, 14, 22], 
+                        "wednesday": [6, 12, 18, 26], 
+                        "thursday": [5, 11, 16, 25],  
+                        "saturday": [4, 10, 16, 25]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 435,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=673392592/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://lyricjones.bandcamp.com/album/closer-than-they-appear',
+                    a_string: 'CLOSER THAN THEY APPEAR by Lyric Jones',
+                    rule: {
+                        "monday": [4, 10, 16, 25],
+                        "tuesday": [2, 9, 15, 23],  
+                        "wednesday": [2, 8, 14, 22],  
+                        "thursday": [6, 12, 18, 26], 
+                        "saturday": [5, 11, 16, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

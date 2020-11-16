@@ -2954,6 +2954,16 @@ exports.seed = function (knex, Promise) {
                     a_string: 'Unity: Live at Storyville NYC Oct 1977 by Sun Ra &amp; His Arkestra',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 296,
+                    user_id: 1,
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1103119334/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://sunrastrut.bandcamp.com/album/sun-ra-quartet-featuring-john-gilmore-the-sky-is-a-sea-of-darkness-when-there-is-no-sun-to-light-the-way',
+                    a_string: 'Sun Ra Quartet - featuring John Gilmore : The Sky Is A Sea Of Darkness When There Is No Sun To Light The Way by Sun Ra Arkestra',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

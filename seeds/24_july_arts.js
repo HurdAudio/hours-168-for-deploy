@@ -13704,6 +13704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 686,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/arlequin-dansant-1924.jpg',
+                    title: 'Arlequin Dansant',
+                    artist: 'Georges Valmier',
+                    year: '1924',
+                    rule: {
+                        "monday": [7, 15, 29, 9],
+                        "tuesday": [5, 16, 28, 8], 
+                        "wednesday": [5, 16, 27, 28], 
+                        "thursday": [4, 15, 25, 27],  
+                        "friday": [1, 12, 3, 4],   
+                        "saturday": [2, 13, 4, 5],  
+                        "sunday": [7, 16, 29, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 687,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/les-mouettes.jpg',
+                    title: 'Les mouettes',
+                    artist: 'Raphael Delorme',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 16, 29, 9],
+                        "tuesday": [7, 15, 29, 9],  
+                        "wednesday": [5, 16, 28, 8],  
+                        "thursday": [5, 16, 27, 28], 
+                        "friday": [4, 15, 25, 27], 
+                        "saturday": [1, 12, 3, 4],   
+                        "sunday": [2, 13, 4, 5]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 688,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/untitled-forest.jpg',
+                    title: 'Untitled (Forest)',
+                    artist: 'Georges Ribemont-Dessaignes',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 13, 4, 5],
+                        "tuesday": [7, 16, 29, 9],  
+                        "wednesday": [7, 15, 29, 9],  
+                        "thursday": [5, 16, 28, 8],  
+                        "friday": [5, 16, 27, 28], 
+                        "saturday": [4, 15, 25, 27], 
+                        "sunday": [1, 12, 3, 4]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 689,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/che-cgm-1998-9.jpg',
+                    title: 'Women Welders at Williams & Williams, Chester',
+                    artist: 'Ethel Léontine Gabain',
+                    year: '?',
+                    rule: {
+                        "monday": [1, 12, 3, 4],
+                        "tuesday": [2, 13, 4, 5],   
+                        "wednesday": [7, 16, 29, 9],  
+                        "thursday": [7, 15, 29, 9],  
+                        "friday": [5, 16, 28, 8],  
+                        "saturday": [5, 16, 27, 28], 
+                        "sunday": [4, 15, 25, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 690,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/venus-in-her-chariot-from-edmund-dulac-s-illustrations-to-the-tempest.jpg',
+                    title: 'Venus in her Chariot - from The Tempest',
+                    artist: 'Edmund Dulac',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 15, 25, 27],
+                        "tuesday": [1, 12, 3, 4],   
+                        "wednesday": [2, 13, 4, 5],   
+                        "thursday": [7, 16, 29, 9],  
+                        "friday": [7, 15, 29, 9],  
+                        "saturday": [5, 16, 28, 8],  
+                        "sunday": [5, 16, 27, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

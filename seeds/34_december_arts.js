@@ -12704,6 +12704,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 636,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/38-09,TenDA2.jpg',
+                    title: 'Ten Detective Aces',
+                    artist: 'R. Patenaude',
+                    year: '1938',
+                    rule: {
+                        "monday": [29, 11, 19, 25],
+                        "tuesday": [28, 10, 18, 24],
+                        "wednesday": [27, 8, 7, 23],  
+                        "thursday": [16, 8, 27, 3],  
+                        "friday": [1, 14, 22, 28], 
+                        "saturday": [31, 12, 21, 27],
+                        "sunday": [30, 12, 20, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 637,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/27-08,AS.jpg',
+                    title: 'Amazing Stories',
+                    artist: 'Frank R. Paul',
+                    year: '1927',
+                    rule: {
+                        "monday": [31, 13, 21, 27],
+                        "tuesday": [30, 12, 20, 26],
+                        "wednesday": [29, 11, 19, 25],  
+                        "thursday": [28, 9, 8, 24],  
+                        "friday": [17, 9, 28, 4], 
+                        "saturday": [2, 15, 23, 29],
+                        "sunday": [1, 13, 22, 28] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 638,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/31-10,Ace-Hi.jpg',
+                    title: 'Ace-High Magazine',
+                    artist: 'Domingo Periconi',
+                    year: '1931',
+                    rule: {
+                        "monday": [1, 13, 22, 28],
+                        "tuesday": [31, 13, 21, 27],
+                        "wednesday": [30, 12, 20, 26],
+                        "thursday": [29, 11, 19, 25],
+                        "friday": [28, 9, 8, 24],  
+                        "saturday": [17, 9, 28, 4],  
+                        "sunday": [2, 15, 23, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 639,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/1891,Drive-2.jpg',
+                    title: 'How To Drive Horses',
+                    artist: 'Clinton Pettee',
+                    year: '1891',
+                    rule: {
+                        "monday": [2, 15, 23, 29],
+                        "tuesday": [1, 13, 22, 28], 
+                        "wednesday": [31, 13, 21, 27],
+                        "thursday": [30, 12, 20, 26],
+                        "friday": [29, 11, 19, 25],
+                        "saturday": [28, 9, 8, 24],  
+                        "sunday": [17, 9, 28, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 640,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/37-05,DonWinslow.jpg',
+                    title: 'Don Winslow',
+                    artist: 'James H. Phillips',
+                    year: '1937',
+                    rule: {
+                        "monday": [17, 9, 28, 4],
+                        "tuesday": [2, 15, 23, 29], 
+                        "wednesday": [1, 13, 22, 28], 
+                        "thursday": [31, 13, 21, 27],
+                        "friday": [30, 12, 20, 26],
+                        "saturday": [29, 11, 19, 25],
+                        "sunday": [28, 9, 8, 24]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

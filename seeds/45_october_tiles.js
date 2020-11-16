@@ -1628,6 +1628,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#a7a29e',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 117,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'holiday',
+                    src_string: 'https://hours168-hurdaudio.s3.amazonaws.com/img/october_tiles/anna-katharina-MuCnHHdd20o-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#110e06',
+                    color_medium: '#a54208',
+                    color_light: '#b79276',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

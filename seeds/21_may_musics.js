@@ -7564,6 +7564,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 421,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3052094527/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://dronestorecowboyss.bandcamp.com/album/dentists-of-horses-dream-of-god-to-study-2',
+                    a_string: 'Dentists of Horses Dream of God to Study by Dronestore Cowboys',
+                    rule: {
+                        "monday": [1, 7, 14, 27],
+                        "tuesday": [31, 6, 13, 26], 
+                        "wednesday": [30, 5, 12, 25], 
+                        "thursday": [29, 4, 11, 24], 
+                        "saturday": [28, 3, 10, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 422,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=790961772/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://gloyd.bandcamp.com/album/subgloydals-2020',
+                    a_string: 'SubGloydals 2020 by Gloyd',
+                    rule: {
+                        "monday": [28, 3, 10, 23],
+                        "tuesday": [1, 7, 14, 27],  
+                        "wednesday": [31, 6, 13, 26], 
+                        "thursday": [30, 5, 12, 25], 
+                        "saturday": [29, 4, 11, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 423,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1923736003/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://astralhupata.bandcamp.com/album/microclimates',
+                    a_string: 'Microclimates by Hupata!',
+                    rule: {
+                        "monday": [29, 4, 11, 24],
+                        "tuesday": [28, 3, 10, 23], 
+                        "wednesday": [1, 7, 14, 27],  
+                        "thursday": [31, 6, 13, 26], 
+                        "saturday": [30, 5, 12, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

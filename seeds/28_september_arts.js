@@ -13304,6 +13304,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 666,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/44th-wire-piece-1972.jpg',
+                    title: '44th Wire Piece',
+                    artist: 'Richard Tuttle',
+                    year: '1972',
+                    rule: {
+                        "monday": [5, 10, 2, 28],
+                        "tuesday": [5, 11, 29, 7],  
+                        "wednesday": [24, 10, 28, 7], 
+                        "thursday": [23, 30, 27, 5], 
+                        "friday": [1, 8, 26, 3],   
+                        "saturday": [8, 14, 2, 10],  
+                        "sunday": [4, 10, 1, 9]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 667,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/abstract-blue-1971.jpg',
+                    title: 'Abstract Blue',
+                    artist: 'Marc Vaux',
+                    year: '1971',
+                    rule: {
+                        "monday": [4, 10, 1, 9],
+                        "tuesday": [5, 10, 2, 28],  
+                        "wednesday": [5, 11, 29, 7],  
+                        "thursday": [24, 10, 28, 7], 
+                        "friday": [23, 30, 27, 5], 
+                        "saturday": [1, 8, 26, 3],   
+                        "sunday": [8, 14, 2, 10]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 668,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/white-line-on-black-1968.jpg',
+                    title: 'White Line on Black',
+                    artist: 'Jiro Yoshihara',
+                    year: '1968',
+                    rule: {
+                        "monday": [8, 14, 2, 10],
+                        "tuesday": [4, 10, 1, 9],   
+                        "wednesday": [5, 10, 2, 28],  
+                        "thursday": [5, 11, 29, 7],  
+                        "friday": [24, 10, 28, 7], 
+                        "saturday": [23, 30, 27, 5], 
+                        "sunday": [1, 8, 26, 3]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 669,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/birds-of-the-seasons-autumn.jpg',
+                    title: 'Birds of the Seasons - Autumn',
+                    artist: 'Toshi Yoshida',
+                    year: 'c. 1980',
+                    rule: {
+                        "monday": [1, 8, 26, 3],
+                        "tuesday": [8, 14, 2, 10],  
+                        "wednesday": [4, 10, 1, 9],   
+                        "thursday": [5, 10, 2, 28],  
+                        "friday": [5, 11, 29, 7],  
+                        "saturday": [24, 10, 28, 7], 
+                        "sunday": [23, 30, 27, 5]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 670,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/untitled-polychrome-bar-1970.jpg',
+                    title: 'Untitled (Polychrome Bar)',
+                    artist: 'Andre Cadere',
+                    year: '1970',
+                    rule: {
+                        "monday": [23, 30, 27, 5],
+                        "tuesday": [1, 8, 26, 3],   
+                        "wednesday": [8, 14, 2, 10],  
+                        "thursday": [4, 10, 1, 9],   
+                        "friday": [5, 10, 2, 28],  
+                        "saturday": [5, 11, 29, 7],  
+                        "sunday": [24, 10, 28, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

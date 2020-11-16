@@ -1740,6 +1740,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#e7ded8',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 125,
+                    user_id: 1,
+                    theme: 'Silk/Velvet',
+                    type: 'thursday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february_tiles/akshar-dave-vAj_BQi_hF4-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#1c1c1f',
+                    color_medium: '#20568a',
+                    color_light: '#bcc5c5',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

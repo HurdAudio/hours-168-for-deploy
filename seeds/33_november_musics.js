@@ -6898,6 +6898,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 385,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=711734645/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://mulatuastatkeblackjesusexperience.bandcamp.com/album/to-know-without-knowing',
+                    a_string: 'To Know Without Knowing by Mulatu Astatke &amp; Black Jesus Experience',
+                    rule: {
+                        "monday": [22, 3, 14, 26],
+                        "tuesday": [26, 7, 18, 22], 
+                        "wednesday": [25, 6, 17, 21], 
+                        "thursday": [24, 5, 16, 20], 
+                        "saturday": [23, 4, 15, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 386,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=147311723/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://nishaiar.bandcamp.com/album/awaxhun',
+                    a_string: 'Awaxhun by nishaiar',
+                    rule: {
+                        "monday": [23, 4, 15, 26],
+                        "tuesday": [22, 3, 14, 26], 
+                        "wednesday": [26, 7, 18, 22], 
+                        "thursday": [25, 6, 17, 21], 
+                        "saturday": [24, 5, 16, 20]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 387,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1302647607/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://wearemawimbi.bandcamp.com/album/atlantic-river-drive',
+                    a_string: 'Atlantic River Drive by James Stewart feat. Ayuune Sule',
+                    rule: {
+                        "monday": [24, 5, 16, 20],
+                        "tuesday": [23, 4, 15, 26], 
+                        "wednesday": [22, 3, 14, 26], 
+                        "thursday": [26, 7, 18, 22], 
+                        "saturday": [25, 6, 17, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

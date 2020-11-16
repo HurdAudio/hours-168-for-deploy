@@ -6808,6 +6808,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 379,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=570856693/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://prensamanual.bandcamp.com/album/conject',
+                    a_string: 'Conject by James Emrick',
+                    rule: {
+                        "monday": [25, 2, 8, 14],
+                        "tuesday": [26, 1, 7, 13],  
+                        "wednesday": [30, 5, 11, 17], 
+                        "thursday": [29, 4, 10, 16], 
+                        "saturday": [26, 3, 9, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 380,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2642638323/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://jazztick.bandcamp.com/album/with-everyones-force',
+                    a_string: 'With Everyone&#39;s Force by Jazztick',
+                    rule: {
+                        "monday": [26, 3, 9, 15],
+                        "tuesday": [25, 2, 8, 14],  
+                        "wednesday": [26, 1, 7, 13],  
+                        "thursday": [30, 5, 11, 17], 
+                        "saturday": [29, 4, 10, 16]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 381,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3005643627/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://minimaltechnology.bandcamp.com/album/88',
+                    a_string: '8.8 by Minimal Technology',
+                    rule: {
+                        "monday": [29, 4, 10, 16],
+                        "tuesday": [26, 3, 9, 15],  
+                        "wednesday": [25, 2, 8, 14],  
+                        "thursday": [26, 1, 7, 13],  
+                        "saturday": [30, 5, 11, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

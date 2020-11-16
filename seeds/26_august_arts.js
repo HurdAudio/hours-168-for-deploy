@@ -13504,6 +13504,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 676,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/vedere-spre-mediterana-1930.jpg',
+                    title: 'View Towards the Mediterranean Sea',
+                    artist: 'Theodor Pallady',
+                    year: '1930',
+                    rule: {
+                        "monday": [1, 4, 13, 29],
+                        "tuesday": [7, 11, 19, 4],  
+                        "wednesday": [4, 9, 17, 3],   
+                        "thursday": [4, 9, 17, 2],   
+                        "friday": [4, 6, 16, 1],   
+                        "saturday": [3, 5, 15, 31],  
+                        "sunday": [2, 5, 14, 30]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 677,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/portrait-of-photographer-m-a-sherling-1918.jpg',
+                    title: 'Portrait of photographer M.A. Sherling',
+                    artist: 'Jury Annenkov',
+                    year: '1918',
+                    rule: {
+                        "monday": [2, 5, 14, 30],
+                        "tuesday": [1, 4, 13, 29],  
+                        "wednesday": [7, 11, 19, 4],  
+                        "thursday": [4, 9, 17, 3],   
+                        "friday": [4, 9, 17, 2],   
+                        "saturday": [4, 6, 16, 1],   
+                        "sunday": [3, 5, 15, 31]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 678,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/halt-1916.jpg',
+                    title: 'Halt',
+                    artist: 'Francisc Sirato',
+                    year: '1916',
+                    rule: {
+                        "monday": [3, 5, 15, 31],
+                        "tuesday": [2, 5, 14, 30],  
+                        "wednesday": [1, 4, 13, 29],  
+                        "thursday": [7, 11, 19, 4],  
+                        "friday": [4, 9, 17, 3],   
+                        "saturday": [4, 9, 17, 2],   
+                        "sunday": [4, 6, 16, 1]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 679,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/portrait-of-mrs-howe-1900.jpg',
+                    title: 'Portrait of Mrs. Howe',
+                    artist: 'Alfred Stevens',
+                    year: '1900',
+                    rule: {
+                        "monday": [5, 7, 17, 2],
+                        "tuesday": [4, 6, 16, 1],  
+                        "wednesday": [3, 6, 15, 31],  
+                        "thursday": [2, 5, 14, 30],  
+                        "friday": [8, 12, 20, 5],   
+                        "saturday": [5, 10, 18, 4],   
+                        "sunday": [5, 10, 18, 3]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 680,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/woman-with-birds-1928.jpg',
+                    title: 'Woman with birds',
+                    artist: 'Aleksandra Ekster',
+                    year: '1927 - 1928',
+                    rule: {
+                        "monday": [5, 10, 18, 3],
+                        "tuesday": [5, 7, 17, 2],   
+                        "wednesday": [4, 6, 16, 1],   
+                        "thursday":[3, 6, 15, 31],  
+                        "friday":  [2, 5, 14, 30], 
+                        "saturday": [8, 12, 20, 5],  
+                        "sunday": [5, 10, 18, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

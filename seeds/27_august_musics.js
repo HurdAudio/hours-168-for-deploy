@@ -7240,6 +7240,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 403,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3838522222/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://simlas.bandcamp.com/album/density-3080-kg-m',
+                    a_string: 'Density / 3080 kg m³ by Lars Larsson David Bäck Peeter Uuskyla Nina de Heney',
+                    rule: {
+                        "monday": [2, 10, 23, 22],
+                        "tuesday": [6, 14, 27, 26], 
+                        "wednesday": [5, 13, 26, 25], 
+                        "thursday": [4, 12, 25, 24], 
+                        "saturday": [3, 11, 24, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 404,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3888851983/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://briangroder1.bandcamp.com/album/luminous-arcs',
+                    a_string: 'LUMINOUS ARCS by Brian Groder',
+                    rule: {
+                        "monday": [3, 11, 24, 23],
+                        "tuesday": [2, 10, 23, 22], 
+                        "wednesday": [6, 14, 27, 26], 
+                        "thursday": [5, 13, 26, 25], 
+                        "saturday": [4, 12, 25, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 405,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1637684469/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://joelnelson.bandcamp.com/album/allies',
+                    a_string: 'ALLIES by Davey Williams and Joel Nelson',
+                    rule: {
+                        "monday": [4, 12, 25, 24],
+                        "tuesday": [3, 11, 24, 23], 
+                        "wednesday": [2, 10, 23, 22], 
+                        "thursday": [6, 14, 27, 26], 
+                        "saturday": [5, 13, 26, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

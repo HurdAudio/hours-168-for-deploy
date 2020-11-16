@@ -12097,6 +12097,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 778,
+                    user_id: 1,
+                    name: 'Wolter Wierbos (trombone) born 1957',
+                    color: '#8a7f78',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/franskroon-1-e1476178323980-300x169.jpg',
+                    day_of: new Date('1957-09-01  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp', 'bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=831635498/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1827259149/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=2706365752/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=1230146852/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['https://doek.bandcamp.com/album/deining', 'https://doek.bandcamp.com/album/3-trombone-solos', 'https://fauxamisrecords.bandcamp.com/album/wolter-wierbos-wynanda-zeevaarder-live-bui-la-03', 'https://timdaisyrelayrecordings.bandcamp.com/album/sounds-in-a-garden'],
+                        "a_strings": ['Deining by Wolter Wierbos', '3 trombone solos by Wolter Wierbos', 'Wolter Wierbos &amp; Wynanda Zeevaarder - Live @ BUI [LA#03] by Wolter Wierbos &amp; Wynanda Zeevaarder', 'Sounds In A Garden by Wolter Wierbos / Jasper Stadhouders / Tim Daisy']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 779,
+                    user_id: 1,
+                    name: 'Pierre Morain (communist) born 1930',
+                    color: '#353535',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/morain.jpg',
+                    day_of: new Date('1930-04-12  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

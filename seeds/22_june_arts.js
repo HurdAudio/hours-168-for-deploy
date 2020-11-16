@@ -13904,6 +13904,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 696,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Fine-Art-Self-Portraits-Inspiration-by-Alicia-Savage-06.jpg',
+                    title: 'untitled',
+                    artist: 'Alicia Savage',
+                    year: '2015',
+                    rule: {
+                        "monday": [9, 19, 29, 6],
+                        "tuesday": [8, 18, 29, 6],  
+                        "wednesday": [6, 17, 27, 25], 
+                        "thursday": [6, 16, 26, 3],  
+                        "friday": [15, 25, 4, 3],  
+                        "saturday": [4, 14, 25, 2],  
+                        "sunday": [3, 13, 23, 1]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 697,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Fine-Art-Self-Portraits-Inspiration-by-Alicia-Savage-05.jpg',
+                    title: 'untitled',
+                    artist: 'Alicia Savage',
+                    year: '2015',
+                    rule: {
+                        "monday": [3, 13, 23, 1],
+                        "tuesday": [9, 19, 29, 6],  
+                        "wednesday": [8, 18, 29, 6],  
+                        "thursday": [6, 17, 27, 25], 
+                        "friday": [6, 16, 26, 3],  
+                        "saturday": [15, 25, 4, 3],  
+                        "sunday": [4, 14, 25, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 698,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Fine-Art-Self-Portraits-Inspiration-by-Alicia-Savage-04.jpg',
+                    title: 'untitled',
+                    artist: 'Alicia Savage',
+                    year: '2015',
+                    rule: {
+                        "monday": [4, 14, 25, 2],
+                        "tuesday": [3, 13, 23, 1],  
+                        "wednesday": [9, 19, 29, 6],  
+                        "thursday": [8, 18, 29, 6],  
+                        "friday": [6, 17, 27, 25], 
+                        "saturday": [6, 16, 26, 3],  
+                        "sunday": [15, 25, 4, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 699,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Fine-Art-Self-Portraits-Inspiration-by-Alicia-Savage.jpg',
+                    title: 'untitled',
+                    artist: 'Alicia Savage',
+                    year: '2015',
+                    rule: {
+                        "monday": [15, 25, 4, 3],
+                        "tuesday": [4, 14, 25, 2],  
+                        "wednesday": [3, 13, 23, 1],  
+                        "thursday": [9, 19, 29, 6],  
+                        "friday": [8, 18, 29, 6],  
+                        "saturday": [6, 17, 27, 25], 
+                        "sunday": [6, 16, 26, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 700,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/Fine-Art-Self-Portraits-Inspiration-by-Alicia-Savage-03.jpg',
+                    title: 'untitled',
+                    artist: 'Alicia Savage',
+                    year: '2015',
+                    rule: {
+                        "monday": [7, 17, 27, 4],
+                        "tuesday": [16, 26, 5, 4],  
+                        "wednesday": [5, 15, 26, 3],  
+                        "thursday": [4, 14, 24, 2],  
+                        "friday": [10, 20, 30, 7],  
+                        "saturday": [9, 19, 30, 7], 
+                        "sunday": [7, 18, 28, 26]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
