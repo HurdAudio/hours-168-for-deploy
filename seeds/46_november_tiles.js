@@ -1628,6 +1628,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#689a81',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 117,
+                    user_id: 1,
+                    theme: 'Monochromatic',
+                    type: 'holiday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november_tiles/2_bumble_hive_la_day_1_9_1.png',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#4e2a05',
+                    color_medium: '#ebb040',
+                    color_light: '#f8ecd5',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

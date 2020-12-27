@@ -6862,6 +6862,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 382,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3765841097/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://sunsetgrid.bandcamp.com/album/el-derecho-a-la-pereza',
+                    a_string: 'El derecho a la pereza by Casi todos los males',
+                    rule: {
+                        "monday": [30, 5, 11, 17],
+                        "tuesday": [29, 4, 10, 16], 
+                        "wednesday": [26, 3, 9, 15],  
+                        "thursday": [25, 2, 8, 14],  
+                        "saturday": [26, 1, 7, 13]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 383,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3524227853/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://burningtriprecords.bandcamp.com/album/five-sins-of-the-soul',
+                    a_string: 'Five Sins Of The Soul by Haavi',
+                    rule: {
+                        "monday": [26, 1, 7, 13],
+                        "tuesday": [30, 5, 11, 17], 
+                        "wednesday": [29, 4, 10, 16], 
+                        "thursday": [26, 3, 9, 15],  
+                        "saturday": [25, 2, 8, 14]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 384,
+                    user_id: 1,
+                    theme: 'Brazil & Pan-South American',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2430043506/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://musicalunar.bandcamp.com/album/fases-lunares-002',
+                    a_string: 'Fases Lunares 002 by Musica Lunar',
+                    rule: {
+                        "monday": [25, 2, 8, 14],
+                        "tuesday": [26, 1, 7, 13],  
+                        "wednesday": [30, 5, 11, 17], 
+                        "thursday": [29, 4, 10, 16], 
+                        "saturday": [26, 3, 9, 15]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

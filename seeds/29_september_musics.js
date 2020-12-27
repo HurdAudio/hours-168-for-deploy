@@ -7186,6 +7186,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 400,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=186129807/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://hayvanlaralemi.bandcamp.com/album/psychedelia-in-times-of-turbulence',
+                    a_string: 'Psychedelia in Times of Turbulence by Hayvanlar Alemi',
+                    rule: {
+                        "monday": [30, 20, 28, 21],
+                        "tuesday": [30, 19, 27, 21],
+                        "wednesday": [28, 18, 26, 20],
+                        "thursday": [2, 22, 30, 24], 
+                        "saturday": [1, 21, 29, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 401,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2169453674/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://tonycastellano.bandcamp.com/album/book-of-tricks',
+                    a_string: 'Book Of Tricks by Tony Castellano',
+                    rule: {
+                        "monday": [1, 21, 29, 23],
+                        "tuesday": [30, 20, 28, 21],
+                        "wednesday": [30, 19, 27, 21],
+                        "thursday": [28, 18, 26, 20],
+                        "saturday": [2, 22, 30, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 402,
+                    user_id: 1,
+                    theme: 'Math Rock & Progressive Rock',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=4059307446/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://wobbler.bandcamp.com/album/demo-2003',
+                    a_string: 'Demo (2003) by Wobbler',
+                    rule: {
+                        "monday": [2, 22, 30, 24],
+                        "tuesday": [1, 21, 29, 23], 
+                        "wednesday": [30, 20, 28, 21],
+                        "thursday": [30, 19, 27, 21],
+                        "saturday": [28, 18, 26, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -5764,6 +5764,66 @@ exports.seed = function (knex, Promise) {
                     public: true,
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 481,
+                    user_author_id: 1,
+                    theme: 'Allegorical Painting',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/the-librarian(1).jpg',
+                    title: 'The Librarian',
+                    artist: 'Giuseppe Arcimboldo',
+                    year: '1566',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 482,
+                    user_author_id: 1,
+                    theme: 'Allegorical Painting',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/charity.jpg',
+                    title: 'Charity',
+                    artist: 'Giotto',
+                    year: '1306',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 483,
+                    user_author_id: 1,
+                    theme: 'Allegorical Painting',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/fortitude.jpg',
+                    title: 'Fortitude',
+                    artist: 'Giotto',
+                    year: '1306',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 484,
+                    user_author_id: 1,
+                    theme: 'Allegorical Painting',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/justice.jpg',
+                    title: 'Justice',
+                    artist: 'Giotto',
+                    year: '1306',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 485,
+                    user_author_id: 1,
+                    theme: 'Allegorical Painting',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/modules/bad-government-and-the-effects-of-bad-government-on-the-city-life-1340.jpg',
+                    title: 'Bad Government and the Effects of Bad Government on the City Life',
+                    artist: 'Ambrogio Lorenzetti',
+                    year: '1340',
+                    public: true,
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

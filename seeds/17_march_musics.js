@@ -7834,6 +7834,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 436,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1767277924/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://starfeminineband.bandcamp.com/album/star-feminine-band',
+                    a_string: 'Star Feminine Band by STAR FEMININE BAND',
+                    rule: {
+                        "monday": [5, 11, 16, 25],
+                        "tuesday": [4, 10, 16, 25], 
+                        "wednesday": [2, 9, 15, 23],  
+                        "thursday": [2, 8, 14, 22],  
+                        "saturday": [6, 12, 18, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 437,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3105711809/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://mlesprg.bandcamp.com/album/hill-flower-fog-2',
+                    a_string: 'Hill, Flower, Fog by Emily A. Sprague',
+                    rule: {
+                        "monday": [6, 12, 18, 26],
+                        "tuesday": [5, 11, 16, 25], 
+                        "wednesday": [4, 10, 16, 25], 
+                        "thursday": [2, 9, 15, 23],  
+                        "saturday": [2, 8, 14, 22]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 438,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1604300019/size=large/bgcol=ffffff/linkcol=0687f5/license_id=1208/tracklist=false/transparent=true/',
+                    href_string: 'https://evemaret.bandcamp.com/album/stars-aligned',
+                    a_string: 'Stars Aligned by Eve Maret',
+                    rule: {
+                        "monday": [2, 8, 14, 22],
+                        "tuesday": [6, 12, 18, 26], 
+                        "wednesday": [5, 11, 16, 25], 
+                        "thursday": [4, 10, 16, 25], 
+                        "saturday": [2, 9, 15, 23]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -1726,6 +1726,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#c49341',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 124,
+                    user_id: 1,
+                    theme: 'Water',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april_tiles/jonatan-lewczuk-CSsUkXtQ_PM-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#221c19',
+                    color_medium: '#ad8b7b',
+                    color_light: '#da9a7c',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

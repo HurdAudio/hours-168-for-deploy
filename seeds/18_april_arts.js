@@ -14404,6 +14404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 721,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/twins_retro.jpg',
+                    title: 'Minnesota Twins Retro Logo',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 18, 24, 30],
+                        "tuesday": [13, 16, 29, 30],
+                        "wednesday": [12, 16, 1, 29], 
+                        "thursday": [9, 15, 21, 27], 
+                        "friday": [10, 15, 21, 27], 
+                        "saturday": [9, 14, 20, 26],
+                        "sunday": [28, 20, 25, 1] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 722,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/minnesota-bomba-squad-shirt-minnesota-twins-shirt-tank-top-250x250.jpg',
+                    title: 'Minnesota Bomba Squad Shirt',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [28, 20, 25, 1],
+                        "tuesday": [28, 18, 24, 30],
+                        "wednesday": [13, 16, 29, 30],
+                        "thursday": [12, 16, 1, 29], 
+                        "friday": [9, 15, 21, 27], 
+                        "saturday": [10, 15, 21, 27],
+                        "sunday": [9, 14, 20, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 723,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/315f53f9993943b13a6d52281a8eef15_7610c9e71fce93e3a34e2d213d7b0743.jpg',
+                    title: 'Tyler Clippard Pop Art',
+                    artist: 'Allan Brakus',
+                    year: '?',
+                    rule: {
+                        "monday": [9, 14, 20, 26],
+                        "tuesday": [28, 20, 25, 1], 
+                        "wednesday": [28, 18, 24, 30],
+                        "thursday": [13, 16, 29, 30],
+                        "friday": [12, 16, 1, 29], 
+                        "saturday": [9, 15, 21, 27], 
+                        "sunday": [10, 15, 21, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 724,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/dadsGarageTwins.jpeg',
+                    title: 'Dad\'s Garage Twins Sign',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [10, 15, 21, 27],
+                        "tuesday": [9, 14, 20, 26], 
+                        "wednesday": [28, 20, 25, 1], 
+                        "thursday": [28, 18, 24, 30],
+                        "friday": [13, 16, 29, 30],
+                        "saturday": [12, 16, 1, 29], 
+                        "sunday": [9, 15, 21, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 725,
+                    user_id: 1,
+                    theme: 'Baseball',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/april/target-field-minnesota-twins-christopher-arndt.jpg',
+                    title: 'Target Field - Minnesota Twins',
+                    artist: 'Christopher Arndt',
+                    year: '2019',
+                    rule: {
+                        "monday": [9, 15, 21, 27],
+                        "tuesday": [10, 15, 21, 27],
+                        "wednesday": [9, 14, 20, 26], 
+                        "thursday": [28, 20, 25, 1], 
+                        "friday": [28, 18, 24, 30],
+                        "saturday": [13, 16, 29, 30],
+                        "sunday": [12, 16, 1, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

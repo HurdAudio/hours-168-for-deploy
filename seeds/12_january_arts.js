@@ -15004,6 +15004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 751,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/unknown-title-d-d-d-d-.jpg',
+                    title: 'unknown title',
+                    artist: 'Yaacov Agam',
+                    year: '?',
+                    rule: {
+                        "monday": [16, 18, 10, 30],
+                        "tuesday": [16, 18, 10, 30],
+                        "wednesday": [21, 19, 11, 14],
+                        "thursday": [21, 22, 13, 17],
+                        "friday": [24, 26, 27, 29],
+                        "saturday": [26, 28, 1, 4],  
+                        "sunday": [28, 30, 31, 1]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 752,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/downwards-1929.jpg',
+                    title: 'Downwards',
+                    artist: 'Wassily Kandinsky',
+                    year: '1929',
+                    rule: {
+                        "monday": [28, 30, 31, 1],
+                        "tuesday": [16, 18, 10, 30],
+                        "wednesday": [16, 18, 10, 30],
+                        "thursday": [21, 19, 11, 14],
+                        "friday": [21, 22, 13, 17],
+                        "saturday": [24, 26, 27, 29],
+                        "sunday": [26, 28, 1, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 753,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/highway-and-byways-1929(1).jpg',
+                    title: 'Highway and byways',
+                    artist: 'Paul Klee',
+                    year: '1929',
+                    rule: {
+                        "monday": [26, 28, 1, 4],
+                        "tuesday": [28, 30, 31, 1], 
+                        "wednesday": [16, 18, 10, 30],
+                        "thursday": [16, 18, 10, 30],
+                        "friday": [21, 19, 11, 14],
+                        "saturday": [21, 22, 13, 17],
+                        "sunday": [24, 26, 27, 29] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 754,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/the-place-of-the-twins-1929(1).jpg',
+                    title: 'The place of the twins',
+                    artist: 'Paul Klee',
+                    year: '1929',
+                    rule: {
+                        "monday": [24, 26, 27, 29],
+                        "tuesday": [26, 28, 1, 4],  
+                        "wednesday": [28, 30, 31, 1], 
+                        "thursday": [16, 18, 10, 30],
+                        "friday": [16, 18, 10, 30],
+                        "saturday": [21, 19, 11, 14],
+                        "sunday": [21, 22, 13, 17] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 755,
+                    user_id: 1,
+                    theme: 'Abstract Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/january/composition-1929.jpg',
+                    title: 'Composition',
+                    artist: 'Pavel Filonov',
+                    year: '1929',
+                    rule: {
+                        "monday": [21, 22, 13, 17],
+                        "tuesday": [24, 26, 27, 29],
+                        "wednesday": [26, 28, 1, 4],  
+                        "thursday": [28, 30, 31, 1], 
+                        "friday": [16, 18, 10, 30],
+                        "saturday": [16, 18, 10, 30],
+                        "sunday": [21, 19, 11, 14] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

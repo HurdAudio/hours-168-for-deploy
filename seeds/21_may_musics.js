@@ -7618,6 +7618,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 424,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2557229060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://opaltapes.com/album/1985',
+                    a_string: '1985 by Francisco López',
+                    rule: {
+                        "monday": [30, 5, 12, 25],
+                        "tuesday": [29, 4, 11, 24], 
+                        "wednesday": [28, 3, 10, 23], 
+                        "thursday": [1, 7, 14, 27],  
+                        "saturday": [31, 6, 13, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 425,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=359725877/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://crashsymbols.bandcamp.com/album/cusp',
+                    a_string: 'Cusp by Man Rei',
+                    rule: {
+                        "monday": [31, 6, 13, 26],
+                        "tuesday": [30, 5, 12, 25], 
+                        "wednesday": [29, 4, 11, 24], 
+                        "thursday": [28, 3, 10, 23], 
+                        "saturday": [1, 7, 14, 27]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 426,
+                    user_id: 1,
+                    theme: 'Avant Garde/New Music',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=18132896/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://karlrecords.bandcamp.com/album/land-of-waves',
+                    a_string: 'Land Of Waves by BÉRANGÈRE MAXIMIN',
+                    rule: {
+                        "monday": [1, 7, 14, 27],
+                        "tuesday": [31, 6, 13, 26], 
+                        "wednesday": [30, 5, 12, 25], 
+                        "thursday": [29, 4, 11, 24], 
+                        "saturday": [28, 3, 10, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

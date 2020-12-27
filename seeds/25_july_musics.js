@@ -7402,6 +7402,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 412,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1792358509/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://luketitus.bandcamp.com/album/plasma',
+                    a_string: 'Plasma by Luke Titus',
+                    rule: {
+                        "monday": [27, 28, 2, 11],
+                        "tuesday": [27, 28, 4, 10], 
+                        "wednesday": [26, 27, 3, 9],  
+                        "thursday": [25, 27, 31, 8], 
+                        "saturday": [29, 31, 4, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 413,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=625179075/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://hachikumusic.bandcamp.com/album/ill-probably-be-asleep',
+                    a_string: 'I&#39;ll Probably Be Asleep by Hachiku',
+                    rule: {
+                        "monday": [30, 1, 5, 13],
+                        "tuesday": [28, 29, 3, 12], 
+                        "wednesday": [28, 29, 5, 11],  
+                        "thursday": [27, 28, 4, 10], 
+                        "saturday": [26, 28, 1, 9]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 414,
+                    user_id: 1,
+                    theme: 'Commercially Viable Genres',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=24543764/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://cabaretvoltaire.bandcamp.com/album/shadow-of-fear',
+                    a_string: 'Shadow of Fear by Cabaret Voltaire',
+                    rule: {
+                        "monday": [26, 28, 1, 9],
+                        "tuesday": [30, 1, 5, 13],  
+                        "wednesday": [28, 29, 3, 12], 
+                        "thursday": [28, 29, 5, 11], 
+                        "saturday": [27, 28, 4, 10]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

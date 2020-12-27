@@ -7434,7 +7434,7 @@ exports.seed = function (knex, Promise) {
                         "tuesday": [28, 1, 7, 18], 
                         "wednesday": [28, 1, 7, 17],  
                         "thursday": [26, 4, 6, 21], 
-                        "saturday": [30, 4, 30, 21]   
+                        "saturday": [30, 4, 1, 21]   
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
@@ -7448,7 +7448,7 @@ exports.seed = function (knex, Promise) {
                     href_string: 'https://lillernetapes.bandcamp.com/album/lillerne-122-fundraiser-compilation',
                     a_string: 'Lillerne #122 Fundraiser Compilation by Lillerne Tapes',
                     rule: {
-                        "monday": [30, 4, 30, 21],
+                        "monday": [30, 4, 1, 21],
                         "tuesday": [29, 2, 7, 19],  
                         "wednesday": [28, 1, 7, 18],  
                         "thursday": [28, 1, 7, 17],  
@@ -7467,7 +7467,7 @@ exports.seed = function (knex, Promise) {
                     a_string: 'A Soul Ascends by Steve Roach',
                     rule: {
                         "monday": [26, 4, 6, 21],
-                        "tuesday": [30, 4, 30, 21], 
+                        "tuesday": [30, 4, 1, 21], 
                         "wednesday": [29, 2, 7, 19],  
                         "thursday": [28, 1, 7, 18],  
                         "saturday": [28, 1, 7, 17]   
@@ -7486,7 +7486,7 @@ exports.seed = function (knex, Promise) {
                     rule: {
                         "monday": [28, 1, 7, 17],
                         "tuesday": [26, 4, 6, 21],  
-                        "wednesday": [30, 4, 30, 21], 
+                        "wednesday": [30, 4, 1, 21], 
                         "thursday": [29, 2, 7, 19],  
                         "saturday": [28, 1, 7, 18]   
                     },
@@ -7505,8 +7505,62 @@ exports.seed = function (knex, Promise) {
                         "monday": [28, 1, 7, 18],
                         "tuesday": [28, 1, 7, 17],  
                         "wednesday": [26, 4, 6, 21],  
-                        "thursday": [30, 4, 30, 21], 
+                        "thursday": [30, 4, 1, 21], 
                         "saturday": [29, 2, 7, 19]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 418,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=391393880/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://bingruth.bandcamp.com/album/species',
+                    a_string: 'Species by Bing &amp; Ruth',
+                    rule: {
+                        "monday": [29, 2, 7, 19],
+                        "tuesday": [28, 1, 7, 18],  
+                        "wednesday": [28, 1, 7, 17],  
+                        "thursday": [26, 4, 6, 21],  
+                        "saturday": [30, 4, 1, 21]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 419,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2391602855/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://touchtheplants.bandcamp.com/album/breathing-instruments',
+                    a_string: 'Breathing Instruments by touchtheplants',
+                    rule: {
+                        "monday": [30, 4, 1, 21],
+                        "tuesday": [29, 2, 7, 19],  
+                        "wednesday": [28, 1, 7, 18],  
+                        "thursday": [28, 1, 7, 17],  
+                        "saturday": [26, 4, 6, 21]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 420,
+                    user_id: 1,
+                    theme: 'Drone',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=378499952/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://pitp.bandcamp.com/album/invincible-summer',
+                    a_string: 'Invincible Summer by Jörgen Kjellgren',
+                    rule: {
+                        "monday": [27, 5, 7, 22],
+                        "tuesday": [1, 5, 2, 22],  
+                        "wednesday": [30, 3, 8, 20],  
+                        "thursday": [29, 2, 8, 19],  
+                        "saturday": [29, 2, 8, 18]   
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

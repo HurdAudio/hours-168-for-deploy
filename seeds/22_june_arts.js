@@ -14004,6 +14004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 701,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/14091749076_235dbd0195_z-1.jpg',
+                    title: 'Hydrangea',
+                    artist: 'Oleg Oprisco',
+                    year: '?',
+                    rule: {
+                        "monday": [7, 18, 28, 26],
+                        "tuesday": [7, 17, 27, 4],  
+                        "wednesday": [16, 26, 5, 4],  
+                        "thursday": [5, 15, 26, 3],  
+                        "friday": [4, 14, 24, 2],  
+                        "saturday": [10, 20, 30, 7], 
+                        "sunday": [9, 19, 30, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 702,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/25940055794_b408ae0339_n.jpg',
+                    title: '***',
+                    artist: 'Oleg Oprisco',
+                    year: '?',
+                    rule: {
+                        "monday": [9, 19, 30, 7],
+                        "tuesday": [7, 18, 28, 26], 
+                        "wednesday": [7, 17, 27, 4],  
+                        "thursday": [16, 26, 5, 4],  
+                        "friday": [5, 15, 26, 3],  
+                        "saturday": [4, 14, 24, 2],  
+                        "sunday": [10, 20, 30, 7]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 703,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/25765912104_50dee9d826_n.jpg',
+                    title: '***',
+                    artist: 'Oleg Oprisco',
+                    year: '?',
+                    rule: {
+                        "monday": [10, 20, 30, 7],
+                        "tuesday": [9, 19, 30, 7],  
+                        "wednesday": [7, 18, 28, 26], 
+                        "thursday": [7, 17, 27, 4],  
+                        "friday": [16, 26, 5, 4],  
+                        "saturday": [5, 15, 26, 3],  
+                        "sunday": [4, 14, 24, 2]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 704,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/24679241602_ebc959c687_n.jpg',
+                    title: '***',
+                    artist: 'Oleg Oprisco',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 14, 24, 2],
+                        "tuesday": [10, 20, 30, 7], 
+                        "wednesday": [9, 19, 30, 7],  
+                        "thursday": [7, 18, 28, 26], 
+                        "friday": [7, 17, 27, 4],  
+                        "saturday": [16, 26, 5, 4],  
+                        "sunday": [5, 15, 26, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 705,
+                    user_id: 1,
+                    theme: 'Photography',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/june/9569405371_35fb1bbceb_n.jpg',
+                    title: '***',
+                    artist: 'Oleg Oprisco',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 15, 26, 3],
+                        "tuesday": [4, 14, 24, 2],  
+                        "wednesday": [10, 20, 30, 7], 
+                        "thursday": [9, 19, 30, 7],  
+                        "friday": [7, 18, 28, 26], 
+                        "saturday": [7, 17, 27, 4],  
+                        "sunday": [16, 26, 5, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

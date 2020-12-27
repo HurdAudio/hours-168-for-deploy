@@ -1656,6 +1656,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#d2d6d9',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 119,
+                    user_id: 1,
+                    theme: 'Leather',
+                    type: 'friday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september_tiles/lazlo-panaflex-HSClqx534aI-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#080808',
+                    color_medium: '#8c5c21',
+                    color_light: '#aaa189',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

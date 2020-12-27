@@ -1642,6 +1642,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#b79276',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 118,
+                    user_id: 1,
+                    theme: 'Autumnal',
+                    type: 'week',
+                    src_string: 'https://hours168-hurdaudio.s3.amazonaws.com/img/october_tiles/zengxiao-lin-r-G2y8serCQ-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#0d0c0b',
+                    color_medium: '#7c4c36',
+                    color_light: '#887870',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

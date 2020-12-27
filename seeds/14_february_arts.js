@@ -14804,6 +14804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 741,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/4669-620.jpeg',
+                    title: 'Sculpture',
+                    artist: 'Joe Minter',
+                    year: '1995 - 2012',
+                    rule: {
+                        "monday": [25, 4, 12, 20],
+                        "tuesday": [27, 8, 14, 20], 
+                        "wednesday": [29, 8, 16, 26], 
+                        "thursday": [29, 10, 6, 25], 
+                        "friday": [19, 27, 6, 14], 
+                        "saturday": [20, 29, 8, 16], 
+                        "sunday": [26, 2, 8, 18]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 742,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/Dean-Mitchell-paintings-_Trailer-Park-Scatter_-watercolor-22-x30.jpg',
+                    title: 'Trailer Park Scatter',
+                    artist: 'Dean Mitchell',
+                    year: '?',
+                    rule: {
+                        "monday": [27, 3, 9, 19],
+                        "tuesday": [26, 5, 13, 21], 
+                        "wednesday": [28, 9, 15, 21], 
+                        "thursday": [1, 9, 17, 27], 
+                        "friday": [1, 11, 7, 26], 
+                        "saturday": [20, 28, 7, 15], 
+                        "sunday": [21, 1, 9, 17]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 743,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/out-of-shadows2.jpg',
+                    title: 'The Hunted Slave in the Dismal Swamp',
+                    artist: 'Scipio Moorhead',
+                    year: '1865',
+                    rule: {
+                        "monday": [21, 1, 9, 17],
+                        "tuesday": [27, 3, 9, 19],  
+                        "wednesday": [26, 5, 13, 21], 
+                        "thursday": [28, 9, 15, 21], 
+                        "friday": [1, 9, 17, 27],  
+                        "saturday": [1, 11, 7, 26],  
+                        "sunday": [20, 28, 7, 15]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 744,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/02MOTLEYJP7-jumbo.jpg',
+                    title: 'Black Belt',
+                    artist: 'Archibald Motley',
+                    year: '1934',
+                    rule: {
+                        "monday": [20, 28, 7, 15],
+                        "tuesday": [21, 1, 9, 17],  
+                        "wednesday": [27, 3, 9, 19],  
+                        "thursday": [26, 5, 13, 21], 
+                        "friday": [28, 9, 15, 21], 
+                        "saturday": [1, 9, 17, 27],  
+                        "sunday": [1, 11, 7, 26]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 745,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/february/wangechimutu__.jpg',
+                    title: 'You are my sunshine',
+                    artist: 'Wangechi Mutu',
+                    year: '2015',
+                    rule: {
+                        "monday": [1, 11, 7, 26],
+                        "tuesday": [20, 28, 7, 15], 
+                        "wednesday": [21, 1, 9, 17],  
+                        "thursday": [27, 3, 9, 19],  
+                        "friday": [26, 5, 13, 21], 
+                        "saturday": [28, 9, 15, 21], 
+                        "sunday": [1, 9, 17, 27]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

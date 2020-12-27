@@ -8050,6 +8050,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 448,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=410013136/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://davidlangmusic.bandcamp.com/album/the-loser',
+                    a_string: 'the loser by David Lang',
+                    rule: {
+                        "monday": [11, 17, 18, 20],
+                        "tuesday": [10, 17, 18, 19], 
+                        "wednesday": [9, 15, 16, 17], 
+                        "thursday": [8, 15, 16, 17],
+                        "saturday": [12, 19, 20, 21] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 449,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2676177818/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://mearaoreilly.bandcamp.com/album/hockets-for-two-voices-ep',
+                    a_string: 'Hockets for Two Voices (EP) by Meara O&#39;Reilly',
+                    rule: {
+                        "monday": [12, 19, 20, 21],
+                        "tuesday": [11, 17, 18, 20],
+                        "wednesday": [10, 17, 18, 19],
+                        "thursday": [9, 15, 16, 17], 
+                        "saturday": [8, 15, 16, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 450,
+                    user_id: 1,
+                    theme: 'American Maverick Tradition',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=981353888/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://davidlangmusic.bandcamp.com/album/anatomy-theater',
+                    a_string: 'anatomy theater by David Lang &amp; Mark Dion',
+                    rule: {
+                        "monday": [8, 15, 16, 17],
+                        "tuesday": [12, 19, 20, 21],
+                        "wednesday": [11, 17, 18, 20],
+                        "thursday": [10, 17, 18, 19],
+                        "saturday": [9, 15, 16, 17]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

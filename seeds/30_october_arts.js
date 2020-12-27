@@ -13204,6 +13204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 661,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_time_dictate.jpg',
+                    title: 'Disarmament - is a dictate of the time!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [11, 12, 23, 27],
+                        "tuesday": [7, 18, 29, 2],  
+                        "wednesday": [6, 17, 28, 1],  
+                        "thursday": [5, 16, 27, 31], 
+                        "friday": [4, 15, 27, 30], 
+                        "saturday": [3, 14, 25, 29], 
+                        "sunday": [2, 13, 23, 28]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 662,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_rule.jpg',
+                    title: 'Clean up the planet',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [2, 13, 23, 28],
+                        "tuesday": [11, 12, 23, 27],
+                        "wednesday": [7, 18, 29, 2],  
+                        "thursday": [6, 17, 28, 1],  
+                        "friday": [5, 16, 27, 31], 
+                        "saturday": [4, 15, 27, 30], 
+                        "sunday": [3, 14, 25, 29]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 663,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_protect_world.jpg',
+                    title: 'Protect the world (peace)!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 14, 25, 29],
+                        "tuesday": [2, 13, 23, 28], 
+                        "wednesday": [11, 12, 23, 27],
+                        "thursday": [7, 18, 29, 2],  
+                        "friday": [6, 17, 28, 1],  
+                        "saturday": [5, 16, 27, 31], 
+                        "sunday": [4, 15, 27, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 664,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_peace_to_asia.jpg',
+                    title: 'To Asia - peace and safety!',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [4, 15, 27, 30],
+                        "tuesday": [3, 14, 25, 29], 
+                        "wednesday": [2, 13, 23, 28], 
+                        "thursday": [11, 12, 23, 27],
+                        "friday": [7, 18, 29, 2],  
+                        "saturday": [6, 17, 28, 1],  
+                        "sunday": [5, 16, 27, 31]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 665,
+                    user_id: 1,
+                    theme: 'Russian Revolution',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/october/popup_Br_239.jpg',
+                    title: 'It is better today to be proactive, than to be radioactive tomorrow.',
+                    artist: '?',
+                    year: '?',
+                    rule: {
+                        "monday": [6, 17, 28, 1],
+                        "tuesday": [5, 16, 28, 31], 
+                        "wednesday": [4, 15, 26, 30], 
+                        "thursday": [3, 14, 24, 29],
+                        "friday": [12, 13, 24, 28],  
+                        "saturday": [8, 19, 30, 3],  
+                        "sunday": [7, 18, 29, 2]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

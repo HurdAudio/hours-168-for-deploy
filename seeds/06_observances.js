@@ -12130,6 +12130,39 @@ exports.seed = function (knex, Promise) {
                     override_content: null,
                     created_at: new Date('2017-07-20  21:00:00 GMT'),
                     updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 780,
+                    user_id: 1,
+                    name: 'Marian McPartland (piano) born 1918',
+                    color: '#101110',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/musicians/mcpartland.jpeg',
+                    day_of: new Date('1918-03-20  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: true,
+                    override_content: {
+                        "sources": ['bandcamp', 'bandcamp'],
+                        "src_strings": ['https://bandcamp.com/EmbeddedPlayer/album=611341804/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/', 'https://bandcamp.com/EmbeddedPlayer/album=40326925/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'],
+                        "href_strings": ['https://marianmcpartland.bandcamp.com/album/bossa-nova-soul', 'https://marianmcpartland.bandcamp.com/album/plays-music-of-leonard-bernstein'],
+                        "a_strings": ['Bossa Nova + Soul by Marian McPartland', 'Plays Music Of Leonard Bernstein by Marian McPartland']
+                    },
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
+        },
+                {
+                    id: 781,
+                    user_id: 1,
+                    name: 'Harry Wu (human rights activist) born 1937',
+                    color: '#d0af9a',
+                    picture: 'https://hours168-hurdaudio.s3.amazonaws.com/img/dissent/Harry_Wu.jpg',
+                    day_of: new Date('1937-08-02  21:00:00 GMT'),
+                    is_annual: true,
+                    art_override: false,
+                    music_override: false,
+                    override_content: null,
+                    created_at: new Date('2017-07-20  21:00:00 GMT'),
+                    updated_at: new Date('2017-07-20  21:00:00 GMT')
         }
       ]);
         }).then(() => {

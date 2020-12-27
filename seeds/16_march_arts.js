@@ -14604,6 +14604,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 731,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/portrait-of-duncan.jpg',
+                    title: 'Portrait of Duncan',
+                    artist: 'Marjorie Acker Phillips',
+                    year: '?',
+                    rule: {
+                        "monday": [12, 21, 31, 8],
+                        "tuesday": [11, 21, 29, 8], 
+                        "wednesday": [8, 20, 28, 7],  
+                        "thursday": [9, 19, 27, 6],  
+                        "friday": [8, 19, 26, 5],  
+                        "saturday": [7, 17, 25, 4],  
+                        "sunday": [6, 16, 25, 3]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 732,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/393px-modibyjeanne.jpg',
+                    title: 'Portrait of Amadeo Modigliani (possibly by Jeanne Hébuterne)',
+                    artist: 'Jeanne Hébuterne',
+                    year: '1919',
+                    rule: {
+                        "monday": [6, 16, 25, 3],
+                        "tuesday": [12, 21, 31, 8], 
+                        "wednesday": [11, 21, 29, 8], 
+                        "thursday": [8, 20, 28, 7],  
+                        "friday": [9, 19, 27, 6],  
+                        "saturday": [8, 19, 26, 5],  
+                        "sunday": [7, 17, 25, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 733,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/a-scene-in-a-village-street-with-millhands-conversing-1919.jpg',
+                    title: 'A Scene in a Village Street with Millhands Conversing',
+                    artist: 'Winifred Knights',
+                    year: '1919',
+                    rule: {
+                        "monday": [7, 17, 25, 4],
+                        "tuesday": [6, 16, 25, 3],  
+                        "wednesday": [12, 21, 31, 8], 
+                        "thursday": [11, 21, 29, 8], 
+                        "friday": [8, 20, 28, 7],  
+                        "saturday": [9, 19, 27, 6],  
+                        "sunday": [8, 19, 26, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 734,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/untitled_marj_kkd.jpg',
+                    title: 'Untitled',
+                    artist: 'Carmen Osés Hidalgo',
+                    year: '?',
+                    rule: {
+                        "monday": [8, 19, 26, 5],
+                        "tuesday": [7, 17, 25, 4],  
+                        "wednesday": [6, 16, 25, 3],  
+                        "thursday": [12, 21, 31, 8], 
+                        "friday": [11, 21, 29, 8], 
+                        "saturday": [8, 20, 28, 7],  
+                        "sunday": [9, 19, 27, 6]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 735,
+                    user_id: 1,
+                    theme: 'Women\'s History Month',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march/voyage-no-ii.jpg',
+                    title: 'Voyage No. II',
+                    artist: 'Louise Nevelson',
+                    year: '?',
+                    rule: {
+                        "monday": [10, 20, 28, 7],
+                        "tuesday": [9, 20, 27, 6],  
+                        "wednesday": [8, 18, 26, 5],  
+                        "thursday": [7, 17, 26, 4], 
+                        "friday": [13, 22, 1, 9], 
+                        "saturday": [12, 22, 30, 9],  
+                        "sunday": [9, 21, 29, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -13804,6 +13804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 691,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/di-mache-1-1950.jpg',
+                    title: 'Di Mache 1',
+                    artist: 'Auguste Herbin',
+                    year: '1950',
+                    rule: {
+                        "monday": [5, 16, 27, 28],
+                        "tuesday": [4, 15, 25, 27], 
+                        "wednesday": [1, 12, 3, 4],   
+                        "thursday": [2, 13, 4, 5],   
+                        "friday": [7, 16, 29, 9],  
+                        "saturday": [7, 15, 29, 9],  
+                        "sunday": [5, 16, 28, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 692,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/portrait-de-miss-bessie-baver.jpg',
+                    title: 'Portrait de Miss Bessie Baver',
+                    artist: 'Albert Gleizes',
+                    year: '?',
+                    rule: {
+                        "monday": [5, 16, 28, 8],
+                        "tuesday": [5, 16, 27, 28], 
+                        "wednesday": [4, 15, 25, 27], 
+                        "thursday": [1, 12, 3, 4],   
+                        "friday": [2, 13, 4, 5],   
+                        "saturday": [7, 16, 29, 9],  
+                        "sunday": [7, 15, 29, 9]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 693,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/still-life-with-bottles-and-breton-bonnets-1924.jpg',
+                    title: 'Still Life with Bottles and Breton Bonnets',
+                    artist: 'Pierre Roy',
+                    year: '1924',
+                    rule: {
+                        "monday": [8, 16, 30, 10],
+                        "tuesday": [6, 17, 29, 9], 
+                        "wednesday": [6, 17, 28, 29], 
+                        "thursday": [5, 16, 26, 28],   
+                        "friday": [2, 13, 4, 5],   
+                        "saturday": [3, 14, 5, 6],  
+                        "sunday": [8, 17, 30, 10]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 694,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/paysage-le-bec-de-l-aigle-la-ciotat-1907.jpg',
+                    title: 'Paysage (Le Bec de l’Aigle, La Ciotat)',
+                    artist: 'Othon Friesz',
+                    year: '1907',
+                    rule: {
+                        "monday": [8, 17, 30, 10],
+                        "tuesday": [8, 16, 30, 10], 
+                        "wednesday": [6, 17, 29, 9],  
+                        "thursday": [6, 17, 28, 29], 
+                        "friday": [5, 16, 26, 28], 
+                        "saturday": [2, 13, 4, 5],   
+                        "sunday": [3, 14, 5, 6]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 695,
+                    user_id: 1,
+                    theme: 'French',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/july/anemones.jpg',
+                    title: 'Anemones',
+                    artist: 'Raoul Dufy',
+                    year: '?',
+                    rule: {
+                        "monday": [3, 14, 5, 6],
+                        "tuesday": [8, 17, 30, 10], 
+                        "wednesday": [8, 16, 30, 10], 
+                        "thursday": [6, 17, 29, 9],  
+                        "friday": [6, 17, 28, 29], 
+                        "saturday": [5, 16, 26, 28], 
+                        "sunday": [2, 13, 4, 5]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

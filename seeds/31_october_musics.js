@@ -7078,6 +7078,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 394,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3744282709/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://drunkensailorrecords.bandcamp.com/album/music-for-leisure-lp',
+                    a_string: 'Music For Leisure LP by Public Eye',
+                    rule: {
+                        "monday": [30, 9, 19, 22],
+                        "tuesday": [3, 13, 23, 26], 
+                        "wednesday": [2, 12, 22, 25], 
+                        "thursday": [1, 12, 21, 24], 
+                        "saturday": [31, 10, 21, 23] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 395,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=784923746/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://girlfridayband.bandcamp.com/album/androgynous-mary',
+                    a_string: 'Androgynous Mary by Girl Friday',
+                    rule: {
+                        "monday": [31, 10, 21, 23],
+                        "tuesday": [30, 9, 19, 22], 
+                        "wednesday": [3, 13, 23, 26], 
+                        "thursday": [2, 12, 22, 25], 
+                        "saturday": [1, 12, 21, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 396,
+                    user_id: 1,
+                    theme: 'Punk, Metal & Nurse with Wound',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3153160134/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://liquids1.bandcamp.com/album/100-shit',
+                    a_string: '100% Shit by Liquids',
+                    rule: {
+                        "monday": [1, 12, 21, 24],
+                        "tuesday": [31, 10, 21, 23],
+                        "wednesday": [30, 9, 19, 22], 
+                        "thursday": [3, 13, 23, 26], 
+                        "saturday": [2, 12, 22, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

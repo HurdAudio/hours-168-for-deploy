@@ -6952,6 +6952,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 388,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3114653478/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://azutiwaline.bandcamp.com/album/magnetic-service-e-p',
+                    a_string: 'Magnetic Service E.P. by Azu Tiwaline',
+                    rule: {
+                        "monday": [25, 6, 17, 21],
+                        "tuesday": [24, 5, 16, 20], 
+                        "wednesday": [23, 4, 15, 26], 
+                        "thursday": [22, 3, 14, 26], 
+                        "saturday": [26, 7, 18, 22]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 389,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3659576808/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://azutiwaline.bandcamp.com/album/draw-me-a-silence-part-ii',
+                    a_string: 'Draw Me A Silence Part. II by Azu Tiwaline',
+                    rule: {
+                        "monday": [26, 7, 18, 22],
+                        "tuesday": [25, 6, 17, 21], 
+                        "wednesday": [24, 5, 16, 20], 
+                        "thursday": [23, 4, 15, 26], 
+                        "saturday": [22, 3, 14, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 390,
+                    user_id: 1,
+                    theme: 'Ethiopian & Pan-African',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1857639062/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://fougeremusique.bandcamp.com/album/--2',
+                    a_string: 'رمال قلب الغضب by Tzii',
+                    rule: {
+                        "monday": [22, 3, 14, 26],
+                        "tuesday": [26, 7, 18, 22], 
+                        "wednesday": [25, 6, 17, 21], 
+                        "thursday": [24, 5, 16, 20], 
+                        "saturday": [23, 4, 15, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

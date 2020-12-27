@@ -13004,6 +13004,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 651,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-19669833.jpg',
+                    title: 'Untitled',
+                    artist: 'Michel Parmentier',
+                    year: '1966',
+                    rule: {
+                        "monday": [8, 13, 19, 24],
+                        "tuesday": [7, 11, 18, 23], 
+                        "wednesday": [7, 12, 18, 25],
+                        "thursday": [13, 18, 24, 29],
+                        "friday": [12, 14, 22, 18],
+                        "saturday": [11, 15, 22, 25], 
+                        "sunday": [10, 13, 20, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 652,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/lyla-1966.jpg',
+                    title: 'Lyla',
+                    artist: 'Marc Vaux',
+                    year: '1966',
+                    rule: {
+                        "monday": [10, 13, 20, 25],
+                        "tuesday": [8, 13, 19, 24], 
+                        "wednesday": [7, 11, 18, 23], 
+                        "thursday": [7, 12, 18, 25], 
+                        "friday": [13, 18, 24, 29],
+                        "saturday": [12, 14, 22, 18],
+                        "sunday": [11, 15, 22, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 653,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/ut-op-1966.jpg',
+                    title: 'Ut-op',
+                    artist: 'Giulio Paolini',
+                    year: '1966',
+                    rule: {
+                        "monday": [11, 15, 22, 25],
+                        "tuesday": [10, 13, 20, 25],
+                        "wednesday": [8, 13, 19, 24], 
+                        "thursday": [7, 11, 18, 23], 
+                        "friday": [7, 12, 18, 25], 
+                        "saturday": [13, 18, 24, 29],
+                        "sunday": [12, 14, 22, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 654,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/untitled-1966-6.jpg',
+                    title: 'Ubtitled',
+                    artist: 'Gego',
+                    year: '1966',
+                    rule: {
+                        "monday": [12, 14, 22, 18],
+                        "tuesday": [11, 15, 22, 25],
+                        "wednesday": [10, 13, 20, 25],
+                        "thursday": [8, 13, 19, 24], 
+                        "friday": [7, 11, 18, 23], 
+                        "saturday": [7, 12, 18, 25], 
+                        "sunday": [13, 18, 24, 29] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 655,
+                    user_id: 1,
+                    theme: 'Minimalism',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/november/1-2-manilla-curved-area-1967.jpg',
+                    title: '1/2 Manilla Curved Area',
+                    artist: 'Robert Mangold',
+                    year: '1967',
+                    rule: {
+                        "monday": [13, 18, 24, 29],
+                        "tuesday": [12, 14, 22, 18],
+                        "wednesday": [11, 15, 22, 25],
+                        "thursday": [10, 13, 20, 25],
+                        "friday": [8, 13, 19, 24], 
+                        "saturday": [7, 11, 18, 23], 
+                        "sunday": [7, 12, 18, 25]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

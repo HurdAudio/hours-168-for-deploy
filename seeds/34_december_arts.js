@@ -12804,6 +12804,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 641,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/38-00,RichmondBarthe.jpg',
+                    title: 'Richmond Barthe',
+                    artist: 'Robert S. Pious',
+                    year: '1938',
+                    rule: {
+                        "monday": [28, 9, 8, 24],
+                        "tuesday": [17, 9, 28, 4],  
+                        "wednesday": [2, 15, 23, 29], 
+                        "thursday": [1, 13, 22, 28], 
+                        "friday": [31, 13, 21, 27],
+                        "saturday": [30, 12, 20, 26],
+                        "sunday": [29, 11, 19, 25] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 642,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/35-06,SpcyMyst-049.jpg',
+                    title: 'Spicy Mystery',
+                    artist: 'Max Plaisted',
+                    year: '1935',
+                    rule: {
+                        "monday": [29, 11, 19, 25],
+                        "tuesday": [28, 9, 8, 24],  
+                        "wednesday": [17, 9, 28, 4],  
+                        "thursday": [2, 15, 23, 29], 
+                        "friday": [1, 13, 22, 28], 
+                        "saturday": [31, 13, 21, 27],
+                        "sunday": [30, 12, 20, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 643,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/15-01,VanityFair.jpg',
+                    title: 'Vanity Fair',
+                    artist: 'Ethel Plummer',
+                    year: '1915',
+                    rule: {
+                        "monday": [30, 12, 20, 26],
+                        "tuesday": [29, 11, 19, 25],
+                        "wednesday": [28, 9, 8, 24],  
+                        "thursday": [17, 9, 28, 4],  
+                        "friday": [2, 15, 23, 29], 
+                        "saturday": [1, 13, 22, 28], 
+                        "sunday": [31, 13, 21, 27] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 644,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/52-06,FanAdv.jpg',
+                    title: 'Fantastic Adventure',
+                    artist: 'Walter Popp',
+                    year: '1952',
+                    rule: {
+                        "monday": [1, 14, 22, 28],
+                        "tuesday": [31, 13, 21, 27],
+                        "wednesday": [30, 12, 20, 26],  
+                        "thursday": [29, 10, 9, 25],  
+                        "friday": [18, 10, 29, 5], 
+                        "saturday": [3, 16, 24, 30], 
+                        "sunday": [2, 14, 23, 29] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 645,
+                    user_id: 1,
+                    theme: 'Pulp Art',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/december/43-07,WTrails5.jpg',
+                    title: 'Western Trails',
+                    artist: 'E. W. Potter',
+                    year: '1943',
+                    rule: {
+                        "monday": [2, 14, 23, 29],
+                        "tuesday": [1, 14, 22, 28], 
+                        "wednesday": [31, 13, 21, 27],
+                        "thursday": [30, 12, 20, 26],
+                        "friday": [29, 10, 9, 25], 
+                        "saturday": [18, 10, 29, 5], 
+                        "sunday": [3, 16, 24, 30]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

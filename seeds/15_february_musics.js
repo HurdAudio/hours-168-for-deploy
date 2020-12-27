@@ -7942,6 +7942,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 442,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=967406669/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://lindasikhakhane.bandcamp.com/album/an-open-dialogue-live-in-new-york',
+                    a_string: 'An Open Dialogue (Live in New York) by Linda Sikhakhane',
+                    rule: {
+                        "monday": [25, 19, 21, 27],
+                        "tuesday": [8, 12, 14, 18], 
+                        "wednesday": [22, 14, 16, 18],
+                        "thursday": [22, 16, 18, 20],
+                        "saturday": [25, 18, 20, 26] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 443,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2968862550/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://chriscrack.bandcamp.com/album/lets-just-be-friends',
+                    a_string: 'Let&#39;s Just Be Friends by Chris Crack',
+                    rule: {
+                        "monday": [25, 18, 20, 26],
+                        "tuesday": [25, 19, 21, 27],
+                        "wednesday": [8, 12, 14, 18], 
+                        "thursday": [22, 14, 16, 18],
+                        "saturday": [22, 16, 18, 20] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 444,
+                    user_id: 1,
+                    theme: 'Black History Month',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=3912030332/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://chriscrack.bandcamp.com/album/this-will-all-make-sense-later-collectors-edition',
+                    a_string: 'This Will All Make Sense Later (Collector&#39;s Edition) by Chris Crack',
+                    rule: {
+                        "monday": [22, 16, 18, 20],
+                        "tuesday": [25, 18, 20, 26],
+                        "wednesday": [25, 19, 21, 27],
+                        "thursday": [8, 12, 14, 18], 
+                        "saturday": [22, 14, 16, 18] 
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

@@ -1712,6 +1712,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#bcb090',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 123,
+                    user_id: 1,
+                    theme: 'Greenery',
+                    type: 'week',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may_tiles/rowan-heuvel-trELt4tpj7w-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#263025',
+                    color_medium: '#5f8b1d',
+                    color_light: '#cfd7c4',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

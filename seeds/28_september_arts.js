@@ -13404,6 +13404,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 671,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/a-group-of-polish-pilots-1960.jpg',
+                    title: 'A Group of Polish Pilots',
+                    artist: 'Patrick Procktor',
+                    year: '1960',
+                    rule: {
+                        "monday": [24, 10, 28, 7],
+                        "tuesday": [23, 30, 27, 5], 
+                        "wednesday": [1, 8, 26, 3],   
+                        "thursday": [8, 14, 2, 10],  
+                        "friday": [4, 10, 1, 9],   
+                        "saturday": [5, 10, 2, 28],  
+                        "sunday": [5, 11, 29, 7]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 672,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/gladioli-1960.jpg',
+                    title: 'Gladioli',
+                    artist: 'Lin Fengmian',
+                    year: '1960',
+                    rule: {
+                        "monday": [6, 12, 30, 8],
+                        "tuesday": [25, 11, 29, 8], 
+                        "wednesday": [24, 1, 28, 6],   
+                        "thursday": [2, 9, 27, 4],  
+                        "friday": [9, 15, 3, 11],   
+                        "saturday": [5, 11, 2, 10],  
+                        "sunday": [6, 11, 3, 29]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 673,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/princess-diana.jpg',
+                    title: 'Princess Diana',
+                    artist: 'Nelson Shanks',
+                    year: '?',
+                    rule: {
+                        "monday": [6, 11, 3, 29],
+                        "tuesday": [6, 12, 30, 8],  
+                        "wednesday": [25, 11, 29, 8], 
+                        "thursday": [24, 1, 28, 6],  
+                        "friday": [2, 9, 27, 4],   
+                        "saturday": [9, 15, 3, 11],  
+                        "sunday": [5, 11, 2, 10]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 674,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/almanac-1967.jpg',
+                    title: 'Almanac',
+                    artist: 'Hiroyuki Tajima',
+                    year: '1967',
+                    rule: {
+                        "monday": [5, 11, 2, 10],
+                        "tuesday": [6, 11, 3, 29],  
+                        "wednesday": [6, 12, 30, 8],  
+                        "thursday": [25, 11, 29, 8], 
+                        "friday": [24, 1, 28, 6],  
+                        "saturday": [2, 9, 27, 4],   
+                        "sunday": [9, 15, 3, 11]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 675,
+                    user_id: 1,
+                    theme: 'Modern Art after World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/september/love-letters-1950.jpg',
+                    title: 'Love letters',
+                    artist: 'Stanley Spencer',
+                    year: '1950',
+                    rule: {
+                        "monday": [9, 15, 3, 11],
+                        "tuesday": [5, 11, 2, 10],  
+                        "wednesday": [6, 11, 3, 29],  
+                        "thursday": [6, 12, 30, 8],  
+                        "friday": [25, 11, 29, 8], 
+                        "saturday": [24, 1, 28, 6],  
+                        "sunday": [2, 9, 27, 4]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

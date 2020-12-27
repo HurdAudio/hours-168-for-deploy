@@ -1740,6 +1740,20 @@ exports.seed = function (knex, Promise) {
                     color_light: '#bdc8d4',
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 125,
+                    user_id: 1,
+                    theme: 'Glass',
+                    type: 'saturday',
+                    src_string: 'https://s3.amazonaws.com/hours168-hurdaudio/img/march_tiles/yogesh-pedamkar-6KndYtldfH4-unsplash.jpg',
+                    repeat_value: 'no-repeat',
+                    size_value: 'cover',
+                    color_dark: '#18151d',
+                    color_medium: '#78907d',
+                    color_light: '#c0ceca',
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

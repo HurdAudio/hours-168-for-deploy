@@ -13597,10 +13597,110 @@ exports.seed = function (knex, Promise) {
                         "monday": [5, 10, 18, 3],
                         "tuesday": [5, 7, 17, 2],   
                         "wednesday": [4, 6, 16, 1],   
-                        "thursday":[3, 6, 15, 31],  
-                        "friday":  [2, 5, 14, 30], 
+                        "thursday": [3, 6, 15, 31],  
+                        "friday": [2, 5, 14, 30], 
                         "saturday": [8, 12, 20, 5],  
                         "sunday": [5, 10, 18, 4]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 681,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/people-and-sails-at-royan-1910.jpg',
+                    title: 'People and Sails at Royan',
+                    artist: 'John Duncan Fergusson',
+                    year: '1910',
+                    rule: {
+                        "monday": [5, 10, 18, 4],
+                        "tuesday": [5, 10, 18, 3],  
+                        "wednesday": [5, 7, 17, 2],   
+                        "thursday": [4, 6, 16, 1],   
+                        "friday": [3, 6, 15, 31],  
+                        "saturday": [2, 5, 14, 30],  
+                        "sunday": [8, 12, 20, 5]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 682,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/seated-woman-with-bent-knee-1917.jpg',
+                    title: 'Seated Woman with Bent Knee',
+                    artist: 'Egon Schiele',
+                    year: '1917',
+                    rule: {
+                        "monday": [8, 12, 20, 5],
+                        "tuesday": [5, 10, 18, 4],  
+                        "wednesday": [5, 10, 18, 3],  
+                        "thursday": [5, 7, 17, 2],   
+                        "friday": [4, 6, 16, 1],   
+                        "saturday": [3, 6, 15, 31],  
+                        "sunday": [2, 5, 14, 30]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 683,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/spring-1901.jpg',
+                    title: 'Spring',
+                    artist: 'Ferdinand Hodler',
+                    year: '1901',
+                    rule: {
+                        "monday": [2, 5, 14, 30],
+                        "tuesday": [8, 12, 20, 5],  
+                        "wednesday": [5, 10, 18, 4],  
+                        "thursday": [5, 10, 18, 3],  
+                        "friday": [5, 7, 17, 2],   
+                        "saturday": [4, 6, 16, 1],   
+                        "sunday": [3, 6, 15, 31]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 684,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/yang-gui-fei-1922.jpg',
+                    title: 'Yang gui fei',
+                    artist: 'Uemura Shoen',
+                    year: '1922',
+                    rule: {
+                        "monday": [3, 6, 15, 31],
+                        "tuesday": [2, 5, 14, 30],  
+                        "wednesday": [8, 12, 20, 5],  
+                        "thursday": [5, 10, 18, 4],  
+                        "friday": [5, 10, 18, 3],  
+                        "saturday": [5, 7, 17, 2],   
+                        "sunday": [4, 6, 16, 1]    
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 685,
+                    user_id: 1,
+                    theme: 'Modern Art before World War II',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/august/parrot-caretaker-in-artis-1902.jpg',
+                    title: 'Parrot caretaker in Artis',
+                    artist: 'Max Liebermann',
+                    year: '1902',
+                    rule: {
+                        "monday": [4, 6, 16, 1],
+                        "tuesday": [3, 6, 15, 31],  
+                        "wednesday": [2, 5, 14, 30],  
+                        "thursday": [8, 12, 20, 5],  
+                        "friday": [5, 10, 18, 4],  
+                        "saturday": [5, 10, 18, 3],  
+                        "sunday": [5, 7, 17, 2]    
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')

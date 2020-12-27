@@ -7294,6 +7294,60 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 406,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=2027279378/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://destination-out.bandcamp.com/album/wichlinghauser-blues',
+                    a_string: 'Wichlinghauser Blues by HANS REICHEL',
+                    rule: {
+                        "monday": [6, 14, 27, 26],
+                        "tuesday": [5, 13, 26, 25], 
+                        "wednesday": [4, 12, 25, 24], 
+                        "thursday": [3, 11, 24, 23], 
+                        "saturday": [7, 15, 28, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 407,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=897441631/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://ivoperelman.bandcamp.com/album/shamanism',
+                    a_string: 'Shamanism by Ivo Perelman, Matthew Shipp, and Joe Morris',
+                    rule: {
+                        "monday": [7, 15, 28, 27],
+                        "tuesday": [6, 14, 27, 26], 
+                        "wednesday": [5, 13, 26, 25], 
+                        "thursday": [4, 12, 25, 24], 
+                        "saturday": [3, 11, 24, 23]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 408,
+                    user_id: 1,
+                    theme: 'Noise Music & Non-idiomatic Improvisation',
+                    source: 'bandcamp',
+                    src_string: 'https://bandcamp.com/EmbeddedPlayer/album=1437153891/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+                    href_string: 'https://missterrabates.bandcamp.com/album/broken',
+                    a_string: 'Broken by Miss Terra Bates',
+                    rule: {
+                        "monday": [3, 11, 24, 23],
+                        "tuesday": [7, 15, 28, 27], 
+                        "wednesday": [6, 14, 27, 26], 
+                        "thursday": [5, 13, 26, 25], 
+                        "saturday": [4, 12, 25, 24]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {

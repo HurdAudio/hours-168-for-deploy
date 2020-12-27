@@ -14204,6 +14204,106 @@ exports.seed = function (knex, Promise) {
                     },
                     created_at: new Date('2017-07-20T13:44:00.000Z'),
                     updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 711,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-count-n-p-ignatieff-1902.jpg',
+                    title: 'Portrait of Count N.P. Ignatieff',
+                    artist: 'Boris Kustodiev',
+                    year: '1902',
+                    rule: {
+                        "monday": [31, 10, 20, 28],
+                        "tuesday": [29, 7, 19, 28], 
+                        "wednesday": [8, 20, 30, 7],  
+                        "thursday": [8, 19, 28, 26], 
+                        "friday": [6, 16, 24, 26], 
+                        "saturday": [3, 14, 24, 13], 
+                        "sunday": [2, 13, 23, 12]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 712,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-d-f-bogoslovsky-1902.jpg',
+                    title: 'Portrait of D.F. Bogoslovsky',
+                    artist: 'Boris Kustodiev',
+                    year: '1902',
+                    rule: {
+                        "monday": [2, 13, 23, 12],
+                        "tuesday": [31, 10, 20, 28],
+                        "wednesday": [29, 7, 19, 28], 
+                        "thursday": [8, 20, 30, 7],  
+                        "friday": [8, 19, 28, 26], 
+                        "saturday": [6, 16, 24, 26], 
+                        "sunday": [3, 14, 24, 13]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 713,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-ilja-repin-1902.jpg',
+                    title: 'Portrait of Ilja Repin',
+                    artist: 'Boris Kustodiev',
+                    year: '1902',
+                    rule: {
+                        "monday": [3, 14, 24, 13],
+                        "tuesday": [2, 13, 23, 12], 
+                        "wednesday": [31, 10, 20, 28],
+                        "thursday": [29, 7, 19, 28], 
+                        "friday": [8, 20, 30, 7],  
+                        "saturday": [8, 19, 28, 26], 
+                        "sunday": [6, 16, 24, 26]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 714,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/portrait-of-ilya-repin-1902.jpg',
+                    title: 'Portrait of Ilya Repin',
+                    artist: 'Boris Kustodiev',
+                    year: '1902',
+                    rule: {
+                        "monday": [7, 17, 25, 27],
+                        "tuesday": [4, 15, 25, 14], 
+                        "wednesday": [3, 14, 24, 13],
+                        "thursday": [1, 11, 21, 29], 
+                        "friday": [30, 8, 20, 29],  
+                        "saturday": [9, 21, 31, 8], 
+                        "sunday": [9, 20, 29, 27]  
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
+        },
+                {
+                    id: 715,
+                    user_id: 1,
+                    theme: 'Socialism & Worker\'s Rights',
+                    img_path: 'https://s3.amazonaws.com/hours168-hurdaudio/img/may/self-portrait-1902.jpg',
+                    title: 'Self Portrait',
+                    artist: 'Boris Kustodiev',
+                    year: '1902',
+                    rule: {
+                        "monday": [9, 20, 29, 27],
+                        "tuesday": [7, 17, 25, 27], 
+                        "wednesday": [4, 15, 25, 14], 
+                        "thursday": [3, 14, 24, 13], 
+                        "friday": [1, 11, 21, 29], 
+                        "saturday": [30, 8, 20, 29], 
+                        "sunday": [9, 21, 31, 8]   
+                    },
+                    created_at: new Date('2017-07-20T13:44:00.000Z'),
+                    updated_at: new Date('2017-07-20T13:44:00.000Z')
         }
       ]);
         }).then(() => {
